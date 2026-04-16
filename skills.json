@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2050,
-  "generated": "2026-04-15",
+  "total": 2054,
+  "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox",
+      "name": "Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox",
+      "description": "Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 163
+      }
+    },
+    {
+      "slug": "restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall",
+      "name": "Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall",
+      "description": "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 55
+      }
+    },
+    {
+      "slug": "orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator",
+      "name": "Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator",
+      "description": "Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6270
+      }
+    },
+    {
+      "slug": "block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock",
+      "name": "Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock",
+      "description": "Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 333
+      }
+    },
     {
       "slug": "run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm",
       "name": "Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm",

@@ -131,6 +131,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | 8.9k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
+| [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](../../skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
 | [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | — |

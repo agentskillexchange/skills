@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2050 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 23:21 UTC
+> **2054 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-16 01:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -279,7 +279,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (163 skills)
+### 🔧 CI/CD Integrations (164 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -381,6 +381,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Tekton Pipeline Validator](skills/tekton-pipeline-validator/) | Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes… | Security Reviewed | 8.9k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](skills/woodpecker-ci-self-hosted-continuous-integration/) | Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs… | Security Reviewed | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps,… | Security Reviewed | 6.7k | — |
+| [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review… | Published | 6.3k | — |
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | 4.7k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI. | Published | 3.8k | — |
 | [AWS CloudWatch Alarm Builder](skills/aws-cloudwatch-alarm-builder/) | Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures… | Security Reviewed | 3.6k | — |
@@ -608,7 +609,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (146 skills)
+### 🔒 Security & Verification (149 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -711,13 +712,16 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
+| [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before… | Published | 333 | — |
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits,… | Security Reviewed | 174 | — |
+| [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting… | Published | 163 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool… | Published | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](skills/workos-authkit-nextjs-authentication-toolkit/) | WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration… | Security Reviewed | 146 | 227.2k/wk |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents, behaviors, threat intel, or read-only… | Security Reviewed | 136 | — |
 | [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and… | Security Reviewed | 123 | — |
 | [Sentry for AI](skills/sentry-for-ai/) | Observability and debugging support for AI-assisted application workflows. | Security Reviewed | 113 | — |
+| [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository… | Published | 55 | — |
 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV… | Security Reviewed | 43 | — |
 | [Infisical CLI Secrets Injection and Access Management](skills/infisical-cli-secrets-injection-and-access-management/) | Infisical CLI retrieves, injects, and manages secrets across local development, CI/CD, staging, and production… | Security Reviewed | 41 | — |
 | [Test API authorization flows with Hadrian](skills/hadrian-api-authorization-security-testing/) | Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA,… | Published | 38 | — |
