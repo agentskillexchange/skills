@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mishushakov/llm-scraper"
   github_stars: 6260
-  npm_package: "llm-scraper"
+  ase_npm_package: "llm-scraper"
   npm_weekly_downloads: 3803
 ---
 

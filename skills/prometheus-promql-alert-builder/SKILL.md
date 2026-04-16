@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584
+  license: "Apache-2.0"
 ---
 
 # Prometheus PromQL Alert Builder

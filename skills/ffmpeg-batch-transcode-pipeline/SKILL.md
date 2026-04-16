@@ -7,6 +7,9 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "ffmpeg/ffmpeg"
+  github_stars: 58972
 ---
 
 # FFmpeg Batch Transcode Pipeline

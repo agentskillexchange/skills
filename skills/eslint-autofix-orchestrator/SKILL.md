@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188
-  npm_package: "eslint"
+  ase_npm_package: "eslint"
   npm_weekly_downloads: 120215107
+  license: "MIT"
 ---
 
 # ESLint Auto-Fix Orchestrator

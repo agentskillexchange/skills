@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "larksuite/cli"
   github_stars: 7942
-  npm_package: "@larksuite/cli"
+  ase_npm_package: "@larksuite/cli"
   npm_weekly_downloads: 98577
 ---
 

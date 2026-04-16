@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "konvajs/konva"
   github_stars: 14323
-  npm_package: "konva"
+  ase_npm_package: "konva"
   npm_weekly_downloads: 1210760
 ---
 

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "plausible/analytics"
   github_stars: 24495
+  license: "AGPL-3.0"
 ---
 
 # Plausible Analytics Privacy-First Web Analytics Platform

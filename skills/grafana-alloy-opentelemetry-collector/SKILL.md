@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026
+  license: "Apache-2.0"
 ---
 
 # Grafana Alloy OpenTelemetry Collector Distribution

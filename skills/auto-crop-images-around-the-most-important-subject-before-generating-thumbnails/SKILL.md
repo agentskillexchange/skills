@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  npm_package: "smartcrop"
+  ase_npm_package: "smartcrop"
   npm_weekly_downloads: 49019
 ---
 

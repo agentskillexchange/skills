@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "Bpolat0/atlasmemory"
   github_stars: 5
-  npm_package: "atlasmemory"
+  ase_npm_package: "atlasmemory"
   npm_weekly_downloads: 1926
 ---
 

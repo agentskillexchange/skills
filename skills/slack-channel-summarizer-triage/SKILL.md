@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2900
-  npm_package: "@slack/bolt"
+  ase_npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
+  license: "MIT"
 ---
 
 # Slack Channel Summarizer & Triage Bot

@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700
+  license: "Apache-2.0"
 ---
 
 # Kubernetes Event Stream Analyzer

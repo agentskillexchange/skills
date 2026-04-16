@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "semantic-release/release-notes-generator"
   github_stars: 361
-  npm_package: "@semantic-release/release-notes-generator"
+  ase_npm_package: "@semantic-release/release-notes-generator"
   npm_weekly_downloads: 10982193
 ---
 

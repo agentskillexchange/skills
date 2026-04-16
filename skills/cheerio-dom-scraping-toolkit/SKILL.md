@@ -1,6 +1,6 @@
 ---
 title: "Cheerio DOM Scraping Toolkit"
-description: "Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
+description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 category:
@@ -10,13 +10,14 @@ framework:
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270
-  npm_package: "cheerio"
+  ase_npm_package: "cheerio"
   npm_weekly_downloads: 19621708
+  license: "MIT"
 ---
 
 # Cheerio DOM Scraping Toolkit
 
-Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
+Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
 
 ## Installation
 

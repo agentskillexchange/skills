@@ -7,6 +7,12 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "hubspot/hubspot-api-nodejs"
+  github_stars: 392
+  ase_npm_package: "@hubspot/api-client"
+  npm_weekly_downloads: 986793
+  license: "Apache-2.0"
 ---
 
 # HubSpot CRM Contact Enrichment Pipeline

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "EmbarkStudios/cargo-deny"
   github_stars: 2263
-  npm_package: "cargo-deny"
+  ase_npm_package: "cargo-deny"
   npm_weekly_downloads: 3315365
 ---
 

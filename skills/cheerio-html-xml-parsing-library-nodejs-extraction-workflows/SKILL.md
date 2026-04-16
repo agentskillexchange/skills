@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30266
-  npm_package: "cheerio"
+  ase_npm_package: "cheerio"
   npm_weekly_downloads: 19621708
 ---
 

@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  npm_package: "citation-js"
+  ase_npm_package: "citation-js"
   npm_weekly_downloads: 10654
 ---
 

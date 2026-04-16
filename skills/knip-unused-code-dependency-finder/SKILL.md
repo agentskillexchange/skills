@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "webpro-nl/knip"
   github_stars: 10806
-  npm_package: "knip"
+  ase_npm_package: "knip"
   npm_weekly_downloads: 6061385
 ---
 

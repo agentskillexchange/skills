@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "invariantlabs-ai/invariant"
   github_stars: 409
-  npm_package: "invariant-ai"
+  ase_npm_package: "invariant-ai"
   npm_weekly_downloads: 1473
 ---
 

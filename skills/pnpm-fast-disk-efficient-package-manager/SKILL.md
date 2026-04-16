@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "pnpm/pnpm"
   github_stars: 34426
-  npm_package: "pnpm"
+  ase_npm_package: "pnpm"
   npm_weekly_downloads: 66251150
+  license: "MIT"
 ---
 
 # pnpm Fast Disk-Efficient Package Manager

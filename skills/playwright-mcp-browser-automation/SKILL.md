@@ -13,8 +13,9 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30927
-  npm_package: "@playwright/mcp"
+  ase_npm_package: "@playwright/mcp"
   npm_weekly_downloads: 2731674
+  license: "Apache-2.0"
 ---
 
 # Playwright MCP Browser Automation

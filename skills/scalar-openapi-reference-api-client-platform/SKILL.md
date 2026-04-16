@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "scalar/scalar"
   github_stars: 14624
+  license: "MIT"
 ---
 
 # Scalar OpenAPI Reference and API Client Platform

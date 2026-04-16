@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "supabase/cli"
   github_stars: 2112
-  npm_package: "supabase"
+  ase_npm_package: "supabase"
   npm_weekly_downloads: 1190551
 ---
 

@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  npm_package: "jscpd"
+  ase_npm_package: "jscpd"
   npm_weekly_downloads: 703581
 ---
 

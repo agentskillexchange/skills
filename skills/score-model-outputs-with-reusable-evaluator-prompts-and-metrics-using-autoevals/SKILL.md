@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "braintrustdata/autoevals"
   github_stars: 861
-  npm_package: "autoevals"
+  ase_npm_package: "autoevals"
   npm_weekly_downloads: 1807454
 ---
 

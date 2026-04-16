@@ -7,6 +7,12 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "agentlayer-io/agentclick"
+  github_stars: 22
+  ase_npm_package: "@harvenstar/agentclick"
+  npm_weekly_downloads: 9
+  license: "MIT"
 ---
 
 # Add a browser review checkpoint before risky agent actions with AgentClick

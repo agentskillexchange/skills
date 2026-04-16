@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "numtide/treefmt"
   github_stars: 977
-  npm_package: "treefmt"
+  ase_npm_package: "treefmt"
   npm_weekly_downloads: 18627
 ---
 

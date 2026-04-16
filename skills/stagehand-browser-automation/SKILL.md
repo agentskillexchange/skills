@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22059
+  license: "MIT"
 ---
 
 # Stagehand Browser Automation

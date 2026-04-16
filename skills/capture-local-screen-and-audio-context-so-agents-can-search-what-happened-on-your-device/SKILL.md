@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "screenpipe/screenpipe"
   github_stars: 18176
-  npm_package: "screenpipe"
+  ase_npm_package: "screenpipe"
   npm_weekly_downloads: 13200
 ---
 

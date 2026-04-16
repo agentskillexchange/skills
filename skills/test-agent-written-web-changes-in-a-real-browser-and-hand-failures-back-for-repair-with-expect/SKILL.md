@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "millionco/expect"
   github_stars: 3362
-  npm_package: "expect-cli"
+  ase_npm_package: "expect-cli"
   npm_weekly_downloads: 24457
 ---
 

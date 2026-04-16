@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  npm_package: "libphonenumber-js"
+  ase_npm_package: "libphonenumber-js"
   npm_weekly_downloads: 15571336
 ---
 

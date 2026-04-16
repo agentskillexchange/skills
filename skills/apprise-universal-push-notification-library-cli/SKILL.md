@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "caronc/apprise"
   github_stars: 16227
+  license: "BSD-2-Clause"
 ---
 
 # Apprise Universal Push Notification Library and CLI

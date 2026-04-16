@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813
-  npm_package: "openai"
+  ase_npm_package: "openai"
   npm_weekly_downloads: 18107622
+  license: "Apache-2.0"
 ---
 
 # DALL-E Image Variation Pipeline

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "confident-ai/deepeval"
   github_stars: 14815
-  npm_package: "deepeval"
+  ase_npm_package: "deepeval"
   npm_weekly_downloads: 1263
 ---
 

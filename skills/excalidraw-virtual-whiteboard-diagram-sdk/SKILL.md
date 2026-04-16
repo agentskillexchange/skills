@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "excalidraw/excalidraw"
   github_stars: 119886
+  license: "MIT"
 ---
 
 # Excalidraw Virtual Whiteboard and Diagram SDK

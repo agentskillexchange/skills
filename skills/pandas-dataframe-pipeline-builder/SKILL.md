@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "pandas-dev/pandas"
   github_stars: 48498
+  license: "BSD-3-Clause"
 ---
 
 # Pandas DataFrame Pipeline Builder

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "go-shiori/shiori"
   github_stars: 11399
+  license: "MIT"
 ---
 
 # Shiori Self-Hosted Bookmark Manager with CLI and Web Interface

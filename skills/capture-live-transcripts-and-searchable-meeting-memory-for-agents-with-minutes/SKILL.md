@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "silverstein/minutes"
   github_stars: 1051
-  npm_package: "minutes-mcp"
+  ase_npm_package: "minutes-mcp"
   npm_weekly_downloads: 3196
 ---
 

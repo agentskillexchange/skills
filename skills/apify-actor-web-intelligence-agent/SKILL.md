@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173
-  npm_package: "apify"
+  ase_npm_package: "apify"
   npm_weekly_downloads: 34097
+  license: "Apache-2.0"
 ---
 
 # Apify Actor Web Intelligence Agent

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "spencermarx/open-code-review"
   github_stars: 131
-  npm_package: "@open-code-review/cli"
+  ase_npm_package: "@open-code-review/cli"
   npm_weekly_downloads: 1089
 ---
 

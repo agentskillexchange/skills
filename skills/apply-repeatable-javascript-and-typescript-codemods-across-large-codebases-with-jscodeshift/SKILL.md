@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "facebook/jscodeshift"
   github_stars: 9983
-  npm_package: "jscodeshift"
+  ase_npm_package: "jscodeshift"
   npm_weekly_downloads: 27093990
 ---
 

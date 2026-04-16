@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "swagger-api/swagger-ui"
   github_stars: 28751
-  npm_package: "swagger-ui"
+  ase_npm_package: "swagger-ui"
   npm_weekly_downloads: 149194
+  license: "Apache-2.0"
 ---
 
 # Swagger Codegen Template Customizer

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "eyaltoledano/claude-task-master"
   github_stars: 26557
-  npm_package: "task-master-ai"
+  ase_npm_package: "task-master-ai"
   npm_weekly_downloads: 113563
 ---
 
