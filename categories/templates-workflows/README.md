@@ -12,10 +12,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 116.2k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 116.2k |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | ⭐ 116.2k |
+| [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | ⭐ 88.5k |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | ⭐ 71.5k |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | ⭐ 71.5k |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | ⭐ 68.4k |
-| [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | ⭐ 68.4k |
 
 ---
 
@@ -46,6 +46,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 116.2k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 116.2k | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | 116.2k | — |
+| [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | 88.5k | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | 71.5k | — |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | 71.5k | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | 68.4k | — |

@@ -1,8 +1,96 @@
 {
   "version": "2.0",
-  "total": 2080,
+  "total": 2086,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "run-configurable-multi-source-deep-research-passes-with-open-deep-research",
+      "name": "Run configurable multi-source deep research passes with Open Deep Research",
+      "description": "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11125
+      }
+    },
+    {
+      "slug": "review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent",
+      "name": "Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent",
+      "description": "Use PR-Agent when an agent should run an automated pull request review pass with summaries, comments, improvement prompts, or ask-mode follow-ups before human merge…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe",
+      "name": "Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe",
+      "description": "Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7392
+      }
+    },
+    {
+      "slug": "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
+      "name": "Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR",
+      "description": "Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17135
+      }
+    },
+    {
+      "slug": "apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift",
+      "name": "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift",
+      "description": "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9983,
+        "npm_weekly_downloads": 27093990
+      }
+    },
+    {
+      "slug": "turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit",
+      "name": "Turn feature ideas into executable implementation specs and task plans with Spec Kit",
+      "description": "Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 88536
+      }
+    },
     {
       "slug": "apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant",
       "name": "Apply rule-based guardrails to agent traces and tool flows with Invariant",

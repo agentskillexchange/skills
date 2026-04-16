@@ -109,6 +109,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | 10.4k | — |
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | 10.4k | — |
 | [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | 10.4k | — |
+| [Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift](../../skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift/) | 10k | 27.1M/wk |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
@@ -175,6 +176,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
+| [Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent](../../skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/) | — | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |

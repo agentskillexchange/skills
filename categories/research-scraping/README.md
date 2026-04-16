@@ -78,8 +78,10 @@ Web research, data collection, content aggregation, and information gathering.
 | [Monolith Web Page Archiver and Single-File Bundler](../../skills/monolith-web-page-single-file-archiver/) | 14.9k | — |
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
+| [Run configurable multi-source deep research passes with Open Deep Research](../../skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
+| [Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe](../../skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe/) | 7.4k | — |
 | [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](../../skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | 6.3k | 3.8k/wk |
 | [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | 28.9k/wk |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
