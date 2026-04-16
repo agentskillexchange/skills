@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **2073 skills** across **17 categories**
+> **2075 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -10,13 +10,13 @@
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **150** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **137** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **136** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **118** | Metrics collection, alerting rules, observability setup, and system m... |
+| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **119** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **114** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **111** | SDK documentation, API guides, framework reference material, and libr... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **99** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **96** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **96** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **95** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **94** | Web research, data collection, content aggregation, and information g... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **89** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **83** | Image generation, asset processing, design automation, and creative t... |

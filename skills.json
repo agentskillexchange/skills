@@ -1,8 +1,39 @@
 {
   "version": "2.0",
-  "total": 2073,
+  "total": 2075,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch",
+      "name": "Track coding-agent quota burn and remaining headroom across providers with onWatch",
+      "description": "Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 580
+      }
+    },
+    {
+      "slug": "test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect",
+      "name": "Test agent-written web changes in a real browser and hand failures back for repair with Expect",
+      "description": "Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete failures for the coding agent to…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3362,
+        "npm_weekly_downloads": 24457
+      }
+    },
     {
       "slug": "capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens",
       "name": "Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens",
