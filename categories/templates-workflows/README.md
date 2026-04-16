@@ -25,14 +25,14 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 |---|---:|
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.3M/wk |
+| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.4M/wk |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⬇ 3.3M/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.5M/wk |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⬇ 1.2M/wk |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 6.8M/wk |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 402.7k/wk |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | ⬇ 1.7k/wk |
-| [Netlify Site Manager](../../skills/netlify-site-manager/) | ⬇ 269.9k/wk |
+| [Netlify Site Manager](../../skills/netlify-site-manager/) | ⬇ 266.8k/wk |
 
 ---
 
@@ -77,7 +77,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | 16.6k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | 15.3k | 2.3M/wk |
+| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | 15.3k | 2.4M/wk |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | 14.8k | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
@@ -87,13 +87,13 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 6.8M/wk |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
-| [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 269.9k/wk |
+| [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 266.8k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |

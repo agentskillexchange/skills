@@ -6,7 +6,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars |
 |---|---:|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 357.7k |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 358.4k |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 97.8k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
@@ -33,7 +33,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 357.7k | — |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 358.4k | — |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |

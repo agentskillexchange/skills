@@ -23,13 +23,13 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Downloads |
 |---|---:|
-| [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 563.5k/wk |
+| [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.2M/wk |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⬇ 1.2M/wk |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.2M/wk |
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⬇ 1.2M/wk |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⬇ 1.2M/wk |
 | [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | ⬇ 1.2M/wk |
@@ -50,7 +50,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | 38k | — |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
-| [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 563.5k/wk |
+| [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
@@ -77,11 +77,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | — |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.2M/wk |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | 5.6k | 1.2M/wk |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.2M/wk |
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | 5.6k | 1.2M/wk |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | 5.6k | 1.2M/wk |
 | [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | 5.6k | 1.2M/wk |
@@ -112,7 +112,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 575 | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 581 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |

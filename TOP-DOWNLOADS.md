@@ -17,7 +17,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 9 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 10 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 11 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
-| 12 | [OpenAI MCP Server](skills/openai-mcp-server/) | 17.8M/wk | openai | Developer Tools |
+| 12 | [OpenAI MCP Server](skills/openai-mcp-server/) | 18.1M/wk | openai | Developer Tools |
 | 13 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 14 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
 | 15 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |
@@ -26,8 +26,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 18 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | 8.7M/wk | pixelmatch | Image & Creative Automation |
 | 19 | [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | 8.2M/wk | html-to-text | Data Extraction & Transformation |
 | 20 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 7.3M/wk | cypress | Browser Automation |
-| 21 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
-| 22 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 6.8M/wk | cloudflare | Templates & Workflows |
+| 21 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 7.1M/wk | cloudflare | Templates & Workflows |
+| 22 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
 | 23 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
 | 24 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 25 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
@@ -41,7 +41,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 33 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
 | 34 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 35 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
-| 36 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.3M/wk | vercel | Templates & Workflows |
+| 36 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
 | 37 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2.2M/wk | langchain | Developer Tools |
 | 38 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 39 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |

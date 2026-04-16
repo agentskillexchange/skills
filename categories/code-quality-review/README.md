@@ -75,6 +75,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | 14.8k | — |
 | [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | 14.8k | — |
 | [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | 14.8k | — |
@@ -88,7 +89,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | 14.8k | — |
 | [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | 14.8k | — |
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | 14.8k | — |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
 | [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
 | [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | — |
@@ -147,6 +147,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
+| [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |

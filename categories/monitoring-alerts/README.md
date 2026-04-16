@@ -6,16 +6,16 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
-| [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | ⭐ 121.7k |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | ⭐ 121.7k |
+| [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | ⭐ 121.7k |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | ⭐ 78.4k |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.2k |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 73.2k |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | ⭐ 73.2k |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | ⭐ 73.2k |
-| [Grafana Dashboard JSON Assembler](../../skills/grafana-dashboard-json-assembler/) | ⭐ 73.2k |
 
 ---
 
@@ -25,13 +25,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |---|---:|
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 6.7M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | ⬇ 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⬇ 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | ⬇ 6.6M/wk |
 | [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | ⬇ 6.6M/wk |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | ⬇ 6.6M/wk |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | ⬇ 6.6M/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 6.6M/wk |
 | [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | ⬇ 6.6M/wk |
 
 ---
@@ -40,12 +40,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | 121.7k | — |
+| [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.2k | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | 73.2k | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | 73.2k | — |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | 73.2k | — |
@@ -56,7 +57,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Dashboard Sync Agent](../../skills/grafana-dashboard-sync-agent/) | 73.2k | — |
 | [Grafana Dashboard Template Generator](../../skills/grafana-dashboard-template-generator/) | 73.2k | — |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | 73.2k | — |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.2k | — |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | 63.6k | — |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | 63.6k | — |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | 63.6k | — |
@@ -115,13 +115,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 796 | 6.7M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
 | [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | 791 | 6.6M/wk |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | 791 | 6.6M/wk |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | 791 | 6.6M/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 791 | 6.6M/wk |
 | [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | 791 | 6.6M/wk |
 | [Datadog Monitor Blueprint Generator](../../skills/datadog-monitor-blueprint-generator/) | 791 | 6.6M/wk |
 | [Datadog Monitor Configuration Agent](../../skills/datadog-monitor-configuration-agent-2/) | 791 | 6.6M/wk |
@@ -130,7 +130,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 635 | 40k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 636 | 41.4k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
@@ -142,7 +142,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | — |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | — |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | — |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6.1k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 5.9k/wk |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |

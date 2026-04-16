@@ -91,10 +91,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
 | [Gitingest Repository-to-Prompt Codebase Extraction Tool](../../skills/gitingest-repository-to-prompt-codebase-extraction-tool/) | 14.3k | — |
 | [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | 12.7k | — |
+| [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.6k | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | 12.6k | — |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | 12.6k | — |
 | [dbt Data Transformation Orchestrator](../../skills/dbt-data-transformation-orchestrator/) | 12.6k | — |
-| [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.6k | — |
 | [dbt Model Dependency Analyzer](../../skills/dbt-model-dependency-analyzer/) | 12.6k | — |
 | [dbt Model Dependency Resolver](../../skills/dbt-model-dependency-resolver-2/) | 12.6k | — |
 | [dbt Model Lineage &amp; Test Coverage Checker](../../skills/dbt-model-lineage-test-coverage-2/) | 12.6k | — |
@@ -157,7 +157,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | 387 | 170.7k/wk |
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | 387 | 170.7k/wk |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 75 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 76 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
