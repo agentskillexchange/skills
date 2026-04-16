@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2097 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 21:26 UTC
+> **2100 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 23:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (267 skills)
+### 🛠️ Developer Tools (268 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -121,6 +121,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Glow Terminal Markdown Renderer](skills/glow-terminal-markdown-renderer/) | Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word… | Security Reviewed | 24.1k | — |
 | [D2 Modern Diagram Scripting Language and CLI](skills/d2-diagram-scripting-language-cli/) | D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into… | Security Reviewed | 23.3k | — |
 | [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components… | Security Reviewed | 23.2k | — |
+| [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making… | Published | 23k | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | 22.8k | 54.8k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](skills/dockge-docker-compose-stack-manager/) | Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for managing compose.yaml files. Created… | Security Reviewed | 22.7k | — |
 | [ArgoCD MCP Server](skills/argocd-mcp-server/) | ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is… | Security Reviewed | 22.6k | — |
@@ -283,7 +284,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (165 skills)
+### 🔧 CI/CD Integrations (166 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -437,6 +438,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Buildkite Dynamic Pipeline Architect](skills/buildkite-dynamic-pipeline-architect/) | Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements… | Security Reviewed | — | — |
 | [Buildkite Pipeline Optimizer](skills/buildkite-pipeline-optimizer-agent/) | Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces… | Security Reviewed | — | — |
 | [Buildkite Pipeline Profiler](skills/buildkite-pipeline-profiler/) | Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent… | Security Reviewed | — | — |
+| [Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents](skills/dispatch-coding-agents-from-github-issue-labels-and-return-pull-requests-with-patchwork-agents/) | Use issue labels as a lightweight dispatch layer that fans repository work out to Claude Code, Codex, or Aider… | Published | — | — |
 | [GitHub Actions CI Builder](skills/github-actions-ci-builder/) | Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch… | Security Reviewed | — | — |
 | [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix… | Security Reviewed | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](skills/github-actions-cicd-pipeline-manager/) | Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and… | Security Reviewed | — | — |
@@ -1447,7 +1449,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (101 skills)
+### 📄 Templates & Workflows (102 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1485,6 +1487,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [GrapesJS Open Source Web Builder and Template Design Framework](skills/grapesjs-web-builder-template-framework/) | GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub… | Security Reviewed | 25.7k | — |
 | [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 25k | — |
 | [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | 24.8k | — |
+| [Run Claude Code through repeatable command and persona workflows with SuperClaude](skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review… | Published | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
 | [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | 18.4k | — |

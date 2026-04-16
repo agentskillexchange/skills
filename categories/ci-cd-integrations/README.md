@@ -184,6 +184,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | — | — |
 | [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | — | — |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | — | — |
+| [Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents](../../skills/dispatch-coding-agents-from-github-issue-labels-and-return-pull-requests-with-patchwork-agents/) | — | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | — | — |

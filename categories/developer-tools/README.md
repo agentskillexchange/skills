@@ -147,6 +147,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
+| [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](../../skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | 23k | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 54.8k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.6k | — |
