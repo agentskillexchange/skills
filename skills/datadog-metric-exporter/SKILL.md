@@ -1,17 +1,14 @@
 ---
-title: "Datadog Metric Exporter"
-description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
-verification: "security_reviewed"
-source: "https://github.com/DataDog/dd-trace-js"
+title: Datadog Metric Exporter
+description: Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking.
+verification: security_reviewed
+source: https://github.com/DataDog/dd-trace-js
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
+  npm_package: dd-trace
 ---
 
 # Datadog Metric Exporter

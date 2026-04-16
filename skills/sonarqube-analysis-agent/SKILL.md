@@ -1,15 +1,12 @@
 ---
-title: "SonarQube Analysis Agent"
-description: "Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication."
-verification: "security_reviewed"
-source: "https://github.com/SonarSource/sonarqube"
+title: SonarQube Analysis Agent
+description: Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication.
+verification: security_reviewed
+source: https://github.com/SonarSource/sonarqube
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
+- Multi-Framework
 ---
 
 # SonarQube Analysis Agent

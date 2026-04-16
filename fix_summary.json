@@ -1,10 +1,12 @@
 {
-  "files_scanned": 1758,
-  "files_changed": 0,
-  "source_section_added": 0,
-  "listed_mapped": 0,
-  "signal_integrity_mismatches_removed": 0,
-  "source_aligned_npm_blocks_preserved": 0,
-  "install_commands_normalized": 0,
-  "frontmatter_normalized": 0
+  "files_changed": 117,
+  "files_scanned": 2064,
+  "github_mismatch_blocks_removed": 117,
+  "github_subpath_npm_downloads_removed": 0,
+  "installation_blocks_already_consistent": 2064,
+  "npm_mismatch_downloads_removed": 0,
+  "signal_integrity_mismatches_removed": 117,
+  "source_aligned_npm_download_blocks_preserved": 279,
+  "source_sections_already_present": 2064,
+  "verification_mapped_to_listed": 0
 }

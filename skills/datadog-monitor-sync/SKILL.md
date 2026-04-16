@@ -1,17 +1,14 @@
 ---
-title: "Datadog Monitor Sync"
-description: "Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation."
-verification: "security_reviewed"
-source: "https://github.com/DataDog/dd-trace-js"
+title: Datadog Monitor Sync
+description: Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation.
+verification: security_reviewed
+source: https://github.com/DataDog/dd-trace-js
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
+  npm_package: dd-trace
 ---
 
 # Datadog Monitor Sync

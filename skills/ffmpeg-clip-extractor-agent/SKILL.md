@@ -1,15 +1,12 @@
 ---
-title: "FFmpeg Clip Extractor"
-description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
-verification: "security_reviewed"
-source: "https://github.com/FFmpeg/FFmpeg"
+title: FFmpeg Clip Extractor
+description: Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets.
+verification: security_reviewed
+source: https://github.com/FFmpeg/FFmpeg
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 58972
+- Multi-Framework
 ---
 
 # FFmpeg Clip Extractor
