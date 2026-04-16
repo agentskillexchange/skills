@@ -1,12 +1,12 @@
 ---
-title: Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI
-description: Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds on a GPU.
+title: "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI"
+description: "Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds on a GPU."
 verification: security_reviewed
-source: https://github.com/Vaibhavs10/insanely-fast-whisper
+source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
 category:
-- Media & Transcription
+  - "Media &amp; Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI
@@ -15,13 +15,27 @@ Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds usi
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/insanely-fast-whisper-gpu-transcription
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/insanely-fast-whisper-gpu-transcription` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
