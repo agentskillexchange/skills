@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Publish versioned MkDocs documentation with mike
 
-mike gives an agent a specific docs-release workflow: build and publish versioned MkDocs documentation, manage aliases such as latest, and keep older versions live. Invoke it when the real need is versioned docs publishing for a MkDocs site, not when you are choosing a docs framework or browsing a generic static-site tool. The boundary stays tight: release and version management for MkDocs documentation, not a plain product or plugin card.
+Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.
 
 ## Installation
 

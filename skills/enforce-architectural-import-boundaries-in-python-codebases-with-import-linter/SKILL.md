@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Enforce architectural import boundaries in Python codebases with Import Linter
 
-Use Import Linter when an agent needs to guard a Python architecture against gradual boundary erosion. The agent defines contracts such as layered dependencies, forbidden imports, or independence rules, runs the checker, and turns violations into review comments or cleanup tasks. Invoke this instead of using the product normally when the job is architecture verification inside an existing codebase, not generic linting or package management. The scope boundary is clear: import-graph contract enforcement for Python projects.
+Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts.
 
 ## Installation
 

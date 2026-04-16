@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Diff YAML manifests semantically and surface meaningful drift before apply with dyff
 
-Use dyff when an agent needs to compare YAML documents semantically, identify exactly which paths changed, and summarize meaningful drift before approving or applying config updates. Invoke this instead of plain `diff` when the real problem is structured review of YAML or JSON-like documents, not raw line-by-line text comparison. The scope boundary is tight and skill-shaped: dyff is a semantic structured-diff workflow for YAML change review and drift inspection, not a general YAML processor, generic viewer, or product listing.
+Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs.
 
 ## Installation
 

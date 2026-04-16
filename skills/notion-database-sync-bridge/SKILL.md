@@ -12,15 +12,11 @@ tool_ecosystem:
   github_stars: 5582
   ase_npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
-  license: "MIT"
 ---
 
 # Notion Database Sync Bridge
 
 Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
-
-
-This skill provides comprehensive automation for its target domain with production-ready error handling and logging. It implements retry mechanisms with configurable backoff strategies, validates all inputs against JSON Schema definitions, and produces structured output compatible with downstream processing pipelines. Authentication is handled through OAuth 2.0 flows or API key rotation with secure storage in environment variables or secret managers like HashiCorp Vault. The skill supports dry-run mode for safe testing, emits OpenTelemetry traces for distributed debugging, and includes comprehensive unit test coverage with mock fixtures for offline development.
 
 ## Installation
 

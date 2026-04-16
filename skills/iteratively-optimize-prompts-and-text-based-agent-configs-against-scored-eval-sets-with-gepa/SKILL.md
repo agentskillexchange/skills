@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA
 
-Use GEPA when an agent builder needs to iteratively improve a prompt or other text-configured component against a scored eval set, not when they are just chatting with a model or browsing prompt tips. The workflow is bounded: provide a seed candidate, run reflective optimization against train and validation examples, review the improved candidate, and keep or reject it based on measured lift. That scope boundary, reflective text optimization against explicit evaluation data, makes this a skill rather than a generic model or framework listing.
+Use reflective search to improve prompts or text-configured agent components against a real eval set instead of manual prompt tweaking.
 
 ## Installation
 

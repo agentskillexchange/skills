@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Apply structural codemods across large codebases with Comby
 
-Use Comby when an agent needs to perform a large-scale code migration or structural rewrite across many files without relying on brittle text regexes. The agent can define a match template, apply a rewrite template, and review the resulting codemod output as a migration batch. The boundary is structural search-and-rewrite for code transformation campaigns, not a generic developer utility listing or broad parsing framework card.
+Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.
 
 ## Installation
 

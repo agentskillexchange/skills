@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Inspect and diff OCI images and registries with regctl
 
-regctl gives agents an operator-grade registry workflow: inspect OCI image metadata, diff tags or manifests, copy artifacts, and debug registry state with explicit commands. Invoke it when the job is image and registry inspection, not when you just need to build containers or browse a registry UI. The boundary is clear: OCI registry diagnostics and artifact comparison, not a generic container platform or broad DevOps product card.
+Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling whole images locally first.
 
 ## Installation
 

@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Apply rule-based guardrails to agent traces and tool flows with Invariant
 
-Use Invariant when the job is to write and evaluate explicit guardrail rules that inspect tool-call sequences or message traces and block unsafe agent behavior before or during execution, not when a team just wants a general security product. The workflow is concrete: place Invariant between the agent and its MCP or LLM boundary, define rules, run traces through the policy engine, and inspect violations or blocked flows. That scope boundary, trace-aware guardrail enforcement for agent actions, keeps this publishable as a skill instead of a generic SDK or platform card.
+Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules.
 
 ## Installation
 

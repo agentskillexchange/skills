@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Inspect and debug MCP servers visually before connecting them to agents
 
-Use MCP Inspector when the job is to validate or debug an MCP server itself. It opens a local UI and proxy layer that can launch a target server over stdio, SSE, or streamable HTTP, list exposed tools and resources, execute calls, pass arguments and environment variables, and export launch configurations for downstream clients. The boundary is clean and publishable: this is a visual MCP server testing workflow, not a generic protocol listing and not merely a product card for the broader MCP ecosystem.
+Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually, and troubleshoot transport or schema issues before putting that server in front of real agents.
 
 ## Installation
 

@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity
 
-Use pg_activity when an agent or operator needs a diagnose-now view of a running PostgreSQL instance rather than a general database client or monitoring platform. It is for checking active sessions, lock contention, waits, throughput, and resource pressure while an incident is happening. That scope boundary, live operational diagnosis for PostgreSQL workload pressure, keeps it skill-shaped instead of collapsing into a generic Postgres product card.
+Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call.
 
 ## Installation
 
