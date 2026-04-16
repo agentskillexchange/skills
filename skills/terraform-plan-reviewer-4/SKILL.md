@@ -1,14 +1,14 @@
 ---
-title: "Terraform Plan Reviewer"
-description: "Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries."
-verification: "security_reviewed"
-source: "https://github.com/hashicorp/terraform"
+title: Terraform Plan Reviewer
+description: Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries.
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

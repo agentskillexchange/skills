@@ -1,12 +1,12 @@
 ---
-title: "Doxygen Cross-Reference Indexer"
-description: "Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
+title: Doxygen Cross-Reference Indexer
+description: Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases.
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # Doxygen Cross-Reference Indexer

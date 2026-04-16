@@ -1,12 +1,12 @@
 ---
-title: "Cloudinary DAM Pipeline"
-description: "Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation."
-verification: "security_reviewed"
-source: "https://cloudinary.com/documentation"
+title: Cloudinary DAM Pipeline
+description: Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation.
+verification: security_reviewed
+source: https://cloudinary.com/documentation
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # Cloudinary DAM Pipeline

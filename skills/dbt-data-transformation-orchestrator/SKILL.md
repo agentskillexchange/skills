@@ -1,14 +1,14 @@
 ---
-title: "dbt Data Transformation Orchestrator"
-description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration."
-verification: "security_reviewed"
-source: "https://github.com/dbt-labs/dbt-core"
+title: dbt Data Transformation Orchestrator
+description: Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration.
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 

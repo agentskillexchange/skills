@@ -1,14 +1,14 @@
 ---
-title: "Docker Compose Stack Analyzer"
-description: "Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues."
-verification: "security_reviewed"
-source: "https://github.com/moby/moby"
+title: Docker Compose Stack Analyzer
+description: Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues.
+verification: security_reviewed
+source: https://github.com/moby/moby
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 

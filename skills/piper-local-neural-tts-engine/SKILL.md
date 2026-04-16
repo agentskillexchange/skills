@@ -1,14 +1,14 @@
 ---
-title: "Piper Local Neural Text-to-Speech Engine"
-description: "Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi."
-verification: "security_reviewed"
-source: "https://github.com/rhasspy/piper"
+title: Piper Local Neural Text-to-Speech Engine
+description: Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi.
+verification: security_reviewed
+source: https://github.com/rhasspy/piper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "rhasspy/piper"
+  github_repo: rhasspy/piper
   github_stars: 10741
 ---
 

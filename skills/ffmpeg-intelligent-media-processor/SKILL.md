@@ -1,15 +1,12 @@
 ---
-title: "FFmpeg Intelligent Media Processor"
-description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
-verification: "security_reviewed"
-source: "https://github.com/FFmpeg/FFmpeg"
+title: FFmpeg Intelligent Media Processor
+description: Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128.
+verification: security_reviewed
+source: https://github.com/FFmpeg/FFmpeg
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 58972
+- Multi-Framework
 ---
 
 # FFmpeg Intelligent Media Processor

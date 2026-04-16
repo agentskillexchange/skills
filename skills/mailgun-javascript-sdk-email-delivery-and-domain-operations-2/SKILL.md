@@ -1,14 +1,14 @@
 ---
-title: "Mailgun JavaScript SDK for Email Delivery and Domain Operations"
-description: "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks that need transactional messaging, domain-aware email operations, event handling, and direct integration with the Mailgun platform."
-verification: "security_reviewed"
-source: "https://github.com/mailgun/mailgun.js"
+title: Mailgun JavaScript SDK for Email Delivery and Domain Operations
+description: An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks that need transactional messaging, domain-aware email operations, event handling, and direct integration with the Mailgun platform.
+verification: security_reviewed
+source: https://github.com/mailgun/mailgun.js
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mailgun/mailgun.js"
+  github_repo: mailgun/mailgun.js
   github_stars: 547
 ---
 

@@ -1,16 +1,16 @@
 ---
-title: "GraphQL Schema Drift Detector"
-description: "Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares schema versions, identifies removed fields, changed types, and deprecated directive usage."
-verification: "security_reviewed"
-source: "https://github.com/graphql/graphql-js"
+title: GraphQL Schema Drift Detector
+description: Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares schema versions, identifies removed fields, changed types, and deprecated directive usage.
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
-  npm_package: "graphql"
+  npm_package: graphql
   npm_weekly_downloads: 34200861
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "Prometheus Alertmanager Bridge"
-description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation."
-verification: "security_reviewed"
-source: "https://github.com/prometheus/prometheus"
+title: Prometheus Alertmanager Bridge
+description: Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation.
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 

@@ -1,15 +1,12 @@
 ---
-title: "SonarQube Code Quality Scanner"
-description: "Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement."
-verification: "security_reviewed"
-source: "https://github.com/SonarSource/sonarqube"
+title: SonarQube Code Quality Scanner
+description: Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement.
+verification: security_reviewed
+source: https://github.com/SonarSource/sonarqube
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
+- Multi-Framework
 ---
 
 # SonarQube Code Quality Scanner

@@ -1,14 +1,14 @@
 ---
-title: "Webhook Lightweight HTTP Endpoint Server for Shell Command Execution"
-description: "Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute shell commands. It supports JSON and YAML hook definitions with rule-based triggering, request payload parsing, and data passthrough to scripts via command-line arguments or environment variables."
-verification: "security_reviewed"
-source: "https://github.com/adnanh/webhook"
+title: Webhook Lightweight HTTP Endpoint Server for Shell Command Execution
+description: Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute shell commands. It supports JSON and YAML hook definitions with rule-based triggering, request payload parsing, and data passthrough to scripts via command-line arguments or environment variables.
+verification: security_reviewed
+source: https://github.com/adnanh/webhook
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "adnanh/webhook"
+  github_repo: adnanh/webhook
   github_stars: 11718
 ---
 

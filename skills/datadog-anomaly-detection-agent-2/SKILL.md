@@ -1,17 +1,14 @@
 ---
-title: "Datadog Anomaly Detection Agent"
-description: "Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing."
-verification: "security_reviewed"
-source: "https://github.com/DataDog/dd-trace-js"
+title: Datadog Anomaly Detection Agent
+description: Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing.
+verification: security_reviewed
+source: https://github.com/DataDog/dd-trace-js
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
+  npm_package: dd-trace
 ---
 
 # Datadog Anomaly Detection Agent

@@ -1,12 +1,12 @@
 ---
-title: "Investigate backend-only WordPress performance bottlenecks"
-description: "This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on browser clicks. Use it when the job is to diagnose slow pages, REST endpoints, cron activity, autoload bloat, or query-heavy requests from the backend outward."
-verification: "security_reviewed"
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-performance"
+title: Investigate backend-only WordPress performance bottlenecks
+description: This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on browser clicks. Use it when the job is to diagnose slow pages, REST endpoints, cron activity, autoload bloat, or query-heavy requests from the backend outward.
+verification: security_reviewed
+source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-performance
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # Investigate backend-only WordPress performance bottlenecks

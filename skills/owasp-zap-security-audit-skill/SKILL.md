@@ -1,14 +1,14 @@
 ---
-title: "OWASP ZAP Security Audit Skill"
-description: "Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping."
-verification: "security_reviewed"
-source: "https://github.com/zaproxy/zaproxy"
+title: OWASP ZAP Security Audit Skill
+description: Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping.
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "SQLite MCP Server"
-description: "Lightweight local database access for agent tasks."
-verification: "security_reviewed"
-source: "https://github.com/modelcontextprotocol/servers"
+title: SQLite MCP Server
+description: Lightweight local database access for agent tasks.
+verification: security_reviewed
+source: https://github.com/modelcontextprotocol/servers
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 83772
 ---
 

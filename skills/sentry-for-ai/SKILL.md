@@ -1,14 +1,14 @@
 ---
-title: "Sentry for AI"
-description: "Observability and debugging support for AI-assisted application workflows."
-verification: "security_reviewed"
-source: "https://github.com/getsentry/sentry-for-ai"
+title: Sentry for AI
+description: Observability and debugging support for AI-assisted application workflows.
+verification: security_reviewed
+source: https://github.com/getsentry/sentry-for-ai
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
+  github_repo: getsentry/sentry-for-ai
   github_stars: 113
 ---
 

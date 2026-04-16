@@ -1,14 +1,14 @@
 ---
-title: "AWS CloudWatch Alarm Runbook Generator"
-description: "Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically."
-verification: "security_reviewed"
-source: "https://github.com/aws/aws-sdk-js-v3"
+title: AWS CloudWatch Alarm Runbook Generator
+description: Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 

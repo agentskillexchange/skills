@@ -1,12 +1,12 @@
 ---
-title: "Podcast RSS Feed Builder"
-description: "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
+title: Podcast RSS Feed Builder
+description: Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen.
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/podcast-rss-feed-builder/
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # Podcast RSS Feed Builder

@@ -1,14 +1,14 @@
 ---
-title: "Jenkins Pipeline Failure Analyzer"
-description: "Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification."
-verification: "security_reviewed"
-source: "https://github.com/jenkinsci/jenkins"
+title: Jenkins Pipeline Failure Analyzer
+description: Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification.
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 

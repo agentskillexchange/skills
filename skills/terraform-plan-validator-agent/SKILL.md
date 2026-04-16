@@ -1,14 +1,14 @@
 ---
-title: "Terraform Plan Validator Agent"
-description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
-verification: "security_reviewed"
-source: "https://github.com/hashicorp/terraform"
+title: Terraform Plan Validator Agent
+description: Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

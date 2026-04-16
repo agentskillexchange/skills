@@ -1,14 +1,14 @@
 ---
-title: "Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view"
-description: "Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change quietly shifts behavior."
-verification: "listed"
-source: "https://github.com/hidai25/eval-view"
+title: Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view
+description: Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change quietly shifts behavior.
+verification: listed
+source: https://github.com/hidai25/eval-view
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hidai25/eval-view"
+  github_repo: hidai25/eval-view
   github_stars: 84
 ---
 

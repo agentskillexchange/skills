@@ -1,15 +1,12 @@
 ---
-title: "SonarQube Quality Gate Enforcer"
-description: "Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed."
-verification: "security_reviewed"
-source: "https://github.com/SonarSource/sonarqube"
+title: SonarQube Quality Gate Enforcer
+description: Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed.
+verification: security_reviewed
+source: https://github.com/SonarSource/sonarqube
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
+- Multi-Framework
 ---
 
 # SonarQube Quality Gate Enforcer

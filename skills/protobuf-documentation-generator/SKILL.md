@@ -1,12 +1,12 @@
 ---
-title: "Protobuf Documentation Generator"
-description: "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
+title: Protobuf Documentation Generator
+description: Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references.
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/protobuf-documentation-generator/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # Protobuf Documentation Generator

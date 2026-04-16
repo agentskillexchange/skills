@@ -1,14 +1,14 @@
 ---
-title: "Whisper Diarization Post-Processor"
-description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
-verification: "security_reviewed"
-source: "https://github.com/openai/whisper"
+title: Whisper Diarization Post-Processor
+description: Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation.
+verification: security_reviewed
+source: https://github.com/openai/whisper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97775
 ---
 

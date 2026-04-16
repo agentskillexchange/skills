@@ -1,14 +1,14 @@
 ---
-title: "OWASP ZAP API Security Auditor"
-description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
-verification: "security_reviewed"
-source: "https://github.com/zaproxy/zaproxy"
+title: OWASP ZAP API Security Auditor
+description: Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 

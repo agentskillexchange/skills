@@ -1,14 +1,14 @@
 ---
-title: "GitLab CI Pipeline Optimizer"
-description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds."
-verification: "security_reviewed"
-source: "https://github.com/gitlabhq/gitlabhq"
+title: GitLab CI Pipeline Optimizer
+description: Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds.
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 

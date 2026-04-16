@@ -1,16 +1,16 @@
 ---
-title: "Apify Actor Runner"
-description: "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications."
-verification: "security_reviewed"
-source: "https://github.com/apify/apify-sdk-js"
+title: Apify Actor Runner
+description: Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.
+verification: security_reviewed
+source: https://github.com/apify/apify-sdk-js
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
-  npm_package: "apify"
+  npm_package: apify
   npm_weekly_downloads: 34097
 ---
 

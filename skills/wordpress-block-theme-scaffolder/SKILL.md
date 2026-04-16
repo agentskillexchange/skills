@@ -1,12 +1,12 @@
 ---
-title: "WordPress Block Theme Scaffolder"
-description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
-verification: "security_reviewed"
-source: "https://developer.wordpress.org/block-editor/"
+title: WordPress Block Theme Scaffolder
+description: Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration.
+verification: security_reviewed
+source: https://developer.wordpress.org/block-editor/
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # WordPress Block Theme Scaffolder

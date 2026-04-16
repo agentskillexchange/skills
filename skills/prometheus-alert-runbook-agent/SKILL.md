@@ -1,14 +1,14 @@
 ---
-title: "Prometheus Alert Runbook Agent"
-description: "Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps."
-verification: "security_reviewed"
-source: "https://github.com/prometheus/prometheus"
+title: Prometheus Alert Runbook Agent
+description: Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps.
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 

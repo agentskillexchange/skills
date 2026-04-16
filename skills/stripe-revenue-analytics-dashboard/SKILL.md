@@ -1,16 +1,16 @@
 ---
-title: "Stripe Revenue Analytics Dashboard Builder"
-description: "Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function."
-verification: "security_reviewed"
-source: "https://github.com/stripe/stripe-node"
+title: Stripe Revenue Analytics Dashboard Builder
+description: Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function.
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
-  npm_package: "stripe"
+  npm_package: stripe
   npm_weekly_downloads: 9280426
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "Airbyte Connector Config Generator"
-description: "Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol."
-verification: "security_reviewed"
-source: "https://github.com/airbytehq/airbyte"
+title: Airbyte Connector Config Generator
+description: Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol.
+verification: security_reviewed
+source: https://github.com/airbytehq/airbyte
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "airbytehq/airbyte"
+  github_repo: airbytehq/airbyte
   github_stars: 21088
 ---
 

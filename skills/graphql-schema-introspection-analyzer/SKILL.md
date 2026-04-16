@@ -1,16 +1,16 @@
 ---
-title: "GraphQL Schema Introspection Analyzer"
-description: "Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations."
-verification: "security_reviewed"
-source: "https://github.com/graphql/graphql-js"
+title: GraphQL Schema Introspection Analyzer
+description: Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations.
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
-  npm_package: "graphql"
+  npm_package: graphql
   npm_weekly_downloads: 34200861
 ---
 

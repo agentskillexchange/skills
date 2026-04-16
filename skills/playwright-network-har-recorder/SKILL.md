@@ -1,16 +1,16 @@
 ---
-title: "Playwright Network HAR Recorder"
-description: "Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation."
-verification: "security_reviewed"
-source: "https://github.com/microsoft/playwright"
+title: Playwright Network HAR Recorder
+description: Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation.
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
-  npm_package: "playwright"
+  npm_package: playwright
   npm_weekly_downloads: 47883561
 ---
 

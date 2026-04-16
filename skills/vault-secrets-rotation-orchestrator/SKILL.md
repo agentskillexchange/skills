@@ -1,14 +1,14 @@
 ---
-title: "Vault Secrets Rotation Orchestrator"
-description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover."
-verification: "security_reviewed"
-source: "https://github.com/hashicorp/vault"
+title: Vault Secrets Rotation Orchestrator
+description: Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover.
+verification: security_reviewed
+source: https://github.com/hashicorp/vault
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hashicorp/vault"
+  github_repo: hashicorp/vault
   github_stars: 35396
 ---
 

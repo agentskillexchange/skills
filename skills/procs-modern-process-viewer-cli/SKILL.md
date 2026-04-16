@@ -1,14 +1,14 @@
 ---
-title: "procs Modern Process Viewer CLI"
-description: "A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names, and tree views."
-verification: "security_reviewed"
-source: "https://github.com/dalance/procs"
+title: procs Modern Process Viewer CLI
+description: A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names, and tree views.
+verification: security_reviewed
+source: https://github.com/dalance/procs
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "dalance/procs"
+  github_repo: dalance/procs
   github_stars: 5994
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "Convert DOCX documents into clean HTML for publishing workflows with Mammoth"
-description: "Use Mammoth when an agent needs to turn a .docx file into simple HTML that preserves semantic structure instead of Word-specific styling. This is for ingestion and publishing workflows, not for full document editing or perfect visual fidelity."
-verification: "security_reviewed"
-source: "https://github.com/mwilliamson/mammoth.js"
+title: Convert DOCX documents into clean HTML for publishing workflows with Mammoth
+description: Use Mammoth when an agent needs to turn a .docx file into simple HTML that preserves semantic structure instead of Word-specific styling. This is for ingestion and publishing workflows, not for full document editing or perfect visual fidelity.
+verification: security_reviewed
+source: https://github.com/mwilliamson/mammoth.js
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mwilliamson/mammoth.js"
+  github_repo: mwilliamson/mammoth.js
   github_stars: 6167
 ---
 

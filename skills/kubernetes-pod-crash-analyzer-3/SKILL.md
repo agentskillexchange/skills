@@ -1,14 +1,14 @@
 ---
-title: "Kubernetes Pod Crash Analyzer"
-description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically."
-verification: "security_reviewed"
-source: "https://github.com/kubernetes/kubernetes"
+title: Kubernetes Pod Crash Analyzer
+description: Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically.
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "CircleCI Orb Debugger"
-description: "Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures."
-verification: "security_reviewed"
-source: "https://github.com/circleci/circleci-docs"
+title: CircleCI Orb Debugger
+description: Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures.
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 

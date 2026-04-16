@@ -1,17 +1,14 @@
 ---
-title: "Datadog SLO Monitor"
-description: "Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted."
-verification: "security_reviewed"
-source: "https://github.com/DataDog/dd-trace-js"
+title: Datadog SLO Monitor
+description: Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted.
+verification: security_reviewed
+source: https://github.com/DataDog/dd-trace-js
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
+  npm_package: dd-trace
 ---
 
 # Datadog SLO Monitor

@@ -1,14 +1,14 @@
 ---
-title: "GitLab Pipeline DAG Optimizer"
-description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks."
-verification: "security_reviewed"
-source: "https://github.com/gitlabhq/gitlabhq"
+title: GitLab Pipeline DAG Optimizer
+description: Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks.
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 

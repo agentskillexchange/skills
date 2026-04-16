@@ -1,14 +1,14 @@
 ---
-title: "Puppeteer Web Scraper"
-description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
-verification: "security_reviewed"
-source: "https://github.com/puppeteer/puppeteer"
+title: Puppeteer Web Scraper
+description: Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content.
+verification: security_reviewed
+source: https://github.com/puppeteer/puppeteer
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
 ---
 

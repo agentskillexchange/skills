@@ -1,14 +1,14 @@
 ---
-title: "OWASP ZAP Automated Scan Orchestrator"
-description: "Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring."
-verification: "security_reviewed"
-source: "https://github.com/zaproxy/zaproxy"
+title: OWASP ZAP Automated Scan Orchestrator
+description: Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring.
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 

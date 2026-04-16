@@ -1,14 +1,14 @@
 ---
-title: "Terraform State Diagnostics"
-description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
-verification: "security_reviewed"
-source: "https://github.com/hashicorp/terraform"
+title: Terraform State Diagnostics
+description: Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces.
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

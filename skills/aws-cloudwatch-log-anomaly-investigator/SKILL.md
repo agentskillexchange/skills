@@ -1,14 +1,14 @@
 ---
-title: "AWS CloudWatch Log Anomaly Investigator"
-description: "Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API."
-verification: "security_reviewed"
-source: "https://github.com/aws/aws-sdk-js-v3"
+title: AWS CloudWatch Log Anomaly Investigator
+description: Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API.
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 

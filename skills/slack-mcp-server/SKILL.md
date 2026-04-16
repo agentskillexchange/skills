@@ -1,14 +1,14 @@
 ---
-title: "Slack MCP Server"
-description: "Agent access to Slack conversations and workspace workflows."
-verification: "security_reviewed"
-source: "https://github.com/modelcontextprotocol/servers"
+title: Slack MCP Server
+description: Agent access to Slack conversations and workspace workflows.
+verification: security_reviewed
+source: https://github.com/modelcontextprotocol/servers
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 83772
 ---
 

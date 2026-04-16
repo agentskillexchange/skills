@@ -1,15 +1,12 @@
 ---
-title: "SonarQube Gate Checker"
-description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
-verification: "security_reviewed"
-source: "https://github.com/SonarSource/sonarqube"
+title: SonarQube Gate Checker
+description: Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles.
+verification: security_reviewed
+source: https://github.com/SonarSource/sonarqube
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
+- Multi-Framework
 ---
 
 # SonarQube Gate Checker

@@ -1,16 +1,16 @@
 ---
-title: "Changesets Version and Changelog Manager"
-description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
-verification: "security_reviewed"
-source: "https://github.com/changesets/changesets"
+title: Changesets Version and Changelog Manager
+description: Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow.
+verification: security_reviewed
+source: https://github.com/changesets/changesets
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "changesets/changesets"
+  github_repo: changesets/changesets
   github_stars: 11620
-  npm_package: "@changesets/cli"
+  npm_package: '@changesets/cli'
   npm_weekly_downloads: 2785559
 ---
 

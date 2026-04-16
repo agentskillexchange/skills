@@ -1,14 +1,14 @@
 ---
-title: "Tekton Pipeline Resource Optimizer"
-description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
-verification: "security_reviewed"
-source: "https://github.com/tektoncd/pipeline"
+title: Tekton Pipeline Resource Optimizer
+description: Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 

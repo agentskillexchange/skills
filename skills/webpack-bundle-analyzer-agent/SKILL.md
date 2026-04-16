@@ -1,16 +1,16 @@
 ---
-title: "Webpack Bundle Analyzer Agent"
-description: "Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites."
-verification: "security_reviewed"
-source: "https://github.com/webpack/webpack"
+title: Webpack Bundle Analyzer Agent
+description: Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites.
+verification: security_reviewed
+source: https://github.com/webpack/webpack
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "webpack/webpack"
+  github_repo: webpack/webpack
   github_stars: 65837
-  npm_package: "webpack"
+  npm_package: webpack
   npm_weekly_downloads: 44532842
 ---
 

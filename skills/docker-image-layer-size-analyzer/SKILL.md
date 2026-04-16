@@ -1,14 +1,14 @@
 ---
-title: "Docker Image Layer Size Analyzer"
-description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations."
-verification: "security_reviewed"
-source: "https://github.com/moby/moby"
+title: Docker Image Layer Size Analyzer
+description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations.
+verification: security_reviewed
+source: https://github.com/moby/moby
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 

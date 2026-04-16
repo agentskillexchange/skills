@@ -1,14 +1,14 @@
 ---
-title: "Triage pull requests and issues from a keyboard-first terminal queue with gh-dash"
-description: "Use gh-dash when an agent or operator needs assigned pull requests and issue queues in a keyboard-first terminal dashboard instead of bouncing across GitHub tabs."
-verification: "security_reviewed"
-source: "https://github.com/dlvhdr/gh-dash"
+title: Triage pull requests and issues from a keyboard-first terminal queue with gh-dash
+description: Use gh-dash when an agent or operator needs assigned pull requests and issue queues in a keyboard-first terminal dashboard instead of bouncing across GitHub tabs.
+verification: security_reviewed
+source: https://github.com/dlvhdr/gh-dash
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "dlvhdr/gh-dash"
+  github_repo: dlvhdr/gh-dash
   github_stars: 11340
 ---
 

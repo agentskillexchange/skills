@@ -1,14 +1,14 @@
 ---
-title: "Terraform Provider Schema Explorer"
-description: "Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation."
-verification: "security_reviewed"
-source: "https://github.com/hashicorp/terraform"
+title: Terraform Provider Schema Explorer
+description: Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation.
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

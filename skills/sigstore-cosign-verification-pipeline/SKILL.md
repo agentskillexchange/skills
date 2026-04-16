@@ -1,12 +1,12 @@
 ---
-title: "Sigstore Cosign Verification Pipeline"
-description: "Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
+title: Sigstore Cosign Verification Pipeline
+description: Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities.
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
 
 # Sigstore Cosign Verification Pipeline

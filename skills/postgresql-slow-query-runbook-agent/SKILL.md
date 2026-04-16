@@ -1,14 +1,14 @@
 ---
-title: "PostgreSQL Slow Query Runbook"
-description: "Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues."
-verification: "security_reviewed"
-source: "https://www.npmjs.com/package/pg"
+title: PostgreSQL Slow Query Runbook
+description: Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues.
+verification: security_reviewed
+source: https://www.npmjs.com/package/pg
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  npm_package: "pg"
+  npm_package: pg
   npm_weekly_downloads: 23169914
 ---
 

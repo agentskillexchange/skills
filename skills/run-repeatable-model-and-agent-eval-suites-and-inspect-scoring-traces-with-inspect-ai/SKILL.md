@@ -1,15 +1,12 @@
 ---
-title: "Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI"
-description: "Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel."
-verification: "listed"
-source: "https://github.com/UKGovernmentBEIS/inspect_ai"
+title: Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI
+description: Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel.
+verification: listed
+source: https://github.com/UKGovernmentBEIS/inspect_ai
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "ukgovernmentbeis/inspect_ai"
-  github_stars: 1904
+- Multi-Framework
 ---
 
 # Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI
