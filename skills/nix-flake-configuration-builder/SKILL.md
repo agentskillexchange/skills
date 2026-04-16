@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/nix-flake-configuration-builder/"
 category:
   - "Developer Tools"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Nix Flake Configuration Builder

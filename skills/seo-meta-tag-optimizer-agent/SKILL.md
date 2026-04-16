@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # SEO Meta Tag Optimizer

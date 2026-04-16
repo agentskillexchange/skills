@@ -6,7 +6,6 @@ source: "https://agentskillexchange.com/skills/incident-response-playbook-runner
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "MCP"
   - "Multi-Framework"
 ---
 

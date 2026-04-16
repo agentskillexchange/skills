@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-age
 category:
   - "Media & Transcription"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # AssemblyAI Audio Intelligence Agent

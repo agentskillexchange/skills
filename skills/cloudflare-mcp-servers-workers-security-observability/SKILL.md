@@ -6,7 +6,7 @@ source: "https://github.com/cloudflare/mcp-server-cloudflare"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cloudflare/mcp-server-cloudflare"
   github_stars: 3579

@@ -6,7 +6,7 @@ source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AppOmni-Labs/heisenberg-ssc-health-check"
   github_stars: 123

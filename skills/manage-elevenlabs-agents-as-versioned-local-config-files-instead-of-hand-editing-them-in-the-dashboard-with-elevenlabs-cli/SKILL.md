@@ -6,11 +6,11 @@ source: "https://github.com/elevenlabs/cli"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elevenlabs/cli"
   github_stars: 49
-  ase_npm_package: "@elevenlabs/cli"
+  npm_package: "@elevenlabs/cli"
   npm_weekly_downloads: 10433
 ---
 

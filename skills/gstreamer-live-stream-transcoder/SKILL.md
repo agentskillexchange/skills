@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/
 category:
   - "Media & Transcription"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # GStreamer Live Stream Transcoder

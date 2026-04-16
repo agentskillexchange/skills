@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
 category:
   - "Security & Verification"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # TLS Certificate Chain Analyzer

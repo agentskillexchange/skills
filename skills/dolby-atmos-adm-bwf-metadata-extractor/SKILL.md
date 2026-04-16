@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extr
 category:
   - "Media & Transcription"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Dolby Atmos ADM-BWF Metadata Extractor

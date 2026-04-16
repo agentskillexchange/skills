@@ -6,7 +6,7 @@ source: "https://github.com/danielmiessler/fabric"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "danielmiessler/fabric"
   github_stars: 40278

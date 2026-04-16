@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # OpenAPI SDK Generator Pipeline

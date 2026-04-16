@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "getgauge/taiko"
   github_stars: 3666
-  ase_npm_package: "taiko"
+  npm_package: "taiko"
   npm_weekly_downloads: 12342
 ---
 

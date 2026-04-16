@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Hacker News Deep Thread Analyzer

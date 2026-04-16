@@ -6,11 +6,11 @@ source: "https://github.com/asg017/sqlite-vec"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "asg017/sqlite-vec"
   github_stars: 7331
-  ase_npm_package: "sqlite-vec"
+  npm_package: "sqlite-vec"
   npm_weekly_downloads: 1239029
 ---
 

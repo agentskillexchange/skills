@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/woocommerce-rest-order-manager/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # WooCommerce REST Order Manager

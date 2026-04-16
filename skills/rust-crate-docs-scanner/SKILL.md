@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rust-crate-docs-scanner/"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Rust Crate Docs Scanner

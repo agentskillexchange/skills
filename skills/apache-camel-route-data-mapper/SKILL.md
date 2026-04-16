@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Apache Camel Route Data Mapper

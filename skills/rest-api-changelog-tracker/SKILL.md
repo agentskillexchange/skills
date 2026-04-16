@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rest-api-changelog-tracker/"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # REST API Changelog Tracker

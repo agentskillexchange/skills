@@ -6,7 +6,7 @@ source: "https://github.com/nrwl/nx"
 category:
   - "Templates & Workflows"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nrwl/nx"
   github_stars: 28496

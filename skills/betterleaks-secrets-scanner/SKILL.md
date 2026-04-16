@@ -6,7 +6,7 @@ source: "https://github.com/betterleaks/betterleaks"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "betterleaks/betterleaks"
   github_stars: 712

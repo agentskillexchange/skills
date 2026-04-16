@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/figma-design-token-exporter/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Figma Design Token Exporter

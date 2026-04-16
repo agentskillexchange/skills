@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "stryker-mutator/stryker-js"
   github_stars: 2828
-  ase_npm_package: "@stryker-mutator/core"
+  npm_package: "@stryker-mutator/core"
   npm_weekly_downloads: 1537001
 ---
 

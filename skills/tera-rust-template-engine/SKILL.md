@@ -6,7 +6,7 @@ source: "https://github.com/Keats/tera"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "keats/tera"
   github_stars: 4183

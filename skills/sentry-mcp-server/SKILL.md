@@ -6,11 +6,11 @@ source: "https://github.com/getsentry/sentry-mcp"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 636
-  ase_npm_package: "@sentry/mcp-server"
+  npm_package: "@sentry/mcp-server"
   npm_weekly_downloads: 41381
 ---
 

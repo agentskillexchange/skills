@@ -6,11 +6,11 @@ source: "https://github.com/jsdoc/jsdoc"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jsdoc/jsdoc"
   github_stars: 15426
-  ase_npm_package: "jsdoc"
+  npm_package: "jsdoc"
   npm_weekly_downloads: 2663272
 ---
 

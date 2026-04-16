@@ -6,7 +6,7 @@ source: "https://git.sr.ht/~rjarry/aerc"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch

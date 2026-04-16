@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Tesseract OCR Document Extractor

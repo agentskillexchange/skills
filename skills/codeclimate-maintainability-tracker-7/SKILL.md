@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/codeclimate-maintainability-track
 category:
   - "Code Quality & Review"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # CodeClimate Maintainability Tracker

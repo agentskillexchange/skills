@@ -6,7 +6,7 @@ source: "https://github.com/WordPress/WordPress"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "WordPress/WordPress"
   github_stars: 21002

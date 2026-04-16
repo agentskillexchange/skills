@@ -6,7 +6,7 @@ source: "https://github.com/meilisearch/meilisearch-mcp"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "meilisearch/meilisearch-mcp"
   github_stars: 181

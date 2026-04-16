@@ -6,7 +6,7 @@ source: "https://github.com/elastic/elasticsearch"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76518

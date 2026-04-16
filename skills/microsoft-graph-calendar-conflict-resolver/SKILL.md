@@ -6,7 +6,7 @@ source: "https://learn.microsoft.com/en-us/graph/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Microsoft Graph Calendar Conflict Resolver

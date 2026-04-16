@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-mana
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions CI/CD Pipeline Manager

@@ -6,7 +6,7 @@ source: "https://github.com/storybookjs/storybook"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "storybookjs/storybook"
   github_stars: 89703

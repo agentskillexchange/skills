@@ -6,7 +6,7 @@ source: "https://github.com/watchexec/watchexec"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "watchexec/watchexec"
   github_stars: 6882

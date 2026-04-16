@@ -6,7 +6,7 @@ source: "https://github.com/unkeyed/unkey"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "unkeyed/unkey"
   github_stars: 5224

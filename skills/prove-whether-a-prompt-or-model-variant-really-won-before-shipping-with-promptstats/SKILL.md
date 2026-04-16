@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ianarawjo/promptstats"
   github_stars: 97
-  ase_npm_package: "promptstats"
+  npm_package: "promptstats"
   npm_weekly_downloads: 678
 ---
 

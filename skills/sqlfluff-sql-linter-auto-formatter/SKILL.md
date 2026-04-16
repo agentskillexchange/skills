@@ -6,9 +6,7 @@ source: "https://github.com/sqlfluff/sqlfluff"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
-  - "Codex"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sqlfluff/sqlfluff"
   github_stars: 9635

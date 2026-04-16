@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Ahrefs Content Gap Finder

@@ -6,7 +6,7 @@ source: "https://github.com/containers/skopeo"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "containers/skopeo"
   github_stars: 10665

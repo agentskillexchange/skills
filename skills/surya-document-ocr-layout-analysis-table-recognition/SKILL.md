@@ -6,7 +6,7 @@ source: "https://github.com/VikParuchuri/surya"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vikparuchuri/surya"
   github_stars: 19530

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Google Calendar Conflict Resolver

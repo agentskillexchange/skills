@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # QuickBooks Online Invoice Reconciliation Agent

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
 category:
   - "Research & Scraping"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Browserless Scraping Agent

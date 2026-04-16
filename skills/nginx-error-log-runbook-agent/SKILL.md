@@ -6,7 +6,7 @@ source: "https://github.com/nginx/nginx"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

@@ -6,7 +6,7 @@ source: "https://github.com/opendatalab/MinerU"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opendatalab/MinerU"
   github_stars: 57814

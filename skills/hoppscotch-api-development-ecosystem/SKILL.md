@@ -6,7 +6,7 @@ source: "https://github.com/hoppscotch/hoppscotch"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hoppscotch/hoppscotch"
   github_stars: 78738

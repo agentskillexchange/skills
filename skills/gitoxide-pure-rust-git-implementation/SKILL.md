@@ -6,7 +6,7 @@ source: "https://github.com/GitoxideLabs/gitoxide"
 category:
   - "Developer Tools"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "GitoxideLabs/gitoxide"
   github_stars: 11102

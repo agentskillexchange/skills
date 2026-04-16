@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Plaid Financial Data Connector

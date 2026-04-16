@@ -6,7 +6,7 @@ source: "https://github.com/quarylabs/sqruff"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "quarylabs/sqruff"
   github_stars: 1268

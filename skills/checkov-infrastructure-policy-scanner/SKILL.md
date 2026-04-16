@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/checkov-infrastructure-policy-sca
 category:
   - "Security & Verification"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Checkov Infrastructure Policy Scanner

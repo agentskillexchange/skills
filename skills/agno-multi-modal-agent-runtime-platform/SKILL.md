@@ -6,7 +6,7 @@ source: "https://github.com/agno-agi/agno"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agno-agi/agno"
   github_stars: 39050

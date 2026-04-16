@@ -6,11 +6,11 @@ source: "https://github.com/openai/openai-node"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10814
-  ase_npm_package: "openai"
+  npm_package: "openai"
   npm_weekly_downloads: 18107622
 ---
 

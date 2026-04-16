@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Buf Protobuf Linter

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/serpapi-search-aggregator/"
 category:
   - "Research & Scraping"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # SerpAPI Search Aggregator

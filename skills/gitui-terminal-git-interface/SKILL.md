@@ -6,7 +6,7 @@ source: "https://github.com/gitui-org/gitui"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gitui-org/gitui"
   github_stars: 21683

@@ -6,11 +6,11 @@ source: "https://github.com/postmanlabs/newman"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7205
-  ase_npm_package: "newman"
+  npm_package: "newman"
   npm_weekly_downloads: 798564
 ---
 

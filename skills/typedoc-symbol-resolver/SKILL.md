@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/typedoc-symbol-resolver/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # TypeDoc Symbol Resolver

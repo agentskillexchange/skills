@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intell
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Camelot Advanced PDF Table Intelligence

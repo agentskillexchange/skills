@@ -6,7 +6,7 @@ source: "https://github.com/dbcli/pgcli"
 category:
   - "Developer Tools"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dbcli/pgcli"
   github_stars: 13092

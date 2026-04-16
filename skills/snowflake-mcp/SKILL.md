@@ -6,7 +6,7 @@ source: "https://pypi.org/project/snowflake-connector-python/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Snowflake MCP

@@ -6,7 +6,7 @@ source: "https://github.com/moby/moby"
 category:
   - "Templates & Workflows"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

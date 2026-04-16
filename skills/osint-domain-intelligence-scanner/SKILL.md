@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/osint-domain-intelligence-scanner
 category:
   - "Research & Scraping"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # OSINT Domain Intelligence Scanner

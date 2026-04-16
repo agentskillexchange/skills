@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-serve
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Validator & Mock Server

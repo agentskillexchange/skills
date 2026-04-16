@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pypi-package-inspector/"
 category:
   - "Library & API Reference"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # PyPI Package Inspector

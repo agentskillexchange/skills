@@ -6,7 +6,7 @@ source: "https://github.com/dreadnode/agent-lens"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dreadnode/agent-lens"
   github_stars: 102

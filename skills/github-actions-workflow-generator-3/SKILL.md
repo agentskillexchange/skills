@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-workflow-generator
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Workflow Generator

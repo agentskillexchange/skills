@@ -6,7 +6,7 @@ source: "https://github.com/go-rod/rod"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "go-rod/rod"
   github_stars: 6830

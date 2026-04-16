@@ -6,7 +6,7 @@ source: "https://github.com/starship/starship"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "starship/starship"
   github_stars: 55675

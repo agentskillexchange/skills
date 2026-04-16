@@ -6,7 +6,7 @@ source: "https://github.com/rive-app/rive-react"
 category:
   - "Image & Creative Automation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rive-app/rive-react"
   github_stars: 1111

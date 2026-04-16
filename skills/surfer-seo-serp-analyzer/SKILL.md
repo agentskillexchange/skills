@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Surfer SEO SERP Analyzer

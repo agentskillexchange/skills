@@ -6,7 +6,7 @@ source: "https://github.com/scrapy/scrapy"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314

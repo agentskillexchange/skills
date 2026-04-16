@@ -6,7 +6,7 @@ source: "https://www.sec.gov/edgar/searchedgar/companysearch"
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # SEC EDGAR Financial Filing Parser

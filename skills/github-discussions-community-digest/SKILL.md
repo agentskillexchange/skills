@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-discussions-community-dige
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # GitHub Discussions Community Digest

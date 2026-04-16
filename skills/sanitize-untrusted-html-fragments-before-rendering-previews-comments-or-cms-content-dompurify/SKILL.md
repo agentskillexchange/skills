@@ -6,7 +6,7 @@ source: "https://github.com/cure53/DOMPurify"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cure53/DOMPurify"
   github_stars: 16854

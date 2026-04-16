@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/json-to-avro-schema-transformer/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # JSON-to-Avro Schema Transformer

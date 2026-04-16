@@ -6,7 +6,7 @@ source: "https://github.com/prompt-security/clawsec"
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
   github_stars: 900

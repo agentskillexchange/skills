@@ -6,7 +6,6 @@ source: "https://agentskillexchange.com/skills/devcontainer-specification-builde
 category:
   - "Developer Tools"
 framework:
-  - "Claude Agents"
   - "Multi-Framework"
 ---
 

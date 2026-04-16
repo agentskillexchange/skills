@@ -6,7 +6,7 @@ source: "https://www.advancedcustomfields.com/resources/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Advanced Custom Fields REST Schema Mapper

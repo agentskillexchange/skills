@@ -6,7 +6,7 @@ source: "https://developers.notion.com/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Notion Workspace Sync Engine

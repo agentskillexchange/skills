@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
 category:
   - "Security & Verification"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Sigstore Cosign Verifier

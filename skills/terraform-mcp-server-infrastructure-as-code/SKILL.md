@@ -6,7 +6,7 @@ source: "https://github.com/hashicorp/terraform-mcp-server"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hashicorp/terraform-mcp-server"
   github_stars: 1298

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/incident-postmortem-generator/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Incident Postmortem Generator

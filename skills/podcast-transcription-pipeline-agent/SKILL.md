@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-ag
 category:
   - "Media & Transcription"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Podcast Transcription Pipeline

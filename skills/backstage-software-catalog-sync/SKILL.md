@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Backstage Software Catalog Sync

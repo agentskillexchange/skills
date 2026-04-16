@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "es617/claude-replay"
   github_stars: 621
-  ase_npm_package: "claude-replay"
+  npm_package: "claude-replay"
   npm_weekly_downloads: 4870
 ---
 

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-ap
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # SEMrush Keyword Research Agent

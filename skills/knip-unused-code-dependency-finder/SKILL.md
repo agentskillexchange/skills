@@ -6,11 +6,11 @@ source: "https://github.com/webpro-nl/knip"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "webpro-nl/knip"
   github_stars: 10806
-  ase_npm_package: "knip"
+  npm_package: "knip"
   npm_weekly_downloads: 6061385
 ---
 

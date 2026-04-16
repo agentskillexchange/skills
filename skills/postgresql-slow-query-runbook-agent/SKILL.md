@@ -6,9 +6,9 @@ source: "https://www.npmjs.com/package/pg"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
-  ase_npm_package: "pg"
+  npm_package: "pg"
   npm_weekly_downloads: 23169914
 ---
 

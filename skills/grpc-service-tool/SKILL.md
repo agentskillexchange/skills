@@ -6,7 +6,7 @@ source: "https://github.com/grpc/grpc-node"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grpc/grpc-node"
   github_stars: 4822

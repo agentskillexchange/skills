@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/
 category:
   - "WordPress & CMS"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Gutenberg Block Scaffolder

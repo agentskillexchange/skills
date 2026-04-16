@@ -6,7 +6,7 @@ source: "https://developers.google.com/calendar/api"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Google Calendar FreeBusy Scheduler Bridge

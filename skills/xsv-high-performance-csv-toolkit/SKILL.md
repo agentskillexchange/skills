@@ -6,7 +6,7 @@ source: "https://github.com/BurntSushi/xsv"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "BurntSushi/xsv"
   github_stars: 10758

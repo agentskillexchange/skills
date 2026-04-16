@@ -6,7 +6,7 @@ source: "https://developers.deepgram.com/"
 category:
   - "Media & Transcription"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Deepgram Nova STT Pipeline

@@ -6,7 +6,7 @@ source: "https://github.com/atuinsh/atuin"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "atuinsh/atuin"
   github_stars: 28925

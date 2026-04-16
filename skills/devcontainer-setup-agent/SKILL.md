@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/devcontainer-setup-agent/"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Devcontainer Setup Agent

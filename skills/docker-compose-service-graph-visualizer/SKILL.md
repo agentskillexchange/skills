@@ -6,7 +6,6 @@ source: "https://github.com/docker/compose"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docker/compose"

@@ -6,7 +6,7 @@ source: "https://github.com/adnanh/webhook"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "adnanh/webhook"
   github_stars: 11718

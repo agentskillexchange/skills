@@ -6,7 +6,7 @@ source: "https://github.com/mifi/lossless-cut"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mifi/lossless-cut"
   github_stars: 39480

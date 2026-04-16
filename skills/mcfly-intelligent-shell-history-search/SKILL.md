@@ -6,7 +6,7 @@ source: "https://github.com/cantino/mcfly"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cantino/mcfly"
   github_stars: 7657

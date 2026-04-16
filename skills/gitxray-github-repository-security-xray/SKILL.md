@@ -6,7 +6,7 @@ source: "https://github.com/kulkansecurity/gitxray"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kulkansecurity/gitxray"
   github_stars: 174

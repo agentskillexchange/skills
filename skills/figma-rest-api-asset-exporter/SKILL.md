@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Figma REST API Asset Exporter

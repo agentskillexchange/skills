@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Photoshop Batch Action Automator

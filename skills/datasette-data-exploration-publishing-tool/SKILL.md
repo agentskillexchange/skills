@@ -6,7 +6,7 @@ source: "https://github.com/simonw/datasette"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/datasette"
   github_stars: 10894

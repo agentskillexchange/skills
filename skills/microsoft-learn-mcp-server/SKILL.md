@@ -6,7 +6,7 @@ source: "https://github.com/MicrosoftDocs/mcp"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "MicrosoftDocs/mcp"
   github_stars: 1536

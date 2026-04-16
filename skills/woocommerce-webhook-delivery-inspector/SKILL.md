@@ -6,7 +6,7 @@ source: "https://github.com/woocommerce/woocommerce"
 category:
   - "WordPress & CMS"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10231

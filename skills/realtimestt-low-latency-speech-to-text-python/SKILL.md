@@ -6,7 +6,7 @@ source: "https://github.com/KoljaB/RealtimeSTT"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "koljab/realtimestt"
   github_stars: 9615

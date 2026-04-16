@@ -6,7 +6,7 @@ source: "https://elevenlabs.io/docs/overview"
 category:
   - "Media & Transcription"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # ElevenLabs Voice Cloning Agent

@@ -6,7 +6,7 @@ source: "https://github.com/docusealco/docuseal"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docusealco/docuseal"
   github_stars: 11695

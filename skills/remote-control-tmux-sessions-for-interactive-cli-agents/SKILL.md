@@ -6,10 +6,7 @@ source: "https://github.com/openclaw/skills/tree/main/skills/steipete/tmux"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/skills"
-  github_stars: 4086
+  - "Multi-Framework"
 ---
 
 # Remote-control tmux sessions for interactive CLI agents

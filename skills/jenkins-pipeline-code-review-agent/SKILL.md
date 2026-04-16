@@ -6,7 +6,7 @@ source: "https://github.com/jenkinsci/jenkins"
 category:
   - "Code Quality & Review"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

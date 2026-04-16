@@ -6,7 +6,7 @@ source: "https://github.com/gorse-io/gorse"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gorse-io/gorse"
   github_stars: 9600

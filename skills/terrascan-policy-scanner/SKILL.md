@@ -6,7 +6,7 @@ source: "https://github.com/tenable/terrascan"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tenable/terrascan"
   github_stars: 5209

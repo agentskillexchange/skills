@@ -6,7 +6,7 @@ source: "https://github.com/brave/brave-search-mcp-server"
 category:
   - "Research & Scraping"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "brave/brave-search-mcp-server"
   github_stars: 854

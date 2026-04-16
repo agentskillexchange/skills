@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cron-job-manager/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Cron Job Manager

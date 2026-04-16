@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-sui
 category:
   - "Image & Creative Automation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Midjourney Prompt Engineering Suite

@@ -6,7 +6,7 @@ source: "https://github.com/adefossez/demucs"
 category:
   - "Media & Transcription"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507

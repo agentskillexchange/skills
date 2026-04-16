@@ -6,11 +6,11 @@ source: "https://github.com/sanity-io/sanity"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sanity-io/sanity"
   github_stars: 6041
-  ase_npm_package: "sanity"
+  npm_package: "sanity"
   npm_weekly_downloads: 413166
 ---
 

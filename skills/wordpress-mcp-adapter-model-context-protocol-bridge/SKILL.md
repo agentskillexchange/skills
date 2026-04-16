@@ -6,7 +6,7 @@ source: "https://github.com/WordPress/mcp-adapter"
 category:
   - "WordPress & CMS"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "WordPress/mcp-adapter"
   github_stars: 792

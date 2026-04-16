@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Surfer SEO Content Optimizer

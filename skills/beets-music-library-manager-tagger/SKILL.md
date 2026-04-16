@@ -6,7 +6,7 @@ source: "https://github.com/beetbox/beets"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "beetbox/beets"
   github_stars: 14901

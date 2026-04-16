@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-docstring-extractor/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Python Docstring Extractor

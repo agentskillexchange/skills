@@ -6,7 +6,7 @@ source: "https://github.com/moby/moby"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

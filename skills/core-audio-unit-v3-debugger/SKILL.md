@@ -6,7 +6,7 @@ source: "https://developer.apple.com/documentation/audiotoolbox/audio_unit_v3_pl
 category:
   - "Media & Transcription"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Core Audio Unit v3 Debugger

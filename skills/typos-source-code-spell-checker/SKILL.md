@@ -6,7 +6,7 @@ source: "https://github.com/crate-ci/typos"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "crate-ci/typos"
   github_stars: 3864

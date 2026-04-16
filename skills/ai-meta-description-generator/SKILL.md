@@ -6,7 +6,7 @@ source: "https://platform.openai.com/docs/api-reference"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # AI Meta Description Generator

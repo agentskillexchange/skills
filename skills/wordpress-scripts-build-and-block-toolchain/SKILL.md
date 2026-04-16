@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  ase_npm_package: "@wordpress/scripts"
+  npm_package: "@wordpress/scripts"
   npm_weekly_downloads: 96219
 ---
 

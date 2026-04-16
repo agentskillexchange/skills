@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agen
 category:
   - "Media & Transcription"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Audio Fingerprint Identifier

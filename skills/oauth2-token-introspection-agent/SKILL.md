@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # OAuth2 Token Introspection Agent

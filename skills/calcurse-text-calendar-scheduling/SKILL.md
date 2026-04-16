@@ -6,7 +6,7 @@ source: "https://github.com/lfos/calcurse"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lfos/calcurse"
   github_stars: 1235

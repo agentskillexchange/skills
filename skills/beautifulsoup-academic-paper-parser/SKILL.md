@@ -6,7 +6,7 @@ source: "https://pypi.org/project/beautifulsoup4/"
 category:
   - "Research & Scraping"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Beautiful Soup Academic Paper Parser

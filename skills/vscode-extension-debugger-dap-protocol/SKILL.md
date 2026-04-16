@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/vscode-extension-debugger-dap-pro
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # VS Code Extension Debugger

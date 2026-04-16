@@ -6,7 +6,7 @@ source: "https://docs.runpod.io/serverless/overview"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # RunPod Serverless GPU Inference

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Kubernetes CrashLoopBackOff Diagnoser

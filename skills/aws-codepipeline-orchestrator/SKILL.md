@@ -6,7 +6,7 @@ source: "https://github.com/aws/aws-sdk-js-v3"
 category:
   - "CI/CD Integrations"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607

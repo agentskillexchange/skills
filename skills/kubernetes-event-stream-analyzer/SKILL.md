@@ -6,7 +6,6 @@ source: "https://github.com/kubernetes/kubernetes"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Gemini"
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"

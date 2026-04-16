@@ -6,7 +6,7 @@ source: "https://github.com/astral-sh/ty"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "astral-sh/ty"
   github_stars: 18132

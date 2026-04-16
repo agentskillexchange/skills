@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # CSV Schema Validator & Auto-Fixer

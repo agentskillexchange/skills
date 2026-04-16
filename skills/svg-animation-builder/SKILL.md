@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/svg-animation-builder/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # SVG Animation Builder

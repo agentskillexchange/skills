@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/linear-issue-manager/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Linear Issue Manager

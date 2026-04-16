@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/yeoman-generator-builder/"
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Yeoman Generator Builder

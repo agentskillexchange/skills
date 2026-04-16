@@ -6,7 +6,7 @@ source: "https://github.com/WordPress/abilities-api"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "WordPress/abilities-api"
   github_stars: 198

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ueberdosis/tiptap"
   github_stars: 35948
-  ase_npm_package: "tiptap"
+  npm_package: "tiptap"
   npm_weekly_downloads: 45635
 ---
 

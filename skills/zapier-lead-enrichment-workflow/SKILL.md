@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Zapier Multi-Step Lead Enrichment Workflow

@@ -6,7 +6,7 @@ source: "https://github.com/prometheus/prometheus"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

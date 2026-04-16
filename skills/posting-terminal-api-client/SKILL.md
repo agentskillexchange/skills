@@ -6,7 +6,7 @@ source: "https://github.com/darrenburns/posting"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "darrenburns/posting"
   github_stars: 11673

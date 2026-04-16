@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # REST API Test Suite Generator

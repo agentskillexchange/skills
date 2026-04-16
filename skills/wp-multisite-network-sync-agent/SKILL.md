@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/"
 category:
   - "WordPress & CMS"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # WP Multisite Network Sync Agent

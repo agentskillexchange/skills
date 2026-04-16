@@ -6,11 +6,11 @@ source: "https://github.com/swagger-api/swagger-ui"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "swagger-api/swagger-ui"
   github_stars: 28756
-  ase_npm_package: "swagger-ui"
+  npm_package: "swagger-ui"
   npm_weekly_downloads: 153143
 ---
 

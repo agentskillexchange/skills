@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/security-audit-skill/"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Security Audit Skill

@@ -6,7 +6,7 @@ source: "https://github.com/falcosecurity/falco"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "falcosecurity/falco"
   github_stars: 8847

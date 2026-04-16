@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/database-migration-validator/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Database Migration Validator

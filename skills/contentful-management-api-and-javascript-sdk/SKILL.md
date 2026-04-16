@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "contentful/contentful-management.js"
   github_stars: 286
-  ase_npm_package: "contentful-management"
+  npm_package: "contentful-management"
   npm_weekly_downloads: 723547
 ---
 

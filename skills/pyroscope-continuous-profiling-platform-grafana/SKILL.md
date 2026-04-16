@@ -6,7 +6,7 @@ source: "https://github.com/grafana/pyroscope"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/pyroscope"
   github_stars: 11341

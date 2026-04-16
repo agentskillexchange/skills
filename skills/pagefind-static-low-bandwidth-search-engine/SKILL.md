@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "pagefind/pagefind"
   github_stars: 5094
-  ase_npm_package: "pagefind"
+  npm_package: "pagefind"
   npm_weekly_downloads: 527840
 ---
 

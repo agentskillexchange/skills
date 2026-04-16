@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2
 category:
   - "Security & Verification"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # SSL Certificate Chain Validator

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pod-crashloop-runbook/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Pod CrashLoop Runbook

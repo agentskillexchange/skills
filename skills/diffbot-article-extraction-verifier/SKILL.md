@@ -6,7 +6,7 @@ source: "https://www.diffbot.com/dev/docs/"
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Diffbot Article Extraction Verifier

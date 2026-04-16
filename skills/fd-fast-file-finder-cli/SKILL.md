@@ -6,7 +6,7 @@ source: "https://github.com/sharkdp/fd"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sharkdp/fd"
   github_stars: 42280

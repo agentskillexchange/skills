@@ -6,7 +6,7 @@ source: "https://github.com/wp-graphql/wp-graphql"
 category:
   - "WordPress & CMS"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql"
   github_stars: 3779

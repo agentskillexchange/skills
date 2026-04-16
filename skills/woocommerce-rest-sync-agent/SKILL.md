@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # WooCommerce REST Sync Agent

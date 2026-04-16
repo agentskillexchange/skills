@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/figma-design-token-extractor-3/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Figma Design Token Extractor

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-pypi-dependency-resolver/"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Python PyPI Dependency Resolver

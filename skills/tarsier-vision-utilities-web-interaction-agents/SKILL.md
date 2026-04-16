@@ -6,7 +6,7 @@ source: "https://github.com/reworkd/tarsier"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "reworkd/tarsier"
   github_stars: 1758

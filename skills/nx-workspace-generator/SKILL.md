@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Nx Workspace Generator

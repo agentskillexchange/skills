@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold-gen
 category:
   - "Templates & Workflows"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Project Scaffold Generator

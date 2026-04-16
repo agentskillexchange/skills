@@ -6,7 +6,7 @@ source: "https://github.com/actions/setup-node"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "actions/setup-node"
   github_stars: 4738

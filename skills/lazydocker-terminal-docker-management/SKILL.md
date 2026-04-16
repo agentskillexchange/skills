@@ -6,7 +6,7 @@ source: "https://github.com/jesseduffield/lazydocker"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jesseduffield/lazydocker"
   github_stars: 50476

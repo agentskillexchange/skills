@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Plop.js Code Generator

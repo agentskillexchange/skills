@@ -6,7 +6,7 @@ source: "https://github.com/zaproxy/zaproxy"
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991

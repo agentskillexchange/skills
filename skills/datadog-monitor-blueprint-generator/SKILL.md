@@ -6,11 +6,11 @@ source: "https://github.com/DataDog/dd-trace-js"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791
-  ase_npm_package: "dd-trace"
+  npm_package: "dd-trace"
   npm_weekly_downloads: 6596660
 ---
 

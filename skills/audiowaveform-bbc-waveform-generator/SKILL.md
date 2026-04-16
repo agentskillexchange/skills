@@ -6,7 +6,7 @@ source: "https://github.com/bbc/audiowaveform"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bbc/audiowaveform"
   github_stars: 2130

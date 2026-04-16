@@ -6,7 +6,7 @@ source: "https://github.com/stoplightio/spectral"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3057

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/internal-link-builder-seo-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Internal Link Builder

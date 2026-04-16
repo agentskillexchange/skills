@@ -6,7 +6,7 @@ source: "https://github.com/dathere/qsv"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3569

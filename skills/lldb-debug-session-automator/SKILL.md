@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/lldb-debug-session-automator/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # LLDB Debug Session Automator

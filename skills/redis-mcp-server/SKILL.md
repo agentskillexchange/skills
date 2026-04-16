@@ -6,7 +6,7 @@ source: "https://github.com/redis/redis"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "redis/redis"
   github_stars: 73815

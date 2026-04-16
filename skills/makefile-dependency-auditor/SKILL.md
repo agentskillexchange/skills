@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
 category:
   - "Developer Tools"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Makefile Dependency Auditor

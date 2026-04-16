@@ -6,7 +6,7 @@ source: "https://github.com/dbt-labs/dbt-mcp"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-mcp"
   github_stars: 526

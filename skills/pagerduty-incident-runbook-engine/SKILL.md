@@ -6,7 +6,7 @@ source: "https://github.com/PagerDuty/pdjs"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
   github_stars: 69

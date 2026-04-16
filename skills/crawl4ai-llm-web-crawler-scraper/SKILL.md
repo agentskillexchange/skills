@@ -6,7 +6,7 @@ source: "https://github.com/unclecode/crawl4ai"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "unclecode/crawl4ai"
   github_stars: 63132

@@ -6,7 +6,7 @@ source: "https://github.com/langfuse/mcp-server-langfuse"
 category:
   - "Templates & Workflows"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "langfuse/mcp-server-langfuse"
   github_stars: 159

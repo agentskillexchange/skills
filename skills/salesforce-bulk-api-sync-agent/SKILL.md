@@ -6,11 +6,11 @@ source: "https://github.com/jsforce/jsforce"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
   github_stars: 1453
-  ase_npm_package: "jsforce"
+  npm_package: "jsforce"
   npm_weekly_downloads: 936641
 ---
 

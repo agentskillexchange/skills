@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/academic-paper-citation-network-m
 category:
   - "Research & Scraping"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Academic Paper Citation Network Mapper

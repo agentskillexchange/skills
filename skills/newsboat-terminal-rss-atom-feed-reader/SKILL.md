@@ -6,7 +6,7 @@ source: "https://github.com/newsboat/newsboat"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "newsboat/newsboat"
   github_stars: 3750

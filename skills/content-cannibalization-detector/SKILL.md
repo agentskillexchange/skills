@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/content-cannibalization-detector/
 category:
   - "Content Writing & SEO"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Content Cannibalization Detector

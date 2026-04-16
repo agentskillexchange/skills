@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "bnjbvr/cargo-machete"
   github_stars: 1280
-  ase_npm_package: "cargo-machete"
+  npm_package: "cargo-machete"
   npm_weekly_downloads: 2073590
 ---
 

@@ -6,7 +6,7 @@ source: "https://github.com/biomejs/biome"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "biomejs/biome"
   github_stars: 24293

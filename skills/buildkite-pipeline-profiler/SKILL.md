@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
 category:
   - "CI/CD Integrations"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Buildkite Pipeline Profiler

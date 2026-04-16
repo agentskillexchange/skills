@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Pylint Baseline Manager

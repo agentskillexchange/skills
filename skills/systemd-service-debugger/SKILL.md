@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/systemd-service-debugger/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Systemd Service Debugger

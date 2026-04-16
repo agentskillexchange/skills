@@ -6,7 +6,7 @@ source: "https://github.com/step-security/harden-runner"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "step-security/harden-runner"
   github_stars: 1055

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Yeoman Workflow Orchestrator

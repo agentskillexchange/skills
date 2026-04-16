@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cyclonedx-sbom-generator/"
 category:
   - "Security & Verification"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # CycloneDX SBOM Generator

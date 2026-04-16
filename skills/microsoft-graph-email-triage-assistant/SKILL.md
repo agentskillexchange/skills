@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-assi
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Microsoft Graph Email Triage Assistant

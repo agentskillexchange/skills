@@ -6,11 +6,11 @@ source: "https://github.com/slackapi/bolt-js"
 category:
   - "Integrations & Connectors"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2900
-  ase_npm_package: "@slack/bolt"
+  npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
 ---
 

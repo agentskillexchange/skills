@@ -6,10 +6,7 @@ source: "https://github.com/openclaw/openclaw/tree/main/skills/weather"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/openclaw"
-  github_stars: 356821
+  - "Multi-Framework"
 ---
 
 # Check current weather and short forecasts for planning

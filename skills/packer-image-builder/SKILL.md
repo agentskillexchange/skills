@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/packer-image-builder/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Packer Image Builder

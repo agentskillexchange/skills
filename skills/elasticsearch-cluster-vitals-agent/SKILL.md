@@ -6,7 +6,7 @@ source: "https://github.com/elastic/elasticsearch"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76475

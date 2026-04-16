@@ -6,7 +6,7 @@ source: "https://github.com/PrefectHQ/fastmcp"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "PrefectHQ/fastmcp"
   github_stars: 24192

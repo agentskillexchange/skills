@@ -6,8 +6,7 @@ source: "https://github.com/great-expectations/great_expectations"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "great-expectations/great_expectations"
   github_stars: 11321

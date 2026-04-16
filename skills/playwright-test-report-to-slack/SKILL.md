@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/playwright-test-report-to-slack/"
 category:
   - "CI/CD Integrations"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Playwright Test Report to Slack

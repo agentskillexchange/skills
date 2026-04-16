@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/google-calendar-conflict-detector
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Google Calendar Conflict Detector

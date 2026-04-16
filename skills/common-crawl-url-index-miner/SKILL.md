@@ -6,7 +6,7 @@ source: "https://github.com/commoncrawl/cc-index-table"
 category:
   - "Research & Scraping"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "commoncrawl/cc-index-table"
   github_stars: 127

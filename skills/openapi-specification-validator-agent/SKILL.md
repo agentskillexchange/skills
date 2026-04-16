@@ -6,11 +6,11 @@ source: "https://github.com/APIDevTools/swagger-parser"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-parser"
   github_stars: 1194
-  ase_npm_package: "@apidevtools/swagger-parser"
+  npm_package: "@apidevtools/swagger-parser"
   npm_weekly_downloads: 4282678
 ---
 

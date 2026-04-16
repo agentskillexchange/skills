@@ -6,11 +6,11 @@ source: "https://github.com/discordjs/discord.js"
 category:
   - "Security & Verification"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "discordjs/discord.js"
   github_stars: 26668
-  ase_npm_package: "discord.js"
+  npm_package: "discord.js"
   npm_weekly_downloads: 563530
 ---
 

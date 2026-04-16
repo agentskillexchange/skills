@@ -6,7 +6,7 @@ source: "https://github.com/openai/whisper"
 category:
   - "Media & Transcription"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 97775

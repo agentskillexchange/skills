@@ -6,11 +6,11 @@ source: "https://github.com/payloadcms/payload"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
-  ase_npm_package: "payload"
+  npm_package: "payload"
   npm_weekly_downloads: 306473
 ---
 

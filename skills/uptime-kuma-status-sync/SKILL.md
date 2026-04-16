@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Uptime Kuma Status Sync

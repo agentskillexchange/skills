@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/container-runtime-security-monito
 category:
   - "Security & Verification"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Container Runtime Security Monitor

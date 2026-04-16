@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Todoist GTD Workflow Automator

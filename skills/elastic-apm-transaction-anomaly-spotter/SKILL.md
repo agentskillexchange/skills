@@ -6,7 +6,7 @@ source: "https://github.com/elastic/apm-server"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elastic/apm-server"
   github_stars: 1273

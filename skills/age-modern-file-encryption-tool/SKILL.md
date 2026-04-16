@@ -6,7 +6,7 @@ source: "https://github.com/FiloSottile/age"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FiloSottile/age"
   github_stars: 21824

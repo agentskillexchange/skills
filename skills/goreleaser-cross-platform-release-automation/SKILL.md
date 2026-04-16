@@ -6,7 +6,7 @@ source: "https://github.com/goreleaser/goreleaser"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "goreleaser/goreleaser"
   github_stars: 15686

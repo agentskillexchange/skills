@@ -6,7 +6,7 @@ source: "https://ghost.org/docs/admin-api/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Ghost Admin API Headless Publishing and CMS Automation

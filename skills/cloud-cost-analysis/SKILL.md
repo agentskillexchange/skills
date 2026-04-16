@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloud-cost-analysis/"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Cloud Cost Analysis

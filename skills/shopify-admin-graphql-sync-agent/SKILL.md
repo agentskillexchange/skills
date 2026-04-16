@@ -6,11 +6,11 @@ source: "https://github.com/Shopify/shopify-api-js"
 category:
   - "Integrations & Connectors"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Shopify/shopify-api-js"
   github_stars: 959
-  ase_npm_package: "@shopify/shopify-api"
+  npm_package: "@shopify/shopify-api"
   npm_weekly_downloads: 325451
 ---
 

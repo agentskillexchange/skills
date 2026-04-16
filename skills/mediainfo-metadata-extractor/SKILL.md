@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/mediainfo-metadata-extractor/"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # MediaInfo Metadata Extractor

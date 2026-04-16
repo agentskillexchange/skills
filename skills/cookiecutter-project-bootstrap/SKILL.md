@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/"
 category:
   - "Templates & Workflows"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Project Bootstrap

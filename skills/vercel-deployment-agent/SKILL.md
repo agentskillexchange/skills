@@ -6,11 +6,11 @@ source: "https://github.com/vercel/vercel"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel/vercel"
   github_stars: 15296
-  ase_npm_package: "vercel"
+  npm_package: "vercel"
   npm_weekly_downloads: 2351487
 ---
 

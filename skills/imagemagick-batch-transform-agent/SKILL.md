@@ -6,7 +6,7 @@ source: "https://github.com/ImageMagick/ImageMagick"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "imagemagick/imagemagick"
   github_stars: 16152

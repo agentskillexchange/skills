@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnost
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # AWS CloudFormation Stack Diagnostics

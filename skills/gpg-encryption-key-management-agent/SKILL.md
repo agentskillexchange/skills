@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gpg-encryption-key-management-age
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GPG Encryption and Key Management Agent

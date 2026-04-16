@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # jq Pipeline Builder Agent

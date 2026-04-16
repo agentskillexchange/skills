@@ -6,11 +6,11 @@ source: "https://github.com/google/zx"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/zx"
   github_stars: 45324
-  ase_npm_package: "zx"
+  npm_package: "zx"
   npm_weekly_downloads: 1730472
 ---
 

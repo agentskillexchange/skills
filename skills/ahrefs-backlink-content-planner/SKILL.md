@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Ahrefs Backlink Content Planner

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-workflow-composer-
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Workflow Composer

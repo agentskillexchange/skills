@@ -6,7 +6,7 @@ source: "https://github.com/sigstore/cosign"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5776

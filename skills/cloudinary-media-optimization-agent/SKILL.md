@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloudinary-media-optimization-age
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Cloudinary Media Optimization Agent

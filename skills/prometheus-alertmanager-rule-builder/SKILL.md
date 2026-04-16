@@ -6,7 +6,7 @@ source: "https://github.com/prometheus/prometheus"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

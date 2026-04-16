@@ -6,7 +6,7 @@ source: "https://github.com/PagerDuty/pdjs"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
   github_stars: 69

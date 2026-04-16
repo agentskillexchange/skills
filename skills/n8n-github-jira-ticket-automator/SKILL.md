@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/
 category:
   - "Developer Tools"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # n8n GitHub Issue-to-Jira Ticket Automator

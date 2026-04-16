@@ -6,7 +6,7 @@ source: "https://github.com/nylas/nylas-python"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nylas/nylas-python"
   github_stars: 106

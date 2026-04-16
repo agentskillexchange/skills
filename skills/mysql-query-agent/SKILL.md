@@ -6,11 +6,11 @@ source: "https://github.com/sidorares/node-mysql2"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sidorares/node-mysql2"
   github_stars: 4355
-  ase_npm_package: "mysql2"
+  npm_package: "mysql2"
   npm_weekly_downloads: 8891567
 ---
 

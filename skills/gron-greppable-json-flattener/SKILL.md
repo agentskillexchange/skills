@@ -6,7 +6,7 @@ source: "https://github.com/tomnomnom/gron"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tomnomnom/gron"
   github_stars: 14413

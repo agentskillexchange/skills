@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-project-builder/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Project Builder

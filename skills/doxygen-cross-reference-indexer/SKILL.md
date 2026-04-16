@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
 category:
   - "Library & API Reference"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Doxygen Cross-Reference Indexer

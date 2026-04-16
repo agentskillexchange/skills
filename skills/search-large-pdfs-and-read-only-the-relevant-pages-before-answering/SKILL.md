@@ -6,7 +6,7 @@ source: "https://github.com/jztan/pdf-mcp"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jztan/pdf-mcp"
   github_stars: 17

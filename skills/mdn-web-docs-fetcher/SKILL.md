@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # MDN Web Docs Fetcher

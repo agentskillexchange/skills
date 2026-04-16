@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer-
 category:
   - "Library & API Reference"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Rust Crate Documentation Indexer

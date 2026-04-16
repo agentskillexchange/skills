@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # NPM Package Auditor

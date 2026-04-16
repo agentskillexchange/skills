@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # IMAP Inbox Triage Agent

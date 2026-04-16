@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pdf-table-extraction-camelot/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # PDF Table Extraction with Camelot

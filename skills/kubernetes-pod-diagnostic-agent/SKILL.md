@@ -6,7 +6,7 @@ source: "https://github.com/kubernetes/kubernetes"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

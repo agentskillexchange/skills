@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Jinja2 Template Engine

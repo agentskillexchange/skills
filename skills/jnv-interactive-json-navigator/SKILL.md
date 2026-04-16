@@ -6,7 +6,7 @@ source: "https://github.com/ynqa/jnv"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ynqa/jnv"
   github_stars: 5979

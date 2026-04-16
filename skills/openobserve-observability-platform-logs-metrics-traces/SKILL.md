@@ -6,7 +6,7 @@ source: "https://github.com/openobserve/openobserve"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openobserve/openobserve"
   github_stars: 18477

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # NPM Package Explorer

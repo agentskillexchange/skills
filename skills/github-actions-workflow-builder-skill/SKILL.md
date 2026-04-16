@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-s
 category:
   - "CI/CD Integrations"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Workflow Builder

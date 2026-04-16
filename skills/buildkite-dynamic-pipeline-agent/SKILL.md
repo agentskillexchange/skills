@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/
 category:
   - "CI/CD Integrations"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Buildkite Dynamic Pipeline Agent

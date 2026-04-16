@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/fly-io-deployment-helper/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Fly.io Deployment Helper

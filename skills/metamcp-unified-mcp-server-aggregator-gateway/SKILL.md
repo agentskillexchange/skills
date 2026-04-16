@@ -6,7 +6,7 @@ source: "https://github.com/metatool-ai/metamcp"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "metatool-ai/metamcp"
   github_stars: 2175

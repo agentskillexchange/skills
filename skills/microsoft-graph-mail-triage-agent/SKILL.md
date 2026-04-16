@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Microsoft Graph Mail Triage Agent

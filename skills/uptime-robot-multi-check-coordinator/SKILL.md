@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordina
 category:
   - "Monitoring & Alerts"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Uptime Robot Multi-Check Coordinator

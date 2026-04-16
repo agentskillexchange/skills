@@ -6,7 +6,7 @@ source: "https://github.com/serpapi/google-search-results-python"
 category:
   - "Research & Scraping"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "serpapi/google-search-results-python"
   github_stars: 734

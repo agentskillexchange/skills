@@ -6,7 +6,7 @@ source: "https://github.com/vale-cli/vale"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vale-cli/vale"
   github_stars: 5316

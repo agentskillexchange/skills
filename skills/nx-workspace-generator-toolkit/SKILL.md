@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Nx Workspace Generator Toolkit

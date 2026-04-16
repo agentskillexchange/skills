@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Python Type Coverage Analyzer

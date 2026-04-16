@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/
 category:
   - "Developer Tools"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # TypeScript AST Refactor

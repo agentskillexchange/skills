@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Camelot PDF Stream Parser

@@ -6,7 +6,7 @@ source: "https://github.com/go-task/task"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "go-task/task"
   github_stars: 15242

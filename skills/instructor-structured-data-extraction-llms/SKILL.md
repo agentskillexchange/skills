@@ -6,7 +6,7 @@ source: "https://github.com/567-labs/instructor"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "567-labs/instructor"
   github_stars: 12666

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # NPM Package Supply Chain Auditor

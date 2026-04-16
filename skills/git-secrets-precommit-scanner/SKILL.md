@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Git Secrets Pre-Commit Scanner

@@ -6,7 +6,7 @@ source: "https://github.com/sharkdp/bat"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sharkdp/bat"
   github_stars: 57909

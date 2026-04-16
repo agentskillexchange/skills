@@ -6,7 +6,7 @@ source: "https://github.com/instaloader/instaloader"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "instaloader/instaloader"
   github_stars: 12047

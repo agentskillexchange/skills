@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/
 category:
   - "Content Writing & SEO"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # AI Content Readability Optimizer

@@ -6,7 +6,7 @@ source: "https://github.com/getsentry/sentry"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsentry/sentry"
   github_stars: 43486

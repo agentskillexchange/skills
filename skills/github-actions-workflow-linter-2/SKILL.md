@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-workflow-linter-2/
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Workflow Linter

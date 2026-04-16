@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/incident-response-checklist-engin
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Incident Response Checklist Engine

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Anthropic SDK Token Usage Logger

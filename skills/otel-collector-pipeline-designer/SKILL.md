@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/
 category:
   - "Monitoring & Alerts"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # OpenTelemetry Collector Pipeline Designer

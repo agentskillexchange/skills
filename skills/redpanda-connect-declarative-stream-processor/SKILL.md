@@ -6,7 +6,7 @@ source: "https://github.com/redpanda-data/connect"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "redpanda-data/connect"
   github_stars: 8618

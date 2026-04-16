@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/outlook-email-automation/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Outlook Email Automation

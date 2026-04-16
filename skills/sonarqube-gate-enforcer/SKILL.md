@@ -6,7 +6,7 @@ source: "https://github.com/SonarSource/sonarqube"
 category:
   - "Code Quality & Review"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

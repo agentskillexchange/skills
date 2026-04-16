@@ -6,7 +6,7 @@ source: "https://github.com/scrapy/scrapy"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314

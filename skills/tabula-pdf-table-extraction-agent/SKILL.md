@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Tabula PDF Table Extraction Agent

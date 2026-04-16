@@ -6,7 +6,7 @@ source: "https://github.com/tummychow/git-absorb"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tummychow/git-absorb"
   github_stars: 5455

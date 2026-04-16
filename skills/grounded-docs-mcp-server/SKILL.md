@@ -6,7 +6,7 @@ source: "https://github.com/arabold/docs-mcp-server"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "arabold/docs-mcp-server"
   github_stars: 1224

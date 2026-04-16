@@ -6,7 +6,7 @@ source: "https://github.com/checkly/checkly-cli"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92

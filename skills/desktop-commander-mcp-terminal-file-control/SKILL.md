@@ -6,7 +6,7 @@ source: "https://github.com/wonderwhy-er/DesktopCommanderMCP"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wonderwhy-er/DesktopCommanderMCP"
   github_stars: 5826

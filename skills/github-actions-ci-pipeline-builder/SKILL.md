@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builde
 category:
   - "CI/CD Integrations"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions CI Pipeline Builder

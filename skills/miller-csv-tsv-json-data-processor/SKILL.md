@@ -6,7 +6,7 @@ source: "https://github.com/johnkerl/miller"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "johnkerl/miller"
   github_stars: 9814

@@ -6,7 +6,7 @@ source: "https://github.com/julien040/anyquery"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "julien040/anyquery"
   github_stars: 1655

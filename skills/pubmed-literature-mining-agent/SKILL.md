@@ -6,7 +6,7 @@ source: "https://pubmed.ncbi.nlm.nih.gov/"
 category:
   - "Research & Scraping"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # PubMed Literature Mining Agent

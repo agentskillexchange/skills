@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # ComfyUI Workflow Executor

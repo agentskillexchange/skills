@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/api-documentation-indexer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # API Documentation Indexer

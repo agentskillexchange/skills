@@ -6,7 +6,7 @@ source: "https://github.com/TomWright/dasel"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "TomWright/dasel"
   github_stars: 7892

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/parquet-to-postgresql-loader/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Parquet to PostgreSQL Loader

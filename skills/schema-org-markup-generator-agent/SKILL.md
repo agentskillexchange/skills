@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/schema-org-markup-generator-agent
 category:
   - "Content Writing & SEO"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Schema.org Markup Generator

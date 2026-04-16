@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Rust Crates.io Explorer

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregat
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Product Review Sentiment Aggregator

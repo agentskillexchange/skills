@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # NPM Package API Surface Extractor

@@ -6,7 +6,7 @@ source: "https://github.com/Dicklesworthstone/claude_code_agent_farm"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Dicklesworthstone/claude_code_agent_farm"
   github_stars: 784

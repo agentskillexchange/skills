@@ -6,7 +6,7 @@ source: "https://github.com/dlt-hub/dlt"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dlt-hub/dlt"
   github_stars: 5161

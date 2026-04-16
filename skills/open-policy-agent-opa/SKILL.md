@@ -6,7 +6,7 @@ source: "https://github.com/open-policy-agent/opa"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-policy-agent/opa"
   github_stars: 11581

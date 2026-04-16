@@ -6,7 +6,7 @@ source: "https://github.com/zapier/zapier-platform"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zapier/zapier-platform"
   github_stars: 484

@@ -6,7 +6,7 @@ source: "https://github.com/simonw/sqlite-utils"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/sqlite-utils"
   github_stars: 2026

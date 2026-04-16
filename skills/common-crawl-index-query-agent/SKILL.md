@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
 category:
   - "Research & Scraping"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Common Crawl Index Query Agent

@@ -6,9 +6,7 @@ source: "https://github.com/getsentry/sentry-for-ai"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
   github_stars: 115

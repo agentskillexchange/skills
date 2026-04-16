@@ -6,8 +6,7 @@ source: "https://github.com/dagster-io/dagster"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dagster-io/dagster"
   github_stars: 15257

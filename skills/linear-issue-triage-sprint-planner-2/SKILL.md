@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/linear-issue-triage-sprint-planne
 category:
   - "Integrations & Connectors"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Linear Issue Triage & Sprint Planner

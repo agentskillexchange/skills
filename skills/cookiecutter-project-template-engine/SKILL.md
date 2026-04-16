@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-project-template-eng
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Project Template Engine

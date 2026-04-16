@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # NPM Audit Deep Scanner

@@ -6,7 +6,7 @@ source: "https://github.com/pulumi/pulumi"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25050

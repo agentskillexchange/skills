@@ -6,7 +6,7 @@ source: "https://github.com/WordOps/WordOps"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wordops/wordops"
   github_stars: 1538

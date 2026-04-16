@@ -6,7 +6,7 @@ source: "https://github.com/wxt-dev/wxt"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
   github_stars: 9534

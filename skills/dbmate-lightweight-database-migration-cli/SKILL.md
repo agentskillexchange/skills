@@ -6,11 +6,11 @@ source: "https://github.com/amacneil/dbmate"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "amacneil/dbmate"
   github_stars: 6801
-  ase_npm_package: "dbmate"
+  npm_package: "dbmate"
   npm_weekly_downloads: 99225
 ---
 

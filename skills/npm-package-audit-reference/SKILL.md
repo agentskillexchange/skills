@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # NPM Package Audit Reference

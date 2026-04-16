@@ -6,7 +6,7 @@ source: "https://github.com/espeak-ng/espeak-ng"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "espeak-ng/espeak-ng"
   github_stars: 6311

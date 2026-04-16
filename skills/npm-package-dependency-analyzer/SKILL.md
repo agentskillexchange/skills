@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-dependency-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # NPM Package Dependency Analyzer

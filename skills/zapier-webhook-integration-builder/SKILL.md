@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/zapier-webhook-integration-builde
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Zapier Webhook Integration Builder

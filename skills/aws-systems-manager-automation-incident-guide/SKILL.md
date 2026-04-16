@@ -6,7 +6,7 @@ source: "https://docs.aws.amazon.com/systems-manager/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # AWS Systems Manager Automation Incident Guide

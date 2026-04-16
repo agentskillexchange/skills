@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-ex
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Gmail Thread Summarizer and Action Extractor

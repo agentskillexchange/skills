@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # SEMrush Content Optimizer Agent

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # JSDoc Type Definition Extractor

@@ -6,11 +6,11 @@ source: "https://github.com/oxc-project/oxc"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "oxc-project/oxc"
   github_stars: 20468
-  ase_npm_package: "oxlint"
+  npm_package: "oxlint"
   npm_weekly_downloads: 4311641
 ---
 

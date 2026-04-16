@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # XML XSLT Transform Pipeline

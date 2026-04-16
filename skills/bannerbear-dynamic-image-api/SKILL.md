@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Bannerbear Dynamic Image API

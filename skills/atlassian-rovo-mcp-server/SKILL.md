@@ -6,7 +6,7 @@ source: "https://github.com/atlassian/atlassian-mcp-server"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
   github_stars: 581

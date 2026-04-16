@@ -6,10 +6,7 @@ source: "https://github.com/modelcontextprotocol/servers"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
   github_stars: 83840

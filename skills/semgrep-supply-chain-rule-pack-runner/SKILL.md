@@ -6,7 +6,7 @@ source: "https://github.com/semgrep/semgrep"
 category:
   - "Security & Verification"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14632

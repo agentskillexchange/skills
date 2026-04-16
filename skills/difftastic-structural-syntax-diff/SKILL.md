@@ -6,7 +6,7 @@ source: "https://github.com/Wilfred/difftastic"
 category:
   - "Code Quality & Review"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Wilfred/difftastic"
   github_stars: 24900

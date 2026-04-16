@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # ACF Custom Fields REST Exposer

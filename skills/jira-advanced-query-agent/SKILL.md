@@ -6,7 +6,7 @@ source: "https://pypi.org/project/jira/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Jira Advanced Query Agent

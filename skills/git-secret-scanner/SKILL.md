@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/git-secret-scanner/"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Git Secret Scanner

@@ -6,7 +6,7 @@ source: "https://github.com/turbot/steampipe"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "turbot/steampipe"
   github_stars: 7745

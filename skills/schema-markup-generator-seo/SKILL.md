@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Schema Markup Generator for SEO

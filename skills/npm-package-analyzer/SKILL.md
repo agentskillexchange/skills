@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # NPM Package Analyzer

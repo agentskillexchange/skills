@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifie
 category:
   - "Security & Verification"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Cosign Artifact Signature Verifier

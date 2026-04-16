@@ -6,7 +6,7 @@ source: "https://github.com/pydantic/pydantic-ai"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pydantic/pydantic-ai"
   github_stars: 15962

@@ -6,7 +6,7 @@ source: "https://github.com/junegunn/fzf"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "junegunn/fzf"
   github_stars: 79165

@@ -6,7 +6,7 @@ source: "https://github.com/ultrafunkamsterdam/nodriver"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ultrafunkamsterdam/nodriver"
   github_stars: 4005

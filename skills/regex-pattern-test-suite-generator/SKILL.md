@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generato
 category:
   - "Developer Tools"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Regex Pattern Test Suite Generator

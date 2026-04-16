@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22762
-  ase_npm_package: "crawlee"
+  npm_package: "crawlee"
   npm_weekly_downloads: 80765
 ---
 

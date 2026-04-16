@@ -6,11 +6,11 @@ source: "https://github.com/mongodb-js/mongodb-mcp-server"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mongodb-js/mongodb-mcp-server"
   github_stars: 983
-  ase_npm_package: "mongodb-mcp-server"
+  npm_package: "mongodb-mcp-server"
   npm_weekly_downloads: 36594
 ---
 

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-changelog-generator/
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Changelog Generator

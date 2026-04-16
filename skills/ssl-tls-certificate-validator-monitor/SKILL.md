@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-mon
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # SSL/TLS Certificate Validator and Monitor

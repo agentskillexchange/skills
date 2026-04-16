@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # OpenTelemetry Trace Analyzer

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "agent-sh/agnix"
   github_stars: 179
-  ase_npm_package: "agnix"
+  npm_package: "agnix"
   npm_weekly_downloads: 6006
 ---
 

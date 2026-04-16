@@ -6,7 +6,7 @@ source: "https://github.com/mitmproxy/mitmproxy"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881

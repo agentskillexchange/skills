@@ -6,7 +6,7 @@ source: "https://github.com/anchore/syft"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "anchore/syft"
   github_stars: 8628

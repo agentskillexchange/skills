@@ -6,7 +6,7 @@ source: "https://github.com/evidence-dev/evidence"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "evidence-dev/evidence"
   github_stars: 6116

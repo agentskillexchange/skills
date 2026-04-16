@@ -6,7 +6,7 @@ source: "https://github.com/soxoj/maigret"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "soxoj/maigret"
   github_stars: 19325

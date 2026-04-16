@@ -6,7 +6,7 @@ source: "https://github.com/certbot/certbot"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "certbot/certbot"
   github_stars: 32972

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper
 category:
   - "Templates & Workflows"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Project Bootstrapper

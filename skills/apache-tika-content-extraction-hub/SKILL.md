@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/apache-tika-content-extraction-hu
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Apache Tika Content Extraction Hub

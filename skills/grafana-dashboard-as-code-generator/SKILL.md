@@ -6,7 +6,7 @@ source: "https://github.com/grafana/grafonnet"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/grafonnet"
   github_stars: 528

@@ -6,7 +6,7 @@ source: "https://github.com/griptape-ai/griptape"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "griptape-ai/griptape"
   github_stars: 2511

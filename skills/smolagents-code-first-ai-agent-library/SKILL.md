@@ -6,7 +6,7 @@ source: "https://github.com/huggingface/smolagents"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
   github_stars: 26355

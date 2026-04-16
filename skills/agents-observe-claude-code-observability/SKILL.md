@@ -6,7 +6,7 @@ source: "https://github.com/simple10/agents-observe"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simple10/agents-observe"
   github_stars: 421

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracke
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Reddit Subreddit Sentiment Tracker

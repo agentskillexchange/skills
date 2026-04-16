@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Censys Attack Surface Monitor

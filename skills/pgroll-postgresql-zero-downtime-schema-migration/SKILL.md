@@ -6,7 +6,7 @@ source: "https://github.com/xataio/pgroll"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xataio/pgroll"
   github_stars: 6408

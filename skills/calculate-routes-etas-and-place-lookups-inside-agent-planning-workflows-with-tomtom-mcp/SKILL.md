@@ -6,11 +6,11 @@ source: "https://github.com/tomtom-international/tomtom-mcp"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tomtom-international/tomtom-mcp"
   github_stars: 45
-  ase_npm_package: "@tomtom-org/tomtom-mcp"
+  npm_package: "@tomtom-org/tomtom-mcp"
   npm_weekly_downloads: 356
 ---
 

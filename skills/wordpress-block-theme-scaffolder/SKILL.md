@@ -6,7 +6,7 @@ source: "https://developer.wordpress.org/block-editor/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # WordPress Block Theme Scaffolder

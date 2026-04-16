@@ -6,11 +6,11 @@ source: "https://github.com/eslint/eslint"
 category:
   - "Code Quality & Review"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188
-  ase_npm_package: "eslint"
+  npm_package: "eslint"
   npm_weekly_downloads: 120215107
 ---
 

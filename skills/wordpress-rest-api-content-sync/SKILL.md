@@ -6,7 +6,7 @@ source: "https://github.com/WordPress/WordPress"
 category:
   - "WordPress & CMS"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

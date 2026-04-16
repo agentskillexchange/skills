@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Technical SEO Audit Crawler

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "agentlayer-io/agentclick"
   github_stars: 22
-  ase_npm_package: "@harvenstar/agentclick"
+  npm_package: "@harvenstar/agentclick"
   npm_weekly_downloads: 9
 ---
 

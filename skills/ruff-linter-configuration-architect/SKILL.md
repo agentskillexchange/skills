@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ruff-linter-configuration-archite
 category:
   - "Code Quality & Review"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Ruff Linter Configuration Architect

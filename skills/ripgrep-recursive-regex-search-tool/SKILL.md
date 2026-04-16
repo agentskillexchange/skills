@@ -6,7 +6,7 @@ source: "https://github.com/BurntSushi/ripgrep"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "BurntSushi/ripgrep"
   github_stars: 61743

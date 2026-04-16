@@ -6,7 +6,7 @@ source: "https://github.com/garden-io/garden"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "garden-io/garden"
   github_stars: 3574

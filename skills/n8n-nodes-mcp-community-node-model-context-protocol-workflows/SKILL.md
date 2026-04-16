@@ -6,7 +6,7 @@ source: "https://github.com/nerding-io/n8n-nodes-mcp"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nerding-io/n8n-nodes-mcp"
   github_stars: 3002

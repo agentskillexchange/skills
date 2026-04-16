@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Makefile Workflow Generator

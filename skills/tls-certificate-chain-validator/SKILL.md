@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # TLS Certificate Chain Validator

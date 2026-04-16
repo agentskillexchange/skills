@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/protobuf-schema-generator-from-js
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Protocol Buffer Schema Generator

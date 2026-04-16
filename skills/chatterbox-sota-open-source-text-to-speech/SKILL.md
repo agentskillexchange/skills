@@ -6,7 +6,7 @@ source: "https://github.com/resemble-ai/chatterbox"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "resemble-ai/chatterbox"
   github_stars: 24089

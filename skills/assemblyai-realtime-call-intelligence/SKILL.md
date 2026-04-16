@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/assemblyai-realtime-call-intellig
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # AssemblyAI Real-Time Call Intelligence

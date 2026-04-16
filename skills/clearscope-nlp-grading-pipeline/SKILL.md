@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Clearscope NLP Grading Pipeline

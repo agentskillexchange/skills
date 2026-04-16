@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "posthog/posthog-js"
   github_stars: 531
-  ase_npm_package: "posthog-js"
+  npm_package: "posthog-js"
   npm_weekly_downloads: 4813153
 ---
 

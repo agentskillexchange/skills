@@ -6,7 +6,7 @@ source: "https://github.com/volta-cli/volta"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "volta-cli/volta"
   github_stars: 12888

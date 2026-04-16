@@ -6,7 +6,7 @@ source: "https://github.com/brandonwise/humanizer"
 category:
   - "Content Writing & SEO"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "brandonwise/humanizer"
   github_stars: 45

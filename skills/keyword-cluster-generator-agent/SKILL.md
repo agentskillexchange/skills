@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Keyword Cluster Generator

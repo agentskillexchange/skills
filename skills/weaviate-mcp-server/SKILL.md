@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/weaviate-mcp-server/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Weaviate MCP Server

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
 category:
   - "Media & Transcription"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Podcast RSS Feed Builder

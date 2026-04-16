@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # NPM Package Audit & License Checker

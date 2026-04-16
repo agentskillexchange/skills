@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer-inte
 category:
   - "Content Writing & SEO"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Surfer SEO Content Optimizer Integration

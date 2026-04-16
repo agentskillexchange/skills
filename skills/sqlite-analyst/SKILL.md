@@ -6,11 +6,11 @@ source: "https://github.com/WiseLibs/better-sqlite3"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wiselibs/better-sqlite3"
   github_stars: 7111
-  ase_npm_package: "better-sqlite3"
+  npm_package: "better-sqlite3"
   npm_weekly_downloads: 5530063
 ---
 

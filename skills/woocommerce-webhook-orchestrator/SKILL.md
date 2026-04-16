@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/
 category:
   - "WordPress & CMS"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # WooCommerce Webhook Orchestrator

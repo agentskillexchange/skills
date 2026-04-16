@@ -6,11 +6,11 @@ source: "https://github.com/aws/aws-cdk"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12737
-  ase_npm_package: "aws-cdk"
+  npm_package: "aws-cdk"
   npm_weekly_downloads: 3290338
 ---
 

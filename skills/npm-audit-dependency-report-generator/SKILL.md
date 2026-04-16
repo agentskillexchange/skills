@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-audit-dependency-report-gener
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # npm Audit Dependency Report Generator

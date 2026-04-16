@@ -6,7 +6,7 @@ source: "https://github.com/github/github-mcp-server"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/github-mcp-server"
   github_stars: 28462

@@ -6,7 +6,7 @@ source: "https://github.com/coqui-ai/TTS"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "coqui-ai/TTS"
   github_stars: 44959

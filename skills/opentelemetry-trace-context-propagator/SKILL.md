@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/opentelemetry-trace-context-propa
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # OpenTelemetry Trace Context Propagator

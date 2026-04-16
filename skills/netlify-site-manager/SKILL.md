@@ -6,11 +6,11 @@ source: "https://github.com/netlify/cli"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1843
-  ase_npm_package: "netlify-cli"
+  npm_package: "netlify-cli"
   npm_weekly_downloads: 266782
 ---
 

@@ -6,11 +6,11 @@ source: "https://github.com/pulumi/pulumi"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25042
-  ase_npm_package: "@pulumi/pulumi"
+  npm_package: "@pulumi/pulumi"
   npm_weekly_downloads: 2073384
 ---
 

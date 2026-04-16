@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator
 category:
   - "WordPress & CMS"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Gutenberg Block Pattern Generator

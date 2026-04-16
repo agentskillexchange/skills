@@ -6,7 +6,7 @@ source: "https://github.com/fonttools/fonttools"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "fonttools/fonttools"
   github_stars: 5067

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Yeoman Enterprise Generator Suite

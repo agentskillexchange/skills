@@ -6,7 +6,6 @@ source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogDa
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Codex"
   - "Multi-Framework"
 ---
 

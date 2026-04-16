@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alert
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Metabase Dashboard Snapshot & Alerting

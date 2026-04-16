@@ -6,7 +6,7 @@ source: "https://github.com/apache/airflow"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apache/airflow"
   github_stars: 45040

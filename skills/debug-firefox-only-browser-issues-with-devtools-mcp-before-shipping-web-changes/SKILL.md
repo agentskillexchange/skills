@@ -6,11 +6,11 @@ source: "https://github.com/mozilla/firefox-devtools-mcp"
 category:
   - "Browser Automation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mozilla/firefox-devtools-mcp"
   github_stars: 107
-  ase_npm_package: "firefox-devtools-mcp"
+  npm_package: "firefox-devtools-mcp"
   npm_weekly_downloads: 2962
 ---
 

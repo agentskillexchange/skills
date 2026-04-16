@@ -6,7 +6,7 @@ source: "https://github.com/supabase-community/supabase-mcp"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "supabase-community/supabase-mcp"
   github_stars: 2572

@@ -6,7 +6,7 @@ source: "https://github.com/go-shiori/shiori"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "go-shiori/shiori"
   github_stars: 11399

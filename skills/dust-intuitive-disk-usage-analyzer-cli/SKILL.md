@@ -6,7 +6,7 @@ source: "https://github.com/bootandy/dust"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bootandy/dust"
   github_stars: 11500

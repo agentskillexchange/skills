@@ -6,7 +6,7 @@ source: "https://learn.microsoft.com/en-us/graph/outlook-calendar-concept-overvi
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Microsoft Outlook Calendar Sync Agent

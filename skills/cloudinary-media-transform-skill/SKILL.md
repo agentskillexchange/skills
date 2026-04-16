@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloudinary-media-transform-skill/
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Cloudinary Media Transform Skill

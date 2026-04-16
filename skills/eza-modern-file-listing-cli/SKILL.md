@@ -6,7 +6,7 @@ source: "https://github.com/eza-community/eza"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "eza-community/eza"
   github_stars: 20929

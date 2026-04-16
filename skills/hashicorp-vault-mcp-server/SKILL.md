@@ -6,7 +6,7 @@ source: "https://github.com/hashicorp/vault-mcp-server"
 category:
   - "Security & Verification"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hashicorp/vault-mcp-server"
   github_stars: 43

@@ -6,7 +6,7 @@ source: "https://github.com/MaartenGr/KeyBERT"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "MaartenGr/KeyBERT"
   github_stars: 4143

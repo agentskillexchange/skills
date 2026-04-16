@@ -6,7 +6,7 @@ source: "https://github.com/jaegertracing/jaeger"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jaegertracing/jaeger"
   github_stars: 22671

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/serpapi-research-pipeline/"
 category:
   - "Research & Scraping"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # SerpAPI Research Pipeline

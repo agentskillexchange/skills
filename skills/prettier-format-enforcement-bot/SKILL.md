@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Prettier Format Enforcement Bot

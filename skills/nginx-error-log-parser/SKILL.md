@@ -6,7 +6,7 @@ source: "https://github.com/nginx/nginx"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

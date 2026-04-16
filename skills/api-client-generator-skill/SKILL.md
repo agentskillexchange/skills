@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/api-client-generator-skill/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # API Client Generator Skill

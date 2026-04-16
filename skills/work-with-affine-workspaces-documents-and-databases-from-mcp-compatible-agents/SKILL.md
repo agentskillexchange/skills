@@ -6,11 +6,11 @@ source: "https://github.com/DAWNCR0W/affine-mcp-server"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DAWNCR0W/affine-mcp-server"
   github_stars: 142
-  ase_npm_package: "affine-mcp-server"
+  npm_package: "affine-mcp-server"
   npm_weekly_downloads: 2148
 ---
 

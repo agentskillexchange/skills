@@ -6,7 +6,7 @@ source: "https://github.com/peterskoett/self-improving-agent"
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "peterskoett/self-improving-agent"
   github_stars: 505

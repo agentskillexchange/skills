@@ -6,7 +6,7 @@ source: "https://github.com/apache/tika"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apache/tika"
   github_stars: 3695

@@ -6,7 +6,7 @@ source: "https://github.com/savonet/liquidsoap"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "savonet/liquidsoap"
   github_stars: 1638

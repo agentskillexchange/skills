@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Rust Crate Analyzer

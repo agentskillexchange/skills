@@ -6,8 +6,7 @@ source: "https://github.com/steipete/claude-code-mcp"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1234

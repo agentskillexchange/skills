@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-registry-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # npm Registry Analyzer

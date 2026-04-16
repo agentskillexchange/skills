@@ -6,7 +6,7 @@ source: "https://github.com/FFmpeg/FFmpeg"
 category:
   - "Image & Creative Automation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 58972

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipel
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # PuppeteerSharp Web Scraping Pipeline

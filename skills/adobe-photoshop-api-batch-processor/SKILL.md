@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/adobe-photoshop-api-batch-process
 category:
   - "Image & Creative Automation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Adobe Photoshop API Batch Processor

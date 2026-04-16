@@ -6,7 +6,7 @@ source: "https://github.com/grafana/grafana"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187

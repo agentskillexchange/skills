@@ -6,7 +6,7 @@ source: "https://github.com/ntop/ntopng"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ntop/ntopng"
   github_stars: 7702

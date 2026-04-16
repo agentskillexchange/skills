@@ -6,7 +6,7 @@ source: "https://github.com/docdyhr/mcp-wordpress"
 category:
   - "WordPress & CMS"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docdyhr/mcp-wordpress"
   github_stars: 81

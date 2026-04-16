@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
 category:
   - "Code Quality & Review"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Complexity Trend Tracker

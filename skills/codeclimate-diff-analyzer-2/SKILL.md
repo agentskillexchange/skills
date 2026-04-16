@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # CodeClimate Diff Analyzer

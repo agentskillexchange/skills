@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Ruff Python Linter Configurator

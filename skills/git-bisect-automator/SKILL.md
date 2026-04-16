@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/git-bisect-automator/"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Git Bisect Automator

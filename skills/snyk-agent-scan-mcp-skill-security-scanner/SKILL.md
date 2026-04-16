@@ -6,7 +6,7 @@ source: "https://github.com/snyk/agent-scan"
 category:
   - "Security & Verification"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2039

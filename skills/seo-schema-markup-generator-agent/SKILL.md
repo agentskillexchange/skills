@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/seo-schema-markup-generator-agent
 category:
   - "Content Writing & SEO"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # SEO Schema Markup Generator

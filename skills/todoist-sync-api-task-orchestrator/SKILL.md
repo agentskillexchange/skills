@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/todoist-sync-api-task-orchestrato
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Todoist Sync API Task Orchestrator

@@ -6,7 +6,7 @@ source: "https://github.com/argoproj/argo-workflows"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"
   github_stars: 16616

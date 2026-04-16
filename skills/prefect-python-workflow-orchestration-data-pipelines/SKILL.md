@@ -6,7 +6,7 @@ source: "https://github.com/PrefectHQ/prefect"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "PrefectHQ/prefect"
   github_stars: 22145

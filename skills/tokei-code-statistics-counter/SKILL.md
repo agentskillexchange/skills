@@ -6,7 +6,7 @@ source: "https://github.com/XAMPPRocky/tokei"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "XAMPPRocky/tokei"
   github_stars: 14169

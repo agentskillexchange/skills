@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # New Relic NRQL Query Agent

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/oauth2-flow-debugger/"
 category:
   - "Security & Verification"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # OAuth2 Flow Debugger

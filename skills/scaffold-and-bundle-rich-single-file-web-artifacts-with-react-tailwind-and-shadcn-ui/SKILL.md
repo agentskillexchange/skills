@@ -6,10 +6,7 @@ source: "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-bui
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Agents"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116154
+  - "Multi-Framework"
 ---
 
 # Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui

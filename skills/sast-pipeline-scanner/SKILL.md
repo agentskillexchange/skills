@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # SAST Pipeline Scanner

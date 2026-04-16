@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-rest-api-paginator-library
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # GitHub REST API Paginator Library

@@ -6,11 +6,11 @@ source: "https://github.com/apify/apify-sdk-js"
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173
-  ase_npm_package: "apify"
+  npm_package: "apify"
   npm_weekly_downloads: 34097
 ---
 

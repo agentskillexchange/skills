@@ -6,7 +6,7 @@ source: "https://github.com/pemistahl/grex"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pemistahl/grex"
   github_stars: 8079

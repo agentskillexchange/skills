@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ai-powered-meta-description-write
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # AI-Powered Meta Description Writer

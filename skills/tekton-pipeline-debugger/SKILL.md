@@ -6,7 +6,7 @@ source: "https://github.com/tektoncd/pipeline"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

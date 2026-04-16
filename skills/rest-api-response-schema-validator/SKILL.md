@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rest-api-response-schema-validato
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # REST API Response Schema Validator

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/woocommerce-order-sync-agent/"
 category:
   - "WordPress & CMS"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # WooCommerce Order Sync Agent

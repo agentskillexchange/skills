@@ -6,7 +6,7 @@ source: "https://github.com/derailed/k9s"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "derailed/k9s"
   github_stars: 33240

@@ -6,11 +6,11 @@ source: "https://github.com/langchain-ai/langchainjs"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "langchain-ai/langchainjs"
   github_stars: 17500
-  ase_npm_package: "langchain"
+  npm_package: "langchain"
   npm_weekly_downloads: 2193946
 ---
 

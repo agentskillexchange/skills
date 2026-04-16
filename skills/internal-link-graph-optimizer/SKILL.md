@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Internal Link Graph Optimizer

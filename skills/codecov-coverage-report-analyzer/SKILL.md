@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/
 category:
   - "Code Quality & Review"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Codecov Coverage Report Analyzer

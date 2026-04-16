@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/sbom-generator-cyclonedx/"
 category:
   - "Security & Verification"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # SBOM Generator with CycloneDX

@@ -6,7 +6,7 @@ source: "https://github.com/apache/kafka"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apache/kafka"
   github_stars: 32377

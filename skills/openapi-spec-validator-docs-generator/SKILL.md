@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-validator-docs-gener
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Validator & Docs Generator

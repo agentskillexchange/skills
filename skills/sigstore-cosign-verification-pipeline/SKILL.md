@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipe
 category:
   - "Security & Verification"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Sigstore Cosign Verification Pipeline

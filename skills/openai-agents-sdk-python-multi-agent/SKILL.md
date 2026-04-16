@@ -6,7 +6,7 @@ source: "https://github.com/openai/openai-agents-python"
 category:
   - "Developer Tools"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openai/openai-agents-python"
   github_stars: 20576

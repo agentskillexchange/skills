@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # SEO Keyword Research Automator

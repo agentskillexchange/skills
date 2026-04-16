@@ -6,14 +6,11 @@ source: "https://github.com/microsoft/playwright-mcp"
 category:
   - "Browser Automation"
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30927
-  ase_npm_package: "@playwright/mcp"
+  npm_package: "@playwright/mcp"
   npm_weekly_downloads: 2731674
 ---
 

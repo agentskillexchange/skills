@@ -6,7 +6,7 @@ source: "https://github.com/gitleaks/gitleaks"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 25731

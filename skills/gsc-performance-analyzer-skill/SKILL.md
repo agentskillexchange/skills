@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Google Search Console Performance Analyzer

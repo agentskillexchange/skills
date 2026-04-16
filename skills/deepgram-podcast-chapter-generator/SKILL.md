@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/deepgram-podcast-chapter-generato
 category:
   - "Media & Transcription"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Deepgram Podcast Chapter Generator

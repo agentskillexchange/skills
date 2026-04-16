@@ -6,7 +6,7 @@ source: "https://github.com/sxyazi/yazi"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sxyazi/yazi"
   github_stars: 35770

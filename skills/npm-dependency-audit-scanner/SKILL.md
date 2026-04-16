@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-dependency-audit-scanner/"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # npm Dependency Audit Scanner

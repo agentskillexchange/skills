@@ -6,7 +6,7 @@ source: "https://github.com/sqlc-dev/sqlc"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sqlc-dev/sqlc"
   github_stars: 17275

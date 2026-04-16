@@ -6,11 +6,11 @@ source: "https://github.com/vitejs/vite"
 category:
   - "Developer Tools"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vitejs/vite"
   github_stars: 79927
-  ase_npm_package: "vite"
+  npm_package: "vite"
   npm_weekly_downloads: 96756115
 ---
 

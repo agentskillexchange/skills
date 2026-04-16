@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # AsyncAPI Event Catalog Generator

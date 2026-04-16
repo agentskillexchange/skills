@@ -6,7 +6,7 @@ source: "https://github.com/openclaw/lobster"
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openclaw/lobster"
   github_stars: 1128

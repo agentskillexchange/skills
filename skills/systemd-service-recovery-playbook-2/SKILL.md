@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Systemd Service Recovery Playbook

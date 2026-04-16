@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/buildkite-agent-monitor/"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Buildkite Agent Monitor

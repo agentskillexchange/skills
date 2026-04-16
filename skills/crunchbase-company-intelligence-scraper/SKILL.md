@@ -6,7 +6,7 @@ source: "https://data.crunchbase.com/docs"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Crunchbase Company Intelligence Scraper

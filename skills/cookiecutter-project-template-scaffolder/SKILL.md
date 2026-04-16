@@ -6,7 +6,7 @@ source: "https://github.com/cookiecutter/cookiecutter"
 category:
   - "Templates & Workflows"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cookiecutter/cookiecutter"
   github_stars: 24786

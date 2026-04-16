@@ -6,7 +6,7 @@ source: "https://github.com/ajeetdsouza/zoxide"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ajeetdsouza/zoxide"
   github_stars: 35119

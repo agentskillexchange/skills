@@ -6,7 +6,7 @@ source: "https://github.com/nektos/act"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nektos/act"
   github_stars: 69661

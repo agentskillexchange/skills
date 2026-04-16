@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/todoist-natural-language-task-par
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Todoist Natural Language Task Parser

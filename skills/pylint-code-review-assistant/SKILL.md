@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pylint-code-review-assistant/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Pylint Code Review Assistant

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mapbox/pixelmatch"
   github_stars: 6786
-  ase_npm_package: "pixelmatch"
+  npm_package: "pixelmatch"
   npm_weekly_downloads: 8712992
 ---
 

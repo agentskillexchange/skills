@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Diffbot Knowledge Graph Extractor

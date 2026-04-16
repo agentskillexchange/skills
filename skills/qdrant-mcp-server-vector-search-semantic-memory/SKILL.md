@@ -6,7 +6,7 @@ source: "https://github.com/qdrant/mcp-server-qdrant"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "qdrant/mcp-server-qdrant"
   github_stars: 1314

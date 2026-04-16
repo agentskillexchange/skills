@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/video-subtitle-auto-translator-ag
 category:
   - "Media & Transcription"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Video Subtitle Auto-Translator

@@ -6,7 +6,7 @@ source: "https://github.com/getmaxun/maxun"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getmaxun/maxun"
   github_stars: 15319

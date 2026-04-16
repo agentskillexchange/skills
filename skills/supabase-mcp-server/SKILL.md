@@ -6,7 +6,7 @@ source: "https://github.com/supabase/supabase"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "supabase/supabase"
   github_stars: 100812

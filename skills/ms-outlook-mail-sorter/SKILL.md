@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ms-outlook-mail-sorter/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Microsoft Outlook Mail Sorter

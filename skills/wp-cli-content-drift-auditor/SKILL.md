@@ -6,7 +6,7 @@ source: "https://github.com/wp-cli/wp-cli"
 category:
   - "WordPress & CMS"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5048

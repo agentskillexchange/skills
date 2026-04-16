@@ -6,7 +6,7 @@ source: "https://github.com/wireservice/csvkit"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wireservice/csvkit"
   github_stars: 6363

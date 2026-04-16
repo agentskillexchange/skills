@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/incident-response-template-genera
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Incident Response Template Generator

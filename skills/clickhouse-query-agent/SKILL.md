@@ -6,7 +6,7 @@ source: "https://github.com/ClickHouse/ClickHouse"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "clickhouse/clickhouse"
   github_stars: 46871

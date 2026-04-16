@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifie
 category:
   - "Security & Verification"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Sigstore Cosign Container Verifier

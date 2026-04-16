@@ -6,7 +6,7 @@ source: "https://github.com/Piebald-AI/claude-code-system-prompts"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Piebald-AI/claude-code-system-prompts"
   github_stars: 8974

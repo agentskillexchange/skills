@@ -6,7 +6,7 @@ source: "https://github.com/dbt-labs/dbt-core"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
   github_stars: 12621

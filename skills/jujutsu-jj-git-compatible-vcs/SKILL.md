@@ -6,7 +6,7 @@ source: "https://github.com/jj-vcs/jj"
 category:
   - "Developer Tools"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jj-vcs/jj"
   github_stars: 27472

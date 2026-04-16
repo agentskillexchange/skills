@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/metrics-dashboard-builder/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Metrics Dashboard Builder

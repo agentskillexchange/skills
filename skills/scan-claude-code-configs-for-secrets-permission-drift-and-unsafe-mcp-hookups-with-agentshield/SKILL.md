@@ -6,7 +6,7 @@ source: "https://github.com/affaan-m/agentshield"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "affaan-m/agentshield"
   github_stars: 388

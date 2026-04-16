@@ -6,7 +6,7 @@ source: "https://github.com/projectdiscovery/httpx"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "projectdiscovery/httpx"
   github_stars: 9759

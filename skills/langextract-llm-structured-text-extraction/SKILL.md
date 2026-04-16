@@ -6,7 +6,7 @@ source: "https://github.com/google/langextract"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/langextract"
   github_stars: 35042

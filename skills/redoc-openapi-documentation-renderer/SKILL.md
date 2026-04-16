@@ -6,11 +6,11 @@ source: "https://github.com/Redocly/redoc"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Redocly/redoc"
   github_stars: 25596
-  ase_npm_package: "redoc"
+  npm_package: "redoc"
   npm_weekly_downloads: 1482933
 ---
 

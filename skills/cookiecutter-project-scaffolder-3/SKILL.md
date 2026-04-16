@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3
 category:
   - "Templates & Workflows"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Project Scaffolder

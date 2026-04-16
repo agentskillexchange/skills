@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Jasper AI Long-Form Blog Post Generator

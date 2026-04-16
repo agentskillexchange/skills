@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/figma-export-automator/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Figma Export Automator

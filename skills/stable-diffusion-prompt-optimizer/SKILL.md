@@ -6,7 +6,7 @@ source: "https://github.com/Stability-AI/stablediffusion"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Stable Diffusion Prompt Optimizer

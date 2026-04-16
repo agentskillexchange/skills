@@ -6,7 +6,7 @@ source: "https://developers.openai.com/api/docs/guides/speech-to-text"
 category:
   - "Media & Transcription"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # OpenAI Whisper API Transcription

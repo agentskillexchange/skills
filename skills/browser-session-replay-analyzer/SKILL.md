@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/browser-session-replay-analyzer/"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Browser Session Replay Analyzer

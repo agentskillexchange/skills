@@ -6,7 +6,7 @@ source: "https://github.com/ansible/ansible"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364

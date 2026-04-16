@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Headless CMS GraphQL Connector

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generato
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Linter & Docs Generator

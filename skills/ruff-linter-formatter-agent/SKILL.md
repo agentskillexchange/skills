@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ruff-linter-formatter-agent/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Ruff Linter and Formatter

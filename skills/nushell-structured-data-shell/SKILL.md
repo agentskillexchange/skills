@@ -6,11 +6,11 @@ source: "https://github.com/nushell/nushell"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nushell/nushell"
   github_stars: 38872
-  ase_npm_package: "nushell"
+  npm_package: "nushell"
   npm_weekly_downloads: 1013
 ---
 

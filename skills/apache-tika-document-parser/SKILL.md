@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/apache-tika-document-parser/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Apache Tika Document Parser

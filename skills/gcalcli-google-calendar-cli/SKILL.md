@@ -6,7 +6,7 @@ source: "https://github.com/insanum/gcalcli"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "insanum/gcalcli"
   github_stars: 3678

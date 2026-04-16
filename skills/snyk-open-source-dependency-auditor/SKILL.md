@@ -6,7 +6,7 @@ source: "https://github.com/snyk/cli"
 category:
   - "Security & Verification"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "snyk/cli"
   github_stars: 5496

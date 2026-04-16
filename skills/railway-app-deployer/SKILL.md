@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/railway-app-deployer/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Railway App Deployer

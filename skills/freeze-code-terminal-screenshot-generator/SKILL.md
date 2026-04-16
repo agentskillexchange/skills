@@ -6,7 +6,7 @@ source: "https://github.com/charmbracelet/freeze"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/freeze"
   github_stars: 4409

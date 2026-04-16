@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/outlook-mail-triage-assistant/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Outlook Mail Triage Assistant

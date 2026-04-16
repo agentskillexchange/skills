@@ -6,7 +6,7 @@ source: "https://github.com/charmbracelet/glow"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/glow"
   github_stars: 24096

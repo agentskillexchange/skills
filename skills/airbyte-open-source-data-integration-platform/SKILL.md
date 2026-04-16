@@ -6,7 +6,7 @@ source: "https://github.com/airbytehq/airbyte"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "airbytehq/airbyte"
   github_stars: 20996

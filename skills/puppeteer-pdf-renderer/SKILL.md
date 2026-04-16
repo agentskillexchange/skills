@@ -6,7 +6,7 @@ source: "https://github.com/puppeteer/puppeteer"
 category:
   - "Browser Automation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115

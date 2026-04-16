@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agen
 category:
   - "Security & Verification"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # CloudTrail Anomaly Detection Agent

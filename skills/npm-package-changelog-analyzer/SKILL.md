@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # NPM Package Changelog Analyzer

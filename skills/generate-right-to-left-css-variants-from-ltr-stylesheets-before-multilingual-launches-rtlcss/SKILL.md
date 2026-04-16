@@ -6,7 +6,7 @@ source: "https://github.com/MohammadYounes/rtlcss"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "MohammadYounes/rtlcss"
   github_stars: 1708

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloudinary-asset-optimization-age
 category:
   - "Image & Creative Automation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Cloudinary Asset Optimization Agent

@@ -6,11 +6,11 @@ source: "https://github.com/strapi/strapi"
 category:
   - "WordPress & CMS"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71740
-  ase_npm_package: "@strapi/strapi"
+  npm_package: "@strapi/strapi"
   npm_weekly_downloads: 147371
 ---
 

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/"
 category:
   - "Media & Transcription"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # ElevenLabs Voiceover Generator for Long-Form Content

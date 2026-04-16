@@ -6,7 +6,7 @@ source: "https://github.com/apache/spark"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apache/spark"
   github_stars: 43117

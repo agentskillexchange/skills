@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Python Package API Surface Mapper

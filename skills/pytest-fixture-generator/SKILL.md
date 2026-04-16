@@ -6,7 +6,7 @@ source: "https://github.com/pytest-dev/pytest"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pytest-dev/pytest"
   github_stars: 13758

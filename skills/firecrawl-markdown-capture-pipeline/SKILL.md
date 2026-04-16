@@ -6,7 +6,7 @@ source: "https://github.com/firecrawl/firecrawl"
 category:
   - "Research & Scraping"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 102630

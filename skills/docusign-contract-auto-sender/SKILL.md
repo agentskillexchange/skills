@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
 category:
   - "Security & Verification"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # DocuSign Contract Auto-Sender with Conditional Logic

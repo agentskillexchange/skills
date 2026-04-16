@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Google Search Console Insights Agent

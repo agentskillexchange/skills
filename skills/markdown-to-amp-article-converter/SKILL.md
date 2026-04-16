@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/markdown-to-amp-article-converter
 category:
   - "Content Writing & SEO"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Markdown-to-AMP Article Converter

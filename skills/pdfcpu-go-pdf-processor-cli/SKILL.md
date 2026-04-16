@@ -6,7 +6,7 @@ source: "https://github.com/pdfcpu/pdfcpu"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pdfcpu/pdfcpu"
   github_stars: 8550

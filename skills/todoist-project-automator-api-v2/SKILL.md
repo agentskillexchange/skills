@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Todoist Project Automator

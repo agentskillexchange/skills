@@ -6,7 +6,7 @@ source: "https://developers.google.com/gmail/api"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Gmail API Thread Label Triage

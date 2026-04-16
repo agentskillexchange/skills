@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Tesseract OCR Data Extractor

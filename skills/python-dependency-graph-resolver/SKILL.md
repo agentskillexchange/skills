@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Python Dependency Graph Resolver

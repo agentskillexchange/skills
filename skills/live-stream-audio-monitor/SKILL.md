@@ -6,7 +6,7 @@ source: "https://github.com/FFmpeg/FFmpeg"
 category:
   - "Media & Transcription"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548

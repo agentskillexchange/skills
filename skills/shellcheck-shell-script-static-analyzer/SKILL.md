@@ -6,7 +6,7 @@ source: "https://github.com/koalaman/shellcheck"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "koalaman/shellcheck"
   github_stars: 39204

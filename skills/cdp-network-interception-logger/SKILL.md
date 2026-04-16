@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
 category:
   - "Browser Automation"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # CDP Network Interception Logger

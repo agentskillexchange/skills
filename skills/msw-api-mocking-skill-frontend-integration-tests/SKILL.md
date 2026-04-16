@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mswjs/msw"
   github_stars: 17816
-  ase_npm_package: "msw"
+  npm_package: "msw"
   npm_weekly_downloads: 14205156
 ---
 

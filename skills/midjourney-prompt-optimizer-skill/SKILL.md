@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill
 category:
   - "Image & Creative Automation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Midjourney Prompt Optimizer

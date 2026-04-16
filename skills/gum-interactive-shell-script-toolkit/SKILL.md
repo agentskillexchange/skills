@@ -6,7 +6,7 @@ source: "https://github.com/charmbracelet/gum"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/gum"
   github_stars: 23196

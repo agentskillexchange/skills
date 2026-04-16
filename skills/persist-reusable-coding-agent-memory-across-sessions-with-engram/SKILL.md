@@ -6,7 +6,7 @@ source: "https://github.com/Gentleman-Programming/engram"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Gentleman-Programming/engram"
   github_stars: 2576

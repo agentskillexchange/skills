@@ -6,7 +6,7 @@ source: "https://github.com/allinurl/goaccess"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "allinurl/goaccess"
   github_stars: 20377

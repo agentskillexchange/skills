@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent
 category:
   - "Developer Tools"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # VS Code Extension Scaffolder

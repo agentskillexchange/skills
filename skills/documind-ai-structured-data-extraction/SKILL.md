@@ -6,11 +6,11 @@ source: "https://github.com/DocumindHQ/documind"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DocumindHQ/documind"
   github_stars: 1468
-  ase_npm_package: "documind"
+  npm_package: "documind"
   npm_weekly_downloads: 14
 ---
 

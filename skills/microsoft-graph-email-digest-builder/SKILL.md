@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-buil
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Microsoft Graph Email Digest Builder

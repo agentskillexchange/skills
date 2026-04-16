@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-dependency-audit-resolver/"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # npm Dependency Audit Resolver

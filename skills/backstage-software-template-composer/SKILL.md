@@ -6,7 +6,7 @@ source: "https://github.com/backstage/backstage"
 category:
   - "Templates & Workflows"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "backstage/backstage"
   github_stars: 33052

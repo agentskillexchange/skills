@@ -6,7 +6,7 @@ source: "https://github.com/trufflesecurity/trufflehog"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "trufflesecurity/trufflehog"
   github_stars: 25299

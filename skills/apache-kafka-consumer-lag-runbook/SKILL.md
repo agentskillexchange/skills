@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Apache Kafka Consumer Lag Runbook

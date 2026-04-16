@@ -6,7 +6,7 @@ source: "https://github.com/gitbutlerapp/gitbutler"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gitbutlerapp/gitbutler"
   github_stars: 19988

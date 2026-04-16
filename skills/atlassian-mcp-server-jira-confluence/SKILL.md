@@ -6,7 +6,7 @@ source: "https://github.com/sooperset/mcp-atlassian"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sooperset/mcp-atlassian"
   github_stars: 4785

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # NPM Package Dependency Auditor

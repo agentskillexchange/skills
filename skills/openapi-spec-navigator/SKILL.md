@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Navigator

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/queue-backup-runbook/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Queue Backup Runbook

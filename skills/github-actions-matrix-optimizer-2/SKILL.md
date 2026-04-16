@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Matrix Optimizer

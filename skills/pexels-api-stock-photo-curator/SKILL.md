@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Pexels API Stock Photo Curator

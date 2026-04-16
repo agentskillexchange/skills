@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/plaid-financial-data-aggregator/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Plaid Financial Data Aggregator & Budget Classifier

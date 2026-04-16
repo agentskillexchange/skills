@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/"
 category:
   - "WordPress & CMS"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # WP-CLI Bulk Content Migrator

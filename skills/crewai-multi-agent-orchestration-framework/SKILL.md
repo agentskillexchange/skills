@@ -6,7 +6,7 @@ source: "https://github.com/crewAIInc/crewAI"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "crewaiinc/crewai"
   github_stars: 47658

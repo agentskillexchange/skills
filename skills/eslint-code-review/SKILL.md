@@ -6,11 +6,11 @@ source: "https://github.com/eslint/eslint"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27192
-  ase_npm_package: "eslint"
+  npm_package: "eslint"
   npm_weekly_downloads: 121814006
 ---
 

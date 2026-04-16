@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # REST API Documentation Generator

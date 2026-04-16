@@ -6,7 +6,7 @@ source: "https://github.com/BerriAI/litellm"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "BerriAI/litellm"
   github_stars: 41815

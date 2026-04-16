@@ -6,7 +6,7 @@ source: "https://github.com/grafana/loki"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/loki"
   github_stars: 27993

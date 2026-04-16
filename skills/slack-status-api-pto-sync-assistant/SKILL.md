@@ -6,7 +6,7 @@ source: "https://api.slack.com/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Slack Status API PTO Sync Assistant

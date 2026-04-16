@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # MDN Web API Reference Fetcher

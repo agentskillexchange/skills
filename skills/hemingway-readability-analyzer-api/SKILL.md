@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-ap
 category:
   - "Content Writing & SEO"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Hemingway Readability Analyzer API

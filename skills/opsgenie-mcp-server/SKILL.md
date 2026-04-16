@@ -6,11 +6,11 @@ source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opsgenie/opsgenie-nodejs-sdk"
   github_stars: 24
-  ase_npm_package: "opsgenie-sdk"
+  npm_package: "opsgenie-sdk"
   npm_weekly_downloads: 5913
 ---
 

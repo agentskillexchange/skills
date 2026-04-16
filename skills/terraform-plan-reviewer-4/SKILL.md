@@ -6,7 +6,7 @@ source: "https://github.com/hashicorp/terraform"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

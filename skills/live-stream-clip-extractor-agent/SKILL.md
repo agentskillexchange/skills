@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/
 category:
   - "Media & Transcription"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Live Stream Clip Extractor

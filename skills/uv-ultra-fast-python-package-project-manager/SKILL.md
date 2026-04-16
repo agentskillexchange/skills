@@ -6,7 +6,7 @@ source: "https://github.com/astral-sh/uv"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "astral-sh/uv"
   github_stars: 82442

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # SEO Content Cluster Generator

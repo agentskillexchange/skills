@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
 category:
   - "Media & Transcription"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Dolby.io Media Enhancer

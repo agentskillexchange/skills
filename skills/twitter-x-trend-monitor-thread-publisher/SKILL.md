@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-pu
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Twitter/X Trend Monitor & Thread Publisher

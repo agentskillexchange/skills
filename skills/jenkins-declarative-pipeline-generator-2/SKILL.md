@@ -6,7 +6,7 @@ source: "https://github.com/jenkinsci/pipeline-model-definition-plugin"
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jenkinsci/pipeline-model-definition-plugin"
   github_stars: 564

@@ -6,7 +6,7 @@ source: "https://github.com/neondatabase/mcp-server-neon"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "neondatabase/mcp-server-neon"
   github_stars: 567

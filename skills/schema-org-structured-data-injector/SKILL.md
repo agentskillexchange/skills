@@ -6,7 +6,7 @@ source: "https://schema.org/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Schema.org Structured Data Injector

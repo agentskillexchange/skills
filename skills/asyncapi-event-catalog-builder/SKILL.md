@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
 category:
   - "Library & API Reference"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # AsyncAPI Event Catalog Builder

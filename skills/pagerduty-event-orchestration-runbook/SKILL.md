@@ -6,7 +6,7 @@ source: "https://developer.pagerduty.com/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # PagerDuty Event Orchestration Runbook

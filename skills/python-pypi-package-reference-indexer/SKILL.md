@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-pypi-package-reference-ind
 category:
   - "Library & API Reference"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Python PyPI Package Reference Indexer

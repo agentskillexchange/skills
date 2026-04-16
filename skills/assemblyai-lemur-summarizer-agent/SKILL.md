@@ -6,7 +6,7 @@ source: "https://www.assemblyai.com/docs"
 category:
   - "Media & Transcription"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # AssemblyAI LeMUR Summarizer

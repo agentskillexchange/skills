@@ -6,7 +6,7 @@ source: "https://github.com/Foundry376/Mailspring"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Foundry376/Mailspring"
   github_stars: 17366

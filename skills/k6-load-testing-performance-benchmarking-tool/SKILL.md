@@ -6,7 +6,7 @@ source: "https://github.com/grafana/k6"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/k6"
   github_stars: 30253

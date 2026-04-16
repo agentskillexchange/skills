@@ -6,7 +6,7 @@ source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 category:
   - "Browser Automation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ChromeDevTools/chrome-devtools-mcp"
   github_stars: 34239

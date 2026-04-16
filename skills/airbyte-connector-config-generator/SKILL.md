@@ -6,7 +6,7 @@ source: "https://github.com/airbytehq/airbyte"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "airbytehq/airbyte"
   github_stars: 21088

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Prettier Config Harmonizer

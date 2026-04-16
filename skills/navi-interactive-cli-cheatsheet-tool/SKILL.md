@@ -6,7 +6,7 @@ source: "https://github.com/denisidoro/navi"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "denisidoro/navi"
   github_stars: 16941

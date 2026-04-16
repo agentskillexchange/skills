@@ -6,7 +6,7 @@ source: "https://github.com/trpc/trpc"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "trpc/trpc"
   github_stars: 39862

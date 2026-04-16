@@ -6,7 +6,7 @@ source: "https://github.com/hashicorp/terraform"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

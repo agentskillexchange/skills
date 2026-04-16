@@ -7,9 +7,6 @@ category:
   - "Templates & Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "githubnext/agentics"
-  github_stars: 585
 ---
 
 # Keep GitHub wiki pages synced with recently merged code changes

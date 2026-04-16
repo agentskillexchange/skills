@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Buildkite Agent Fleet Scaler

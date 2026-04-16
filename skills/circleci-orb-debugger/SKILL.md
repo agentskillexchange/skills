@@ -6,7 +6,7 @@ source: "https://github.com/circleci/circleci-docs"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

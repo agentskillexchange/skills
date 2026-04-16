@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cookiecutter-template-generator/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Cookiecutter Template Generator

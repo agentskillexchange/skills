@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-reference-indexer/"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Reference Indexer

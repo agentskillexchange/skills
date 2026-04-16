@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # CSP Policy Analyzer

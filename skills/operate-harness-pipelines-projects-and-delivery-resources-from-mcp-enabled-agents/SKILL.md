@@ -6,11 +6,11 @@ source: "https://github.com/harness/mcp-server"
 category:
   - "CI/CD Integrations"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "harness/mcp-server"
   github_stars: 43
-  ase_npm_package: "harness-mcp-v2"
+  npm_package: "harness-mcp-v2"
   npm_weekly_downloads: 1019
 ---
 

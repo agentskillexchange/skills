@@ -6,7 +6,7 @@ source: "https://github.com/upstash/mcp-server"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52

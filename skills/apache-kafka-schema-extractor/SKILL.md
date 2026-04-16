@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Apache Kafka Schema Extractor

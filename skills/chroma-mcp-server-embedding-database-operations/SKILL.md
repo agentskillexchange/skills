@@ -6,7 +6,7 @@ source: "https://github.com/chroma-core/chroma-mcp"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chroma-core/chroma-mcp"
   github_stars: 527

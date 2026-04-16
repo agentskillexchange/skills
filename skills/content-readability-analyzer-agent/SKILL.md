@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/content-readability-analyzer-agen
 category:
   - "Content Writing & SEO"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Content Readability Analyzer

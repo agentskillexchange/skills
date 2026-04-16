@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/schema-org-structured-data-genera
 category:
   - "Content Writing & SEO"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Schema.org Structured Data Generator

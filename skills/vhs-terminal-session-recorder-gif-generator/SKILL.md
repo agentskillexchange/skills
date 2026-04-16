@@ -6,7 +6,7 @@ source: "https://github.com/charmbracelet/vhs"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/vhs"
   github_stars: 19204

@@ -7,7 +7,6 @@ category:
   - "Security & Verification"
 framework:
   - "Multi-Framework"
-  - "OpenClaw"
 ---
 
 # Falco Runtime Security Monitor

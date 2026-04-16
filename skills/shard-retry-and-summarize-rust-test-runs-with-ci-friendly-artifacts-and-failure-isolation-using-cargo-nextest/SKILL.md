@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "nextest-rs/nextest"
   github_stars: 2910
-  ase_npm_package: "cargo-nextest"
+  npm_package: "cargo-nextest"
   npm_weekly_downloads: 9751524
 ---
 

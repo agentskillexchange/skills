@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Workflow Optimizer

@@ -6,11 +6,11 @@ source: "https://github.com/HubSpot/hubspot-api-nodejs"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hubspot/hubspot-api-nodejs"
   github_stars: 391
-  ase_npm_package: "@hubspot/api-client"
+  npm_package: "@hubspot/api-client"
   npm_weekly_downloads: 994073
 ---
 

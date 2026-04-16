@@ -6,7 +6,7 @@ source: "https://github.com/awslabs/mcp"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "awslabs/mcp"
   github_stars: 8645

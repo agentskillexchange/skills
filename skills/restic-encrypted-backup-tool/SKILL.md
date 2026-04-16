@@ -6,7 +6,7 @@ source: "https://github.com/restic/restic"
 category:
   - "Developer Tools"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "restic/restic"
   github_stars: 32908

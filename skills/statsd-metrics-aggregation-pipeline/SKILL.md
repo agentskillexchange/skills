@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeli
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # StatsD Metrics Aggregation Pipeline

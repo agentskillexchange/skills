@@ -6,7 +6,7 @@ source: "https://github.com/lycheeverse/lychee"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lycheeverse/lychee"
   github_stars: 3463

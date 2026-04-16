@@ -6,7 +6,7 @@ source: "https://github.com/knadh/listmonk"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "knadh/listmonk"
   github_stars: 19404

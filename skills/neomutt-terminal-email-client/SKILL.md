@@ -6,7 +6,7 @@ source: "https://github.com/neomutt/neomutt"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "neomutt/neomutt"
   github_stars: 3685

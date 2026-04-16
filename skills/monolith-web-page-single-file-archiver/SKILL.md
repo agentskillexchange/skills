@@ -6,7 +6,7 @@ source: "https://github.com/Y2Z/monolith"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "y2z/monolith"
   github_stars: 14932

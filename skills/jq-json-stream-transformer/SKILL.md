@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # jq JSON Stream Transformer

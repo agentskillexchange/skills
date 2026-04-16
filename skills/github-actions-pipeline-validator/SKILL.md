@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Pipeline Validator

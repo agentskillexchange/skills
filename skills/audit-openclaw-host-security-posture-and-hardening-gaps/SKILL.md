@@ -6,10 +6,7 @@ source: "https://github.com/openclaw/openclaw/tree/main/skills/healthcheck"
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/openclaw"
-  github_stars: 356821
+  - "Multi-Framework"
 ---
 
 # Audit OpenClaw host security posture and hardening gaps

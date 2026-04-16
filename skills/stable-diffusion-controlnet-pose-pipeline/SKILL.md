@@ -6,7 +6,7 @@ source: "https://github.com/lllyasviel/ControlNet"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lllyasviel/ControlNet"
   github_stars: 33793

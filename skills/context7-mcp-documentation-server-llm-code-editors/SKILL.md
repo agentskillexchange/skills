@@ -6,7 +6,7 @@ source: "https://github.com/upstash/context7"
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "upstash/context7"
   github_stars: 51326

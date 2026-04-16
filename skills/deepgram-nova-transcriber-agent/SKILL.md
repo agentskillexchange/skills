@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
 category:
   - "Media & Transcription"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Deepgram Nova Transcriber

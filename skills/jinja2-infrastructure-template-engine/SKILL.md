@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jinja2-infrastructure-template-en
 category:
   - "Templates & Workflows"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Jinja2 Infrastructure Template Engine

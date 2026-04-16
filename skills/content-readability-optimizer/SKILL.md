@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/content-readability-optimizer/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Content Readability Optimizer

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydoc
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Python Docstring Linter

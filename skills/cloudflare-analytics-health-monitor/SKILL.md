@@ -6,7 +6,7 @@ source: "https://developers.cloudflare.com/analytics/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Cloudflare Analytics Health Monitor

@@ -6,11 +6,11 @@ source: "https://github.com/prisma/prisma"
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prisma/prisma"
   github_stars: 45760
-  ase_npm_package: "prisma"
+  npm_package: "prisma"
   npm_weekly_downloads: 9910505
 ---
 

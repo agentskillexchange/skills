@@ -6,7 +6,7 @@ source: "https://github.com/SonarSource/sonarqube"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "SonarSource/sonarqube"
   github_stars: 10426

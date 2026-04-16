@@ -6,7 +6,7 @@ source: "https://github.com/prometheus/alertmanager"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
   github_stars: 8403

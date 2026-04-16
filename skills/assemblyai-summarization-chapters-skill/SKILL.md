@@ -6,7 +6,7 @@ source: "https://www.assemblyai.com/docs"
 category:
   - "Media & Transcription"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # AssemblyAI Summarization & Chapters Skill

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcr
 category:
   - "Media & Transcription"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # YouTube Chapter Generator from Transcripts

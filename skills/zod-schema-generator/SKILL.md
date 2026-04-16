@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/zod-schema-generator/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Zod Schema Generator

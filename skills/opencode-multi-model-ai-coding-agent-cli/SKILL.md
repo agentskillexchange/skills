@@ -6,7 +6,7 @@ source: "https://github.com/opencode-ai/opencode"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opencode-ai/opencode"
   github_stars: 11729

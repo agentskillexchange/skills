@@ -6,11 +6,11 @@ source: "https://github.com/cheeriojs/cheerio"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270
-  ase_npm_package: "cheerio"
+  npm_package: "cheerio"
   npm_weekly_downloads: 19621708
 ---
 

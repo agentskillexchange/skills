@@ -6,7 +6,7 @@ source: "https://github.com/Bearer/bearer"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Bearer/bearer"
   github_stars: 2610

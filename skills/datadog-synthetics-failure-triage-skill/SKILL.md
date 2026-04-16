@@ -6,7 +6,7 @@ source: "https://github.com/DataDog/datadog-api-client-python"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DataDog/datadog-api-client-python"
   github_stars: 158

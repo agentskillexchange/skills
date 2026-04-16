@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Content Brief Architect

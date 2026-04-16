@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/outlook-mail-triage-microsoft-gra
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Outlook Mail Triage Skill

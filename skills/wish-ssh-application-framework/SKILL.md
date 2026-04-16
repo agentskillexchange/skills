@@ -6,7 +6,7 @@ source: "https://github.com/charmbracelet/wish"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/wish"
   github_stars: 5110

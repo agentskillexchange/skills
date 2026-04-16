@@ -6,7 +6,7 @@ source: "https://github.com/makenotion/notion-mcp-server"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "makenotion/notion-mcp-server"
   github_stars: 4141

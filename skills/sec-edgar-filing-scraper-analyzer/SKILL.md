@@ -6,7 +6,6 @@ source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
   - "Multi-Framework"
 ---
 

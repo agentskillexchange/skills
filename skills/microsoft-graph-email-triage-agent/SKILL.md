@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-agen
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Microsoft Graph Email Triage Agent

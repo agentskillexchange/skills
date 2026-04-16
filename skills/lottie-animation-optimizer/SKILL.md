@@ -6,7 +6,7 @@ source: "https://github.com/airbnb/lottie-web"
 category:
   - "Image & Creative Automation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "airbnb/lottie-web"
   github_stars: 31794

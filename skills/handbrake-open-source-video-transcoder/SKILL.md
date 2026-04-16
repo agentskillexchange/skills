@@ -6,7 +6,7 @@ source: "https://github.com/HandBrake/HandBrake"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "handbrake/handbrake"
   github_stars: 22806

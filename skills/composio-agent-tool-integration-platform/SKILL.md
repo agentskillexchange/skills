@@ -6,7 +6,7 @@ source: "https://github.com/ComposioHQ/composio"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ComposioHQ/composio"
   github_stars: 27601

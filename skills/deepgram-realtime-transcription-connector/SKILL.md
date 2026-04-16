@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-c
 category:
   - "Media & Transcription"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Deepgram Real-Time Transcription Connector

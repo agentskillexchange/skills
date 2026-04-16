@@ -7,9 +7,6 @@ category:
   - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "githubnext/agentics"
-  github_stars: 585
 ---
 
 # Fix failing pull requests by analyzing CI errors and pushing targeted repairs

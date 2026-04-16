@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Bazel Build Graph Analyzer

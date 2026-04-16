@@ -6,7 +6,7 @@ source: "https://github.com/daijro/camoufox"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "daijro/camoufox"
   github_stars: 7103

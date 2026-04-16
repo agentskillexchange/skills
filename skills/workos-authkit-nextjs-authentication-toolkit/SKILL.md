@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "workos/authkit-nextjs"
   github_stars: 146
-  ase_npm_package: "@workos-inc/authkit-nextjs"
+  npm_package: "@workos-inc/authkit-nextjs"
   npm_weekly_downloads: 227207
 ---
 

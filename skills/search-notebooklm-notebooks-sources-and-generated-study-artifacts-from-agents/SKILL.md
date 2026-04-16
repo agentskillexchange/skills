@@ -6,7 +6,7 @@ source: "https://github.com/jacob-bd/notebooklm-mcp-cli"
 category:
   - "Research & Scraping"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jacob-bd/notebooklm-mcp-cli"
   github_stars: 3558

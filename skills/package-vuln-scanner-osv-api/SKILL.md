@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
 category:
   - "Developer Tools"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Package Vulnerability Scanner

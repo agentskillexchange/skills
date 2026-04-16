@@ -6,7 +6,7 @@ source: "https://github.com/docling-project/docling"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docling-project/docling"
   github_stars: 56871

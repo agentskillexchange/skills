@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 108813
-  ase_npm_package: "firecrawl"
+  npm_package: "firecrawl"
   npm_weekly_downloads: 166382
 ---
 

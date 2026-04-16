@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ci-pipeline-generator-skill/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # CI Pipeline Generator Skill

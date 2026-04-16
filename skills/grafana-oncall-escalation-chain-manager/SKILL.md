@@ -6,7 +6,7 @@ source: "https://github.com/grafana/oncall"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/oncall"
   github_stars: 3880

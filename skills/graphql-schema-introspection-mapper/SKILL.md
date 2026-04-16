@@ -6,12 +6,11 @@ source: "https://github.com/graphql/graphql-js"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Cursor"
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324
-  ase_npm_package: "graphql"
+  npm_package: "graphql"
   npm_weekly_downloads: 34200861
 ---
 

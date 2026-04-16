@@ -6,7 +6,7 @@ source: "https://github.com/pola-rs/polars"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pola-rs/polars"
   github_stars: 37924

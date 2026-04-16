@@ -6,11 +6,11 @@ source: "https://github.com/mongodb/node-mongodb-native"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mongodb/node-mongodb-native"
   github_stars: 10181
-  ase_npm_package: "mongodb"
+  npm_package: "mongodb"
   npm_weekly_downloads: 11189306
 ---
 

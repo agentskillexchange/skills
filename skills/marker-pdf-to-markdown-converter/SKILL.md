@@ -6,7 +6,7 @@ source: "https://github.com/datalab-to/marker"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "datalab-to/marker"
   github_stars: 33237

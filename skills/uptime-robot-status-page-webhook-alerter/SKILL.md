@@ -6,7 +6,7 @@ source: "https://uptimerobot.com/api/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Uptime Robot Status Page Webhook Alerter

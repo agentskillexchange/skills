@@ -6,7 +6,7 @@ source: "https://github.com/theJayTea/WritingTools"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
   github_stars: 2186

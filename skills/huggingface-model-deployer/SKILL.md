@@ -6,7 +6,7 @@ source: "https://github.com/huggingface/transformers"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159358

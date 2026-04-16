@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Protocol Buffers Documentation Compiler

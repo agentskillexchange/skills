@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/linear-sprint-planner/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Linear Sprint Planner

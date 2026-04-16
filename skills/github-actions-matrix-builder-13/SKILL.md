@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Matrix Builder

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-gen
 category:
   - "Image & Creative Automation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Adobe Firefly API Batch Image Generator

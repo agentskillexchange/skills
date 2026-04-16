@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/outlook-rule-automation-manager/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Outlook Rule Automation Manager

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/digitalocean-droplet-manager/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # DigitalOcean Droplet Manager

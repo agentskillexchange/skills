@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-library-reference-builder/
 category:
   - "Library & API Reference"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Python Library Reference Builder

@@ -6,7 +6,7 @@ source: "https://github.com/o2sh/onefetch"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "o2sh/onefetch"
   github_stars: 11710

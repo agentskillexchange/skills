@@ -6,7 +6,7 @@ source: "https://github.com/github/gh-aw-firewall"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/gh-aw-firewall"
   github_stars: 55

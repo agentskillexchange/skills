@@ -6,7 +6,7 @@ source: "https://github.com/pinchbench/skill"
 category:
   - "Code Quality & Review"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pinchbench/skill"
   github_stars: 1003

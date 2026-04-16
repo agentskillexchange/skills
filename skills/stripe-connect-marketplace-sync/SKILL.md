@@ -6,11 +6,11 @@ source: "https://github.com/stripe/stripe-node"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4385
-  ase_npm_package: "stripe"
+  npm_package: "stripe"
   npm_weekly_downloads: 9280426
 ---
 

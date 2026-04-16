@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-oidc-token-validat
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions OIDC Token Validator

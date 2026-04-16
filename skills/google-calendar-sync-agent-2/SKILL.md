@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/google-calendar-sync-agent-2/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Google Calendar Sync Agent

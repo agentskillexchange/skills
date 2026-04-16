@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Copy.ai Sales Email Sequence Builder

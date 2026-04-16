@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # OpenTelemetry Trace Aggregator

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/wp-cli-site-migration-automator/"
 category:
   - "WordPress & CMS"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # WP-CLI Site Migration Automator

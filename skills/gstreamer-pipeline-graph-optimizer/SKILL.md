@@ -6,7 +6,7 @@ source: "https://gstreamer.freedesktop.org/"
 category:
   - "Media & Transcription"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # GStreamer Pipeline Graph Optimizer

@@ -6,7 +6,7 @@ source: "https://github.com/highlight/highlight"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "highlight/highlight"
   github_stars: 9223

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
 category:
   - "WordPress & CMS"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Gutenberg Custom Block Builder

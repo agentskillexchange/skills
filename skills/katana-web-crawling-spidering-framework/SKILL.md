@@ -6,7 +6,7 @@ source: "https://github.com/projectdiscovery/katana"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "projectdiscovery/katana"
   github_stars: 16388

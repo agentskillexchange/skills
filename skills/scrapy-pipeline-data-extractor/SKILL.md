@@ -6,7 +6,7 @@ source: "https://github.com/scrapy/scrapy"
 category:
   - "Research & Scraping"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314

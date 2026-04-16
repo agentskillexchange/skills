@@ -6,7 +6,7 @@ source: "https://github.com/gavrielc/Nano-PDF"
 category:
   - "Image & Creative Automation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gavrielc/Nano-PDF"
   github_stars: 1237

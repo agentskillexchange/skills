@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Google Calendar Smart Scheduler

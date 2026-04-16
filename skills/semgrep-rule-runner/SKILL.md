@@ -6,7 +6,7 @@ source: "https://github.com/semgrep/semgrep"
 category:
   - "Code Quality & Review"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794

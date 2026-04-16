@@ -6,7 +6,7 @@ source: "https://github.com/projectdiscovery/subfinder"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "projectdiscovery/subfinder"
   github_stars: 13332

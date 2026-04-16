@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/makedown-task-runner/"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Makedown Task Runner

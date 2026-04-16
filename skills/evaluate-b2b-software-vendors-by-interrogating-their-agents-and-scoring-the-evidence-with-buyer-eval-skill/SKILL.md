@@ -6,7 +6,7 @@ source: "https://github.com/salespeak-ai/buyer-eval-skill"
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "salespeak-ai/buyer-eval-skill"
   github_stars: 55

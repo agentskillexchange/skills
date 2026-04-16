@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/wandb-run-monitor/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Weights & Biases Run Monitor

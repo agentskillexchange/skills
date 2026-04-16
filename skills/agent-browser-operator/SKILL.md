@@ -6,8 +6,7 @@ source: "https://github.com/microsoft/playwright"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 85658

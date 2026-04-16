@@ -6,7 +6,7 @@ source: "https://github.com/helm/helm"
 category:
   - "Templates & Workflows"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693

@@ -6,7 +6,7 @@ source: "https://github.com/usebruno/bruno"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "usebruno/bruno"
   github_stars: 42477

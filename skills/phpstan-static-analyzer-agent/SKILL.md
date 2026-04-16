@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
 category:
   - "Code Quality & Review"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # PHPStan Static Analyzer Agent

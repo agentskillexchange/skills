@@ -6,7 +6,7 @@ source: "https://github.com/aquasecurity/trivy"
 category:
   - "Security & Verification"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/trivy"
   github_stars: 34488

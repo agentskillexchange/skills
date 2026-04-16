@@ -6,7 +6,7 @@ source: "https://github.com/writefreely/writefreely"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "writefreely/writefreely"
   github_stars: 5117

@@ -6,7 +6,7 @@ source: "https://github.com/activepieces/activepieces"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "activepieces/activepieces"
   github_stars: 21510

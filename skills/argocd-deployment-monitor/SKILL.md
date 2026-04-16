@@ -6,7 +6,7 @@ source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

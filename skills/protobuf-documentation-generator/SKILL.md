@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/
 category:
   - "Library & API Reference"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Protobuf Documentation Generator

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Bubble.io Stripe Subscription Portal Builder

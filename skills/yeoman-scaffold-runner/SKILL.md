@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/yeoman-scaffold-runner/"
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Yeoman Scaffold Runner

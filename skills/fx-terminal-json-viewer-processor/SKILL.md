@@ -6,11 +6,11 @@ source: "https://github.com/antonmedv/fx"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "antonmedv/fx"
   github_stars: 20376
-  ase_npm_package: "fx"
+  npm_package: "fx"
   npm_weekly_downloads: 206007
 ---
 

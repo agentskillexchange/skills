@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-package-docs-fetcher/"
 category:
   - "Library & API Reference"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Python Package Docs Fetcher

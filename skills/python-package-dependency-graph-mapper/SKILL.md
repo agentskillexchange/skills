@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/python-package-dependency-graph-m
 category:
   - "Library & API Reference"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Python Package Dependency Graph Mapper

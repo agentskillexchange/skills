@@ -6,7 +6,7 @@ source: "https://github.com/crystaldba/postgres-mcp"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
   github_stars: 2464

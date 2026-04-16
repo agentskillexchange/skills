@@ -6,7 +6,7 @@ source: "https://github.com/Automattic/juice"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Automattic/juice"
   github_stars: 3245

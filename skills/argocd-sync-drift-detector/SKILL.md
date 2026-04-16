@@ -6,7 +6,7 @@ source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

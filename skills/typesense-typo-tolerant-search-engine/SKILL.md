@@ -6,7 +6,7 @@ source: "https://github.com/typesense/typesense"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "typesense/typesense"
   github_stars: 25500

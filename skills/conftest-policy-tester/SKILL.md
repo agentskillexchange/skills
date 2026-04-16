@@ -6,7 +6,7 @@ source: "https://github.com/open-policy-agent/conftest"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-policy-agent/conftest"
   github_stars: 3155

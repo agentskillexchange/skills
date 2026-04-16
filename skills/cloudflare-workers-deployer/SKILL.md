@@ -6,11 +6,11 @@ source: "https://github.com/cloudflare/workers-sdk"
 category:
   - "Templates & Workflows"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cloudflare/workers-sdk"
   github_stars: 3970
-  ase_npm_package: "wrangler"
+  npm_package: "wrangler"
   npm_weekly_downloads: 7093968
 ---
 

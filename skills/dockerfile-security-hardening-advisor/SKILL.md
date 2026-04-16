@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-adv
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Dockerfile Security Hardening Advisor

@@ -6,7 +6,7 @@ source: "https://github.com/ckreiling/mcp-server-docker"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ckreiling/mcp-server-docker"
   github_stars: 695

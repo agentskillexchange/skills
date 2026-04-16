@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/serpapi-search-intelligence-aggre
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # SerpAPI Search Intelligence Aggregator

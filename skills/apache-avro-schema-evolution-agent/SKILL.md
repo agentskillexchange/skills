@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agen
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Apache Avro Schema Evolution Agent

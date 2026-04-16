@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill
 category:
   - "Content Writing & SEO"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Ahrefs Keyword Gap Analysis Skill

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
 category:
   - "Library & API Reference"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # REST API Testing Reference Kit

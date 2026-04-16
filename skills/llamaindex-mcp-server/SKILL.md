@@ -6,7 +6,7 @@ source: "https://github.com/run-llama/llama_index"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
   github_stars: 48625

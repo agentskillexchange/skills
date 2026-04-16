@@ -6,7 +6,7 @@ source: "https://github.com/hangwin/mcp-chrome"
 category:
   - "Browser Automation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hangwin/mcp-chrome"
   github_stars: 11177

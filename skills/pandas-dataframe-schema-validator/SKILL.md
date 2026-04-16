@@ -6,7 +6,7 @@ source: "https://github.com/pandas-dev/pandas"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pandas-dev/pandas"
   github_stars: 48498

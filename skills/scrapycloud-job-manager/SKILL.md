@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
 category:
   - "Research & Scraping"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # ScrapyCloud Job Manager

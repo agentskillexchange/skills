@@ -6,7 +6,7 @@ source: "https://github.com/teamhanko/hanko"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "teamhanko/hanko"
   github_stars: 8893

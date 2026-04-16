@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
 category:
   - "Developer Tools"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Frontend Design Guidance Skill

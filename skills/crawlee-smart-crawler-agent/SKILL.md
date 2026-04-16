@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
 category:
   - "Research & Scraping"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Crawlee Smart Crawler Agent

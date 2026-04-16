@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/webhook-debugger/"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Webhook Debugger

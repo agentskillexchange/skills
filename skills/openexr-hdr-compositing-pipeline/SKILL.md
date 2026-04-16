@@ -6,7 +6,7 @@ source: "https://github.com/AcademySoftwareFoundation/openexr"
 category:
   - "Image & Creative Automation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "academysoftwarefoundation/openexr"
   github_stars: 1795

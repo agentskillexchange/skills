@@ -6,7 +6,7 @@ source: "https://github.com/oven-sh/bun"
 category:
   - "Developer Tools"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "oven-sh/bun"
   github_stars: 88912

@@ -6,7 +6,7 @@ source: "https://github.com/fullstorydev/grpcurl"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "fullstorydev/grpcurl"
   github_stars: 12548

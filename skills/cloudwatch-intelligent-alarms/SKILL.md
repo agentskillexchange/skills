@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # CloudWatch Intelligent Alarms

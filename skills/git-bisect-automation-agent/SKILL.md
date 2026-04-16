@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/git-bisect-automation-agent/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Git Bisect Automation Agent

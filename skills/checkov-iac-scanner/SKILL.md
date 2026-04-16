@@ -6,7 +6,7 @@ source: "https://github.com/bridgecrewio/checkov"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bridgecrewio/checkov"
   github_stars: 8623

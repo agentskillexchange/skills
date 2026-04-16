@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/
 category:
   - "Monitoring & Alerts"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # New Relic SLO Compliance Monitor

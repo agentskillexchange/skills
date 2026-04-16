@@ -6,7 +6,7 @@ source: "https://github.com/CrowdStrike/falcon-mcp"
 category:
   - "Security & Verification"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "CrowdStrike/falcon-mcp"
   github_stars: 136

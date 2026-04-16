@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/git-diff-complexity-analyzer/"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Git Diff Complexity Analyzer

@@ -6,8 +6,7 @@ source: "https://github.com/duckdb/duckdb"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "duckdb/duckdb"
   github_stars: 37119

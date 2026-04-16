@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/
 category:
   - "Code Quality & Review"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Codecov Coverage Diff Analyzer

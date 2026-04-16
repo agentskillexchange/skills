@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/github-actions-matrix-orchestrato
 category:
   - "CI/CD Integrations"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # GitHub Actions Matrix Orchestrator

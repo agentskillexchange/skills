@@ -6,7 +6,7 @@ source: "https://github.com/openai/codex-action"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openai/codex-action"
   github_stars: 927

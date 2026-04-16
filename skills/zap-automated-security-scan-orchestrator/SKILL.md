@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/zap-automated-security-scan-orche
 category:
   - "Security & Verification"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # ZAP Automated Security Scan Orchestrator

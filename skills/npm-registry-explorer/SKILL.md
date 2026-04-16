@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # npm Registry Explorer

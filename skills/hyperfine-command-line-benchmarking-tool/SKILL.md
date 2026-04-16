@@ -6,7 +6,7 @@ source: "https://github.com/sharkdp/hyperfine"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sharkdp/hyperfine"
   github_stars: 27797

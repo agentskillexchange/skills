@@ -6,7 +6,7 @@ source: "https://github.com/elie222/inbox-zero"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elie222/inbox-zero"
   github_stars: 10370

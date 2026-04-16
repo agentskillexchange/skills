@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Validator

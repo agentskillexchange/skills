@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agen
 category:
   - "CI/CD Integrations"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Buildkite Pipeline Optimizer

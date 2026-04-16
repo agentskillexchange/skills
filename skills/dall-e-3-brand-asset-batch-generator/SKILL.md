@@ -6,7 +6,7 @@ source: "https://platform.openai.com/docs/guides/images"
 category:
   - "Image & Creative Automation"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # DALL-E 3 Brand Asset Batch Generator

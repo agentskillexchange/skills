@@ -6,7 +6,7 @@ source: "https://github.com/jenkinsci/jenkins"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25191

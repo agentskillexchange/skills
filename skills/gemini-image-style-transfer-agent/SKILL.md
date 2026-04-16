@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent
 category:
   - "Image & Creative Automation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Gemini Image Style Transfer Agent

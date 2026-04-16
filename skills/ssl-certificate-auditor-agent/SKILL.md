@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
 category:
   - "Security & Verification"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # SSL Certificate Auditor

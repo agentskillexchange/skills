@@ -6,11 +6,11 @@ source: "https://github.com/yeoman/yo"
 category:
   - "Templates & Workflows"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3953
-  ase_npm_package: "yo"
+  npm_package: "yo"
   npm_weekly_downloads: 402691
 ---
 

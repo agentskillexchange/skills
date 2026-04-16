@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # CloudWatch Log Anomaly Detector

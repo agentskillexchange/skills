@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/obsidian-vault-manager/"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Obsidian Vault Manager

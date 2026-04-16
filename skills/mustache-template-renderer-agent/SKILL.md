@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/mustache-template-renderer-agent/
 category:
   - "Templates & Workflows"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Mustache Template Renderer

@@ -6,7 +6,7 @@ source: "https://github.com/WebAssembly/component-model"
 category:
   - "Developer Tools"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "WebAssembly/component-model"
   github_stars: 1294

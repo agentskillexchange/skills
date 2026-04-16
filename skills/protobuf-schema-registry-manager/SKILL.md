@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/
 category:
   - "Library & API Reference"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Protobuf Schema Registry Manager

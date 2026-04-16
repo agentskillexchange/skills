@@ -7,8 +7,7 @@ category:
   - "Data Extraction & Transformation"
   - "Integrations & Connectors"
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bruin-data/ingestr"
   github_stars: 3442

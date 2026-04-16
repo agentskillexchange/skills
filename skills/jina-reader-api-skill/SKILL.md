@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
 category:
   - "Research & Scraping"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Jina Reader API Skill

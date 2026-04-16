@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # IMAP Email Classifier

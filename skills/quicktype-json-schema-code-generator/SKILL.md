@@ -6,7 +6,7 @@ source: "https://github.com/glideapps/quicktype"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "glideapps/quicktype"
   github_stars: 13690

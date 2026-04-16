@@ -6,7 +6,7 @@ source: "https://github.com/plankanban/planka"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "plankanban/planka"
   github_stars: 11822

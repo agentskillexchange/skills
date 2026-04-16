@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # ScrapingBee API Data Harvester

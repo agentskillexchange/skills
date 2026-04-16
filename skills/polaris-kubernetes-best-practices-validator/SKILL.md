@@ -6,7 +6,7 @@ source: "https://github.com/FairwindsOps/polaris"
 category:
   - "Code Quality & Review"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FairwindsOps/polaris"
   github_stars: 3355

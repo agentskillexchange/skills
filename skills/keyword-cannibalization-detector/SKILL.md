@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/keyword-cannibalization-detector/
 category:
   - "Content Writing & SEO"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Keyword Cannibalization Detector

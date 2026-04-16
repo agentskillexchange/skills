@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # AWS CloudFormation Drift Detector

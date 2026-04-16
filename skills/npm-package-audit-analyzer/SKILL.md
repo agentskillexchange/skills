@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"
 category:
   - "Library & API Reference"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # NPM Package Audit Analyzer

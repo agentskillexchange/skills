@@ -6,7 +6,7 @@ source: "https://github.com/slsa-framework/slsa-verifier"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "slsa-framework/slsa-verifier"
   github_stars: 318

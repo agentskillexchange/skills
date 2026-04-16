@@ -6,7 +6,7 @@ source: "https://github.com/jordymeow/ai-engine"
 category:
   - "WordPress & CMS"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jordymeow/ai-engine"
   github_stars: 37

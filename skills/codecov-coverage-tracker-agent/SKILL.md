@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/"
 category:
   - "Code Quality & Review"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Codecov Coverage Tracker Agent

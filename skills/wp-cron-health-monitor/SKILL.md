@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/wp-cron-health-monitor/"
 category:
   - "WordPress & CMS"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # WP Cron Health Monitor

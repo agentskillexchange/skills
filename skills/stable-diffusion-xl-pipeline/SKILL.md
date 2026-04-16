@@ -6,7 +6,7 @@ source: "https://github.com/Stability-AI/stablediffusion"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Stable Diffusion XL Pipeline

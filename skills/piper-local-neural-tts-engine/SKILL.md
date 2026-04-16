@@ -6,7 +6,7 @@ source: "https://github.com/rhasspy/piper"
 category:
   - "Media & Transcription"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rhasspy/piper"
   github_stars: 10741

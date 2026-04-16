@@ -6,7 +6,7 @@ source: "https://github.com/taylorwilsdon/google_workspace_mcp"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "taylorwilsdon/google_workspace_mcp"
   github_stars: 1986

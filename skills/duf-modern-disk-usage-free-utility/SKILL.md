@@ -6,7 +6,7 @@ source: "https://github.com/muesli/duf"
 category:
   - "Developer Tools"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "muesli/duf"
   github_stars: 14916

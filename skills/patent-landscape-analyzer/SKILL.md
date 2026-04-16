@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/patent-landscape-analyzer/"
 category:
   - "Research & Scraping"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Patent Landscape Analyzer

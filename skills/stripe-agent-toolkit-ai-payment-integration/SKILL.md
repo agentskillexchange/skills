@@ -6,7 +6,7 @@ source: "https://github.com/stripe/ai"
 category:
   - "Integrations & Connectors"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stripe/ai"
   github_stars: 1422

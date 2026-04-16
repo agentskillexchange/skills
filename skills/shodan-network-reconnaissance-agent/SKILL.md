@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/shodan-network-reconnaissance-age
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Shodan Network Reconnaissance Agent

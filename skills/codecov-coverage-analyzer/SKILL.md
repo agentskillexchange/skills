@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Codex"
+  - "Multi-Framework"
 ---
 
 # Codecov Coverage Analyzer

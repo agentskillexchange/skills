@@ -6,7 +6,7 @@ source: "https://github.com/pulumi/pulumi"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 24984

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
 category:
   - "Research & Scraping"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # SerpAPI Scholar Agent

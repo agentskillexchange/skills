@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/
 category:
   - "Code Quality & Review"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Pull Request Size Analyzer

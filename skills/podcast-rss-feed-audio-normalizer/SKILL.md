@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer
 category:
   - "Media & Transcription"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Podcast RSS Feed Audio Normalizer

@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/prettier-config-conflict-resolver
 category:
   - "Code Quality & Review"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Prettier Config Conflict Resolver

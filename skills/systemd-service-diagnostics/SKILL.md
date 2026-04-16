@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/systemd-service-diagnostics/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Systemd Service Diagnostics

@@ -6,7 +6,7 @@ source: "https://github.com/Infisical/infisical"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "infisical/infisical"
   github_stars: 25635

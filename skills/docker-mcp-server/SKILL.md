@@ -6,7 +6,7 @@ source: "https://github.com/moby/moby"
 category:
   - "Developer Tools"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71498

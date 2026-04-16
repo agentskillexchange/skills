@@ -6,7 +6,7 @@ source: "https://github.com/SonarSource/sonarqube"
 category:
   - "Templates & Workflows"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

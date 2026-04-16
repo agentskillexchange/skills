@@ -6,11 +6,11 @@ source: "https://github.com/makenotion/notion-sdk-js"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5583
-  ase_npm_package: "@notionhq/client"
+  npm_package: "@notionhq/client"
   npm_weekly_downloads: 1200407
 ---
 

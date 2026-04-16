@@ -6,11 +6,11 @@ source: "https://github.com/twilio/twilio-node"
 category:
   - "Integrations & Connectors"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1528
-  ase_npm_package: "twilio"
+  npm_package: "twilio"
   npm_weekly_downloads: 3731324
 ---
 

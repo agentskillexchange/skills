@@ -6,7 +6,7 @@ source: "https://github.com/grafana/alloy"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026

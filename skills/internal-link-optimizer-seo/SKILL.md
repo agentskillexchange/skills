@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
 category:
   - "Content Writing & SEO"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Internal Link Optimizer

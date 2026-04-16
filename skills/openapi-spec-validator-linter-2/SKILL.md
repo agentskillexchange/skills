@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # OpenAPI Spec Validator & Linter

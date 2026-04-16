@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Todoist GTD Workflow Engine

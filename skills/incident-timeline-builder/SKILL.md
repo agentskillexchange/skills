@@ -6,7 +6,7 @@ source: "https://agentskillexchange.com/skills/incident-timeline-builder/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 ---
 
 # Incident Timeline Builder

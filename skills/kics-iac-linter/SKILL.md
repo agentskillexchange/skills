@@ -6,7 +6,7 @@ source: "https://github.com/Checkmarx/kics"
 category:
   - "Security & Verification"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Checkmarx/kics"
   github_stars: 2607

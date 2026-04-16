@@ -6,7 +6,7 @@ source: "https://github.com/httpie/cli"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "httpie/cli"
   github_stars: 37814

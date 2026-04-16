@@ -6,7 +6,7 @@ source: "https://cloudinary.com/documentation"
 category:
   - "Image & Creative Automation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Cloudinary DAM Pipeline

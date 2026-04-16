@@ -6,11 +6,11 @@ source: "https://github.com/lovell/sharp"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138
-  ase_npm_package: "sharp"
+  npm_package: "sharp"
   npm_weekly_downloads: 52472150
 ---
 

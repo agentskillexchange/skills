@@ -6,9 +6,9 @@ source: "https://www.npmjs.com/package/@wordpress/env"
 category:
   - "WordPress & CMS"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
-  ase_npm_package: "@wordpress/env"
+  npm_package: "@wordpress/env"
   npm_weekly_downloads: 46554
 ---
 

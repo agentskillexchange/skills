@@ -6,7 +6,7 @@ source: "https://www.blender.org/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Blender Geometry Nodes Script Generator
