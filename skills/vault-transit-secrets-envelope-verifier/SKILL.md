@@ -1,12 +1,12 @@
 ---
 title: "Vault Transit Secrets Envelope Verifier"
 description: "Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hashicorp/vault"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
-  - "Multi-Framework"
+  - "Codex"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
   github_stars: 35321
@@ -18,13 +18,27 @@ Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encr
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/vault-transit-secrets-envelope-verifier
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/vault-transit-secrets-envelope-verifier` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
