@@ -7,8 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Selenium Grid Multi-Browser Test Runner

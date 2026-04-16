@@ -4,7 +4,7 @@ description: "Naabu is a fast and reliable port scanning tool written in Go by P
 verification: "security_reviewed"
 source: "https://github.com/projectdiscovery/naabu"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -15,32 +15,26 @@ tool_ecosystem:
 # Naabu Fast Port Scanner by ProjectDiscovery
 
 Overview
-
 Naabu is a high-performance port scanning tool written in Go, developed by ProjectDiscovery — the team behind Nuclei, httpx, subfinder, and other widely-used security tools. It is designed for fast, reliable port enumeration during bug bounty hunting, penetration testing, and attack surface discovery. Naabu focuses on simplicity and composability, producing clean output that pipes directly into other ProjectDiscovery tools.
 
-How It Works
 
+How It Works
 Naabu performs SYN, CONNECT, or UDP probe-based scanning against target hosts. It accepts input from STDIN, files, individual hosts, CIDR ranges, or ASN identifiers. Results are output in JSON, CSV, or plain text format. The tool automatically deduplicates IP addresses resolved from DNS and can exclude CDN/WAF ranges from full scans.
+
 
 Key Features
 
 Fast SYN/CONNECT/UDP scanning: Optimized packet sending with configurable rate limiting (default 1000 packets/sec) and parallel workers.
-
 Multiple input formats: Accepts hosts, IP addresses, CIDR ranges, ASN numbers, and file lists.
-
 Nmap integration: Pass discovered open ports directly to Nmap for service version detection using the -nmap-cli flag.
-
 CDN/WAF exclusion: Automatically detect and exclude CDN-protected hosts from full port scans, only scanning ports 80 and 443.
-
 Passive enumeration: Query Shodan InternetDB API for passive port discovery without sending any packets.
-
 IPv4 and IPv6: Supports both address families with configurable preference.
-
 Host discovery: Built-in host discovery mode using TCP SYN, TCP ACK, ICMP echo, and ARP probes.
 
 Agent Integration
-
 Security-focused agents can use Naabu as the first step in an automated reconnaissance pipeline: enumerate open ports with Naabu, pipe results to httpx for HTTP probing, then to Nuclei for vulnerability scanning. The JSON output mode makes it easy to parse results programmatically for further automated analysis.
+
 
 Installation
 # Via Go
@@ -51,7 +45,6 @@ brew install naabu
 
 # Via Docker
 docker pull projectdiscovery/naabu:latest
-
 Example Usage
 # Scan top 100 ports on a host
 naabu -host example.com

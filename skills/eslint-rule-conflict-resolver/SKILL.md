@@ -4,7 +4,7 @@ description: "Detects and resolves conflicting ESLint rules across .eslintrc con
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Cursor"
 tool_ecosystem:

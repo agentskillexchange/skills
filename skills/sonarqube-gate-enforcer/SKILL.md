@@ -4,11 +4,9 @@ description: "Enforces SonarQube quality gate conditions in CI pipelines using t
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Cursor"
-tool_ecosystem:
-  license: "LGPL-3.0"
 ---
 
 # SonarQube Gate Enforcer

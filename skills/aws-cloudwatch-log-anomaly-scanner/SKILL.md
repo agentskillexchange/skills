@@ -4,7 +4,7 @@ description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API a
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Codex"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Generates contact-sheet-style thumbnail grids from video files usi
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 ---

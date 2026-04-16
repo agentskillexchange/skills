@@ -4,7 +4,7 @@ description: "Handle DingTalk workspace actions from one CLI surface instead of 
 verification: "listed"
 source: "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

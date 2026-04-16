@@ -4,7 +4,7 @@ description: "Tracks Code Climate maintainability scores over time using the Cod
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "ChatGPT Agents"
 ---

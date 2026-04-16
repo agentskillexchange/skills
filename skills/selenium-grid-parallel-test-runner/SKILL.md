@@ -7,8 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Cursor"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Selenium Grid Parallel Test Runner

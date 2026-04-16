@@ -4,7 +4,7 @@ description: "Scans Git repositories for leaked secrets using Gitleaks, TruffleH
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 ---

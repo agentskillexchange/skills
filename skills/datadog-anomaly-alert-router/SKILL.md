@@ -4,7 +4,7 @@ description: "Routes Datadog anomaly detection alerts to appropriate response ch
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "MCP"
 ---

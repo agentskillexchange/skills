@@ -4,7 +4,7 @@ description: "Routes and escalates Prometheus AlertManager notifications based o
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
 tool_ecosystem:

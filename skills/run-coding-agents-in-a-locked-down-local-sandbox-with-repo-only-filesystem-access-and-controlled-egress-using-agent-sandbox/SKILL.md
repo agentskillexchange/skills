@@ -4,7 +4,7 @@ description: "Put Claude Code, Codex, Gemini, or other supported agent CLIs insi
 verification: "listed"
 source: "https://github.com/mattolson/agent-sandbox"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

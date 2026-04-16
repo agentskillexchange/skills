@@ -4,7 +4,7 @@ description: "Open a rendered page, describe the fields you want, and return str
 verification: "listed"
 source: "https://github.com/mishushakov/llm-scraper"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Validates Ansible playbooks using ansible-lint and the Ansible Gal
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

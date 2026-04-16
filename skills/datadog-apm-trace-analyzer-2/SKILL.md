@@ -4,7 +4,7 @@ description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to i
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Claude Agents"
 ---

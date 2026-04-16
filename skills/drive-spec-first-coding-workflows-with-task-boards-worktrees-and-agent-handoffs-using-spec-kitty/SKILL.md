@@ -4,7 +4,7 @@ description: "Move from spec to plan to tasks to review through one repo-native 
 verification: "listed"
 source: "https://github.com/Priivacy-ai/spec-kitty"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

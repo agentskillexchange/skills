@@ -4,7 +4,7 @@ description: "Use Cloudsplaining when an agent needs to flag privilege-escalatio
 verification: "listed"
 source: "https://github.com/salesforce/cloudsplaining"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

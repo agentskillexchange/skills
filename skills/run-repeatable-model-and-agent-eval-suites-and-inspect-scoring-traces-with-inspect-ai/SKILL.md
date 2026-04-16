@@ -4,7 +4,7 @@ description: "Run benchmark-style eval suites against models or agents, then ins
 verification: "listed"
 source: "https://github.com/UKGovernmentBEIS/inspect_ai"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 ---

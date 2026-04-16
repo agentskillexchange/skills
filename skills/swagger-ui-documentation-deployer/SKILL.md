@@ -4,7 +4,7 @@ description: "Deploys interactive Swagger UI documentation sites from OpenAPI sp
 verification: "security_reviewed"
 source: "https://github.com/swagger-api/swagger-ui"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "OpenClaw"
 tool_ecosystem:

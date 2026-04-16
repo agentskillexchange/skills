@@ -4,7 +4,7 @@ description: "Automates OWASP ZAP active and passive scanning against web applic
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "OpenClaw"
 tool_ecosystem:

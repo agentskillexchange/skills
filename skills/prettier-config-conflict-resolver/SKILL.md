@@ -4,7 +4,7 @@ description: "Detects and resolves conflicts between Prettier, ESLint, and Edito
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-config-conflict-resolver/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Gemini"
 ---

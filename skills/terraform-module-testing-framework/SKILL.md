@@ -4,7 +4,7 @@ description: "Tests Terraform modules using Terratest Go library and terraform t
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
   - "Multi-Framework"

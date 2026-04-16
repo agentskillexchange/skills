@@ -4,7 +4,7 @@ description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and opt
 verification: "listed"
 source: "https://github.com/github/gh-aw-firewall"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Generates production-ready Terraform module scaffolds with variabl
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

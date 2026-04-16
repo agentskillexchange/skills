@@ -4,7 +4,7 @@ description: "Route, label, and clean routine email traffic with scripted IMAP r
 verification: "listed"
 source: "https://github.com/lefcha/imapfilter"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

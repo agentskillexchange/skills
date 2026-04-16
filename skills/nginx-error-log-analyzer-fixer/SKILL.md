@@ -4,7 +4,7 @@ description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 
 verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

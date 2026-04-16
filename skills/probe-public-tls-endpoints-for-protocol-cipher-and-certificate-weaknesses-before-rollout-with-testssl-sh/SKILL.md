@@ -4,7 +4,7 @@ description: "Run a thorough TLS preflight against a host before launch, certifi
 verification: "listed"
 source: "https://github.com/testssl/testssl.sh"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

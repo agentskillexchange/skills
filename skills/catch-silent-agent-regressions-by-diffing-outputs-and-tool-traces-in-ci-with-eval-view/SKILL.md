@@ -4,7 +4,7 @@ description: "Snapshot agent behavior, compare outputs and tool-call paths, and 
 verification: "listed"
 source: "https://github.com/hidai25/eval-view"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

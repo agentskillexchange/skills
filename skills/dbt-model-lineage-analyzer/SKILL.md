@@ -4,7 +4,7 @@ description: "Parses dbt project manifests and catalog artifacts to build comple
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

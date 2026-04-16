@@ -4,7 +4,7 @@ description: "Uses AWS CloudWatch SDK (boto3) to configure anomaly detection ban
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "MCP"
 tool_ecosystem:

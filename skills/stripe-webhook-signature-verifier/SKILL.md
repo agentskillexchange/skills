@@ -4,7 +4,7 @@ description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

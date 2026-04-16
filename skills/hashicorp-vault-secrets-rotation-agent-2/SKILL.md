@@ -4,7 +4,7 @@ description: "Automates secret rotation in HashiCorp Vault using the Vault API a
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/vault"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

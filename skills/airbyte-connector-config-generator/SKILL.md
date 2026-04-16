@@ -4,7 +4,7 @@ description: "Generates Airbyte source and destination connector configurations 
 verification: "security_reviewed"
 source: "https://github.com/airbytehq/airbyte"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:

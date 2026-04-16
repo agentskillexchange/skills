@@ -4,7 +4,7 @@ description: "Indexes Python package documentation using the PyPI JSON API and R
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "ChatGPT Agents"
 ---

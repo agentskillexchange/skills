@@ -4,7 +4,7 @@ description: "Executes automated diagnostics using the AWS Systems Manager Autom
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

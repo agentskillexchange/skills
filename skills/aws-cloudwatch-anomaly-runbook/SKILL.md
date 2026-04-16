@@ -4,7 +4,7 @@ description: "Executes structured diagnostic runbooks when CloudWatch Anomaly De
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

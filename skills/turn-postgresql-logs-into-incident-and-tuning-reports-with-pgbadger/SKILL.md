@@ -4,7 +4,7 @@ description: "Use pgBadger when an agent needs to convert raw PostgreSQL logs in
 verification: "listed"
 source: "https://github.com/darold/pgbadger"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

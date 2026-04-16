@@ -4,7 +4,7 @@ description: "Use gotestsum to turn noisy `go test` output into compact failure 
 verification: "listed"
 source: "https://github.com/gotestyourself/gotestsum"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

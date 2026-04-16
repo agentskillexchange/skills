@@ -4,7 +4,7 @@ description: "Record structured Claude Code trajectories, shadow git diffs, and 
 verification: "listed"
 source: "https://github.com/dreadnode/agent-lens"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -15,6 +15,7 @@ tool_ecosystem:
 # Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens
 
 Use Agent Lens when the job is to run or inspect Claude Code sessions as structured trajectories, then replay or resample them to understand what went wrong. The workflow is specific: define a multi-session run in YAML, execute it through the harness, inspect ATIF outputs and file-state diffs, and replay branch points or resample turns during debugging or research.
+
 
 The scope boundary is sharp enough for ASE. This is not a generic observability platform or a generic Claude product listing. It is a bounded trajectory-capture and replay workflow for Claude Code via the Claude Agent SDK, aimed at debugging, safety analysis, and behavior inspection.
 

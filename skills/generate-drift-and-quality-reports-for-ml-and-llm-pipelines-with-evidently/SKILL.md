@@ -4,7 +4,7 @@ description: "Produce repeatable drift and quality reports after data, model, or
 verification: "listed"
 source: "https://github.com/evidentlyai/evidently"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

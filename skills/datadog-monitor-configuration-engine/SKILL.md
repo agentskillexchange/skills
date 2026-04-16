@@ -4,7 +4,7 @@ description: "Interfaces with the Datadog API v2 monitors and dashboards endpoin
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "ChatGPT Agents"
 ---

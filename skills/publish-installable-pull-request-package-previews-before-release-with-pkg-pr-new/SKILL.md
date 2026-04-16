@@ -18,6 +18,7 @@ tool_ecosystem:
 
 pkg.pr.new gives an agent a narrow release-preview workflow. It builds package artifacts from commits or pull requests, exposes them through npm-compatible URLs, and lets reviewers install the preview immediately in downstream apps or reproduction repos. That is useful when the job is proving a library change in real conditions before merge or publish.
 
+
 The boundary is clear enough to be skill-shaped. Invoke it when an agent needs temporary, installable PR previews for a package review or release workflow, not when the user wants a general package registry, CI platform, or npm publishing product. The job-to-be-done is preview-release distribution from pull requests without cutting a normal release.
 
 ## Installation

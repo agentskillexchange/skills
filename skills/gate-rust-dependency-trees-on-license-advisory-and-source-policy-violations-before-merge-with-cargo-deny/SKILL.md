@@ -4,7 +4,7 @@ description: "Use cargo-deny when an agent needs to enforce Rust dependency poli
 verification: "security_reviewed"
 source: "https://github.com/EmbarkStudios/cargo-deny"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,7 +18,9 @@ tool_ecosystem:
 
 Tool: cargo-deny. This skill gives an agent a narrow compliance job: inspect a Rust dependency graph and fail the workflow when license policy, security advisories, banned crates, or allowed-source rules are violated.
 
+
 When to use it: invoke this before merge, release, or dependency approval when a repository needs an auditable Rust supply-chain gate that is stricter than manual review or a plain cargo build. Using this skill is different from using the product normally because the operator workflow is explicit: run the policy checks, interpret the failing rule set, and hand back a merge-blocking report with concrete remediation targets.
+
 
 Scope boundary: this is not a generic Rust package manager listing and not a broad security platform card. Its boundary is tighter: enforce dependency-policy rules on a Rust project with cargo-deny as a pre-merge or pre-release gate.
 

@@ -4,7 +4,7 @@ description: "Extracts and indexes JSDoc type annotations from JavaScript codeba
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "MCP"
 ---

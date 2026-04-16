@@ -4,7 +4,7 @@ description: "Analyzes and enhances Stable Diffusion prompts using the Automatic
 verification: "security_reviewed"
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Gemini"
 ---

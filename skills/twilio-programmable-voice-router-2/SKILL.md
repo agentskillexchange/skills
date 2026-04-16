@@ -4,7 +4,7 @@ description: "Builds intelligent voice routing flows using the Twilio Programmab
 verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Claude Agents"
 tool_ecosystem:
@@ -19,7 +19,9 @@ tool_ecosystem:
 
 The Twilio Programmable Voice Router creates sophisticated call handling workflows using Twilio’s Programmable Voice API. It generates dynamic TwiML documents that chain  for DTMF/speech input,  for call forwarding with SIP and Client endpoints, and  for queue-based routing.
 
+
 The skill manages the full call lifecycle: incoming call webhook handling, real-time call modification via the Calls resource (client.calls(sid).update()), and post-call recording retrieval through the Recordings REST API. It supports conference bridges with  verb including mute/hold controls.
+
 
 Advanced features include StatusCallback URL configuration for call progress events, AMD (Answering Machine Detection) with machineDetection: 'DetectMessageEnd', and fallback URL routing. The agent handles Twilio signature validation using twilio.webhook() middleware for request authentication. Integrates with Twilio Studio for visual IVR flow management.
 

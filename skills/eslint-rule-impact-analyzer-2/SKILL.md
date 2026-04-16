@@ -4,7 +4,7 @@ description: "Measures the impact of enabling new ESLint rules across a codebase
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Cursor"
 tool_ecosystem:

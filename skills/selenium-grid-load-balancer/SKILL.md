@@ -7,8 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Codex"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Selenium Grid Load Balancer

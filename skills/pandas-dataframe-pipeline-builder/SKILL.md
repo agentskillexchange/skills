@@ -4,7 +4,7 @@ description: "Constructs data transformation pipelines using Pandas and the pipe
 verification: "security_reviewed"
 source: "https://github.com/pandas-dev/pandas"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:

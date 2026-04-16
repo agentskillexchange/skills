@@ -4,11 +4,9 @@ description: "Use AgentClick when an agent should pause before risky commands, p
 verification: "listed"
 source: "https://github.com/agentlayer-io/AgentClick"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  license: "MIT"
 ---
 
 # Add a browser review checkpoint before risky agent actions with AgentClick

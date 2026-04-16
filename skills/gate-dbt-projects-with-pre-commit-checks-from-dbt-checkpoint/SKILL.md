@@ -4,7 +4,7 @@ description: "Use dbt-checkpoint when an agent should catch dbt naming, dependen
 verification: "listed"
 source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

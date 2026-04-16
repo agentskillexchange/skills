@@ -4,7 +4,7 @@ description: "Synchronizes Grafana dashboards between instances using the Grafan
 verification: "security_reviewed"
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Gemini"
 tool_ecosystem:

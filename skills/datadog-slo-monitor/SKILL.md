@@ -4,7 +4,7 @@ description: "Monitors Datadog Service Level Objectives and burn rate alerts via
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Claude Code"
 ---

@@ -4,7 +4,7 @@ description: "Check whether a Python codebase still respects declared layered, i
 verification: "listed"
 source: "https://github.com/seddonym/import-linter"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

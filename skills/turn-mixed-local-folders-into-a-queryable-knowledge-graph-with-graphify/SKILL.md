@@ -4,7 +4,7 @@ description: "Ingest code, docs, PDFs, images, and video from local folders into
 verification: "listed"
 source: "https://github.com/safishamsi/graphify"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

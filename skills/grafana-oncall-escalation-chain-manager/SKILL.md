@@ -4,7 +4,7 @@ description: "Configures Grafana OnCall escalation chains, notification policies
 verification: "security_reviewed"
 source: "https://github.com/grafana/oncall"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

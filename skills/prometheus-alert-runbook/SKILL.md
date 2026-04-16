@@ -4,7 +4,7 @@ description: "Execute structured runbook procedures triggered by Prometheus Aler
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

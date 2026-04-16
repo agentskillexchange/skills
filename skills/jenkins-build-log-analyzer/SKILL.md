@@ -4,7 +4,7 @@ description: "Parses Jenkins build console logs via the Jenkins Remote Access AP
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerti
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
 tool_ecosystem:

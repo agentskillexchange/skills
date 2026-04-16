@@ -4,7 +4,7 @@ description: "Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readabi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-readability-analyzer-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Gemini"
 ---

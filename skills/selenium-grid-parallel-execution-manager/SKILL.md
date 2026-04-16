@@ -7,8 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Selenium Grid Parallel Execution Manager

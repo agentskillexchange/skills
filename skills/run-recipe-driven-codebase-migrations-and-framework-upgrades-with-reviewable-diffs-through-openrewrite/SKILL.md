@@ -4,7 +4,7 @@ description: "Apply reusable refactoring recipes to large codebases so framework
 verification: "listed"
 source: "https://github.com/openrewrite/rewrite"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

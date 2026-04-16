@@ -4,7 +4,7 @@ description: "Scan codebases for security vulnerabilities and anti-patterns usin
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Agents"
 tool_ecosystem:

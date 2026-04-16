@@ -7,8 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "ChatGPT Agents"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Selenium Grid Test Orchestrator

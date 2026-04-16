@@ -4,7 +4,7 @@ description: "Use treefmt when an agent needs one repo-level formatting plan acr
 verification: "security_reviewed"
 source: "https://github.com/numtide/treefmt"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,7 +18,9 @@ tool_ecosystem:
 
 Tool: treefmt. This skill gives an agent a bounded repository-maintenance job: define one formatter plan for a mixed-language codebase and apply it consistently so generated edits stay predictable.
 
+
 When to use it: invoke this before review, before sweeping refactors, or when a repository has several language-specific formatters and the agent needs one stable entry point for formatting. Using this skill is different from using the product normally because the workflow is orchestration-focused: declare the formatter set once, run it at repo scope, and hand back a clean predictable formatting pass.
+
 
 Scope boundary: this is not a generic formatter listing and not a language-specific style tool card. Its boundary is narrower: coordinate multiple existing formatters from one repo-level plan with treefmt.
 

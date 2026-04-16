@@ -4,7 +4,7 @@ description: "Audit a Claude Code setup before use by flagging hardcoded secrets
 verification: "listed"
 source: "https://github.com/affaan-m/agentshield"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

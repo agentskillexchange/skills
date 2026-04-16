@@ -4,7 +4,7 @@ description: "Integrates with the Uptime Robot API to monitor status page change
 verification: "security_reviewed"
 source: "https://uptimerobot.com/api/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
 ---

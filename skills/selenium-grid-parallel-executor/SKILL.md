@@ -7,8 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Selenium Grid Parallel Executor
