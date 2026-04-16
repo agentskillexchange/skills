@@ -1,12 +1,12 @@
 ---
-title: Stable Diffusion LoRA Training Pipeline
-description: Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding.
-verification: security_reviewed
-source: https://github.com/Stability-AI/stablediffusion
+title: "Stable Diffusion LoRA Training Pipeline"
+description: "Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding."
+verification: "security_reviewed"
+source: "https://github.com/Stability-AI/stablediffusion"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Stable Diffusion LoRA Training Pipeline

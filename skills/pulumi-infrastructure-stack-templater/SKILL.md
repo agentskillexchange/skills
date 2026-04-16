@@ -1,14 +1,14 @@
 ---
-title: Pulumi Infrastructure Stack Templater
-description: Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and @pulumi/gcp SDKs. Includes Pulumi Automation API integration for programmatic stack lifecycle management.
-verification: security_reviewed
-source: https://github.com/pulumi/pulumi
+title: "Pulumi Infrastructure Stack Templater"
+description: "Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and @pulumi/gcp SDKs. Includes Pulumi Automation API integration for programmatic stack lifecycle management."
+verification: "security_reviewed"
+source: "https://github.com/pulumi/pulumi"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pulumi/pulumi
+  github_repo: "pulumi/pulumi"
   github_stars: 24984
 ---
 

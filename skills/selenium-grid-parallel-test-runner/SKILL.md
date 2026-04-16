@@ -1,14 +1,17 @@
 ---
-title: Selenium Grid Parallel Test Runner
-description: Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording.
-verification: security_reviewed
-source: https://github.com/SeleniumHQ/selenium
+title: "Selenium Grid Parallel Test Runner"
+description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
+verification: "security_reviewed"
+source: "https://github.com/SeleniumHQ/selenium"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  npm_package: selenium-webdriver
+  github_repo: "seleniumhq/selenium"
+  github_stars: 34076
+  npm_package: "selenium-webdriver"
+  npm_weekly_downloads: 1932148
 ---
 
 # Selenium Grid Parallel Test Runner

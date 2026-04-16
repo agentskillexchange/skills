@@ -1,14 +1,14 @@
 ---
-title: AWS CloudWatch Alarm Triage
-description: Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk. Correlates alarm triggers with deployment events.
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+title: "AWS CloudWatch Alarm Triage"
+description: "Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk. Correlates alarm triggers with deployment events."
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
 ---
 

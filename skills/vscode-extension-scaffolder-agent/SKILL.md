@@ -1,12 +1,12 @@
 ---
-title: VS Code Extension Scaffolder
-description: Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels, language servers via LSP, and custom tree view providers.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/
+title: "VS Code Extension Scaffolder"
+description: "Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels, language servers via LSP, and custom tree view providers."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # VS Code Extension Scaffolder

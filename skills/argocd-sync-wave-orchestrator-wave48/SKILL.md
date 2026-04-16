@@ -1,14 +1,14 @@
 ---
-title: ArgoCD Sync Wave Orchestrator
-description: Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates.
-verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+title: "ArgoCD Sync Wave Orchestrator"
+description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
+verification: "security_reviewed"
+source: "https://github.com/argoproj/argo-cd"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22593
 ---
 

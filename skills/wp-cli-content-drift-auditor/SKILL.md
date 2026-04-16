@@ -1,14 +1,14 @@
 ---
-title: WP-CLI Content Drift Auditor
-description: Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions.
-verification: security_reviewed
-source: https://github.com/wp-cli/wp-cli
+title: "WP-CLI Content Drift Auditor"
+description: "Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions."
+verification: "security_reviewed"
+source: "https://github.com/wp-cli/wp-cli"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: wp-cli/wp-cli
+  github_repo: "wp-cli/wp-cli"
   github_stars: 5048
 ---
 

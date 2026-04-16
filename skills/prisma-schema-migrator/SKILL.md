@@ -1,16 +1,16 @@
 ---
-title: Prisma Schema Migrator
-description: Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull.
-verification: security_reviewed
-source: https://github.com/prisma/prisma
+title: "Prisma Schema Migrator"
+description: "Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull."
+verification: "security_reviewed"
+source: "https://github.com/prisma/prisma"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: prisma/prisma
+  github_repo: "prisma/prisma"
   github_stars: 45760
-  npm_package: prisma
+  npm_package: "prisma"
   npm_weekly_downloads: 9910505
 ---
 

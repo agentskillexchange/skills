@@ -1,12 +1,12 @@
 ---
-title: Codecov Coverage Diff Analyzer
-description: Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/
+title: "Codecov Coverage Diff Analyzer"
+description: "Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Codecov Coverage Diff Analyzer

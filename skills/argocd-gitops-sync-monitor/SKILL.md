@@ -1,14 +1,14 @@
 ---
-title: ArgoCD GitOps Sync Monitor
-description: Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift between Git manifests and live Kubernetes cluster state via the Kubernetes API.
-verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+title: "ArgoCD GitOps Sync Monitor"
+description: "Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift between Git manifests and live Kubernetes cluster state via the Kubernetes API."
+verification: "security_reviewed"
+source: "https://github.com/argoproj/argo-cd"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22593
 ---
 

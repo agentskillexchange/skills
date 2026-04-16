@@ -1,12 +1,12 @@
 ---
-title: Makefile Dependency Auditor
-description: Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/makefile-dependency-auditor/
+title: "Makefile Dependency Auditor"
+description: "Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Makefile Dependency Auditor

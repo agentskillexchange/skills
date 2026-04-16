@@ -1,12 +1,12 @@
 ---
-title: Python Package Dependency Graph Mapper
-description: Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/
+title: "Python Package Dependency Graph Mapper"
+description: "Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Python Package Dependency Graph Mapper

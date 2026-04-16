@@ -1,16 +1,16 @@
 ---
-title: Stripe Connect Platform Bridge
-description: Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API.
-verification: security_reviewed
-source: https://github.com/stripe/stripe-node
+title: "Stripe Connect Platform Bridge"
+description: "Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API."
+verification: "security_reviewed"
+source: "https://github.com/stripe/stripe-node"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: stripe/stripe-node
+  github_repo: "stripe/stripe-node"
   github_stars: 4385
-  npm_package: stripe
+  npm_package: "stripe"
   npm_weekly_downloads: 9280426
 ---
 

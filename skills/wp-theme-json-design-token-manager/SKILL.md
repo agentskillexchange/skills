@@ -1,12 +1,15 @@
 ---
-title: WordPress Theme.json Design Token Manager
-description: Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution.
-verification: security_reviewed
-source: https://github.com/WordPress/WordPress
+title: "WordPress Theme.json Design Token Manager"
+description: "Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/WordPress"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wordpress/wordpress"
+  github_stars: 21027
 ---
 
 # WordPress Theme.json Design Token Manager

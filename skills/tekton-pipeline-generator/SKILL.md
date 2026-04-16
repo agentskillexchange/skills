@@ -1,14 +1,14 @@
 ---
-title: Tekton Pipeline Generator
-description: Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations.
-verification: security_reviewed
-source: https://github.com/tektoncd/pipeline
+title: "Tekton Pipeline Generator"
+description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
+verification: "security_reviewed"
+source: "https://github.com/tektoncd/pipeline"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: tektoncd/pipeline
+  github_repo: "tektoncd/pipeline"
   github_stars: 8936
 ---
 

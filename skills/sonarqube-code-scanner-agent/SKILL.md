@@ -1,12 +1,15 @@
 ---
-title: SonarQube Code Scanner Agent
-description: Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates.
-verification: security_reviewed
-source: https://github.com/SonarSource/sonarqube
+title: "SonarQube Code Scanner Agent"
+description: "Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates."
+verification: "security_reviewed"
+source: "https://github.com/SonarSource/sonarqube"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
 ---
 
 # SonarQube Code Scanner Agent

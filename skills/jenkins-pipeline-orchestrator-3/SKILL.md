@@ -1,14 +1,14 @@
 ---
-title: Jenkins Pipeline Orchestrator
-description: Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness.
-verification: security_reviewed
-source: https://github.com/jenkinsci/jenkins
+title: "Jenkins Pipeline Orchestrator"
+description: "Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness."
+verification: "security_reviewed"
+source: "https://github.com/jenkinsci/jenkins"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: jenkinsci/jenkins
+  github_repo: "jenkinsci/jenkins"
   github_stars: 25189
 ---
 

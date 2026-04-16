@@ -1,12 +1,12 @@
 ---
-title: MediaInfo Metadata Extractor
-description: Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset management.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/mediainfo-metadata-extractor/
+title: "MediaInfo Metadata Extractor"
+description: "Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset management."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/mediainfo-metadata-extractor/"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # MediaInfo Metadata Extractor

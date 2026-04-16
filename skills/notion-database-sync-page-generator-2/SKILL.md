@@ -1,16 +1,16 @@
 ---
-title: Notion Database Sync & Page Generator
-description: Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured JSON input. Resolves relation and rollup properties automatically when generating linked records.
-verification: security_reviewed
-source: https://github.com/makenotion/notion-sdk-js
+title: "Notion Database Sync & Page Generator"
+description: "Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured JSON input. Resolves relation and rollup properties automatically when generating linked records."
+verification: "security_reviewed"
+source: "https://github.com/makenotion/notion-sdk-js"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: makenotion/notion-sdk-js
+  github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
-  npm_package: '@notionhq/client'
+  npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
 ---
 

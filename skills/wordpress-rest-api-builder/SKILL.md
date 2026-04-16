@@ -1,14 +1,14 @@
 ---
-title: WordPress REST API Builder
-description: Build and debug WordPress REST endpoints with a specialized skill.
-verification: security_reviewed
-source: https://github.com/WordPress/WordPress
+title: "WordPress REST API Builder"
+description: "Build and debug WordPress REST endpoints with a specialized skill."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/WordPress"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: WordPress/WordPress
+  github_repo: "WordPress/WordPress"
   github_stars: 21002
 ---
 

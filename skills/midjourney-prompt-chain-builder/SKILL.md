@@ -1,12 +1,12 @@
 ---
-title: Midjourney Prompt Chain Builder
-description: Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for –ar, –v, –style, and –chaos flags across generation sequences.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/midjourney-prompt-chain-builder/
+title: "Midjourney Prompt Chain Builder"
+description: "Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for –ar, –v, –style, and –chaos flags across generation sequences."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/midjourney-prompt-chain-builder/"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Midjourney Prompt Chain Builder

@@ -1,12 +1,12 @@
 ---
-title: DocuSign Contract Auto-Sender with Conditional Logic
-description: Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/docusign-contract-auto-sender/
+title: "DocuSign Contract Auto-Sender with Conditional Logic"
+description: "Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # DocuSign Contract Auto-Sender with Conditional Logic

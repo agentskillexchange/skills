@@ -1,12 +1,12 @@
 ---
-title: Ahrefs Backlink Content Planner
-description: Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/
+title: "Ahrefs Backlink Content Planner"
+description: "Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Ahrefs Backlink Content Planner

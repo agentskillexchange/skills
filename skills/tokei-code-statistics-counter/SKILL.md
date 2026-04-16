@@ -1,14 +1,14 @@
 ---
-title: tokei Code Statistics Counter
-description: Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+ languages, with output in JSON, YAML, or CBOR for programmatic analysis of codebase composition.
-verification: security_reviewed
-source: https://github.com/XAMPPRocky/tokei
+title: "tokei Code Statistics Counter"
+description: "Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+ languages, with output in JSON, YAML, or CBOR for programmatic analysis of codebase composition."
+verification: "security_reviewed"
+source: "https://github.com/XAMPPRocky/tokei"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: XAMPPRocky/tokei
+  github_repo: "XAMPPRocky/tokei"
   github_stars: 14169
 ---
 

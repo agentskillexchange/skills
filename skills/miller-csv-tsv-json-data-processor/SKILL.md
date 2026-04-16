@@ -1,14 +1,14 @@
 ---
-title: Miller CSV TSV JSON Data Processor
-description: Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV, JSON, and JSON Lines. It combines the functionality of awk, sed, cut, join, and sort into a single tool purpose-built for structured data processing.
-verification: security_reviewed
-source: https://github.com/johnkerl/miller
+title: "Miller CSV TSV JSON Data Processor"
+description: "Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV, JSON, and JSON Lines. It combines the functionality of awk, sed, cut, join, and sort into a single tool purpose-built for structured data processing."
+verification: "security_reviewed"
+source: "https://github.com/johnkerl/miller"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: johnkerl/miller
+  github_repo: "johnkerl/miller"
   github_stars: 9814
 ---
 

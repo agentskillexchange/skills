@@ -1,14 +1,14 @@
 ---
-title: Query and rewrite Markdown structure with mdq
-description: Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits.
-verification: listed
-source: https://github.com/yshavit/mdq
+title: "Query and rewrite Markdown structure with mdq"
+description: "Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits."
+verification: "listed"
+source: "https://github.com/yshavit/mdq"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: yshavit/mdq
+  github_repo: "yshavit/mdq"
   github_stars: 1708
 ---
 

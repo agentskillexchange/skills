@@ -1,16 +1,16 @@
 ---
-title: GraphQL Schema Registry Client
-description: Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures.
-verification: security_reviewed
-source: https://github.com/graphql/graphql-js
+title: "GraphQL Schema Registry Client"
+description: "Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures."
+verification: "security_reviewed"
+source: "https://github.com/graphql/graphql-js"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: graphql/graphql-js
+  github_repo: "graphql/graphql-js"
   github_stars: 20324
-  npm_package: graphql
+  npm_package: "graphql"
   npm_weekly_downloads: 34200861
 ---
 

@@ -1,16 +1,16 @@
 ---
-title: Search Help Scout conversations and thread context before drafting support replies
-description: Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context.
-verification: security_reviewed
-source: https://github.com/drewburchfield/help-scout-mcp-server
+title: "Search Help Scout conversations and thread context before drafting support replies"
+description: "Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context."
+verification: "security_reviewed"
+source: "https://github.com/drewburchfield/help-scout-mcp-server"
 category:
-- Calendar, Email & Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: drewburchfield/help-scout-mcp-server
+  github_repo: "drewburchfield/help-scout-mcp-server"
   github_stars: 36
-  npm_package: help-scout-mcp-server
+  npm_package: "help-scout-mcp-server"
   npm_weekly_downloads: 184
 ---
 

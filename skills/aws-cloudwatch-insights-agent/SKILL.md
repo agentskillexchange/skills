@@ -1,14 +1,14 @@
 ---
-title: AWS CloudWatch Insights Agent
-description: Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions.
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+title: "AWS CloudWatch Insights Agent"
+description: "Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions."
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
 ---
 

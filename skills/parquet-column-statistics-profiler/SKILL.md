@@ -1,14 +1,17 @@
 ---
-title: Parquet Column Statistics Profiler
-description: Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets.
-verification: security_reviewed
-source: https://github.com/ironSource/parquetjs
+title: "Parquet Column Statistics Profiler"
+description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
+verification: "security_reviewed"
+source: "https://github.com/ironSource/parquetjs"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  npm_package: parquetjs
+  github_repo: "ironsource/parquetjs"
+  github_stars: 387
+  npm_package: "parquetjs"
+  npm_weekly_downloads: 170660
 ---
 
 # Parquet Column Statistics Profiler

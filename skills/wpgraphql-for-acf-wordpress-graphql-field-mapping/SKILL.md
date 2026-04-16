@@ -1,14 +1,14 @@
 ---
-title: WPGraphQL for ACF WordPress GraphQL Field Mapping
-description: WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes queryable through a typed GraphQL schema. It is useful for headless WordPress builds that need structured access to field groups, repeaters, and custom post type metadata without writing bespoke REST endpoints.
-verification: security_reviewed
-source: https://github.com/wp-graphql/wpgraphql-acf
+title: "WPGraphQL for ACF WordPress GraphQL Field Mapping"
+description: "WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes queryable through a typed GraphQL schema. It is useful for headless WordPress builds that need structured access to field groups, repeaters, and custom post type metadata without writing bespoke REST endpoints."
+verification: "security_reviewed"
+source: "https://github.com/wp-graphql/wpgraphql-acf"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: wp-graphql/wpgraphql-acf
+  github_repo: "wp-graphql/wpgraphql-acf"
   github_stars: 108
 ---
 

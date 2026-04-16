@@ -1,14 +1,14 @@
 ---
-title: Nginx Error Pattern Analyzer
-description: Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries.
-verification: security_reviewed
-source: https://github.com/nginx/nginx
+title: "Nginx Error Pattern Analyzer"
+description: "Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries."
+verification: "security_reviewed"
+source: "https://github.com/nginx/nginx"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: nginx/nginx
+  github_repo: "nginx/nginx"
   github_stars: 29930
 ---
 

@@ -1,12 +1,15 @@
 ---
-title: Tera Jinja2-Inspired Template Engine for Rust
-description: Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template inheritance, macros, filters, and auto-escaping, making it the go-to choice for HTML generation, static site builders, and code generation in Rust projects.
-verification: security_reviewed
-source: https://github.com/Keats/tera
+title: "Tera Jinja2-Inspired Template Engine for Rust"
+description: "Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template inheritance, macros, filters, and auto-escaping, making it the go-to choice for HTML generation, static site builders, and code generation in Rust projects."
+verification: "security_reviewed"
+source: "https://github.com/Keats/tera"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "keats/tera"
+  github_stars: 4183
 ---
 
 # Tera Jinja2-Inspired Template Engine for Rust

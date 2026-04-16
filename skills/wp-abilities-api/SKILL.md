@@ -1,14 +1,14 @@
 ---
-title: WP Abilities API
-description: Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
-verification: security_reviewed
-source: https://github.com/WordPress/abilities-api
+title: "WP Abilities API"
+description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/abilities-api"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: WordPress/abilities-api
+  github_repo: "WordPress/abilities-api"
   github_stars: 198
 ---
 

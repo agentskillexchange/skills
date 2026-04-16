@@ -1,12 +1,15 @@
 ---
-title: SonarQube Rule Enforcement Agent
-description: Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security hotspots, or duplications exceed configurable thresholds.
-verification: security_reviewed
-source: https://github.com/SonarSource/sonarqube
+title: "SonarQube Rule Enforcement Agent"
+description: "Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security hotspots, or duplications exceed configurable thresholds."
+verification: "security_reviewed"
+source: "https://github.com/SonarSource/sonarqube"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
 ---
 
 # SonarQube Rule Enforcement Agent

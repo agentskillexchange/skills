@@ -1,14 +1,14 @@
 ---
-title: Prometheus Custom Exporter Builder
-description: Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation.
-verification: security_reviewed
-source: https://github.com/prometheus/prometheus
+title: "Prometheus Custom Exporter Builder"
+description: "Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation."
+verification: "security_reviewed"
+source: "https://github.com/prometheus/prometheus"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: prometheus/prometheus
+  github_repo: "prometheus/prometheus"
   github_stars: 63584
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit
-description: Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping.
-verification: listed
-source: https://github.com/HeadyZhang/agent-audit
+title: "Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit"
+description: "Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping."
+verification: "listed"
+source: "https://github.com/HeadyZhang/agent-audit"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: HeadyZhang/agent-audit
+  github_repo: "HeadyZhang/agent-audit"
   github_stars: 149
 ---
 

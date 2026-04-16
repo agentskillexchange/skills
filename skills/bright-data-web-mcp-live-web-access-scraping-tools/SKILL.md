@@ -1,16 +1,16 @@
 ---
-title: Bright Data Web MCP Live Web Access and Scraping Tools
-description: Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for agents that need current information, anti-bot resilience, and structured extraction without maintaining their own scraping stack.
-verification: security_reviewed
-source: https://github.com/browserbase/mcp-server-browserbase
+title: "Bright Data Web MCP Live Web Access and Scraping Tools"
+description: "Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for agents that need current information, anti-bot resilience, and structured extraction without maintaining their own scraping stack."
+verification: "security_reviewed"
+source: "https://github.com/browserbase/mcp-server-browserbase"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: browserbase/mcp-server-browserbase
+  github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3249
-  npm_package: '@browserbasehq/mcp'
+  npm_package: "@browserbasehq/mcp"
   npm_weekly_downloads: 937
 ---
 

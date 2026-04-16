@@ -1,12 +1,15 @@
 ---
-title: RealtimeSTT Low-Latency Speech-to-Text Python Library
-description: RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications.
-verification: security_reviewed
-source: https://github.com/KoljaB/RealtimeSTT
+title: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
+description: "RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications."
+verification: "security_reviewed"
+source: "https://github.com/KoljaB/RealtimeSTT"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "koljab/realtimestt"
+  github_stars: 9615
 ---
 
 # RealtimeSTT Low-Latency Speech-to-Text Python Library

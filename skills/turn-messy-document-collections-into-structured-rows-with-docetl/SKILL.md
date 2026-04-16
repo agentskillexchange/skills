@@ -1,14 +1,14 @@
 ---
-title: Turn messy document collections into structured rows with DocETL
-description: Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus.
-verification: listed
-source: https://github.com/ucbepic/docetl
+title: "Turn messy document collections into structured rows with DocETL"
+description: "Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus."
+verification: "listed"
+source: "https://github.com/ucbepic/docetl"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ucbepic/docetl
+  github_repo: "ucbepic/docetl"
   github_stars: 3707
 ---
 

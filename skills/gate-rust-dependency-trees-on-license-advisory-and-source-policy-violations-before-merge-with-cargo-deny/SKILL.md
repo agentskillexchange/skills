@@ -1,16 +1,16 @@
 ---
-title: Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny
-description: Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable gate instead of doing ad hoc manifest review.
-verification: listed
-source: https://github.com/EmbarkStudios/cargo-deny
+title: "Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny"
+description: "Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable gate instead of doing ad hoc manifest review."
+verification: "listed"
+source: "https://github.com/EmbarkStudios/cargo-deny"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: EmbarkStudios/cargo-deny
+  github_repo: "EmbarkStudios/cargo-deny"
   github_stars: 2263
-  npm_package: cargo-deny
+  npm_package: "cargo-deny"
   npm_weekly_downloads: 3315365
 ---
 

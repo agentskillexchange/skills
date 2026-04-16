@@ -1,14 +1,14 @@
 ---
-title: AWS CloudWatch Anomaly Runbook
-description: Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations.
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+title: "AWS CloudWatch Anomaly Runbook"
+description: "Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations."
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
 ---
 

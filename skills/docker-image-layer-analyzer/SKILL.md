@@ -1,14 +1,14 @@
 ---
-title: Docker Image Layer Analyzer
-description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations.
-verification: security_reviewed
-source: https://github.com/moby/moby
+title: "Docker Image Layer Analyzer"
+description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
+verification: "security_reviewed"
+source: "https://github.com/moby/moby"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
 ---
 

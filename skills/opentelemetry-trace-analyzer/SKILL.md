@@ -1,12 +1,12 @@
 ---
-title: OpenTelemetry Trace Analyzer
-description: Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/
+title: "OpenTelemetry Trace Analyzer"
+description: "Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # OpenTelemetry Trace Analyzer

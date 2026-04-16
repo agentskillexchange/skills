@@ -1,12 +1,12 @@
 ---
-title: REST API Test Suite Generator
-description: Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/rest-api-test-suite-generator/
+title: "REST API Test Suite Generator"
+description: "Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # REST API Test Suite Generator

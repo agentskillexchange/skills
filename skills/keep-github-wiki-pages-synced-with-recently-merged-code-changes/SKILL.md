@@ -1,12 +1,12 @@
 ---
-title: Keep GitHub wiki pages synced with recently merged code changes
-description: This entry turns GitHub Next’s Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for recent merges, reads the PAGES.md template, updates only the relevant wiki pages, and opens follow-up changes when the source structure itself needs adjustment.
-verification: security_reviewed
-source: https://github.com/githubnext/agentics/blob/main/docs/agentic-wiki-writer.md
+title: "Keep GitHub wiki pages synced with recently merged code changes"
+description: "This entry turns GitHub Next’s Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for recent merges, reads the PAGES.md template, updates only the relevant wiki pages, and opens follow-up changes when the source structure itself needs adjustment."
+verification: "security_reviewed"
+source: "https://github.com/githubnext/agentics/blob/main/docs/agentic-wiki-writer.md"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Keep GitHub wiki pages synced with recently merged code changes
