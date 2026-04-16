@@ -114,6 +114,8 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.6k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
+| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 16.6k | — |
+| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 16.6k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.4k/wk |
@@ -174,8 +176,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
-| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |
-| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | — | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | — | — |
 | [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | — | — |

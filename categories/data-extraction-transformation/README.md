@@ -75,6 +75,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | 30.3k | 19.6M/wk |
 | [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
+| [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 206k/wk |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | 20.3k | 34.2M/wk |
@@ -131,6 +132,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Newsboat Terminal RSS and Atom Feed Reader](../../skills/newsboat-terminal-rss-atom-feed-reader/) | 3.8k | — |
 | [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](../../skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | 3.7k | 56.9k/wk |
 | [Turn messy document collections into structured rows with DocETL](../../skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | 3.7k | — |
+| [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](../../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
@@ -158,12 +160,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 75 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
-| [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | — | — |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
-| [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | — | — |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |
 | [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | — | — |
 | [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | — | — |

@@ -1,8 +1,101 @@
 {
   "version": "2.0",
-  "total": 2058,
+  "total": 2064,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty",
+      "name": "Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty",
+      "description": "Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1071
+      }
+    },
+    {
+      "slug": "operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli",
+      "name": "Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI",
+      "description": "Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message, approval, or document task.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1579
+      }
+    },
+    {
+      "slug": "read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack",
+      "name": "Read and automate Slack workflows from a purpose-built agent CLI with agent-slack",
+      "description": "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 382,
+        "npm_weekly_downloads": 5210
+      }
+    },
+    {
+      "slug": "turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay",
+      "name": "Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay",
+      "description": "Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen recordings.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 621,
+        "npm_weekly_downloads": 4870
+      }
+    },
+    {
+      "slug": "scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner",
+      "name": "Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner",
+      "description": "Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1767
+      }
+    },
+    {
+      "slug": "automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli",
+      "name": "Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI",
+      "description": "Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7942,
+        "npm_weekly_downloads": 98577
+      }
+    },
     {
       "slug": "catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view",
       "name": "Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view",
@@ -15842,7 +15935,12 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "tool": "openexr",
+        "github_stars": 1795,
+        "license": "BSD-3-Clause"
+      }
     },
     {
       "slug": "vite-plugin-hmr-analyzer",
@@ -17876,7 +17974,12 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "tool": "argo-workflows",
+        "github_stars": 16616,
+        "license": "Apache-2.0"
+      }
     },
     {
       "slug": "datadog-apm-anomaly-detector",
@@ -19510,7 +19613,12 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "tool": "tika",
+        "github_stars": 3695,
+        "license": "Apache-2.0"
+      }
     },
     {
       "slug": "ahrefs-backlink-content-planner",
@@ -20089,7 +20197,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "argo-workflows",
+        "github_stars": 16616,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -22380,7 +22490,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "airbyte",
+        "github_stars": 21088
       }
     },
     {
@@ -28362,7 +28473,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "argo-workflows",
+        "github_stars": 16616,
+        "license": "Apache-2.0"
       }
     },
     {

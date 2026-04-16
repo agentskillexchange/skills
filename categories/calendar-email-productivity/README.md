@@ -24,6 +24,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Downloads |
 |---|---:|
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 563.5k/wk |
+| [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⬇ 1.2M/wk |
@@ -32,7 +33,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⬇ 1.2M/wk |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⬇ 1.2M/wk |
 | [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | ⬇ 1.2M/wk |
-| [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -71,6 +71,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](../../skills/solidtime-open-source-time-tracking/) | 8.4k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
+| [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | 7.9k | 98.6k/wk |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | 5.9k | — |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | — |
@@ -107,12 +108,14 @@ Email automation, calendar management, task coordination, and productivity tools
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | 1.8k | — |
 | [Extract structured data and attachments from raw email with MailParser](../../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | 1.7k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
+| [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](../../skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 575 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
+| [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | — |

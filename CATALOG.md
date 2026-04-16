@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2058 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-16 03:21 UTC
+> **2064 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-16 05:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (264 skills)
+### 🛠️ Developer Tools (265 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -244,6 +244,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 842 | — |
+| [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Published | 621 | 4.9k/wk |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 389 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
@@ -365,6 +366,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [ArgoCD Sync Wave Planner](skills/argocd-sync-wave-planner/) | Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and Kubernetes custom resources. Uses… | Security Reviewed | 22.6k | — |
 | [ArgoCD GitOps Sync Automator](skills/argocd-gitops-sync-automator/) | Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages… | Security Reviewed | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](skills/renovate-automated-dependency-update-bot-and-cli/) | Renovate is an open source dependency automation tool that discovers package files and opens update pull requests… | Security Reviewed | 21.3k | — |
+| [Argo Workflows Deployer](skills/argo-workflows-deployer/) | Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller.… | Security Reviewed | 16.6k | — |
+| [Argo Workflows Linter](skills/argo-workflows-linter/) | Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency… | Security Reviewed | 16.6k | — |
 | [GoReleaser Cross-Platform Release Automation](skills/goreleaser-cross-platform-release-automation/) | Automate software releases with GoReleaser — build cross-platform binaries, create Docker images, generate… | Security Reviewed | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](skills/dagger-programmable-cicd-automation-engine/) | Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell… | Security Reviewed | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](skills/caprover-self-hosted-paas-app-deployment/) | CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications… | Security Reviewed | 14.9k | 8.4k/wk |
@@ -425,8 +428,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 564 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature… | Security Reviewed | 43 | 1k/wk |
-| [Argo Workflows Deployer](skills/argo-workflows-deployer/) | Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller.… | Security Reviewed | — | — |
-| [Argo Workflows Linter](skills/argo-workflows-linter/) | Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency… | Security Reviewed | — | — |
 | [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages… | Security Reviewed | — | — |
 | [Buildkite Agent Monitor](skills/buildkite-agent-monitor/) | Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue… | Security Reviewed | — | — |
 | [Buildkite Dynamic Pipeline Agent](skills/buildkite-dynamic-pipeline-agent/) | Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent… | Security Reviewed | — | — |
@@ -452,7 +453,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (150 skills)
+### 🔒 Security & Verification (151 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -549,6 +550,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc… | Published | 1.9k | — |
+| [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Published | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or… | Published | 1.3k | — |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 896 | — |
@@ -651,6 +653,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | Cheerio is a long-running Node.js library for parsing and manipulating HTML and XML with a jQuery-like API. It is… | Security Reviewed | 30.3k | 19.6M/wk |
 | [Turn mixed local folders into a queryable knowledge graph with Graphify](skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow… | Published | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](skills/typesense-typo-tolerant-search-engine/) | Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search… | Security Reviewed | 25.5k | — |
+| [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and… | Security Reviewed | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](skills/teable-no-code-postgres-database-platform/) | Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for… | Security Reviewed | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | 20.4k | 206k/wk |
 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with… | Security Reviewed | 20.3k | 34.2M/wk |
@@ -707,6 +710,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Newsboat Terminal RSS and Atom Feed Reader](skills/newsboat-terminal-rss-atom-feed-reader/) | Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter,… | Security Reviewed | 3.8k | — |
 | [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or… | Published | 3.7k | 56.9k/wk |
 | [Turn messy document collections into structured rows with DocETL](skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and… | Published | 3.7k | — |
+| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats.… | Security Reviewed | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation… | Published | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular… | Security Reviewed | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | 3.4k | — |
@@ -734,12 +738,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 75 | — |
 | [Search large PDFs and read only the relevant pages before answering](skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | Use pdf-mcp to inspect a PDF, search it, and load only the pages that matter so an agent can answer questions from… | Security Reviewed | 17 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | Use html-to-text when an agent receives raw HTML from inboxes, support systems, or scraped pages and needs readable… | Security Reviewed | — | 8.2M/wk |
-| [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and… | Security Reviewed | — | — |
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | — | — |
 | [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports… | Security Reviewed | — | — |
 | [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed… | Security Reviewed | — | — |
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email… | Security Reviewed | — | — |
-| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats.… | Security Reviewed | — | — |
 | [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Extracts structured text, metadata, and embedded objects from PDFs, Office documents, and 1000+ file formats using… | Security Reviewed | — | — |
 | [Apache Tika Document Parser Agent](skills/apache-tika-document-parser-agent/) | Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract… | Security Reviewed | — | — |
 | [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | Intelligent PDF table detection and extraction using Camelot-py with OpenCV-based lattice detection and… | Security Reviewed | — | — |
@@ -1181,7 +1183,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (111 skills)
+### 📅 Calendar, Email & Productivity (114 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1218,6 +1220,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Mailpit SMTP Testing and Email Capture Workbench](skills/mailpit-smtp-testing-email-capture-workbench/) | This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture,… | Security Reviewed | 9.1k | — |
 | [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](skills/solidtime-open-source-time-tracking/) | solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project… | Security Reviewed | 8.4k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](skills/nb-cli-note-taking-bookmarking-knowledge-base/) | nb is a command-line and local web note-taking, bookmarking, archiving, and knowledge base application. It stores… | Security Reviewed | 8.1k | — |
+| [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and… | Published | 7.9k | 98.6k/wk |
 | [jrnl Command-Line Journal and Note Capture Tool](skills/jrnl-command-line-journal-note-capture/) | jrnl is a command-line journal application that lets you capture thoughts and notes without leaving the terminal. It… | Security Reviewed | 7.2k | — |
 | [MailDev SMTP Capture and Email Testing Server](skills/maildev-smtp-capture-and-email-testing-server/) | MailDev is a local SMTP server with a web UI and REST API for capturing application email during development. It… | Security Reviewed | 5.9k | — |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing… | Security Reviewed | 5.9k | — |
@@ -1254,12 +1257,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](skills/vdirsyncer-caldav-carddav-sync/) | vdirsyncer is a command-line tool for synchronizing calendars and addressbooks between servers and the local… | Security Reviewed | 1.8k | — |
 | [Extract structured data and attachments from raw email with MailParser](skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text,… | Security Reviewed | 1.7k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Security Reviewed | 1.6k | — |
+| [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message,… | Published | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand. | Published | 917 | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Security Reviewed | 887 | — |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 575 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
+| [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with… | Published | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap… | Security Reviewed | 108 | — |
@@ -1419,7 +1424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (97 skills)
+### 📄 Templates & Workflows (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1459,6 +1464,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
 | [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | 18.4k | — |
+| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | 16.6k | — |
 | [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Security Reviewed | 16.1k | — |
 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 15.3k | 2.3M/wk |
@@ -1482,6 +1488,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | Use RTLCSS when an agent already has left-to-right stylesheets and must prepare a right-to-left variant for Arabic,… | Security Reviewed | 1.7k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository… | Security Reviewed | 1.6k | — |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Published | 1.1k | — |
+| [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Published | 1.1k | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Published | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | 585 | — |
@@ -1490,7 +1497,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | 505 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | — |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
-| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |
@@ -2085,6 +2091,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Kroki Unified Diagram Rendering API and Server](skills/kroki-unified-diagram-rendering-api-server/) | Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25… | Security Reviewed | 4.1k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](skills/oxipng-png-compression-optimizer/) | Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes… | Security Reviewed | 3.9k | — |
 | [resvg High-Performance SVG Rendering Library in Rust](skills/resvg-svg-rendering-library-rust/) | resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high… | Security Reviewed | 3.8k | — |
+| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | 1.8k | — |
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Security Reviewed | 917 | — |
@@ -2107,7 +2114,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
 | [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
 | [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
-| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
