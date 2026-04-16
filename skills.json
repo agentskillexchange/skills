@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2054,
+  "total": 2058,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view",
+      "name": "Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view",
+      "description": "Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change quietly shifts behavior.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 84
+      }
+    },
+    {
+      "slug": "scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield",
+      "name": "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield",
+      "description": "Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 388
+      }
+    },
+    {
+      "slug": "benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench",
+      "name": "Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench",
+      "description": "Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1003
+      }
+    },
+    {
+      "slug": "spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk",
+      "name": "Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk",
+      "description": "Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without stomping each other.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4399
+      }
+    },
     {
       "slug": "run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox",
       "name": "Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox",
