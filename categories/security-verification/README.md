@@ -135,6 +135,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 900 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
+| [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |

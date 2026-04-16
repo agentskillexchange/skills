@@ -255,6 +255,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
 | [Apply structural codemods across large codebases with Comby](../../skills/apply-structural-codemods-across-large-codebases-with-comby/) | 2.6k | — |
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | 2.6k | — |
+| [Persist reusable coding-agent memory across sessions with Engram](../../skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | 2.6k | — |
 | [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 88.6k/wk |
 | [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |

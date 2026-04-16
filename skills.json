@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2069,
+  "total": 2073,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens",
+      "name": "Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens",
+      "description": "Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic debugging instead of ad hoc transcript review.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 102
+      }
+    },
+    {
+      "slug": "run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock",
+      "name": "Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock",
+      "description": "Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 552
+      }
+    },
+    {
+      "slug": "evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill",
+      "name": "Evolve reusable coding-agent skills from failed trajectories with EvoSkill",
+      "description": "Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 489
+      }
+    },
+    {
+      "slug": "persist-reusable-coding-agent-memory-across-sessions-with-engram",
+      "name": "Persist reusable coding-agent memory across sessions with Engram",
+      "description": "Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions keep forgetting prior decisions, conventions,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2576
+      }
+    },
     {
       "slug": "manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli",
       "name": "Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI",

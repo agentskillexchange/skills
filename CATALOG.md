@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2069 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 09:21 UTC
+> **2073 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 11:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (265 skills)
+### 🛠️ Developer Tools (266 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -229,6 +229,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |
 | [Apply structural codemods across large codebases with Comby](skills/apply-structural-codemods-across-large-codebases-with-comby/) | Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than… | Published | 2.6k | — |
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Security Reviewed | 2.6k | — |
+| [Persist reusable coding-agent memory across sessions with Engram](skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions… | Published | 2.6k | — |
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Security Reviewed | 2.5k | 88.6k/wk |
 | [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Security Reviewed | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Security Reviewed | 2.5k | — |
@@ -453,7 +454,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (152 skills)
+### 🔒 Security & Verification (153 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -559,6 +560,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 900 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
+| [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Published | 552 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before… | Published | 333 | — |
@@ -916,7 +918,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (135 skills)
+### 📋 Runbooks & Diagnostics (136 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1021,6 +1023,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is… | Security Reviewed | 585 | — |
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
+| [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic… | Published | 102 | — |
 | [PagerDuty Incident Runbook](skills/pagerduty-incident-runbook/) | Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST API. Automatically executes diagnostic… | Security Reviewed | 69 | — |
 | [PagerDuty Incident Runbook Automator](skills/pagerduty-incident-runbook-automator/) | Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation,… | Security Reviewed | 69 | — |
 | [PagerDuty Incident Runbook Engine](skills/pagerduty-incident-runbook-engine/) | Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2.… | Security Reviewed | 69 | — |
@@ -1426,7 +1429,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (98 skills)
+### 📄 Templates & Workflows (99 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1497,6 +1500,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Security Reviewed | 556 | — |
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | 505 | — |
+| [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Published | 489 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | — |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |

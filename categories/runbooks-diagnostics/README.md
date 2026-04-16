@@ -139,6 +139,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
+| [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](../../skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | 102 | — |
 | [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | — |
 | [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | — |
 | [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | — |
