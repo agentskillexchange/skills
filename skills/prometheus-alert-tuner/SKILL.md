@@ -4,7 +4,7 @@ description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and 
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

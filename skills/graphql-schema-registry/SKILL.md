@@ -4,7 +4,7 @@ description: "Manages GraphQL schema evolution using graphql-inspector for break
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Agents"
 tool_ecosystem:

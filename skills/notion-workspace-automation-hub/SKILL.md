@@ -4,7 +4,7 @@ description: "Orchestrates Notion workspace workflows using Notion API v2 with d
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

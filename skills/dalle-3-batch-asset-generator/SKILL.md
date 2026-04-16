@@ -4,7 +4,7 @@ description: "Generates multiple image variations from a single brief using the 
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

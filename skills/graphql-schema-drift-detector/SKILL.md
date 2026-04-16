@@ -4,7 +4,7 @@ description: "Detects breaking changes in GraphQL schemas using graphql-inspecto
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "MCP"
 tool_ecosystem:

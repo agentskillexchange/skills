@@ -4,7 +4,7 @@ description: "Use cargo-machete when an agent needs to find and remove unused Ru
 verification: listed
 source: "https://github.com/bnjbvr/cargo-machete"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Put an inline firewall and containment layer in front of agent net
 verification: listed
 source: "https://github.com/luckyPipewrench/pipelock"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

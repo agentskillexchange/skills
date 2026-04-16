@@ -4,7 +4,7 @@ description: "Automates Notion database workflows using the Notion API databases
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Cursor"
 tool_ecosystem:

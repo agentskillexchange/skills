@@ -4,7 +4,7 @@ description: "Intercepts and analyzes network traffic using Playwright route han
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Cursor"
 tool_ecosystem:

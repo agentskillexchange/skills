@@ -4,7 +4,7 @@ description: "Use claude-code-system-prompts when you need the current extracted
 verification: listed
 source: "https://github.com/Piebald-AI/claude-code-system-prompts"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:

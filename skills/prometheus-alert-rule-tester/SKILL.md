@@ -4,7 +4,7 @@ description: "Tests Prometheus alerting rules against historical metrics using p
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

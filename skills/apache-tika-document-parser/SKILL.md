@@ -4,7 +4,7 @@ description: "Extracts structured text, metadata, and embedded objects from PDFs
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Gemini"
 ---

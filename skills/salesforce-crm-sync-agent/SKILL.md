@@ -4,7 +4,7 @@ description: "Bidirectional Salesforce integration using jsforce library and the
 verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Cursor"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use falcon-mcp when an agent needs CrowdStrike Falcon detections, 
 verification: security_reviewed
 source: "https://github.com/CrowdStrike/falcon-mcp"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

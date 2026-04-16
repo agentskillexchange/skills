@@ -4,7 +4,7 @@ description: "Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_sta
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

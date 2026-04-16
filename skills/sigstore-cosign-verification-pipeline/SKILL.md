@@ -4,7 +4,7 @@ description: "Verifies container image signatures and SBOMs using Sigstore Cosig
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Codex"
 ---

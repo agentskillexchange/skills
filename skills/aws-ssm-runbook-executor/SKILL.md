@@ -4,7 +4,7 @@ description: "Execute AWS Systems Manager Automation runbooks and Run Command do
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

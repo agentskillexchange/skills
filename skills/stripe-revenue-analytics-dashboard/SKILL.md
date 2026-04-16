@@ -4,7 +4,7 @@ description: "Pulls MRR, churn, and LTV metrics from the Stripe Data API using t
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "MCP"
 tool_ecosystem:
