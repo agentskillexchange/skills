@@ -4,7 +4,7 @@ description: "Check Prometheus alerting and recording rules in CI or ad hoc runs
 verification: "listed"
 source: "https://github.com/cloudflare/pint"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint
 
-Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are caught before deploy.
+Use Pint when an agent needs to review Prometheus alerting or recording rules for correctness before a pull request merges or a rule change rolls out. This should be invoked instead of using Prometheus normally when the job is rule linting, validation, and CI gating. The scope boundary is strong: Pint focuses on Prometheus rule quality checks and rule-specific diagnostics, not on general monitoring, alert delivery, or platform administration.
 
 ## Installation
 

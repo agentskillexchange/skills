@@ -4,7 +4,7 @@ description: "Use mutation testing to expose weak Python tests before merge or r
 verification: "listed"
 source: "https://github.com/boxed/mutmut"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Stress-test Python test suites with mutation runs from mutmut
 
-Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite.
+Use mutmut when an agent needs to evaluate how well a Python test suite actually detects behavioral changes before a risky merge or release. The agent can run mutation tests, collect surviving mutants, and point maintainers to weak assertions or missing cases. The boundary is mutation-based test-strength analysis for Python repositories, not a generic test runner or broad QA product listing.
 
 ## Installation
 

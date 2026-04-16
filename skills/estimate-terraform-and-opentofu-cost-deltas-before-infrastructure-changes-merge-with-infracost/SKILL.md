@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost
 
-Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges.
+Use Infracost when an agent needs to answer a narrow pre-merge question: how much will this Terraform or OpenTofu change move projected cloud spend up or down. The agent can read plan output, run cost breakdowns and diffs, and turn the results into a review-ready summary before infrastructure changes merge. Invoke this instead of using the product normally when the job is pull request cost adjudication, not general IaC authoring or cloud billing. The boundary is cost-delta review for infrastructure plans before approval, not a generic Terraform tool or cloud cost platform.
 
 ## Installation
 

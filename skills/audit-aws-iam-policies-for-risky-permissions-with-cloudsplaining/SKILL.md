@@ -4,7 +4,7 @@ description: "Use Cloudsplaining when an agent needs to flag privilege-escalatio
 verification: "listed"
 source: "https://github.com/salesforce/cloudsplaining"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Audit AWS IAM policies for risky permissions with Cloudsplaining
 
-Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an AWS policy change reaches production.
+Cloudsplaining is a clean security workflow for agents: inspect AWS IAM policies, identify risky actions and escalation paths, and produce findings before deploy or during access review. Invoke it when the operator job is IAM risk review, not when you simply need AWS to accept a policy document. The boundary is strong: this is preflight IAM analysis and remediation guidance, not a generic AWS SDK, cloud platform, or IAM product listing.
 
 ## Installation
 

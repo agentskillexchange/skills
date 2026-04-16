@@ -4,7 +4,7 @@ description: "Use scrubadub when an agent needs to strip emails, phone numbers, 
 verification: "listed"
 source: "https://github.com/LeapBeyond/scrubadub"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Redact PII from text before sharing or indexing with scrubadub
 
-Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search indexes.
+scrubadub gives an agent a simple but valuable privacy workflow: detect sensitive text, redact it, and hand off a safer version for review, indexing, or LLM ingestion. Invoke it when the real job is text sanitization before sharing, not when you want a generic NLP library or a full privacy platform. The boundary is narrow and skill-shaped: PII redaction in text pipelines, not a broad product listing or a general-purpose compliance stack.
 
 ## Installation
 

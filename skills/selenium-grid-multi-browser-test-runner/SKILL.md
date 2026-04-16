@@ -6,17 +6,14 @@ source: "https://github.com/SeleniumHQ/selenium"
 category:
   - "Browser Automation"
 framework:
-  - "Multi-Framework"
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
-  github_stars: 34076
-  npm_package: "selenium-webdriver"
-  npm_weekly_downloads: 1932148
+  license: "Apache-2.0"
 ---
 
 # Selenium Grid Multi-Browser Test Runner
 
-Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API. Supports Chrome, Firefox, and Edge with configurable DesiredCapabilities for each browser matrix.
+This skill manages parallel cross-browser test execution using Selenium Grid 4 with the WebDriver protocol. It connects to a Selenium Hub via webdriver.Remote() with configurable hub URL and DesiredCapabilities for each target browser (Chrome, Firefox, Edge). The skill constructs a browser matrix from configuration, spawning concurrent sessions using asyncio.gather() for Python or Promise.all() for Node.js implementations. Each session uses the standard WebDriver API: driver.get() for navigation, driver.find_element(By.CSS_SELECTOR) for element location, element.click() and element.send_keys() for interaction. It implements the Page Object Model pattern for maintainable test organization. Screenshots on failure use driver.save_screenshot() with timestamped filenames. The skill handles session lifecycle management including implicit/explicit waits via WebDriverWait with expected_conditions, and proper cleanup with driver.quit() in finally blocks. Test results aggregate across all browser nodes into a unified HTML report using the Allure framework integration. Supports custom Chrome options via ChromeOptions.add_argument() for headless mode, proxy settings, and window sizing.
 
 ## Installation
 

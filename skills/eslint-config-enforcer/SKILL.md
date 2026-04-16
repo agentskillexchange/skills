@@ -4,19 +4,38 @@ description: "Enforces consistent ESLint configurations across monorepo packages
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
-  - "Multi-Framework"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188
-  npm_package: "eslint"
+  ase_npm_package: "eslint"
   npm_weekly_downloads: 120215107
+  license: "MIT"
 ---
 
 # ESLint Config Enforcer
 
-Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint –inspect-config.
+ESLint Config Enforcer ensures coding standards remain consistent across every package in a monorepo by leveraging eslint-config-inspector and ESLint’s flat config system.
+
+How It Works
+
+The skill scans all workspace packages for their ESLint configurations, merges them using the flat config cascade, and identifies rule conflicts or overrides that deviate from the shared baseline. It uses eslint –inspect-config to produce a detailed report of active rules per package.
+
+Key Features
+
+Automatic detection of conflicting rules between @eslint/js, typescript-eslint, and custom shared configs
+
+Generates override files that resolve conflicts while preserving intentional per-package customizations
+
+Compliance dashboard showing rule coverage and deviation percentages across all packages
+
+Supports eslint.config.mjs, eslint.config.ts, and legacy .eslintrc migration paths
+
+Integration
+
+Works with npm, pnpm, and Yarn workspaces. Integrates with CI pipelines to block merges when config drift exceeds configurable thresholds. Outputs JSON reports compatible with SonarQube and CodeClimate.
 
 ## Installation
 

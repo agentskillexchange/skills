@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk
 
-Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without stomping each other.
+Use Worktrunk when an agent operator needs to create, enter, list, and clean isolated Git worktrees around parallel coding-agent tasks, not when they just need a general Git client. The invoke moment is specific: before or during multi-branch Claude Code or Codex work, give each run its own working directory and branch lifecycle so changes do not collide. That scope boundary, git worktree orchestration for parallel coding-agent branches, keeps this publishable as a skill instead of collapsing into a plain Git product card.
 
 ## Installation
 

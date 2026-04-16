@@ -4,7 +4,7 @@ description: "Mine failed agent runs for reusable skills, benchmark the candidat
 verification: "listed"
 source: "https://github.com/sentient-agi/EvoSkill"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Evolve reusable coding-agent skills from failed trajectories with EvoSkill
 
-Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline.
+Use EvoSkill when the job is to turn repeated coding-agent failures into reusable skills instead of fixing prompts by hand one task at a time. The operator workflow is narrow and publishable: point EvoSkill at a supported coding agent and task set, induce candidate skills from failures, evaluate them, and keep the versions that measurably outperform the baseline.
+
+The scope boundary is what saves this from being a generic product card. This is not a broad agent framework listing or model marketplace entry. It is a concrete failed-trajectory-to-skill-improvement loop for coding agents, with benchmarking and selection built into the workflow.
 
 ## Installation
 

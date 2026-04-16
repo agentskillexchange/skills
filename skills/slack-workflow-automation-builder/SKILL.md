@@ -4,19 +4,20 @@ description: "Creates Slack Workflow Builder automations using the Slack Web API
 verification: "security_reviewed"
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
-  - "Multi-Framework"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2900
-  npm_package: "@slack/bolt"
+  ase_npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
+  license: "MIT"
 ---
 
 # Slack Workflow Automation Builder
 
-Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components.
+The Slack Workflow Automation Builder programmatically creates and deploys Slack workflows using the Slack Web API and Bolt SDK framework. It constructs interactive workflows using Block Kit components—modal dialogs with input fields, multi-select menus, date pickers, and overflow menus for complex data collection. The skill builds approval workflows that route requests through configurable chains using Slack message actions and button callbacks, tracking approval state in a Redis-backed store. For standup automation, it deploys scheduled messages via chat.scheduleMessage that collect team updates through threaded responses, then aggregates and formats summaries into designated channels. Incident response workflows automatically create dedicated channels with conversations.create, invite on-call responders using usergroups.users.list integration with PagerDuty, pin runbook links, and set channel topics with incident metadata. The skill manages OAuth scopes and bot token permissions, handles rate limiting with the Slack retry headers (Retry-After), and implements event subscription verification for the Events API challenge handshake. Interactive component payloads are processed through the Bolt middleware chain with proper acknowledgment within the 3-second Slack timeout requirement.
 
 ## Installation
 

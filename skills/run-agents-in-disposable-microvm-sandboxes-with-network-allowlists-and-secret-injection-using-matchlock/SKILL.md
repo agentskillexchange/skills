@@ -4,7 +4,7 @@ description: "Launch risky agent work inside disposable microVMs when you need s
 verification: "listed"
 source: "https://github.com/jingkaihe/matchlock"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock
 
-Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access.
+Use Matchlock when an agent must run code, install packages, and touch external APIs, but you do not want it operating directly on the host. The workflow is explicit: install Matchlock, verify host support, declare allowed hosts and secret mappings, run the agent inside a disposable microVM, and tear the environment down when the task is done.
+
+The skill boundary is concrete and narrower than a generic VM or sandbox product listing. This is about microVM-based agent execution with network allowlisting and in-flight secret injection, not general virtualization, not a broad agent framework, and not a generic container runtime card.
 
 ## Installation
 
