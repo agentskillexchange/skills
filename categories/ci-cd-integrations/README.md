@@ -27,6 +27,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
+| [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | ⬇ 1k/wk |
 
 ---
@@ -175,6 +176,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
+| [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | 361 | 11M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | — | — |

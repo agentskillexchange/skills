@@ -133,6 +133,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](../../skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
+| [Sweep GitHub for leaked secrets and exposed credentials with git-hound](../../skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | 1.4k | — |
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](../../skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | 1.3k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 900 | — |
@@ -150,6 +151,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
+| [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](../../skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | 124 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 115 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2086 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 17:30 UTC
+> **2092 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (266 skills)
+### 🛠️ Developer Tools (267 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -218,6 +218,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.9M/wk |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](skills/pdfme-typescript-pdf-generation-library/) | pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG… | Security Reviewed | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Security Reviewed | 4.2k | — |
+| [Capture and search AI coding sessions alongside Git history with Entire CLI](skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and… | Published | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](skills/wrangler-cloudflare-workers-cli-edge-deployment/) | Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a… | Security Reviewed | 4k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
@@ -282,7 +283,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (164 skills)
+### 🔧 CI/CD Integrations (165 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -428,6 +429,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 564 | — |
+| [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | Generate structured release notes from Conventional Commits inside automated release pipelines when changelog… | Published | 361 | 11M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature… | Security Reviewed | 43 | 1k/wk |
 | [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages… | Security Reviewed | — | — |
 | [Buildkite Agent Monitor](skills/buildkite-agent-monitor/) | Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue… | Security Reviewed | — | — |
@@ -454,7 +456,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (155 skills)
+### 🔒 Security & Verification (157 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -556,6 +558,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc… | Published | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Published | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
+| [Sweep GitHub for leaked secrets and exposed credentials with git-hound](skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not… | Published | 1.4k | — |
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or… | Published | 1.3k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and… | Published | 1.1k | 20.9k/wk |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 900 | — |
@@ -573,6 +576,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool… | Published | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](skills/workos-authkit-nextjs-authentication-toolkit/) | WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration… | Security Reviewed | 146 | 227.2k/wk |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents, behaviors, threat intel, or read-only… | Security Reviewed | 136 | — |
+| [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain… | Published | 124 | — |
 | [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and… | Security Reviewed | 123 | — |
 | [Sentry for AI](skills/sentry-for-ai/) | Observability and debugging support for AI-assisted application workflows. | Security Reviewed | 115 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository… | Published | 55 | — |
@@ -617,7 +621,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (151 skills)
+### 🔄 Data Extraction & Transformation (152 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -674,6 +678,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | 14.4k | — |
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | Unstructured is an open-source library for ingesting and partitioning PDFs, HTML, Office documents, emails, and… | Security Reviewed | 14.4k | — |
 | [Gitingest Repository-to-Prompt Codebase Extraction Tool](skills/gitingest-repository-to-prompt-codebase-extraction-tool/) | Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect… | Security Reviewed | 14.3k | — |
+| [Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset](skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset/) | Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset… | Published | 14k | — |
 | [Instructor Structured Data Extraction from LLMs](skills/instructor-structured-data-extraction-llms/) | Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM… | Security Reviewed | 12.7k | — |
 | [dbt MCP Server](skills/dbt-mcp-server/) | dbt MCP Server is built around dbt transformation framework. The underlying ecosystem is represented by… | Security Reviewed | 12.6k | — |
 | [dbt Cloud MCP](skills/dbt-cloud-mcp/) | dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by… | Security Reviewed | 12.6k | — |
@@ -924,7 +929,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (136 skills)
+### 📋 Runbooks & Diagnostics (137 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1036,6 +1041,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Incident Runbook Executor](skills/pagerduty-incident-runbook-executor/) | Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and… | Security Reviewed | 69 | — |
 | [PagerDuty On-Call Escalation Checker](skills/pagerduty-on-call-escalation-checker-2/) | Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents,… | Security Reviewed | 69 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches,… | Security Reviewed | 65 | — |
+| [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review… | Published | 40 | — |
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance… | Security Reviewed | — | 23.2M/wk |

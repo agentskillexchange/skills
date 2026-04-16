@@ -1,8 +1,99 @@
 {
   "version": "2.0",
-  "total": 2086,
+  "total": 2092,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli",
+      "name": "Triage active security incidents with AI-augmented workflows in Valhuntir CLI",
+      "description": "Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 40
+      }
+    },
+    {
+      "slug": "scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action",
+      "name": "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action",
+      "description": "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 124
+      }
+    },
+    {
+      "slug": "generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator",
+      "name": "Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator",
+      "description": "Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 361,
+        "npm_weekly_downloads": 10982193
+      }
+    },
+    {
+      "slug": "sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound",
+      "name": "Sweep GitHub for leaked secrets and exposed credentials with git-hound",
+      "description": "Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1400
+      }
+    },
+    {
+      "slug": "capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli",
+      "name": "Capture and search AI coding sessions alongside Git history with Entire CLI",
+      "description": "Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and hand off work cleanly.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4000
+      }
+    },
+    {
+      "slug": "generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset",
+      "name": "Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset",
+      "description": "Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 14000
+      }
+    },
     {
       "slug": "run-configurable-multi-source-deep-research-passes-with-open-deep-research",
       "name": "Run configurable multi-source deep research passes with Open Deep Research",
