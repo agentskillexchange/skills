@@ -1,8 +1,10 @@
 ---
 title: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
-description: "Use AgentShield when an operator needs a preflight security audit of a Claude Code setup, not when they are simply using Claude Code normally. The invoke moment is concrete: scan a .claude directory before enabling a workflow, merging config changes, or trusting a new MCP connection. That scope boundary, static security review of Claude Code configuration, permissions, hooks, and MCP server exposure, keeps this distinct from a generic agent platform or broad security product listing."
+description: "Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config."
 verification: listed
 source: "https://github.com/affaan-m/agentshield"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield
 
-Use AgentShield when an operator needs a preflight security audit of a Claude Code setup, not when they are simply using Claude Code normally. The invoke moment is concrete: scan a .claude directory before enabling a workflow, merging config changes, or trusting a new MCP connection. That scope boundary, static security review of Claude Code configuration, permissions, hooks, and MCP server exposure, keeps this distinct from a generic agent platform or broad security product listing.
+Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config.
 
 ## Installation
 

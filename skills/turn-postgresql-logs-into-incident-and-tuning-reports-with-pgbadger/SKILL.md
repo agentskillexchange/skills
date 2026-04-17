@@ -1,8 +1,10 @@
 ---
 title: "Turn PostgreSQL logs into incident and tuning reports with pgBadger"
-description: "pgBadger gives an agent a concrete post-incident job: parse PostgreSQL logs, summarize what happened, and output reports that help humans spot slow queries, lock pain, error bursts, and tuning opportunities. Invoke it when the real need is evidence-driven diagnosis from logs, not when you just need a database client or generic monitoring dashboard. The boundary is tight and skill-shaped: PostgreSQL log analysis and reporting, not broad database administration or a plain product listing."
+description: "Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors, and workload hotspots after an incident."
 verification: listed
 source: "https://github.com/darold/pgbadger"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Turn PostgreSQL logs into incident and tuning reports with pgBadger
 
-pgBadger gives an agent a concrete post-incident job: parse PostgreSQL logs, summarize what happened, and output reports that help humans spot slow queries, lock pain, error bursts, and tuning opportunities. Invoke it when the real need is evidence-driven diagnosis from logs, not when you just need a database client or generic monitoring dashboard. The boundary is tight and skill-shaped: PostgreSQL log analysis and reporting, not broad database administration or a plain product listing.
+Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors, and workload hotspots after an incident.
 
 ## Installation
 

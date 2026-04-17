@@ -1,8 +1,10 @@
 ---
 title: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
-description: "Use hadolint when an agent is reviewing Dockerfiles before build or release. It can flag risky base-image choices, bad package installation patterns, missing cleanup, and shell mistakes that make container images less secure or less reproducible. The boundary is Dockerfile review before image creation, not a generic container platform or registry listing."
+description: "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship."
 verification: listed
 source: "https://github.com/hadolint/hadolint"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Review Dockerfiles for risky patterns and bad defaults with hadolint
 
-Use hadolint when an agent is reviewing Dockerfiles before build or release. It can flag risky base-image choices, bad package installation patterns, missing cleanup, and shell mistakes that make container images less secure or less reproducible. The boundary is Dockerfile review before image creation, not a generic container platform or registry listing.
+Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship.
 
 ## Installation
 

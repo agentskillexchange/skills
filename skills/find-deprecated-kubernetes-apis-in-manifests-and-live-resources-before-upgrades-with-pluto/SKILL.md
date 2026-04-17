@@ -1,8 +1,10 @@
 ---
 title: "Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto"
-description: "Use Pluto when an agent needs to answer a very specific upgrade-safety question: which Kubernetes resources still rely on APIs that are deprecated or removed in newer cluster versions. The agent can inspect raw manifests, Helm output, or live resources and convert the findings into a migration checklist before maintenance begins. Invoke this instead of using the product normally when the job is pre-upgrade compatibility review, not generic Kubernetes management or policy enforcement. The scope boundary is tight: deprecated-API detection for upgrade readiness."
+description: "Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window."
 verification: listed
 source: "https://github.com/FairwindsOps/pluto"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto
 
-Use Pluto when an agent needs to answer a very specific upgrade-safety question: which Kubernetes resources still rely on APIs that are deprecated or removed in newer cluster versions. The agent can inspect raw manifests, Helm output, or live resources and convert the findings into a migration checklist before maintenance begins. Invoke this instead of using the product normally when the job is pre-upgrade compatibility review, not generic Kubernetes management or policy enforcement. The scope boundary is tight: deprecated-API detection for upgrade readiness.
+Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window.
 
 ## Installation
 

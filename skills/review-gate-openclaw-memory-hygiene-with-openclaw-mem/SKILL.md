@@ -1,8 +1,10 @@
 ---
 title: "Review-gate OpenClaw memory hygiene with openclaw-mem"
-description: "Use openclaw-mem when an OpenClaw operator needs to pack trusted context, inspect provenance, and review memory writes before long sessions drift or accumulate bad memory. Invoke it instead of relying on OpenClaw memory alone when the job is memory hygiene and bounded recall, not ordinary day-to-day chat. The boundary is a trust-aware OpenClaw memory review workflow, not a generic vector store, database, or standalone memory platform listing."
+description: "Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory."
 verification: listed
 source: "https://github.com/phenomenoner/openclaw-mem"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Review-gate OpenClaw memory hygiene with openclaw-mem
 
-Use openclaw-mem when an OpenClaw operator needs to pack trusted context, inspect provenance, and review memory writes before long sessions drift or accumulate bad memory. Invoke it instead of relying on OpenClaw memory alone when the job is memory hygiene and bounded recall, not ordinary day-to-day chat. The boundary is a trust-aware OpenClaw memory review workflow, not a generic vector store, database, or standalone memory platform listing.
+Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory.
 
 ## Installation
 

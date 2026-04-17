@@ -1,8 +1,10 @@
 ---
 title: "Turn mixed local folders into a queryable knowledge graph with Graphify"
-description: "Use Graphify when an agent needs to ingest a mixed local workspace and answer through graph-aware retrieval. This skill is for the concrete workflow of scanning folders of code and supporting artifacts, building a queryable knowledge graph, and then exploring relationships across files, documents, screenshots, and media. It is not a generic graph database card or a generic document parser listing. The boundary is the operator task: turn a messy local corpus into a graph-backed context surface for downstream agent search and reasoning."
+description: "Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text."
 verification: listed
 source: "https://github.com/safishamsi/graphify"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Turn mixed local folders into a queryable knowledge graph with Graphify
 
-Use Graphify when an agent needs to ingest a mixed local workspace and answer through graph-aware retrieval. This skill is for the concrete workflow of scanning folders of code and supporting artifacts, building a queryable knowledge graph, and then exploring relationships across files, documents, screenshots, and media. It is not a generic graph database card or a generic document parser listing. The boundary is the operator task: turn a messy local corpus into a graph-backed context surface for downstream agent search and reasoning.
+Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text.
 
 ## Installation
 

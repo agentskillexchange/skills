@@ -1,8 +1,10 @@
 ---
 title: "Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall"
-description: "Use gh-aw-firewall when the job is specifically to harden GitHub Agentic Workflows with network policy before those agents are allowed to operate in CI or automation lanes. It wraps the command in a Docker sandbox, pushes HTTP and HTTPS through an allowlisted proxy, and can keep LLM API keys in a sidecar so they never enter the agent process. The scope boundary is narrow and publishable: this is a GitHub Agentic Workflows firewall workflow, not a generic container platform or broad GitHub product listing."
+description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access."
 verification: listed
 source: "https://github.com/github/gh-aw-firewall"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall
 
-Use gh-aw-firewall when the job is specifically to harden GitHub Agentic Workflows with network policy before those agents are allowed to operate in CI or automation lanes. It wraps the command in a Docker sandbox, pushes HTTP and HTTPS through an allowlisted proxy, and can keep LLM API keys in a sidecar so they never enter the agent process. The scope boundary is narrow and publishable: this is a GitHub Agentic Workflows firewall workflow, not a generic container platform or broad GitHub product listing.
+Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access.
 
 ## Installation
 

@@ -1,8 +1,10 @@
 ---
 title: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
-description: "dbt-checkpoint gives an agent a bounded repository guardrail workflow: run dbt-specific pre-commit checks, surface failures, and keep bad project hygiene from sliding into main. Invoke it when the real task is dbt project quality gating, not when you merely need the dbt runtime to execute models. The scope boundary is narrow and publishable: dbt-focused static and pre-commit checks, not a generic pre-commit framework card or a broad dbt product listing."
+description: "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge."
 verification: listed
 source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Gate dbt projects with pre-commit checks from dbt-checkpoint
 
-dbt-checkpoint gives an agent a bounded repository guardrail workflow: run dbt-specific pre-commit checks, surface failures, and keep bad project hygiene from sliding into main. Invoke it when the real task is dbt project quality gating, not when you merely need the dbt runtime to execute models. The scope boundary is narrow and publishable: dbt-focused static and pre-commit checks, not a generic pre-commit framework card or a broad dbt product listing.
+Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge.
 
 ## Installation
 

@@ -1,8 +1,10 @@
 ---
 title: "Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner"
-description: "Use Cisco Skill Scanner when the job is to inspect an agent skill package for prompt injection, exfiltration patterns, malicious code, or other risky content before publication or rollout, not to browse a generic security platform. The invoke moment is narrow and repeatable: point the scanner at a skill or prompt-pack repo, run the analyzers, and review findings before trusting the artifact. That boundary, pre-distribution security review for agent skills, makes this a real operator workflow instead of a plain vendor or product card."
+description: "Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed."
 verification: listed
 source: "https://github.com/cisco-ai-defense/skill-scanner"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner
 
-Use Cisco Skill Scanner when the job is to inspect an agent skill package for prompt injection, exfiltration patterns, malicious code, or other risky content before publication or rollout, not to browse a generic security platform. The invoke moment is narrow and repeatable: point the scanner at a skill or prompt-pack repo, run the analyzers, and review findings before trusting the artifact. That boundary, pre-distribution security review for agent skills, makes this a real operator workflow instead of a plain vendor or product card.
+Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed.
 
 ## Installation
 

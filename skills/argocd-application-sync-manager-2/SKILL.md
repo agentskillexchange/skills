@@ -1,8 +1,10 @@
 ---
 title: "ArgoCD Application Sync Manager"
-description: "The ArgoCD Application Sync Manager skill automates GitOps deployment workflows through the ArgoCD REST API (v1/applications) and the argocd CLI. It manages application sync operations with full control over sync waves, resource hooks (PreSync, Sync, PostSync, SyncFail), and health assessment checks.\nThe skill creates and manages ArgoCD Application resources with proper source tracking, including Helm chart references with value overrides, Kustomize overlays, and plain YAML directory structures. It supports multi-cluster deployments by managing destination configurations across different Kubernetes contexts.\nFor progressive delivery, the skill integrates with ArgoCD sync windows to enforce deployment schedules, configures auto-sync policies with self-heal and prune options, and monitors sync status through the Application Controller API. It handles ApplicationSets for generating applications from Git directory structures, cluster lists, or pull request generators, enabling scalable GitOps patterns across hundreds of microservices."
+description: "Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments."
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Gemini"
 tool_ecosystem:
@@ -12,9 +14,7 @@ tool_ecosystem:
 
 # ArgoCD Application Sync Manager
 
-The ArgoCD Application Sync Manager skill automates GitOps deployment workflows through the ArgoCD REST API (v1/applications) and the argocd CLI. It manages application sync operations with full control over sync waves, resource hooks (PreSync, Sync, PostSync, SyncFail), and health assessment checks.
-The skill creates and manages ArgoCD Application resources with proper source tracking, including Helm chart references with value overrides, Kustomize overlays, and plain YAML directory structures. It supports multi-cluster deployments by managing destination configurations across different Kubernetes contexts.
-For progressive delivery, the skill integrates with ArgoCD sync windows to enforce deployment schedules, configures auto-sync policies with self-heal and prune options, and monitors sync status through the Application Controller API. It handles ApplicationSets for generating applications from Git directory structures, cluster lists, or pull request generators, enabling scalable GitOps patterns across hundreds of microservices.
+Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments.
 
 ## Installation
 

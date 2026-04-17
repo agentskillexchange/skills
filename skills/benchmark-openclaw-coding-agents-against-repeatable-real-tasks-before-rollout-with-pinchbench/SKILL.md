@@ -1,8 +1,10 @@
 ---
 title: "Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench"
-description: "Use PinchBench when the job is to benchmark OpenClaw coding agents on repeatable real-world tasks before changing models, prompts, or harness behavior, not when a user simply wants a generic leaderboard or agent framework. The operator workflow is crisp: run the benchmark suite, score task outcomes, compare results, and decide whether a candidate model or change is ready. That scope boundary, OpenClaw agent benchmarking before rollout, makes this a clear skill instead of a plain benchmark product listing."
+description: "Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows."
 verification: listed
 source: "https://github.com/pinchbench/skill"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -12,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench
 
-Use PinchBench when the job is to benchmark OpenClaw coding agents on repeatable real-world tasks before changing models, prompts, or harness behavior, not when a user simply wants a generic leaderboard or agent framework. The operator workflow is crisp: run the benchmark suite, score task outcomes, compare results, and decide whether a candidate model or change is ready. That scope boundary, OpenClaw agent benchmarking before rollout, makes this a clear skill instead of a plain benchmark product listing.
+Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows.
 
 ## Installation
 

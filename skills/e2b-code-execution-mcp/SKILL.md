@@ -1,8 +1,10 @@
 ---
 title: "E2B Code Execution MCP"
-description: "E2B Code Execution MCP connects AI assistants to the E2B Sandbox platform through the Model Context Protocol. Each execution runs inside an ephemeral, fully isolated cloud environment with its own filesystem, network access, and package manager.\nBest for\n\nData analysis pipelines requiring safe code execution\nCode generation testing in isolated sandboxes\nMulti-step tool chains where untrusted code must not run on the host\nAny MCP workflow needing Python, JavaScript, or shell execution\n\nInstall notes\nGet an E2B API key at e2b.dev (free tier available). Install via npx @smithery/cli install e2b --client claude or configure the MCP server entry manually in your client config. Requires Node.js v18+ or Python 3.10+.\nSource: github.com/e2b-dev/mcp-server"
+description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
 verification: security_reviewed
 source: "https://github.com/e2b-dev/mcp-server"
+category:
+  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -12,17 +14,7 @@ tool_ecosystem:
 
 # E2B Code Execution MCP
 
-E2B Code Execution MCP connects AI assistants to the E2B Sandbox platform through the Model Context Protocol. Each execution runs inside an ephemeral, fully isolated cloud environment with its own filesystem, network access, and package manager.
-Best for
-
-Data analysis pipelines requiring safe code execution
-Code generation testing in isolated sandboxes
-Multi-step tool chains where untrusted code must not run on the host
-Any MCP workflow needing Python, JavaScript, or shell execution
-
-Install notes
-Get an E2B API key at e2b.dev (free tier available). Install via npx @smithery/cli install e2b --client claude or configure the MCP server entry manually in your client config. Requires Node.js v18+ or Python 3.10+.
-Source: github.com/e2b-dev/mcp-server
+Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
 
 ## Installation
 
