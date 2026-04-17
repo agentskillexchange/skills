@@ -1,8 +1,83 @@
 {
   "version": "2.0",
-  "total": 2156,
+  "total": 2161,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd",
+      "name": "Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd",
+      "description": "Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4007
+      }
+    },
+    {
+      "slug": "model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust",
+      "name": "Model user behavior and run distributed load tests before backend changes face real traffic with Locust",
+      "description": "Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 27720
+      }
+    },
+    {
+      "slug": "automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures",
+      "name": "Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures",
+      "description": "Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 458
+      }
+    },
+    {
+      "slug": "migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader",
+      "name": "Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader",
+      "description": "Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs before one-off import scripts become cutover risk.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6393
+      }
+    },
+    {
+      "slug": "diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef",
+      "name": "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef",
+      "description": "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3076
+      }
+    },
     {
       "slug": "sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis",
       "name": "Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis",

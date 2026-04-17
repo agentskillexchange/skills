@@ -249,6 +249,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |
+| [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](../../skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |

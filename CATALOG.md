@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2156 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 21:26 UTC
+> **2161 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 23:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (270 skills)
+### 🛠️ Developer Tools (271 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -223,6 +223,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.9M/wk |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](skills/pdfme-typescript-pdf-generation-library/) | pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG… | Security Reviewed | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Security Reviewed | 4.2k | — |
+| [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | Execute large parallel object-store operations from command files or shell pipelines when agents need speed and… | Published | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and… | Published | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](skills/wrangler-cloudflare-workers-cli-edge-deployment/) | Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a… | Security Reviewed | 4k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
@@ -286,7 +287,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (177 skills)
+### 🔧 CI/CD Integrations (178 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -442,6 +443,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 564 | — |
+| [Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures](skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/) | Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning… | Published | 458 | — |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | Generate structured release notes from Conventional Commits inside automated release pipelines when changelog… | Published | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with… | Published | 308 | 12.8M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature… | Security Reviewed | 43 | 1k/wk |
@@ -648,7 +650,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (154 skills)
+### 🔄 Data Extraction & Transformation (155 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -734,6 +736,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Dasel Multi-Format Data Selector and Modifier](skills/dasel-multi-format-data-selector-modifier/) | Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data… | Security Reviewed | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources… | Security Reviewed | 7.7k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Security Reviewed | 7.5k | — |
+| [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs… | Published | 6.4k | — |
 | [csvkit Python CSV Utility Suite](skills/csvkit-python-csv-utility-suite/) | csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It… | Security Reviewed | 6.4k | — |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | Use Mammoth when an agent needs to turn a .docx file into simple HTML that preserves semantic structure instead of… | Security Reviewed | 6.2k | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](skills/evidence-bi-as-code-sql-markdown-analytics/) | Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive… | Security Reviewed | 6.1k | — |
@@ -964,7 +967,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (144 skills)
+### 📋 Runbooks & Diagnostics (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1063,6 +1066,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports… | Security Reviewed | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system… | Security Reviewed | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An… | Security Reviewed | 3.3k | — |
+| [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply… | Published | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready. | Published | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
@@ -1116,7 +1120,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (122 skills)
+### 📊 Monitoring & Alerts (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1164,6 +1168,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | 28k | — |
 | [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | 28k | — |
 | [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | 28k | — |
+| [Model user behavior and run distributed load tests before backend changes face real traffic with Locust](skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust/) | Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before… | Published | 27.7k | — |
 | [SigNoz Open-Source Observability Platform](skills/signoz-open-source-observability-platform/) | SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one… | Security Reviewed | 26.5k | — |
 | [Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta](skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/) | Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and… | Published | 25k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no… | Security Reviewed | 24.5k | — |

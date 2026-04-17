@@ -82,6 +82,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | 28k | — |
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | 28k | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | 28k | — |
+| [Model user behavior and run distributed load tests before backend changes face real traffic with Locust](../../skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust/) | 27.7k | — |
 | [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | 26.5k | — |
 | [Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta](../../skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/) | 25k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |

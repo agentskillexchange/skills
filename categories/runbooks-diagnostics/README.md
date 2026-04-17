@@ -133,6 +133,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
+| [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](../../skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](../../skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |

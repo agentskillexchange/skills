@@ -120,6 +120,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 7.7k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | 7.5k | — |
+| [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](../../skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | 6.4k | — |
 | [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 6.4k | — |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | 6.2k | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | 6.1k | — |
