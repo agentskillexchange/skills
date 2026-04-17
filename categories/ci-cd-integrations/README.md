@@ -138,6 +138,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | — |
+| [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](../../skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | 5.1k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Draft release notes continuously with Release Drafter](../../skills/draft-release-notes-continuously-with-release-drafter/) | 3.9k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](../../skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
@@ -148,6 +149,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](../../skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | 3k | — |
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | 2.9k | 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | 2.9k | 9.8M/wk |
+| [Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly](../../skills/capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly/) | 2.5k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](../../skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | 1.6k | — |
 | [Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest](../../skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest/) | 1.3k | — |
@@ -179,6 +181,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | 843 | — |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | 843 | — |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 843 | — |
+| [Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL](../../skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/) | 804 | — |
 | [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | 585 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |

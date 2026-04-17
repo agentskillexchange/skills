@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2145,
+  "total": 2151,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint",
+      "name": "Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint",
+      "description": "Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 685
+      }
+    },
+    {
+      "slug": "run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl",
+      "name": "Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL",
+      "description": "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 804
+      }
+    },
+    {
+      "slug": "capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly",
+      "name": "Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly",
+      "description": "Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2482
+      }
+    },
+    {
+      "slug": "diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema",
+      "name": "Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema",
+      "description": "Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1361
+      }
+    },
+    {
+      "slug": "plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile",
+      "name": "Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile",
+      "description": "Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5058
+      }
+    },
+    {
+      "slug": "swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence",
+      "name": "Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence",
+      "description": "Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real dependencies before release.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7183
+      }
+    },
     {
       "slug": "run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli",
       "name": "Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI",

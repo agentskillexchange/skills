@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2145 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 17:32 UTC
+> **2151 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 19:30 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -286,7 +286,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (172 skills)
+### 🔧 CI/CD Integrations (175 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -392,6 +392,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](skills/woodpecker-ci-self-hosted-continuous-integration/) | Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs… | Security Reviewed | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps,… | Security Reviewed | 6.7k | — |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review… | Published | 6.3k | — |
+| [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file. | Published | 5.1k | — |
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | 4.7k | — |
 | [Draft release notes continuously with Release Drafter](skills/draft-release-notes-continuously-with-release-drafter/) | Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day. | Security Reviewed | 3.9k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI. | Published | 3.8k | — |
@@ -402,6 +403,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The… | Security Reviewed | 3k | — |
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output… | Published | 2.9k | 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding,… | Security Reviewed | 2.9k | 9.8M/wk |
+| [Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly](skills/capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly/) | Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live… | Published | 2.5k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package… | Security Reviewed | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | Run chart-focused lint and install checks so changed Helm charts are validated before release or merge. | Published | 1.6k | — |
 | [Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest](skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest/) | Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a… | Published | 1.3k | — |
@@ -433,6 +435,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency… | Security Reviewed | 843 | — |
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning… | Security Reviewed | 843 | — |
 | [CircleCI Workflow Cost Auditor](skills/circleci-workflow-cost-auditor/) | Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs… | Security Reviewed | 843 | — |
+| [Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL](skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/) | Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping… | Published | 804 | — |
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | 585 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
@@ -804,7 +807,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (144 skills)
+### ✅ Code Quality & Review (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -921,6 +924,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Score model outputs with reusable evaluator prompts and metrics using autoevals](skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops… | Published | 861 | 1.8M/wk |
 | [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge. | Published | 828 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Published | 738 | — |
+| [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner. | Published | 685 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
@@ -956,7 +960,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (142 skills)
+### 📋 Runbooks & Diagnostics (144 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1032,6 +1036,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Security Reviewed | 11.9k | — |
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong… | Published | 11.7k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
+| [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real… | Published | 7.2k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod. | Published | 4.6k | — |
@@ -1061,6 +1066,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation… | Published | 1.8k | — |
+| [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow. | Published | 1.4k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Published | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
