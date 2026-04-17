@@ -83,6 +83,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | 28k | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | 28k | — |
 | [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | 26.5k | — |
+| [Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta](../../skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/) | 25k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | 22.7k | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2126 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 09:27 UTC
+> **2130 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 11:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (268 skills)
+### 🛠️ Developer Tools (269 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -230,6 +230,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real… | Security Reviewed | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Security Reviewed | 2.8k | — |
+| [Find and group duplicate files across large trees before cleanup migration or backup with fclones](skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions. | Published | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven… | Security Reviewed | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | 2.6k | 260.6k/wk |
@@ -947,7 +948,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (140 skills)
+### 📋 Runbooks & Diagnostics (141 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1021,6 +1022,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports… | Security Reviewed | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge… | Security Reviewed | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Security Reviewed | 11.9k | — |
+| [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong… | Published | 11.7k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
@@ -1095,7 +1097,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (120 skills)
+### 📊 Monitoring & Alerts (121 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1144,6 +1146,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | 28k | — |
 | [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | 28k | — |
 | [SigNoz Open-Source Observability Platform](skills/signoz-open-source-observability-platform/) | SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one… | Security Reviewed | 26.5k | — |
+| [Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta](skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/) | Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and… | Published | 25k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no… | Security Reviewed | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Security Reviewed | 24.1k | — |
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | 22.7k | — |
@@ -1345,7 +1348,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (111 skills)
+### 📚 Library & API Reference (112 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -1399,6 +1402,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Microsoft Learn MCP Server](skills/microsoft-learn-mcp-server/) | Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and… | Security Reviewed | 1.5k | — |
 | [Grounded Docs MCP Server](skills/grounded-docs-mcp-server/) | Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources… | Security Reviewed | 1.2k | — |
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | 1.2k | 4.3M/wk |
+| [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract… | Published | 261 | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](skills/linkup-js-sdk-sourced-web-search-fetch/) | Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained… | Security Reviewed | 4 | — |
 | [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript… | Security Reviewed | — | — |
 | [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Security Reviewed | — | — |

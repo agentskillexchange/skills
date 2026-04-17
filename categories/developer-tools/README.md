@@ -256,6 +256,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | — |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
+| [Find and group duplicate files across large trees before cleanup migration or backup with fclones](../../skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | 2.6k | 260.6k/wk |

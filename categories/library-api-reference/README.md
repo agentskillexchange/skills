@@ -88,6 +88,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
+| [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |

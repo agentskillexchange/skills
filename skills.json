@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2126,
+  "total": 2130,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones",
+      "name": "Find and group duplicate files across large trees before cleanup migration or backup with fclones",
+      "description": "Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2707
+      }
+    },
+    {
+      "slug": "load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta",
+      "name": "Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta",
+      "description": "Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 25004
+      }
+    },
+    {
+      "slug": "resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance",
+      "name": "Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance",
+      "description": "Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract review.",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 261
+      }
+    },
+    {
+      "slug": "trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich",
+      "name": "Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich",
+      "description": "Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong incident hypothesis.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11691
+      }
+    },
     {
       "slug": "scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol",
       "name": "Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol",

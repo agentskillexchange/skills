@@ -108,6 +108,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
+| [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](../../skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | 11.7k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](../../skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | 10.2k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
