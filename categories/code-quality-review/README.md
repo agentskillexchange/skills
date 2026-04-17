@@ -96,6 +96,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
+| [Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent](../../skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/) | 10.9k | — |
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 6.1M/wk |
 | [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | 10.4k | — |
 | [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | 10.4k | — |
@@ -141,6 +142,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 588k/wk |
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](../../skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
+| [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](../../skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | 1k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](../../skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | 995 | — |
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](../../skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | 977 | 18.6k/wk |
@@ -178,7 +180,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
-| [Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent](../../skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/) | — | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |

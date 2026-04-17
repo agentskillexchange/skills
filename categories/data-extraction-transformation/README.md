@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 83.8k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 83.8k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 83.9k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 83.9k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 83.8k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 83.8k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 83.9k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 83.9k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C120-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C126-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C960-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C971-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,120 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,126 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -68,10 +68,10 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 268 | CLI tools, scaffolders, dev environment setup |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 167 | Pipeline configs, deployment automation, build tooling |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 164 | Vulnerability scanning, auth setup, compliance |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 169 | Pipeline configs, deployment automation, build tooling |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 167 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 152 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 142 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 143 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 140 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 120 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 114 | Email automation, calendar management, task coordination |
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,120 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,960 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,126 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,971 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

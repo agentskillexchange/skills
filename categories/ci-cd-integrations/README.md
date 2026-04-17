@@ -146,9 +146,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | 2.9k | 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](../../skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | 1.6k | — |
+| [Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest](../../skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest/) | 1.3k | — |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action](../../skills/run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action/) | 927 | — |
+| [Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact](../../skills/pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci-changes-merge-with-pinact/) | 917 | — |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | 843 | — |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 843 | — |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 843 | — |

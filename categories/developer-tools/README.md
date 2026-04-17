@@ -87,7 +87,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.6k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
-| [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.2k | — |
+| [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 173.2k/wk |
@@ -133,7 +133,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 121.8M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 124.1M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -202,7 +202,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
-| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 18.1M/wk |
+| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 18.3M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.4k | — |
@@ -244,21 +244,21 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](../../skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | 4.4k | — |
-| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | — |
+| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 9.3M/wk |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
-| [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | — |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | — |
+| [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | — |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
-| [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | 2.6k | — |
+| [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | 2.6k | 260.6k/wk |
 | [Apply structural codemods across large codebases with Comby](../../skills/apply-structural-codemods-across-large-codebases-with-comby/) | 2.6k | — |
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | 2.6k | — |
 | [Persist reusable coding-agent memory across sessions with Engram](../../skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | 2.6k | — |

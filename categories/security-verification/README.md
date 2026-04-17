@@ -109,6 +109,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | 5.5k | — |
 | [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | 5.5k | — |
 | [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | 5.5k | — |
+| [Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard](../../skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/) | 5.4k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
 | [Probe ML and LLM systems for regressions and vulnerabilities with Giskard](../../skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/) | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
@@ -122,6 +123,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |
 | [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | 3.5k | — |
+| [Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter](../../skills/lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter/) | 3.4k | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | 3.3k | — |
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](../../skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | 3.2k | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | 3.2k | — |
@@ -142,11 +144,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 900 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 901 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
+| [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
@@ -160,7 +163,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
 | [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](../../skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | 124 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 115 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 119 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 43 | — |

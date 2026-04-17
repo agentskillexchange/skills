@@ -112,7 +112,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
-| [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | — |
+| [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 505 | — |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
