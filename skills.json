@@ -1,8 +1,74 @@
 {
   "version": "2.0",
-  "total": 2114,
+  "total": 2120,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling",
+      "name": "Spell-check docs and code comments with source-aware filters using pyspelling",
+      "description": "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 94
+      }
+    },
+    {
+      "slug": "lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8",
+      "name": "Lint reStructuredText docs and release notes before Sphinx publishing with doc8",
+      "description": "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 176
+      }
+    },
+    {
+      "slug": "format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo",
+      "name": "Format and lint TOML configs and lockfiles before config drift spreads with Taplo",
+      "description": "Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2227
+      }
+    },
+    {
+      "slug": "lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter",
+      "name": "Lint .env files for duplicated keys and unsafe formatting with dotenv-linter",
+      "description": "Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2068
+      }
+    },
+    {
+      "slug": "catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell",
+      "name": "Catch common misspellings in code and docs before review churn with codespell",
+      "description": "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2356
+      }
+    },
+    {
+      "slug": "generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen",
+      "name": "Generate and validate conventional commits and semver release bumps with Commitizen",
+      "description": "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3382
+      }
+    },
     {
       "slug": "generate-oss-fuzz-harnesses-with-oss-fuzz-gen",
       "name": "Generate OSS-Fuzz harnesses with oss-fuzz-gen",
