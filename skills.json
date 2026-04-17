@@ -1,8 +1,83 @@
 {
   "version": "2.0",
-  "total": 2151,
+  "total": 2156,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis",
+      "name": "Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis",
+      "description": "Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between model changes.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 622
+      }
+    },
+    {
+      "slug": "deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl",
+      "name": "Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl",
+      "description": "Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 860
+      }
+    },
+    {
+      "slug": "enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk",
+      "name": "Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk",
+      "description": "Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1858
+      }
+    },
+    {
+      "slug": "capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee",
+      "name": "Capture Linux runtime security events and suspicious behavior for live triage with Tracee",
+      "description": "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4468
+      }
+    },
+    {
+      "slug": "orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt",
+      "name": "Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt",
+      "description": "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9503
+      }
+    },
     {
       "slug": "lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint",
       "name": "Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint",

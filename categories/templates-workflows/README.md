@@ -109,6 +109,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
+| [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |

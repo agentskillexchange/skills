@@ -132,6 +132,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | — |
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
+| [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](../../skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](../../skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |

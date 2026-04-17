@@ -115,6 +115,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](../../skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | 4.5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](../../skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | 4.2k | — |

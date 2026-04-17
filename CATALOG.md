@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2151 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 19:30 UTC
+> **2156 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 21:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -286,7 +286,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (175 skills)
+### 🔧 CI/CD Integrations (177 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -379,6 +379,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](skills/caprover-self-hosted-paas-app-deployment/) | CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications… | Security Reviewed | 14.9k | 8.4k/wk |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](skills/kamal-zero-downtime-docker-deployment-basecamp/) | Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare… | Security Reviewed | 14k | — |
 | [Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost](skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost/) | Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges. | Published | 12.3k | — |
+| [Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt](skills/orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt/) | Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order… | Published | 9.5k | — |
 | [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks.… | Security Reviewed | 8.9k | — |
 | [Tekton Pipeline Composer](skills/tekton-pipeline-composer/) | Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks,… | Security Reviewed | 8.9k | — |
 | [Tekton Pipeline Debugger](skills/tekton-pipeline-debugger/) | Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API.… | Security Reviewed | 8.9k | — |
@@ -411,6 +412,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It… | Security Reviewed | 1.1k | — |
 | [Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action](skills/run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action/) | Use codex-action when an agent operator wants Codex to run inside GitHub Actions for PR review or scheduled repo… | Security Reviewed | 927 | — |
 | [Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact](skills/pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci-changes-merge-with-pinact/) | Rewrite mutable GitHub Actions refs to commit SHAs so workflow changes do not ship with drifting dependencies. | Published | 917 | — |
+| [Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl](skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl/) | Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote… | Published | 860 | — |
 | [CircleCI Config Validator](skills/circleci-config-validator/) | Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI.… | Security Reviewed | 843 | — |
 | [CircleCI Flaky Test Detector](skills/circleci-flaky-test-detector-2/) | Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a… | Security Reviewed | 843 | — |
 | [CircleCI Orb Auditor](skills/circleci-orb-auditor/) | Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning… | Security Reviewed | 843 | — |
@@ -469,7 +471,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (168 skills)
+### 🔒 Security & Verification (169 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -553,6 +555,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Unkey Open Source API Key Management and Rate Limiting Platform](skills/unkey-api-key-management-rate-limiting/) | Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a… | Security Reviewed | 5.2k | — |
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Security Reviewed | 5k | — |
+| [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it… | Published | 4.5k | — |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method.… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](skills/cerbos-authorization-pdp/) | Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user… | Security Reviewed | 4.3k | — |
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and… | Published | 4.2k | — |
@@ -807,7 +810,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (145 skills)
+### ✅ Code Quality & Review (146 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -905,6 +908,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Validate CloudFormation templates before deploy with cfn-lint](skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or… | Published | 2.6k | — |
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional… | Published | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
+| [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of… | Published | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without… | Published | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
@@ -1485,7 +1489,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (107 skills)
+### 📄 Templates & Workflows (108 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1560,6 +1564,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Published | 1.1k | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
+| [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between… | Published | 622 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | 585 | — |
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Security Reviewed | 556 | — |
