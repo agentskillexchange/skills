@@ -83,6 +83,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | — |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
+| [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |

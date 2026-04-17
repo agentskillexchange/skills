@@ -1,8 +1,102 @@
 {
   "version": "2.0",
-  "total": 2135,
+  "total": 2141,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd",
+      "name": "Run contract tests from API descriptions against live endpoints before integrations break with Dredd",
+      "description": "Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release.",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4227,
+        "npm_weekly_downloads": 53933
+      }
+    },
+    {
+      "slug": "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper",
+      "name": "Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper",
+      "description": "Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 402
+      }
+    },
+    {
+      "slug": "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler",
+      "name": "Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler",
+      "description": "Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1801
+      }
+    },
+    {
+      "slug": "shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split",
+      "name": "Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split",
+      "description": "Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 308,
+        "npm_weekly_downloads": 12820130
+      }
+    },
+    {
+      "slug": "parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest",
+      "name": "Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest",
+      "description": "Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output than cargo test when CI speed and stability…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2911,
+        "npm_weekly_downloads": 9775279
+      }
+    },
+    {
+      "slug": "trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray",
+      "name": "Trace Python memory allocation hotspots before leaks and spikes reach production with Memray",
+      "description": "Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths before memory growth turns into a production…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 14986,
+        "npm_weekly_downloads": 16282665
+      }
+    },
     {
       "slug": "verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild",
       "name": "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild",

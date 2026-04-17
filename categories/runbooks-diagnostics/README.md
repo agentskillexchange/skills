@@ -138,6 +138,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
+| [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | 1.8k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |

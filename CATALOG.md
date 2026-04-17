@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2135 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 13:27 UTC
+> **2141 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 15:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -285,7 +285,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (169 skills)
+### 🔧 CI/CD Integrations (171 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -398,6 +398,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Garden Kubernetes Development and Testing Automation Platform](skills/garden-kubernetes-dev-testing-automation/) | Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like… | Security Reviewed | 3.6k | — |
 | [Score Kubernetes manifests for reliability and security risks before deploy with kube-score](skills/score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score/) | Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and… | Published | 3.1k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The… | Security Reviewed | 3k | — |
+| [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output… | Published | 2.9k | 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding,… | Security Reviewed | 2.9k | 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package… | Security Reviewed | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | Run chart-focused lint and install checks so changed Helm charts are validated before release or merge. | Published | 1.6k | — |
@@ -435,6 +436,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 564 | — |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | Generate structured release notes from Conventional Commits inside automated release pipelines when changelog… | Published | 361 | 11M/wk |
+| [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with… | Published | 308 | 12.8M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature… | Security Reviewed | 43 | 1k/wk |
 | [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages… | Security Reviewed | — | — |
 | [Buildkite Agent Monitor](skills/buildkite-agent-monitor/) | Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue… | Security Reviewed | — | — |
@@ -638,7 +640,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (153 skills)
+### 🔄 Data Extraction & Transformation (154 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -759,6 +761,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines… | Published | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
+| [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can… | Published | 402 | — |
 | [Parquet Column Mapper](skills/parquet-column-mapper/) | Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift… | Published | 387 | 170.7k/wk |
 | [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to… | Security Reviewed | 387 | 170.7k/wk |
 | [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and… | Security Reviewed | 387 | 170.7k/wk |
@@ -951,7 +954,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (141 skills)
+### 📋 Runbooks & Diagnostics (142 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1055,6 +1058,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
+| [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation… | Published | 1.8k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Published | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
@@ -1100,7 +1104,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (121 skills)
+### 📊 Monitoring & Alerts (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1157,6 +1161,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](skills/openobserve-observability-platform-logs-metrics-traces/) | OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User… | Security Reviewed | 18.5k | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](skills/upptime-github-actions-uptime-monitor-status-page/) | An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions,… | Security Reviewed | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Security Reviewed | 16.2k | — |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths… | Published | 15k | 16.3M/wk |
 | [Gotify Self-Hosted Push Notification Server and API](skills/gotify-self-hosted-push-notification-server-and-api/) | Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile… | Security Reviewed | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Security Reviewed | 12.4k | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](skills/openreplay-self-hosted-session-replay-analytics/) | OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network… | Security Reviewed | 11.9k | — |
@@ -1351,7 +1356,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (112 skills)
+### 📚 Library & API Reference (113 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -1400,6 +1405,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | 4.8k | — |
 | [Protobuf & gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | 4.8k | — |
 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | 4.4k | 9.3M/wk |
+| [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught… | Published | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | 3.6k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](skills/openai-agents-sdk-javascript-workflow-toolkit/) | A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools,… | Security Reviewed | 2.6k | — |
 | [Microsoft Learn MCP Server](skills/microsoft-learn-mcp-server/) | Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and… | Security Reviewed | 1.5k | — |

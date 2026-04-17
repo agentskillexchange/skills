@@ -24,6 +24,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Downloads |
 |---|---:|
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | ⬇ 16.3M/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 6.7M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | ⬇ 6.6M/wk |
@@ -32,7 +33,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | ⬇ 6.6M/wk |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | ⬇ 6.6M/wk |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | ⬇ 6.6M/wk |
-| [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | ⬇ 6.6M/wk |
 
 ---
 
@@ -91,6 +91,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.5k | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | 15k | 16.3M/wk |
 | [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | 12.4k | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | 11.9k | — |

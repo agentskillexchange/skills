@@ -155,6 +155,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
+| [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](../../skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | 402 | — |
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | 387 | 170.7k/wk |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | 387 | 170.7k/wk |
 | [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | 387 | 170.7k/wk |
