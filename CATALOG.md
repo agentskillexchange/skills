@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2100 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 23:28 UTC
+> **2102 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-17 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -935,7 +935,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (138 skills)
+### 📋 Runbooks & Diagnostics (139 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1049,6 +1049,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty On-Call Escalation Checker](skills/pagerduty-on-call-escalation-checker-2/) | Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents,… | Security Reviewed | 69 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches,… | Security Reviewed | 65 | — |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review… | Published | 40 | — |
+| [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional… | Published | 11 | — |
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance… | Security Reviewed | — | 23.2M/wk |
@@ -1449,7 +1450,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (102 skills)
+### 📄 Templates & Workflows (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1526,6 +1527,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Published | 489 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | — |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
+| [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep… | Published | 2 | — |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |

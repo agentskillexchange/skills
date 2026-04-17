@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2100,
-  "generated": "2026-04-16",
+  "total": 2102,
+  "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent",
+      "name": "Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent",
+      "description": "Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11
+      }
+    },
+    {
+      "slug": "generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator",
+      "name": "Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator",
+      "description": "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2
+      }
+    },
     {
       "slug": "run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude",
       "name": "Run Claude Code through repeatable command and persona workflows with SuperClaude",

@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **2100 skills** across **17 categories**
+> **2102 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -9,11 +9,11 @@
 | 🔒 | [**Security & Verification**](security-verification/) | **159** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **152** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **142** | Linting rules, review checklists, code standards enforcement, and qua... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **138** | Incident response, troubleshooting guides, system diagnostics, and op... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **139** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **119** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **114** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **111** | SDK documentation, API guides, framework reference material, and libr... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **102** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **103** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **97** | Web research, data collection, content aggregation, and information g... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **96** | Web scraping, UI testing, headless browser control, and browser-based... |
