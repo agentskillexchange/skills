@@ -1,7 +1,7 @@
 ---
 title: "broot Interactive Tree-View File Navigator"
 description: "broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy search, file preview, git status integration, and an interactive tree view that adapts to your terminal size."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Canop/broot"
 category:
   - "Developer Tools"
@@ -18,13 +18,27 @@ broot is a Rust-based terminal tool that provides a new way to see and navigate 
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/broot-interactive-tree-view-file-navigator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/broot-interactive-tree-view-file-navigator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
