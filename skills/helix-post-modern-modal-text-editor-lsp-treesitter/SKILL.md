@@ -1,7 +1,7 @@
 ---
 title: "Helix Post-Modern Modal Text Editor with LSP and Tree-sitter"
 description: "Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server protocol (LSP) support, smart syntax highlighting and code editing via Tree-sitter, and a Kakoune-inspired editing model with multiple selections."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/helix-editor/helix"
 category:
   - "Developer Tools"
@@ -18,27 +18,13 @@ Helix is a post-modern terminal-based modal text editor written in Rust. It feat
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/helix-post-modern-modal-text-editor-lsp-treesitter
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/helix-post-modern-modal-text-editor-lsp-treesitter` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
