@@ -152,6 +152,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 936.6k/wk |
+| [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | 387 | 170.7k/wk |

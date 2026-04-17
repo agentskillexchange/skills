@@ -149,6 +149,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | — |
 | [Score model outputs with reusable evaluator prompts and metrics using autoevals](../../skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | 861 | 1.8M/wk |
+| [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](../../skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | 828 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |

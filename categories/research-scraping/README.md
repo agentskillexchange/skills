@@ -91,6 +91,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 937/wk |
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](../../skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | 3.2k | — |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
+| [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](../../skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 878/wk |
 | [Newspaper4k Python Article Extraction and NLP Library](../../skills/newspaper4k-python-article-extraction-nlp/) | 1.1k | — |

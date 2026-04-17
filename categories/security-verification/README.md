@@ -147,6 +147,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 901 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
+| [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](../../skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | 687 | — |
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |

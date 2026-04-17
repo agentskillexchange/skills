@@ -1,8 +1,83 @@
 {
   "version": "2.0",
-  "total": 2130,
+  "total": 2135,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild",
+      "name": "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild",
+      "description": "Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 687
+      }
+    },
+    {
+      "slug": "replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb",
+      "name": "Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb",
+      "description": "Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review preserved site behavior before migration or investigation work.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1646
+      }
+    },
+    {
+      "slug": "gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover",
+      "name": "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover",
+      "description": "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 828
+      }
+    },
+    {
+      "slug": "infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv",
+      "name": "Infer And Normalize Broken CSV Dialects Before Import With Clevercsv",
+      "description": "Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1324
+      }
+    },
+    {
+      "slug": "detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect",
+      "name": "Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect",
+      "description": "Detect scene changes in a video, emit cut boundaries, and hand back machine-usable scene lists before manual review, splitting, or clip assembly.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4711
+      }
+    },
     {
       "slug": "find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones",
       "name": "Find and group duplicate files across large trees before cleanup migration or backup with fclones",

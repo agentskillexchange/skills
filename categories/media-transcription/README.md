@@ -85,6 +85,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ffsubsync Subtitle Synchronization Tool](../../skills/ffsubsync-subtitle-synchronization-tool/) | 7.7k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | 6k | — |
+| [Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect](../../skills/detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect/) | 4.7k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | 3.3k | — |
