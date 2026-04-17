@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Read and automate Slack workflows from a purpose-built agent CLI with agent-slack
 
-Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output.
+Use agent-slack when an agent needs to search Slack, read threads, fetch canvases, handle files, or perform message actions from a dedicated CLI instead of manual Slack use or custom API glue. The invoke moment is specific: a bounded Slack operation with JSON output, local artifact handling, and a skill package already aimed at agent runtimes. That scope boundary, operator-grade Slack task execution through an agent CLI, keeps this from being just another Slack product or platform listing.
 
 ## Installation
 

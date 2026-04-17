@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Score model outputs with reusable evaluator prompts and metrics using autoevals
 
-Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops in code.
+Use autoevals when the task is to score model outputs programmatically with reusable evaluators instead of standing up a heavier eval platform. It works well for single-example checks, small eval loops, and custom model-graded prompts inside application code or scripts. The boundary is output scoring and evaluator reuse, not full observability, tracing, or end-to-end agent management.
 
 ## Installation
 

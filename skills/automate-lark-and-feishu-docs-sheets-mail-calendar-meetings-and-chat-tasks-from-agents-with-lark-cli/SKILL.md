@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI
 
-Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows.
+Use Lark CLI when an agent needs to act on concrete Lark or Feishu work objects such as messages, docs, sheets, mail, meetings, approvals, or calendar events, instead of using Lark manually or hand-rolling API calls. The invoke moment is specific: a workspace operation in an organization already standardized on Lark, with structured output and built-in agent skills. That scope boundary, executing bounded Lark workspace tasks through a purpose-built CLI, keeps this skill-shaped rather than turning it into a generic Lark product listing.
 
 ## Installation
 

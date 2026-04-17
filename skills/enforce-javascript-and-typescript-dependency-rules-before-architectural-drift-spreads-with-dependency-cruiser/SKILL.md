@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser
 
-Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift.
+Use dependency-cruiser when an agent needs to check whether a JavaScript or TypeScript codebase still respects architecture boundaries, import rules, and package dependency expectations. It is the right invocation when you want a dependency-policy gate, violation report, or dependency graph for CI and review, rather than using a generic package tool normally. The scope boundary is narrow and skill-shaped: it validates and reports dependency structure against explicit rules, not general linting, package management, or broad code analysis.
 
 ## Installation
 

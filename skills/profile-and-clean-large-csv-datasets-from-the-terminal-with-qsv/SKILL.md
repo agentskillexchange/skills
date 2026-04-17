@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Profile and clean large CSV datasets from the terminal with qsv
 
-Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows.
+Use qsv when an agent needs to triage messy CSV data before import, analysis, or handoff. The agent can profile columns, spot nulls and outliers, normalize records, compare dataset versions, and run targeted transformations without dragging the work into a spreadsheet. The boundary is operational CSV triage and cleanup, not a generic data platform or broad Rust CLI listing.
 
 ## Installation
 

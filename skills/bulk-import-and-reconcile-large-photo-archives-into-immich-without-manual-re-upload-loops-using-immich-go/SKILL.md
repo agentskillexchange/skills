@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go
 
-Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads.
+Use immich-go when an agent needs to migrate or reconcile an existing photo archive into Immich at library scale, not when a user is simply browsing or backing up photos in Immich itself. The job is specific: ingest takeouts or local media trees, preserve metadata and album structure, and cleanly match what is already in the destination library. That scope boundary, archive migration and reconciliation into Immich, keeps this distinct from the broader Immich platform listing already in the catalog.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Tail multi-pod Kubernetes logs by label during incidents with Stern
 
-Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod.
+Use Stern when an agent needs to follow logs across many Kubernetes pods at once during an outage, rollout, or noisy incident. The agent can select pods by label or pattern, stream their logs together, and highlight which workload is failing or flapping. Invoke this instead of using the product normally when the task is multi-pod incident log triage, not general log platform setup or cluster administration. The boundary is targeted live log aggregation from Kubernetes workloads during diagnosis, not a generic logging product listing.
 
 ## Installation
 

@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Define file-native Git workflows for agents with GitAgent
 
-Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git.
+Use GitAgent when the job is to define and run reusable agent workflows as files in a repository. This is not a generic coding-agent product card and not just a Git wrapper. The skill boundary is the concrete operator workflow: author file-native prompts and task chains, keep them versioned in the repo, and invoke them as repeatable agent workflows across projects. That makes it distinct from general-purpose agent CLIs or broad workflow frameworks.
 
 ## Installation
 

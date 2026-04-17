@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Validate CloudFormation templates before deploy with cfn-lint
 
-Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment.
+Use cfn-lint when an agent needs to review or gate AWS CloudFormation changes before deployment. It can validate template structure, catch invalid properties, check region-specific resource rules, and surface intrinsic-function mistakes before they become failed stack operations. The scope is tightly bounded to pre-deploy CloudFormation validation, which keeps this from collapsing into a general AWS product listing.
 
 ## Installation
 

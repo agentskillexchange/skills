@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Monitor coding-agent token spend with Splitrail
 
-Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow.
+Use Splitrail when you need a live operational view of token burn, cost, and model mix across multiple coding-agent tools during or after runs. Invoke it instead of checking each product’s native dashboard when the job is cross-tool usage monitoring and cost triage, not everyday agent use. The scope boundary is spend observability for local agent runs, not a general coding assistant or cloud platform listing.
 
 ## Installation
 

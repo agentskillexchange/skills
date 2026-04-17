@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Prove whether a prompt or model variant really won before shipping with promptstats
 
-Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes.
+Use promptstats when the job is to analyze eval results and decide whether one prompt or model variant truly outperformed another, not when a user simply wants a generic benchmark dashboard. The operator workflow is crisp: feed in benchmark data, run the statistical analysis, inspect confidence bounds and pairwise comparisons, and decide whether the observed lift is real enough to act on. That scope boundary, statistical adjudication of prompt and model experiments, gives it a clear skill shape instead of reducing it to a plain library listing.
 
 ## Installation
 

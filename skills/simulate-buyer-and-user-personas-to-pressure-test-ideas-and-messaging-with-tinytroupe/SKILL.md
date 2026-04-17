@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe
 
-Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research.
+Use TinyTroupe when the task is to simulate defined personas and collect synthetic reactions to product ideas, messaging, ads, or prototype behavior. Invoke it instead of ordinary prompt chat when you need a repeatable persona-simulation workflow with configurable audiences, focus-group style interactions, and business-facing feedback from a chosen user perspective. The scope boundary is clear: this is a persona simulation workflow for research and product exploration, not a generic LLM framework listing and not a broad chatbot product card.
 
 ## Installation
 

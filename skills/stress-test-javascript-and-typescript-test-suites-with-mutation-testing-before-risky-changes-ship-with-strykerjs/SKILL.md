@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS
 
-Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced.
+Use StrykerJS when an agent needs to measure whether a JavaScript or TypeScript test suite actually catches meaningful code changes, especially before merges, refactors, or releases. This is distinct from using the project normally because the job is specifically mutation-testing and reporting weak assertions, surviving mutants, and test effectiveness gaps. The scope boundary is clear: it is a mutation-testing quality gate, not a general test runner, framework, or CI platform listing.
 
 ## Installation
 
