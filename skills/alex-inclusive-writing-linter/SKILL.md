@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096
-  ase_npm_package: "alex"
+  npm_package: "alex"
   npm_weekly_downloads: 30585
-  license: "MIT"
 ---
 
 # alex Inclusive Writing Linter

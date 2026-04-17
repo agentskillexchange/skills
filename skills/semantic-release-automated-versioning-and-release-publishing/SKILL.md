@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "semantic-release/semantic-release"
   github_stars: 23549
-  ase_npm_package: "semantic-release"
+  npm_package: "semantic-release"
   npm_weekly_downloads: 2496750
-  license: "MIT"
 ---
 
 # semantic-release Automated Versioning and Release Publishing

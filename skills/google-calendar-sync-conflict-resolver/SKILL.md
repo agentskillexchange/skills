@@ -1,5 +1,5 @@
 ---
-title: "Google Calendar Sync & Conflict Resolver"
+title: "Google Calendar Sync &#038; Conflict Resolver"
 description: "Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/"
@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 ---
 
-# Google Calendar Sync & Conflict Resolver
+# Google Calendar Sync &#038; Conflict Resolver
 
 Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries.
 

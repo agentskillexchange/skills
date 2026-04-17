@@ -7,11 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Codex"
-tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  ase_npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Monitors Skill

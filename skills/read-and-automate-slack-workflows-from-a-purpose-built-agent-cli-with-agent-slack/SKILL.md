@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "stablyai/agent-slack"
   github_stars: 382
-  ase_npm_package: "agent-slack"
+  npm_package: "agent-slack"
   npm_weekly_downloads: 5210
 ---
 

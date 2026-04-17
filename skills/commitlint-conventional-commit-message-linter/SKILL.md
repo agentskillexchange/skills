@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "conventional-changelog/commitlint"
   github_stars: 18425
-  ase_npm_package: "commitlint"
+  npm_package: "commitlint"
   npm_weekly_downloads: 560842
 ---
 

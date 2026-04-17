@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "twitchtv/twirp"
   github_stars: 7503
-  license: "Apache-2.0"
 ---
 
 # Twirp Go RPC Framework and Code Generator

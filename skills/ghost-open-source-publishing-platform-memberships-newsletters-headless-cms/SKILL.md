@@ -7,11 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "tryghost/ghost"
-  github_stars: 52496
-  ase_npm_package: "ghost"
-  npm_weekly_downloads: 8841
 ---
 
 # Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2898
-  ase_npm_package: "@slack/bolt"
+  npm_package: "@slack/bolt"
   npm_weekly_downloads: 2474841
 ---
 

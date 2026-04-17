@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "web-infra-dev/midscene"
   github_stars: 12613
-  ase_npm_package: "@midscene/core"
+  npm_package: "@midscene/core"
   npm_weekly_downloads: 83670
 ---
 

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "runmedev/runme"
   github_stars: 2031
-  ase_npm_package: "runme"
+  npm_package: "runme"
   npm_weekly_downloads: 1167
 ---
 

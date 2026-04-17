@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "sverweij/dependency-cruiser"
   github_stars: 6557
-  ase_npm_package: "dependency-cruiser"
+  npm_package: "dependency-cruiser"
   npm_weekly_downloads: 5181412
 ---
 

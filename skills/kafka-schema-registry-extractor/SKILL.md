@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "tulios/kafkajs"
   github_stars: 3992
-  ase_npm_package: "kafkajs"
+  npm_package: "kafkajs"
   npm_weekly_downloads: 2520588
-  license: "MIT"
 ---
 
 # Apache Kafka Schema Registry Extractor

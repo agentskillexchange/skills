@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469
-  ase_npm_package: "unlighthouse"
+  npm_package: "unlighthouse"
   npm_weekly_downloads: 15320
-  license: "MIT"
 ---
 
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing

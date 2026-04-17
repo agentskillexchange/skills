@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "YS-L/csvlens"
   github_stars: 3715
-  ase_npm_package: "csvlens"
+  npm_package: "csvlens"
   npm_weekly_downloads: 56891
 ---
 

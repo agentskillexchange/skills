@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30794
-  ase_npm_package: "@playwright/mcp"
+  npm_package: "@playwright/mcp"
   npm_weekly_downloads: 2762324
-  license: "Apache-2.0"
 ---
 
 # Microsoft Playwright MCP

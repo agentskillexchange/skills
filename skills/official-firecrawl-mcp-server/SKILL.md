@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl-mcp-server"
   github_stars: 6001
-  ase_npm_package: "firecrawl-mcp"
+  npm_package: "firecrawl-mcp"
   npm_weekly_downloads: 28903
 ---
 

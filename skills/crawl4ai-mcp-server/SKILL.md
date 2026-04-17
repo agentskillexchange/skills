@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "sadiuysal/crawl4ai-mcp-server"
   github_stars: 76
-  license: "MIT"
 ---
 
 # Crawl4AI MCP Server

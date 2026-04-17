@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "open-gitagent/gitagent"
   github_stars: 2667
-  ase_npm_package: "@open-gitagent/gitagent"
+  npm_package: "@open-gitagent/gitagent"
   npm_weekly_downloads: 1651
 ---
 

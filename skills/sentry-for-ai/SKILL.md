@@ -12,7 +12,6 @@ framework:
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
   github_stars: 115
-  license: "MIT"
 ---
 
 # Sentry for AI

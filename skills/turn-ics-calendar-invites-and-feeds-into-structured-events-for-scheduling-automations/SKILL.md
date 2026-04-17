@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  ase_npm_package: "node-ical"
+  npm_package: "node-ical"
   npm_weekly_downloads: 128582
 ---
 

@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "drewburchfield/help-scout-mcp-server"
   github_stars: 36
-  ase_npm_package: "help-scout-mcp-server"
+  npm_package: "help-scout-mcp-server"
   npm_weekly_downloads: 184
-  license: "MIT"
 ---
 
 # Search Help Scout conversations and thread context before drafting support replies

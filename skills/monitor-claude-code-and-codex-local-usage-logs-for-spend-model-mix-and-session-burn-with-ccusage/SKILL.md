@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ryoppippi/ccusage"
   github_stars: 12900
-  ase_npm_package: "ccusage"
+  npm_package: "ccusage"
   npm_weekly_downloads: 154142
 ---
 

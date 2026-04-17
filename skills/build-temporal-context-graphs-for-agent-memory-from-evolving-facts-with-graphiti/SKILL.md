@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "getzep/graphiti"
   github_stars: 24898
-  ase_npm_package: "graphiti-core"
+  npm_package: "graphiti-core"
   npm_weekly_downloads: 529336
 ---
 

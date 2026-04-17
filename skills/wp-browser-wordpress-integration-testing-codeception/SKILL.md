@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "lucatume/wp-browser"
   github_stars: 634
-  license: "MIT"
 ---
 
 # wp-browser WordPress Integration Testing with Codeception

@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "textlint/textlint"
   github_stars: 3099
-  ase_npm_package: "textlint"
+  npm_package: "textlint"
   npm_weekly_downloads: 102876
-  license: "MIT"
 ---
 
 # textlint Pluggable Natural Language Linter

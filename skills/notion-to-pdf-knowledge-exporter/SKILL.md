@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
-  ase_npm_package: "@notionhq/client"
+  npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
-  license: "MIT"
 ---
 
 # Notion to PDF Knowledge Exporter

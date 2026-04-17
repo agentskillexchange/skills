@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "zizmorcore/zizmor"
   github_stars: 4186
-  license: "MIT"
 ---
 
 # Audit GitHub Actions for privilege and supply-chain risks with zizmor

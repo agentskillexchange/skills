@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "metabase/metabase"
   github_stars: 46828
-  ase_npm_package: "metabase"
+  npm_package: "metabase"
   npm_weekly_downloads: 15
 ---
 

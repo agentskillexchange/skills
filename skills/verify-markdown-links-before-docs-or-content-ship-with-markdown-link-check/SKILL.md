@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tcort/markdown-link-check"
   github_stars: 693
-  ase_npm_package: "markdown-link-check"
+  npm_package: "markdown-link-check"
   npm_weekly_downloads: 573175
 ---
 

@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3255
-  ase_npm_package: "@browserbasehq/mcp"
+  npm_package: "@browserbasehq/mcp"
   npm_weekly_downloads: 907
-  license: "Apache-2.0"
 ---
 
 # Browserbase MCP Server

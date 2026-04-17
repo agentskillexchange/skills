@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138
-  ase_npm_package: "sharp"
+  npm_package: "sharp"
   npm_weekly_downloads: 52472150
-  license: "Apache-2.0"
 ---
 
 # Sharp Image Pipeline Skill

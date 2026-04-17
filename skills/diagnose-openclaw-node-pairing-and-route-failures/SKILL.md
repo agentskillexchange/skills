@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "openclaw/openclaw"
   github_stars: 356821
-  license: "MIT"
 ---
 
 # Diagnose OpenClaw node pairing and route failures

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "modelcontextprotocol/inspector"
   github_stars: 9431
-  ase_npm_package: "@modelcontextprotocol/inspector"
+  npm_package: "@modelcontextprotocol/inspector"
   npm_weekly_downloads: 635249
 ---
 

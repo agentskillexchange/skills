@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "NangoHQ/nango"
   github_stars: 7003
-  ase_npm_package: "nango"
+  npm_package: "nango"
   npm_weekly_downloads: 15568
 ---
 

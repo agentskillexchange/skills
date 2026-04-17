@@ -10,9 +10,8 @@ framework:
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3049
-  ase_npm_package: "@sendgrid/mail"
+  npm_package: "@sendgrid/mail"
   npm_weekly_downloads: 3588681
-  license: "MIT"
 ---
 
 # SendGrid Transactional Email Builder
