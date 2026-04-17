@@ -56,6 +56,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
 | [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | 34.7k | — |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | 33k | — |
+| [Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI](../../skills/enforce-source-controlled-ai-checks-in-ci-before-merging-risky-changes-with-continue-cli/) | 32.6k | — |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | 29.7k | — |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | 25.2k | — |
 | [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | 25.2k | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C141-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C145-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C971-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,141 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,145 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -67,8 +67,8 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 269 | CLI tools, scaffolders, dev environment setup |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 171 | Pipeline configs, deployment automation, build tooling |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 270 | CLI tools, scaffolders, dev environment setup |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 172 | Pipeline configs, deployment automation, build tooling |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 168 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 154 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 144 | Linting, code review, test generators, coverage |
@@ -76,11 +76,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 122 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 114 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 113 | SDK docs, API parsers, symbol resolvers |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 106 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 107 | Scaffolders, boilerplate generators, workflow templates |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 98 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 97 | Web scraping, UI testing, headless browser control |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 97 | Third-party API bridges, webhooks, service connectors |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 96 | Third-party API bridges, webhooks, service connectors |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 90 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 83 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 73 | SEO content, blog automation, editorial workflows |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,141 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,145 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,971 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

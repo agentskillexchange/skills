@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2141,
+  "total": 2145,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli",
+      "name": "Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI",
+      "description": "Lets an agent use Gemini from the terminal to inspect repositories, edit files, run shell commands, and ground work with built-in search and local…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Gemini"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 101569
+      }
+    },
+    {
+      "slug": "coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator",
+      "name": "Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator",
+      "description": "Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and message patterns.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 473
+      }
+    },
+    {
+      "slug": "wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything",
+      "name": "Wrap ordinary CLIs so agents can invoke them through a normalized agent-native interface with CLI-Anything",
+      "description": "Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 31214
+      }
+    },
+    {
+      "slug": "enforce-source-controlled-ai-checks-in-ci-before-merging-risky-changes-with-continue-cli",
+      "name": "Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI",
+      "description": "Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 32622
+      }
+    },
     {
       "slug": "run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd",
       "name": "Run contract tests from API descriptions against live endpoints before integrations break with Dredd",
