@@ -4,7 +4,7 @@ description: "Monitor quota, spend, resets, and alerts across multiple coding-ag
 verification: listed
 source: "https://github.com/onllm-dev/onWatch"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

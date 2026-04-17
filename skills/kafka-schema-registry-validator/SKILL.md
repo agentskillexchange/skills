@@ -4,7 +4,7 @@ description: "Validates Avro, Protobuf, and JSON Schema compatibility against Co
 verification: security_reviewed
 source: "https://github.com/tulios/kafkajs"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

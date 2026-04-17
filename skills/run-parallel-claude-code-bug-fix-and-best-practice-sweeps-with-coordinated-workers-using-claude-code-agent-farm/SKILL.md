@@ -4,7 +4,7 @@ description: "Use Claude Code Agent Farm when a repo needs many Claude Code work
 verification: security_reviewed
 source: "https://github.com/Dicklesworthstone/claude_code_agent_farm"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

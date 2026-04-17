@@ -4,7 +4,7 @@ description: "Syncs records between Notion databases and external sources using 
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Claude Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Pull DOM, console, network, and CDP telemetry from a live Chromium
 verification: listed
 source: "https://github.com/szymdzum/browser-debugger-cli"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

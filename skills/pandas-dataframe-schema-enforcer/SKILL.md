@@ -4,7 +4,7 @@ description: "Validates and transforms Pandas DataFrames using Pandera schema de
 verification: security_reviewed
 source: "https://github.com/pandas-dev/pandas"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

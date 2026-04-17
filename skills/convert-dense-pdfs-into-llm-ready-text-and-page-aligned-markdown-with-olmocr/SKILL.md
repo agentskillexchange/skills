@@ -4,7 +4,7 @@ description: "Use olmOCR when an agent needs to turn scanned or layout-heavy doc
 verification: listed
 source: "https://github.com/allenai/olmocr"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

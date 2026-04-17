@@ -4,7 +4,7 @@ description: "Inspect a live Kubernetes cluster for unhealthy resource settings,
 verification: listed
 source: "https://github.com/derailed/popeye"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

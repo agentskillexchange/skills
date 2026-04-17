@@ -4,7 +4,7 @@ description: "Generates project boilerplate from Cookiecutter templates with int
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch
 verification: security_reviewed
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Claude Code"
 ---

@@ -4,7 +4,7 @@ description: "Query OSS Rebuild attestations and rebuild metadata so an agent ca
 verification: listed
 source: "https://github.com/google/oss-rebuild"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

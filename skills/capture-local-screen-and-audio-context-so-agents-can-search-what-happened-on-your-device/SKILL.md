@@ -4,7 +4,7 @@ description: "Use Screenpipe when an agent needs private, local-first memory of 
 verification: listed
 source: "https://github.com/screenpipe/screenpipe"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Queries the SonarQube Web API (/api/qualitygates/project_status) t
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 ---

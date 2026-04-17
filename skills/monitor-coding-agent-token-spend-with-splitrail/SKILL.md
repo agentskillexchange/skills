@@ -4,7 +4,7 @@ description: "Track token burn, spend, and model mix across multiple coding-agen
 verification: listed
 source: "https://github.com/Piebald-AI/splitrail"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Run a static policy pass over Kubernetes YAML before misconfigurat
 verification: listed
 source: "https://github.com/stackrox/kube-linter"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

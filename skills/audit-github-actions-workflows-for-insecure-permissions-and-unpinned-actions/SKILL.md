@@ -4,7 +4,7 @@ description: "This ASE skill uses zizmor to audit GitHub Actions workflows and c
 verification: security_reviewed
 source: "https://github.com/zizmorcore/zizmor"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

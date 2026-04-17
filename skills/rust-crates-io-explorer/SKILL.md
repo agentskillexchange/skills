@@ -4,7 +4,7 @@ description: "Searches the crates.io REST API for Rust crate metadata, version d
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Agents"
 ---

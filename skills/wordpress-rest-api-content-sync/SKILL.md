@@ -4,7 +4,7 @@ description: "Synchronizes content between WordPress multisite installations usi
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "MCP"
 ---

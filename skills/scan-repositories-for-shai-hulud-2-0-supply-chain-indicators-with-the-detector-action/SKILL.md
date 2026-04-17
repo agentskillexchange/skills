@@ -4,7 +4,7 @@ description: "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise i
 verification: listed
 source: "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

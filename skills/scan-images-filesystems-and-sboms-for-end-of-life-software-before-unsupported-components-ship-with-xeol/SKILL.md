@@ -4,7 +4,7 @@ description: "Find packages that are out of support even when they do not show u
 verification: listed
 source: "https://github.com/xeol-io/xeol"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

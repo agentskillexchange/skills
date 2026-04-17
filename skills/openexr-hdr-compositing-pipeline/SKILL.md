@@ -4,7 +4,7 @@ description: "Processes OpenEXR high dynamic range images using the OpenImageIO 
 verification: security_reviewed
 source: "https://github.com/AcademySoftwareFoundation/openexr"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 ---
