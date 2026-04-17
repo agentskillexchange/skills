@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7205
   npm_package: "newman"
-  npm_weekly_downloads: 798564
+  npm_weekly_downloads: 798541
 ---
 
 # Postman Collection Runner

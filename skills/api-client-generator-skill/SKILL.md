@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "OpenAPITools/openapi-generator"
-  github_stars: 26116
 ---
 
 # API Client Generator Skill

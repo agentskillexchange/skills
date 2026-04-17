@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
-  github_stars: 121731
+  github_stars: 121743
 ---
 
 # Kubernetes Troubleshooting Runbook

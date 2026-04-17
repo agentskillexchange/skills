@@ -9,9 +9,9 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"
-  github_stars: 27192
+  github_stars: 27190
   npm_package: "eslint"
-  npm_weekly_downloads: 121814006
+  npm_weekly_downloads: 124125286
 ---
 
 # ESLint Code Review

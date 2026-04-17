@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
-  github_stars: 24305
+  github_stars: 24306
 ---
 
 # CI Pipeline Generator Skill

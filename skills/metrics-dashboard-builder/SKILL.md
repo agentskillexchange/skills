@@ -11,6 +11,7 @@ tool_ecosystem:
   github_repo: "DataDog/datadog-api-client-typescript"
   github_stars: 103
   npm_package: "@datadog/datadog-api-client"
+  npm_weekly_downloads: 2139115
 ---
 
 # Metrics Dashboard Builder

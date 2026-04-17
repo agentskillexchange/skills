@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
-  github_stars: 48625
+  github_stars: 48642
 ---
 
 # LlamaIndex MCP Server

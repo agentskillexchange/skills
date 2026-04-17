@@ -10,7 +10,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
-  github_stars: 1234
+  github_stars: 1235
 ---
 
 # Claude Code MCP Bridge

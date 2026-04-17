@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "grafana/grafana"
-  github_stars: 73233
+  github_stars: 73238
 ---
 
 # Prometheus / Grafana MCP Server

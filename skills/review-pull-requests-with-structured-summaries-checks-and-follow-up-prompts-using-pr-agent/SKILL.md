@@ -7,8 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "The-PR-Agent/pr-agent"
 ---
 
 # Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent

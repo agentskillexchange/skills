@@ -11,6 +11,7 @@ tool_ecosystem:
   github_repo: "devcontainers/cli"
   github_stars: 2637
   npm_package: "@devcontainers/cli"
+  npm_weekly_downloads: 260579
 ---
 
 # Devcontainer Setup Agent

@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
-  github_stars: 12632
+  github_stars: 12636
 ---
 
 # dbt MCP Server
