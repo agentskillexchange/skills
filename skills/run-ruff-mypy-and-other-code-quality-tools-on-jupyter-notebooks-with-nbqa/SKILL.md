@@ -1,10 +1,8 @@
 ---
 title: "Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA"
-description: "Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts."
+description: "Use nbQA when an agent needs to run existing Python quality tooling against Jupyter notebooks instead of skipping notebooks or converting them by hand. The agent can invoke Ruff, Mypy, Black, or other supported tools across `.ipynb` files and return notebook-specific findings in the same review pass as normal Python code. The boundary is notebook-aware quality enforcement, not a generic notebook platform or a broad Python tooling bundle."
 verification: listed
 source: "https://github.com/nbQA-dev/nbQA"
-category:
-  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA
 
-Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts.
+Use nbQA when an agent needs to run existing Python quality tooling against Jupyter notebooks instead of skipping notebooks or converting them by hand. The agent can invoke Ruff, Mypy, Black, or other supported tools across `.ipynb` files and return notebook-specific findings in the same review pass as normal Python code. The boundary is notebook-aware quality enforcement, not a generic notebook platform or a broad Python tooling bundle.
 
 ## Installation
 

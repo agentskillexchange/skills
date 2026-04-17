@@ -1,10 +1,8 @@
 ---
 title: "Run profile-based restic backups and verification checks with resticprofile"
-description: "Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands."
+description: "Use resticprofile when an agent needs to run a repeatable backup runbook around restic using named profiles for backup, retention, prune, check, or restore operations. The agent can select the right profile, execute the matching workflow, and report the outcome without rebuilding the command set from scratch each time. The boundary is profile-driven restic operations and verification, not a generic backup platform or broad storage product listing."
 verification: listed
 source: "https://github.com/creativeprojects/resticprofile"
-category:
-  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Run profile-based restic backups and verification checks with resticprofile
 
-Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands.
+Use resticprofile when an agent needs to run a repeatable backup runbook around restic using named profiles for backup, retention, prune, check, or restore operations. The agent can select the right profile, execute the matching workflow, and report the outcome without rebuilding the command set from scratch each time. The boundary is profile-driven restic operations and verification, not a generic backup platform or broad storage product listing.
 
 ## Installation
 

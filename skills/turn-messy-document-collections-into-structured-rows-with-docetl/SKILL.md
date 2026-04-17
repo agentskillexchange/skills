@@ -1,10 +1,8 @@
 ---
 title: "Turn messy document collections into structured rows with DocETL"
-description: "Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus."
+description: "Use DocETL when an agent needs to convert a pile of semi-structured documents into rows that downstream systems can trust. The agent can define extraction steps, normalize fields, track failures, and iterate on a repeatable document-to-structured-data pipeline instead of doing one-off parsing. The boundary is tightly around document extraction and auditability, not a generic document platform or LLM framework listing."
 verification: listed
 source: "https://github.com/ucbepic/docetl"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Turn messy document collections into structured rows with DocETL
 
-Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus.
+Use DocETL when an agent needs to convert a pile of semi-structured documents into rows that downstream systems can trust. The agent can define extraction steps, normalize fields, track failures, and iterate on a repeatable document-to-structured-data pipeline instead of doing one-off parsing. The boundary is tightly around document extraction and auditability, not a generic document platform or LLM framework listing.
 
 ## Installation
 

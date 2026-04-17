@@ -1,22 +1,20 @@
 ---
 title: "Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS"
-description: "Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced."
+description: "Use StrykerJS when an agent needs to measure whether a JavaScript or TypeScript test suite actually catches meaningful code changes, especially before merges, refactors, or releases. This is distinct from using the project normally because the job is specifically mutation-testing and reporting weak assertions, surviving mutants, and test effectiveness gaps. The scope boundary is clear: it is a mutation-testing quality gate, not a general test runner, framework, or CI platform listing."
 verification: listed
 source: "https://github.com/stryker-mutator/stryker-js"
-category:
-  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stryker-mutator/stryker-js"
   github_stars: 2828
-  npm_package: "@stryker-mutator/core"
+  ase_npm_package: "@stryker-mutator/core"
   npm_weekly_downloads: 1537001
 ---
 
 # Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS
 
-Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced.
+Use StrykerJS when an agent needs to measure whether a JavaScript or TypeScript test suite actually catches meaningful code changes, especially before merges, refactors, or releases. This is distinct from using the project normally because the job is specifically mutation-testing and reporting weak assertions, surviving mutants, and test effectiveness gaps. The scope boundary is clear: it is a mutation-testing quality gate, not a general test runner, framework, or CI platform listing.
 
 ## Installation
 

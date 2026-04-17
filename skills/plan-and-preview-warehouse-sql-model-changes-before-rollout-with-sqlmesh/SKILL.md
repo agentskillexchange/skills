@@ -1,10 +1,8 @@
 ---
 title: "Plan and preview warehouse SQL model changes before rollout with SQLMesh"
-description: "Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution."
+description: "Use SQLMesh when an agent needs to review analytics-model changes before they hit the warehouse. The agent can diff models, preview impacted tables and backfills, and produce a safer rollout plan before any destructive or expensive run. The boundary is tightly pre-rollout planning and impact review for SQL transformations, not a generic SQL editor, BI tool, or warehouse platform listing."
 verification: listed
 source: "https://github.com/SQLMesh/sqlmesh"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Plan and preview warehouse SQL model changes before rollout with SQLMesh
 
-Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution.
+Use SQLMesh when an agent needs to review analytics-model changes before they hit the warehouse. The agent can diff models, preview impacted tables and backfills, and produce a safer rollout plan before any destructive or expensive run. The boundary is tightly pre-rollout planning and impact review for SQL transformations, not a generic SQL editor, BI tool, or warehouse platform listing.
 
 ## Installation
 

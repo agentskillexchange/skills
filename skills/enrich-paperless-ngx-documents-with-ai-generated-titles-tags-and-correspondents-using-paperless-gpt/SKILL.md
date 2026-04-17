@@ -1,10 +1,8 @@
 ---
 title: "Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt"
-description: "Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it."
+description: "Use paperless-gpt when an agent needs to improve document metadata inside an existing Paperless-ngx archive instead of using Paperless-ngx as a general document management system. The operator workflow is narrow and clear: inspect OCRed documents, call an LLM-backed enrichment pass, and write back better titles, tags, correspondents, and related metadata. That keeps the scope on archive enrichment, not on listing the Paperless platform itself."
 verification: listed
 source: "https://github.com/icereed/paperless-gpt"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt
 
-Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it.
+Use paperless-gpt when an agent needs to improve document metadata inside an existing Paperless-ngx archive instead of using Paperless-ngx as a general document management system. The operator workflow is narrow and clear: inspect OCRed documents, call an LLM-backed enrichment pass, and write back better titles, tags, correspondents, and related metadata. That keeps the scope on archive enrichment, not on listing the Paperless platform itself.
 
 ## Installation
 

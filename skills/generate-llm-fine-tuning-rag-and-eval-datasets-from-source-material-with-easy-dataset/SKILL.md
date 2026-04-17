@@ -1,10 +1,8 @@
 ---
 title: "Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset"
-description: "Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing."
+description: "Use easy-dataset when an agent needs to transform raw source material into publishable training, retrieval, or evaluation datasets. The skill boundary is tight: ingest mixed documents, segment them intelligently, clean and structure the outputs, then produce artifacts ready for fine-tuning, RAG ingestion, or benchmark-style eval work. This is not a generic LLM platform listing. The value is the operator workflow of converting messy inputs into usable dataset assets at the point where a team would otherwise hand-roll parsing, chunking, and curation steps for each project."
 verification: listed
 source: "https://github.com/ConardLi/easy-dataset"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset
 
-Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing.
+Use easy-dataset when an agent needs to transform raw source material into publishable training, retrieval, or evaluation datasets. The skill boundary is tight: ingest mixed documents, segment them intelligently, clean and structure the outputs, then produce artifacts ready for fine-tuning, RAG ingestion, or benchmark-style eval work. This is not a generic LLM platform listing. The value is the operator workflow of converting messy inputs into usable dataset assets at the point where a team would otherwise hand-roll parsing, chunking, and curation steps for each project.
 
 ## Installation
 

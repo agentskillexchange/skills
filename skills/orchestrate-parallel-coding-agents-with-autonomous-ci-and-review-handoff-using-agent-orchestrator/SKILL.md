@@ -1,10 +1,8 @@
 ---
 title: "Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator"
-description: "Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically."
+description: "Use Agent Orchestrator when one coding agent session is not enough and the real job is supervising many parallel repo workers with clean branch isolation and feedback routing. The tool launches an orchestrator that spawns agent workers, assigns each one its own worktree and PR lane, then feeds CI failures and review comments back into the correct loop. The scope boundary is strong: this is not a generic dashboard or coding-agent marketplace, it is a concrete multi-agent repo execution workflow with autonomous handoff around PRs and CI."
 verification: listed
 source: "https://github.com/ComposioHQ/agent-orchestrator"
-category:
-  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator
 
-Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically.
+Use Agent Orchestrator when one coding agent session is not enough and the real job is supervising many parallel repo workers with clean branch isolation and feedback routing. The tool launches an orchestrator that spawns agent workers, assigns each one its own worktree and PR lane, then feeds CI failures and review comments back into the correct loop. The scope boundary is strong: this is not a generic dashboard or coding-agent marketplace, it is a concrete multi-agent repo execution workflow with autonomous handoff around PRs and CI.
 
 ## Installation
 

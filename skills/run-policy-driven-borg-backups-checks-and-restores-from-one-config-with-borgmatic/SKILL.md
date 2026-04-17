@@ -1,10 +1,8 @@
 ---
 title: "Run policy-driven Borg backups, checks, and restores from one config with borgmatic"
-description: "Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand."
+description: "Use borgmatic when an agent needs to execute a repeatable backup runbook around Borg, including create, prune, consistency checks, hooks, and restore-oriented validation from one configuration. Invoke this instead of using Borg directly when the real task is policy-driven backup orchestration and health checking, not manual archive commands one by one. The scope boundary is clear and skill-shaped: borgmatic is a declarative backup and restore operations layer for Borg workflows, not just a generic backup product card or a broad infrastructure platform listing."
 verification: listed
 source: "https://github.com/borgmatic-collective/borgmatic"
-category:
-  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Run policy-driven Borg backups, checks, and restores from one config with borgmatic
 
-Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand.
+Use borgmatic when an agent needs to execute a repeatable backup runbook around Borg, including create, prune, consistency checks, hooks, and restore-oriented validation from one configuration. Invoke this instead of using Borg directly when the real task is policy-driven backup orchestration and health checking, not manual archive commands one by one. The scope boundary is clear and skill-shaped: borgmatic is a declarative backup and restore operations layer for Borg workflows, not just a generic backup product card or a broad infrastructure platform listing.
 
 ## Installation
 

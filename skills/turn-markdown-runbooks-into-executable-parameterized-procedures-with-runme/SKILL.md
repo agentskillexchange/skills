@@ -1,22 +1,20 @@
 ---
 title: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
-description: "Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text."
+description: "Use Runme when a README, runbook, or ops guide should become the runnable procedure instead of a document people copy from by hand. It lets operators discover code cells, execute named steps, and preserve environment-aware workflow state across a Markdown-driven procedure. The boundary is executable runbook execution, not generic documentation publishing or a broad DevOps platform."
 verification: listed
 source: "https://github.com/runmedev/runme"
-category:
-  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "runmedev/runme"
   github_stars: 2031
-  npm_package: "runme"
+  ase_npm_package: "runme"
   npm_weekly_downloads: 1167
 ---
 
 # Turn Markdown runbooks into executable, parameterized procedures with Runme
 
-Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text.
+Use Runme when a README, runbook, or ops guide should become the runnable procedure instead of a document people copy from by hand. It lets operators discover code cells, execute named steps, and preserve environment-aware workflow state across a Markdown-driven procedure. The boundary is executable runbook execution, not generic documentation publishing or a broad DevOps platform.
 
 ## Installation
 

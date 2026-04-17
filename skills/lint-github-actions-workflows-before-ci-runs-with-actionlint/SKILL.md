@@ -1,10 +1,8 @@
 ---
 title: "Lint GitHub Actions workflows before CI runs with actionlint"
-description: "Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI."
+description: "Use actionlint when an agent needs a fast correctness pass on GitHub Actions files before they are pushed or approved. The agent can catch malformed workflow syntax, bad expressions, invalid event wiring, and shell step issues early in code review. The scope is narrowly limited to workflow validation before CI execution, not a generic GitHub product or automation framework listing."
 verification: listed
 source: "https://github.com/rhysd/actionlint"
-category:
-  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Lint GitHub Actions workflows before CI runs with actionlint
 
-Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI.
+Use actionlint when an agent needs a fast correctness pass on GitHub Actions files before they are pushed or approved. The agent can catch malformed workflow syntax, bad expressions, invalid event wiring, and shell step issues early in code review. The scope is narrowly limited to workflow validation before CI execution, not a generic GitHub product or automation framework listing.
 
 ## Installation
 

@@ -1,0 +1,43 @@
+---
+title: "Review-gate OpenClaw memory hygiene with openclaw-mem"
+description: "Use openclaw-mem when an OpenClaw operator needs to pack trusted context, inspect provenance, and review memory writes before long sessions drift or accumulate bad memory. Invoke it instead of relying on OpenClaw memory alone when the job is memory hygiene and bounded recall, not ordinary day-to-day chat. The boundary is a trust-aware OpenClaw memory review workflow, not a generic vector store, database, or standalone memory platform listing."
+verification: listed
+source: "https://github.com/phenomenoner/openclaw-mem"
+framework:
+  - "OpenClaw"
+tool_ecosystem:
+  github_repo: "phenomenoner/openclaw-mem"
+  github_stars: 28
+---
+
+# Review-gate OpenClaw memory hygiene with openclaw-mem
+
+Use openclaw-mem when an OpenClaw operator needs to pack trusted context, inspect provenance, and review memory writes before long sessions drift or accumulate bad memory. Invoke it instead of relying on OpenClaw memory alone when the job is memory hygiene and bounded recall, not ordinary day-to-day chat. The boundary is a trust-aware OpenClaw memory review workflow, not a generic vector store, database, or standalone memory platform listing.
+
+## Installation
+
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/)

@@ -1,10 +1,8 @@
 ---
 title: "Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena"
-description: "Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes."
+description: "Use Serena when an agent needs IDE-level semantic retrieval and symbol-safe refactoring in a real codebase instead of relying on plain grep, line numbers, and text-only edits. Invoke it when cross-file symbol lookup, reference tracing, or rename and move operations need to stay structurally correct. The scope boundary is concrete: Serena upgrades an agent with MCP-exposed semantic code navigation and refactor operations. It is not a generic coding assistant listing and not merely a product card for an MCP server."
 verification: listed
 source: "https://github.com/oraios/serena"
-category:
-  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -14,7 +12,7 @@ tool_ecosystem:
 
 # Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena
 
-Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes.
+Use Serena when an agent needs IDE-level semantic retrieval and symbol-safe refactoring in a real codebase instead of relying on plain grep, line numbers, and text-only edits. Invoke it when cross-file symbol lookup, reference tracing, or rename and move operations need to stay structurally correct. The scope boundary is concrete: Serena upgrades an agent with MCP-exposed semantic code navigation and refactor operations. It is not a generic coding assistant listing and not merely a product card for an MCP server.
 
 ## Installation
 

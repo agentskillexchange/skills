@@ -1,22 +1,20 @@
 ---
 title: "Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator"
-description: "Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do."
+description: "Use this skill when a release pipeline already has semantic-release in place and the missing job is dependable release-note generation from commit history. The boundary is narrow and operator-facing: configure the release-notes-generator plugin, choose the preset and parsing rules, and emit changelog-ready notes during CI. That keeps it from being a plain product listing. The skill is not about adopting semantic-release as a whole. It is about the specific release-artifact step that turns commit metadata into publishable notes during ship automation."
 verification: listed
 source: "https://github.com/semantic-release/release-notes-generator"
-category:
-  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "semantic-release/release-notes-generator"
   github_stars: 361
-  npm_package: "@semantic-release/release-notes-generator"
+  ase_npm_package: "@semantic-release/release-notes-generator"
   npm_weekly_downloads: 10982193
 ---
 
 # Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator
 
-Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do.
+Use this skill when a release pipeline already has semantic-release in place and the missing job is dependable release-note generation from commit history. The boundary is narrow and operator-facing: configure the release-notes-generator plugin, choose the preset and parsing rules, and emit changelog-ready notes during CI. That keeps it from being a plain product listing. The skill is not about adopting semantic-release as a whole. It is about the specific release-artifact step that turns commit metadata into publishable notes during ship automation.
 
 ## Installation
 
