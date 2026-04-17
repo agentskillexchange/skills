@@ -1,7 +1,7 @@
 ---
 title: "Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator"
 description: "Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically."
-verification: listed
+verification: "listed"
 source: "https://github.com/ComposioHQ/agent-orchestrator"
 category:
   - "CI/CD Integrations"
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator
 
-Use Agent Orchestrator when one coding agent session is not enough and the real job is supervising many parallel repo workers with clean branch isolation and feedback routing. The tool launches an orchestrator that spawns agent workers, assigns each one its own worktree and PR lane, then feeds CI failures and review comments back into the correct loop. The scope boundary is strong: this is not a generic dashboard or coding-agent marketplace, it is a concrete multi-agent repo execution workflow with autonomous handoff around PRs and CI.
+Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

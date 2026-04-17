@@ -1,7 +1,7 @@
 ---
 title: "sqlite-vec Vector Search Extension for SQLite"
 description: "sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs—Linux, macOS, Windows, WASM in browsers, and Raspberry Pis—and supports float, int8, and binary vector storage."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/asg017/sqlite-vec"
 category:
   - "Developer Tools"
@@ -16,39 +16,17 @@ tool_ecosystem:
 
 # sqlite-vec Vector Search Extension for SQLite
 
-What is sqlite-vec? sqlite-vec is an extremely small, dependency-free SQLite extension that adds vector similarity search capabilities to any SQLite database. Created by Alex Garcia and sponsored by Mozilla Builders, Fly.io, and Turso, it is the successor to sqlite-vss. Written in pure C, sqlite-vec compiles and runs anywhere SQLite runs: Linux, macOS, Windows, in the browser via WASM, on Raspberry Pis, and on mobile devices.
-
-The extension uses vec0 virtual tables to store and query float, int8, and binary vectors. It supports KNN (k-nearest-neighbor) queries using the MATCH operator with distance ordering, and allows storing non-vector metadata in auxiliary columns alongside embeddings.
-
-How It Works After loading the extension with .load ./vec0, create a virtual table specifying the vector dimensions: CREATE VIRTUAL TABLE embeddings USING vec0(sample_embedding float[384]). Insert vectors as JSON arrays or in a compact binary format. Query with standard SQL using the MATCH clause to find nearest neighbors, ordering by distance and limiting results. The extension handles all the indexing internally.
-
-sqlite-vec integrates with popular data tools. Datasette users install via datasette install datasette-sqlite-vec. sqlite-utils users add it with sqlite-utils install sqlite-utils-sqlite-vec. The extension also supports rqlite for distributed deployments. Partition key columns enable sharding vectors across logical groups for more efficient filtered queries.
-
-Language Bindings and Adoption Install in Python (pip install sqlite-vec), Node.js (npm install sqlite-vec), Ruby (gem install sqlite-vec), Go, or Rust (cargo add sqlite-vec). Documentation is available at alexgarcia.xyz/sqlite-vec. The project has over 7,200 GitHub stars, is Apache-2.0 licensed, and is used in production by projects like ScreenPipe for local AI search. It enables building fully local, privacy-preserving semantic search without external vector database dependencies.
+sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs—Linux, macOS, Windows, WASM in browsers, and Raspberry Pis—and supports float, int8, and binary vector storage.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sqlite-vec-vector-search-extension-sqlite
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/sqlite-vec-vector-search-extension-sqlite` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

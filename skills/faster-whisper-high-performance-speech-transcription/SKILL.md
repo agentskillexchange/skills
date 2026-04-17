@@ -1,7 +1,7 @@
 ---
 title: "faster-whisper High-Performance Speech Transcription Engine"
 description: "faster-whisper is a reimplementation of OpenAI’s Whisper model using CTranslate2 that delivers up to 4x faster transcription with lower memory usage. It supports CPU and GPU inference with 8-bit quantization, batch processing, word-level timestamps, and VAD filtering for accurate speech-to-text conversion."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/SYSTRAN/faster-whisper"
 category:
   - "Media & Transcription"
@@ -10,44 +10,21 @@ framework:
 tool_ecosystem:
   github_repo: "SYSTRAN/faster-whisper"
   github_stars: 21865
-  license: "MIT"
 ---
 
 # faster-whisper High-Performance Speech Transcription Engine
 
-faster-whisper is a Python library that reimplements OpenAI’s Whisper automatic speech recognition model using the CTranslate2 inference engine. Built by SYSTRAN, it achieves up to 4 times faster transcription than the original openai/whisper implementation while consuming significantly less memory, making it practical for both development workstations and production GPU servers.
-
-The library supports multiple precision modes including fp16, fp32, and int8 quantization on both CPU and GPU. With batched inference on an NVIDIA RTX 3070 Ti, faster-whisper can transcribe 13 minutes of audio in just 16-17 seconds using int8 precision. The efficiency gains come from CTranslate2’s optimized Transformer execution, which applies weight quantization, layer fusion, and batch reordering without sacrificing word error rate accuracy.
-
-Key features include word-level timestamp generation for subtitle creation, Voice Activity Detection (VAD) filtering using Silero VAD to skip silent sections, and support for all Whisper model sizes from tiny to large-v3. The library exposes a straightforward Python API where developers instantiate a WhisperModel, call model.transcribe() with an audio file path, and iterate over resulting segments containing text, timestamps, and confidence scores.
-
-Installation is a single pip command: pip install faster-whisper. Models are automatically downloaded from Hugging Face on first use, with options to specify custom model paths or use CTranslate2-converted models directly. The library integrates cleanly with existing Python audio pipelines and can process audio from files, numpy arrays, or byte streams.
-
-faster-whisper is particularly valuable for agent skills that need to transcribe meetings, podcasts, voice memos, or any audio content as part of automated workflows. Its combination of speed, accuracy, and low resource requirements makes it the go-to choice for local speech-to-text processing without relying on external API calls.
+faster-whisper is a reimplementation of OpenAI’s Whisper model using CTranslate2 that delivers up to 4x faster transcription with lower memory usage. It supports CPU and GPU inference with 8-bit quantization, batch processing, word-level timestamps, and VAD filtering for accurate speech-to-text conversion.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/faster-whisper-high-performance-speech-transcription
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/faster-whisper-high-performance-speech-transcription` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

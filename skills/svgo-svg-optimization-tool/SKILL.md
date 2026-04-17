@@ -1,7 +1,7 @@
 ---
 title: "SVGO SVG Optimization Tool"
 description: "An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable set of transformation plugins. Removes unnecessary metadata, simplifies paths, collapses groups, and reduces SVG file sizes for faster web rendering."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/svg/svgo"
 category:
   - "Image & Creative Automation"
@@ -16,41 +16,17 @@ tool_ecosystem:
 
 # SVGO SVG Optimization Tool
 
-SVGO is a Node.js-based tool and library for optimizing Scalable Vector Graphics (SVG) files. It works by applying a pipeline of transformation plugins that remove redundant data, simplify path definitions, collapse unnecessary groups, merge overlapping shapes, and strip editor metadata without altering the visual appearance. This skill integrates SVGO into automated asset pipelines for systematic SVG optimization.
-
-Core Capabilities The skill processes SVG files through SVGO’s plugin pipeline, which includes over 30 built-in optimization plugins. Key transformations include removing XML declarations and doctype, stripping editor namespaces from Illustrator, Sketch, and Inkscape, collapsing useless groups, merging adjacent paths, converting shapes to shorter path equivalents, optimizing path data by reducing precision and removing redundant commands, minifying style attributes, and removing hidden elements. Each plugin can be individually enabled, disabled, or configured.
-
-How It Works Agents pass SVG content or file paths to the skill along with optional configuration specifying which plugins to enable and their parameters. SVGO parses the SVG into an AST (Abstract Syntax Tree), runs each configured plugin as a visitor over the tree, and serializes the optimized result back to SVG markup. The skill reports size reduction statistics including original size, optimized size, and percentage saved. Typical savings range from 20% to 70% depending on the source.
-
-Configuration and Presets SVGO ships with a default preset that applies safe optimizations suitable for most SVGs. The skill supports custom configurations through an svgo.config.js file or inline parameters, allowing agents to specify aggressive optimizations for known-safe SVGs or conservative settings for complex illustrations with animations or scripting. Multipass mode runs the optimization pipeline multiple times for maximum compression.
-
-Integration Points The skill integrates with build systems through webpack, Rollup, and Vite loaders, CI/CD pipelines for automated asset optimization on commit, design tool export workflows, and icon library maintenance. SVGO can process individual files, directories of SVGs, or piped input from other tools in shell pipelines. It also works as a programmatic Node.js API for integration into larger processing scripts.
-
-Technical Details SVGO is written in JavaScript, distributed on npm as svgo (version 4.0.1), and licensed under MIT. The project has over 22,400 GitHub stars and is actively maintained with updates in March 2026. It provides both a CLI interface and a programmatic API, and serves as the SVG optimization engine behind many popular design tools and web frameworks.
+An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable set of transformation plugins. Removes unnecessary metadata, simplifies paths, collapses groups, and reduces SVG file sizes for faster web rendering.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/svgo-svg-optimization-tool
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/svgo-svg-optimization-tool` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

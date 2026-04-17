@@ -1,7 +1,7 @@
 ---
 title: "Garden Kubernetes Development and Testing Automation Platform"
 description: "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/garden-io/garden"
 category:
   - "CI/CD Integrations"
@@ -14,41 +14,17 @@ tool_ecosystem:
 
 # Garden Kubernetes Development and Testing Automation Platform
 
-Garden is an open-source DevOps automation platform by Garden.io designed to streamline Kubernetes application development and testing. Licensed under MPL-2.0 and written primarily in TypeScript, Garden provides a declarative configuration framework that codifies complete stack descriptions, enabling reproducible and portable workflows across developer machines and CI environments.
-
-Core Capabilities Garden allows teams to spin up production-like environments for development, testing, and CI on demand using a single garden.yml configuration format. The tool builds a directed acyclic graph (DAG) of build and deploy dependencies, automatically executing independent steps in parallel while caching results for future reuse. This graph-based approach means only the minimum required steps execute when changes are detected, based on individual file hashes.
-
-Configuration and Workflow Garden configurations define four core action types: Build, Deploy, Test, and Run. These are composed using simple YAML with explicit dependency declarations. A typical workflow includes container builds, Helm chart deployments, Kubernetes manifest applications, and integration test execution. The garden deploy command handles the full build-deploy cycle, while garden test runs the test suite, and garden dev starts an interactive development console.
-
-Sync Mode and Live Reloading Garden includes a sync mode (garden deploy --sync) that live-reloads changes to running services, providing fast feedback during development without requiring full rebuild cycles. This makes the inner development loop nearly as fast as local development while running against real Kubernetes infrastructure.
-
-Plugin Ecosystem Garden is pluggable with action execution depending on configured plugins. The Kubernetes plugin handles container builds and Kubernetes deployments. The Terraform plugin manages infrastructure provisioning alongside application deployment. The Pulumi plugin provides an alternative infrastructure-as-code integration. This plugin architecture means Garden can orchestrate heterogeneous stacks spanning containers, serverless functions, and infrastructure resources.
-
-Agent Integration AI agents can leverage Garden’s CLI to automate environment provisioning for testing, spin up preview environments from pull requests (garden deploy --env preview), run integration test suites against isolated environments, and manage the full lifecycle of Kubernetes-based applications. The declarative YAML configuration makes it straightforward for agents to generate and modify Garden configs programmatically, while the smart caching ensures agents don’t waste time on redundant builds.
+Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/garden-kubernetes-dev-testing-automation
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/garden-kubernetes-dev-testing-automation` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest"
 description: "Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster."
-verification: listed
+verification: "listed"
 source: "https://github.com/helm-unittest/helm-unittest"
 category:
   - "CI/CD Integrations"
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest
 
-Use helm-unittest when an agent needs to verify chart rendering behavior with explicit assertions, not when someone is using Helm as a general package manager. The job is narrow and repeatable: render a chart locally, run YAML-defined tests against the rendered manifests, and report exactly which expectations failed before deployment or review. That scope boundary, local chart unit testing with fixture values and assertions, keeps this from being just a Helm product listing.
+Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

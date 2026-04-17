@@ -1,47 +1,27 @@
 ---
 title: "Mailpit SMTP Testing and Email Capture Workbench"
 description: "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://mailpit.axllent.org/"
 category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  license: "MIT"
 ---
 
 # Mailpit SMTP Testing and Email Capture Workbench
 
-Mailpit is an email and SMTP testing tool that runs as a local or hosted mail sink, captures messages sent by an application, and exposes them through a web UI and API. This skill turns Mailpit into a repeatable workflow for debugging outbound email, validating templates, testing attachments, and verifying transactional flows such as password resets, order confirmations, magic links, and notifications. Instead of pointing an app at a real mail relay during development, the skill configures the app to send SMTP traffic to Mailpit and then inspects the captured results safely.
-
-The workflow covers SMTP configuration, container or binary deployment, message search, HTML and plain-text preview, MIME inspection, and API-based assertions in integration tests. It is especially useful when a stack needs deterministic email testing: the application delivers mail to Mailpit, Mailpit stores the message, and the skill extracts headers, recipients, subject lines, body parts, links, and attachments for automated checks. Teams can use it in Docker Compose, local development, ephemeral preview environments, or CI pipelines. The skill can also help with negative-path testing by using Mailpit features and realistic SMTP handling to surface delivery and formatting problems earlier in the pipeline.
-
-Outputs include captured message metadata, rendered previews, downloadable raw MIME content, attachment artifacts, and API-readable JSON suitable for test assertions. Integration points include PHP, Node.js, Python, Go, Laravel, WordPress, Rails, and any application that can speak SMTP. For developers who need to inspect email behavior without touching production mail infrastructure, Mailpit provides a fast and low-friction testing layer.
+This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mailpit-smtp-testing-email-capture-workbench
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/mailpit-smtp-testing-email-capture-workbench` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Run configurable multi-source deep research passes with Open Deep Research"
 description: "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends."
-verification: listed
+verification: "listed"
 source: "https://github.com/langchain-ai/open_deep_research"
 category:
   - "Research & Scraping"
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Run configurable multi-source deep research passes with Open Deep Research
 
-Use Open Deep Research when the task is to execute a deep-research run that gathers sources, iterates on search, compresses findings, and produces a synthesized report. Invoke it instead of doing ad hoc web research in ordinary chat when you need a configurable research agent with interchangeable model providers, search tools, and MCP-compatible retrieval sources. The scope boundary is skill-shaped and concrete: this is a bounded research-run workflow, not a generic framework listing and not just a product card for LangChain or a hosted research app.
+Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

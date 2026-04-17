@@ -1,7 +1,7 @@
 ---
 title: "Read and automate Slack workflows from a purpose-built agent CLI with agent-slack"
 description: "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output."
-verification: listed
+verification: "listed"
 source: "https://github.com/stablyai/agent-slack"
 category:
   - "Calendar, Email & Productivity"
@@ -16,31 +16,17 @@ tool_ecosystem:
 
 # Read and automate Slack workflows from a purpose-built agent CLI with agent-slack
 
-Use agent-slack when an agent needs to search Slack, read threads, fetch canvases, handle files, or perform message actions from a dedicated CLI instead of manual Slack use or custom API glue. The invoke moment is specific: a bounded Slack operation with JSON output, local artifact handling, and a skill package already aimed at agent runtimes. That scope boundary, operator-grade Slack task execution through an agent CLI, keeps this from being just another Slack product or platform listing.
+Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Notion Workspace Sync Engine"
 description: "Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://developers.notion.com/"
 category:
   - "Calendar, Email & Productivity"
@@ -11,31 +11,17 @@ framework:
 
 # Notion Workspace Sync Engine
 
-The Notion Workspace Sync Engine establishes bidirectional synchronization between Notion databases and external project management tools using the Notion API v1. It polls Notion databases via the /databases/{id}/query endpoint with filter and sort parameters to detect changes, comparing timestamps against a local state cache for incremental processing. Property mapping is configured through a declarative schema that translates Notion select/multi-select properties to Jira issue types and labels, Notion date ranges to GitHub milestone dates, and Notion relation properties to Linear issue parent-child hierarchies. The skill handles rich text conversion between Notion blocks (paragraphs, headings, code, callouts) and Markdown/HTML formats used by target platforms. Conflict resolution uses a last-writer-wins strategy with configurable field-level priority rules—for example, status changes in Jira always win, but description edits in Notion take precedence. Webhook endpoints receive real-time Notion database change events for near-instant propagation. The sync engine maintains an audit log of all operations, supports dry-run mode for previewing changes, and includes rollback capability to revert the last N sync operations.
+Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/notion-workspace-sync-engine-2
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/notion-workspace-sync-engine-2` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

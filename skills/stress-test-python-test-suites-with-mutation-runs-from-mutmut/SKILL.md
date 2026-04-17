@@ -1,7 +1,7 @@
 ---
 title: "Stress-test Python test suites with mutation runs from mutmut"
 description: "Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite."
-verification: listed
+verification: "listed"
 source: "https://github.com/boxed/mutmut"
 category:
   - "Code Quality & Review"
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Stress-test Python test suites with mutation runs from mutmut
 
-Use mutmut when an agent needs to evaluate how well a Python test suite actually detects behavioral changes before a risky merge or release. The agent can run mutation tests, collect surviving mutants, and point maintainers to weak assertions or missing cases. The boundary is mutation-based test-strength analysis for Python repositories, not a generic test runner or broad QA product listing.
+Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Jasper AI Long-Form Blog Post Generator"
 description: "Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 category:
   - "Content Writing & SEO"
@@ -11,43 +11,17 @@ framework:
 
 # Jasper AI Long-Form Blog Post Generator
 
-Jasper AI Long-Form Blog Post Generator is built around WordPress CMS and REST API ecosystem. The underlying ecosystem is represented by WordPress/WordPress (20,973+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like posts, pages, taxonomies, media, custom fields, auth, plugin hooks and preserving the operational context that matters for real tasks.
-
-For content workflows, the skill uses wordpress primitives as the system of record, so an agent can read structured inputs, apply transformations, and publish or sync output without losing metadata, IDs, or status fields. The original use case is clear: Connects to Jasper's /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API. The implementation typically relies on posts, pages, taxonomies, media, custom fields, auth, plugin hooks, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
-
-- Accesses posts, pages, taxonomies, media, custom fields, auth, plugin hooks instead of scraping a UI, which makes runs easier to audit and retry.
-
-- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-
-- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-
-- Fits into broader integration points such as content publishing, plugin dev, REST endpoints, and editorial automation.
-
-For generator-style use cases, the skill turns a vague request into repeatable scaffolding with defaults that match the upstream toolchain rather than inventing ad hoc files. Key integration points include content publishing, plugin dev, REST endpoints, and editorial automation. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jasper-longform-blog-generator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/jasper-longform-blog-generator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

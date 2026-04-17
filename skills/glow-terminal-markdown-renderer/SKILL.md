@@ -1,7 +1,7 @@
 ---
 title: "Glow Terminal Markdown Renderer"
 description: "Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI. It includes a TUI for browsing local markdown files and discovering documentation."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/charmbracelet/glow"
 category:
   - "Developer Tools"
@@ -14,39 +14,17 @@ tool_ecosystem:
 
 # Glow Terminal Markdown Renderer
 
-Glow is a terminal markdown reader built by Charmbracelet, the team behind Bubble Tea, Lip Gloss, and other Go-based terminal UI libraries. It renders markdown files with full styling — headings, bold, italic, code blocks with syntax highlighting, tables, links, and lists — directly in the terminal. The goal is to make reading documentation and README files as pleasant in the terminal as it is in a web browser.
-
-The simplest usage is glow README.md, which renders the file with styled output and a pager for scrolling. Glow auto-detects terminal width and wraps text accordingly. It supports multiple style themes including dark, light, and auto-detection based on terminal background. Developers can also create custom styles using a JSON configuration file that controls colors, margins, and formatting for every markdown element.
-
-The TUI mode, activated by running glow without arguments, provides a file browser that discovers markdown files in the current directory and subdirectories. It also detects Git repositories and shows their documentation. Users can navigate between files, search content, and read documentation without leaving the terminal. This is useful for browsing project documentation, changelogs, and internal wikis from the command line.
-
-Glow can read from stdin (cat doc.md | glow), local files, and URLs (glow https://raw.githubusercontent.com/...). It supports line numbers, mouse wheel scrolling in TUI mode, and can be configured via a YAML config file at ~/.config/glow/glow.yml. The --pager flag enables the built-in pager for long documents.
-
-With nearly 24,000 GitHub stars and an MIT license, Glow is one of the most popular CLI tools from the Charmbracelet ecosystem. It is available via Homebrew, apt, pacman, snap, Chocolatey, Scoop, Winget, and standalone binaries for Linux, macOS, Windows, FreeBSD, and Android (Termux).
+Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI. It includes a TUI for browsing local markdown files and discovering documentation.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/glow-terminal-markdown-renderer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/glow-terminal-markdown-renderer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

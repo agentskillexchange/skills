@@ -1,7 +1,7 @@
 ---
 title: "Nginx Error Log Analyzer and Fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
   - "Runbooks & Diagnostics"
@@ -10,36 +10,21 @@ framework:
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930
-  license: "BSD-2-Clause"
 ---
 
 # Nginx Error Log Analyzer and Fixer
 
-This skill automates Nginx troubleshooting by parsing error logs and access logs to identify recurring issues and their root causes. It processes logs using GoAccess for real-time statistical analysis, generating reports on error rate trends, upstream timeout patterns, and client error distributions. For 502 Bad Gateway errors, it checks upstream server health, FastCGI/proxy_pass configurations, and backend service status via systemctl. For 504 Gateway Timeouts, it analyzes proxy_read_timeout and fastcgi_read_timeout settings against actual response times. The skill validates configuration changes with nginx -t before applying them, and uses nginx -T to dump the full effective configuration for analysis. It integrates with fail2ban log parsing to correlate security events with error spikes. The analyzer generates remediation scripts that adjust buffer sizes, timeout values, worker_connections, and rate limiting rules, with before/after configuration diffs for review.
+Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nginx-error-log-analyzer-fixer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/nginx-error-log-analyzer-fixer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

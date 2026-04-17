@@ -1,7 +1,7 @@
 ---
 title: "Piper Local Neural Text-to-Speech Engine"
 description: "Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/rhasspy/piper"
 category:
   - "Media & Transcription"
@@ -10,54 +10,21 @@ framework:
 tool_ecosystem:
   github_repo: "rhasspy/piper"
   github_stars: 10741
-  license: "MIT"
 ---
 
 # Piper Local Neural Text-to-Speech Engine
 
-What is Piper? Piper is a fast, local neural text-to-speech (TTS) system developed by the Rhasspy project and now maintained by the Open Home Foundation. It converts text to natural-sounding speech using lightweight ONNX neural network models that run entirely on-device — no cloud API calls, no internet connection required. Piper is designed for voice assistants, accessibility tools, and any application that needs offline speech synthesis.
-
-How This Skill Works This skill enables agents to synthesize speech from text using the Piper TTS engine. Agents can select from a library of pre-trained voice models covering 20+ languages including English, German, French, Spanish, Chinese, Russian, and many more. The engine processes text through an espeak-ng phonemizer, then feeds phoneme sequences through a VITS-based neural network to produce raw audio output. The entire pipeline runs locally on CPU with sub-real-time latency on modern hardware.
-
-Key Capabilities
-
-- Offline operation: All processing happens locally. Models are compact ONNX files (15-100 MB) that load quickly and run without GPU acceleration.
-
-- Multi-language support: Pre-trained voices available for English (US/UK), German, French, Spanish, Portuguese, Italian, Dutch, Russian, Chinese, Arabic, Hindi, Japanese, and 10+ more languages.
-
-- Voice quality tiers: Choose between low, medium, and high quality models trading off file size and CPU usage for naturalness. High-quality models use multi-speaker VITS architectures.
-
-- Streaming output: Piper supports streaming audio generation, outputting PCM audio chunks as they are synthesized for low-latency real-time playback.
-
-- CLI and library usage: Use the piper command-line tool to pipe text in and get WAV audio out, or link against the C++ library for embedding in applications. Python bindings available via piper-tts on PyPI.
-
-Integration Points Piper integrates with Home Assistant for voice assistant pipelines, with Wyoming protocol for modular voice satellite setups, and with any system that can consume WAV or raw PCM audio. It outputs 16-bit mono audio at configurable sample rates (16kHz or 22.05kHz depending on the model). The CLI accepts text via stdin and writes audio to stdout, making it composable with ffmpeg, sox, aplay, and other audio tools via shell pipes. Docker images are available for containerized deployments.
-
-Source GitHub: rhasspy/piper (10.7K+ stars, MIT license) — New development: OHF-Voice/piper1-gpl
+Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/piper-local-neural-tts-engine
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/piper-local-neural-tts-engine` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

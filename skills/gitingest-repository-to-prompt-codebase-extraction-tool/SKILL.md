@@ -1,7 +1,7 @@
 ---
 title: "Gitingest Repository-to-Prompt Codebase Extraction Tool"
 description: "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/coderamp-labs/gitingest"
 category:
   - "Data Extraction & Transformation"
@@ -14,35 +14,17 @@ tool_ecosystem:
 
 # Gitingest Repository-to-Prompt Codebase Extraction Tool
 
-Gitingest is a repository extraction tool designed to make source trees easier to hand to language models and agent systems. The project takes a GitHub repository and converts it into a structured, prompt-friendly representation that summarizes the codebase, captures the directory tree, and includes the relevant file contents in a compact text output. One of its best-known flows is the URL trick of replacing part of a GitHub URL so the repository can be ingested immediately, but the upstream project also ships a Python package and optional server mode for programmatic use.
-
-The upstream source is the coderamp-labs/gitingest repository, and the package is published on PyPI as gitingest. The README documents Python 3.8+ support, pip installation, pipx installation, and Docker-based deployment. That makes it practical for agents that need repeatable codebase context, automated repository intake, or a fast way to prepare source material before summarization, review, refactoring, or documentation generation.
-
-An ASE skill built around Gitingest is useful when an agent needs to transform a repository into clean text for downstream analysis, extract architecture context for planning, or feed a local server into another automation pipeline. Typical outputs include codebase summaries, prompt-ready repository bundles, extracted file trees, and content blocks that can be passed into review agents, documentation jobs, or model-context preparation steps. It also fits well with GitHub-based research, internal code search workflows, and repository triage systems where the first task is understanding the shape of an unfamiliar project quickly.
+Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitingest-repository-to-prompt-codebase-extraction-tool
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/gitingest-repository-to-prompt-codebase-extraction-tool` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

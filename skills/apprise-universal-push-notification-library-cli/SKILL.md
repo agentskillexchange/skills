@@ -1,7 +1,7 @@
 ---
 title: "Apprise Universal Push Notification Library and CLI"
 description: "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/caronc/apprise"
 category:
   - "Monitoring & Alerts"
@@ -10,44 +10,21 @@ framework:
 tool_ecosystem:
   github_repo: "caronc/apprise"
   github_stars: 16227
-  license: "BSD-2-Clause"
 ---
 
 # Apprise Universal Push Notification Library and CLI
 
-What is Apprise? Apprise is a Python-based notification library and command-line tool that provides a single interface for sending push notifications to virtually every major notification platform available today. With support for over 100 notification services, it eliminates the need to integrate with individual service APIs. Developers include one library and gain access to Telegram, Discord, Slack, Microsoft Teams, Amazon SNS, Gotify, Pushover, ntfy, email (SMTP), webhooks, and dozens more.
-
-How It Works Apprise uses a URL-based notification syntax where each service is represented by a URL scheme. For example, tgram://bottoken/ChatID sends to Telegram, discord://WebhookID/WebhookToken sends to Discord, and slack://TokenA/TokenB/TokenC sends to Slack. You can specify multiple notification URLs and Apprise delivers to all of them asynchronously for fast response times. The CLI accepts notification URLs directly or reads them from configuration files (YAML or text format).
-
-Key Features The library handles file attachments and images for services that support them, provides both synchronous and asynchronous APIs, supports persistent storage for notification state, and allows custom notification plugins via a hook system. Configuration files let you define named groups of notification targets, making it easy to route different types of alerts to different channels. The CLI ships with the Python package and provides immediate command-line access to all supported services.
-
-Installation Install via pip (pip install apprise) or from the GitHub repository. Docker images are also available. The library requires Python 3.8 or higher and has minimal dependencies.
-
-Integration Points Apprise integrates with CI/CD pipelines for build notifications, monitoring systems for alert routing, cron jobs for scheduled notifications, and any Python application needing multi-channel notification delivery. It works as a drop-in replacement for single-service notification scripts. The Apprise API companion project provides a lightweight REST API wrapper for non-Python environments. Agents can use it as a universal notification gateway, sending alerts to whatever channels users configure without needing service-specific integrations.
+Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apprise-universal-push-notification-library-cli
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/apprise-universal-push-notification-library-cli` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
