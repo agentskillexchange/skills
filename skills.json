@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2108,
+  "total": 2114,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "generate-oss-fuzz-harnesses-with-oss-fuzz-gen",
+      "name": "Generate OSS-Fuzz harnesses with oss-fuzz-gen",
+      "description": "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1384
+      }
+    },
+    {
+      "slug": "audit-go-dependency-licenses-with-go-licenses",
+      "name": "Audit Go dependency licenses with go-licenses",
+      "description": "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 992
+      }
+    },
+    {
+      "slug": "generate-slsa-build-provenance-in-github-actions",
+      "name": "Generate SLSA build provenance in GitHub Actions",
+      "description": "Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 566
+      }
+    },
+    {
+      "slug": "sign-agent-made-git-commits-with-gitsign",
+      "name": "Sign agent-made Git commits with gitsign",
+      "description": "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1079
+      }
+    },
+    {
+      "slug": "draft-release-notes-continuously-with-release-drafter",
+      "name": "Draft release notes continuously with Release Drafter",
+      "description": "Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3869
+      }
+    },
+    {
+      "slug": "enforce-repo-hygiene-with-pre-commit-hooks",
+      "name": "Enforce repo hygiene with pre-commit hooks",
+      "description": "Run a repeatable pre-commit gate that catches formatting, lint, secret, and policy issues before they land in the repo.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 15163
+      }
+    },
     {
       "slug": "inspect-agent-model-traffic-with-llmtrace",
       "name": "Inspect agent model traffic with LLMTrace",
@@ -30525,7 +30615,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 32388
       }
     },
     {
@@ -31692,7 +31783,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "graphql"
+        "tool": "graphql",
+        "github_stars": 523
       }
     },
     {
@@ -31741,7 +31833,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 3417
       }
     },
     {
@@ -31772,7 +31865,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "graphql"
+        "tool": "graphql",
+        "github_stars": 1645
       }
     },
     {
@@ -31787,7 +31881,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 15647
       }
     },
     {
@@ -31802,7 +31897,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 2637
       }
     },
     {
@@ -32166,7 +32262,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 3992
       }
     },
     {
@@ -32181,7 +32278,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 121740
       }
     },
     {
@@ -32245,7 +32343,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "owasp"
+        "tool": "owasp",
+        "github_stars": 14998
       }
     },
     {
@@ -32260,7 +32359,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "swagger"
+        "tool": "swagger",
+        "github_stars": 26116
       }
     },
     {
@@ -32275,7 +32375,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "gitlab"
+        "tool": "gitlab",
+        "github_stars": 24305
       }
     },
     {
@@ -32307,7 +32408,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "graphql"
+        "tool": "graphql",
+        "github_stars": 161
       }
     },
     {
@@ -32390,7 +32492,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stripe"
+        "tool": "stripe",
+        "github_stars": 4387
       }
     },
     {
@@ -32405,7 +32508,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "datadog"
+        "tool": "datadog",
+        "github_stars": 103
       }
     },
     {

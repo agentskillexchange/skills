@@ -7,6 +7,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars |
 |---|---:|
 | [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | ⭐ 356.8k |
+| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | ⭐ 121.7k |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | ⭐ 121.7k |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | ⭐ 121.7k |
 | [Kubernetes CrashLoop Diagnostician](../../skills/kubernetes-crashloop-diagnostician/) | ⭐ 121.7k |
@@ -15,7 +16,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Kubernetes Diagnostics Agent](../../skills/kubernetes-diagnostics-agent/) | ⭐ 121.7k |
 | [Kubernetes Incident Runbook](../../skills/kubernetes-incident-runbook/) | ⭐ 121.7k |
 | [Kubernetes Pod Crash Analyzer](../../skills/kubernetes-pod-crash-analyzer-3/) | ⭐ 121.7k |
-| [Kubernetes Pod Crash Diagnostician](../../skills/kubernetes-pod-crash-diagnostician/) | ⭐ 121.7k |
 
 ---
 
@@ -41,6 +41,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | 356.8k | — |
+| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | 121.7k | — |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | 121.7k | — |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | 121.7k | — |
 | [Kubernetes CrashLoop Diagnostician](../../skills/kubernetes-crashloop-diagnostician/) | 121.7k | — |
@@ -89,6 +90,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Terraform State Inspector](../../skills/terraform-state-inspector/) | 48.1k | — |
 | [Terraform State Surgery Kit](../../skills/terraform-state-surgery-kit/) | 48.1k | — |
 | [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | 43.6k | — |
+| [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | 32.4k | — |
 | [Nginx Config Linter and Tester](../../skills/nginx-config-linter-tester/) | 29.9k | — |
 | [Nginx Config Validator and Optimizer](../../skills/nginx-config-validator-optimizer/) | 29.9k | — |
 | [Nginx Config Validator Runbook](../../skills/nginx-config-validator-runbook/) | 29.9k | — |
@@ -113,6 +115,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
+| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | — |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | — |
@@ -163,7 +166,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | — | 23.2M/wk |
 | [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | — | 23.2M/wk |
 | [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | — | 23.2M/wk |
-| [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | — | — |
 | [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | — | — |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | — | — |
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
@@ -175,8 +177,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | — | — |
 | [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | — | — |
-| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | — | — |
-| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | — | — |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | — | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | — | — |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | — | — |
