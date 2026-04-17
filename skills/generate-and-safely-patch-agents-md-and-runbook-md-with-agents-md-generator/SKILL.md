@@ -1,19 +1,17 @@
 ---
-title: "Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator"
-description: "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract."
+name: Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator
+description: Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering
+  hand-edited docs, so coding-agent repos keep a clean machine-readable contract.
+category: Templates & Workflows
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/markoblogo/AGENTS.md_generator"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Multi-Framework"
+source: https://github.com/markoblogo/AGENTS.md_generator
 tool_ecosystem:
-  github_repo: "markoblogo/AGENTS.md_generator"
+  github_repo: markoblogo/AGENTS.md_generator
   github_stars: 2
+  tool: AGENTS.md_generator
 ---
-
 # Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator
-
 Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract.
 
 ## Installation

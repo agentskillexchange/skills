@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Shared Library Linter"
-description: "Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns before pipeline execution."
+name: Jenkins Shared Library Linter
+description: Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline
+  Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns
+  before pipeline execution.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Codex"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
 # Jenkins Shared Library Linter
-
 Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns before pipeline execution.
 
 ## Installation

@@ -1,19 +1,18 @@
 ---
-title: "Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol"
-description: "Find packages that are out of support even when they do not show up as a classic CVE finding yet."
+name: Scan images filesystems and SBOMs for end-of-life software before unsupported
+  components ship with Xeol
+description: Find packages that are out of support even when they do not show up as
+  a classic CVE finding yet.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/xeol-io/xeol"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/xeol-io/xeol
 tool_ecosystem:
-  github_repo: "xeol-io/xeol"
+  github_repo: xeol-io/xeol
   github_stars: 435
+  tool: xeol
 ---
-
 # Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol
-
 Find packages that are out of support even when they do not show up as a classic CVE finding yet.
 
 ## Installation

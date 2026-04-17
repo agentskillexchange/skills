@@ -1,19 +1,19 @@
 ---
-title: "lazygit Terminal UI for Git Operations"
-description: "A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing, conflict resolution, and branch management through an intuitive TUI that replaces arcane git command sequences with keyboard-driven workflows."
+name: lazygit Terminal UI for Git Operations
+description: A simple terminal user interface for git commands built with Go. lazygit
+  provides interactive staging, rebasing, conflict resolution, and branch management
+  through an intuitive TUI that replaces arcane git command sequences with keyboard-driven
+  workflows.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/jesseduffield/lazygit"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+source: https://github.com/jesseduffield/lazygit
 tool_ecosystem:
-  github_repo: "jesseduffield/lazygit"
+  github_repo: jesseduffield/lazygit
   github_stars: 75400
+  tool: lazygit
 ---
-
 # lazygit Terminal UI for Git Operations
-
 A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing, conflict resolution, and branch management through an intuitive TUI that replaces arcane git command sequences with keyboard-driven workflows.
 
 ## Installation

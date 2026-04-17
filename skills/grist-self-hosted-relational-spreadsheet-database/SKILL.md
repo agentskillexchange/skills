@@ -1,19 +1,20 @@
 ---
-title: "Grist Self-Hosted Relational Spreadsheet and Database Platform"
-description: "Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database. It supports Python formulas, a REST API, self-hosting via Docker, and AI-powered formula assistance."
+name: Grist Self-Hosted Relational Spreadsheet and Database Platform
+description: Grist is an open-source modern relational spreadsheet that combines the
+  flexibility of a spreadsheet with the robustness of a database. It supports Python
+  formulas, a REST API, self-hosting via Docker, and AI-powered formula assistance.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/gristlabs/grist-core"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/gristlabs/grist-core
 tool_ecosystem:
-  github_repo: "gristlabs/grist-core"
+  github_repo: gristlabs/grist-core
   github_stars: 10827
+  tool: grist-core
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Grist Self-Hosted Relational Spreadsheet and Database Platform
-
 Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database. It supports Python formulas, a REST API, self-hosting via Docker, and AI-powered formula assistance.
 
 ## Installation

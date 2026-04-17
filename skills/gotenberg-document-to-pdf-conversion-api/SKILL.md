@@ -1,19 +1,21 @@
 ---
-title: "Gotenberg Document-to-PDF Conversion API"
-description: "Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office documents into PDF, then performing post-processing tasks such as merge, split, watermark, metadata edits, and encryption. It wraps Chromium, LibreOffice, and PDF engines behind a single HTTP interface."
+name: Gotenberg Document-to-PDF Conversion API
+description: Gotenberg is a Docker-based API for converting HTML, URLs, Markdown,
+  and office documents into PDF, then performing post-processing tasks such as merge,
+  split, watermark, metadata edits, and encryption. It wraps Chromium, LibreOffice,
+  and PDF engines behind a single HTTP interface.
+category: Library & API Reference
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/gotenberg/gotenberg"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Multi-Framework"
+source: https://github.com/gotenberg/gotenberg
 tool_ecosystem:
-  github_repo: "gotenberg/gotenberg"
+  github_repo: gotenberg/gotenberg
   github_stars: 11776
+  tool: gotenberg
+  license: MIT
+  maintained: true
 ---
-
 # Gotenberg Document-to-PDF Conversion API
-
 Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office documents into PDF, then performing post-processing tasks such as merge, split, watermark, metadata edits, and encryption. It wraps Chromium, LibreOffice, and PDF engines behind a single HTTP interface.
 
 ## Installation

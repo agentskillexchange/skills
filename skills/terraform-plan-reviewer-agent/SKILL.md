@@ -1,19 +1,19 @@
 ---
-title: "Terraform Plan Reviewer Agent"
-description: "Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies."
+name: Terraform Plan Reviewer Agent
+description: Parses terraform plan -json output and queries the Terraform Cloud API
+  /runs endpoint to review infrastructure changes. Detects destructive operations,
+  estimates cost impact via Infracost API, and validates against OPA policies.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Gemini"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
+  tool: terraform
+  maintained: true
 ---
-
 # Terraform Plan Reviewer Agent
-
 Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies.
 
 ## Installation

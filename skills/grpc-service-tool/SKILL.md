@@ -1,20 +1,23 @@
 ---
-title: "gRPC Service Tool"
-description: "gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and [&hellip;]"
+name: gRPC Service Tool
+description: gRPC Service Tool is built around gRPC remote procedure call framework.
+  The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars).
+  It gives an agent a more technical and reliable way to work with the tool than a
+  thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and
+  streaming RPCs, reflection, deadlines, interceptors and […]
+category: Library & API Reference
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/grpc/grpc-node"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Custom Agents"
+source: https://github.com/grpc/grpc-node
 tool_ecosystem:
-  github_repo: "grpc/grpc-node"
+  github_repo: grpc/grpc-node
   github_stars: 4822
+  tool: grpc-node
+  license: Apache-2.0
+  maintained: true
 ---
-
 # gRPC Service Tool
-
-gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and [&hellip;]
+gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and […]
 
 ## Installation
 

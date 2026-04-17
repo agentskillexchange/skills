@@ -1,16 +1,14 @@
 ---
-title: "Dockerfile Security Hardening Advisor"
-description: "Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories."
+name: Dockerfile Security Hardening Advisor
+description: Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy
+  container scanner. Recommends hardening steps based on CIS Docker Benchmark and
+  Snyk container advisories.
+category: Runbooks & Diagnostics
+framework: Claude Code
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Code"
+source: https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/
 ---
-
 # Dockerfile Security Hardening Advisor
-
 Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories.
 
 ## Installation

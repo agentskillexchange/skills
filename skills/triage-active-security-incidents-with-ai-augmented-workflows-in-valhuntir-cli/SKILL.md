@@ -1,19 +1,17 @@
 ---
-title: "Triage active security incidents with AI-augmented workflows in Valhuntir CLI"
-description: "Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup."
+name: Triage active security incidents with AI-augmented workflows in Valhuntir CLI
+description: Guide live digital-forensics and incident-response work with human approval
+  gates when the job is evidence review and triage, not general MCP setup.
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/AppliedIR/Valhuntir"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
+source: https://github.com/AppliedIR/Valhuntir
 tool_ecosystem:
-  github_repo: "AppliedIR/Valhuntir"
+  github_repo: AppliedIR/Valhuntir
   github_stars: 40
+  tool: Valhuntir
 ---
-
 # Triage active security incidents with AI-augmented workflows in Valhuntir CLI
-
 Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup.
 
 ## Installation

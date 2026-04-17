@@ -1,21 +1,18 @@
 ---
-title: "Capture live transcripts and searchable meeting memory for agents with Minutes"
-description: "Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action."
+name: Capture live transcripts and searchable meeting memory for agents with Minutes
+description: Stream meeting transcripts into searchable conversation memory so agents
+  can read live or post-meeting context before drafting follow-ups or taking action.
+category: Media & Transcription
+framework: MCP
 verification: listed
-source: "https://github.com/silverstein/minutes"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "MCP"
+source: https://github.com/silverstein/minutes
 tool_ecosystem:
-  github_repo: "silverstein/minutes"
+  github_repo: silverstein/minutes
   github_stars: 1051
-  npm_package: "minutes-mcp"
+  tool: minutes-mcp
   npm_weekly_downloads: 3196
 ---
-
 # Capture live transcripts and searchable meeting memory for agents with Minutes
-
 Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action.
 
 ## Installation

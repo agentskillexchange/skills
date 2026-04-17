@@ -1,19 +1,18 @@
 ---
-title: "Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI"
-description: "Lets an agent use Gemini from the terminal to inspect repositories, edit files, run shell commands, and ground work with built-in search and local context."
+name: Run terminal-native repo analysis, edits, and command loops with Gemini in a
+  bounded CLI workflow with Gemini CLI
+description: Lets an agent use Gemini from the terminal to inspect repositories, edit
+  files, run shell commands, and ground work with built-in search and local context.
+category: Developer Tools
+framework: Gemini
 verification: listed
-source: "https://github.com/google-gemini/gemini-cli"
-category:
-  - "Developer Tools"
-framework:
-  - "Gemini"
+source: https://github.com/google-gemini/gemini-cli
 tool_ecosystem:
-  github_repo: "google-gemini/gemini-cli"
+  github_repo: google-gemini/gemini-cli
   github_stars: 101569
+  tool: gemini-cli
 ---
-
 # Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI
-
 Lets an agent use Gemini from the terminal to inspect repositories, edit files, run shell commands, and ground work with built-in search and local context.
 
 ## Installation

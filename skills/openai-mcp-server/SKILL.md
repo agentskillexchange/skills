@@ -1,22 +1,24 @@
 ---
-title: "OpenAI MCP Server"
-description: "OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chat completions, embeddings, image generation, assistants, responses, tool calling and preserving the [&hellip;]"
+name: OpenAI MCP Server
+description: OpenAI MCP Server is built around OpenAI API platform. The underlying
+  ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives
+  an agent a more technical and reliable way to work with the tool than a thin one-line
+  wrapper, using stable interfaces like chat completions, embeddings, image generation,
+  assistants, responses, tool calling and preserving the […]
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+source: https://github.com/openai/openai-node
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10811
-  npm_package: "openai"
+  tool: openai
   npm_weekly_downloads: 18321478
+  license: Apache-2.0
+  maintained: true
 ---
-
 # OpenAI MCP Server
-
-OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chat completions, embeddings, image generation, assistants, responses, tool calling and preserving the [&hellip;]
+OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chat completions, embeddings, image generation, assistants, responses, tool calling and preserving the […]
 
 ## Installation
 

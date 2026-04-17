@@ -1,21 +1,21 @@
 ---
-title: "ESLint Rule Auditor"
-description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
+name: ESLint Rule Auditor
+description: Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat
+  config APIs. Detects conflicting rules, deprecated configs, and generates migration
+  paths from eslintrc to eslint.config.js flat config format.
+category: Code Quality & Review
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Cursor"
+source: https://github.com/eslint/eslint
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
-  npm_package: "eslint"
+  tool: eslint
   npm_weekly_downloads: 120215107
+  license: MIT
+  maintained: true
 ---
-
 # ESLint Rule Auditor
-
 Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format.
 
 ## Installation

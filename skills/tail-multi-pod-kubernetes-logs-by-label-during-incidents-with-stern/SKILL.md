@@ -1,19 +1,17 @@
 ---
-title: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
-description: "Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod."
+name: Tail multi-pod Kubernetes logs by label during incidents with Stern
+description: Aggregate and follow logs from matching Kubernetes pods during incident
+  triage without hopping pod by pod.
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/stern/stern"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
+source: https://github.com/stern/stern
 tool_ecosystem:
-  github_repo: "stern/stern"
+  github_repo: stern/stern
   github_stars: 4636
+  tool: stern
 ---
-
 # Tail multi-pod Kubernetes logs by label during incidents with Stern
-
 Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod.
 
 ## Installation

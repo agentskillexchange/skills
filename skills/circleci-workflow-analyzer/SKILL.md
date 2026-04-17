@@ -1,19 +1,19 @@
 ---
-title: "CircleCI Workflow Analyzer"
-description: "Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage."
+name: CircleCI Workflow Analyzer
+description: Analyzes and optimizes CircleCI workflows using the CircleCI v2 API.
+  Identifies bottlenecks in job dependency graphs, suggests parallelism improvements,
+  and monitors pipeline credit usage.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
+source: https://github.com/circleci/circleci-docs
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
+  tool: circleci-docs
+  maintained: true
 ---
-
 # CircleCI Workflow Analyzer
-
 Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage.
 
 ## Installation

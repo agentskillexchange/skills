@@ -1,21 +1,21 @@
 ---
-title: "ESLint Rule Enforcer"
-description: "Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns."
+name: ESLint Rule Enforcer
+description: Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn
+  and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable
+  rules, and generates per-package lint reports with violation severity breakdowns.
+category: Code Quality & Review
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
+source: https://github.com/eslint/eslint
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
-  npm_package: "eslint"
+  tool: eslint
   npm_weekly_downloads: 120215107
+  license: MIT
+  maintained: true
 ---
-
 # ESLint Rule Enforcer
-
 Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-title: "GitLab CI Pipeline Cost Estimator"
-description: "Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers."
+name: GitLab CI Pipeline Cost Estimator
+description: Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for
+  job durations, runner types, and compute minutes. Maps shared vs self-hosted runner
+  usage against GitLab pricing tiers.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Custom Agents"
+source: https://github.com/gitlabhq/gitlabhq
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
+  tool: gitlabhq
+  maintained: true
 ---
-
 # GitLab CI Pipeline Cost Estimator
-
 Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers.
 
 ## Installation

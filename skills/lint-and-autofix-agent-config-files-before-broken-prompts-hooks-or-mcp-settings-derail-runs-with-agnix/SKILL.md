@@ -1,21 +1,19 @@
 ---
-title: "Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix"
-description: "Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow."
+name: Lint and autofix agent config files before broken prompts, hooks, or MCP settings
+  derail runs with agnix
+description: Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks,
+  and MCP config files before bad agent metadata or wiring silently breaks a workflow.
+category: Security & Verification
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/agent-sh/agnix"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/agent-sh/agnix
 tool_ecosystem:
-  github_repo: "agent-sh/agnix"
+  github_repo: agent-sh/agnix
   github_stars: 179
-  npm_package: "agnix"
+  tool: agnix
   npm_weekly_downloads: 6006
 ---
-
 # Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix
-
 Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow.
 
 ## Installation

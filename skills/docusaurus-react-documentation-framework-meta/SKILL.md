@@ -1,21 +1,22 @@
 ---
-title: "Docusaurus React Documentation Framework by Meta"
-description: "Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation websites, blogs, and marketing pages with Markdown content, versioning support, and a rich plugin ecosystem."
+name: Docusaurus React Documentation Framework by Meta
+description: Docusaurus is an open-source static site generator built with React,
+  developed and maintained by Meta. It enables teams to build, deploy, and maintain
+  documentation websites, blogs, and marketing pages with Markdown content, versioning
+  support, and a rich plugin ecosystem.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/facebook/docusaurus"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/facebook/docusaurus
 tool_ecosystem:
-  github_repo: "facebook/docusaurus"
+  github_repo: facebook/docusaurus
   github_stars: 64315
-  npm_package: "docusaurus"
+  tool: docusaurus
   npm_weekly_downloads: 16452
+  license: MIT
+  maintained: true
 ---
-
 # Docusaurus React Documentation Framework by Meta
-
 Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation websites, blogs, and marketing pages with Markdown content, versioning support, and a rich plugin ecosystem.
 
 ## Installation

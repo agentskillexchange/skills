@@ -1,21 +1,20 @@
 ---
-title: "MSW API Mocking Skill for Frontend and Integration Tests"
-description: "Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests, and keep mocks faithful to real endpoints. It is a task-focused mocking skill built around MSW, not a generic product card."
+name: MSW API Mocking Skill for Frontend and Integration Tests
+description: Use this skill when an agent needs to stand up request handlers with
+  Mock Service Worker, isolate network behavior in local development or tests, and
+  keep mocks faithful to real endpoints. It is a task-focused mocking skill built
+  around MSW, not a generic product card.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/mswjs/msw"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/mswjs/msw
 tool_ecosystem:
-  github_repo: "mswjs/msw"
+  github_repo: mswjs/msw
   github_stars: 17816
-  npm_package: "msw"
+  tool: msw
   npm_weekly_downloads: 14205156
 ---
-
 # MSW API Mocking Skill for Frontend and Integration Tests
-
 Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests, and keep mocks faithful to real endpoints. It is a task-focused mocking skill built around MSW, not a generic product card.
 
 ## Installation

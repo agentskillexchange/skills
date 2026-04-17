@@ -1,21 +1,19 @@
 ---
-title: "Slack Bolt Event Subscription Debugger"
-description: "Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments."
+name: Slack Bolt Event Subscription Debugger
+description: Debugs Slack app event flows with the Bolt SDK, signature verification,
+  `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries,
+  slash commands, or interactive callbacks are failing in real integration environments.
+category: Integrations & Connectors
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Claude Code"
+source: https://github.com/slackapi/bolt-js
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2898
-  npm_package: "@slack/bolt"
+  tool: '@slack/bolt'
   npm_weekly_downloads: 2474841
 ---
-
 # Slack Bolt Event Subscription Debugger
-
 Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
 
 ## Installation

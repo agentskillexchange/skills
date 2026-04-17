@@ -1,19 +1,19 @@
 ---
-title: "Prevent broken GitHub Actions workflows before CI runs with actionlint"
-description: "Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions, action inputs, runner labels, cron patterns, and a few security footguns so the agent can stop bad workflow changes before CI burns time."
+name: Prevent broken GitHub Actions workflows before CI runs with actionlint
+description: Use actionlint when an agent needs to inspect GitHub Actions workflow
+  files before a push or pull request lands. The skill checks syntax, expressions,
+  action inputs, runner labels, cron patterns, and a few security footguns so the
+  agent can stop bad workflow changes before CI burns time.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/rhysd/actionlint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/rhysd/actionlint
 tool_ecosystem:
-  github_repo: "rhysd/actionlint"
+  github_repo: rhysd/actionlint
   github_stars: 3782
+  tool: actionlint
 ---
-
 # Prevent broken GitHub Actions workflows before CI runs with actionlint
-
 Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions, action inputs, runner labels, cron patterns, and a few security footguns so the agent can stop bad workflow changes before CI burns time.
 
 ## Installation

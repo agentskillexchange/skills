@@ -1,19 +1,21 @@
 ---
-title: "SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit"
-description: "SpeechBrain is an open-source PyTorch toolkit that accelerates conversational AI development. It provides recipes and pretrained models for speech recognition, speaker verification, speech enhancement, speech separation, language modeling, and text-to-speech across 40+ datasets."
+name: SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit
+description: SpeechBrain is an open-source PyTorch toolkit that accelerates conversational
+  AI development. It provides recipes and pretrained models for speech recognition,
+  speaker verification, speech enhancement, speech separation, language modeling,
+  and text-to-speech across 40+ datasets.
+category: Media & Transcription
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/speechbrain/speechbrain"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
+source: https://github.com/speechbrain/speechbrain
 tool_ecosystem:
-  github_repo: "speechbrain/speechbrain"
+  github_repo: speechbrain/speechbrain
   github_stars: 11388
+  tool: speechbrain
+  license: Apache-2.0
+  maintained: true
 ---
-
 # SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit
-
 SpeechBrain is an open-source PyTorch toolkit that accelerates conversational AI development. It provides recipes and pretrained models for speech recognition, speaker verification, speech enhancement, speech separation, language modeling, and text-to-speech across 40+ datasets.
 
 ## Installation

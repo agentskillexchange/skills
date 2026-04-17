@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Performance Diagnostics"
-description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity."
+name: PostgreSQL Performance Diagnostics
+description: Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables,
+  and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes
+  and detects lock contention through pg_locks and pg_stat_activity.
+category: Runbooks & Diagnostics
+framework: MCP
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "MCP"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Performance Diagnostics
-
 Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity.
 
 ## Installation

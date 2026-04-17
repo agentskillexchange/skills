@@ -1,19 +1,19 @@
 ---
-title: "Terraform Plan & Apply Automation"
-description: "Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates terraform apply on reviewer approval. Supports S3 and GCS remote state backends with automatic workspace detection. Integrates with AWS STS and GCP Workload Identity for short-lived credential injection."
+name: Terraform Plan & Apply Automation
+description: Runs terraform plan against changed modules, posts a structured diff
+  as a PR comment via GitHub API, and gates terraform apply on reviewer approval.
+  Supports S3 and GCS remote state backends with automatic workspace detection. Integrates
+  with AWS STS and GCP Workload Identity for short-lived credential injection.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "OpenClaw"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48121
+  tool: terraform
 ---
-
 # Terraform Plan & Apply Automation
-
 Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates terraform apply on reviewer approval. Supports S3 and GCS remote state backends with automatic workspace detection. Integrates with AWS STS and GCP Workload Identity for short-lived credential injection.
 
 ## Installation

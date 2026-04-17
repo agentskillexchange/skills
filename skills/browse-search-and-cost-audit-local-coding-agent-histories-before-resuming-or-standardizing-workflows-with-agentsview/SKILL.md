@@ -1,19 +1,18 @@
 ---
-title: "Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview"
-description: "Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly."
+name: Browse search and cost-audit local coding-agent histories before resuming or
+  standardizing workflows with agentsview
+description: Index local coding-agent sessions into a searchable SQLite-backed view
+  so you can inspect usage, compare failures, and recover prior context quickly.
+category: Research & Scraping
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/wesm/agentsview"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
+source: https://github.com/wesm/agentsview
 tool_ecosystem:
-  github_repo: "wesm/agentsview"
+  github_repo: wesm/agentsview
   github_stars: 774
+  tool: agentsview
 ---
-
 # Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview
-
 Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly.
 
 ## Installation

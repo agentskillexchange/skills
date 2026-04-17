@@ -1,19 +1,18 @@
 ---
-title: "Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest"
-description: "Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster."
+name: Unit-test Helm charts with YAML assertions before deployment templates reach
+  clusters with helm-unittest
+description: Render a Helm chart locally and assert on the generated Kubernetes objects
+  before a broken template makes it to a cluster.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/helm-unittest/helm-unittest"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+source: https://github.com/helm-unittest/helm-unittest
 tool_ecosystem:
-  github_repo: "helm-unittest/helm-unittest"
+  github_repo: helm-unittest/helm-unittest
   github_stars: 1305
+  tool: helm-unittest
 ---
-
 # Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest
-
 Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster.
 
 ## Installation

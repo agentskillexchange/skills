@@ -1,19 +1,20 @@
 ---
-title: "Generate reproducible algorithmic art sketches with seeded p5.js randomness"
-description: "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or a generic design suggestion. It directs the agent toward a repeatable p5.js workflow with seeded randomness, parameter controls, and an explicit creative philosophy."
+name: Generate reproducible algorithmic art sketches with seeded p5.js randomness
+description: Use the Anthropic algorithmic-art skill when an agent should turn a creative
+  brief into executable generative art, not into a static image prompt or a generic
+  design suggestion. It directs the agent toward a repeatable p5.js workflow with
+  seeded randomness, parameter controls, and an explicit creative philosophy.
+category: Image & Creative Automation
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "Claude Agents"
+source: https://github.com/anthropics/skills/tree/main/skills/algorithmic-art
 tool_ecosystem:
-  github_repo: "anthropics/skills"
+  github_repo: anthropics/skills
   github_stars: 116918
+  tool: skills
+  maintained: true
 ---
-
 # Generate reproducible algorithmic art sketches with seeded p5.js randomness
-
 Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or a generic design suggestion. It directs the agent toward a repeatable p5.js workflow with seeded randomness, parameter controls, and an explicit creative philosophy.
 
 ## Installation

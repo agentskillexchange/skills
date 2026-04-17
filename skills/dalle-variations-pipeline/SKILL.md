@@ -1,21 +1,21 @@
 ---
-title: "DALL-E Variations Pipeline"
-description: "Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets."
+name: DALL-E Variations Pipeline
+description: Generates image variations and edits using the OpenAI Images API (DALL-E
+  3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based
+  inpainting, and outputs multiple sizes with quality presets.
+category: Image & Creative Automation
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/openai/openai-node
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
-  npm_package: "openai"
+  tool: openai
   npm_weekly_downloads: 18107622
+  license: Apache-2.0
+  maintained: true
 ---
-
 # DALL-E Variations Pipeline
-
 Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-title: "Manage multi-agent coding sessions from one terminal mission control with Agent Deck"
-description: "Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs, panes, and worktrees by hand."
+name: Manage multi-agent coding sessions from one terminal mission control with Agent
+  Deck
+description: Use Agent Deck when an operator needs one keyboard-first terminal to
+  monitor, switch, fork, sandbox, and organize many coding-agent sessions instead
+  of juggling tabs, panes, and worktrees by hand.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/asheshgoplani/agent-deck"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/asheshgoplani/agent-deck
 tool_ecosystem:
-  github_repo: "asheshgoplani/agent-deck"
+  github_repo: asheshgoplani/agent-deck
   github_stars: 2027
+  tool: agent-deck
 ---
-
 # Manage multi-agent coding sessions from one terminal mission control with Agent Deck
-
 Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs, panes, and worktrees by hand.
 
 ## Installation

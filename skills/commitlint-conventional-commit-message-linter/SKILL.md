@@ -1,21 +1,20 @@
 ---
-title: "commitlint Conventional Commit Message Linter"
-description: "commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured formats like type(scope): subject. Shareable configuration packages let teams standardize commit conventions, and integration with husky enables automatic linting on every commit via git hooks."
+name: commitlint Conventional Commit Message Linter
+description: 'commitlint checks whether git commit messages meet the Conventional
+  Commits specification, enforcing structured formats like type(scope): subject. Shareable
+  configuration packages let teams standardize commit conventions, and integration
+  with husky enables automatic linting on every commit via git hooks.'
+category: Code Quality & Review
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/conventional-changelog/commitlint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
+source: https://github.com/conventional-changelog/commitlint
 tool_ecosystem:
-  github_repo: "conventional-changelog/commitlint"
+  github_repo: conventional-changelog/commitlint
   github_stars: 18425
-  npm_package: "commitlint"
+  tool: commitlint
   npm_weekly_downloads: 560842
 ---
-
 # commitlint Conventional Commit Message Linter
-
 commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured formats like type(scope): subject. Shareable configuration packages let teams standardize commit conventions, and integration with husky enables automatic linting on every commit via git hooks.
 
 ## Installation

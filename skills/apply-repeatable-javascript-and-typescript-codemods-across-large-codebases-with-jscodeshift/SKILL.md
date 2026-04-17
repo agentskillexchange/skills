@@ -1,21 +1,20 @@
 ---
-title: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
-description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs."
+name: Apply repeatable JavaScript and TypeScript codemods across large codebases with
+  jscodeshift
+description: Use jscodeshift when an agent needs AST-based JavaScript or TypeScript
+  codemods for bulk migrations, API rewrites, and large refactors with reviewable
+  diffs.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/facebook/jscodeshift"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/facebook/jscodeshift
 tool_ecosystem:
-  github_repo: "facebook/jscodeshift"
+  github_repo: facebook/jscodeshift
   github_stars: 9983
-  npm_package: "jscodeshift"
+  tool: jscodeshift
   npm_weekly_downloads: 27093990
 ---
-
 # Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift
-
 Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs.
 
 ## Installation

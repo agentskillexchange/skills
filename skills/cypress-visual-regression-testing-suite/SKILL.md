@@ -1,21 +1,21 @@
 ---
-title: "Cypress Visual Regression Testing Suite"
-description: "Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares screenshots against baselines using pixelmatch algorithm with configurable diff thresholds."
+name: Cypress Visual Regression Testing Suite
+description: Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot
+  plugin. Compares screenshots against baselines using pixelmatch algorithm with configurable
+  diff thresholds.
+category: Browser Automation
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category:
-  - "Browser Automation"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/cypress-io/cypress
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
-  npm_package: "cypress"
+  tool: cypress
   npm_weekly_downloads: 7268478
+  license: MIT
+  maintained: true
 ---
-
 # Cypress Visual Regression Testing Suite
-
 Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares screenshots against baselines using pixelmatch algorithm with configurable diff thresholds.
 
 ## Installation

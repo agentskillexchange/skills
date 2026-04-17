@@ -1,19 +1,20 @@
 ---
-title: "Grafana Alert Router"
-description: "Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API."
+name: Grafana Alert Router
+description: Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie
+  channels based on label matching rules. Supports alert grouping and silence management
+  via the Grafana Alerting API.
+category: Monitoring & Alerts
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "MCP"
+source: https://github.com/grafana/grafana
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
+  tool: grafana
+  license: AGPL-3.0
+  maintained: true
 ---
-
 # Grafana Alert Router
-
 Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API.
 
 ## Installation

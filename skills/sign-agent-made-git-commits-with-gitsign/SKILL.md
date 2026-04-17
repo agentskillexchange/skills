@@ -1,19 +1,17 @@
 ---
-title: "Sign agent-made Git commits with gitsign"
-description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
+name: Sign agent-made Git commits with gitsign
+description: Apply keyless Sigstore-backed signatures to Git commits so automated
+  changes retain verifiable provenance.
+category: Security & Verification
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/sigstore/gitsign"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/sigstore/gitsign
 tool_ecosystem:
-  github_repo: "sigstore/gitsign"
+  github_repo: sigstore/gitsign
   github_stars: 1079
+  tool: gitsign
 ---
-
 # Sign agent-made Git commits with gitsign
-
 Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.
 
 ## Installation

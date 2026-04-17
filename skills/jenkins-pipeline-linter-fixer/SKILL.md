@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Pipeline Linter &#038; Fixer"
-description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives."
+name: Jenkins Pipeline Linter & Fixer
+description: Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline
+  Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax
+  issues and stages missing agent directives.
+category: CI/CD Integrations
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Cursor"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
-# Jenkins Pipeline Linter &#038; Fixer
-
+# Jenkins Pipeline Linter & Fixer
 Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives.
 
 ## Installation

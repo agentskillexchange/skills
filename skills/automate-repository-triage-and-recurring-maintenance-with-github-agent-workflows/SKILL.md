@@ -1,19 +1,20 @@
 ---
-title: "Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows"
-description: "Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository upkeep inside GitHub Actions with explicit workflow definitions and reviewable runs. This is for bounded, repeatable repository operations, not for listing GitHub as a general coding platform."
+name: Automate repository triage and recurring repo maintenance with guarded GitHub
+  agent workflows
+description: Use GitHub Agentic Workflows to let an agent triage issues, inspect CI
+  failures, or deliver scheduled repository upkeep inside GitHub Actions with explicit
+  workflow definitions and reviewable runs. This is for bounded, repeatable repository
+  operations, not for listing GitHub as a general coding platform.
+category: Templates & Workflows
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/github/gh-aw"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Multi-Framework"
+source: https://github.com/github/gh-aw
 tool_ecosystem:
-  github_repo: "github/gh-aw"
+  github_repo: github/gh-aw
   github_stars: 4286
+  tool: gh-aw
 ---
-
 # Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows
-
 Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository upkeep inside GitHub Actions with explicit workflow definitions and reviewable runs. This is for bounded, repeatable repository operations, not for listing GitHub as a general coding platform.
 
 ## Installation

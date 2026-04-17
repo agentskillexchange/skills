@@ -1,19 +1,20 @@
 ---
-title: "AWS CloudWatch Alarm Triager"
-description: "Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts."
+name: AWS CloudWatch Alarm Triager
+description: Triages AWS CloudWatch alarms by correlating alarm state changes with
+  CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity,
+  identifies root cause candidates, and updates OpsGenie alerts.
+category: Runbooks & Diagnostics
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Cursor"
+source: https://github.com/aws/aws-sdk-js-v3
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
+  tool: aws-sdk-js-v3
+  license: Apache-2.0
+  maintained: true
 ---
-
 # AWS CloudWatch Alarm Triager
-
 Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts.
 
 ## Installation

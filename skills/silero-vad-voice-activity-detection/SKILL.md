@@ -1,19 +1,21 @@
 ---
-title: "Silero VAD Pre-Trained Enterprise Voice Activity Detection"
-description: "Silero VAD is a pre-trained enterprise-grade Voice Activity Detector that identifies speech segments in audio streams. It runs locally via PyTorch or ONNX Runtime with minimal resource requirements, making it ideal for real-time audio processing pipelines."
+name: Silero VAD Pre-Trained Enterprise Voice Activity Detection
+description: Silero VAD is a pre-trained enterprise-grade Voice Activity Detector
+  that identifies speech segments in audio streams. It runs locally via PyTorch or
+  ONNX Runtime with minimal resource requirements, making it ideal for real-time audio
+  processing pipelines.
+category: Media & Transcription
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/snakers4/silero-vad"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
+source: https://github.com/snakers4/silero-vad
 tool_ecosystem:
-  github_repo: "snakers4/silero-vad"
+  github_repo: snakers4/silero-vad
   github_stars: 8604
+  tool: silero-vad
+  license: MIT
+  maintained: true
 ---
-
 # Silero VAD Pre-Trained Enterprise Voice Activity Detection
-
 Silero VAD is a pre-trained enterprise-grade Voice Activity Detector that identifies speech segments in audio streams. It runs locally via PyTorch or ONNX Runtime with minimal resource requirements, making it ideal for real-time audio processing pipelines.
 
 ## Installation

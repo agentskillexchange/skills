@@ -1,19 +1,20 @@
 ---
-title: "Prometheus AlertManager Rule Optimizer"
-description: "Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments."
+name: Prometheus AlertManager Rule Optimizer
+description: Analyzes Prometheus alerting rules and AlertManager configuration to
+  reduce alert fatigue. Uses PromQL query analysis and historical firing patterns
+  to suggest rule consolidation and threshold adjustments.
+category: Monitoring & Alerts
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Claude Code"
+source: https://github.com/prometheus/prometheus
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
+  tool: prometheus
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Prometheus AlertManager Rule Optimizer
-
 Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments.
 
 ## Installation

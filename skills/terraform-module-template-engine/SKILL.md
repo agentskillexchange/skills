@@ -1,19 +1,19 @@
 ---
-title: "Terraform Module Template Engine"
-description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
+name: Terraform Module Template Engine
+description: Scaffolds production-ready Terraform modules using HCL templates with
+  automated variable documentation via terraform-docs. Includes Terratest boilerplate
+  and GitHub Actions CI workflow generation.
+category: Templates & Workflows
+framework: Gemini
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Gemini"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
+  tool: terraform
+  maintained: true
 ---
-
 # Terraform Module Template Engine
-
 Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.
 
 ## Installation

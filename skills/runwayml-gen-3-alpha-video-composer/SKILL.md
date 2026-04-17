@@ -1,19 +1,18 @@
 ---
-title: "RunwayML Gen-3 Alpha Video Composer"
-description: "Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg."
+name: RunwayML Gen-3 Alpha Video Composer
+description: Composes AI-generated video clips using the RunwayML Gen-3 Alpha API
+  with text-to-video and image-to-video modes. Manages generation tasks, polling,
+  and output stitching via FFmpeg.
+category: Image & Creative Automation
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "Claude Code"
+source: https://github.com/FFmpeg/FFmpeg
 tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
+  github_repo: FFmpeg/FFmpeg
   github_stars: 58548
+  tool: FFmpeg
 ---
-
 # RunwayML Gen-3 Alpha Video Composer
-
 Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg.
 
 ## Installation

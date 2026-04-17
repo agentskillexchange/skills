@@ -1,19 +1,19 @@
 ---
-title: "GitLab CI Pipeline Profiler"
-description: "Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns across pipeline history."
+name: GitLab CI Pipeline Profiler
+description: Profiles GitLab CI/CD pipeline execution times using the GitLab REST
+  API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact
+  passing, and cache miss patterns across pipeline history.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Custom Agents"
+source: https://github.com/gitlabhq/gitlabhq
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
+  tool: gitlabhq
+  maintained: true
 ---
-
 # GitLab CI Pipeline Profiler
-
 Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns across pipeline history.
 
 ## Installation

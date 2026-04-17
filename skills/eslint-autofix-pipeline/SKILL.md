@@ -1,22 +1,22 @@
 ---
-title: "ESLint Auto-Fix Pipeline"
-description: "Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
+name: ESLint Auto-Fix Pipeline
+description: Runs ESLint with the –fix flag across JavaScript and TypeScript codebases,
+  applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended.
+  Generates diff reports for manual review of remaining issues.
+category: Code Quality & Review
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Agents"
+source: https://github.com/eslint/eslint
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
-  npm_package: "eslint"
+  tool: eslint
   npm_weekly_downloads: 120215107
+  license: MIT
+  maintained: true
 ---
-
 # ESLint Auto-Fix Pipeline
-
-Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
+Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
 
 ## Installation
 

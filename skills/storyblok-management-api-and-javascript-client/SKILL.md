@@ -1,19 +1,21 @@
 ---
-title: "Storyblok Management API and JavaScript Client"
-description: "Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial workflows in a headless CMS stack. This skill is for agents that need to operate Storyblok as a structured content system with schemas, environments, and publish states."
+name: Storyblok Management API and JavaScript Client
+description: Use Storyblok’s Management API and JavaScript client to automate stories,
+  components, assets, spaces, and editorial workflows in a headless CMS stack. This
+  skill is for agents that need to operate Storyblok as a structured content system
+  with schemas, environments, and publish states.
+category: WordPress & CMS
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/storyblok/storyblok-js-client"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Multi-Framework"
+source: https://github.com/storyblok/storyblok-js-client
 tool_ecosystem:
-  github_repo: "storyblok/storyblok-js-client"
+  github_repo: storyblok/storyblok-js-client
   github_stars: 137
+  tool: storyblok-js-client
+  license: MIT
+  maintained: false
 ---
-
 # Storyblok Management API and JavaScript Client
-
 Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial workflows in a headless CMS stack. This skill is for agents that need to operate Storyblok as a structured content system with schemas, environments, and publish states.
 
 ## Installation

@@ -1,21 +1,21 @@
 ---
-title: "ESLint Auto-Fixer"
-description: "Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format."
+name: ESLint Auto-Fixer
+description: Applies ESLint fixes automatically using the ESLint Node.js API with
+  flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react.
+  Generates fix reports in SARIF format.
+category: Code Quality & Review
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "OpenClaw"
+source: https://github.com/eslint/eslint
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
-  npm_package: "eslint"
+  tool: eslint
   npm_weekly_downloads: 120215107
+  license: MIT
+  maintained: true
 ---
-
 # ESLint Auto-Fixer
-
 Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format.
 
 ## Installation

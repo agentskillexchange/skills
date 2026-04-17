@@ -1,19 +1,19 @@
 ---
-title: "Review visual regression diffs and publish snapshot baselines in CI with reg-suit"
-description: "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots."
+name: Review visual regression diffs and publish snapshot baselines in CI with reg-suit
+description: Use reg-suit when an agent needs to compare screenshot outputs against
+  a stored baseline and publish a human-reviewable diff report. The skill is for visual
+  regression review loops, not for general frontend tooling, because the agent’s job
+  is to manage the compare, publish, and notify cycle around image snapshots.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/reg-viz/reg-suit"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/reg-viz/reg-suit
 tool_ecosystem:
-  github_repo: "reg-viz/reg-suit"
+  github_repo: reg-viz/reg-suit
   github_stars: 1260
+  tool: reg-suit
 ---
-
 # Review visual regression diffs and publish snapshot baselines in CI with reg-suit
-
 Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-title: "Medusa Commerce API and Store Operations Automation Skill"
-description: "Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders, carts, pricing, and fulfillment logic through a modern commerce backend that teams can self-host and extend."
+name: Medusa Commerce API and Store Operations Automation Skill
+description: Medusa is an open-source commerce platform with modular backend services,
+  an admin app, and API-first store workflows. This skill helps agents manage products,
+  orders, carts, pricing, and fulfillment logic through a modern commerce backend
+  that teams can self-host and extend.
+category: Integrations & Connectors
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/medusajs/medusa"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
+source: https://github.com/medusajs/medusa
 tool_ecosystem:
-  github_repo: "medusajs/medusa"
+  github_repo: medusajs/medusa
   github_stars: 32622
+  tool: medusa
 ---
-
 # Medusa Commerce API and Store Operations Automation Skill
-
 Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders, carts, pricing, and fulfillment logic through a modern commerce backend that teams can self-host and extend.
 
 ## Installation

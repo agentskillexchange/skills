@@ -1,22 +1,21 @@
 ---
-title: "GraphQL Schema Introspection Mapper"
-description: "Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions."
+name: GraphQL Schema Introspection Mapper
+description: Introspects GraphQL APIs via the __schema query and maps type relationships,
+  deprecated fields, and circular references. Generates SDL exports, TypeScript types
+  via graphql-codegen, and schema diff reports between versions.
+category: Data Extraction & Transformation
+framework: Cursor, Multi-Framework
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Cursor"
-  - "Multi-Framework"
+source: https://github.com/graphql/graphql-js
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
-  npm_package: "graphql"
+  tool: graphql
   npm_weekly_downloads: 34200861
+  license: MIT
+  maintained: true
 ---
-
 # GraphQL Schema Introspection Mapper
-
 Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions.
 
 ## Installation

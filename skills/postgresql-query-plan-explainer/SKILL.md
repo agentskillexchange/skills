@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Query Plan Explainer"
-description: "Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations via HypoPG, and buffer cache hit ratios."
+name: PostgreSQL Query Plan Explainer
+description: Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements
+  and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations
+  via HypoPG, and buffer cache hit ratios.
+category: Runbooks & Diagnostics
+framework: Gemini
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Gemini"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Query Plan Explainer
-
 Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations via HypoPG, and buffer cache hit ratios.
 
 ## Installation

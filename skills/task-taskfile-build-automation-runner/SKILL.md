@@ -1,19 +1,18 @@
 ---
-title: "Task Taskfile Build Automation Runner"
-description: "Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands."
+name: Task Taskfile Build Automation Runner
+description: Automate build workflows with Task (go-task), a modern cross-platform
+  task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler
+  syntax for defining and running project commands.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/go-task/task"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+source: https://github.com/go-task/task
 tool_ecosystem:
-  github_repo: "go-task/task"
+  github_repo: go-task/task
   github_stars: 15242
+  tool: task
 ---
-
 # Task Taskfile Build Automation Runner
-
 Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands.
 
 ## Installation

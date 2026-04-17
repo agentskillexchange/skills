@@ -1,20 +1,21 @@
 ---
-title: "Packer Image Builder"
-description: "Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the [&hellip;]"
+name: Packer Image Builder
+description: Packer Image Builder is built around Docker container platform. The underlying
+  ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent
+  a more technical and reliable way to work with the tool than a thin one-line wrapper,
+  using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image
+  builds, registries and preserving the […]
+category: Templates & Workflows
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/hashicorp/packer"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Custom Agents"
+source: https://github.com/hashicorp/packer
 tool_ecosystem:
-  github_repo: "hashicorp/packer"
+  github_repo: hashicorp/packer
   github_stars: 15647
+  tool: packer
 ---
-
 # Packer Image Builder
-
-Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the [&hellip;]
+Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]
 
 ## Installation
 

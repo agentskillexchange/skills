@@ -1,19 +1,18 @@
 ---
-title: "Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe"
-description: "Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research."
+name: Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe
+description: Use TinyTroupe when an agent should run simulated persona panels, synthetic
+  interviews, or offline audience reactions before spending on campaigns, launches,
+  or user research.
+category: Research & Scraping
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/microsoft/TinyTroupe"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
+source: https://github.com/microsoft/TinyTroupe
 tool_ecosystem:
-  github_repo: "microsoft/TinyTroupe"
+  github_repo: microsoft/TinyTroupe
   github_stars: 7392
+  tool: TinyTroupe
 ---
-
 # Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe
-
 Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research.
 
 ## Installation

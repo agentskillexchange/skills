@@ -1,19 +1,18 @@
 ---
-title: "Persist reusable coding-agent memory across sessions with Engram"
-description: "Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions keep forgetting prior decisions, conventions, and useful findings."
+name: Persist reusable coding-agent memory across sessions with Engram
+description: Keep searchable long-term memory for coding agents in a local SQLite
+  store and expose it through MCP when sessions keep forgetting prior decisions, conventions,
+  and useful findings.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/Gentleman-Programming/engram"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+source: https://github.com/Gentleman-Programming/engram
 tool_ecosystem:
-  github_repo: "Gentleman-Programming/engram"
+  github_repo: Gentleman-Programming/engram
   github_stars: 2576
+  tool: engram
 ---
-
 # Persist reusable coding-agent memory across sessions with Engram
-
 Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions keep forgetting prior decisions, conventions, and useful findings.
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "Internal Link Optimizer"
-description: "Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements."
+name: Internal Link Optimizer
+description: Optimizes internal linking structure using Screaming Frog SEO Spider
+  XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank
+  distribution, and suggests anchor text improvements.
+category: Content Writing & SEO
+framework: Custom Agents
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
-category:
-  - "Content Writing &amp; SEO"
-framework:
-  - "Custom Agents"
+source: https://agentskillexchange.com/skills/internal-link-optimizer-seo/
 ---
-
 # Internal Link Optimizer
-
 Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements.
 
 ## Installation

@@ -1,20 +1,19 @@
 ---
-title: "Terraform Module Testing Framework"
-description: "Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup."
+name: Terraform Module Testing Framework
+description: Tests Terraform modules using Terratest Go library and terraform test
+  native framework. Validates plan output, applies infrastructure in ephemeral environments,
+  and asserts resource attributes with automatic cleanup.
+category: Templates & Workflows
+framework: Claude Code, Multi-Framework
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Claude Code"
-  - "Multi-Framework"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
+  tool: terraform
+  maintained: true
 ---
-
 # Terraform Module Testing Framework
-
 Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup.
 
 ## Installation

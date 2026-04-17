@@ -1,19 +1,20 @@
 ---
-title: "Kubernetes Pod Diagnostics Runner"
-description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
+name: Kubernetes Pod Diagnostics Runner
+description: Runs automated diagnostic sequences on Kubernetes pods using kubectl
+  exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled
+  events, CrashLoopBackOff analysis, and resource utilization via metrics-server.
+category: Runbooks & Diagnostics
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Cursor"
+source: https://github.com/kubernetes/kubernetes
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
+  tool: kubernetes
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Kubernetes Pod Diagnostics Runner
-
 Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server.
 
 ## Installation

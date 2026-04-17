@@ -1,19 +1,20 @@
 ---
-title: "Kubernetes Diagnostic Runbook"
-description: "Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage."
+name: Kubernetes Diagnostic Runbook
+description: Executes diagnostic workflows against Kubernetes clusters using kubectl
+  and the Kubernetes Python client (kubernetes.client). Checks pod health, resource
+  quotas, event logs, and node conditions for rapid incident triage.
+category: Runbooks & Diagnostics
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Agents"
+source: https://github.com/kubernetes/kubernetes
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
+  tool: kubernetes
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Kubernetes Diagnostic Runbook
-
 Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage.
 
 ## Installation

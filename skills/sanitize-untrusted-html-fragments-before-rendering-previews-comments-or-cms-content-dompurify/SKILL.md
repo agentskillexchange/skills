@@ -1,19 +1,20 @@
 ---
-title: "Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify"
-description: "Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup and unsafe attributes before the content is shown in previews, stored in CMS fields, or embedded in downstream pages."
+name: Sanitize untrusted HTML fragments before rendering previews, comments, or CMS
+  content with DOMPurify
+description: Use DOMPurify when an agent must accept HTML from users, rich text editors,
+  imports, or model output but cannot safely render it as-is. The skill strips dangerous
+  markup and unsafe attributes before the content is shown in previews, stored in
+  CMS fields, or embedded in downstream pages.
+category: Security & Verification
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/cure53/DOMPurify"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Custom Agents"
+source: https://github.com/cure53/DOMPurify
 tool_ecosystem:
-  github_repo: "cure53/DOMPurify"
+  github_repo: cure53/DOMPurify
   github_stars: 16854
+  tool: DOMPurify
 ---
-
 # Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify
-
 Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup and unsafe attributes before the content is shown in previews, stored in CMS fields, or embedded in downstream pages.
 
 ## Installation

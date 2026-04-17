@@ -1,19 +1,18 @@
 ---
-title: "Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema"
-description: "Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow."
+name: Diff and review MySQL schema changes as filesystem-managed SQL before risky
+  database deploys with Skeema
+description: Pull live MySQL schema into files, inspect diffs, and push reviewed changes
+  back with a repeatable workflow.
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/skeema/skeema"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
+source: https://github.com/skeema/skeema
 tool_ecosystem:
-  github_repo: "skeema/skeema"
+  github_repo: skeema/skeema
   github_stars: 1361
+  tool: skeema
 ---
-
 # Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema
-
 Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow.
 
 ## Installation

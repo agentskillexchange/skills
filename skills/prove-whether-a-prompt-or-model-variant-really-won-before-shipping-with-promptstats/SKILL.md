@@ -1,21 +1,18 @@
 ---
-title: "Prove whether a prompt or model variant really won before shipping with promptstats"
-description: "Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes."
+name: Prove whether a prompt or model variant really won before shipping with promptstats
+description: Run statistically sound comparisons on eval results so prompt and model
+  changes are judged by confidence bounds, not bar-chart vibes.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/ianarawjo/promptstats"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/ianarawjo/promptstats
 tool_ecosystem:
-  github_repo: "ianarawjo/promptstats"
+  github_repo: ianarawjo/promptstats
   github_stars: 97
-  npm_package: "promptstats"
+  tool: promptstats
   npm_weekly_downloads: 678
 ---
-
 # Prove whether a prompt or model variant really won before shipping with promptstats
-
 Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes.
 
 ## Installation

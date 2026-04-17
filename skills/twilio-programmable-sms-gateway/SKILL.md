@@ -1,21 +1,21 @@
 ---
-title: "Twilio Programmable SMS Gateway"
-description: "Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows."
+name: Twilio Programmable SMS Gateway
+description: Sends and receives SMS/MMS messages via Twilio REST API with webhook
+  handler generation. Supports message scheduling, delivery status callbacks, and
+  Twilio Verify for OTP flows.
+category: Integrations & Connectors
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/twilio/twilio-node"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "OpenClaw"
+source: https://github.com/twilio/twilio-node
 tool_ecosystem:
-  github_repo: "twilio/twilio-node"
+  github_repo: twilio/twilio-node
   github_stars: 1528
-  npm_package: "twilio"
+  tool: twilio
   npm_weekly_downloads: 3731324
+  license: MIT
+  maintained: true
 ---
-
 # Twilio Programmable SMS Gateway
-
 Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows.
 
 ## Installation

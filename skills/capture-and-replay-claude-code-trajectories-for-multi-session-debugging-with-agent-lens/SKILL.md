@@ -1,19 +1,19 @@
 ---
-title: "Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens"
-description: "Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic debugging instead of ad hoc transcript review."
+name: Capture and replay Claude Code trajectories for multi-session debugging with
+  Agent Lens
+description: Record structured Claude Code trajectories, shadow git diffs, and replay
+  branches when agent behavior needs forensic debugging instead of ad hoc transcript
+  review.
+category: Runbooks & Diagnostics
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/dreadnode/agent-lens"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Code"
+source: https://github.com/dreadnode/agent-lens
 tool_ecosystem:
-  github_repo: "dreadnode/agent-lens"
+  github_repo: dreadnode/agent-lens
   github_stars: 102
+  tool: agent-lens
 ---
-
 # Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens
-
 Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic debugging instead of ad hoc transcript review.
 
 ## Installation

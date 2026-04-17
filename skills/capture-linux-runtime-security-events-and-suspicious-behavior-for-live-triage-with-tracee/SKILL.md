@@ -1,19 +1,18 @@
 ---
-title: "Capture Linux runtime security events and suspicious behavior for live triage with Tracee"
-description: "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork."
+name: Capture Linux runtime security events and suspicious behavior for live triage
+  with Tracee
+description: Watch live Linux and container activity through eBPF so you can triage
+  suspicious runtime behavior before it disappears into guesswork.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/aquasecurity/tracee"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/aquasecurity/tracee
 tool_ecosystem:
-  github_repo: "aquasecurity/tracee"
+  github_repo: aquasecurity/tracee
   github_stars: 4468
+  tool: tracee
 ---
-
 # Capture Linux runtime security events and suspicious behavior for live triage with Tracee
-
 Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork.
 
 ## Installation

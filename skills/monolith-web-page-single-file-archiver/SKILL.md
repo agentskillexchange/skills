@@ -1,16 +1,15 @@
 ---
-title: "Monolith Web Page Archiver and Single-File Bundler"
-description: "Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS, images, JavaScript, and fonts as data URLs. It produces self-contained HTML5 documents that render correctly offline without external dependencies."
+name: Monolith Web Page Archiver and Single-File Bundler
+description: Monolith is a CLI tool and Rust library that saves complete web pages
+  as a single HTML file by embedding CSS, images, JavaScript, and fonts as data URLs.
+  It produces self-contained HTML5 documents that render correctly offline without
+  external dependencies.
+category: Research & Scraping
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/Y2Z/monolith"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Custom Agents"
+source: https://github.com/Y2Z/monolith
 ---
-
 # Monolith Web Page Archiver and Single-File Bundler
-
 Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS, images, JavaScript, and fonts as data URLs. It produces self-contained HTML5 documents that render correctly offline without external dependencies.
 
 ## Installation

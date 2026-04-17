@@ -1,19 +1,18 @@
 ---
-title: "ast-grep Structural Code Search and Rewrite"
-description: "Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A blazing-fast alternative to regex-based code transformations that understands syntax structure."
+name: ast-grep Structural Code Search and Rewrite
+description: Use ast-grep (sg) to search, lint, and rewrite code across large codebases
+  using AST pattern matching. A blazing-fast alternative to regex-based code transformations
+  that understands syntax structure.
+category: Code Quality & Review
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/ast-grep/ast-grep"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
+source: https://github.com/ast-grep/ast-grep
 tool_ecosystem:
-  github_repo: "ast-grep/ast-grep"
+  github_repo: ast-grep/ast-grep
   github_stars: 13245
+  tool: ast-grep
 ---
-
 # ast-grep Structural Code Search and Rewrite
-
 Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A blazing-fast alternative to regex-based code transformations that understands syntax structure.
 
 ## Installation

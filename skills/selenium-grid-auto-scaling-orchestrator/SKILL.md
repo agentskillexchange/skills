@@ -1,16 +1,14 @@
 ---
-title: "Selenium Grid Auto-Scaling Orchestrator"
-description: "Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring."
+name: Selenium Grid Auto-Scaling Orchestrator
+description: Orchestrates Selenium Grid 4 node scaling based on test queue depth using
+  the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and
+  Edge nodes with health monitoring.
+category: Browser Automation
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category:
-  - "Browser Automation"
-framework:
-  - "OpenClaw"
+source: https://github.com/SeleniumHQ/selenium
 ---
-
 # Selenium Grid Auto-Scaling Orchestrator
-
 Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring.
 
 ## Installation

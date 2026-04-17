@@ -1,19 +1,18 @@
 ---
-title: "Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint"
-description: "Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner."
+name: Lint protobuf definitions for style and correctness before code generation and
+  review churn begin with protolint
+description: Catch naming, formatting, and protobuf rule violations early so generated
+  clients and reviews are cleaner.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/yoheimuta/protolint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/yoheimuta/protolint
 tool_ecosystem:
-  github_repo: "yoheimuta/protolint"
+  github_repo: yoheimuta/protolint
   github_stars: 685
+  tool: protolint
 ---
-
 # Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint
-
 Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner.
 
 ## Installation

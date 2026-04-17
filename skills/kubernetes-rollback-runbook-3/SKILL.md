@@ -1,19 +1,20 @@
 ---
-title: "Kubernetes Rollback Runbook"
-description: "Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment API and triggers PagerDuty incidents through the PagerDuty Events API v2."
+name: Kubernetes Rollback Runbook
+description: Executes structured Kubernetes rollback procedures using kubectl and
+  the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment
+  API and triggers PagerDuty incidents through the PagerDuty Events API v2.
+category: Runbooks & Diagnostics
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "OpenClaw"
+source: https://github.com/kubernetes/kubernetes
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
+  tool: kubernetes
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Kubernetes Rollback Runbook
-
 Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment API and triggers PagerDuty incidents through the PagerDuty Events API v2.
 
 ## Installation

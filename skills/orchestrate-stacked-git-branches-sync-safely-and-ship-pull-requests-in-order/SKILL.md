@@ -1,19 +1,19 @@
 ---
-title: "Orchestrate stacked Git branches, sync safely, and ship pull requests in order"
-description: "Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull requests, and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow control instead of improvising long git command chains."
+name: Orchestrate stacked Git branches, sync safely, and ship pull requests in order
+description: Uses Git Town to keep a branch stack healthy by syncing with the main
+  branch, rebasing dependent branches in order, opening or updating pull requests,
+  and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow
+  control instead of improvising long git command chains.
+category: Templates & Workflows
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/git-town/git-town"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Multi-Framework"
+source: https://github.com/git-town/git-town
 tool_ecosystem:
-  github_repo: "git-town/git-town"
+  github_repo: git-town/git-town
   github_stars: 3143
+  tool: git-town
 ---
-
 # Orchestrate stacked Git branches, sync safely, and ship pull requests in order
-
 Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull requests, and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow control instead of improvising long git command chains.
 
 ## Installation

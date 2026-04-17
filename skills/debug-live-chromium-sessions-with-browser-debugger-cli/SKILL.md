@@ -1,21 +1,18 @@
 ---
-title: "Debug live Chromium sessions with browser-debugger-cli"
-description: "Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task."
+name: Debug live Chromium sessions with browser-debugger-cli
+description: Pull DOM, console, network, and CDP telemetry from a live Chromium session
+  when an agent needs to debug a failing browser task.
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/szymdzum/browser-debugger-cli"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
+source: https://github.com/szymdzum/browser-debugger-cli
 tool_ecosystem:
-  github_repo: "szymdzum/browser-debugger-cli"
+  github_repo: szymdzum/browser-debugger-cli
   github_stars: 124
-  npm_package: "browser-debugger-cli"
+  tool: browser-debugger-cli
   npm_weekly_downloads: 582
 ---
-
 # Debug live Chromium sessions with browser-debugger-cli
-
 Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task.
 
 ## Installation

@@ -1,19 +1,20 @@
 ---
-title: "Docker Compose Service Blueprint Creator"
-description: "Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering via depends_on conditions."
+name: Docker Compose Service Blueprint Creator
+description: Creates Docker Compose YAML service definitions using the Compose Specification.
+  Configures multi-service stacks with proper network isolation, volume mounts, health
+  checks, and dependency ordering via depends_on conditions.
+category: Templates & Workflows
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/moby/moby"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "MCP"
+source: https://github.com/moby/moby
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
+  tool: moby
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Docker Compose Service Blueprint Creator
-
 Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering via depends_on conditions.
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf"
-description: "Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits."
+name: Resolve syntax-aware Git merge conflicts before escalating to manual surgery
+  with Mergiraf
+description: Use Mergiraf to let an agent attempt tree-aware conflict resolution during
+  merge, rebase, revert, or cherry-pick before falling back to manual edits.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://codeberg.org/mergiraf/mergiraf"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://codeberg.org/mergiraf/mergiraf
 ---
-
 # Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf
-
 Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits.
 
 ## Installation

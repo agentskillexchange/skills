@@ -1,19 +1,17 @@
 ---
-title: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
-description: "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge."
+name: Gate dbt projects with pre-commit checks from dbt-checkpoint
+description: Use dbt-checkpoint when an agent should catch dbt naming, dependency,
+  metadata, and model-hygiene issues before review or merge.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/dbt-checkpoint/dbt-checkpoint
 tool_ecosystem:
-  github_repo: "dbt-checkpoint/dbt-checkpoint"
+  github_repo: dbt-checkpoint/dbt-checkpoint
   github_stars: 738
+  tool: dbt-checkpoint
 ---
-
 # Gate dbt projects with pre-commit checks from dbt-checkpoint
-
 Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge.
 
 ## Installation

@@ -1,19 +1,18 @@
 ---
-title: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
-description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
+name: Run Claude Code through repeatable command and persona workflows with SuperClaude
+description: Turn Claude Code into a command-driven workflow surface for research,
+  planning, implementation, testing, and review instead of steering every step ad
+  hoc.
+category: Templates & Workflows
+framework: Claude Code
 verification: listed
-source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Claude Code"
+source: https://github.com/SuperClaude-Org/SuperClaude_Framework
 tool_ecosystem:
-  github_repo: "SuperClaude-Org/SuperClaude_Framework"
+  github_repo: SuperClaude-Org/SuperClaude_Framework
   github_stars: 22321
+  tool: SuperClaude_Framework
 ---
-
 # Run Claude Code through repeatable command and persona workflows with SuperClaude
-
 Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc.
 
 ## Installation

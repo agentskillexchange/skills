@@ -1,19 +1,18 @@
 ---
-title: "Difftastic Structural Syntax-Aware Diff Tool"
-description: "Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text. Written in Rust with 24k+ GitHub stars, it understands 30+ programming languages and integrates directly with Git and Mercurial."
+name: Difftastic Structural Syntax-Aware Diff Tool
+description: Difftastic is a structural diff tool that compares files based on their
+  syntax rather than line-by-line text. Written in Rust with 24k+ GitHub stars, it
+  understands 30+ programming languages and integrates directly with Git and Mercurial.
+category: Code Quality & Review
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/Wilfred/difftastic"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "OpenClaw"
+source: https://github.com/Wilfred/difftastic
 tool_ecosystem:
-  github_repo: "Wilfred/difftastic"
+  github_repo: Wilfred/difftastic
   github_stars: 24900
+  tool: difftastic
 ---
-
 # Difftastic Structural Syntax-Aware Diff Tool
-
 Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text. Written in Rust with 24k+ GitHub stars, it understands 30+ programming languages and integrates directly with Git and Mercurial.
 
 ## Installation

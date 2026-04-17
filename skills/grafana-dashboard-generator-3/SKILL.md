@@ -1,19 +1,20 @@
 ---
-title: "Grafana Dashboard Generator"
-description: "Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views."
+name: Grafana Dashboard Generator
+description: Programmatically generates Grafana dashboards from service definitions
+  using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics,
+  SLO tracking, and infrastructure views.
+category: Monitoring & Alerts
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Cursor"
+source: https://github.com/grafana/grafana
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
+  tool: grafana
+  license: AGPL-3.0
+  maintained: true
 ---
-
 # Grafana Dashboard Generator
-
 Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views.
 
 ## Installation

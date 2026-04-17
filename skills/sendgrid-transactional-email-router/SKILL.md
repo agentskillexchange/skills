@@ -1,21 +1,21 @@
 ---
-title: "SendGrid Transactional Email Router"
-description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
+name: SendGrid Transactional Email Router
+description: Manages transactional email delivery via SendGrid v3 Mail Send API with
+  dynamic template rendering. Handles bounce processing, suppression group management,
+  and event webhook parsing.
+category: Integrations & Connectors
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/sendgrid/sendgrid-nodejs"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Cursor"
+source: https://github.com/sendgrid/sendgrid-nodejs
 tool_ecosystem:
-  github_repo: "sendgrid/sendgrid-nodejs"
+  github_repo: sendgrid/sendgrid-nodejs
   github_stars: 3049
-  npm_package: "@sendgrid/mail"
+  tool: '@sendgrid/mail'
   npm_weekly_downloads: 3588681
+  license: MIT
+  maintained: true
 ---
-
 # SendGrid Transactional Email Router
-
 Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing.
 
 ## Installation

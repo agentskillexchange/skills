@@ -1,19 +1,18 @@
 ---
-title: "Gitoxide Pure Rust Git Implementation and Library"
-description: "A complete, idiomatic Git implementation written in pure Rust, providing both a library (gix crate) for building Git-powered applications and CLI tools for repository operations. Prioritizes correctness, performance, and memory safety."
+name: Gitoxide Pure Rust Git Implementation and Library
+description: A complete, idiomatic Git implementation written in pure Rust, providing
+  both a library (gix crate) for building Git-powered applications and CLI tools for
+  repository operations. Prioritizes correctness, performance, and memory safety.
+category: Developer Tools
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/GitoxideLabs/gitoxide"
-category:
-  - "Developer Tools"
-framework:
-  - "Cursor"
+source: https://github.com/GitoxideLabs/gitoxide
 tool_ecosystem:
-  github_repo: "GitoxideLabs/gitoxide"
+  github_repo: GitoxideLabs/gitoxide
   github_stars: 11102
+  tool: gitoxide
 ---
-
 # Gitoxide Pure Rust Git Implementation and Library
-
 A complete, idiomatic Git implementation written in pure Rust, providing both a library (gix crate) for building Git-powered applications and CLI tools for repository operations. Prioritizes correctness, performance, and memory safety.
 
 ## Installation

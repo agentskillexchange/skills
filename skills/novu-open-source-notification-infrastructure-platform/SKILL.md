@@ -1,21 +1,21 @@
 ---
-title: "Novu Open-Source Notification Infrastructure Platform"
-description: "Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications across email, SMS, push, in-app inbox, and chat channels. It includes a workflow engine, digest system, subscriber preferences, and embeddable React notification center."
+name: Novu Open-Source Notification Infrastructure Platform
+description: Novu is an open-source notification infrastructure platform that provides
+  a unified API for sending notifications across email, SMS, push, in-app inbox, and
+  chat channels. It includes a workflow engine, digest system, subscriber preferences,
+  and embeddable React notification center.
+category: Integrations & Connectors
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/novuhq/novu"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
+source: https://github.com/novuhq/novu
 tool_ecosystem:
-  github_repo: "novuhq/novu"
+  github_repo: novuhq/novu
   github_stars: 38747
-  npm_package: "novu"
+  tool: novu
   npm_weekly_downloads: 6151
+  maintained: true
 ---
-
 # Novu Open-Source Notification Infrastructure Platform
-
 Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications across email, SMS, push, in-app inbox, and chat channels. It includes a workflow engine, digest system, subscriber preferences, and embeddable React notification center.
 
 ## Installation

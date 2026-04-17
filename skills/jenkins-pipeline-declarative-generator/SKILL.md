@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Pipeline Declarative Generator"
-description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
+name: Jenkins Pipeline Declarative Generator
+description: Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax
+  and jenkins-shared-libraries. Configures stages, parallel execution, and post-build
+  actions with Blue Ocean compatibility.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Custom Agents"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
 # Jenkins Pipeline Declarative Generator
-
 Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.
 
 ## Installation

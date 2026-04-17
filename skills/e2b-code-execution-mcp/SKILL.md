@@ -1,19 +1,20 @@
 ---
-title: "E2B Code Execution MCP"
-description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
+name: E2B Code Execution MCP
+description: Add sandboxed code execution to any MCP-compatible AI client. E2B gives
+  agents access to secure, internet-connected Linux environments for running Python,
+  JavaScript, and shell commands without touching your local machine.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/e2b-dev/mcp-server"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+source: https://github.com/e2b-dev/mcp-server
 tool_ecosystem:
-  github_repo: "e2b-dev/mcp-server"
+  github_repo: e2b-dev/mcp-server
   github_stars: 389
+  tool: mcp-server
+  license: Apache-2.0
+  maintained: false
 ---
-
 # E2B Code Execution MCP
-
 Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
 
 ## Installation

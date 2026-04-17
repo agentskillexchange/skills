@@ -1,19 +1,19 @@
 ---
-title: "Terraform State Drift Detector"
-description: "Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation."
+name: Terraform State Drift Detector
+description: Detects infrastructure drift by running terraform plan -detailed-exitcode
+  and parsing the JSON output via terraform show -json. Categorizes drift by resource
+  type and generates targeted terraform apply plans for reconciliation.
+category: Runbooks & Diagnostics
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "OpenClaw"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
+  tool: terraform
+  maintained: true
 ---
-
 # Terraform State Drift Detector
-
 Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation.
 
 ## Installation

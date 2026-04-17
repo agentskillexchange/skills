@@ -1,16 +1,15 @@
 ---
-title: "FFmpeg Batch Transcode Pipeline"
-description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output."
+name: FFmpeg Batch Transcode Pipeline
+description: Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated
+  encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging
+  using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH
+  output.
+category: Media & Transcription
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Custom Agents"
+source: https://github.com/FFmpeg/FFmpeg
 ---
-
 # FFmpeg Batch Transcode Pipeline
-
 Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output.
 
 ## Installation

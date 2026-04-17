@@ -1,19 +1,19 @@
 ---
-title: "Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster"
-description: "Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable execution, instead of re-planning the same multi-step tool sequence in chat."
+name: Compose typed OpenClaw workflows with approval gates and resumable steps using
+  Lobster
+description: Use Lobster when an OpenClaw operator wants one deterministic typed workflow
+  step, with approval gates and resumable execution, instead of re-planning the same
+  multi-step tool sequence in chat.
+category: Templates & Workflows
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/openclaw/lobster"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "OpenClaw"
+source: https://github.com/openclaw/lobster
 tool_ecosystem:
-  github_repo: "openclaw/lobster"
+  github_repo: openclaw/lobster
   github_stars: 1128
+  tool: lobster
 ---
-
 # Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster
-
 Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable execution, instead of re-planning the same multi-step tool sequence in chat.
 
 ## Installation

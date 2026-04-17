@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Pipeline Linter"
-description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
+name: Jenkins Pipeline Linter
+description: Validates Jenkinsfile declarative and scripted pipelines using the Jenkins
+  Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint
+  for Groovy static analysis with CodeNarc rulesets.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Custom Agents"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
 # Jenkins Pipeline Linter
-
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets.
 
 ## Installation

@@ -1,19 +1,20 @@
 ---
-title: "ArgoCD Sync Manager"
-description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands."
+name: ArgoCD Sync Manager
+description: Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync
+  endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes
+  manifest health using argocd CLI diff commands.
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Agents"
+source: https://github.com/argoproj/argo-cd
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
+  tool: argo-cd
+  license: Apache-2.0
+  maintained: true
 ---
-
 # ArgoCD Sync Manager
-
 Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands.
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "PagerDuty Incident Runbook Automator"
-description: "Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity."
+name: PagerDuty Incident Runbook Automator
+description: Automates incident response runbooks using the PagerDuty Events API v2
+  and REST API. Manages incident creation, escalation policies, and automated diagnostics
+  triggered by alert severity.
+category: Runbooks & Diagnostics
+framework: Gemini
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Gemini"
+source: https://github.com/PagerDuty/pdjs
 ---
-
 # PagerDuty Incident Runbook Automator
-
 Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.
 
 ## Installation

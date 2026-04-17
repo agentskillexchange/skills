@@ -1,19 +1,18 @@
 ---
-title: "Test API authorization flows with Hadrian"
-description: "Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are caught before release."
+name: Test API authorization flows with Hadrian
+description: Lets an agent exercise REST, GraphQL, and gRPC authorization paths with
+  YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws
+  are caught before release.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/praetorian-inc/hadrian"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/praetorian-inc/hadrian
 tool_ecosystem:
-  github_repo: "praetorian-inc/hadrian"
+  github_repo: praetorian-inc/hadrian
   github_stars: 38
+  tool: hadrian
 ---
-
 # Test API authorization flows with Hadrian
-
 Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are caught before release.
 
 ## Installation

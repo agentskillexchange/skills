@@ -1,19 +1,18 @@
 ---
-title: "Terraform Module Boilerplate Assembler"
-description: "Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module specification. Uses the Terraform Registry API to resolve provider schemas."
+name: Terraform Module Boilerplate Assembler
+description: Generates Terraform module scaffolds with variables.tf, outputs.tf, and
+  provider configurations from a module specification. Uses the Terraform Registry
+  API to resolve provider schemas.
+category: Templates & Workflows
+framework: Gemini
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Gemini"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48004
+  tool: terraform
 ---
-
 # Terraform Module Boilerplate Assembler
-
 Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module specification. Uses the Terraform Registry API to resolve provider schemas.
 
 ## Installation

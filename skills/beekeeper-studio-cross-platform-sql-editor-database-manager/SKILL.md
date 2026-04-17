@@ -1,19 +1,19 @@
 ---
-title: "Beekeeper Studio Cross-Platform SQL Editor and Database Manager"
-description: "A source-backed ASE skill for Beekeeper Studio, the SQL editor and database manager for Linux, macOS, and Windows. It fits workflows that need a real client for querying, browsing tables, and working across PostgreSQL, MySQL, SQLite, SQL Server, and other supported databases."
+name: Beekeeper Studio Cross-Platform SQL Editor and Database Manager
+description: A source-backed ASE skill for Beekeeper Studio, the SQL editor and database
+  manager for Linux, macOS, and Windows. It fits workflows that need a real client
+  for querying, browsing tables, and working across PostgreSQL, MySQL, SQLite, SQL
+  Server, and other supported databases.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/beekeeper-studio/beekeeper-studio"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/beekeeper-studio/beekeeper-studio
 tool_ecosystem:
-  github_repo: "beekeeper-studio/beekeeper-studio"
+  github_repo: beekeeper-studio/beekeeper-studio
   github_stars: 22541
+  tool: beekeeper-studio
 ---
-
 # Beekeeper Studio Cross-Platform SQL Editor and Database Manager
-
 A source-backed ASE skill for Beekeeper Studio, the SQL editor and database manager for Linux, macOS, and Windows. It fits workflows that need a real client for querying, browsing tables, and working across PostgreSQL, MySQL, SQLite, SQL Server, and other supported databases.
 
 ## Installation

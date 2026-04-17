@@ -1,16 +1,14 @@
 ---
-title: "PagerDuty Incident Escalator"
-description: "Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation policies, merges related incidents, and generates postmortem templates from incident timelines."
+name: PagerDuty Incident Escalator
+description: Manages PagerDuty incident lifecycle using the PagerDuty REST API v2
+  /incidents endpoint. Automates escalation policies, merges related incidents, and
+  generates postmortem templates from incident timelines.
+category: Monitoring & Alerts
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/PagerDuty/pdjs
 ---
-
 # PagerDuty Incident Escalator
-
 Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation policies, merges related incidents, and generates postmortem templates from incident timelines.
 
 ## Installation

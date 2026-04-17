@@ -1,20 +1,21 @@
 ---
-title: "Checkov IaC Scanner"
-description: "Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the [&hellip;]"
+name: Checkov IaC Scanner
+description: Checkov IaC Scanner is built around Kubernetes orchestration platform.
+  The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub
+  stars). It gives an agent a more technical and reliable way to work with the tool
+  than a thin one-line wrapper, using stable interfaces like kubectl, API server,
+  pods, deployments, events, logs, probes, RBAC and preserving the […]
+category: Security & Verification
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/bridgecrewio/checkov"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Custom Agents"
+source: https://github.com/bridgecrewio/checkov
 tool_ecosystem:
-  github_repo: "bridgecrewio/checkov"
+  github_repo: bridgecrewio/checkov
   github_stars: 8623
+  tool: checkov
 ---
-
 # Checkov IaC Scanner
-
-Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the [&hellip;]
+Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
 
 ## Installation
 

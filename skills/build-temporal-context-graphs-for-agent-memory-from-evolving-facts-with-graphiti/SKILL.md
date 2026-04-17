@@ -1,21 +1,19 @@
 ---
-title: "Build temporal context graphs for agent memory from evolving facts with Graphiti"
-description: "Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source episode produced each fact, instead of storing flat chunks or chat history alone."
+name: Build temporal context graphs for agent memory from evolving facts with Graphiti
+description: Use Graphiti when an agent needs long-term memory that tracks what changed,
+  when it changed, and which source episode produced each fact, instead of storing
+  flat chunks or chat history alone.
+category: Library & API Reference
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/getzep/graphiti"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Multi-Framework"
+source: https://github.com/getzep/graphiti
 tool_ecosystem:
-  github_repo: "getzep/graphiti"
+  github_repo: getzep/graphiti
   github_stars: 24898
-  npm_package: "graphiti-core"
+  tool: graphiti-core
   npm_weekly_downloads: 529336
 ---
-
 # Build temporal context graphs for agent memory from evolving facts with Graphiti
-
 Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source episode produced each fact, instead of storing flat chunks or chat history alone.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-title: "Tesseract OCR Engine for Image-to-Text Workflows"
-description: "Tesseract OCR is a widely used open source optical character recognition engine with command line and library interfaces. It can extract text from images and scanned documents, supports more than 100 languages, and outputs plain text, hOCR, TSV, and PDF variants."
+name: Tesseract OCR Engine for Image-to-Text Workflows
+description: Tesseract OCR is a widely used open source optical character recognition
+  engine with command line and library interfaces. It can extract text from images
+  and scanned documents, supports more than 100 languages, and outputs plain text,
+  hOCR, TSV, and PDF variants.
+category: Media & Transcription
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/tesseract-ocr/tesseract"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
+source: https://github.com/tesseract-ocr/tesseract
 tool_ecosystem:
-  github_repo: "tesseract-ocr/tesseract"
+  github_repo: tesseract-ocr/tesseract
   github_stars: 73445
+  tool: tesseract
 ---
-
 # Tesseract OCR Engine for Image-to-Text Workflows
-
 Tesseract OCR is a widely used open source optical character recognition engine with command line and library interfaces. It can extract text from images and scanned documents, supports more than 100 languages, and outputs plain text, hOCR, TSV, and PDF variants.
 
 ## Installation

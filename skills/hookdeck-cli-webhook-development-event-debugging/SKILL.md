@@ -1,20 +1,20 @@
 ---
-title: "Hookdeck CLI for Webhook Development and Event Debugging"
-description: "Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling."
+name: Hookdeck CLI for Webhook Development and Event Debugging
+description: Hookdeck CLI is Hookdeck’s official command-line tool for forwarding
+  webhooks to localhost, managing event gateway resources, and running an MCP server
+  for agent workflows. It is useful when you need repeatable webhook testing, local
+  event inspection, and a bridge between webhook infrastructure and agent tooling.
+category: Integrations & Connectors
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/hookdeck/hookdeck-cli"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
+source: https://github.com/hookdeck/hookdeck-cli
 tool_ecosystem:
-  github_repo: "hookdeck/hookdeck-cli"
+  github_repo: hookdeck/hookdeck-cli
   github_stars: 353
+  tool: hookdeck-cli
 ---
-
 # Hookdeck CLI for Webhook Development and Event Debugging
-
-Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
+Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
 
 ## Installation
 

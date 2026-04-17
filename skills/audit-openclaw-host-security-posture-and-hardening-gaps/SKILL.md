@@ -1,20 +1,22 @@
 ---
-title: "Audit OpenClaw host security posture and hardening gaps"
-description: "This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration."
+name: Audit OpenClaw host security posture and hardening gaps
+description: This skill uses OpenClaw’s healthcheck workflow to inspect the host running
+  the assistant, surface risky exposure, and turn the findings into a staged hardening
+  plan. It is for operator-style audits with explicit approval gates, not a generic
+  software listing or a replacement for OS administration.
+category: Security & Verification
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/openclaw/openclaw/tree/main/skills/healthcheck"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "OpenClaw"
+source: https://github.com/openclaw/openclaw/tree/main/skills/healthcheck
 tool_ecosystem:
-  github_repo: "openclaw/openclaw"
+  github_repo: openclaw/openclaw
   github_stars: 356821
+  tool: openclaw
+  license: MIT
+  maintained: true
 ---
-
 # Audit OpenClaw host security posture and hardening gaps
-
-This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration.
+This skill uses OpenClaw’s healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration.
 
 ## Installation
 

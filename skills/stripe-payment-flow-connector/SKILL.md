@@ -1,21 +1,21 @@
 ---
-title: "Stripe Payment Flow Connector"
-description: "Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent."
+name: Stripe Payment Flow Connector
+description: Integrates Stripe payment processing using stripe-node SDK including
+  PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification
+  with stripe.webhooks.constructEvent.
+category: Integrations & Connectors
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Cursor"
+source: https://github.com/stripe/stripe-node
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
-  npm_package: "stripe"
+  tool: stripe
   npm_weekly_downloads: 9280426
+  license: MIT
+  maintained: true
 ---
-
 # Stripe Payment Flow Connector
-
 Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent.
 
 ## Installation

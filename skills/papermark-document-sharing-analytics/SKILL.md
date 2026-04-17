@@ -1,19 +1,18 @@
 ---
-title: "Papermark Open Source Document Sharing Platform with Analytics"
-description: "Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL."
+name: Papermark Open Source Document Sharing Platform with Analytics
+description: Papermark is an open-source alternative to DocSend for secure document
+  sharing with built-in page-by-page analytics, custom branding, custom domains, and
+  self-hosting support. Built with Next.js and PostgreSQL.
+category: Integrations & Connectors
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/mfts/papermark"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
+source: https://github.com/mfts/papermark
 tool_ecosystem:
-  github_repo: "mfts/papermark"
+  github_repo: mfts/papermark
   github_stars: 8152
+  tool: papermark
 ---
-
 # Papermark Open Source Document Sharing Platform with Analytics
-
 Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL.
 
 ## Installation

@@ -1,21 +1,19 @@
 ---
-title: "Test agent-written web changes in a real browser and hand failures back for repair with Expect"
-description: "Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete failures for the coding agent to fix."
+name: Test agent-written web changes in a real browser and hand failures back for
+  repair with Expect
+description: Run an agent-native browser QA loop that reads recent code changes, generates
+  a test plan, and returns concrete failures for the coding agent to fix.
+category: Browser Automation
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/millionco/expect"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/millionco/expect
 tool_ecosystem:
-  github_repo: "millionco/expect"
+  github_repo: millionco/expect
   github_stars: 3362
-  npm_package: "expect-cli"
+  tool: expect-cli
   npm_weekly_downloads: 24457
 ---
-
 # Test agent-written web changes in a real browser and hand failures back for repair with Expect
-
 Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete failures for the coding agent to fix.
 
 ## Installation

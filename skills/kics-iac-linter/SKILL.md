@@ -1,20 +1,21 @@
 ---
-title: "KICS IaC Linter"
-description: "KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the [&hellip;]"
+name: KICS IaC Linter
+description: KICS IaC Linter is built around Kubernetes orchestration platform. The
+  underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars).
+  It gives an agent a more technical and reliable way to work with the tool than a
+  thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments,
+  events, logs, probes, RBAC and preserving the […]
+category: Security & Verification
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/Checkmarx/kics"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Custom Agents"
+source: https://github.com/Checkmarx/kics
 tool_ecosystem:
-  github_repo: "Checkmarx/kics"
+  github_repo: Checkmarx/kics
   github_stars: 2607
+  tool: kics
 ---
-
 # KICS IaC Linter
-
-KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the [&hellip;]
+KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
 
 ## Installation
 

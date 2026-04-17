@@ -1,22 +1,21 @@
 ---
-title: "Tavily MCP Server for AI-Powered Web Search and Extraction"
-description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily's search API to deliver structured, relevant results optimized for LLM consumption."
+name: Tavily MCP Server for AI-Powered Web Search and Extraction
+description: An official MCP server from Tavily that provides AI agents with real-time
+  web search, page extraction, site mapping, and web crawling capabilities. Connects
+  to Tavily’s search API to deliver structured, relevant results optimized for LLM
+  consumption.
+category: Research & Scraping
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/tavily-ai/tavily-mcp"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "MCP"
+source: https://github.com/tavily-ai/tavily-mcp
 tool_ecosystem:
-  github_repo: "tavily-ai/tavily-mcp"
+  github_repo: tavily-ai/tavily-mcp
   github_stars: 1615
-  npm_package: "tavily-mcp"
+  tool: tavily-mcp
   npm_weekly_downloads: 47930
 ---
-
 # Tavily MCP Server for AI-Powered Web Search and Extraction
-
-An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily's search API to deliver structured, relevant results optimized for LLM consumption.
+An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption.
 
 ## Installation
 

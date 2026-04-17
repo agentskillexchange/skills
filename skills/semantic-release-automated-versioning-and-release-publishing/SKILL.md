@@ -1,21 +1,22 @@
 ---
-title: "semantic-release Automated Versioning and Release Publishing"
-description: "semantic-release automates version calculation, changelog generation, tagging, and package publishing from conventional commits and CI runs. It fits agent workflows that need repeatable release automation across npm and other release targets without manual version bumps."
+name: semantic-release Automated Versioning and Release Publishing
+description: semantic-release automates version calculation, changelog generation,
+  tagging, and package publishing from conventional commits and CI runs. It fits agent
+  workflows that need repeatable release automation across npm and other release targets
+  without manual version bumps.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/semantic-release/semantic-release"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+source: https://github.com/semantic-release/semantic-release
 tool_ecosystem:
-  github_repo: "semantic-release/semantic-release"
+  github_repo: semantic-release/semantic-release
   github_stars: 23549
-  npm_package: "semantic-release"
+  tool: semantic-release
   npm_weekly_downloads: 2496750
+  license: MIT
+  maintained: true
 ---
-
 # semantic-release Automated Versioning and Release Publishing
-
 semantic-release automates version calculation, changelog generation, tagging, and package publishing from conventional commits and CI runs. It fits agent workflows that need repeatable release automation across npm and other release targets without manual version bumps.
 
 ## Installation

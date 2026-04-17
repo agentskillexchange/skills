@@ -1,19 +1,19 @@
 ---
-title: "GitLab CI/CD Pipeline Optimizer"
-description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
+name: GitLab CI/CD Pipeline Optimizer
+description: Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification
+  and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child
+  pipelines.
+category: CI/CD Integrations
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/gitlabhq/gitlabhq
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
+  tool: gitlabhq
+  maintained: true
 ---
-
 # GitLab CI/CD Pipeline Optimizer
-
 Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines.
 
 ## Installation

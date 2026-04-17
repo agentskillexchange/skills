@@ -1,21 +1,20 @@
 ---
-title: "Documind AI-Powered Structured Data Extraction from Documents"
-description: "Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision."
+name: Documind AI-Powered Structured Data Extraction from Documents
+description: Documind is an open-source Node.js tool that uses AI to extract structured
+  JSON data from PDFs and other documents. Define a custom schema for what you need,
+  and Documind returns clean, typed data — supporting OpenAI and local LLM backends
+  like Llama 3.2 Vision.
+category: Data Extraction & Transformation
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/DocumindHQ/documind"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Custom Agents"
+source: https://github.com/DocumindHQ/documind
 tool_ecosystem:
-  github_repo: "DocumindHQ/documind"
+  github_repo: DocumindHQ/documind
   github_stars: 1468
-  npm_package: "documind"
+  tool: documind
   npm_weekly_downloads: 14
 ---
-
 # Documind AI-Powered Structured Data Extraction from Documents
-
 Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision.
 
 ## Installation

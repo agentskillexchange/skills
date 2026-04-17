@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Query Plan Diagnostics"
-description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
+name: PostgreSQL Query Plan Diagnostics
+description: Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS,
+  FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans,
+  nested loop inefficiencies, and index recommendations for slow queries.
+category: Runbooks & Diagnostics
+framework: Claude Code
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Code"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Query Plan Diagnostics
-
 Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries.
 
 ## Installation

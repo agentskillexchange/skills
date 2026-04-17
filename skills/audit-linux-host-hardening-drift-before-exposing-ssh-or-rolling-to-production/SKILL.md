@@ -1,19 +1,19 @@
 ---
-title: "Audit Linux host hardening drift before exposing SSH or rolling to production"
-description: "Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an agent or operator. Invoke it when a machine is about to become internet-facing, after base image changes, or whenever you need a quick read on hardening drift instead of a generic vulnerability scan."
+name: Audit Linux host hardening drift before exposing SSH or rolling to production
+description: Uses Lynis to run an on-host security audit and turn the findings into
+  a prioritized hardening checklist for an agent or operator. Invoke it when a machine
+  is about to become internet-facing, after base image changes, or whenever you need
+  a quick read on hardening drift instead of a generic vulnerability scan.
+category: Security & Verification
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/CISOfy/lynis"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/CISOfy/lynis
 tool_ecosystem:
-  github_repo: "CISOfy/lynis"
+  github_repo: CISOfy/lynis
   github_stars: 15505
+  tool: lynis
 ---
-
 # Audit Linux host hardening drift before exposing SSH or rolling to production
-
 Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an agent or operator. Invoke it when a machine is about to become internet-facing, after base image changes, or whenever you need a quick read on hardening drift instead of a generic vulnerability scan.
 
 ## Installation

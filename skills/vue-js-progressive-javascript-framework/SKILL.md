@@ -1,19 +1,18 @@
 ---
-title: "Vue.js — Progressive JavaScript Framework for Building UIs"
-description: "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite."
+name: Vue.js — Progressive JavaScript Framework for Building UIs
+description: Vue.js is a progressive JavaScript framework for building user interfaces
+  with an incrementally adoptable architecture, reactive data binding, and a rich
+  ecosystem including Vue Router, Pinia, and Vite.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/vuejs/core"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/vuejs/core
 tool_ecosystem:
-  github_repo: "vuejs/core"
+  github_repo: vuejs/core
   github_stars: 53379
+  tool: core
 ---
-
 # Vue.js — Progressive JavaScript Framework for Building UIs
-
 Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite.
 
 ## Installation

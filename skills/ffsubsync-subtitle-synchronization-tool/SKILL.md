@@ -1,19 +1,18 @@
 ---
-title: "ffsubsync Subtitle Synchronization Tool"
-description: "ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for agent workflows that need to repair drifting subtitles without manual waveform editing."
+name: ffsubsync Subtitle Synchronization Tool
+description: ffsubsync automatically aligns subtitle files to spoken audio by analyzing
+  timing from a reference video or audio file. It is a strong fit for agent workflows
+  that need to repair drifting subtitles without manual waveform editing.
+category: Media & Transcription
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/smacke/ffsubsync"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
+source: https://github.com/smacke/ffsubsync
 tool_ecosystem:
-  github_repo: "smacke/ffsubsync"
+  github_repo: smacke/ffsubsync
   github_stars: 7659
+  tool: ffsubsync
 ---
-
 # ffsubsync Subtitle Synchronization Tool
-
 ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for agent workflows that need to repair drifting subtitles without manual waveform editing.
 
 ## Installation

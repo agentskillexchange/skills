@@ -1,19 +1,19 @@
 ---
-title: "Checkmate Open Source Uptime and Infrastructure Monitoring"
-description: "An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response times, and infrastructure visibility. It fits agent workflows that need recurring checks, incident context, and operational dashboards with optional server telemetry via the companion Capture agent."
+name: Checkmate Open Source Uptime and Infrastructure Monitoring
+description: An ASE skill built on Checkmate, the open source self-hosted monitoring
+  platform for uptime, incidents, response times, and infrastructure visibility. It
+  fits agent workflows that need recurring checks, incident context, and operational
+  dashboards with optional server telemetry via the companion Capture agent.
+category: Monitoring & Alerts
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/bluewave-labs/Checkmate"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Multi-Framework"
+source: https://github.com/bluewave-labs/Checkmate
 tool_ecosystem:
-  github_repo: "bluewave-labs/Checkmate"
+  github_repo: bluewave-labs/Checkmate
   github_stars: 9576
+  tool: Checkmate
 ---
-
 # Checkmate Open Source Uptime and Infrastructure Monitoring
-
 An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response times, and infrastructure visibility. It fits agent workflows that need recurring checks, incident context, and operational dashboards with optional server telemetry via the companion Capture agent.
 
 ## Installation

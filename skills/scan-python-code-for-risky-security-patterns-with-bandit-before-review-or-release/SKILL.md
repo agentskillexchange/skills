@@ -1,19 +1,17 @@
 ---
-title: "Scan Python code for risky security patterns with Bandit before review or release"
-description: "Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release."
+name: Scan Python code for risky security patterns with Bandit before review or release
+description: Catch insecure Python calls, weak crypto usage, shell injection risks,
+  and similar patterns before merge or release.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/PyCQA/bandit"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/PyCQA/bandit
 tool_ecosystem:
-  github_repo: "PyCQA/bandit"
+  github_repo: PyCQA/bandit
   github_stars: 7933
+  tool: bandit
 ---
-
 # Scan Python code for risky security patterns with Bandit before review or release
-
 Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release.
 
 ## Installation

@@ -1,21 +1,21 @@
 ---
-title: "Twilio Programmable Voice Router"
-description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource."
+name: Twilio Programmable Voice Router
+description: Builds intelligent voice routing flows using the Twilio Programmable
+  Voice API. Generates TwiML responses with , , and verbs, and manages call recordings
+  via the Recordings REST resource.
+category: Integrations & Connectors
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/twilio/twilio-node"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Claude Agents"
+source: https://github.com/twilio/twilio-node
 tool_ecosystem:
-  github_repo: "twilio/twilio-node"
+  github_repo: twilio/twilio-node
   github_stars: 1528
-  npm_package: "twilio"
+  tool: twilio
   npm_weekly_downloads: 3731324
+  license: MIT
+  maintained: true
 ---
-
 # Twilio Programmable Voice Router
-
 Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource.
 
 ## Installation

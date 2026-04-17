@@ -1,19 +1,20 @@
 ---
-title: "ArgoCD Sync Troubleshooter"
-description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures."
+name: ArgoCD Sync Troubleshooter
+description: Diagnoses ArgoCD application sync failures using the ArgoCD REST API
+  and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize
+  overlay errors, and resource health check failures.
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Agents"
+source: https://github.com/argoproj/argo-cd
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
+  tool: argo-cd
+  license: Apache-2.0
+  maintained: true
 ---
-
 # ArgoCD Sync Troubleshooter
-
 Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures.
 
 ## Installation

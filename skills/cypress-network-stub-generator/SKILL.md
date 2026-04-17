@@ -1,21 +1,21 @@
 ---
-title: "Cypress Network Stub Generator"
-description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
+name: Cypress Network Stub Generator
+description: Generates cy.intercept() stubs from recorded HAR files for deterministic
+  E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin
+  testing workflows.
+category: Browser Automation
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category:
-  - "Browser Automation"
-framework:
-  - "Codex"
+source: https://github.com/cypress-io/cypress
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
-  npm_package: "cypress"
+  tool: cypress
   npm_weekly_downloads: 7268478
+  license: MIT
+  maintained: true
 ---
-
 # Cypress Network Stub Generator
-
 Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows.
 
 ## Installation

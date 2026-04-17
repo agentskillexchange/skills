@@ -1,19 +1,19 @@
 ---
-title: "Chrome MCP Server Extension-Based Browser Automation for AI Agents"
-description: "Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents. It is designed for workflows where an agent should reuse real tabs, existing login state, browser history, bookmarks, and native Chrome APIs instead of launching a separate automation browser."
+name: Chrome MCP Server Extension-Based Browser Automation for AI Agents
+description: Chrome MCP Server uses a Chrome extension and local bridge to expose
+  your everyday browser to MCP-compatible agents. It is designed for workflows where
+  an agent should reuse real tabs, existing login state, browser history, bookmarks,
+  and native Chrome APIs instead of launching a separate automation browser.
+category: Browser Automation
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/hangwin/mcp-chrome"
-category:
-  - "Browser Automation"
-framework:
-  - "MCP"
+source: https://github.com/hangwin/mcp-chrome
 tool_ecosystem:
-  github_repo: "hangwin/mcp-chrome"
+  github_repo: hangwin/mcp-chrome
   github_stars: 11177
+  tool: mcp-chrome
 ---
-
 # Chrome MCP Server Extension-Based Browser Automation for AI Agents
-
 Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents. It is designed for workflows where an agent should reuse real tabs, existing login state, browser history, bookmarks, and native Chrome APIs instead of launching a separate automation browser.
 
 ## Installation

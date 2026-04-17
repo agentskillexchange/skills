@@ -1,21 +1,21 @@
 ---
-title: "Playwright Network Interceptor"
-description: "Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners."
+name: Playwright Network Interceptor
+description: Intercepts and analyzes network traffic using Playwright route handlers
+  for API response capture and modification. Uses the Playwright page.route() API,
+  HAR recording, and request/response event listeners.
+category: Research & Scraping
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Cursor"
+source: https://github.com/microsoft/playwright
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
-  npm_package: "playwright"
+  tool: playwright
   npm_weekly_downloads: 47883561
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Playwright Network Interceptor
-
 Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners.
 
 ## Installation

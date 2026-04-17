@@ -1,16 +1,15 @@
 ---
-title: "SonarQube PR Gate"
-description: "Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API."
+name: SonarQube PR Gate
+description: Integrates SonarQube quality gates into pull request workflows via the
+  SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells,
+  duplications, or coverage thresholds fail and posts inline annotations using the
+  GitHub Checks API.
+category: Code Quality & Review
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Codex"
+source: https://github.com/SonarSource/sonarqube
 ---
-
 # SonarQube PR Gate
-
 Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API.
 
 ## Installation

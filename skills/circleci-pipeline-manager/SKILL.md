@@ -1,19 +1,19 @@
 ---
-title: "CircleCI Pipeline Manager"
-description: "Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows."
+name: CircleCI Pipeline Manager
+description: Configure and trigger CircleCI pipelines using the CircleCI v2 API and
+  config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic
+  configuration with setup workflows.
+category: CI/CD Integrations
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/circleci/circleci-docs
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
+  tool: circleci-docs
+  maintained: true
 ---
-
 # CircleCI Pipeline Manager
-
 Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows.
 
 ## Installation

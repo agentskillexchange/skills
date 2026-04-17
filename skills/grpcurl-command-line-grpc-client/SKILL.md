@@ -1,19 +1,18 @@
 ---
-title: "grpcurl Command-Line gRPC Client"
-description: "Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or proto files, supporting unary calls, streaming, TLS, and metadata headers."
+name: grpcurl Command-Line gRPC Client
+description: Like cURL but for gRPC servers. A command-line tool for interacting with
+  gRPC services using server reflection or proto files, supporting unary calls, streaming,
+  TLS, and metadata headers.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/fullstorydev/grpcurl"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+source: https://github.com/fullstorydev/grpcurl
 tool_ecosystem:
-  github_repo: "fullstorydev/grpcurl"
+  github_repo: fullstorydev/grpcurl
   github_stars: 12548
+  tool: grpcurl
 ---
-
 # grpcurl Command-Line gRPC Client
-
 Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or proto files, supporting unary calls, streaming, TLS, and metadata headers.
 
 ## Installation

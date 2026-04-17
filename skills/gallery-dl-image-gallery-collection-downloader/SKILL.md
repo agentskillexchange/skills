@@ -1,19 +1,19 @@
 ---
-title: "gallery-dl Image Gallery and Collection Downloader"
-description: "gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates."
+name: gallery-dl Image Gallery and Collection Downloader
+description: gallery-dl is a command-line tool for downloading image galleries and
+  collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit,
+  Instagram, and Danbooru. It supports authentication, metadata extraction, filtering,
+  and configurable output templates.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/mikf/gallery-dl"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/mikf/gallery-dl
 tool_ecosystem:
-  github_repo: "mikf/gallery-dl"
+  github_repo: mikf/gallery-dl
   github_stars: 17470
+  tool: gallery-dl
 ---
-
 # gallery-dl Image Gallery and Collection Downloader
-
 gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates.
 
 ## Installation

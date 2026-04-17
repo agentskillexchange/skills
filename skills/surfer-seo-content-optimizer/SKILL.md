@@ -1,16 +1,14 @@
 ---
-title: "Surfer SEO Content Optimizer"
-description: "Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations."
+name: Surfer SEO Content Optimizer
+description: Analyzes top SERP competitors using DataForSEO API and generates content
+  optimization briefs with target word count, NLP entity coverage, heading structure,
+  and internal linking recommendations.
+category: Content Writing & SEO
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer/"
-category:
-  - "Content Writing &amp; SEO"
-framework:
-  - "ChatGPT Agents"
+source: https://agentskillexchange.com/skills/surfer-seo-content-optimizer/
 ---
-
 # Surfer SEO Content Optimizer
-
 Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations.
 
 ## Installation

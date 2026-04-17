@@ -1,19 +1,18 @@
 ---
-title: "Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt"
-description: "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift."
+name: Orchestrate multi-environment OpenTofu and Terraform stacks with shared config
+  and dependency ordering using Terragrunt
+description: Coordinate layered Terraform or OpenTofu stacks across environments so
+  plan and apply runs happen in the right order with shared inputs and less drift.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/gruntwork-io/terragrunt"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+source: https://github.com/gruntwork-io/terragrunt
 tool_ecosystem:
-  github_repo: "gruntwork-io/terragrunt"
+  github_repo: gruntwork-io/terragrunt
   github_stars: 9503
+  tool: terragrunt
 ---
-
 # Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt
-
 Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift.
 
 ## Installation

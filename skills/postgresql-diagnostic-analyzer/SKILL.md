@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Diagnostic Analyzer"
-description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
+name: PostgreSQL Diagnostic Analyzer
+description: Runs diagnostic queries against PostgreSQL using pg_stat_statements,
+  pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention,
+  and bloat using pgstattuple and pg_repack extension analysis.
+category: Runbooks & Diagnostics
+framework: Gemini
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Gemini"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Diagnostic Analyzer
-
 Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis.
 
 ## Installation

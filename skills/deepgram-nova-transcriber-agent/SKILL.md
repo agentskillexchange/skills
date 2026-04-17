@@ -1,16 +1,14 @@
 ---
-title: "Deepgram Nova Transcriber"
-description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
+name: Deepgram Nova Transcriber
+description: Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation,
+  and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded
+  endpoint and callback URLs.
+category: Media & Transcription
+framework: OpenClaw
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "OpenClaw"
+source: https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/
 ---
-
 # Deepgram Nova Transcriber
-
 Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs.
 
 ## Installation

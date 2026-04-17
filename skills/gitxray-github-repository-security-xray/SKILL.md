@@ -1,19 +1,18 @@
 ---
-title: "Gitxray GitHub Repository Security X-Ray"
-description: "A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits, infected releases, leaked PGP keys, and suspicious contributor behavior using public GitHub REST APIs."
+name: Gitxray GitHub Repository Security X-Ray
+description: A multifaceted OSINT and forensics tool for GitHub repositories that
+  detects fake stargazers, tampered commits, infected releases, leaked PGP keys, and
+  suspicious contributor behavior using public GitHub REST APIs.
+category: Security & Verification
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/kulkansecurity/gitxray"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Claude Code"
+source: https://github.com/kulkansecurity/gitxray
 tool_ecosystem:
-  github_repo: "kulkansecurity/gitxray"
+  github_repo: kulkansecurity/gitxray
   github_stars: 174
+  tool: gitxray
 ---
-
 # Gitxray GitHub Repository Security X-Ray
-
 A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits, infected releases, leaked PGP keys, and suspicious contributor behavior using public GitHub REST APIs.
 
 ## Installation

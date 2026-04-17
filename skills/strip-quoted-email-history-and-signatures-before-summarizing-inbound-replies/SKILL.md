@@ -1,19 +1,19 @@
 ---
-title: "Strip quoted email history and signatures before summarizing inbound replies"
-description: "Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history, signatures, and common disclaimers. This is useful when an agent needs the actionable part of an inbound email before routing, summarizing, or creating follow-up tasks."
+name: Strip quoted email history and signatures before summarizing inbound replies
+description: Uses mail-parser-reply to isolate the newest human reply from text email
+  threads while removing quoted history, signatures, and common disclaimers. This
+  is useful when an agent needs the actionable part of an inbound email before routing,
+  summarizing, or creating follow-up tasks.
+category: Calendar, Email & Productivity
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/alfonsrv/mail-parser-reply"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
+source: https://github.com/alfonsrv/mail-parser-reply
 tool_ecosystem:
-  github_repo: "alfonsrv/mail-parser-reply"
+  github_repo: alfonsrv/mail-parser-reply
   github_stars: 78
+  tool: mail-parser-reply
 ---
-
 # Strip quoted email history and signatures before summarizing inbound replies
-
 Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history, signatures, and common disclaimers. This is useful when an agent needs the actionable part of an inbound email before routing, summarizing, or creating follow-up tasks.
 
 ## Installation

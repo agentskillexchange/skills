@@ -1,19 +1,21 @@
 ---
-title: "Soft Serve Self-Hosted Git Server with SSH TUI"
-description: "Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP, and Git protocol, Git LFS, access control with SSH keys, and on-demand repository creation."
+name: Soft Serve Self-Hosted Git Server with SSH TUI
+description: Soft Serve is a self-hostable Git server by Charmbracelet that provides
+  a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP,
+  and Git protocol, Git LFS, access control with SSH keys, and on-demand repository
+  creation.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/charmbracelet/soft-serve"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/charmbracelet/soft-serve
 tool_ecosystem:
-  github_repo: "charmbracelet/soft-serve"
+  github_repo: charmbracelet/soft-serve
   github_stars: 6756
+  tool: soft-serve
+  license: MIT
+  maintained: true
 ---
-
 # Soft Serve Self-Hosted Git Server with SSH TUI
-
 Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP, and Git protocol, Git LFS, access control with SSH keys, and on-demand repository creation.
 
 ## Installation

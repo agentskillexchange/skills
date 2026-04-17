@@ -1,16 +1,13 @@
 ---
-title: "WordPress Content Publisher"
-description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+name: WordPress Content Publisher
+description: Structured publishing workflow for WordPress drafts, metadata, and content
+  operations.
+category: WordPress & CMS
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Custom Agents"
+source: https://github.com/WordPress/WordPress
 ---
-
 # WordPress Content Publisher
-
 Structured publishing workflow for WordPress drafts, metadata, and content operations.
 
 ## Installation

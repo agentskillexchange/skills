@@ -1,21 +1,21 @@
 ---
-title: "Apify Web Scraper Orchestrator"
-description: "Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API v2."
+name: Apify Web Scraper Orchestrator
+description: Orchestrates Apify actors for large-scale web scraping via the Apify
+  Client SDK. Manages actor runs, dataset exports, and proxy configuration through
+  the Apify API v2.
+category: Research & Scraping
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Cursor"
+source: https://github.com/apify/apify-sdk-js
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
-  npm_package: "apify"
+  tool: apify
   npm_weekly_downloads: 34097
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Apify Web Scraper Orchestrator
-
 Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API v2.
 
 ## Installation

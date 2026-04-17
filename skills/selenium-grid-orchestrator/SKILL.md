@@ -1,16 +1,13 @@
 ---
-title: "Selenium Grid Orchestrator"
-description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
+name: Selenium Grid Orchestrator
+description: Manages Selenium Grid 4 hub and node registration for cross-browser parallel
+  testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
+category: Browser Automation
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category:
-  - "Browser Automation"
-framework:
-  - "OpenClaw"
+source: https://github.com/SeleniumHQ/selenium
 ---
-
 # Selenium Grid Orchestrator
-
 Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
 
 ## Installation

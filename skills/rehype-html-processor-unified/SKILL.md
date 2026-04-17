@@ -1,19 +1,19 @@
 ---
-title: "rehype Plugin-Based HTML Processor by the Unified Collective"
-description: "rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract syntax tree, transforms it with composable plugins, and serializes it back — enabling programmatic HTML minification, sanitization, link rewriting, heading extraction, and content manipulation at scale."
+name: rehype Plugin-Based HTML Processor by the Unified Collective
+description: rehype is a plugin-based HTML processing toolkit built on the unified
+  ecosystem. It parses HTML into an abstract syntax tree, transforms it with composable
+  plugins, and serializes it back — enabling programmatic HTML minification, sanitization,
+  link rewriting, heading extraction, and content manipulation at scale.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/rehypejs/rehype"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/rehypejs/rehype
 tool_ecosystem:
-  github_repo: "rehypejs/rehype"
+  github_repo: rehypejs/rehype
   github_stars: 2202
+  tool: rehype
 ---
-
 # rehype Plugin-Based HTML Processor by the Unified Collective
-
 rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract syntax tree, transforms it with composable plugins, and serializes it back — enabling programmatic HTML minification, sanitization, link rewriting, heading extraction, and content manipulation at scale.
 
 ## Installation

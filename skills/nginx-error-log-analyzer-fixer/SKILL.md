@@ -1,19 +1,20 @@
 ---
-title: "Nginx Error Log Analyzer and Fixer"
-description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
+name: Nginx Error Log Analyzer and Fixer
+description: Parses Nginx error logs and access logs to diagnose 502, 504, and 413
+  errors. Uses GoAccess for real-time log visualization and integrates with nginx
+  -t for configuration validation.
+category: Runbooks & Diagnostics
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Agents"
+source: https://github.com/nginx/nginx
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
+  tool: nginx
+  license: BSD-2-Clause
+  maintained: true
 ---
-
 # Nginx Error Log Analyzer and Fixer
-
 Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation.
 
 ## Installation

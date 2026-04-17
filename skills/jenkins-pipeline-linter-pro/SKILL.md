@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Pipeline Linter Pro"
-description: "Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks."
+name: Jenkins Pipeline Linter Pro
+description: Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline
+  Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns
+  like unbounded parallel stages, missing timeout blocks, and credential leaks.
+category: CI/CD Integrations
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
 # Jenkins Pipeline Linter Pro
-
 Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks.
 
 ## Installation

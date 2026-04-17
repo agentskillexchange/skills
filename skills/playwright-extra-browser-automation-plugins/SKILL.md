@@ -1,19 +1,19 @@
 ---
-title: "Playwright Extra Browser Automation Plugins"
-description: "Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of wiring those capabilities by hand. It is useful when browser automations need anti-bot evasions or shared middleware across Chromium sessions."
+name: Playwright Extra Browser Automation Plugins
+description: Playwright Extra adds a plugin layer on top of Microsoft Playwright so
+  agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of
+  wiring those capabilities by hand. It is useful when browser automations need anti-bot
+  evasions or shared middleware across Chromium sessions.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra
 tool_ecosystem:
-  github_repo: "berstend/puppeteer-extra"
+  github_repo: berstend/puppeteer-extra
   github_stars: 7294
+  tool: puppeteer-extra
 ---
-
 # Playwright Extra Browser Automation Plugins
-
 Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of wiring those capabilities by hand. It is useful when browser automations need anti-bot evasions or shared middleware across Chromium sessions.
 
 ## Installation

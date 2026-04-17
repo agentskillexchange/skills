@@ -1,19 +1,21 @@
 ---
-title: "vLLM High-Throughput LLM Serving Engine with PagedAttention"
-description: "vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention for efficient memory management, supports continuous batching, and provides an OpenAI-compatible API server for production-grade LLM deployment."
+name: vLLM High-Throughput LLM Serving Engine with PagedAttention
+description: vLLM is a fast and memory-efficient inference and serving engine for
+  large language models. It uses PagedAttention for efficient memory management, supports
+  continuous batching, and provides an OpenAI-compatible API server for production-grade
+  LLM deployment.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/vllm-project/vllm"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/vllm-project/vllm
 tool_ecosystem:
-  github_repo: "vllm-project/vllm"
+  github_repo: vllm-project/vllm
   github_stars: 75090
+  tool: vllm
+  license: Apache-2.0
+  maintained: true
 ---
-
 # vLLM High-Throughput LLM Serving Engine with PagedAttention
-
 vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention for efficient memory management, supports continuous batching, and provides an OpenAI-compatible API server for production-grade LLM deployment.
 
 ## Installation

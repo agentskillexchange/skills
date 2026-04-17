@@ -1,21 +1,20 @@
 ---
-title: "Supergateway MCP Transport Bridge"
-description: "Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging, and connecting clients across network boundaries with Docker and OAuth support."
+name: Supergateway MCP Transport Bridge
+description: Supergateway enables running MCP stdio-based servers over SSE, WebSockets,
+  or Streamable HTTP with a single command. Essential infrastructure for remote MCP
+  server access, debugging, and connecting clients across network boundaries with
+  Docker and OAuth support.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/supercorp-ai/supergateway"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+source: https://github.com/supercorp-ai/supergateway
 tool_ecosystem:
-  github_repo: "supercorp-ai/supergateway"
+  github_repo: supercorp-ai/supergateway
   github_stars: 2538
-  npm_package: "supergateway"
+  tool: supergateway
   npm_weekly_downloads: 88592
 ---
-
 # Supergateway MCP Transport Bridge
-
 Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging, and connecting clients across network boundaries with Docker and OAuth support.
 
 ## Installation

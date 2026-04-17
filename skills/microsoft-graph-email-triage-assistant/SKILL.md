@@ -1,16 +1,14 @@
 ---
-title: "Microsoft Graph Email Triage Assistant"
-description: "Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules, auto-folders messages, and drafts priority-ranked response summaries."
+name: Microsoft Graph Email Triage Assistant
+description: Triages Outlook inboxes via Microsoft Graph API with delta query for
+  incremental sync. Applies classification rules, auto-folders messages, and drafts
+  priority-ranked response summaries.
+category: Calendar, Email & Productivity
+framework: OpenClaw
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "OpenClaw"
+source: https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/
 ---
-
 # Microsoft Graph Email Triage Assistant
-
 Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules, auto-folders messages, and drafts priority-ranked response summaries.
 
 ## Installation

@@ -1,19 +1,18 @@
 ---
-title: "Run configurable multi-source deep research passes with Open Deep Research"
-description: "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends."
+name: Run configurable multi-source deep research passes with Open Deep Research
+description: Use Open Deep Research when an agent should run a configurable research
+  job that searches, compresses, synthesizes, and writes a cited report across multiple
+  model and search backends.
+category: Research & Scraping
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/langchain-ai/open_deep_research"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
+source: https://github.com/langchain-ai/open_deep_research
 tool_ecosystem:
-  github_repo: "langchain-ai/open_deep_research"
+  github_repo: langchain-ai/open_deep_research
   github_stars: 11125
+  tool: open_deep_research
 ---
-
 # Run configurable multi-source deep research passes with Open Deep Research
-
 Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends.
 
 ## Installation

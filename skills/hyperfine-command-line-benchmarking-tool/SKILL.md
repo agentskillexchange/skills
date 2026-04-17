@@ -1,19 +1,18 @@
 ---
-title: "Hyperfine Command-Line Benchmarking Tool"
-description: "Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison."
+name: Hyperfine Command-Line Benchmarking Tool
+description: Benchmark command-line programs with statistical rigor using Hyperfine.
+  Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and
+  supports parameterized benchmarks for comparison.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/sharkdp/hyperfine"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+source: https://github.com/sharkdp/hyperfine
 tool_ecosystem:
-  github_repo: "sharkdp/hyperfine"
+  github_repo: sharkdp/hyperfine
   github_stars: 27797
+  tool: hyperfine
 ---
-
 # Hyperfine Command-Line Benchmarking Tool
-
 Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison.
 
 ## Installation

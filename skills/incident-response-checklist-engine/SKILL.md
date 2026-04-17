@@ -1,16 +1,14 @@
 ---
-title: "Incident Response Checklist Engine"
-description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
+name: Incident Response Checklist Engine
+description: Generates and tracks incident response checklists using PagerDuty Incident
+  Workflows API and Statuspage.io API. Automates severity classification, stakeholder
+  notification, and post-incident review scheduling with Jira Service Management integration.
+category: Runbooks & Diagnostics
+framework: Claude Agents
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Agents"
+source: https://agentskillexchange.com/skills/incident-response-checklist-engine/
 ---
-
 # Incident Response Checklist Engine
-
 Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration.
 
 ## Installation

@@ -1,22 +1,22 @@
 ---
-title: "Devcontainer Setup Agent"
-description: "Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the [&hellip;]"
+name: Devcontainer Setup Agent
+description: Devcontainer Setup Agent is built around Docker container platform. The
+  underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives
+  an agent a more technical and reliable way to work with the tool than a thin one-line
+  wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose,
+  image builds, registries and preserving the […]
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/devcontainers/cli"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+source: https://github.com/devcontainers/cli
 tool_ecosystem:
-  github_repo: "devcontainers/cli"
+  github_repo: devcontainers/cli
   github_stars: 2637
-  npm_package: "@devcontainers/cli"
+  tool: '@devcontainers/cli'
   npm_weekly_downloads: 260579
 ---
-
 # Devcontainer Setup Agent
-
-Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the [&hellip;]
+Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]
 
 ## Installation
 

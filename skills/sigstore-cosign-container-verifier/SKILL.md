@@ -1,16 +1,14 @@
 ---
-title: "Sigstore Cosign Container Verifier"
-description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
+name: Sigstore Cosign Container Verifier
+description: Verifies container image signatures and provenance using Sigstore Cosign
+  and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission
+  rules.
+category: Security & Verification
+framework: MCP
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "MCP"
+source: https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/
 ---
-
 # Sigstore Cosign Container Verifier
-
 Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules.
 
 ## Installation

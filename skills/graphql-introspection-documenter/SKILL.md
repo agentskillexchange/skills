@@ -1,21 +1,21 @@
 ---
-title: "GraphQL Introspection Documenter"
-description: "Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions."
+name: GraphQL Introspection Documenter
+description: Introspects GraphQL endpoints using the __schema query and generates
+  structured API documentation. Uses graphql-js type system to resolve interfaces,
+  unions, and custom scalar descriptions.
+category: Library & API Reference
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Claude Agents"
+source: https://github.com/graphql/graphql-js
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
-  npm_package: "graphql"
+  tool: graphql
   npm_weekly_downloads: 34200861
+  license: MIT
+  maintained: true
 ---
-
 # GraphQL Introspection Documenter
-
 Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions.
 
 ## Installation

@@ -1,21 +1,20 @@
 ---
-title: "Directus SQL-Native Headless CMS and Internal App Platform"
-description: "Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary data model. It is a strong fit for teams that want self-hosted content operations, internal tooling, and database-first workflows with REST, GraphQL, auth, and extension support."
+name: Directus SQL-Native Headless CMS and Internal App Platform
+description: Directus turns a SQL database into a headless CMS, admin app, and instant
+  API layer without forcing a proprietary data model. It is a strong fit for teams
+  that want self-hosted content operations, internal tooling, and database-first workflows
+  with REST, GraphQL, auth, and extension support.
+category: WordPress & CMS
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/directus/directus"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Multi-Framework"
+source: https://github.com/directus/directus
 tool_ecosystem:
-  github_repo: "directus/directus"
+  github_repo: directus/directus
   github_stars: 34784
-  npm_package: "directus"
+  tool: directus
   npm_weekly_downloads: 23291
 ---
-
 # Directus SQL-Native Headless CMS and Internal App Platform
-
 Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary data model. It is a strong fit for teams that want self-hosted content operations, internal tooling, and database-first workflows with REST, GraphQL, auth, and extension support.
 
 ## Installation

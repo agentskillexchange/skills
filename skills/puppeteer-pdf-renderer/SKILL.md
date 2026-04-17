@@ -1,19 +1,19 @@
 ---
-title: "Puppeteer PDF Renderer"
-description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
+name: Puppeteer PDF Renderer
+description: Generates pixel-perfect PDFs from web pages using Puppeteer with custom
+  headers, footers, and page breaks. Supports authenticated pages via cookie injection.
+category: Browser Automation
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category:
-  - "Browser Automation"
-framework:
-  - "Cursor"
+source: https://github.com/puppeteer/puppeteer
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
+  tool: puppeteer
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Puppeteer PDF Renderer
-
 Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.
 
 ## Installation

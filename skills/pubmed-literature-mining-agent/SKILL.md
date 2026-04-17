@@ -1,16 +1,14 @@
 ---
-title: "PubMed Literature Mining Agent"
-description: "Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text links from PubMed Central via the PMC OAI-PMH service."
+name: PubMed Literature Mining Agent
+description: Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve
+  PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text
+  links from PubMed Central via the PMC OAI-PMH service.
+category: Research & Scraping
+framework: Gemini
 verification: security_reviewed
-source: "https://pubmed.ncbi.nlm.nih.gov/"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Gemini"
+source: https://pubmed.ncbi.nlm.nih.gov/
 ---
-
 # PubMed Literature Mining Agent
-
 Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text links from PubMed Central via the PMC OAI-PMH service.
 
 ## Installation

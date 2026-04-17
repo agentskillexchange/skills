@@ -1,19 +1,18 @@
 ---
-title: "Diff YAML manifests semantically and surface meaningful drift before apply with dyff"
-description: "Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs."
+name: Diff YAML manifests semantically and surface meaningful drift before apply with
+  dyff
+description: Use dyff to compare YAML documents by structure and changed paths so
+  agents can review configuration drift without the noise of plain line diffs.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/homeport/dyff"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/homeport/dyff
 tool_ecosystem:
-  github_repo: "homeport/dyff"
+  github_repo: homeport/dyff
   github_stars: 1800
+  tool: dyff
 ---
-
 # Diff YAML manifests semantically and surface meaningful drift before apply with dyff
-
 Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs.
 
 ## Installation

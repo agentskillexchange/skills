@@ -1,19 +1,20 @@
 ---
-title: "AWS Systems Manager Runbook"
-description: "Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports cross-account execution, rate controls, and parameter store integration."
+name: AWS Systems Manager Runbook
+description: Execute AWS Systems Manager Automation runbooks and Run Command documents
+  using the SSM API and boto3. Supports cross-account execution, rate controls, and
+  parameter store integration.
+category: Runbooks & Diagnostics
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Agents"
+source: https://github.com/aws/aws-sdk-js-v3
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
+  tool: aws-sdk-js-v3
+  license: Apache-2.0
+  maintained: true
 ---
-
 # AWS Systems Manager Runbook
-
 Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports cross-account execution, rate controls, and parameter store integration.
 
 ## Installation

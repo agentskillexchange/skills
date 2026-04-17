@@ -1,19 +1,20 @@
 ---
-title: "Pandas DataFrame Pipeline Builder"
-description: "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations."
+name: Pandas DataFrame Pipeline Builder
+description: Constructs data transformation pipelines using Pandas and the pipe()
+  method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for
+  high-performance Parquet operations.
+category: Data Extraction & Transformation
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/pandas-dev/pandas"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Cursor"
+source: https://github.com/pandas-dev/pandas
 tool_ecosystem:
-  github_repo: "pandas-dev/pandas"
+  github_repo: pandas-dev/pandas
   github_stars: 48498
+  tool: pandas
+  license: BSD-3-Clause
+  maintained: true
 ---
-
 # Pandas DataFrame Pipeline Builder
-
 Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations.
 
 ## Installation

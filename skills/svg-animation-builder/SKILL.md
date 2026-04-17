@@ -1,16 +1,14 @@
 ---
-title: "SVG Animation Builder"
-description: "Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based animations with morphing paths via flubber and scroll-triggered sequences using ScrollTrigger plugin."
+name: SVG Animation Builder
+description: Creates animated SVGs using GSAP (GreenSock Animation Platform) and the
+  SVG DOM API. Generates timeline-based animations with morphing paths via flubber
+  and scroll-triggered sequences using ScrollTrigger plugin.
+category: Image & Creative Automation
+framework: Custom Agents
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/svg-animation-builder/"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "Custom Agents"
+source: https://agentskillexchange.com/skills/svg-animation-builder/
 ---
-
 # SVG Animation Builder
-
 Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based animations with morphing paths via flubber and scroll-triggered sequences using ScrollTrigger plugin.
 
 ## Installation

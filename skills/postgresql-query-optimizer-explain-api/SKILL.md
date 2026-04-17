@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Query Optimizer Agent"
-description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives."
+name: PostgreSQL Query Optimizer Agent
+description: Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with
+  pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical
+  index simulator and validates query plans against pg_hint_plan directives.
+category: Developer Tools
+framework: OpenClaw
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Developer Tools"
-framework:
-  - "OpenClaw"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Query Optimizer Agent
-
 Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives.
 
 ## Installation

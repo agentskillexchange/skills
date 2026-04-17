@@ -1,16 +1,14 @@
 ---
-title: "YouTube Chapter Generator from Transcripts"
-description: "Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance."
+name: YouTube Chapter Generator from Transcripts
+description: Extracts YouTube video transcripts via the youtube-transcript-api Python
+  library and generates semantic chapter markers. Uses sentence-transformers for topic
+  segmentation and formats chapter timestamps for YouTube description metadata compliance.
+category: Media & Transcription
+framework: OpenClaw
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "OpenClaw"
+source: https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/
 ---
-
 # YouTube Chapter Generator from Transcripts
-
 Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance.
 
 ## Installation

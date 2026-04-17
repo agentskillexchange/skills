@@ -1,19 +1,20 @@
 ---
-title: "Whisper.cpp Real-Time Transcription Pipeline"
-description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously."
+name: Whisper.cpp Real-Time Transcription Pipeline
+description: Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time
+  speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts
+  simultaneously.
+category: Media & Transcription
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/openai/whisper"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Claude Code"
+source: https://github.com/openai/whisper
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97775
+  tool: whisper
+  license: MIT
+  maintained: true
 ---
-
 # Whisper.cpp Real-Time Transcription Pipeline
-
 Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously.
 
 ## Installation

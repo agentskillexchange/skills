@@ -1,19 +1,19 @@
 ---
-title: "Meltano Declarative ELT Data Integration Engine"
-description: "Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes."
+name: Meltano Declarative ELT Data Integration Engine
+description: Meltano is an open-source, CLI-first ELT platform built on the Singer
+  specification. It provides declarative, code-first data integration with 600+ connectors
+  through Singer taps and targets, orchestrating data movement from APIs, databases,
+  and files to warehouses and lakes.
+category: Data Extraction & Transformation
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/meltano/meltano"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Custom Agents"
+source: https://github.com/meltano/meltano
 tool_ecosystem:
-  github_repo: "meltano/meltano"
+  github_repo: meltano/meltano
   github_stars: 2403
+  tool: meltano
 ---
-
 # Meltano Declarative ELT Data Integration Engine
-
 Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes.
 
 ## Installation

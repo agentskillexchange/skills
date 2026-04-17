@@ -1,21 +1,19 @@
 ---
-title: "Inspect and debug MCP servers visually before connecting them to agents"
-description: "Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually, and troubleshoot transport or schema issues before putting that server in front of real agents."
+name: Inspect and debug MCP servers visually before connecting them to agents
+description: Use MCP Inspector when you need to launch an MCP server, inspect its
+  tools and resources, exercise calls manually, and troubleshoot transport or schema
+  issues before putting that server in front of real agents.
+category: Developer Tools
+framework: MCP
 verification: listed
-source: "https://github.com/modelcontextprotocol/inspector"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+source: https://github.com/modelcontextprotocol/inspector
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/inspector"
+  github_repo: modelcontextprotocol/inspector
   github_stars: 9431
-  npm_package: "@modelcontextprotocol/inspector"
+  tool: '@modelcontextprotocol/inspector'
   npm_weekly_downloads: 635249
 ---
-
 # Inspect and debug MCP servers visually before connecting them to agents
-
 Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually, and troubleshoot transport or schema issues before putting that server in front of real agents.
 
 ## Installation

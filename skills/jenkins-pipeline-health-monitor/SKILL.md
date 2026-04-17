@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Pipeline Health Monitor"
-description: "Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance."
+name: Jenkins Pipeline Health Monitor
+description: Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean
+  API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings
+  for proactive CI maintenance.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Codex"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
 # Jenkins Pipeline Health Monitor
-
 Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance.
 
 ## Installation

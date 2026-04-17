@@ -1,16 +1,14 @@
 ---
-title: "OSINT Domain Intelligence Scanner"
-description: "Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups. Aggregates subdomain enumeration via Amass and certificate transparency logs from crt.sh for comprehensive attack surface mapping."
+name: OSINT Domain Intelligence Scanner
+description: Performs deep OSINT analysis on domains using Shodan API, SecurityTrails
+  DNS history, and WHOIS RDAP lookups. Aggregates subdomain enumeration via Amass
+  and certificate transparency logs from crt.sh for comprehensive attack surface mapping.
+category: Research & Scraping
+framework: OpenClaw
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "OpenClaw"
+source: https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/
 ---
-
 # OSINT Domain Intelligence Scanner
-
 Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups. Aggregates subdomain enumeration via Amass and certificate transparency logs from crt.sh for comprehensive attack surface mapping.
 
 ## Installation

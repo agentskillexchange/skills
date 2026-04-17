@@ -1,16 +1,14 @@
 ---
-title: "Keyword Cluster Generator"
-description: "Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API."
+name: Keyword Cluster Generator
+description: Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2
+  embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API
+  and SEMrush API.
+category: Content Writing & SEO
+framework: MCP
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
-category:
-  - "Content Writing &amp; SEO"
-framework:
-  - "MCP"
+source: https://agentskillexchange.com/skills/keyword-cluster-generator-agent/
 ---
-
 # Keyword Cluster Generator
-
 Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API.
 
 ## Installation

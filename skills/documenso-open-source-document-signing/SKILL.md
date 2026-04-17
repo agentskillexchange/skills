@@ -1,19 +1,18 @@
 ---
-title: "Documenso Open Source Document Signing Platform"
-description: "Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic signatures with self-hosting capabilities, providing transparent and trustworthy document workflows built on open trust infrastructure."
+name: Documenso Open Source Document Signing Platform
+description: Documenso is an open-source digital document signing platform and DocuSign
+  alternative. It enables secure electronic signatures with self-hosting capabilities,
+  providing transparent and trustworthy document workflows built on open trust infrastructure.
+category: Calendar, Email & Productivity
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/documenso/documenso"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
+source: https://github.com/documenso/documenso
 tool_ecosystem:
-  github_repo: "documenso/documenso"
+  github_repo: documenso/documenso
   github_stars: 12587
+  tool: documenso
 ---
-
 # Documenso Open Source Document Signing Platform
-
 Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic signatures with self-hosting capabilities, providing transparent and trustworthy document workflows built on open trust infrastructure.
 
 ## Installation

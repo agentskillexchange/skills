@@ -1,21 +1,18 @@
 ---
-title: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
-description: "Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text."
+name: Turn Markdown runbooks into executable, parameterized procedures with Runme
+description: Run named steps directly from Markdown runbooks so operational docs stay
+  executable instead of drifting into stale reference text.
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/runmedev/runme"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
+source: https://github.com/runmedev/runme
 tool_ecosystem:
-  github_repo: "runmedev/runme"
+  github_repo: runmedev/runme
   github_stars: 2031
-  npm_package: "runme"
+  tool: runme
   npm_weekly_downloads: 1167
 ---
-
 # Turn Markdown runbooks into executable, parameterized procedures with Runme
-
 Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text.
 
 ## Installation

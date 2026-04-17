@@ -1,16 +1,14 @@
 ---
-title: "Codecov Coverage Report Analyzer"
-description: "Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats."
+name: Codecov Coverage Report Analyzer
+description: Integrates with the Codecov API v2 and codecov-cli to upload coverage
+  reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov,
+  cobertura, and jacoco report formats.
+category: Code Quality & Review
+framework: Cursor
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Cursor"
+source: https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/
 ---
-
 # Codecov Coverage Report Analyzer
-
 Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats.
 
 ## Installation

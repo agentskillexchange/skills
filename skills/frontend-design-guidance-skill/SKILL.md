@@ -1,16 +1,13 @@
 ---
-title: "Frontend Design Guidance Skill"
-description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
+name: Frontend Design Guidance Skill
+description: Practical frontend design guidance for landing pages, dashboards, and
+  UI implementation work.
+category: Developer Tools
+framework: OpenClaw
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
-category:
-  - "Developer Tools"
-framework:
-  - "OpenClaw"
+source: https://agentskillexchange.com/skills/frontend-design-guidance-skill/
 ---
-
 # Frontend Design Guidance Skill
-
 Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
 
 ## Installation

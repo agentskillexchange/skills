@@ -1,19 +1,19 @@
 ---
-title: "Docling Document Parsing and Conversion"
-description: "Docling is an open-source document processing toolkit for turning PDFs and other files into structured outputs for AI systems. It handles advanced PDF understanding, OCR, multiple export formats, and integrations with agent and retrieval frameworks."
+name: Docling Document Parsing and Conversion
+description: Docling is an open-source document processing toolkit for turning PDFs
+  and other files into structured outputs for AI systems. It handles advanced PDF
+  understanding, OCR, multiple export formats, and integrations with agent and retrieval
+  frameworks.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/docling-project/docling"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/docling-project/docling
 tool_ecosystem:
-  github_repo: "docling-project/docling"
+  github_repo: docling-project/docling
   github_stars: 57771
+  tool: docling
 ---
-
 # Docling Document Parsing and Conversion
-
 Docling is an open-source document processing toolkit for turning PDFs and other files into structured outputs for AI systems. It handles advanced PDF understanding, OCR, multiple export formats, and integrations with agent and retrieval frameworks.
 
 ## Installation

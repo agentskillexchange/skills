@@ -1,19 +1,21 @@
 ---
-title: "htmlq Command-Line HTML Content Extractor with CSS Selectors"
-description: "htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal."
+name: htmlq Command-Line HTML Content Extractor with CSS Selectors
+description: htmlq is a command-line tool for extracting content from HTML using CSS
+  selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you
+  pipe HTML through CSS selectors to extract text, attributes, and structured content
+  directly from the terminal.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/mgdm/htmlq"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/mgdm/htmlq
 tool_ecosystem:
-  github_repo: "mgdm/htmlq"
+  github_repo: mgdm/htmlq
   github_stars: 7514
+  tool: htmlq
+  license: MIT
+  maintained: false
 ---
-
 # htmlq Command-Line HTML Content Extractor with CSS Selectors
-
 htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal.
 
 ## Installation

@@ -1,19 +1,21 @@
 ---
-title: "Fabric AI Prompt Pattern Framework"
-description: "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced prompt patterns that solve specific problems—from summarizing content to extracting wisdom to analyzing security threats—all usable from the command line."
+name: Fabric AI Prompt Pattern Framework
+description: Fabric is an open-source framework for augmenting humans using AI. It
+  provides a modular system of crowdsourced prompt patterns that solve specific problems—from
+  summarizing content to extracting wisdom to analyzing security threats—all usable
+  from the command line.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/danielmiessler/fabric"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+source: https://github.com/danielmiessler/fabric
 tool_ecosystem:
-  github_repo: "danielmiessler/fabric"
+  github_repo: danielmiessler/fabric
   github_stars: 40278
+  tool: fabric
+  license: MIT
+  maintained: true
 ---
-
 # Fabric AI Prompt Pattern Framework
-
 Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced prompt patterns that solve specific problems—from summarizing content to extracting wisdom to analyzing security threats—all usable from the command line.
 
 ## Installation

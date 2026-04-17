@@ -1,16 +1,14 @@
 ---
-title: "Datadog Monitor Configuration Agent"
-description: "Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and composite monitors with proper threshold types and notification routing."
+name: Datadog Monitor Configuration Agent
+description: Creates and manages Datadog monitors using the datadog-api-client SDK.
+  Configures metric, log, APM trace, and composite monitors with proper threshold
+  types and notification routing.
+category: Monitoring & Alerts
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Claude Agents"
+source: https://github.com/DataDog/dd-trace-js
 ---
-
 # Datadog Monitor Configuration Agent
-
 Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and composite monitors with proper threshold types and notification routing.
 
 ## Installation

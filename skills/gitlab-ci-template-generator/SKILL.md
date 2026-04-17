@@ -1,19 +1,19 @@
 ---
-title: "GitLab CI Template Generator"
-description: "Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs."
+name: GitLab CI Template Generator
+description: Creates GitLab CI/CD pipeline templates using Auto DevOps components,
+  Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project
+  pipelines with trigger and bridge jobs.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "OpenClaw"
+source: https://github.com/gitlabhq/gitlabhq
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
+  tool: gitlabhq
+  maintained: true
 ---
-
 # GitLab CI Template Generator
-
 Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs.
 
 ## Installation

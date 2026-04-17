@@ -1,19 +1,17 @@
 ---
-title: "Apply structural codemods across large codebases with Comby"
-description: "Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace."
+name: Apply structural codemods across large codebases with Comby
+description: Rewrite recurring code patterns with syntax-aware matching so agents
+  can run migration codemods more safely than plain regex search and replace.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/comby-tools/comby"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/comby-tools/comby
 tool_ecosystem:
-  github_repo: "comby-tools/comby"
+  github_repo: comby-tools/comby
   github_stars: 2626
+  tool: comby
 ---
-
 # Apply structural codemods across large codebases with Comby
-
 Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.
 
 ## Installation

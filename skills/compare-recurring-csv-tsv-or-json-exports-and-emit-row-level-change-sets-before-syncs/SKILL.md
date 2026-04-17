@@ -1,19 +1,20 @@
 ---
-title: "Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs"
-description: "Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files differ. The agent lines records up by a stable key, reports added, removed, and changed rows, and can hand the result to humans or downstream automations as readable text or machine-friendly JSON."
+name: Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before
+  syncs
+description: Use csv-diff when an agent needs to explain what changed between two
+  structured exports, not just that the files differ. The agent lines records up by
+  a stable key, reports added, removed, and changed rows, and can hand the result
+  to humans or downstream automations as readable text or machine-friendly JSON.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/simonw/csv-diff"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/simonw/csv-diff
 tool_ecosystem:
-  github_repo: "simonw/csv-diff"
+  github_repo: simonw/csv-diff
   github_stars: 330
+  tool: csv-diff
 ---
-
 # Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs
-
 Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files differ. The agent lines records up by a stable key, reports added, removed, and changed rows, and can hand the result to humans or downstream automations as readable text or machine-friendly JSON.
 
 ## Installation

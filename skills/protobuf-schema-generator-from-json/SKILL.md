@@ -1,16 +1,14 @@
 ---
-title: "Protocol Buffer Schema Generator"
-description: "Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates proto3 schemas with nested message types, enums, and gRPC service stubs."
+name: Protocol Buffer Schema Generator
+description: Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler
+  and grpcio-tools. Generates proto3 schemas with nested message types, enums, and
+  gRPC service stubs.
+category: Data Extraction & Transformation
+framework: Gemini
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Gemini"
+source: https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/
 ---
-
 # Protocol Buffer Schema Generator
-
 Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates proto3 schemas with nested message types, enums, and gRPC service stubs.
 
 ## Installation

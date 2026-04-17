@@ -1,19 +1,20 @@
 ---
-title: "Pandas Profiling Report Generator"
-description: "Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries."
+name: Pandas Profiling Report Generator
+description: Generates comprehensive data quality reports using ydata-profiling (formerly
+  pandas-profiling) with correlation analysis, missing value patterns, and cardinality
+  detection. Exports interactive HTML dashboards and JSON summaries.
+category: Data Extraction & Transformation
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/pandas-dev/pandas"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Codex"
+source: https://github.com/pandas-dev/pandas
 tool_ecosystem:
-  github_repo: "pandas-dev/pandas"
+  github_repo: pandas-dev/pandas
   github_stars: 48498
+  tool: pandas
+  license: BSD-3-Clause
+  maintained: true
 ---
-
 # Pandas Profiling Report Generator
-
 Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries.
 
 ## Installation

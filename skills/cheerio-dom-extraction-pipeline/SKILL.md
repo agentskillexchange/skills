@@ -1,21 +1,21 @@
 ---
-title: "Cheerio DOM Extraction Pipeline"
-description: "Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv."
+name: Cheerio DOM Extraction Pipeline
+description: Builds configurable data extraction pipelines using Cheerio for server-side
+  DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination
+  following, and schema validation via Ajv.
+category: Data Extraction & Transformation
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/cheeriojs/cheerio"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Codex"
+source: https://github.com/cheeriojs/cheerio
 tool_ecosystem:
-  github_repo: "cheeriojs/cheerio"
+  github_repo: cheeriojs/cheerio
   github_stars: 30270
-  npm_package: "cheerio"
+  tool: cheerio
   npm_weekly_downloads: 19621708
+  license: MIT
+  maintained: true
 ---
-
 # Cheerio DOM Extraction Pipeline
-
 Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv.
 
 ## Installation

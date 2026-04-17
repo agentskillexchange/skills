@@ -1,19 +1,19 @@
 ---
-title: "CircleCI Orb Builder"
-description: "Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI."
+name: CircleCI Orb Builder
+description: Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12
+  pipeline. Packages commands, executors, and jobs into publishable orbs with automated
+  semantic versioning via the CircleCI CLI.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
+source: https://github.com/circleci/circleci-docs
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
+  tool: circleci-docs
+  maintained: true
 ---
-
 # CircleCI Orb Builder
-
 Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI.
 
 ## Installation

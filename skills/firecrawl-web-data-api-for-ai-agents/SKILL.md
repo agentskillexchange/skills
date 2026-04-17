@@ -1,21 +1,19 @@
 ---
-title: "Firecrawl Web Data API for AI Agents"
-description: "Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON, screenshots, and crawl results that plug neatly into research, extraction, and retrieval workflows."
+name: Firecrawl Web Data API for AI Agents
+description: Use Firecrawl to search, scrape, crawl, and interact with the web through
+  an API built for AI agents. It returns clean markdown, structured JSON, screenshots,
+  and crawl results that plug neatly into research, extraction, and retrieval workflows.
+category: Research & Scraping
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/firecrawl/firecrawl"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
+source: https://github.com/firecrawl/firecrawl
 tool_ecosystem:
-  github_repo: "firecrawl/firecrawl"
+  github_repo: firecrawl/firecrawl
   github_stars: 108813
-  npm_package: "firecrawl"
+  tool: firecrawl
   npm_weekly_downloads: 166382
 ---
-
 # Firecrawl Web Data API for AI Agents
-
 Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON, screenshots, and crawl results that plug neatly into research, extraction, and retrieval workflows.
 
 ## Installation

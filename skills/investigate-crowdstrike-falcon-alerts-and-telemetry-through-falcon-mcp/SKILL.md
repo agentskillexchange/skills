@@ -1,19 +1,18 @@
 ---
-title: "Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp"
-description: "Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents, behaviors, threat intel, or read-only response context to triage a security event without leaving an MCP workflow."
+name: Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp
+description: Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents,
+  behaviors, threat intel, or read-only response context to triage a security event
+  without leaving an MCP workflow.
+category: Security & Verification
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/CrowdStrike/falcon-mcp"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "MCP"
+source: https://github.com/CrowdStrike/falcon-mcp
 tool_ecosystem:
-  github_repo: "CrowdStrike/falcon-mcp"
+  github_repo: CrowdStrike/falcon-mcp
   github_stars: 136
+  tool: falcon-mcp
 ---
-
 # Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp
-
 Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents, behaviors, threat intel, or read-only response context to triage a security event without leaving an MCP workflow.
 
 ## Installation

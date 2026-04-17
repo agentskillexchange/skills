@@ -1,17 +1,15 @@
 ---
-title: "jq JSON Stream Transformer"
-description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq's streaming parser."
+name: jq JSON Stream Transformer
+description: Constructs complex jq filter expressions for transforming JSON/NDJSON
+  streams, including recursive descent, object construction, and reduce operations.
+  Handles multi-gigabyte streams with jq’s streaming parser.
+category: Data Extraction & Transformation
+framework: MCP
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "MCP"
+source: https://agentskillexchange.com/skills/jq-json-stream-transformer/
 ---
-
 # jq JSON Stream Transformer
-
-Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq's streaming parser.
+Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser.
 
 ## Installation
 

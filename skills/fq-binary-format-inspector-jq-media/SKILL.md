@@ -1,19 +1,20 @@
 ---
-title: "fq Binary Format Inspector and jq for Media Files"
-description: "fq is a command-line tool that brings jq-style querying to binary formats. It decodes, inspects, and transforms media containers, executables, packet captures, and dozens of other binary formats using familiar jq expressions and an interactive REPL."
+name: fq Binary Format Inspector and jq for Media Files
+description: fq is a command-line tool that brings jq-style querying to binary formats.
+  It decodes, inspects, and transforms media containers, executables, packet captures,
+  and dozens of other binary formats using familiar jq expressions and an interactive
+  REPL.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/wader/fq"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+source: https://github.com/wader/fq
 tool_ecosystem:
-  github_repo: "wader/fq"
+  github_repo: wader/fq
   github_stars: 10468
+  tool: fq
+  maintained: true
 ---
-
 # fq Binary Format Inspector and jq for Media Files
-
 fq is a command-line tool that brings jq-style querying to binary formats. It decodes, inspects, and transforms media containers, executables, packet captures, and dozens of other binary formats using familiar jq expressions and an interactive REPL.
 
 ## Installation

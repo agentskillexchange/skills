@@ -1,19 +1,21 @@
 ---
-title: "Hugging Face Model Deployer"
-description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
+name: Hugging Face Model Deployer
+description: Deploys models from Hugging Face Hub to Inference Endpoints using the
+  huggingface_hub client and REST API. Monitors endpoint health and autoscaling status
+  and streams logs to the terminal. Supports private repos with HF_TOKEN and custom
+  Docker containers.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
-source: "https://github.com/huggingface/transformers"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Codex"
+source: https://github.com/huggingface/transformers
 tool_ecosystem:
-  github_repo: "huggingface/transformers"
+  github_repo: huggingface/transformers
   github_stars: 159358
+  tool: transformers
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Hugging Face Model Deployer
-
 Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers.
 
 ## Installation

@@ -1,19 +1,20 @@
 ---
-title: "ArgoCD Sync Status Monitor"
-description: "Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK."
+name: ArgoCD Sync Status Monitor
+description: Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC
+  gateway. Detects drift between desired and live Kubernetes manifests and triggers
+  Slack notifications through the Slack Bolt SDK.
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Agents"
+source: https://github.com/argoproj/argo-cd
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
+  tool: argo-cd
+  license: Apache-2.0
+  maintained: true
 ---
-
 # ArgoCD Sync Status Monitor
-
 Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK.
 
 ## Installation

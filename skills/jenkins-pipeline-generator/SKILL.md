@@ -1,19 +1,20 @@
 ---
-title: "Jenkins Pipeline Generator"
-description: "Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization."
+name: Jenkins Pipeline Generator
+description: Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline
+  Syntax reference and shared library patterns. Integrates with the Jenkins REST API
+  (/api/json) for job configuration and the Blue Ocean API for pipeline visualization.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Custom Agents"
+source: https://github.com/jenkinsci/jenkins
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
+  tool: jenkins
+  license: MIT
+  maintained: true
 ---
-
 # Jenkins Pipeline Generator
-
 Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization.
 
 ## Installation

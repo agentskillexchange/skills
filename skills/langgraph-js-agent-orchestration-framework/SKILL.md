@@ -1,19 +1,18 @@
 ---
-title: "LangGraph.js Agent Orchestration Framework"
-description: "A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points."
+name: LangGraph.js Agent Orchestration Framework
+description: A verified skill for LangGraph.js, the graph-based orchestration framework
+  from LangChain. It focuses on controllable agents, persistence, streaming, and deployment
+  entry points.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/langchain-ai/langgraphjs"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/langchain-ai/langgraphjs
 tool_ecosystem:
-  github_repo: "langchain-ai/langgraphjs"
+  github_repo: langchain-ai/langgraphjs
   github_stars: 2781
+  tool: langgraphjs
 ---
-
 # LangGraph.js Agent Orchestration Framework
-
 A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points.
 
 ## Installation

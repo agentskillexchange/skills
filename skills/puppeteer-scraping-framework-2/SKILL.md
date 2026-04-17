@@ -1,19 +1,20 @@
 ---
-title: "Puppeteer Scraping Framework"
-description: "Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access."
+name: Puppeteer Scraping Framework
+description: Headless Chrome scraping using Puppeteer with stealth plugin, request
+  interception via page.setRequestInterception(), and automatic CAPTCHA detection.
+  Supports CDP sessions for advanced protocol access.
+category: Research & Scraping
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Claude Code"
+source: https://github.com/puppeteer/puppeteer
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
+  tool: puppeteer
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Puppeteer Scraping Framework
-
 Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access.
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "AsyncAPI Event Catalog Builder"
-description: "Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ."
+name: AsyncAPI Event Catalog Builder
+description: Generates event-driven architecture documentation from AsyncAPI 3.0 specifications.
+  Uses the AsyncAPI parser-js library to extract channels, message schemas, and server
+  bindings for Kafka and RabbitMQ.
+category: Library & API Reference
+framework: Gemini
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Gemini"
+source: https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/
 ---
-
 # AsyncAPI Event Catalog Builder
-
 Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ.
 
 ## Installation

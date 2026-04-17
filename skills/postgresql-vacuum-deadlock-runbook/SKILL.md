@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Vacuum Deadlock Runbook"
-description: "Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables, pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension and generates remediation SQL for long-running transaction conflicts."
+name: PostgreSQL Vacuum Deadlock Runbook
+description: Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables,
+  pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension
+  and generates remediation SQL for long-running transaction conflicts.
+category: Runbooks & Diagnostics
+framework: Claude Agents
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Agents"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Vacuum Deadlock Runbook
-
 Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables, pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension and generates remediation SQL for long-running transaction conflicts.
 
 ## Installation

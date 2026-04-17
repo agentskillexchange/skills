@@ -1,22 +1,22 @@
 ---
-title: "Metrics Dashboard Builder"
-description: "Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context [&hellip;]"
+name: Metrics Dashboard Builder
+description: Metrics Dashboard Builder is built around Datadog observability platform.
+  The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars).
+  It gives an agent a more technical and reliable way to work with the tool than a
+  thin one-line wrapper, using stable interfaces like metrics API, monitors, logs,
+  dashboards, traces, incidents and preserving the operational context […]
+category: Monitoring & Alerts
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/DataDog/datadog-api-client-typescript"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Claude Agents"
+source: https://github.com/DataDog/datadog-api-client-typescript
 tool_ecosystem:
-  github_repo: "DataDog/datadog-api-client-typescript"
+  github_repo: DataDog/datadog-api-client-typescript
   github_stars: 103
-  npm_package: "@datadog/datadog-api-client"
+  tool: '@datadog/datadog-api-client'
   npm_weekly_downloads: 2139115
 ---
-
 # Metrics Dashboard Builder
-
-Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context [&hellip;]
+Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context […]
 
 ## Installation
 

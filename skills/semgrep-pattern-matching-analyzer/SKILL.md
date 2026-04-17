@@ -1,19 +1,20 @@
 ---
-title: "Semgrep Pattern Matching Analyzer"
-description: "Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for multi-language SAST scanning. Manages rule bundles in semgrep.yml with autofix transformations."
+name: Semgrep Pattern Matching Analyzer
+description: Writes and deploys custom Semgrep rules using pattern, pattern-either,
+  and metavariable-regex operators for multi-language SAST scanning. Manages rule
+  bundles in semgrep.yml with autofix transformations.
+category: Code Quality & Review
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "OpenClaw"
+source: https://github.com/semgrep/semgrep
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
+  tool: semgrep
+  license: LGPL-2.1
+  maintained: true
 ---
-
 # Semgrep Pattern Matching Analyzer
-
 Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for multi-language SAST scanning. Manages rule bundles in semgrep.yml with autofix transformations.
 
 ## Installation

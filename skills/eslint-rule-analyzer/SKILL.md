@@ -1,21 +1,21 @@
 ---
-title: "ESLint Rule Analyzer"
-description: "Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config system. Detects rule conflicts, unused rules, and generates project-specific rule recommendations from eslint-plugin-unicorn and typescript-eslint."
+name: ESLint Rule Analyzer
+description: Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile)
+  and flat config system. Detects rule conflicts, unused rules, and generates project-specific
+  rule recommendations from eslint-plugin-unicorn and typescript-eslint.
+category: Code Quality & Review
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
+source: https://github.com/eslint/eslint
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
-  npm_package: "eslint"
+  tool: eslint
   npm_weekly_downloads: 120215107
+  license: MIT
+  maintained: true
 ---
-
 # ESLint Rule Analyzer
-
 Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config system. Detects rule conflicts, unused rules, and generates project-specific rule recommendations from eslint-plugin-unicorn and typescript-eslint.
 
 ## Installation

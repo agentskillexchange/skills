@@ -1,21 +1,21 @@
 ---
-title: "DALL-E Prompt Chain Generator"
-description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting."
+name: DALL-E Prompt Chain Generator
+description: Generates and iterates DALL-E 3 image prompts using the OpenAI Images
+  API with size, quality, and style parameters. Chains edits via the images/edits
+  endpoint with mask-based inpainting.
+category: Image & Creative Automation
+framework: ChatGPT Agents
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "ChatGPT Agents"
+source: https://github.com/openai/openai-node
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
-  npm_package: "openai"
+  tool: openai
   npm_weekly_downloads: 18107622
+  license: Apache-2.0
+  maintained: true
 ---
-
 # DALL-E Prompt Chain Generator
-
 Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting.
 
 ## Installation

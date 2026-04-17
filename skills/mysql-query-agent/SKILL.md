@@ -1,22 +1,24 @@
 ---
-title: "MySQL Query Agent"
-description: "MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, INFORMATION_SCHEMA, EXPLAIN, indexes, transactions, replication basics and preserving the operational [&hellip;]"
+name: MySQL Query Agent
+description: MySQL Query Agent is built around MySQL relational database. The underlying
+  ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives
+  an agent a more technical and reliable way to work with the tool than a thin one-line
+  wrapper, using stable interfaces like SQL queries, INFORMATION_SCHEMA, EXPLAIN,
+  indexes, transactions, replication basics and preserving the operational […]
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/sidorares/node-mysql2"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+source: https://github.com/sidorares/node-mysql2
 tool_ecosystem:
-  github_repo: "sidorares/node-mysql2"
+  github_repo: sidorares/node-mysql2
   github_stars: 4355
-  npm_package: "mysql2"
+  tool: mysql2
   npm_weekly_downloads: 8891567
+  license: MIT
+  maintained: true
 ---
-
 # MySQL Query Agent
-
-MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, INFORMATION_SCHEMA, EXPLAIN, indexes, transactions, replication basics and preserving the operational [&hellip;]
+MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, INFORMATION_SCHEMA, EXPLAIN, indexes, transactions, replication basics and preserving the operational […]
 
 ## Installation
 

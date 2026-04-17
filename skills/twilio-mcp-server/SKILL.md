@@ -1,22 +1,24 @@
 ---
-title: "Twilio MCP Server"
-description: "Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational [&hellip;]"
+name: Twilio MCP Server
+description: Twilio MCP Server is built around Twilio communications APIs. The underlying
+  ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an
+  agent a more technical and reliable way to work with the tool than a thin one-line
+  wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings,
+  messaging services and preserving the operational […]
+category: Integrations & Connectors
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/twilio/twilio-node"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "MCP"
+source: https://github.com/twilio/twilio-node
 tool_ecosystem:
-  github_repo: "twilio/twilio-node"
+  github_repo: twilio/twilio-node
   github_stars: 1530
-  npm_package: "twilio"
+  tool: twilio
   npm_weekly_downloads: 3740961
+  license: MIT
+  maintained: true
 ---
-
 # Twilio MCP Server
-
-Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational [&hellip;]
+Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational […]
 
 ## Installation
 

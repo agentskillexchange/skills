@@ -1,19 +1,20 @@
 ---
-title: "Semgrep Custom Pattern Library"
-description: "Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases."
+name: Semgrep Custom Pattern Library
+description: Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern,
+  pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection
+  across Python, JavaScript, and Go codebases.
+category: Code Quality & Review
+framework: Claude Agents
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Agents"
+source: https://github.com/semgrep/semgrep
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
+  tool: semgrep
+  license: LGPL-2.1
+  maintained: true
 ---
-
 # Semgrep Custom Pattern Library
-
 Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases.
 
 ## Installation

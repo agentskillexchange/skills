@@ -1,19 +1,17 @@
 ---
-title: "Autofix common Nix anti-patterns before style drift spreads with Statix"
-description: "Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work."
+name: Autofix common Nix anti-patterns before style drift spreads with Statix
+description: Lint Nix expressions and automatically rewrite common anti-patterns before
+  review or refactor work.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/oppiliappan/statix"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/oppiliappan/statix
 tool_ecosystem:
-  github_repo: "oppiliappan/statix"
+  github_repo: oppiliappan/statix
   github_stars: 872
+  tool: statix
 ---
-
 # Autofix common Nix anti-patterns before style drift spreads with Statix
-
 Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work.
 
 ## Installation

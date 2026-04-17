@@ -1,19 +1,17 @@
 ---
-title: "Sweep GitHub for leaked secrets and exposed credentials with git-hound"
-description: "Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning."
+name: Sweep GitHub for leaked secrets and exposed credentials with git-hound
+description: Search public GitHub broadly for leaked secrets and triage exposures
+  when the workflow is recon and remediation, not generic secret scanning.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/tillson/git-hound"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/tillson/git-hound
 tool_ecosystem:
-  github_repo: "tillson/git-hound"
+  github_repo: tillson/git-hound
   github_stars: 1400
+  tool: git-hound
 ---
-
 # Sweep GitHub for leaked secrets and exposed credentials with git-hound
-
 Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning.
 
 ## Installation

@@ -1,19 +1,18 @@
 ---
-title: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op"
+name: WordPress Router
+description: Route WordPress tasks to the right workflow fast. Core Capabilities Manage
+  WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme,
+  and core update workflows Handle content op
+category: WordPress & CMS
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "OpenClaw"
+source: https://github.com/WordPress/WordPress
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   github_stars: 21002
+  tool: WordPress
 ---
-
 # WordPress Router
-
 Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "SonarQube Analysis Runner"
-description: "Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities with configurable quality gates and branch analysis support."
+name: SonarQube Analysis Runner
+description: Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner
+  CLI. Detects code smells, bugs, and security vulnerabilities with configurable quality
+  gates and branch analysis support.
+category: Code Quality & Review
+framework: OpenClaw
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "OpenClaw"
+source: https://github.com/SonarSource/sonarqube
 ---
-
 # SonarQube Analysis Runner
-
 Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities with configurable quality gates and branch analysis support.
 
 ## Installation

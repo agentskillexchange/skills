@@ -1,19 +1,18 @@
 ---
-title: "Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock"
-description: "Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with local secrets."
+name: Block agent egress, MCP prompt injection, and secret exfiltration before agents
+  touch the open internet with Pipelock
+description: Put an inline firewall and containment layer in front of agent network
+  traffic, tool calls, and MCP traffic before you trust an agent with local secrets.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/luckyPipewrench/pipelock"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/luckyPipewrench/pipelock
 tool_ecosystem:
-  github_repo: "luckyPipewrench/pipelock"
+  github_repo: luckyPipewrench/pipelock
   github_stars: 333
+  tool: pipelock
 ---
-
 # Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock
-
 Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with local secrets.
 
 ## Installation

@@ -1,19 +1,18 @@
 ---
-title: "Search NotebookLM notebooks, sources, and generated study artifacts from agents"
-description: "Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP workflow."
+name: Search NotebookLM notebooks, sources, and generated study artifacts from agents
+description: Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks,
+  add sources, run notebook queries, and retrieve generated study artifacts without
+  leaving an MCP workflow.
+category: Research & Scraping
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/jacob-bd/notebooklm-mcp-cli"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "MCP"
+source: https://github.com/jacob-bd/notebooklm-mcp-cli
 tool_ecosystem:
-  github_repo: "jacob-bd/notebooklm-mcp-cli"
+  github_repo: jacob-bd/notebooklm-mcp-cli
   github_stars: 3558
+  tool: notebooklm-mcp-cli
 ---
-
 # Search NotebookLM notebooks, sources, and generated study artifacts from agents
-
 Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP workflow.
 
 ## Installation

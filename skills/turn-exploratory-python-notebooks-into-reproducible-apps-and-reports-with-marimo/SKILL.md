@@ -1,19 +1,17 @@
 ---
-title: "Turn exploratory Python notebooks into reproducible apps and reports with marimo"
-description: "Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably."
+name: Turn exploratory Python notebooks into reproducible apps and reports with marimo
+description: Promote notebook work into rerunnable Python artifacts or lightweight
+  apps when an analysis needs to be shared, versioned, and rerun reliably.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/marimo-team/marimo"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/marimo-team/marimo
 tool_ecosystem:
-  github_repo: "marimo-team/marimo"
+  github_repo: marimo-team/marimo
   github_stars: 20409
+  tool: marimo
 ---
-
 # Turn exploratory Python notebooks into reproducible apps and reports with marimo
-
 Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably.
 
 ## Installation

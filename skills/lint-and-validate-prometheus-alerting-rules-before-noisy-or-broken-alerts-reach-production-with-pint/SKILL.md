@@ -1,19 +1,18 @@
 ---
-title: "Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint"
-description: "Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are caught before deploy."
+name: Lint and validate Prometheus alerting rules before noisy or broken alerts reach
+  production with Pint
+description: Check Prometheus alerting and recording rules in CI or ad hoc runs so
+  invalid, misleading, or dangerous rules are caught before deploy.
+category: Monitoring & Alerts
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/cloudflare/pint"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Multi-Framework"
+source: https://github.com/cloudflare/pint
 tool_ecosystem:
-  github_repo: "cloudflare/pint"
+  github_repo: cloudflare/pint
   github_stars: 1015
+  tool: pint
 ---
-
 # Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint
-
 Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are caught before deploy.
 
 ## Installation

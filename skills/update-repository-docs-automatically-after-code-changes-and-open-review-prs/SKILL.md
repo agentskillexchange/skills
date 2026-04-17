@@ -1,20 +1,22 @@
 ---
-title: "Update repository docs automatically after code changes and open review PRs"
-description: "Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes what changed, generates the missing docs updates, and opens a reviewable PR rather than silently rewriting the docs in place."
+name: Update repository docs automatically after code changes and open review PRs
+description: Use GitHub Next’s update-docs workflow when code changes should trigger
+  documentation maintenance instead of waiting for humans to remember it later. The
+  agent analyzes what changed, generates the missing docs updates, and opens a reviewable
+  PR rather than silently rewriting the docs in place.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/githubnext/agentics/blob/main/docs/update-docs.md"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+source: https://github.com/githubnext/agentics/blob/main/docs/update-docs.md
 tool_ecosystem:
-  github_repo: "githubnext/agentics"
+  github_repo: githubnext/agentics
   github_stars: 585
+  tool: agentics
+  license: MIT
+  maintained: true
 ---
-
 # Update repository docs automatically after code changes and open review PRs
-
-Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes what changed, generates the missing docs updates, and opens a reviewable PR rather than silently rewriting the docs in place.
+Use GitHub Next’s update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes what changed, generates the missing docs updates, and opens a reviewable PR rather than silently rewriting the docs in place.
 
 ## Installation
 

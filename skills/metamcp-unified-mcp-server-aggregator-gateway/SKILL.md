@@ -1,19 +1,19 @@
 ---
-title: "MetaMCP Unified MCP Server Aggregator and Gateway"
-description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI management interface. It supports namespacing, middleware, rate limiting, OIDC authentication, and works with any MCP client including Claude Desktop and Cursor."
+name: MetaMCP Unified MCP Server Aggregator and Gateway
+description: MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers
+  into a single unified endpoint with a GUI management interface. It supports namespacing,
+  middleware, rate limiting, OIDC authentication, and works with any MCP client including
+  Claude Desktop and Cursor.
+category: Integrations & Connectors
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/metatool-ai/metamcp"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "MCP"
+source: https://github.com/metatool-ai/metamcp
 tool_ecosystem:
-  github_repo: "metatool-ai/metamcp"
+  github_repo: metatool-ai/metamcp
   github_stars: 2175
+  tool: metamcp
 ---
-
 # MetaMCP Unified MCP Server Aggregator and Gateway
-
 MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI management interface. It supports namespacing, middleware, rate limiting, OIDC authentication, and works with any MCP client including Claude Desktop and Cursor.
 
 ## Installation

@@ -1,19 +1,20 @@
 ---
-title: "Prometheus Alert Runbook Linker"
-description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
+name: Prometheus Alert Runbook Linker
+description: Links Prometheus alerting rules to operational runbooks by parsing AlertManager
+  configurations and PrometheusRule CRDs. Validates runbook_url annotations exist
+  and are reachable, and generates stub runbooks for undocumented alerts.
+category: Runbooks & Diagnostics
+framework: Gemini
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Gemini"
+source: https://github.com/prometheus/prometheus
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
+  tool: prometheus
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Prometheus Alert Runbook Linker
-
 Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts.
 
 ## Installation

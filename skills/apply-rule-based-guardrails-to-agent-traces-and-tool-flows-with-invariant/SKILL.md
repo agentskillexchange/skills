@@ -1,21 +1,18 @@
 ---
-title: "Apply rule-based guardrails to agent traces and tool flows with Invariant"
-description: "Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules."
+name: Apply rule-based guardrails to agent traces and tool flows with Invariant
+description: Insert a trace-aware guardrail layer between agents and their tools so
+  unsafe message patterns or tool-call sequences are blocked by explicit rules.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/invariantlabs-ai/invariant"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/invariantlabs-ai/invariant
 tool_ecosystem:
-  github_repo: "invariantlabs-ai/invariant"
+  github_repo: invariantlabs-ai/invariant
   github_stars: 409
-  npm_package: "invariant-ai"
+  tool: invariant-ai
   npm_weekly_downloads: 1473
 ---
-
 # Apply rule-based guardrails to agent traces and tool flows with Invariant
-
 Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules.
 
 ## Installation

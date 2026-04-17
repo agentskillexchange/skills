@@ -1,19 +1,19 @@
 ---
-title: "Terraform State Inspector"
-description: "Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data."
+name: Terraform State Inspector
+description: Inspects and diagnoses Terraform state files using terraform CLI commands
+  and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency
+  cycles in state data.
+category: Runbooks & Diagnostics
+framework: Gemini
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Gemini"
+source: https://github.com/hashicorp/terraform
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
+  tool: terraform
+  maintained: true
 ---
-
 # Terraform State Inspector
-
 Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-title: "Highlight.io Open Source Full-Stack Monitoring Platform"
-description: "Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend."
+name: Highlight.io Open Source Full-Stack Monitoring Platform
+description: Highlight.io is an open-source full-stack monitoring platform combining
+  session replay, error monitoring, logging, and distributed tracing in a single cohesive
+  tool. Self-hostable via Docker, it provides complete application observability for
+  frontend and backend.
+category: Monitoring & Alerts
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/highlight/highlight"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Custom Agents"
+source: https://github.com/highlight/highlight
 tool_ecosystem:
-  github_repo: "highlight/highlight"
+  github_repo: highlight/highlight
   github_stars: 9223
+  tool: highlight
 ---
-
 # Highlight.io Open Source Full-Stack Monitoring Platform
-
 Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend.
 
 ## Installation

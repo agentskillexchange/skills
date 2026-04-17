@@ -1,19 +1,17 @@
 ---
-title: "Lint GitHub Actions workflows before CI runs with actionlint"
-description: "Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI."
+name: Lint GitHub Actions workflows before CI runs with actionlint
+description: Validate workflow syntax, expressions, and shell steps before broken
+  GitHub Actions changes reach CI.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/rhysd/actionlint"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+source: https://github.com/rhysd/actionlint
 tool_ecosystem:
-  github_repo: "rhysd/actionlint"
+  github_repo: rhysd/actionlint
   github_stars: 3787
+  tool: actionlint
 ---
-
 # Lint GitHub Actions workflows before CI runs with actionlint
-
 Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI.
 
 ## Installation

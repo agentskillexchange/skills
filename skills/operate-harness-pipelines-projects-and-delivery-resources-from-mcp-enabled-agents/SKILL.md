@@ -1,21 +1,22 @@
 ---
-title: "Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents"
-description: "Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature flags, cost data, and related platform resources from an MCP workflow instead of sending a human through the Harness UI."
+name: Operate Harness pipelines, projects, and delivery resources from MCP-enabled
+  agents
+description: Use the Harness MCP Server when an agent needs governed access to Harness
+  pipelines, services, environments, feature flags, cost data, and related platform
+  resources from an MCP workflow instead of sending a human through the Harness UI.
+category: CI/CD Integrations
+framework: MCP
 verification: security_reviewed
-source: "https://github.com/harness/mcp-server"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "MCP"
+source: https://github.com/harness/mcp-server
 tool_ecosystem:
-  github_repo: "harness/mcp-server"
+  github_repo: harness/mcp-server
   github_stars: 43
-  npm_package: "harness-mcp-v2"
+  tool: harness-mcp-v2
   npm_weekly_downloads: 1019
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents
-
 Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature flags, cost data, and related platform resources from an MCP workflow instead of sending a human through the Harness UI.
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "Yeoman Workflow Orchestrator"
-description: "Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations. Manages generator dependencies via yo env and supports custom inquirer.js prompt chains."
+name: Yeoman Workflow Orchestrator
+description: Orchestrates Yeoman generator workflows with composable sub-generators
+  and mem-fs-editor file transformations. Manages generator dependencies via yo env
+  and supports custom inquirer.js prompt chains.
+category: Templates & Workflows
+framework: Gemini
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Gemini"
+source: https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/
 ---
-
 # Yeoman Workflow Orchestrator
-
 Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations. Manages generator dependencies via yo env and supports custom inquirer.js prompt chains.
 
 ## Installation

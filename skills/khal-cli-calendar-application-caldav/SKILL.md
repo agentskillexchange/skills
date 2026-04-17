@@ -1,19 +1,19 @@
 ---
-title: "khal Standards-Based CLI Calendar Application"
-description: "khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV servers via vdirsyncer, and provides both a command-line interface for scripting and an interactive terminal UI (ikhal) for browsing and editing events."
+name: khal Standards-Based CLI Calendar Application
+description: khal is a standards-based CLI and terminal calendar program written in
+  Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV
+  servers via vdirsyncer, and provides both a command-line interface for scripting
+  and an interactive terminal UI (ikhal) for browsing and editing events.
+category: Calendar, Email & Productivity
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/pimutils/khal"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
+source: https://github.com/pimutils/khal
 tool_ecosystem:
-  github_repo: "pimutils/khal"
+  github_repo: pimutils/khal
   github_stars: 2971
+  tool: khal
 ---
-
 # khal Standards-Based CLI Calendar Application
-
 khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV servers via vdirsyncer, and provides both a command-line interface for scripting and an interactive terminal UI (ikhal) for browsing and editing events.
 
 ## Installation

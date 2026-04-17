@@ -1,19 +1,18 @@
 ---
-title: "Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL"
-description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
+name: Run declarative Kubernetes test suites against clusters before operator or manifest
+  changes merge with KUTTL
+description: Express Kubernetes test steps and assertions in YAML, then execute them
+  against a real cluster before shipping controller or manifest changes.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/kudobuilder/kuttl"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+source: https://github.com/kudobuilder/kuttl
 tool_ecosystem:
-  github_repo: "kudobuilder/kuttl"
+  github_repo: kudobuilder/kuttl
   github_stars: 804
+  tool: kuttl
 ---
-
 # Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL
-
 Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.
 
 ## Installation

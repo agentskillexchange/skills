@@ -1,19 +1,18 @@
 ---
-title: "dotenvx Secure Environment Variable Manager and Encryptor"
-description: "dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted .env files, multi-environment support, and works with any programming language or framework through its CLI runner."
+name: dotenvx Secure Environment Variable Manager and Encryptor
+description: dotenvx is a secure, cross-platform environment variable manager from
+  the creator of dotenv. It provides encrypted .env files, multi-environment support,
+  and works with any programming language or framework through its CLI runner.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/dotenvx/dotenvx"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/dotenvx/dotenvx
 tool_ecosystem:
-  github_repo: "dotenvx/dotenvx"
+  github_repo: dotenvx/dotenvx
   github_stars: 5309
+  tool: dotenvx
 ---
-
 # dotenvx Secure Environment Variable Manager and Encryptor
-
 dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted .env files, multi-environment support, and works with any programming language or framework through its CLI runner.
 
 ## Installation

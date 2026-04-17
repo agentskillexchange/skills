@@ -1,19 +1,17 @@
 ---
-title: "Generate SLSA build provenance in GitHub Actions"
-description: "Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata."
+name: Generate SLSA build provenance in GitHub Actions
+description: Attach signed SLSA provenance to GitHub Actions builds so release artifacts
+  ship with verifiable supply-chain metadata.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/slsa-framework/slsa-github-generator"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/slsa-framework/slsa-github-generator
 tool_ecosystem:
-  github_repo: "slsa-framework/slsa-github-generator"
+  github_repo: slsa-framework/slsa-github-generator
   github_stars: 566
+  tool: slsa-github-generator
 ---
-
 # Generate SLSA build provenance in GitHub Actions
-
 Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata.
 
 ## Installation

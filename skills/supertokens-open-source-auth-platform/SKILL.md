@@ -1,19 +1,19 @@
 ---
-title: "SuperTokens Open Source Authentication Platform and Auth0 Alternative"
-description: "SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social auth, MFA, session management, and multi-tenancy with SDKs for Node.js, Python, Go, and popular frontend frameworks."
+name: SuperTokens Open Source Authentication Platform and Auth0 Alternative
+description: SuperTokens is an open-source authentication platform that serves as
+  a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides
+  passwordless login, social auth, MFA, session management, and multi-tenancy with
+  SDKs for Node.js, Python, Go, and popular frontend frameworks.
+category: Security & Verification
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/supertokens/supertokens-core"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/supertokens/supertokens-core
 tool_ecosystem:
-  github_repo: "supertokens/supertokens-core"
+  github_repo: supertokens/supertokens-core
   github_stars: 15002
+  tool: supertokens-core
 ---
-
 # SuperTokens Open Source Authentication Platform and Auth0 Alternative
-
 SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social auth, MFA, session management, and multi-tenancy with SDKs for Node.js, Python, Go, and popular frontend frameworks.
 
 ## Installation

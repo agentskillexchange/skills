@@ -1,16 +1,14 @@
 ---
-title: "Parquet Column Pruning Optimizer"
-description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
+name: Parquet Column Pruning Optimizer
+description: Optimizes Apache Parquet file reads using PyArrow column pruning and
+  predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary
+  encoding strategies.
+category: Data Extraction & Transformation
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/ironSource/parquetjs"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Custom Agents"
+source: https://github.com/ironSource/parquetjs
 ---
-
 # Parquet Column Pruning Optimizer
-
 Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies.
 
 ## Installation

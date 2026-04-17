@@ -1,21 +1,21 @@
 ---
-title: "ESLint Rule Configurator"
-description: "Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis."
+name: ESLint Rule Configurator
+description: Generates optimized ESLint flat config files using @eslint/js, typescript-eslint,
+  and eslint-plugin-import. Provides project-specific rule recommendations based on
+  codebase analysis.
+category: Code Quality & Review
+framework: Custom Agents
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Custom Agents"
+source: https://github.com/eslint/eslint
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
-  npm_package: "eslint"
+  tool: eslint
   npm_weekly_downloads: 120215107
+  license: MIT
+  maintained: true
 ---
-
 # ESLint Rule Configurator
-
 Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis.
 
 ## Installation

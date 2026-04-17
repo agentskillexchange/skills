@@ -1,21 +1,21 @@
 ---
-title: "Playwright Multi-Browser Test Suite"
-description: "Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking."
+name: Playwright Multi-Browser Test Suite
+description: Generates end-to-end test suites using the Playwright Test Runner API
+  with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual
+  regression testing via the Playwright Screenshots API and network mocking.
+category: Browser Automation
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category:
-  - "Browser Automation"
-framework:
-  - "Cursor"
+source: https://github.com/microsoft/playwright
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
-  npm_package: "playwright"
+  tool: playwright
   npm_weekly_downloads: 47883561
+  license: Apache-2.0
+  maintained: true
 ---
-
 # Playwright Multi-Browser Test Suite
-
 Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking.
 
 ## Installation

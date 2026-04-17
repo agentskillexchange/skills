@@ -1,19 +1,20 @@
 ---
-title: "Semgrep Pattern Scanner"
-description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration."
+name: Semgrep Pattern Scanner
+description: Executes Semgrep CLI with custom YAML rules and the Semgrep Registry
+  API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs
+  SARIF-formatted results for GitHub Security tab integration.
+category: Code Quality & Review
+framework: Claude Code
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
+source: https://github.com/semgrep/semgrep
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
+  tool: semgrep
+  license: LGPL-2.1
+  maintained: true
 ---
-
 # Semgrep Pattern Scanner
-
 Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration.
 
 ## Installation

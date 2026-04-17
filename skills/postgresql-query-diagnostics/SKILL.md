@@ -1,19 +1,17 @@
 ---
-title: "PostgreSQL Query Diagnostics"
-description: "Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation."
+name: PostgreSQL Query Diagnostics
+description: Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity,
+  and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and
+  pg_stat_user_tables for index recommendation.
+category: Runbooks & Diagnostics
+framework: Claude Agents
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Agents"
+source: https://www.npmjs.com/package/pg
 tool_ecosystem:
-  npm_package: "pg"
+  tool: pg
   npm_weekly_downloads: 23169914
 ---
-
 # PostgreSQL Query Diagnostics
-
 Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation.
 
 ## Installation

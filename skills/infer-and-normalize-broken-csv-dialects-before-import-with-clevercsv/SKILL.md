@@ -1,19 +1,17 @@
 ---
-title: "Infer And Normalize Broken CSV Dialects Before Import With Clevercsv"
-description: "Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail."
+name: Infer And Normalize Broken CSV Dialects Before Import With Clevercsv
+description: Detect messy CSV dialects, standardize malformed files, and generate
+  reliable import code before ingestion pipelines or analyst workflows fail.
+category: Data Extraction & Transformation
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/alan-turing-institute/CleverCSV"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+source: https://github.com/alan-turing-institute/CleverCSV
 tool_ecosystem:
-  github_repo: "alan-turing-institute/CleverCSV"
+  github_repo: alan-turing-institute/CleverCSV
   github_stars: 1324
+  tool: CleverCSV
 ---
-
 # Infer And Normalize Broken CSV Dialects Before Import With Clevercsv
-
 Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail.
 
 ## Installation

@@ -1,16 +1,14 @@
 ---
-title: "Prettier Config Conflict Resolver"
-description: "Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker."
+name: Prettier Config Conflict Resolver
+description: Detects and resolves conflicts between Prettier, ESLint, and EditorConfig
+  formatting rules using the Prettier resolveConfig API and eslint-config-prettier
+  compatibility checker.
+category: Code Quality & Review
+framework: Gemini
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prettier-config-conflict-resolver/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Gemini"
+source: https://agentskillexchange.com/skills/prettier-config-conflict-resolver/
 ---
-
 # Prettier Config Conflict Resolver
-
 Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker.
 
 ## Installation

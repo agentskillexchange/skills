@@ -1,19 +1,19 @@
 ---
-title: "Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages"
-description: "Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for command-line tools. It provides quick reference with syntax highlighting, offline caching, and configurable output."
+name: Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages
+description: Tealdeer is a very fast Rust implementation of the tldr project — simplified,
+  example-based man pages for command-line tools. It provides quick reference with
+  syntax highlighting, offline caching, and configurable output.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
-source: "https://github.com/tealdeer-rs/tealdeer"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+source: https://github.com/tealdeer-rs/tealdeer
 tool_ecosystem:
-  github_repo: "tealdeer-rs/tealdeer"
+  github_repo: tealdeer-rs/tealdeer
   github_stars: 6115
+  tool: tealdeer
+  license: MIT/Apache-2.0
 ---
-
 # Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages
-
 Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for command-line tools. It provides quick reference with syntax highlighting, offline caching, and configurable output.
 
 ## Installation

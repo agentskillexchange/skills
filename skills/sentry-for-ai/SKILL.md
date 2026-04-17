@@ -1,21 +1,18 @@
 ---
-title: "Sentry for AI"
-description: "Observability and debugging support for AI-assisted application workflows."
+name: Sentry for AI
+description: Observability and debugging support for AI-assisted application workflows.
+category: Security & Verification
+framework: Claude Code, Cursor, Custom Agents
 verification: security_reviewed
-source: "https://github.com/getsentry/sentry-for-ai"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Claude Code"
-  - "Cursor"
-  - "Custom Agents"
+source: https://github.com/getsentry/sentry-for-ai
 tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
+  github_repo: getsentry/sentry-for-ai
   github_stars: 119
+  tool: sentry-for-ai
+  license: MIT
+  maintained: true
 ---
-
 # Sentry for AI
-
 Observability and debugging support for AI-assisted application workflows.
 
 ## Installation

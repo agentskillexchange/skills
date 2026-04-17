@@ -1,19 +1,17 @@
 ---
-title: "Audit AWS IAM policies for risky permissions with Cloudsplaining"
-description: "Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an AWS policy change reaches production."
+name: Audit AWS IAM policies for risky permissions with Cloudsplaining
+description: Use Cloudsplaining when an agent needs to flag privilege-escalation paths
+  and overbroad IAM permissions before an AWS policy change reaches production.
+category: Security & Verification
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/salesforce/cloudsplaining"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+source: https://github.com/salesforce/cloudsplaining
 tool_ecosystem:
-  github_repo: "salesforce/cloudsplaining"
+  github_repo: salesforce/cloudsplaining
   github_stars: 2202
+  tool: cloudsplaining
 ---
-
 # Audit AWS IAM policies for risky permissions with Cloudsplaining
-
 Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an AWS policy change reaches production.
 
 ## Installation

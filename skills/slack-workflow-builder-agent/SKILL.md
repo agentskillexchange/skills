@@ -1,21 +1,21 @@
 ---
-title: "Slack Workflow Builder Agent"
-description: "Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit, handles slash commands, and orchestrates multi-step approval flows via Slack Events API."
+name: Slack Workflow Builder Agent
+description: Creates and manages Slack workflows using @slack/bolt and @slack/web-api.
+  Builds interactive modals with Block Kit, handles slash commands, and orchestrates
+  multi-step approval flows via Slack Events API.
+category: Calendar, Email & Productivity
+framework: Cursor
 verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Cursor"
+source: https://github.com/slackapi/bolt-js
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
-  npm_package: "@slack/bolt"
+  tool: '@slack/bolt'
   npm_weekly_downloads: 2603193
+  license: MIT
+  maintained: true
 ---
-
 # Slack Workflow Builder Agent
-
 Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit, handles slash commands, and orchestrates multi-step approval flows via Slack Events API.
 
 ## Installation

@@ -1,19 +1,17 @@
 ---
-title: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
-description: "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge."
+name: Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover
+description: Compare coverage reports against a git diff so an agent can flag newly
+  changed lines that still lack tests before merge.
+category: Code Quality & Review
+framework: Multi-Framework
 verification: listed
-source: "https://github.com/Bachmann1234/diff_cover"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/Bachmann1234/diff_cover
 tool_ecosystem:
-  github_repo: "Bachmann1234/diff_cover"
+  github_repo: Bachmann1234/diff_cover
   github_stars: 828
+  tool: diff_cover
 ---
-
 # Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover
-
 Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge.
 
 ## Installation
