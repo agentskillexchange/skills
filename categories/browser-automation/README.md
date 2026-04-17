@@ -129,6 +129,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
+| [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |

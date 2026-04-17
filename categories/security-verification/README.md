@@ -157,6 +157,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 115 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
+| [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 43 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |

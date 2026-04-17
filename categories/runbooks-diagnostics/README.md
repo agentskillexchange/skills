@@ -29,10 +29,10 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | ⬇ 1.2k/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | ⬇ 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | ⬇ 6.6M/wk |
+| [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | ⬇ 582/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⬇ 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | ⬇ 23.2M/wk |
-| [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -140,6 +140,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
+| [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](../../skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | 102 | — |
 | [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | — |
 | [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | — |

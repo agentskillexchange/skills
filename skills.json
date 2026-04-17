@@ -1,8 +1,100 @@
 {
   "version": "2.0",
-  "total": 2102,
+  "total": 2108,
   "generated": "2026-04-17",
   "skills": [
+    {
+      "slug": "inspect-agent-model-traffic-with-llmtrace",
+      "name": "Inspect agent model traffic with LLMTrace",
+      "description": "Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 46
+      }
+    },
+    {
+      "slug": "monitor-coding-agent-token-spend-with-splitrail",
+      "name": "Monitor coding-agent token spend with Splitrail",
+      "description": "Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 159
+      }
+    },
+    {
+      "slug": "review-gate-openclaw-memory-hygiene-with-openclaw-mem",
+      "name": "Review-gate OpenClaw memory hygiene with openclaw-mem",
+      "description": "Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 28
+      }
+    },
+    {
+      "slug": "run-claude-code-with-spec-driven-quality-gates-via-pilot-shell",
+      "name": "Run Claude Code with spec-driven quality gates via Pilot Shell",
+      "description": "Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1645
+      }
+    },
+    {
+      "slug": "apply-site-specific-action-manuals-with-actionbook",
+      "name": "Apply site-specific action manuals with Actionbook",
+      "description": "Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic browser prompting.",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1497,
+        "npm_weekly_downloads": 4657
+      }
+    },
+    {
+      "slug": "debug-live-chromium-sessions-with-browser-debugger-cli",
+      "name": "Debug live Chromium sessions with browser-debugger-cli",
+      "description": "Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 124,
+        "npm_weekly_downloads": 582
+      }
+    },
     {
       "slug": "validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent",
       "name": "Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent",

@@ -99,6 +99,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 266.8k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | — |
+| [Run Claude Code with spec-driven quality gates via Pilot Shell](../../skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
@@ -111,6 +112,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
+| [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
