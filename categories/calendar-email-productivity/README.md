@@ -52,6 +52,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | — |
+| [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | 21.9k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |

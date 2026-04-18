@@ -73,6 +73,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 560.8k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
+| [Multi-Axis Code Review and Quality Gates](../../skills/multi-axis-code-review-and-quality-gates/) | 17.4k | — |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [Generate clickable architecture diagrams from public GitHub repos with GitDiagram](../../skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/) | 15.4k | — |

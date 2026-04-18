@@ -1,26 +1,26 @@
 # Skill Categories
 
-> **2192 skills** across **17 categories**
+> **2201 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **276** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🔒 | [**Security & Verification**](security-verification/) | **179** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **179** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🔒 | [**Security & Verification**](security-verification/) | **176** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **156** | Linting rules, review checklists, code standards enforcement, and qua... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **157** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **155** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **145** | Incident response, troubleshooting guides, system diagnostics, and op... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **146** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **123** | Metrics collection, alerting rules, observability setup, and system m... |
-| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **117** | Email automation, calendar management, task coordination, and product... |
+| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **118** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **113** | SDK documentation, API guides, framework reference material, and libr... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **111** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **101** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **99** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **100** | Web research, data collection, content aggregation, and information g... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **97** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **92** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **84** | Image generation, asset processing, design automation, and creative t... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **73** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **75** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 

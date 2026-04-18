@@ -6,7 +6,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars |
 |---|---:|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 359.7k |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 97.8k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
@@ -16,6 +15,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 97.8k |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.4k |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 97.2k |
+| [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
 
 ---
 
@@ -33,7 +33,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 359.7k | — |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |
@@ -120,6 +119,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |

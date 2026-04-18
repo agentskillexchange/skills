@@ -151,6 +151,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
+| [Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar](../../skills/scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar/) | 953 | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 905 | — |
 | [Scan MCP servers for security findings before connecting them to agents with MCP Scanner](../../skills/scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner/) | 889 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
@@ -159,6 +160,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |
+| [Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection](../../skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/) | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
@@ -168,6 +170,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
+| [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](../../skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | 158 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
 | [Start governed Claude Code sessions with short-lived service credentials using Kontext CLI](../../skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli/) | 143 | — |
