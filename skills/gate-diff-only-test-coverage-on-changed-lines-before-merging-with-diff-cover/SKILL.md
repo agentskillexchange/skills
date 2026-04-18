@@ -1,7 +1,7 @@
 ---
 title: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
 description: "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/Bachmann1234/diff_cover"
 category:
   - "Code Quality &amp; Review"

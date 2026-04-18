@@ -1,7 +1,7 @@
 ---
 title: "Lint reStructuredText docs and release notes before Sphinx publishing with doc8"
 description: "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/PyCQA/doc8"
 category:
   - "Code Quality &amp; Review"

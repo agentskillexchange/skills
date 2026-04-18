@@ -1,7 +1,7 @@
 ---
 title: "Package docs, repos, and PDFs into installable agent skills with Skill Seekers"
 description: "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/yusufkaraaslan/Skill_Seekers"
 category:
   - "Templates &amp; Workflows"

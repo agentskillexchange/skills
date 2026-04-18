@@ -1,7 +1,7 @@
 ---
 title: "Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb"
 description: "Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review preserved site behavior before migration or investigation work."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/webrecorder/pywb"
 category:
   - "Research &amp; Scraping"

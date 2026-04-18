@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "swagger-api/swagger-ui"
   github_stars: 28756
   npm_package: "swagger-ui"
-  npm_weekly_downloads: 155213
+  npm_weekly_downloads: 155648
 ---
 
 # Swagger / OpenAPI Validator

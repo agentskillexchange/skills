@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "sadiuysal/crawl4ai-mcp-server"
-  github_stars: 76
+  github_stars: 78
 ---
 
 # Crawl4AI MCP Server

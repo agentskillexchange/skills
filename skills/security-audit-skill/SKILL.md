@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
-  github_stars: 14998
+  github_stars: 15002
 ---
 
 # Security Audit Skill
