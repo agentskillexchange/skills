@@ -136,6 +136,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | 8.9k | — |
 | [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | 8.9k | — |
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | 8.9k | — |
+| [Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues](../../skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues/) | 7.1k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | — |

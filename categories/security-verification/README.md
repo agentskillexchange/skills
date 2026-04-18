@@ -118,6 +118,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](../../skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | 4.5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
+| [Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review](../../skills/gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review/) | 4.3k | — |
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](../../skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | 4.2k | — |
 | [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](../../skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
@@ -144,6 +145,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](../../skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | 1.3k | — |
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
+| [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | — |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 901 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |

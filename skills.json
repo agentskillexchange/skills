@@ -1,8 +1,92 @@
 {
   "version": "2.0",
-  "total": 2162,
+  "total": 2168,
   "generated": "2026-04-18",
   "skills": [
+    {
+      "slug": "screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet",
+      "name": "Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet",
+      "description": "Use SafeDep Vet as a pre-adoption gate when an agent, maintainer, or CI pipeline is about to add a new dependency or import a…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1013
+      }
+    },
+    {
+      "slug": "embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk",
+      "name": "Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK",
+      "description": "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls",
+      "name": "Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls",
+      "description": "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review",
+      "name": "Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review",
+      "description": "Run a Claude Code powered security review pass on trusted pull requests so suspicious auth, secret, injection, and unsafe logic changes surface before merge.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4304
+      }
+    },
+    {
+      "slug": "run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle",
+      "name": "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle",
+      "description": "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1718
+      }
+    },
+    {
+      "slug": "run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues",
+      "name": "Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues",
+      "description": "Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7136
+      }
+    },
     {
       "slug": "provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall",
       "name": "Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall",
