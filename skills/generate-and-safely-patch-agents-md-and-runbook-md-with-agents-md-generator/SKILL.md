@@ -4,7 +4,7 @@ description: "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobb
 verification: listed
 source: "https://github.com/markoblogo/AGENTS.md_generator"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

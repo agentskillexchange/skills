@@ -4,12 +4,13 @@ description: "Generates Scrapy spider classes with CSS/XPath selectors, item pip
 verification: security_reviewed
 source: "https://github.com/scrapy/scrapy"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314
+  license: "BSD-3-Clause"
 ---
 
 # Scrapy Spider Architect

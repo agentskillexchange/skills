@@ -4,12 +4,13 @@ description: "Inspects Docker container health using the Docker Engine API v1.45
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
+  license: "Apache-2.0"
 ---
 
 # Docker Container Health Inspector

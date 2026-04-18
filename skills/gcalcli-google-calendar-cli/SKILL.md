@@ -4,12 +4,13 @@ description: "gcalcli is a Python CLI that provides full access to Google Calend
 verification: security_reviewed
 source: "https://github.com/insanum/gcalcli"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "insanum/gcalcli"
   github_stars: 3678
+  license: "MIT"
 ---
 
 # gcalcli Google Calendar Command Line Interface

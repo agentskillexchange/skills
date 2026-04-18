@@ -4,7 +4,7 @@ description: "Teable is an open source no-code database platform built on Postgr
 verification: security_reviewed
 source: "https://github.com/teableio/teable"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

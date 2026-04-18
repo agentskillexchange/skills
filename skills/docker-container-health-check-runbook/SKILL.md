@@ -4,12 +4,13 @@ description: "Runs systematic health diagnostics on Docker containers using dock
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
+  license: "Apache-2.0"
 ---
 
 # Docker Container Health Check Runbook

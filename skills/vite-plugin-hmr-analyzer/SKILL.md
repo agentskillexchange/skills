@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 79927
   npm_package: "vite"
   npm_weekly_downloads: 96756115
+  license: "MIT"
 ---
 
 # Vite Plugin Hot Module Analyzer

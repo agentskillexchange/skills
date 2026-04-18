@@ -4,7 +4,7 @@ description: "Records and generates end-to-end test scripts using Playwright Cod
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 86409
   npm_package: "playwright"
   npm_weekly_downloads: 47883561
+  license: "Apache-2.0"
 ---
 
 # Playwright Test Generator with Codegen

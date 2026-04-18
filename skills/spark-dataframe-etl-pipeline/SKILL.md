@@ -4,12 +4,13 @@ description: "Automates PySpark DataFrame transformations including schema infer
 verification: security_reviewed
 source: "https://github.com/apache/spark"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "apache/spark"
   github_stars: 43117
+  license: "Apache-2.0"
 ---
 
 # Apache Spark DataFrame ETL Pipeline

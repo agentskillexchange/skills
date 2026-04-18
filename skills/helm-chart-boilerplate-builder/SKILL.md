@@ -4,12 +4,13 @@ description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingr
 verification: security_reviewed
 source: "https://github.com/helm/helm"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693
+  license: "Apache-2.0"
 ---
 
 # Helm Chart Boilerplate Builder

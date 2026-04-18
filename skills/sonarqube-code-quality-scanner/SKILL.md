@@ -4,7 +4,7 @@ description: "Runs SonarQube static analysis via the SonarQube Web API and sonar
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "OpenClaw"
 ---

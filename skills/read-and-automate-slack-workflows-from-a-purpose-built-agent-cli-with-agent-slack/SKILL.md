@@ -4,7 +4,7 @@ description: "Search channels, inspect threads, move files, and send or edit Sla
 verification: listed
 source: "https://github.com/stablyai/agent-slack"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

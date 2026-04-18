@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159358
+  license: "Apache-2.0"
 ---
 
 # Hugging Face Model Deployer

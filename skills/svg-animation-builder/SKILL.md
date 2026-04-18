@@ -4,7 +4,7 @@ description: "Creates animated SVGs using GSAP (GreenSock Animation Platform) an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/svg-animation-builder/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Custom Agents"
 ---

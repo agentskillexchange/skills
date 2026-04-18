@@ -4,12 +4,13 @@ description: "Headless Chrome scraping using Puppeteer with stealth plugin, requ
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115
+  license: "Apache-2.0"
 ---
 
 # Puppeteer Scraping Framework

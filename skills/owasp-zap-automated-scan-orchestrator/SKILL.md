@@ -4,12 +4,13 @@ description: "Runs OWASP ZAP active and passive scans against target URLs using 
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
+  license: "Apache-2.0"
 ---
 
 # OWASP ZAP Automated Scan Orchestrator

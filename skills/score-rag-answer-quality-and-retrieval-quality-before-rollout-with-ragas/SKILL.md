@@ -4,12 +4,13 @@ description: "Measure whether a RAG change actually improved answers and retriev
 verification: listed
 source: "https://github.com/vibrantlabsai/ragas"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vibrantlabsai/ragas"
   github_stars: 13412
+  license: "Apache-2.0"
 ---
 
 # Score RAG answer quality and retrieval quality before rollout with Ragas

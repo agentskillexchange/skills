@@ -4,7 +4,7 @@ description: "Lets an MCP-compatible agent search Help Scout inboxes, customers,
 verification: security_reviewed
 source: "https://github.com/drewburchfield/help-scout-mcp-server"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 36
   npm_package: "help-scout-mcp-server"
   npm_weekly_downloads: 184
+  license: "MIT"
 ---
 
 # Search Help Scout conversations and thread context before drafting support replies

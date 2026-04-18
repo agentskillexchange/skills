@@ -4,7 +4,7 @@ description: "Generates channel summaries using Slack Bolt SDK with conversation
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 2900
   npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
+  license: "MIT"
 ---
 
 # Slack Channel Summarizer

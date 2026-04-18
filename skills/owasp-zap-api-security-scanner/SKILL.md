@@ -4,12 +4,13 @@ description: "Automates OWASP ZAP scans against REST APIs using the ZAP Python A
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Gemini"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
+  license: "Apache-2.0"
 ---
 
 # OWASP ZAP API Security Scanner

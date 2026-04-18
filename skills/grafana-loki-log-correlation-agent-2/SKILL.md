@@ -4,12 +4,13 @@ description: "Queries Grafana Loki via the LogQL API to correlate log streams ac
 verification: security_reviewed
 source: "https://github.com/grafana/loki"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "grafana/loki"
   github_stars: 27993
+  license: "AGPL-3.0"
 ---
 
 # Grafana Loki Log Correlation Agent

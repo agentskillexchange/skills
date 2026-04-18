@@ -4,7 +4,7 @@ description: "Generates project scaffolding using the Cookiecutter CLI with Jinj
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-template-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Codex"
 ---

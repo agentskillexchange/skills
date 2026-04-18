@@ -4,7 +4,7 @@ description: "Turn YAML runbooks into auditable agent actions with validation, d
 verification: listed
 source: "https://github.com/shiehn/DeclarAgent"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

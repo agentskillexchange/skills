@@ -4,7 +4,7 @@ description: "Enforces SonarQube quality gates in pull request workflows using t
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "MCP"
 ---

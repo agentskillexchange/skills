@@ -4,12 +4,13 @@ description: "Builds and manages Scrapy web scraping spiders with custom item pi
 verification: security_reviewed
 source: "https://github.com/scrapy/scrapy"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314
+  license: "BSD-3-Clause"
 ---
 
 # Scrapy Spider Data Pipeline

@@ -4,7 +4,7 @@ description: "This skill uses write-good to flag vague, wordy, or hard-to-read E
 verification: security_reviewed
 source: "https://github.com/btford/write-good"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5065
   npm_package: "write-good"
   npm_weekly_downloads: 49520
+  license: "MIT"
 ---
 
 # write-good English Prose Linting for Technical Content

@@ -4,7 +4,7 @@ description: "Queries Notion databases and pages via the Notion API v1, then ren
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Codex"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5582
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
+  license: "MIT"
 ---
 
 # Notion to PDF Knowledge Exporter

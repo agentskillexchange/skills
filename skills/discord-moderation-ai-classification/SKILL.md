@@ -4,7 +4,7 @@ description: "Listens to Discord gateway events, passing flagged messages to the
 verification: security_reviewed
 source: "https://github.com/discordjs/discord.js"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 26668
   npm_package: "discord.js"
   npm_weekly_downloads: 563530
+  license: "Apache-2.0"
 ---
 
 # Discord Moderation Bot with AI Classification

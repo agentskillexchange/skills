@@ -4,12 +4,13 @@ description: "Diagnoses ArgoCD application sync failures and degraded states usi
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593
+  license: "Apache-2.0"
 ---
 
 # ArgoCD Application Health Runbook

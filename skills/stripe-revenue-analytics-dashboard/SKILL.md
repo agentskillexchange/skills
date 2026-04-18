@@ -4,7 +4,7 @@ description: "Pulls MRR, churn, and LTV metrics from the Stripe Data API using t
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 4385
   npm_package: "stripe"
   npm_weekly_downloads: 9280426
+  license: "MIT"
 ---
 
 # Stripe Revenue Analytics Dashboard Builder

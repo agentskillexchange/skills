@@ -4,7 +4,7 @@ description: "Lets an agent supervisor spawn and steer isolated terminal-based w
 verification: listed
 source: "https://github.com/awslabs/cli-agent-orchestrator"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

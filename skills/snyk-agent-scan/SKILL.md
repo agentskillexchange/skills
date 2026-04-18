@@ -4,12 +4,13 @@ description: "Scan your AI agents, MCP servers, and skills for security vulnerab
 verification: security_reviewed
 source: "https://github.com/snyk/agent-scan"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2145
+  license: "Apache-2.0"
 ---
 
 # Snyk Agent Scan

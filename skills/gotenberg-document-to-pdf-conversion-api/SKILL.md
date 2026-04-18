@@ -4,12 +4,13 @@ description: "Gotenberg is a Docker-based API for converting HTML, URLs, Markdow
 verification: security_reviewed
 source: "https://github.com/gotenberg/gotenberg"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gotenberg/gotenberg"
   github_stars: 11776
+  license: "MIT"
 ---
 
 # Gotenberg Document-to-PDF Conversion API

@@ -4,7 +4,7 @@ description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image g
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 10813
   npm_package: "openai"
   npm_weekly_downloads: 18107622
+  license: "Apache-2.0"
 ---
 
 # DALL-E Image Variation Pipeline

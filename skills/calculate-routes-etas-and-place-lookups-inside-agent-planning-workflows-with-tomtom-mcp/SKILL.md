@@ -4,7 +4,7 @@ description: "Gives an MCP-compatible agent structured place search, geocoding, 
 verification: security_reviewed
 source: "https://github.com/tomtom-international/tomtom-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 45
   npm_package: "@tomtom-org/tomtom-mcp"
   npm_weekly_downloads: 356
+  license: "Apache-2.0"
 ---
 
 # Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP

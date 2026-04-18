@@ -4,7 +4,7 @@ description: "Constructs and sends transactional emails using the SendGrid v3 Ma
 verification: security_reviewed
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 3049
   npm_package: "@sendgrid/mail"
   npm_weekly_downloads: 3588681
+  license: "MIT"
 ---
 
 # SendGrid Transactional Email Builder

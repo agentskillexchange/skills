@@ -4,7 +4,7 @@ description: "Uses DeckTape to open an existing HTML slide deck and render it in
 verification: security_reviewed
 source: "https://github.com/astefanutti/decktape"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

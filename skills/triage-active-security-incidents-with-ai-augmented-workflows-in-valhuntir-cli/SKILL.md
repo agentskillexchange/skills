@@ -4,7 +4,7 @@ description: "Guide live digital-forensics and incident-response work with human
 verification: listed
 source: "https://github.com/AppliedIR/Valhuntir"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

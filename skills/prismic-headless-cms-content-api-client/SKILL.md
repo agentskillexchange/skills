@@ -4,7 +4,7 @@ description: "Prismic provides a headless CMS with an API-first editing model, a
 verification: security_reviewed
 source: "https://github.com/prismicio/prismic-client"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 177
   npm_package: "@prismicio/client"
   npm_weekly_downloads: 199739
+  license: "Apache-2.0"
 ---
 
 # Prismic Headless CMS Content API Client

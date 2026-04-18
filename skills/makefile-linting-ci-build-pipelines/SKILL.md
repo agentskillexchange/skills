@@ -4,7 +4,7 @@ description: "Uses checkmake to inspect Makefiles for style issues, fragile targ
 verification: security_reviewed
 source: "https://github.com/checkmake/checkmake"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

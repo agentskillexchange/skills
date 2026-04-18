@@ -4,12 +4,13 @@ description: "Wraps Apache Tika Server REST API for extracting structured text f
 verification: security_reviewed
 source: "https://github.com/apache/tika"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Codex"
 tool_ecosystem:
   github_repo: "apache/tika"
   github_stars: 3695
+  license: "Apache-2.0"
 ---
 
 # Apache Tika Document Extractor

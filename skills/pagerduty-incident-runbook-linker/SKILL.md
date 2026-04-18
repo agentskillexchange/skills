@@ -4,7 +4,7 @@ description: "Automatically links PagerDuty incidents to relevant runbooks using
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
 ---

@@ -4,12 +4,13 @@ description: "Generates Semgrep SAST rules from vulnerability descriptions using
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794
+  license: "LGPL-2.1"
 ---
 
 # Semgrep Custom Pattern Generator

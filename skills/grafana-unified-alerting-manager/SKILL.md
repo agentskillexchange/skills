@@ -4,12 +4,13 @@ description: "Manages Grafana Unified Alerting rules, contact points, and notifi
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Cursor"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187
+  license: "AGPL-3.0"
 ---
 
 # Grafana Unified Alerting Manager

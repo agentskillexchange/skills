@@ -4,7 +4,7 @@ description: "Builds composable image processing pipelines using the Sharp libra
 verification: security_reviewed
 source: "https://github.com/lovell/sharp"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 32138
   npm_package: "sharp"
   npm_weekly_downloads: 52472150
+  license: "Apache-2.0"
 ---
 
 # Sharp Image Transform Pipeline

@@ -4,7 +4,7 @@ description: "Synchronizes plugin settings and theme mods across a WordPress Mul
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Codex"
 ---

@@ -4,7 +4,7 @@ description: "Lets an agent execute OpenAPI or API Blueprint contract checks aga
 verification: listed
 source: "https://github.com/apiaryio/dredd"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

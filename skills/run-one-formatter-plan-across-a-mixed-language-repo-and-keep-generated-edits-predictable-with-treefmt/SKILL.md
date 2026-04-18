@@ -4,7 +4,7 @@ description: "Use treefmt when an agent needs one repo-level formatting plan acr
 verification: security_reviewed
 source: "https://github.com/numtide/treefmt"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

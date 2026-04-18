@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 65837
   npm_package: "webpack"
   npm_weekly_downloads: 44532842
+  license: "MIT"
 ---
 
 # Webpack Bundle Analyzer Agent

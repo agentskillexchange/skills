@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 3255
   npm_package: "@browserbasehq/mcp"
   npm_weekly_downloads: 907
+  license: "Apache-2.0"
 ---
 
 # Browserbase MCP Server

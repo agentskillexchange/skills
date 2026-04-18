@@ -4,12 +4,13 @@ description: "Scaffolds integration test environments using Docker Compose v2 CL
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
+  license: "Apache-2.0"
 ---
 
 # Docker Compose Test Harness

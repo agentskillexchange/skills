@@ -4,12 +4,13 @@ description: "Processes audio files from an S3 bucket using Whisper large-v3, sp
 verification: security_reviewed
 source: "https://github.com/openai/whisper"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 97803
+  license: "MIT"
 ---
 
 # OpenAI Whisper Batch Transcription Pipeline

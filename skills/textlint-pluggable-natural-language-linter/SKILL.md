@@ -4,7 +4,7 @@ description: "Lint natural language text with textlint, the pluggable linting fr
 verification: security_reviewed
 source: "https://github.com/textlint/textlint"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 3099
   npm_package: "textlint"
   npm_weekly_downloads: 102876
+  license: "MIT"
 ---
 
 # textlint Pluggable Natural Language Linter

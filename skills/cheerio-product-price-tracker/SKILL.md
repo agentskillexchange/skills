@@ -4,7 +4,7 @@ description: "Monitors e-commerce product prices using Cheerio.js for server-sid
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Agents"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 30270
   npm_package: "cheerio"
   npm_weekly_downloads: 19621708
+  license: "MIT"
 ---
 
 # Cheerio Product Price Tracker

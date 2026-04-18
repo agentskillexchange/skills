@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 86409
   npm_package: "playwright"
   npm_weekly_downloads: 47883561
+  license: "Apache-2.0"
 ---
 
 # Playwright Multi-Browser Test Generator
