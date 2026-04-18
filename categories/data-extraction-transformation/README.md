@@ -67,6 +67,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
+| [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | 34.5k | — |
+| [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | 34.5k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | 33.2k | — |
 | [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | 32.4k | — |
@@ -135,6 +137,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Newsboat Terminal RSS and Atom Feed Reader](../../skills/newsboat-terminal-rss-atom-feed-reader/) | 3.8k | — |
 | [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](../../skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | 3.7k | 56.9k/wk |
 | [Turn messy document collections into structured rows with DocETL](../../skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | 3.7k | — |
+| [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | 3.7k | — |
+| [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | 3.7k | — |
+| [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | 3.7k | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](../../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
@@ -169,14 +174,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | — | — |
-| [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
-| [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |
-| [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | — | — |
 | [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | — | — |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | — | — |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | — | — |
-| [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | — | — |
-| [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |

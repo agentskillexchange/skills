@@ -101,6 +101,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
+| [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |
+| [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | 5.8k | — |
+| [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | 5.8k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | — |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | 5.5k | — |
@@ -199,9 +202,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | — | — |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
-| [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | — | — |
-| [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | — | — |
-| [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | — | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |

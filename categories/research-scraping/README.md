@@ -70,6 +70,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.8k | 80.8k/wk |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
+| [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | 22.1k | — |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
 | [Linkwarden Collaborative Bookmark Archive and Preservation Platform](../../skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | 17.9k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |

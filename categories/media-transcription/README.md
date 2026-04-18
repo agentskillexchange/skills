@@ -83,6 +83,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | 8.3k | — |
 | [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | 7.7k | — |
 | [ffsubsync Subtitle Synchronization Tool](../../skills/ffsubsync-subtitle-synchronization-tool/) | 7.7k | — |
+| [Capture YouTube transcripts without browser automation using YouTube Transcript API](../../skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | 7.4k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | 6k | — |
 | [Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect](../../skills/detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect/) | 4.7k | — |

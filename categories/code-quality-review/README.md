@@ -75,6 +75,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Generate clickable architecture diagrams from public GitHub repos with GitDiagram](../../skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/) | 15.4k | — |
 | [Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval](../../skills/regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval/) | 14.8k | 1.3k/wk |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | 14.8k | — |

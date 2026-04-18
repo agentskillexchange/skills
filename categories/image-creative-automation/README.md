@@ -9,13 +9,13 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 119.9k |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | ⭐ 116.9k |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | ⭐ 116.2k |
+| [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | ⭐ 109.1k |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | ⭐ 59k |
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | ⭐ 59k |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | ⭐ 59k |
 | [FFmpeg Thumbnail Mosaic Generator](../../skills/ffmpeg-thumbnail-mosaic-generator/) | ⭐ 59k |
 | [FFmpeg Video Processing Pipeline](../../skills/ffmpeg-video-processing-pipeline/) | ⭐ 59k |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | ⭐ 58.5k |
-| [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | ⭐ 45.3k |
 
 ---
 
@@ -43,6 +43,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | 116.9k | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | 116.2k | — |
+| [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | 109.1k | — |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | 59k | — |
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | 59k | — |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | 59k | — |
@@ -101,7 +102,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | — | — |
-| [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | — | — |
 | [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | — | — |
 | [Figma Design Token Exporter](../../skills/figma-design-token-exporter/) | — | — |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | — | — |

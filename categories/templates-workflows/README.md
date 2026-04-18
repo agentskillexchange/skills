@@ -60,6 +60,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | 48.1k | — |
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
+| [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | 33.1k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | 29.7k | — |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | 29.7k | — |
@@ -71,6 +72,15 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | 26.6k | 113.6k/wk |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | — |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 25k | — |
+| [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | 24.8k | — |
+| [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | 24.8k | — |
+| [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | 24.8k | — |
+| [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | 24.8k | — |
+| [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | 24.8k | — |
+| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | 24.8k | — |
+| [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | 24.8k | — |
+| [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | 24.8k | — |
+| [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | 24.8k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
@@ -83,6 +93,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | 15.3k | 2.4M/wk |
 | [Enforce repo hygiene with pre-commit hooks](../../skills/enforce-repo-hygiene-with-pre-commit-hooks/) | 15.2k | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | 14.8k | — |
+| [Package docs, repos, and PDFs into installable agent skills with Skill Seekers](../../skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers/) | 12.9k | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
@@ -119,19 +130,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
+| [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
-| [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
-| [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | — | — |
-| [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | — | — |
-| [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | — | — |
-| [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | — | — |
-| [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | — | — |
-| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | — | — |
-| [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | — | — |
-| [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | — | — |
-| [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | — | — |
 | [Cron Job Manager](../../skills/cron-job-manager/) | — | — |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |

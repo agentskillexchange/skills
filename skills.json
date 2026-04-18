@@ -1,8 +1,83 @@
 {
   "version": "2.0",
-  "total": 2168,
+  "total": 2173,
   "generated": "2026-04-18",
   "skills": [
+    {
+      "slug": "put-coding-agents-on-a-governed-local-git-workflow-with-agentplane",
+      "name": "Put coding agents on a governed local Git workflow with AgentPlane",
+      "description": "Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 38
+      }
+    },
+    {
+      "slug": "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api",
+      "name": "Capture YouTube transcripts without browser automation using YouTube Transcript API",
+      "description": "Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7352
+      }
+    },
+    {
+      "slug": "generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram",
+      "name": "Generate clickable architecture diagrams from public GitHub repos with GitDiagram",
+      "description": "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 15447
+      }
+    },
+    {
+      "slug": "package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers",
+      "name": "Package docs, repos, and PDFs into installable agent skills with Skill Seekers",
+      "description": "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 12876
+      }
+    },
+    {
+      "slug": "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd",
+      "name": "Search local notes, docs, and meeting transcripts for agent context with QMD",
+      "description": "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 22082
+      }
+    },
     {
       "slug": "screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet",
       "name": "Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet",
@@ -18643,7 +18718,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24818
+      }
     },
     {
       "slug": "sigstore-cosign-verification-pipeline",
@@ -18657,7 +18735,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 5830
       }
     },
     {
@@ -18853,7 +18932,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vault"
+        "tool": "vault",
+        "github_stars": 109121
       }
     },
     {
@@ -19384,7 +19464,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "aws"
+        "tool": "aws",
+        "github_stars": 34478
       }
     },
     {
@@ -19442,7 +19523,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3703
+      }
     },
     {
       "slug": "owasp-zap-api-security-auditor",
@@ -19961,7 +20045,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5830
+      }
     },
     {
       "slug": "camelot-advanced-pdf-table-intelligence",
@@ -20086,7 +20173,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3703
+      }
     },
     {
       "slug": "cheerio-dom-extraction-pipeline",
@@ -20171,7 +20261,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "gitlab"
+        "tool": "gitlab",
+        "github_stars": 24818
       }
     },
     {
@@ -20497,7 +20588,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "gitlab"
+        "tool": "gitlab",
+        "github_stars": 24818
       }
     },
     {
@@ -21228,7 +21320,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24818
+      }
     },
     {
       "slug": "npm-registry-analyzer",
@@ -21972,7 +22067,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "gitlab"
+        "tool": "gitlab",
+        "github_stars": 33125
       }
     },
     {
@@ -22087,7 +22183,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 24818
       }
     },
     {
@@ -23822,7 +23919,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24818
+      }
     },
     {
       "slug": "hashicorp-vault-secret-scanner-2",
@@ -24760,7 +24860,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 34478
+      }
     },
     {
       "slug": "webpack-bundle-analyzer-agent",
@@ -24965,7 +25068,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24818
+      }
     },
     {
       "slug": "terraform-cloud-pipeline-agent",
@@ -25387,7 +25493,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3703
+      }
     },
     {
       "slug": "cloudinary-media-optimization-agent",
@@ -25413,7 +25522,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 5830
       }
     },
     {
@@ -25607,7 +25717,10 @@
       "framework": [
         "Claude Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24818
+      }
     },
     {
       "slug": "grafana-dashboard-snapshot-exporter",
@@ -26916,7 +27029,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 24818
       }
     },
     {
