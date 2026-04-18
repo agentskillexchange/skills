@@ -4,9 +4,12 @@ description: "This skill guides an agent through measuring, profiling, and narro
 verification: security_reviewed
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-performance"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wordpress/agent-skills"
+  github_stars: 1219
 ---
 
 # Investigate backend-only WordPress performance bottlenecks

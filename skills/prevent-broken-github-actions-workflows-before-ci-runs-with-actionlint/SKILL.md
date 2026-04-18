@@ -4,7 +4,7 @@ description: "Use actionlint when an agent needs to inspect GitHub Actions workf
 verification: security_reviewed
 source: "https://github.com/rhysd/actionlint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

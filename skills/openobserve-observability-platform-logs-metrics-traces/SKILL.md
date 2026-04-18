@@ -4,7 +4,7 @@ description: "OpenObserve is an open-source, cloud-native observability platform
 verification: security_reviewed
 source: "https://github.com/openobserve/openobserve"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 tool_ecosystem:

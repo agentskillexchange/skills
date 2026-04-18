@@ -4,7 +4,7 @@ description: "LiteLLM is an open-source Python SDK and proxy server that provide
 verification: security_reviewed
 source: "https://github.com/BerriAI/litellm"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:

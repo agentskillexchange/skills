@@ -4,7 +4,7 @@ description: "Inspect or auto-fix shell scripts to reduce quoting bugs and britt
 verification: listed
 source: "https://github.com/anordal/shellharden"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

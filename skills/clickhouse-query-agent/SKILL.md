@@ -4,9 +4,13 @@ description: "ClickHouse Query Agent is built around ClickHouse columnar analyti
 verification: security_reviewed
 source: "https://github.com/ClickHouse/ClickHouse"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "clickhouse/clickhouse"
+  github_stars: 46871
+  license: "Apache-2.0"
 ---
 
 # ClickHouse Query Agent

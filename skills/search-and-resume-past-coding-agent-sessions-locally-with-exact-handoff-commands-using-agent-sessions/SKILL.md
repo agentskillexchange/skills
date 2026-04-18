@@ -4,7 +4,7 @@ description: "Browse archived sessions from multiple coding agents, search acros
 verification: security_reviewed
 source: "https://github.com/jazzyalex/agent-sessions"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Lets an agent run dbt parity checks, relation diffs, and row or va
 verification: listed
 source: "https://github.com/dbt-labs/dbt-audit-helper"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

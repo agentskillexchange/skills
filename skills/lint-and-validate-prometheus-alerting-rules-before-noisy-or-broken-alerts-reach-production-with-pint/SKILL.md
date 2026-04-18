@@ -4,7 +4,7 @@ description: "Check Prometheus alerting and recording rules in CI or ad hoc runs
 verification: listed
 source: "https://github.com/cloudflare/pint"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

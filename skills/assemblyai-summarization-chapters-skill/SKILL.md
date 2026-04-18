@@ -4,7 +4,7 @@ description: "Transcribes audio and generates auto-chapters with summaries using
 verification: security_reviewed
 source: "https://www.assemblyai.com/docs"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Claude Agents"
 ---

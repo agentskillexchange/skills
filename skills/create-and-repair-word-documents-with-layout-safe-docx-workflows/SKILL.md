@@ -4,7 +4,7 @@ description: "Use the Anthropic docx skill when an agent needs to produce or rep
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/docx"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 tool_ecosystem:

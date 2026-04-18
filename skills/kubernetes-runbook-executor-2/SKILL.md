@@ -4,7 +4,7 @@ description: "Executes diagnostic runbooks against Kubernetes clusters using the
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

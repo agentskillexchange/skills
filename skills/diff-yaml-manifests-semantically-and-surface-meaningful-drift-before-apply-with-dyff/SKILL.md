@@ -4,7 +4,7 @@ description: "Use dyff to compare YAML documents by structure and changed paths 
 verification: listed
 source: "https://github.com/homeport/dyff"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

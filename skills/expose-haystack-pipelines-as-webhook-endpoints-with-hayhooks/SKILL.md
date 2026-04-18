@@ -4,7 +4,7 @@ description: "Turn an existing Haystack pipeline into an HTTP or MCP endpoint wi
 verification: listed
 source: "https://github.com/deepset-ai/hayhooks"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

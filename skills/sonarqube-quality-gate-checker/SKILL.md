@@ -4,9 +4,13 @@ description: "Queries SonarQube Web API for project quality gate status, code co
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
+  license: "LGPL-3.0"
 ---
 
 # SonarQube Quality Gate Checker

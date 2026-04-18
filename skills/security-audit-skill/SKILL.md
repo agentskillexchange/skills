@@ -4,7 +4,7 @@ description: "Security Audit Skill is built around OWASP security tooling ecosys
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

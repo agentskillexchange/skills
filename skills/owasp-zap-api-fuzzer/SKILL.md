@@ -4,7 +4,7 @@ description: "Automates REST API security testing using the OWASP ZAP Python SDK
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 tool_ecosystem:

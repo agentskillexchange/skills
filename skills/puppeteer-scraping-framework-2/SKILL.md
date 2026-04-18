@@ -4,7 +4,7 @@ description: "Headless Chrome scraping using Puppeteer with stealth plugin, requ
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:

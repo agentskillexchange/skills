@@ -4,7 +4,7 @@ description: "Aggregate and follow logs from matching Kubernetes pods during inc
 verification: listed
 source: "https://github.com/stern/stern"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

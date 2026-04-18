@@ -4,7 +4,7 @@ description: "Explores the npm registry using the Registry API and npms.io scori
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 ---

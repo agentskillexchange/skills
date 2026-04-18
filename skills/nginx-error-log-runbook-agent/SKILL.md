@@ -4,7 +4,7 @@ description: "Automates Nginx error diagnosis using nginx -T configuration dump,
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

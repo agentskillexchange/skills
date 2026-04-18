@@ -4,7 +4,7 @@ description: "Run a real-task benchmark suite against OpenClaw agents so model o
 verification: listed
 source: "https://github.com/pinchbench/skill"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:

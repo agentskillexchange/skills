@@ -7,6 +7,10 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10445
+  license: "LGPL-3.0"
 ---
 
 # SonarQube Code Analysis

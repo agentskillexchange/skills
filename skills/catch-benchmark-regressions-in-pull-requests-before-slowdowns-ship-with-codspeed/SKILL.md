@@ -4,7 +4,7 @@ description: "Use CodSpeed when an agent needs benchmark runs compared in CI and
 verification: security_reviewed
 source: "https://github.com/CodSpeedHQ/codspeed"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

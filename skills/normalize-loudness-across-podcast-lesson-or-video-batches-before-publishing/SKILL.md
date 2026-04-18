@@ -4,7 +4,7 @@ description: "Uses ffmpeg-normalize to batch-normalize audio levels so an agent 
 verification: security_reviewed
 source: "https://github.com/slhck/ffmpeg-normalize"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

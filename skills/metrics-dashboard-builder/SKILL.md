@@ -4,7 +4,7 @@ description: "Metrics Dashboard Builder is built around Datadog observability pl
 verification: security_reviewed
 source: "https://github.com/DataDog/datadog-api-client-typescript"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Agents"
 tool_ecosystem:

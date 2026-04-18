@@ -4,7 +4,7 @@ description: "Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

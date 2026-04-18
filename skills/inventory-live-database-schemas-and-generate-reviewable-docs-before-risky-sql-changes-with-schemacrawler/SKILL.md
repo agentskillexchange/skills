@@ -4,7 +4,7 @@ description: "Lets an agent crawl a live database and produce schema inventories
 verification: listed
 source: "https://github.com/schemacrawler/SchemaCrawler"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

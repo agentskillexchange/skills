@@ -4,7 +4,7 @@ description: "Use the Anthropic xlsx skill when an agent needs to create, clean 
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/xlsx"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

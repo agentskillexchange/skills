@@ -4,7 +4,7 @@ description: "Run named steps directly from Markdown runbooks so operational doc
 verification: listed
 source: "https://github.com/runmedev/runme"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

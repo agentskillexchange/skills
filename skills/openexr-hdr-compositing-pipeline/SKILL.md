@@ -4,9 +4,13 @@ description: "Processes OpenEXR high dynamic range images using the OpenImageIO 
 verification: security_reviewed
 source: "https://github.com/AcademySoftwareFoundation/openexr"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "academysoftwarefoundation/openexr"
+  github_stars: 1795
+  license: "BSD-3-Clause"
 ---
 
 # OpenEXR HDR Compositing Pipeline

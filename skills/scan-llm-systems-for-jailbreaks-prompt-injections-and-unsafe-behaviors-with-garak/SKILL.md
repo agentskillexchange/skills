@@ -4,7 +4,7 @@ description: "Probe a model or agent stack with adversarial test suites so safet
 verification: listed
 source: "https://github.com/NVIDIA/garak"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

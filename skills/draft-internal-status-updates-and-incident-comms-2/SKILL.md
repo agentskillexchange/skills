@@ -4,7 +4,7 @@ description: "Use Anthropic’s internal-comms skill to turn raw project notes i
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 tool_ecosystem:

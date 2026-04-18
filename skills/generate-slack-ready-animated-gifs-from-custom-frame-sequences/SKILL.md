@@ -4,7 +4,7 @@ description: "Use Anthropic’s slack-gif-creator skill to build animated GIFs t
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

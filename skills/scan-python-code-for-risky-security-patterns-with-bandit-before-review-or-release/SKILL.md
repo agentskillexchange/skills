@@ -4,7 +4,7 @@ description: "Catch insecure Python calls, weak crypto usage, shell injection ri
 verification: listed
 source: "https://github.com/PyCQA/bandit"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use csvlens when an agent or operator needs fast column-aware insp
 verification: security_reviewed
 source: "https://github.com/YS-L/csvlens"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

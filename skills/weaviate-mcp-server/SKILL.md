@@ -4,7 +4,7 @@ description: "Weaviate MCP Server is built around GraphQL API ecosystem. The und
 verification: security_reviewed
 source: "https://github.com/weaviate/mcp-server-weaviate"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:

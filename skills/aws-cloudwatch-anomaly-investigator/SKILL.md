@@ -4,7 +4,7 @@ description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWa
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

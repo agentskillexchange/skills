@@ -4,7 +4,7 @@ description: "Processes real-time event streams using KafkaJS consumer groups an
 verification: security_reviewed
 source: "https://github.com/apache/kafka"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:

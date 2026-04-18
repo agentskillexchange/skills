@@ -4,7 +4,7 @@ description: "Vercel Deployment Agent is built around Vercel deployment platform
 verification: security_reviewed
 source: "https://github.com/vercel/vercel"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

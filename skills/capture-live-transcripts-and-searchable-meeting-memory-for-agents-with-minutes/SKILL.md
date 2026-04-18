@@ -4,7 +4,7 @@ description: "Stream meeting transcripts into searchable conversation memory so 
 verification: listed
 source: "https://github.com/silverstein/minutes"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "MCP"
 tool_ecosystem:

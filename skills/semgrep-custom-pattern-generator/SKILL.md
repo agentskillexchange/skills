@@ -4,7 +4,7 @@ description: "Generates Semgrep SAST rules from vulnerability descriptions using
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "MCP"
 tool_ecosystem:

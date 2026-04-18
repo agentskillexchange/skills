@@ -4,7 +4,7 @@ description: "GraphQL Schema Explorer is built around GraphQL API ecosystem. The
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:

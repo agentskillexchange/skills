@@ -4,7 +4,7 @@ description: "Index local coding-agent sessions into a searchable SQLite-backed 
 verification: listed
 source: "https://github.com/wesm/agentsview"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

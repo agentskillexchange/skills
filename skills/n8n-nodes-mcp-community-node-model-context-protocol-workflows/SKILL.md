@@ -4,7 +4,7 @@ description: "n8n-nodes-mcp is a real n8n community node that lets self-hosted n
 verification: security_reviewed
 source: "https://github.com/nerding-io/n8n-nodes-mcp"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

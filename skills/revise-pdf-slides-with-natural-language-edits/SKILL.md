@@ -4,7 +4,7 @@ description: "Use Nano-PDF when an agent needs to update existing PDF slides or 
 verification: security_reviewed
 source: "https://github.com/gavrielc/Nano-PDF"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "OpenClaw"
 tool_ecosystem:

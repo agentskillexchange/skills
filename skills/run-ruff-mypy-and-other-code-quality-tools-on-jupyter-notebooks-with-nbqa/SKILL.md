@@ -4,7 +4,7 @@ description: "Apply standard Python formatters, linters, and type checkers to no
 verification: listed
 source: "https://github.com/nbQA-dev/nbQA"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

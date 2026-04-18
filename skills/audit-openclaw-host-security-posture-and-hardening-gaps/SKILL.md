@@ -4,7 +4,7 @@ description: "This skill uses OpenClaw’s healthcheck workflow to inspect the h
 verification: security_reviewed
 source: "https://github.com/openclaw/openclaw/tree/main/skills/healthcheck"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 tool_ecosystem:

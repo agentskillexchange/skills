@@ -4,7 +4,7 @@ description: "Jest Unit Test Scaffolder is built around Jest JavaScript test fra
 verification: security_reviewed
 source: "https://github.com/jestjs/jest"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

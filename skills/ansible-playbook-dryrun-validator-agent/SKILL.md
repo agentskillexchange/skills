@@ -4,7 +4,7 @@ description: "Validates Ansible playbooks in check mode using ansible-playbook â
 verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "The official HashiCorp Vault MCP server lets AI assistants read, w
 verification: security_reviewed
 source: "https://github.com/hashicorp/vault-mcp-server"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "MCP"
 tool_ecosystem:

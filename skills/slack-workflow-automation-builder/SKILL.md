@@ -4,7 +4,7 @@ description: "Creates Slack Workflow Builder automations using the Slack Web API
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Claude Code"
 tool_ecosystem:

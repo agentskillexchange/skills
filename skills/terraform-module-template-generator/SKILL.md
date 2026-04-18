@@ -4,7 +4,7 @@ description: "Scaffolds production-ready Terraform modules with HCL templates, v
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

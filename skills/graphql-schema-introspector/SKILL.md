@@ -4,7 +4,7 @@ description: "Performs GraphQL schema introspection using the graphql-js referen
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "MCP"
 tool_ecosystem:

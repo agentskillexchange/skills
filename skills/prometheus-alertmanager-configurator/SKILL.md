@@ -4,7 +4,7 @@ description: "Generates Prometheus AlertManager configurations with routing tree
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 tool_ecosystem:

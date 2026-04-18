@@ -4,7 +4,7 @@ description: "This ASE skill uses reviewdog to turn linter and analyzer output i
 verification: security_reviewed
 source: "https://github.com/reviewdog/reviewdog"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

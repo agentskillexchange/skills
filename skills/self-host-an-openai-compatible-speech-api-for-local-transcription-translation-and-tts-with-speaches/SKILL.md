@@ -4,7 +4,7 @@ description: "Use Speaches when an agent stack expects OpenAI-style audio endpoi
 verification: security_reviewed
 source: "https://github.com/speaches-ai/speaches"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

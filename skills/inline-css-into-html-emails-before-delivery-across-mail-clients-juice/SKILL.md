@@ -4,7 +4,7 @@ description: "Use Juice when an agent already has finished HTML and needs it tra
 verification: security_reviewed
 source: "https://github.com/Automattic/juice"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Scan Helm charts, YAML, or live clusters for Kubernetes API versio
 verification: listed
 source: "https://github.com/FairwindsOps/pluto"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

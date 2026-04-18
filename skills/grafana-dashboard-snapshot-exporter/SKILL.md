@@ -4,7 +4,7 @@ description: "Exports Grafana dashboards as shareable snapshots using the Grafan
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 tool_ecosystem:

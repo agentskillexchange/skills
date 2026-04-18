@@ -4,7 +4,7 @@ description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web 
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:

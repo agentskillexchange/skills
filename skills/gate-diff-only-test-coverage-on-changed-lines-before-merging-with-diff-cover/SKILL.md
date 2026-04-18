@@ -4,7 +4,7 @@ description: "Compare coverage reports against a git diff so an agent can flag n
 verification: listed
 source: "https://github.com/Bachmann1234/diff_cover"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

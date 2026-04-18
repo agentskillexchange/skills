@@ -4,7 +4,7 @@ description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, 
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

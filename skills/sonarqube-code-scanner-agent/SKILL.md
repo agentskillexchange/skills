@@ -4,9 +4,13 @@ description: "Automated code quality scanning using SonarQube REST API and Sonar
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
+  license: "LGPL-3.0"
 ---
 
 # SonarQube Code Scanner Agent

@@ -4,7 +4,7 @@ description: "Clone and synthesize custom voices using the ElevenLabs API v2 wit
 verification: security_reviewed
 source: "https://elevenlabs.io/docs/overview"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
 ---

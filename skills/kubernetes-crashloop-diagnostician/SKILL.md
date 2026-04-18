@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

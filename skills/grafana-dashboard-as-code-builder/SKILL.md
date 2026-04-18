@@ -4,7 +4,7 @@ description: "Builds Grafana dashboards programmatically using grafonnet-lib (Js
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 tool_ecosystem:

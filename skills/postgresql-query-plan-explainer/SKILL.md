@@ -4,7 +4,7 @@ description: "Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_stateme
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

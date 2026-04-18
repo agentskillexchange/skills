@@ -4,7 +4,7 @@ description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, a
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Codex"
 tool_ecosystem:

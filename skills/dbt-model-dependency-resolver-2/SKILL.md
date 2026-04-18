@@ -4,7 +4,7 @@ description: "Analyzes dbt project DAGs to identify circular references, orphane
 verification: security_reviewed
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
   - "Multi-Framework"

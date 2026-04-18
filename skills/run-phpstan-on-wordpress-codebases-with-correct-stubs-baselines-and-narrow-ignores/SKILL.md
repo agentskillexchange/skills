@@ -4,9 +4,12 @@ description: "This entry turns WordPress/agent-skills’ WP PHPStan guidance int
 verification: security_reviewed
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-phpstan"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wordpress/agent-skills"
+  github_stars: 1219
 ---
 
 # Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores

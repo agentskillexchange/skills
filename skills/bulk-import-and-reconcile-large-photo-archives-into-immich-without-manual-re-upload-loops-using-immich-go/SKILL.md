@@ -4,7 +4,7 @@ description: "Move big photo libraries, takeouts, and nested albums into Immich 
 verification: listed
 source: "https://github.com/simulot/immich-go"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,9 +4,15 @@ description: "Reads and transforms Apache Parquet file metadata and column stati
 verification: listed
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "ironsource/parquetjs"
+  github_stars: 387
+  npm_package: "parquetjs"
+  npm_weekly_downloads: 170660
+  license: "MIT"
 ---
 
 # Parquet Column Mapper

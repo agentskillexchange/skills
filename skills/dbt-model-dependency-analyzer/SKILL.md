@@ -4,7 +4,7 @@ description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and
 verification: security_reviewed
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

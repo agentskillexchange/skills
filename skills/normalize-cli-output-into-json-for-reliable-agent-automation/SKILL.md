@@ -4,7 +4,7 @@ description: "Uses jc to turn command output and supported file formats into str
 verification: security_reviewed
 source: "https://github.com/kellyjonbrazil/jc"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

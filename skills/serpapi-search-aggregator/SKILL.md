@@ -4,7 +4,7 @@ description: "Aggregates search results from Google, Bing, and DuckDuckGo via th
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-aggregator/"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "OpenClaw"
 ---

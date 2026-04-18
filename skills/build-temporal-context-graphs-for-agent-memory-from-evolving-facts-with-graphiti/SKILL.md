@@ -4,7 +4,7 @@ description: "Use Graphiti when an agent needs long-term memory that tracks what
 verification: security_reviewed
 source: "https://github.com/getzep/graphiti"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

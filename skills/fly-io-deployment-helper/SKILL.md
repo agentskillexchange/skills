@@ -4,7 +4,7 @@ description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. Th
 verification: security_reviewed
 source: "https://github.com/superfly/flyctl"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

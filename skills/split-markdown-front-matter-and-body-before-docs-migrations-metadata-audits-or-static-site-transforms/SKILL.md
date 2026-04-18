@@ -4,7 +4,7 @@ description: "Use gray-matter when an agent needs to open Markdown or content fi
 verification: security_reviewed
 source: "https://github.com/jonschlinkert/gray-matter"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

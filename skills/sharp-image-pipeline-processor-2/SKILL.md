@@ -4,7 +4,7 @@ description: "Builds composable image transformation pipelines using the Sharp l
 verification: security_reviewed
 source: "https://github.com/lovell/sharp"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Code"
 tool_ecosystem:

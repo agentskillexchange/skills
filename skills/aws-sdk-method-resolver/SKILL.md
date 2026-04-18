@@ -4,7 +4,7 @@ description: "Resolves AWS SDK v3 client commands and service endpoint signature
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:

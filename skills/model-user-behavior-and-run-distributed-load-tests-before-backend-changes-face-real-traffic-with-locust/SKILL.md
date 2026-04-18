@@ -4,7 +4,7 @@ description: "Script realistic user flows in Python and fan them out across work
 verification: listed
 source: "https://github.com/locustio/locust"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

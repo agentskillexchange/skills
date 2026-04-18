@@ -4,7 +4,7 @@ description: "Build and debug WordPress REST endpoints with a specialized skill.
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
 tool_ecosystem:

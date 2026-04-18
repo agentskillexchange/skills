@@ -4,7 +4,7 @@ description: "Constructs Prometheus alerting rules using PromQL expressions with
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
 tool_ecosystem:

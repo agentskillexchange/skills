@@ -4,7 +4,7 @@ description: "Use python-slugify when an agent has messy human titles and needs 
 verification: security_reviewed
 source: "https://github.com/un33k/python-slugify"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

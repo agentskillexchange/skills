@@ -4,7 +4,7 @@ description: "Inspect an SSH endpoint or config for outdated ciphers, key exchan
 verification: listed
 source: "https://github.com/jtesta/ssh-audit"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

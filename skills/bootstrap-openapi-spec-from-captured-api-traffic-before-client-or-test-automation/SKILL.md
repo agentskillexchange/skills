@@ -4,7 +4,7 @@ description: "Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exp
 verification: security_reviewed
 source: "https://github.com/alufers/mitmproxy2swagger"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

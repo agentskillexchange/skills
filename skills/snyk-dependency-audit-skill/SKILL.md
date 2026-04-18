@@ -4,7 +4,7 @@ description: "Uses the Snyk CLI and REST API v1 to scan package manifests for kn
 verification: security_reviewed
 source: "https://github.com/snyk/cli"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

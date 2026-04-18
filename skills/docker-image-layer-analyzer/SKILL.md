@@ -4,7 +4,7 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:

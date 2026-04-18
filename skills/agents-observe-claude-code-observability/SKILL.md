@@ -4,7 +4,7 @@ description: "Gives Claude Code operators a live dashboard for multi-agent sessi
 verification: security_reviewed
 source: "https://github.com/simple10/agents-observe"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 tool_ecosystem:

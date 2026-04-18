@@ -4,7 +4,7 @@ description: "Integrates with SEMrush Writing Assistant API to analyze content a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "OpenClaw"
 ---

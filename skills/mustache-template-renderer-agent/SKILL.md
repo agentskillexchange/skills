@@ -4,7 +4,7 @@ description: "Renders Mustache logic-less templates with partials resolution and
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/mustache-template-renderer-agent/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 ---

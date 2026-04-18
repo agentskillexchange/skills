@@ -4,7 +4,7 @@ description: "Inspect, profile, normalize, and diff large CSV files before loadi
 verification: listed
 source: "https://github.com/dathere/qsv"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

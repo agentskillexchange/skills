@@ -4,7 +4,7 @@ description: "Parses static HTML using Cheerio’s jQuery-like API for fast serv
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Cursor"
 tool_ecosystem:

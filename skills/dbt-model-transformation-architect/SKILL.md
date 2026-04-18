@@ -4,7 +4,7 @@ description: "Generates and validates dbt (data build tool) models, tests, and d
 verification: security_reviewed
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

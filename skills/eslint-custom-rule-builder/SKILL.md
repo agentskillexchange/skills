@@ -4,7 +4,7 @@ description: "Scaffolds and tests custom ESLint rules using the RuleTester API a
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 tool_ecosystem:

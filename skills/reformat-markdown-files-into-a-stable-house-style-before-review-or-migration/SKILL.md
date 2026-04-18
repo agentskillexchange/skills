@@ -4,7 +4,7 @@ description: "Runs mdformat to rewrite Markdown into a consistent CommonMark-ori
 verification: security_reviewed
 source: "https://github.com/hukkin/mdformat"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

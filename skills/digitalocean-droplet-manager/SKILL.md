@@ -4,7 +4,7 @@ description: "DigitalOcean Droplet Manager is built around Kubernetes orchestrat
 verification: security_reviewed
 source: "https://github.com/digitalocean/doctl"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Leverages the Semgrep OSS engine and semgrep-rules registry to per
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:

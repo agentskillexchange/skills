@@ -4,7 +4,7 @@ description: "Catch insecure Dockerfile patterns, brittle package-install habits
 verification: listed
 source: "https://github.com/hadolint/hadolint"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

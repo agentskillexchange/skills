@@ -4,7 +4,7 @@ description: "Railway App Deployer is built around GraphQL API ecosystem. The un
 verification: security_reviewed
 source: "https://github.com/railwayapp/cli"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

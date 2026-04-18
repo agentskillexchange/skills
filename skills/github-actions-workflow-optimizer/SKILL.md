@@ -2,7 +2,7 @@
 title: "GitHub Actions Workflow Optimizer"
 description: "Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache toolkit to benchmark and improve pipeline performance."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
+source: "https://docs.github.com/en/actions"
 category:
   - "CI/CD Integrations"
 framework:

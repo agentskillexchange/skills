@@ -4,7 +4,7 @@ description: "Uses ripgrep-all to run one full-text search across mixed document
 verification: security_reviewed
 source: "https://github.com/phiresky/ripgrep-all"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

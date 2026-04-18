@@ -4,7 +4,7 @@ description: "Connects to Twilio REST API via the twilio-node SDK for programmab
 verification: security_reviewed
 source: "https://github.com/twilio/twilio-node"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

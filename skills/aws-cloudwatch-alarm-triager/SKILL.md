@@ -4,7 +4,7 @@ description: "Triages AWS CloudWatch alarms by correlating alarm state changes w
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:

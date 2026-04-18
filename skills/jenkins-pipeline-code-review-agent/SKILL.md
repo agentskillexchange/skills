@@ -4,7 +4,7 @@ description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns,
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Appwrite is an open-source backend platform for web, mobile, and A
 verification: security_reviewed
 source: "https://github.com/appwrite/appwrite"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Creates and manages AWS CloudWatch composite alarms using the Clou
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "OpenClaw"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Detects infrastructure drift by running terraform plan -detailed-e
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

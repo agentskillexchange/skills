@@ -4,7 +4,7 @@ description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for
 verification: security_reviewed
 source: "https://github.com/openai/whisper"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Claude Code"
 tool_ecosystem:

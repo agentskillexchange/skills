@@ -4,7 +4,7 @@ description: "Generates custom Semgrep rules from natural language descriptions 
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:

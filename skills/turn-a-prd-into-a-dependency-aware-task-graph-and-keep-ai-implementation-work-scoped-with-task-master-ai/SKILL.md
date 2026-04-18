@@ -4,7 +4,7 @@ description: "Use Task Master AI when an agent needs to turn a product request o
 verification: security_reviewed
 source: "https://github.com/eyaltoledano/claude-task-master"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Analyzes Nginx error logs using GoAccess and custom regex parsers 
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Custom Agents"
 tool_ecosystem:

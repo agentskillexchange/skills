@@ -4,7 +4,7 @@ description: "Wraps Apache Tika Server REST API for extracting structured text f
 verification: security_reviewed
 source: "https://github.com/apache/tika"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Codex"
 tool_ecosystem:

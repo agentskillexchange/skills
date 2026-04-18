@@ -2,11 +2,14 @@
 title: "Backstage Software Catalog Sync"
 description: "Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across teams."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
+source: "https://github.com/backstage/backstage"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Cursor"
+tool_ecosystem:
+  github_repo: "backstage/backstage"
+  github_stars: 33125
 ---
 
 # Backstage Software Catalog Sync

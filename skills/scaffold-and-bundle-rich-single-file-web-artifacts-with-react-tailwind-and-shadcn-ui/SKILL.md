@@ -4,7 +4,7 @@ description: "Use Anthropic’s web-artifacts-builder skill to scaffold a React 
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 tool_ecosystem:

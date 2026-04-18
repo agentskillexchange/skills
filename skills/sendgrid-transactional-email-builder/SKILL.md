@@ -4,7 +4,7 @@ description: "Constructs and sends transactional emails using the SendGrid v3 Ma
 verification: security_reviewed
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

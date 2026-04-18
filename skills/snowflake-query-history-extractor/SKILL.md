@@ -4,7 +4,7 @@ description: "Extracts query history and performance metadata from Snowflake usi
 verification: security_reviewed
 source: "https://pypi.org/project/snowflake-connector-python/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Pulls search analytics from Google Search Console’s /searchanaly
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
 ---

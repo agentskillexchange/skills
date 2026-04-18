@@ -4,7 +4,7 @@ description: "Use mdq when an agent needs to target headings, lists, links, or o
 verification: listed
 source: "https://github.com/yshavit/mdq"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

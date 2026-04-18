@@ -4,7 +4,7 @@ description: "Use html-to-text when an agent receives raw HTML from inboxes, sup
 verification: security_reviewed
 source: "https://www.npmjs.com/package/html-to-text"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

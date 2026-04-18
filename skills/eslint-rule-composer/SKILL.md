@@ -4,7 +4,7 @@ description: "Creates custom ESLint rules using the ESLint RuleTester API and AS
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

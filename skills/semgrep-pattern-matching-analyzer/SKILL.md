@@ -4,7 +4,7 @@ description: "Writes and deploys custom Semgrep rules using pattern, pattern-eit
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:

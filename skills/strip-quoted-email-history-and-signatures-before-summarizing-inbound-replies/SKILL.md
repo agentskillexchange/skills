@@ -4,7 +4,7 @@ description: "Uses mail-parser-reply to isolate the newest human reply from text
 verification: security_reviewed
 source: "https://github.com/alfonsrv/mail-parser-reply"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

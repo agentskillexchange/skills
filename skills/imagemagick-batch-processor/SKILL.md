@@ -4,9 +4,12 @@ description: "Batch image processing using ImageMagick’s convert and mogrify c
 verification: security_reviewed
 source: "https://github.com/ImageMagick/ImageMagick"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "imagemagick/imagemagick"
+  github_stars: 16152
 ---
 
 # ImageMagick Batch Processor

@@ -4,7 +4,7 @@ description: "Manages domain mapping configurations across WordPress Multisite n
 verification: security_reviewed
 source: "https://github.com/certbot/certbot"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
 tool_ecosystem:

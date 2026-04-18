@@ -4,7 +4,7 @@ description: "Validates REST APIs against their OpenAPI 3.x specifications using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 ---

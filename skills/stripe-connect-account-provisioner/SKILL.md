@@ -4,7 +4,7 @@ description: "Automates Stripe Connect onboarding by provisioning connected acco
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

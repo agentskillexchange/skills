@@ -4,7 +4,7 @@ description: "Uses Courlan to clean, normalize, de-track, and language-filter ra
 verification: security_reviewed
 source: "https://github.com/adbar/courlan"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

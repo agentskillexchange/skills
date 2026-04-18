@@ -4,7 +4,7 @@ description: "Validates Ansible playbooks and roles using ansible-lint and yamll
 verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

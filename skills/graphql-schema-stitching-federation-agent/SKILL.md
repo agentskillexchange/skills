@@ -4,7 +4,7 @@ description: "Manages Apollo Federation v2 supergraph composition from subgraph 
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:

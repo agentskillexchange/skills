@@ -4,7 +4,7 @@ description: "Analyzes Prometheus alerting rules and AlertManager configuration 
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 tool_ecosystem:

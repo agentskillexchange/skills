@@ -4,7 +4,7 @@ description: "Run deterministic governance checks and policy verification before
 verification: listed
 source: "https://github.com/microsoft/agent-governance-toolkit"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

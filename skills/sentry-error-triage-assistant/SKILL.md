@@ -4,7 +4,7 @@ description: "Triages application errors using the Sentry Web API (/api/0/issues
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

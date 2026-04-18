@@ -4,7 +4,7 @@ description: "This entry turns GitHub Next’s Code Simplifier workflow into a n
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

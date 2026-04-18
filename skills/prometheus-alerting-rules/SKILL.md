@@ -4,7 +4,7 @@ description: "Prometheus Alerting Rules is built around Prometheus metrics and a
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
 tool_ecosystem:

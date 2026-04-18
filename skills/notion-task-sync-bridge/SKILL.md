@@ -4,7 +4,7 @@ description: "Bidirectionally syncs tasks between Notion databases and external 
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Cursor"
 tool_ecosystem:

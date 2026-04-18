@@ -4,7 +4,7 @@ description: "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all ro
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

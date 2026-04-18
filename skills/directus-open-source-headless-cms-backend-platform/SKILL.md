@@ -4,7 +4,7 @@ description: "Directus is an open-source headless CMS that wraps any SQL databas
 verification: security_reviewed
 source: "https://github.com/directus/directus"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

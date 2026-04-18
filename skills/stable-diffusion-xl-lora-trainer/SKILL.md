@@ -4,7 +4,7 @@ description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the 
 verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
 ---

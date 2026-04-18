@@ -4,7 +4,7 @@ description: "Use scrubadub when an agent needs to strip emails, phone numbers, 
 verification: listed
 source: "https://github.com/LeapBeyond/scrubadub"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

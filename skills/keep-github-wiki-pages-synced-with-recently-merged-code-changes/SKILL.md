@@ -4,7 +4,7 @@ description: "This entry turns GitHub Next’s Agentic Wiki Writer into a docume
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/agentic-wiki-writer.md"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

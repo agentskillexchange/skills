@@ -4,9 +4,13 @@ description: "Run SonarQube static analysis scans via the SonarQube Web API and 
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
+  license: "LGPL-3.0"
 ---
 
 # SonarQube Analysis Runner

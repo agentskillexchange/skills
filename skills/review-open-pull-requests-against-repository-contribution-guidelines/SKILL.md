@@ -4,7 +4,7 @@ description: "This entry turns GitHub Next’s Contribution Check workflow into 
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/contribution-check.md"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

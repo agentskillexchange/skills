@@ -4,7 +4,7 @@ description: "Run Kubernetes security and compliance scans against manifests or 
 verification: listed
 source: "https://github.com/kubescape/kubescape"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
