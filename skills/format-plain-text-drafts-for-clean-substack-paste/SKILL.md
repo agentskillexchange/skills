@@ -1,15 +1,15 @@
 ---
-title: "Format plain-text drafts for clean Substack paste"
-description: "Transforms raw draft text into paste-ready Substack HTML so an agent can preserve headings, emphasis, lists, and spacing without hand-formatting every paragraph. Use it when the job is preparing a finished newsletter draft for the editor, not when you just need general writing help."
+title: Format plain-text drafts for clean Substack paste
+description: Transforms raw draft text into paste-ready Substack HTML so an agent
+  can preserve headings, emphasis, lists, and spacing without hand-formatting every
+  paragraph. Use it when the job is preparing a finished newsletter draft for the
+  editor, not when you just need general writing help.
 verification: security_reviewed
-source: "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter"
+source: https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/skills"
-  github_stars: 4086
+- OpenClaw
 ---
 
 # Format plain-text drafts for clean Substack paste
