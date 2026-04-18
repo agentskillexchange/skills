@@ -167,10 +167,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |
+| [Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals](../../skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/) | 105 | — |
 | [Prove whether a prompt or model variant really won before shipping with promptstats](../../skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/) | 97 | 678/wk |
 | [Spell-check docs and code comments with source-aware filters using pyspelling](../../skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/) | 94 | — |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](../../skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | 84 | — |
+| [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](../../skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | 34 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
+| [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](../../skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | 16 | — |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 703.6k/wk |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |

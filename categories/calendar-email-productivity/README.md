@@ -121,6 +121,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | — |
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | 106 | — |
+| [Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow](../../skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/) | 105 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | 78 | — |
 | [Turn Lark meeting transcripts into action items and follow-up tasks](../../skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/) | 40 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |

@@ -164,20 +164,24 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
+| [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
+| [Start governed Claude Code sessions with short-lived service credentials using Kontext CLI](../../skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli/) | 143 | — |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
 | [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](../../skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | 124 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 120 | — |
+| [Review risky coding-agent sessions with local action logs using Gryph](../../skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/) | 105 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 43 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
+| [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |

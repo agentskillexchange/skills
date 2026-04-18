@@ -1,8 +1,143 @@
 {
   "version": "2.0",
-  "total": 2183,
+  "total": 2192,
   "generated": "2026-04-18",
   "skills": [
+    {
+      "slug": "benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval",
+      "name": "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval",
+      "description": "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 34
+      }
+    },
+    {
+      "slug": "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals",
+      "name": "Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals",
+      "description": "Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 105
+      }
+    },
+    {
+      "slug": "test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval",
+      "name": "Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval",
+      "description": "Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 16
+      }
+    },
+    {
+      "slug": "review-risky-coding-agent-sessions-with-local-action-logs-using-gryph",
+      "name": "Review risky coding-agent sessions with local action logs using Gryph",
+      "description": "Capture and inspect file reads, writes, and shell activity from coding agents so developers can audit what actually happened after a session goes sideways.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 105
+      }
+    },
+    {
+      "slug": "start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli",
+      "name": "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI",
+      "description": "Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 143
+      }
+    },
+    {
+      "slug": "probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran",
+      "name": "Probe AI agents for dangerous tool chains and execution side effects with ZIRAN",
+      "description": "Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust exploits before deployment.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6
+      }
+    },
+    {
+      "slug": "enforce-policy-gated-and-auditable-agent-execution-with-lacp",
+      "name": "Enforce policy-gated and auditable agent execution with LACP",
+      "description": "Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 211
+      }
+    },
+    {
+      "slug": "run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch",
+      "name": "Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch",
+      "description": "Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3820
+      }
+    },
+    {
+      "slug": "route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow",
+      "name": "Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow",
+      "description": "Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 105
+      }
+    },
     {
       "slug": "mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync",
       "name": "Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync",
