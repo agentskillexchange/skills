@@ -9,6 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "anthropics/claude-agent-sdk-python"
+  npm_package: "claude-agent-sdk"
 ---
 
 # Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK

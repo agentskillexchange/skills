@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "searxng/searxng"
   github_stars: 28324
-  license: "AGPL-3.0"
 ---
 
 # SearXNG Privacy-First Metasearch Engine and Search API

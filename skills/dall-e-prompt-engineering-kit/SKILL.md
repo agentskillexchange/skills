@@ -1,6 +1,6 @@
 ---
 title: "DALL-E Prompt Engineering Kit"
-description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
+description: "Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
@@ -12,12 +12,11 @@ tool_ecosystem:
   github_stars: 10813
   npm_package: "openai"
   npm_weekly_downloads: 18107622
-  license: "Apache-2.0"
 ---
 
 # DALL-E Prompt Engineering Kit
 
-Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
+Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
 
 ## Installation
 

@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 389
-  license: "Apache-2.0"
 ---
 
 # E2B Code Execution MCP

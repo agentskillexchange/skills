@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "librosa/librosa"
   github_stars: 8294
-  license: "ISC"
 ---
 
 # librosa Python Audio and Music Analysis Library

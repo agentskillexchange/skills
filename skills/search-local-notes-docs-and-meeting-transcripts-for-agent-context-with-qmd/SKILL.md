@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tobi/qmd"
   github_stars: 22082
+  npm_package: "@tobilu/qmd"
 ---
 
 # Search local notes, docs, and meeting transcripts for agent context with QMD

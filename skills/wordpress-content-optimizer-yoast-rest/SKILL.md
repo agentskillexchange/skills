@@ -7,9 +7,6 @@ category:
   - "Content Writing &amp; SEO"
 framework:
   - "Codex"
-tool_ecosystem:
-  github_repo: "wordpress/wordpress"
-  github_stars: 21027
 ---
 
 # WordPress Content Optimizer

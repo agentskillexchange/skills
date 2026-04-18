@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "gotenberg/gotenberg"
   github_stars: 11776
-  license: "MIT"
 ---
 
 # Gotenberg Document-to-PDF Conversion API

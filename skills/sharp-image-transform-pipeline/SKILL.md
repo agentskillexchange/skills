@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 32138
   npm_package: "sharp"
   npm_weekly_downloads: 52472150
-  license: "Apache-2.0"
 ---
 
 # Sharp Image Transform Pipeline

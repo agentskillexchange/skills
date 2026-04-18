@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
   github_stars: 2548
-  license: "MIT"
 ---
 
 # Postgres MCP Pro

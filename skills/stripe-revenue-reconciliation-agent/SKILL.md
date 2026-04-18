@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 4385
   npm_package: "stripe"
   npm_weekly_downloads: 9280426
-  license: "MIT"
 ---
 
 # Stripe Revenue Reconciliation Agent

@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "binwiederhier/ntfy"
   github_stars: 29493
-  license: "Apache-2.0"
 ---
 
 # ntfy Self-Hosted Push Notification Server

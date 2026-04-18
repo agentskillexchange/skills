@@ -7,9 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  npm_package: "@wordpress/scripts"
-  npm_weekly_downloads: 96219
 ---
 
 # WordPress Scripts Build and Block Toolchain

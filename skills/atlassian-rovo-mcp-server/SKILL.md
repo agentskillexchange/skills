@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
   github_stars: 587
-  license: "Apache-2.0"
 ---
 
 # Atlassian Rovo MCP Server

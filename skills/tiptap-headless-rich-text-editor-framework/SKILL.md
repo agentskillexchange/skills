@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 35948
   npm_package: "tiptap"
   npm_weekly_downloads: 45635
-  license: "MIT"
 ---
 
 # Tiptap Headless Rich Text Editor Framework for Web Applications

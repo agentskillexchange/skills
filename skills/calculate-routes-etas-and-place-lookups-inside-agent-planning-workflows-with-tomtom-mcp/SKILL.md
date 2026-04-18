@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 45
   npm_package: "@tomtom-org/tomtom-mcp"
   npm_weekly_downloads: 356
-  license: "Apache-2.0"
 ---
 
 # Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP

@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813
-  license: "MIT"
 ---
 
 # OpenAI Image Gen
