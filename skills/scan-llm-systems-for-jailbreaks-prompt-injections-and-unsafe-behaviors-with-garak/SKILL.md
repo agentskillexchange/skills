@@ -4,7 +4,7 @@ description: "Probe a model or agent stack with adversarial test suites so safet
 verification: listed
 source: "https://github.com/NVIDIA/garak"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak
 
-Use garak when the operator needs an active vulnerability scan of an LLM system, not a passive policy checklist. It runs named probe suites against target models and reports jailbreak, prompt injection, leakage, toxicity, and related failure modes across many providers. The boundary is red-team style model scanning and assessment, not a generic security platform or a broad repo scanner.
+Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review.
 
 ## Installation
 

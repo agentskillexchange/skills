@@ -4,7 +4,7 @@ description: "Fetch manual or auto-generated YouTube subtitles, including transl
 verification: listed
 source: "https://github.com/jdepoix/youtube-transcript-api"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Capture YouTube transcripts without browser automation using YouTube Transcript API
 
-Use YouTube Transcript API when an agent needs the transcript or subtitles for a YouTube video before summarization, chaptering, extraction, or quote validation. The upstream project is explicit about the boundary: retrieve manual or generated subtitles, optionally translate them, and do it without a headless browser or API key.
-
-Invoke this instead of normal YouTube browsing or a full downloader workflow when the transcript text is the real goal. The scope boundary is tight: transcript retrieval only. It is not a general YouTube automation stack, video downloader, or media platform listing.
+Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking.
 
 ## Installation
 

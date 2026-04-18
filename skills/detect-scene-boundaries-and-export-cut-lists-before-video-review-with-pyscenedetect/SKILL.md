@@ -4,7 +4,7 @@ description: "Detect scene changes in a video, emit cut boundaries, and hand bac
 verification: security_reviewed
 source: "https://github.com/Breakthrough/PySceneDetect"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect
 
-PySceneDetect is a narrow, operator-facing skill for finding scene boundaries in video files and turning them into cut lists, saved images, or split-ready segments. An agent should invoke it when a downstream workflow needs reliable scene timestamps before someone starts reviewing footage by hand, extracting clips, or chunking media for transcription.
-
-Use this instead of a full video editor when the real job is scene detection and cut-list generation, not timeline editing. The scope boundary is explicit: detect scene transitions, export scene metadata, and optionally hand off to ffmpeg or another step for splitting. It is not a general media-production or video-generation listing.
+Detect scene changes in a video, emit cut boundaries, and hand back machine-usable scene lists before manual review, splitting, or clip assembly.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile
 
-Use Helmfile when an agent needs to evaluate, diff, and synchronize a set of Helm releases defined in one declarative state rather than operating one chart at a time with raw Helm commands. A user should invoke this instead of using Helm normally when the job is coordinated multi-release planning, environment overlays, and drift reduction across a cluster or estate. The scope boundary is specific: state-driven orchestration of multiple Helm releases, not a generic Kubernetes package manager listing.
+Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file.
 
 ## Installation
 

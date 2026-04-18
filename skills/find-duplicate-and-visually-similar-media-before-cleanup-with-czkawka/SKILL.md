@@ -4,7 +4,7 @@ description: "Scan local archives for duplicate files, similar images, similar v
 verification: listed
 source: "https://github.com/qarmin/czkawka"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Find duplicate and visually similar media before cleanup with Czkawka
 
-Use Czkawka when an agent needs to run a bounded cleanup pass over a local archive and surface duplicate or near-duplicate media for review. The usable skill shape is evidence-driven dedup and cleanup, not a generic file manager or a broad desktop application listing.
+Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them.
 
 ## Installation
 

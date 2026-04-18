@@ -4,7 +4,7 @@ description: "Generate a reviewable security report for a supported agent workfl
 verification: listed
 source: "https://github.com/splx-ai/agentic-radar"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar
 
-Use Agentic Radar when an operator needs to scan a supported agentic codebase before rollout and produce a concrete HTML security report, not when they simply want a generic security product listing. The agent job is specific: inspect the workflow, enumerate tools and MCP servers, map findings to known vulnerability frameworks, and review the report before trusting the workflow. That scope boundary, pre-deployment security scanning and report generation for supported agent frameworks, keeps this skill-shaped instead of collapsing into a plain package card.
+Generate a reviewable security report for a supported agent workflow before deployment by scanning its code, tools, MCP usage, and known vulnerability surface.
 
 ## Installation
 

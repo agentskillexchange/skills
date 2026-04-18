@@ -4,7 +4,7 @@ description: "Catch naming, formatting, and protobuf rule violations early so ge
 verification: listed
 source: "https://github.com/yoheimuta/protolint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint
 
-Use protolint when an agent needs to validate .proto files for style consistency and correctness before generating code or opening review. A user should invoke this instead of working with protobuf tooling normally when the job is static linting of schema files, not compilation, service runtime work, or broader API platform management. The scope boundary is narrow and skill-shaped: linting protobuf source definitions and returning actionable findings, not listing a generic protobuf library or SDK.
+Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner.
 
 ## Installation
 

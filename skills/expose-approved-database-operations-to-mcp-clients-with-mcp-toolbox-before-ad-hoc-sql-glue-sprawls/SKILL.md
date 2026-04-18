@@ -4,7 +4,7 @@ description: "Use MCP Toolbox to turn database access into a constrained MCP too
 verification: security_reviewed
 source: "https://github.com/googleapis/mcp-toolbox"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls
 
-This skill is for teams that want agents to work with production or staging databases through a reviewed tool boundary instead of direct credentials and improvised SQL helpers. It covers the workflow of configuring MCP Toolbox against a database, choosing prebuilt tools or defining custom operations, and exposing that tool surface to an MCP-compatible client.
-
-Invoke this instead of using the database product normally when the goal is not human SQL exploration but safe agent access to schemas, queries, and approved operations. It is a better fit when you need repeatable configuration, auth controls, and constrained tool affordances for an AI client.
-
-The scope boundary is clear: this is not a generic database platform listing and not a generic MCP catalog entry. It is specifically about turning database operations into a governed MCP tool surface with MCP Toolbox.
+Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled wrappers for every project.
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Run a structured SEO audit that surfaces crawlability, technical, 
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Diagnose Site SEO Issues with a Structured Audit
 
-Use this when a user needs an SEO diagnosis for a site or page, especially after traffic drops, indexing issues, or ranking loss. The agent follows an audit workflow that prioritizes crawlability, indexation, technical foundations, and on-page issues, then returns actionable fixes. The boundary is the audit and diagnosis workflow, not a generic SEO plugin, crawler, or platform listing.
+Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped.
 
 ## Installation
 

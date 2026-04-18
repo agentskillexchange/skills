@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Find and group duplicate files across large trees before cleanup migration or backup with fclones
 
-Use fclones when an agent needs a bounded dedupe workflow on a real filesystem: scan a tree, group duplicate files, and hand back reviewable groups before deletion, linking, migration, or backup cleanup. The skill is narrower than a general file manager or storage platform listing.
-
-Invoke it instead of ad hoc shell scripting when the job is specifically duplicate-file discovery with large-tree performance and explicit review boundaries. The workflow stays operator-shaped around reporting and cleanup preparation, not broad storage administration.
+Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions.
 
 ## Installation
 

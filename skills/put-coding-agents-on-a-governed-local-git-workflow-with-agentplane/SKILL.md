@@ -4,7 +4,7 @@ description: "Run coding agents inside a repo with explicit policy files, task s
 verification: listed
 source: "https://github.com/basilisk-labs/agentplane"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Put coding agents on a governed local Git workflow with AgentPlane
 
-Use AgentPlane when coding-agent work needs a governed repository workflow with visible task records, approvals, verification state, and deterministic closure. The project is explicitly a local CLI for agent-driven development inside an existing Git repository.
-
-Invoke this instead of a normal coding assistant session when the requirement is repo-native governance and auditability, not just freeform agent help. The scope boundary is clear: AgentPlane adds workflow control and recorded state around agent execution inside Git. It is not a generic IDE, model SDK, or hosted assistant listing.
+Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of opaque agent runs.
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Query OSS Rebuild attestations and rebuild metadata so an agent ca
 verification: security_reviewed
 source: "https://github.com/google/oss-rebuild"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild
 
-OSS Rebuild is a supply-chain verification skill for checking whether published npm, PyPI, or Crates.io artifacts have corresponding rebuild attestations. An agent should invoke it when a user needs to validate package integrity before dependency approval, security review, or incident response, rather than relying on trust in the package registry alone.
-
-Use this instead of a broad security platform when the task is specifically rebuild verification and attestation lookup. The boundary is clear: inspect rebuild results, list rebuilt versions, and surface attestation details for a package version. It is not a generic SBOM product, package manager, or security dashboard listing.
+Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild.
 
 ## Installation
 

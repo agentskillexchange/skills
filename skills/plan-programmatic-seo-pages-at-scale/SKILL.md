@@ -4,7 +4,7 @@ description: "Design template and data driven SEO page programs that can scale w
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Plan Programmatic SEO Pages at Scale
 
-Use this when the job is planning many SEO landing pages from templates and datasets, not when you just need a normal content brief or page edit. The agent evaluates search patterns, template strategy, data defensibility, page uniqueness, and scale risks before rollout. The boundary is programmatic page planning and quality control, not a generic SEO product or CMS listing.
+Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content.
 
 ## Installation
 

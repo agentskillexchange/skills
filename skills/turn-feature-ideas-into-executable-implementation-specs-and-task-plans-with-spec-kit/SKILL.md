@@ -4,7 +4,7 @@ description: "Use Spec Kit when an agent should turn a feature idea into a spec-
 verification: listed
 source: "https://github.com/github/spec-kit"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Turn feature ideas into executable implementation specs and task plans with Spec Kit
 
-Use Spec Kit when the job is to take a feature idea or product scenario and turn it into explicit spec artifacts, implementation plans, and task lists before coding begins. Invoke it instead of using an AI coding assistant in ordinary freeform chat when you need a repeatable spec-driven workflow with project initialization, slash commands, and clear handoffs from requirements to execution. The scope boundary is publishable and skill-shaped: this is a spec-first workflow for supported AI agents, not a generic GitHub project listing and not merely a product card for a CLI or framework.
+Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before code is written.
 
 ## Installation
 

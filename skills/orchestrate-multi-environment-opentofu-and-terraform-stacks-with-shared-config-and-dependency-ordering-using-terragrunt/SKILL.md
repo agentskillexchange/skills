@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt
 
-Use Terragrunt when an agent needs to run a multi-stack OpenTofu or Terraform workflow with shared configuration, dependency ordering, and environment-aware orchestration, not when a user is simply managing infrastructure in Terraform by hand. The job is specific: assemble stack inputs, resolve dependencies between units, and run plan or apply in a predictable sequence across environments. That scope boundary, orchestrating multi-stack IaC execution rather than listing Terraform or Terragrunt as products, makes this skill-shaped.
+Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift.
 
 ## Installation
 

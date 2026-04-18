@@ -10,15 +10,13 @@ framework:
 tool_ecosystem:
   github_repo: "nextest-rs/nextest"
   github_stars: 2911
-  ase_npm_package: "cargo-nextest"
+  npm_package: "cargo-nextest"
   npm_weekly_downloads: 9775279
 ---
 
 # Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest
 
-Use cargo-nextest when an agent needs to harden or speed up Rust test execution, especially in CI where flaky tests, long queues, and poor failure isolation waste review cycles. It is most useful when the job is to stabilize existing tests rather than redesign the whole pipeline.
-
-Invoke this instead of using cargo test normally when the agent needs retries, partitioning, better reporting, or faster suite execution under CI constraints. This is skill-shaped because the boundary is clear: optimize and stabilize Rust test runs. It is not a generic Rust build tool, package registry, or broad CI platform listing.
+Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output than cargo test when CI speed and stability matter.
 
 ## Installation
 

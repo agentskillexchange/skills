@@ -10,13 +10,13 @@ framework:
 tool_ecosystem:
   github_repo: "es617/claude-replay"
   github_stars: 621
-  ase_npm_package: "claude-replay"
+  npm_package: "claude-replay"
   npm_weekly_downloads: 4870
 ---
 
 # Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay
 
-Use Claude Replay when an agent or operator needs to package an existing coding-agent session into a navigable replay for audit, handoff, demos, bug reports, or documentation, rather than using a general analytics product. The invoke moment is crisp: select one or more saved session transcripts, export a self-contained replay, and hand that artifact to a human reviewer. That scope boundary, replay generation from transcript files, keeps it skill-shaped instead of collapsing into a generic observability or agent platform listing.
+Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen recordings.
 
 ## Installation
 

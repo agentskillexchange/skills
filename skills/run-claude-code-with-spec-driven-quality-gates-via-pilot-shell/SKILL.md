@@ -4,7 +4,7 @@ description: "Wrap Claude Code sessions in a spec, approval, and verification wo
 verification: listed
 source: "https://github.com/maxritter/pilot-shell"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run Claude Code with spec-driven quality gates via Pilot Shell
 
-Use Pilot Shell when Claude Code work needs a spec, approval gate, and verification loop before edits land. Invoke it instead of vanilla Claude Code when the task is planned implementation with enforced checkpoints, not quick ad hoc prompting. The scope boundary is clear enough to publish: this is a Claude Code workflow harness for spec-driven sessions, not a generic coding agent platform or IDE listing.
+Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands.
 
 ## Installation
 

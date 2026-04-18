@@ -4,7 +4,7 @@ description: "Create or improve welcome, nurture, onboarding, re-engagement, and
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Design Lifecycle Email Sequences
 
-Use this when the user needs a multi-email lifecycle flow designed or improved, not when they are just sending one campaign or using an email platform normally. The agent maps audience stage, sequence goals, timing, and email-by-email roles to produce a coherent series. The boundary is lifecycle sequence design, not a generic ESP, inbox, or marketing platform listing.
+Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.
 
 ## Installation
 

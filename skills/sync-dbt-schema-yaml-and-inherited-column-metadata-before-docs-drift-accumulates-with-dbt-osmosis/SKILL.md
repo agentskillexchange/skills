@@ -4,7 +4,7 @@ description: "Keep dbt schema YAML and column documentation aligned with the pro
 verification: listed
 source: "https://github.com/z3z1ma/dbt-osmosis"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis
 
-Use dbt-osmosis when an agent needs to maintain schema YAML, inherited column documentation, and related dbt metadata across an existing dbt project instead of treating dbt as a general transformation framework. The operator workflow is specific: inspect models, organize or document schema YAML, and write the synchronized metadata back into the project. That scope boundary, metadata synchronization for dbt project upkeep, is narrow enough to be a publishable skill rather than a plain package card.
+Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between model changes.
 
 ## Installation
 

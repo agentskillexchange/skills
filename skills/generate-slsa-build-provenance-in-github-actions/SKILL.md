@@ -4,7 +4,7 @@ description: "Attach signed SLSA provenance to GitHub Actions builds so release 
 verification: listed
 source: "https://github.com/slsa-framework/slsa-github-generator"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Generate SLSA build provenance in GitHub Actions
 
-Use this skill when an agent needs to harden a GitHub Actions release pipeline by generating provenance attestations for build artifacts. It fits teams that already build in GitHub Actions and want downstream verification or policy enforcement.
-
-Invoke it instead of using the SLSA GitHub Generator as a raw project when the task is operational: add the workflow step, choose the supported generator path, produce provenance, and confirm the emitted attestation matches the built artifact.
-
-This is skill-shaped because the scope is narrowly about provenance generation inside GitHub Actions. It is not a generic SLSA framework listing.
+Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata.
 
 ## Installation
 

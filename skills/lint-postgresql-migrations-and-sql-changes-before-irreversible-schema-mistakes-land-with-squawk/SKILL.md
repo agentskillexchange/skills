@@ -4,7 +4,7 @@ description: "Catch locking, indexing, and schema-change hazards in PostgreSQL m
 verification: listed
 source: "https://github.com/sbdchd/squawk"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk
 
-Use Squawk when an agent is reviewing PostgreSQL migrations or raw SQL files and needs a migration-safety pass, not when a user just wants a normal database client or editor. The workflow is tightly bounded: lint the migration SQL, flag risky patterns like blocking index creation or bad type choices, and return actionable fixes before merge or rollout. That scope boundary, pre-merge Postgres migration linting for operational safety, keeps it distinct from a generic Postgres product card.
+Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime.
 
 ## Installation
 

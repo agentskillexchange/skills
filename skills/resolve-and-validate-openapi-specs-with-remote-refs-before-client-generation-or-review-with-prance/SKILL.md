@@ -4,7 +4,7 @@ description: "Validate an OpenAPI document, resolve external references, and emi
 verification: listed
 source: "https://github.com/RonnyPfannschmidt/prance"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance
 
-Use Prance when an agent is blocked on an OpenAPI file that needs validation plus reference resolution before downstream work can continue. The operator job is specific: validate a spec, resolve local or remote refs, and compile a fully resolved output for code generation, documentation, or review.
-
-Invoke it instead of treating Prance as a generic Python library when the real task is preflighting an API definition that would otherwise break schema review or client generation. The scope boundary is document preparation for OpenAPI specs, not broad API platform work.
+Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract review.
 
 ## Installation
 

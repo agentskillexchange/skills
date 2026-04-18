@@ -4,7 +4,7 @@ description: "Produce a license inventory for Go module dependencies before rele
 verification: listed
 source: "https://github.com/google/go-licenses"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Audit Go dependency licenses with go-licenses
 
-Use this skill when an agent needs to inspect the licenses of Go dependencies before a release or policy review. It works well for repositories that need a fast report of transitive modules and their license obligations.
-
-Invoke it instead of using go-licenses as a raw product when the job is bounded: scan the Go module graph, produce the license report, and flag dependencies whose terms need review before shipping.
-
-This is skill-shaped because the boundary is concrete and narrow, audit Go dependency licenses. It is not a general package-management or legal-tech listing.
+Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Run staged evaluations against a Claude Code plugin to verify that
 verification: listed
 source: "https://github.com/sjnims/cc-plugin-eval"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval
 
-Use cc-plugin-eval when you need to validate whether a Claude Code plugin component actually triggers under positive, negative, paraphrased, and semantic prompt variants before release. Invoke it instead of relying on manual spot checks when the job is structured trigger analysis, scenario generation, execution, and metric reporting for Claude Code plugins, not generic LLM evals. The scope boundary is tight: this is a plugin-trigger evaluation workflow for Claude Code components rather than a general framework or SDK listing.
+Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should.
 
 ## Installation
 

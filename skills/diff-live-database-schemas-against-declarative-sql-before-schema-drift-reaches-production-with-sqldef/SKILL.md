@@ -4,7 +4,7 @@ description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or 
 verification: listed
 source: "https://github.com/sqldef/sqldef"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Diff live database schemas against declarative SQL before schema drift reaches production with sqldef
 
-Use sqldef when an agent needs to reconcile a live database with declarative SQL files, review the generated diff, and apply schema changes in a controlled way. Invoke it instead of doing manual DDL or ad hoc database admin work when the real job is drift detection and schema alignment from checked-in SQL. The scope boundary is narrow and skill-shaped: schema diff and apply for supported relational databases, not general querying, ORM migration authoring, or a generic database product listing.
+Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases.
 
 ## Installation
 

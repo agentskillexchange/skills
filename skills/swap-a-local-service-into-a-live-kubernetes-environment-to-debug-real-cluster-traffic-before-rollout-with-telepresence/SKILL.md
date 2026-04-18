@@ -4,7 +4,7 @@ description: "Intercept a Kubernetes service and route live cluster traffic into
 verification: listed
 source: "https://github.com/telepresenceio/telepresence"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence
 
-Use Telepresence when an agent needs to replace or intercept one service inside a running Kubernetes environment so local code can handle real in-cluster requests. A user should invoke this instead of using Kubernetes normally when the task is live dependency-aware debugging or pre-rollout verification, not ordinary deployment or cluster administration. The scope boundary is tight and skill-shaped: intercepting a workload and bridging local execution into cluster traffic, not listing a general Kubernetes platform or networking product.
+Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real dependencies before release.
 
 ## Installation
 

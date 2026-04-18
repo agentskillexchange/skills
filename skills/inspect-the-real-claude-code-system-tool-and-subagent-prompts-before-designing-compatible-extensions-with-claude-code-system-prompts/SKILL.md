@@ -4,7 +4,7 @@ description: "Use claude-code-system-prompts when you need the current extracted
 verification: security_reviewed
 source: "https://github.com/Piebald-AI/claude-code-system-prompts"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts
 
-Tool: claude-code-system-prompts. This skill gives an agent a focused reference job: inspect the exact extracted system prompts, builtin tool prompts, and subagent prompts that current Claude Code releases actually use.
-
-When to use it: invoke this before designing a Claude Code plugin, prompt override, compatibility layer, or research note where guessing the builtin prompt surface would be risky. Using this skill is different from using the product normally because the workflow is reference-driven: look up the relevant extracted prompt files, compare current prompt behavior, and design against the real prompt surface instead of reverse-engineering from memory.
-
-Scope boundary: this is not a generic Claude Code product listing and not a broad prompt-engineering pack. Its boundary is narrower: use the extracted Claude Code prompt corpus as a versioned compatibility reference.
+Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool prompts, or subagent prompts before building a compatible plugin, workflow, or prompt customization.
 
 ## Installation
 

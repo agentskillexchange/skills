@@ -4,7 +4,7 @@ description: "Run Claude Code, Codex, Cursor, or similar local agent CLIs inside
 verification: listed
 source: "https://github.com/GreyhavenHQ/greywall"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall
 
-Use Greywall when the operator needs to launch a local coding-agent CLI under a deny-by-default sandbox before granting it normal host access, not when they are merely browsing a sandbox product. The invoke moment is concrete: start the agent through Greywall, apply or learn a least-privilege profile, and review blocked filesystem, network, or command behavior as the run proceeds. That scope boundary, local least-privilege wrapping of agent CLIs with learned profiles and enforced deny rules, is specific enough to publish as a skill rather than a generic sandbox listing.
+Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default.
 
 ## Installation
 

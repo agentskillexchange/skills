@@ -4,7 +4,7 @@ description: "Test agent systems for graph-discovered tool-chain vulnerabilities
 verification: listed
 source: "https://github.com/taoq-ai/ziran"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Probe AI agents for dangerous tool chains and execution side effects with ZIRAN
 
-Use ZIRAN when you need pre-deployment security testing for agents that use tools, memory, or multi-step reasoning, instead of treating the system like a plain LLM prompt target. The operator workflow is specific: model the agent’s capabilities, discover dangerous tool compositions, run adversarial campaigns, and inspect execution-level side effects that text-only testing can miss. The scope boundary is strong because this is agent security testing and attack-path discovery, not a general framework, general eval suite, or runtime guardrail listing.
+Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust exploits before deployment.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall
 
-Use cargo-binstall when an agent needs to provision Rust CLI tools quickly in fresh containers, CI runners, or temporary workspaces without compiling every crate from source. Invoke it instead of repeated `cargo install` build loops when the real job is binary-first tool bootstrap for a reproducible working environment. The scope boundary is narrow and skill-shaped: install published Rust CLI binaries where available, then fall back cleanly when needed, not general Rust dependency management, crate authoring, or a plain package-manager listing.
+Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds.
 
 ## Installation
 

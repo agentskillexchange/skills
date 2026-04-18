@@ -4,7 +4,7 @@ description: "Use LLM-assisted harness generation to expand fuzz coverage for re
 verification: listed
 source: "https://github.com/google/oss-fuzz-gen"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Generate OSS-Fuzz harnesses with oss-fuzz-gen
 
-Use this skill when an agent needs to bootstrap fuzz targets for a project that would otherwise require manual harness authoring. It is a fit for security-focused engineering work where broader fuzz coverage matters more than starting from scratch by hand.
-
-Invoke it instead of using oss-fuzz-gen as a raw project when the operator task is to generate candidate fuzz harnesses, evaluate whether they compile and exercise useful code paths, and iterate toward targets worth keeping.
-
-This stays skill-shaped because the scope is the harness-generation workflow, not OSS-Fuzz as a platform overall.
+Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins.
 
 ## Installation
 

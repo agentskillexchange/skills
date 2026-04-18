@@ -4,19 +4,19 @@ description: "Search channels, inspect threads, move files, and send or edit Sla
 verification: listed
 source: "https://github.com/stablyai/agent-slack"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stablyai/agent-slack"
   github_stars: 382
-  ase_npm_package: "agent-slack"
+  npm_package: "agent-slack"
   npm_weekly_downloads: 5210
 ---
 
 # Read and automate Slack workflows from a purpose-built agent CLI with agent-slack
 
-Use agent-slack when an agent needs to search Slack, read threads, fetch canvases, handle files, or perform message actions from a dedicated CLI instead of manual Slack use or custom API glue. The invoke moment is specific: a bounded Slack operation with JSON output, local artifact handling, and a skill package already aimed at agent runtimes. That scope boundary, operator-grade Slack task execution through an agent CLI, keeps this from being just another Slack product or platform listing.
+Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output.
 
 ## Installation
 

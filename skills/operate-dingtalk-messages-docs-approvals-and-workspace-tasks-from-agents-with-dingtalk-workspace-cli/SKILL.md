@@ -4,7 +4,7 @@ description: "Handle DingTalk workspace actions from one CLI surface instead of 
 verification: listed
 source: "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI
 
-Use DingTalk Workspace CLI when an agent needs to act on DingTalk work objects such as messages, docs, approvals, or other workspace tasks without custom API glue or manual browser work. The invoke moment is clear: enterprise DingTalk operations carried out through a structured, agent-oriented command surface with built-in skills. That scope boundary, bounded DingTalk workspace execution through the CLI, keeps it skill-shaped rather than turning it into a generic DingTalk platform listing.
+Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message, approval, or document task.
 
 ## Installation
 

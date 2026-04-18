@@ -4,7 +4,7 @@ description: "Run a structured pre-merge review across correctness, readability,
 verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Multi-Axis Code Review and Quality Gates
 
-Use this before merge, handoff, or approval when an agent needs to review a change systematically rather than just summarize a diff. The agent applies a repeatable review rubric across multiple quality axes and flags issues that would otherwise slip through a casual pass. The boundary is the review workflow itself, not a generic lint tool, code host, or product card.
+Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check.
 
 ## Installation
 
