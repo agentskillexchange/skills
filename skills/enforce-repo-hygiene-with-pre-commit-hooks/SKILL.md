@@ -1,17 +1,19 @@
 ---
-name: Enforce repo hygiene with pre-commit hooks
-description: Run a repeatable pre-commit gate that catches formatting, lint, secret,
-  and policy issues before they land in the repo.
-category: Templates & Workflows
-framework: Multi-Framework
+title: "Enforce repo hygiene with pre-commit hooks"
+description: "Run a repeatable pre-commit gate that catches formatting, lint, secret, and policy issues before they land in the repo."
 verification: security_reviewed
-source: https://github.com/pre-commit/pre-commit
+source: "https://github.com/pre-commit/pre-commit"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pre-commit/pre-commit
+  github_repo: "pre-commit/pre-commit"
   github_stars: 15163
-  tool: pre-commit
 ---
+
 # Enforce repo hygiene with pre-commit hooks
+
 Run a repeatable pre-commit gate that catches formatting, lint, secret, and policy issues before they land in the repo.
 
 ## Installation

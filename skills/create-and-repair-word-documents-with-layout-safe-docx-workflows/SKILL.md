@@ -1,20 +1,19 @@
 ---
-name: Create and repair Word documents with layout-safe DOCX workflows
-description: Use the Anthropic docx skill when an agent needs to produce or repair
-  a real .docx deliverable with headings, tables, numbering, tracked changes, or layout
-  constraints. It frames the work as a document-building workflow with validation
-  and packaging rules, not as a generic document library listing.
-category: Templates & Workflows
-framework: Claude Agents
+title: "Create and repair Word documents with layout-safe DOCX workflows"
+description: "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing."
 verification: security_reviewed
-source: https://github.com/anthropics/skills/tree/main/skills/docx
+source: "https://github.com/anthropics/skills/tree/main/skills/docx"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: anthropics/skills
+  github_repo: "anthropics/skills"
   github_stars: 116918
-  tool: skills
-  maintained: true
 ---
+
 # Create and repair Word documents with layout-safe DOCX workflows
+
 Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing.
 
 ## Installation

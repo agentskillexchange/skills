@@ -1,19 +1,19 @@
 ---
-name: Sentry Error Intelligence
-description: Connects to the Sentry API v0 to analyze error trends, group similar
-  stack traces using fingerprinting rules, and auto-assigns issues to code owners
-  via GitHub CODEOWNERS integration.
-category: Monitoring & Alerts
-framework: Claude Code
+title: "Sentry Error Intelligence"
+description: "Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration."
 verification: security_reviewed
-source: https://github.com/getsentry/sentry
+source: "https://github.com/getsentry/sentry"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: getsentry/sentry
+  github_repo: "getsentry/sentry"
   github_stars: 43576
-  tool: sentry
-  maintained: true
 ---
+
 # Sentry Error Intelligence
+
 Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration.
 
 ## Installation

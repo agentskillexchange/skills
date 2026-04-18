@@ -1,18 +1,19 @@
 ---
-name: Dispatch coding agents from GitHub issue labels and return pull requests with
-  Patchwork Agents
-description: Use issue labels as a lightweight dispatch layer that fans repository
-  work out to Claude Code, Codex, or Aider workers and brings back PRs.
-category: CI/CD Integrations
-framework: Multi-Framework
+title: "Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents"
+description: "Use issue labels as a lightweight dispatch layer that fans repository work out to Claude Code, Codex, or Aider workers and brings back PRs."
 verification: listed
-source: https://github.com/hey-intent/patchwork-agents
+source: "https://github.com/hey-intent/patchwork-agents"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: hey-intent/patchwork-agents
+  github_repo: "hey-intent/patchwork-agents"
   github_stars: 0
-  tool: patchwork-agents
 ---
+
 # Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents
+
 Use issue labels as a lightweight dispatch layer that fans repository work out to Claude Code, Codex, or Aider workers and brings back PRs.
 
 ## Installation

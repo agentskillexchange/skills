@@ -1,18 +1,19 @@
 ---
-name: Score Kubernetes manifests for reliability and security risks before deploy
-  with kube-score
-description: Use kube-score to statically review Kubernetes YAML or rendered Helm
-  output for rollout risks, weak defaults, and resilience gaps before merge or deploy.
-category: CI/CD Integrations
-framework: Multi-Framework
+title: "Score Kubernetes manifests for reliability and security risks before deploy with kube-score"
+description: "Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and resilience gaps before merge or deploy."
 verification: listed
-source: https://github.com/zegl/kube-score
+source: "https://github.com/zegl/kube-score"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: zegl/kube-score
+  github_repo: "zegl/kube-score"
   github_stars: 3100
-  tool: kube-score
 ---
+
 # Score Kubernetes manifests for reliability and security risks before deploy with kube-score
+
 Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and resilience gaps before merge or deploy.
 
 ## Installation

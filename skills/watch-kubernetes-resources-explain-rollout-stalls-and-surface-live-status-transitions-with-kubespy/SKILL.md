@@ -1,18 +1,19 @@
 ---
-name: Watch Kubernetes resources explain rollout stalls and surface live status transitions
-  with kubespy
-description: Follow a Kubernetes workload live so an agent can explain why it is pending,
-  failing, or not becoming ready.
-category: Runbooks & Diagnostics
-framework: Multi-Framework
+title: "Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy"
+description: "Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready."
 verification: listed
-source: https://github.com/pulumi/kubespy
+source: "https://github.com/pulumi/kubespy"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pulumi/kubespy
+  github_repo: "pulumi/kubespy"
   github_stars: 3056
-  tool: kubespy
 ---
+
 # Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy
+
 Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready.
 
 ## Installation

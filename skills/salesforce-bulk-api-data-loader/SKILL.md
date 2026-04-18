@@ -1,21 +1,21 @@
 ---
-name: Salesforce Bulk API Data Loader
-description: Performs high-volume data operations using the Salesforce Bulk API 2.0.
-  Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status
-  via getJobInfo() for millions of records.
-category: Data Extraction & Transformation
-framework: Claude Code
+title: "Salesforce Bulk API Data Loader"
+description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
 verification: security_reviewed
-source: https://github.com/jsforce/jsforce
+source: "https://github.com/jsforce/jsforce"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: jsforce/jsforce
+  github_repo: "jsforce/jsforce"
   github_stars: 1453
-  tool: jsforce
+  npm_package: "jsforce"
   npm_weekly_downloads: 936641
-  license: MIT
-  maintained: true
 ---
+
 # Salesforce Bulk API Data Loader
+
 Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-name: Run agents in disposable microVM sandboxes with network allowlists and secret
-  injection using Matchlock
-description: Launch risky agent work inside disposable microVMs when you need stronger
-  isolation, sealed egress, and host-side secret injection instead of direct host
-  access.
-category: Security & Verification
-framework: Multi-Framework
+title: "Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock"
+description: "Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access."
 verification: security_reviewed
-source: https://github.com/jingkaihe/matchlock
+source: "https://github.com/jingkaihe/matchlock"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: jingkaihe/matchlock
+  github_repo: "jingkaihe/matchlock"
   github_stars: 552
-  tool: matchlock
 ---
+
 # Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock
+
 Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access.
 
 ## Installation

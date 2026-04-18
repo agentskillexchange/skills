@@ -1,20 +1,19 @@
 ---
-name: Kubernetes Pod Crash Loop Analyzer
-description: Diagnoses CrashLoopBackOff pods using kubectl describe, container exit
-  code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals
-  with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification.
-category: Runbooks & Diagnostics
-framework: Cursor
+title: "Kubernetes Pod Crash Loop Analyzer"
+description: "Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification."
 verification: security_reviewed
-source: https://github.com/kubernetes/kubernetes
+source: "https://github.com/kubernetes/kubernetes"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Cursor"
 tool_ecosystem:
-  github_repo: kubernetes/kubernetes
+  github_repo: "kubernetes/kubernetes"
   github_stars: 121700
-  tool: kubernetes
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Kubernetes Pod Crash Loop Analyzer
+
 Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification.
 
 ## Installation

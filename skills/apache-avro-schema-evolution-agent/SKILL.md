@@ -1,14 +1,16 @@
 ---
-name: Apache Avro Schema Evolution Agent
-description: Manages Apache Avro schema evolution with compatibility checking via
-  Confluent Schema Registry API. Validates forward, backward, and full compatibility
-  across schema versions automatically.
-category: Data Extraction & Transformation
-framework: MCP
+title: "Apache Avro Schema Evolution Agent"
+description: "Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/
+source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "MCP"
 ---
+
 # Apache Avro Schema Evolution Agent
+
 Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically.
 
 ## Installation

@@ -1,20 +1,19 @@
 ---
-name: Jenkins Pipeline Linter Agent
-description: Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API
-  before commits. Integrates with jenkins-client npm SDK to authenticate and submit
-  declarative or scripted pipelines for server-side validation.
-category: CI/CD Integrations
-framework: OpenClaw
+title: "Jenkins Pipeline Linter Agent"
+description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation."
 verification: security_reviewed
-source: https://github.com/jenkinsci/jenkins
+source: "https://github.com/jenkinsci/jenkins"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: jenkinsci/jenkins
+  github_repo: "jenkinsci/jenkins"
   github_stars: 25189
-  tool: jenkins
-  license: MIT
-  maintained: true
 ---
+
 # Jenkins Pipeline Linter Agent
+
 Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation.
 
 ## Installation

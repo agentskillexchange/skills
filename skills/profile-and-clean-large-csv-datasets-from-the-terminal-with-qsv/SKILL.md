@@ -1,17 +1,19 @@
 ---
-name: Profile and clean large CSV datasets from the terminal with qsv
-description: Inspect, profile, normalize, and diff large CSV files before loading
-  them into downstream analytics or automation workflows.
-category: Data Extraction & Transformation
-framework: Multi-Framework
+title: "Profile and clean large CSV datasets from the terminal with qsv"
+description: "Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows."
 verification: listed
-source: https://github.com/dathere/qsv
+source: "https://github.com/dathere/qsv"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: dathere/qsv
+  github_repo: "dathere/qsv"
   github_stars: 3594
-  tool: qsv
 ---
+
 # Profile and clean large CSV datasets from the terminal with qsv
+
 Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows.
 
 ## Installation

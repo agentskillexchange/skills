@@ -1,21 +1,21 @@
 ---
-name: Apache Kafka Schema Registry Extractor
-description: Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry
-  using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract
-  documentation from registered subjects.
-category: Data Extraction & Transformation
-framework: Claude Agents
+title: "Apache Kafka Schema Registry Extractor"
+description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract documentation from registered subjects."
 verification: security_reviewed
-source: https://github.com/tulios/kafkajs
+source: "https://github.com/tulios/kafkajs"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: tulios/kafkajs
+  github_repo: "tulios/kafkajs"
   github_stars: 3992
-  tool: kafkajs
+  npm_package: "kafkajs"
   npm_weekly_downloads: 2520588
-  license: MIT
-  maintained: false
 ---
+
 # Apache Kafka Schema Registry Extractor
+
 Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract documentation from registered subjects.
 
 ## Installation

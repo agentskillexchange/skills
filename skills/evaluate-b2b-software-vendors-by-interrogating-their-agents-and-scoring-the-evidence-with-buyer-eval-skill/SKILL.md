@@ -1,18 +1,19 @@
 ---
-name: Evaluate B2B software vendors by interrogating their agents and scoring the
-  evidence with buyer-eval-skill
-description: Use Claude Code to run a structured vendor diligence workflow that questions
-  vendor agents, cross-checks claims, and returns evidence-backed scorecards.
-category: Research & Scraping
-framework: Claude Code
+title: "Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill"
+description: "Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and returns evidence-backed scorecards."
 verification: listed
-source: https://github.com/salespeak-ai/buyer-eval-skill
+source: "https://github.com/salespeak-ai/buyer-eval-skill"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: salespeak-ai/buyer-eval-skill
+  github_repo: "salespeak-ai/buyer-eval-skill"
   github_stars: 55
-  tool: buyer-eval-skill
 ---
+
 # Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill
+
 Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and returns evidence-backed scorecards.
 
 ## Installation

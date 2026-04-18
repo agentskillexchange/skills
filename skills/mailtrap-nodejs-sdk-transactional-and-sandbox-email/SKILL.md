@@ -1,19 +1,19 @@
 ---
-name: Mailtrap Node.js SDK for Transactional and Sandbox Email
-description: An ASE skill built on the official Mailtrap Node.js SDK for sending transactional
-  email and working with Mailtrap sandbox or production flows. It is well suited to
-  agent workflows that need API-driven email delivery, test inbox validation, and
-  structured messaging automation.
-category: Calendar, Email & Productivity
-framework: Multi-Framework
+title: "Mailtrap Node.js SDK for Transactional and Sandbox Email"
+description: "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation."
 verification: security_reviewed
-source: https://github.com/mailtrap/mailtrap-nodejs
+source: "https://github.com/mailtrap/mailtrap-nodejs"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mailtrap/mailtrap-nodejs
+  github_repo: "mailtrap/mailtrap-nodejs"
   github_stars: 108
-  tool: mailtrap-nodejs
 ---
+
 # Mailtrap Node.js SDK for Transactional and Sandbox Email
+
 An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation.
 
 ## Installation

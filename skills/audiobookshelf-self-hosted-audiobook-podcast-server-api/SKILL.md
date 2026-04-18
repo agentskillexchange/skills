@@ -1,20 +1,20 @@
 ---
-name: Audiobookshelf Self-Hosted Audiobook and Podcast Server API
-description: Integrate Audiobookshelf’s self-hosted audiobook and podcast server into
-  AI agent workflows. Agents can manage libraries, track listening progress, search
-  metadata, and automate podcast episode downloads through the comprehensive REST
-  API.
-category: Media & Transcription
-framework: Multi-Framework
+title: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
+description: "Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
 verification: security_reviewed
-source: https://github.com/advplyr/audiobookshelf
+source: "https://github.com/advplyr/audiobookshelf"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: advplyr/audiobookshelf
+  github_repo: "advplyr/audiobookshelf"
   github_stars: 12295
-  tool: audiobookshelf
 ---
+
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
-Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
+
+Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
 
 ## Installation
 

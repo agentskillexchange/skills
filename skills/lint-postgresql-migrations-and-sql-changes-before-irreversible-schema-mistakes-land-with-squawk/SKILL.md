@@ -1,18 +1,19 @@
 ---
-name: Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes
-  land with Squawk
-description: Catch locking, indexing, and schema-change hazards in PostgreSQL migration
-  SQL before a review turns into downtime.
-category: Code Quality & Review
-framework: Multi-Framework
+title: "Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk"
+description: "Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime."
 verification: listed
-source: https://github.com/sbdchd/squawk
+source: "https://github.com/sbdchd/squawk"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: sbdchd/squawk
+  github_repo: "sbdchd/squawk"
   github_stars: 1050
-  tool: squawk
 ---
+
 # Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk
+
 Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-name: Snyk Open Source Dependency Auditor
-description: Performs deep dependency analysis using the Snyk CLI and REST API to
-  detect vulnerable transitive packages. Generates fix PRs with version pinning and
-  patch recommendations.
-category: Security & Verification
-framework: Cursor
+title: "Snyk Open Source Dependency Auditor"
+description: "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations."
 verification: security_reviewed
-source: https://github.com/snyk/cli
+source: "https://github.com/snyk/cli"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Cursor"
 tool_ecosystem:
-  github_repo: snyk/cli
+  github_repo: "snyk/cli"
   github_stars: 5496
-  tool: cli
-  maintained: true
 ---
+
 # Snyk Open Source Dependency Auditor
+
 Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations.
 
 ## Installation

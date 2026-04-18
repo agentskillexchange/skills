@@ -1,21 +1,19 @@
 ---
-name: Nginx Error Log Analyzer
-description: Parses and diagnoses Nginx error logs and access logs using pattern matching
-  against known error signatures. Integrates with the Nginx Plus REST API /api/8/
-  endpoints for real-time upstream health, connection metrics, and SSL certificate
-  expiration monitoring.
-category: Runbooks & Diagnostics
-framework: ChatGPT Agents
+title: "Nginx Error Log Analyzer"
+description: "Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring."
 verification: security_reviewed
-source: https://github.com/nginx/nginx
+source: "https://github.com/nginx/nginx"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: nginx/nginx
+  github_repo: "nginx/nginx"
   github_stars: 29930
-  tool: nginx
-  license: BSD-2-Clause
-  maintained: true
 ---
+
 # Nginx Error Log Analyzer
+
 Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring.
 
 ## Installation

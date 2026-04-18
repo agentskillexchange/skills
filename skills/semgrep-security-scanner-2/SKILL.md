@@ -1,20 +1,19 @@
 ---
-name: Semgrep Security Scanner
-description: Scan codebases for security vulnerabilities and anti-patterns using Semgrep
-  OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output
-  for CI integration.
-category: Code Quality & Review
-framework: Claude Agents
+title: "Semgrep Security Scanner"
+description: "Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration."
 verification: security_reviewed
-source: https://github.com/semgrep/semgrep
+source: "https://github.com/semgrep/semgrep"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: semgrep/semgrep
+  github_repo: "semgrep/semgrep"
   github_stars: 14794
-  tool: semgrep
-  license: LGPL-2.1
-  maintained: true
 ---
+
 # Semgrep Security Scanner
+
 Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration.
 
 ## Installation

@@ -1,20 +1,19 @@
 ---
-name: Trivy Container Scanner
-description: Wraps the Trivy CLI for comprehensive container image vulnerability scanning.
-  Outputs results in SARIF format for GitHub Code Scanning API integration and generates
-  OCI artifact attestations.
-category: Security & Verification
-framework: OpenClaw
+title: "Trivy Container Scanner"
+description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
 verification: security_reviewed
-source: https://github.com/aquasecurity/trivy
+source: "https://github.com/aquasecurity/trivy"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: aquasecurity/trivy
+  github_repo: "aquasecurity/trivy"
   github_stars: 34488
-  tool: trivy
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Trivy Container Scanner
+
 Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations.
 
 ## Installation

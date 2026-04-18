@@ -1,21 +1,21 @@
 ---
-name: ESLint Rule Enforcement Agent
-description: Automates ESLint configuration and rule enforcement using the ESLint
-  Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects
-  violations across JavaScript and TypeScript codebases.
-category: Code Quality & Review
-framework: Claude Code
+title: "ESLint Rule Enforcement Agent"
+description: "Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases."
 verification: security_reviewed
-source: https://github.com/eslint/eslint
+source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: eslint/eslint
+  github_repo: "eslint/eslint"
   github_stars: 27188
-  tool: eslint
+  npm_package: "eslint"
   npm_weekly_downloads: 120215107
-  license: MIT
-  maintained: true
 ---
+
 # ESLint Rule Enforcement Agent
+
 Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
 
 ## Installation

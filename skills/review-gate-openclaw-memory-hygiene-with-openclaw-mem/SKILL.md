@@ -1,17 +1,19 @@
 ---
-name: Review-gate OpenClaw memory hygiene with openclaw-mem
-description: Pack trusted context and review memory writes before long OpenClaw sessions
-  drift or accumulate low-quality memory.
-category: Templates & Workflows
-framework: OpenClaw
+title: "Review-gate OpenClaw memory hygiene with openclaw-mem"
+description: "Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory."
 verification: listed
-source: https://github.com/phenomenoner/openclaw-mem
+source: "https://github.com/phenomenoner/openclaw-mem"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: phenomenoner/openclaw-mem
+  github_repo: "phenomenoner/openclaw-mem"
   github_stars: 28
-  tool: openclaw-mem
 ---
+
 # Review-gate OpenClaw memory hygiene with openclaw-mem
+
 Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory.
 
 ## Installation

@@ -1,20 +1,19 @@
 ---
-name: Protobuf & gRPC Stub Generator
-description: Compiles Protocol Buffer definitions into language-specific gRPC client
-  and server stubs using buf CLI and protoc plugins. Validates proto files against
-  Buf lint rules and detects breaking changes.
-category: Library & API Reference
-framework: Cursor
+title: "Protobuf &#038; gRPC Stub Generator"
+description: "Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes."
 verification: security_reviewed
-source: https://github.com/grpc/grpc-node
+source: "https://github.com/grpc/grpc-node"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Cursor"
 tool_ecosystem:
-  github_repo: grpc/grpc-node
+  github_repo: "grpc/grpc-node"
   github_stars: 4822
-  tool: grpc-node
-  license: Apache-2.0
-  maintained: true
 ---
-# Protobuf & gRPC Stub Generator
+
+# Protobuf &#038; gRPC Stub Generator
+
 Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes.
 
 ## Installation

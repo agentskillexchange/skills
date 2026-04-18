@@ -1,14 +1,16 @@
 ---
-name: Git Bisect Automator
-description: Automates git bisect workflows with custom test scripts and CI pipeline
-  integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing
-  commits across large repositories.
-category: Developer Tools
-framework: Claude Code
+title: "Git Bisect Automator"
+description: "Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits across large repositories."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/git-bisect-automator/
+source: "https://agentskillexchange.com/skills/git-bisect-automator/"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 ---
+
 # Git Bisect Automator
+
 Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits across large repositories.
 
 ## Installation

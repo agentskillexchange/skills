@@ -1,19 +1,19 @@
 ---
-name: CircleCI Orb Pipeline Agent
-description: Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI
-  API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource
-  class optimization.
-category: CI/CD Integrations
-framework: ChatGPT Agents
+title: "CircleCI Orb Pipeline Agent"
+description: "Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization."
 verification: security_reviewed
-source: https://github.com/circleci/circleci-docs
+source: "https://github.com/circleci/circleci-docs"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: circleci/circleci-docs
+  github_repo: "circleci/circleci-docs"
   github_stars: 843
-  tool: circleci-docs
-  maintained: true
 ---
+
 # CircleCI Orb Pipeline Agent
+
 Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization.
 
 ## Installation

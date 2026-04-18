@@ -1,19 +1,19 @@
 ---
-name: GitLab CI Pipeline Optimizer
-description: Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG
-  keyword configurations. Analyzes job dependencies, parallel execution opportunities,
-  and cache strategies for faster builds.
-category: CI/CD Integrations
-framework: Claude Code
+title: "GitLab CI Pipeline Optimizer"
+description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds."
 verification: security_reviewed
-source: https://github.com/gitlabhq/gitlabhq
+source: "https://github.com/gitlabhq/gitlabhq"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: gitlabhq/gitlabhq
+  github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
-  tool: gitlabhq
-  maintained: true
 ---
+
 # GitLab CI Pipeline Optimizer
+
 Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds.
 
 ## Installation

@@ -1,19 +1,19 @@
 ---
-name: dbt Data Transform Orchestrator
-description: Integrates with dbt Cloud Administrative API v2 to trigger and monitor
-  data transformation jobs. Manages model runs, source freshness checks, and test
-  execution through dbt API endpoints with Snowflake and BigQuery adapter support.
-category: Data Extraction & Transformation
-framework: Custom Agents
+title: "dbt Data Transform Orchestrator"
+description: "Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support."
 verification: security_reviewed
-source: https://github.com/dbt-labs/dbt-core
+source: "https://github.com/dbt-labs/dbt-core"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: dbt-labs/dbt-core
+  github_repo: "dbt-labs/dbt-core"
   github_stars: 12621
-  tool: dbt-core
-  maintained: true
 ---
+
 # dbt Data Transform Orchestrator
+
 Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support.
 
 ## Installation

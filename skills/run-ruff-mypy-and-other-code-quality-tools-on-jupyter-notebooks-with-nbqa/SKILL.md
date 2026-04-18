@@ -1,17 +1,19 @@
 ---
-name: Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA
-description: Apply standard Python formatters, linters, and type checkers to notebook-heavy
-  repositories without manually converting notebooks to scripts.
-category: Code Quality & Review
-framework: Multi-Framework
+title: "Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA"
+description: "Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts."
 verification: listed
-source: https://github.com/nbQA-dev/nbQA
+source: "https://github.com/nbQA-dev/nbQA"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: nbQA-dev/nbQA
+  github_repo: "nbQA-dev/nbQA"
   github_stars: 1196
-  tool: nbQA
 ---
+
 # Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA
+
 Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts.
 
 ## Installation

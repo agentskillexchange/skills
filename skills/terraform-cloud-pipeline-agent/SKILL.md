@@ -1,19 +1,19 @@
 ---
-name: Terraform Cloud Pipeline Agent
-description: Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe
-  provider. Manages workspace variables, Sentinel policy checks, and cost estimation
-  hooks with automatic plan approval workflows.
-category: CI/CD Integrations
-framework: OpenClaw
+title: "Terraform Cloud Pipeline Agent"
+description: "Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables, Sentinel policy checks, and cost estimation hooks with automatic plan approval workflows."
 verification: security_reviewed
-source: https://github.com/hashicorp/terraform
+source: "https://github.com/hashicorp/terraform"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: hashicorp/terraform
+  github_repo: "hashicorp/terraform"
   github_stars: 48146
-  tool: terraform
-  maintained: true
 ---
+
 # Terraform Cloud Pipeline Agent
+
 Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables, Sentinel policy checks, and cost estimation hooks with automatic plan approval workflows.
 
 ## Installation

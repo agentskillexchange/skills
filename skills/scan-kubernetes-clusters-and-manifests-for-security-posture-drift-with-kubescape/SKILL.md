@@ -1,17 +1,19 @@
 ---
-name: Scan Kubernetes clusters and manifests for security posture drift with Kubescape
-description: Run Kubernetes security and compliance scans against manifests or live
-  clusters before rollout or audit.
-category: Security & Verification
-framework: Multi-Framework
+title: "Scan Kubernetes clusters and manifests for security posture drift with Kubescape"
+description: "Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit."
 verification: listed
-source: https://github.com/kubescape/kubescape
+source: "https://github.com/kubescape/kubescape"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: kubescape/kubescape
+  github_repo: "kubescape/kubescape"
   github_stars: 11310
-  tool: kubescape
 ---
+
 # Scan Kubernetes clusters and manifests for security posture drift with Kubescape
+
 Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit.
 
 ## Installation

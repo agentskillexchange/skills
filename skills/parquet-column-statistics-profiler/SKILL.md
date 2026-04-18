@@ -1,14 +1,16 @@
 ---
-name: Parquet Column Statistics Profiler
-description: Profiles Apache Parquet files using pyarrow metadata APIs to extract
-  column statistics, row group distributions, and encoding efficiency metrics without
-  reading full datasets.
-category: Data Extraction & Transformation
-framework: ChatGPT Agents
+title: "Parquet Column Statistics Profiler"
+description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
 verification: security_reviewed
-source: https://github.com/ironSource/parquetjs
+source: "https://github.com/ironSource/parquetjs"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "ChatGPT Agents"
 ---
+
 # Parquet Column Statistics Profiler
+
 Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets.
 
 ## Installation

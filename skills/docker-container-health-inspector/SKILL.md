@@ -1,20 +1,19 @@
 ---
-name: Docker Container Health Inspector
-description: Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json
-  and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network
-  connectivity issues with automated log analysis via /containers/{id}/logs streaming.
-category: Runbooks & Diagnostics
-framework: MCP
+title: "Docker Container Health Inspector"
+description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
 verification: security_reviewed
-source: https://github.com/moby/moby
+source: "https://github.com/moby/moby"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
-  tool: moby
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Docker Container Health Inspector
+
 Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
 
 ## Installation

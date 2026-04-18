@@ -1,21 +1,21 @@
 ---
-name: GraphQL Schema Introspector
-description: Performs GraphQL schema introspection using the graphql-js reference
-  implementation and Apollo Client devtools protocol. Generates type documentation,
-  query complexity analysis, and schema diff reports between API versions.
-category: Library & API Reference
-framework: MCP
+title: "GraphQL Schema Introspector"
+description: "Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions."
 verification: security_reviewed
-source: https://github.com/graphql/graphql-js
+source: "https://github.com/graphql/graphql-js"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: graphql/graphql-js
+  github_repo: "graphql/graphql-js"
   github_stars: 20324
-  tool: graphql
+  npm_package: "graphql"
   npm_weekly_downloads: 34200861
-  license: MIT
-  maintained: true
 ---
+
 # GraphQL Schema Introspector
+
 Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions.
 
 ## Installation

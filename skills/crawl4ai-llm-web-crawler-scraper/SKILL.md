@@ -1,19 +1,19 @@
 ---
-name: Crawl4AI LLM-Ready Web Crawler and Scraper
-description: Crawl4AI is an open-source web crawler that converts any website into
-  clean, LLM-ready Markdown for RAG pipelines, AI agents, and data extraction workflows.
-  With 50k+ GitHub stars and an async browser pool, it handles large-scale web extraction
-  with anti-bot detection and deep crawl capabilities.
-category: Research & Scraping
-framework: Custom Agents
+title: "Crawl4AI LLM-Ready Web Crawler and Scraper"
+description: "Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines, AI agents, and data extraction workflows. With 50k+ GitHub stars and an async browser pool, it handles large-scale web extraction with anti-bot detection and deep crawl capabilities."
 verification: security_reviewed
-source: https://github.com/unclecode/crawl4ai
+source: "https://github.com/unclecode/crawl4ai"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: unclecode/crawl4ai
+  github_repo: "unclecode/crawl4ai"
   github_stars: 63132
-  tool: crawl4ai
 ---
+
 # Crawl4AI LLM-Ready Web Crawler and Scraper
+
 Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines, AI agents, and data extraction workflows. With 50k+ GitHub stars and an async browser pool, it handles large-scale web extraction with anti-bot detection and deep crawl capabilities.
 
 ## Installation

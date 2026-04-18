@@ -1,20 +1,19 @@
 ---
-name: Puppeteer Web Scraping Pipeline
-description: Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector,
-  and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot
-  detection with stealth plugin.
-category: Browser Automation
-framework: Gemini
+title: "Puppeteer Web Scraping Pipeline"
+description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
 verification: security_reviewed
-source: https://github.com/puppeteer/puppeteer
+source: "https://github.com/puppeteer/puppeteer"
+category:
+  - "Browser Automation"
+framework:
+  - "Gemini"
 tool_ecosystem:
-  github_repo: puppeteer/puppeteer
+  github_repo: "puppeteer/puppeteer"
   github_stars: 94115
-  tool: puppeteer
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Puppeteer Web Scraping Pipeline
+
 Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin.
 
 ## Installation

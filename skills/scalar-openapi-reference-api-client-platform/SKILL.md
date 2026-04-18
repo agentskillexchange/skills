@@ -1,21 +1,19 @@
 ---
-name: Scalar OpenAPI Reference and API Client Platform
-description: Scalar is an open-source API platform for publishing modern OpenAPI references
-  and testing endpoints with a built-in API client. It fits agent workflows that need
-  readable API docs, interactive request testing, and framework-friendly integrations
-  across many stacks.
-category: Library & API Reference
-framework: Multi-Framework
+title: "Scalar OpenAPI Reference and API Client Platform"
+description: "Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks."
 verification: security_reviewed
-source: https://github.com/scalar/scalar
+source: "https://github.com/scalar/scalar"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: scalar/scalar
+  github_repo: "scalar/scalar"
   github_stars: 14624
-  tool: scalar
-  license: MIT
-  maintained: true
 ---
+
 # Scalar OpenAPI Reference and API Client Platform
+
 Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks.
 
 ## Installation

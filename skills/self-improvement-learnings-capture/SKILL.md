@@ -1,17 +1,19 @@
 ---
-name: Self-Improvement / Learnings Capture
-description: Capture failures, corrections, and repeatable lessons so important operational
-  knowledge persists across sessions.
-category: Templates & Workflows
-framework: OpenClaw
+title: "Self-Improvement / Learnings Capture"
+description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
 verification: security_reviewed
-source: https://github.com/peterskoett/self-improving-agent
+source: "https://github.com/peterskoett/self-improving-agent"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: peterskoett/self-improving-agent
+  github_repo: "peterskoett/self-improving-agent"
   github_stars: 505
-  tool: self-improving-agent
 ---
+
 # Self-Improvement / Learnings Capture
+
 Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
 
 ## Installation

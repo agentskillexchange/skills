@@ -1,18 +1,19 @@
 ---
-name: PostgreSQL Performance Runbook
-description: Executes diagnostic queries against PostgreSQL using pg_stat_statements,
-  pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention,
-  bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer
-  statistics.
-category: Runbooks & Diagnostics
-framework: Codex
+title: "PostgreSQL Performance Runbook"
+description: "Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics."
 verification: security_reviewed
-source: https://www.npmjs.com/package/pg
+source: "https://www.npmjs.com/package/pg"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Codex"
 tool_ecosystem:
-  tool: pg
+  npm_package: "pg"
   npm_weekly_downloads: 23169914
 ---
+
 # PostgreSQL Performance Runbook
+
 Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics.
 
 ## Installation

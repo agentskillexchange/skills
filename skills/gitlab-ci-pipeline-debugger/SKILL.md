@@ -1,19 +1,19 @@
 ---
-name: GitLab CI Pipeline Debugger
-description: Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching
-  job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency
-  issues, and suggests targeted fixes.
-category: CI/CD Integrations
-framework: Claude Code
+title: "GitLab CI Pipeline Debugger"
+description: "Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes."
 verification: security_reviewed
-source: https://github.com/gitlabhq/gitlabhq
+source: "https://github.com/gitlabhq/gitlabhq"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: gitlabhq/gitlabhq
+  github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
-  tool: gitlabhq
-  maintained: true
 ---
+
 # GitLab CI Pipeline Debugger
+
 Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes.
 
 ## Installation

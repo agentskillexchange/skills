@@ -1,14 +1,16 @@
 ---
-name: SEC EDGAR Financial Filing Parser
-description: Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR
-  Full-Text Search API and company filing API. Extracts XBRL financial data via the
-  SEC XBRL API for structured balance sheet and income statement analysis.
-category: Research & Scraping
-framework: Claude Code
+title: "SEC EDGAR Financial Filing Parser"
+description: "Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing API. Extracts XBRL financial data via the SEC XBRL API for structured balance sheet and income statement analysis."
 verification: security_reviewed
-source: https://www.sec.gov/edgar/searchedgar/companysearch
+source: "https://www.sec.gov/edgar/searchedgar/companysearch"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
 ---
+
 # SEC EDGAR Financial Filing Parser
+
 Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing API. Extracts XBRL financial data via the SEC XBRL API for structured balance sheet and income statement analysis.
 
 ## Installation

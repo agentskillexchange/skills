@@ -1,14 +1,16 @@
 ---
-name: Microsoft Graph Email Triage Agent
-description: Automates email triage using Microsoft Graph API v1.0 with delegated
-  permissions. Classifies emails by urgency using NLP, applies Outlook rules, and
-  surfaces action items to Microsoft To Do via Graph Tasks API.
-category: Calendar, Email & Productivity
-framework: Claude Code
+title: "Microsoft Graph Email Triage Agent"
+description: "Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using NLP, applies Outlook rules, and surfaces action items to Microsoft To Do via Graph Tasks API."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/
+source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Claude Code"
 ---
+
 # Microsoft Graph Email Triage Agent
+
 Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using NLP, applies Outlook rules, and surfaces action items to Microsoft To Do via Graph Tasks API.
 
 ## Installation

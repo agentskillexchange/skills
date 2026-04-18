@@ -1,20 +1,19 @@
 ---
-name: librosa Python Audio and Music Analysis Library
-description: librosa is a Python library for audio and music analysis. It provides
-  tools for feature extraction, spectral analysis, beat tracking, onset detection,
-  and audio visualization, built on top of NumPy and SciPy for scientific audio computing.
-category: Media & Transcription
-framework: Multi-Framework
+title: "librosa Python Audio and Music Analysis Library"
+description: "librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio visualization, built on top of NumPy and SciPy for scientific audio computing."
 verification: security_reviewed
-source: https://github.com/librosa/librosa
+source: "https://github.com/librosa/librosa"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: librosa/librosa
+  github_repo: "librosa/librosa"
   github_stars: 8294
-  tool: librosa
-  license: ISC
-  maintained: true
 ---
+
 # librosa Python Audio and Music Analysis Library
+
 librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio visualization, built on top of NumPy and SciPy for scientific audio computing.
 
 ## Installation

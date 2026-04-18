@@ -1,21 +1,21 @@
 ---
-name: Swagger Codegen API Client Builder
-description: Generates typed API client libraries from OpenAPI 3.x specifications
-  using swagger-codegen and openapi-generator-cli. Produces clients for TypeScript-axios,
-  Python-requests, and Go-http with custom mustache templates.
-category: Library & API Reference
-framework: Claude Code
+title: "Swagger Codegen API Client Builder"
+description: "Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and openapi-generator-cli. Produces clients for TypeScript-axios, Python-requests, and Go-http with custom mustache templates."
 verification: security_reviewed
-source: https://github.com/swagger-api/swagger-ui
+source: "https://github.com/swagger-api/swagger-ui"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: swagger-api/swagger-ui
+  github_repo: "swagger-api/swagger-ui"
   github_stars: 28751
-  tool: swagger-ui
+  npm_package: "swagger-ui"
   npm_weekly_downloads: 149194
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Swagger Codegen API Client Builder
+
 Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and openapi-generator-cli. Produces clients for TypeScript-axios, Python-requests, and Go-http with custom mustache templates.
 
 ## Installation

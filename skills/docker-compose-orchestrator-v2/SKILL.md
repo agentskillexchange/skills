@@ -1,20 +1,19 @@
 ---
-name: Docker Compose Orchestrator
-description: Manages multi-service Docker Compose environments using the Compose V2
-  Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling
-  updates.
-category: Developer Tools
-framework: OpenClaw
+title: "Docker Compose Orchestrator"
+description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
 verification: security_reviewed
-source: https://github.com/moby/moby
+source: "https://github.com/moby/moby"
+category:
+  - "Developer Tools"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
-  tool: moby
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Docker Compose Orchestrator
+
 Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates.
 
 ## Installation

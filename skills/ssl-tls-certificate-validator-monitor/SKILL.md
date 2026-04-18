@@ -1,14 +1,16 @@
 ---
-name: SSL/TLS Certificate Validator and Monitor
-description: Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling
-  status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency
-  logs and SSLLabs API for grading.
-category: Security & Verification
-framework: Custom Agents
+title: "SSL/TLS Certificate Validator and Monitor"
+description: "Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/
+source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Custom Agents"
 ---
+
 # SSL/TLS Certificate Validator and Monitor
+
 Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading.
 
 ## Installation

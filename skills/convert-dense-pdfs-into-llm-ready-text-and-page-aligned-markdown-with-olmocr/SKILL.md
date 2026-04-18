@@ -1,17 +1,19 @@
 ---
-name: Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR
-description: Use olmOCR when an agent needs to turn scanned or layout-heavy documents
-  into clean markdown or text before chunking, search, extraction, or citation workflows.
-category: Data Extraction & Transformation
-framework: Multi-Framework
+title: "Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR"
+description: "Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows."
 verification: listed
-source: https://github.com/allenai/olmocr
+source: "https://github.com/allenai/olmocr"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: allenai/olmocr
+  github_repo: "allenai/olmocr"
   github_stars: 17135
-  tool: olmocr
 ---
+
 # Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR
+
 Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows.
 
 ## Installation

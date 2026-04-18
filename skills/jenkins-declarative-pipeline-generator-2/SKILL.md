@@ -1,18 +1,19 @@
 ---
-name: Jenkins Declarative Pipeline Generator
-description: Generates Jenkins Declarative Pipelines using the Pipeline Model Definition
-  Plugin API and Jenkins shared library conventions. Integrates with the Jenkins REST
-  API for job provisioning and credentials management.
-category: CI/CD Integrations
-framework: OpenClaw
+title: "Jenkins Declarative Pipeline Generator"
+description: "Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library conventions. Integrates with the Jenkins REST API for job provisioning and credentials management."
 verification: security_reviewed
-source: https://github.com/jenkinsci/pipeline-model-definition-plugin
+source: "https://github.com/jenkinsci/pipeline-model-definition-plugin"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: jenkinsci/pipeline-model-definition-plugin
+  github_repo: "jenkinsci/pipeline-model-definition-plugin"
   github_stars: 564
-  tool: pipeline-model-definition-plugin
 ---
+
 # Jenkins Declarative Pipeline Generator
+
 Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library conventions. Integrates with the Jenkins REST API for job provisioning and credentials management.
 
 ## Installation

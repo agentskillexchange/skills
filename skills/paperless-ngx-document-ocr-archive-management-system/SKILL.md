@@ -1,19 +1,19 @@
 ---
-name: Paperless-ngx Document OCR and Archive Management System
-description: Paperless-ngx is an open source document management system that turns
-  scanned or uploaded paperwork into a searchable archive. It combines OCR-driven
-  ingestion, indexing, tagging, storage, and retrieval for teams that need structured
-  access to documents.
-category: Data Extraction & Transformation
-framework: Multi-Framework
+title: "Paperless-ngx Document OCR and Archive Management System"
+description: "Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging, storage, and retrieval for teams that need structured access to documents."
 verification: security_reviewed
-source: https://github.com/paperless-ngx/paperless-ngx
+source: "https://github.com/paperless-ngx/paperless-ngx"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: paperless-ngx/paperless-ngx
+  github_repo: "paperless-ngx/paperless-ngx"
   github_stars: 38063
-  tool: paperless-ngx
 ---
+
 # Paperless-ngx Document OCR and Archive Management System
+
 Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging, storage, and retrieval for teams that need structured access to documents.
 
 ## Installation

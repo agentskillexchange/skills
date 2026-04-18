@@ -1,14 +1,16 @@
 ---
-name: AssemblyAI Audio Intelligence Agent
-description: Extract structured intelligence from audio using the AssemblyAI API with
-  sentiment analysis, entity detection, topic modeling, and auto-chapter generation.
-  Uses the assemblyai Python SDK for transcript processing pipelines.
-category: Media & Transcription
-framework: MCP
+title: "AssemblyAI Audio Intelligence Agent"
+description: "Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic modeling, and auto-chapter generation. Uses the assemblyai Python SDK for transcript processing pipelines."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/
+source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "MCP"
 ---
+
 # AssemblyAI Audio Intelligence Agent
+
 Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic modeling, and auto-chapter generation. Uses the assemblyai Python SDK for transcript processing pipelines.
 
 ## Installation

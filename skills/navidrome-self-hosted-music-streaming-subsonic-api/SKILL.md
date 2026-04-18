@@ -1,19 +1,20 @@
 ---
-name: Navidrome Self-Hosted Music Streaming Server and Subsonic API
-description: Integrate Navidrome’s self-hosted music server into AI agent workflows.
-  Agents can manage music libraries, create playlists, control playback, and search
-  collections through the Subsonic-compatible API and Navidrome’s native REST endpoints.
-category: Media & Transcription
-framework: Multi-Framework
+title: "Navidrome Self-Hosted Music Streaming Server and Subsonic API"
+description: "Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome's native REST endpoints."
 verification: security_reviewed
-source: https://github.com/navidrome/navidrome
+source: "https://github.com/navidrome/navidrome"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: navidrome/navidrome
+  github_repo: "navidrome/navidrome"
   github_stars: 20161
-  tool: navidrome
 ---
+
 # Navidrome Self-Hosted Music Streaming Server and Subsonic API
-Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome’s native REST endpoints.
+
+Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome's native REST endpoints.
 
 ## Installation
 

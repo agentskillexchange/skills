@@ -1,14 +1,16 @@
 ---
-name: Markdown-to-AMP Article Converter
-description: Converts Markdown files to valid AMP HTML articles using unified/remark/rehype
-  pipeline. Validates output against amphtml-validator and generates structured data
-  with schema-dts.
-category: Content Writing & SEO
-framework: Codex
+title: "Markdown-to-AMP Article Converter"
+description: "Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against amphtml-validator and generates structured data with schema-dts."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/markdown-to-amp-article-converter/
+source: "https://agentskillexchange.com/skills/markdown-to-amp-article-converter/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Codex"
 ---
+
 # Markdown-to-AMP Article Converter
+
 Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against amphtml-validator and generates structured data with schema-dts.
 
 ## Installation

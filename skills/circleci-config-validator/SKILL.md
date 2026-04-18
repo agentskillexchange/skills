@@ -1,19 +1,19 @@
 ---
-name: CircleCI Config Validator
-description: Validates and optimizes CircleCI configuration files using the CircleCI
-  v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings,
-  and resource class allocation.
-category: CI/CD Integrations
-framework: Claude Agents
+title: "CircleCI Config Validator"
+description: "Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation."
 verification: security_reviewed
-source: https://github.com/circleci/circleci-docs
+source: "https://github.com/circleci/circleci-docs"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: circleci/circleci-docs
+  github_repo: "circleci/circleci-docs"
   github_stars: 843
-  tool: circleci-docs
-  maintained: true
 ---
+
 # CircleCI Config Validator
+
 Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation.
 
 ## Installation

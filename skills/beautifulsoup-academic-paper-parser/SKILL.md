@@ -1,14 +1,16 @@
 ---
-name: Beautiful Soup Academic Paper Parser
-description: Extracts structured citation data from academic repositories using BeautifulSoup4
-  with lxml parser. Parses DOI metadata, author affiliations, and reference lists
-  from PubMed, arXiv, and Semantic Scholar HTML.
-category: Research & Scraping
-framework: MCP
+title: "Beautiful Soup Academic Paper Parser"
+description: "Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML."
 verification: security_reviewed
-source: https://pypi.org/project/beautifulsoup4/
+source: "https://pypi.org/project/beautifulsoup4/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "MCP"
 ---
+
 # Beautiful Soup Academic Paper Parser
+
 Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML.
 
 ## Installation

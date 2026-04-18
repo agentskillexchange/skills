@@ -1,21 +1,21 @@
 ---
-name: Cypress Component Testing Suite
-description: Implements component and E2E tests using Cypress with cy.mount, cy.intercept,
-  and cy.get selectors. Configures cypress.config.ts with component devServer, custom
-  commands, and Mochawesome reporter integration.
-category: Browser Automation
-framework: MCP
+title: "Cypress Component Testing Suite"
+description: "Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration."
 verification: security_reviewed
-source: https://github.com/cypress-io/cypress
+source: "https://github.com/cypress-io/cypress"
+category:
+  - "Browser Automation"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: cypress-io/cypress
+  github_repo: "cypress-io/cypress"
   github_stars: 49617
-  tool: cypress
+  npm_package: "cypress"
   npm_weekly_downloads: 7268478
-  license: MIT
-  maintained: true
 ---
+
 # Cypress Component Testing Suite
+
 Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration.
 
 ## Installation

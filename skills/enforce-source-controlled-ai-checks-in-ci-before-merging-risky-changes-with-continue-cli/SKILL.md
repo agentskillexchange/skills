@@ -1,18 +1,19 @@
 ---
-name: Enforce source-controlled AI checks in CI before merging risky changes with
-  Continue CLI
-description: Lets an agent define repo-native AI review checks as markdown files and
-  run them as repeatable pull request status checks in CI.
-category: CI/CD Integrations
-framework: Multi-Framework
+title: "Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI"
+description: "Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI."
 verification: listed
-source: https://github.com/continuedev/continue
+source: "https://github.com/continuedev/continue"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: continuedev/continue
+  github_repo: "continuedev/continue"
   github_stars: 32622
-  tool: continue
 ---
+
 # Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI
+
 Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI.
 
 ## Installation

@@ -1,21 +1,19 @@
 ---
-name: Helix Post-Modern Modal Text Editor with LSP and Tree-sitter
-description: Helix is a post-modern terminal-based modal text editor written in Rust.
-  It features built-in language server protocol (LSP) support, smart syntax highlighting
-  and code editing via Tree-sitter, and a Kakoune-inspired editing model with multiple
-  selections.
-category: Developer Tools
-framework: Multi-Framework
+title: "Helix Post-Modern Modal Text Editor with LSP and Tree-sitter"
+description: "Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server protocol (LSP) support, smart syntax highlighting and code editing via Tree-sitter, and a Kakoune-inspired editing model with multiple selections."
 verification: security_reviewed
-source: https://github.com/helix-editor/helix
+source: "https://github.com/helix-editor/helix"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: helix-editor/helix
+  github_repo: "helix-editor/helix"
   github_stars: 43690
-  tool: helix
-  license: MPL-2.0
-  maintained: true
 ---
+
 # Helix Post-Modern Modal Text Editor with LSP and Tree-sitter
+
 Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server protocol (LSP) support, smart syntax highlighting and code editing via Tree-sitter, and a Kakoune-inspired editing model with multiple selections.
 
 ## Installation

@@ -1,20 +1,19 @@
 ---
-name: ArgoCD GitOps Sync Manager
-description: Manages ArgoCD application sync operations with intelligent drift detection
-  and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster
-  GitOps deployments.
-category: CI/CD Integrations
-framework: Gemini
+title: "ArgoCD GitOps Sync Manager"
+description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
 verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+source: "https://github.com/argoproj/argo-cd"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Gemini"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22593
-  tool: argo-cd
-  license: Apache-2.0
-  maintained: true
 ---
+
 # ArgoCD GitOps Sync Manager
+
 Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments.
 
 ## Installation

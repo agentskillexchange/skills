@@ -1,20 +1,19 @@
 ---
-name: Docker Image Layer Inspector
-description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and
-  Dive CLI. Identifies wasted space, duplicate files, and optimizes Dockerfile instructions
-  for smaller builds.
-category: CI/CD Integrations
-framework: Custom Agents
+title: "Docker Image Layer Inspector"
+description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and Dive CLI. Identifies wasted space, duplicate files, and optimizes Dockerfile instructions for smaller builds."
 verification: security_reviewed
-source: https://github.com/moby/moby
+source: "https://github.com/moby/moby"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
-  tool: moby
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Docker Image Layer Inspector
+
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and Dive CLI. Identifies wasted space, duplicate files, and optimizes Dockerfile instructions for smaller builds.
 
 ## Installation

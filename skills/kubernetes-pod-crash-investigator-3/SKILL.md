@@ -1,20 +1,19 @@
 ---
-name: Kubernetes Pod Crash Investigator
-description: Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes
-  API via kubectl and the official kubernetes-client/python SDK. Correlates container
-  logs, resource limits, and node conditions for root cause analysis.
-category: Runbooks & Diagnostics
-framework: Codex
+title: "Kubernetes Pod Crash Investigator"
+description: "Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis."
 verification: security_reviewed
-source: https://github.com/kubernetes/kubernetes
+source: "https://github.com/kubernetes/kubernetes"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Codex"
 tool_ecosystem:
-  github_repo: kubernetes/kubernetes
+  github_repo: "kubernetes/kubernetes"
   github_stars: 121700
-  tool: kubernetes
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Kubernetes Pod Crash Investigator
+
 Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis.
 
 ## Installation

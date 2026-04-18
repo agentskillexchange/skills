@@ -1,18 +1,19 @@
 ---
-name: Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector
-  action
-description: Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators
-  when the task is targeted supply-chain triage, not generic malware scanning.
-category: Security & Verification
-framework: Multi-Framework
+title: "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action"
+description: "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning."
 verification: listed
-source: https://github.com/gensecaihq/Shai-Hulud-2.0-Detector
+source: "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: gensecaihq/Shai-Hulud-2.0-Detector
+  github_repo: "gensecaihq/Shai-Hulud-2.0-Detector"
   github_stars: 124
-  tool: Shai-Hulud-2.0-Detector
 ---
+
 # Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action
+
 Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning.
 
 ## Installation

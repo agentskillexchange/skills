@@ -1,20 +1,19 @@
 ---
-name: OWASP ZAP Scanner Agent
-description: Integrates the OWASP ZAP API to run automated DAST scans against web
-  applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates
-  remediation tickets via Jira REST API.
-category: Security & Verification
-framework: OpenClaw
+title: "OWASP ZAP Scanner Agent"
+description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
 verification: security_reviewed
-source: https://github.com/zaproxy/zaproxy
+source: "https://github.com/zaproxy/zaproxy"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: zaproxy/zaproxy
+  github_repo: "zaproxy/zaproxy"
   github_stars: 14991
-  tool: zaproxy
-  license: Apache-2.0
-  maintained: true
 ---
+
 # OWASP ZAP Scanner Agent
+
 Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API.
 
 ## Installation

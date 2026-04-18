@@ -1,14 +1,16 @@
 ---
-name: Google Cloud CLI (gcloud) — Command-Line Interface for GCP
-description: The Google Cloud CLI provides command-line access to 200+ GCP services
-  including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management,
-  deployment, and administration.
-category: Developer Tools
-framework: Multi-Framework
+title: "Google Cloud CLI (gcloud) — Command-Line Interface for GCP"
+description: "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration."
 verification: listed
-source: https://cloud.google.com/sdk
+source: "https://cloud.google.com/sdk"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
+
 # Google Cloud CLI (gcloud) — Command-Line Interface for GCP
+
 The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration.
 
 ## Installation

@@ -1,20 +1,19 @@
 ---
-name: AWS CloudWatch Runbook Agent
-description: Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights
-  StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms
-  with X-Ray trace segments for root cause analysis.
-category: Runbooks & Diagnostics
-framework: ChatGPT Agents
+title: "AWS CloudWatch Runbook Agent"
+description: "Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis."
 verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+source: "https://github.com/aws/aws-sdk-js-v3"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
-  tool: aws-sdk-js-v3
-  license: Apache-2.0
-  maintained: true
 ---
+
 # AWS CloudWatch Runbook Agent
+
 Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis.
 
 ## Installation

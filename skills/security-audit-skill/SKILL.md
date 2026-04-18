@@ -1,23 +1,20 @@
 ---
-name: Security Audit Skill
-description: Security Audit Skill is built around OWASP security tooling ecosystem.
-  The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars).
-  It gives an agent a more technical and reliable way to work with the tool than a
-  thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active
-  checks, auth contexts, alerts, HTTP spidering and preserving […]
-category: Security & Verification
-framework: Custom Agents
+title: "Security Audit Skill"
+description: "Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving [&hellip;]"
 verification: security_reviewed
-source: https://github.com/zaproxy/zaproxy
+source: "https://github.com/zaproxy/zaproxy"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: zaproxy/zaproxy
+  github_repo: "zaproxy/zaproxy"
   github_stars: 14998
-  tool: zaproxy
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Security Audit Skill
-Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]
+
+Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving [&hellip;]
 
 ## Installation
 

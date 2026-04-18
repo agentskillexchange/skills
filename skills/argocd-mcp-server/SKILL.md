@@ -1,23 +1,20 @@
 ---
-name: ArgoCD MCP Server
-description: ArgoCD MCP Server is built around Argo CD GitOps deployment controller
-  for Kubernetes. The underlying ecosystem is represented by argoproj/argo-cd (22,391+
-  GitHub stars). It gives an agent a more technical and reliable way to work with
-  the tool than a thin one-line wrapper, using stable interfaces like Argo CD API,
-  application sync, health checks, resource […]
-category: Developer Tools
-framework: MCP
+title: "ArgoCD MCP Server"
+description: "ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is represented by argoproj/argo-cd (22,391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Argo CD API, application sync, health checks, resource [&hellip;]"
 verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+source: "https://github.com/argoproj/argo-cd"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22624
-  tool: argo-cd
-  license: Apache-2.0
-  maintained: true
 ---
+
 # ArgoCD MCP Server
-ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is represented by argoproj/argo-cd (22,391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Argo CD API, application sync, health checks, resource […]
+
+ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is represented by argoproj/argo-cd (22,391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Argo CD API, application sync, health checks, resource [&hellip;]
 
 ## Installation
 

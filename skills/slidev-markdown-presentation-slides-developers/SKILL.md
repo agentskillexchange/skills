@@ -1,18 +1,19 @@
 ---
-name: Slidev Markdown Presentation Slides for Developers
-description: Slidev is a web-based presentation tool built for developers that turns
-  Markdown files into interactive slide decks with code highlighting, live coding
-  via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX.
-category: Developer Tools
-framework: Claude Code
+title: "Slidev Markdown Presentation Slides for Developers"
+description: "Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX."
 verification: security_reviewed
-source: https://github.com/slidevjs/slidev
+source: "https://github.com/slidevjs/slidev"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: slidevjs/slidev
+  github_repo: "slidevjs/slidev"
   github_stars: 45362
-  tool: slidev
 ---
+
 # Slidev Markdown Presentation Slides for Developers
+
 Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX.
 
 ## Installation

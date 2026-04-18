@@ -1,18 +1,19 @@
 ---
-name: Run coding agents in a locked-down local sandbox with repo-only filesystem access
-  and controlled egress using agent-sandbox
-description: Put Claude Code, Codex, Gemini, or other supported agent CLIs inside
-  a persistent local sandbox instead of letting them operate directly on the host.
-category: Security & Verification
-framework: Multi-Framework
+title: "Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox"
+description: "Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host."
 verification: listed
-source: https://github.com/mattolson/agent-sandbox
+source: "https://github.com/mattolson/agent-sandbox"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mattolson/agent-sandbox
+  github_repo: "mattolson/agent-sandbox"
   github_stars: 163
-  tool: agent-sandbox
 ---
+
 # Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox
+
 Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host.
 
 ## Installation

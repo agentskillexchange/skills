@@ -1,21 +1,19 @@
 ---
-name: OpenTofu Open Source Infrastructure as Code Tool
-description: OpenTofu is an open-source infrastructure as code tool that lets you
-  declaratively manage cloud and on-premises resources. A CNCF project and community-driven
-  fork of Terraform, it provides execution plans, resource graphs, and change automation
-  for safe infrastructure provisioning.
-category: Developer Tools
-framework: Multi-Framework
+title: "OpenTofu Open Source Infrastructure as Code Tool"
+description: "OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises resources. A CNCF project and community-driven fork of Terraform, it provides execution plans, resource graphs, and change automation for safe infrastructure provisioning."
 verification: security_reviewed
-source: https://github.com/opentofu/opentofu
+source: "https://github.com/opentofu/opentofu"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: opentofu/opentofu
+  github_repo: "opentofu/opentofu"
   github_stars: 28244
-  tool: opentofu
-  license: MPL-2.0
-  maintained: true
 ---
+
 # OpenTofu Open Source Infrastructure as Code Tool
+
 OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises resources. A CNCF project and community-driven fork of Terraform, it provides execution plans, resource graphs, and change automation for safe infrastructure provisioning.
 
 ## Installation

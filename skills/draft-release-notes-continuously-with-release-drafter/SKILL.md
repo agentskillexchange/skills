@@ -1,17 +1,19 @@
 ---
-name: Draft release notes continuously with Release Drafter
-description: Keep a living release draft in GitHub so merged pull requests are organized
-  into release notes before ship day.
-category: CI/CD Integrations
-framework: Multi-Framework
+title: "Draft release notes continuously with Release Drafter"
+description: "Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day."
 verification: security_reviewed
-source: https://github.com/release-drafter/release-drafter
+source: "https://github.com/release-drafter/release-drafter"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: release-drafter/release-drafter
+  github_repo: "release-drafter/release-drafter"
   github_stars: 3869
-  tool: release-drafter
 ---
+
 # Draft release notes continuously with Release Drafter
+
 Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day.
 
 ## Installation

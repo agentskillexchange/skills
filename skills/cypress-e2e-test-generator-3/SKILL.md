@@ -1,21 +1,21 @@
 ---
-name: Cypress E2E Test Generator
-description: Generates Cypress end-to-end test suites from user flow recordings. Uses
-  the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic
-  fixture generation.
-category: Browser Automation
-framework: Claude Agents
+title: "Cypress E2E Test Generator"
+description: "Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation."
 verification: security_reviewed
-source: https://github.com/cypress-io/cypress
+source: "https://github.com/cypress-io/cypress"
+category:
+  - "Browser Automation"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: cypress-io/cypress
+  github_repo: "cypress-io/cypress"
   github_stars: 49617
-  tool: cypress
+  npm_package: "cypress"
   npm_weekly_downloads: 7268478
-  license: MIT
-  maintained: true
 ---
+
 # Cypress E2E Test Generator
+
 Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation.
 
 ## Installation

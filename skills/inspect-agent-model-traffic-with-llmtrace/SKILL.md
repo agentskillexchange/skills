@@ -1,17 +1,19 @@
 ---
-name: Inspect agent model traffic with LLMTrace
-description: Proxy OpenAI-compatible model traffic so operators can inspect prompts,
-  detect risks, and enforce budget or policy controls.
-category: Security & Verification
-framework: Multi-Framework
+title: "Inspect agent model traffic with LLMTrace"
+description: "Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls."
 verification: listed
-source: https://github.com/epappas/llmtrace
+source: "https://github.com/epappas/llmtrace"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: epappas/llmtrace
+  github_repo: "epappas/llmtrace"
   github_stars: 46
-  tool: llmtrace
 ---
+
 # Inspect agent model traffic with LLMTrace
+
 Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls.
 
 ## Installation

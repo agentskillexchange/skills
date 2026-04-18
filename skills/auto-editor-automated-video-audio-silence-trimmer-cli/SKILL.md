@@ -1,14 +1,16 @@
 ---
-name: Auto-Editor Automated Video and Audio Silence Trimmer CLI
-description: Auto-Editor is a command-line application that automatically edits video
-  and audio by analyzing loudness, motion, and other signals to cut dead space. It
-  exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines.
-category: Media & Transcription
-framework: Multi-Framework
+title: "Auto-Editor Automated Video and Audio Silence Trimmer CLI"
+description: "Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines."
 verification: security_reviewed
-source: https://github.com/WyattBlue/auto-editor
+source: "https://github.com/WyattBlue/auto-editor"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 ---
+
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI
+
 Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines.
 
 ## Installation

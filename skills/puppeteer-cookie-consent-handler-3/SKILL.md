@@ -1,20 +1,19 @@
 ---
-name: Puppeteer Cookie Consent Handler
-description: Detects and dismisses cookie consent banners across websites using Puppeteer
-  page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports
-  IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
-category: Browser Automation
-framework: Claude Code
+title: "Puppeteer Cookie Consent Handler"
+description: "Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns."
 verification: security_reviewed
-source: https://github.com/puppeteer/puppeteer
+source: "https://github.com/puppeteer/puppeteer"
+category:
+  - "Browser Automation"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: puppeteer/puppeteer
+  github_repo: "puppeteer/puppeteer"
   github_stars: 94115
-  tool: puppeteer
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Puppeteer Cookie Consent Handler
+
 Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
 
 ## Installation

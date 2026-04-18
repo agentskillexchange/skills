@@ -1,20 +1,19 @@
 ---
-name: OWASP ZAP API Security Tester
-description: Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP
-  daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with
-  detailed remediation steps.
-category: Security & Verification
-framework: Codex
+title: "OWASP ZAP API Security Tester"
+description: "Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps."
 verification: security_reviewed
-source: https://github.com/zaproxy/zaproxy
+source: "https://github.com/zaproxy/zaproxy"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Codex"
 tool_ecosystem:
-  github_repo: zaproxy/zaproxy
+  github_repo: "zaproxy/zaproxy"
   github_stars: 14991
-  tool: zaproxy
-  license: Apache-2.0
-  maintained: true
 ---
+
 # OWASP ZAP API Security Tester
+
 Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps.
 
 ## Installation

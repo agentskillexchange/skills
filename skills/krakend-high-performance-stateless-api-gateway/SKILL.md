@@ -1,18 +1,19 @@
 ---
-name: KrakenD High-Performance Stateless API Gateway
-description: KrakenD is an ultra-high performance, stateless, declarative API Gateway
-  written in Go. It helps adopt microservices architecture with content aggregation,
-  rate limiting, security policies, and telemetry integration.
-category: Developer Tools
-framework: Multi-Framework
+title: "KrakenD High-Performance Stateless API Gateway"
+description: "KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies, and telemetry integration."
 verification: security_reviewed
-source: https://github.com/krakend/krakend-ce
+source: "https://github.com/krakend/krakend-ce"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: krakend/krakend-ce
+  github_repo: "krakend/krakend-ce"
   github_stars: 2595
-  tool: krakend-ce
 ---
+
 # KrakenD High-Performance Stateless API Gateway
+
 KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies, and telemetry integration.
 
 ## Installation

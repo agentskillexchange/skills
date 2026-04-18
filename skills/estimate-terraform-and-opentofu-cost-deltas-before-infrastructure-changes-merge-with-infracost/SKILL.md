@@ -1,18 +1,19 @@
 ---
-name: Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge
-  with Infracost
-description: Show projected cloud cost increases or savings from Terraform and OpenTofu
-  plans before a PR merges.
-category: CI/CD Integrations
-framework: Multi-Framework
+title: "Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost"
+description: "Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges."
 verification: listed
-source: https://github.com/infracost/infracost
+source: "https://github.com/infracost/infracost"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: infracost/infracost
+  github_repo: "infracost/infracost"
   github_stars: 12267
-  tool: infracost
 ---
+
 # Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost
+
 Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges.
 
 ## Installation

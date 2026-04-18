@@ -1,18 +1,19 @@
 ---
-name: Bulk import and reconcile large photo archives into Immich without manual re-upload
-  loops using immich-go
-description: Move big photo libraries, takeouts, and nested albums into Immich with
-  metadata intact instead of babysitting one-off uploads.
-category: Image & Creative Automation
-framework: Multi-Framework
+title: "Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go"
+description: "Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads."
 verification: listed
-source: https://github.com/simulot/immich-go
+source: "https://github.com/simulot/immich-go"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: simulot/immich-go
+  github_repo: "simulot/immich-go"
   github_stars: 5979
-  tool: immich-go
 ---
+
 # Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go
+
 Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads.
 
 ## Installation

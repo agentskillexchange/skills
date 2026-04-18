@@ -1,20 +1,19 @@
 ---
-name: Semgrep Pattern Matching Auditor
-description: Leverages the Semgrep OSS engine and semgrep-rules registry to perform
-  deep static analysis across 30+ languages. Combines taint tracking with pattern
-  matching for OWASP Top 10 vulnerability detection.
-category: Code Quality & Review
-framework: OpenClaw
+title: "Semgrep Pattern Matching Auditor"
+description: "Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection."
 verification: security_reviewed
-source: https://github.com/semgrep/semgrep
+source: "https://github.com/semgrep/semgrep"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: semgrep/semgrep
+  github_repo: "semgrep/semgrep"
   github_stars: 14794
-  tool: semgrep
-  license: LGPL-2.1
-  maintained: true
 ---
+
 # Semgrep Pattern Matching Auditor
+
 Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection.
 
 ## Installation

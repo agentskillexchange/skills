@@ -1,19 +1,19 @@
 ---
-name: HashiCorp Vault Secret Scanner
-description: Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog
-  patterns. Integrates with Vault Transit engine for automatic secret rotation and
-  re-encryption of detected credentials.
-category: Security & Verification
-framework: Claude Code
+title: "HashiCorp Vault Secret Scanner"
+description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials."
 verification: security_reviewed
-source: https://github.com/hashicorp/vault
+source: "https://github.com/hashicorp/vault"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: hashicorp/vault
+  github_repo: "hashicorp/vault"
   github_stars: 35418
-  tool: vault
-  maintained: true
 ---
+
 # HashiCorp Vault Secret Scanner
+
 Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials.
 
 ## Installation

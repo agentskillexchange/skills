@@ -1,14 +1,16 @@
 ---
-name: FFmpeg Clip Extractor
-description: Extracts video clips and segments using FFmpeg libavformat and libavcodec
-  APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and
-  re-encoding via libx264/libx265 presets.
-category: Media & Transcription
-framework: Claude Code
+title: "FFmpeg Clip Extractor"
+description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
 verification: security_reviewed
-source: https://github.com/FFmpeg/FFmpeg
+source: "https://github.com/FFmpeg/FFmpeg"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Claude Code"
 ---
+
 # FFmpeg Clip Extractor
+
 Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets.
 
 ## Installation

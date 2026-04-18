@@ -1,20 +1,19 @@
 ---
-name: Docker Container Health Check Runbook
-description: Runs systematic health diagnostics on Docker containers using docker
-  inspect, docker stats, and the Docker Engine API. Checks resource limits, network
-  connectivity, and volume mount integrity.
-category: Runbooks & Diagnostics
-framework: Cursor
+title: "Docker Container Health Check Runbook"
+description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
 verification: security_reviewed
-source: https://github.com/moby/moby
+source: "https://github.com/moby/moby"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Cursor"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
-  tool: moby
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Docker Container Health Check Runbook
+
 Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity.
 
 ## Installation

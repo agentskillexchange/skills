@@ -1,20 +1,19 @@
 ---
-name: Prometheus Alert Rule Tester
-description: Tests Prometheus alerting rules against historical metrics using promtool
-  and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions,
-  simulates alert firing, and checks routing configurations.
-category: Runbooks & Diagnostics
-framework: Claude Code
+title: "Prometheus Alert Rule Tester"
+description: "Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations."
 verification: security_reviewed
-source: https://github.com/prometheus/prometheus
+source: "https://github.com/prometheus/prometheus"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: prometheus/prometheus
+  github_repo: "prometheus/prometheus"
   github_stars: 63584
-  tool: prometheus
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Prometheus Alert Rule Tester
+
 Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations.
 
 ## Installation

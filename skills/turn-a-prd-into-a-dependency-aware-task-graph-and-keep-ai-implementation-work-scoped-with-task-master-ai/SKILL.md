@@ -1,20 +1,21 @@
 ---
-name: Turn a PRD into a dependency-aware task graph and keep AI implementation work
-  scoped with Task Master AI
-description: Use Task Master AI when an agent needs to turn a product request or PRD
-  into a dependency-aware task graph, expand or scope tasks, and keep implementation
-  work anchored to an explicit plan instead of improvising in chat.
-category: Templates & Workflows
-framework: Multi-Framework
+title: "Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI"
+description: "Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks, and keep implementation work anchored to an explicit plan instead of improvising in chat."
 verification: security_reviewed
-source: https://github.com/eyaltoledano/claude-task-master
+source: "https://github.com/eyaltoledano/claude-task-master"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: eyaltoledano/claude-task-master
+  github_repo: "eyaltoledano/claude-task-master"
   github_stars: 26557
-  tool: task-master-ai
+  npm_package: "task-master-ai"
   npm_weekly_downloads: 113563
 ---
+
 # Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI
+
 Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks, and keep implementation work anchored to an explicit plan instead of improvising in chat.
 
 ## Installation

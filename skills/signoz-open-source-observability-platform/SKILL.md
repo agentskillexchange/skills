@@ -1,19 +1,19 @@
 ---
-name: SigNoz Open-Source Observability Platform
-description: SigNoz is an open-source observability platform built around OpenTelemetry
-  for logs, metrics, and traces in one place. It is a practical fit when you want
-  Datadog-style visibility with a self-hosted stack, first-party docs, and active
-  upstream maintenance.
-category: Monitoring & Alerts
-framework: Multi-Framework
+title: "SigNoz Open-Source Observability Platform"
+description: "SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one place. It is a practical fit when you want Datadog-style visibility with a self-hosted stack, first-party docs, and active upstream maintenance."
 verification: security_reviewed
-source: https://github.com/SigNoz/signoz
+source: "https://github.com/SigNoz/signoz"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: SigNoz/signoz
+  github_repo: "SigNoz/signoz"
   github_stars: 26517
-  tool: signoz
 ---
+
 # SigNoz Open-Source Observability Platform
+
 SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one place. It is a practical fit when you want Datadog-style visibility with a self-hosted stack, first-party docs, and active upstream maintenance.
 
 ## Installation

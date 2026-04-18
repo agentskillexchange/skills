@@ -1,20 +1,19 @@
 ---
-name: Puppeteer Visual Regression Testing
-description: Runs pixel-level visual regression tests using Puppeteer page.screenshot()
-  and pixelmatch diffing library. Compares baseline screenshots against current renders
-  with configurable threshold tolerance.
-category: Browser Automation
-framework: Cursor
+title: "Puppeteer Visual Regression Testing"
+description: "Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance."
 verification: security_reviewed
-source: https://github.com/puppeteer/puppeteer
+source: "https://github.com/puppeteer/puppeteer"
+category:
+  - "Browser Automation"
+framework:
+  - "Cursor"
 tool_ecosystem:
-  github_repo: puppeteer/puppeteer
+  github_repo: "puppeteer/puppeteer"
   github_stars: 94115
-  tool: puppeteer
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Puppeteer Visual Regression Testing
+
 Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance.
 
 ## Installation

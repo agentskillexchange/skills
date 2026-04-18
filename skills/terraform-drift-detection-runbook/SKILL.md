@@ -1,19 +1,19 @@
 ---
-name: Terraform Drift Detection Runbook
-description: Detects infrastructure drift using terraform plan -detailed-exitcode
-  and the Terraform Cloud API. Compares state files against live resources across
-  AWS, GCP, and Azure providers.
-category: Runbooks & Diagnostics
-framework: MCP
+title: "Terraform Drift Detection Runbook"
+description: "Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers."
 verification: security_reviewed
-source: https://github.com/hashicorp/terraform
+source: "https://github.com/hashicorp/terraform"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: hashicorp/terraform
+  github_repo: "hashicorp/terraform"
   github_stars: 48146
-  tool: terraform
-  maintained: true
 ---
+
 # Terraform Drift Detection Runbook
+
 Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers.
 
 ## Installation

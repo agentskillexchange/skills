@@ -1,20 +1,21 @@
 ---
-name: Remotion Programmatic Video Creator
-description: Create videos programmatically using React components with Remotion.
-  Leverage web technologies like CSS, Canvas, SVG, and WebGL to build dynamic, data-driven
-  video content with full JavaScript control over every frame.
-category: Media & Transcription
-framework: Multi-Framework
+title: "Remotion Programmatic Video Creator"
+description: "Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas, SVG, and WebGL to build dynamic, data-driven video content with full JavaScript control over every frame."
 verification: security_reviewed
-source: https://github.com/remotion-dev/remotion
+source: "https://github.com/remotion-dev/remotion"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: remotion-dev/remotion
+  github_repo: "remotion-dev/remotion"
   github_stars: 41477
-  tool: remotion
+  npm_package: "remotion"
   npm_weekly_downloads: 635957
-  maintained: true
 ---
+
 # Remotion Programmatic Video Creator
+
 Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas, SVG, and WebGL to build dynamic, data-driven video content with full JavaScript control over every frame.
 
 ## Installation

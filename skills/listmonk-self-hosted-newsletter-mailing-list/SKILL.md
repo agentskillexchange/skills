@@ -1,18 +1,19 @@
 ---
-name: Listmonk Self-Hosted Newsletter and Mailing List Manager
-description: High-performance, self-hosted newsletter and mailing list manager packed
-  into a single binary. Manages millions of subscribers with templated campaigns,
-  analytics, and a REST API for programmatic email automation.
-category: Calendar, Email & Productivity
-framework: Custom Agents
+title: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
+description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
 verification: security_reviewed
-source: https://github.com/knadh/listmonk
+source: "https://github.com/knadh/listmonk"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: knadh/listmonk
+  github_repo: "knadh/listmonk"
   github_stars: 19404
-  tool: listmonk
 ---
+
 # Listmonk Self-Hosted Newsletter and Mailing List Manager
+
 High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation.
 
 ## Installation

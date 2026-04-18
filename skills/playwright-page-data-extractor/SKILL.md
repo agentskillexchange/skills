@@ -1,22 +1,22 @@
 ---
-name: Playwright Page Data Extractor
-description: Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications,
-  intercept network requests, and extract structured data from React/Vue/Angular SPAs
-  with automatic wait strategies.
-category: Research & Scraping
-framework: Claude Code
+title: "Playwright Page Data Extractor"
+description: "Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
 verification: security_reviewed
-source: https://github.com/microsoft/playwright
+source: "https://github.com/microsoft/playwright"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: microsoft/playwright
+  github_repo: "microsoft/playwright"
   github_stars: 86409
-  tool: playwright
+  npm_package: "playwright"
   npm_weekly_downloads: 47883561
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Playwright Page Data Extractor
-Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
+
+Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
 
 ## Installation
 

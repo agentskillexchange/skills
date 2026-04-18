@@ -1,14 +1,16 @@
 ---
-name: FFmpeg Media Transcoder
-description: Automated video and audio transcoding using FFmpeg with hardware-accelerated
-  encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality
-  validation.
-category: Image & Creative Automation
-framework: Claude Code
+title: "FFmpeg Media Transcoder"
+description: "Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation."
 verification: security_reviewed
-source: https://github.com/FFmpeg/FFmpeg
+source: "https://github.com/FFmpeg/FFmpeg"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Claude Code"
 ---
+
 # FFmpeg Media Transcoder
+
 Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation.
 
 ## Installation

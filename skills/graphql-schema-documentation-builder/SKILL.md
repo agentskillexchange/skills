@@ -1,21 +1,21 @@
 ---
-name: GraphQL Schema Documentation Builder
-description: Generates interactive API documentation from GraphQL schemas using graphql-js
-  introspection queries and SpectaQL. Produces type relationship diagrams, query examples,
-  and deprecation notices from SDL files.
-category: Library & API Reference
-framework: Gemini
+title: "GraphQL Schema Documentation Builder"
+description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files."
 verification: security_reviewed
-source: https://github.com/graphql/graphql-js
+source: "https://github.com/graphql/graphql-js"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Gemini"
 tool_ecosystem:
-  github_repo: graphql/graphql-js
+  github_repo: "graphql/graphql-js"
   github_stars: 20324
-  tool: graphql
+  npm_package: "graphql"
   npm_weekly_downloads: 34200861
-  license: MIT
-  maintained: true
 ---
+
 # GraphQL Schema Documentation Builder
+
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files.
 
 ## Installation

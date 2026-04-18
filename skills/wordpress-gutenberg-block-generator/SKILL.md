@@ -1,15 +1,16 @@
 ---
-name: WordPress Gutenberg Block Generator
-description: Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI
-  and block.json schema, then registers them via register_block_type PHP API. Generates
-  edit/save components with InspectorControls and useBlockProps. Outputs production-ready
-  block plugin structure.
-category: WordPress & CMS
-framework: Cursor
+title: "WordPress Gutenberg Block Generator"
+description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure."
 verification: security_reviewed
-source: https://github.com/WordPress/WordPress
+source: "https://github.com/WordPress/WordPress"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Cursor"
 ---
+
 # WordPress Gutenberg Block Generator
+
 Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.
 
 ## Installation

@@ -1,14 +1,16 @@
 ---
-name: Add a browser review checkpoint before risky agent actions with AgentClick
-description: Use AgentClick when an agent should pause before risky commands, plans,
-  drafts, or code changes so a human can inspect, edit, approve, or reject them in
-  a purpose-built browser UI.
-category: Code Quality & Review
-framework: Multi-Framework
+title: "Add a browser review checkpoint before risky agent actions with AgentClick"
+description: "Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject them in a purpose-built browser UI."
 verification: listed
-source: https://github.com/agentlayer-io/AgentClick
+source: "https://github.com/agentlayer-io/AgentClick"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 ---
+
 # Add a browser review checkpoint before risky agent actions with AgentClick
+
 Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject them in a purpose-built browser UI.
 
 ## Installation

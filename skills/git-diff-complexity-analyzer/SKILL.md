@@ -1,14 +1,16 @@
 ---
-name: Git Diff Complexity Analyzer
-description: Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity
-  changes per function. Flags complexity regressions in pull requests with inline
-  GitHub review comments via PyGithub.
-category: Developer Tools
-framework: MCP
+title: "Git Diff Complexity Analyzer"
+description: "Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity regressions in pull requests with inline GitHub review comments via PyGithub."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/git-diff-complexity-analyzer/
+source: "https://agentskillexchange.com/skills/git-diff-complexity-analyzer/"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 ---
+
 # Git Diff Complexity Analyzer
+
 Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity regressions in pull requests with inline GitHub review comments via PyGithub.
 
 ## Installation

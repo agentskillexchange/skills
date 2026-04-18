@@ -1,19 +1,19 @@
 ---
-name: Hanko Open Source Passkey Authentication and User Management
-description: Hanko is an open-source authentication and user management platform built
-  on passkeys and WebAuthn. It provides a drop-in authentication solution as an alternative
-  to Auth0, Clerk, and Stytch, with pre-built web components, a REST API, and an admin
-  dashboard.
-category: Security & Verification
-framework: Custom Agents
+title: "Hanko Open Source Passkey Authentication and User Management"
+description: "Hanko is an open-source authentication and user management platform built on passkeys and WebAuthn. It provides a drop-in authentication solution as an alternative to Auth0, Clerk, and Stytch, with pre-built web components, a REST API, and an admin dashboard."
 verification: security_reviewed
-source: https://github.com/teamhanko/hanko
+source: "https://github.com/teamhanko/hanko"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: teamhanko/hanko
+  github_repo: "teamhanko/hanko"
   github_stars: 8893
-  tool: hanko
 ---
+
 # Hanko Open Source Passkey Authentication and User Management
+
 Hanko is an open-source authentication and user management platform built on passkeys and WebAuthn. It provides a drop-in authentication solution as an alternative to Auth0, Clerk, and Stytch, with pre-built web components, a REST API, and an admin dashboard.
 
 ## Installation

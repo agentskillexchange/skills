@@ -1,22 +1,21 @@
 ---
-name: Prismic Headless CMS Content API Client
-description: Prismic provides a headless CMS with an API-first editing model, and
-  the official @prismicio/client package is the main integration point for fetching
-  content in apps and automations. It fits agents that need to inspect repositories,
-  publish structured content flows, or wire CMS data into websites and internal tools.
-category: WordPress & CMS
-framework: Multi-Framework
+title: "Prismic Headless CMS Content API Client"
+description: "Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the main integration point for fetching content in apps and automations. It fits agents that need to inspect repositories, publish structured content flows, or wire CMS data into websites and internal tools."
 verification: security_reviewed
-source: https://github.com/prismicio/prismic-client
+source: "https://github.com/prismicio/prismic-client"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: prismicio/prismic-client
+  github_repo: "prismicio/prismic-client"
   github_stars: 177
-  tool: '@prismicio/client'
+  npm_package: "@prismicio/client"
   npm_weekly_downloads: 199739
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Prismic Headless CMS Content API Client
+
 Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the main integration point for fetching content in apps and automations. It fits agents that need to inspect repositories, publish structured content flows, or wire CMS data into websites and internal tools.
 
 ## Installation

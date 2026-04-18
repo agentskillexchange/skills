@@ -1,14 +1,16 @@
 ---
-name: ScrapyCloud Job Manager
-description: Manages Scrapy spider deployments and job scheduling on ScrapyCloud via
-  the Scrapinghub API. Handles spider argument injection, job prioritization, and
-  item export to S3 or BigQuery.
-category: Research & Scraping
-framework: ChatGPT Agents
+title: "ScrapyCloud Job Manager"
+description: "Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/scrapycloud-job-manager/
+source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "ChatGPT Agents"
 ---
+
 # ScrapyCloud Job Manager
+
 Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery.
 
 ## Installation

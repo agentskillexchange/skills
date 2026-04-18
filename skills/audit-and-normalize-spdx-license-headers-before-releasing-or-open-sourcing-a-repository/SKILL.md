@@ -1,16 +1,16 @@
 ---
-name: Audit and normalize SPDX license headers before releasing or open-sourcing a
-  repository
-description: Use REUSE when an agent needs file-level licensing clarity instead of
-  guessing from a single top-level LICENSE file. The agent checks compliance, adds
-  or verifies SPDX headers, pulls missing license texts into LICENSES/, and produces
-  a concrete remediation list or SPDX export.
-category: Security & Verification
-framework: Multi-Framework
+title: "Audit and normalize SPDX license headers before releasing or open-sourcing a repository"
+description: "Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file. The agent checks compliance, adds or verifies SPDX headers, pulls missing license texts into LICENSES/, and produces a concrete remediation list or SPDX export."
 verification: security_reviewed
-source: https://codeberg.org/fsfe/reuse-tool
+source: "https://codeberg.org/fsfe/reuse-tool"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 ---
+
 # Audit and normalize SPDX license headers before releasing or open-sourcing a repository
+
 Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file. The agent checks compliance, adds or verifies SPDX headers, pulls missing license texts into LICENSES/, and produces a concrete remediation list or SPDX export.
 
 ## Installation

@@ -1,14 +1,16 @@
 ---
-name: Buildkite Dynamic Pipeline Architect
-description: Creates dynamic Buildkite pipelines using the Buildkite REST API and
-  pipeline upload mechanism. Implements conditional step generation based on file
-  change detection via git diff.
-category: CI/CD Integrations
-framework: Cursor
+title: "Buildkite Dynamic Pipeline Architect"
+description: "Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/
+source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
+
 # Buildkite Dynamic Pipeline Architect
+
 Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff.
 
 ## Installation

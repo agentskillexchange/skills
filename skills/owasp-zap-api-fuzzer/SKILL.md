@@ -1,20 +1,19 @@
 ---
-name: OWASP ZAP API Fuzzer
-description: Automates REST API security testing using the OWASP ZAP Python SDK. Runs
-  active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured
-  vulnerability reports.
-category: Security & Verification
-framework: OpenClaw
+title: "OWASP ZAP API Fuzzer"
+description: "Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports."
 verification: security_reviewed
-source: https://github.com/zaproxy/zaproxy
+source: "https://github.com/zaproxy/zaproxy"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: zaproxy/zaproxy
+  github_repo: "zaproxy/zaproxy"
   github_stars: 14991
-  tool: zaproxy
-  license: Apache-2.0
-  maintained: true
 ---
+
 # OWASP ZAP API Fuzzer
+
 Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports.
 
 ## Installation

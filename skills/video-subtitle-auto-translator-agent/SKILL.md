@@ -1,14 +1,16 @@
 ---
-name: Video Subtitle Auto-Translator
-description: Translates video subtitles across 100+ languages using DeepL API and
-  Google Cloud Translation v3. Handles SRT/VTT timing preservation, character limit
-  enforcement, and subtitle segmentation with Aegisub CLI.
-category: Media & Transcription
-framework: Cursor
+title: "Video Subtitle Auto-Translator"
+description: "Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT timing preservation, character limit enforcement, and subtitle segmentation with Aegisub CLI."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/
+source: "https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Cursor"
 ---
+
 # Video Subtitle Auto-Translator
+
 Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT timing preservation, character limit enforcement, and subtitle segmentation with Aegisub CLI.
 
 ## Installation

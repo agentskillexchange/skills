@@ -1,19 +1,19 @@
 ---
-name: GitLab CI Merge Train Optimizer
-description: Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains).
-  Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based
-  job dependencies for parallel execution.
-category: CI/CD Integrations
-framework: Codex
+title: "GitLab CI Merge Train Optimizer"
+description: "Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based job dependencies for parallel execution."
 verification: security_reviewed
-source: https://github.com/gitlabhq/gitlabhq
+source: "https://github.com/gitlabhq/gitlabhq"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Codex"
 tool_ecosystem:
-  github_repo: gitlabhq/gitlabhq
+  github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
-  tool: gitlabhq
-  maintained: true
 ---
+
 # GitLab CI Merge Train Optimizer
+
 Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based job dependencies for parallel execution.
 
 ## Installation

@@ -1,21 +1,21 @@
 ---
-name: ESLint Rule Conflict Detector
-description: Analyzes .eslintrc configurations and extended rulesets using the ESLint
-  Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier,
-  TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config.
-category: Code Quality & Review
-framework: Codex
+title: "ESLint Rule Conflict Detector"
+description: "Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config."
 verification: security_reviewed
-source: https://github.com/eslint/eslint
+source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Codex"
 tool_ecosystem:
-  github_repo: eslint/eslint
+  github_repo: "eslint/eslint"
   github_stars: 27188
-  tool: eslint
+  npm_package: "eslint"
   npm_weekly_downloads: 120215107
-  license: MIT
-  maintained: true
 ---
+
 # ESLint Rule Conflict Detector
+
 Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config.
 
 ## Installation

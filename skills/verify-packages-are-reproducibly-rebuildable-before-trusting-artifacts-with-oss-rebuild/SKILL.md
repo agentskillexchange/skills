@@ -1,18 +1,19 @@
 ---
-name: Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With
-  Oss Rebuild
-description: Query OSS Rebuild attestations and rebuild metadata so an agent can verify
-  whether a published package artifact matches a reproducible upstream rebuild.
-category: Security & Verification
-framework: Multi-Framework
+title: "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild"
+description: "Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild."
 verification: listed
-source: https://github.com/google/oss-rebuild
+source: "https://github.com/google/oss-rebuild"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: google/oss-rebuild
+  github_repo: "google/oss-rebuild"
   github_stars: 687
-  tool: oss-rebuild
 ---
+
 # Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild
+
 Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild.
 
 ## Installation

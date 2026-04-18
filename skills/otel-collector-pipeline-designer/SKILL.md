@@ -1,14 +1,16 @@
 ---
-name: OpenTelemetry Collector Pipeline Designer
-description: Designs OpenTelemetry Collector pipeline configurations with receivers
-  (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and
-  exporters (otlphttp, jaeger, elasticsearch).
-category: Monitoring & Alerts
-framework: OpenClaw
+title: "OpenTelemetry Collector Pipeline Designer"
+description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/otel-collector-pipeline-designer/
+source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "OpenClaw"
 ---
+
 # OpenTelemetry Collector Pipeline Designer
+
 Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch).
 
 ## Installation

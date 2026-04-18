@@ -1,18 +1,19 @@
 ---
-name: Goose Extensible AI Coding Agent by Block
-description: An open-source, extensible AI agent from Block (formerly Square) that
-  goes beyond code suggestions to install packages, execute commands, edit files,
-  and run tests. Supports any LLM and extends via MCP servers for tool integration.
-category: Developer Tools
-framework: Custom Agents
+title: "Goose Extensible AI Coding Agent by Block"
+description: "An open-source, extensible AI agent from Block (formerly Square) that goes beyond code suggestions to install packages, execute commands, edit files, and run tests. Supports any LLM and extends via MCP servers for tool integration."
 verification: security_reviewed
-source: https://github.com/block/goose
+source: "https://github.com/block/goose"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: block/goose
+  github_repo: "block/goose"
   github_stars: 33898
-  tool: goose
 ---
+
 # Goose Extensible AI Coding Agent by Block
+
 An open-source, extensible AI agent from Block (formerly Square) that goes beyond code suggestions to install packages, execute commands, edit files, and run tests. Supports any LLM and extends via MCP servers for tool integration.
 
 ## Installation

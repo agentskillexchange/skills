@@ -1,17 +1,19 @@
 ---
-name: Review Dockerfiles for risky patterns and bad defaults with hadolint
-description: Catch insecure Dockerfile patterns, brittle package-install habits, and
-  shell pitfalls before image builds ship.
-category: Security & Verification
-framework: Multi-Framework
+title: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
+description: "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship."
 verification: listed
-source: https://github.com/hadolint/hadolint
+source: "https://github.com/hadolint/hadolint"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: hadolint/hadolint
+  github_repo: "hadolint/hadolint"
   github_stars: 12065
-  tool: hadolint
 ---
+
 # Review Dockerfiles for risky patterns and bad defaults with hadolint
+
 Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship.
 
 ## Installation

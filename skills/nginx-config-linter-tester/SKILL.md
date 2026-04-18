@@ -1,20 +1,19 @@
 ---
-name: Nginx Config Linter and Tester
-description: Validates nginx.conf files using the gixy static analyzer and crossplane
-  parser library. Tests configuration for security misconfigs, HTTP header issues,
-  and performs dry-run validation via nginx -t subprocess invocation.
-category: Runbooks & Diagnostics
-framework: ChatGPT Agents
+title: "Nginx Config Linter and Tester"
+description: "Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation."
 verification: security_reviewed
-source: https://github.com/nginx/nginx
+source: "https://github.com/nginx/nginx"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: nginx/nginx
+  github_repo: "nginx/nginx"
   github_stars: 29930
-  tool: nginx
-  license: BSD-2-Clause
-  maintained: true
 ---
+
 # Nginx Config Linter and Tester
+
 Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation.
 
 ## Installation

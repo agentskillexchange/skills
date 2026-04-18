@@ -1,20 +1,19 @@
 ---
-name: ArgoCD Deployment Monitor
-description: Monitors ArgoCD application deployments using the ArgoCD REST API and
-  gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes
-  namespaces.
-category: CI/CD Integrations
-framework: Custom Agents
+title: "ArgoCD Deployment Monitor"
+description: "Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces."
 verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+source: "https://github.com/argoproj/argo-cd"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22593
-  tool: argo-cd
-  license: Apache-2.0
-  maintained: true
 ---
+
 # ArgoCD Deployment Monitor
+
 Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces.
 
 ## Installation

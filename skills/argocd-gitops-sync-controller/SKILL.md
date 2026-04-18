@@ -1,20 +1,19 @@
 ---
-name: ArgoCD GitOps Sync Controller
-description: Manages ArgoCD Application and ApplicationSet resources for Kubernetes
-  GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves,
-  health checks, and progressive rollout configurations.
-category: CI/CD Integrations
-framework: MCP
+title: "ArgoCD GitOps Sync Controller"
+description: "Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations."
 verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+source: "https://github.com/argoproj/argo-cd"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22593
-  tool: argo-cd
-  license: Apache-2.0
-  maintained: true
 ---
+
 # ArgoCD GitOps Sync Controller
+
 Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations.
 
 ## Installation

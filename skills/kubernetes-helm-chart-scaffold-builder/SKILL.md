@@ -1,20 +1,19 @@
 ---
-name: Kubernetes Helm Chart Scaffold Builder
-description: Generates Helm v3 chart scaffolds with templated deployments, services,
-  ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval
-  for Kubernetes API version compatibility.
-category: Templates & Workflows
-framework: MCP
+title: "Kubernetes Helm Chart Scaffold Builder"
+description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
 verification: security_reviewed
-source: https://github.com/helm/helm
+source: "https://github.com/helm/helm"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: helm/helm
+  github_repo: "helm/helm"
   github_stars: 29697
-  tool: helm
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Kubernetes Helm Chart Scaffold Builder
+
 Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility.
 
 ## Installation

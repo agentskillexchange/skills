@@ -1,17 +1,22 @@
 ---
-name: PostgreSQL MCP Server
-description: Agent access to PostgreSQL data and queries through MCP.
-category: Data Extraction & Transformation
-framework: Claude Code, Cursor, MCP, OpenClaw
+title: "PostgreSQL MCP Server"
+description: "Agent access to PostgreSQL data and queries through MCP."
 verification: security_reviewed
-source: https://github.com/modelcontextprotocol/servers
+source: "https://github.com/modelcontextprotocol/servers"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: modelcontextprotocol/servers
+  github_repo: "modelcontextprotocol/servers"
   github_stars: 83947
-  tool: servers
-  maintained: true
 ---
+
 # PostgreSQL MCP Server
+
 Agent access to PostgreSQL data and queries through MCP.
 
 ## Installation

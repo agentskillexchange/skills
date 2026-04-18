@@ -1,18 +1,19 @@
 ---
-name: Freeze Code and Terminal Screenshot Generator
-description: Freeze by Charmbracelet generates polished PNG and SVG images of code
-  snippets and terminal output. It supports syntax highlighting for over 200 languages,
-  configurable themes, shadows, padding, and window chrome styling.
-category: Developer Tools
-framework: Custom Agents
+title: "Freeze Code and Terminal Screenshot Generator"
+description: "Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports syntax highlighting for over 200 languages, configurable themes, shadows, padding, and window chrome styling."
 verification: security_reviewed
-source: https://github.com/charmbracelet/freeze
+source: "https://github.com/charmbracelet/freeze"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: charmbracelet/freeze
+  github_repo: "charmbracelet/freeze"
   github_stars: 4409
-  tool: freeze
 ---
+
 # Freeze Code and Terminal Screenshot Generator
+
 Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports syntax highlighting for over 200 languages, configurable themes, shadows, padding, and window chrome styling.
 
 ## Installation

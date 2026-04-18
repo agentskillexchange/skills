@@ -1,21 +1,21 @@
 ---
-name: ESLint Auto-Fix Orchestrator
-description: Runs ESLint with auto-fix capabilities using the ESLint Node.js API and
-  flat config system. Supports custom rule sets, TypeScript via typescript-eslint,
-  and Prettier integration.
-category: Code Quality & Review
-framework: Claude Code
+title: "ESLint Auto-Fix Orchestrator"
+description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
 verification: security_reviewed
-source: https://github.com/eslint/eslint
+source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: eslint/eslint
+  github_repo: "eslint/eslint"
   github_stars: 27188
-  tool: eslint
+  npm_package: "eslint"
   npm_weekly_downloads: 120215107
-  license: MIT
-  maintained: true
 ---
+
 # ESLint Auto-Fix Orchestrator
+
 Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration.
 
 ## Installation

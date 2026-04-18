@@ -1,14 +1,16 @@
 ---
-name: Gutenberg Block Scaffolder
-description: Generates custom Gutenberg blocks using @wordpress/create-block and the
-  Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with
-  InnerBlocks support and block.json viewScriptModule.
-category: WordPress & CMS
-framework: Claude Code
+title: "Gutenberg Block Scaffolder"
+description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/
+source: "https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Claude Code"
 ---
+
 # Gutenberg Block Scaffolder
+
 Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule.
 
 ## Installation

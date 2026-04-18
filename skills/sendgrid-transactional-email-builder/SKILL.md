@@ -1,21 +1,21 @@
 ---
-name: SendGrid Transactional Email Builder
-description: Constructs and sends transactional emails using the SendGrid v3 Mail
-  Send API. Builds dynamic templates with Handlebars substitutions, manages suppression
-  groups, and tracks delivery via Event Webhook parsing.
-category: Integrations & Connectors
-framework: MCP
+title: "SendGrid Transactional Email Builder"
+description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
 verification: security_reviewed
-source: https://github.com/sendgrid/sendgrid-nodejs
+source: "https://github.com/sendgrid/sendgrid-nodejs"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: sendgrid/sendgrid-nodejs
+  github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3049
-  tool: '@sendgrid/mail'
+  npm_package: "@sendgrid/mail"
   npm_weekly_downloads: 3588681
-  license: MIT
-  maintained: true
 ---
+
 # SendGrid Transactional Email Builder
+
 Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing.
 
 ## Installation

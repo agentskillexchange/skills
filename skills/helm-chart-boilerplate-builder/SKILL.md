@@ -1,20 +1,19 @@
 ---
-name: Helm Chart Boilerplate Builder
-description: Scaffolds Kubernetes Helm charts with values.yaml templating, ingress
-  configuration, and HPA definitions. Uses helm-unittest for test generation and Chart
-  Testing (ct) lint integration.
-category: Templates & Workflows
-framework: Custom Agents
+title: "Helm Chart Boilerplate Builder"
+description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration."
 verification: security_reviewed
-source: https://github.com/helm/helm
+source: "https://github.com/helm/helm"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: helm/helm
+  github_repo: "helm/helm"
   github_stars: 29693
-  tool: helm
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Helm Chart Boilerplate Builder
+
 Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration.
 
 ## Installation

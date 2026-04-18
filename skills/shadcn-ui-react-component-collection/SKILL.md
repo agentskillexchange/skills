@@ -1,18 +1,19 @@
 ---
-name: shadcn/ui — Re-usable UI Component Collection for React
-description: shadcn/ui is a collection of accessible UI components built with Radix
-  UI and Tailwind CSS that you copy into your project for full customization. Includes
-  40+ components with variants, themes, and TypeScript support.
-category: Developer Tools
-framework: Multi-Framework
+title: "shadcn/ui — Re-usable UI Component Collection for React"
+description: "shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support."
 verification: listed
-source: https://github.com/shadcn-ui/ui
+source: "https://github.com/shadcn-ui/ui"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: shadcn-ui/ui
+  github_repo: "shadcn-ui/ui"
   github_stars: 112069
-  tool: ui
 ---
+
 # shadcn/ui — Re-usable UI Component Collection for React
+
 shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support.
 
 ## Installation

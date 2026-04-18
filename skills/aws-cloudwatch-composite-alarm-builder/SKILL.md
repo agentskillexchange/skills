@@ -1,20 +1,19 @@
 ---
-name: AWS CloudWatch Composite Alarm Builder
-description: Creates and manages AWS CloudWatch composite alarms using the CloudWatch
-  PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms
-  with AND/OR/NOT logic for multi-signal alerting.
-category: Monitoring & Alerts
-framework: OpenClaw
+title: "AWS CloudWatch Composite Alarm Builder"
+description: "Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting."
 verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+source: "https://github.com/aws/aws-sdk-js-v3"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
-  tool: aws-sdk-js-v3
-  license: Apache-2.0
-  maintained: true
 ---
+
 # AWS CloudWatch Composite Alarm Builder
+
 Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting.
 
 ## Installation

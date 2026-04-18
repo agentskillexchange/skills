@@ -1,15 +1,16 @@
 ---
-name: NPM Package Audit & License Checker
-description: Audits npm dependencies using npm audit, license-checker-rspack, and
-  the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS
-  scores, license compatibility matrices, and identifies abandoned packages via download
-  trend analysis.
-category: Library & API Reference
-framework: Claude Code
+title: "NPM Package Audit &#038; License Checker"
+description: "Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/npm-package-audit-license-checker/
+source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Claude Code"
 ---
-# NPM Package Audit & License Checker
+
+# NPM Package Audit &#038; License Checker
+
 Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis.
 
 ## Installation

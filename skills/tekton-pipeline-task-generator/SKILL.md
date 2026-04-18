@@ -1,20 +1,19 @@
 ---
-name: Tekton Pipeline Task Generator
-description: Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using
-  the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups
-  and automated resource binding.
-category: CI/CD Integrations
-framework: Gemini
+title: "Tekton Pipeline Task Generator"
+description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding."
 verification: security_reviewed
-source: https://github.com/tektoncd/pipeline
+source: "https://github.com/tektoncd/pipeline"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Gemini"
 tool_ecosystem:
-  github_repo: tektoncd/pipeline
+  github_repo: "tektoncd/pipeline"
   github_stars: 8936
-  tool: pipeline
-  license: Apache-2.0
-  maintained: true
 ---
+
 # Tekton Pipeline Task Generator
+
 Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding.
 
 ## Installation

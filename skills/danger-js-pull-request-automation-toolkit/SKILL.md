@@ -1,19 +1,19 @@
 ---
-name: Danger JS Pull Request Automation Toolkit
-description: Danger JS automates pull request review chores by running programmable
-  checks inside CI and posting structured feedback back to GitHub, GitLab, and other
-  code hosts. It is a strong fit for teams that want to turn review conventions into
-  repeatable checks instead of relying on humans to catch the same issues every time.
-category: Code Quality & Review
-framework: Multi-Framework
+title: "Danger JS Pull Request Automation Toolkit"
+description: "Danger JS automates pull request review chores by running programmable checks inside CI and posting structured feedback back to GitHub, GitLab, and other code hosts. It is a strong fit for teams that want to turn review conventions into repeatable checks instead of relying on humans to catch the same issues every time."
 verification: security_reviewed
-source: https://github.com/danger/danger-js
+source: "https://github.com/danger/danger-js"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: danger/danger-js
+  github_repo: "danger/danger-js"
   github_stars: 5463
-  tool: danger-js
 ---
+
 # Danger JS Pull Request Automation Toolkit
+
 Danger JS automates pull request review chores by running programmable checks inside CI and posting structured feedback back to GitHub, GitLab, and other code hosts. It is a strong fit for teams that want to turn review conventions into repeatable checks instead of relying on humans to catch the same issues every time.
 
 ## Installation

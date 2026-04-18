@@ -1,22 +1,20 @@
 ---
-name: Weaviate MCP Server
-description: Weaviate MCP Server is built around GraphQL API ecosystem. The underlying
-  ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives
-  an agent a more technical and reliable way to work with the tool than a thin one-line
-  wrapper, using stable interfaces like queries, mutations, schema introspection,
-  fragments, pagination, subscriptions and preserving the operational context […]
-category: Data Extraction & Transformation
-framework: MCP
+title: "Weaviate MCP Server"
+description: "Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context [&hellip;]"
 verification: security_reviewed
-source: https://github.com/weaviate/mcp-server-weaviate
+source: "https://github.com/weaviate/mcp-server-weaviate"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: weaviate/mcp-server-weaviate
+  github_repo: "weaviate/mcp-server-weaviate"
   github_stars: 161
-  tool: mcp-server-weaviate
-  maintained: true
 ---
+
 # Weaviate MCP Server
-Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]
+
+Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context [&hellip;]
 
 ## Installation
 

@@ -1,17 +1,22 @@
 ---
-name: SQLite MCP Server
-description: Lightweight local database access for agent tasks.
-category: Data Extraction & Transformation
-framework: Claude Code, Cursor, MCP, OpenClaw
+title: "SQLite MCP Server"
+description: "Lightweight local database access for agent tasks."
 verification: security_reviewed
-source: https://github.com/modelcontextprotocol/servers
+source: "https://github.com/modelcontextprotocol/servers"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: modelcontextprotocol/servers
+  github_repo: "modelcontextprotocol/servers"
   github_stars: 83947
-  tool: servers
-  maintained: true
 ---
+
 # SQLite MCP Server
+
 Lightweight local database access for agent tasks.
 
 ## Installation

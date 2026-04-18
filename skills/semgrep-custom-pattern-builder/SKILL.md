@@ -1,20 +1,19 @@
 ---
-name: Semgrep Custom Pattern Builder
-description: Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep
-  CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix
-  transformations.
-category: Code Quality & Review
-framework: Codex
+title: "Semgrep Custom Pattern Builder"
+description: "Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations."
 verification: security_reviewed
-source: https://github.com/semgrep/semgrep
+source: "https://github.com/semgrep/semgrep"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Codex"
 tool_ecosystem:
-  github_repo: semgrep/semgrep
+  github_repo: "semgrep/semgrep"
   github_stars: 14794
-  tool: semgrep
-  license: LGPL-2.1
-  maintained: true
 ---
+
 # Semgrep Custom Pattern Builder
+
 Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations.
 
 ## Installation

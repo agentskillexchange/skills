@@ -1,20 +1,19 @@
 ---
-name: Scrapy Distributed Crawler Framework
-description: Orchestrates large-scale web crawling using Scrapy with scrapy-redis
-  for distributed job queuing. Integrates Splash for JavaScript rendering, stores
-  results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle.
-category: Research & Scraping
-framework: MCP
+title: "Scrapy Distributed Crawler Framework"
+description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
 verification: security_reviewed
-source: https://github.com/scrapy/scrapy
+source: "https://github.com/scrapy/scrapy"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: scrapy/scrapy
+  github_repo: "scrapy/scrapy"
   github_stars: 61314
-  tool: scrapy
-  license: BSD-3-Clause
-  maintained: true
 ---
+
 # Scrapy Distributed Crawler Framework
+
 Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle.
 
 ## Installation

@@ -1,21 +1,21 @@
 ---
-name: DALL-E Batch Image Generator
-description: Generates and manages batch image creation jobs using the OpenAI Images
-  API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style
-  parameters plus automatic prompt revision tracking.
-category: Image & Creative Automation
-framework: Claude Agents
+title: "DALL-E Batch Image Generator"
+description: "Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking."
 verification: security_reviewed
-source: https://github.com/openai/openai-node
+source: "https://github.com/openai/openai-node"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: openai/openai-node
+  github_repo: "openai/openai-node"
   github_stars: 10813
-  tool: openai
+  npm_package: "openai"
   npm_weekly_downloads: 18107622
-  license: Apache-2.0
-  maintained: true
 ---
+
 # DALL-E Batch Image Generator
+
 Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking.
 
 ## Installation

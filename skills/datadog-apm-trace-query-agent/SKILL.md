@@ -1,14 +1,16 @@
 ---
-name: Datadog APM Trace Query Agent
-description: Queries distributed traces from Datadog APM using the Trace Search API
-  with faceted filtering. Analyzes p99 latency breakdowns across service spans and
-  identifies slow database queries via db.statement tags.
-category: Monitoring & Alerts
-framework: MCP
+title: "Datadog APM Trace Query Agent"
+description: "Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency breakdowns across service spans and identifies slow database queries via db.statement tags."
 verification: security_reviewed
-source: https://github.com/DataDog/dd-trace-js
+source: "https://github.com/DataDog/dd-trace-js"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "MCP"
 ---
+
 # Datadog APM Trace Query Agent
+
 Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency breakdowns across service spans and identifies slow database queries via db.statement tags.
 
 ## Installation
