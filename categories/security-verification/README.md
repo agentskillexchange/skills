@@ -119,6 +119,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Baseline and Review Repository Secret Findings with detect-secrets](../../skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | 4.5k | — |
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](../../skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | 4.5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
@@ -164,6 +165,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
+| [Lint Rego Policies Before Promotion with Regal](../../skills/lint-rego-policies-before-promotion-with-regal/) | 373 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |

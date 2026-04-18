@@ -218,6 +218,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |
+| [Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools](../../skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools/) | 8k | — |
 | [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.6M/wk |
 | [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](../../skills/mcfly-intelligent-shell-history-search/) | 7.7k | — |

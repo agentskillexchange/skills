@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2201 published skills** across **17 categories** · 1994 security reviewed · Updated 2026-04-18 19:43 UTC
+> **2207 published skills** across **17 categories** · 1994 security reviewed · Updated 2026-04-18 21:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (276 skills)
+### 🛠️ Developer Tools (277 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -192,6 +192,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Starlight Documentation Framework for Astro](skills/starlight-documentation-framework-astro/) | Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and… | Security Reviewed | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](skills/mockoon-mock-api-server-cli/) | Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating… | Security Reviewed | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](skills/grex-regex-generator-from-test-cases/) | grex is a command-line tool and library that automatically generates regular expressions from user-provided test… | Security Reviewed | 8.1k | — |
+| [Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools](skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools/) | Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive… | Published | 8k | — |
 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook… | Security Reviewed | 7.9k | 1.6M/wk |
 | [Concurrently Parallel Command Runner for npm Scripts](skills/concurrently-parallel-command-runner/) | Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle… | Security Reviewed | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](skills/mcfly-intelligent-shell-history-search/) | mcfly is a Rust-based shell history search tool that uses a small neural network to prioritize commands based on… | Security Reviewed | 7.7k | — |
@@ -292,7 +293,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (179 skills)
+### 🔒 Security & Verification (181 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -379,6 +380,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Unkey Open Source API Key Management and Rate Limiting Platform](skills/unkey-api-key-management-rate-limiting/) | Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a… | Security Reviewed | 5.2k | — |
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Security Reviewed | 5k | — |
+| [Baseline and Review Repository Secret Findings with detect-secrets](skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits… | Published | 4.5k | — |
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it… | Published | 4.5k | — |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method.… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](skills/cerbos-authorization-pdp/) | Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user… | Security Reviewed | 4.3k | — |
@@ -424,6 +426,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call… | Published | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | — |
+| [Lint Rego Policies Before Promotion with Regal](skills/lint-rego-policies-before-promotion-with-regal/) | Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted. | Published | 373 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before… | Published | 333 | — |
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | 318 | — |
 | [Enforce policy-gated and auditable agent execution with LACP](skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution… | Published | 211 | — |
@@ -666,7 +669,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (157 skills)
+### ✅ Code Quality & Review (159 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -791,12 +794,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge. | Security Reviewed | 828 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Published | 738 | — |
 | [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner. | Published | 685 | — |
+| [Enforce Python Docstring Coverage Thresholds with interrogate](skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold. | Published | 662 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](skills/broken-link-verification-static-sites-documentation/) | Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and… | Security Reviewed | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or… | Security Reviewed | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |
+| [Validate Python Docstrings Against Function Signatures with pydoclint](skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves. | Published | 208 | — |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and… | Security Reviewed | 131 | 1.1k/wk |
@@ -1526,7 +1531,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (111 skills)
+### 📄 Templates & Workflows (112 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1609,6 +1614,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 1.6k | — |
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands. | Published | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository… | Security Reviewed | 1.6k | — |
+| [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing. | Published | 1.3k | — |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Security Reviewed | 1.1k | — |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Published | 1.1k | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |

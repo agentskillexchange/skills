@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2201,
+  "total": 2207,
   "generated": "2026-04-18",
   "skills": [
+    {
+      "slug": "validate-python-docstrings-against-function-signatures-with-pydoclint",
+      "name": "Validate Python Docstrings Against Function Signatures with pydoclint",
+      "description": "Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 208
+      }
+    },
+    {
+      "slug": "lint-rego-policies-before-promotion-with-regal",
+      "name": "Lint Rego Policies Before Promotion with Regal",
+      "description": "Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 373
+      }
+    },
+    {
+      "slug": "enforce-python-docstring-coverage-thresholds-with-interrogate",
+      "name": "Enforce Python Docstring Coverage Thresholds with interrogate",
+      "description": "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 662
+      }
+    },
+    {
+      "slug": "prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz",
+      "name": "Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz",
+      "description": "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1345
+      }
+    },
+    {
+      "slug": "compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools",
+      "name": "Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools",
+      "description": "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8001
+      }
+    },
+    {
+      "slug": "baseline-and-review-repository-secret-findings-with-detect-secrets",
+      "name": "Baseline and Review Repository Secret Findings with detect-secrets",
+      "description": "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4482
+      }
+    },
     {
       "slug": "design-lifecycle-email-sequences",
       "name": "Design Lifecycle Email Sequences",

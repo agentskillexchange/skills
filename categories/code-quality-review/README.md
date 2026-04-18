@@ -159,12 +159,14 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](../../skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | 828 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](../../skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | 685 | — |
+| [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
+| [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |

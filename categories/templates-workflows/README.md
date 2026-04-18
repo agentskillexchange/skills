@@ -117,6 +117,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | 1.6k | — |
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](../../skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
+| [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
