@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2173,
+  "total": 2176,
   "generated": "2026-04-18",
   "skills": [
+    {
+      "slug": "turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks",
+      "name": "Turn Lark meeting transcripts into action items and follow-up tasks",
+      "description": "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 40
+      }
+    },
+    {
+      "slug": "generate-reusable-site-adapters-from-live-browser-behavior-with-opencli",
+      "name": "Generate reusable site adapters from live browser behavior with OpenCLI",
+      "description": "Use OpenCLI to explore a logged-in site, synthesize a deterministic adapter, and expose the result as a reusable CLI command an agent can call…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 16273
+      }
+    },
+    {
+      "slug": "scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner",
+      "name": "Scan MCP servers for security findings before connecting them to agents with MCP Scanner",
+      "description": "Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 889
+      }
+    },
     {
       "slug": "put-coding-agents-on-a-governed-local-git-workflow-with-agentplane",
       "name": "Put coding agents on a governed local Git workflow with AgentPlane",
@@ -800,8 +845,12 @@
       "slug": "spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling",
       "name": "Spell-check docs and code comments with source-aware filters using pyspelling",
       "description": "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 94
@@ -811,8 +860,12 @@
       "slug": "lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8",
       "name": "Lint reStructuredText docs and release notes before Sphinx publishing with doc8",
       "description": "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 176
@@ -822,8 +875,12 @@
       "slug": "format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo",
       "name": "Format and lint TOML configs and lockfiles before config drift spreads with Taplo",
       "description": "Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 2227
@@ -833,8 +890,12 @@
       "slug": "lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter",
       "name": "Lint .env files for duplicated keys and unsafe formatting with dotenv-linter",
       "description": "Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 2068
@@ -844,8 +905,12 @@
       "slug": "catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell",
       "name": "Catch common misspellings in code and docs before review churn with codespell",
       "description": "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 2356
@@ -855,8 +920,12 @@
       "slug": "generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen",
       "name": "Generate and validate conventional commits and semver release bumps with Commitizen",
       "description": "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 3382
