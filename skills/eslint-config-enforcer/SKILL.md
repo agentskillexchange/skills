@@ -1,6 +1,6 @@
 ---
 title: "ESLint Config Enforcer"
-description: "Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint –inspect-config."
+description: "Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint &#8211;inspect-config."
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # ESLint Config Enforcer
 
-Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint –inspect-config.
+Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint &#8211;inspect-config.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 ---
 title: "Playwright Python Browser Automation Library for Cross-Browser Testing"
-description: "Playwright for Python is Microsoft’s cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments."
+description: "Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments."
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright-python"
 category:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Playwright Python Browser Automation Library for Cross-Browser Testing
 
-Playwright for Python is Microsoft’s cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments.
+Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments.
 
 ## Installation
 

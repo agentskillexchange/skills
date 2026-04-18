@@ -7,9 +7,6 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "kong/kong"
-  github_stars: 43188
 ---
 
 # Kong Gateway API AI and MCP Traffic Control
