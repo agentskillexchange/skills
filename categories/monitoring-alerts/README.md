@@ -6,13 +6,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
-| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | ⭐ 121.7k |
+| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | ⭐ 121.8k |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | ⭐ 121.7k |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | ⭐ 78.4k |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.2k |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.3k |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 73.2k |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | ⭐ 73.2k |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | ⭐ 73.2k |
@@ -40,13 +40,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | 121.7k | — |
+| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | 121.8k | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.2k | — |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.3k | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | 73.2k | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | 73.2k | — |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | 73.2k | — |
@@ -133,7 +133,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 642 | 45.1k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 645 | 46.9k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
@@ -148,7 +148,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | — |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | — |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | — |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6.5k/wk |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |

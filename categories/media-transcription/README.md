@@ -6,7 +6,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars |
 |---|---:|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 359.1k |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 359.7k |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 97.8k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
@@ -33,7 +33,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 359.1k | — |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 359.7k | — |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |
@@ -100,6 +100,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | 1.5k | — |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1.1k | 3.2k/wk |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
+| [Archive online videos and metadata to the Internet Archive with Tubeup](../../skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | 487 | — |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | — |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |

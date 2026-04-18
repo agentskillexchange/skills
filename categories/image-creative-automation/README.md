@@ -61,6 +61,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | 32.1k | 52.5M/wk |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | 32.1k | 52.5M/wk |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
+| [Find duplicate and visually similar media before cleanup with Czkawka](../../skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka/) | 30.6k | — |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 28.7M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 898k/wk |

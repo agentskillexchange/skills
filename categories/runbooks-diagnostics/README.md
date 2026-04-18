@@ -25,7 +25,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 |---|---:|
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | ⬇ 154.1k/wk |
-| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | ⬇ 2.5M/wk |
+| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | ⬇ 2.6M/wk |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | ⬇ 20.8k/wk |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | ⬇ 1.2k/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | ⬇ 6.6M/wk |
@@ -117,7 +117,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
-| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.5M/wk |
+| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.6M/wk |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | — |

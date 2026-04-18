@@ -17,7 +17,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 9 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 10 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 11 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
-| 12 | [OpenAI MCP Server](skills/openai-mcp-server/) | 18.3M/wk | openai | Developer Tools |
+| 12 | [OpenAI MCP Server](skills/openai-mcp-server/) | 18M/wk | openai | Developer Tools |
 | 13 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 14 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
 | 15 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |
@@ -44,18 +44,18 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 36 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
 | 37 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2.2M/wk | langchain | Developer Tools |
 | 38 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
-| 39 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
-| 40 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
-| 41 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
-| 42 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | 1.6M/wk | lefthook | Developer Tools |
-| 43 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.5M/wk | schema-dts | Content Writing & SEO |
-| 44 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | 1.5M/wk | redoc | Library & API Reference |
-| 45 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | 1.2M/wk | sqlite-vec | Developer Tools |
-| 46 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | 1.2M/wk | konva | Image & Creative Automation |
-| 47 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
-| 48 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | 986.8k/wk | hubspot | Integrations & Connectors |
-| 49 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | 936.6k/wk | salesforce | Data Extraction & Transformation |
-| 50 | [BlurHash Compact Image Placeholder Encoder](skills/blurhash-compact-image-placeholder-encoder/) | 898k/wk | blurhash | Image & Creative Automation |
+| 39 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 40 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
+| 41 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
+| 42 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
+| 43 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | 1.6M/wk | lefthook | Developer Tools |
+| 44 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.5M/wk | schema-dts | Content Writing & SEO |
+| 45 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | 1.5M/wk | redoc | Library & API Reference |
+| 46 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | 1.2M/wk | sqlite-vec | Developer Tools |
+| 47 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | 1.2M/wk | konva | Image & Creative Automation |
+| 48 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
+| 49 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | 986.8k/wk | hubspot | Integrations & Connectors |
+| 50 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | 936.6k/wk | salesforce | Data Extraction & Transformation |
 
 ---
 
