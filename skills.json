@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2161,
-  "generated": "2026-04-17",
+  "total": 2162,
+  "generated": "2026-04-18",
   "skills": [
+    {
+      "slug": "provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall",
+      "name": "Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall",
+      "description": "Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2610
+      }
+    },
     {
       "slug": "run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd",
       "name": "Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd",

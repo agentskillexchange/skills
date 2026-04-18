@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2161 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-17 23:29 UTC
+> **2162 published skills** across **17 categories** · 1971 security reviewed · Updated 2026-04-18 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (271 skills)
+### 🛠️ Developer Tools (272 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -237,6 +237,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | 2.6k | 260.6k/wk |
 | [Apply structural codemods across large codebases with Comby](skills/apply-structural-codemods-across-large-codebases-with-comby/) | Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than… | Published | 2.6k | — |
+| [Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall](skills/provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall/) | Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries… | Published | 2.6k | — |
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Security Reviewed | 2.6k | — |
 | [Persist reusable coding-agent memory across sessions with Engram](skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions… | Security Reviewed | 2.6k | — |
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Security Reviewed | 2.5k | 88.6k/wk |
