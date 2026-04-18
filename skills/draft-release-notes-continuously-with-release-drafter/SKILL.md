@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Draft release notes continuously with Release Drafter
 
-Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day.
+Use this skill when an agent needs to keep release notes current throughout a development cycle instead of assembling them manually at the end. It fits repos that already use GitHub pull requests and labels to organize changes.
+
+Invoke it instead of using Release Drafter as a raw product when the operator task is to configure the workflow, shape categories, update templates, and verify that merged pull requests flow into a usable release draft.
+
+This is skill-shaped because the boundary is tight: continuously draft release notes from merged PR metadata. It is not a generic GitHub Actions or release management listing.
 
 ## Installation
 

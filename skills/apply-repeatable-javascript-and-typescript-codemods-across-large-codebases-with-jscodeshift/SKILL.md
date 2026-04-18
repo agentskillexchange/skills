@@ -4,19 +4,19 @@ description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeSc
 verification: listed
 source: "https://github.com/facebook/jscodeshift"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebook/jscodeshift"
   github_stars: 9983
-  npm_package: "jscodeshift"
+  ase_npm_package: "jscodeshift"
   npm_weekly_downloads: 27093990
 ---
 
 # Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift
 
-Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs.
+Use jscodeshift when the task is to apply a codemod across many JavaScript or TypeScript files, such as API migrations, naming rewrites, or framework upgrade cleanup. Invoke it instead of editing code manually or using a general coding assistant normally when you need one transform to run consistently over a large codebase with dry runs, parser control, and auditable output. The scope boundary is clear: this skill is about repeatable AST-driven codemod execution, not a generic library listing and not a broad JavaScript toolkit card.
 
 ## Installation
 

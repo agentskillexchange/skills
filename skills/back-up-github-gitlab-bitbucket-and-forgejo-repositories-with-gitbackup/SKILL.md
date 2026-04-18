@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup
 
-Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider.
+Use gitbackup when the task is repository preservation across one or more forge providers and you want one repeatable backup job rather than provider-specific scripts. The scope is tightly bounded to repository backup and migration export workflows, not source hosting, code review, or broad forge administration.
 
 ## Installation
 

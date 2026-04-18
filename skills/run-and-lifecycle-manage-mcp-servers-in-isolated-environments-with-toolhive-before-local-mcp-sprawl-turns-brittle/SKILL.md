@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle
 
-Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes.
+This skill is for operators who need a repeatable way to run MCP servers with isolation, policy, and lifecycle controls. It covers the concrete workflow of selecting MCP servers, launching them in isolated runtimes, connecting approved clients, and keeping the local or cluster-side tool catalog manageable over time.
+
+Invoke this instead of using MCP servers one by one when the real problem is server sprawl, inconsistent local setup, or missing guardrails around who can run what. It is especially useful when teams need a governed MCP runtime for Claude Code, Cursor, Copilot, or other MCP-capable clients.
+
+The scope boundary is specific: this is not a generic MCP explainer or a generic container platform listing. It is about operating MCP server lifecycle and isolation through ToolHive as the user-facing control plane.
 
 ## Installation
 

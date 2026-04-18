@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl
 
-Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay.
+Use Kluctl when an agent needs to manage a declarative Kubernetes deployment that spans multiple targets or environments, not when the user is simply browsing a GitOps platform. The workflow is concrete: define targets, compose deployments from Helm, Kustomize, and related pieces, then diff, deploy, prune, or delete those targets through one consistent CLI. That scope boundary, target-based Kubernetes deployment orchestration, keeps the candidate skill-shaped instead of turning into a generic platform listing.
 
 ## Installation
 

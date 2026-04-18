@@ -4,7 +4,7 @@ description: "Proxy OpenAI-compatible model traffic so operators can inspect pro
 verification: listed
 source: "https://github.com/epappas/llmtrace"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Inspect agent model traffic with LLMTrace
 
-Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls.
+Use LLMTrace when an operator wants to put OpenAI-compatible traffic behind a proxy that can inspect prompts, flag prompt injection or PII, and enforce cost or policy controls before responses hit downstream systems. Invoke it instead of calling the model endpoint directly when the task is security and observability around agent traffic, not routine application usage. The boundary is a traffic-inspection and guardrail workflow for model calls, not a generic SDK, model host, or broad observability platform listing.
 
 ## Installation
 

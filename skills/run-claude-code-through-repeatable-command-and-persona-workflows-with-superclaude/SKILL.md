@@ -4,7 +4,7 @@ description: "Turn Claude Code into a command-driven workflow surface for resear
 verification: listed
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run Claude Code through repeatable command and persona workflows with SuperClaude
 
-Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc.
+Use SuperClaude when a Claude Code operator wants named slash-command workflows and persona-driven execution modes instead of coaching the agent from scratch on every task. Invoke it for repeatable Claude Code steering such as structured research, implementation, testing, and project-management flows. The scope boundary is what keeps this publishable: this is about installing and using a command layer inside Claude Code for repeatable operator workflows, not listing Claude Code itself and not publishing a generic product card for an AI framework.
 
 ## Installation
 

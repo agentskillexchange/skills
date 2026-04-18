@@ -4,7 +4,7 @@ description: "Find packages that are out of support even when they do not show u
 verification: listed
 source: "https://github.com/xeol-io/xeol"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol
 
-Find packages that are out of support even when they do not show up as a classic CVE finding yet.
+Use Xeol when an agent needs an end-of-life inventory check over a container image, filesystem, or SBOM, not when the user is running a general vulnerability scanner. The workflow is bounded: inspect the software bill of materials or image contents, identify packages that have reached or are nearing end of support, and return an upgrade or exception list before release. That scope boundary, EOL exposure detection rather than generic CVE scanning, keeps this distinct and skill-shaped.
 
 ## Installation
 

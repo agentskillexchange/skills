@@ -4,7 +4,7 @@ description: "Run a static policy pass over Kubernetes YAML before misconfigurat
 verification: listed
 source: "https://github.com/stackrox/kube-linter"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter
 
-Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster.
+Use KubeLinter when an agent needs an early static review of Kubernetes YAML, Helm charts, or Kustomize output, not when the user is looking for a general Kubernetes platform or runtime dashboard. The task is clear: lint deployable manifests against best-practice checks, surface security and production-readiness issues, and hand back fix guidance before apply time. That scope boundary, pre-deployment manifest linting for Kubernetes configuration quality, keeps it skill-shaped rather than a generic product card.
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Check a Rails codebase for dependency and visibility violations so
 verification: listed
 source: "https://github.com/Shopify/packwerk"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk
 
-Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time.
+Use Packwerk when an agent needs to inspect or enforce modular boundaries inside an existing Rails monolith rather than treat Rails as a general application framework. The workflow is narrow and operator-facing: define packages, run Packwerk against the codebase, surface dependency or privacy violations, and guide the next refactor or review gate. That scope boundary, boundary enforcement inside a Rails monolith, is specific enough to be a real skill instead of a plain gem listing.
 
 ## Installation
 

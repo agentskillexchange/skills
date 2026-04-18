@@ -4,7 +4,7 @@ description: "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobb
 verification: listed
 source: "https://github.com/markoblogo/AGENTS.md_generator"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator
 
-Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract.
+Use AGENTS.md Generator when a repo needs dependable agent-facing documentation and you want safe updates instead of one-off manual edits. It can create AGENTS.md and RUNBOOK.md when they are missing, update only marked sections when they already exist, and fall back to generated companion files rather than overwriting unmarked human content. The scope boundary is narrow and concrete: marker-bounded repo-doc generation and patching for coding-agent handoff, not a generic repo-intelligence runtime or broad developer platform listing.
 
 ## Installation
 

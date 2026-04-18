@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless
 
-Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches.
+Use git-branchless when an agent or developer is working in a stacked-commit workflow and needs to reorder, restack, visualize, or undo commit graph changes safely. It is a fit when the job is commit-stack maintenance and review prep, not generic Git hosting or a broad Git client listing.
 
 ## Installation
 

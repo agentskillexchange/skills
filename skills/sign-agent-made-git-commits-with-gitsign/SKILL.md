@@ -4,7 +4,7 @@ description: "Apply keyless Sigstore-backed signatures to Git commits so automat
 verification: security_reviewed
 source: "https://github.com/sigstore/gitsign"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Sign agent-made Git commits with gitsign
 
-Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.
+Use this skill when an agent needs commit provenance, especially in repos where machine-made changes should still be attributable and verifiable. It fits workflows that want signed commits without managing long-lived GPG keys.
+
+Invoke it instead of using gitsign as a raw product when the concrete job is to install the signing path, sign commits during normal Git work, and verify that the resulting signatures are present and usable in review or policy checks.
+
+This stays skill-shaped because the scope is a specific operator workflow: sign and verify Git commits with keyless Sigstore identities. It is not a generic Sigstore or supply-chain product card.
 
 ## Installation
 

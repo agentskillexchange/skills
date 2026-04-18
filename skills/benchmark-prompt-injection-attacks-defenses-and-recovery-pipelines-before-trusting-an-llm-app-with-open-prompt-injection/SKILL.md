@@ -4,7 +4,7 @@ description: "Run structured prompt-injection attack and defense experiments aga
 verification: listed
 source: "https://github.com/liu00222/Open-Prompt-Injection"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection
 
-Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines.
+Use Open Prompt Injection when the job is to benchmark prompt-injection attacks, defenses, and recovery flows against an LLM-integrated application before deployment, not when a user simply wants a generic security library. The workflow is bounded: configure the target task and model, run attack scenarios, measure outcomes such as attack success, and compare detector or localization defenses before trusting the app. That scope boundary, prompt-injection benchmarking and defense evaluation for LLM applications, is narrow enough to function as a publishable skill instead of a plain research toolkit card.
 
 ## Installation
 

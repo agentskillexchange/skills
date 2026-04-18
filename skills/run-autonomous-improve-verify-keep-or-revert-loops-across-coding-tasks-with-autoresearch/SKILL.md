@@ -4,7 +4,7 @@ description: "Turn Claude Code, OpenCode, or Codex into a metric-driven loop tha
 verification: listed
 source: "https://github.com/uditgoenka/autoresearch"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch
 
-Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts automatically.
+Use autoresearch when you want an agent to pursue a bounded improvement loop under an explicit goal and verification metric, rather than just asking for a one-shot implementation. This is best for iterative coding, debugging, security hardening, documentation, and fix loops where progress should compound through repeated modify, verify, keep, or revert cycles. The scope boundary is the loop itself: autoresearch is not a general coding agent listing, it is a repeatable autonomous iteration workflow with atomic changes, mechanical verification, rollback, and logged results.
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Inspect CSV, TSV, JSON, and parquet drops interactively, spot susp
 verification: listed
 source: "https://github.com/saulpw/visidata"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Profile and triage messy tabular files from the terminal with VisiData
 
-Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup step without opening a spreadsheet.
+Use VisiData when an agent needs to inspect an unfamiliar data drop before writing cleanup code. The agent can sort, profile, sample, and filter large tabular files interactively to find broken columns, odd values, and likely cleanup targets in minutes. The boundary is fast terminal-first data triage, not a general spreadsheet replacement or broad analytics platform listing.
 
 ## Installation
 

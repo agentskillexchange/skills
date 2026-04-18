@@ -4,19 +4,21 @@ description: "Lets an OpenClaw agent sync its workspace to cloud storage in mail
 verification: listed
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "ashbrener/openclaw-workspace-sync"
   github_stars: 8
-  npm_package: "openclaw-workspace-sync"
+  ase_npm_package: "openclaw-workspace-sync"
   npm_weekly_downloads: 295
 ---
 
 # Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync
 
-Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push encrypted full-system backups to an rclone backend.
+Use openclaw-workspace-sync when an OpenClaw agent needs a bounded workspace sync or backup job instead of a generic cloud storage tool listing. The upstream project is explicitly an OpenClaw plugin that installs into OpenClaw, adds openclaw workspace-sync commands, supports mailbox, mirror, and bisync workspace sync modes, and can stream encrypted backups of the wider agent system through rclone-backed storage.
+
+This is skill-shaped because the invocation is not use rclone or use cloud storage normally. The agent invokes an OpenClaw-specific operator workflow: set up the plugin, choose a sync mode, move files through the workspace inbox or outbox path, or run encrypted backup and retention flows against configured storage. The scope boundary is OpenClaw workspace synchronization and backup orchestration, not general-purpose storage management.
 
 ## Installation
 

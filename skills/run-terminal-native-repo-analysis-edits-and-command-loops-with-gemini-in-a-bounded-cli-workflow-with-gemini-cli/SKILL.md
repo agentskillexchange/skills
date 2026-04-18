@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI
 
-Lets an agent use Gemini from the terminal to inspect repositories, edit files, run shell commands, and ground work with built-in search and local context.
+Use Gemini CLI when an agent needs a terminal-first Gemini workflow for repo inspection, edits, shell actions, and multimodal or search-grounded inputs without leaving the command line. It fits large-context codebase analysis, shell-assisted debugging, and turning local artifacts into implementation work.
+
+Invoke this instead of using Gemini normally in a web app or raw API flow when the agent must stay inside a bounded terminal loop over local files and commands. This is skill-shaped because the scope boundary is specific: repo and shell work through Gemini CLI. It is not a generic Gemini product, model API, or broad chat listing.
 
 ## Installation
 

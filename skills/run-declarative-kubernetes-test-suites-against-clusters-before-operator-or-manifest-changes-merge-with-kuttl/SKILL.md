@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL
 
-Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.
+Use KUTTL when an agent needs to run declarative Kubernetes tests made of setup, apply, wait, and assert steps against a cluster. A user should invoke this instead of using kubectl or Helm normally when the task is repeatable cluster-level verification of operators, controllers, or manifest behavior before merge or release. The scope boundary is clear: YAML-defined Kubernetes test execution and assertions, not a generic cluster management tool listing.
 
 ## Installation
 

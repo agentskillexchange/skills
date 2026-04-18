@@ -4,7 +4,7 @@ description: "Lets an agent run dbt parity checks, relation diffs, and row or va
 verification: listed
 source: "https://github.com/dbt-labs/dbt-audit-helper"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper
 
-Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout.
+Use dbt-audit-helper when an agent needs to prove that a dbt refactor, relation swap, or migration still matches expected warehouse results. It fits analytics engineering work where parity evidence is needed before trust is restored.
+
+Invoke this instead of using dbt normally when the agent must run targeted comparison macros, inspect row and value differences, and document migration parity. This is skill-shaped because the workflow boundary is precise: compare dbt relations and outputs during change validation. It is not a generic dbt package listing or broad data transformation platform card.
 
 ## Installation
 

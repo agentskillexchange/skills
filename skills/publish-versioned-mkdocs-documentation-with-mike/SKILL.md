@@ -4,7 +4,7 @@ description: "Use mike when an agent needs to publish multiple versions of a MkD
 verification: listed
 source: "https://github.com/jimporter/mike"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Publish versioned MkDocs documentation with mike
 
-Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.
+mike gives an agent a specific docs-release workflow: build and publish versioned MkDocs documentation, manage aliases such as latest, and keep older versions live. Invoke it when the real need is versioned docs publishing for a MkDocs site, not when you are choosing a docs framework or browsing a generic static-site tool. The boundary stays tight: release and version management for MkDocs documentation, not a plain product or plugin card.
 
 ## Installation
 

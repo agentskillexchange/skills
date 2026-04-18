@@ -4,7 +4,7 @@ description: "Guide live digital-forensics and incident-response work with human
 verification: listed
 source: "https://github.com/AppliedIR/Valhuntir"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Triage active security incidents with AI-augmented workflows in Valhuntir CLI
 
-Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup.
+Use Valhuntir when the work is a live incident-response investigation that needs guided evidence analysis, human approvals, and a repeatable CLI-centered workflow. The skill boundary is the investigation loop itself: ingest forensic artifacts, let the system assist with analysis, and keep the examiner in control of findings and next actions. That is meaningfully narrower than listing an MCP gateway or generic security platform. Users invoke it for active IR triage, not simply to stand up another client integration stack.
 
 ## Installation
 
