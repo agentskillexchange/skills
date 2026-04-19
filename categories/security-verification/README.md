@@ -7,6 +7,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | Skill | Stars |
 |---|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
+| [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | ⭐ 46.1k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 35.4k |
@@ -15,7 +16,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
 | [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | ⭐ 34.5k |
-| [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | ⭐ 34.5k |
 
 ---
 
@@ -39,6 +39,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
+| [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | 35.4k | — |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | 35.4k | — |
@@ -81,6 +82,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | 15k | — |
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
+| [Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface](../../skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/) | 14k | — |
 | [Score RAG answer quality and retrieval quality before rollout with Ragas](../../skills/score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas/) | 13.4k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | 13.3k | — |
@@ -100,8 +102,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
+| [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](../../skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | 7.8k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
+| [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | 5.8k | — |
@@ -121,6 +125,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
 | [Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills](../../skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills/) | 4.7k | — |
+| [Scan C and C++ code with Flawfinder for risky function patterns before review](../../skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review/) | 4.5k | — |
 | [Baseline and Review Repository Secret Findings with detect-secrets](../../skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | 4.5k | — |
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](../../skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | 4.5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |

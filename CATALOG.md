@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2247 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 13:21 UTC
+> **2253 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 15:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -297,13 +297,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (188 skills)
+### 🔒 Security & Verification (193 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | — |
+| [Decompile Android APKs into readable source with jadx for review and analysis](skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper… | Published | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Security Reviewed | 42.9k | — |
 | [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | 35.4k | — |
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | 35.4k | — |
@@ -346,6 +347,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OWASP ZAP Scanner](skills/owasp-zap-scanner/) | OWASP ZAP Scanner is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 15k | — |
 | [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against… | Security Reviewed | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to… | Security Reviewed | 14.6k | — |
+| [Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface](skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/) | Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the… | Published | 14k | — |
 | [Score RAG answer quality and retrieval quality before rollout with Ragas](skills/score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas/) | Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks. | Published | 13.4k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](skills/subfinder-passive-subdomain-enumeration/) | Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using… | Security Reviewed | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](skills/casdoor-open-source-iam-auth-platform/) | Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth… | Security Reviewed | 13.3k | — |
@@ -365,8 +367,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OSV-Scanner Dependency Vulnerability Detector](skills/osv-scanner-dependency-vulnerability-detector/) | OSV-Scanner is Google's open-source vulnerability scanner that checks project dependencies against the OSV.dev… | Security Reviewed | 8.6k | — |
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 8.6k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release. | Published | 7.9k | — |
+| [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening… | Published | 7.8k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](skills/feroxbuster-content-discovery/) | Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to… | Security Reviewed | 7.6k | — |
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review. | Published | 7.5k | — |
+| [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts. | Published | 7.3k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Security Reviewed | 5.9k | — |
 | [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
 | [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
@@ -386,6 +390,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Security Reviewed | 5k | — |
 | [Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills](skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills/) | Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix… | Published | 4.7k | — |
+| [Scan C and C++ code with Flawfinder for risky function patterns before review](skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review/) | Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins. | Published | 4.5k | — |
 | [Baseline and Review Repository Secret Findings with detect-secrets](skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits… | Security Reviewed | 4.5k | — |
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it… | Published | 4.5k | — |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method.… | Security Reviewed | 4.4k | 9.3M/wk |
@@ -852,7 +857,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (158 skills)
+### 🔄 Data Extraction & Transformation (159 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -975,6 +980,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Published | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
+| [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Published | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines… | Published | 1.3k | — |

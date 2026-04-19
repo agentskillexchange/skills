@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2247,
+  "total": 2253,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review",
+      "name": "Scan C and C++ code with Flawfinder for risky function patterns before review",
+      "description": "Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4514
+      }
+    },
+    {
+      "slug": "repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing",
+      "name": "Repair, split, merge, and normalize PDFs with qpdf before downstream processing",
+      "description": "Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1479
+      }
+    },
+    {
+      "slug": "probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations",
+      "name": "Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations",
+      "description": "Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7267
+      }
+    },
+    {
+      "slug": "decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis",
+      "name": "Decompile Android APKs into readable source with jadx for review and analysis",
+      "description": "Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 46142
+      }
+    },
+    {
+      "slug": "check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work",
+      "name": "Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work",
+      "description": "Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7788
+      }
+    },
+    {
+      "slug": "fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface",
+      "name": "Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface",
+      "description": "Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 13973
+      }
+    },
     {
       "slug": "export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing",
       "name": "Export Obsidian vaults into clean Markdown trees for publishing or downstream processing",
