@@ -7,6 +7,11 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "datadog/dd-trace-js"
+  github_stars: 791
+  npm_package: "dd-trace"
+  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Integration Connector
@@ -15,27 +20,27 @@ Connects applications to Datadog monitoring using the Datadog API v2 for metrics
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/datadog-integration-connector-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/datadog-integration-connector-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/datadog-integration-connector-agent`.
+Download the skill folder or repository archive and extract `skills/datadog-integration-connector-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
