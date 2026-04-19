@@ -1,8 +1,8 @@
 ---
 title: "Coordinate issue-backed parallel coding worktrees with CCPM"
-description: "Tool: CCPM. This skill gives agents a bounded project-delivery workflow: turn a PRD or epic into GitHub issues, decompose the work into parallelizable tasks, map each task to a worktree, and keep execution traceable through issue state and repo structure instead of loose chat coordination. When to use it: invoke this when a coding project is large enough that one agent session is no longer sufficient, and you need explicit task breakdown, handoffs, worktree isolation, and GitHub-backed status tracking before implementation drifts or parallel changes collide. The value is not &#8220;use a PM tool&#8221; in the abstract, it is the repeatable operator workflow that moves from planning to issue sync to parallel execution. Scope boundary: this is not a generic project-management product listing and not a broad GitHub Issues card. Its boundary is narrower: coordinate issue-backed parallel agent work with worktrees and traceable execution rules. If you just need a task tracker, this is too much. If you need a repo-native orchestration method for parallel coding agents, this is the job."
+description: "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding runs reviewable instead of relying on ad hoc chat memory."
+verification: security_reviewed
 source: "https://github.com/automazeio/ccpm"
-verification: "listed"
 category:
   - "Templates &amp; Workflows"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Coordinate issue-backed parallel coding worktrees with CCPM
 
-Tool: CCPM. This skill gives agents a bounded project-delivery workflow: turn a PRD or epic into GitHub issues, decompose the work into parallelizable tasks, map each task to a worktree, and keep execution traceable through issue state and repo structure instead of loose chat coordination. When to use it: invoke this when a coding project is large enough that one agent session is no longer sufficient, and you need explicit task breakdown, handoffs, worktree isolation, and GitHub-backed status tracking before implementation drifts or parallel changes collide. The value is not &#8220;use a PM tool&#8221; in the abstract, it is the repeatable operator workflow that moves from planning to issue sync to parallel execution. Scope boundary: this is not a generic project-management product listing and not a broad GitHub Issues card. Its boundary is narrower: coordinate issue-backed parallel agent work with worktrees and traceable execution rules. If you just need a task tracker, this is too much. If you need a repo-native orchestration method for parallel coding agents, this is the job.
+Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding runs reviewable instead of relying on ad hoc chat memory.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

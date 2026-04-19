@@ -1,8 +1,8 @@
 ---
 title: "Plausible Analytics Privacy-First Web Analytics Platform"
-description: "Plausible Analytics is an open-source web analytics platform built as a privacy-first alternative to Google Analytics. It provides website traffic insights without using cookies, collecting personal data, or requiring consent banners. The project is fully GDPR, CCPA, and PECR compliant by design. How It Works Plausible works by loading a lightweight JavaScript snippet (under 1KB) on your website. This tracker collects aggregate data — pageviews, unique visitors, bounce rate, visit duration, referral sources, UTM parameters, country, device type, and browser — without storing IP addresses or using persistent identifiers. All data appears on a single-page real-time dashboard that requires no training to understand. Key Features Beyond basic metrics, Plausible supports custom event tracking with custom dimensions for conversion and attribution analysis, ecommerce revenue tracking, goal funnels, outbound link click tracking, file download monitoring, and 404 error page detection. It integrates with Google Search Console for keyword data. Teams can share dashboards publicly or privately, invite members with role-based access, and receive automated email or Slack reports with traffic spike notifications. Self-Hosting and API Plausible Community Edition can be self-hosted via Docker. The Stats API provides programmatic access to all dashboard data, enabling agents to query traffic metrics, goal conversions, and breakdown reports. The Events API allows sending custom events server-side. Built with Elixir and Phoenix, backed by ClickHouse for analytics storage, the platform handles high-traffic sites efficiently. Licensed under AGPL-3.0. Agent Integration AI agents can deploy Plausible via Docker Compose, configure tracking domains, set up custom goals and events through the API, query analytics data programmatically, and automate traffic reports. Self-host with docker compose up -d using the official plausible/community-edition image."
+description: "Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no cookies, is fully GDPR/CCPA/PECR compliant, and provides a clean single-page dashboard with all essential website metrics and traffic insights."
+verification: security_reviewed
 source: "https://github.com/plausible/analytics"
-verification: "security_reviewed"
 category:
   - "Monitoring &amp; Alerts"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Plausible Analytics Privacy-First Web Analytics Platform
 
-Plausible Analytics is an open-source web analytics platform built as a privacy-first alternative to Google Analytics. It provides website traffic insights without using cookies, collecting personal data, or requiring consent banners. The project is fully GDPR, CCPA, and PECR compliant by design. How It Works Plausible works by loading a lightweight JavaScript snippet (under 1KB) on your website. This tracker collects aggregate data — pageviews, unique visitors, bounce rate, visit duration, referral sources, UTM parameters, country, device type, and browser — without storing IP addresses or using persistent identifiers. All data appears on a single-page real-time dashboard that requires no training to understand. Key Features Beyond basic metrics, Plausible supports custom event tracking with custom dimensions for conversion and attribution analysis, ecommerce revenue tracking, goal funnels, outbound link click tracking, file download monitoring, and 404 error page detection. It integrates with Google Search Console for keyword data. Teams can share dashboards publicly or privately, invite members with role-based access, and receive automated email or Slack reports with traffic spike notifications. Self-Hosting and API Plausible Community Edition can be self-hosted via Docker. The Stats API provides programmatic access to all dashboard data, enabling agents to query traffic metrics, goal conversions, and breakdown reports. The Events API allows sending custom events server-side. Built with Elixir and Phoenix, backed by ClickHouse for analytics storage, the platform handles high-traffic sites efficiently. Licensed under AGPL-3.0. Agent Integration AI agents can deploy Plausible via Docker Compose, configure tracking domains, set up custom goals and events through the API, query analytics data programmatically, and automate traffic reports. Self-host with docker compose up -d using the official plausible/community-edition image.
+Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no cookies, is fully GDPR/CCPA/PECR compliant, and provides a clean single-page dashboard with all essential website metrics and traffic insights.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/plausible-analytics-privacy-first-web-analytics
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/plausible-analytics-privacy-first-web-analytics` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

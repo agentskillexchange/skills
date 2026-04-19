@@ -1,8 +1,8 @@
 ---
 title: "BullMQ Redis-Based Message Queue and Job Processor for Node.js"
-description: "BullMQ is a high-performance message queue and batch processing library built on Redis, designed for Node.js with additional support for Python, Elixir, and PHP. Originally created by Taskforce.sh, it has become the standard Redis-based job queue in the Node.js ecosystem, used by organizations including Microsoft, NocoDB, Novu, Infisical, and Langfuse. Queue Architecture BullMQ uses Redis as its backing store with carefully designed Lua scripts for atomic operations, ensuring rock-solid reliability even under high concurrency. Jobs are added to named queues and processed by workers that can run in separate processes or machines. The library supports multiple queue patterns including FIFO, LIFO, priority-based, and rate-limited processing. Job Processing Features The library provides a comprehensive set of job processing capabilities: priority queues for ordering execution, delayed jobs that fire after a specified time, repeatable jobs with cron-like scheduling, configurable concurrency per worker, automatic retries with exponential backoff, job deduplication through both debouncing and throttling, and sandboxed workers that run in separate processes for isolation. Flow Processing BullMQ supports parent-child job dependencies through its FlowProducer API. This enables building complex workflow DAGs where child jobs must complete before their parent begins processing. Jobs can be organized into hierarchical trees with grandchild relationships, enabling sophisticated multi-step processing pipelines. Event System and Monitoring The QueueEvents class provides real-time event streaming for job lifecycle tracking including completion, failure, progress updates, and state transitions. The companion Taskforce.sh dashboard offers a professional web UI for queue monitoring, job inspection, search, retry operations, and metrics visualization. Agent Integration AI agents can leverage BullMQ to offload long-running tasks to background workers, implement reliable webhook processing, build multi-step pipelines with dependency management, and schedule recurring maintenance jobs. The npm package installs with a single command and requires only a Redis connection to get started."
+description: "BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides priority queues, rate limiting, delayed jobs, parent-child dependencies, repeatable jobs, and sandboxed workers for background processing at scale."
+verification: security_reviewed
 source: "https://github.com/taskforcesh/bullmq"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # BullMQ Redis-Based Message Queue and Job Processor for Node.js
 
-BullMQ is a high-performance message queue and batch processing library built on Redis, designed for Node.js with additional support for Python, Elixir, and PHP. Originally created by Taskforce.sh, it has become the standard Redis-based job queue in the Node.js ecosystem, used by organizations including Microsoft, NocoDB, Novu, Infisical, and Langfuse. Queue Architecture BullMQ uses Redis as its backing store with carefully designed Lua scripts for atomic operations, ensuring rock-solid reliability even under high concurrency. Jobs are added to named queues and processed by workers that can run in separate processes or machines. The library supports multiple queue patterns including FIFO, LIFO, priority-based, and rate-limited processing. Job Processing Features The library provides a comprehensive set of job processing capabilities: priority queues for ordering execution, delayed jobs that fire after a specified time, repeatable jobs with cron-like scheduling, configurable concurrency per worker, automatic retries with exponential backoff, job deduplication through both debouncing and throttling, and sandboxed workers that run in separate processes for isolation. Flow Processing BullMQ supports parent-child job dependencies through its FlowProducer API. This enables building complex workflow DAGs where child jobs must complete before their parent begins processing. Jobs can be organized into hierarchical trees with grandchild relationships, enabling sophisticated multi-step processing pipelines. Event System and Monitoring The QueueEvents class provides real-time event streaming for job lifecycle tracking including completion, failure, progress updates, and state transitions. The companion Taskforce.sh dashboard offers a professional web UI for queue monitoring, job inspection, search, retry operations, and metrics visualization. Agent Integration AI agents can leverage BullMQ to offload long-running tasks to background workers, implement reliable webhook processing, build multi-step pipelines with dependency management, and schedule recurring maintenance jobs. The npm package installs with a single command and requires only a Redis connection to get started.
+BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides priority queues, rate limiting, delayed jobs, parent-child dependencies, repeatable jobs, and sandboxed workers for background processing at scale.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bullmq-redis-message-queue-job-processor-nodejs
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/bullmq-redis-message-queue-job-processor-nodejs` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

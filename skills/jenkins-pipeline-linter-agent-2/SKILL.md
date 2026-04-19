@@ -1,8 +1,8 @@
 ---
 title: "Jenkins Pipeline Linter Agent"
-description: "The Jenkins Pipeline Linter Agent leverages the Jenkins Pipeline Linter REST API endpoint (/pipeline-model-converter/validate) to validate Jenkinsfile syntax before code is committed. Built on the jenkins-client npm SDK, this skill authenticates against your Jenkins instance using API tokens or SSO credentials, then submits pipeline definitions for server-side syntax checking. It supports both declarative and scripted pipeline formats, parsing validation responses to surface specific line-number errors and warnings. The agent can be integrated into pre-commit hooks or CI gate steps to prevent broken pipelines from reaching the build queue. It caches authentication tokens for session reuse and supports Jenkins instances behind reverse proxies. Configuration accepts multiple Jenkins controller URLs for organizations running distributed Jenkins setups across environments."
+description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation."
+verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
-verification: "security_reviewed"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Jenkins Pipeline Linter Agent
 
-The Jenkins Pipeline Linter Agent leverages the Jenkins Pipeline Linter REST API endpoint (/pipeline-model-converter/validate) to validate Jenkinsfile syntax before code is committed. Built on the jenkins-client npm SDK, this skill authenticates against your Jenkins instance using API tokens or SSO credentials, then submits pipeline definitions for server-side syntax checking. It supports both declarative and scripted pipeline formats, parsing validation responses to surface specific line-number errors and warnings. The agent can be integrated into pre-commit hooks or CI gate steps to prevent broken pipelines from reaching the build queue. It caches authentication tokens for session reuse and supports Jenkins instances behind reverse proxies. Configuration accepts multiple Jenkins controller URLs for organizations running distributed Jenkins setups across environments.
+Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jenkins-pipeline-linter-agent-2
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/jenkins-pipeline-linter-agent-2` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

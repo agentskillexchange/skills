@@ -1,8 +1,8 @@
 ---
 title: "Turn mixed local folders into a queryable knowledge graph with Graphify"
-description: "Use Graphify when an agent needs to ingest a mixed local workspace and answer through graph-aware retrieval. This skill is for the concrete workflow of scanning folders of code and supporting artifacts, building a queryable knowledge graph, and then exploring relationships across files, documents, screenshots, and media. It is not a generic graph database card or a generic document parser listing. The boundary is the operator task: turn a messy local corpus into a graph-backed context surface for downstream agent search and reasoning."
+description: "Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text."
+verification: listed
 source: "https://github.com/safishamsi/graphify"
-verification: "listed"
 category:
   - "Data Extraction &amp; Transformation"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Turn mixed local folders into a queryable knowledge graph with Graphify
 
-Use Graphify when an agent needs to ingest a mixed local workspace and answer through graph-aware retrieval. This skill is for the concrete workflow of scanning folders of code and supporting artifacts, building a queryable knowledge graph, and then exploring relationships across files, documents, screenshots, and media. It is not a generic graph database card or a generic document parser listing. The boundary is the operator task: turn a messy local corpus into a graph-backed context surface for downstream agent search and reasoning.
+Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

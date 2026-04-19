@@ -1,8 +1,8 @@
 ---
 title: "Sign agent-made Git commits with gitsign"
-description: "Use this skill when an agent needs commit provenance, especially in repos where machine-made changes should still be attributable and verifiable. It fits workflows that want signed commits without managing long-lived GPG keys. Invoke it instead of using gitsign as a raw product when the concrete job is to install the signing path, sign commits during normal Git work, and verify that the resulting signatures are present and usable in review or policy checks. This stays skill-shaped because the scope is a specific operator workflow: sign and verify Git commits with keyless Sigstore identities. It is not a generic Sigstore or supply-chain product card."
+description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
+verification: security_reviewed
 source: "https://github.com/sigstore/gitsign"
-verification: "security_reviewed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Sign agent-made Git commits with gitsign
 
-Use this skill when an agent needs commit provenance, especially in repos where machine-made changes should still be attributable and verifiable. It fits workflows that want signed commits without managing long-lived GPG keys. Invoke it instead of using gitsign as a raw product when the concrete job is to install the signing path, sign commits during normal Git work, and verify that the resulting signatures are present and usable in review or policy checks. This stays skill-shaped because the scope is a specific operator workflow: sign and verify Git commits with keyless Sigstore identities. It is not a generic Sigstore or supply-chain product card.
+Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sign-agent-made-git-commits-with-gitsign
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/sign-agent-made-git-commits-with-gitsign` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

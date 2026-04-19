@@ -1,8 +1,8 @@
 ---
 title: "Crawl4AI MCP Server"
-description: "Crawl4AI MCP Server wraps the Crawl4AI open-source web crawling library behind a Model Context Protocol interface. It exposes tools for single-page scraping, multi-page crawling with configurable depth, and sitemap-based crawling. Results come back as clean, LLM-ready markdown. Best for Research pipelines and RAG ingestion Documentation extraction and competitive monitoring Any workflow needing structured web content without a paid crawling service How it differs from Firecrawl Entirely self-hosted and free. No API keys for the crawling layer, no rate limits from a third party, no usage-based charges. Runs locally or in Docker. Install notes Clone the repository and install with pip, or pull the Docker image ( docker pull uysalsadi/crawl4ai-mcp-server:latest ). Configure the server in your MCP client config. Requires Python 3.10+ or Docker. No API key needed. Source: github.com/sadiuysal/crawl4ai-mcp-server"
+description: "Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free."
+verification: security_reviewed
 source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
-verification: "security_reviewed"
 category:
   - "Data Extraction &amp; Transformation"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Crawl4AI MCP Server
 
-Crawl4AI MCP Server wraps the Crawl4AI open-source web crawling library behind a Model Context Protocol interface. It exposes tools for single-page scraping, multi-page crawling with configurable depth, and sitemap-based crawling. Results come back as clean, LLM-ready markdown. Best for Research pipelines and RAG ingestion Documentation extraction and competitive monitoring Any workflow needing structured web content without a paid crawling service How it differs from Firecrawl Entirely self-hosted and free. No API keys for the crawling layer, no rate limits from a third party, no usage-based charges. Runs locally or in Docker. Install notes Clone the repository and install with pip, or pull the Docker image ( docker pull uysalsadi/crawl4ai-mcp-server:latest ). Configure the server in your MCP client config. Requires Python 3.10+ or Docker. No API key needed. Source: github.com/sadiuysal/crawl4ai-mcp-server
+Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawl4ai-mcp-server
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/crawl4ai-mcp-server` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

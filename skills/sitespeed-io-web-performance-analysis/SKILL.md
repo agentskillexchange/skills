@@ -1,8 +1,8 @@
 ---
 title: "sitespeed.io Comprehensive Web Performance Analysis Toolkit"
-description: "sitespeed.io is an established open-source web performance analysis toolkit that has been actively developed for over a decade. It provides a complete solution for measuring, monitoring, and improving website performance using real browsers in real conditions. The tool is widely used for performance audits, continuous integration testing, and production monitoring. Real Browser Testing sitespeed.io tests websites using actual browsers (Chrome, Firefox, Safari, Edge) rather than synthetic simulations. This approach captures accurate Core Web Vitals metrics including Largest Contentful Paint (LCP), First Input Delay (FID), Cumulative Layout Shift (CLS), and Total Blocking Time (TBT). It uses Browsertime under the hood to drive the browser and collect Navigation Timing API data, User Timings, and Visual Metrics such as FirstVisualChange, SpeedIndex, and LastVisualChange. Performance Coaching The built-in Coach module analyzes your website&#8217;s construction and provides actionable recommendations for speed optimization. It evaluates page weight, number of requests, caching headers, compression, image optimization, third-party script impact, and other performance factors. Each recommendation includes a score and specific guidance on how to improve. Continuous Integration sitespeed.io integrates into CI/CD pipelines to detect performance regressions early. You can set performance budgets with thresholds for specific metrics, and the tool will fail builds when budgets are exceeded. It supports comparison against baseline measurements to identify exactly which changes degraded performance. Production Monitoring For ongoing monitoring, sitespeed.io can send metrics to Graphite, InfluxDB, or other time-series databases, and visualize them in Grafana dashboards. It supports alerting on performance regressions in production, scheduled testing via cron, and historical trend analysis across deployments. Deployment and Usage sitespeed.io can be installed via npm or run using Docker containers. The Docker approach is recommended for reproducible test environments. It supports testing on desktop and mobile configurations, including device emulation and network throttling. Configuration is handled via command-line flags or a JSON configuration file. Agent Integration AI agents can invoke sitespeed.io via its CLI to run performance audits on demand, parse the JSON output for specific metrics, compare results across runs, and surface performance regressions in automated reporting workflows. The structured JSON output makes it straightforward to extract and analyze specific performance data points programmatically."
+description: "sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring."
+verification: security_reviewed
 source: "https://github.com/sitespeedio/sitespeed.io"
-verification: "security_reviewed"
 category:
   - "Monitoring &amp; Alerts"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # sitespeed.io Comprehensive Web Performance Analysis Toolkit
 
-sitespeed.io is an established open-source web performance analysis toolkit that has been actively developed for over a decade. It provides a complete solution for measuring, monitoring, and improving website performance using real browsers in real conditions. The tool is widely used for performance audits, continuous integration testing, and production monitoring. Real Browser Testing sitespeed.io tests websites using actual browsers (Chrome, Firefox, Safari, Edge) rather than synthetic simulations. This approach captures accurate Core Web Vitals metrics including Largest Contentful Paint (LCP), First Input Delay (FID), Cumulative Layout Shift (CLS), and Total Blocking Time (TBT). It uses Browsertime under the hood to drive the browser and collect Navigation Timing API data, User Timings, and Visual Metrics such as FirstVisualChange, SpeedIndex, and LastVisualChange. Performance Coaching The built-in Coach module analyzes your website&#8217;s construction and provides actionable recommendations for speed optimization. It evaluates page weight, number of requests, caching headers, compression, image optimization, third-party script impact, and other performance factors. Each recommendation includes a score and specific guidance on how to improve. Continuous Integration sitespeed.io integrates into CI/CD pipelines to detect performance regressions early. You can set performance budgets with thresholds for specific metrics, and the tool will fail builds when budgets are exceeded. It supports comparison against baseline measurements to identify exactly which changes degraded performance. Production Monitoring For ongoing monitoring, sitespeed.io can send metrics to Graphite, InfluxDB, or other time-series databases, and visualize them in Grafana dashboards. It supports alerting on performance regressions in production, scheduled testing via cron, and historical trend analysis across deployments. Deployment and Usage sitespeed.io can be installed via npm or run using Docker containers. The Docker approach is recommended for reproducible test environments. It supports testing on desktop and mobile configurations, including device emulation and network throttling. Configuration is handled via command-line flags or a JSON configuration file. Agent Integration AI agents can invoke sitespeed.io via its CLI to run performance audits on demand, parse the JSON output for specific metrics, compare results across runs, and surface performance regressions in automated reporting workflows. The structured JSON output makes it straightforward to extract and analyze specific performance data points programmatically.
+sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sitespeed-io-web-performance-analysis
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/sitespeed-io-web-performance-analysis` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

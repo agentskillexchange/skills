@@ -1,8 +1,8 @@
 ---
 title: "Nginx Error Log Parser"
-description: "Nginx Error Log Parser is built around NGINX web server and reverse proxy. The underlying ecosystem is represented by nginx/nginx (29,762+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump and preserving the operational context that matters for real tasks. In practice, the skill gives an agent a stable interface to nginx so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings. The implementation typically relies on error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform. Accesses error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump instead of scraping a UI, which makes runs easier to audit and retry. Supports structured inputs and outputs so another tool, agent, or CI step can consume the result. Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format. Fits into broader integration points such as traffic routing, HTTP diagnostics, and edge/server troubleshooting. As a runbook-style skill, the value is not just tool access but operational sequencing: check the right signals first, reduce alert noise, and produce a summary that another engineer can act on immediately. Key integration points include traffic routing, HTTP diagnostics, and edge/server troubleshooting. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations."
+description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings."
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Nginx Error Log Parser
 
-Nginx Error Log Parser is built around NGINX web server and reverse proxy. The underlying ecosystem is represented by nginx/nginx (29,762+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump and preserving the operational context that matters for real tasks. In practice, the skill gives an agent a stable interface to nginx so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings. The implementation typically relies on error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform. Accesses error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump instead of scraping a UI, which makes runs easier to audit and retry. Supports structured inputs and outputs so another tool, agent, or CI step can consume the result. Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format. Fits into broader integration points such as traffic routing, HTTP diagnostics, and edge/server troubleshooting. As a runbook-style skill, the value is not just tool access but operational sequencing: check the right signals first, reduce alert noise, and produce a summary that another engineer can act on immediately. Key integration points include traffic routing, HTTP diagnostics, and edge/server troubleshooting. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nginx-error-log-parser
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/nginx-error-log-parser` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Generate launch-ready web app icons and social assets with Web Asset Generator"
-description: "Use Web Asset Generator when an agent needs to create the web asset bundle a project is missing, especially favicons, app icons, and social images generated from logos, text, or emojis. Invoke it instead of ordinary image editing when the operator wants Claude Code to generate the asset set, validate it, and help integrate it into a web project. The scope boundary is specific: produce and validate web launch assets for a site or app, not serve as a general graphics product or open-ended design tool listing."
+description: "Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work."
+verification: listed
 source: "https://github.com/alonw0/web-asset-generator"
-verification: "listed"
 category:
   - "Image &amp; Creative Automation"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Generate launch-ready web app icons and social assets with Web Asset Generator
 
-Use Web Asset Generator when an agent needs to create the web asset bundle a project is missing, especially favicons, app icons, and social images generated from logos, text, or emojis. Invoke it instead of ordinary image editing when the operator wants Claude Code to generate the asset set, validate it, and help integrate it into a web project. The scope boundary is specific: produce and validate web launch assets for a site or app, not serve as a general graphics product or open-ended design tool listing.
+Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

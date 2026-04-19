@@ -1,8 +1,8 @@
 ---
 title: "Run configurable multi-source deep research passes with Open Deep Research"
-description: "Use Open Deep Research when the task is to execute a deep-research run that gathers sources, iterates on search, compresses findings, and produces a synthesized report. Invoke it instead of doing ad hoc web research in ordinary chat when you need a configurable research agent with interchangeable model providers, search tools, and MCP-compatible retrieval sources. The scope boundary is skill-shaped and concrete: this is a bounded research-run workflow, not a generic framework listing and not just a product card for LangChain or a hosted research app."
+description: "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends."
+verification: listed
 source: "https://github.com/langchain-ai/open_deep_research"
-verification: "listed"
 category:
   - "Research &amp; Scraping"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Run configurable multi-source deep research passes with Open Deep Research
 
-Use Open Deep Research when the task is to execute a deep-research run that gathers sources, iterates on search, compresses findings, and produces a synthesized report. Invoke it instead of doing ad hoc web research in ordinary chat when you need a configurable research agent with interchangeable model providers, search tools, and MCP-compatible retrieval sources. The scope boundary is skill-shaped and concrete: this is a bounded research-run workflow, not a generic framework listing and not just a product card for LangChain or a hosted research app.
+Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

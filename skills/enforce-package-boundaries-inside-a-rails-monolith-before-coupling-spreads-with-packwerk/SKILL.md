@@ -1,8 +1,8 @@
 ---
 title: "Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk"
-description: "Use Packwerk when an agent needs to inspect or enforce modular boundaries inside an existing Rails monolith rather than treat Rails as a general application framework. The workflow is narrow and operator-facing: define packages, run Packwerk against the codebase, surface dependency or privacy violations, and guide the next refactor or review gate. That scope boundary, boundary enforcement inside a Rails monolith, is specific enough to be a real skill instead of a plain gem listing."
+description: "Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time."
+verification: listed
 source: "https://github.com/Shopify/packwerk"
-verification: "listed"
 category:
   - "Code Quality &amp; Review"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk
 
-Use Packwerk when an agent needs to inspect or enforce modular boundaries inside an existing Rails monolith rather than treat Rails as a general application framework. The workflow is narrow and operator-facing: define packages, run Packwerk against the codebase, surface dependency or privacy violations, and guide the next refactor or review gate. That scope boundary, boundary enforcement inside a Rails monolith, is specific enough to be a real skill instead of a plain gem listing.
+Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

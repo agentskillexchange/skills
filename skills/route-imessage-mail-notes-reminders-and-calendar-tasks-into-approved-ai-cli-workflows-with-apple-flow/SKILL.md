@@ -1,8 +1,8 @@
 ---
 title: "Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow"
-description: "Use Apple Flow when an agent should receive work through Apple apps you already use, then execute it through an approved AI CLI under local safety controls. This is for inbox-driven automation, task intake, and Apple-native routing across iMessage, Mail, Notes, Reminders, and Calendar, not for using a chat app or CLI directly in the normal way. The scope boundary is clear: Apple Flow is an Apple-app gateway with allowlists, approval gates, and workspace restrictions, so the publishable skill is gated Apple-native task routing rather than a generic AI assistant or generic automation daemon."
+description: "Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries."
+verification: listed
 source: "https://github.com/dkyazzentwatwa/apple-flow"
-verification: "listed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow
 
-Use Apple Flow when an agent should receive work through Apple apps you already use, then execute it through an approved AI CLI under local safety controls. This is for inbox-driven automation, task intake, and Apple-native routing across iMessage, Mail, Notes, Reminders, and Calendar, not for using a chat app or CLI directly in the normal way. The scope boundary is clear: Apple Flow is an Apple-app gateway with allowlists, approval gates, and workspace restrictions, so the publishable skill is gated Apple-native task routing rather than a generic AI assistant or generic automation daemon.
+Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

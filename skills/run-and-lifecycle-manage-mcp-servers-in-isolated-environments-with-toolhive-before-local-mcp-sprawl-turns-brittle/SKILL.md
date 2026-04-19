@@ -1,8 +1,8 @@
 ---
 title: "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle"
-description: "This skill is for operators who need a repeatable way to run MCP servers with isolation, policy, and lifecycle controls. It covers the concrete workflow of selecting MCP servers, launching them in isolated runtimes, connecting approved clients, and keeping the local or cluster-side tool catalog manageable over time. Invoke this instead of using MCP servers one by one when the real problem is server sprawl, inconsistent local setup, or missing guardrails around who can run what. It is especially useful when teams need a governed MCP runtime for Claude Code, Cursor, Copilot, or other MCP-capable clients. The scope boundary is specific: this is not a generic MCP explainer or a generic container platform listing. It is about operating MCP server lifecycle and isolation through ToolHive as the user-facing control plane."
+description: "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes."
+verification: security_reviewed
 source: "https://github.com/stacklok/toolhive"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle
 
-This skill is for operators who need a repeatable way to run MCP servers with isolation, policy, and lifecycle controls. It covers the concrete workflow of selecting MCP servers, launching them in isolated runtimes, connecting approved clients, and keeping the local or cluster-side tool catalog manageable over time. Invoke this instead of using MCP servers one by one when the real problem is server sprawl, inconsistent local setup, or missing guardrails around who can run what. It is especially useful when teams need a governed MCP runtime for Claude Code, Cursor, Copilot, or other MCP-capable clients. The scope boundary is specific: this is not a generic MCP explainer or a generic container platform listing. It is about operating MCP server lifecycle and isolation through ToolHive as the user-facing control plane.
+Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

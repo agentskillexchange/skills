@@ -1,8 +1,8 @@
 ---
 title: "Turborepo Monorepo Build System"
-description: "Overview Turborepo is a high-performance build system for JavaScript and TypeScript monorepos, written in Rust and maintained by Vercel. It optimizes the execution of tasks like building, testing, and linting across multiple packages in a repository by using content-aware hashing, intelligent task scheduling, and both local and remote caching. When you run a build in a monorepo, Turborepo analyzes the dependency graph between packages, determines which tasks can run in parallel, and skips tasks whose inputs haven&#8217;t changed since the last run. This content-aware caching means that rebuilding after a small change takes seconds instead of minutes, even in repositories with hundreds of packages. How It Works Agents configure Turborepo via a turbo.json file at the repository root that declares task pipelines and their dependency relationships. Running turbo run build executes the build task across all packages in the correct topological order, parallelizing independent tasks and caching outputs. The turbo CLI (installed via npm install turbo ) integrates with npm, yarn, pnpm, and bun workspaces. Turborepo&#8217;s remote caching feature, available through Vercel or self-hosted solutions, allows teams to share build caches across CI/CD and developer machines. When one developer builds a package, another developer or CI run with the same inputs can download the cached output instead of rebuilding, dramatically reducing build times in teams. Key Features Turborepo provides task filtering (run tasks only in changed packages), watch mode for incremental development, dry-run mode for debugging task graphs, and detailed profiling output compatible with Chrome DevTools. It generates task execution summaries and supports environment variable passthrough for cache key computation. With over 30,000 GitHub stars and backing from Vercel, Turborepo is one of the most widely adopted monorepo build tools. Companies listed on the Turborepo showcase include major enterprises using it to manage large-scale JavaScript codebases."
+description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel."
+verification: security_reviewed
 source: "https://github.com/vercel/turborepo"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Turborepo Monorepo Build System
 
-Overview Turborepo is a high-performance build system for JavaScript and TypeScript monorepos, written in Rust and maintained by Vercel. It optimizes the execution of tasks like building, testing, and linting across multiple packages in a repository by using content-aware hashing, intelligent task scheduling, and both local and remote caching. When you run a build in a monorepo, Turborepo analyzes the dependency graph between packages, determines which tasks can run in parallel, and skips tasks whose inputs haven&#8217;t changed since the last run. This content-aware caching means that rebuilding after a small change takes seconds instead of minutes, even in repositories with hundreds of packages. How It Works Agents configure Turborepo via a turbo.json file at the repository root that declares task pipelines and their dependency relationships. Running turbo run build executes the build task across all packages in the correct topological order, parallelizing independent tasks and caching outputs. The turbo CLI (installed via npm install turbo ) integrates with npm, yarn, pnpm, and bun workspaces. Turborepo&#8217;s remote caching feature, available through Vercel or self-hosted solutions, allows teams to share build caches across CI/CD and developer machines. When one developer builds a package, another developer or CI run with the same inputs can download the cached output instead of rebuilding, dramatically reducing build times in teams. Key Features Turborepo provides task filtering (run tasks only in changed packages), watch mode for incremental development, dry-run mode for debugging task graphs, and detailed profiling output compatible with Chrome DevTools. It generates task execution summaries and supports environment variable passthrough for cache key computation. With over 30,000 GitHub stars and backing from Vercel, Turborepo is one of the most widely adopted monorepo build tools. Companies listed on the Turborepo showcase include major enterprises using it to manage large-scale JavaScript codebases.
+Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turborepo-monorepo-build-system
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/turborepo-monorepo-build-system` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

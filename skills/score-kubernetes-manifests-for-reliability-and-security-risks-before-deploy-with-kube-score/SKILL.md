@@ -1,8 +1,8 @@
 ---
 title: "Score Kubernetes manifests for reliability and security risks before deploy with kube-score"
-description: "Use kube-score when an agent needs to inspect Kubernetes object definitions and surface recommendations about reliability and security before anything reaches a cluster. Invoke this instead of normal Kubernetes tooling when the job is preflight risk review of manifests or chart output, not schema validation alone and not live cluster administration. The scope boundary is specific and skill-shaped: kube-score performs recommendation-oriented static analysis on Kubernetes manifests before deployment, not general Kubernetes management or a generic platform listing."
+description: "Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and resilience gaps before merge or deploy."
+verification: listed
 source: "https://github.com/zegl/kube-score"
-verification: "listed"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Score Kubernetes manifests for reliability and security risks before deploy with kube-score
 
-Use kube-score when an agent needs to inspect Kubernetes object definitions and surface recommendations about reliability and security before anything reaches a cluster. Invoke this instead of normal Kubernetes tooling when the job is preflight risk review of manifests or chart output, not schema validation alone and not live cluster administration. The scope boundary is specific and skill-shaped: kube-score performs recommendation-oriented static analysis on Kubernetes manifests before deployment, not general Kubernetes management or a generic platform listing.
+Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and resilience gaps before merge or deploy.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

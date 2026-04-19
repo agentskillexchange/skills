@@ -1,8 +1,8 @@
 ---
 title: "Playwright Visual Regression Suite"
-description: "The Playwright Visual Regression Suite automates UI consistency checks using Playwright&#8217;s built-in screenshot comparison capabilities. It leverages page.screenshot() with configurable options including fullPage captures, element-level screenshots via locator.screenshot(), and clip regions for specific viewport areas. The skill uses expect(screenshot).toMatchSnapshot() with tunable thresholds: maxDiffPixels for absolute pixel differences and maxDiffPixelRatio for percentage-based tolerance. It supports cross-browser baselines across Chromium, Firefox, and WebKit, maintaining separate golden files per browser and viewport size. Advanced features include animation disabling via page.evaluate to freeze CSS transitions, font anti-aliasing normalization for CI environments, and dark/light theme variant testing. The suite integrates with Playwright&#8217;s test runner for parallel execution, generates HTML diff reports showing before/after/difference overlays, and supports baseline update workflows via &#8211;update-snapshots flag. CI integration includes GitHub Actions artifacts for failed screenshot storage."
+description: "Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit."
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
-verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Playwright Visual Regression Suite
 
-The Playwright Visual Regression Suite automates UI consistency checks using Playwright&#8217;s built-in screenshot comparison capabilities. It leverages page.screenshot() with configurable options including fullPage captures, element-level screenshots via locator.screenshot(), and clip regions for specific viewport areas. The skill uses expect(screenshot).toMatchSnapshot() with tunable thresholds: maxDiffPixels for absolute pixel differences and maxDiffPixelRatio for percentage-based tolerance. It supports cross-browser baselines across Chromium, Firefox, and WebKit, maintaining separate golden files per browser and viewport size. Advanced features include animation disabling via page.evaluate to freeze CSS transitions, font anti-aliasing normalization for CI environments, and dark/light theme variant testing. The suite integrates with Playwright&#8217;s test runner for parallel execution, generates HTML diff reports showing before/after/difference overlays, and supports baseline update workflows via &#8211;update-snapshots flag. CI integration includes GitHub Actions artifacts for failed screenshot storage.
+Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-visual-regression-suite
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/playwright-visual-regression-suite` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

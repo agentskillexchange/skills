@@ -1,8 +1,8 @@
 ---
 title: "Verify Markdown links before docs or content ship with markdown-link-check"
-description: "Use markdown-link-check when an agent needs a pre-publish validation pass over Markdown files instead of treating link health as a generic docs platform concern. The action is specific: scan Markdown, resolve links, and report which references are alive, dead, or need exceptions. That boundary, link verification for Markdown assets before release or publication, is narrow enough to be a real skill rather than a plain package listing."
+description: "Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users."
+verification: listed
 source: "https://github.com/tcort/markdown-link-check"
-verification: "listed"
 category:
   - "Content Writing &amp; SEO"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Verify Markdown links before docs or content ship with markdown-link-check
 
-Use markdown-link-check when an agent needs a pre-publish validation pass over Markdown files instead of treating link health as a generic docs platform concern. The action is specific: scan Markdown, resolve links, and report which references are alive, dead, or need exceptions. That boundary, link verification for Markdown assets before release or publication, is narrow enough to be a real skill rather than a plain package listing.
+Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

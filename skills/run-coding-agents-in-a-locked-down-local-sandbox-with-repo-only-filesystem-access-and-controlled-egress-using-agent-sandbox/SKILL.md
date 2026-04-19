@@ -1,8 +1,8 @@
 ---
 title: "Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox"
-description: "Use agent-sandbox when you want local coding agents to keep their auth and state, but still confine them to a repository-scoped filesystem and a policy-controlled egress path. The workflow is concrete: initialize the sandbox, generate the compose and policy files, then enter the containerized agent environment through the CLI or devcontainer path. The scope boundary is tighter than a generic dev environment product because the point is specifically safe local agent execution with bounded filesystem and network policy."
+description: "Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host."
+verification: listed
 source: "https://github.com/mattolson/agent-sandbox"
-verification: "listed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox
 
-Use agent-sandbox when you want local coding agents to keep their auth and state, but still confine them to a repository-scoped filesystem and a policy-controlled egress path. The workflow is concrete: initialize the sandbox, generate the compose and policy files, then enter the containerized agent environment through the CLI or devcontainer path. The scope boundary is tighter than a generic dev environment product because the point is specifically safe local agent execution with bounded filesystem and network policy.
+Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Monolith Web Page Archiver and Single-File Bundler"
-description: "Monolith is a command-line tool written in Rust that bundles any web page into a single, self-contained HTML file. Unlike browser &#8220;Save As&#8221; functions that create folders of separate assets, Monolith embeds all CSS, images, JavaScript, and font resources directly into the HTML as data URLs, producing one portable file. How It Works Monolith fetches the target URL, parses the HTML, resolves all referenced assets (stylesheets, images, scripts, fonts, videos), downloads them, and encodes them as base64 data URLs inline within the HTML document. The result is a single .html file that browsers render exactly as the original page appeared, even without network access. Filtering and Control Fine-grained control over what gets embedded is available through command-line flags: exclude audio (-a), CSS (-c), images (-i), JavaScript (-j), video (-v), or web fonts (-F). Domain whitelisting (-d) and blacklisting (-B) control which external domains assets are fetched from. The isolation flag (-I) prevents the saved page from making any network requests when opened. Output format can be set to MHTML (-m) instead of HTML5. Pipeline Integration Monolith reads from stdin and writes to stdout, making it composable with other tools. For JavaScript-heavy single-page applications, it can be chained with headless Chromium to first render the page, then pipe the DOM output to Monolith for asset embedding. Custom User-Agent strings, cookie files, timeout settings, and proxy support (via environment variables) are all configurable. Agent Integration AI agents can use Monolith for web research archiving, creating offline snapshots of documentation, preserving evidence of web content, and building local knowledge bases. The stdin/stdout pipeline support makes it straightforward to integrate into automated workflows. The Rust library (available as a crate) enables programmatic use within larger applications. Installation Available via cargo install monolith, Homebrew (brew install monolith), Snap, Chocolatey, Scoop, winget, MacPorts, Nix, Guix, pacman (Arch), apk (Alpine), and pre-built binaries for Windows, Linux, and macOS from GitHub releases."
+description: "Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS, images, JavaScript, and fonts as data URLs. It produces self-contained HTML5 documents that render correctly offline without external dependencies."
+verification: security_reviewed
 source: "https://github.com/Y2Z/monolith"
-verification: "security_reviewed"
 category:
   - "Research &amp; Scraping"
 framework:
@@ -11,15 +11,31 @@ framework:
 
 # Monolith Web Page Archiver and Single-File Bundler
 
-Monolith is a command-line tool written in Rust that bundles any web page into a single, self-contained HTML file. Unlike browser &#8220;Save As&#8221; functions that create folders of separate assets, Monolith embeds all CSS, images, JavaScript, and font resources directly into the HTML as data URLs, producing one portable file. How It Works Monolith fetches the target URL, parses the HTML, resolves all referenced assets (stylesheets, images, scripts, fonts, videos), downloads them, and encodes them as base64 data URLs inline within the HTML document. The result is a single .html file that browsers render exactly as the original page appeared, even without network access. Filtering and Control Fine-grained control over what gets embedded is available through command-line flags: exclude audio (-a), CSS (-c), images (-i), JavaScript (-j), video (-v), or web fonts (-F). Domain whitelisting (-d) and blacklisting (-B) control which external domains assets are fetched from. The isolation flag (-I) prevents the saved page from making any network requests when opened. Output format can be set to MHTML (-m) instead of HTML5. Pipeline Integration Monolith reads from stdin and writes to stdout, making it composable with other tools. For JavaScript-heavy single-page applications, it can be chained with headless Chromium to first render the page, then pipe the DOM output to Monolith for asset embedding. Custom User-Agent strings, cookie files, timeout settings, and proxy support (via environment variables) are all configurable. Agent Integration AI agents can use Monolith for web research archiving, creating offline snapshots of documentation, preserving evidence of web content, and building local knowledge bases. The stdin/stdout pipeline support makes it straightforward to integrate into automated workflows. The Rust library (available as a crate) enables programmatic use within larger applications. Installation Available via cargo install monolith, Homebrew (brew install monolith), Snap, Chocolatey, Scoop, winget, MacPorts, Nix, Guix, pacman (Arch), apk (Alpine), and pre-built binaries for Windows, Linux, and macOS from GitHub releases.
+Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS, images, JavaScript, and fonts as data URLs. It produces self-contained HTML5 documents that render correctly offline without external dependencies.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/monolith-web-page-single-file-archiver
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/monolith-web-page-single-file-archiver` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

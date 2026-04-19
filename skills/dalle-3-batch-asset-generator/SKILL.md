@@ -1,8 +1,8 @@
 ---
 title: "DALL-E 3 Batch Asset Generator"
-description: "Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance. This skill takes a creative brief and brand style guide, constructs optimized DALL-E 3 prompts with style directives, and generates multiple image sizes (1024&#215;1024, 1792&#215;1024, 1024&#215;1792) in parallel. Implements exponential backoff for 429 rate limit responses, saves images to a local directory, and produces a manifest JSON with prompt metadata for each asset. Use for social media content batches, blog illustration sets, marketing campaign assets, and UI mockup visuals. Not for photorealistic portraits of real people or trademarked brand recreations. Requires OPENAI_API_KEY with Images API access. DALL-E 3 generates one image per API call — batch throughput is 50-60 images/minute on Tier 2+."
+description: "Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance."
+verification: security_reviewed
 source: "https://github.com/openai/openai-node"
-verification: "security_reviewed"
 category:
   - "Image &amp; Creative Automation"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # DALL-E 3 Batch Asset Generator
 
-Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance. This skill takes a creative brief and brand style guide, constructs optimized DALL-E 3 prompts with style directives, and generates multiple image sizes (1024&#215;1024, 1792&#215;1024, 1024&#215;1792) in parallel. Implements exponential backoff for 429 rate limit responses, saves images to a local directory, and produces a manifest JSON with prompt metadata for each asset. Use for social media content batches, blog illustration sets, marketing campaign assets, and UI mockup visuals. Not for photorealistic portraits of real people or trademarked brand recreations. Requires OPENAI_API_KEY with Images API access. DALL-E 3 generates one image per API call — batch throughput is 50-60 images/minute on Tier 2+.
+Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dalle-3-batch-asset-generator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/dalle-3-batch-asset-generator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

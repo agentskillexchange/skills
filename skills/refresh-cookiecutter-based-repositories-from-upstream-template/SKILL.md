@@ -1,8 +1,8 @@
 ---
 title: "Refresh Cookiecutter-based repositories from their upstream template without losing local answers"
-description: "This ASE entry is built around Cruft, the open source tool for keeping Cookiecutter-generated repositories in sync with the template they came from. The agent job-to-be-done is specific: identify the original template for a repository, compare the current project against the latest template revision, apply the upstream template changes, and help the maintainer review conflicts without blowing away the repo&#8217;s existing answers and hand-edited code. You use this skill when normal product usage is the wrong abstraction. The task is not “scaffold a new project” or “list a templating engine.” The real task is to refresh many downstream repos after the platform template gains a new CI workflow, a security hardening tweak, a docs skeleton improvement, or a packaging fix. An agent can inspect the .cruft.json state file, fetch the newer template version, generate the update diff, call out conflicts in generated files versus local edits, and turn template maintenance into a repeatable review step instead of a risky manual copy-paste job. The scope boundary is what makes this skill-shaped. This entry is not a generic Cookiecutter card, and it is not for creating templates in the abstract. It is specifically for updating already-generated repositories from their source template. Integration points include template-governed monorepos, internal starter kits, compliance-driven repo refresh programs, release engineering checklists, and maintenance bots that need a safe operator playbook for propagating template changes. Upstream evidence is strong: official GitHub repository, PyPI package, documentation site, tagged releases, MIT license, and an existing install/update workflow used in real templated repos."
+description: "Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository's saved answers and local customizations as carefully as possible."
+verification: security_reviewed
 source: "https://github.com/cruft/cruft"
-verification: "security_reviewed"
 category:
   - "Templates &amp; Workflows"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Refresh Cookiecutter-based repositories from their upstream template without losing local answers
 
-This ASE entry is built around Cruft, the open source tool for keeping Cookiecutter-generated repositories in sync with the template they came from. The agent job-to-be-done is specific: identify the original template for a repository, compare the current project against the latest template revision, apply the upstream template changes, and help the maintainer review conflicts without blowing away the repo&#8217;s existing answers and hand-edited code. You use this skill when normal product usage is the wrong abstraction. The task is not “scaffold a new project” or “list a templating engine.” The real task is to refresh many downstream repos after the platform template gains a new CI workflow, a security hardening tweak, a docs skeleton improvement, or a packaging fix. An agent can inspect the .cruft.json state file, fetch the newer template version, generate the update diff, call out conflicts in generated files versus local edits, and turn template maintenance into a repeatable review step instead of a risky manual copy-paste job. The scope boundary is what makes this skill-shaped. This entry is not a generic Cookiecutter card, and it is not for creating templates in the abstract. It is specifically for updating already-generated repositories from their source template. Integration points include template-governed monorepos, internal starter kits, compliance-driven repo refresh programs, release engineering checklists, and maintenance bots that need a safe operator playbook for propagating template changes. Upstream evidence is strong: official GitHub repository, PyPI package, documentation site, tagged releases, MIT license, and an existing install/update workflow used in real templated repos.
+Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository's saved answers and local customizations as carefully as possible.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/refresh-cookiecutter-based-repositories-from-upstream-template
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/refresh-cookiecutter-based-repositories-from-upstream-template` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

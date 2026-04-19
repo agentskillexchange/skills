@@ -1,8 +1,8 @@
 ---
 title: "Wiki.js Modern Open Source Wiki Platform on Node.js"
-description: "Wiki.js is a modern, open-source wiki application built on Node.js that provides a fast and extensible platform for team documentation and knowledge management. With over 28,000 GitHub stars and an active development community, Wiki.js has established itself as one of the most popular self-hosted wiki solutions available, offering a clean interface, powerful features, and flexible deployment options. The platform supports multiple content editors including a full Markdown editor with live preview, a WYSIWYG visual editor, and raw HTML editing. Content is stored in a database (PostgreSQL, MySQL, MariaDB, MS SQL Server, or SQLite) with optional Git-based storage synchronization, allowing teams to version control their documentation alongside their code repositories. For agent and automation integration, Wiki.js exposes a GraphQL API that covers page creation and updates, asset management, user and group administration, navigation configuration, and system settings. The GraphQL API supports both query and mutation operations with Bearer token authentication, making it well-suited for programmatic content management by AI agents and automated pipelines. Wiki.js includes a modular architecture with support for multiple storage backends including local filesystem, Git repositories, AWS S3, Azure Blob Storage, Google Cloud Storage, and SFTP. The search engine is configurable with built-in database search, Elasticsearch, Algolia, Azure Search, and PostgreSQL full-text search options, allowing teams to optimize for their specific scale and performance requirements. Authentication in Wiki.js is highly flexible, supporting local accounts, LDAP, SAML, OAuth2, OpenID Connect, and pre-configured modules for Auth0, Azure AD, Discord, Dropbox, Facebook, GitHub, Google, Keycloak, Okta, Slack, and Twitch. Granular page-level permissions can be configured through a rules-based access control system tied to user groups. The platform supports multi-language content with built-in localization for the interface, asset management for images and files, page tags and metadata, comments, custom navigation menus, and theming. Deployment is available via Docker, Kubernetes Helm charts, or native installation on Linux, macOS, and Windows with Node.js 18+."
+description: "Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides multi-language content, granular access controls, and integrations with major authentication providers."
+verification: security_reviewed
 source: "https://github.com/requarks/wiki"
-verification: "security_reviewed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Wiki.js Modern Open Source Wiki Platform on Node.js
 
-Wiki.js is a modern, open-source wiki application built on Node.js that provides a fast and extensible platform for team documentation and knowledge management. With over 28,000 GitHub stars and an active development community, Wiki.js has established itself as one of the most popular self-hosted wiki solutions available, offering a clean interface, powerful features, and flexible deployment options. The platform supports multiple content editors including a full Markdown editor with live preview, a WYSIWYG visual editor, and raw HTML editing. Content is stored in a database (PostgreSQL, MySQL, MariaDB, MS SQL Server, or SQLite) with optional Git-based storage synchronization, allowing teams to version control their documentation alongside their code repositories. For agent and automation integration, Wiki.js exposes a GraphQL API that covers page creation and updates, asset management, user and group administration, navigation configuration, and system settings. The GraphQL API supports both query and mutation operations with Bearer token authentication, making it well-suited for programmatic content management by AI agents and automated pipelines. Wiki.js includes a modular architecture with support for multiple storage backends including local filesystem, Git repositories, AWS S3, Azure Blob Storage, Google Cloud Storage, and SFTP. The search engine is configurable with built-in database search, Elasticsearch, Algolia, Azure Search, and PostgreSQL full-text search options, allowing teams to optimize for their specific scale and performance requirements. Authentication in Wiki.js is highly flexible, supporting local accounts, LDAP, SAML, OAuth2, OpenID Connect, and pre-configured modules for Auth0, Azure AD, Discord, Dropbox, Facebook, GitHub, Google, Keycloak, Okta, Slack, and Twitch. Granular page-level permissions can be configured through a rules-based access control system tied to user groups. The platform supports multi-language content with built-in localization for the interface, asset management for images and files, page tags and metadata, comments, custom navigation menus, and theming. Deployment is available via Docker, Kubernetes Helm charts, or native installation on Linux, macOS, and Windows with Node.js 18+.
+Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides multi-language content, granular access controls, and integrations with major authentication providers.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wikijs-wiki-platform-nodejs
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/wikijs-wiki-platform-nodejs` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

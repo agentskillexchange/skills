@@ -1,8 +1,8 @@
 ---
 title: "Playwright Cross-Browser Testing and Automation Framework"
-description: "Playwright Cross-Browser Testing and Automation Framework is centered on Microsoft Playwright, the open source browser automation project at microsoft/playwright . Playwright exposes one automation model for Chromium, Firefox, and WebKit, which makes it practical when the same workflow has to be validated across engines instead of only against one local Chrome build. The upstream documentation also emphasizes browser contexts, tracing, screenshots, videos, and a test runner that was built specifically for modern web apps. This skill is useful for several concrete jobs-to-be-done: running end-to-end tests against authenticated applications, reproducing flaky UI bugs with trace capture, taking deterministic screenshots or PDFs, automating web data collection from JavaScript-heavy pages, and validating forms or dashboards across multiple browsers in CI. In a typical implementation, the agent works with Playwright primitives such as browser contexts, locators, page navigation, request interception, screenshots, trace viewer output, and the built-in test runner. That is materially different from ad hoc browser scripting because Playwright auto-waits for actionability and retries web-first assertions, which helps reduce false failures. The integration points are broad. Teams commonly install it into a Node.js project, run it locally or in CI, save traces for failed runs, and connect it to artifact storage, pull request checks, or debugging workflows. It also works well as the browser layer inside agent systems that need reproducible interaction with live websites. Because the framework has an official docs site, a large GitHub project, Apache-2.0 licensing, and active release history, it clears the intake bar for verified metadata publication."
+description: "Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots, tracing, and login flows. It fits teams that need reliable browser sessions, modern locator-based automation, and strong debugging artifacts instead of brittle timeout-heavy scripts."
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
-verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Playwright Cross-Browser Testing and Automation Framework
 
-Playwright Cross-Browser Testing and Automation Framework is centered on Microsoft Playwright, the open source browser automation project at microsoft/playwright . Playwright exposes one automation model for Chromium, Firefox, and WebKit, which makes it practical when the same workflow has to be validated across engines instead of only against one local Chrome build. The upstream documentation also emphasizes browser contexts, tracing, screenshots, videos, and a test runner that was built specifically for modern web apps. This skill is useful for several concrete jobs-to-be-done: running end-to-end tests against authenticated applications, reproducing flaky UI bugs with trace capture, taking deterministic screenshots or PDFs, automating web data collection from JavaScript-heavy pages, and validating forms or dashboards across multiple browsers in CI. In a typical implementation, the agent works with Playwright primitives such as browser contexts, locators, page navigation, request interception, screenshots, trace viewer output, and the built-in test runner. That is materially different from ad hoc browser scripting because Playwright auto-waits for actionability and retries web-first assertions, which helps reduce false failures. The integration points are broad. Teams commonly install it into a Node.js project, run it locally or in CI, save traces for failed runs, and connect it to artifact storage, pull request checks, or debugging workflows. It also works well as the browser layer inside agent systems that need reproducible interaction with live websites. Because the framework has an official docs site, a large GitHub project, Apache-2.0 licensing, and active release history, it clears the intake bar for verified metadata publication.
+Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots, tracing, and login flows. It fits teams that need reliable browser sessions, modern locator-based automation, and strong debugging artifacts instead of brittle timeout-heavy scripts.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-cross-browser-testing-and-automation-framework
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/playwright-cross-browser-testing-and-automation-framework` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Wrangler Cloudflare Workers CLI for Edge Deployment"
-description: "Overview Wrangler is Cloudflare official CLI for the Workers platform, the leading edge compute environment. It handles the full lifecycle of serverless edge applications — from project scaffolding and local development to production deployment across Cloudflare 300+ global data centers. Key Features Local Development: Built-in local dev server powered by Miniflare and the workerd runtime, providing accurate local simulation of the Workers environment including KV, R2, D1, Durable Objects, and Queues. Zero-Config Deploy: Ship code to the edge with wrangler deploy — no infrastructure configuration required. Automatic bundling with esbuild handles TypeScript, JSX, and module resolution. Storage Bindings: First-class support for Cloudflare storage products including Workers KV (key-value), R2 (S3-compatible object storage), D1 (SQLite at the edge), and Durable Objects (stateful coordination). Tail and Logs: Stream real-time logs from production Workers with wrangler tail for debugging and observability. Pages Integration: Deploy full-stack applications with Cloudflare Pages, combining static assets with Workers functions. How It Works Wrangler reads a wrangler.toml configuration file that defines your Worker name, routes, environment variables, and storage bindings. During development, wrangler dev starts a local server that accurately simulates the Cloudflare runtime. When ready, wrangler deploy bundles your code and pushes it to the Cloudflare network where it runs in V8 isolates at the edge. Agent Integration AI agents can leverage Wrangler to deploy tool servers, API endpoints, and webhook handlers to the edge. The CLI-driven workflow is ideal for automated deployment pipelines — agents can scaffold projects with npm create cloudflare@latest , configure bindings in wrangler.toml, and deploy with a single command. The local dev server enables agents to test and iterate before production deployment. Installation npm install -g wrangler # or create a new project: npm create cloudflare@latest Quick Start # Create a new Worker npm create cloudflare@latest my-worker cd my-worker # Start local development wrangler dev # Deploy to Cloudflare wrangler deploy"
+description: "Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a complete development workflow for serverless edge applications including local development with Miniflare, KV/R2/D1 bindings, and zero-config deployment to Cloudflare global network."
+verification: security_reviewed
 source: "https://github.com/cloudflare/workers-sdk"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Wrangler Cloudflare Workers CLI for Edge Deployment
 
-Overview Wrangler is Cloudflare official CLI for the Workers platform, the leading edge compute environment. It handles the full lifecycle of serverless edge applications — from project scaffolding and local development to production deployment across Cloudflare 300+ global data centers. Key Features Local Development: Built-in local dev server powered by Miniflare and the workerd runtime, providing accurate local simulation of the Workers environment including KV, R2, D1, Durable Objects, and Queues. Zero-Config Deploy: Ship code to the edge with wrangler deploy — no infrastructure configuration required. Automatic bundling with esbuild handles TypeScript, JSX, and module resolution. Storage Bindings: First-class support for Cloudflare storage products including Workers KV (key-value), R2 (S3-compatible object storage), D1 (SQLite at the edge), and Durable Objects (stateful coordination). Tail and Logs: Stream real-time logs from production Workers with wrangler tail for debugging and observability. Pages Integration: Deploy full-stack applications with Cloudflare Pages, combining static assets with Workers functions. How It Works Wrangler reads a wrangler.toml configuration file that defines your Worker name, routes, environment variables, and storage bindings. During development, wrangler dev starts a local server that accurately simulates the Cloudflare runtime. When ready, wrangler deploy bundles your code and pushes it to the Cloudflare network where it runs in V8 isolates at the edge. Agent Integration AI agents can leverage Wrangler to deploy tool servers, API endpoints, and webhook handlers to the edge. The CLI-driven workflow is ideal for automated deployment pipelines — agents can scaffold projects with npm create cloudflare@latest , configure bindings in wrangler.toml, and deploy with a single command. The local dev server enables agents to test and iterate before production deployment. Installation npm install -g wrangler # or create a new project: npm create cloudflare@latest Quick Start # Create a new Worker npm create cloudflare@latest my-worker cd my-worker # Start local development wrangler dev # Deploy to Cloudflare wrangler deploy
+Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a complete development workflow for serverless edge applications including local development with Miniflare, KV/R2/D1 bindings, and zero-config deployment to Cloudflare global network.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wrangler-cloudflare-workers-cli-edge-deployment
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/wrangler-cloudflare-workers-cli-edge-deployment` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit"
-description: "Use Agent Governance Toolkit when the job is to run a preflight governance check or enforce deterministic policy gates around agent actions before giving an agent real autonomy, not when a user simply wants a general agent framework. The operator workflow is specific: install AGT, run agt doctor and agt verify, inspect policy coverage or evidence gaps, and fail the release or runtime path if risky actions are not governed. That scope boundary, deterministic policy verification and action gating for agent tool use, keeps this publishable as a skill instead of a plain governance platform listing."
+description: "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early."
+verification: listed
 source: "https://github.com/microsoft/agent-governance-toolkit"
-verification: "listed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit
 
-Use Agent Governance Toolkit when the job is to run a preflight governance check or enforce deterministic policy gates around agent actions before giving an agent real autonomy, not when a user simply wants a general agent framework. The operator workflow is specific: install AGT, run agt doctor and agt verify, inspect policy coverage or evidence gaps, and fail the release or runtime path if risky actions are not governed. That scope boundary, deterministic policy verification and action gating for agent tool use, keeps this publishable as a skill instead of a plain governance platform listing.
+Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

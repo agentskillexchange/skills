@@ -1,8 +1,8 @@
 ---
 title: "Docling Document Parsing and Conversion Toolkit"
-description: "Docling is an open source document parsing and conversion project that focuses on preparing real-world documents for AI and automation workflows. The upstream repository and docs show support for PDF, DOCX, PPTX, XLSX, HTML, images, audio, WebVTT, LaTeX, and plain text inputs, with output options including Markdown, HTML, JSON, and DocTags. For agent use cases, that means a single tool can normalize messy source material into formats that are easier to search, summarize, chunk, and pass into downstream models. Its job to be done is concrete: take heterogeneous files and turn them into structured, machine-usable representations without forcing every workflow to build a custom parser. Docling also exposes OCR support for scanned PDFs and images, ships a CLI for direct conversion, and documents integrations with ecosystems such as LangChain, LlamaIndex, CrewAI, and Haystack. Those integration points make it especially useful for ingestion pipelines, document QA systems, knowledge base preparation, and batch content extraction jobs where agents need more than plain text scraping. The project has strong intake evidence. It has an official GitHub repository, live documentation, a published PyPI package, an MIT license, and recent repository activity. The maintainers also document a straightforward install path and current Python version requirements, which keeps adoption friction low for marketplace users looking for a real upstream tool rather than a speculative pattern."
+description: "Docling is an open source document processing toolkit that converts PDFs, Office files, HTML, images, audio, and more into structured outputs for AI workflows. It supports local execution, OCR, and integrations with agent frameworks and retrieval pipelines."
+verification: security_reviewed
 source: "https://github.com/docling-project/docling"
-verification: "security_reviewed"
 category:
   - "Data Extraction &amp; Transformation"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Docling Document Parsing and Conversion Toolkit
 
-Docling is an open source document parsing and conversion project that focuses on preparing real-world documents for AI and automation workflows. The upstream repository and docs show support for PDF, DOCX, PPTX, XLSX, HTML, images, audio, WebVTT, LaTeX, and plain text inputs, with output options including Markdown, HTML, JSON, and DocTags. For agent use cases, that means a single tool can normalize messy source material into formats that are easier to search, summarize, chunk, and pass into downstream models. Its job to be done is concrete: take heterogeneous files and turn them into structured, machine-usable representations without forcing every workflow to build a custom parser. Docling also exposes OCR support for scanned PDFs and images, ships a CLI for direct conversion, and documents integrations with ecosystems such as LangChain, LlamaIndex, CrewAI, and Haystack. Those integration points make it especially useful for ingestion pipelines, document QA systems, knowledge base preparation, and batch content extraction jobs where agents need more than plain text scraping. The project has strong intake evidence. It has an official GitHub repository, live documentation, a published PyPI package, an MIT license, and recent repository activity. The maintainers also document a straightforward install path and current Python version requirements, which keeps adoption friction low for marketplace users looking for a real upstream tool rather than a speculative pattern.
+Docling is an open source document processing toolkit that converts PDFs, Office files, HTML, images, audio, and more into structured outputs for AI workflows. It supports local execution, OCR, and integrations with agent frameworks and retrieval pipelines.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docling-document-parsing-and-conversion-toolkit
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/docling-document-parsing-and-conversion-toolkit` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

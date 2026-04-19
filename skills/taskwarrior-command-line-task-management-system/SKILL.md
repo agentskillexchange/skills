@@ -1,8 +1,8 @@
 ---
 title: "Taskwarrior Command-Line Task Management System"
-description: "Taskwarrior is a command-line task management system developed by Gothenburg Bit Factory. Active since 2006, it provides a feature-rich interface for managing personal and team task lists entirely from the terminal. It is written in C++, licensed under the MIT license, and available on Linux, macOS, BSD, and Windows. Core Task Management Taskwarrior supports task creation, modification, completion, deletion, and querying through a concise command syntax. Each task can have a description, project assignment, priority level, tags, due date, scheduled date, wait date, and recurrence pattern. Tasks support dependencies so that blocking relationships can be modeled. Filtering and Reporting The tool includes a powerful filter language for querying tasks by any combination of attributes. Built-in reports like task list , task next , task calendar , and task burndown provide different views of your task data. Custom reports can be defined in the configuration file. Annotations and Context Tasks can have annotations — timestamped notes attached to a task — allowing you to record decisions, URLs, or progress updates. The context feature lets you define named filter presets (e.g., &#8220;work&#8221; or &#8220;personal&#8221;) that automatically narrow your view to relevant tasks. Hooks and Extensions Taskwarrior has a hook system that runs scripts on task events (add, modify, complete, delete). This enables integrations with time trackers, notification systems, Git, and other tools. The ecosystem includes taskwarrior-tui (a terminal UI), Timewarrior (time tracking companion), Forecastle, and numerous community plugins. Sync Protocol Taskwarrior implements a sync protocol via Taskserver (taskd) or third-party services, enabling task synchronization across multiple machines. Tasks are stored locally in a plain-text format that is easy to back up and version-control. Agent Integration For AI agents, Taskwarrior provides a JSON export/import interface ( task export and task import ) and a structured command-line interface that can be driven programmatically. Agents can create tasks, query for overdue items, manage projects, and automate task workflows. Installation Install via package managers: brew install task (macOS), apt install taskwarrior (Debian/Ubuntu), dnf install task (Fedora), or build from source. The project has over 5,600 GitHub stars and comprehensive documentation at taskwarrior.org."
+description: "Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects, due dates, recurrence, dependencies, annotations, and a sync protocol. It has an active ecosystem of tools, hooks, extensions, and TUI clients."
+verification: security_reviewed
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
-verification: "security_reviewed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -11,15 +11,31 @@ framework:
 
 # Taskwarrior Command-Line Task Management System
 
-Taskwarrior is a command-line task management system developed by Gothenburg Bit Factory. Active since 2006, it provides a feature-rich interface for managing personal and team task lists entirely from the terminal. It is written in C++, licensed under the MIT license, and available on Linux, macOS, BSD, and Windows. Core Task Management Taskwarrior supports task creation, modification, completion, deletion, and querying through a concise command syntax. Each task can have a description, project assignment, priority level, tags, due date, scheduled date, wait date, and recurrence pattern. Tasks support dependencies so that blocking relationships can be modeled. Filtering and Reporting The tool includes a powerful filter language for querying tasks by any combination of attributes. Built-in reports like task list , task next , task calendar , and task burndown provide different views of your task data. Custom reports can be defined in the configuration file. Annotations and Context Tasks can have annotations — timestamped notes attached to a task — allowing you to record decisions, URLs, or progress updates. The context feature lets you define named filter presets (e.g., &#8220;work&#8221; or &#8220;personal&#8221;) that automatically narrow your view to relevant tasks. Hooks and Extensions Taskwarrior has a hook system that runs scripts on task events (add, modify, complete, delete). This enables integrations with time trackers, notification systems, Git, and other tools. The ecosystem includes taskwarrior-tui (a terminal UI), Timewarrior (time tracking companion), Forecastle, and numerous community plugins. Sync Protocol Taskwarrior implements a sync protocol via Taskserver (taskd) or third-party services, enabling task synchronization across multiple machines. Tasks are stored locally in a plain-text format that is easy to back up and version-control. Agent Integration For AI agents, Taskwarrior provides a JSON export/import interface ( task export and task import ) and a structured command-line interface that can be driven programmatically. Agents can create tasks, query for overdue items, manage projects, and automate task workflows. Installation Install via package managers: brew install task (macOS), apt install taskwarrior (Debian/Ubuntu), dnf install task (Fedora), or build from source. The project has over 5,600 GitHub stars and comprehensive documentation at taskwarrior.org.
+Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects, due dates, recurrence, dependencies, annotations, and a sync protocol. It has an active ecosystem of tools, hooks, extensions, and TUI clients.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/taskwarrior-command-line-task-management-system
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/taskwarrior-command-line-task-management-system` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

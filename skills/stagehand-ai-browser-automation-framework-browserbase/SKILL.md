@@ -1,8 +1,8 @@
 ---
 title: "Stagehand AI Browser Automation Framework by Browserbase"
-description: "Stagehand is an open source browser automation framework from Browserbase that combines natural-language instructions with code-driven control. It is designed for teams building agentic workflows that still need production-grade determinism. Instead of choosing between brittle selectors and fully autonomous agents, Stagehand lets developers mix both approaches: use structured code when the workflow is known, and fall back to AI-assisted actions when the page is unfamiliar or changing. The project exposes primitives such as act() for single actions, agent() for multi-step navigation, and extract() for structured data capture. Under the hood, it works with browser sessions and page objects so it fits naturally into TypeScript automation stacks. The upstream quickstart centers on npx create-browser-app , and the package is distributed on npm as @browserbasehq/stagehand . Browserbase also maintains dedicated documentation at docs.stagehand.dev . For agent builders, Stagehand is useful when an automation needs to log in, click through UI flows, recover from small layout changes, and still return clean structured output. It is especially relevant for web testing, browser-driven research, back-office task automation, and extraction pipelines that cannot rely on static HTML alone. Because the source repository, docs site, npm package, MIT license, and active release activity are all public and verifiable, it clears ASE&#8217;s metadata intake threshold comfortably."
+description: "Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching."
+verification: security_reviewed
 source: "https://github.com/browserbase/stagehand"
-verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Stagehand AI Browser Automation Framework by Browserbase
 
-Stagehand is an open source browser automation framework from Browserbase that combines natural-language instructions with code-driven control. It is designed for teams building agentic workflows that still need production-grade determinism. Instead of choosing between brittle selectors and fully autonomous agents, Stagehand lets developers mix both approaches: use structured code when the workflow is known, and fall back to AI-assisted actions when the page is unfamiliar or changing. The project exposes primitives such as act() for single actions, agent() for multi-step navigation, and extract() for structured data capture. Under the hood, it works with browser sessions and page objects so it fits naturally into TypeScript automation stacks. The upstream quickstart centers on npx create-browser-app , and the package is distributed on npm as @browserbasehq/stagehand . Browserbase also maintains dedicated documentation at docs.stagehand.dev . For agent builders, Stagehand is useful when an automation needs to log in, click through UI flows, recover from small layout changes, and still return clean structured output. It is especially relevant for web testing, browser-driven research, back-office task automation, and extraction pipelines that cannot rely on static HTML alone. Because the source repository, docs site, npm package, MIT license, and active release activity are all public and verifiable, it clears ASE&#8217;s metadata intake threshold comfortably.
+Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stagehand-ai-browser-automation-framework-browserbase
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/stagehand-ai-browser-automation-framework-browserbase` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

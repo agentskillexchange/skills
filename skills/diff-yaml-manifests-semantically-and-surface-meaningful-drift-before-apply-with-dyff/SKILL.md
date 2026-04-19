@@ -1,8 +1,8 @@
 ---
 title: "Diff YAML manifests semantically and surface meaningful drift before apply with dyff"
-description: "Use dyff when an agent needs to compare YAML documents semantically, identify exactly which paths changed, and summarize meaningful drift before approving or applying config updates. Invoke this instead of plain `diff` when the real problem is structured review of YAML or JSON-like documents, not raw line-by-line text comparison. The scope boundary is tight and skill-shaped: dyff is a semantic structured-diff workflow for YAML change review and drift inspection, not a general YAML processor, generic viewer, or product listing."
+description: "Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs."
+verification: listed
 source: "https://github.com/homeport/dyff"
-verification: "listed"
 category:
   - "Code Quality &amp; Review"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Diff YAML manifests semantically and surface meaningful drift before apply with dyff
 
-Use dyff when an agent needs to compare YAML documents semantically, identify exactly which paths changed, and summarize meaningful drift before approving or applying config updates. Invoke this instead of plain `diff` when the real problem is structured review of YAML or JSON-like documents, not raw line-by-line text comparison. The scope boundary is tight and skill-shaped: dyff is a semantic structured-diff workflow for YAML change review and drift inspection, not a general YAML processor, generic viewer, or product listing.
+Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

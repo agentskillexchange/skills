@@ -1,8 +1,8 @@
 ---
 title: "MSW API Mocking Skill for Frontend and Integration Tests"
-description: "This skill teaches an agent how to use Mock Service Worker (MSW) to create realistic API mocks for browser development, component tests, and integration test suites. The agent’s job is not just “install MSW.” It identifies the network calls a feature depends on, creates focused request handlers, organizes mock data so it is easy to change, and wires the handlers into the project’s browser or test bootstrap. When a failing test depends on unstable external APIs, the agent can also replace brittle ad hoc stubs with consistent MSW handlers and explain which requests are now covered. Invoke this skill when the user wants a feature developed against an API that is incomplete, rate-limited, expensive, flaky, or hard to reproduce locally. It is also the right fit when a repository already has tests but they rely on raw fetch mocks, repeated Jest spies, or framework-specific patching that makes behavior hard to reason about. In those situations the user needs a network-behavior skill, not a generic summary of the MSW project. The scope boundary keeps this skill honest. It is not a listing for MSW as a library, and it is not a catch-all testing framework entry. The skill is specifically about defining handlers, matching routes, returning realistic mocked payloads, simulating success and failure paths, and keeping frontend or integration tests deterministic. Common integration points include Vitest, Jest, Playwright-backed app development, Storybook previews, and local feature branches that need predictable API responses."
+description: "Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests, and keep mocks faithful to real endpoints. It is a task-focused mocking skill built around MSW, not a generic product card."
+verification: security_reviewed
 source: "https://github.com/mswjs/msw"
-verification: "security_reviewed"
 category:
   - "Code Quality &amp; Review"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # MSW API Mocking Skill for Frontend and Integration Tests
 
-This skill teaches an agent how to use Mock Service Worker (MSW) to create realistic API mocks for browser development, component tests, and integration test suites. The agent’s job is not just “install MSW.” It identifies the network calls a feature depends on, creates focused request handlers, organizes mock data so it is easy to change, and wires the handlers into the project’s browser or test bootstrap. When a failing test depends on unstable external APIs, the agent can also replace brittle ad hoc stubs with consistent MSW handlers and explain which requests are now covered. Invoke this skill when the user wants a feature developed against an API that is incomplete, rate-limited, expensive, flaky, or hard to reproduce locally. It is also the right fit when a repository already has tests but they rely on raw fetch mocks, repeated Jest spies, or framework-specific patching that makes behavior hard to reason about. In those situations the user needs a network-behavior skill, not a generic summary of the MSW project. The scope boundary keeps this skill honest. It is not a listing for MSW as a library, and it is not a catch-all testing framework entry. The skill is specifically about defining handlers, matching routes, returning realistic mocked payloads, simulating success and failure paths, and keeping frontend or integration tests deterministic. Common integration points include Vitest, Jest, Playwright-backed app development, Storybook previews, and local feature branches that need predictable API responses.
+Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests, and keep mocks faithful to real endpoints. It is a task-focused mocking skill built around MSW, not a generic product card.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/msw-api-mocking-skill-frontend-integration-tests
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/msw-api-mocking-skill-frontend-integration-tests` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

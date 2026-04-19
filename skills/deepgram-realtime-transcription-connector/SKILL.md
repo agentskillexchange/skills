@@ -1,8 +1,8 @@
 ---
 title: "Deepgram Real-Time Transcription Connector"
-description: "This skill connects to Deepgram&#8217;s real-time transcription API using their WebSocket endpoint at wss://api.deepgram.com/v1/listen. It initializes a connection via the Deepgram Node SDK using createClient(apiKey) and establishes a live transcription session with client.listen.live({ model: &#8220;nova-2&#8221;, language: &#8220;en&#8221;, smart_format: true, diarize: true }). Audio is streamed in chunks using connection.send(audioBuffer) with support for raw PCM (linear16), WAV, MP3, and Opus formats. The skill handles three event types: &#8220;Results&#8221; for transcription data (both interim and final), &#8220;Metadata&#8221; for stream information, and &#8220;Error&#8221; for connection issues. Speaker diarization assigns speaker labels (Speaker 0, Speaker 1, etc.) to each word with confidence scores. The skill implements utterance end detection via the utterance_end_ms parameter and &#8220;UtteranceEnd&#8221; events for natural sentence boundary detection. Reconnection logic handles network interruptions with exponential backoff. Output formats include plain text, SRT subtitles with timestamps, and structured JSON with word-level timing. The skill also supports Deepgram&#8217;s keyword boosting via keywords=[&#8220;custom_term:2.0&#8221;] for domain-specific vocabulary."
+description: "Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/"
-verification: "security_reviewed"
 category:
   - "Media &amp; Transcription"
 framework:
@@ -11,15 +11,31 @@ framework:
 
 # Deepgram Real-Time Transcription Connector
 
-This skill connects to Deepgram&#8217;s real-time transcription API using their WebSocket endpoint at wss://api.deepgram.com/v1/listen. It initializes a connection via the Deepgram Node SDK using createClient(apiKey) and establishes a live transcription session with client.listen.live({ model: &#8220;nova-2&#8221;, language: &#8220;en&#8221;, smart_format: true, diarize: true }). Audio is streamed in chunks using connection.send(audioBuffer) with support for raw PCM (linear16), WAV, MP3, and Opus formats. The skill handles three event types: &#8220;Results&#8221; for transcription data (both interim and final), &#8220;Metadata&#8221; for stream information, and &#8220;Error&#8221; for connection issues. Speaker diarization assigns speaker labels (Speaker 0, Speaker 1, etc.) to each word with confidence scores. The skill implements utterance end detection via the utterance_end_ms parameter and &#8220;UtteranceEnd&#8221; events for natural sentence boundary detection. Reconnection logic handles network interruptions with exponential backoff. Output formats include plain text, SRT subtitles with timestamps, and structured JSON with word-level timing. The skill also supports Deepgram&#8217;s keyword boosting via keywords=[&#8220;custom_term:2.0&#8221;] for domain-specific vocabulary.
+Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/deepgram-realtime-transcription-connector
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/deepgram-realtime-transcription-connector` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

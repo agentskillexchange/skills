@@ -1,8 +1,8 @@
 ---
 title: "Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy"
-description: "rtk gives an agent a narrow shell-output compression workflow. It sits in front of commands like git status , git diff , grep , cat , and test runners, then filters and condenses the output before it reaches the model context. That makes it useful in repo-scale coding sessions where shell output, not reasoning, is what burns tokens. The boundary is clear enough to be skill-shaped. Invoke it when the task is shrinking noisy command output for an existing coding-agent workflow, not when the user wants a new coding agent, an IDE extension, or a general terminal replacement. The job-to-be-done is context-saving shell mediation for large-codebase work."
+description: "Use rtk when an agent keeps wasting context on noisy shell output from large repos and you need smaller command responses before the model sees them."
+verification: security_reviewed
 source: "https://github.com/rtk-ai/rtk"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy
 
-rtk gives an agent a narrow shell-output compression workflow. It sits in front of commands like git status , git diff , grep , cat , and test runners, then filters and condenses the output before it reaches the model context. That makes it useful in repo-scale coding sessions where shell output, not reasoning, is what burns tokens. The boundary is clear enough to be skill-shaped. Invoke it when the task is shrinking noisy command output for an existing coding-agent workflow, not when the user wants a new coding agent, an IDE extension, or a general terminal replacement. The job-to-be-done is context-saving shell mediation for large-codebase work.
+Use rtk when an agent keeps wasting context on noisy shell output from large repos and you need smaller command responses before the model sees them.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

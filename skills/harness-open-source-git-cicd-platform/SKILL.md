@@ -1,8 +1,8 @@
 ---
 title: "Harness Open Source Self-Hosted Git and CI/CD Development Platform"
-description: "Harness Open Source, originally launched as Gitness, is an open-source developer platform built by Harness that combines source code management, CI/CD pipelines, hosted development environments (Gitspaces), and artifact registries into one self-hosted solution. It represents the next generation of Drone CI, expanding from continuous integration into a full development lifecycle platform. Architecture and Deployment Harness Open Source ships as a single Docker container. Getting started requires one command: docker run -d -p 3000:3000 -p 3022:3022 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/harness:/data --name harness --restart always harness/harness . The platform is accessible at localhost:3000 immediately after launch. Data is stored in a volume for persistence. Source Code Management The built-in Git server supports repository hosting with pull requests, code review, branch protection rules, and webhooks. Automated migration tools allow importing repositories and pipelines from GitHub, GitLab, and Bitbucket with minimal effort. SSH access is available on port 3022 for Git operations. CI/CD Pipelines Pipeline execution in Harness Open Source is designed for speed, claiming 4x faster execution compared to traditional CI systems. Pipelines are defined in YAML and support Docker-based steps, parallelism, caching, and template reuse. The pipeline engine inherits Drone CI&#8217;s battle-tested architecture while adding new capabilities around orchestration and artifact management. Development Environments Gitspaces provide on-demand, cloud-based development environments that spin up pre-configured workspaces for any repository. These environments come ready with the project&#8217;s dependencies and tooling, reducing onboarding time for new contributors. Agent Integration AI agents can interact with Harness Open Source through its REST API for repository management, pipeline triggering, and artifact queries. The platform&#8217;s API-first design makes it suitable for automated workflows where agents need to create repositories, manage branches, trigger builds, and monitor pipeline status programmatically. Migration from Drone While Harness Open Source is the successor to Drone, the Drone codebase is maintained as a feature branch for teams that need standalone CI. The goal is eventual feature parity, allowing teams to transition from Drone to Harness Open Source at their own pace."
+description: "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in a single self-hosted binary."
+verification: security_reviewed
 source: "https://github.com/harness/harness"
-verification: "security_reviewed"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Harness Open Source Self-Hosted Git and CI/CD Development Platform
 
-Harness Open Source, originally launched as Gitness, is an open-source developer platform built by Harness that combines source code management, CI/CD pipelines, hosted development environments (Gitspaces), and artifact registries into one self-hosted solution. It represents the next generation of Drone CI, expanding from continuous integration into a full development lifecycle platform. Architecture and Deployment Harness Open Source ships as a single Docker container. Getting started requires one command: docker run -d -p 3000:3000 -p 3022:3022 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/harness:/data --name harness --restart always harness/harness . The platform is accessible at localhost:3000 immediately after launch. Data is stored in a volume for persistence. Source Code Management The built-in Git server supports repository hosting with pull requests, code review, branch protection rules, and webhooks. Automated migration tools allow importing repositories and pipelines from GitHub, GitLab, and Bitbucket with minimal effort. SSH access is available on port 3022 for Git operations. CI/CD Pipelines Pipeline execution in Harness Open Source is designed for speed, claiming 4x faster execution compared to traditional CI systems. Pipelines are defined in YAML and support Docker-based steps, parallelism, caching, and template reuse. The pipeline engine inherits Drone CI&#8217;s battle-tested architecture while adding new capabilities around orchestration and artifact management. Development Environments Gitspaces provide on-demand, cloud-based development environments that spin up pre-configured workspaces for any repository. These environments come ready with the project&#8217;s dependencies and tooling, reducing onboarding time for new contributors. Agent Integration AI agents can interact with Harness Open Source through its REST API for repository management, pipeline triggering, and artifact queries. The platform&#8217;s API-first design makes it suitable for automated workflows where agents need to create repositories, manage branches, trigger builds, and monitor pipeline status programmatically. Migration from Drone While Harness Open Source is the successor to Drone, the Drone codebase is maintained as a feature branch for teams that need standalone CI. The goal is eventual feature parity, allowing teams to transition from Drone to Harness Open Source at their own pace.
+Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in a single self-hosted binary.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/harness-open-source-git-cicd-platform
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/harness-open-source-git-cicd-platform` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

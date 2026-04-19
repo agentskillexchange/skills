@@ -1,8 +1,8 @@
 ---
 title: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
-description: "Use jscodeshift when the task is to apply a codemod across many JavaScript or TypeScript files, such as API migrations, naming rewrites, or framework upgrade cleanup. Invoke it instead of editing code manually or using a general coding assistant normally when you need one transform to run consistently over a large codebase with dry runs, parser control, and auditable output. The scope boundary is clear: this skill is about repeatable AST-driven codemod execution, not a generic library listing and not a broad JavaScript toolkit card."
+description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs."
+verification: listed
 source: "https://github.com/facebook/jscodeshift"
-verification: "listed"
 category:
   - "Code Quality &amp; Review"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift
 
-Use jscodeshift when the task is to apply a codemod across many JavaScript or TypeScript files, such as API migrations, naming rewrites, or framework upgrade cleanup. Invoke it instead of editing code manually or using a general coding assistant normally when you need one transform to run consistently over a large codebase with dry runs, parser control, and auditable output. The scope boundary is clear: this skill is about repeatable AST-driven codemod execution, not a generic library listing and not a broad JavaScript toolkit card.
+Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

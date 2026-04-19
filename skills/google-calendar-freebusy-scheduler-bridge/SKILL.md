@@ -1,8 +1,8 @@
 ---
 title: "Google Calendar FreeBusy Scheduler Bridge"
-description: "Google Calendar FreeBusy Scheduler Bridge gives agents a more dependable scheduling workflow than simply proposing the next open hour on a calendar. It works with the Google Calendar API’s freeBusy endpoint, the Events resource, and conference data fields to compare availability, inspect event metadata, and prepare clean scheduling suggestions. That is useful when multiple people, time zones, and meeting formats all affect whether a slot is actually workable. The skill can look at current commitments, protected time, and existing event structures before suggesting a hold or a move. It is also helpful when a workflow needs to preserve conference links, attendee lists, and event descriptions rather than treating scheduling as a bare time-range problem. Because the logic is based on Google Calendar’s own availability and event objects, it stays compatible with how the calendar is really used. Use this skill when agents need to bridge availability checks with event-aware scheduling, especially in teams where meetings are frequently rescheduled and metadata continuity matters."
+description: "Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData fields for cleaner scheduling handoffs. Great for agents that need to compare availability, hold windows, and meeting metadata before creating or moving events."
+verification: security_reviewed
 source: "https://developers.google.com/calendar/api"
-verification: "security_reviewed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -11,15 +11,31 @@ framework:
 
 # Google Calendar FreeBusy Scheduler Bridge
 
-Google Calendar FreeBusy Scheduler Bridge gives agents a more dependable scheduling workflow than simply proposing the next open hour on a calendar. It works with the Google Calendar API’s freeBusy endpoint, the Events resource, and conference data fields to compare availability, inspect event metadata, and prepare clean scheduling suggestions. That is useful when multiple people, time zones, and meeting formats all affect whether a slot is actually workable. The skill can look at current commitments, protected time, and existing event structures before suggesting a hold or a move. It is also helpful when a workflow needs to preserve conference links, attendee lists, and event descriptions rather than treating scheduling as a bare time-range problem. Because the logic is based on Google Calendar’s own availability and event objects, it stays compatible with how the calendar is really used. Use this skill when agents need to bridge availability checks with event-aware scheduling, especially in teams where meetings are frequently rescheduled and metadata continuity matters.
+Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData fields for cleaner scheduling handoffs. Great for agents that need to compare availability, hold windows, and meeting metadata before creating or moving events.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/google-calendar-freebusy-scheduler-bridge
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/google-calendar-freebusy-scheduler-bridge` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Search and rewrite code with structural GritQL patterns before broad migrations"
-description: "Tool: GritQL. This skill is for agents that need a structural query-and-rewrite workflow: express the old and new code patterns declaratively, run them over a repository, and inspect the resulting diff before shipping a large migration. When to use it: invoke this when the change is too broad for manual edits but too syntax-sensitive for grep or naive find-and-replace. It fits dependency migrations, API swaps, lint remediation, and repeated code cleanup where the operator wants a named pattern, reproducible application, and reviewable output. Scope boundary: this is not a generic code-search language listing and not just another broad CLI card. Its boundary is the structural migration workflow itself: pattern definition, batch application, and reviewable rewrites across real source code. If the task does not require structural rewrites, a simpler tool is enough."
+description: "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change, instead of relying on regex or hand edits."
+verification: security_reviewed
 source: "https://github.com/biomejs/gritql"
-verification: "listed"
 category:
   - "Code Quality &amp; Review"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Search and rewrite code with structural GritQL patterns before broad migrations
 
-Tool: GritQL. This skill is for agents that need a structural query-and-rewrite workflow: express the old and new code patterns declaratively, run them over a repository, and inspect the resulting diff before shipping a large migration. When to use it: invoke this when the change is too broad for manual edits but too syntax-sensitive for grep or naive find-and-replace. It fits dependency migrations, API swaps, lint remediation, and repeated code cleanup where the operator wants a named pattern, reproducible application, and reviewable output. Scope boundary: this is not a generic code-search language listing and not just another broad CLI card. Its boundary is the structural migration workflow itself: pattern definition, batch application, and reviewable rewrites across real source code. If the task does not require structural rewrites, a simpler tool is enough.
+Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change, instead of relying on regex or hand edits.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

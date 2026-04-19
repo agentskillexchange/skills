@@ -1,8 +1,8 @@
 ---
 title: "Playwright Multi-Tab Session Manager"
-description: "The Playwright Multi-Tab Session Manager provides advanced browser automation for agents that need to operate across multiple tabs simultaneously. Built on the Playwright BrowserContext API, it creates isolated browser contexts with independent cookie jars, localStorage, and session state. Each tab runs in its own execution context with SharedArrayBuffer-based synchronization to prevent race conditions during parallel form submissions or data extraction. The skill supports automatic tab lifecycle management including creation, focus switching, and graceful teardown. It integrates with Playwright&#8217;s network interception layer to mock API responses per-tab, enabling complex testing scenarios. Error recovery uses exponential backoff with jitter for flaky page loads. Supports Chromium, Firefox, and WebKit engines with automatic binary management via playwright install."
+description: "Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization."
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
-verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Playwright Multi-Tab Session Manager
 
-The Playwright Multi-Tab Session Manager provides advanced browser automation for agents that need to operate across multiple tabs simultaneously. Built on the Playwright BrowserContext API, it creates isolated browser contexts with independent cookie jars, localStorage, and session state. Each tab runs in its own execution context with SharedArrayBuffer-based synchronization to prevent race conditions during parallel form submissions or data extraction. The skill supports automatic tab lifecycle management including creation, focus switching, and graceful teardown. It integrates with Playwright&#8217;s network interception layer to mock API responses per-tab, enabling complex testing scenarios. Error recovery uses exponential backoff with jitter for flaky page loads. Supports Chromium, Firefox, and WebKit engines with automatic binary management via playwright install.
+Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-multi-tab-session-manager-2
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/playwright-multi-tab-session-manager-2` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

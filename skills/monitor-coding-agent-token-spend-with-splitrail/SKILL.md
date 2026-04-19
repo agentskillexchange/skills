@@ -1,8 +1,8 @@
 ---
 title: "Monitor coding-agent token spend with Splitrail"
-description: "Use Splitrail when you need a live operational view of token burn, cost, and model mix across multiple coding-agent tools during or after runs. Invoke it instead of checking each product&#8217;s native dashboard when the job is cross-tool usage monitoring and cost triage, not everyday agent use. The scope boundary is spend observability for local agent runs, not a general coding assistant or cloud platform listing."
+description: "Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow."
+verification: listed
 source: "https://github.com/Piebald-AI/splitrail"
-verification: "listed"
 category:
   - "Monitoring &amp; Alerts"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Monitor coding-agent token spend with Splitrail
 
-Use Splitrail when you need a live operational view of token burn, cost, and model mix across multiple coding-agent tools during or after runs. Invoke it instead of checking each product&#8217;s native dashboard when the job is cross-tool usage monitoring and cost triage, not everyday agent use. The scope boundary is spend observability for local agent runs, not a general coding assistant or cloud platform listing.
+Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/monitor-coding-agent-token-spend-with-splitrail
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/monitor-coding-agent-token-spend-with-splitrail` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

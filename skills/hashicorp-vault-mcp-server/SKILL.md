@@ -1,28 +1,44 @@
 ---
 title: "HashiCorp Vault MCP Server"
-description: "The Vault MCP Server is maintained by HashiCorp (IBM) and provides full-featured MCP integration for Vault&#8217;s secrets management capabilities. Best for Reading API keys and secrets during development without leaving the agent workflow Provisioning new secret paths and managing KV mounts Managing Vault policies through natural language DevOps teams integrating secrets management into AI-assisted infrastructure workflows Key capabilities Secret operations: Write, read, list, and delete secrets in KV mounts (v1 and v2) Mount management: Create new mounts, list available mounts, and delete mounts Policy management: Read and manage Vault policies Dual transport: Stdio mode for local and StreamableHTTP for remote integrations Security model Requires a valid Vault token with appropriate permissions. HTTP mode supports TLS and CORS restrictions. All actions are auditable through Vault&#8217;s standard audit log. Intended for local development and controlled environments. Install notes Clone and build: git clone https://github.com/hashicorp/vault-mcp-server.git && make build . Or run via Docker. Set VAULT_ADDR and VAULT_TOKEN environment variables. Source: github.com/hashicorp/vault-mcp-server"
+description: "The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls."
+verification: security_reviewed
 source: "https://github.com/hashicorp/vault-mcp-server"
-verification: "security_reviewed"
 category:
   - "Security &amp; Verification"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/vault-mcp-server"
-  github_stars: 43
+  github_stars: 44
 ---
 
 # HashiCorp Vault MCP Server
 
-The Vault MCP Server is maintained by HashiCorp (IBM) and provides full-featured MCP integration for Vault&#8217;s secrets management capabilities. Best for Reading API keys and secrets during development without leaving the agent workflow Provisioning new secret paths and managing KV mounts Managing Vault policies through natural language DevOps teams integrating secrets management into AI-assisted infrastructure workflows Key capabilities Secret operations: Write, read, list, and delete secrets in KV mounts (v1 and v2) Mount management: Create new mounts, list available mounts, and delete mounts Policy management: Read and manage Vault policies Dual transport: Stdio mode for local and StreamableHTTP for remote integrations Security model Requires a valid Vault token with appropriate permissions. HTTP mode supports TLS and CORS restrictions. All actions are auditable through Vault&#8217;s standard audit log. Intended for local development and controlled environments. Install notes Clone and build: git clone https://github.com/hashicorp/vault-mcp-server.git && make build . Or run via Docker. Set VAULT_ADDR and VAULT_TOKEN environment variables. Source: github.com/hashicorp/vault-mcp-server
+The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hashicorp-vault-mcp-server
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/hashicorp-vault-mcp-server` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

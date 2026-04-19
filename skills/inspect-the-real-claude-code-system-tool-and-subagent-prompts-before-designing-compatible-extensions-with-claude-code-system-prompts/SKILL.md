@@ -1,8 +1,8 @@
 ---
 title: "Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts"
-description: "Tool: claude-code-system-prompts. This skill gives an agent a focused reference job: inspect the exact extracted system prompts, builtin tool prompts, and subagent prompts that current Claude Code releases actually use. When to use it: invoke this before designing a Claude Code plugin, prompt override, compatibility layer, or research note where guessing the builtin prompt surface would be risky. Using this skill is different from using the product normally because the workflow is reference-driven: look up the relevant extracted prompt files, compare current prompt behavior, and design against the real prompt surface instead of reverse-engineering from memory. Scope boundary: this is not a generic Claude Code product listing and not a broad prompt-engineering pack. Its boundary is narrower: use the extracted Claude Code prompt corpus as a versioned compatibility reference."
+description: "Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool prompts, or subagent prompts before building a compatible plugin, workflow, or prompt customization."
+verification: security_reviewed
 source: "https://github.com/Piebald-AI/claude-code-system-prompts"
-verification: "security_reviewed"
 category:
   - "Library &amp; API Reference"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts
 
-Tool: claude-code-system-prompts. This skill gives an agent a focused reference job: inspect the exact extracted system prompts, builtin tool prompts, and subagent prompts that current Claude Code releases actually use. When to use it: invoke this before designing a Claude Code plugin, prompt override, compatibility layer, or research note where guessing the builtin prompt surface would be risky. Using this skill is different from using the product normally because the workflow is reference-driven: look up the relevant extracted prompt files, compare current prompt behavior, and design against the real prompt surface instead of reverse-engineering from memory. Scope boundary: this is not a generic Claude Code product listing and not a broad prompt-engineering pack. Its boundary is narrower: use the extracted Claude Code prompt corpus as a versioned compatibility reference.
+Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool prompts, or subagent prompts before building a compatible plugin, workflow, or prompt customization.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol"
-description: "Use Xeol when an agent needs an end-of-life inventory check over a container image, filesystem, or SBOM, not when the user is running a general vulnerability scanner. The workflow is bounded: inspect the software bill of materials or image contents, identify packages that have reached or are nearing end of support, and return an upgrade or exception list before release. That scope boundary, EOL exposure detection rather than generic CVE scanning, keeps this distinct and skill-shaped."
+description: "Find packages that are out of support even when they do not show up as a classic CVE finding yet."
+verification: listed
 source: "https://github.com/xeol-io/xeol"
-verification: "listed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol
 
-Use Xeol when an agent needs an end-of-life inventory check over a container image, filesystem, or SBOM, not when the user is running a general vulnerability scanner. The workflow is bounded: inspect the software bill of materials or image contents, identify packages that have reached or are nearing end of support, and return an upgrade or exception list before release. That scope boundary, EOL exposure detection rather than generic CVE scanning, keeps this distinct and skill-shaped.
+Find packages that are out of support even when they do not show up as a classic CVE finding yet.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

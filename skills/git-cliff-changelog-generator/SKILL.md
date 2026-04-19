@@ -1,8 +1,8 @@
 ---
 title: "git-cliff Customizable Changelog Generator for Git Repositories"
-description: "Overview git-cliff is a highly customizable changelog generator that reads your Git commit history and produces structured changelogs following the Conventional Commits specification. Built in Rust for speed and reliability, git-cliff parses commits using conventional commit patterns or user-defined regex parsers, groups them by type (features, fixes, breaking changes, etc.), and renders the output through a flexible Tera template engine. How It Works At its core, git-cliff operates in three stages: parsing, grouping, and rendering. The parser scans Git history and matches each commit against configurable patterns defined in a cliff.toml file. Commits are then grouped into release contexts based on tags and version boundaries. Finally, the template engine renders these contexts into your desired changelog format—whether that is Markdown, Keep a Changelog, or a completely custom layout. Key Features Conventional Commits Support: Automatically categorizes commits by type (feat, fix, docs, chore, etc.) following the conventional commit standard. Custom Parsers: Define regex-powered commit parsers for projects that do not follow conventional commit conventions. Template Engine: Uses Tera templates for full control over changelog output format, including variables for commit metadata, authors, dates, and links. Monorepo Support: Generate changelogs for specific packages within a monorepo by filtering commits to relevant paths. GitHub/GitLab Integration: Fetches additional metadata like PR numbers, contributor usernames, and release URLs from remote repositories. Bump Detection: Automatically determines the next semantic version based on commit types since the last tag. Integration Points git-cliff integrates into CI/CD pipelines via its official GitHub Action, Docker images, and pre-built binaries for Linux, macOS, and Windows. It can be installed via cargo, Homebrew, Scoop, pacman, and other package managers. The tool also provides a Rust library (git-cliff-core) for programmatic usage in custom tooling. Agent Integration Agents can use git-cliff as a CLI tool to automate release workflows: generating changelogs before publishing, computing the next version bump, or validating that recent commits follow project conventions. The TOML configuration and template system make it straightforward for agents to customize output without modifying source code."
+description: "git-cliff generates changelog files from Git history using conventional commits and regex-powered custom parsers. Written in Rust, it provides highly customizable templates via a TOML configuration file, with integrations for GitHub Actions, Docker, and CI/CD pipelines."
+verification: security_reviewed
 source: "https://github.com/orhun/git-cliff"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # git-cliff Customizable Changelog Generator for Git Repositories
 
-Overview git-cliff is a highly customizable changelog generator that reads your Git commit history and produces structured changelogs following the Conventional Commits specification. Built in Rust for speed and reliability, git-cliff parses commits using conventional commit patterns or user-defined regex parsers, groups them by type (features, fixes, breaking changes, etc.), and renders the output through a flexible Tera template engine. How It Works At its core, git-cliff operates in three stages: parsing, grouping, and rendering. The parser scans Git history and matches each commit against configurable patterns defined in a cliff.toml file. Commits are then grouped into release contexts based on tags and version boundaries. Finally, the template engine renders these contexts into your desired changelog format—whether that is Markdown, Keep a Changelog, or a completely custom layout. Key Features Conventional Commits Support: Automatically categorizes commits by type (feat, fix, docs, chore, etc.) following the conventional commit standard. Custom Parsers: Define regex-powered commit parsers for projects that do not follow conventional commit conventions. Template Engine: Uses Tera templates for full control over changelog output format, including variables for commit metadata, authors, dates, and links. Monorepo Support: Generate changelogs for specific packages within a monorepo by filtering commits to relevant paths. GitHub/GitLab Integration: Fetches additional metadata like PR numbers, contributor usernames, and release URLs from remote repositories. Bump Detection: Automatically determines the next semantic version based on commit types since the last tag. Integration Points git-cliff integrates into CI/CD pipelines via its official GitHub Action, Docker images, and pre-built binaries for Linux, macOS, and Windows. It can be installed via cargo, Homebrew, Scoop, pacman, and other package managers. The tool also provides a Rust library (git-cliff-core) for programmatic usage in custom tooling. Agent Integration Agents can use git-cliff as a CLI tool to automate release workflows: generating changelogs before publishing, computing the next version bump, or validating that recent commits follow project conventions. The TOML configuration and template system make it straightforward for agents to customize output without modifying source code.
+git-cliff generates changelog files from Git history using conventional commits and regex-powered custom parsers. Written in Rust, it provides highly customizable templates via a TOML configuration file, with integrations for GitHub Actions, Docker, and CI/CD pipelines.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/git-cliff-changelog-generator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/git-cliff-changelog-generator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

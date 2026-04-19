@@ -1,8 +1,8 @@
 ---
 title: "Appsmith Open Source Internal Tools and Admin Panel Builder"
-description: "Appsmith is a low-code, open-source application platform for building internal tools such as dashboards, approval consoles, CRUD apps, customer support views, and admin panels. The upstream project integrates with databases and APIs, then layers a browser-based builder on top so teams can assemble interfaces quickly without hand-coding every screen. For automation-heavy environments, that makes Appsmith useful as the operational surface where humans review, correct, or trigger actions produced by scripts and agents. As an ASE listing, the job-to-be-done is concrete: connect business systems, expose data to operators, and ship task-specific tools faster than building a full custom frontend from scratch. The official installation docs recommend Docker-based setup and show a compose file that runs the Appsmith container with persistent storage. The main repository, release stream, and documentation indicate active maintenance, while the project’s GitHub adoption demonstrates broad real-world use. Appsmith belongs in the catalog because it is a real, maintained upstream platform with a clear integration story for APIs, databases, dashboards, and internal workflow automation. It is not just a concept page or small demo repo; it is a mature developer tool with source, docs, releases, and install guidance."
+description: "Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases and APIs. It is well suited to operational workflows where agents or developers need a fast way to stand up interfaces for support, ops, analytics, or back-office tasks."
+verification: security_reviewed
 source: "https://github.com/appsmithorg/appsmith"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Appsmith Open Source Internal Tools and Admin Panel Builder
 
-Appsmith is a low-code, open-source application platform for building internal tools such as dashboards, approval consoles, CRUD apps, customer support views, and admin panels. The upstream project integrates with databases and APIs, then layers a browser-based builder on top so teams can assemble interfaces quickly without hand-coding every screen. For automation-heavy environments, that makes Appsmith useful as the operational surface where humans review, correct, or trigger actions produced by scripts and agents. As an ASE listing, the job-to-be-done is concrete: connect business systems, expose data to operators, and ship task-specific tools faster than building a full custom frontend from scratch. The official installation docs recommend Docker-based setup and show a compose file that runs the Appsmith container with persistent storage. The main repository, release stream, and documentation indicate active maintenance, while the project’s GitHub adoption demonstrates broad real-world use. Appsmith belongs in the catalog because it is a real, maintained upstream platform with a clear integration story for APIs, databases, dashboards, and internal workflow automation. It is not just a concept page or small demo repo; it is a mature developer tool with source, docs, releases, and install guidance.
+Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases and APIs. It is well suited to operational workflows where agents or developers need a fast way to stand up interfaces for support, ops, analytics, or back-office tasks.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/appsmith-open-source-internal-tools-admin-panel-builder
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/appsmith-open-source-internal-tools-admin-panel-builder` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

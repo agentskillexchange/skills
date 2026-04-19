@@ -1,8 +1,8 @@
 ---
 title: "procs Modern Process Viewer CLI"
-description: "procs is a replacement for the ps command written in Rust by Daisuke Tanaka (dalance). With nearly 6,000 GitHub stars and published on crates.io, it reimagines process listing with colored output, automatic terminal background detection, and information columns that ps does not provide natively. The tool runs on Linux, macOS, Windows, and FreeBSD, making it a cross-platform process inspection utility. The key advantage of procs over traditional ps is its default output format. Process lists are automatically colorized with human-readable formatting. The multi-column keyword search lets you type procs nginx to instantly filter processes by matching against both the USER and Command columns simultaneously. This is substantially more ergonomic than piping ps output through grep and trying to match column-aligned text. procs provides several information columns that standard ps lacks. It can display the TCP and UDP ports each process is listening on, read and write throughput per process, Docker container names associated with each process, and detailed memory breakings including USS, PSS, and RSS. The tool also supports a tree view mode for visualizing parent-child process relationships and a watch mode that continuously refreshes the display like top. Configuration is done via a TOML file that lets you define custom column sets, color schemes, and display preferences. For AI agents performing system diagnostics, container debugging, or resource monitoring, procs provides richer default output than ps without requiring complex flag combinations. The --sortd and --sorta flags allow sorting by any column in descending or ascending order. Installation is available via Homebrew, cargo, snap, pacman, dnf, scoop, and winget. The built-in pager support and configurable column widths make it suitable for both interactive use and automated process auditing workflows."
+description: "A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names, and tree views."
+verification: security_reviewed
 source: "https://github.com/dalance/procs"
-verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # procs Modern Process Viewer CLI
 
-procs is a replacement for the ps command written in Rust by Daisuke Tanaka (dalance). With nearly 6,000 GitHub stars and published on crates.io, it reimagines process listing with colored output, automatic terminal background detection, and information columns that ps does not provide natively. The tool runs on Linux, macOS, Windows, and FreeBSD, making it a cross-platform process inspection utility. The key advantage of procs over traditional ps is its default output format. Process lists are automatically colorized with human-readable formatting. The multi-column keyword search lets you type procs nginx to instantly filter processes by matching against both the USER and Command columns simultaneously. This is substantially more ergonomic than piping ps output through grep and trying to match column-aligned text. procs provides several information columns that standard ps lacks. It can display the TCP and UDP ports each process is listening on, read and write throughput per process, Docker container names associated with each process, and detailed memory breakings including USS, PSS, and RSS. The tool also supports a tree view mode for visualizing parent-child process relationships and a watch mode that continuously refreshes the display like top. Configuration is done via a TOML file that lets you define custom column sets, color schemes, and display preferences. For AI agents performing system diagnostics, container debugging, or resource monitoring, procs provides richer default output than ps without requiring complex flag combinations. The --sortd and --sorta flags allow sorting by any column in descending or ascending order. Installation is available via Homebrew, cargo, snap, pacman, dnf, scoop, and winget. The built-in pager support and configurable column widths make it suitable for both interactive use and automated process auditing workflows.
+A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names, and tree views.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/procs-modern-process-viewer-cli
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/procs-modern-process-viewer-cli` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

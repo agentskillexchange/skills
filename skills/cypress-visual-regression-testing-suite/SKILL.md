@@ -1,8 +1,8 @@
 ---
 title: "Cypress Visual Regression Testing Suite"
-description: "The Cypress Visual Regression Testing Suite enables automated visual comparison testing for web applications using the cypress-image-snapshot plugin built on jest-image-snapshot. It captures full-page and element-level screenshots during Cypress test runs and compares them against stored baseline images. Image comparison uses the pixelmatch algorithm with configurable threshold sensitivity, anti-aliasing detection, and alpha channel handling. Failed comparisons generate three-panel diff images showing the baseline, actual screenshot, and pixel-level difference map with highlighted regions. The skill supports responsive testing across multiple viewport configurations, dynamic content masking (clipping regions, element hiding via CSS injection), and animation stabilization through Cypress clock control and network idle detection. Baseline management includes automatic update workflows, branch-specific baseline directories, and cleanup of orphaned snapshots. CI integration provides GitHub Actions and GitLab CI configurations with artifact upload for diff images, Slack notifications for visual regressions via incoming webhooks, and dashboard reporting through cypress-dashboard-api. Parallel execution support uses Cypress sharding with Sorry-cypress for self-hosted orchestration."
+description: "Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares screenshots against baselines using pixelmatch algorithm with configurable diff thresholds."
+verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
-verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -16,15 +16,31 @@ tool_ecosystem:
 
 # Cypress Visual Regression Testing Suite
 
-The Cypress Visual Regression Testing Suite enables automated visual comparison testing for web applications using the cypress-image-snapshot plugin built on jest-image-snapshot. It captures full-page and element-level screenshots during Cypress test runs and compares them against stored baseline images. Image comparison uses the pixelmatch algorithm with configurable threshold sensitivity, anti-aliasing detection, and alpha channel handling. Failed comparisons generate three-panel diff images showing the baseline, actual screenshot, and pixel-level difference map with highlighted regions. The skill supports responsive testing across multiple viewport configurations, dynamic content masking (clipping regions, element hiding via CSS injection), and animation stabilization through Cypress clock control and network idle detection. Baseline management includes automatic update workflows, branch-specific baseline directories, and cleanup of orphaned snapshots. CI integration provides GitHub Actions and GitLab CI configurations with artifact upload for diff images, Slack notifications for visual regressions via incoming webhooks, and dashboard reporting through cypress-dashboard-api. Parallel execution support uses Cypress sharding with Sorry-cypress for self-hosted orchestration.
+Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares screenshots against baselines using pixelmatch algorithm with configurable diff thresholds.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cypress-visual-regression-testing-suite
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/cypress-visual-regression-testing-suite` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

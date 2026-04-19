@@ -1,8 +1,8 @@
 ---
 title: "Extract structured data and attachments from raw email with MailParser"
-description: "Tool used: MailParser from the Nodemailer project ( nodemailer/mailparser ). This skill gives an agent a clear job: take a raw email message, parse it into structured fields, and hand the result to downstream automation. That means extracting sender and recipient metadata, subject, timestamps, plain text, HTML bodies, inline references, and attachments in a form another workflow can trust. The agent behavior is practical: normalize messy inbound email into data that can be indexed, summarized, classified, stored, or routed. Invoke this skill when the input is an actual raw message source such as an .eml file, a webhook payload containing MIME content, a forwarded support message, or a mailbox export that needs machine processing. This is the moment when “just open the email app” stops being enough. A user uses the product normally to read or send mail. An agent uses this skill when the job is to convert transport-level email data into structured artifacts for another system. The scope boundary is what keeps this entry out of generic SDK territory. MailParser does not send email, manage campaigns, sync inboxes, or replace an email provider. It parses raw messages. That bounded behavior makes it a real skill-shaped building block for ticket ingestion, attachment extraction, compliance archiving, lead intake, and mailbox-to-database pipelines. Integration points include SMTP capture tools, inbound email webhooks, help desk ingestion flows, storage systems, and LLM summarization or classification steps that depend on clean message structure first."
+description: "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This is for email ingestion and handoff workflows, not for acting as a mailbox client or delivery platform."
+verification: security_reviewed
 source: "https://github.com/nodemailer/mailparser"
-verification: "security_reviewed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Extract structured data and attachments from raw email with MailParser
 
-Tool used: MailParser from the Nodemailer project ( nodemailer/mailparser ). This skill gives an agent a clear job: take a raw email message, parse it into structured fields, and hand the result to downstream automation. That means extracting sender and recipient metadata, subject, timestamps, plain text, HTML bodies, inline references, and attachments in a form another workflow can trust. The agent behavior is practical: normalize messy inbound email into data that can be indexed, summarized, classified, stored, or routed. Invoke this skill when the input is an actual raw message source such as an .eml file, a webhook payload containing MIME content, a forwarded support message, or a mailbox export that needs machine processing. This is the moment when “just open the email app” stops being enough. A user uses the product normally to read or send mail. An agent uses this skill when the job is to convert transport-level email data into structured artifacts for another system. The scope boundary is what keeps this entry out of generic SDK territory. MailParser does not send email, manage campaigns, sync inboxes, or replace an email provider. It parses raw messages. That bounded behavior makes it a real skill-shaped building block for ticket ingestion, attachment extraction, compliance archiving, lead intake, and mailbox-to-database pipelines. Integration points include SMTP capture tools, inbound email webhooks, help desk ingestion flows, storage systems, and LLM summarization or classification steps that depend on clean message structure first.
+Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This is for email ingestion and handoff workflows, not for acting as a mailbox client or delivery platform.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-structured-data-and-attachments-from-raw-email-mailparser
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/extract-structured-data-and-attachments-from-raw-email-mailparser` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

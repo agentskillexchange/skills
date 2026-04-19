@@ -1,8 +1,8 @@
 ---
 title: "Plan Programmatic SEO Pages at Scale"
-description: "Use this when the job is planning many SEO landing pages from templates and datasets, not when you just need a normal content brief or page edit. The agent evaluates search patterns, template strategy, data defensibility, page uniqueness, and scale risks before rollout. The boundary is programmatic page planning and quality control, not a generic SEO product or CMS listing."
+description: "Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content."
+verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo"
-verification: "listed"
 category:
   - "Content Writing &amp; SEO"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Plan Programmatic SEO Pages at Scale
 
-Use this when the job is planning many SEO landing pages from templates and datasets, not when you just need a normal content brief or page edit. The agent evaluates search patterns, template strategy, data defensibility, page uniqueness, and scale risks before rollout. The boundary is programmatic page planning and quality control, not a generic SEO product or CMS listing.
+Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/plan-programmatic-seo-pages-at-scale
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/plan-programmatic-seo-pages-at-scale` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

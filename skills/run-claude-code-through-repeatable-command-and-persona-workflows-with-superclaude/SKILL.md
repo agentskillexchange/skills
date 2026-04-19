@@ -1,8 +1,8 @@
 ---
 title: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
-description: "Use SuperClaude when a Claude Code operator wants named slash-command workflows and persona-driven execution modes instead of coaching the agent from scratch on every task. Invoke it for repeatable Claude Code steering such as structured research, implementation, testing, and project-management flows. The scope boundary is what keeps this publishable: this is about installing and using a command layer inside Claude Code for repeatable operator workflows, not listing Claude Code itself and not publishing a generic product card for an AI framework."
+description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
+verification: listed
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
-verification: "listed"
 category:
   - "Templates &amp; Workflows"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Run Claude Code through repeatable command and persona workflows with SuperClaude
 
-Use SuperClaude when a Claude Code operator wants named slash-command workflows and persona-driven execution modes instead of coaching the agent from scratch on every task. Invoke it for repeatable Claude Code steering such as structured research, implementation, testing, and project-management flows. The scope boundary is what keeps this publishable: this is about installing and using a command layer inside Claude Code for repeatable operator workflows, not listing Claude Code itself and not publishing a generic product card for an AI framework.
+Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

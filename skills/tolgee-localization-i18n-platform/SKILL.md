@@ -1,8 +1,8 @@
 ---
 title: "Tolgee Open Source Localization and i18n Platform"
-description: "Tolgee is a developer-friendly, open-source localization platform that replaces the tedious process of managing .json, .po, and other translation files with an integrated, visual workflow. It supports in-context translation editing directly within your running application, machine translation via DeepL, Google Translate, and AWS Translate, and provides SDKs for all major JavaScript frameworks. How It Works Tolgee consists of a self-hostable backend platform (Java/Kotlin) and frontend SDKs that embed into your application. The SDKs intercept translation keys at runtime and enable in-context editing — developers and translators can ALT+click on any text element in the app to edit translations directly, with automatic screenshot capture for context. The platform exposes a REST API for programmatic access and a CLI tool (tolgee-cli) for syncing translations between your codebase and the Tolgee server. Key Features In-context translation: ALT+click any string in your app to edit translations directly. Works in development and production via the Tolgee Tools Chrome extension. Machine translation: Integrated DeepL, Google Translate, and AWS Translate services for instant translation suggestions. Translation memory: Automatically suggests translations based on previously used strings in your project, showing similarity percentages. Auto-translation: New keys are automatically translated using translation memory or configured machine translation services. Framework SDKs: Official SDKs for React, Vue, Angular, Svelte, Next.js, Gatsby, and vanilla JavaScript with i18next integration. MCP server: Exposes a Model Context Protocol server enabling AI coding assistants to search keys, create/update translations, manage languages, and trigger machine translation directly from the editor. Activity log: Track who modified, reviewed, or commented on every translation phrase. Integration Points Self-host with Docker ( docker run -p 8085:8085 tolgee/tolgee ) or use Tolgee Cloud. Install framework SDKs via npm (e.g., npm install @tolgee/react ). Use the Tolgee CLI ( npm install -g @tolgee/cli ) to push/pull translations between your repo and the platform. The REST API supports webhooks for CI/CD integration. Agent Integration AI agents can leverage Tolgee&#8217;s MCP server to manage translations without leaving the coding environment. The MCP interface supports searching translation keys, creating new keys with translations, updating existing translations across languages, managing project languages, and triggering batch machine translation — making it possible for coding agents to handle internationalization tasks end-to-end."
+description: "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants."
+verification: security_reviewed
 source: "https://github.com/tolgee/tolgee-platform"
-verification: "security_reviewed"
 category:
   - "Integrations &amp; Connectors"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Tolgee Open Source Localization and i18n Platform
 
-Tolgee is a developer-friendly, open-source localization platform that replaces the tedious process of managing .json, .po, and other translation files with an integrated, visual workflow. It supports in-context translation editing directly within your running application, machine translation via DeepL, Google Translate, and AWS Translate, and provides SDKs for all major JavaScript frameworks. How It Works Tolgee consists of a self-hostable backend platform (Java/Kotlin) and frontend SDKs that embed into your application. The SDKs intercept translation keys at runtime and enable in-context editing — developers and translators can ALT+click on any text element in the app to edit translations directly, with automatic screenshot capture for context. The platform exposes a REST API for programmatic access and a CLI tool (tolgee-cli) for syncing translations between your codebase and the Tolgee server. Key Features In-context translation: ALT+click any string in your app to edit translations directly. Works in development and production via the Tolgee Tools Chrome extension. Machine translation: Integrated DeepL, Google Translate, and AWS Translate services for instant translation suggestions. Translation memory: Automatically suggests translations based on previously used strings in your project, showing similarity percentages. Auto-translation: New keys are automatically translated using translation memory or configured machine translation services. Framework SDKs: Official SDKs for React, Vue, Angular, Svelte, Next.js, Gatsby, and vanilla JavaScript with i18next integration. MCP server: Exposes a Model Context Protocol server enabling AI coding assistants to search keys, create/update translations, manage languages, and trigger machine translation directly from the editor. Activity log: Track who modified, reviewed, or commented on every translation phrase. Integration Points Self-host with Docker ( docker run -p 8085:8085 tolgee/tolgee ) or use Tolgee Cloud. Install framework SDKs via npm (e.g., npm install @tolgee/react ). Use the Tolgee CLI ( npm install -g @tolgee/cli ) to push/pull translations between your repo and the platform. The REST API supports webhooks for CI/CD integration. Agent Integration AI agents can leverage Tolgee&#8217;s MCP server to manage translations without leaving the coding environment. The MCP interface supports searching translation keys, creating new keys with translations, updating existing translations across languages, managing project languages, and triggering batch machine translation — making it possible for coding agents to handle internationalization tasks end-to-end.
+Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/tolgee-localization-i18n-platform
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/tolgee-localization-i18n-platform` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

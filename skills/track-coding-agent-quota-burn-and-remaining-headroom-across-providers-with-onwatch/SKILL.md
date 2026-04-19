@@ -1,8 +1,8 @@
 ---
 title: "Track coding-agent quota burn and remaining headroom across providers with onWatch"
-description: "Use onWatch when an operator needs a single preflight and in-run view of quota burn across coding-agent providers, not when they are simply using one provider dashboard normally. The invoke moment is concrete: before or during a long coding-agent run, poll provider usage endpoints, store history, surface remaining headroom, and alert before throttling or overage hits. That scope boundary, cross-provider quota and usage monitoring for coding-agent operations, makes this publishable as a skill instead of a generic LLM product or dashboard listing."
+description: "Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits."
+verification: listed
 source: "https://github.com/onllm-dev/onWatch"
-verification: "listed"
 category:
   - "Monitoring &amp; Alerts"
 framework:
@@ -14,15 +14,31 @@ tool_ecosystem:
 
 # Track coding-agent quota burn and remaining headroom across providers with onWatch
 
-Use onWatch when an operator needs a single preflight and in-run view of quota burn across coding-agent providers, not when they are simply using one provider dashboard normally. The invoke moment is concrete: before or during a long coding-agent run, poll provider usage endpoints, store history, surface remaining headroom, and alert before throttling or overage hits. That scope boundary, cross-provider quota and usage monitoring for coding-agent operations, makes this publishable as a skill instead of a generic LLM product or dashboard listing.
+Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits.
 
 ## Installation
 
-- From OpenClaw: Browse Agent Skill Exchange and install with one click.
-- From source: Clone the upstream repository linked below.
-- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
-- Manual setup: Follow the project documentation for local configuration and secrets.
-- Containerized: Use Docker or devcontainer support if the project ships it.
+### Option 1, Agent Skill Exchange
+
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
