@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C224-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C241-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C994-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C010-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,224 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,241 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -67,21 +67,21 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 279 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 182 | Vulnerability scanning, auth setup, compliance |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 281 | CLI tools, scaffolders, dev environment setup |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 187 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 181 | Pipeline configs, deployment automation, build tooling |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 161 | Linting, code review, test generators, coverage |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 156 | ETL pipelines, parsing, format conversion |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 146 | Incident response, troubleshooting, system diagnostics |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 162 | Linting, code review, test generators, coverage |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 157 | ETL pipelines, parsing, format conversion |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 148 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 123 | Metrics, alerting rules, observability |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 119 | Scaffolders, boilerplate generators, workflow templates |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 118 | Email automation, calendar management, task coordination |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 116 | Scaffolders, boilerplate generators, workflow templates |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 114 | SDK docs, API parsers, symbol resolvers |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 102 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 103 | Third-party API bridges, webhooks, service connectors |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 101 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 97 | Web scraping, UI testing, headless browser control |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 92 | Audio/video processing, speech-to-text |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 94 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 86 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 75 | SEO content, blog automation, editorial workflows |
 
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,224 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,994 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,241 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,010 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

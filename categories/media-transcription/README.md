@@ -7,6 +7,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars |
 |---|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 98k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 97.8k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 97.8k |
@@ -14,7 +15,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⭐ 97.8k |
 | [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 97.8k |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.4k |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 97.2k |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
 
 ---
@@ -25,6 +25,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 |---|---:|
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 636k/wk |
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | ⬇ 13.2k/wk |
+| [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](../../skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/) | ⬇ 29.9k/wk |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
 
 ---
@@ -34,6 +35,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 98k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | 97.8k | — |
@@ -41,15 +43,14 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | 97.8k | — |
 | [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | 97.8k | — |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 97.2k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | 73.4k | — |
+| [Video Frames Extractor](../../skills/video-frames-extractor/) | 59.1k | — |
 | [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | 59k | — |
 | [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | 59k | — |
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | 59k | — |
 | [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | 59k | — |
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | 59k | — |
-| [Video Frames Extractor](../../skills/video-frames-extractor/) | 58.6k | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.3k | — |
@@ -80,6 +81,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | 9.6k | — |
 | [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | 8.6k | — |
 | [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | 8.3k | — |
+| [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](../../skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/) | 8.2k | 29.9k/wk |
 | [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | 7.7k | — |
 | [ffsubsync Subtitle Synchronization Tool](../../skills/ffsubsync-subtitle-synchronization-tool/) | 7.7k | — |
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](../../skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | 7.4k | — |
@@ -98,6 +100,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | 1.5k | — |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1.1k | 3.2k/wk |
+| [Capture polished terminal screenshots for docs and changelogs with termshot](../../skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot/) | 751 | — |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](../../skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | 487 | — |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | — |

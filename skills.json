@@ -1,8 +1,266 @@
 {
   "version": "2.0",
-  "total": 2224,
+  "total": 2241,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat",
+      "name": "Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat",
+      "description": "Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2057
+      }
+    },
+    {
+      "slug": "find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent",
+      "name": "Find deprecated Kubernetes APIs before cluster upgrades with kubent",
+      "description": "Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3658
+      }
+    },
+    {
+      "slug": "inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix",
+      "name": "Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix",
+      "description": "Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2771
+      }
+    },
+    {
+      "slug": "run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest",
+      "name": "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest",
+      "description": "Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3729
+      }
+    },
+    {
+      "slug": "sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery",
+      "name": "Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery",
+      "description": "Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6375
+      }
+    },
+    {
+      "slug": "seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal",
+      "name": "Seal Kubernetes Secrets into Git-safe manifests with kubeseal",
+      "description": "Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9045
+      }
+    },
+    {
+      "slug": "regenerate-repository-config-from-a-single-project-definition-with-projen",
+      "name": "Regenerate repository config from a single project definition with projen",
+      "description": "Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2918,
+        "npm_weekly_downloads": 890807
+      }
+    },
+    {
+      "slug": "encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities",
+      "name": "Encrypt and decrypt age secrets with hardware-backed YubiKey identities",
+      "description": "Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 881
+      }
+    },
+    {
+      "slug": "assemble-minimal-oci-images-from-declarative-package-configs-with-apko",
+      "name": "Assemble minimal OCI images from declarative package configs with apko",
+      "description": "Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1590
+      }
+    },
+    {
+      "slug": "clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg",
+      "name": "Clone and refresh whole GitHub orgs for audit or migration with ghorg",
+      "description": "Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2016
+      }
+    },
+    {
+      "slug": "build-test-and-package-postgresql-extensions-in-rust-with-pgrx",
+      "name": "Build, test, and package PostgreSQL extensions in Rust with pgrx",
+      "description": "Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs, and packaging across PostgreSQL versions.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4458
+      }
+    },
+    {
+      "slug": "push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras",
+      "name": "Push, pull, and attach non-container OCI artifacts in registries with ORAS",
+      "description": "Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without wrapping them as conventional images.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2213
+      }
+    },
+    {
+      "slug": "capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot",
+      "name": "Capture polished terminal screenshots for docs and changelogs with termshot",
+      "description": "Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 751
+      }
+    },
+    {
+      "slug": "rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive",
+      "name": "Rehearse and run scripted terminal demos with realistic playback using doitlive",
+      "description": "Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3561,
+        "npm_weekly_downloads": 236
+      }
+    },
+    {
+      "slug": "present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm",
+      "name": "Present version-controlled markdown slide decks as terminal-native talks with Presenterm",
+      "description": "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8246,
+        "npm_weekly_downloads": 29896
+      }
+    },
+    {
+      "slug": "boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose",
+      "name": "Boot and supervise local multi-service process stacks from one declarative file with process-compose",
+      "description": "Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc shell loops.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2303
+      }
+    },
+    {
+      "slug": "collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac",
+      "name": "Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC",
+      "description": "Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1306
+      }
+    },
     {
       "slug": "store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats",
       "name": "Store selective long-term agent memories with Mem0 instead of replaying whole chats",
@@ -13,7 +271,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 53457,
         "npm_weekly_downloads": 2535676
@@ -29,7 +287,7 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 159
       }
@@ -44,7 +302,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 4482
       }
@@ -59,7 +317,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 25
       }
@@ -74,7 +332,7 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 1933
       }
@@ -89,7 +347,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 7995
       }
@@ -104,7 +362,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 979
       }
@@ -119,7 +377,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 23
       }
@@ -134,7 +392,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 68
       }
@@ -149,7 +407,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 33
       }
@@ -164,7 +422,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 894
       }
@@ -299,7 +557,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 662
       }
@@ -314,7 +572,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 1345
       }
@@ -329,7 +587,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 8001
       }
@@ -344,7 +602,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 4482
       }
@@ -629,7 +887,7 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 8,
         "npm_weekly_downloads": 295
@@ -33677,7 +33935,7 @@
       "signals": {
         "tool": "netlify",
         "github_stars": 1843,
-        "npm_weekly_downloads": 266782
+        "npm_weekly_downloads": 266807
       }
     },
     {
@@ -33756,7 +34014,7 @@
       "signals": {
         "tool": "notion",
         "github_stars": 5582,
-        "npm_weekly_downloads": 1200407,
+        "npm_weekly_downloads": 1174641,
         "license": "MIT"
       }
     },
@@ -33920,7 +34178,7 @@
       "signals": {
         "tool": "newman",
         "github_stars": 7205,
-        "npm_weekly_downloads": 798541,
+        "npm_weekly_downloads": 804211,
         "license": "Apache-2.0"
       }
     },
@@ -33938,7 +34196,7 @@
       "signals": {
         "tool": "graphql",
         "github_stars": 20323,
-        "npm_weekly_downloads": 34520625,
+        "npm_weekly_downloads": 34523393,
         "license": "MIT"
       }
     },
@@ -33956,7 +34214,7 @@
       "signals": {
         "tool": "swagger",
         "github_stars": 28756,
-        "npm_weekly_downloads": 155648,
+        "npm_weekly_downloads": 156973,
         "license": "Apache-2.0"
       }
     },
@@ -33974,7 +34232,7 @@
       "signals": {
         "tool": "kafka",
         "github_stars": 3992,
-        "npm_weekly_downloads": 2567288
+        "npm_weekly_downloads": 2571495
       }
     },
     {
@@ -34139,7 +34397,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "llamaindex",
-        "github_stars": 48665,
+        "github_stars": 48679,
         "license": "MIT"
       }
     },
@@ -34156,8 +34414,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "langchain",
-        "github_stars": 17516,
-        "npm_weekly_downloads": 2162114,
+        "github_stars": 17519,
+        "npm_weekly_downloads": 2169577,
         "license": "MIT"
       }
     },
@@ -34174,8 +34432,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openai",
-        "github_stars": 10811,
-        "npm_weekly_downloads": 18030081,
+        "github_stars": 10815,
+        "npm_weekly_downloads": 17983504,
         "license": "Apache-2.0"
       }
     },
@@ -34207,8 +34465,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4387,
-        "npm_weekly_downloads": 9406532,
+        "github_stars": 4388,
+        "npm_weekly_downloads": 9436302,
         "license": "MIT"
       }
     },
@@ -34226,7 +34484,7 @@
       "signals": {
         "tool": "datadog-api-client-typescript",
         "github_stars": 103,
-        "npm_weekly_downloads": 2057855,
+        "npm_weekly_downloads": 2054245,
         "license": "Apache-2.0"
       }
     },
@@ -34258,7 +34516,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sonarqube",
-        "github_stars": 10449,
+        "github_stars": 10451,
         "license": "LGPL-3.0"
       }
     },
@@ -34276,7 +34534,7 @@
       "signals": {
         "tool": "eslint",
         "github_stars": 27194,
-        "npm_weekly_downloads": 126113686,
+        "npm_weekly_downloads": 126005145,
         "license": "MIT"
       }
     },
@@ -34310,7 +34568,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "aws",
-        "github_stars": 3606,
+        "github_stars": 3607,
         "license": "Apache-2.0"
       }
     },
@@ -34327,7 +34585,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "aws",
-        "github_stars": 3606,
+        "github_stars": 3607,
         "license": "Apache-2.0"
       }
     },
@@ -34362,7 +34620,7 @@
       "signals": {
         "tool": "twilio",
         "github_stars": 1530,
-        "npm_weekly_downloads": 3718610,
+        "npm_weekly_downloads": 3723513,
         "license": "MIT"
       }
     },
@@ -34379,8 +34637,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4387,
-        "npm_weekly_downloads": 9406532,
+        "github_stars": 4388,
+        "npm_weekly_downloads": 9436302,
         "license": "MIT"
       }
     },
@@ -34398,7 +34656,7 @@
       "signals": {
         "tool": "salesforce",
         "github_stars": 1454,
-        "npm_weekly_downloads": 953210,
+        "npm_weekly_downloads": 951036,
         "license": "MIT"
       }
     },
@@ -34416,7 +34674,7 @@
       "signals": {
         "tool": "hubspot",
         "github_stars": 391,
-        "npm_weekly_downloads": 976860,
+        "npm_weekly_downloads": 981175,
         "license": "Apache-2.0"
       }
     },
@@ -34433,8 +34691,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "notion",
-        "github_stars": 5587,
-        "npm_weekly_downloads": 1179296,
+        "github_stars": 5589,
+        "npm_weekly_downloads": 1174641,
         "license": "MIT"
       }
     },
@@ -34451,7 +34709,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "grafana",
-        "github_stars": 73275,
+        "github_stars": 73293,
         "license": "AGPL-3.0"
       }
     },
@@ -34468,7 +34726,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "elasticsearch",
-        "github_stars": 76534
+        "github_stars": 76538
       }
     },
     {
@@ -34485,7 +34743,7 @@
       "signals": {
         "tool": "opsgenie",
         "github_stars": 24,
-        "npm_weekly_downloads": 6507,
+        "npm_weekly_downloads": 6569,
         "license": "Apache-2.0"
       }
     },
@@ -34521,7 +34779,7 @@
       "signals": {
         "tool": "datadog",
         "github_stars": 798,
-        "npm_weekly_downloads": 6727468
+        "npm_weekly_downloads": 6748076
       }
     },
     {
@@ -34537,7 +34795,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "pulumi",
-        "github_stars": 25061,
+        "github_stars": 25064,
         "license": "Apache-2.0"
       }
     },
@@ -34554,7 +34812,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "terraform",
-        "github_stars": 48155
+        "github_stars": 48165
       }
     },
     {
@@ -34570,7 +34828,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "argocd",
-        "github_stars": 22637,
+        "github_stars": 22642,
         "license": "Apache-2.0"
       }
     },
@@ -34603,7 +34861,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "jenkins",
-        "github_stars": 25200,
+        "github_stars": 25205,
         "license": "MIT"
       }
     },
@@ -34620,7 +34878,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "atlassian-mcp-server",
-        "github_stars": 595,
+        "github_stars": 596,
         "license": "Apache-2.0"
       }
     },
@@ -34654,7 +34912,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "vault-mcp-server",
-        "github_stars": 43,
+        "github_stars": 44,
         "license": "MPL-2.0"
       }
     },
@@ -34671,7 +34929,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "postgres-mcp",
-        "github_stars": 2553,
+        "github_stars": 2555,
         "license": "MIT"
       }
     },
@@ -34688,8 +34946,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-mcp",
-        "github_stars": 645,
-        "npm_weekly_downloads": 46885
+        "github_stars": 647,
+        "npm_weekly_downloads": 49305
       }
     },
     {
@@ -34705,7 +34963,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "agent-scan",
-        "github_stars": 2151,
+        "github_stars": 2170,
         "license": "Apache-2.0"
       }
     },
@@ -34738,7 +34996,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "clawsec",
-        "github_stars": 905,
+        "github_stars": 907,
         "license": "AGPL-3.0"
       }
     },
@@ -34818,8 +35076,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pskoett-ai-skills",
-        "github_stars": 505
+        "tool": "self-improving-agent",
+        "github_stars": 529
       }
     },
     {
@@ -34834,9 +35092,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw",
-        "github_stars": 10813,
-        "license": "MIT"
+        "tool": "openai",
+        "github_stars": 10815,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -34851,8 +35109,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw",
-        "github_stars": 198
+        "tool": "abilities-api",
+        "github_stars": 200,
+        "license": "GPL-2.0"
       }
     },
     {
@@ -34867,8 +35126,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw",
-        "github_stars": 58637
+        "tool": "ffmpeg",
+        "github_stars": 59101
       }
     },
     {
@@ -34887,7 +35146,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84028
+        "github_stars": 84067
       }
     },
     {
@@ -34902,8 +35161,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw",
-        "github_stars": 97226
+        "tool": "whisper",
+        "github_stars": 98012,
+        "license": "MIT"
       }
     },
     {
@@ -34918,8 +35178,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw",
-        "github_stars": 21002
+        "tool": "wordpress",
+        "github_stars": 21042
       }
     },
     {
@@ -34938,7 +35198,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84028
+        "github_stars": 84067
       }
     },
     {
@@ -34956,7 +35216,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-for-ai",
-        "github_stars": 120,
+        "github_stars": 121,
         "license": "MIT"
       }
     },
@@ -34972,8 +35232,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw",
-        "github_stars": 21002
+        "tool": "wordpress",
+        "github_stars": 21042
       }
     },
     {
@@ -34992,7 +35252,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84028
+        "github_stars": 84067
       }
     },
     {
@@ -35011,8 +35271,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright-mcp",
-        "github_stars": 31040,
-        "npm_weekly_downloads": 2501874,
+        "github_stars": 31074,
+        "npm_weekly_downloads": 2544000,
         "license": "Apache-2.0"
       }
     },
@@ -35029,7 +35289,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21040
+        "github_stars": 21042
       }
     },
     {
@@ -35046,7 +35306,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright",
-        "github_stars": 85658
+        "github_stars": 86789,
+        "license": "Apache-2.0"
       }
     }
   ]

@@ -15,7 +15,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⭐ 34.6k |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 33k |
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21k |
-| [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | ⭐ 21k |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21k |
 
 ---
 
@@ -49,6 +49,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 34.6k | 20.1k/wk |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 33k | — |
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
+| [WordPress Router](../../skills/wordpress-router/) | 21k | — |
 | [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | 21k | — |
 | [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | 21k | — |
 | [WordPress Gutenberg Block Scaffolder](../../skills/wordpress-gutenberg-block-scaffolder/) | 21k | — |
@@ -56,8 +58,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Multisite Provisioner](../../skills/wp-multisite-provisioner-agent/) | 21k | — |
 | [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | 21k | — |
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | 21k | — |
-| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
-| [WordPress Router](../../skills/wordpress-router/) | 21k | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | 20.3k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 2.1k/wk |
 | [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | — |
@@ -103,8 +103,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 340 | — |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 723.5k/wk |
 | [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | 253 | — |
+| [WP Abilities API](../../skills/wp-abilities-api/) | 200 | — |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
-| [WP Abilities API](../../skills/wp-abilities-api/) | 198 | — |
 | [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | 196 | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | 177 | 199.7k/wk |
 | [WordPress AI Services Plugin](../../skills/wordpress-ai-services-plugin/) | 158 | — |

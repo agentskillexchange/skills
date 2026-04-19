@@ -119,6 +119,8 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
 | [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.6M/wk |
+| [Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest](../../skills/run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest/) | 3.7k | — |
+| [Find deprecated Kubernetes APIs before cluster upgrades with kubent](../../skills/find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent/) | 3.7k | — |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | — |

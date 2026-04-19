@@ -54,6 +54,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 86.8k | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | 86.4k | 47.9M/wk |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | 86.4k | 47.9M/wk |
@@ -65,7 +66,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | 86.4k | 47.9M/wk |
 | [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | 86.4k | 47.9M/wk |
 | [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | 86.4k | 47.9M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 85.7k | — |
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | 85.5k | 46.8M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | 85.2k | — |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | 85.2k | — |
@@ -93,7 +93,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | — |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 31k | 2.5M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 31.1k | 2.5M/wk |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | — |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | 29.1k | 601.9k/wk |

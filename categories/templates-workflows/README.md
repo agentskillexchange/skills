@@ -31,8 +31,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⬇ 1.2M/wk |
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 402.7k/wk |
+| [Rehearse and run scripted terminal demos with realistic playback using doitlive](../../skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/) | ⬇ 236/wk |
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | ⬇ 4.1M/wk |
-| [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | ⬇ 1.7k/wk |
 
 ---
 
@@ -107,12 +107,15 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
 | [Turn a codebase into an interactive onboarding course with Codebase to Course](../../skills/turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course/) | 3.9k | — |
 | [Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch](../../skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch/) | 3.8k | — |
+| [Rehearse and run scripted terminal demos with realistic playback using doitlive](../../skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/) | 3.6k | 236/wk |
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | 3.5k | 4.1M/wk |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | 3.4k | — |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
+| [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 890.8k/wk |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
+| [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | — |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 266.8k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
@@ -129,8 +132,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 529 | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 505 | — |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
 | [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | — |

@@ -71,6 +71,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -79,7 +80,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [DALL-E Prompt Engineering Kit](../../skills/dall-e-prompt-engineering-kit/) | 10.8k | 18.1M/wk |
 | [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | 10.8k | 18.1M/wk |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |
 | [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | 10.6k | — |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 10.5k | — |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |

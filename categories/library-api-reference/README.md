@@ -25,7 +25,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 |---|---:|
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⬇ 2.5M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 155.6k/wk |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 157k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⬇ 149.2k/wk |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⬇ 149.2k/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | ⬇ 149.2k/wk |
@@ -48,7 +48,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.8k | 155.6k/wk |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.8k | 157k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | 28.8k | 149.2k/wk |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.8k | 149.2k/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.8k | 149.2k/wk |
@@ -80,7 +80,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 798.5k/wk |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 804.2k/wk |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | — |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
