@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2260 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 19:22 UTC
+> **2264 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 21:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -298,7 +298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (197 skills)
+### 🔒 Security & Verification (198 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -424,6 +424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Published | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
 | [Assemble minimal OCI images from declarative package configs with apko](skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents… | Published | 1.6k | — |
+| [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup. | Published | 1.5k | 3.4k/wk |
 | [Sweep GitHub for leaked secrets and exposed credentials with git-hound](skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not… | Published | 1.4k | — |
 | [Generate OSS-Fuzz harnesses with oss-fuzz-gen](skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/) | Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins. | Published | 1.4k | — |
 | [Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC](skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac/) | Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start… | Published | 1.3k | — |
@@ -503,7 +504,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (182 skills)
+### 🔧 CI/CD Integrations (183 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -666,6 +667,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | Generate structured release notes from Conventional Commits inside automated release pipelines when changelog… | Published | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with… | Published | 308 | 12.8M/wk |
 | [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more… | Published | 182 | — |
+| [Run only the relevant linters and formatters on changed files with Precious](skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted. | Published | 152 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature… | Security Reviewed | 43 | 1k/wk |
 | [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages… | Security Reviewed | — | — |
 | [Buildkite Agent Monitor](skills/buildkite-agent-monitor/) | Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue… | Security Reviewed | — | — |
@@ -1031,7 +1033,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (152 skills)
+### 📋 Runbooks & Diagnostics (153 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1107,6 +1109,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge… | Security Reviewed | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Security Reviewed | 11.9k | — |
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong… | Security Reviewed | 11.7k | — |
+| [Load-test an HTTP endpoint with a fast reproducible CLI probe using oha](skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/) | Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage. | Published | 10.2k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real… | Published | 7.2k | — |
 | [Trace unstable network paths and packet loss with Trippy before escalating an outage](skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents. | Published | 6.8k | — |
@@ -1808,7 +1811,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (101 skills)
+### 🔍 Research & Scraping (102 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1863,6 +1866,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](skills/recon-ng-web-reconnaissance-framework/) | Recon-ng is a full-featured modular reconnaissance framework written in Python, designed to conduct web-based open… | Security Reviewed | 5.5k | — |
 | [Pagefind Static Low-Bandwidth Search Engine](skills/pagefind-static-low-bandwidth-search-engine/) | Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring… | Security Reviewed | 5.1k | 527.8k/wk |
+| [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff. | Published | 4.6k | 584/wk |
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and… | Security Reviewed | 3.6k | — |
 | [Bright Data Web MCP Live Web Access and Scraping Tools](skills/bright-data-web-mcp-live-web-access-scraping-tools/) | Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access… | Security Reviewed | 3.2k | 937/wk |
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback… | Security Reviewed | 3.2k | — |

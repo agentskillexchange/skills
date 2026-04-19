@@ -195,6 +195,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | 308 | 12.8M/wk |
 | [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](../../skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | 182 | — |
+| [Run only the relevant linters and formatters on changed files with Precious](../../skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | 152 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | — | — |

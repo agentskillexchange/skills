@@ -26,6 +26,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | ⬇ 9.3M/wk |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | ⬇ 3.3M/wk |
+| [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](../../skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | ⬇ 3.4k/wk |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | ⬇ 20.9k/wk |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | ⬇ 90/wk |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | ⬇ 1.5k/wk |
@@ -158,6 +159,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
 | [Assemble minimal OCI images from declarative package configs with apko](../../skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | 1.6k | — |
+| [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](../../skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | 1.5k | 3.4k/wk |
 | [Sweep GitHub for leaked secrets and exposed credentials with git-hound](../../skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | 1.4k | — |
 | [Generate OSS-Fuzz harnesses with oss-fuzz-gen](../../skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/) | 1.4k | — |
 | [Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC](../../skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac/) | 1.3k | — |

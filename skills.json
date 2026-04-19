@@ -1,8 +1,70 @@
 {
   "version": "2.0",
-  "total": 2260,
+  "total": 2264,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious",
+      "name": "Run only the relevant linters and formatters on changed files with Precious",
+      "description": "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 152
+      }
+    },
+    {
+      "slug": "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
+      "name": "Capture a live webpage as a clean PDF or readable archive for offline review with Percollate",
+      "description": "Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4620,
+        "npm_weekly_downloads": 584
+      }
+    },
+    {
+      "slug": "load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha",
+      "name": "Load-test an HTTP endpoint with a fast reproducible CLI probe using oha",
+      "description": "Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 10195
+      }
+    },
+    {
+      "slug": "decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli",
+      "name": "Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli",
+      "description": "Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1463,
+        "npm_weekly_downloads": 3419
+      }
+    },
     {
       "slug": "audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety",
       "name": "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety",

@@ -110,6 +110,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](../../skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | 11.7k | — |
+| [Load-test an HTTP endpoint with a fast reproducible CLI probe using oha](../../skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/) | 10.2k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](../../skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | 10.2k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](../../skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | 7.2k | — |
 | [Trace unstable network paths and packet loss with Trippy before escalating an outage](../../skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | 6.8k | — |
