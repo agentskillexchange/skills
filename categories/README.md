@@ -1,15 +1,15 @@
 # Skill Categories
 
-> **2241 skills** across **17 categories**
+> **2247 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **281** | CLI helpers, dev environment setup, productivity utilities, and devel... |
-| 🔒 | [**Security & Verification**](security-verification/) | **187** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 🔒 | [**Security & Verification**](security-verification/) | **188** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **181** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **162** | Linting rules, review checklists, code standards enforcement, and qua... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **157** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **148** | Incident response, troubleshooting guides, system diagnostics, and op... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **158** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **152** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **123** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **119** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **118** | Email automation, calendar management, task coordination, and product... |

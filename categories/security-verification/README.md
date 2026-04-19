@@ -141,6 +141,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix](../../skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/) | 2.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | 2.6k | — |
+| [Inspect binary hardening flags and exploit mitigations with checksec](../../skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.2k | — |

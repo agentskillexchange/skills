@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2241 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 11:23 UTC
+> **2247 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 13:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -297,7 +297,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (187 skills)
+### 🔒 Security & Verification (188 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -406,6 +406,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix](skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/) | Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation… | Published | 2.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 2.6k | — |
+| [Inspect binary hardening flags and exploit mitigations with checksec](skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | Check ELF or PE binaries for hardening gaps like NX, PIE, RELRO, stack canaries, and Fortify before release or… | Published | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses,… | Security Reviewed | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.2k | — |
@@ -851,7 +852,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (157 skills)
+### 🔄 Data Extraction & Transformation (158 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -977,6 +978,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines… | Published | 1.3k | — |
+| [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing,… | Published | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
 | [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can… | Published | 402 | — |
@@ -1016,7 +1018,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (148 skills)
+### 📋 Runbooks & Diagnostics (152 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1094,10 +1096,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong… | Security Reviewed | 11.7k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real… | Published | 7.2k | — |
+| [Trace unstable network paths and packet loss with Trippy before escalating an outage](skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents. | Published | 6.8k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod. | Published | 4.6k | — |
+| [Debug DNS resolution and record mismatches from the terminal with doggo](skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service… | Published | 4.2k | — |
 | [Remote-control tmux sessions for interactive CLI agents](skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you… | Security Reviewed | 4.1k | — |
+| [Analyze memory images for processes, modules, and malware indicators with Volatility 3](skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | Inspect captured RAM images to enumerate processes, modules, handles, and suspicious in-memory behavior before… | Published | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone,… | Security Reviewed | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors,… | Published | 4k | — |
 | [Queue Backup Runbook](skills/queue-backup-runbook/) | Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented… | Security Reviewed | 4k | 2.6M/wk |
@@ -1123,6 +1128,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
+| [Build super timelines from mixed forensic artifacts with Plaso](skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review. | Published | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation… | Published | 1.8k | — |

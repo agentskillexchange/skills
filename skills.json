@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2241,
+  "total": 2247,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing",
+      "name": "Export Obsidian vaults into clean Markdown trees for publishing or downstream processing",
+      "description": "Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1300
+      }
+    },
+    {
+      "slug": "inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec",
+      "name": "Inspect binary hardening flags and exploit mitigations with checksec",
+      "description": "Check ELF or PE binaries for hardening gaps like NX, PIE, RELRO, stack canaries, and Fortify before release or incident review.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2313
+      }
+    },
+    {
+      "slug": "debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo",
+      "name": "Debug DNS resolution and record mismatches from the terminal with doggo",
+      "description": "Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service endpoints look wrong.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4221
+      }
+    },
+    {
+      "slug": "trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage",
+      "name": "Trace unstable network paths and packet loss with Trippy before escalating an outage",
+      "description": "Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6796
+      }
+    },
+    {
+      "slug": "build-super-timelines-from-mixed-forensic-artifacts-with-plaso",
+      "name": "Build super timelines from mixed forensic artifacts with Plaso",
+      "description": "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2052
+      }
+    },
+    {
+      "slug": "analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3",
+      "name": "Analyze memory images for processes, modules, and malware indicators with Volatility 3",
+      "description": "Inspect captured RAM images to enumerate processes, modules, handles, and suspicious in-memory behavior before escalation or evidence handoff.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4062
+      }
+    },
     {
       "slug": "strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat",
       "name": "Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat",

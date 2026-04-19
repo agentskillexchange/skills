@@ -112,10 +112,13 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](../../skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | 11.7k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](../../skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | 10.2k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](../../skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | 7.2k | — |
+| [Trace unstable network paths and packet loss with Trippy before escalating an outage](../../skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | 6.8k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |
+| [Debug DNS resolution and record mismatches from the terminal with doggo](../../skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | 4.2k | — |
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
+| [Analyze memory images for processes, modules, and malware indicators with Volatility 3](../../skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
 | [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.6M/wk |
@@ -141,6 +144,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
+| [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | 1.8k | — |
