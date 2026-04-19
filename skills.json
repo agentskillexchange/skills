@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2253,
+  "total": 2257,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap",
+      "name": "Reproduce SQL injection paths and map database takeover options with sqlmap",
+      "description": "Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 37094
+      }
+    },
+    {
+      "slug": "lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout",
+      "name": "Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout",
+      "description": "Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 429
+      }
+    },
+    {
+      "slug": "generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in",
+      "name": "Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in",
+      "description": "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4753
+      }
+    },
+    {
+      "slug": "generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage",
+      "name": "Generate and screen lookalike domains with dnstwist for brand abuse triage",
+      "description": "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5656
+      }
+    },
     {
       "slug": "scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review",
       "name": "Scan C and C++ code with Flawfinder for risky function patterns before review",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2253 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 15:23 UTC
+> **2257 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 17:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -297,7 +297,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (193 skills)
+### 🔒 Security & Verification (196 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -306,6 +306,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper… | Published | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Security Reviewed | 42.9k | — |
+| [Reproduce SQL injection paths and map database takeover options with sqlmap](skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/) | Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable… | Published | 37.1k | — |
 | [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | 35.4k | — |
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | 35.4k | — |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database… | Security Reviewed | 35.4k | — |
@@ -376,6 +377,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
 | [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA… | Security Reviewed | 5.8k | — |
 | [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection.… | Security Reviewed | 5.8k | — |
+| [Generate and screen lookalike domains with dnstwist for brand abuse triage](skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/) | Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation… | Published | 5.7k | — |
 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API.… | Security Reviewed | 5.5k | — |
 | [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | Scans Docker images for OS and application vulnerabilities using the Snyk Container API. Generates fix PRs with… | Security Reviewed | 5.5k | — |
 | [Snyk Dependency Audit Skill](skills/snyk-dependency-audit-skill/) | Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the… | Security Reviewed | 5.5k | — |
@@ -439,6 +441,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Security Reviewed | 552 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | Find packages that are out of support even when they do not show up as a classic CVE finding yet. | Published | 435 | — |
 | [Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection](skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/) | Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by… | Published | 429 | — |
+| [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission,… | Published | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call… | Published | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | — |
@@ -498,7 +501,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (181 skills)
+### 🔧 CI/CD Integrations (182 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -607,6 +610,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Generate release PRs and changelog updates from Conventional Commits](skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps,… | Security Reviewed | 6.7k | — |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review… | Published | 6.3k | — |
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file. | Published | 5.1k | — |
+| [Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in](skills/generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in/) | Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code… | Published | 4.8k | — |
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | 4.7k | — |
 | [Draft release notes continuously with Release Drafter](skills/draft-release-notes-continuously-with-release-drafter/) | Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day. | Security Reviewed | 3.9k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI. | Published | 3.8k | — |

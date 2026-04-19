@@ -9,13 +9,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | ⭐ 46.1k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
+| [Reproduce SQL injection paths and map database takeover options with sqlmap](../../skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/) | ⭐ 37.1k |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 35.4k |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 35.4k |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
-| [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | ⭐ 34.5k |
 
 ---
 
@@ -41,6 +41,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
+| [Reproduce SQL injection paths and map database takeover options with sqlmap](../../skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/) | 37.1k | — |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | 35.4k | — |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | 35.4k | — |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | 35.4k | — |
@@ -111,6 +112,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | 5.8k | — |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | 5.8k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
+| [Generate and screen lookalike domains with dnstwist for brand abuse triage](../../skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/) | 5.7k | — |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | — |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | 5.5k | — |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | 5.5k | — |
@@ -174,6 +176,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |
 | [Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection](../../skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/) | 429 | — |
+| [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](../../skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
