@@ -4,7 +4,7 @@ description: "Use regctl when an agent needs to inspect manifests, compare image
 verification: listed
 source: "https://github.com/regclient/regclient"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

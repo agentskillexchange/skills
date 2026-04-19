@@ -4,7 +4,7 @@ description: "Check Python environments and requirements files for published vul
 verification: listed
 source: "https://github.com/pypa/pip-audit"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, 
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

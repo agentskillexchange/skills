@@ -4,12 +4,9 @@ description: "Use PR-Agent when an agent should run an automated pull request re
 verification: listed
 source: "https://github.com/The-PR-Agent/pr-agent"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "the-pr-agent/pr-agent"
-  github_stars: 10915
 ---
 
 # Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent

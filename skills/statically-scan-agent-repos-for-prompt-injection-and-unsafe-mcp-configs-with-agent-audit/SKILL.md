@@ -4,7 +4,7 @@ description: "Audit agent code, prompts, and MCP configuration for prompt-inject
 verification: listed
 source: "https://github.com/HeadyZhang/agent-audit"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

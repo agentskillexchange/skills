@@ -4,7 +4,7 @@ description: "Index local notes, docs, and meeting transcripts, then return rank
 verification: security_reviewed
 source: "https://github.com/tobi/qmd"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

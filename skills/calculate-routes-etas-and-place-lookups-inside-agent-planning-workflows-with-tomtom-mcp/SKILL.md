@@ -4,7 +4,7 @@ description: "Gives an MCP-compatible agent structured place search, geocoding, 
 verification: security_reviewed
 source: "https://github.com/tomtom-international/tomtom-mcp"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

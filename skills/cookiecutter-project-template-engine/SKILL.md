@@ -4,7 +4,7 @@ description: "Manages and instantiates Cookiecutter project templates with dynam
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 tool_ecosystem:

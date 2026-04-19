@@ -4,7 +4,7 @@ description: "Use Spec Kit when an agent should turn a feature idea into a spec-
 verification: listed
 source: "https://github.com/github/spec-kit"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

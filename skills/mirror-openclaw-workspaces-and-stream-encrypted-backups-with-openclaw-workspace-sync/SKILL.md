@@ -4,7 +4,7 @@ description: "Sync an OpenClaw workspace to your own cloud storage or push encry
 verification: listed
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

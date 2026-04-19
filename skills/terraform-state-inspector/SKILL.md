@@ -4,7 +4,7 @@ description: "Inspects and diagnoses Terraform state files using terraform CLI c
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

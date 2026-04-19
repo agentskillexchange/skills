@@ -4,12 +4,9 @@ description: "Integrates with SonarQube Web API and sonar-scanner CLI to enforce
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
 ---
 
 # SonarQube Rule Enforcement Agent

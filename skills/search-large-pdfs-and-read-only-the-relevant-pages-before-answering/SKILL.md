@@ -4,7 +4,7 @@ description: "Use pdf-mcp to inspect a PDF, search it, and load only the pages t
 verification: security_reviewed
 source: "https://github.com/jztan/pdf-mcp"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:

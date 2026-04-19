@@ -4,7 +4,7 @@ description: "Lets an MCP-compatible agent search Help Scout inboxes, customers,
 verification: security_reviewed
 source: "https://github.com/drewburchfield/help-scout-mcp-server"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "MCP"
 tool_ecosystem:

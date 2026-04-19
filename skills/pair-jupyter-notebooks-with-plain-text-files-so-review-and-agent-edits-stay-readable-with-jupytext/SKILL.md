@@ -4,7 +4,7 @@ description: "Keep notebooks synchronized with `.py` or `.md` representations so
 verification: listed
 source: "https://github.com/mwouts/jupytext"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

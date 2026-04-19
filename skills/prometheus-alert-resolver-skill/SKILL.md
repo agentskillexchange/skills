@@ -4,7 +4,7 @@ description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

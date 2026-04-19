@@ -4,7 +4,7 @@ description: "Use mike when an agent needs to publish multiple versions of a MkD
 verification: listed
 source: "https://github.com/jimporter/mike"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

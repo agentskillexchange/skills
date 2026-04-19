@@ -4,7 +4,7 @@ description: "Measure Python docstring coverage and fail a docs-quality gate whe
 verification: listed
 source: "https://github.com/econchick/interrogate"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

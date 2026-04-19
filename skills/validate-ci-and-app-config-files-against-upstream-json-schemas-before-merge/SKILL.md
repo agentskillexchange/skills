@@ -4,7 +4,7 @@ description: "Use check-jsonschema when an agent needs to catch broken GitHub Ac
 verification: security_reviewed
 source: "https://github.com/python-jsonschema/check-jsonschema"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

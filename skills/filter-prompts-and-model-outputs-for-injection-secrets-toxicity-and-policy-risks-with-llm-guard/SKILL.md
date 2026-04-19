@@ -4,7 +4,7 @@ description: "Screen prompts and responses with input and output scanners before
 verification: listed
 source: "https://github.com/protectai/llm-guard"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

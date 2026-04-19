@@ -4,7 +4,7 @@ description: "Start with cheap static fetches, escalate to a browser only when n
 verification: listed
 source: "https://github.com/yfe404/web-scraper"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:

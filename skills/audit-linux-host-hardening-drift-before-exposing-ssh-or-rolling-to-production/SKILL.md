@@ -4,7 +4,7 @@ description: "Uses Lynis to run an on-host security audit and turn the findings 
 verification: security_reviewed
 source: "https://github.com/CISOfy/lynis"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Wraps OWASP ZAP API for automated web application security testing
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

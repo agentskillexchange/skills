@@ -4,7 +4,7 @@ description: "Move data into PostgreSQL with declarative load files, built-in ty
 verification: listed
 source: "https://github.com/dimitri/pgloader"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

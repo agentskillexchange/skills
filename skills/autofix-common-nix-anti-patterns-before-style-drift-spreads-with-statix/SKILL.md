@@ -4,7 +4,7 @@ description: "Lint Nix expressions and automatically rewrite common anti-pattern
 verification: listed
 source: "https://github.com/oppiliappan/statix"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

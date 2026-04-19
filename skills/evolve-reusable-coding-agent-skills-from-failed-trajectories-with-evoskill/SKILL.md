@@ -4,7 +4,7 @@ description: "Mine failed agent runs for reusable skills, benchmark the candidat
 verification: security_reviewed
 source: "https://github.com/sentient-agi/EvoSkill"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

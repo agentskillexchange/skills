@@ -1,10 +1,10 @@
 ---
 title: "DALL-E Variation Generator"
-description: "Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
+description: "Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # DALL-E Variation Generator
 
-Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops.
+Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops.
 
 ## Installation
 

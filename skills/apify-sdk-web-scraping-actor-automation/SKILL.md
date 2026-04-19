@@ -4,7 +4,7 @@ description: "Apify SDK is the official JavaScript SDK for building Actors, craw
 verification: security_reviewed
 source: "https://github.com/apify/apify-sdk-js"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

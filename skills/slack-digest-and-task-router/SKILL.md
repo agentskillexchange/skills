@@ -4,7 +4,7 @@ description: "Reads unread Slack messages from specified channels using the conv
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "OpenClaw"
 tool_ecosystem:

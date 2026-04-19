@@ -4,7 +4,7 @@ description: "Creates custom ESLint rules and shareable configs using the ESLint
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 tool_ecosystem:

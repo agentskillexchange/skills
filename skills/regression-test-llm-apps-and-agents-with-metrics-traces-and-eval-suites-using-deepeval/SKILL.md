@@ -4,7 +4,7 @@ description: "Run repeatable eval suites against prompts, RAG pipelines, and age
 verification: listed
 source: "https://github.com/confident-ai/deepeval"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

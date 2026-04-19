@@ -4,7 +4,7 @@ description: "Use mbox-to-sqlite when an agent needs to work across an email arc
 verification: security_reviewed
 source: "https://github.com/simonw/mbox-to-sqlite"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

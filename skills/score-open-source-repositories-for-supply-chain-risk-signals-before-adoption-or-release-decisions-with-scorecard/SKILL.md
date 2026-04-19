@@ -4,7 +4,7 @@ description: "Check a repository against OpenSSF security heuristics before you 
 verification: listed
 source: "https://github.com/ossf/scorecard"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

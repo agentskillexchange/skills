@@ -4,7 +4,7 @@ description: "Validates docker-compose.yml files against the Compose Specificati
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

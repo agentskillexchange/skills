@@ -4,7 +4,7 @@ description: "Give an agent curated scientific workflows, databases, and domain-
 verification: listed
 source: "https://github.com/K-Dense-AI/scientific-agent-skills"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Parses natural language task descriptions into structured Todoist 
 verification: security_reviewed
 source: "https://developer.todoist.com/api/v1/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "MCP"
 ---

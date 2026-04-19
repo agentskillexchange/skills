@@ -4,12 +4,9 @@ description: "Automates WordPress Multisite network site creation using wp_inser
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "ChatGPT Agents"
-tool_ecosystem:
-  github_repo: "wordpress/wordpress"
-  github_stars: 21027
 ---
 
 # WordPress Multisite Provisioner

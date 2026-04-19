@@ -4,7 +4,7 @@ description: "Check that Python docstrings stay consistent with parameters, retu
 verification: listed
 source: "https://github.com/jsh9/pydoclint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

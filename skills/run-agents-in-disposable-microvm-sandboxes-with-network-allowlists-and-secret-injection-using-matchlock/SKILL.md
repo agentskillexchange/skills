@@ -4,7 +4,7 @@ description: "Launch risky agent work inside disposable microVMs when you need s
 verification: security_reviewed
 source: "https://github.com/jingkaihe/matchlock"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

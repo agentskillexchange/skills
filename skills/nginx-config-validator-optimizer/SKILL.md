@@ -4,7 +4,7 @@ description: "Parses nginx.conf and included config files using the crossplane P
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

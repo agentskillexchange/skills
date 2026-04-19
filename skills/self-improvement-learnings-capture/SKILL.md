@@ -4,7 +4,7 @@ description: "Capture failures, corrections, and repeatable lessons so important
 verification: security_reviewed
 source: "https://github.com/peterskoett/self-improving-agent"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

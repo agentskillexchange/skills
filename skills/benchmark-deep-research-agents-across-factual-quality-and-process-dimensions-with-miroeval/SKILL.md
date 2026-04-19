@@ -4,7 +4,7 @@ description: "Score deep research agents on benchmark tasks using factual verifi
 verification: listed
 source: "https://github.com/MiroMindAI/MiroEval"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

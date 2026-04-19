@@ -4,7 +4,7 @@ description: "Normalize TOML files with a dedicated formatter and linter so repo
 verification: listed
 source: "https://github.com/tamasfe/taplo"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

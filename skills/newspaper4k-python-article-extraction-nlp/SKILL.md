@@ -4,12 +4,9 @@ description: "Newspaper4k is an actively maintained fork of the popular Newspape
 verification: security_reviewed
 source: "https://github.com/AndyTheFactory/newspaper4k"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "andythefactory/newspaper4k"
-  github_stars: 1085
 ---
 
 # Newspaper4k Python Article Extraction and NLP Library

@@ -4,7 +4,7 @@ description: "Capture and inspect file reads, writes, and shell activity from co
 verification: listed
 source: "https://github.com/safedep/gryph"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

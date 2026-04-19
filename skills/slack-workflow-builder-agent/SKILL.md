@@ -4,7 +4,7 @@ description: "Creates and manages Slack workflows using @slack/bolt and @slack/w
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Cursor"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use RTLCSS when an agent already has left-to-right stylesheets and
 verification: security_reviewed
 source: "https://github.com/MohammadYounes/rtlcss"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

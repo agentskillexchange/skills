@@ -4,7 +4,7 @@ description: "Attach signed SLSA provenance to GitHub Actions builds so release 
 verification: listed
 source: "https://github.com/slsa-framework/slsa-github-generator"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

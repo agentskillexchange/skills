@@ -4,7 +4,7 @@ description: "Run a fast typo pass across source files and documentation so comm
 verification: security_reviewed
 source: "https://github.com/codespell-project/codespell"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

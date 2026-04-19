@@ -4,7 +4,7 @@ description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeSc
 verification: listed
 source: "https://github.com/facebook/jscodeshift"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

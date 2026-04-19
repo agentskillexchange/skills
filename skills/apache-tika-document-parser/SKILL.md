@@ -4,7 +4,7 @@ description: "Extracts structured text, metadata, and embedded objects from PDFs
 verification: security_reviewed
 source: "https://github.com/apache/tika"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Gemini"
 tool_ecosystem:

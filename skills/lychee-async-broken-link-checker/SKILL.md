@@ -4,7 +4,7 @@ description: "lychee is a fast, async, stream-based link checker written in Rust
 verification: security_reviewed
 source: "https://github.com/lycheeverse/lychee"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
 tool_ecosystem:

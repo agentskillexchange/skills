@@ -4,7 +4,7 @@ description: "Perform high-volume data synchronization with Salesforce using the
 verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Codex"
 tool_ecosystem:

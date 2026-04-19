@@ -4,7 +4,7 @@ description: "Run coding agents inside a repo with explicit policy files, task s
 verification: listed
 source: "https://github.com/basilisk-labs/agentplane"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Keep dbt schema YAML and column documentation aligned with the pro
 verification: listed
 source: "https://github.com/z3z1ma/dbt-osmosis"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

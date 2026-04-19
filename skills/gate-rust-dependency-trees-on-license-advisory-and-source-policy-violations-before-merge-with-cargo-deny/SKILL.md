@@ -4,7 +4,7 @@ description: "Use cargo-deny when an agent needs to enforce Rust dependency poli
 verification: security_reviewed
 source: "https://github.com/EmbarkStudios/cargo-deny"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

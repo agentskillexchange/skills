@@ -4,7 +4,7 @@ description: "Produce a license inventory for Go module dependencies before rele
 verification: listed
 source: "https://github.com/google/go-licenses"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

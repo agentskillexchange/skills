@@ -4,7 +4,7 @@ description: "Extracts text and metadata from 1400+ file formats via Apache Tika
 verification: security_reviewed
 source: "https://github.com/apache/tika"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

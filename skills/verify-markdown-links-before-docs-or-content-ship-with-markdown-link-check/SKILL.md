@@ -4,7 +4,7 @@ description: "Catch dead links in README files, docs folders, and content drafts
 verification: listed
 source: "https://github.com/tcort/markdown-link-check"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Uses the Stripe API to pull charge, refund, dispute, and payout re
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Codex"
 tool_ecosystem:

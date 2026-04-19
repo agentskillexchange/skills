@@ -4,7 +4,7 @@ description: "Use Apple-native inboxes and event surfaces as a gated control pla
 verification: listed
 source: "https://github.com/dkyazzentwatwa/apple-flow"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use Open Code Review when an agent needs several reviewer personas
 verification: security_reviewed
 source: "https://github.com/spencermarx/open-code-review"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

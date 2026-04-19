@@ -4,7 +4,7 @@ description: "Define repeatable extraction pipelines that pull fields from large
 verification: listed
 source: "https://github.com/ucbepic/docetl"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Replay WARC-backed web archives locally so an agent can inspect hi
 verification: security_reviewed
 source: "https://github.com/webrecorder/pywb"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

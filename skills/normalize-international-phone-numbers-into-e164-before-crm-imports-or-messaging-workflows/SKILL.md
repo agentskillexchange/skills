@@ -4,7 +4,7 @@ description: "Use libphonenumber-js when an agent needs to clean messy phone-num
 verification: security_reviewed
 source: "https://www.npmjs.com/package/libphonenumber-js"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

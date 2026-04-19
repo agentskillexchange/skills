@@ -4,7 +4,7 @@ description: "Manages Stripe Connect accounts and payment flows using the Stripe
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

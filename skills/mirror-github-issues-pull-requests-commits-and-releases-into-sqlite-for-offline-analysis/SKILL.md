@@ -4,7 +4,7 @@ description: "Use dogsheep/github-to-sqlite when an agent needs a local, queryab
 verification: security_reviewed
 source: "https://github.com/dogsheep/github-to-sqlite"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

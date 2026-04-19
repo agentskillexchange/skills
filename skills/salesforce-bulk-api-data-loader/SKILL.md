@@ -4,7 +4,7 @@ description: "Performs high-volume data operations using the Salesforce Bulk API
 verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

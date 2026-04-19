@@ -4,7 +4,7 @@ description: "Builds intelligent voice routing flows using the Twilio Programmab
 verification: security_reviewed
 source: "https://github.com/twilio/twilio-node"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Claude Agents"
 tool_ecosystem:

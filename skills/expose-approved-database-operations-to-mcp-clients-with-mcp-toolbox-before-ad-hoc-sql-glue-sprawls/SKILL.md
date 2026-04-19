@@ -4,7 +4,7 @@ description: "Use MCP Toolbox to turn database access into a constrained MCP too
 verification: security_reviewed
 source: "https://github.com/googleapis/mcp-toolbox"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Generates structured incident runbooks from AWS CloudWatch alarm c
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

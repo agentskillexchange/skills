@@ -4,7 +4,7 @@ description: "Watch live Linux and container activity through eBPF so you can tr
 verification: listed
 source: "https://github.com/aquasecurity/tracee"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

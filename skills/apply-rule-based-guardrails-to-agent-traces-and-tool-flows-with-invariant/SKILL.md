@@ -4,7 +4,7 @@ description: "Insert a trace-aware guardrail layer between agents and their tool
 verification: listed
 source: "https://github.com/invariantlabs-ai/invariant"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

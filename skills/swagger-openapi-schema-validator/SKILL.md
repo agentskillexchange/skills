@@ -4,7 +4,7 @@ description: "Validates and lints OpenAPI 3.1 specifications using Spectral rule
 verification: security_reviewed
 source: "https://github.com/swagger-api/swagger-ui"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 tool_ecosystem:

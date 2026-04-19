@@ -4,7 +4,7 @@ description: "Use Open Deep Research when an agent should run a configurable res
 verification: listed
 source: "https://github.com/langchain-ai/open_deep_research"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

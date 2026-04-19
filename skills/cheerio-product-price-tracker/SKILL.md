@@ -4,7 +4,7 @@ description: "Monitors e-commerce product prices using Cheerio.js for server-sid
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Agents"
 tool_ecosystem:

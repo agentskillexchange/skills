@@ -4,7 +4,7 @@ description: "Search public GitHub broadly for leaked secrets and triage exposur
 verification: listed
 source: "https://github.com/tillson/git-hound"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

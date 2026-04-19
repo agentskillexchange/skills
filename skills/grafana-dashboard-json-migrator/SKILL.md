@@ -4,7 +4,7 @@ description: "Migrates Grafana dashboards between instances using the Grafana HT
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 tool_ecosystem:

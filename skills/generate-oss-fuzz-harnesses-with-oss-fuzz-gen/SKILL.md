@@ -4,7 +4,7 @@ description: "Use LLM-assisted harness generation to expand fuzz coverage for re
 verification: listed
 source: "https://github.com/google/oss-fuzz-gen"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

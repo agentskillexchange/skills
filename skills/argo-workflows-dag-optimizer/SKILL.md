@@ -4,7 +4,7 @@ description: "Analyzes Argo Workflows DAG templates to identify parallelization 
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-workflows"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "NocoDB turns any SQL database into a smart spreadsheet with a full
 verification: security_reviewed
 source: "https://github.com/nocodb/nocodb"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

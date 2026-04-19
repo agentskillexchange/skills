@@ -4,7 +4,7 @@ description: "Use aeneas when an agent already has audio and text, but still nee
 verification: security_reviewed
 source: "https://github.com/readbeyond/aeneas"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

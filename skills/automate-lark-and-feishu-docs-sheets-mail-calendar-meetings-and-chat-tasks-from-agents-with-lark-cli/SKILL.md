@@ -4,7 +4,7 @@ description: "Operate Lark and Feishu work objects from one agent-ready CLI inst
 verification: listed
 source: "https://github.com/larksuite/cli"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

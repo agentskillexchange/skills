@@ -4,7 +4,7 @@ description: "Open raw logs, jump to error clusters, query structured fields, an
 verification: listed
 source: "https://github.com/tstack/lnav"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

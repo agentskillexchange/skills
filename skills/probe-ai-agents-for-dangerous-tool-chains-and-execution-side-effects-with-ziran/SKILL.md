@@ -4,7 +4,7 @@ description: "Test agent systems for graph-discovered tool-chain vulnerabilities
 verification: listed
 source: "https://github.com/taoq-ai/ziran"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-che
 verification: listed
 source: "https://github.com/tobymao/sqlglot"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

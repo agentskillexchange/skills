@@ -4,7 +4,7 @@ description: "Extracts structured citation data from academic repositories using
 verification: security_reviewed
 source: "https://pypi.org/project/beautifulsoup4/"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "MCP"
 ---

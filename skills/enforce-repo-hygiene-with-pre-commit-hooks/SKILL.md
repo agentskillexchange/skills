@@ -4,7 +4,7 @@ description: "Run a repeatable pre-commit gate that catches formatting, lint, se
 verification: security_reviewed
 source: "https://github.com/pre-commit/pre-commit"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

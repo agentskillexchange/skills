@@ -4,7 +4,7 @@ description: "Run constant-rate HTTP attacks, capture binary results, and genera
 verification: listed
 source: "https://github.com/tsenart/vegeta"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

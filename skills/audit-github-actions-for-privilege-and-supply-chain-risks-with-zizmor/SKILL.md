@@ -4,7 +4,7 @@ description: "Run a focused security pass on GitHub Actions workflows before mer
 verification: listed
 source: "https://github.com/zizmorcore/zizmor"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

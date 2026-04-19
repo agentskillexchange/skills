@@ -4,7 +4,7 @@ description: "Builds Apify Actors for scalable cloud scraping with automatic pro
 verification: security_reviewed
 source: "https://github.com/apify/apify-sdk-js"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:

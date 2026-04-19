@@ -1,10 +1,10 @@
 ---
 title: "Ansible Playbook Dry-Run Validator"
-description: "Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
+description: "Validates Ansible playbooks in check mode using ansible-playbook &#8211;check &#8211;diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
 verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Ansible Playbook Dry-Run Validator
 
-Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
+Validates Ansible playbooks in check mode using ansible-playbook &#8211;check &#8211;diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
 
 ## Installation
 

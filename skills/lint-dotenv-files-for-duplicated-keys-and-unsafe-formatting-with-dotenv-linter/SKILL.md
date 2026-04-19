@@ -4,7 +4,7 @@ description: "Check dotenv files for duplicated keys, malformed values, and form
 verification: listed
 source: "https://github.com/dotenv-linter/dotenv-linter"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

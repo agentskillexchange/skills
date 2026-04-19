@@ -4,7 +4,7 @@ description: "Use borgmatic to drive Borg backup, prune, check, and restore rout
 verification: listed
 source: "https://github.com/borgmatic-collective/borgmatic"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

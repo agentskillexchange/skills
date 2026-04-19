@@ -4,7 +4,7 @@ description: "Applies ESLint fixes automatically using the ESLint Node.js API wi
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:

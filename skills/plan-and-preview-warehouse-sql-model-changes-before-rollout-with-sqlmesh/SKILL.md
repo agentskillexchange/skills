@@ -4,7 +4,7 @@ description: "Compare SQL model changes, preview backfills and downstream impact
 verification: listed
 source: "https://github.com/SQLMesh/sqlmesh"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

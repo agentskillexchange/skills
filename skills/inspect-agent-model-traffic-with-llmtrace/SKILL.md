@@ -4,7 +4,7 @@ description: "Proxy OpenAI-compatible model traffic so operators can inspect pro
 verification: listed
 source: "https://github.com/epappas/llmtrace"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

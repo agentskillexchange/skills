@@ -4,7 +4,7 @@ description: "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, 
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

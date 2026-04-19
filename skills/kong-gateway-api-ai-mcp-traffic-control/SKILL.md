@@ -4,12 +4,9 @@ description: "Kong Gateway is an open-source API gateway that handles routing, a
 verification: security_reviewed
 source: "https://github.com/Kong/kong"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "kong/kong"
-  github_stars: 43188
 ---
 
 # Kong Gateway API AI and MCP Traffic Control

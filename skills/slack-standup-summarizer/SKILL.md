@@ -4,7 +4,7 @@ description: "Collects daily standup updates from Slack channels using the Web A
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Claude Agents"
 tool_ecosystem:

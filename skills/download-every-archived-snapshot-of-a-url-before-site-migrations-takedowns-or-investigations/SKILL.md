@@ -4,7 +4,7 @@ description: "Use waybackpack when an agent needs the full historical record for
 verification: security_reviewed
 source: "https://github.com/jsvine/waybackpack"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

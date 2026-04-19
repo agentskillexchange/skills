@@ -4,7 +4,7 @@ description: "Run a pre-trust security pass over skill packs and prompt bundles 
 verification: listed
 source: "https://github.com/cisco-ai-defense/skill-scanner"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Detect scene changes in a video, emit cut boundaries, and hand bac
 verification: security_reviewed
 source: "https://github.com/Breakthrough/PySceneDetect"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

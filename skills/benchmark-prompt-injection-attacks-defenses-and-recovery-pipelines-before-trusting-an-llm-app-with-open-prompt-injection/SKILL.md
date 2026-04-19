@@ -4,7 +4,7 @@ description: "Run structured prompt-injection attack and defense experiments aga
 verification: listed
 source: "https://github.com/liu00222/Open-Prompt-Injection"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

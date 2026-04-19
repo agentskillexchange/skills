@@ -4,7 +4,7 @@ description: "Orchestrates Apify actors for large-scale web scraping via the Api
 verification: security_reviewed
 source: "https://github.com/apify/apify-sdk-js"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Cursor"
 tool_ecosystem:

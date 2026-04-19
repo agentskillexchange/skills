@@ -4,7 +4,7 @@ description: "Turn Claude Code into a command-driven workflow surface for resear
 verification: listed
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

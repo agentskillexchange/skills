@@ -4,7 +4,7 @@ description: "Uses DeepDiff to compare structured objects deeply and return prec
 verification: security_reviewed
 source: "https://github.com/qlustered/deepdiff"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

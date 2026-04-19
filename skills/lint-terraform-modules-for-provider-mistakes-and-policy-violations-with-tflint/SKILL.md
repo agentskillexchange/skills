@@ -4,7 +4,7 @@ description: "Check Terraform before plan or apply so invalid attributes, provid
 verification: listed
 source: "https://github.com/terraform-linters/tflint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

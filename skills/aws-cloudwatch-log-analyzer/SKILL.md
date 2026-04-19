@@ -4,7 +4,7 @@ description: "Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Log
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

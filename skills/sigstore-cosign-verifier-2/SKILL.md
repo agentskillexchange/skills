@@ -4,7 +4,7 @@ description: "Automates container image signature verification using Cosign CLI 
 verification: security_reviewed
 source: "https://github.com/sigstore/cosign"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Cursor"
 tool_ecosystem:

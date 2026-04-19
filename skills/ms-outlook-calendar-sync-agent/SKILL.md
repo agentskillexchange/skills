@@ -4,7 +4,7 @@ description: "Synchronizes calendar events bidirectionally using the Microsoft G
 verification: security_reviewed
 source: "https://learn.microsoft.com/en-us/graph/outlook-calendar-concept-overview"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 ---

@@ -4,7 +4,7 @@ description: "Wrap Claude Code sessions in a spec, approval, and verification wo
 verification: listed
 source: "https://github.com/maxritter/pilot-shell"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,12 +4,9 @@ description: "Extracts video clips and segments using FFmpeg libavformat and lib
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 58972
 ---
 
 # FFmpeg Clip Extractor

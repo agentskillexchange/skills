@@ -4,7 +4,7 @@ description: "Uses Goss to express the expected state of a machine or container,
 verification: security_reviewed
 source: "https://github.com/goss-org/goss"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

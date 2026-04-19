@@ -4,7 +4,7 @@ description: "Performs keyword research using SEMrush API v3 with domain analyti
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Claude Code"
 ---

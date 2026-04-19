@@ -4,7 +4,7 @@ description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, an
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

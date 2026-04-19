@@ -4,7 +4,7 @@ description: "Fetch manual or auto-generated YouTube subtitles, including transl
 verification: listed
 source: "https://github.com/jdepoix/youtube-transcript-api"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

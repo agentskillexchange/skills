@@ -4,7 +4,7 @@ description: "Generate a reviewable security report for a supported agent workfl
 verification: listed
 source: "https://github.com/splx-ai/agentic-radar"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

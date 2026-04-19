@@ -4,7 +4,7 @@ description: "Run a structured SEO audit that surfaces crawlability, technical, 
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

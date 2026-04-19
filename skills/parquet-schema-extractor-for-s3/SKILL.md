@@ -4,14 +4,9 @@ description: "Extracts and validates Parquet file schemas from Amazon S3 using t
 verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Gemini"
-tool_ecosystem:
-  github_repo: "ironsource/parquetjs"
-  github_stars: 387
-  npm_package: "parquetjs"
-  npm_weekly_downloads: 170660
 ---
 
 # Parquet Schema Extractor for S3

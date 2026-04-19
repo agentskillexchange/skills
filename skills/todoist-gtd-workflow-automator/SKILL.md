@@ -4,7 +4,7 @@ description: "Implements Getting Things Done methodology on Todoist using the To
 verification: security_reviewed
 source: "https://developer.todoist.com/api/v1/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Cursor"
 ---

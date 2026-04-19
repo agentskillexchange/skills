@@ -4,7 +4,7 @@ description: "Run statistically sound comparisons on eval results so prompt and 
 verification: listed
 source: "https://github.com/ianarawjo/promptstats"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

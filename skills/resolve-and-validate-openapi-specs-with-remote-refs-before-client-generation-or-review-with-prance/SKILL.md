@@ -4,7 +4,7 @@ description: "Validate an OpenAPI document, resolve external references, and emi
 verification: listed
 source: "https://github.com/RonnyPfannschmidt/prance"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

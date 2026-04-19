@@ -4,7 +4,7 @@ description: "On-the-fly image optimization using Sharp (libvips Node.js binding
 verification: security_reviewed
 source: "https://github.com/lovell/sharp"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

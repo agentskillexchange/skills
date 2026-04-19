@@ -4,7 +4,7 @@ description: "Links Prometheus alerting rules to operational runbooks by parsing
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

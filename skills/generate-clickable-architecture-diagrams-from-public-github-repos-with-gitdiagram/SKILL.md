@@ -4,7 +4,7 @@ description: "Turn a public GitHub repository into an interactive architecture d
 verification: listed
 source: "https://github.com/ahmedkhaleel2004/gitdiagram"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

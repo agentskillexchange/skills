@@ -4,7 +4,7 @@ description: "Run Claude, Codex, and related coding-agent tasks through policy g
 verification: listed
 source: "https://github.com/0xNyk/lacp"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

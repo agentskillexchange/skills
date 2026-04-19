@@ -4,7 +4,7 @@ description: "Performs deep cluster troubleshooting using the Kubernetes API ser
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Executes diagnostic queries against PostgreSQL using pg_stat_state
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Codex"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Build repeatable evaluation experiments for agents and LLM apps wi
 verification: listed
 source: "https://github.com/strands-agents/evals"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
