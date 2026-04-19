@@ -153,6 +153,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
+| [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](../../skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | 2k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](../../skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |

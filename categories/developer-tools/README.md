@@ -288,6 +288,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
+| [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 806 | 37.3k/wk |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 389 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |

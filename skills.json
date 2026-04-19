@@ -1,8 +1,54 @@
 {
   "version": "2.0",
-  "total": 2257,
+  "total": 2260,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety",
+      "name": "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety",
+      "description": "Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1974
+      }
+    },
+    {
+      "slug": "map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps",
+      "name": "Map Python import graphs to explain coupling before refactors or package splits with pydeps",
+      "description": "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2075
+      }
+    },
+    {
+      "slug": "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac",
+      "name": "Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac",
+      "description": "Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 806,
+        "npm_weekly_downloads": 37339
+      }
+    },
     {
       "slug": "reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap",
       "name": "Reproduce SQL injection paths and map database takeover options with sqlmap",

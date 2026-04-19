@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2257 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 17:22 UTC
+> **2260 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 19:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (281 skills)
+### 🛠️ Developer Tools (282 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -262,6 +262,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 842 | — |
+| [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Published | 806 | 37.3k/wk |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Published | 621 | 4.9k/wk |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 389 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
@@ -297,7 +298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (196 skills)
+### 🔒 Security & Verification (197 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -418,6 +419,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
+| [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | Scan Python requirements and environments for known vulnerable or malicious packages before they move further… | Published | 2k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc… | Published | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Published | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
@@ -691,7 +693,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (162 skills)
+### ✅ Code Quality & Review (163 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -795,6 +797,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread… | Security Reviewed | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and… | Published | 2.2k | — |
+| [Map Python import graphs to explain coupling before refactors or package splits with pydeps](skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of… | Published | 2.1k | — |
 | [Lint .env files for duplicated keys and unsafe formatting with dotenv-linter](skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/) | Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or… | Published | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or… | Published | 2.1k | — |
 | [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of… | Published | 1.9k | — |
