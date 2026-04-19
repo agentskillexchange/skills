@@ -7,9 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
 ---
 
 # SonarQube Gate Checker

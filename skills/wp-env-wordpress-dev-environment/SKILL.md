@@ -7,9 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  npm_package: "@wordpress/env"
-  npm_weekly_downloads: 46554
 ---
 
 # wp-env Zero-Config WordPress Development Environment

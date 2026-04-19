@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "zulko/moviepy"
-  github_stars: 14491
 ---
 
 # MoviePy Python Video Editing Library
