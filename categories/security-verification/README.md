@@ -119,6 +119,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills](../../skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills/) | 4.7k | — |
 | [Baseline and Review Repository Secret Findings with detect-secrets](../../skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | 4.5k | — |
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](../../skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | 4.5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |

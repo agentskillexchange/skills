@@ -104,6 +104,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
+| [Turn a codebase into an interactive onboarding course with Codebase to Course](../../skills/turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course/) | 3.9k | — |
 | [Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch](../../skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch/) | 3.8k | — |
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | 3.5k | 4.1M/wk |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | 3.4k | — |

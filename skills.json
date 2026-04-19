@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2207,
-  "generated": "2026-04-18",
+  "total": 2213,
+  "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator",
+      "name": "Generate launch-ready web app icons and social assets with Web Asset Generator",
+      "description": "Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work.",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 321
+      }
+    },
+    {
+      "slug": "turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course",
+      "name": "Turn a codebase into an interactive onboarding course with Codebase to Course",
+      "description": "Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3883
+      }
+    },
+    {
+      "slug": "execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills",
+      "name": "Execute DevOps delivery and infrastructure workflows with cc-devops-skills",
+      "description": "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 182
+      }
+    },
+    {
+      "slug": "run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills",
+      "name": "Run React Native implementation and troubleshooting workflows with Callstack Agent Skills",
+      "description": "Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1252
+      }
+    },
+    {
+      "slug": "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills",
+      "name": "Run research and scientific analysis workflows with Scientific Agent Skills",
+      "description": "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 18797
+      }
+    },
+    {
+      "slug": "run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills",
+      "name": "Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills",
+      "description": "Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4663
+      }
+    },
     {
       "slug": "validate-python-docstrings-against-function-signatures-with-pydoclint",
       "name": "Validate Python Docstrings Against Function Signatures with pydoclint",
