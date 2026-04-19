@@ -159,6 +159,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action](../../skills/run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action/) | 927 | — |
 | [Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact](../../skills/pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci-changes-merge-with-pinact/) | 917 | — |
+| [Drive dependency and config bumps through declarative Updatecli pipelines](../../skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines/) | 894 | — |
 | [Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl](../../skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl/) | 860 | — |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | 843 | — |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 843 | — |

@@ -95,6 +95,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](../../skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | 321 | — |
+| [Archive and reorganize local photo libraries with photo-cli](../../skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | 68 | — |
 | [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | — | 49k/wk |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | — | — |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |

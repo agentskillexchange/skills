@@ -7,6 +7,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Stars |
 |---|---:|
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | ⭐ 71.5k |
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⭐ 53.5k |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | ⭐ 51.3k |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | ⭐ 48.1k |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⭐ 45.8k |
@@ -15,7 +16,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⭐ 28.8k |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⭐ 28.8k |
-| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⭐ 28.8k |
 
 ---
 
@@ -23,6 +23,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⬇ 2.5M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 155.6k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⬇ 149.2k/wk |
@@ -32,7 +33,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⬇ 529.3k/wk |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | ⬇ 34.2M/wk |
-| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | ⬇ 34.2M/wk |
 
 ---
 
@@ -41,6 +41,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.5k | — |
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | 53.5k | 2.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | 48.1k | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.8k | 9.9M/wk |

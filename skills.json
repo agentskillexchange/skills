@@ -1,8 +1,174 @@
 {
   "version": "2.0",
-  "total": 2213,
+  "total": 2224,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats",
+      "name": "Store selective long-term agent memories with Mem0 instead of replaying whole chats",
+      "description": "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 53457,
+        "npm_weekly_downloads": 2535676
+      }
+    },
+    {
+      "slug": "break-large-coding-jobs-into-focused-subagent-missions-with-ab-method",
+      "name": "Break large coding jobs into focused subagent missions with AB Method",
+      "description": "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 159
+      }
+    },
+    {
+      "slug": "search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations",
+      "name": "Search and rewrite code with structural GritQL patterns before broad migrations",
+      "description": "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change,…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4482
+      }
+    },
+    {
+      "slug": "sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync",
+      "name": "Sync agent rules and skill files across coding assistants with AI Rules Sync",
+      "description": "Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 25
+      }
+    },
+    {
+      "slug": "layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow",
+      "name": "Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow",
+      "description": "Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates, and parallel worktree routines to persist…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1933
+      }
+    },
+    {
+      "slug": "coordinate-issue-backed-parallel-coding-worktrees-with-ccpm",
+      "name": "Coordinate issue-backed parallel coding worktrees with CCPM",
+      "description": "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7995
+      }
+    },
+    {
+      "slug": "run-reviewable-multi-step-codemod-workflows-with-codemod-cli",
+      "name": "Run reviewable multi-step codemod workflows with Codemod CLI",
+      "description": "Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 979
+      }
+    },
+    {
+      "slug": "turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text",
+      "name": "Turn captured WARC pages into clean text and language-tagged records with warc2text",
+      "description": "Use warc2text when an agent already has WARC captures and needs readable text, language identification, and exportable records for review, search, or corpus building…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 23
+      }
+    },
+    {
+      "slug": "archive-and-reorganize-local-photo-libraries-with-photo-cli",
+      "name": "Archive and reorganize local photo libraries with photo-cli",
+      "description": "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 68
+      }
+    },
+    {
+      "slug": "back-up-github-repos-releases-and-gists-with-github-backup",
+      "name": "Back up GitHub repos releases and gists with GitHub Backup",
+      "description": "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 33
+      }
+    },
+    {
+      "slug": "drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines",
+      "name": "Drive dependency and config bumps through declarative Updatecli pipelines",
+      "description": "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 894
+      }
+    },
     {
       "slug": "generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator",
       "name": "Generate launch-ready web app icons and social assets with Web Asset Generator",
