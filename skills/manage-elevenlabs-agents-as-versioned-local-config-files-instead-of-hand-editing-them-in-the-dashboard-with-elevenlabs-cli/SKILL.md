@@ -4,7 +4,7 @@ description: "Initialize, authenticate, and edit ElevenLabs agent configs from l
 verification: security_reviewed
 source: "https://github.com/elevenlabs/cli"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:

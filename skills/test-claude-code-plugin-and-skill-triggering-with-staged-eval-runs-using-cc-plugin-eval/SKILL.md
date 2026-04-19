@@ -4,7 +4,7 @@ description: "Run staged evaluations against a Claude Code plugin to verify that
 verification: listed
 source: "https://github.com/sjnims/cc-plugin-eval"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

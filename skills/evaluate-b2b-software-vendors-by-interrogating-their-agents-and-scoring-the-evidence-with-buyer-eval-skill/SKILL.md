@@ -4,7 +4,7 @@ description: "Use Claude Code to run a structured vendor diligence workflow that
 verification: listed
 source: "https://github.com/salespeak-ai/buyer-eval-skill"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:

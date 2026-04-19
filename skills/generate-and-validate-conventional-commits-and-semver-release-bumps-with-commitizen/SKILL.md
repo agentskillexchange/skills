@@ -4,7 +4,7 @@ description: "Standardize commit messages, validate commit history, and calculat
 verification: security_reviewed
 source: "https://github.com/commitizen-tools/commitizen"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

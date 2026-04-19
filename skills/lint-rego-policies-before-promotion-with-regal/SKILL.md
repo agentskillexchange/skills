@@ -4,7 +4,7 @@ description: "Analyze Rego policy files for style, correctness, and maintainabil
 verification: listed
 source: "https://github.com/StyraInc/regal"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

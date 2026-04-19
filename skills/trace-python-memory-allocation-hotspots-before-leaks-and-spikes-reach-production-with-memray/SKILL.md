@@ -4,7 +4,7 @@ description: "Lets an agent record Python allocation traces and inspect the bigg
 verification: security_reviewed
 source: "https://github.com/bloomberg/memray"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

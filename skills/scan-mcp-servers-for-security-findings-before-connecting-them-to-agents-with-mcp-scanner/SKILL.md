@@ -4,7 +4,7 @@ description: "Run MCP Scanner against a remote or local MCP server before trusti
 verification: security_reviewed
 source: "https://github.com/cisco-ai-defense/mcp-scanner"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

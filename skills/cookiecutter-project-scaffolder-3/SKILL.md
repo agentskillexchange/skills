@@ -4,7 +4,7 @@ description: "Scaffolds project templates using the Cookiecutter engine with Jin
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

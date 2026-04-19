@@ -4,7 +4,7 @@ description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or 
 verification: listed
 source: "https://github.com/sqldef/sqldef"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

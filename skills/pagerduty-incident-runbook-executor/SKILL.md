@@ -4,9 +4,12 @@ description: "Automatically executes diagnostic runbooks when PagerDuty incident
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "pagerduty/pdjs"
+  github_stars: 69
 ---
 
 # PagerDuty Incident Runbook Executor

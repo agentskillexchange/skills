@@ -4,7 +4,7 @@ description: "Pack trusted context and review memory writes before long OpenClaw
 verification: listed
 source: "https://github.com/phenomenoner/openclaw-mem"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

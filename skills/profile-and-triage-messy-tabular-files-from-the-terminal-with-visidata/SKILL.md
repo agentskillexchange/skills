@@ -4,7 +4,7 @@ description: "Inspect CSV, TSV, JSON, and parquet drops interactively, spot susp
 verification: listed
 source: "https://github.com/saulpw/visidata"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

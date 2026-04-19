@@ -4,7 +4,7 @@ description: "Run mutation testing against JS or TS projects to find tests that 
 verification: listed
 source: "https://github.com/stryker-mutator/stryker-js"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

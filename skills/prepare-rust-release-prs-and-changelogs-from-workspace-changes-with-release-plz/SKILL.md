@@ -4,7 +4,7 @@ description: "Inspect Rust workspace changes, draft release PRs, bump versions, 
 verification: listed
 source: "https://github.com/release-plz/release-plz"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

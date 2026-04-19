@@ -4,7 +4,7 @@ description: "Lets an OpenClaw agent sync its workspace to cloud storage in mail
 verification: listed
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

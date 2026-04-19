@@ -4,7 +4,7 @@ description: "Design template and data driven SEO page programs that can scale w
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

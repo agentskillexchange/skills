@@ -4,9 +4,12 @@ description: "Structured publishing workflow for WordPress drafts, metadata, and
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "wordpress/wordpress"
+  github_stars: 21040
 ---
 
 # WordPress Content Publisher

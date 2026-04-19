@@ -4,7 +4,7 @@ description: "Run a Claude Code powered security review pass on trusted pull req
 verification: security_reviewed
 source: "https://github.com/anthropics/claude-code-security-review"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

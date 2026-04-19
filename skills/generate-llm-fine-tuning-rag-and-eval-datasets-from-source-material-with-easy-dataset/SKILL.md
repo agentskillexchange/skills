@@ -4,7 +4,7 @@ description: "Turn raw documents into structured fine-tuning, RAG, and evaluatio
 verification: listed
 source: "https://github.com/ConardLi/easy-dataset"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

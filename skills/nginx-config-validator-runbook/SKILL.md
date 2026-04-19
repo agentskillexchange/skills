@@ -4,7 +4,7 @@ description: "Validates Nginx configurations using nginx -t syntax checking, the
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

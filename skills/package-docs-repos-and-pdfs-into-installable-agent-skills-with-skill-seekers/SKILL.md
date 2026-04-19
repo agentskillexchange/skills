@@ -4,7 +4,7 @@ description: "Turn documentation sites, GitHub repos, and PDFs into installable 
 verification: security_reviewed
 source: "https://github.com/yusufkaraaslan/Skill_Seekers"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

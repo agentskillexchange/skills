@@ -4,7 +4,7 @@ description: "Catch naming, formatting, and protobuf rule violations early so ge
 verification: listed
 source: "https://github.com/yoheimuta/protolint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

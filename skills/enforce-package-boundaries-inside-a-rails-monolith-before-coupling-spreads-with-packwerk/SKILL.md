@@ -4,7 +4,7 @@ description: "Check a Rails codebase for dependency and visibility violations so
 verification: listed
 source: "https://github.com/Shopify/packwerk"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

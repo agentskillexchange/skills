@@ -4,7 +4,7 @@ description: "Classifies and prioritizes Nginx error log entries using pattern m
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:

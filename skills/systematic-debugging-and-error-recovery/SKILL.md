@@ -4,7 +4,7 @@ description: "Stop guessing when something breaks, preserve evidence, reproduce 
 verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

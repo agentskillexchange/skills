@@ -4,7 +4,7 @@ description: "Creates project scaffolds from Cookiecutter templates with interac
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Extracts text and metadata from 1000+ file formats using Apache Ti
 verification: security_reviewed
 source: "https://github.com/apache/tika"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Gemini"
 tool_ecosystem:

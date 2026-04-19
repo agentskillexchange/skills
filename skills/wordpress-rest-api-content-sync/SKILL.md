@@ -4,9 +4,12 @@ description: "Synchronizes content between WordPress multisite installations usi
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "wordpress/wordpress"
+  github_stars: 21027
 ---
 
 # WordPress REST API Content Sync

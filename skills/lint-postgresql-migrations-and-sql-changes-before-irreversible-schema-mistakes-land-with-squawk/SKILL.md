@@ -4,7 +4,7 @@ description: "Catch locking, indexing, and schema-change hazards in PostgreSQL m
 verification: listed
 source: "https://github.com/sbdchd/squawk"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Scan a repository for secrets, keep an auditable baseline, and rev
 verification: listed
 source: "https://github.com/Yelp/detect-secrets"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

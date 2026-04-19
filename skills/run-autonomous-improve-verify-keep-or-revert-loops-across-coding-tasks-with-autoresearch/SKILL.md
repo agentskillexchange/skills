@@ -4,7 +4,7 @@ description: "Turn Claude Code, OpenCode, or Codex into a metric-driven loop tha
 verification: listed
 source: "https://github.com/uditgoenka/autoresearch"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

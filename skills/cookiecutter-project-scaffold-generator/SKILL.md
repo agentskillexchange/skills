@@ -4,7 +4,7 @@ description: "Generates project scaffolds from Cookiecutter templates with Jinja
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Codex"
 tool_ecosystem:

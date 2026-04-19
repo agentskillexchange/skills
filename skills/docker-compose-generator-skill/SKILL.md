@@ -1,6 +1,6 @@
 ---
 title: "Docker Compose Generator Skill"
-description: "Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving [&hellip;]"
+description: "Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving […]"
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Docker Compose Generator Skill
 
-Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving [&hellip;]
+Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving […]
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, ho
 verification: security_reviewed
 source: "https://github.com/agent-sh/agnix"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

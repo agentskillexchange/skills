@@ -4,7 +4,7 @@ description: "Apply reusable evaluators to model outputs when you need lightweig
 verification: listed
 source: "https://github.com/braintrustdata/autoevals"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Runs systematic health diagnostics on Docker containers using dock
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:

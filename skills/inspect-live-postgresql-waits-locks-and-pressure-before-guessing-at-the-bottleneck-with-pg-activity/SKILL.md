@@ -4,7 +4,7 @@ description: "Open a live PostgreSQL activity view during incidents so you can s
 verification: listed
 source: "https://github.com/dalibo/pg_activity"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

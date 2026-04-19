@@ -4,7 +4,7 @@ description: "Scan local archives for duplicate files, similar images, similar v
 verification: listed
 source: "https://github.com/qarmin/czkawka"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

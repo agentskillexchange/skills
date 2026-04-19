@@ -4,7 +4,7 @@ description: "Queries GitHub GraphQL API for new and unanswered Discussions, ran
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-discussions-community-digest/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 ---

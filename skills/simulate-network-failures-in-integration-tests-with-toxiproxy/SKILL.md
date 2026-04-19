@@ -4,7 +4,7 @@ description: "Use Toxiproxy when an agent needs to inject latency, disconnects, 
 verification: security_reviewed
 source: "https://github.com/Shopify/toxiproxy"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
