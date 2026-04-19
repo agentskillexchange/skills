@@ -8,10 +8,7 @@ category:
 framework:
   - "MCP"
 tool_ecosystem:
-  github_repo: "hubspot/hubspot-api-nodejs"
-  github_stars: 391
   npm_package: "@hubspot/api-client"
-  npm_weekly_downloads: 976860
 ---
 
 # HubSpot MCP Server

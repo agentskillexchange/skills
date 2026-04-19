@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "clickhouse/clickhouse"
-  github_stars: 46871
 ---
 
 # ClickHouse Query Agent

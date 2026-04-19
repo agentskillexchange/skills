@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 58972
 ---
 
 # FFmpeg Audio Normalization Pipeline

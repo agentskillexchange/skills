@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
 ---
 
 # SonarQube Rule Enforcement Agent

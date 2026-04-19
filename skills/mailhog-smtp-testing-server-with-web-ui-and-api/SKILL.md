@@ -7,9 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "mailhog/mailhog"
-  github_stars: 15892
 ---
 
 # MailHog SMTP Testing Server with Web UI and API

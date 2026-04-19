@@ -7,9 +7,6 @@ category:
   - "Image &amp; Creative Automation"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 58972
 ---
 
 # FFmpeg Video Processing Pipeline

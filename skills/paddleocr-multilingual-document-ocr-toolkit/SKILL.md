@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "paddlepaddle/paddleocr"
-  github_stars: 73714
 ---
 
 # PaddleOCR Multilingual Document OCR and Structured Data Toolkit

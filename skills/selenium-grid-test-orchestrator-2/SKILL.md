@@ -8,10 +8,7 @@ category:
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
-  github_stars: 34076
   npm_package: "selenium-webdriver"
-  npm_weekly_downloads: 1932148
 ---
 
 # Selenium Grid Test Orchestrator

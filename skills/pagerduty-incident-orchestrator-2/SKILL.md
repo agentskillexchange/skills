@@ -7,9 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
-  github_stars: 69
 ---
 
 # PagerDuty Incident Orchestrator

@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "handbrake/handbrake"
-  github_stars: 22806
 ---
 
 # HandBrake Open-Source Video Transcoder
