@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2264 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 21:22 UTC
+> **2268 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 23:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -695,7 +695,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (163 skills)
+### ✅ Code Quality & Review (164 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -827,6 +827,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Enforce Python Docstring Coverage Thresholds with interrogate](skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold. | Security Reviewed | 662 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |
+| [Grade agent trajectories and tool-use decisions with AgentEvals](skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without… | Published | 550 | 251k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](skills/broken-link-verification-static-sites-documentation/) | Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and… | Security Reviewed | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or… | Security Reviewed | 324 | 6.4k/wk |
@@ -1033,7 +1034,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (153 skills)
+### 📋 Runbooks & Diagnostics (154 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1154,6 +1155,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is… | Security Reviewed | 585 | — |
+| [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds… | Published | 358 | — |
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing… | Published | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic… | Security Reviewed | 102 | — |
@@ -1194,7 +1196,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (123 skills)
+### 📊 Monitoring & Alerts (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1273,6 +1275,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API.… | Security Reviewed | 3.6k | — |
 | [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule… | Security Reviewed | 3.6k | — |
 | [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway… | Security Reviewed | 3.6k | — |
+| [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans… | Published | 3.2k | 309.2k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
@@ -1325,7 +1328,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (119 skills)
+### 📄 Templates & Workflows (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1388,6 +1391,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
 | [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | 10.4k | — |
+| [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows… | Published | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution… | Security Reviewed | 8k | — |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Published | 7.2k | — |

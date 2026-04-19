@@ -27,12 +27,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.4M/wk |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⬇ 3.3M/wk |
+| [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | ⬇ 29.2k/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.5M/wk |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⬇ 1.2M/wk |
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 402.7k/wk |
 | [Rehearse and run scripted terminal demos with realistic playback using doitlive](../../skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/) | ⬇ 236/wk |
-| [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | ⬇ 4.1M/wk |
 
 ---
 
@@ -97,6 +97,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
+| [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |

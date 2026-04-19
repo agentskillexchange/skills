@@ -155,6 +155,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |
+| [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](../../skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | 102 | — |

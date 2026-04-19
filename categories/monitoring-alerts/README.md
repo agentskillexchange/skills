@@ -26,13 +26,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | ⬇ 16.3M/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
+| [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 309.2k/wk |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 6.7M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | ⬇ 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⬇ 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | ⬇ 6.6M/wk |
 | [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | ⬇ 6.6M/wk |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | ⬇ 6.6M/wk |
-| [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | ⬇ 6.6M/wk |
 
 ---
 
@@ -113,6 +113,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | 3.6k | — |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | 3.6k | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | 3.6k | — |
+| [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | 3.2k | 309.2k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |

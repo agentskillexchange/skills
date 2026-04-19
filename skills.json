@@ -1,8 +1,71 @@
 {
   "version": "2.0",
-  "total": 2264,
+  "total": 2268,
   "generated": "2026-04-19",
   "skills": [
+    {
+      "slug": "compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent",
+      "name": "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent",
+      "description": "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8273,
+        "npm_weekly_downloads": 29247
+      }
+    },
+    {
+      "slug": "benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation",
+      "name": "Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation",
+      "description": "Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 358
+      }
+    },
+    {
+      "slug": "grade-agent-trajectories-and-tool-use-decisions-with-agentevals",
+      "name": "Grade agent trajectories and tool-use decisions with AgentEvals",
+      "description": "Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 550,
+        "npm_weekly_downloads": 251033
+      }
+    },
+    {
+      "slug": "simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch",
+      "name": "Simulate agent scenarios, trace failures, and watch production regressions with LangWatch",
+      "description": "Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3204,
+        "npm_weekly_downloads": 309151
+      }
+    },
     {
       "slug": "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious",
       "name": "Run only the relevant linters and formatters on changed files with Precious",
