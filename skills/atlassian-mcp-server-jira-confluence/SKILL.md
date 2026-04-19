@@ -1,8 +1,8 @@
 ---
 title: "Atlassian MCP Server for Jira and Confluence"
-description: "mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading and editing Confluence pages, and performing project management tasks through natural language via any MCP-compatible client."
-verification: security_reviewed
+description: "mcp-atlassian is an open-source Model Context Protocol server that provides AI assistants with full access to Atlassian Jira and Confluence. With over 4,700 GitHub stars and active maintenance, it has become the most popular community MCP integration for Atlassian products, supporting both Cloud and Server/Data Center deployments. The server exposes a comprehensive set of tools for Jira issue management. Agents can search issues using JQL queries, create new tickets, update issue status and fields, add comments, manage sprints and boards, and view development information like linked commits and pull requests. For Confluence, the server enables searching wiki content, reading page bodies, creating and updating pages, and managing page hierarchies. All operations respect existing project and space-level permissions from the authenticated user&#8217;s Atlassian account. Authentication supports multiple methods: API tokens for Cloud instances, Personal Access Tokens for Server/Data Center, and OAuth 2.0 for production deployments. The server installs cleanly via uvx mcp-atlassian (Python) or Docker, and configuration requires only environment variables for the Atlassian URL and credentials. It works with Claude Desktop, Cursor, VS Code, and any other MCP-compatible client. The project is published on PyPI as mcp-atlassian , has comprehensive documentation at mcp-atlassian.soomiles.com (including llms.txt format for AI consumption), and is licensed under MIT. It supports HTTP transport for remote deployments and includes CI-tested releases. For development teams that live in Jira and Confluence, this server eliminates context switching by letting AI assistants directly interact with project management and documentation workflows."
 source: "https://github.com/sooperset/mcp-atlassian"
+verification: "security_reviewed"
 category:
   - "Integrations &amp; Connectors"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Atlassian MCP Server for Jira and Confluence
 
-mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading and editing Confluence pages, and performing project management tasks through natural language via any MCP-compatible client.
+mcp-atlassian is an open-source Model Context Protocol server that provides AI assistants with full access to Atlassian Jira and Confluence. With over 4,700 GitHub stars and active maintenance, it has become the most popular community MCP integration for Atlassian products, supporting both Cloud and Server/Data Center deployments. The server exposes a comprehensive set of tools for Jira issue management. Agents can search issues using JQL queries, create new tickets, update issue status and fields, add comments, manage sprints and boards, and view development information like linked commits and pull requests. For Confluence, the server enables searching wiki content, reading page bodies, creating and updating pages, and managing page hierarchies. All operations respect existing project and space-level permissions from the authenticated user&#8217;s Atlassian account. Authentication supports multiple methods: API tokens for Cloud instances, Personal Access Tokens for Server/Data Center, and OAuth 2.0 for production deployments. The server installs cleanly via uvx mcp-atlassian (Python) or Docker, and configuration requires only environment variables for the Atlassian URL and credentials. It works with Claude Desktop, Cursor, VS Code, and any other MCP-compatible client. The project is published on PyPI as mcp-atlassian , has comprehensive documentation at mcp-atlassian.soomiles.com (including llms.txt format for AI consumption), and is licensed under MIT. It supports HTTP transport for remote deployments and includes CI-tested releases. For development teams that live in Jira and Confluence, this server eliminates context switching by letting AI assistants directly interact with project management and documentation workflows.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/atlassian-mcp-server-jira-confluence
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/atlassian-mcp-server-jira-confluence` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

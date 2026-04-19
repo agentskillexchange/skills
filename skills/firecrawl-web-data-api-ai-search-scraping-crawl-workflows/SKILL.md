@@ -1,8 +1,8 @@
 ---
 title: "Firecrawl Web Data API for AI Search Scraping and Crawl Workflows"
-description: "Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots, and agent-oriented endpoints for turning live websites into usable data."
-verification: security_reviewed
+description: "Firecrawl is an open source web data API built for AI applications that need dependable access to live websites. The project offers a unified surface for search, scrape, crawl, map, and browser interaction workflows, which makes it useful for agent systems that need more than a one-off HTML fetch. Rather than forcing developers to stitch together headless browsers, proxy layers, site maps, and post-processing code, Firecrawl packages those concerns into a service and SDKs designed for AI use cases. The upstream project documents endpoints for search , scrape , interact , crawl , and agent . Its output formats include markdown, structured JSON, screenshots, and extracted page content that is easier to feed into LLM pipelines. Firecrawl also publishes an npm package, @mendable/firecrawl-js , and maintains public docs at docs.firecrawl.dev . The quickstart examples show integrations in Node.js, Python, cURL, CLI, and MCP-style setups. On ASE, Firecrawl fits teams building research agents, lead enrichment flows, competitive monitoring, site intelligence, and large-scale content extraction. It is especially relevant when an agent must discover pages, follow links, interact with JavaScript-heavy content, and return normalized outputs instead of brittle raw markup. The GitHub repository, docs, public license, npm package, and strong community adoption all make it a good metadata-verified listing candidate."
 source: "https://github.com/firecrawl/firecrawl"
+verification: "security_reviewed"
 category:
   - "Research &amp; Scraping"
 framework:
@@ -16,31 +16,15 @@ tool_ecosystem:
 
 # Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
 
-Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots, and agent-oriented endpoints for turning live websites into usable data.
+Firecrawl is an open source web data API built for AI applications that need dependable access to live websites. The project offers a unified surface for search, scrape, crawl, map, and browser interaction workflows, which makes it useful for agent systems that need more than a one-off HTML fetch. Rather than forcing developers to stitch together headless browsers, proxy layers, site maps, and post-processing code, Firecrawl packages those concerns into a service and SDKs designed for AI use cases. The upstream project documents endpoints for search , scrape , interact , crawl , and agent . Its output formats include markdown, structured JSON, screenshots, and extracted page content that is easier to feed into LLM pipelines. Firecrawl also publishes an npm package, @mendable/firecrawl-js , and maintains public docs at docs.firecrawl.dev . The quickstart examples show integrations in Node.js, Python, cURL, CLI, and MCP-style setups. On ASE, Firecrawl fits teams building research agents, lead enrichment flows, competitive monitoring, site intelligence, and large-scale content extraction. It is especially relevant when an agent must discover pages, follow links, interact with JavaScript-heavy content, and return normalized outputs instead of brittle raw markup. The GitHub repository, docs, public license, npm package, and strong community adoption all make it a good metadata-verified listing candidate.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Break large coding jobs into focused subagent missions with AB Method"
-description: "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation."
-verification: listed
+description: "Tool: AB Method. This skill gives Claude Code a disciplined decomposition workflow: analyze the project, create a bounded task, split it into missions, execute those missions in order, and keep architecture and progress artifacts updated as the work advances. When to use it: invoke this when a feature or refactor has enough moving parts that context starts to sprawl and the operator needs one-task-at-a-time progress with explicit mission boundaries. It works best when the main problem is scope control and sequencing, not just code generation. Scope boundary: this is not a generic repo of advice and not a plain subagent marketing card. Its boundary is the task-to-mission workflow inside Claude Code, with named commands and generated artifacts that keep large jobs incremental. If the task is simple enough for one direct prompt, this is overkill."
 source: "https://github.com/ayoubben18/ab-method"
+verification: "listed"
 category:
   - "Templates &amp; Workflows"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Break large coding jobs into focused subagent missions with AB Method
 
-Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation.
+Tool: AB Method. This skill gives Claude Code a disciplined decomposition workflow: analyze the project, create a bounded task, split it into missions, execute those missions in order, and keep architecture and progress artifacts updated as the work advances. When to use it: invoke this when a feature or refactor has enough moving parts that context starts to sprawl and the operator needs one-task-at-a-time progress with explicit mission boundaries. It works best when the main problem is scope control and sequencing, not just code generation. Scope boundary: this is not a generic repo of advice and not a plain subagent marketing card. Its boundary is the task-to-mission workflow inside Claude Code, with named commands and generated artifacts that keep large jobs incremental. If the task is simple enough for one direct prompt, this is overkill.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

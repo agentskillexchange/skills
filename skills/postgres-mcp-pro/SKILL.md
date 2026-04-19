@@ -1,8 +1,8 @@
 ---
 title: "Postgres MCP Pro"
-description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
-verification: security_reviewed
+description: "Postgres MCP Pro is an open-source MCP server by Crystal DBA that goes beyond wrapping a database connection. It provides deep database intelligence including index tuning, EXPLAIN plan analysis, health diagnostics, and configurable access controls. Best for Running queries with configurable read-only or full-access modes Diagnosing database performance problems with EXPLAIN plan analysis Getting industrial-strength index tuning recommendations Monitoring database health: connection utilization, buffer cache, vacuum health, replication lag Access modes Three modes: read-only (safe for production monitoring), restricted (allows writes with SQL parsing), and unrestricted (full access for development). Install notes Pull the Docker image: docker pull crystaldba/postgres-mcp . Or install via pip: pipx install postgres-mcp . Configure in your MCP client with your database URI and desired access mode. Supports both stdio and SSE transports. Source: github.com/crystaldba/postgres-mcp"
 source: "https://github.com/crystaldba/postgres-mcp"
+verification: "security_reviewed"
 category:
   - "Data Extraction &amp; Transformation"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Postgres MCP Pro
 
-Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence.
+Postgres MCP Pro is an open-source MCP server by Crystal DBA that goes beyond wrapping a database connection. It provides deep database intelligence including index tuning, EXPLAIN plan analysis, health diagnostics, and configurable access controls. Best for Running queries with configurable read-only or full-access modes Diagnosing database performance problems with EXPLAIN plan analysis Getting industrial-strength index tuning recommendations Monitoring database health: connection utilization, buffer cache, vacuum health, replication lag Access modes Three modes: read-only (safe for production monitoring), restricted (allows writes with SQL parsing), and unrestricted (full access for development). Install notes Pull the Docker image: docker pull crystaldba/postgres-mcp . Or install via pip: pipx install postgres-mcp . Configure in your MCP client with your database URI and desired access mode. Supports both stdio and SSE transports. Source: github.com/crystaldba/postgres-mcp
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/postgres-mcp-pro
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/postgres-mcp-pro` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

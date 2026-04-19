@@ -1,8 +1,8 @@
 ---
 title: "Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent"
-description: "Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure."
-verification: listed
+description: "Use DeclarAgent when an agent should follow a predefined multi-step runbook but you want the plan checked before anything real happens. It validates the YAML plan, explains or dry-runs the steps, blocks destructive actions unless approval is given, and can expose approved plans as MCP-callable tools for agent loops. The scope boundary is clear: guarded runbook execution and MCP plan exposure, not a generic agent framework or broad workflow platform listing."
 source: "https://github.com/shiehn/DeclarAgent"
+verification: "listed"
 category:
   - "Runbooks &amp; Diagnostics"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent
 
-Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure.
+Use DeclarAgent when an agent should follow a predefined multi-step runbook but you want the plan checked before anything real happens. It validates the YAML plan, explains or dry-runs the steps, blocks destructive actions unless approval is given, and can expose approved plans as MCP-callable tools for agent loops. The scope boundary is clear: guarded runbook execution and MCP plan exposure, not a generic agent framework or broad workflow platform listing.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

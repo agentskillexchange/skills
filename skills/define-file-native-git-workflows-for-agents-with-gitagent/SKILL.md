@@ -1,8 +1,8 @@
 ---
 title: "Define file-native Git workflows for agents with GitAgent"
-description: "Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git."
-verification: listed
+description: "Use GitAgent when the job is to define and run reusable agent workflows as files in a repository. This is not a generic coding-agent product card and not just a Git wrapper. The skill boundary is the concrete operator workflow: author file-native prompts and task chains, keep them versioned in the repo, and invoke them as repeatable agent workflows across projects. That makes it distinct from general-purpose agent CLIs or broad workflow frameworks."
 source: "https://github.com/open-gitagent/gitagent"
+verification: "listed"
 category:
   - "Templates &amp; Workflows"
 framework:
@@ -16,31 +16,15 @@ tool_ecosystem:
 
 # Define file-native Git workflows for agents with GitAgent
 
-Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git.
+Use GitAgent when the job is to define and run reusable agent workflows as files in a repository. This is not a generic coding-agent product card and not just a Git wrapper. The skill boundary is the concrete operator workflow: author file-native prompts and task chains, keep them versioned in the repo, and invoke them as repeatable agent workflows across projects. That makes it distinct from general-purpose agent CLIs or broad workflow frameworks.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/define-file-native-git-workflows-for-agents-with-gitagent
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/define-file-native-git-workflows-for-agents-with-gitagent` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

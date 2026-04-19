@@ -1,8 +1,8 @@
 ---
 title: "Selenium WebDriver Browser Automation Framework"
-description: "Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments."
-verification: security_reviewed
+description: "Selenium is one of the foundational browser automation projects on the web, and it remains a practical skill for agents that need reliable, standards-based control over real browsers. The project is maintained by SeleniumHQ and implements the W3C WebDriver specification, which means the same automation concepts translate across Chrome, Firefox, Edge, Safari, and remote Selenium Grid deployments. That matters when an agent workflow needs to run outside a single vendor ecosystem or when teams already have test infrastructure built around WebDriver. In practice, Selenium is useful for login flows, regression checks, form automation, screenshot capture, data extraction from authenticated interfaces, and end-to-end QA for web apps. It supports multiple language bindings, and the official JavaScript package is published as selenium-webdriver on npm. Teams can run tests locally, connect to remote browsers, or scale execution with Selenium Grid for parallel sessions. Because the project has mature docs, broad browser coverage, and deep ecosystem support, it is a safe choice for workflows that need longevity rather than novelty. For agent builders, Selenium fits well when a workflow must interact with sites that depend on real browser events, cookies, redirects, and multi-step UI state. It also pairs cleanly with CI pipelines, containerized browser infrastructure, and existing QA suites. The official documentation covers getting started, browser drivers, Grid, and language-specific setup, which makes it straightforward to integrate into repeatable automation or verification pipelines."
 source: "https://github.com/SeleniumHQ/selenium"
+verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Selenium WebDriver Browser Automation Framework
 
-Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments.
+Selenium is one of the foundational browser automation projects on the web, and it remains a practical skill for agents that need reliable, standards-based control over real browsers. The project is maintained by SeleniumHQ and implements the W3C WebDriver specification, which means the same automation concepts translate across Chrome, Firefox, Edge, Safari, and remote Selenium Grid deployments. That matters when an agent workflow needs to run outside a single vendor ecosystem or when teams already have test infrastructure built around WebDriver. In practice, Selenium is useful for login flows, regression checks, form automation, screenshot capture, data extraction from authenticated interfaces, and end-to-end QA for web apps. It supports multiple language bindings, and the official JavaScript package is published as selenium-webdriver on npm. Teams can run tests locally, connect to remote browsers, or scale execution with Selenium Grid for parallel sessions. Because the project has mature docs, broad browser coverage, and deep ecosystem support, it is a safe choice for workflows that need longevity rather than novelty. For agent builders, Selenium fits well when a workflow must interact with sites that depend on real browser events, cookies, redirects, and multi-step UI state. It also pairs cleanly with CI pipelines, containerized browser infrastructure, and existing QA suites. The official documentation covers getting started, browser drivers, Grid, and language-specific setup, which makes it straightforward to integrate into repeatable automation or verification pipelines.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/selenium-webdriver-browser-automation-framework
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/selenium-webdriver-browser-automation-framework` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

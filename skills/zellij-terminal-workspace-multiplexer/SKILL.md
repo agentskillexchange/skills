@@ -1,8 +1,8 @@
 ---
 title: "Zellij Terminal Workspace and Multiplexer"
-description: "Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a built-in web client. A modern replacement for tmux and screen."
-verification: security_reviewed
+description: "Zellij is a terminal workspace written in Rust that serves as a modern replacement for traditional terminal multiplexers like tmux and screen. With over 30,000 GitHub stars, it has emerged as one of the most actively developed terminal tools, built around the philosophy that simplicity and power can coexist. The skill enables agents to manage terminal sessions, layouts, and pane configurations through Zellij&#8217;s structured interface. Unlike traditional multiplexers that require memorizing key combinations, Zellij provides discoverable keybindings and a built-in UI that guides users through available actions. This makes it suitable for both interactive use and automated workflows. Zellij&#8217;s plugin system uses WebAssembly, allowing plugins written in any language that compiles to WASM to extend functionality. The built-in layout system lets users define workspace configurations declaratively, specifying pane arrangements, default commands, and tab structures. These layouts can be version-controlled and shared across team members. Key features include floating and stacked panes for flexible window management, true multiplayer collaboration where multiple users can share a session in real time, and a built-in web client that makes a local terminal optional. The session persistence system automatically saves and restores workspace state across restarts. Agents can use Zellij to orchestrate multi-pane development environments, run parallel build and test processes, manage long-running services, and create reproducible workspace configurations. The tool supports custom keybindings, themes, and extensive configuration through its KDLTL-based config format. Zellij runs on Linux and macOS with packages available through most system package managers, Homebrew, and Cargo."
 source: "https://github.com/zellij-org/zellij"
+verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Zellij Terminal Workspace and Multiplexer
 
-Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a built-in web client. A modern replacement for tmux and screen.
+Zellij is a terminal workspace written in Rust that serves as a modern replacement for traditional terminal multiplexers like tmux and screen. With over 30,000 GitHub stars, it has emerged as one of the most actively developed terminal tools, built around the philosophy that simplicity and power can coexist. The skill enables agents to manage terminal sessions, layouts, and pane configurations through Zellij&#8217;s structured interface. Unlike traditional multiplexers that require memorizing key combinations, Zellij provides discoverable keybindings and a built-in UI that guides users through available actions. This makes it suitable for both interactive use and automated workflows. Zellij&#8217;s plugin system uses WebAssembly, allowing plugins written in any language that compiles to WASM to extend functionality. The built-in layout system lets users define workspace configurations declaratively, specifying pane arrangements, default commands, and tab structures. These layouts can be version-controlled and shared across team members. Key features include floating and stacked panes for flexible window management, true multiplayer collaboration where multiple users can share a session in real time, and a built-in web client that makes a local terminal optional. The session persistence system automatically saves and restores workspace state across restarts. Agents can use Zellij to orchestrate multi-pane development environments, run parallel build and test processes, manage long-running services, and create reproducible workspace configurations. The tool supports custom keybindings, themes, and extensive configuration through its KDLTL-based config format. Zellij runs on Linux and macOS with packages available through most system package managers, Homebrew, and Cargo.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/zellij-terminal-workspace-multiplexer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/zellij-terminal-workspace-multiplexer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

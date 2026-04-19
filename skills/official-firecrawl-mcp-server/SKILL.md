@@ -1,8 +1,8 @@
 ---
 title: "Official Firecrawl MCP Server"
-description: "Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers."
-verification: security_reviewed
+description: "Official Firecrawl MCP Server is Firecrawl’s maintained MCP bridge for web scraping, search, crawl, and research workflows. It gives MCP-compatible assistants access to Firecrawl’s hosted or self-hosted capabilities, including single-page scraping, site crawling, URL discovery, search, batch scraping, and interactive browser-assisted flows. The point of the project is not generic browser control, but dependable access to web content extraction and discovery tools through a standard MCP interface. The upstream repository documents installation with npx -y firecrawl-mcp and the npm package is published separately as firecrawl-mcp . The server uses FIRECRAWL_API_KEY for the cloud service by default and also supports a custom FIRECRAWL_API_URL for self-hosted instances. The README includes configuration examples for Cursor, Windsurf, VS Code, Claude Desktop, and streamable HTTP mode, which makes the integration story clear for common agent clients. This listing fits Research & Scraping because the concrete job-to-be-done is harvesting and structuring information from the web rather than controlling arbitrary interfaces end to end. It also fits MCP because the Firecrawl functionality is delivered as MCP tools that an agent can call directly. The project has strong verification signals through its official GitHub repository, npm package, public docs, license, and recent maintenance activity, so it passes the intake gate for verified metadata publication."
 source: "https://github.com/firecrawl/firecrawl-mcp-server"
+verification: "security_reviewed"
 category:
   - "Research &amp; Scraping"
 framework:
@@ -16,31 +16,15 @@ tool_ecosystem:
 
 # Official Firecrawl MCP Server
 
-Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers.
+Official Firecrawl MCP Server is Firecrawl’s maintained MCP bridge for web scraping, search, crawl, and research workflows. It gives MCP-compatible assistants access to Firecrawl’s hosted or self-hosted capabilities, including single-page scraping, site crawling, URL discovery, search, batch scraping, and interactive browser-assisted flows. The point of the project is not generic browser control, but dependable access to web content extraction and discovery tools through a standard MCP interface. The upstream repository documents installation with npx -y firecrawl-mcp and the npm package is published separately as firecrawl-mcp . The server uses FIRECRAWL_API_KEY for the cloud service by default and also supports a custom FIRECRAWL_API_URL for self-hosted instances. The README includes configuration examples for Cursor, Windsurf, VS Code, Claude Desktop, and streamable HTTP mode, which makes the integration story clear for common agent clients. This listing fits Research & Scraping because the concrete job-to-be-done is harvesting and structuring information from the web rather than controlling arbitrary interfaces end to end. It also fits MCP because the Firecrawl functionality is delivered as MCP tools that an agent can call directly. The project has strong verification signals through its official GitHub repository, npm package, public docs, license, and recent maintenance activity, so it passes the intake gate for verified metadata publication.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/official-firecrawl-mcp-server
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/official-firecrawl-mcp-server` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

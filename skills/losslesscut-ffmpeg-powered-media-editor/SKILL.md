@@ -1,8 +1,8 @@
 ---
 title: "LosslessCut FFmpeg-Powered Media Editor"
-description: "Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time."
-verification: security_reviewed
+description: "What is LosslessCut? LosslessCut is an open-source cross-platform application for extremely fast, lossless operations on video, audio, subtitle, and other media files. Built as a GUI frontend for FFmpeg, it performs direct data copy (remux) operations that trim, cut, merge, and rearrange media segments without re-encoding — preserving the original codec quality while completing in seconds what traditional video editors take minutes or hours to process. How This Skill Works This skill enables agents to automate media editing workflows using LosslessCut&#8217;s capabilities. The tool accepts virtually any media format that FFmpeg supports (MP4, MKV, MOV, AVI, WebM, MP3, FLAC, WAV, and hundreds more) and performs lossless operations by copying codec data directly without decoding and re-encoding. Agents can define cut points, segment boundaries, and merge operations either through the GUI or by importing/exporting segment data as CSV or JSON for batch processing. Key Capabilities Lossless cutting: Trim and split video/audio files at precise timestamps without quality loss. Smart cut mode enables frame-accurate cutting by re-encoding only the frames at cut boundaries while copying the rest losslessly. Segment management: Cut out unwanted sections (commercials, dead air), rearrange segment order, and export individual segments or merged output. Import/export segment lists as CSV for batch automation. Multi-track editing: Add, remove, replace, or re-order individual tracks (video, audio, subtitle, attachment) from media files. Combine tracks from multiple source files into a single output. Format remuxing: Convert container formats (MP4 to MKV, MOV to MP4, etc.) instantly without transcoding the underlying streams. Fix broken or incomplete media files by remuxing. Frame extraction: Export full-resolution snapshots as JPEG or PNG at any point in the video. Batch export every Nth frame, one per second, or based on scene change detection for thumbnail generation. Metadata editing: View and edit file-level metadata, per-track metadata, chapter markers, and track disposition flags. Inspect detailed codec and format information via embedded MediaInfo. Integration Points LosslessCut is built on Electron and uses FFmpeg for all media operations. It supports CLI invocation for headless batch processing scenarios. Segment lists can be imported/exported as CSV, enabling programmatic generation of edit decision lists from external analysis tools. The application reads any format FFmpeg supports and writes to major container formats including MP4 (H.264/H.265), MKV, MOV, WebM, and audio containers like MP3, M4A, FLAC, and OGG. It runs on Windows, macOS, and Linux. Source GitHub: mifi/lossless-cut (39.4K+ stars, GPL-2.0 license)"
 source: "https://github.com/mifi/lossless-cut"
+verification: "security_reviewed"
 category:
   - "Media &amp; Transcription"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # LosslessCut FFmpeg-Powered Media Editor
 
-Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time.
+What is LosslessCut? LosslessCut is an open-source cross-platform application for extremely fast, lossless operations on video, audio, subtitle, and other media files. Built as a GUI frontend for FFmpeg, it performs direct data copy (remux) operations that trim, cut, merge, and rearrange media segments without re-encoding — preserving the original codec quality while completing in seconds what traditional video editors take minutes or hours to process. How This Skill Works This skill enables agents to automate media editing workflows using LosslessCut&#8217;s capabilities. The tool accepts virtually any media format that FFmpeg supports (MP4, MKV, MOV, AVI, WebM, MP3, FLAC, WAV, and hundreds more) and performs lossless operations by copying codec data directly without decoding and re-encoding. Agents can define cut points, segment boundaries, and merge operations either through the GUI or by importing/exporting segment data as CSV or JSON for batch processing. Key Capabilities Lossless cutting: Trim and split video/audio files at precise timestamps without quality loss. Smart cut mode enables frame-accurate cutting by re-encoding only the frames at cut boundaries while copying the rest losslessly. Segment management: Cut out unwanted sections (commercials, dead air), rearrange segment order, and export individual segments or merged output. Import/export segment lists as CSV for batch automation. Multi-track editing: Add, remove, replace, or re-order individual tracks (video, audio, subtitle, attachment) from media files. Combine tracks from multiple source files into a single output. Format remuxing: Convert container formats (MP4 to MKV, MOV to MP4, etc.) instantly without transcoding the underlying streams. Fix broken or incomplete media files by remuxing. Frame extraction: Export full-resolution snapshots as JPEG or PNG at any point in the video. Batch export every Nth frame, one per second, or based on scene change detection for thumbnail generation. Metadata editing: View and edit file-level metadata, per-track metadata, chapter markers, and track disposition flags. Inspect detailed codec and format information via embedded MediaInfo. Integration Points LosslessCut is built on Electron and uses FFmpeg for all media operations. It supports CLI invocation for headless batch processing scenarios. Segment lists can be imported/exported as CSV, enabling programmatic generation of edit decision lists from external analysis tools. The application reads any format FFmpeg supports and writes to major container formats including MP4 (H.264/H.265), MKV, MOV, WebM, and audio containers like MP3, M4A, FLAC, and OGG. It runs on Windows, macOS, and Linux. Source GitHub: mifi/lossless-cut (39.4K+ stars, GPL-2.0 license)
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/losslesscut-ffmpeg-powered-media-editor
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/losslesscut-ffmpeg-powered-media-editor` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

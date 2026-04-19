@@ -1,8 +1,8 @@
 ---
 title: "PocketBase Open Source Realtime Backend in a Single Binary"
-description: "PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file and user management, a convenient admin dashboard UI, and a simple REST-ish API."
-verification: security_reviewed
+description: "PocketBase is an open-source backend framework written in Go that packages everything needed for a backend into a single portable executable. It provides an embedded SQLite database with realtime subscriptions, built-in file storage and user management, an admin dashboard UI, and a REST API — all without external dependencies. This makes it ideal for prototyping, small-to-medium applications, and scenarios where deployment simplicity is paramount. Architecture and Features PocketBase uses SQLite as its embedded database engine, which means zero database setup and administration. It supports realtime subscriptions via Server-Sent Events, allowing clients to receive live updates when data changes. The built-in admin dashboard provides a visual interface for managing collections, records, users, and settings. Authentication supports email/password, OAuth2 providers, and API keys out of the box. Extensibility PocketBase can be extended in two ways. As a Go library, developers can import PocketBase into their own Go applications and add custom routes, hooks, and business logic while still producing a single executable. Alternatively, the prebuilt executable includes a JavaScript VM (powered by Goja) that allows extending PocketBase with JavaScript without recompiling. Official SDK clients are available for JavaScript (Browser, Node.js, React Native) and Dart (Web, Mobile, Desktop, CLI). Agent Integration An AI agent can use PocketBase as a lightweight backend for agent state management, conversation history storage, user session tracking, and file management. The REST API enables agents to create and query collections, manage user authentication, store and retrieve files, and subscribe to realtime data changes. The single-binary deployment model makes it trivial to spin up backends for agent-powered applications without infrastructure complexity."
 source: "https://github.com/pocketbase/pocketbase"
+verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # PocketBase Open Source Realtime Backend in a Single Binary
 
-PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file and user management, a convenient admin dashboard UI, and a simple REST-ish API.
+PocketBase is an open-source backend framework written in Go that packages everything needed for a backend into a single portable executable. It provides an embedded SQLite database with realtime subscriptions, built-in file storage and user management, an admin dashboard UI, and a REST API — all without external dependencies. This makes it ideal for prototyping, small-to-medium applications, and scenarios where deployment simplicity is paramount. Architecture and Features PocketBase uses SQLite as its embedded database engine, which means zero database setup and administration. It supports realtime subscriptions via Server-Sent Events, allowing clients to receive live updates when data changes. The built-in admin dashboard provides a visual interface for managing collections, records, users, and settings. Authentication supports email/password, OAuth2 providers, and API keys out of the box. Extensibility PocketBase can be extended in two ways. As a Go library, developers can import PocketBase into their own Go applications and add custom routes, hooks, and business logic while still producing a single executable. Alternatively, the prebuilt executable includes a JavaScript VM (powered by Goja) that allows extending PocketBase with JavaScript without recompiling. Official SDK clients are available for JavaScript (Browser, Node.js, React Native) and Dart (Web, Mobile, Desktop, CLI). Agent Integration An AI agent can use PocketBase as a lightweight backend for agent state management, conversation history storage, user session tracking, and file management. The REST API enables agents to create and query collections, manage user authentication, store and retrieve files, and subscribe to realtime data changes. The single-binary deployment model makes it trivial to spin up backends for agent-powered applications without infrastructure complexity.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pocketbase-open-source-realtime-backend-single-binary
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/pocketbase-open-source-realtime-backend-single-binary` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

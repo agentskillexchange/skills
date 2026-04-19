@@ -1,8 +1,8 @@
 ---
 title: "OWASP ZAP API Security Auditor"
-description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP's Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
-verification: security_reviewed
+description: "The OWASP ZAP API Security Auditor skill leverages the OWASP Zed Attack Proxy (ZAP) Python API to perform Dynamic Application Security Testing (DAST) against web applications and APIs. It supports both active scanning with configurable attack policies and passive scanning for information disclosure detection. The skill orchestrates ZAP&#8217;s spider and AJAX spider modules to discover API endpoints, then runs targeted scans using ZAP&#8217;s scan policies. It parses OpenAPI/Swagger specifications to seed the scanner with endpoint definitions and authentication contexts. Results are enriched with CWE and OWASP Top 10 mappings. Advanced features include authenticated scanning with session token management, GraphQL introspection-based endpoint discovery, and automated false positive suppression using context-aware heuristics. Output formats include HTML reports, JSON for CI integration, and SARIF for GitHub Advanced Security. The skill also generates suggested ModSecurity or Cloudflare WAF rules based on detected vulnerabilities."
 source: "https://github.com/zaproxy/zaproxy"
+verification: "security_reviewed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # OWASP ZAP API Security Auditor
 
-Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP's Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
+The OWASP ZAP API Security Auditor skill leverages the OWASP Zed Attack Proxy (ZAP) Python API to perform Dynamic Application Security Testing (DAST) against web applications and APIs. It supports both active scanning with configurable attack policies and passive scanning for information disclosure detection. The skill orchestrates ZAP&#8217;s spider and AJAX spider modules to discover API endpoints, then runs targeted scans using ZAP&#8217;s scan policies. It parses OpenAPI/Swagger specifications to seed the scanner with endpoint definitions and authentication contexts. Results are enriched with CWE and OWASP Top 10 mappings. Advanced features include authenticated scanning with session token management, GraphQL introspection-based endpoint discovery, and automated false positive suppression using context-aware heuristics. Output formats include HTML reports, JSON for CI integration, and SARIF for GitHub Advanced Security. The skill also generates suggested ModSecurity or Cloudflare WAF rules based on detected vulnerabilities.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/owasp-zap-api-security-auditor
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/owasp-zap-api-security-auditor` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

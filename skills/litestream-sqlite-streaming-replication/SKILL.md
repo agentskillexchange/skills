@@ -1,8 +1,8 @@
 ---
 title: "Litestream SQLite Streaming Replication"
-description: "Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database with disaster recovery."
-verification: security_reviewed
+description: "Litestream is a standalone streaming replication tool for SQLite databases. With over 13,000 GitHub stars and an Apache-2.0 license, it solves the biggest limitation of SQLite in production: the lack of built-in replication and backup. Litestream runs as a background process alongside your application and safely replicates changes incrementally to external storage. The replication mechanism works by monitoring SQLite WAL (Write-Ahead Logging) frames and streaming them to one or more replica destinations. Supported destinations include Amazon S3, Google Cloud Storage, Azure Blob Storage, SFTP servers, and local file paths. Because it operates through the SQLite API rather than copying raw database files, Litestream never corrupts your database and never requires your application to pause. Recovery is straightforward. The litestream restore command reconstructs a complete SQLite database from the replica, replaying WAL frames to reach the latest consistent state. Point-in-time recovery is supported: you can restore to any specific timestamp, not just the latest backup. This makes Litestream suitable for production applications where data loss windows must be minimized. Litestream operates with minimal configuration. A simple YAML config file specifies the database path and replica destinations. The litestream replicate command starts continuous replication, and it can be managed as a systemd service for production deployments. Retention policies control how long historical WAL frames are kept, balancing storage costs against recovery flexibility. For AI agents managing applications that use SQLite as their primary database, Litestream provides automated disaster recovery without requiring a switch to a client-server database like PostgreSQL. An agent can configure replication to cloud storage, verify replica health with litestream snapshots, test recovery procedures, and monitor replication lag. The tool installs via Homebrew, apt, or standalone binary downloads."
 source: "https://github.com/benbjohnson/litestream"
+verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Litestream SQLite Streaming Replication
 
-Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database with disaster recovery.
+Litestream is a standalone streaming replication tool for SQLite databases. With over 13,000 GitHub stars and an Apache-2.0 license, it solves the biggest limitation of SQLite in production: the lack of built-in replication and backup. Litestream runs as a background process alongside your application and safely replicates changes incrementally to external storage. The replication mechanism works by monitoring SQLite WAL (Write-Ahead Logging) frames and streaming them to one or more replica destinations. Supported destinations include Amazon S3, Google Cloud Storage, Azure Blob Storage, SFTP servers, and local file paths. Because it operates through the SQLite API rather than copying raw database files, Litestream never corrupts your database and never requires your application to pause. Recovery is straightforward. The litestream restore command reconstructs a complete SQLite database from the replica, replaying WAL frames to reach the latest consistent state. Point-in-time recovery is supported: you can restore to any specific timestamp, not just the latest backup. This makes Litestream suitable for production applications where data loss windows must be minimized. Litestream operates with minimal configuration. A simple YAML config file specifies the database path and replica destinations. The litestream replicate command starts continuous replication, and it can be managed as a systemd service for production deployments. Retention policies control how long historical WAL frames are kept, balancing storage costs against recovery flexibility. For AI agents managing applications that use SQLite as their primary database, Litestream provides automated disaster recovery without requiring a switch to a client-server database like PostgreSQL. An agent can configure replication to cloud storage, verify replica health with litestream snapshots, test recovery procedures, and monitor replication lag. The tool installs via Homebrew, apt, or standalone binary downloads.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/litestream-sqlite-streaming-replication
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/litestream-sqlite-streaming-replication` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

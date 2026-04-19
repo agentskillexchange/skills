@@ -1,8 +1,8 @@
 ---
 title: "Statamic Laravel Git-Powered CMS"
-description: "Builds content workflows around Statamic, the Laravel-based CMS that stores content in flat files and Git while still offering a full control panel and extensible data model. Useful for teams that want version-controlled content, custom collections, and modern Laravel deployment patterns."
-verification: security_reviewed
+description: "Statamic Laravel Git-Powered CMS is anchored to the real Statamic project, an open-source CMS built on Laravel and designed around a flat-first, Git-friendly publishing model. The upstream core repository describes it as the core Laravel CMS Composer package, and the official documentation centers on self-hosted installs, control-panel editing, collections, blueprints, taxonomies, forms, assets, and static or dynamic delivery patterns. That makes it a practical fit for agents that need to manage structured content without forcing a database-first workflow. In practice, this skill is useful when an agent needs to create or update entries, manage content models, reason about collection structure, generate navigation, or automate editorial operations in repositories where content lives alongside code. Because Statamic runs inside Laravel, it also integrates naturally with Laravel queues, custom addons, Blade or Antlers templating, and deployment pipelines that already use Composer, Forge, Ploi, Sail, or standard VPS hosting. The Git-backed content model is especially helpful when teams want peer review, branch-based staging, or human-readable diffs for content changes. Integration points include the Statamic control panel, Laravel application code, addon development, starter kits, and deployment automation. The official install docs show multiple supported paths, including the Statamic CLI and Laravel-based self-hosted setups, so this skill maps well to repeatable CMS setup, content migration, and structured publishing workflows."
 source: "https://github.com/statamic/cms"
+verification: "security_reviewed"
 category:
   - "WordPress &amp; CMS"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Statamic Laravel Git-Powered CMS
 
-Builds content workflows around Statamic, the Laravel-based CMS that stores content in flat files and Git while still offering a full control panel and extensible data model. Useful for teams that want version-controlled content, custom collections, and modern Laravel deployment patterns.
+Statamic Laravel Git-Powered CMS is anchored to the real Statamic project, an open-source CMS built on Laravel and designed around a flat-first, Git-friendly publishing model. The upstream core repository describes it as the core Laravel CMS Composer package, and the official documentation centers on self-hosted installs, control-panel editing, collections, blueprints, taxonomies, forms, assets, and static or dynamic delivery patterns. That makes it a practical fit for agents that need to manage structured content without forcing a database-first workflow. In practice, this skill is useful when an agent needs to create or update entries, manage content models, reason about collection structure, generate navigation, or automate editorial operations in repositories where content lives alongside code. Because Statamic runs inside Laravel, it also integrates naturally with Laravel queues, custom addons, Blade or Antlers templating, and deployment pipelines that already use Composer, Forge, Ploi, Sail, or standard VPS hosting. The Git-backed content model is especially helpful when teams want peer review, branch-based staging, or human-readable diffs for content changes. Integration points include the Statamic control panel, Laravel application code, addon development, starter kits, and deployment automation. The official install docs show multiple supported paths, including the Statamic CLI and Laravel-based self-hosted setups, so this skill maps well to repeatable CMS setup, content migration, and structured publishing workflows.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/statamic-laravel-git-powered-cms
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/statamic-laravel-git-powered-cms` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

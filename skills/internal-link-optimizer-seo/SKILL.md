@@ -1,8 +1,8 @@
 ---
 title: "Internal Link Optimizer"
-description: "Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements."
-verification: security_reviewed
+description: "The Internal Link Optimizer analyzes and improves website internal linking architecture using graph theory applied to crawl data. It processes Screaming Frog SEO Spider XML exports or sitemap data to build comprehensive link graphs with NetworkX for structural analysis. Core analysis includes orphan page detection, link depth calculation from homepage, PageRank distribution modeling, and internal link equity flow visualization. The agent identifies pages with insufficient internal links, over-linked pages that dilute link equity, and broken internal link chains that create crawl dead ends. Advanced capabilities include automated anchor text optimization suggestions based on target keyword mapping, topical cluster identification using content similarity scoring, and hub-and-spoke linking pattern generation. The agent creates actionable link insertion recommendations with specific source pages, target URLs, and suggested anchor text. It also monitors link structure changes over time, alerting when new content is published without adequate internal linking."
 source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
+verification: "security_reviewed"
 category:
   - "Content Writing &amp; SEO"
 framework:
@@ -11,31 +11,15 @@ framework:
 
 # Internal Link Optimizer
 
-Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements.
+The Internal Link Optimizer analyzes and improves website internal linking architecture using graph theory applied to crawl data. It processes Screaming Frog SEO Spider XML exports or sitemap data to build comprehensive link graphs with NetworkX for structural analysis. Core analysis includes orphan page detection, link depth calculation from homepage, PageRank distribution modeling, and internal link equity flow visualization. The agent identifies pages with insufficient internal links, over-linked pages that dilute link equity, and broken internal link chains that create crawl dead ends. Advanced capabilities include automated anchor text optimization suggestions based on target keyword mapping, topical cluster identification using content similarity scoring, and hub-and-spoke linking pattern generation. The agent creates actionable link insertion recommendations with specific source pages, target URLs, and suggested anchor text. It also monitors link structure changes over time, alerting when new content is published without adequate internal linking.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/internal-link-optimizer-seo
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/internal-link-optimizer-seo` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "GitHub Actions Matrix Orchestrator"
-description: "Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments."
-verification: security_reviewed
+description: "Overview The GitHub Actions Matrix Orchestrator dynamically generates CI/CD matrix strategies for complex multi-platform builds. By leveraging the GitHub REST API&#8217;s workflow dispatch endpoint and the actions/github-script action, it creates conditional job matrices that adapt based on changed files, branch names, or PR labels. Key Capabilities This skill handles OIDC token federation for cross-account AWS deployments, enabling secure assume-role operations without storing long-lived credentials. It analyzes dorny/paths-filter outputs to determine which matrix combinations are necessary, reducing unnecessary CI minutes. The orchestrator supports reusable workflow composition with workflow_call triggers and dynamic job generation through JSON matrix output steps. Technical Integration Integrates with GitHub&#8217;s check runs API for granular status reporting, supports concurrency groups for deployment serialization, and manages artifact retention policies through the actions/upload-artifact v4 API. Compatible with self-hosted runners using custom labels and runner groups."
 source: "https://docs.github.com/en/actions"
+verification: "security_reviewed"
 category:
   - "CI/CD Integrations"
 framework:
@@ -11,31 +11,15 @@ framework:
 
 # GitHub Actions Matrix Orchestrator
 
-Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments.
+Overview The GitHub Actions Matrix Orchestrator dynamically generates CI/CD matrix strategies for complex multi-platform builds. By leveraging the GitHub REST API&#8217;s workflow dispatch endpoint and the actions/github-script action, it creates conditional job matrices that adapt based on changed files, branch names, or PR labels. Key Capabilities This skill handles OIDC token federation for cross-account AWS deployments, enabling secure assume-role operations without storing long-lived credentials. It analyzes dorny/paths-filter outputs to determine which matrix combinations are necessary, reducing unnecessary CI minutes. The orchestrator supports reusable workflow composition with workflow_call triggers and dynamic job generation through JSON matrix output steps. Technical Integration Integrates with GitHub&#8217;s check runs API for granular status reporting, supports concurrency groups for deployment serialization, and manages artifact retention policies through the actions/upload-artifact v4 API. Compatible with self-hosted runners using custom labels and runner groups.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/github-actions-matrix-orchestrator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/github-actions-matrix-orchestrator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

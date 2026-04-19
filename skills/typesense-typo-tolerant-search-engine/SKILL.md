@@ -1,8 +1,8 @@
 ---
 title: "Typesense Typo-Tolerant Search Engine"
-description: "Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering."
-verification: security_reviewed
+description: "Typesense is a high-performance, open-source search engine designed from the ground up for speed and developer ergonomics. Written in C++ and distributed as a single binary and Docker image, Typesense delivers sub-50ms search latency even on datasets with tens of millions of documents. With over 25,000 GitHub stars and a GPL-3.0 license, it has become the leading open-source alternative to Algolia and a simpler alternative to Elasticsearch for teams that need fast, typo-tolerant search without operational complexity. The engine handles typographical errors gracefully out of the box — users can misspell words and still get relevant results without any special configuration. Beyond basic full-text search, Typesense supports faceted navigation with counts, geo-search with distance-based filtering and sorting, vector search for semantic and hybrid retrieval, synonyms, curation and pinning of results, and dynamic sorting. The query language supports filtering, grouping, and multi-field weighted search with fine-grained relevance tuning. Typesense exposes a RESTful JSON API with official client libraries for JavaScript/TypeScript, Python, Ruby, PHP, Java, Go, C#, Rust, Dart, and Swift. The InstantSearch.js adapter lets you use Algolia&#8217;s popular InstantSearch UI components directly with a Typesense backend, making migration from Algolia straightforward. For high availability, Typesense supports Raft-based clustering with automatic leader election and data replication across nodes. For agent and automation workflows, Typesense provides a powerful indexing and retrieval layer. Agents can use the API to create collections with defined schemas, index documents in real time, and execute complex search queries programmatically. The vector search capability makes Typesense suitable as a lightweight vector store for RAG pipelines, combining keyword and semantic search in a single query. The Docker-based deployment and zero-configuration approach means agents can spin up search infrastructure as part of automated workflows without managing Elasticsearch clusters or paying for hosted search services."
 source: "https://github.com/typesense/typesense"
+verification: "security_reviewed"
 category:
   - "Data Extraction &amp; Transformation"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Typesense Typo-Tolerant Search Engine
 
-Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering.
+Typesense is a high-performance, open-source search engine designed from the ground up for speed and developer ergonomics. Written in C++ and distributed as a single binary and Docker image, Typesense delivers sub-50ms search latency even on datasets with tens of millions of documents. With over 25,000 GitHub stars and a GPL-3.0 license, it has become the leading open-source alternative to Algolia and a simpler alternative to Elasticsearch for teams that need fast, typo-tolerant search without operational complexity. The engine handles typographical errors gracefully out of the box — users can misspell words and still get relevant results without any special configuration. Beyond basic full-text search, Typesense supports faceted navigation with counts, geo-search with distance-based filtering and sorting, vector search for semantic and hybrid retrieval, synonyms, curation and pinning of results, and dynamic sorting. The query language supports filtering, grouping, and multi-field weighted search with fine-grained relevance tuning. Typesense exposes a RESTful JSON API with official client libraries for JavaScript/TypeScript, Python, Ruby, PHP, Java, Go, C#, Rust, Dart, and Swift. The InstantSearch.js adapter lets you use Algolia&#8217;s popular InstantSearch UI components directly with a Typesense backend, making migration from Algolia straightforward. For high availability, Typesense supports Raft-based clustering with automatic leader election and data replication across nodes. For agent and automation workflows, Typesense provides a powerful indexing and retrieval layer. Agents can use the API to create collections with defined schemas, index documents in real time, and execute complex search queries programmatically. The vector search capability makes Typesense suitable as a lightweight vector store for RAG pipelines, combining keyword and semantic search in a single query. The Docker-based deployment and zero-configuration approach means agents can spin up search infrastructure as part of automated workflows without managing Elasticsearch clusters or paying for hosted search services.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/typesense-typo-tolerant-search-engine
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/typesense-typo-tolerant-search-engine` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

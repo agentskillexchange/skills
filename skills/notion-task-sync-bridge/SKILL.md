@@ -1,8 +1,8 @@
 ---
 title: "Notion Task Sync Bridge"
-description: "Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields."
-verification: security_reviewed
+description: "The Notion Task Sync Bridge skill establishes real-time bidirectional synchronization between Notion databases and external task management platforms. Using the Notion API v2022-06-28 with the databases/{id}/query POST endpoint, it polls for changes using the filter and sorts parameters. Property mapping supports all Notion property types including select, multi-select, date, relation, and rollup fields. The skill handles Notion&#8217;s pagination via the start_cursor and has_more response fields for databases with thousands of entries. Status updates are pushed via the pages/{id} PATCH endpoint with property-level granularity. Relation fields are resolved by cross-referencing linked databases through the /databases/{id} GET endpoint schema. Conflict resolution uses last-write-wins with configurable merge strategies for simultaneous edits. The skill maintains a local SQLite state database for tracking sync cursors and preventing duplicate operations. Webhook support via the Notion API integration enables near-instant change detection."
 source: "https://github.com/makenotion/notion-sdk-js"
+verification: "security_reviewed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -16,31 +16,15 @@ tool_ecosystem:
 
 # Notion Task Sync Bridge
 
-Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields.
+The Notion Task Sync Bridge skill establishes real-time bidirectional synchronization between Notion databases and external task management platforms. Using the Notion API v2022-06-28 with the databases/{id}/query POST endpoint, it polls for changes using the filter and sorts parameters. Property mapping supports all Notion property types including select, multi-select, date, relation, and rollup fields. The skill handles Notion&#8217;s pagination via the start_cursor and has_more response fields for databases with thousands of entries. Status updates are pushed via the pages/{id} PATCH endpoint with property-level granularity. Relation fields are resolved by cross-referencing linked databases through the /databases/{id} GET endpoint schema. Conflict resolution uses last-write-wins with configurable merge strategies for simultaneous edits. The skill maintains a local SQLite state database for tracking sync cursors and preventing duplicate operations. Webhook support via the Notion API integration enables near-instant change detection.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/notion-task-sync-bridge
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/notion-task-sync-bridge` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

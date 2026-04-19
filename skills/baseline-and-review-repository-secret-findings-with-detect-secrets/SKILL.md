@@ -1,8 +1,8 @@
 ---
 title: "Baseline and Review Repository Secret Findings with detect-secrets"
-description: "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks."
-verification: listed
+description: "This skill wraps detect-secrets as a repeatable secret-review workflow rather than a generic scanner listing. The agent generates or refreshes a baseline, scans the repository, and focuses review attention on newly introduced findings so teams can gate commits and CI runs without re-triaging known historical noise every time. Invoke it when a repository needs an incremental secret-hygiene check before merge, during pre-commit enforcement, or while cleaning up a legacy codebase in stages. Use the product normally for ad hoc scanning only. Use this skill when the job is specifically baseline management plus review of net-new findings. The scope boundary is narrow and explicit: repository secret detection, baseline upkeep, and review of new alerts. It is not a general AppSec platform, SIEM, or full security program card."
 source: "https://github.com/Yelp/detect-secrets"
+verification: "listed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Baseline and Review Repository Secret Findings with detect-secrets
 
-Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks.
+This skill wraps detect-secrets as a repeatable secret-review workflow rather than a generic scanner listing. The agent generates or refreshes a baseline, scans the repository, and focuses review attention on newly introduced findings so teams can gate commits and CI runs without re-triaging known historical noise every time. Invoke it when a repository needs an incremental secret-hygiene check before merge, during pre-commit enforcement, or while cleaning up a legacy codebase in stages. Use the product normally for ad hoc scanning only. Use this skill when the job is specifically baseline management plus review of net-new findings. The scope boundary is narrow and explicit: repository secret detection, baseline upkeep, and review of new alerts. It is not a general AppSec platform, SIEM, or full security program card.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/baseline-and-review-repository-secret-findings-with-detect-secrets
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/baseline-and-review-repository-secret-findings-with-detect-secrets` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

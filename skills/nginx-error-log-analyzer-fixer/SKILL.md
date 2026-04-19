@@ -1,8 +1,8 @@
 ---
 title: "Nginx Error Log Analyzer and Fixer"
-description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
-verification: security_reviewed
+description: "This skill automates Nginx troubleshooting by parsing error logs and access logs to identify recurring issues and their root causes. It processes logs using GoAccess for real-time statistical analysis, generating reports on error rate trends, upstream timeout patterns, and client error distributions. For 502 Bad Gateway errors, it checks upstream server health, FastCGI/proxy_pass configurations, and backend service status via systemctl. For 504 Gateway Timeouts, it analyzes proxy_read_timeout and fastcgi_read_timeout settings against actual response times. The skill validates configuration changes with nginx -t before applying them, and uses nginx -T to dump the full effective configuration for analysis. It integrates with fail2ban log parsing to correlate security events with error spikes. The analyzer generates remediation scripts that adjust buffer sizes, timeout values, worker_connections, and rate limiting rules, with before/after configuration diffs for review."
 source: "https://github.com/nginx/nginx"
+verification: "security_reviewed"
 category:
   - "Runbooks &amp; Diagnostics"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Nginx Error Log Analyzer and Fixer
 
-Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation.
+This skill automates Nginx troubleshooting by parsing error logs and access logs to identify recurring issues and their root causes. It processes logs using GoAccess for real-time statistical analysis, generating reports on error rate trends, upstream timeout patterns, and client error distributions. For 502 Bad Gateway errors, it checks upstream server health, FastCGI/proxy_pass configurations, and backend service status via systemctl. For 504 Gateway Timeouts, it analyzes proxy_read_timeout and fastcgi_read_timeout settings against actual response times. The skill validates configuration changes with nginx -t before applying them, and uses nginx -T to dump the full effective configuration for analysis. It integrates with fail2ban log parsing to correlate security events with error spikes. The analyzer generates remediation scripts that adjust buffer sizes, timeout values, worker_connections, and rate limiting rules, with before/after configuration diffs for review.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nginx-error-log-analyzer-fixer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/nginx-error-log-analyzer-fixer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

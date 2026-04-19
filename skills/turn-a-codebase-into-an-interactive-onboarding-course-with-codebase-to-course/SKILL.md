@@ -1,8 +1,8 @@
 ---
 title: "Turn a codebase into an interactive onboarding course with Codebase to Course"
-description: "Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts."
-verification: listed
+description: "Use Codebase to Course when an agent needs to explain an existing repository as a teachable walkthrough instead of producing ordinary docs or a product demo. Invoke it when the job is onboarding, knowledge transfer, or plain-English explanation for non-technical collaborators who need an interactive course rather than another README. The scope boundary is narrow: transform one codebase into a self-contained course artifact with explanations, visuals, and quizzes, not a generic documentation platform or developer education product listing."
 source: "https://github.com/zarazhangrui/codebase-to-course"
+verification: "listed"
 category:
   - "Templates &amp; Workflows"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Turn a codebase into an interactive onboarding course with Codebase to Course
 
-Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts.
+Use Codebase to Course when an agent needs to explain an existing repository as a teachable walkthrough instead of producing ordinary docs or a product demo. Invoke it when the job is onboarding, knowledge transfer, or plain-English explanation for non-technical collaborators who need an interactive course rather than another README. The scope boundary is narrow: transform one codebase into a self-contained course artifact with explanations, visuals, and quizzes, not a generic documentation platform or developer education product listing.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

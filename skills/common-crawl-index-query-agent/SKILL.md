@@ -1,8 +1,8 @@
 ---
 title: "Common Crawl Index Query Agent"
-description: "Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access."
-verification: security_reviewed
+description: "The Common Crawl Index Query Agent enables large-scale web research by querying the Common Crawl CDX Server API for historical web page snapshots across petabytes of archived web data. It constructs efficient index queries using URL prefix matching, domain filtering, and MIME type constraints to locate specific WARC records. The agent retrieves WARC records from the Common Crawl S3 bucket (s3://commoncrawl) using byte-range requests based on offset and length values from CDX API responses. It parses WARC files using the warcio library, extracting HTTP headers and response bodies from warcrecord objects for content analysis. Advanced features include parallel CDX pagination for high-volume queries across multiple crawl indices, content deduplication using simhash digest values from the CDX API, and temporal analysis by querying across multiple monthly crawl archives (CC-MAIN-YYYY-WW). The agent also integrates with the columnar index format for SQL-like queries via Amazon Athena, and implements robots.txt compliance checking using the urllib.robotparser module against archived robots.txt snapshots."
 source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
+verification: "security_reviewed"
 category:
   - "Research &amp; Scraping"
 framework:
@@ -11,31 +11,15 @@ framework:
 
 # Common Crawl Index Query Agent
 
-Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access.
+The Common Crawl Index Query Agent enables large-scale web research by querying the Common Crawl CDX Server API for historical web page snapshots across petabytes of archived web data. It constructs efficient index queries using URL prefix matching, domain filtering, and MIME type constraints to locate specific WARC records. The agent retrieves WARC records from the Common Crawl S3 bucket (s3://commoncrawl) using byte-range requests based on offset and length values from CDX API responses. It parses WARC files using the warcio library, extracting HTTP headers and response bodies from warcrecord objects for content analysis. Advanced features include parallel CDX pagination for high-volume queries across multiple crawl indices, content deduplication using simhash digest values from the CDX API, and temporal analysis by querying across multiple monthly crawl archives (CC-MAIN-YYYY-WW). The agent also integrates with the columnar index format for SQL-like queries via Amazon Athena, and implements robots.txt compliance checking using the urllib.robotparser module against archived robots.txt snapshots.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/common-crawl-index-query-agent
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/common-crawl-index-query-agent` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "SuperTokens Open Source Authentication Platform and Auth0 Alternative"
-description: "SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social auth, MFA, session management, and multi-tenancy with SDKs for Node.js, Python, Go, and popular frontend frameworks."
-verification: security_reviewed
+description: "SuperTokens is an open-source authentication solution designed as a drop-in replacement for proprietary services like Auth0, Firebase Auth, and AWS Cognito. With nearly 15,000 GitHub stars, it provides a complete authentication stack that can be self-hosted with full data ownership, or used via the managed cloud service. Architecture SuperTokens uses a three-tier architecture: a Frontend SDK that manages session tokens and renders login UI widgets, a Backend SDK that provides sign-up/sign-in/session APIs, and the SuperTokens Core service (written in Java) that handles auth logic and database operations. This separation allows the auth logic to run independently while integrating tightly with your application stack. Authentication Methods The platform supports multiple authentication strategies out of the box: email/password login, passwordless authentication (magic links and OTP via email or SMS), social login (Google, Apple, Facebook, GitHub, and more via custom providers), and phone/password login. Multi-factor authentication adds TOTP-based second factors for enhanced security. Enterprise Features SuperTokens includes multi-tenancy and organization support for B2B SaaS applications, enterprise SSO via SAML and OIDC, user roles and permissions for fine-grained access control, and a user management dashboard for administrative operations. These features make it suitable for applications ranging from single-product startups to complex multi-tenant platforms. Session Management The session layer implements rotating refresh tokens with automatic token theft detection. Sessions support custom claims, role-based access, and are designed to be secure against CSRF and XSS attacks by default. The architecture supports both cookie-based and header-based token delivery. SDK Ecosystem Backend SDKs are available for Node.js, Python (Flask, Django, FastAPI), and Go (net/http, Gin, Chi). Frontend SDKs cover React, React Native, Angular, Vue, vanilla JavaScript, iOS, Android, and Flutter. Each SDK provides pre-built UI components for login flows that can be customized or replaced entirely with custom implementations. Deployment Self-hosted deployment runs the SuperTokens Core as a Docker container alongside PostgreSQL or MySQL. The entire stack can run via Docker Compose with a single command. There are no user count limits on the open-source edition, and all core auth features are available for free."
 source: "https://github.com/supertokens/supertokens-core"
+verification: "security_reviewed"
 category:
   - "Security &amp; Verification"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # SuperTokens Open Source Authentication Platform and Auth0 Alternative
 
-SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social auth, MFA, session management, and multi-tenancy with SDKs for Node.js, Python, Go, and popular frontend frameworks.
+SuperTokens is an open-source authentication solution designed as a drop-in replacement for proprietary services like Auth0, Firebase Auth, and AWS Cognito. With nearly 15,000 GitHub stars, it provides a complete authentication stack that can be self-hosted with full data ownership, or used via the managed cloud service. Architecture SuperTokens uses a three-tier architecture: a Frontend SDK that manages session tokens and renders login UI widgets, a Backend SDK that provides sign-up/sign-in/session APIs, and the SuperTokens Core service (written in Java) that handles auth logic and database operations. This separation allows the auth logic to run independently while integrating tightly with your application stack. Authentication Methods The platform supports multiple authentication strategies out of the box: email/password login, passwordless authentication (magic links and OTP via email or SMS), social login (Google, Apple, Facebook, GitHub, and more via custom providers), and phone/password login. Multi-factor authentication adds TOTP-based second factors for enhanced security. Enterprise Features SuperTokens includes multi-tenancy and organization support for B2B SaaS applications, enterprise SSO via SAML and OIDC, user roles and permissions for fine-grained access control, and a user management dashboard for administrative operations. These features make it suitable for applications ranging from single-product startups to complex multi-tenant platforms. Session Management The session layer implements rotating refresh tokens with automatic token theft detection. Sessions support custom claims, role-based access, and are designed to be secure against CSRF and XSS attacks by default. The architecture supports both cookie-based and header-based token delivery. SDK Ecosystem Backend SDKs are available for Node.js, Python (Flask, Django, FastAPI), and Go (net/http, Gin, Chi). Frontend SDKs cover React, React Native, Angular, Vue, vanilla JavaScript, iOS, Android, and Flutter. Each SDK provides pre-built UI components for login flows that can be customized or replaced entirely with custom implementations. Deployment Self-hosted deployment runs the SuperTokens Core as a Docker container alongside PostgreSQL or MySQL. The entire stack can run via Docker Compose with a single command. There are no user count limits on the open-source edition, and all core auth features are available for free.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/supertokens-open-source-auth-platform
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/supertokens-open-source-auth-platform` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

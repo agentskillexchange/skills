@@ -1,8 +1,8 @@
 ---
 title: "Mailchimp Marketing API Node.js SDK"
-description: "Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and batch operations at marketing scale."
-verification: security_reviewed
+description: "Mailchimp Marketing API Node.js SDK is anchored to Mailchimp’s official mailchimp-marketing-node repository and the Mailchimp Marketing API documentation. The upstream docs describe concrete jobs-to-be-done: creating audiences, adding contacts, tagging subscribers, syncing external events that trigger automations, handling webhooks, and running large requests asynchronously through the batch endpoint. The official Node.js client library wraps that API surface for JavaScript applications, which makes it a practical foundation for agent workflows instead of a generic “email integration” placeholder. This skill fits best when an agent needs to keep product or CRM data in sync with Mailchimp, create or update audiences, manage segmentation inputs, schedule or trigger campaigns, or coordinate outbound marketing workflows based on external user behavior. Because Mailchimp exposes OAuth for acting on behalf of users and supports webhook-driven synchronization, the integration points are clear for SaaS connectors, internal marketing operations, and customer lifecycle automation. The official SDK is published on npm and documented by Mailchimp as the primary Node.js client for the Marketing API. Operationally, an agent can use this skill to bridge application events and email automation: for example, tagging contacts after product actions, syncing audience membership, triggering campaign-related workflows, or batching expensive synchronization jobs for better throughput. The combination of official docs, official repo, npm distribution, and released package versions gives this skill enough source-backed trust to publish directly as verified metadata."
 source: "https://github.com/mailchimp/mailchimp-marketing-node"
+verification: "security_reviewed"
 category:
   - "Calendar, Email &amp; Productivity"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Mailchimp Marketing API Node.js SDK
 
-Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and batch operations at marketing scale.
+Mailchimp Marketing API Node.js SDK is anchored to Mailchimp’s official mailchimp-marketing-node repository and the Mailchimp Marketing API documentation. The upstream docs describe concrete jobs-to-be-done: creating audiences, adding contacts, tagging subscribers, syncing external events that trigger automations, handling webhooks, and running large requests asynchronously through the batch endpoint. The official Node.js client library wraps that API surface for JavaScript applications, which makes it a practical foundation for agent workflows instead of a generic “email integration” placeholder. This skill fits best when an agent needs to keep product or CRM data in sync with Mailchimp, create or update audiences, manage segmentation inputs, schedule or trigger campaigns, or coordinate outbound marketing workflows based on external user behavior. Because Mailchimp exposes OAuth for acting on behalf of users and supports webhook-driven synchronization, the integration points are clear for SaaS connectors, internal marketing operations, and customer lifecycle automation. The official SDK is published on npm and documented by Mailchimp as the primary Node.js client for the Marketing API. Operationally, an agent can use this skill to bridge application events and email automation: for example, tagging contacts after product actions, syncing audience membership, triggering campaign-related workflows, or batching expensive synchronization jobs for better throughput. The combination of official docs, official repo, npm distribution, and released package versions gives this skill enough source-backed trust to publish directly as verified metadata.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mailchimp-marketing-api-nodejs-sdk
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/mailchimp-marketing-api-nodejs-sdk` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

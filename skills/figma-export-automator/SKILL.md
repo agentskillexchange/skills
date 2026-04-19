@@ -1,8 +1,8 @@
 ---
 title: "Figma Export Automator"
-description: "Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors, typography, spacing), and renders frames as SVG/PNG. Generates CSS custom properties from styles."
-verification: security_reviewed
+description: "The Figma Export Automator skill connects Claude to Figma&#8217;s REST API v1 for extracting design assets and tokens from Figma files programmatically. It reads file structures, component hierarchies, and style definitions without requiring the Figma desktop app. Asset export retrieves specific frames, components, or component sets as SVG, PNG, or PDF at configurable scales (1x through 4x). The skill handles Figma&#8217;s asynchronous image rendering — it requests exports, polls for completion, and downloads the rendered files. Batch export processes entire pages or component libraries in parallel. Design token extraction parses Figma&#8217;s style definitions to generate CSS custom properties, SCSS variables, or JSON token files. It maps color styles to &#8211;color-* variables, typography styles to font-family/size/weight/line-height sets, and effect styles to box-shadow and filter values. Spacing and layout tokens are derived from auto-layout properties on components. The skill also reads component documentation, variant properties, and description fields for generating component API documentation. It detects changes between file versions by comparing node structures, useful for design-to-code synchronization workflows. Authentication uses Figma personal access tokens. Built for design system teams and frontend developers who need automated design-to-code pipelines."
 source: "https://developers.figma.com/docs/rest-api/"
+verification: "security_reviewed"
 category:
   - "Image &amp; Creative Automation"
 framework:
@@ -11,31 +11,15 @@ framework:
 
 # Figma Export Automator
 
-Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors, typography, spacing), and renders frames as SVG/PNG. Generates CSS custom properties from styles.
+The Figma Export Automator skill connects Claude to Figma&#8217;s REST API v1 for extracting design assets and tokens from Figma files programmatically. It reads file structures, component hierarchies, and style definitions without requiring the Figma desktop app. Asset export retrieves specific frames, components, or component sets as SVG, PNG, or PDF at configurable scales (1x through 4x). The skill handles Figma&#8217;s asynchronous image rendering — it requests exports, polls for completion, and downloads the rendered files. Batch export processes entire pages or component libraries in parallel. Design token extraction parses Figma&#8217;s style definitions to generate CSS custom properties, SCSS variables, or JSON token files. It maps color styles to &#8211;color-* variables, typography styles to font-family/size/weight/line-height sets, and effect styles to box-shadow and filter values. Spacing and layout tokens are derived from auto-layout properties on components. The skill also reads component documentation, variant properties, and description fields for generating component API documentation. It detects changes between file versions by comparing node structures, useful for design-to-code synchronization workflows. Authentication uses Figma personal access tokens. Built for design system teams and frontend developers who need automated design-to-code pipelines.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/figma-export-automator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/figma-export-automator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

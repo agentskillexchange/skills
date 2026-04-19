@@ -1,8 +1,8 @@
 ---
 title: "Back up GitHub repos releases and gists with GitHub Backup"
-description: "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo."
-verification: listed
+description: "Best for: operators who want an agent to preserve GitHub assets with a repeatable config, including repositories, releases, starred repos, and gists. GitHub Backup is a focused backup utility for GitHub content. Its config can target users, orgs, individual repos, releases, and gists, then clone or fetch them into a local backup tree. That gives agents a clean preservation workflow instead of a vague &#8220;use GitHub&#8221; listing. When to invoke it Invoke this skill when you want a scheduled or one-shot archival run that mirrors GitHub artifacts into storage you control, especially for disaster recovery, off-platform retention, or audit snapshots. Scope boundary This is not a generic GitHub product card. The skill boundary is the backup job itself: read a declarative config, enumerate chosen GitHub scopes, and mirror those assets into a local or mounted backup destination. Install notes Download the binary or container image from the project releases. Create a YAML config with GitHub credentials and backup targets. Run github-backup --config config.yaml or the equivalent container command."
 source: "https://github.com/SierraSoftworks/github-backup"
+verification: "listed"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Back up GitHub repos releases and gists with GitHub Backup
 
-Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo.
+Best for: operators who want an agent to preserve GitHub assets with a repeatable config, including repositories, releases, starred repos, and gists. GitHub Backup is a focused backup utility for GitHub content. Its config can target users, orgs, individual repos, releases, and gists, then clone or fetch them into a local backup tree. That gives agents a clean preservation workflow instead of a vague &#8220;use GitHub&#8221; listing. When to invoke it Invoke this skill when you want a scheduled or one-shot archival run that mirrors GitHub artifacts into storage you control, especially for disaster recovery, off-platform retention, or audit snapshots. Scope boundary This is not a generic GitHub product card. The skill boundary is the backup job itself: read a declarative config, enumerate chosen GitHub scopes, and mirror those assets into a local or mounted backup destination. Install notes Download the binary or container image from the project releases. Create a YAML config with GitHub credentials and backup targets. Run github-backup --config config.yaml or the equivalent container command.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/back-up-github-repos-releases-and-gists-with-github-backup
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/back-up-github-repos-releases-and-gists-with-github-backup` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

@@ -1,8 +1,8 @@
 ---
 title: "Nightwatch.js Integrated Browser and Mobile Testing Framework"
-description: "A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution."
-verification: security_reviewed
+description: "Nightwatch.js Integrated Browser and Mobile Testing Framework is a source-backed ASE skill built on Nightwatch, the Node.js testing framework maintained in the nightwatchjs/nightwatch repository and documented at nightwatchjs.org. Nightwatch uses the W3C WebDriver API and is designed for end-to-end browser automation, but its current platform also covers component testing, API checks, accessibility checks, visual assertions, and mobile app testing through Appium-backed flows. That gives agents a real automation surface with broad coverage instead of a vague promise of UI testing. The concrete job-to-be-done is reliable scripted verification of web and mobile experiences. An agent can use Nightwatch to open a browser, authenticate into an app, click through multi-step workflows, wait for UI state changes, inspect DOM assertions, verify API responses during page interaction, capture screenshots, and report deterministic pass or fail outcomes. Teams can also use it for regression suites, smoke tests before deployment, accessibility spot checks, component-level verification, and browser-driven debugging when a bug report needs to be reproduced from code. Integration points are straightforward for JavaScript teams. Nightwatch installs from npm, runs in local development and CI, works with major browsers and cloud grids, and can sit alongside Appium, BrowserStack, Selenium infrastructure, and standard Node.js test pipelines. The upstream project has a real GitHub repository, npm package, official documentation, tagged releases, and active maintenance, which clears the ASE intake gate cleanly. For ASE, this skill is useful because it anchors agent behavior to a concrete, maintained browser and mobile testing framework with a clear operational role."
 source: "https://github.com/nightwatchjs/nightwatch"
+verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Nightwatch.js Integrated Browser and Mobile Testing Framework
 
-A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution.
+Nightwatch.js Integrated Browser and Mobile Testing Framework is a source-backed ASE skill built on Nightwatch, the Node.js testing framework maintained in the nightwatchjs/nightwatch repository and documented at nightwatchjs.org. Nightwatch uses the W3C WebDriver API and is designed for end-to-end browser automation, but its current platform also covers component testing, API checks, accessibility checks, visual assertions, and mobile app testing through Appium-backed flows. That gives agents a real automation surface with broad coverage instead of a vague promise of UI testing. The concrete job-to-be-done is reliable scripted verification of web and mobile experiences. An agent can use Nightwatch to open a browser, authenticate into an app, click through multi-step workflows, wait for UI state changes, inspect DOM assertions, verify API responses during page interaction, capture screenshots, and report deterministic pass or fail outcomes. Teams can also use it for regression suites, smoke tests before deployment, accessibility spot checks, component-level verification, and browser-driven debugging when a bug report needs to be reproduced from code. Integration points are straightforward for JavaScript teams. Nightwatch installs from npm, runs in local development and CI, works with major browsers and cloud grids, and can sit alongside Appium, BrowserStack, Selenium infrastructure, and standard Node.js test pipelines. The upstream project has a real GitHub repository, npm package, official documentation, tagged releases, and active maintenance, which clears the ASE intake gate cleanly. For ASE, this skill is useful because it anchors agent behavior to a concrete, maintained browser and mobile testing framework with a clear operational role.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nightwatchjs-integrated-browser-mobile-testing-framework
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/nightwatchjs-integrated-browser-mobile-testing-framework` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

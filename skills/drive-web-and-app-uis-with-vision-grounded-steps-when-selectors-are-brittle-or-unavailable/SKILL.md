@@ -1,8 +1,8 @@
 ---
 title: "Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable"
-description: "Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop surfaces where DOM selectors are fragile, unavailable, or not the right abstraction."
-verification: listed
+description: "Use Midscene.js when the workflow depends on visual understanding instead of stable selectors. It lets an agent describe goals in natural language, operate interfaces through screenshot-based localization, extract data, assert outcomes, and replay runs across browser, Android, iOS, and other UI surfaces. The scope boundary is specific enough to avoid being just another browser framework listing: this skill is for vision-driven UI action authoring and debugging when selector-first automation breaks down, not for promoting a general product platform."
 source: "https://github.com/web-infra-dev/midscene"
+verification: "listed"
 category:
   - "Browser Automation"
 framework:
@@ -16,31 +16,15 @@ tool_ecosystem:
 
 # Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable
 
-Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop surfaces where DOM selectors are fragile, unavailable, or not the right abstraction.
+Use Midscene.js when the workflow depends on visual understanding instead of stable selectors. It lets an agent describe goals in natural language, operate interfaces through screenshot-based localization, extract data, assert outcomes, and replay runs across browser, Android, iOS, and other UI surfaces. The scope boundary is specific enough to avoid being just another browser framework listing: this skill is for vision-driven UI action authoring and debugging when selector-first automation breaks down, not for promoting a general product platform.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

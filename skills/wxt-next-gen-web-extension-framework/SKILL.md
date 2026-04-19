@@ -1,8 +1,8 @@
 ---
 title: "WXT Next-Generation Web Extension Framework for Browser Extensions"
-description: "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing."
-verification: security_reviewed
+description: "WXT is a modern framework for building web browser extensions, created by Aaron Klinker (@aklinker1). It dramatically simplifies the extension development experience with features borrowed from modern web frameworks while handling the complexities of cross-browser extension APIs. Developer Experience WXT provides a Vite-powered dev server with hot module replacement (HMR) and fast reload for extension development. Developers define entrypoints using a file-based routing convention — background scripts, content scripts, popups, options pages, and sidepanels are all discovered automatically from the file structure. TypeScript is supported out of the box with full type inference for browser extension APIs. Cross-Browser Support WXT builds extensions that work across Chrome, Firefox, Safari, Edge, and all Chromium-based browsers. It handles the differences between Manifest V2 and Manifest V3 automatically, allowing developers to target both manifest versions from the same codebase. This is particularly valuable during the ongoing MV2 to MV3 transition period. Framework Agnostic While WXT handles extension-specific concerns (manifest generation, background scripts, content script injection), it is agnostic about the frontend framework used for UI components. Developers can use React, Vue, Svelte, Solid, or plain HTML/CSS for popups, options pages, and side panels. Official starter templates are available for each framework. Module System WXT includes a module system for sharing reusable code between extensions. Modules can add entrypoints, modify the build configuration, or inject runtime code. The community has published modules for common patterns like storage synchronization, analytics, and permission management. Build and Publishing The build system generates optimized extension packages for each target browser. WXT includes built-in commands for zipping extensions for store submission and supports automated publishing workflows. Bundle analysis tools help developers understand and optimize their extension size. The project has over 9,000 GitHub stars and is actively maintained under the MIT license. Getting Started Bootstrap a new project with: npx wxt@latest init . The CLI walks through framework selection, TypeScript configuration, and creates a ready-to-develop project structure. Documentation is available at wxt.dev with comprehensive guides for every feature."
 source: "https://github.com/wxt-dev/wxt"
+verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # WXT Next-Generation Web Extension Framework for Browser Extensions
 
-WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing.
+WXT is a modern framework for building web browser extensions, created by Aaron Klinker (@aklinker1). It dramatically simplifies the extension development experience with features borrowed from modern web frameworks while handling the complexities of cross-browser extension APIs. Developer Experience WXT provides a Vite-powered dev server with hot module replacement (HMR) and fast reload for extension development. Developers define entrypoints using a file-based routing convention — background scripts, content scripts, popups, options pages, and sidepanels are all discovered automatically from the file structure. TypeScript is supported out of the box with full type inference for browser extension APIs. Cross-Browser Support WXT builds extensions that work across Chrome, Firefox, Safari, Edge, and all Chromium-based browsers. It handles the differences between Manifest V2 and Manifest V3 automatically, allowing developers to target both manifest versions from the same codebase. This is particularly valuable during the ongoing MV2 to MV3 transition period. Framework Agnostic While WXT handles extension-specific concerns (manifest generation, background scripts, content script injection), it is agnostic about the frontend framework used for UI components. Developers can use React, Vue, Svelte, Solid, or plain HTML/CSS for popups, options pages, and side panels. Official starter templates are available for each framework. Module System WXT includes a module system for sharing reusable code between extensions. Modules can add entrypoints, modify the build configuration, or inject runtime code. The community has published modules for common patterns like storage synchronization, analytics, and permission management. Build and Publishing The build system generates optimized extension packages for each target browser. WXT includes built-in commands for zipping extensions for store submission and supports automated publishing workflows. Bundle analysis tools help developers understand and optimize their extension size. The project has over 9,000 GitHub stars and is actively maintained under the MIT license. Getting Started Bootstrap a new project with: npx wxt@latest init . The CLI walks through framework selection, TypeScript configuration, and creates a ready-to-develop project structure. Documentation is available at wxt.dev with comprehensive guides for every feature.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wxt-next-gen-web-extension-framework
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/wxt-next-gen-web-extension-framework` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

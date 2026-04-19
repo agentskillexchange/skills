@@ -1,8 +1,8 @@
 ---
 title: "Gutenberg Block Pattern Generator"
-description: "Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries."
-verification: security_reviewed
+description: "The Gutenberg Block Pattern Generator automates the creation of custom block patterns for the WordPress editor. Using register_block_pattern() and register_block_pattern_category(), it builds organized libraries of reusable content layouts. The agent parses existing page designs and converts them into block markup using the @wordpress/blocks package serialize() function. It supports InnerBlocks configurations, dynamic blocks with ServerSideRender, and pattern transformations via the @wordpress/block-editor useBlockProps hook. The generator validates all patterns against the WordPress block grammar specification and tests rendering through the REST API block-renderer endpoint. It handles pattern versioning using post meta and supports import/export via the WordPress export format (WXR). Integration with theme.json allows pattern-aware theme development, and the agent can auto-generate pattern previews using the block preview component from @wordpress/block-editor."
 source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
+verification: "security_reviewed"
 category:
   - "WordPress &amp; CMS"
 framework:
@@ -11,31 +11,15 @@ framework:
 
 # Gutenberg Block Pattern Generator
 
-Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries.
+The Gutenberg Block Pattern Generator automates the creation of custom block patterns for the WordPress editor. Using register_block_pattern() and register_block_pattern_category(), it builds organized libraries of reusable content layouts. The agent parses existing page designs and converts them into block markup using the @wordpress/blocks package serialize() function. It supports InnerBlocks configurations, dynamic blocks with ServerSideRender, and pattern transformations via the @wordpress/block-editor useBlockProps hook. The generator validates all patterns against the WordPress block grammar specification and tests rendering through the REST API block-renderer endpoint. It handles pattern versioning using post meta and supports import/export via the WordPress export format (WXR). Integration with theme.json allows pattern-aware theme development, and the agent can auto-generate pattern previews using the block preview component from @wordpress/block-editor.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gutenberg-block-pattern-generator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/gutenberg-block-pattern-generator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

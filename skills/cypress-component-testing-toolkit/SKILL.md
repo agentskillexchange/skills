@@ -1,8 +1,8 @@
 ---
 title: "Cypress Component Testing Toolkit"
-description: "Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe."
-verification: security_reviewed
+description: "The Cypress Component Testing Toolkit skill generates comprehensive test suites using Cypress for both component isolation and integration testing. It leverages the Cypress Testing Library API to write user-centric test queries based on accessibility roles, labels, and text content rather than implementation details. Network requests are controlled through cy.intercept for deterministic API stubbing, response delay simulation, and error scenario testing. Visual regression testing is configured via the Cypress Image Snapshot plugin with configurable diff thresholds, responsive breakpoint testing, and automatic baseline updates. Accessibility compliance is verified using cypress-axe, running WCAG 2.1 audits against rendered components with customizable rule sets and severity filtering. The skill supports React, Vue, Angular, and Svelte component mounting with proper provider wrapping for state management and routing contexts. It configures Cypress Cloud integration for test recording, flake detection through automatic retry analysis, and parallelization with intelligent test balancing across CI machines."
 source: "https://github.com/cypress-io/cypress"
+verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -16,31 +16,15 @@ tool_ecosystem:
 
 # Cypress Component Testing Toolkit
 
-Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe.
+The Cypress Component Testing Toolkit skill generates comprehensive test suites using Cypress for both component isolation and integration testing. It leverages the Cypress Testing Library API to write user-centric test queries based on accessibility roles, labels, and text content rather than implementation details. Network requests are controlled through cy.intercept for deterministic API stubbing, response delay simulation, and error scenario testing. Visual regression testing is configured via the Cypress Image Snapshot plugin with configurable diff thresholds, responsive breakpoint testing, and automatic baseline updates. Accessibility compliance is verified using cypress-axe, running WCAG 2.1 audits against rendered components with customizable rule sets and severity filtering. The skill supports React, Vue, Angular, and Svelte component mounting with proper provider wrapping for state management and routing contexts. It configures Cypress Cloud integration for test recording, flake detection through automatic retry analysis, and parallelization with intelligent test balancing across CI machines.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cypress-component-testing-toolkit
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/cypress-component-testing-toolkit` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

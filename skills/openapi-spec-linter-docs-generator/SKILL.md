@@ -1,8 +1,8 @@
 ---
 title: "OpenAPI Spec Linter &#038; Docs Generator"
-description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
-verification: security_reviewed
+description: "The OpenAPI Spec Linter &#038; Docs Generator provides comprehensive API specification management by combining validation, documentation generation, and breaking change detection. It processes OpenAPI 3.0 and 3.1 YAML/JSON specifications through Stoplight Spectral with customizable rulesets to enforce naming conventions, schema consistency, and security scheme requirements. For documentation, the agent generates both Redoc single-page HTML and Swagger UI bundles, with custom theming support via CSS variables. It extracts code samples from x-code-samples extensions and generates SDK snippets for curl, Python (requests), JavaScript (fetch), and Go (net/http). The output includes a searchable, grouped endpoint reference with authentication flows documented inline. The breaking change detection module uses oasdiff to compare specification versions, categorizing changes as breaking (removed endpoints, narrowed types), deprecated (sunset headers), or additive (new optional fields). It generates migration guides in Markdown format and can post change summaries as GitHub PR comments via the GitHub API. Integrates with Backstage catalog for automatic API entity registration."
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
+verification: "security_reviewed"
 category:
   - "Library &amp; API Reference"
 framework:
@@ -11,31 +11,15 @@ framework:
 
 # OpenAPI Spec Linter &#038; Docs Generator
 
-Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs.
+The OpenAPI Spec Linter &#038; Docs Generator provides comprehensive API specification management by combining validation, documentation generation, and breaking change detection. It processes OpenAPI 3.0 and 3.1 YAML/JSON specifications through Stoplight Spectral with customizable rulesets to enforce naming conventions, schema consistency, and security scheme requirements. For documentation, the agent generates both Redoc single-page HTML and Swagger UI bundles, with custom theming support via CSS variables. It extracts code samples from x-code-samples extensions and generates SDK snippets for curl, Python (requests), JavaScript (fetch), and Go (net/http). The output includes a searchable, grouped endpoint reference with authentication flows documented inline. The breaking change detection module uses oasdiff to compare specification versions, categorizing changes as breaking (removed endpoints, narrowed types), deprecated (sunset headers), or additive (new optional fields). It generates migration guides in Markdown format and can post change summaries as GitHub PR comments via the GitHub API. Integrates with Backstage catalog for automatic API entity registration.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openapi-spec-linter-docs-generator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/openapi-spec-linter-docs-generator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

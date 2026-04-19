@@ -1,8 +1,8 @@
 ---
 title: "Sync agent rules and skill files across coding assistants with AI Rules Sync"
-description: "Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and related tools instead of being copied and updated by hand."
-verification: listed
+description: "Tool: AI Rules Sync. This skill gives agents and operators a concrete synchronization workflow for rule files, command packs, skills, and subagents across multiple coding assistants, with one source of truth stored in Git and synced into each tool&#8217;s expected directory shape. When to use it: invoke this when you maintain shared agent conventions across more than one assistant and manual copying has started to drift. It is useful for team standards, shared prompts, and portable skill packs that need consistent rollout across tool-specific config trees. Scope boundary: this is not a generic config manager or a broad product listing for every supported editor. Its boundary is narrower: keep agent operating context synchronized across assistants that each expect different rules, commands, skills, or agent file layouts. If you only use one tool, this is unnecessary. If you need cross-assistant sync, this is the job."
 source: "https://github.com/lbb00/ai-rules-sync"
+verification: "listed"
 category:
   - "Integrations &amp; Connectors"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Sync agent rules and skill files across coding assistants with AI Rules Sync
 
-Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and related tools instead of being copied and updated by hand.
+Tool: AI Rules Sync. This skill gives agents and operators a concrete synchronization workflow for rule files, command packs, skills, and subagents across multiple coding assistants, with one source of truth stored in Git and synced into each tool&#8217;s expected directory shape. When to use it: invoke this when you maintain shared agent conventions across more than one assistant and manual copying has started to drift. It is useful for team standards, shared prompts, and portable skill packs that need consistent rollout across tool-specific config trees. Scope boundary: this is not a generic config manager or a broad product listing for every supported editor. Its boundary is narrower: keep agent operating context synchronized across assistants that each expect different rules, commands, skills, or agent file layouts. If you only use one tool, this is unnecessary. If you need cross-assistant sync, this is the job.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

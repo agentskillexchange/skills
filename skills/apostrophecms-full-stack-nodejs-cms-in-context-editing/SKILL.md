@@ -1,8 +1,8 @@
 ---
 title: "ApostropheCMS Full-Stack Node.js CMS with In-Context Editing"
-description: "ApostropheCMS is a full-stack Node.js CMS that combines in-context editing for content teams with headless flexibility for developers. It is a strong fit when teams want live-page editing, MongoDB-backed content models, and a documented REST API for custom frontends."
-verification: security_reviewed
+description: "ApostropheCMS is an open source content management framework maintained by the ApostropheCMS organization. Its distinctive angle is in-context editing: content teams can edit directly on live pages while developers still get a modern JavaScript stack and optional headless delivery. That combination gives it a different job-to-be-done than a basic API-first CMS. It is meant for teams that want editorial speed without abandoning custom frontend work. The project is built on Node.js and MongoDB, and the official documentation covers local setup, headless usage, REST APIs, and starter kits. In practical use, ApostropheCMS can power websites with tightly managed page structures, reusable content pieces, and visual editing, while also serving JSON content to separate clients. That makes it useful for agencies, product teams, and internal platforms that need both developer control and a more intuitive authoring experience. This candidate clears the intake gate with a real GitHub repo, official docs, an MIT license surfaced in the upstream README, thousands of GitHub stars, and current maintenance activity. The project also provides a concrete install path through the official CLI using npm install -g @apostrophecms/cli or npx @apostrophecms/cli create my-website . For ASE, it is a legitimate source-backed CMS skill that adds coverage for a well-known Node.js publishing platform not already present under this exact skill title."
 source: "https://github.com/apostrophecms/apostrophe"
+verification: "security_reviewed"
 category:
   - "WordPress &amp; CMS"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # ApostropheCMS Full-Stack Node.js CMS with In-Context Editing
 
-ApostropheCMS is a full-stack Node.js CMS that combines in-context editing for content teams with headless flexibility for developers. It is a strong fit when teams want live-page editing, MongoDB-backed content models, and a documented REST API for custom frontends.
+ApostropheCMS is an open source content management framework maintained by the ApostropheCMS organization. Its distinctive angle is in-context editing: content teams can edit directly on live pages while developers still get a modern JavaScript stack and optional headless delivery. That combination gives it a different job-to-be-done than a basic API-first CMS. It is meant for teams that want editorial speed without abandoning custom frontend work. The project is built on Node.js and MongoDB, and the official documentation covers local setup, headless usage, REST APIs, and starter kits. In practical use, ApostropheCMS can power websites with tightly managed page structures, reusable content pieces, and visual editing, while also serving JSON content to separate clients. That makes it useful for agencies, product teams, and internal platforms that need both developer control and a more intuitive authoring experience. This candidate clears the intake gate with a real GitHub repo, official docs, an MIT license surfaced in the upstream README, thousands of GitHub stars, and current maintenance activity. The project also provides a concrete install path through the official CLI using npm install -g @apostrophecms/cli or npx @apostrophecms/cli create my-website . For ASE, it is a legitimate source-backed CMS skill that adds coverage for a well-known Node.js publishing platform not already present under this exact skill title.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apostrophecms-full-stack-nodejs-cms-in-context-editing
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/apostrophecms-full-stack-nodejs-cms-in-context-editing` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

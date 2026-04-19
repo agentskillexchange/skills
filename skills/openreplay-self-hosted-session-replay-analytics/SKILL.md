@@ -1,8 +1,8 @@
 ---
 title: "OpenReplay Self-Hosted Session Replay and Product Analytics Platform"
-description: "OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network activity, console logs, JS errors, store state, and performance metrics to help reproduce issues and iterate on products faster."
-verification: security_reviewed
+description: "OpenReplay is an open-source session replay and product analytics platform with nearly 12,000 GitHub stars. Unlike cloud-based alternatives like FullStory or Hotjar, OpenReplay is designed to be fully self-hosted, keeping all user session data within your own infrastructure for complete data ownership and privacy compliance. Core Capabilities OpenReplay captures comprehensive session data that goes beyond basic screen recordings: Session Replay — Pixel-perfect replay of user sessions showing clicks, scrolls, navigation, and interactions. Each session is automatically analyzed using heuristics for easy triage. DevTools Integration — Captures network activity, console logs, JavaScript errors, Redux/VueX/MobX/NgRx/Pinia/Zustand state changes, GraphQL queries, and Fetch/Axios requests alongside the replay. Performance Metrics — Records page speed metrics, CPU/memory usage, and Web Vitals for every session. Assist — Live session viewing and WebRTC-based co-browsing without third-party screen sharing tools. Spot — A Chrome extension for recording bugs directly from the browser with full technical context included. Analytics and Search OpenReplay provides an omni-search feature that lets you filter sessions by user actions, session attributes, or technical events without requiring custom instrumentation. The analytics module surfaces the most impactful issues affecting conversion and revenue, helping teams prioritize fixes based on actual user impact. Privacy and Security Fine-grained privacy controls let you choose exactly what to capture, obscure, or ignore. Sensitive data can be masked at the tracker level before it ever reaches your servers. The self-hosted architecture means session data never leaves your cloud infrastructure. Deployment OpenReplay supports deployment on major cloud platforms: AWS, Google Cloud, Azure, DigitalOcean, Scaleway, OVHcloud Kubernetes with Helm charts The tracker is a lightweight ~26KB (.br) JavaScript snippet that sends data asynchronously Integration Ecosystem OpenReplay integrates with backend logging and monitoring tools including Sentry, Datadog, CloudWatch, Stackdriver, and Elastic. Framework plugins support React, Angular, Vue, Svelte, Next.js, and React Native. The plugin architecture allows extending data capture with custom metadata. Agent Integration For AI agents and automation workflows, OpenReplay provides REST APIs for searching sessions, querying analytics data, and managing projects programmatically. Agents can use session replay data to understand user behavior patterns, identify UX issues, and correlate frontend errors with backend logs for automated debugging workflows. Installation Deploy using the official scripts for your cloud provider, or use the managed cloud service at app.openreplay.com. The JavaScript tracker is installed via npm: npm install @openreplay/tracker"
 source: "https://github.com/openreplay/openreplay"
+verification: "security_reviewed"
 category:
   - "Monitoring &amp; Alerts"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # OpenReplay Self-Hosted Session Replay and Product Analytics Platform
 
-OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network activity, console logs, JS errors, store state, and performance metrics to help reproduce issues and iterate on products faster.
+OpenReplay is an open-source session replay and product analytics platform with nearly 12,000 GitHub stars. Unlike cloud-based alternatives like FullStory or Hotjar, OpenReplay is designed to be fully self-hosted, keeping all user session data within your own infrastructure for complete data ownership and privacy compliance. Core Capabilities OpenReplay captures comprehensive session data that goes beyond basic screen recordings: Session Replay — Pixel-perfect replay of user sessions showing clicks, scrolls, navigation, and interactions. Each session is automatically analyzed using heuristics for easy triage. DevTools Integration — Captures network activity, console logs, JavaScript errors, Redux/VueX/MobX/NgRx/Pinia/Zustand state changes, GraphQL queries, and Fetch/Axios requests alongside the replay. Performance Metrics — Records page speed metrics, CPU/memory usage, and Web Vitals for every session. Assist — Live session viewing and WebRTC-based co-browsing without third-party screen sharing tools. Spot — A Chrome extension for recording bugs directly from the browser with full technical context included. Analytics and Search OpenReplay provides an omni-search feature that lets you filter sessions by user actions, session attributes, or technical events without requiring custom instrumentation. The analytics module surfaces the most impactful issues affecting conversion and revenue, helping teams prioritize fixes based on actual user impact. Privacy and Security Fine-grained privacy controls let you choose exactly what to capture, obscure, or ignore. Sensitive data can be masked at the tracker level before it ever reaches your servers. The self-hosted architecture means session data never leaves your cloud infrastructure. Deployment OpenReplay supports deployment on major cloud platforms: AWS, Google Cloud, Azure, DigitalOcean, Scaleway, OVHcloud Kubernetes with Helm charts The tracker is a lightweight ~26KB (.br) JavaScript snippet that sends data asynchronously Integration Ecosystem OpenReplay integrates with backend logging and monitoring tools including Sentry, Datadog, CloudWatch, Stackdriver, and Elastic. Framework plugins support React, Angular, Vue, Svelte, Next.js, and React Native. The plugin architecture allows extending data capture with custom metadata. Agent Integration For AI agents and automation workflows, OpenReplay provides REST APIs for searching sessions, querying analytics data, and managing projects programmatically. Agents can use session replay data to understand user behavior patterns, identify UX issues, and correlate frontend errors with backend logs for automated debugging workflows. Installation Deploy using the official scripts for your cloud provider, or use the managed cloud service at app.openreplay.com. The JavaScript tracker is installed via npm: npm install @openreplay/tracker
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openreplay-self-hosted-session-replay-analytics
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/openreplay-self-hosted-session-replay-analytics` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

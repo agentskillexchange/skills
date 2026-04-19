@@ -1,8 +1,8 @@
 ---
 title: "Extract data and complete workflows in your real logged-in browser"
-description: "Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user's actual logged-in Chrome session. It is for browser work where normal HTTP fetches fail because the important context lives behind auth, cookies, or internal web apps."
-verification: security_reviewed
+description: "bb-browser is a browser-control tool and MCP/CLI workflow for agents that need access to the user&#8217;s real authenticated browser state. This skill is not a generic “browser tool” listing. The job here is specific: an agent opens a site in the user&#8217;s real browser session, inspects interactive elements, extracts data from pages that require login, and completes bounded browser actions such as search, clicking through internal dashboards, or filling routine forms. Use this when a normal API call or public scraper is not enough. Typical cases include internal admin panels, SaaS dashboards, pages that depend on existing cookies, and account views that only exist after sign-in. The point of invoking the agent skill is that the agent can reuse the user&#8217;s logged-in context instead of asking the user to manually navigate every page. The scope boundary matters. This entry is not a catalog card for bb-browser as a product, browser, or SDK. It is narrowly about authenticated browser retrieval and action-taking through the user&#8217;s existing session. If you just need a public web fetch, a generic browser automation library, or a development framework for building your own browser tool, use those directly instead. Integration points are clear in the upstream docs: the agent can open URLs, snapshot interactive elements, click, fill, close tabs, and use bb-browser&#8217;s site adapters when a workflow already exists for a specific platform. That makes it useful for research, internal operations, support workflows, and other tasks where the browser itself is the only realistic integration surface."
 source: "https://github.com/epiral/bb-browser/tree/main/skills/bb-browser"
+verification: "security_reviewed"
 category:
   - "Browser Automation"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Extract data and complete workflows in your real logged-in browser
 
-Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user's actual logged-in Chrome session. It is for browser work where normal HTTP fetches fail because the important context lives behind auth, cookies, or internal web apps.
+bb-browser is a browser-control tool and MCP/CLI workflow for agents that need access to the user&#8217;s real authenticated browser state. This skill is not a generic “browser tool” listing. The job here is specific: an agent opens a site in the user&#8217;s real browser session, inspects interactive elements, extracts data from pages that require login, and completes bounded browser actions such as search, clicking through internal dashboards, or filling routine forms. Use this when a normal API call or public scraper is not enough. Typical cases include internal admin panels, SaaS dashboards, pages that depend on existing cookies, and account views that only exist after sign-in. The point of invoking the agent skill is that the agent can reuse the user&#8217;s logged-in context instead of asking the user to manually navigate every page. The scope boundary matters. This entry is not a catalog card for bb-browser as a product, browser, or SDK. It is narrowly about authenticated browser retrieval and action-taking through the user&#8217;s existing session. If you just need a public web fetch, a generic browser automation library, or a development framework for building your own browser tool, use those directly instead. Integration points are clear in the upstream docs: the agent can open URLs, snapshot interactive elements, click, fill, close tabs, and use bb-browser&#8217;s site adapters when a workflow already exists for a specific platform. That makes it useful for research, internal operations, support workflows, and other tasks where the browser itself is the only realistic integration surface.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 

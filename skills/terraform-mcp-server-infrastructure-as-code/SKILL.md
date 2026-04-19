@@ -1,8 +1,8 @@
 ---
 title: "Terraform MCP Server for Infrastructure as Code"
-description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
-verification: security_reviewed
+description: "The Terraform MCP Server is an official Model Context Protocol server built by HashiCorp that provides seamless integration with the Terraform ecosystem. It enables AI agents to interact with Terraform Registry APIs, HCP Terraform, and Terraform Enterprise through structured MCP tool calls, making it a key enabler for infrastructure-as-code automation with AI assistants. The server supports dual transport modes: Stdio for local integration with coding tools and StreamableHTTP for network-accessible deployments. For security, the HTTP transport includes configurable CORS policies, rate limiting (both global and per-session), TLS support, and allowed-origins restrictions to prevent DNS rebinding attacks. Core capabilities include direct integration with the public Terraform Registry for browsing providers, modules, and policy libraries. Agents can look up provider documentation, discover available resources and data sources, examine module inputs and outputs, and explore policy packs. For HCP Terraform and Terraform Enterprise environments, the server adds workspace management (create, update, delete), variable configuration, tag management, run triggering, and organization/project listing. The server can be run via Docker for containerized environments or directly as a binary. Configuration is managed through environment variables including TFE_ADDRESS for custom Terraform Enterprise endpoints, TFE_TOKEN for API authentication, and various MCP_* variables for transport and security settings. The ENABLE_TF_OPERATIONS flag controls access to write operations that require explicit approval. With over 1,280 GitHub stars and active maintenance by HashiCorp, this server represents the official way to give AI agents structured access to Terraform infrastructure data. It integrates with VS Code, Cursor, Claude Desktop, and other MCP-compatible clients. Licensed under MPL-2.0, it follows HashiCorp standard licensing practices for their open-source tools."
 source: "https://github.com/hashicorp/terraform-mcp-server"
+verification: "security_reviewed"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +14,15 @@ tool_ecosystem:
 
 # Terraform MCP Server for Infrastructure as Code
 
-The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol.
+The Terraform MCP Server is an official Model Context Protocol server built by HashiCorp that provides seamless integration with the Terraform ecosystem. It enables AI agents to interact with Terraform Registry APIs, HCP Terraform, and Terraform Enterprise through structured MCP tool calls, making it a key enabler for infrastructure-as-code automation with AI assistants. The server supports dual transport modes: Stdio for local integration with coding tools and StreamableHTTP for network-accessible deployments. For security, the HTTP transport includes configurable CORS policies, rate limiting (both global and per-session), TLS support, and allowed-origins restrictions to prevent DNS rebinding attacks. Core capabilities include direct integration with the public Terraform Registry for browsing providers, modules, and policy libraries. Agents can look up provider documentation, discover available resources and data sources, examine module inputs and outputs, and explore policy packs. For HCP Terraform and Terraform Enterprise environments, the server adds workspace management (create, update, delete), variable configuration, tag management, run triggering, and organization/project listing. The server can be run via Docker for containerized environments or directly as a binary. Configuration is managed through environment variables including TFE_ADDRESS for custom Terraform Enterprise endpoints, TFE_TOKEN for API authentication, and various MCP_* variables for transport and security settings. The ENABLE_TF_OPERATIONS flag controls access to write operations that require explicit approval. With over 1,280 GitHub stars and active maintenance by HashiCorp, this server represents the official way to give AI agents structured access to Terraform infrastructure data. It integrates with VS Code, Cursor, Claude Desktop, and other MCP-compatible clients. Licensed under MPL-2.0, it follows HashiCorp standard licensing practices for their open-source tools.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/terraform-mcp-server-infrastructure-as-code
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/terraform-mcp-server-infrastructure-as-code` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- From OpenClaw: Browse Agent Skill Exchange and install with one click.
+- From source: Clone the upstream repository linked below.
+- From package manager: Install from npm, pip, cargo, or the ecosystem-native registry when available.
+- Manual setup: Follow the project documentation for local configuration and secrets.
+- Containerized: Use Docker or devcontainer support if the project ships it.
 
 ## Source
 
