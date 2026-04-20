@@ -1,6 +1,6 @@
 ---
 title: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
-description: "Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
+description: "Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
 verification: security_reviewed
 source: "https://github.com/osprey-oss/deptry"
 category:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Audit Python dependency declarations for unused, missing, and transitive imports before release
 
-Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers.
+Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-python-dependency-declarations-before-release/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-python-dependency-declarations-before-release
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/audit-python-dependency-declarations-before-release` into your local skills collection.
+- Download the repository ZIP and extract `skills/audit-python-dependency-declarations-before-release`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -7,6 +7,9 @@ category:
   - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "unclecode/crawl4ai"
+  github_stars: 63814
 ---
 
 # Crawl4AI Open-Source Web Crawling and Markdown Extraction
@@ -15,27 +18,27 @@ Crawl4AI is an open source crawler and scraper built for LLM-ready web extractio
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawl4ai-open-source-web-crawling-and-markdown-extraction
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/crawl4ai-open-source-web-crawling-and-markdown-extraction` into your local skills collection.
+- Download the repository ZIP and extract `skills/crawl4ai-open-source-web-crawling-and-markdown-extraction`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

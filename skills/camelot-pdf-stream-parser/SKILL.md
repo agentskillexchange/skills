@@ -2,11 +2,14 @@
 title: "Camelot PDF Stream Parser"
 description: "Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
+source: "https://github.com/camelot-dev/camelot"
 category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "camelot-dev/camelot"
+  github_stars: 3673
 ---
 
 # Camelot PDF Stream Parser
@@ -15,27 +18,27 @@ Implements Camelot library for advanced PDF table detection using lattice and st
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/camelot-pdf-stream-parser/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/camelot-pdf-stream-parser
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/camelot-pdf-stream-parser` into your local skills collection.
+- Download the repository ZIP and extract `skills/camelot-pdf-stream-parser`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

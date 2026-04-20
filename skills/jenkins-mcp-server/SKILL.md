@@ -1,6 +1,6 @@
 ---
 title: "Jenkins MCP Server"
-description: "Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like jobs, builds, buildWithParameters, console logs, artifacts, pipeline stages and preserving the operational […]"
+description: "Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like jobs, builds, buildWithParameters, console logs, artifacts, pipeline stages and preserving the operational [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 category:
@@ -10,36 +10,35 @@ framework:
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25205
-  license: "MIT"
 ---
 
 # Jenkins MCP Server
 
-Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like jobs, builds, buildWithParameters, console logs, artifacts, pipeline stages and preserving the operational […]
+Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like jobs, builds, buildWithParameters, console logs, artifacts, pipeline stages and preserving the operational [&hellip;]
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/jenkins-mcp-server/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jenkins-mcp-server
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/jenkins-mcp-server` into your local skills collection.
+- Download the repository ZIP and extract `skills/jenkins-mcp-server`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

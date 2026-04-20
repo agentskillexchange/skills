@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI Integration"
-description: "GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and preserving […]"
+description: "GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and preserving [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # GitLab CI Integration
 
-GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and preserving […]
+GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and preserving [&hellip;]
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gitlab-ci-integration-2/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitlab-ci-integration-2
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/gitlab-ci-integration-2` into your local skills collection.
+- Download the repository ZIP and extract `skills/gitlab-ci-integration-2`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

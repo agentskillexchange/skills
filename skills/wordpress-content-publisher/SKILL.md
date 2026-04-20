@@ -7,9 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "wordpress/wordpress"
-  github_stars: 21042
 ---
 
 # WordPress Content Publisher
@@ -18,27 +15,27 @@ Structured publishing workflow for WordPress drafts, metadata, and content opera
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/wordpress-content-publisher/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wordpress-content-publisher
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/wordpress-content-publisher` into your local skills collection.
+- Download the repository ZIP and extract `skills/wordpress-content-publisher`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
