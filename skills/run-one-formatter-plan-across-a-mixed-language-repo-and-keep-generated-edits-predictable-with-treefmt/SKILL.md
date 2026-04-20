@@ -7,11 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "numtide/treefmt"
-  github_stars: 977
-  npm_package: "treefmt"
-  npm_weekly_downloads: 18627
 ---
 
 # Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt

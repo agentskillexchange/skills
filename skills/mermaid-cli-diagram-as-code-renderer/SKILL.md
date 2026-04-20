@@ -8,8 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "mermaid-js/mermaid-cli"
-  github_stars: 4341
+  license: "MIT"
 ---
 
 # Mermaid CLI Diagram-as-Code Renderer

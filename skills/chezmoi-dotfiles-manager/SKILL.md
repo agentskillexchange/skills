@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "twpayne/chezmoi"
-  github_stars: 18876
 ---
 
 # chezmoi Cross-Machine Dotfiles Manager

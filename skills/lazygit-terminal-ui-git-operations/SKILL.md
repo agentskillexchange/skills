@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "jesseduffield/lazygit"
-  github_stars: 75400
 ---
 
 # lazygit Terminal UI for Git Operations

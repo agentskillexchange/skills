@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 30270
   npm_package: "cheerio"
   npm_weekly_downloads: 19621708
+  license: "MIT"
 ---
 
 # Cheerio DOM Extraction Pipeline

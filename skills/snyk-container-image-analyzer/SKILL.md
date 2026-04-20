@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "snyk/cli"
-  github_stars: 5496
 ---
 
 # Snyk Container Image Analyzer

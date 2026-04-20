@@ -7,9 +7,6 @@ category:
   - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "lllyasviel/ControlNet"
-  github_stars: 33793
 ---
 
 # Stable Diffusion ControlNet Pose Pipeline

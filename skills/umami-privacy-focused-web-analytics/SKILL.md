@@ -7,9 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "umami-software/umami"
-  github_stars: 35941
 ---
 
 # Umami Privacy-Focused Web Analytics Platform

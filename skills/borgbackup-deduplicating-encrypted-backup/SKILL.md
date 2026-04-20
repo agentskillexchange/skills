@@ -7,9 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "borgbackup/borg"
-  github_stars: 13199
 ---
 
 # BorgBackup Deduplicating Encrypted Backup Program

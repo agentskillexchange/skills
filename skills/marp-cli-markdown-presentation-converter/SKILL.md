@@ -7,9 +7,6 @@ category:
   - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "marp-team/marp-cli"
-  github_stars: 3359
 ---
 
 # Marp CLI Markdown Presentation Converter and Slide Deck Generator

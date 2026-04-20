@@ -7,9 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "k8sgpt-ai/k8sgpt"
-  github_stars: 7684
 ---
 
 # Analyze Kubernetes cluster issues through MCP with K8sGPT

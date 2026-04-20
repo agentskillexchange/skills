@@ -7,9 +7,6 @@ category:
   - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "smicallef/spiderfoot"
-  github_stars: 17241
 ---
 
 # SpiderFoot Open Source Intelligence Automation Framework

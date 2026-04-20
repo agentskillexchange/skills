@@ -7,9 +7,6 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "chatwoot/chatwoot"
-  github_stars: 28471
 ---
 
 # Chatwoot Open Source Customer Engagement and Omnichannel Support Platform

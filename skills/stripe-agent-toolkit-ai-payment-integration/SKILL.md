@@ -7,9 +7,6 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "stripe/ai"
-  github_stars: 1422
 ---
 
 # Stripe Agent Toolkit for AI Payment Integration

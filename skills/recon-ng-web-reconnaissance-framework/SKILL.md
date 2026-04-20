@@ -7,9 +7,6 @@ category:
   - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "lanmaster53/recon-ng"
-  github_stars: 5499
 ---
 
 # Recon-ng Modular Web Reconnaissance Framework for OSINT

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "simonw/shot-scraper"
   github_stars: 2311
+  license: "Apache-2.0"
 ---
 
 # shot-scraper Automated Website Screenshot and Scraping CLI

@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Cursor"
-tool_ecosystem:
-  github_repo: "eslint/eslint"
-  github_stars: 27186
 ---
 
 # ESLint Rule Violation Summarizer

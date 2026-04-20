@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "terraform-linters/tflint"
-  github_stars: 5677
 ---
 
 # Lint Terraform modules for provider mistakes and policy violations with TFLint

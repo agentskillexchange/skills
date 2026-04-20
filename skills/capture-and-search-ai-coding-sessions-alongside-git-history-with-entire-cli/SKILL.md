@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "entireio/cli"
-  github_stars: 4000
 ---
 
 # Capture and search AI coding sessions alongside Git history with Entire CLI

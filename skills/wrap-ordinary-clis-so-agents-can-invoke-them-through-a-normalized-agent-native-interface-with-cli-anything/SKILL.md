@@ -7,9 +7,6 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "HKUDS/CLI-Anything"
-  github_stars: 31214
 ---
 
 # Wrap ordinary CLIs so agents can invoke them through a normalized agent-native interface with CLI-Anything

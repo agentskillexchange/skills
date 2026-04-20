@@ -7,6 +7,10 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "kozea/radicale"
+  github_stars: 4535
+  license: "GPL-3.0"
 ---
 
 # Radicale Self-Hosted CalDAV and CardDAV Server

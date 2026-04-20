@@ -7,9 +7,6 @@ category:
   - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "penpot/penpot"
-  github_stars: 45294
 ---
 
 # Penpot Open-Source Design Collaboration Platform

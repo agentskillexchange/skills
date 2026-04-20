@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "open-policy-agent/conftest"
-  github_stars: 3151
 ---
 
 # Conftest Structured Configuration Policy Testing with OPA Rego

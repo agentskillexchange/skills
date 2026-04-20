@@ -7,11 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "szymdzum/browser-debugger-cli"
-  github_stars: 124
-  npm_package: "browser-debugger-cli"
-  npm_weekly_downloads: 582
 ---
 
 # Debug live Chromium sessions with browser-debugger-cli

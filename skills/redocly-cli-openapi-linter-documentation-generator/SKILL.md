@@ -7,6 +7,8 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  license: "MIT"
 ---
 
 # Redocly CLI OpenAPI Linter and Documentation Generator

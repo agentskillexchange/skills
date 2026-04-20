@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693
+  license: "Apache-2.0"
 ---
 
 # Helm Chart Templater

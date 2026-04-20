@@ -7,9 +7,6 @@ category:
   - "Research &amp; Scraping"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "jacob-bd/notebooklm-mcp-cli"
-  github_stars: 3558
 ---
 
 # Search NotebookLM notebooks, sources, and generated study artifacts from agents

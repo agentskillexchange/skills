@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "PyCQA/bandit"
-  github_stars: 7933
 ---
 
 # Scan Python code for risky security patterns with Bandit before review or release

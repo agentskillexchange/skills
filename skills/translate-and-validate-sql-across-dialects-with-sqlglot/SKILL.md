@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "tobymao/sqlglot"
-  github_stars: 9133
 ---
 
 # Translate and validate SQL across dialects with SQLGlot

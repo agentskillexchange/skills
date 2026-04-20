@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "kontext-security/kontext-cli"
-  github_stars: 143
 ---
 
 # Start governed Claude Code sessions with short-lived service credentials using Kontext CLI

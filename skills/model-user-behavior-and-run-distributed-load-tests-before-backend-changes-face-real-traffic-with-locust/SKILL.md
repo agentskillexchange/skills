@@ -7,9 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "locustio/locust"
-  github_stars: 27720
 ---
 
 # Model user behavior and run distributed load tests before backend changes face real traffic with Locust

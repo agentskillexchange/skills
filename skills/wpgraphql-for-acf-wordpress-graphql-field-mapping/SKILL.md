@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "wp-graphql/wpgraphql-acf"
   github_stars: 108
+  license: "GPL-3.0"
 ---
 
 # WPGraphQL for ACF WordPress GraphQL Field Mapping

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "projectdiscovery/subfinder"
   github_stars: 13332
+  license: "MIT"
 ---
 
 # Subfinder Fast Passive Subdomain Enumeration Tool

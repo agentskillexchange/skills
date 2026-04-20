@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "pypa/pip-audit"
-  github_stars: 1260
 ---
 
 # Audit Python environments and requirements files for known vulnerabilities with pip-audit

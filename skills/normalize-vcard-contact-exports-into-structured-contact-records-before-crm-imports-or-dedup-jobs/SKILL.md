@@ -7,9 +7,6 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "py-vobject/vobject"
-  github_stars: 50
 ---
 
 # Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs

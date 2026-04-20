@@ -7,6 +7,8 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  license: "Apache-2.0"
 ---
 
 # Kong Gateway API AI and MCP Traffic Control

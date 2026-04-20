@@ -7,9 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "pre-commit/pre-commit"
-  github_stars: 15163
 ---
 
 # Enforce repo hygiene with pre-commit hooks

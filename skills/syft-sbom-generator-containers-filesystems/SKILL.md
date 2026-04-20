@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "anchore/syft"
-  github_stars: 8628
 ---
 
 # Syft SBOM Generator for Containers and Filesystems

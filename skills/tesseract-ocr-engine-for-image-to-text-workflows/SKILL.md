@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "tesseract-ocr/tesseract"
-  github_stars: 73445
 ---
 
 # Tesseract OCR Engine for Image-to-Text Workflows

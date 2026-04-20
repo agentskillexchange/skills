@@ -7,9 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "highlight/highlight"
-  github_stars: 9223
 ---
 
 # Highlight.io Open Source Full-Stack Monitoring Platform

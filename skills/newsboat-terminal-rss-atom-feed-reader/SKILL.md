@@ -8,8 +8,7 @@ category:
 framework:
   - "Custom Agents"
 tool_ecosystem:
-  github_repo: "newsboat/newsboat"
-  github_stars: 3750
+  license: "MIT"
 ---
 
 # Newsboat Terminal RSS and Atom Feed Reader

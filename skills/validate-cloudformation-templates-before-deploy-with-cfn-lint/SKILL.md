@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "aws-cloudformation/cfn-lint"
-  github_stars: 2608
 ---
 
 # Validate CloudFormation templates before deploy with cfn-lint

@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "Kozea/WeasyPrint"
-  github_stars: 8841
 ---
 
 # WeasyPrint HTML and CSS to PDF Document Generator

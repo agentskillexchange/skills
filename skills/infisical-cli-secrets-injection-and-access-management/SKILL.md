@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "Infisical/cli"
-  github_stars: 41
 ---
 
 # Infisical CLI Secrets Injection and Access Management

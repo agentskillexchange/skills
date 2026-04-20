@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "infracost/infracost"
-  github_stars: 12267
 ---
 
 # Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost

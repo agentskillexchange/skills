@@ -7,9 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "Cockpit-HQ/Cockpit"
-  github_stars: 686
 ---
 
 # Cockpit CMS Headless Content Platform with REST and GraphQL APIs

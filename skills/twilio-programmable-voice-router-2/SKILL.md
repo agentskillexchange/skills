@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 1528
   npm_package: "twilio"
   npm_weekly_downloads: 3731324
+  license: "MIT"
 ---
 
 # Twilio Programmable Voice Router

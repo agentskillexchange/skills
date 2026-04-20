@@ -7,9 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "cloudflare/pint"
-  github_stars: 1015
 ---
 
 # Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint

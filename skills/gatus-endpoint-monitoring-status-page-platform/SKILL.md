@@ -7,6 +7,10 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "twin/gatus"
+  github_stars: 10652
+  license: "Apache-2.0"
 ---
 
 # Gatus Endpoint Monitoring and Status Page Platform

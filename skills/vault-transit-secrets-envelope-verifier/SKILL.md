@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Codex"
-tool_ecosystem:
-  github_repo: "hashicorp/vault"
-  github_stars: 35321
 ---
 
 # Vault Transit Secrets Envelope Verifier

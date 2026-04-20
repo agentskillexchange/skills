@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "ConardLi/easy-dataset"
-  github_stars: 14000
 ---
 
 # Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset

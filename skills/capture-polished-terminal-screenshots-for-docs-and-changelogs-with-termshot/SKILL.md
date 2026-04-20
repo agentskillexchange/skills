@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "homeport/termshot"
-  github_stars: 751
 ---
 
 # Capture polished terminal screenshots for docs and changelogs with termshot

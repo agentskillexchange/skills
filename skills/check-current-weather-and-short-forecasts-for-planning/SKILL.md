@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "openclaw/openclaw"
   github_stars: 356821
+  license: "MIT"
 ---
 
 # Check current weather and short forecasts for planning

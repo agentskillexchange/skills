@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "languagetool-org/languagetool"
   github_stars: 14238
+  license: "LGPL-2.1"
 ---
 
 # LanguageTool Grammar and Style Checker

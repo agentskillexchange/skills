@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "dlt-hub/dlt"
-  github_stars: 5161
 ---
 
 # dlt Python Data Load Tool

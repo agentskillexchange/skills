@@ -8,8 +8,7 @@ category:
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: "grafana/loki"
-  github_stars: 27993
+  license: "AGPL-3.0"
 ---
 
 # Grafana Loki Log Correlation Agent

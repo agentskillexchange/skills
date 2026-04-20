@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "gitui-org/gitui"
-  github_stars: 21683
 ---
 
 # GitUI Blazing Fast Terminal Git Interface

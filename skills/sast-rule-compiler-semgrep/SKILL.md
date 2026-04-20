@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14802
+  license: "LGPL-2.1"
 ---
 
 # SAST Rule Compiler for Semgrep

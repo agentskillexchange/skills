@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "docling-project/docling"
-  github_stars: 57771
 ---
 
 # Docling Document Parsing and Conversion

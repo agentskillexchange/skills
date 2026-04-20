@@ -7,9 +7,6 @@ category:
   - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "photo-cli/photo-cli"
-  github_stars: 68
 ---
 
 # Archive and reorganize local photo libraries with photo-cli

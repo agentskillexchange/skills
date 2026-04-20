@@ -8,8 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "storyblok/storyblok-js-client"
-  github_stars: 137
+  license: "MIT"
 ---
 
 # Storyblok Management API and JavaScript Client

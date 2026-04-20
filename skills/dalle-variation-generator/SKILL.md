@@ -1,6 +1,6 @@
 ---
 title: "DALL-E Variation Generator"
-description: "Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
+description: "Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
@@ -12,11 +12,12 @@ tool_ecosystem:
   github_stars: 10813
   npm_package: "openai"
   npm_weekly_downloads: 18107622
+  license: "Apache-2.0"
 ---
 
 # DALL-E Variation Generator
 
-Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops.
+Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops.
 
 ## Installation
 

@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "vitest-dev/vitest"
-  github_stars: 16296
 ---
 
 # Vitest Next-Generation Vite-Powered Testing Framework

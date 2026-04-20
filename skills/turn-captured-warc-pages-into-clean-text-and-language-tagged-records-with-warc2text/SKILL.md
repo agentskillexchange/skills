@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "bitextor/warc2text"
-  github_stars: 23
 ---
 
 # Turn captured WARC pages into clean text and language-tagged records with warc2text

@@ -7,9 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "DingTalk-Real-AI/dingtalk-workspace-cli"
-  github_stars: 1579
 ---
 
 # Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI

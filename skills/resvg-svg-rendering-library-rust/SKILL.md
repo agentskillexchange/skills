@@ -7,9 +7,6 @@ category:
   - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "linebender/resvg"
-  github_stars: 3778
 ---
 
 # resvg High-Performance SVG Rendering Library in Rust

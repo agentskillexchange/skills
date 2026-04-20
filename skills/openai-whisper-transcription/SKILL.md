@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 98012
+  license: "MIT"
 ---
 
 # OpenAI Whisper Transcription

@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "httpie/cli"
-  github_stars: 37814
 ---
 
 # HTTPie CLI API Testing and Debugging Client

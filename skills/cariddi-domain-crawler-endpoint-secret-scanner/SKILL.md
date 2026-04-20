@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "edoardottt/cariddi"
-  github_stars: 3338
 ---
 
 # Cariddi Domain Crawler and Endpoint Secret Scanner

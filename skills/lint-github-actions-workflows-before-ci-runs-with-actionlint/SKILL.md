@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "rhysd/actionlint"
-  github_stars: 3787
 ---
 
 # Lint GitHub Actions workflows before CI runs with actionlint

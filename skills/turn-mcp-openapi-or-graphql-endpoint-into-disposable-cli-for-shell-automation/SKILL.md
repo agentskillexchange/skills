@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "knowsuchagency/mcp2cli"
-  github_stars: 1940
 ---
 
 # Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation

@@ -7,9 +7,6 @@ category:
   - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "unclecode/crawl4ai"
-  github_stars: 63963
 ---
 
 # Crawl4AI LLM-Friendly Web Crawler

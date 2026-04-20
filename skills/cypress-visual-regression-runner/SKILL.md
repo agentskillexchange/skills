@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 49617
   npm_package: "cypress"
   npm_weekly_downloads: 7268478
+  license: "MIT"
 ---
 
 # Cypress Visual Regression Runner

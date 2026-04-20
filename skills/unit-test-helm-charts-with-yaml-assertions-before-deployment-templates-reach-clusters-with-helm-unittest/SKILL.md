@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "helm-unittest/helm-unittest"
-  github_stars: 1305
 ---
 
 # Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest

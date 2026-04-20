@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "facelessuser/pyspelling"
-  github_stars: 94
 ---
 
 # Spell-check docs and code comments with source-aware filters using pyspelling

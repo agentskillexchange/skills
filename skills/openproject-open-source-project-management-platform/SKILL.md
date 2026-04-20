@@ -7,9 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "opf/openproject"
-  github_stars: 14810
 ---
 
 # OpenProject Open Source Project Management Platform

@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "docling-project/docling"
-  github_stars: 56871
 ---
 
 # Docling AI Document Intelligence Pipeline

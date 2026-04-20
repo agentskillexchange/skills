@@ -7,6 +7,8 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  license: "MIT"
 ---
 
 # MailHog SMTP Testing Server with Web UI and API

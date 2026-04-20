@@ -7,11 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "nextest-rs/nextest"
-  github_stars: 2910
-  npm_package: "cargo-nextest"
-  npm_weekly_downloads: 9751524
 ---
 
 # Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest

@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "elceef/dnstwist"
-  github_stars: 5656
 ---
 
 # Generate and screen lookalike domains with dnstwist for brand abuse triage

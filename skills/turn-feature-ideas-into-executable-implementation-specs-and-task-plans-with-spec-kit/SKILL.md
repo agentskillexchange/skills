@@ -7,9 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "github/spec-kit"
-  github_stars: 88536
 ---
 
 # Turn feature ideas into executable implementation specs and task plans with Spec Kit

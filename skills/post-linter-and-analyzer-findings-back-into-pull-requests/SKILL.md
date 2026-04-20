@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "reviewdog/reviewdog"
-  github_stars: 9207
 ---
 
 # Post linter and analyzer findings back into pull requests

@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "Canop/broot"
-  github_stars: 12549
 ---
 
 # broot Interactive Tree-View File Navigator

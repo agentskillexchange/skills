@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "Breakthrough/PySceneDetect"
-  github_stars: 4711
 ---
 
 # Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect

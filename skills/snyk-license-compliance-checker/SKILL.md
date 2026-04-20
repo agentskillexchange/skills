@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Cursor"
-tool_ecosystem:
-  github_repo: "snyk/cli"
-  github_stars: 5496
 ---
 
 # Snyk License Compliance Checker

@@ -8,10 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "prismicio/prismic-client"
-  github_stars: 177
-  npm_package: "@prismicio/client"
-  npm_weekly_downloads: 199739
+  license: "Apache-2.0"
 ---
 
 # Prismic Headless CMS Content API Client

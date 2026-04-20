@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 34426
   npm_package: "pnpm"
   npm_weekly_downloads: 66251150
+  license: "MIT"
 ---
 
 # pnpm Fast Disk-Efficient Package Manager

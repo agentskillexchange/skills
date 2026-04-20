@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "salesforce/cloudsplaining"
-  github_stars: 2202
 ---
 
 # Audit AWS IAM policies for risky permissions with Cloudsplaining

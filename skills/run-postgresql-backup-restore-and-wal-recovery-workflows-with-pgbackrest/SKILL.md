@@ -7,9 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "pgbackrest/pgbackrest"
-  github_stars: 3729
 ---
 
 # Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest

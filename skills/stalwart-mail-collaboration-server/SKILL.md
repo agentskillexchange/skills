@@ -7,9 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "stalwartlabs/stalwart"
-  github_stars: 12164
 ---
 
 # Stalwart All-in-One Mail and Collaboration Server

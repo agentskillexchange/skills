@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "yoheimuta/protolint"
-  github_stars: 685
 ---
 
 # Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint

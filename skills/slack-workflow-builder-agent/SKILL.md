@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 2900
   npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
+  license: "MIT"
 ---
 
 # Slack Workflow Builder Agent

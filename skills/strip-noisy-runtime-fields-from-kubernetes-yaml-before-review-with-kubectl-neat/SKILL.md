@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "itaysk/kubectl-neat"
-  github_stars: 2057
 ---
 
 # Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat

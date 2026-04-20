@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "gruntwork-io/terragrunt"
-  github_stars: 9503
 ---
 
 # Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt

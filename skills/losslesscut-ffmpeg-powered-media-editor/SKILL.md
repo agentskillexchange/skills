@@ -8,8 +8,7 @@ category:
 framework:
   - "Custom Agents"
 tool_ecosystem:
-  github_repo: "mifi/lossless-cut"
-  github_stars: 39480
+  license: "GPL-2.0"
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor

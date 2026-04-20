@@ -7,11 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "lastmile-ai/mcp-agent"
-  github_stars: 8273
-  npm_package: "mcp-agent"
-  npm_weekly_downloads: 29247
 ---
 
 # Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent

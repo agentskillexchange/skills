@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1236
+  license: "MIT"
 ---
 
 # Claude Code MCP Bridge

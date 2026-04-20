@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "espeak-ng/espeak-ng"
-  github_stars: 6311
 ---
 
 # eSpeak NG Multilingual Speech Synthesizer

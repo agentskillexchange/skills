@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "apache/spark"
   github_stars: 43117
+  license: "Apache-2.0"
 ---
 
 # Apache Spark DataFrame ETL Pipeline

@@ -7,9 +7,6 @@ category:
   - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
-tool_ecosystem:
-  github_repo: "rive-app/rive-react"
-  github_stars: 1111
 ---
 
 # Rive Runtime Animation Controller

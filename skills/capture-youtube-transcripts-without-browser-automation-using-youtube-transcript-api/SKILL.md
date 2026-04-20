@@ -7,9 +7,6 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "jdepoix/youtube-transcript-api"
-  github_stars: 7352
 ---
 
 # Capture YouTube transcripts without browser automation using YouTube Transcript API

@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "dbt-checkpoint/dbt-checkpoint"
-  github_stars: 738
 ---
 
 # Gate dbt projects with pre-commit checks from dbt-checkpoint

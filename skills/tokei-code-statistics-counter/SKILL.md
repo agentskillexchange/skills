@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "XAMPPRocky/tokei"
-  github_stars: 14169
 ---
 
 # tokei Code Statistics Counter

@@ -7,9 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "mwouts/jupytext"
-  github_stars: 7156
 ---
 
 # Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext

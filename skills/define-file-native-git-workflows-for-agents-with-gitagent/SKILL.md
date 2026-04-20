@@ -7,11 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "open-gitagent/gitagent"
-  github_stars: 2667
-  npm_package: "@open-gitagent/gitagent"
-  npm_weekly_downloads: 1651
 ---
 
 # Define file-native Git workflows for agents with GitAgent

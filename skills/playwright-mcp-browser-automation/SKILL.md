@@ -15,6 +15,7 @@ tool_ecosystem:
   github_stars: 31074
   npm_package: "@playwright/mcp"
   npm_weekly_downloads: 2544000
+  license: "Apache-2.0"
 ---
 
 # Playwright MCP Browser Automation

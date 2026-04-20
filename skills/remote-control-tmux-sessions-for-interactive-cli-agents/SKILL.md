@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "openclaw/skills"
   github_stars: 4086
+  license: "MIT"
 ---
 
 # Remote-control tmux sessions for interactive CLI agents

@@ -8,8 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "clerk/javascript"
-  github_stars: 1690
+  license: "MIT"
 ---
 
 # Clerk JavaScript Backend SDK for Server-Side Auth Workflows

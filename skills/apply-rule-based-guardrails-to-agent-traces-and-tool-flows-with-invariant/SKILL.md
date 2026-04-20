@@ -7,11 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "invariantlabs-ai/invariant"
-  github_stars: 409
-  npm_package: "invariant-ai"
-  npm_weekly_downloads: 1473
 ---
 
 # Apply rule-based guardrails to agent traces and tool flows with Invariant

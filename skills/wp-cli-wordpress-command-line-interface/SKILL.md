@@ -7,9 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "wp-cli/wp-cli"
-  github_stars: 5056
 ---
 
 # WP-CLI WordPress Command Line Interface

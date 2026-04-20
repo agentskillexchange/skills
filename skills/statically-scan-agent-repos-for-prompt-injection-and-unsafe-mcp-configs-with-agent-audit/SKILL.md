@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "HeadyZhang/agent-audit"
-  github_stars: 149
 ---
 
 # Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit

@@ -7,9 +7,6 @@ category:
   - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "textstat/textstat"
-  github_stars: 1361
 ---
 
 # textstat Python Readability Statistics Calculator

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936
+  license: "Apache-2.0"
 ---
 
 # Tekton Pipeline Scaffolder

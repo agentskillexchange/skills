@@ -7,11 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "microsoft/agent-governance-toolkit"
-  github_stars: 1056
-  npm_package: "agent-governance-toolkit"
-  npm_weekly_downloads: 20863
 ---
 
 # Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit

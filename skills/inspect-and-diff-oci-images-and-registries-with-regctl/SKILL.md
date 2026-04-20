@@ -7,9 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "regclient/regclient"
-  github_stars: 1813
 ---
 
 # Inspect and diff OCI images and registries with regctl

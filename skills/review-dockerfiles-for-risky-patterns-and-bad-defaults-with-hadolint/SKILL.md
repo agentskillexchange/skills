@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "hadolint/hadolint"
-  github_stars: 12065
 ---
 
 # Review Dockerfiles for risky patterns and bad defaults with hadolint

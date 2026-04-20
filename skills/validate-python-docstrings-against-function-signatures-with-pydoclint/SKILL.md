@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "jsh9/pydoclint"
-  github_stars: 208
 ---
 
 # Validate Python Docstrings Against Function Signatures with pydoclint

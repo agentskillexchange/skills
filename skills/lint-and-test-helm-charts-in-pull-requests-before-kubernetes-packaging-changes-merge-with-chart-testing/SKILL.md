@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "helm/chart-testing"
-  github_stars: 1627
 ---
 
 # Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing

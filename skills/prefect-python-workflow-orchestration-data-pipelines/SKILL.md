@@ -7,9 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "PrefectHQ/prefect"
-  github_stars: 22145
 ---
 
 # Prefect Python Workflow Orchestration Framework for Data Pipelines

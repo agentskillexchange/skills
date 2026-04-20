@@ -7,9 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "shiehn/DeclarAgent"
-  github_stars: 11
 ---
 
 # Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent

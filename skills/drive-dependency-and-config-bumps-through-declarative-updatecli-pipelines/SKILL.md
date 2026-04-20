@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "updatecli/updatecli"
-  github_stars: 894
 ---
 
 # Drive dependency and config bumps through declarative Updatecli pipelines

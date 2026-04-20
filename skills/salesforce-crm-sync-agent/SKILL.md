@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 1453
   npm_package: "jsforce"
   npm_weekly_downloads: 936641
+  license: "MIT"
 ---
 
 # Salesforce CRM Sync Agent

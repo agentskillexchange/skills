@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 3666
   npm_package: "taiko"
   npm_weekly_downloads: 12342
+  license: "MIT"
 ---
 
 # Taiko Smart-Selector Browser Automation for Node.js

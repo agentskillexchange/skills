@@ -7,11 +7,6 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "elevenlabs/cli"
-  github_stars: 49
-  npm_package: "@elevenlabs/cli"
-  npm_weekly_downloads: 10433
 ---
 
 # Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI

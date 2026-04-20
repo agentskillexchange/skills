@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "djlint/djLint"
-  github_stars: 911
 ---
 
 # Template Linting and Auto-Formatting for Django and Jinja Repositories

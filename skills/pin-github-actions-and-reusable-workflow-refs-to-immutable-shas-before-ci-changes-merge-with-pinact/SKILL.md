@@ -7,9 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "suzuki-shunsuke/pinact"
-  github_stars: 917
 ---
 
 # Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact

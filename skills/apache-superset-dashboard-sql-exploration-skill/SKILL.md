@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "apache/superset"
-  github_stars: 72339
 ---
 
 # Apache Superset Dashboard and SQL Exploration Skill

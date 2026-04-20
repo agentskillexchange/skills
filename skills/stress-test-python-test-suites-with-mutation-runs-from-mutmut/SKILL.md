@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "boxed/mutmut"
-  github_stars: 1259
 ---
 
 # Stress-test Python test suites with mutation runs from mutmut

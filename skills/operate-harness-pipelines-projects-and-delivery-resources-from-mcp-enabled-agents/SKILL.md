@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 43
   npm_package: "harness-mcp-v2"
   npm_weekly_downloads: 1019
+  license: "Apache-2.0"
 ---
 
 # Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents

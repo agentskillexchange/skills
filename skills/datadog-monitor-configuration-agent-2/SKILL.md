@@ -7,6 +7,11 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "datadog/dd-trace-js"
+  github_stars: 791
+  npm_package: "dd-trace"
+  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Monitor Configuration Agent

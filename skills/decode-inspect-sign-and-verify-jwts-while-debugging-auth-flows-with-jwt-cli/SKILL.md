@@ -7,11 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "mike-engel/jwt-cli"
-  github_stars: 1463
-  npm_package: "jwt-cli"
-  npm_weekly_downloads: 3419
 ---
 
 # Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli

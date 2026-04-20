@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Gemini"
-tool_ecosystem:
-  github_repo: "google-gemini/gemini-cli"
-  github_stars: 101569
 ---
 
 # Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI

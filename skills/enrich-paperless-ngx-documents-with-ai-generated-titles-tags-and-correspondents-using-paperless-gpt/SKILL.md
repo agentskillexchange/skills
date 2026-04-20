@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "icereed/paperless-gpt"
-  github_stars: 2256
 ---
 
 # Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt

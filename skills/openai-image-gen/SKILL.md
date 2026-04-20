@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10815
+  license: "Apache-2.0"
 ---
 
 # OpenAI Image Gen

@@ -7,9 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "Foundry376/Mailspring"
-  github_stars: 17366
 ---
 
 # Mailspring Open Source Email Client with Plugin Architecture

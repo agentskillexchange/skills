@@ -7,9 +7,6 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "hukkin/mdformat"
-  github_stars: 758
 ---
 
 # Reformat Markdown files into a stable house style before review or migration

@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "zoni/obsidian-export"
-  github_stars: 1300
 ---
 
 # Export Obsidian vaults into clean Markdown trees for publishing or downstream processing

@@ -7,11 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "millionco/expect"
-  github_stars: 3362
-  npm_package: "expect-cli"
-  npm_weekly_downloads: 24457
 ---
 
 # Test agent-written web changes in a real browser and hand failures back for repair with Expect

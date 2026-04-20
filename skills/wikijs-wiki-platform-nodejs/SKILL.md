@@ -7,9 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "requarks/wiki"
-  github_stars: 28154
 ---
 
 # Wiki.js Modern Open Source Wiki Platform on Node.js

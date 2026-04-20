@@ -7,6 +7,11 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "datadog/dd-trace-js"
+  github_stars: 791
+  npm_package: "dd-trace"
+  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Integration Connector

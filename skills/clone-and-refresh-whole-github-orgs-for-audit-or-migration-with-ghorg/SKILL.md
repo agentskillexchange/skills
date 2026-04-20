@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "gabrie30/ghorg"
-  github_stars: 2016
 ---
 
 # Clone and refresh whole GitHub orgs for audit or migration with ghorg

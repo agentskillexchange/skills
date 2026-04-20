@@ -7,11 +7,6 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "nextest-rs/nextest"
-  github_stars: 2911
-  npm_package: "cargo-nextest"
-  npm_weekly_downloads: 9775279
 ---
 
 # Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest

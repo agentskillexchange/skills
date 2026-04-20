@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314
+  license: "BSD-3-Clause"
 ---
 
 # Scrapy Pipeline Manager

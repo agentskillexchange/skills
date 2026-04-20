@@ -9,7 +9,6 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hey-intent/patchwork-agents"
-  github_stars: 0
 ---
 
 # Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents

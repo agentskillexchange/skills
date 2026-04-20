@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mkdocs/mkdocs"
   github_stars: 21931
+  license: "BSD-2-Clause"
 ---
 
 # MkDocs Project Documentation Generator

@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "wireservice/csvkit"
-  github_stars: 6363
 ---
 
 # csvkit Python CSV Utility Suite

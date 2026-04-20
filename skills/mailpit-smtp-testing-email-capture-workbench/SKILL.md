@@ -8,8 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "axllent/mailpit"
-  github_stars: 9051
+  license: "MIT"
 ---
 
 # Mailpit SMTP Testing and Email Capture Workbench

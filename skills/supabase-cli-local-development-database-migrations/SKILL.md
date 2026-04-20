@@ -7,11 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "supabase/cli"
-  github_stars: 2112
-  npm_package: "supabase"
-  npm_weekly_downloads: 1190551
 ---
 
 # Supabase CLI for Local Development and Database Migrations

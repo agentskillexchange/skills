@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "vibrantlabsai/ragas"
   github_stars: 13412
+  license: "Apache-2.0"
 ---
 
 # Score RAG answer quality and retrieval quality before rollout with Ragas

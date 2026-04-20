@@ -7,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "reg-viz/reg-suit"
-  github_stars: 1260
 ---
 
 # Review visual regression diffs and publish snapshot baselines in CI with reg-suit

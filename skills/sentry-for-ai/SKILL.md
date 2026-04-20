@@ -10,8 +10,7 @@ framework:
   - "Cursor"
   - "Custom Agents"
 tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
-  github_stars: 121
+  license: "MIT"
 ---
 
 # Sentry for AI

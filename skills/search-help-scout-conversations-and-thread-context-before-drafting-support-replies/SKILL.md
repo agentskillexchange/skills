@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 36
   npm_package: "help-scout-mcp-server"
   npm_weekly_downloads: 184
+  license: "MIT"
 ---
 
 # Search Help Scout conversations and thread context before drafting support replies

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "aquasecurity/trivy"
   github_stars: 34488
+  license: "Apache-2.0"
 ---
 
 # Trivy Container Scanner

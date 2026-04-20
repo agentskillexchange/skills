@@ -7,9 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
-tool_ecosystem:
-  github_repo: "grafana/grafonnet"
-  github_stars: 528
 ---
 
 # Grafana Dashboard as Code Generator
