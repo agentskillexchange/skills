@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2277,
+  "total": 2279,
   "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory",
+      "name": "Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory",
+      "description": "Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1182
+      }
+    },
+    {
+      "slug": "generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber",
+      "name": "Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber",
+      "description": "Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 712
+      }
+    },
     {
       "slug": "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter",
       "name": "Probe Kubernetes clusters for exposed attack paths with kube-hunter",
