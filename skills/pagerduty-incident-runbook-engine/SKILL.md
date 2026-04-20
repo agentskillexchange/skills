@@ -4,7 +4,7 @@ description: "Generates automated incident response runbooks triggered by PagerD
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Lets an agent install or build a harness around an existing tool s
 verification: security_reviewed
 source: "https://github.com/HKUDS/CLI-Anything"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

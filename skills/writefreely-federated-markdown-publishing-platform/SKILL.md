@@ -4,7 +4,7 @@ description: "WriteFreely is a clean, minimalist self-hosted publishing platform
 verification: security_reviewed
 source: "https://github.com/writefreely/writefreely"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Custom Agents"
 tool_ecosystem:

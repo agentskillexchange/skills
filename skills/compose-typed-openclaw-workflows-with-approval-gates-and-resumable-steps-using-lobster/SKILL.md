@@ -4,7 +4,7 @@ description: "Use Lobster when an OpenClaw operator wants one deterministic type
 verification: security_reviewed
 source: "https://github.com/openclaw/lobster"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

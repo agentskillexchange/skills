@@ -4,7 +4,7 @@ description: "Encrypt Kubernetes Secret manifests against a Sealed Secrets contr
 verification: listed
 source: "https://github.com/bitnami-labs/sealed-secrets"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

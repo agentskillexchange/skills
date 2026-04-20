@@ -4,7 +4,7 @@ description: "Use ORAS to move SBOMs, model bundles, provenance, and other non-c
 verification: listed
 source: "https://github.com/oras-project/oras"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

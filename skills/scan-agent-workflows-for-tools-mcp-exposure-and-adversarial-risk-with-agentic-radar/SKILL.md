@@ -4,7 +4,7 @@ description: "Use Agentic Radar to statically scan agent workflows, map tools an
 verification: listed
 source: "https://github.com/splx-ai/agentic-radar"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

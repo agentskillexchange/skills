@@ -4,7 +4,7 @@ description: "Read a Lark Minutes transcript, extract explicit and implied follo
 verification: security_reviewed
 source: "https://github.com/zarazhangrui/lark-minutes-tasks"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Claude Code"
 tool_ecosystem:

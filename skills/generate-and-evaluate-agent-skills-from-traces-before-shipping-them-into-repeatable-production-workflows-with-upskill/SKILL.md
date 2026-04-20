@@ -4,7 +4,7 @@ description: "Turn successful traces into reusable skills, then benchmark those 
 verification: security_reviewed
 source: "https://github.com/huggingface/upskill"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

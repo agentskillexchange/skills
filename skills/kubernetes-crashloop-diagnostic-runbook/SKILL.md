@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubec
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Dispatch specialized WCAG review agents to inspect code or content
 verification: listed
 source: "https://github.com/Community-Access/accessibility-agents"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

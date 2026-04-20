@@ -4,7 +4,7 @@ description: "Optimizes WordPress posts for SEO using the Yoast SEO REST API fie
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Codex"
 ---

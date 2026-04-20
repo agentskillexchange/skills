@@ -4,7 +4,7 @@ description: "Run a fast secure-code triage pass over C and C++ sources before m
 verification: listed
 source: "https://github.com/david-a-wheeler/flawfinder"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

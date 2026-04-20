@@ -4,7 +4,7 @@ description: "Record structured Claude Code trajectories, shadow git diffs, and 
 verification: security_reviewed
 source: "https://github.com/dreadnode/agent-lens"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

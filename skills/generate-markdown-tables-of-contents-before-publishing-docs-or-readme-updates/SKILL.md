@@ -4,7 +4,7 @@ description: "Runs DocToc to insert or refresh navigable tables of contents insi
 verification: security_reviewed
 source: "https://github.com/thlorenz/doctoc"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Lets an agent exercise REST, GraphQL, and gRPC authorization paths
 verification: listed
 source: "https://github.com/praetorian-inc/hadrian"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

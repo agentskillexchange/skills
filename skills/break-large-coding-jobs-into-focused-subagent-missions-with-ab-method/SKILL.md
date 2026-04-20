@@ -4,7 +4,7 @@ description: "Use AB Method when a Claude Code task is too large for one pass an
 verification: security_reviewed
 source: "https://github.com/ayoubben18/ab-method"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

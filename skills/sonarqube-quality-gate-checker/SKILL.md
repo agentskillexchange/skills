@@ -4,7 +4,7 @@ description: "Queries SonarQube Web API for project quality gate status, code co
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Gemini"
 ---

@@ -4,7 +4,7 @@ description: "Use AiMock when an agent needs reproducible tests around LLM APIs,
 verification: security_reviewed
 source: "https://github.com/CopilotKit/aimock"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

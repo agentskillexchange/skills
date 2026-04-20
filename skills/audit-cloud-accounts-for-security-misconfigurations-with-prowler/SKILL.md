@@ -4,7 +4,7 @@ description: "Run targeted AWS, Azure, or GCP security and compliance audits whe
 verification: listed
 source: "https://github.com/prowler-cloud/prowler"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

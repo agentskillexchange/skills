@@ -4,7 +4,7 @@ description: "Turn markdown slide decks into terminal presentations for live dem
 verification: listed
 source: "https://github.com/mfontanini/presenterm"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

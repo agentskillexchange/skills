@@ -4,7 +4,7 @@ description: "Catch structural and line-style problems in reStructuredText docs 
 verification: security_reviewed
 source: "https://github.com/PyCQA/doc8"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

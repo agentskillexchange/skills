@@ -4,7 +4,7 @@ description: "Check certificates and precertificates for Web PKI standards viola
 verification: listed
 source: "https://github.com/zmap/zlint"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

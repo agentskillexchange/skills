@@ -4,7 +4,7 @@ description: "Use jCodeMunch MCP when an agent needs precise symbol lookups, out
 verification: listed
 source: "https://github.com/jgravelle/jcodemunch-mcp"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "MCP"
 tool_ecosystem:

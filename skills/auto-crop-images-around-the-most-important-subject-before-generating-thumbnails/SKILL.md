@@ -4,7 +4,7 @@ description: "Use smartcrop when an agent needs to choose a sensible crop automa
 verification: security_reviewed
 source: "https://www.npmjs.com/package/smartcrop"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

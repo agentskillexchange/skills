@@ -4,7 +4,7 @@ description: "Connects to the Slack Web API to fetch unread messages across spec
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Bidirectionally syncs Notion databases with external tools via the
 verification: security_reviewed
 source: "https://developers.notion.com/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Gemini"
 ---

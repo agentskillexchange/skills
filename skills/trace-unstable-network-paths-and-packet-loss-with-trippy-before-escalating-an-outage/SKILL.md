@@ -4,7 +4,7 @@ description: "Measure route hops, latency, jitter, and packet loss to isolate wh
 verification: listed
 source: "https://github.com/fujiapple852/trippy"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Run named Inspektor Gadget traces and snapshots when an agent need
 verification: listed
 source: "https://github.com/inspektor-gadget/inspektor-gadget"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Runs automated DAST scans against REST and GraphQL APIs using OWAS
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Codex"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Instruments Anthropic API calls to log token usage, latency, and c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 ---

@@ -4,7 +4,7 @@ description: "Start, watch, and restart a local stack of app processes together 
 verification: listed
 source: "https://github.com/F1bonacc1/process-compose"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

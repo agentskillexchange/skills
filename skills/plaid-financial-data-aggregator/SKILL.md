@@ -4,7 +4,7 @@ description: "Integrates with the Plaid Transactions API using the plaid Python 
 verification: security_reviewed
 source: "https://plaid.com/docs/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Cursor"
 ---

@@ -4,7 +4,7 @@ description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule s
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "MCP"
 tool_ecosystem:

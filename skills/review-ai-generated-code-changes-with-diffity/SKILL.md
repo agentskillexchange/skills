@@ -4,7 +4,7 @@ description: "Open a GitHub-style local diff, collect inline review comments, th
 verification: listed
 source: "https://github.com/kamranahmedse/diffity"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

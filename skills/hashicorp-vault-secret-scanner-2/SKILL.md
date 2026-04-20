@@ -4,7 +4,7 @@ description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK an
 verification: security_reviewed
 source: "https://github.com/hashicorp/vault"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

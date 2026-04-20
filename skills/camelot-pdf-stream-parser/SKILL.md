@@ -4,7 +4,7 @@ description: "Implements Camelot library for advanced PDF table detection using 
 verification: security_reviewed
 source: "https://github.com/camelot-dev/camelot"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

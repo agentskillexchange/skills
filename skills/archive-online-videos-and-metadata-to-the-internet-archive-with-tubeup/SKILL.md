@@ -4,7 +4,7 @@ description: "Download a supported video URL with yt-dlp and upload the preserve
 verification: listed
 source: "https://github.com/bibanon/tubeup"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Preprocess messy PDFs into a stable form before extraction, review
 verification: listed
 source: "https://github.com/qpdf/qpdf"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

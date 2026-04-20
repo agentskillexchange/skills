@@ -4,7 +4,7 @@ description: "Detects scheduling conflicts across multiple Google Calendars usin
 verification: security_reviewed
 source: "https://developers.google.com/workspace/calendar/api/guides/overview"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Gemini"
 ---

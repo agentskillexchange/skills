@@ -4,7 +4,7 @@ description: "Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

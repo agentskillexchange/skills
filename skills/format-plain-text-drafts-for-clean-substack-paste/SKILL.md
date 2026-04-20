@@ -4,12 +4,9 @@ description: "Transforms raw draft text into paste-ready Substack HTML so an age
 verification: security_reviewed
 source: "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/skills"
-  github_stars: 4086
 ---
 
 # Format plain-text drafts for clean Substack paste

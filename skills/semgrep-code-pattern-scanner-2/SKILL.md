@@ -4,7 +4,7 @@ description: "Runs Semgrep against a codebase using official or custom rule regi
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Codex"
 tool_ecosystem:

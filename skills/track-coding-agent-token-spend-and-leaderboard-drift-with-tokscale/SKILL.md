@@ -4,7 +4,7 @@ description: "Aggregate local coding-agent usage logs into spend, token, and tre
 verification: listed
 source: "https://github.com/junhoyeo/tokscale"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

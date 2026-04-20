@@ -4,7 +4,7 @@ description: "Run a dead-code pass on Python repositories before refactors so ag
 verification: listed
 source: "https://github.com/jendrikseipp/vulture"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "OpenSEO is an open-source, self-hostable SEO platform that provide
 verification: security_reviewed
 source: "https://github.com/every-app/open-seo"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

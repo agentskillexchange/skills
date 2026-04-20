@@ -4,7 +4,7 @@ description: "Connects to the QuickBooks Online Accounting API using OAuth 2.0 v
 verification: security_reviewed
 source: "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Code"
 ---

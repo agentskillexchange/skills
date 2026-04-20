@@ -4,7 +4,7 @@ description: "Scans IaC files with Bridgecrew Checkov for policy violations acro
 verification: security_reviewed
 source: "https://github.com/bridgecrewio/checkov"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Codex"
 tool_ecosystem:

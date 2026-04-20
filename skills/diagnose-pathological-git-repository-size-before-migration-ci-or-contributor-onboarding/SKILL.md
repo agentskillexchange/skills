@@ -4,7 +4,7 @@ description: "Uses git-sizer to identify the specific size and history character
 verification: security_reviewed
 source: "https://github.com/github/git-sizer"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

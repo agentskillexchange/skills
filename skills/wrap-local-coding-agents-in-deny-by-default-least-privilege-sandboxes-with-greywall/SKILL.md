@@ -4,7 +4,7 @@ description: "Run Claude Code, Codex, Cursor, or similar local agent CLIs inside
 verification: listed
 source: "https://github.com/GreyhavenHQ/greywall"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

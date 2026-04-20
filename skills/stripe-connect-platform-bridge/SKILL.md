@@ -4,7 +4,7 @@ description: "Manages Stripe Connect onboarding flows using the stripe-node SDK.
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Claude Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Logto is a modern, open-source authentication and authorization in
 verification: security_reviewed
 source: "https://github.com/logto-io/logto"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

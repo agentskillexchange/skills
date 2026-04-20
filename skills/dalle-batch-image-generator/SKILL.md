@@ -4,7 +4,7 @@ description: "Generates and manages batch image creation jobs using the OpenAI I
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

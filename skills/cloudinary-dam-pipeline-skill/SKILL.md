@@ -4,7 +4,7 @@ description: "Manage digital assets through the Cloudinary Upload, Admin, and Tr
 verification: security_reviewed
 source: "https://cloudinary.com/documentation"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---

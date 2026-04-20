@@ -4,7 +4,7 @@ description: "Scan Python requirements and environments for known vulnerable or 
 verification: listed
 source: "https://github.com/pyupio/safety"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

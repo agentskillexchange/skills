@@ -4,7 +4,7 @@ description: "Orchestrates Stable Diffusion XL with ControlNet preprocessors (Ca
 verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Gemini"
 ---

@@ -4,7 +4,7 @@ description: "Generate typosquat and homograph domain candidates, resolve them, 
 verification: listed
 source: "https://github.com/elceef/dnstwist"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

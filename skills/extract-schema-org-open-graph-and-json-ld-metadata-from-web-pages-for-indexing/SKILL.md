@@ -4,7 +4,7 @@ description: "Uses extruct to pull machine-readable metadata from raw HTML so an
 verification: security_reviewed
 source: "https://github.com/scrapinghub/extruct"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

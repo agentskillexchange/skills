@@ -4,7 +4,7 @@ description: "Configures and optimizes Ruff Python linter settings using the ruf
 verification: security_reviewed
 source: "https://github.com/astral-sh/ruff"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Ingest disk, log, and system artifacts into a sortable forensic ti
 verification: listed
 source: "https://github.com/log2timeline/plaso"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

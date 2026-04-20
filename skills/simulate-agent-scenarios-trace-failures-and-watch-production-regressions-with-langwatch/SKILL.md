@@ -4,7 +4,7 @@ description: "Run end-to-end agent simulations, review traces, and watch product
 verification: listed
 source: "https://github.com/langwatch/langwatch"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Custom Agents"
 tool_ecosystem:

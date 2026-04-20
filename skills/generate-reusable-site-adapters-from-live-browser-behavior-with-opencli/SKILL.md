@@ -4,7 +4,7 @@ description: "Use OpenCLI to explore a logged-in site, synthesize a deterministi
 verification: security_reviewed
 source: "https://github.com/jackwener/OpenCLI"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

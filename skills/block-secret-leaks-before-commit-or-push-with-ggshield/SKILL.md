@@ -4,7 +4,7 @@ description: "Scan staged changes, commits, or repositories for secrets before t
 verification: listed
 source: "https://github.com/GitGuardian/ggshield"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Uses the Metabase REST API to export question results as CSV and r
 verification: security_reviewed
 source: "https://www.metabase.com/docs/latest/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 ---

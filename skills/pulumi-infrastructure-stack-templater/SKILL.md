@@ -4,7 +4,7 @@ description: "Generates Pulumi infrastructure-as-code stacks in TypeScript and P
 verification: security_reviewed
 source: "https://github.com/pulumi/pulumi"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

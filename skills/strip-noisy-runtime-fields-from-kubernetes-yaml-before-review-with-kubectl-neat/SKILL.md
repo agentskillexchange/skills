@@ -4,7 +4,7 @@ description: "Clean exported Kubernetes manifests by removing status and other r
 verification: listed
 source: "https://github.com/itaysk/kubectl-neat"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

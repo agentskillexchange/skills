@@ -4,7 +4,7 @@ description: "Orchestrates complex video and audio processing pipelines using FF
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 ---

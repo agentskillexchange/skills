@@ -4,7 +4,7 @@ description: "Uses metascraper to turn a URL plus its fetched HTML into normaliz
 verification: security_reviewed
 source: "https://github.com/microlinkhq/metascraper"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Capture volatile and persistent Unix-like system artifacts quickly
 verification: listed
 source: "https://github.com/tclahr/uac"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

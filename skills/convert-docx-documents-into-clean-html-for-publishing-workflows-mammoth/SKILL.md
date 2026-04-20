@@ -4,7 +4,7 @@ description: "Use Mammoth when an agent needs to turn a .docx file into simple H
 verification: security_reviewed
 source: "https://github.com/mwilliamson/mammoth.js"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

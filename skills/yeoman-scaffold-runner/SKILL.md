@@ -4,7 +4,7 @@ description: "Executes Yeoman generators via the yo CLI and yeoman-environment A
 verification: security_reviewed
 source: "https://github.com/yeoman/yeoman"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

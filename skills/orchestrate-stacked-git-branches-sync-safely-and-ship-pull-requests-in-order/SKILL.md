@@ -4,7 +4,7 @@ description: "Uses Git Town to keep a branch stack healthy by syncing with the m
 verification: security_reviewed
 source: "https://github.com/git-town/git-town"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

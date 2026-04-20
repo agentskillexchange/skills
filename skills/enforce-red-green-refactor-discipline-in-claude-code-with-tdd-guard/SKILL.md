@@ -4,7 +4,7 @@ description: "Block implementation-first agent behavior and keep Claude Code anc
 verification: listed
 source: "https://github.com/nizos/tdd-guard"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use reflective search to improve prompts or text-configured agent 
 verification: listed
 source: "https://github.com/gepa-ai/gepa"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

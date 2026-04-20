@@ -4,7 +4,7 @@ description: "Queries Notion databases and pages via the Notion API v1, then ren
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Codex"
 tool_ecosystem:

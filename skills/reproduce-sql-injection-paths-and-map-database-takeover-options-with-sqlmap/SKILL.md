@@ -4,7 +4,7 @@ description: "Take a suspected injectable request, replay it on an authorized ta
 verification: security_reviewed
 source: "https://github.com/sqlmapproject/sqlmap"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

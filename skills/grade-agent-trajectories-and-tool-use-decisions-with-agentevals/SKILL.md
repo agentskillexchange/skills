@@ -4,7 +4,7 @@ description: "Score whether an agent took a sensible intermediate path, called t
 verification: listed
 source: "https://github.com/langchain-ai/agentevals"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

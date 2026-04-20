@@ -4,7 +4,7 @@ description: "Execute named restic backup profiles with repeatable backup, reten
 verification: listed
 source: "https://github.com/creativeprojects/resticprofile"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use Latch to put an MCP policy and approval layer between agents a
 verification: listed
 source: "https://github.com/latchagent/latch"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

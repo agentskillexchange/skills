@@ -4,7 +4,7 @@ description: "Probe for hidden routes, parameter behaviors, and vhost exposures 
 verification: listed
 source: "https://github.com/ffuf/ffuf"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

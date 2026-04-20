@@ -4,7 +4,7 @@ description: "Use MailParser when an agent receives raw RFC822 or MIME email and
 verification: security_reviewed
 source: "https://github.com/nodemailer/mailparser"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

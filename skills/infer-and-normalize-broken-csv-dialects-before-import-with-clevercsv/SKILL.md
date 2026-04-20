@@ -4,7 +4,7 @@ description: "Detect messy CSV dialects, standardize malformed files, and genera
 verification: listed
 source: "https://github.com/alan-turing-institute/CleverCSV"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

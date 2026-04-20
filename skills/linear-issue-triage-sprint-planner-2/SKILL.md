@@ -4,7 +4,7 @@ description: "Queries the Linear GraphQL API to list open issues by team, priori
 verification: security_reviewed
 source: "https://linear.app/docs"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Claude Code"
 ---

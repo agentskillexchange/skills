@@ -4,7 +4,7 @@ description: "Extract cloud and SaaS configuration data into queryable tables so
 verification: listed
 source: "https://github.com/cloudquery/cloudquery"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

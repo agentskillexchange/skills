@@ -4,7 +4,7 @@ description: "Ask Claude Code for favicons, app icons, and social preview images
 verification: listed
 source: "https://github.com/alonw0/web-asset-generator"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Claude Code"
 tool_ecosystem:

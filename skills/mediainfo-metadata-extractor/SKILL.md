@@ -4,7 +4,7 @@ description: "Extracts comprehensive media metadata using the MediaInfo library 
 verification: security_reviewed
 source: "https://github.com/MediaArea/MediaInfo"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:

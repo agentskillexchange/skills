@@ -4,7 +4,7 @@ description: "Run concurrent scripted conversations against a target agent to me
 verification: listed
 source: "https://github.com/awslabs/agent-evaluation"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Custom Agents"
 tool_ecosystem:

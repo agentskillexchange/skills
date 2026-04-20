@@ -4,7 +4,7 @@ description: "Records and generates end-to-end test scripts using Playwright Cod
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Cursor"
 tool_ecosystem:

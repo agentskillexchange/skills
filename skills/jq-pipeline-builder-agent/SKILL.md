@@ -4,7 +4,7 @@ description: "Constructs complex jq filter pipelines from natural language queri
 verification: security_reviewed
 source: "https://github.com/jqlang/jq"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Gemini"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Diagnoses Kubernetes pod failures using kubectl and the Kubernetes
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Codex"
 tool_ecosystem:

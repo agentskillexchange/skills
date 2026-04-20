@@ -4,7 +4,7 @@ description: "Use csv-diff when an agent needs to explain what changed between t
 verification: security_reviewed
 source: "https://github.com/simonw/csv-diff"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

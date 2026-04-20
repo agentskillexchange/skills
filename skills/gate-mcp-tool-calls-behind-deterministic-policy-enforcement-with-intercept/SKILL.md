@@ -4,7 +4,7 @@ description: "Use Intercept when an MCP-connected agent needs transport-layer po
 verification: listed
 source: "https://github.com/PolicyLayer/Intercept"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

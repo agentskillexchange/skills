@@ -4,7 +4,7 @@ description: "Use ccusage when an agent operator needs to turn local Claude Code
 verification: security_reviewed
 source: "https://github.com/ryoppippi/ccusage"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

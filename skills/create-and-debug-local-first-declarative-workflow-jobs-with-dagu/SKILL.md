@@ -4,7 +4,7 @@ description: "Use Dagu to define file-backed workflow jobs in YAML, run them loc
 verification: listed
 source: "https://github.com/dagucloud/dagu"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

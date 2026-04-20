@@ -4,7 +4,7 @@ description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-bloc
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Cursor"
 ---

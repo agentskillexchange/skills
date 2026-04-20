@@ -4,7 +4,7 @@ description: "Generates project boilerplate from Cookiecutter templates with Jin
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

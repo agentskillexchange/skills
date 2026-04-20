@@ -4,7 +4,7 @@ description: "Intelligent PDF table detection and extraction using Camelot-py wi
 verification: security_reviewed
 source: "https://github.com/camelot-dev/camelot"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:

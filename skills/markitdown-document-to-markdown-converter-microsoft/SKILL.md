@@ -4,7 +4,7 @@ description: "MarkItDown is a Python utility by Microsoft that converts PDF, Wor
 verification: security_reviewed
 source: "https://github.com/microsoft/markitdown"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

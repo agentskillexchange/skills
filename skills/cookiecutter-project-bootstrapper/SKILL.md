@@ -4,7 +4,7 @@ description: "Bootstraps project repositories from Cookiecutter templates with J
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Gemini"
 tool_ecosystem:

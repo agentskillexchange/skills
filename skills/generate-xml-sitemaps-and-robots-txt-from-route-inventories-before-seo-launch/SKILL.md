@@ -4,7 +4,7 @@ description: "Use sitemap when an agent already knows the site routes or content
 verification: security_reviewed
 source: "https://github.com/ekalinin/sitemap.js"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

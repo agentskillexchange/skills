@@ -4,7 +4,7 @@ description: "Performs deep ESLint configuration analysis using the ESLint Node.
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Inject short-lived, scoped service credentials into Claude Code se
 verification: listed
 source: "https://github.com/kontext-security/kontext-cli"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use affine-mcp-server when an agent needs tool-callable access to 
 verification: security_reviewed
 source: "https://github.com/DAWNCR0W/affine-mcp-server"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

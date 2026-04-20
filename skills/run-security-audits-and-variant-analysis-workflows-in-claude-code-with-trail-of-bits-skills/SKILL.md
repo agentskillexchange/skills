@@ -4,7 +4,7 @@ description: "Use curated Trail of Bits security skills inside Claude Code when 
 verification: listed
 source: "https://github.com/trailofbits/skills"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

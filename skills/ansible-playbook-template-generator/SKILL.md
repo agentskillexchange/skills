@@ -4,7 +4,7 @@ description: "Generates Ansible playbook YAML with proper module usage, handler 
 verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

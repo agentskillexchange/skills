@@ -4,7 +4,7 @@ description: "Author, validate, test, and troubleshoot Copilot Studio agents thr
 verification: listed
 source: "https://github.com/microsoft/skills-for-copilot-studio"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

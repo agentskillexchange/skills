@@ -4,7 +4,7 @@ description: "Uses the DocuSign eSignature REST API SDK to programmatically crea
 verification: security_reviewed
 source: "https://developers.docusign.com/docs/esign-rest-api/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "ChatGPT Agents"
 ---

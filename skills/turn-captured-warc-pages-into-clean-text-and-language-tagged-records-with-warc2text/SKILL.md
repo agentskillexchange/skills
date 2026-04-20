@@ -4,7 +4,7 @@ description: "Use warc2text when an agent already has WARC captures and needs re
 verification: security_reviewed
 source: "https://github.com/bitextor/warc2text"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

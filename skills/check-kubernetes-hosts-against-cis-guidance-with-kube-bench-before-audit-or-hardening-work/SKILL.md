@@ -4,7 +4,7 @@ description: "Run a benchmark-driven posture check on Kubernetes nodes and contr
 verification: listed
 source: "https://github.com/aquasecurity/kube-bench"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Validates and auto-generates Python docstrings using the ast modul
 verification: security_reviewed
 source: "https://github.com/PyCQA/pydocstyle"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Codex"
 tool_ecosystem:

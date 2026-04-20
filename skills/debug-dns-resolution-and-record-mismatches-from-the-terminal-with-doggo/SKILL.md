@@ -4,7 +4,7 @@ description: "Run fast DNS lookups, compare record types, and inspect resolver b
 verification: listed
 source: "https://github.com/mr-karan/doggo"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

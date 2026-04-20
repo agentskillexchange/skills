@@ -4,7 +4,7 @@ description: "Run a focused exposure probe against a Kubernetes environment befo
 verification: listed
 source: "https://github.com/aquasecurity/kube-hunter"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

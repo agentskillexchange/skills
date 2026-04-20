@@ -4,7 +4,7 @@ description: "Use Citation.js when an agent has raw references and needs clean c
 verification: security_reviewed
 source: "https://www.npmjs.com/package/citation-js"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

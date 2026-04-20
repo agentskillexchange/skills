@@ -4,7 +4,7 @@ description: "Queries and updates WooCommerce orders via the WooCommerce REST AP
 verification: security_reviewed
 source: "https://woocommerce.github.io/woocommerce-rest-api-docs/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Claude Code"
 ---

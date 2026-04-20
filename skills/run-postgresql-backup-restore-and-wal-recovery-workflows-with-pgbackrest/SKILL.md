@@ -4,7 +4,7 @@ description: "Execute PostgreSQL backup, restore, verification, and point-in-tim
 verification: listed
 source: "https://github.com/pgbackrest/pgbackrest"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

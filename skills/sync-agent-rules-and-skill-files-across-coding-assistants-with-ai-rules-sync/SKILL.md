@@ -4,7 +4,7 @@ description: "Use AI Rules Sync when the same operating rules, commands, skills,
 verification: security_reviewed
 source: "https://github.com/lbb00/ai-rules-sync"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

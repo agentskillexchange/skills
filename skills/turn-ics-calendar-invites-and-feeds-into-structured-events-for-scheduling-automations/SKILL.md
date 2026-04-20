@@ -4,7 +4,7 @@ description: "Use node-ical when an agent is handed a raw .ics file or subscript
 verification: security_reviewed
 source: "https://www.npmjs.com/package/node-ical"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

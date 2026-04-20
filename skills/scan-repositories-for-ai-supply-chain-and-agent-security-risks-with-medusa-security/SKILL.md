@@ -4,7 +4,7 @@ description: "Use Medusa Security before trusting a repository, dependency, or A
 verification: listed
 source: "https://github.com/Pantheon-Security/medusa"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

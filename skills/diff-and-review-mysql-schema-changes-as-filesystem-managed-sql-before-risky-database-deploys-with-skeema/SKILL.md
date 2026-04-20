@@ -4,7 +4,7 @@ description: "Pull live MySQL schema into files, inspect diffs, and push reviewe
 verification: listed
 source: "https://github.com/skeema/skeema"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

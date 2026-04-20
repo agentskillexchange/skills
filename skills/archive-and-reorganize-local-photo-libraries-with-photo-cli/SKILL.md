@@ -4,7 +4,7 @@ description: "Use photo-cli when an agent needs to normalize a local photo archi
 verification: security_reviewed
 source: "https://github.com/photo-cli/photo-cli"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

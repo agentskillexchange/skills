@@ -4,7 +4,7 @@ description: "Use DiffX to review local git changes in a PR-style browser UI, le
 verification: listed
 source: "https://github.com/wong2/diffx"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

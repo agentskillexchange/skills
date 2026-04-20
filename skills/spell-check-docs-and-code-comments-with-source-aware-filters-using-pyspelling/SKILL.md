@@ -4,7 +4,7 @@ description: "Run filtered spell checks over Markdown, Sphinx, HTML, or code com
 verification: listed
 source: "https://github.com/facelessuser/pyspelling"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

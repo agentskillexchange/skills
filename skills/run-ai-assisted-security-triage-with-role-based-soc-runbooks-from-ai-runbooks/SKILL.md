@@ -4,7 +4,7 @@ description: "Use ai-runbooks to give AI assistants role-specific SOC personas, 
 verification: listed
 source: "https://github.com/dandye/ai-runbooks"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

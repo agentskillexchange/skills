@@ -4,7 +4,7 @@ description: "Catch CloudFormation schema, region, and intrinsic-function mistak
 verification: listed
 source: "https://github.com/aws-cloudformation/cfn-lint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

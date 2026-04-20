@@ -4,7 +4,7 @@ description: "Use notebooklm-mcp-cli when an agent needs to search NotebookLM no
 verification: security_reviewed
 source: "https://github.com/jacob-bd/notebooklm-mcp-cli"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "MCP"
 tool_ecosystem:

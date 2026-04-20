@@ -4,7 +4,7 @@ description: "Generate Python module dependency graphs so refactors and package 
 verification: listed
 source: "https://github.com/thebjorn/pydeps"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

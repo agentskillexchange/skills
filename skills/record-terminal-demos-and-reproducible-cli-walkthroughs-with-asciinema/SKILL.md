@@ -4,7 +4,7 @@ description: "Capture a terminal session as a replayable cast when an agent need
 verification: listed
 source: "https://github.com/asciinema/asciinema"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

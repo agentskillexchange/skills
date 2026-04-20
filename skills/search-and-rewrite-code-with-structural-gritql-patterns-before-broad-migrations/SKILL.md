@@ -4,7 +4,7 @@ description: "Use GritQL when an agent needs reviewable structural search and re
 verification: security_reviewed
 source: "https://github.com/biomejs/gritql"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

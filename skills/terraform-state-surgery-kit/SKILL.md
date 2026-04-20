@@ -4,7 +4,7 @@ description: "Performs safe Terraform state operations using the terraform CLI s
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

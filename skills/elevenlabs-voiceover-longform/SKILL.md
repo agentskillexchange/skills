@@ -4,7 +4,7 @@ description: "Splits blog posts or scripts into optimal chunks under ElevenLabs 
 verification: security_reviewed
 source: "https://elevenlabs.io/docs"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Claude Code"
 ---

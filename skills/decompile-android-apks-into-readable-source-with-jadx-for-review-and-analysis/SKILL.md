@@ -4,7 +4,7 @@ description: "Turn an APK into readable Java or decompiled source artifacts so a
 verification: listed
 source: "https://github.com/skylot/jadx"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

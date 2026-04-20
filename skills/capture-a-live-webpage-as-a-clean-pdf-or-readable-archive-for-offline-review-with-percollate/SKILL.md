@@ -4,7 +4,7 @@ description: "Turn a live webpage into a clean offline artifact such as a PDF or
 verification: listed
 source: "https://github.com/danburzo/percollate"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

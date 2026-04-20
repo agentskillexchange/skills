@@ -4,7 +4,7 @@ description: "Use Pro Workflow when Claude Code sessions keep repeating the same
 verification: security_reviewed
 source: "https://github.com/rohitg00/pro-workflow"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

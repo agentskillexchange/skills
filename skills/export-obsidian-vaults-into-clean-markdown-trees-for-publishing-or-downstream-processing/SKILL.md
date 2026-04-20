@@ -4,7 +4,7 @@ description: "Convert Obsidian vault content, wikilinks, and attachments into po
 verification: listed
 source: "https://github.com/zoni/obsidian-export"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

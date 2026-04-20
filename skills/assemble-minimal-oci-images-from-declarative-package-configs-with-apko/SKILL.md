@@ -4,7 +4,7 @@ description: "Use apko to build small OCI images from declarative package manife
 verification: listed
 source: "https://github.com/chainguard-dev/apko"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

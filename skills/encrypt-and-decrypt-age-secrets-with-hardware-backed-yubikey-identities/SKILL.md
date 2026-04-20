@@ -4,7 +4,7 @@ description: "Use age-plugin-yubikey when an agent needs age encryption tied to 
 verification: listed
 source: "https://github.com/str4d/age-plugin-yubikey"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

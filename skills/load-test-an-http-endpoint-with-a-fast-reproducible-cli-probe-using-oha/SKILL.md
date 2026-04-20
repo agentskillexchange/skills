@@ -4,7 +4,7 @@ description: "Run a quick concurrent HTTP benchmark against a URL before deeper 
 verification: listed
 source: "https://github.com/hatoo/oha"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

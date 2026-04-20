@@ -4,7 +4,7 @@ description: "Extracts structured text from scanned documents and images using T
 verification: security_reviewed
 source: "https://github.com/tesseract-ocr/tesseract"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

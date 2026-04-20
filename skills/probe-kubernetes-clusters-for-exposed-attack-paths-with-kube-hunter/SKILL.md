@@ -4,7 +4,7 @@ description: "Assess a Kubernetes cluster from the attacker viewpoint when an ag
 verification: listed
 source: "https://github.com/aquasecurity/kube-hunter"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

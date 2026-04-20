@@ -4,7 +4,7 @@ description: "Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTO
 verification: security_reviewed
 source: "https://pypi.org/project/snowflake-connector-python/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 ---

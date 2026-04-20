@@ -4,7 +4,7 @@ description: "Scan manifests and live clusters for removed or deprecated Kuberne
 verification: listed
 source: "https://github.com/doitintl/kube-no-trouble"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

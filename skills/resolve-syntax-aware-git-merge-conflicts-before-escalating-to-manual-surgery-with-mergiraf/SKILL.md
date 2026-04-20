@@ -4,7 +4,7 @@ description: "Use Mergiraf to let an agent attempt tree-aware conflict resolutio
 verification: listed
 source: "https://codeberg.org/mergiraf/mergiraf"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 ---

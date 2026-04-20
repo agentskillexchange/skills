@@ -4,7 +4,7 @@ description: "Streams audio from Twilio Media Streams over WebSocket to Assembly
 verification: security_reviewed
 source: "https://www.assemblyai.com/docs"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Custom Agents"
 ---

@@ -4,7 +4,7 @@ description: "Materialize age or PGP encrypted SOPS secrets inside declarative N
 verification: listed
 source: "https://github.com/Mic92/sops-nix"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

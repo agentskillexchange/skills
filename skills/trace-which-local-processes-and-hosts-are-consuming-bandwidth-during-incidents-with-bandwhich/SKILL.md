@@ -4,7 +4,7 @@ description: "Identify which processes, connections, and remote hosts are actual
 verification: security_reviewed
 source: "https://github.com/imsnif/bandwhich"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

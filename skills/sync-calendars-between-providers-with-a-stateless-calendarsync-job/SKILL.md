@@ -4,7 +4,7 @@ description: "Run a one-shot calendar sync or migration between Google, Outlook,
 verification: listed
 source: "https://github.com/inovex/CalendarSync"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Fetches an active Datadog incident, retrieves associated monitors 
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Use Mem0 when an agent should retain durable preferences, facts, a
 verification: security_reviewed
 source: "https://github.com/mem0ai/mem0"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

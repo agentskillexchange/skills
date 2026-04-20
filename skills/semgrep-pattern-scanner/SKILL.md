@@ -4,7 +4,7 @@ description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Regist
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

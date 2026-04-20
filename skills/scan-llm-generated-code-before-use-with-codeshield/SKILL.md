@@ -4,7 +4,7 @@ description: "Run CodeShield on model-produced code or command suggestions befor
 verification: listed
 source: "https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 ---

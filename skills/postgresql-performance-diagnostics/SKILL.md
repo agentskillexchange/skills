@@ -4,7 +4,7 @@ description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

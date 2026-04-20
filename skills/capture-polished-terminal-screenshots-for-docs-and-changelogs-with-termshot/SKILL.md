@@ -4,7 +4,7 @@ description: "Render clean terminal screenshots with stable framing before publi
 verification: listed
 source: "https://github.com/homeport/termshot"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

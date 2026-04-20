@@ -4,7 +4,7 @@ description: "Point Claude Code at a repository and generate a self-contained in
 verification: listed
 source: "https://github.com/zarazhangrui/codebase-to-course"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

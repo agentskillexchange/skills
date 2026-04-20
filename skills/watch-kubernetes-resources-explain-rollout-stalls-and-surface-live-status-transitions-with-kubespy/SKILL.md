@@ -4,7 +4,7 @@ description: "Follow a Kubernetes workload live so an agent can explain why it i
 verification: listed
 source: "https://github.com/pulumi/kubespy"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

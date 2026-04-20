@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes A
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

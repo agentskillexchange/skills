@@ -4,7 +4,7 @@ description: "Deploys intelligent web scraping actors on the Apify platform usin
 verification: security_reviewed
 source: "https://github.com/apify/apify-sdk-js"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:

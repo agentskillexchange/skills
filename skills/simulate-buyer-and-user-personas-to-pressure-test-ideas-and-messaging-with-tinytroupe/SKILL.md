@@ -4,7 +4,7 @@ description: "Use TinyTroupe when an agent should run simulated persona panels, 
 verification: listed
 source: "https://github.com/microsoft/TinyTroupe"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

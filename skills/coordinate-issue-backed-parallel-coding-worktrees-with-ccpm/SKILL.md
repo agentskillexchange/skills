@@ -4,7 +4,7 @@ description: "Use CCPM when an agent team needs one issue-backed workflow that t
 verification: security_reviewed
 source: "https://github.com/automazeio/ccpm"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

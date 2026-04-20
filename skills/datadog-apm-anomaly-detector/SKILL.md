@@ -4,7 +4,7 @@ description: "Detects performance anomalies in Datadog APM traces using the Data
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "ChatGPT Agents"
 ---

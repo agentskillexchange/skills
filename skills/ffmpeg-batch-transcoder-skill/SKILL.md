@@ -4,7 +4,7 @@ description: "Batch transcode media files using FFmpeg CLI with preset profiles 
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Cursor"
 ---

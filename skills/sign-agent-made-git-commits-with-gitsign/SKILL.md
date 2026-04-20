@@ -4,7 +4,7 @@ description: "Apply keyless Sigstore-backed signatures to Git commits so automat
 verification: security_reviewed
 source: "https://github.com/sigstore/gitsign"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

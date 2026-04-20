@@ -4,7 +4,7 @@ description: "Parses and diagnoses Nginx error logs and access logs using patter
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

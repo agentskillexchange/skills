@@ -4,7 +4,7 @@ description: "Use Licensee when an agent needs to inspect a repository and deter
 verification: security_reviewed
 source: "https://github.com/licensee/licensee"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs In
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

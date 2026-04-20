@@ -4,7 +4,7 @@ description: "Connect LLMs to MCP servers through composable patterns like route
 verification: security_reviewed
 source: "https://github.com/lastmile-ai/mcp-agent"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "MCP"
 tool_ecosystem:

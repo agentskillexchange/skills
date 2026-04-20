@@ -4,7 +4,7 @@ description: "Decode JWTs, inspect claims, and verify or sign tokens with local 
 verification: listed
 source: "https://github.com/mike-engel/jwt-cli"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Use projen when an agent should synthesize and refresh repository 
 verification: listed
 source: "https://github.com/projen/projen"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

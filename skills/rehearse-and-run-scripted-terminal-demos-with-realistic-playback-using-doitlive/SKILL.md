@@ -4,7 +4,7 @@ description: "Play back a scripted terminal demo with controlled typing and paus
 verification: listed
 source: "https://github.com/sloria/doitlive"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

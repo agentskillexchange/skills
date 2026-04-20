@@ -4,12 +4,9 @@ description: "Create or improve welcome, nurture, onboarding, re-engagement, and
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "coreyhaines31/marketingskills"
-  github_stars: 21914
 ---
 
 # Design Lifecycle Email Sequences

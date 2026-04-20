@@ -4,7 +4,7 @@ description: "Uses the Reddit OAuth2 API via PRAW to collect top posts and comme
 verification: security_reviewed
 source: "https://www.reddit.com/dev/api/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Codex"
 ---

@@ -4,7 +4,7 @@ description: "Use Codemod CLI when an agent needs to scaffold, test, and run a r
 verification: security_reviewed
 source: "https://github.com/codemod/codemod"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

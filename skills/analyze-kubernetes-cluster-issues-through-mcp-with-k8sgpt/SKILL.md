@@ -4,7 +4,7 @@ description: "Run K8sGPT as an MCP server so an agent can scan a Kubernetes clus
 verification: security_reviewed
 source: "https://github.com/k8sgpt-ai/k8sgpt"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

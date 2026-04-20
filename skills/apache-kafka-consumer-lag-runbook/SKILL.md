@@ -4,7 +4,7 @@ description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API
 verification: security_reviewed
 source: "https://github.com/apache/kafka"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Cursor"
 tool_ecosystem:

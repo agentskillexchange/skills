@@ -4,12 +4,9 @@ description: "Guides an agent through the exact route, pairing, and auth checks 
 verification: security_reviewed
 source: "https://github.com/openclaw/openclaw/tree/main/skills/node-connect"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/openclaw"
-  github_stars: 356821
 ---
 
 # Diagnose OpenClaw node pairing and route failures

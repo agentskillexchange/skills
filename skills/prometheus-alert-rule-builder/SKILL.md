@@ -4,7 +4,7 @@ description: "Creates and validates Prometheus alerting rules using PromQL expre
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "MCP"
 tool_ecosystem:

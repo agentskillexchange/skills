@@ -4,7 +4,7 @@ description: "Run CIS benchmark checks against cluster nodes and control planes 
 verification: listed
 source: "https://github.com/aquasecurity/kube-bench"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

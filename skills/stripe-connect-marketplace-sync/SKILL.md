@@ -4,7 +4,7 @@ description: "Synchronize marketplace transactions using the Stripe Connect API 
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Gemini"
 tool_ecosystem:

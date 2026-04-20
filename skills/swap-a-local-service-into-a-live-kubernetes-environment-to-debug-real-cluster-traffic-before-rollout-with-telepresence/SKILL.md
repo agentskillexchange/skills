@@ -4,7 +4,7 @@ description: "Intercept a Kubernetes service and route live cluster traffic into
 verification: listed
 source: "https://github.com/telepresenceio/telepresence"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Scan a JS or TS codebase for forbidden imports, circular dependenc
 verification: listed
 source: "https://github.com/sverweij/dependency-cruiser"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

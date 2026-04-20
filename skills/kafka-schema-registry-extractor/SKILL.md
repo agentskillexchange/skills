@@ -4,7 +4,7 @@ description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schem
 verification: security_reviewed
 source: "https://github.com/tulios/kafkajs"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Builds a Zapier automation using the Zapier NLA API to trigger on 
 verification: security_reviewed
 source: "https://docs.zapier.com/platform/home"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 ---

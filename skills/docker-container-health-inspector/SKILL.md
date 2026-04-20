@@ -4,7 +4,7 @@ description: "Inspects Docker container health using the Docker Engine API v1.45
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:
