@@ -105,6 +105,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](../../skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
+| [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](../../skills/sync-skills-across-ai-coding-clis-with-skillshare/) | 1.6k | — |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |

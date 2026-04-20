@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2289 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 17:22 UTC
+> **2295 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 21:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -707,7 +707,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (165 skills)
+### ✅ Code Quality & Review (168 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -815,6 +815,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of… | Published | 2.1k | — |
 | [Lint .env files for duplicated keys and unsafe formatting with dotenv-linter](skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/) | Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or… | Published | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or… | Published | 2.1k | — |
+| [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops. | Published | 2k | 34.7k/wk |
 | [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of… | Published | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without… | Published | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | — |
@@ -840,11 +841,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Enforce Python Docstring Coverage Thresholds with interrogate](skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold. | Security Reviewed | 662 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |
+| [Review AI-generated code changes in a cleaner diff workflow with Diffity](skills/review-ai-generated-code-changes-with-diffity/) | Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent… | Published | 560 | 3.7k/wk |
 | [Grade agent trajectories and tool-use decisions with AgentEvals](skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without… | Published | 550 | 251k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](skills/broken-link-verification-static-sites-documentation/) | Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and… | Security Reviewed | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or… | Security Reviewed | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |
+| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship. | Published | 233 | — |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves. | Published | 208 | — |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
@@ -1212,7 +1215,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (125 skills)
+### 📊 Monitoring & Alerts (126 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1295,6 +1298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans… | Published | 3.2k | 309.2k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
+| [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team. | Published | 2k | 61.9k/wk |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are… | Published | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an… | Security Reviewed | 843 | — |
@@ -1345,7 +1349,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (121 skills)
+### 📄 Templates & Workflows (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1451,6 +1455,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Security Reviewed | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and… | Published | 473 | — |
+| [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Published | 162 | — |
 | [Break large coding jobs into focused subagent missions with AB Method](skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions… | Security Reviewed | 159 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | — |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
@@ -1723,7 +1728,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (103 skills)
+### 🔗 Integrations & Connectors (104 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1794,6 +1799,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | 2.6k | — |
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without… | Published | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Security Reviewed | 2.2k | — |
+| [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](skills/sync-skills-across-ai-coding-clis-with-skillshare/) | Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files… | Published | 1.6k | — |
 | [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 3.7M/wk |
 | [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message… | Security Reviewed | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , ,… | Security Reviewed | 1.5k | 3.7M/wk |

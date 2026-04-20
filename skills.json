@@ -1,8 +1,101 @@
 {
   "version": "2.0",
-  "total": 2289,
+  "total": 2295,
   "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "sync-skills-across-ai-coding-clis-with-skillshare",
+      "name": "Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare",
+      "description": "Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1552
+      }
+    },
+    {
+      "slug": "run-focused-accessibility-review-agents-with-accessibility-agents",
+      "name": "Run focused accessibility review agents against coding-tool output with Accessibility Agents",
+      "description": "Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 233
+      }
+    },
+    {
+      "slug": "build-and-refactor-copilot-studio-agents-as-yaml",
+      "name": "Build and refactor Copilot Studio agents as YAML from coding-agent workflows",
+      "description": "Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 162
+      }
+    },
+    {
+      "slug": "track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale",
+      "name": "Track coding-agent token spend and leaderboard drift across local session logs with Tokscale",
+      "description": "Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2016,
+        "npm_weekly_downloads": 61943
+      }
+    },
+    {
+      "slug": "review-ai-generated-code-changes-with-diffity",
+      "name": "Review AI-generated code changes in a cleaner diff workflow with Diffity",
+      "description": "Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 560,
+        "npm_weekly_downloads": 3701
+      }
+    },
+    {
+      "slug": "enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard",
+      "name": "Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard",
+      "description": "Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1996,
+        "npm_weekly_downloads": 34672
+      }
+    },
     {
       "slug": "gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept",
       "name": "Gate MCP tool calls behind deterministic policy enforcement with Intercept",
