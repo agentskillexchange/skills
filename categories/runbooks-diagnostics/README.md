@@ -112,6 +112,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](../../skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | 11.7k | — |
 | [Load-test an HTTP endpoint with a fast reproducible CLI probe using oha](../../skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/) | 10.2k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](../../skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | 10.2k | — |
+| [Analyze Kubernetes cluster issues through MCP with K8sGPT](../../skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/) | 7.7k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](../../skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | 7.2k | — |
 | [Trace unstable network paths and packet loss with Trippy before escalating an outage](../../skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | 6.8k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
@@ -143,6 +144,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](../../skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](../../skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
+| [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](../../skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |

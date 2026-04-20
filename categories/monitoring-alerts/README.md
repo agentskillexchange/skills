@@ -96,6 +96,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | 12.4k | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | 11.9k | — |
+| [Investigate Kubernetes network incidents through MCP with Kubeshark](../../skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark/) | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | 11.3k | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | 10.7k | — |

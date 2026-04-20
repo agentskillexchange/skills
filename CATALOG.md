@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2268 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-19 23:21 UTC
+> **2272 published skills** across **17 categories** · 2010 security reviewed · Updated 2026-04-20 01:24 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -298,7 +298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (198 skills)
+### 🔒 Security & Verification (199 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -496,6 +496,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | Generates Software Bill of Materials using Syft for container images and matches components against the NVD CVE… | Security Reviewed | — | — |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | — | — |
 | [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | Generates Software Bill of Materials using Syft and scans for CVEs with Grype. Cross-references findings against the… | Security Reviewed | — | — |
+| [Scan LLM-generated code before use with CodeShield](skills/scan-llm-generated-code-before-use-with-codeshield/) | Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step,… | Published | — | — |
 | [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity,… | Security Reviewed | — | — |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration… | Security Reviewed | — | — |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates.… | Security Reviewed | — | — |
@@ -1034,7 +1035,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (154 skills)
+### 📋 Runbooks & Diagnostics (156 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1112,6 +1113,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong… | Security Reviewed | 11.7k | — |
 | [Load-test an HTTP endpoint with a fast reproducible CLI probe using oha](skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/) | Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage. | Published | 10.2k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
+| [Analyze Kubernetes cluster issues through MCP with K8sGPT](skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/) | Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return… | Published | 7.7k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real… | Published | 7.2k | — |
 | [Trace unstable network paths and packet loss with Trippy before escalating an outage](skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents. | Published | 6.8k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
@@ -1143,6 +1145,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply… | Published | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready. | Published | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
+| [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods,… | Published | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review. | Published | 2.1k | — |
@@ -1196,7 +1199,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (124 skills)
+### 📊 Monitoring & Alerts (125 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1258,6 +1261,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Gotify Self-Hosted Push Notification Server and API](skills/gotify-self-hosted-push-notification-server-and-api/) | Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile… | Security Reviewed | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Security Reviewed | 12.4k | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](skills/openreplay-self-hosted-session-replay-analytics/) | OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network… | Security Reviewed | 11.9k | — |
+| [Investigate Kubernetes network incidents through MCP with Kubeshark](skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark/) | Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level… | Published | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](skills/pyroscope-continuous-profiling-platform-grafana/) | Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O… | Security Reviewed | 11.3k | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Security Reviewed | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](skills/gatus-endpoint-monitoring-status-page-platform/) | Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP,… | Security Reviewed | 10.7k | — |

@@ -231,6 +231,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | — | — |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
+| [Scan LLM-generated code before use with CodeShield](../../skills/scan-llm-generated-code-before-use-with-codeshield/) | — | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
