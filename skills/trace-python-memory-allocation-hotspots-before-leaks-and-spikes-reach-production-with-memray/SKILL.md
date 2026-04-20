@@ -1,19 +1,16 @@
 ---
-title: Trace Python memory allocation hotspots before leaks and spikes reach production
-  with Memray
-description: Lets an agent record Python allocation traces and inspect the biggest
-  allocators, retained objects, and leak paths before memory growth turns into a production
-  incident.
-verification: listed
-source: https://github.com/bloomberg/memray
+title: "Trace Python memory allocation hotspots before leaks and spikes reach production with Memray"
+description: "Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths before memory growth turns into a production incident."
+verification: security_reviewed
+source: "https://github.com/bloomberg/memray"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring &amp; Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: bloomberg/memray
+  github_repo: "bloomberg/memray"
   github_stars: 14986
-  npm_package: memray
+  npm_package: "memray"
   npm_weekly_downloads: 16282665
 ---
 
@@ -23,13 +20,27 @@ Lets an agent record Python allocation traces and inspect the biggest allocators
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,32 +1,44 @@
 ---
-title: whisper.cpp High-Performance C/C++ Speech Recognition Engine
-description: whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s
-  Whisper automatic speech recognition model. It runs on CPU and GPU across all major
-  platforms with zero dependencies and zero runtime memory allocations.
+title: "whisper.cpp High-Performance C/C++ Speech Recognition Engine"
+description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations."
 verification: security_reviewed
-source: https://github.com/ggml-org/whisper.cpp
+source: "https://github.com/ggml-org/whisper.cpp"
 category:
-- Media &amp; Transcription
+  - "Media &amp; Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ggml-org/whisper.cpp
+  github_repo: "ggml-org/whisper.cpp"
   github_stars: 48315
 ---
 
 # whisper.cpp High-Performance C/C++ Speech Recognition Engine
 
-whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations.
+whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/whisper-cpp-speech-recognition-engine
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/whisper-cpp-speech-recognition-engine` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

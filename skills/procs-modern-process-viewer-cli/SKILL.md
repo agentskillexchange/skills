@@ -1,16 +1,14 @@
 ---
-title: procs Modern Process Viewer CLI
-description: A modern replacement for ps written in Rust. procs provides colorized,
-  human-readable process listings with multi-column keyword search, TCP/UDP port display,
-  Docker container names, and tree views.
+title: "procs Modern Process Viewer CLI"
+description: "A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names, and tree views."
 verification: security_reviewed
-source: https://github.com/dalance/procs
+source: "https://github.com/dalance/procs"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: dalance/procs
+  github_repo: "dalance/procs"
   github_stars: 5994
 ---
 
@@ -20,13 +18,27 @@ A modern replacement for ps written in Rust. procs provides colorized, human-rea
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/procs-modern-process-viewer-cli
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/procs-modern-process-viewer-cli` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

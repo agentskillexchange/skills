@@ -1,16 +1,14 @@
 ---
-title: Hyperfine Command-Line Benchmarking Tool
-description: Benchmark command-line programs with statistical rigor using Hyperfine.
-  Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and
-  supports parameterized benchmarks for comparison.
+title: "Hyperfine Command-Line Benchmarking Tool"
+description: "Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison."
 verification: security_reviewed
-source: https://github.com/sharkdp/hyperfine
+source: "https://github.com/sharkdp/hyperfine"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: sharkdp/hyperfine
+  github_repo: "sharkdp/hyperfine"
   github_stars: 27797
 ---
 
@@ -20,13 +18,27 @@ Benchmark command-line programs with statistical rigor using Hyperfine. Performs
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hyperfine-command-line-benchmarking-tool
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/hyperfine-command-line-benchmarking-tool` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

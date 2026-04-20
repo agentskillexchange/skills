@@ -1,18 +1,14 @@
 ---
-title: Search PDFs, Office files, ebooks, and archives with one query before manual
-  review
-description: Uses ripgrep-all to run one full-text search across mixed document and
-  archive formats so an agent can find evidence without separately extracting every
-  file type first. Best when a workflow has PDFs, Office documents, ebooks, media
-  sidecars, or compressed bundles that need fast on-demand search.
+title: "Search PDFs, Office files, ebooks, and archives with one query before manual review"
+description: "Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence without separately extracting every file type first. Best when a workflow has PDFs, Office documents, ebooks, media sidecars, or compressed bundles that need fast on-demand search."
 verification: security_reviewed
-source: https://github.com/phiresky/ripgrep-all
+source: "https://github.com/phiresky/ripgrep-all"
 category:
-- Research &amp; Scraping
+  - "Research &amp; Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: phiresky/ripgrep-all
+  github_repo: "phiresky/ripgrep-all"
   github_stars: 9573
 ---
 
@@ -22,13 +18,27 @@ Uses ripgrep-all to run one full-text search across mixed document and archive f
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

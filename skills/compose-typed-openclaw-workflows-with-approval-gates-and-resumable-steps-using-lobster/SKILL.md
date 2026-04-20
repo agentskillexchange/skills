@@ -1,17 +1,14 @@
 ---
-title: Compose typed OpenClaw workflows with approval gates and resumable steps using
-  Lobster
-description: Use Lobster when an OpenClaw operator wants one deterministic typed workflow
-  step, with approval gates and resumable execution, instead of re-planning the same
-  multi-step tool sequence in chat.
+title: "Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster"
+description: "Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable execution, instead of re-planning the same multi-step tool sequence in chat."
 verification: security_reviewed
-source: https://github.com/openclaw/lobster
+source: "https://github.com/openclaw/lobster"
 category:
-- Templates &amp; Workflows
+  - "Templates &amp; Workflows"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: openclaw/lobster
+  github_repo: "openclaw/lobster"
   github_stars: 1128
 ---
 
@@ -21,13 +18,27 @@ Use Lobster when an OpenClaw operator wants one deterministic typed workflow ste
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

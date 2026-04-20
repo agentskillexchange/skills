@@ -1,14 +1,12 @@
 ---
-title: Bannerbear Dynamic Image API
-description: Generates social media graphics and OG images dynamically via Bannerbear
-  REST API. Manages template modifications, font layers, and signed URL generation
-  for on-the-fly image personalization.
+title: "Bannerbear Dynamic Image API"
+description: "Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications, font layers, and signed URL generation for on-the-fly image personalization."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/
+source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 category:
-- Image &amp; Creative Automation
+  - "Image &amp; Creative Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
 
 # Bannerbear Dynamic Image API
@@ -17,13 +15,27 @@ Generates social media graphics and OG images dynamically via Bannerbear REST AP
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bannerbear-dynamic-image-api
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/bannerbear-dynamic-image-api` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

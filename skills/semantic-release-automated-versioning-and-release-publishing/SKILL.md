@@ -1,19 +1,16 @@
 ---
-title: semantic-release Automated Versioning and Release Publishing
-description: semantic-release automates version calculation, changelog generation,
-  tagging, and package publishing from conventional commits and CI runs. It fits agent
-  workflows that need repeatable release automation across npm and other release targets
-  without manual version bumps.
+title: "semantic-release Automated Versioning and Release Publishing"
+description: "semantic-release automates version calculation, changelog generation, tagging, and package publishing from conventional commits and CI runs. It fits agent workflows that need repeatable release automation across npm and other release targets without manual version bumps."
 verification: security_reviewed
-source: https://github.com/semantic-release/semantic-release
+source: "https://github.com/semantic-release/semantic-release"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: semantic-release/semantic-release
+  github_repo: "semantic-release/semantic-release"
   github_stars: 23549
-  npm_package: semantic-release
+  npm_package: "semantic-release"
   npm_weekly_downloads: 2496750
 ---
 
@@ -23,13 +20,27 @@ semantic-release automates version calculation, changelog generation, tagging, a
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/semantic-release-automated-versioning-and-release-publishing
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/semantic-release-automated-versioning-and-release-publishing` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

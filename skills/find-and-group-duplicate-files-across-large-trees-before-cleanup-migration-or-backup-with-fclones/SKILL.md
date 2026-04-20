@@ -1,16 +1,14 @@
 ---
-title: Find and group duplicate files across large trees before cleanup migration
-  or backup with fclones
-description: Scan large directory trees for duplicate or under-replicated files, then
-  review grouped results before cleanup actions.
+title: "Find and group duplicate files across large trees before cleanup migration or backup with fclones"
+description: "Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions."
 verification: listed
-source: https://github.com/pkolaczk/fclones
+source: "https://github.com/pkolaczk/fclones"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pkolaczk/fclones
+  github_repo: "pkolaczk/fclones"
   github_stars: 2707
 ---
 
@@ -20,13 +18,27 @@ Scan large directory trees for duplicate or under-replicated files, then review 
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

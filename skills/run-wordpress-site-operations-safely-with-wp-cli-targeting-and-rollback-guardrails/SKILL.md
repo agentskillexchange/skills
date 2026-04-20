@@ -1,15 +1,12 @@
 ---
-title: Run WordPress site operations safely with WP-CLI targeting and rollback guardrails
-description: Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware
-  WP-CLI work like search-replace, plugin or theme operations, cron inspection, and
-  multisite-safe targeting. It is an operational runbook for guarded WordPress changes,
-  not a plain entry for the WP-CLI product.
+title: "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails"
+description: "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product."
 verification: security_reviewed
-source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops
+source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
 category:
-- WordPress &amp; CMS
+  - "WordPress &amp; CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Run WordPress site operations safely with WP-CLI targeting and rollback guardrails
@@ -18,13 +15,27 @@ Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,17 +1,14 @@
 ---
-title: Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
-description: Browsertrix Crawler is a browser-based crawling system from Webrecorder
-  for high-fidelity site capture, QA replay analysis, and configurable crawl behavior.
-  It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome
-  DevTools Protocol under the hood.
+title: "Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler"
+description: "Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood."
 verification: security_reviewed
-source: https://github.com/webrecorder/browsertrix-crawler
+source: "https://github.com/webrecorder/browsertrix-crawler"
 category:
-- Research &amp; Scraping
+  - "Research &amp; Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: webrecorder/browsertrix-crawler
+  github_repo: "webrecorder/browsertrix-crawler"
   github_stars: 1013
 ---
 
@@ -21,13 +18,27 @@ Browsertrix Crawler is a browser-based crawling system from Webrecorder for high
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

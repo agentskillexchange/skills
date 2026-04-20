@@ -1,17 +1,14 @@
 ---
-title: Extract structured data and attachments from raw email with MailParser
-description: Use MailParser when an agent receives raw RFC822 or MIME email and needs
-  a normalized result with headers, text, HTML, addresses, and attachments. This is
-  for email ingestion and handoff workflows, not for acting as a mailbox client or
-  delivery platform.
+title: "Extract structured data and attachments from raw email with MailParser"
+description: "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This is for email ingestion and handoff workflows, not for acting as a mailbox client or delivery platform."
 verification: security_reviewed
-source: https://github.com/nodemailer/mailparser
+source: "https://github.com/nodemailer/mailparser"
 category:
-- Calendar, Email &amp; Productivity
+  - "Calendar, Email &amp; Productivity"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: nodemailer/mailparser
+  github_repo: "nodemailer/mailparser"
   github_stars: 1666
 ---
 
@@ -21,13 +18,27 @@ Use MailParser when an agent receives raw RFC822 or MIME email and needs a norma
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-structured-data-and-attachments-from-raw-email-mailparser
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/extract-structured-data-and-attachments-from-raw-email-mailparser` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

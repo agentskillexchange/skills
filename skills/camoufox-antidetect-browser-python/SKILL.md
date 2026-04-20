@@ -1,17 +1,14 @@
 ---
-title: Camoufox Open Source Anti-Detect Browser for Python Automation
-description: Camoufox is an open source anti-detect browser built on Firefox that
-  provides robust fingerprint injection and anti-bot evasion for Python automation
-  workflows. It integrates with Playwright to deliver stealth browsing capabilities
-  that bypass modern bot detection systems.
+title: "Camoufox Open Source Anti-Detect Browser for Python Automation"
+description: "Camoufox is an open source anti-detect browser built on Firefox that provides robust fingerprint injection and anti-bot evasion for Python automation workflows. It integrates with Playwright to deliver stealth browsing capabilities that bypass modern bot detection systems."
 verification: security_reviewed
-source: https://github.com/daijro/camoufox
+source: "https://github.com/daijro/camoufox"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: daijro/camoufox
+  github_repo: "daijro/camoufox"
   github_stars: 7103
 ---
 
@@ -21,13 +18,27 @@ Camoufox is an open source anti-detect browser built on Firefox that provides ro
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/camoufox-antidetect-browser-python
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/camoufox-antidetect-browser-python` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

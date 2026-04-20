@@ -1,17 +1,14 @@
 ---
-title: Svix Enterprise Webhook Delivery Service
-description: Svix is an open-source enterprise-grade webhook delivery service written
-  in Rust. It handles webhook sending, retries, signature verification, and delivery
-  monitoring so developers can offer reliable webhooks to their users with a single
-  API call.
+title: "Svix Enterprise Webhook Delivery Service"
+description: "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can offer reliable webhooks to their users with a single API call."
 verification: security_reviewed
-source: https://github.com/svix/svix-webhooks
+source: "https://github.com/svix/svix-webhooks"
 category:
-- Integrations &amp; Connectors
+  - "Integrations &amp; Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: svix/svix-webhooks
+  github_repo: "svix/svix-webhooks"
   github_stars: 3152
 ---
 
@@ -21,13 +18,27 @@ Svix is an open-source enterprise-grade webhook delivery service written in Rust
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/svix-enterprise-webhook-delivery-service
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/svix-enterprise-webhook-delivery-service` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

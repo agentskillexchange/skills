@@ -1,16 +1,14 @@
 ---
-title: Harness Open Source Self-Hosted Git and CI/CD Development Platform
-description: Harness Open Source (formerly Gitness) is an end-to-end developer platform
-  that integrates Git repository hosting, CI/CD pipelines, hosted development environments,
-  and artifact registries in a single self-hosted binary.
+title: "Harness Open Source Self-Hosted Git and CI/CD Development Platform"
+description: "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in a single self-hosted binary."
 verification: security_reviewed
-source: https://github.com/harness/harness
+source: "https://github.com/harness/harness"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: harness/harness
+  github_repo: "harness/harness"
   github_stars: 34735
 ---
 
@@ -20,13 +18,27 @@ Harness Open Source (formerly Gitness) is an end-to-end developer platform that 
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/harness-open-source-git-cicd-platform
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/harness-open-source-git-cicd-platform` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

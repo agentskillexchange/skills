@@ -1,17 +1,14 @@
 ---
-title: khal Standards-Based CLI Calendar Application
-description: khal is a standards-based CLI and terminal calendar program written in
-  Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV
-  servers via vdirsyncer, and provides both a command-line interface for scripting
-  and an interactive terminal UI (ikhal) for browsing and editing events.
+title: "khal Standards-Based CLI Calendar Application"
+description: "khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV servers via vdirsyncer, and provides both a command-line interface for scripting and an interactive terminal UI (ikhal) for browsing and editing events."
 verification: security_reviewed
-source: https://github.com/pimutils/khal
+source: "https://github.com/pimutils/khal"
 category:
-- Calendar, Email &amp; Productivity
+  - "Calendar, Email &amp; Productivity"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pimutils/khal
+  github_repo: "pimutils/khal"
   github_stars: 2971
 ---
 
@@ -21,13 +18,27 @@ khal is a standards-based CLI and terminal calendar program written in Python. I
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/khal-cli-calendar-application-caldav
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/khal-cli-calendar-application-caldav` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

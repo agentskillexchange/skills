@@ -1,14 +1,12 @@
 ---
-title: ScrapingBee API Data Harvester
-description: Interfaces with the ScrapingBee REST API for JavaScript rendering and
-  Google SERP extraction. Uses custom_google parameter for search result parsing and
-  screenshot endpoint for visual page archiving.
+title: "ScrapingBee API Data Harvester"
+description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/
+source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
 category:
-- Research &amp; Scraping
+  - "Research &amp; Scraping"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
 
 # ScrapingBee API Data Harvester
@@ -17,13 +15,27 @@ Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SER
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scrapingbee-api-data-harvester
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/scrapingbee-api-data-harvester` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

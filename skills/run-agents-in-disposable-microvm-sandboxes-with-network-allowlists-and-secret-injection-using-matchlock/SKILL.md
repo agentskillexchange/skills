@@ -1,17 +1,14 @@
 ---
-title: Run agents in disposable microVM sandboxes with network allowlists and secret
-  injection using Matchlock
-description: Launch risky agent work inside disposable microVMs when you need stronger
-  isolation, sealed egress, and host-side secret injection instead of direct host
-  access.
+title: "Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock"
+description: "Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access."
 verification: security_reviewed
-source: https://github.com/jingkaihe/matchlock
+source: "https://github.com/jingkaihe/matchlock"
 category:
-- Security &amp; Verification
+  - "Security &amp; Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: jingkaihe/matchlock
+  github_repo: "jingkaihe/matchlock"
   github_stars: 552
 ---
 
@@ -21,13 +18,27 @@ Launch risky agent work inside disposable microVMs when you need stronger isolat
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

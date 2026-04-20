@@ -1,17 +1,14 @@
 ---
-title: Crawlee Web Crawling and Scraping Library by Apify
-description: Crawlee is Apify’s open source crawling and scraping framework for Node.js.
-  It unifies HTTP scraping and browser automation, adds queues, storage, retries,
-  proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and
-  JSDOM without rebuilding the whole pipeline.
+title: "Crawlee Web Crawling and Scraping Library by Apify"
+description: "Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and JSDOM without rebuilding the whole pipeline."
 verification: security_reviewed
-source: https://github.com/apify/crawlee
+source: "https://github.com/apify/crawlee"
 category:
-- Research &amp; Scraping
+  - "Research &amp; Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: apify/crawlee
+  github_repo: "apify/crawlee"
   github_stars: 22714
 ---
 
@@ -21,13 +18,27 @@ Crawlee is Apify’s open source crawling and scraping framework for Node.js. It
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawlee-web-crawling-and-scraping-library-by-apify
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/crawlee-web-crawling-and-scraping-library-by-apify` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

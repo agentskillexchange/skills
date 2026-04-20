@@ -1,18 +1,16 @@
 ---
-title: Nango Open Source API Integration Platform
-description: Nango is an open-source platform for building product integrations with
-  700+ APIs. It handles OAuth, token management, API proxying, and execution of custom
-  TypeScript sync and action logic on managed infrastructure.
+title: "Nango Open Source API Integration Platform"
+description: "Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript sync and action logic on managed infrastructure."
 verification: security_reviewed
-source: https://github.com/NangoHQ/nango
+source: "https://github.com/NangoHQ/nango"
 category:
-- Integrations &amp; Connectors
+  - "Integrations &amp; Connectors"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: NangoHQ/nango
+  github_repo: "NangoHQ/nango"
   github_stars: 7003
-  npm_package: nango
+  npm_package: "nango"
   npm_weekly_downloads: 15568
 ---
 
@@ -22,13 +20,27 @@ Nango is an open-source platform for building product integrations with 700+ API
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nango-open-source-api-integration-platform
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/nango-open-source-api-integration-platform` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

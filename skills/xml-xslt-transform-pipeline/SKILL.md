@@ -1,14 +1,12 @@
 ---
-title: XML XSLT Transform Pipeline
-description: Applies chained XSLT transformations to XML documents using lxml and
-  Saxon-JS. Supports XSLT 3.0 streaming, XPath parameter injection, and multi-stage
-  transform pipelines with intermediate validation.
+title: "XML XSLT Transform Pipeline"
+description: "Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath parameter injection, and multi-stage transform pipelines with intermediate validation."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/
+source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction &amp; Transformation"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
 
 # XML XSLT Transform Pipeline
@@ -17,13 +15,27 @@ Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. S
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/xml-xslt-transform-pipeline
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/xml-xslt-transform-pipeline` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

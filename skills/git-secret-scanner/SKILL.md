@@ -1,30 +1,41 @@
 ---
-title: Git Secret Scanner
-description: Detects leaked secrets in Git repositories using pattern-based scanning
-  with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed
-  API keys, tokens, and credentials across full commit history using git log –all
-  -p analysis.
+title: "Git Secret Scanner"
+description: "Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log &#8211;all -p analysis."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/git-secret-scanner/
+source: "https://agentskillexchange.com/skills/git-secret-scanner/"
 category:
-- Security &amp; Verification
+  - "Security &amp; Verification"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
 
 # Git Secret Scanner
 
-Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log –all -p analysis.
+Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log &#8211;all -p analysis.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/git-secret-scanner
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/git-secret-scanner` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,17 +1,14 @@
 ---
-title: Quickwit Cloud-Native Search Engine for Observability Logs and Traces
-description: Quickwit is a cloud-native search engine built in Rust for log management
-  and distributed tracing. It offers sub-second search on cloud storage (S3, Azure
-  Blob, GCS), an Elasticsearch-compatible API, native OpenTelemetry and Jaeger integration,
-  and decoupled compute and storage architecture.
+title: "Quickwit Cloud-Native Search Engine for Observability Logs and Traces"
+description: "Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers sub-second search on cloud storage (S3, Azure Blob, GCS), an Elasticsearch-compatible API, native OpenTelemetry and Jaeger integration, and decoupled compute and storage architecture."
 verification: security_reviewed
-source: https://github.com/quickwit-oss/quickwit
+source: "https://github.com/quickwit-oss/quickwit"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring &amp; Alerts"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: quickwit-oss/quickwit
+  github_repo: "quickwit-oss/quickwit"
   github_stars: 11067
 ---
 
@@ -21,13 +18,27 @@ Quickwit is a cloud-native search engine built in Rust for log management and di
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/quickwit-cloud-native-search-engine-observability
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/quickwit-cloud-native-search-engine-observability` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
