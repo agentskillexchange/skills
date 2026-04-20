@@ -1,6 +1,6 @@
 ---
 title: "Git Secret Scanner"
-description: "Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log -all -p analysis."
+description: "Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log &#8211;all -p analysis."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-secret-scanner/"
 category:
@@ -11,7 +11,7 @@ framework:
 
 # Git Secret Scanner
 
-Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log -all -p analysis.
+Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log &#8211;all -p analysis.
 
 ## Installation
 
