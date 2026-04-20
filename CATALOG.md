@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2281 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 09:24 UTC
+> **2285 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 13:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -300,7 +300,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (204 skills)
+### 🔒 Security & Verification (205 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -479,6 +479,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV… | Security Reviewed | 44 | — |
 | [Infisical CLI Secrets Injection and Access Management](skills/infisical-cli-secrets-injection-and-access-management/) | Infisical CLI retrieves, injects, and manages secrets across local development, CI/CD, staging, and production… | Security Reviewed | 41 | — |
 | [Test API authorization flows with Hadrian](skills/hadrian-api-authorization-security-testing/) | Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA,… | Published | 38 | — |
+| [Gate risky agent actions behind approval checkpoints with Latch](skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while… | Published | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust… | Published | 6 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file.… | Security Reviewed | — | — |
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | — | — |
@@ -1043,7 +1044,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (156 skills)
+### 📋 Runbooks & Diagnostics (157 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1170,6 +1171,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing… | Published | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic… | Security Reviewed | 102 | — |
+| [Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks](skills/run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks/) | Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response… | Published | 96 | — |
 | [PagerDuty Incident Runbook](skills/pagerduty-incident-runbook/) | Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST API. Automatically executes diagnostic… | Security Reviewed | 69 | — |
 | [PagerDuty Incident Runbook Automator](skills/pagerduty-incident-runbook-automator/) | Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation,… | Security Reviewed | 69 | — |
 | [PagerDuty Incident Runbook Engine](skills/pagerduty-incident-runbook-engine/) | Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2.… | Security Reviewed | 69 | — |
@@ -1340,7 +1342,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (120 skills)
+### 📄 Templates & Workflows (121 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1420,6 +1422,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | Use reflective search to improve prompts or text-configured agent components against a real eval set instead of… | Published | 3.5k | 4.1M/wk |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 3.4k | — |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable,… | Published | 3.4k | — |
+| [Create and debug local-first declarative workflow jobs with Dagu](skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures… | Published | 3.3k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order,… | Security Reviewed | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition… | Published | 2.9k | 890.8k/wk |
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Published | 2.7k | 1.7k/wk |
@@ -1937,7 +1940,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (97 skills)
+### 🌐 Browser Automation (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2031,6 +2034,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Taiko Smart-Selector Browser Automation for Node.js](skills/taiko-smart-selector-browser-automation-nodejs/) | Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and… | Security Reviewed | 3.7k | 12.3k/wk |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete… | Published | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](skills/browserbase-mcp-server/) | Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP… | Security Reviewed | 3.3k | 907/wk |
+| [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs,… | Published | 2.8k | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Security Reviewed | 1.8k | — |
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Published | 1.5k | 4.7k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |

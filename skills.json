@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2281,
+  "total": 2285,
   "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks",
+      "name": "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks",
+      "description": "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 96
+      }
+    },
+    {
+      "slug": "run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser",
+      "name": "Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser",
+      "description": "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2820
+      }
+    },
+    {
+      "slug": "gate-risky-agent-actions-behind-approval-checkpoints-with-latch",
+      "name": "Gate risky agent actions behind approval checkpoints with Latch",
+      "description": "Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while safe calls continue…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8
+      }
+    },
+    {
+      "slug": "create-and-debug-local-first-declarative-workflow-jobs-with-dagu",
+      "name": "Create and debug local-first declarative workflow jobs with Dagu",
+      "description": "Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures through a lightweight operator surface instead…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3300
+      }
+    },
     {
       "slug": "review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx",
       "name": "Review AI-generated code changes in a local PR-style loop with DiffX",
