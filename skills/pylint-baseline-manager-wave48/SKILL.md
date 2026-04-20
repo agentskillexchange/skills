@@ -1,6 +1,6 @@
 ---
 title: "Pylint Baseline Manager"
-description: "Manages Pylint baseline files for gradual code quality improvement using pylint &#8211;output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+description: "Manages Pylint baseline files for gradual code quality improvement using pylint -output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/"
 category:
@@ -11,31 +11,31 @@ framework:
 
 # Pylint Baseline Manager
 
-Manages Pylint baseline files for gradual code quality improvement using pylint &#8211;output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
+Manages Pylint baseline files for gradual code quality improvement using pylint -output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pylint-baseline-manager-wave48
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/pylint-baseline-manager-wave48` into your local skills collection.
+- Download the repository ZIP and extract `skills/pylint-baseline-manager-wave48`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
