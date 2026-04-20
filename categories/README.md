@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **2295 skills** across **17 categories**
+> **2296 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -18,7 +18,7 @@
 | 🔍 | [**Research & Scraping**](research-scraping/) | **102** | Web research, data collection, content aggregation, and information g... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **98** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **95** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **96** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **86** | Image generation, asset processing, design automation, and creative t... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **75** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 

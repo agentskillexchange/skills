@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2295 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 21:21 UTC
+> **2296 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 23:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2160,7 +2160,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (95 skills)
+### 🎙️ Media & Transcription (96 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2220,6 +2220,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before… | Published | 7.4k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](skills/espeak-ng-multilingual-speech-synthesizer/) | An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages… | Security Reviewed | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](skills/pedalboard-spotify-audio-effects-python/) | Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding… | Security Reviewed | 6k | — |
+| [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research,… | Published | 5.6k | 42.8k/wk |
 | [Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect](skills/detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect/) | Detect scene changes in a video, emit cut boundaries, and hand back machine-usable scene lists before manual review,… | Security Reviewed | 4.7k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible… | Security Reviewed | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion,… | Security Reviewed | 4.1k | — |

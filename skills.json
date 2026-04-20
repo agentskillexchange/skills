@@ -1,8 +1,24 @@
 {
   "version": "2.0",
-  "total": 2295,
+  "total": 2296,
   "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
+      "name": "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize",
+      "description": "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5635,
+        "npm_weekly_downloads": 42829
+      }
+    },
     {
       "slug": "sync-skills-across-ai-coding-clis-with-skillshare",
       "name": "Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare",

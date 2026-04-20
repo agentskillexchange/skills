@@ -26,6 +26,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 636k/wk |
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | ⬇ 13.2k/wk |
 | [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](../../skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/) | ⬇ 29.9k/wk |
+| [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](../../skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | ⬇ 42.8k/wk |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
 
 ---
@@ -88,6 +89,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](../../skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | 7.4k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | 6k | — |
+| [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](../../skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | 5.6k | 42.8k/wk |
 | [Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect](../../skills/detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect/) | 4.7k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
