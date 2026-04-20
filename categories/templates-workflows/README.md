@@ -67,6 +67,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | 29.7k | — |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | 29.7k | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | 28.8k | 149.2k/wk |
+| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | 28.6k | — |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | — |
 | [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | 26.7k | — |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | 26.6k | 113.6k/wk |
@@ -97,6 +98,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
+| [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
@@ -152,13 +154,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | — | — |
-| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | — | — |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
 | [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | — | — |
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | — | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | — | — |
-| [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | — | — |
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | — | — |
 
 ---

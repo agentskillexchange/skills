@@ -67,6 +67,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | 21k | — |
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 20.2k | — |
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | 18.2k | 13.2k/wk |
+| [Record terminal demos and reproducible CLI walkthroughs with asciinema](../../skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema/) | 17.2k | — |
 | [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | 14.9k | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | 14.6k | — |
 | [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 14.5k | — |
@@ -96,6 +97,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](../../skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | 2.8k | — |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
+| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | 1.9k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | 1.5k | — |
@@ -121,7 +123,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
-| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |

@@ -1,8 +1,83 @@
 {
   "version": "2.0",
-  "total": 2272,
+  "total": 2277,
   "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter",
+      "name": "Probe Kubernetes clusters for exposed attack paths with kube-hunter",
+      "description": "Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5040
+      }
+    },
+    {
+      "slug": "record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema",
+      "name": "Record terminal demos and reproducible CLI walkthroughs with asciinema",
+      "description": "Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17185
+      }
+    },
+    {
+      "slug": "benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench",
+      "name": "Benchmark Kubernetes clusters against CIS controls with kube-bench",
+      "description": "Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8022
+      }
+    },
+    {
+      "slug": "block-secret-leaks-before-commit-or-push-with-ggshield",
+      "name": "Block secret leaks before commit or push with ggshield",
+      "description": "Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1938
+      }
+    },
+    {
+      "slug": "audit-cloud-accounts-for-security-misconfigurations-with-prowler",
+      "name": "Audit cloud accounts for security misconfigurations with Prowler",
+      "description": "Run targeted AWS, Azure, or GCP security and compliance audits when an agent needs actionable cloud findings instead of a generic cloud-security platform overview.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 13624
+      }
+    },
     {
       "slug": "capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget",
       "name": "Capture low-level Kubernetes runtime evidence with Inspektor Gadget",
@@ -21202,7 +21277,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grpc"
+        "tool": "grpc",
+        "github_stars": 11049
       }
     },
     {
@@ -21350,7 +21426,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 47162
+      }
     },
     {
       "slug": "figma-design-token-extractor-3",
@@ -21593,7 +21672,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pandas"
+        "tool": "pandas",
+        "github_stars": 3673
       }
     },
     {
@@ -21691,7 +21771,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pandas"
+        "tool": "pandas",
+        "github_stars": 2023
       }
     },
     {
@@ -21930,7 +22011,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sqlite"
+        "tool": "sqlite",
+        "github_stars": 1873
       }
     },
     {
@@ -22759,7 +22841,10 @@
       "framework": [
         "Claude Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3673
+      }
     },
     {
       "slug": "surfer-seo-serp-analyzer",
@@ -22785,7 +22870,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pandas"
+        "tool": "pandas",
+        "github_stars": 2023
       }
     },
     {
@@ -22878,7 +22964,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10120
+      }
     },
     {
       "slug": "rust-crates-io-explorer",
@@ -22902,7 +22991,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 28562
+      }
     },
     {
       "slug": "argocd-sync-orchestrator",
@@ -23137,7 +23229,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1119
+      }
     },
     {
       "slug": "slack-workflow-bot-bolt-sdk",
@@ -23534,7 +23629,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pandas"
+        "tool": "pandas",
+        "github_stars": 73614
       }
     },
     {
@@ -23583,7 +23679,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "aws"
+        "tool": "aws",
+        "github_stars": 8646
       }
     },
     {
@@ -23665,7 +23762,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 8883
       }
     },
     {
@@ -23896,7 +23994,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 25335
+      }
     },
     {
       "slug": "devcontainer-specification-builder",
@@ -23911,7 +24012,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 5357
       }
     },
     {
@@ -24064,7 +24166,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pandas"
+        "tool": "pandas",
+        "github_stars": 3673
       }
     },
     {

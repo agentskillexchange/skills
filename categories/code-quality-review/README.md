@@ -9,13 +9,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
+| [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⭐ 27.2k |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⭐ 27.2k |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⭐ 27.2k |
 | [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | ⭐ 27.2k |
-| [ESLint Config Enforcer](../../skills/eslint-config-enforcer/) | ⭐ 27.2k |
 
 ---
 
@@ -43,6 +43,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
+| [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | 27.2k | 120.2M/wk |
@@ -202,7 +203,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
-| [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |
 
 ---

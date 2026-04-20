@@ -12,10 +12,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.1k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
+| [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | ⭐ 73.6k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⭐ 61.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
-| [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | ⭐ 57.8k |
 
 ---
 
@@ -46,6 +46,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.1k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
+| [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | 73.6k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | 61.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
@@ -142,6 +143,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | 3.7k | — |
 | [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | 3.7k | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | 3.7k | — |
+| [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | 3.7k | — |
+| [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | 3.7k | — |
+| [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](../../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
@@ -155,6 +159,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
+| [Tabula PDF Table Extraction Agent](../../skills/tabula-pdf-table-extraction-agent/) | 2k | — |
+| [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | 2k | — |
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](../../skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | 1.5k | — |
@@ -178,13 +184,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | — | — |
-| [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | — | — |
-| [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | — | — |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | — | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
-| [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | — | — |
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
@@ -193,10 +196,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | — | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | — | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
-| [Tabula PDF Table Extraction Agent](../../skills/tabula-pdf-table-extraction-agent/) | — | — |
-| [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | — | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
-| [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
 

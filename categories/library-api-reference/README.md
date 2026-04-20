@@ -74,6 +74,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
 | [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | 11.8k | — |
+| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 11k | — |
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts](../../skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts/) | 9k | — |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
@@ -90,13 +91,13 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
+| [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | 1.1k | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
-| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
@@ -134,7 +135,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | — | — |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | — | — |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor/) | — | — |
-| [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | — | — |
 | [Python Library Reference Builder](../../skills/python-library-reference-builder/) | — | — |
 | [Python Package API Surface Mapper](../../skills/python-package-api-surface-mapper/) | — | — |
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | — | — |

@@ -85,6 +85,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface](../../skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/) | 14k | — |
+| [Audit cloud accounts for security misconfigurations with Prowler](../../skills/audit-cloud-accounts-for-security-misconfigurations-with-prowler/) | 13.6k | — |
 | [Score RAG answer quality and retrieval quality before rollout with Ragas](../../skills/score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas/) | 13.4k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | 13.3k | — |
@@ -99,10 +100,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](../../skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
+| [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | 8.9k | — |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | 8.8k | — |
+| [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | 8.6k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
+| [Benchmark Kubernetes clusters against CIS controls with kube-bench](../../skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/) | 8k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
 | [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](../../skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | 7.8k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
@@ -127,6 +131,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Probe Kubernetes clusters for exposed attack paths with kube-hunter](../../skills/probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter/) | 5k | — |
 | [Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills](../../skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills/) | 4.7k | — |
 | [Scan C and C++ code with Flawfinder for risky function patterns before review](../../skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review/) | 4.5k | — |
 | [Baseline and Review Repository Secret Findings with detect-secrets](../../skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | 4.5k | — |
@@ -155,6 +160,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](../../skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | 2k | — |
+| [Block secret leaks before commit or push with ggshield](../../skills/block-secret-leaks-before-commit-or-push-with-ggshield/) | 1.9k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](../../skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
@@ -206,7 +212,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
-| [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | — | — |
@@ -215,7 +220,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | — | — |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
-| [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | — | — |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | — | — |
