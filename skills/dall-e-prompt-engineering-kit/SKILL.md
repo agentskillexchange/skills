@@ -1,6 +1,6 @@
 ---
 title: "DALL-E Prompt Engineering Kit"
-description: "Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
+description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
@@ -16,31 +16,17 @@ tool_ecosystem:
 
 # DALL-E Prompt Engineering Kit
 
-Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
+Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dall-e-prompt-engineering-kit
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/dall-e-prompt-engineering-kit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

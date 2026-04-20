@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "rust-lang/mdbook"
+  github_stars: 21419
 ---
 
 # mdBook Markdown Book Generator by Rust Project
@@ -15,27 +18,13 @@ mdBook is a command-line utility for creating online books from Markdown files. 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mdbook-markdown-book-generator-rust/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mdbook-markdown-book-generator-rust
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/mdbook-markdown-book-generator-rust`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

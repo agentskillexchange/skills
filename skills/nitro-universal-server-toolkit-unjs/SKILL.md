@@ -18,27 +18,13 @@ Nitro is a universal server framework from the UnJS ecosystem that lets you buil
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/nitro-universal-server-toolkit-unjs/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nitro-universal-server-toolkit-unjs
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/nitro-universal-server-toolkit-unjs`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

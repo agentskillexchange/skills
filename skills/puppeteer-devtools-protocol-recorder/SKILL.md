@@ -1,6 +1,6 @@
 ---
 title: "Puppeteer DevTools Protocol Recorder"
-description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer's CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
+description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Puppeteer DevTools Protocol Recorder
 
-Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer's CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
+Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/puppeteer-devtools-protocol-recorder
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/puppeteer-devtools-protocol-recorder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

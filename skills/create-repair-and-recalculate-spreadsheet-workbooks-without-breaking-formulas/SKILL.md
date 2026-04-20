@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116918
 ---
 
 # Create, repair, and recalculate spreadsheet workbooks without breaking formulas
@@ -18,27 +15,13 @@ Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
