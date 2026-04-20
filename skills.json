@@ -1,8 +1,65 @@
 {
   "version": "2.0",
-  "total": 2268,
-  "generated": "2026-04-19",
+  "total": 2272,
+  "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget",
+      "name": "Capture low-level Kubernetes runtime evidence with Inspektor Gadget",
+      "description": "Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2789
+      }
+    },
+    {
+      "slug": "scan-llm-generated-code-before-use-with-codeshield",
+      "name": "Scan LLM-generated code before use with CodeShield",
+      "description": "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt",
+      "name": "Analyze Kubernetes cluster issues through MCP with K8sGPT",
+      "description": "Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7684
+      }
+    },
+    {
+      "slug": "investigate-kubernetes-network-incidents-through-mcp-with-kubeshark",
+      "name": "Investigate Kubernetes network incidents through MCP with Kubeshark",
+      "description": "Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11871
+      }
+    },
     {
       "slug": "compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent",
       "name": "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent",
