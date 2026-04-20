@@ -1,14 +1,16 @@
 ---
-title: "Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator"
-description: "Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do."
+title: Generate conventional-commit release notes for automated ship workflows with
+  semantic-release release-notes-generator
+description: Generate structured release notes from Conventional Commits inside automated
+  release pipelines when changelog generation is the specific job to do.
 verification: listed
-source: "https://github.com/semantic-release/release-notes-generator"
+source: https://github.com/semantic-release/release-notes-generator
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "semantic-release/release-notes-generator"
+  github_repo: semantic-release/release-notes-generator
   github_stars: 361
   npm_package: "@semantic-release/release-notes-generator"
   npm_weekly_downloads: 10982193

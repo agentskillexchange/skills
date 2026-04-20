@@ -1,14 +1,17 @@
 ---
-title: "linkding Self-Hosted Bookmark Manager with REST API"
-description: "linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic metadata extraction, web archiving, browser extensions, and SSO support. It runs in Docker and is built with Django and Python."
+title: linkding Self-Hosted Bookmark Manager with REST API
+description: linkding is a minimal, fast, self-hosted bookmark manager with a full
+  REST API, tag-based organization, automatic metadata extraction, web archiving,
+  browser extensions, and SSO support. It runs in Docker and is built with Django
+  and Python.
 verification: security_reviewed
-source: "https://github.com/sissbruecker/linkding"
+source: https://github.com/sissbruecker/linkding
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "sissbruecker/linkding"
+  github_repo: sissbruecker/linkding
   github_stars: 10379
 ---
 

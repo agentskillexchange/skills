@@ -1,15 +1,14 @@
 ---
-title: "FFmpeg Batch Transcoder"
-description: "Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring."
+title: FFmpeg Batch Transcoder
+description: Batch transcode media files using FFmpeg CLI with preset profiles for
+  web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via
+  NVENC/VAAPI and automated quality analysis with VMAF scoring.
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
+source: https://github.com/FFmpeg/FFmpeg
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Cursor"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 58972
+- Cursor
 ---
 
 # FFmpeg Batch Transcoder

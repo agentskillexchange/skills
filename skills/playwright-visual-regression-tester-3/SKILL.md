@@ -1,16 +1,19 @@
 ---
-title: "Playwright Visual Regression Tester"
-description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
+title: Playwright Visual Regression Tester
+description: Automates visual regression testing using the Playwright screenshot comparison
+  API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level
+  UI changes across viewport sizes, and generates HTML diff reports with threshold-based
+  pass/fail results.
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
+source: https://github.com/microsoft/playwright
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
-  npm_package: "playwright"
+  npm_package: playwright
   npm_weekly_downloads: 47883561
 ---
 

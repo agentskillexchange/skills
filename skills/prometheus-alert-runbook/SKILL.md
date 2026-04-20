@@ -1,14 +1,16 @@
 ---
-title: "Prometheus Alert Runbook"
-description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
+title: Prometheus Alert Runbook
+description: Execute structured runbook procedures triggered by Prometheus AlertManager
+  webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident
+  diagnosis and escalation.
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
+source: https://github.com/prometheus/prometheus
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 

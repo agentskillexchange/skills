@@ -1,14 +1,17 @@
 ---
-title: "Makefile Linting for CI and Build Pipelines"
-description: "Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script review skill for agents working inside repositories that already rely on make, not a generic build tool listing."
+title: Makefile Linting for CI and Build Pipelines
+description: Uses checkmake to inspect Makefiles for style issues, fragile targets,
+  and maintainability problems before build automation breaks in CI. It is a narrow
+  build-script review skill for agents working inside repositories that already rely
+  on make, not a generic build tool listing.
 verification: security_reviewed
-source: "https://github.com/checkmake/checkmake"
+source: https://github.com/checkmake/checkmake
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "checkmake/checkmake"
+  github_repo: checkmake/checkmake
   github_stars: 1188
 ---
 

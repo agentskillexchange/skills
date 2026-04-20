@@ -1,15 +1,14 @@
 ---
-title: "Camelot Advanced PDF Table Intelligence"
-description: "Intelligent PDF table detection and extraction using Camelot-py with OpenCV-based lattice detection and morphological transformations. Handles rotated tables, merged cells, and multi-page spanning tables."
+title: Camelot Advanced PDF Table Intelligence
+description: Intelligent PDF table detection and extraction using Camelot-py with
+  OpenCV-based lattice detection and morphological transformations. Handles rotated
+  tables, merged cells, and multi-page spanning tables.
 verification: security_reviewed
-source: "https://github.com/camelot-dev/camelot"
+source: https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Cursor"
-tool_ecosystem:
-  github_repo: "camelot-dev/camelot"
-  github_stars: 3673
+- Cursor
 ---
 
 # Camelot Advanced PDF Table Intelligence

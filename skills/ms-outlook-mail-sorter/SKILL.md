@@ -1,12 +1,14 @@
 ---
-title: "Microsoft Outlook Mail Sorter"
-description: "Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies intelligent categorization with customizable rules and moves messages to appropriate folders."
+title: Microsoft Outlook Mail Sorter
+description: Automatically triages Microsoft Outlook emails using the Microsoft Graph
+  API /me/messages endpoint. Applies intelligent categorization with customizable
+  rules and moves messages to appropriate folders.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ms-outlook-mail-sorter/"
+source: https://agentskillexchange.com/skills/ms-outlook-mail-sorter/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Claude Code"
+- Claude Code
 ---
 
 # Microsoft Outlook Mail Sorter

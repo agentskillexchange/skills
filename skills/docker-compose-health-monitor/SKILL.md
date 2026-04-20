@@ -1,14 +1,16 @@
 ---
-title: "Docker Compose Health Monitor"
-description: "Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint."
+title: Docker Compose Health Monitor
+description: Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json)
+  and docker-compose ps parsing. Tracks container restart counts via the RestartCount
+  field and logs analysis through the /containers/{id}/logs endpoint.
 verification: security_reviewed
-source: "https://github.com/moby/moby"
+source: https://github.com/moby/moby
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 

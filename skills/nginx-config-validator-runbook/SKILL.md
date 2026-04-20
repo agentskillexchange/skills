@@ -1,14 +1,16 @@
 ---
-title: "Nginx Config Validator Runbook"
-description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
+title: Nginx Config Validator Runbook
+description: Validates Nginx configurations using nginx -t syntax checking, the crossplane
+  Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations,
+  SSL issues, and security vulnerabilities.
 verification: security_reviewed
-source: "https://github.com/nginx/nginx"
+source: https://github.com/nginx/nginx
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 

@@ -1,16 +1,17 @@
 ---
-title: "Score model outputs with reusable evaluator prompts and metrics using autoevals"
-description: "Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops in code."
+title: Score model outputs with reusable evaluator prompts and metrics using autoevals
+description: Apply reusable evaluators to model outputs when you need lightweight
+  scoring, rationale capture, or quick eval loops in code.
 verification: listed
-source: "https://github.com/braintrustdata/autoevals"
+source: https://github.com/braintrustdata/autoevals
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "braintrustdata/autoevals"
+  github_repo: braintrustdata/autoevals
   github_stars: 861
-  npm_package: "autoevals"
+  npm_package: autoevals
   npm_weekly_downloads: 1807454
 ---
 

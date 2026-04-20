@@ -1,14 +1,17 @@
 ---
-title: "Demucs Music Source Separation for Vocal and Stem Extraction"
-description: "Demucs is Meta’s open-source music source separation project for splitting songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows that need repeatable audio preprocessing before transcription, remixing, analysis, captioning, or archive preparation."
+title: Demucs Music Source Separation for Vocal and Stem Extraction
+description: Demucs is Meta’s open-source music source separation project for splitting
+  songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows
+  that need repeatable audio preprocessing before transcription, remixing, analysis,
+  captioning, or archive preparation.
 verification: security_reviewed
-source: "https://github.com/facebookresearch/demucs"
+source: https://github.com/facebookresearch/demucs
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "facebookresearch/demucs"
+  github_repo: facebookresearch/demucs
   github_stars: 9949
 ---
 

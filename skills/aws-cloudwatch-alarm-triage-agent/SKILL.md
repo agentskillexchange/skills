@@ -1,14 +1,16 @@
 ---
-title: "AWS CloudWatch Alarm Triage Agent"
-description: "Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API, GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause correlation. Prioritizes alerts by blast radius and provides remediation playbooks."
+title: AWS CloudWatch Alarm Triage Agent
+description: Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API,
+  GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause
+  correlation. Prioritizes alerts by blast radius and provides remediation playbooks.
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 

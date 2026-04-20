@@ -1,14 +1,17 @@
 ---
-title: "ArgoCD Deployment Sync Skill"
-description: "Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads."
+title: ArgoCD Deployment Sync Skill
+description: Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers
+  application syncs through /api/v1/applications/{name}/sync, monitors health status
+  via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback
+  for Kubernetes workloads.
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
+source: https://github.com/argoproj/argo-cd
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 

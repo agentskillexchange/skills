@@ -1,12 +1,14 @@
 ---
-title: "SEO Content Cluster Generator"
-description: "Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search Console API. Generates pillar pages with internal linking maps and schema.org Article markup."
+title: SEO Content Cluster Generator
+description: Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs
+  Content Explorer, and Google Search Console API. Generates pillar pages with internal
+  linking maps and schema.org Article markup.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
+source: https://agentskillexchange.com/skills/seo-content-cluster-generator/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
 
 # SEO Content Cluster Generator

@@ -1,14 +1,11 @@
 ---
-title: "Spell-check docs and code comments with source-aware filters using pyspelling"
-description: "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream."
+title: Spell-check docs and code comments with source-aware filters using pyspelling
+description: Run filtered spell checks over Markdown, Sphinx, HTML, or code comments
+  without flattening everything into one noisy text stream.
 verification: listed
-source: "https://github.com/facelessuser/pyspelling"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+source: https://github.com/facelessuser/pyspelling
 tool_ecosystem:
-  github_repo: "facelessuser/pyspelling"
+  github_repo: facelessuser/pyspelling
   github_stars: 94
 ---
 

@@ -1,14 +1,15 @@
 ---
-title: "Find unused Python code before cleanup refactors with Vulture"
-description: "Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly."
+title: Find unused Python code before cleanup refactors with Vulture
+description: Run a dead-code pass on Python repositories before refactors so agents
+  can flag unused functions, classes, imports, and variables instead of deleting blindly.
 verification: listed
-source: "https://github.com/jendrikseipp/vulture"
+source: https://github.com/jendrikseipp/vulture
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "jendrikseipp/vulture"
+  github_repo: jendrikseipp/vulture
   github_stars: 4521
 ---
 

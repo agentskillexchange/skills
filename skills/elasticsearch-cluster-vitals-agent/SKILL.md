@@ -1,14 +1,16 @@
 ---
-title: "ElasticSearch Cluster Vitals Agent"
-description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing."
+title: ElasticSearch Cluster Vitals Agent
+description: Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs
+  to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies
+  to Opsgenie Alert API for on-call routing.
 verification: security_reviewed
-source: "https://github.com/elastic/elasticsearch"
+source: https://github.com/elastic/elasticsearch
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "elastic/elasticsearch"
+  github_repo: elastic/elasticsearch
   github_stars: 76475
 ---
 

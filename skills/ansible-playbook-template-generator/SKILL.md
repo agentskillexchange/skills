@@ -1,14 +1,16 @@
 ---
-title: "Ansible Playbook Template Generator"
-description: "Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core built-in modules. Supports Jinja2 template rendering and vault-encrypted variable files."
+title: Ansible Playbook Template Generator
+description: Generates Ansible playbook YAML with proper module usage, handler chains,
+  and role structures using ansible-core built-in modules. Supports Jinja2 template
+  rendering and vault-encrypted variable files.
 verification: security_reviewed
-source: "https://github.com/ansible/ansible"
+source: https://github.com/ansible/ansible
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 

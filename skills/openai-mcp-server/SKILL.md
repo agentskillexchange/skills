@@ -1,17 +1,21 @@
 ---
-title: "OpenAI MCP Server"
-description: "OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chat completions, embeddings, image generation, assistants, responses, tool calling and preserving the […]"
+title: OpenAI MCP Server
+description: OpenAI MCP Server is built around OpenAI API platform. The underlying
+  ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives
+  an agent a more technical and reliable way to work with the tool than a thin one-line
+  wrapper, using stable interfaces like chat completions, embeddings, image generation,
+  assistants, responses, tool calling and preserving the […]
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
+source: https://github.com/openai/openai-node
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "openai/openai-node"
-  github_stars: 10815
-  npm_package: "openai"
-  npm_weekly_downloads: 17983504
+  github_repo: openai/openai-node
+  github_stars: 10811
+  npm_package: openai
+  npm_weekly_downloads: 18321478
 ---
 
 # OpenAI MCP Server

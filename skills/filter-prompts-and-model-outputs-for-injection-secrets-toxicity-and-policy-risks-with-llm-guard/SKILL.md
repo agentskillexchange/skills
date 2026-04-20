@@ -1,14 +1,16 @@
 ---
-title: "Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard"
-description: "Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems."
+title: Filter prompts and model outputs for injection, secrets, toxicity, and policy
+  risks with LLM Guard
+description: Screen prompts and responses with input and output scanners before an
+  LLM interaction reaches production users or downstream systems.
 verification: listed
-source: "https://github.com/protectai/llm-guard"
+source: https://github.com/protectai/llm-guard
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "protectai/llm-guard"
+  github_repo: protectai/llm-guard
   github_stars: 2831
 ---
 

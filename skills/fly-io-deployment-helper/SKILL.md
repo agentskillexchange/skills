@@ -1,14 +1,18 @@
 ---
-title: "Fly.io Deployment Helper"
-description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
+title: Fly.io Deployment Helper
+description: Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying
+  ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives
+  an agent a more technical and reliable way to work with the tool than a thin one-line
+  wrapper, using stable interfaces like queries, mutations, schema introspection,
+  fragments, pagination, subscriptions and preserving the operational context […]
 verification: security_reviewed
-source: "https://github.com/superfly/flyctl"
+source: https://github.com/superfly/flyctl
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "superfly/flyctl"
+  github_repo: superfly/flyctl
   github_stars: 1645
 ---
 

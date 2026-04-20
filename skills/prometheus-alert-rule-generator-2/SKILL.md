@@ -1,14 +1,16 @@
 ---
-title: "Prometheus Alert Rule Generator"
-description: "Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager routing configuration and Grafana dashboard annotation."
+title: Prometheus Alert Rule Generator
+description: Generates and validates Prometheus alerting rules from natural language
+  descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager
+  routing configuration and Grafana dashboard annotation.
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
+source: https://github.com/prometheus/prometheus
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 

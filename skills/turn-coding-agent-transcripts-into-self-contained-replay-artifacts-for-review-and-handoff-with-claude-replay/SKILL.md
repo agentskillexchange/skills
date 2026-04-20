@@ -1,16 +1,18 @@
 ---
-title: "Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay"
-description: "Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen recordings."
+title: Turn coding-agent transcripts into self-contained replay artifacts for review
+  and handoff with Claude Replay
+description: Convert a finished coding-agent session into a shareable HTML replay
+  instead of sending raw logs or bulky screen recordings.
 verification: listed
-source: "https://github.com/es617/claude-replay"
+source: https://github.com/es617/claude-replay
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "es617/claude-replay"
+  github_repo: es617/claude-replay
   github_stars: 621
-  npm_package: "claude-replay"
+  npm_package: claude-replay
   npm_weekly_downloads: 4870
 ---
 

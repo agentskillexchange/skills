@@ -1,12 +1,14 @@
 ---
-title: "Jinja2 Infrastructure Template Engine"
-description: "Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform HCL, Ansible playbooks, and Kubernetes manifests from shared parameter files using hierarchical environment overlays."
+title: Jinja2 Infrastructure Template Engine
+description: Generates infrastructure-as-code configurations from Jinja2 templates
+  with variable inheritance. Produces Terraform HCL, Ansible playbooks, and Kubernetes
+  manifests from shared parameter files using hierarchical environment overlays.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/"
+source: https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Gemini"
+- Gemini
 ---
 
 # Jinja2 Infrastructure Template Engine

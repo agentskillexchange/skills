@@ -1,14 +1,16 @@
 ---
-title: "AWS CloudWatch Log Anomaly Scanner"
-description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups."
+title: AWS CloudWatch Log Anomaly Scanner
+description: Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and
+  CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes,
+  and log volume anomalies across log groups.
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 

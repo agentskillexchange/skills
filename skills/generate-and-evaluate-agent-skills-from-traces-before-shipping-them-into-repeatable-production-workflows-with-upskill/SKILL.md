@@ -1,14 +1,16 @@
 ---
-title: "Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill"
-description: "Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in production."
+title: Generate and evaluate agent skills from traces before shipping them into repeatable
+  production workflows with UPskill
+description: Turn successful traces into reusable skills, then benchmark those skills
+  across models before you trust them in production.
 verification: security_reviewed
-source: "https://github.com/huggingface/upskill"
+source: https://github.com/huggingface/upskill
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "huggingface/upskill"
+  github_repo: huggingface/upskill
   github_stars: 477
 ---
 

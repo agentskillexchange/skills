@@ -1,14 +1,16 @@
 ---
-title: "Terraform Module Scaffolder"
-description: "Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction. Generates documentation via terraform-docs API, validates with tflint rules, and publishes to Terraform Registry via API."
+title: Terraform Module Scaffolder
+description: Scaffolds Terraform modules using the HCL SDK with provider schema introspection
+  and automatic variable extraction. Generates documentation via terraform-docs API,
+  validates with tflint rules, and publishes to Terraform Registry via API.
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
+source: https://github.com/hashicorp/terraform
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

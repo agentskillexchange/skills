@@ -1,14 +1,16 @@
 ---
-title: "Terraform Plan Diff Reviewer"
-description: "Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison."
+title: Terraform Plan Diff Reviewer
+description: Parses terraform plan JSON output to identify destructive changes, security
+  group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace
+  state comparison.
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
+source: https://github.com/hashicorp/terraform
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

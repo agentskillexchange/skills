@@ -1,12 +1,14 @@
 ---
-title: "Uptime Robot Status Page Webhook Alerter"
-description: "Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty. Uses the UptimeRobot getMonitors endpoint to detect downtime transitions."
+title: Uptime Robot Status Page Webhook Alerter
+description: Integrates with the Uptime Robot API to monitor status page changes and
+  push webhook alerts to Slack or PagerDuty. Uses the UptimeRobot getMonitors endpoint
+  to detect downtime transitions.
 verification: security_reviewed
-source: "https://uptimerobot.com/api/"
+source: https://uptimerobot.com/api/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
 
 # Uptime Robot Status Page Webhook Alerter

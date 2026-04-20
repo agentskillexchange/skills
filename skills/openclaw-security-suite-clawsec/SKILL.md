@@ -1,15 +1,17 @@
 ---
-title: "OpenClaw Security Suite (ClawSec)"
-description: "Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects cognitive architecture files, audits skill supply chains, and monitors CVE advisories."
+title: OpenClaw Security Suite (ClawSec)
+description: Agent-layer security monitoring, drift detection, and integrity verification
+  for OpenClaw environments. Protects cognitive architecture files, audits skill supply
+  chains, and monitors CVE advisories.
 verification: security_reviewed
-source: "https://github.com/prompt-security/clawsec"
+source: https://github.com/prompt-security/clawsec
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "prompt-security/clawsec"
-  github_stars: 907
+  github_repo: prompt-security/clawsec
+  github_stars: 901
 ---
 
 # OpenClaw Security Suite (ClawSec)

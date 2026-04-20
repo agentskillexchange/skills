@@ -1,16 +1,18 @@
 ---
-title: "GraphQL Schema Stitcher"
-description: "Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check."
+title: GraphQL Schema Stitcher
+description: Merges multiple GraphQL schemas into a unified federated gateway using
+  Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas
+  with rover graph check.
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
+source: https://github.com/graphql/graphql-js
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
-  npm_package: "graphql"
+  npm_package: graphql
   npm_weekly_downloads: 34200861
 ---
 

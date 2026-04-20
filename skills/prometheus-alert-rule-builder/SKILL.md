@@ -1,14 +1,16 @@
 ---
-title: "Prometheus Alert Rule Builder"
-description: "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations."
+title: Prometheus Alert Rule Builder
+description: Creates and validates Prometheus alerting rules using PromQL expressions
+  and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty,
+  Slack, and OpsGenie receiver integrations.
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
+source: https://github.com/prometheus/prometheus
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 

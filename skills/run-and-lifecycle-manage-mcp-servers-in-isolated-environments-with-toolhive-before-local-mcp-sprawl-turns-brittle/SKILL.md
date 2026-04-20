@@ -1,14 +1,17 @@
 ---
-title: "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle"
-description: "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes."
-verification: security_reviewed
-source: "https://github.com/stacklok/toolhive"
+title: Run and lifecycle-manage MCP servers in isolated environments with ToolHive
+  before local MCP sprawl turns brittle
+description: Use ToolHive to install, isolate, update, and govern MCP servers so agents
+  connect to a predictable local or Kubernetes-backed tool surface instead of a pile
+  of hand-managed server processes.
+verification: listed
+source: https://github.com/stacklok/toolhive
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "stacklok/toolhive"
+  github_repo: stacklok/toolhive
   github_stars: 1718
 ---
 

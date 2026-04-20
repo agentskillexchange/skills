@@ -1,14 +1,17 @@
 ---
-title: "Cerbos Open Source Authorization Policy Decision Point"
-description: "Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user permissions simple. It uses context-aware YAML access control policies managed through Git-ops, providing high-availability APIs for dynamic access decisions across applications."
+title: Cerbos Open Source Authorization Policy Decision Point
+description: Cerbos is an open-core, language-agnostic, scalable authorization solution
+  that makes implementing and managing user permissions simple. It uses context-aware
+  YAML access control policies managed through Git-ops, providing high-availability
+  APIs for dynamic access decisions across applications.
 verification: security_reviewed
-source: "https://github.com/cerbos/cerbos"
+source: https://github.com/cerbos/cerbos
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "cerbos/cerbos"
+  github_repo: cerbos/cerbos
   github_stars: 4319
 ---
 

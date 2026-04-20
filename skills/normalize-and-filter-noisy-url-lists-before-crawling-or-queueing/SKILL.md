@@ -1,14 +1,17 @@
 ---
-title: "Normalize and filter noisy URL lists before crawling or queueing"
-description: "Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or analyst queue touches them. Best when an agent already has too many candidate links and needs a smaller, cleaner frontier, not a full crawling stack."
+title: Normalize and filter noisy URL lists before crawling or queueing
+description: Uses Courlan to clean, normalize, de-track, and language-filter raw URL
+  inventories before a crawler, scraper, or analyst queue touches them. Best when
+  an agent already has too many candidate links and needs a smaller, cleaner frontier,
+  not a full crawling stack.
 verification: security_reviewed
-source: "https://github.com/adbar/courlan"
+source: https://github.com/adbar/courlan
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "adbar/courlan"
+  github_repo: adbar/courlan
   github_stars: 165
 ---
 

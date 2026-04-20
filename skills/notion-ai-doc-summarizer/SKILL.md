@@ -1,14 +1,17 @@
 ---
-title: "Notion AI Document Summarizer & Action Item Extractor"
-description: "Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
+title: Notion AI Document Summarizer &amp; Action Item Extractor
+description: Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children
+  endpoints to retrieve page content and invoke AI-powered summarization. Extracted
+  action items are appended as a structured database entry via databases.query and
+  pages.create.
 verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
+source: https://github.com/makenotion/notion-sdk-js
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5582
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949

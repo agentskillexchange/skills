@@ -1,14 +1,16 @@
 ---
-title: "Terraform Plan Analyzer"
-description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
+title: Terraform Plan Analyzer
+description: Analyzes Terraform plan output using the terraform show -json command
+  and HCL2 parser library. Detects destructive changes, cost implications via Infracost
+  API, and policy violations against Open Policy Agent (OPA) rules.
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
+source: https://github.com/hashicorp/terraform
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

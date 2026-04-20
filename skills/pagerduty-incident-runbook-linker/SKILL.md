@@ -1,15 +1,14 @@
 ---
-title: "PagerDuty Incident Runbook Linker"
-description: "Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries."
+title: PagerDuty Incident Runbook Linker
+description: Automatically links PagerDuty incidents to relevant runbooks using the
+  PagerDuty Events API v2 and service directory. Matches incident alerts to runbook
+  tags via Elasticsearch fuzzy queries.
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
+source: https://github.com/PagerDuty/pdjs
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "OpenClaw"
-tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
-  github_stars: 69
+- OpenClaw
 ---
 
 # PagerDuty Incident Runbook Linker

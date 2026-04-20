@@ -1,14 +1,16 @@
 ---
-title: "csvkit Python CSV Utility Suite"
-description: "csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It includes tools for format conversion, querying CSV with SQL, data cleaning, filtering, sorting, and statistical analysis."
+title: csvkit Python CSV Utility Suite
+description: csvkit is a suite of Python command-line utilities for converting to,
+  working with, and analyzing CSV files. It includes tools for format conversion,
+  querying CSV with SQL, data cleaning, filtering, sorting, and statistical analysis.
 verification: security_reviewed
-source: "https://github.com/wireservice/csvkit"
+source: https://github.com/wireservice/csvkit
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "wireservice/csvkit"
+  github_repo: wireservice/csvkit
   github_stars: 6363
 ---
 

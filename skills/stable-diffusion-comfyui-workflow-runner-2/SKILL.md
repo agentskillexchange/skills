@@ -1,12 +1,14 @@
 ---
-title: "Stable Diffusion ComfyUI Workflow Runner"
-description: "Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling."
+title: Stable Diffusion ComfyUI Workflow Runner
+description: Executes ComfyUI workflow JSON files against a local or remote ComfyUI
+  server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue
+  management with progress polling.
 verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
+source: https://github.com/Stability-AI/stablediffusion
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "MCP"
+- MCP
 ---
 
 # Stable Diffusion ComfyUI Workflow Runner

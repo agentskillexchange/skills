@@ -1,14 +1,16 @@
 ---
-title: "Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI"
-description: "Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows."
+title: Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks
+  from agents with Lark CLI
+description: Operate Lark and Feishu work objects from one agent-ready CLI instead
+  of stitching together separate APIs and browser flows.
 verification: listed
-source: "https://github.com/larksuite/cli"
+source: https://github.com/larksuite/cli
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "larksuite/cli"
+  github_repo: larksuite/cli
   github_stars: 7942
   npm_package: "@larksuite/cli"
   npm_weekly_downloads: 98577

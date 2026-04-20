@@ -1,14 +1,16 @@
 ---
-title: "Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall"
-description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access."
+title: Restrict outbound domains for GitHub Agentic Workflows before repository agents
+  can browse freely with gh-aw-firewall
+description: Run GitHub Agentic Workflow jobs behind a domain allowlist and optional
+  API-key sidecar instead of giving repository agents broad outbound access.
 verification: listed
-source: "https://github.com/github/gh-aw-firewall"
+source: https://github.com/github/gh-aw-firewall
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "github/gh-aw-firewall"
+  github_repo: github/gh-aw-firewall
   github_stars: 55
 ---
 

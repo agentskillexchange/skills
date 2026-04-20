@@ -1,14 +1,16 @@
 ---
-title: "dbt Model Dependency Analyzer"
-description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
+title: dbt Model Dependency Analyzer
+description: Analyzes dbt project DAGs using the dbt manifest.json artifact and the
+  dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage
+  visualizations.
 verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
+source: https://github.com/dbt-labs/dbt-core
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 

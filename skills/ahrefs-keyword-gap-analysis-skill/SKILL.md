@@ -1,12 +1,14 @@
 ---
-title: "Ahrefs Keyword Gap Analysis Skill"
-description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
+title: Ahrefs Keyword Gap Analysis Skill
+description: Identifies keyword opportunities by comparing competitor rankings using
+  Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential
+  from search volume, CPC, and keyword difficulty scores.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/"
+source: https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
 
 # Ahrefs Keyword Gap Analysis Skill

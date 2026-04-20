@@ -1,14 +1,17 @@
 ---
-title: "Mailspring Open Source Email Client with Plugin Architecture"
-description: "Mailspring is a beautiful, fast, and fully open source email client for Mac, Windows, and Linux. Built on Electron and React with a C++ sync engine, it supports unified inbox, snooze, send later, mail rules, and templates with a powerful plugin system."
+title: Mailspring Open Source Email Client with Plugin Architecture
+description: Mailspring is a beautiful, fast, and fully open source email client for
+  Mac, Windows, and Linux. Built on Electron and React with a C++ sync engine, it
+  supports unified inbox, snooze, send later, mail rules, and templates with a powerful
+  plugin system.
 verification: security_reviewed
-source: "https://github.com/Foundry376/Mailspring"
+source: https://github.com/Foundry376/Mailspring
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "Foundry376/Mailspring"
+  github_repo: Foundry376/Mailspring
   github_stars: 17366
 ---
 

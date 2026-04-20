@@ -1,14 +1,17 @@
 ---
-title: "AWS S3 & SQS Pipeline Connector"
-description: "Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with PutObjectCommand/GetObjectCommand, processes SQS message queues via ReceiveMessageCommand with long polling, and configures S3 event notifications to SQS for event-driven processing."
+title: AWS S3 &#038; SQS Pipeline Connector
+description: Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs.
+  Manages S3 object lifecycle with PutObjectCommand/GetObjectCommand, processes SQS
+  message queues via ReceiveMessageCommand with long polling, and configures S3 event
+  notifications to SQS for event-driven processing.
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 

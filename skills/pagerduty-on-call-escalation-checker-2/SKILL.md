@@ -1,15 +1,15 @@
 ---
-title: "PagerDuty On-Call Escalation Checker"
-description: "Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill."
+title: PagerDuty On-Call Escalation Checker
+description: Queries PagerDuty to show who is currently on-call for each escalation
+  policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps
+  for the next 7 days. Useful for handoff checks and pre-weekend coverage audits.
+  Read-only skill.
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
+source: https://github.com/PagerDuty/pdjs
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Code"
-tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
-  github_stars: 69
+- Claude Code
 ---
 
 # PagerDuty On-Call Escalation Checker

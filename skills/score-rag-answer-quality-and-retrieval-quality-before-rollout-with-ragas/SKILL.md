@@ -1,14 +1,15 @@
 ---
-title: "Score RAG answer quality and retrieval quality before rollout with Ragas"
-description: "Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks."
+title: Score RAG answer quality and retrieval quality before rollout with Ragas
+description: Measure whether a RAG change actually improved answers and retrieval,
+  instead of guessing from a few spot checks.
 verification: listed
-source: "https://github.com/vibrantlabsai/ragas"
+source: https://github.com/vibrantlabsai/ragas
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "vibrantlabsai/ragas"
+  github_repo: vibrantlabsai/ragas
   github_stars: 13412
 ---
 

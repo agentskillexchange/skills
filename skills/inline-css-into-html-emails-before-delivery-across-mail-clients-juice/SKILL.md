@@ -1,14 +1,17 @@
 ---
-title: "Inline CSS into HTML emails before delivery across mail clients with Juice"
-description: "Use Juice when an agent already has finished HTML and needs it transformed into email-safe output before sending, archiving, or handing off to another system. The skill inlines stylesheet rules into element style attributes so downstream mail clients and embedded contexts keep the intended presentation without manual cleanup."
+title: Inline CSS into HTML emails before delivery across mail clients with Juice
+description: Use Juice when an agent already has finished HTML and needs it transformed
+  into email-safe output before sending, archiving, or handing off to another system.
+  The skill inlines stylesheet rules into element style attributes so downstream mail
+  clients and embedded contexts keep the intended presentation without manual cleanup.
 verification: security_reviewed
-source: "https://github.com/Automattic/juice"
+source: https://github.com/Automattic/juice
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "Automattic/juice"
+  github_repo: Automattic/juice
   github_stars: 3245
 ---
 

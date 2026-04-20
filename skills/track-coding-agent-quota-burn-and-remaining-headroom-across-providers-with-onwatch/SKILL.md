@@ -1,14 +1,16 @@
 ---
-title: "Track coding-agent quota burn and remaining headroom across providers with onWatch"
-description: "Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits."
+title: Track coding-agent quota burn and remaining headroom across providers with
+  onWatch
+description: Monitor quota, spend, resets, and alerts across multiple coding-agent
+  providers from one local dashboard before a long run hits throttling or budget limits.
 verification: listed
-source: "https://github.com/onllm-dev/onWatch"
+source: https://github.com/onllm-dev/onWatch
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "onllm-dev/onWatch"
+  github_repo: onllm-dev/onWatch
   github_stars: 580
 ---
 

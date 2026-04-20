@@ -1,12 +1,14 @@
 ---
-title: "Crawlee Smart Crawler Agent"
-description: "Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data."
+title: Crawlee Smart Crawler Agent
+description: Implements intelligent web crawling using the Crawlee framework with
+  adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request
+  queues, handles anti-bot challenges, and exports structured data.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
+source: https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
 
 # Crawlee Smart Crawler Agent

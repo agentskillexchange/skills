@@ -1,15 +1,14 @@
 ---
-title: "Cookiecutter Project Builder"
-description: "Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition."
+title: Cookiecutter Project Builder
+description: Creates project scaffolds from Cookiecutter templates with interactive
+  variable resolution. Integrates with cruft for template drift detection and copier
+  for advanced multi-template composition.
 verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
+source: https://agentskillexchange.com/skills/cookiecutter-project-builder/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Claude Code"
-tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
-  github_stars: 24818
+- Claude Code
 ---
 
 # Cookiecutter Project Builder

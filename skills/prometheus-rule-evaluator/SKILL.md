@@ -1,14 +1,16 @@
 ---
-title: "Prometheus Rule Evaluator"
-description: "Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing."
+title: Prometheus Rule Evaluator
+description: Validates and tests Prometheus alerting rules against historical metrics
+  data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations
+  with configurable time windows and threshold testing.
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
+source: https://github.com/prometheus/prometheus
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 

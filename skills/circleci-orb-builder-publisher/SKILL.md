@@ -1,14 +1,16 @@
 ---
-title: "CircleCI Orb Builder and Publisher"
-description: "Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI and Orb Registry API. Handles semantic versioning, namespace management, and orb dependency resolution."
+title: CircleCI Orb Builder and Publisher
+description: Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI
+  and Orb Registry API. Handles semantic versioning, namespace management, and orb
+  dependency resolution.
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
+source: https://github.com/circleci/circleci-docs
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 

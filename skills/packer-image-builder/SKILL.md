@@ -1,14 +1,18 @@
 ---
-title: "Packer Image Builder"
-description: "Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]"
+title: Packer Image Builder
+description: Packer Image Builder is built around Docker container platform. The underlying
+  ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent
+  a more technical and reliable way to work with the tool than a thin one-line wrapper,
+  using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image
+  builds, registries and preserving the […]
 verification: security_reviewed
-source: "https://github.com/hashicorp/packer"
+source: https://github.com/hashicorp/packer
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "hashicorp/packer"
+  github_repo: hashicorp/packer
   github_stars: 15647
 ---
 

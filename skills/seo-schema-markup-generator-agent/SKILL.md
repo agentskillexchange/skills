@@ -1,12 +1,14 @@
 ---
-title: "SEO Schema Markup Generator"
-description: "Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org vocabulary. Validates output against Google Rich Results Test API and Yoast SEO wp_head hooks."
+title: SEO Schema Markup Generator
+description: Generates JSON-LD structured data for articles, products, FAQs, and local
+  business schemas using Schema.org vocabulary. Validates output against Google Rich
+  Results Test API and Yoast SEO wp_head hooks.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/"
+source: https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
 
 # SEO Schema Markup Generator

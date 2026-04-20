@@ -1,14 +1,16 @@
 ---
-title: "Grafana Dashboard Snapshot Exporter"
-description: "Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys."
+title: Grafana Dashboard Snapshot Exporter
+description: Exports Grafana dashboards as shareable snapshots using the Grafana HTTP
+  API /api/snapshots endpoint. Captures panel data at point-in-time with configurable
+  expiration and external sharing via snapshot keys.
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
+source: https://github.com/grafana/grafana
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
 ---
 

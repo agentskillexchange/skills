@@ -1,17 +1,14 @@
 ---
-title: "Datadog Monitor Configuration Engine"
-description: "Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors. Uses DogStatsD protocol for custom metric submission and Datadog Terraform provider for IaC."
+title: Datadog Monitor Configuration Engine
+description: Interfaces with the Datadog API v2 monitors and dashboards endpoints
+  to programmatically create and manage monitors. Uses DogStatsD protocol for custom
+  metric submission and Datadog Terraform provider for IaC.
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
+source: https://github.com/DataDog/dd-trace-js
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "ChatGPT Agents"
-tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
+- ChatGPT Agents
 ---
 
 # Datadog Monitor Configuration Engine
