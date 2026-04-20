@@ -1,8 +1,70 @@
 {
   "version": "2.0",
-  "total": 2285,
+  "total": 2289,
   "generated": "2026-04-20",
   "skills": [
+    {
+      "slug": "gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept",
+      "name": "Gate MCP tool calls behind deterministic policy enforcement with Intercept",
+      "description": "Use Intercept when an MCP-connected agent needs transport-layer policy enforcement for risky tools, argument limits, spend caps, hidden tools, or rate limits before calls…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 29,
+        "npm_weekly_downloads": 343
+      }
+    },
+    {
+      "slug": "scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security",
+      "name": "Scan repositories for AI supply-chain and agent-security risks with Medusa Security",
+      "description": "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 256
+      }
+    },
+    {
+      "slug": "catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe",
+      "name": "Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe",
+      "description": "Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 503,
+        "npm_weekly_downloads": 2528
+      }
+    },
+    {
+      "slug": "navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp",
+      "name": "Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP",
+      "description": "Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source retrieval instead of brute-reading whole files across a…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1625
+      }
+    },
     {
       "slug": "run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks",
       "name": "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks",

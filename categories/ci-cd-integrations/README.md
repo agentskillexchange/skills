@@ -28,6 +28,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
+| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | ⬇ 2.5k/wk |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | ⬇ 12.8M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | ⬇ 1k/wk |
@@ -191,6 +192,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
+| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | 503 | 2.5k/wk |
 | [Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures](../../skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/) | 458 | — |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | 308 | 12.8M/wk |

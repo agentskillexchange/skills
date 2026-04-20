@@ -32,6 +32,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | ⬇ 1.5k/wk |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | ⬇ 6k/wk |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | ⬇ 227.2k/wk |
+| [Gate MCP tool calls behind deterministic policy enforcement with Intercept](../../skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | ⬇ 343/wk |
 
 ---
 
@@ -194,6 +195,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Lint Rego Policies Before Promotion with Regal](../../skills/lint-rego-policies-before-promotion-with-regal/) | 373 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
+| [Scan repositories for AI supply-chain and agent-security risks with Medusa Security](../../skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security/) | 256 | — |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
@@ -212,6 +214,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 44 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
+| [Gate MCP tool calls behind deterministic policy enforcement with Intercept](../../skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | 29 | 343/wk |
 | [Gate risky agent actions behind approval checkpoints with Latch](../../skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
