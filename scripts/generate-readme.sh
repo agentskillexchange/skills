@@ -8,6 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 
 python3 - "$REPO_DIR" << 'PYEOF'
+import datetime
 import html
 import json
 import sys
@@ -126,6 +127,43 @@ for item in tool_best:
     if len(featured) >= 12:
         break
 
+start_here = [
+    {
+        "title": "New to Agent Skills",
+        "desc": "Start with a plain-English explanation, then browse a few strong examples so the idea clicks fast.",
+        "link": "https://agentskillexchange.com/what-are-ai-agent-skills-plain-english-guide/",
+        "cta": "Read the intro guide",
+    },
+    {
+        "title": "Useful Right Away",
+        "desc": "Jump into practical skills for research, writing, browser work, and everyday operator tasks.",
+        "link": "TOP-DOWNLOADS.md",
+        "cta": "See practical picks",
+    },
+    {
+        "title": "Show Me the Heavy Hitters",
+        "desc": "Browse standout skills with stronger ecosystem signal and more obvious wow factor.",
+        "link": "TOP-STARS.md",
+        "cta": "Browse standout skills",
+    },
+]
+
+skill_of_day_pool = featured[:]
+if not skill_of_day_pool:
+    skill_of_day_pool = [
+        {
+            "title": item.get("title", "Untitled Skill"),
+            "slug": item.get("slug", ""),
+            "tool": item.get("tool_match") or item.get("slug", ""),
+            "stars": int(item.get("github_stars") or 0),
+            "cat": (item.get("categories") or ["Uncategorized"])[0],
+        }
+        for item in items[:12]
+    ]
+
+today_index = datetime.datetime.now(datetime.timezone.utc).timetuple().tm_yday % max(len(skill_of_day_pool), 1)
+skill_of_day = skill_of_day_pool[today_index] if skill_of_day_pool else None
+
 lines = []
 lines.append('<div align="center">')
 lines.append("")
@@ -138,7 +176,7 @@ lines.append(f'[![Categories](https://img.shields.io/badge/categories-{len(cat_r
 lines.append(f'[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-{fmt_badge(sec_reviewed)}-10b981?style=for-the-badge)](verification/)')
 lines.append('[![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)')
 lines.append("")
-lines.append("**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**")
+lines.append("**[What is an Agent Skill?](#what-is-an-agent-skill) · [Start Here](#start-here) · [Skill of the Day](#skill-of-the-day) · [Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md)**")
 lines.append("")
 lines.append(f"*{fmt_count(total)} published skills · {len(cat_rows)} categories · Real ecosystem signals · Updated hourly*")
 lines.append("")
@@ -146,12 +184,36 @@ lines.append("</div>")
 lines.append("")
 lines.append("---")
 lines.append("")
-lines.append("## What is this?")
+lines.append("## What is an Agent Skill?")
 lines.append("")
-lines.append("An open, machine-readable catalog of reusable skills for AI coding agents. Each skill wraps a real tool, API, or workflow into a format that agents like Claude Code, Cursor, Codex, and OpenClaw can install and use.")
+lines.append("An Agent Skill is a reusable capability for a specific job. It gives an agent the workflow shape, references, and boundaries needed to do the work well, without reinventing the task from scratch every time.")
 lines.append("")
-lines.append("Every skill is backed by a real upstream project — a GitHub repo, npm package, or documented API. No synthetic entries.")
+lines.append("In practical terms, a skill turns a vague request into something more dependable: a real workflow wrapped around a tool, API, or repeatable operating pattern.")
 lines.append("")
+lines.append("Read more: [What Are AI Agent Skills? A Plain-English Guide](https://agentskillexchange.com/what-are-ai-agent-skills-plain-english-guide/)")
+lines.append("")
+lines.append("---")
+lines.append("")
+lines.append("## Start Here")
+lines.append("")
+lines.append("| Path | Why start here | Link |")
+lines.append("|---|---|---|")
+for row in start_here:
+    lines.append(f"| **{row['title']}** | {row['desc']} | [{row['cta']}]({row['link']}) |")
+lines.append("")
+lines.append("---")
+lines.append("")
+lines.append("## Skill of the Day")
+lines.append("")
+if skill_of_day:
+    lines.append(f"[**{skill_of_day['title']}**](skills/{skill_of_day['slug']}/)")
+    lines.append("")
+    lines.append(f"Tool: `{skill_of_day['tool']}`  ")
+    lines.append(f"Category: **{skill_of_day['cat']}**  ")
+    lines.append(f"GitHub stars: **{fmt_num(skill_of_day['stars'])}**")
+    lines.append("")
+    lines.append("A rotating daily pick to make the repo feel alive, not frozen.")
+    lines.append("")
 lines.append("---")
 lines.append("")
 lines.append("## Quick Start")

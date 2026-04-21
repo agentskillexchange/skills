@@ -4,24 +4,48 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C320-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C324-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C030-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
+**[What is an Agent Skill?](#what-is-an-agent-skill) · [Start Here](#start-here) · [Skill of the Day](#skill-of-the-day) · [Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md)**
 
-*2,320 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,324 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
 ---
 
-## What is this?
+## What is an Agent Skill?
 
-An open, machine-readable catalog of reusable skills for AI coding agents. Each skill wraps a real tool, API, or workflow into a format that agents like Claude Code, Cursor, Codex, and OpenClaw can install and use.
+An Agent Skill is a reusable capability for a specific job. It gives an agent the workflow shape, references, and boundaries needed to do the work well, without reinventing the task from scratch every time.
 
-Every skill is backed by a real upstream project — a GitHub repo, npm package, or documented API. No synthetic entries.
+In practical terms, a skill turns a vague request into something more dependable: a real workflow wrapped around a tool, API, or repeatable operating pattern.
+
+Read more: [What Are AI Agent Skills? A Plain-English Guide](https://agentskillexchange.com/what-are-ai-agent-skills-plain-english-guide/)
+
+---
+
+## Start Here
+
+| Path | Why start here | Link |
+|---|---|---|
+| **New to Agent Skills** | Start with a plain-English explanation, then browse a few strong examples so the idea clicks fast. | [Read the intro guide](https://agentskillexchange.com/what-are-ai-agent-skills-plain-english-guide/) |
+| **Useful Right Away** | Jump into practical skills for research, writing, browser work, and everyday operator tasks. | [See practical picks](TOP-DOWNLOADS.md) |
+| **Show Me the Heavy Hitters** | Browse standout skills with stronger ecosystem signal and more obvious wow factor. | [Browse standout skills](TOP-STARS.md) |
+
+---
+
+## Skill of the Day
+
+[**Kubernetes CrashLoop Diagnoser**](skills/kubernetes-crashloop-diagnoser-agent/)
+
+Tool: `kubernetes`  
+Category: **Runbooks & Diagnostics**  
+GitHub stars: **121.7k**
+
+A rotating daily pick to make the repo feel alive, not frozen.
 
 ---
 
@@ -68,16 +92,16 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 288 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 208 | Vulnerability scanning, auth setup, compliance |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 210 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 185 | Pipeline configs, deployment automation, build tooling |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 172 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 173 | Linting, code review, test generators, coverage |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 162 | ETL pipelines, parsing, format conversion |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 159 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 126 | Metrics, alerting rules, observability |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 126 | Scaffolders, boilerplate generators, workflow templates |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 120 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 115 | SDK docs, API parsers, symbol resolvers |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 104 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 105 | Third-party API bridges, webhooks, service connectors |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 102 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 98 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 98 | Audio/video processing, speech-to-text |
@@ -142,7 +166,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,320 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,324 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,030 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
