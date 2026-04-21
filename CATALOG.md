@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2315 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 09:21 UTC
+> **2320 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 11:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (287 skills)
+### 🛠️ Developer Tools (288 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -252,6 +252,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Security Reviewed | 2.3k | — |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as… | Security Reviewed | 2.3k | — |
 | [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Security Reviewed | 2.1k | 1.2M/wk |
+| [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Published | 2.1k | — |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize… | Published | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit,… | Published | 2k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands… | Security Reviewed | 1.9k | — |
@@ -303,7 +304,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (207 skills)
+### 🔒 Security & Verification (208 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -432,6 +433,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses,… | Security Reviewed | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.2k | — |
+| [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph… | Published | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
 | [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | Scan Python requirements and environments for known vulnerable or malicious packages before they move further… | Published | 2k | — |
 | [Block secret leaks before commit or push with ggshield](skills/block-secret-leaks-before-commit-or-push-with-ggshield/) | Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of… | Published | 1.9k | — |
@@ -711,7 +713,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (171 skills)
+### ✅ Code Quality & Review (172 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -818,6 +820,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread… | Security Reviewed | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and… | Published | 2.2k | — |
+| [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft… | Published | 2.1k | — |
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of… | Published | 2.1k | — |
 | [Lint .env files for duplicated keys and unsafe formatting with dotenv-linter](skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/) | Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or… | Published | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or… | Published | 2.1k | — |
@@ -1060,7 +1063,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (158 skills)
+### 📋 Runbooks & Diagnostics (159 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1176,6 +1179,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Build super timelines from mixed forensic artifacts with Plaso](skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review. | Published | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
 | [Investigate production incidents across observability signals and draft next remediation steps with OpenSRE](skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre/) | Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses… | Published | 2k | — |
+| [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Published | 2k | — |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation… | Published | 1.8k | — |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow. | Published | 1.4k | — |
@@ -2073,7 +2077,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (97 skills)
+### 🎙️ Media & Transcription (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2143,6 +2147,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration… | Security Reviewed | 2.8k | — |
 | [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Security Reviewed | 2.1k | — |
+| [Generate podcast-style audio narratives with Podcast Generation](skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion,… | Published | 2.1k | — |
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | 1.9k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](skills/mlt-multimedia-framework-video-editing-processing/) | MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt… | Security Reviewed | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](skills/liquidsoap-audio-video-streaming-language/) | Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for… | Security Reviewed | 1.6k | — |

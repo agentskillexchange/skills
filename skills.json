@@ -1,8 +1,83 @@
 {
   "version": "2.0",
-  "total": 2315,
+  "total": 2320,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "generate-podcast-style-audio-narratives-with-podcast-generation",
+      "name": "Generate podcast-style audio narratives with Podcast Generation",
+      "description": "Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2103
+      }
+    },
+    {
+      "slug": "review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review",
+      "name": "Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review",
+      "description": "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2103
+      }
+    },
+    {
+      "slug": "turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator",
+      "name": "Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator",
+      "description": "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2103
+      }
+    },
+    {
+      "slug": "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices",
+      "name": "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices",
+      "description": "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1977
+      }
+    },
+    {
+      "slug": "provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id",
+      "name": "Provision OAuth-capable Microsoft agent identities with Entra Agent ID",
+      "description": "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2103
+      }
+    },
     {
       "slug": "connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges",
       "name": "Connect Claude Code to Apple apps and tmux with Claude Apple Bridges",

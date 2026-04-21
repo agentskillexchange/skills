@@ -163,6 +163,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.2k | — |
+| [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](../../skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](../../skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | 2k | — |
 | [Block secret leaks before commit or push with ggshield](../../skills/block-secret-leaks-before-commit-or-push-with-ggshield/) | 1.9k | — |

@@ -100,6 +100,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](../../skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | 2.8k | — |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
+| [Generate podcast-style audio narratives with Podcast Generation](../../skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | 2.1k | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | 1.9k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |

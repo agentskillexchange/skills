@@ -141,6 +141,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](../../skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](../../skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | 2.2k | — |
+| [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](../../skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | 2.1k | — |
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](../../skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | 2.1k | — |
 | [Lint .env files for duplicated keys and unsafe formatting with dotenv-linter](../../skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/) | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](../../skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | 2.1k | — |
