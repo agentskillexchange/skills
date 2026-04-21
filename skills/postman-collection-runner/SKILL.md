@@ -1,10 +1,10 @@
 ---
 title: "Postman Collection Runner"
-description: "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]"
+description: "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/postmanlabs/newman"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Postman Collection Runner
 
-Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]
+Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context [&hellip;]
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/postman-collection-runner/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/postman-collection-runner
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/postman-collection-runner`.
+Download the skill folder or repository archive and extract `skills/postman-collection-runner` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

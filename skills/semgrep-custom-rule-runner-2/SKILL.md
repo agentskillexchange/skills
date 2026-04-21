@@ -1,10 +1,10 @@
 ---
 title: "Semgrep Custom Rule Runner"
-description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
+description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep &#8211;config and &#8211;pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Semgrep Custom Rule Runner
 
-Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
+Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep &#8211;config and &#8211;pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/semgrep-custom-rule-runner-2
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/semgrep-custom-rule-runner-2`.
+Download the skill folder or repository archive and extract `skills/semgrep-custom-rule-runner-2` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

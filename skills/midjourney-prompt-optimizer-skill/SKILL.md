@@ -1,41 +1,41 @@
 ---
 title: "Midjourney Prompt Optimizer"
-description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
+description: "Analyze and optimize Midjourney prompts using parameter tuning for &#8211;ar, &#8211;stylize, &#8211;chaos, and &#8211;weird flags. Generates prompt variations with style references (&#8211;sref) and character references (&#8211;cref) for consistent image output."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Gemini"
 ---
 
 # Midjourney Prompt Optimizer
 
-Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output.
+Analyze and optimize Midjourney prompts using parameter tuning for &#8211;ar, &#8211;stylize, &#8211;chaos, and &#8211;weird flags. Generates prompt variations with style references (&#8211;sref) and character references (&#8211;cref) for consistent image output.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/midjourney-prompt-optimizer-skill
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/midjourney-prompt-optimizer-skill`.
+Download the skill folder or repository archive and extract `skills/midjourney-prompt-optimizer-skill` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
