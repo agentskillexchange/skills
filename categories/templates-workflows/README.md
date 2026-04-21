@@ -60,6 +60,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | 48.1k | — |
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
+| [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | 34k | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | 33.1k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | 29.7k | — |
@@ -106,6 +107,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
+| [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](../../skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | 4.3k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
@@ -115,6 +117,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | 3.5k | 4.1M/wk |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | 3.4k | — |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
+| [Draft user-facing App Store release notes from git history with App Store Changelog](../../skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | 3.4k | — |
 | [Create and debug local-first declarative workflow jobs with Dagu](../../skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | 3.3k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |

@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2324,
+  "total": 2327,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog",
+      "name": "Draft user-facing App Store release notes from git history with App Store Changelog",
+      "description": "Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Codex"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3354
+      }
+    },
+    {
+      "slug": "test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows",
+      "name": "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows",
+      "description": "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4338
+      }
+    },
+    {
+      "slug": "run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor",
+      "name": "Run context → spec → implement coding loops in Claude Code with Conductor",
+      "description": "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 34018
+      }
+    },
     {
       "slug": "block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard",
       "name": "Block unsafe agent actions and scan newly added skills with AgentGuard",
