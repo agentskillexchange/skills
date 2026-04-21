@@ -9,13 +9,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | ⭐ 46.1k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⭐ 38.9k |
 | [Reproduce SQL injection paths and map database takeover options with sqlmap](../../skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/) | ⭐ 37.1k |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 35.4k |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 35.4k |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
-| [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
 
 ---
 
@@ -23,6 +23,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Downloads |
 |---|---:|
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 3.6k/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | ⬇ 9.3M/wk |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | ⬇ 3.3M/wk |
@@ -30,9 +31,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | ⬇ 20.9k/wk |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | ⬇ 90/wk |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | ⬇ 1.5k/wk |
+| [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | ⬇ 3k/wk |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | ⬇ 6k/wk |
-| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | ⬇ 227.2k/wk |
-| [Gate MCP tool calls behind deterministic policy enforcement with Intercept](../../skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | ⬇ 343/wk |
 
 ---
 
@@ -43,6 +43,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | 38.9k | 3.6k/wk |
 | [Reproduce SQL injection paths and map database takeover options with sqlmap](../../skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/) | 37.1k | — |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | 35.4k | — |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | 35.4k | — |
@@ -195,6 +196,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](../../skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
+| [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | 388 | 3k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
 | [Lint Rego Policies Before Promotion with Regal](../../skills/lint-rego-policies-before-promotion-with-regal/) | 373 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |

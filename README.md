@@ -9,7 +9,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C030-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[What is an Agent Skill?](#what-is-an-agent-skill) · [Start Here](#start-here) · [Skill of the Day](#skill-of-the-day) · [Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md)**
+**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
 *2,324 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
@@ -17,45 +17,21 @@
 
 ---
 
-## What is an Agent Skill?
+## What is an Agent Skill
 
-An Agent Skill is a reusable capability for a specific job. It gives an agent the workflow shape, references, and boundaries needed to do the work well, without reinventing the task from scratch every time.
+An agent skill is a reusable capability package for AI coding agents. Each entry here wraps a real tool, API, or workflow into a format agents like Claude Code, Cursor, Codex, and OpenClaw can install and use.
 
-In practical terms, a skill turns a vague request into something more dependable: a real workflow wrapped around a tool, API, or repeatable operating pattern.
-
-Read more: [What Are AI Agent Skills? A Plain-English Guide](https://agentskillexchange.com/what-are-ai-agent-skills-plain-english-guide/)
+Every published skill is backed by a real upstream project or documented integration. No synthetic filler, no fake repo stars, no proxy download theater.
 
 ---
 
 ## Start Here
 
-| Path | Why start here | Link |
-|---|---|---|
-| **New to Agent Skills** | Start with a plain-English explanation, then browse a few strong examples so the idea clicks fast. | [Read the intro guide](https://agentskillexchange.com/what-are-ai-agent-skills-plain-english-guide/) |
-| **Useful Right Away** | Jump into practical skills for research, writing, browser work, and everyday operator tasks. | [See practical picks](TOP-DOWNLOADS.md) |
-| **Show Me the Heavy Hitters** | Browse standout skills with stronger ecosystem signal and more obvious wow factor. | [Browse standout skills](TOP-STARS.md) |
-
----
-
-## Skill of the Day
-
-[**Kubernetes CrashLoop Diagnoser**](skills/kubernetes-crashloop-diagnoser-agent/)
-
-Tool: `kubernetes`  
-Category: **Runbooks & Diagnostics**  
-GitHub stars: **121.7k**
-
-A rotating daily pick to make the repo feel alive, not frozen.
-
----
-
-## Quick Start
-
 ```bash
 # Install any skill
 npx skills add agentskillexchange/skills --skill <slug>
 
-# For a specific agent
+# Target a specific agent
 npx skills add agentskillexchange/skills --skill <slug> -a claude-code
 npx skills add agentskillexchange/skills --skill <slug> -a cursor
 npx skills add agentskillexchange/skills --skill <slug> -a codex
@@ -64,26 +40,44 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 clawhub install <slug>
 ```
 
+- Browse by category in [categories/](categories/)
+- See strong signals in [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md)
+- Use [CATALOG.md](CATALOG.md) for the full human-readable index
+
+---
+
+## Skill of the Day
+
+### [shadcn/ui — Re-usable UI Component Collection for React](skills/shadcn-ui-react-component-collection/)
+
+
+
+- Tool: `shadcn-ui-react-component-collection`
+- Category: Developer Tools
+- Frameworks: Multi-Framework
+- GitHub stars: 112,069
+- Listing: https://agentskillexchange.com/skills/shadcn-ui-react-component-collection/
+
 ---
 
 ## Featured Skills
 
-A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for full rankings.
+A strong cross-section of high-signal skills across the catalog.
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
+| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | openclaw | 356.8k | Developer Tools |
+| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | openclaw | 356.8k | Calendar, Email & Productivity |
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | openclaw | 356.8k | Security & Verification |
+| [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | openclaw | 356.8k | Runbooks & Diagnostics |
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | n8n-workflow-webhook-bridge | 182.1k | Integrations & Connectors |
+| [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | ollama-local-llm-runner-model-server | 167.9k | Developer Tools |
 | [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | CI/CD Integrations |
+| [Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/) | hugging-face-transformers-ml-library | 159.2k | Developer Tools |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
-| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | kubernetes | 121.7k | Runbooks & Diagnostics |
-| [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | excalidraw | 119.9k | Image & Creative Automation |
-| [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | skills | 116.9k | Templates & Workflows |
-| [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/) | firecrawl | 108.8k | Research & Scraping |
-| [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.9k | Developer Tools |
-| [Supabase MCP Server](skills/supabase-mcp-server/) | supabase | 100.8k | Developer Tools |
-| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | whisper | 97.8k | Media & Transcription |
-| [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
-| [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 93.2k | Data Extraction & Transformation |
+| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | langflow-visual-ai-agent-workflow-builder | 146.8k | Templates & Workflows |
+| [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | open-webui-self-hosted-ai-interface | 130.4k | Developer Tools |
+| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | kubernetes | 121.8k | Monitoring & Alerts |
 
 ---
 
@@ -122,51 +116,13 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 ---
 
-## Programmatic Access
-
-### JSON Index
-
-[`skills.json`](skills.json) contains every skill with metadata and signals:
-
-```json
-{
-  "slug": "playwright-mcp-browser-automation",
-  "name": "Playwright MCP Browser Automation",
-  "description": "Official Playwright-powered browser control for agent workflows.",
-  "category": ["Browser Automation"],
-  "framework": ["Claude Code", "Cursor", "MCP", "OpenClaw"],
-  "verification": "security_reviewed",
-  "signals": {
-    "tool": "playwright",
-    "github_stars": 84874,
-    "npm_weekly_downloads": 39806814,
-    "license": "Apache-2.0"
-  }
-}
-```
-
-### npx CLI
-
-```bash
-# List all skills
-npx skills add agentskillexchange/skills --list
-
-# Search
-npx skills add agentskillexchange/skills --search kubernetes
-
-# Install
-npx skills add agentskillexchange/skills --skill <slug> -a <agent>
-```
-
----
-
 ## Trust & Safety
 
 Every skill is backed by a real tool, repo, or package. New skills require real provenance before publishing.
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,324 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,324 | In the catalog, every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,030 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
@@ -175,37 +131,8 @@ More: [verification/](verification/)
 
 ## Submit a Skill
 
-Two ways to add a skill:
-
-### Option 1: Pull Request
-
-1. Fork this repo
-2. Copy `template/SKILL.md` to `skills/your-skill-slug/SKILL.md`
-3. Fill in the frontmatter and content (see [spec/SKILL_SPEC.md](spec/SKILL_SPEC.md))
-4. Open a PR
-
-Requirements:
-- Skill must wrap a real, existing tool (GitHub repo, npm package, documented API)
-- Content must be 100+ words with real technical detail
-- Must fit an existing category and framework
-
-### Option 2: Web Submission
-
-Submit through [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) — auto-synced to this repo hourly.
-
----
-
-## Skill Format
-
-Each skill is a directory with a `SKILL.md`:
-
-```
-skills/
-  playwright-mcp-browser-automation/
-    SKILL.md
-```
-
-See the [full spec](spec/SKILL_SPEC.md) and [template](template/SKILL.md).
+1. Fork this repo and add a `skills/<slug>/SKILL.md` entry, or
+2. Submit through [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) for hourly sync
 
 ---
 

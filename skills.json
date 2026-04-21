@@ -1,8 +1,71 @@
 {
   "version": "2.0",
-  "total": 2320,
+  "total": 2324,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard",
+      "name": "Block unsafe agent actions and scan newly added skills with AgentGuard",
+      "description": "Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 388,
+        "npm_weekly_downloads": 3035
+      }
+    },
+    {
+      "slug": "turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus",
+      "name": "Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus",
+      "description": "Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 28304,
+        "npm_weekly_downloads": 135773
+      }
+    },
+    {
+      "slug": "deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava",
+      "name": "Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA",
+      "description": "Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a PBX-native workflow.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 988
+      }
+    },
+    {
+      "slug": "run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon",
+      "name": "Run autonomous white-box pentests against web apps and APIs with Shannon",
+      "description": "Analyze a web app's source code, execute real exploit attempts against the running target, and return proof-backed findings before release.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 38904,
+        "npm_weekly_downloads": 3599
+      }
+    },
     {
       "slug": "generate-podcast-style-audio-narratives-with-podcast-generation",
       "name": "Generate podcast-style audio narratives with Podcast Generation",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2320 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 11:21 UTC
+> **2324 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 13:24 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -304,7 +304,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (208 skills)
+### 🔒 Security & Verification (210 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -313,6 +313,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper… | Published | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Security Reviewed | 42.9k | — |
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | Analyze a web app's source code, execute real exploit attempts against the running target, and return proof-backed… | Published | 38.9k | 3.6k/wk |
 | [Reproduce SQL injection paths and map database takeover options with sqlmap](skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/) | Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable… | Security Reviewed | 37.1k | — |
 | [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | 35.4k | — |
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | 35.4k | — |
@@ -465,6 +466,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission,… | Published | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call… | Published | 409 | 1.5k/wk |
+| [Block unsafe agent actions and scan newly added skills with AgentGuard](skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new… | Published | 388 | 3k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | — |
 | [Lint Rego Policies Before Promotion with Regal](skills/lint-rego-policies-before-promotion-with-regal/) | Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted. | Published | 373 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before… | Published | 333 | — |
@@ -713,7 +715,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (172 skills)
+### ✅ Code Quality & Review (173 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -726,6 +728,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | 47.2k | — |
 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | 39.2k | — |
+| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context… | Published | 28.3k | 135.8k/wk |
 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js… | Security Reviewed | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule… | Security Reviewed | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from… | Security Reviewed | 27.2k | 120.2M/wk |
@@ -1749,7 +1752,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (104 skills)
+### 🔗 Integrations & Connectors (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1830,6 +1833,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](skills/stripe-agent-toolkit-ai-payment-integration/) | The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating… | Security Reviewed | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | 1.3k | — |
+| [Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA](skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/) | Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a… | Published | 988 | — |
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Security Reviewed | 959 | 325.5k/wk |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 791 | 6.6M/wk |

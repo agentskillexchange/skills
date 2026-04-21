@@ -13,9 +13,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
+| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | ⭐ 28.3k |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⭐ 27.2k |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⭐ 27.2k |
-| [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⭐ 27.2k |
 
 ---
 
@@ -24,6 +24,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | Skill | Downloads |
 |---|---:|
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⬇ 46.8M/wk |
+| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | ⬇ 135.8k/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⬇ 120.2M/wk |
@@ -32,7 +33,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Custom Rule Builder](../../skills/eslint-custom-rule-builder/) | ⬇ 120.2M/wk |
 | [ESLint Custom Rule Generator](../../skills/eslint-custom-rule-generator/) | ⬇ 120.2M/wk |
 | [ESLint Rule Analyzer](../../skills/eslint-rule-analyzer/) | ⬇ 120.2M/wk |
-| [ESLint Rule Analyzer and Fixer](../../skills/eslint-rule-analyzer-fixer/) | ⬇ 120.2M/wk |
 
 ---
 
@@ -47,6 +47,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
+| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | 28.3k | 135.8k/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | 27.2k | 120.2M/wk |

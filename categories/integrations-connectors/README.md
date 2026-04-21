@@ -115,6 +115,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
+| [Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA](../../skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/) | 988 | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
