@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2296 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-20 23:23 UTC
+> **2299 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-21 01:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1050,7 +1050,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (157 skills)
+### 📋 Runbooks & Diagnostics (158 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1165,6 +1165,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review. | Published | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
+| [Investigate production incidents across observability signals and draft next remediation steps with OpenSRE](skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre/) | Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses… | Published | 1.9k | — |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation… | Published | 1.8k | — |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow. | Published | 1.4k | — |
@@ -1349,7 +1350,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (122 skills)
+### 📄 Templates & Workflows (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1435,6 +1436,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Published | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It… | Security Reviewed | 2.4k | — |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc… | Published | 2.3k | — |
+| [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | Keep a large software project moving across planning, execution, and review by handing work between structured agent… | Published | 2.2k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates,… | Security Reviewed | 1.9k | — |
 | [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | 263.7k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files… | Security Reviewed | 1.7k | — |
@@ -1479,7 +1481,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (118 skills)
+### 📅 Calendar, Email & Productivity (119 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1563,6 +1565,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with… | Published | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | — |
+| [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments… | Published | 294 | 1.4k/wk |
 | [Sync calendars between providers with a stateless CalendarSync job](skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing… | Published | 217 | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap… | Security Reviewed | 108 | — |

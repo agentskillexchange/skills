@@ -120,6 +120,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
+| [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | — |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 263.7k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |

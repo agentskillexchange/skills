@@ -1,8 +1,54 @@
 {
   "version": "2.0",
-  "total": 2296,
-  "generated": "2026-04-20",
+  "total": 2299,
+  "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails",
+      "name": "Run agent mailboxes and pull verification codes or reply context programmatically with Mails",
+      "description": "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 294,
+        "npm_weekly_downloads": 1382
+      }
+    },
+    {
+      "slug": "coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management",
+      "name": "Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management",
+      "description": "Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2210
+      }
+    },
+    {
+      "slug": "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre",
+      "name": "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE",
+      "description": "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1932
+      }
+    },
     {
       "slug": "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
       "name": "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize",
