@@ -4,6 +4,8 @@ slug: "nx-workspace-generator"
 description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
 verification: security_reviewed
 source: "https://github.com/nrwl/nx"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

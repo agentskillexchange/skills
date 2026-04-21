@@ -4,6 +4,8 @@ slug: "run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-ed
 description: "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc."
 verification: security_reviewed
 source: "https://github.com/numtide/treefmt"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

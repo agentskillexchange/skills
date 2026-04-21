@@ -4,6 +4,8 @@ slug: "turn-feature-ideas-into-executable-implementation-specs-and-task-plans-wi
 description: "Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before code is written."
 verification: listed
 source: "https://github.com/github/spec-kit"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

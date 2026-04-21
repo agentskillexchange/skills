@@ -4,6 +4,8 @@ slug: "docker-compose-stack-analyzer"
 description: "Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues."
 verification: security_reviewed
 source: "https://github.com/moby/moby"
+category:
+  - "Developer Tools"
 framework:
   - "Gemini"
 tool_ecosystem:

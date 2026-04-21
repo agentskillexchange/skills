@@ -4,6 +4,8 @@ slug: "build-and-refactor-copilot-studio-agents-as-yaml"
 description: "Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI."
 verification: listed
 source: "https://github.com/microsoft/skills-for-copilot-studio"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

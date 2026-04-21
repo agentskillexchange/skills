@@ -4,6 +4,8 @@ slug: "turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with
 description: "Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably."
 verification: listed
 source: "https://github.com/marimo-team/marimo"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

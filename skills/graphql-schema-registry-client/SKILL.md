@@ -4,6 +4,8 @@ slug: "graphql-schema-registry-client"
 description: "Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures."
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
+category:
+  - "Library &amp; API Reference"
 framework:
   - "Custom Agents"
 tool_ecosystem:

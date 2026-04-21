@@ -4,6 +4,8 @@ slug: "spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspel
 description: "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream."
 verification: listed
 source: "https://github.com/facelessuser/pyspelling"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

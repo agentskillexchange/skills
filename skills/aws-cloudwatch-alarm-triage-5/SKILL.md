@@ -4,6 +4,8 @@ slug: "aws-cloudwatch-alarm-triage-5"
 description: "Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk. Correlates alarm triggers with deployment events."
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 tool_ecosystem:

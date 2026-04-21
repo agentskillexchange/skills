@@ -4,6 +4,8 @@ slug: "find-and-group-duplicate-files-across-large-trees-before-cleanup-migratio
 description: "Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions."
 verification: listed
 source: "https://github.com/pkolaczk/fclones"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

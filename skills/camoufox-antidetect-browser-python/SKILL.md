@@ -4,6 +4,8 @@ slug: "camoufox-antidetect-browser-python"
 description: "Camoufox is an open source anti-detect browser built on Firefox that provides robust fingerprint injection and anti-bot evasion for Python automation workflows. It integrates with Playwright to deliver stealth browsing capabilities that bypass modern bot detection systems."
 verification: security_reviewed
 source: "https://github.com/daijro/camoufox"
+category:
+  - "Browser Automation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

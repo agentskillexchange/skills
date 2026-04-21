@@ -4,6 +4,8 @@ slug: "stripe-payment-flow-connector"
 description: "Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent."
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Cursor"
 tool_ecosystem:

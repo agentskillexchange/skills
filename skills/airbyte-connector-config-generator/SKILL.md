@@ -4,6 +4,8 @@ slug: "airbyte-connector-config-generator"
 description: "Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol."
 verification: security_reviewed
 source: "https://github.com/airbytehq/airbyte"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:

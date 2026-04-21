@@ -4,6 +4,8 @@ slug: "run-contract-tests-from-api-descriptions-against-live-endpoints-before-in
 description: "Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release."
 verification: listed
 source: "https://github.com/apiaryio/dredd"
+category:
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

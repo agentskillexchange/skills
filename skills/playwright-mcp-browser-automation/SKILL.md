@@ -4,6 +4,8 @@ slug: "playwright-mcp-browser-automation"
 description: "Official Playwright-powered browser control for agent workflows."
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright-mcp"
+category:
+  - "Browser Automation"
 framework:
   - "Claude Code"
   - "Cursor"

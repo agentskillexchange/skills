@@ -4,6 +4,8 @@ slug: "eslint-rule-enforcer-agent"
 description: "Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint &#8211;fix output diffs."
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:

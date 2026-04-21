@@ -4,6 +4,8 @@ slug: "semgrep-custom-pattern-builder"
 description: "Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations."
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Codex"
 tool_ecosystem:

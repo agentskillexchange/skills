@@ -4,6 +4,8 @@ slug: "provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environment
 description: "Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds."
 verification: listed
 source: "https://github.com/cargo-bins/cargo-binstall"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

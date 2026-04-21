@@ -4,6 +4,8 @@ slug: "work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-a
 description: "Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and comments inside an MCP workflow instead of sending a user back to the AFFiNE UI."
 verification: security_reviewed
 source: "https://github.com/DAWNCR0W/affine-mcp-server"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

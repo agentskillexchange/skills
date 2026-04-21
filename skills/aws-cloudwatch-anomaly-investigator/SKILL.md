@@ -4,6 +4,8 @@ slug: "aws-cloudwatch-anomaly-investigator"
 description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy."
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

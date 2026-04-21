@@ -4,6 +4,8 @@ slug: "package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seek
 description: "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent."
 verification: security_reviewed
 source: "https://github.com/yusufkaraaslan/Skill_Seekers"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

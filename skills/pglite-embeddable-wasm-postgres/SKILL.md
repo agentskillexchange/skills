@@ -4,6 +4,8 @@ slug: "pglite-embeddable-wasm-postgres"
 description: "PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the browser, Node.js, Bun, and Deno. At only 3.7MB gzipped, it enables local-first applications with real SQL capabilities and no external database dependencies."
 verification: security_reviewed
 source: "https://github.com/electric-sql/pglite"
+category:
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

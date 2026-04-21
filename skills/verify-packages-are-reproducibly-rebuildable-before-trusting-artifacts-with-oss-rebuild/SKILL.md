@@ -4,6 +4,8 @@ slug: "verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-wi
 description: "Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild."
 verification: security_reviewed
 source: "https://github.com/google/oss-rebuild"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

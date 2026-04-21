@@ -4,6 +4,8 @@ slug: "turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-
 description: "Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks, and keep implementation work anchored to an explicit plan instead of improvising in chat."
 verification: security_reviewed
 source: "https://github.com/eyaltoledano/claude-task-master"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

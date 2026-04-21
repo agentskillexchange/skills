@@ -4,6 +4,8 @@ slug: "operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enable
 description: "Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature flags, cost data, and related platform resources from an MCP workflow instead of sending a human through the Harness UI."
 verification: security_reviewed
 source: "https://github.com/harness/mcp-server"
+category:
+  - "CI/CD Integrations"
 framework:
   - "MCP"
 tool_ecosystem:

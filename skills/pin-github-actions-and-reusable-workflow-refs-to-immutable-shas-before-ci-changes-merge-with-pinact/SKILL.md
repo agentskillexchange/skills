@@ -4,6 +4,8 @@ slug: "pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci
 description: "Rewrite mutable GitHub Actions refs to commit SHAs so workflow changes do not ship with drifting dependencies."
 verification: listed
 source: "https://github.com/suzuki-shunsuke/pinact"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

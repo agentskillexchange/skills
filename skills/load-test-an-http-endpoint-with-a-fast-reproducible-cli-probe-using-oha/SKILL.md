@@ -4,6 +4,8 @@ slug: "load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha"
 description: "Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage."
 verification: listed
 source: "https://github.com/hatoo/oha"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

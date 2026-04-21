@@ -4,6 +4,8 @@ slug: "jnv-interactive-json-navigator"
 description: "A terminal-based interactive JSON viewer and jq filter editor written in Rust. jnv lets developers navigate complex JSON structures visually while building and testing jq queries in real time, with syntax highlighting, auto-completion, and clipboard support."
 verification: security_reviewed
 source: "https://github.com/ynqa/jnv"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "argocd-sync-wave-orchestrator-wave48"
 description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
+category:
+  - "CI/CD Integrations"
 framework:
   - "MCP"
 tool_ecosystem:

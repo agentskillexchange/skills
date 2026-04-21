@@ -4,6 +4,8 @@ slug: "orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-c
 description: "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift."
 verification: listed
 source: "https://github.com/gruntwork-io/terragrunt"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

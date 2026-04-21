@@ -4,6 +4,8 @@ slug: "owasp-zap-api-security-auditor"
 description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP&#8217;s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
+category:
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 tool_ecosystem:

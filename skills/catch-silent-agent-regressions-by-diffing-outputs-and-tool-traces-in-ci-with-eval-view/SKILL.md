@@ -4,6 +4,8 @@ slug: "catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-w
 description: "Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change quietly shifts behavior."
 verification: listed
 source: "https://github.com/hidai25/eval-view"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

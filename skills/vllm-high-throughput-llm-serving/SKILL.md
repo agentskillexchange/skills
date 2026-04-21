@@ -4,6 +4,8 @@ slug: "vllm-high-throughput-llm-serving"
 description: "vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention for efficient memory management, supports continuous batching, and provides an OpenAI-compatible API server for production-grade LLM deployment."
 verification: security_reviewed
 source: "https://github.com/vllm-project/vllm"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-
 description: "Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources. It can resolve supported identifiers, normalize metadata into CSL-JSON, and emit bibliography or inline citation formats that fit articles, research notes, docs, or release materials."
 verification: security_reviewed
 source: "https://www.npmjs.com/package/citation-js"
+category:
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

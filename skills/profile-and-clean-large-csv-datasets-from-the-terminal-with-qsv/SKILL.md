@@ -4,6 +4,8 @@ slug: "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv"
 description: "Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows."
 verification: listed
 source: "https://github.com/dathere/qsv"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

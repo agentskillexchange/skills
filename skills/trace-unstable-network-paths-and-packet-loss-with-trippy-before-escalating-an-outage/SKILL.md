@@ -4,6 +4,8 @@ slug: "trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalatin
 description: "Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents."
 verification: listed
 source: "https://github.com/fujiapple852/trippy"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

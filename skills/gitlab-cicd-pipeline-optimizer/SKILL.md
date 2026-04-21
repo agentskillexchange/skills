@@ -4,6 +4,8 @@ slug: "gitlab-cicd-pipeline-optimizer"
 description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
 verification: security_reviewed
 source: "https://github.com/gitlabhq/gitlabhq"
+category:
+  - "CI/CD Integrations"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

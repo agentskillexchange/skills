@@ -4,6 +4,8 @@ slug: "eslint-rule-violation-summarizer-2"
 description: "Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from manual ones. Outputs Markdown for GitHub PR comments."
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 tool_ecosystem:

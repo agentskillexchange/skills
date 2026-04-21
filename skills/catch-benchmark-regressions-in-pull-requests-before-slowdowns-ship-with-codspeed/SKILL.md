@@ -4,6 +4,8 @@ slug: "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-c
 description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
 verification: security_reviewed
 source: "https://github.com/CodSpeedHQ/codspeed"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

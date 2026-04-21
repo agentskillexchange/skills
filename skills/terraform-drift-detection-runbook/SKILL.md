@@ -4,6 +4,8 @@ slug: "terraform-drift-detection-runbook"
 description: "Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers."
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "kubernetes-runbook-generator"
 description: "Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes."
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:

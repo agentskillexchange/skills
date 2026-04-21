@@ -4,6 +4,8 @@ slug: "debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-c
 description: "Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture screenshots, and automate reproduction steps in Firefox instead of relying on Chrome-first tooling."
 verification: security_reviewed
 source: "https://github.com/mozilla/firefox-devtools-mcp"
+category:
+  - "Browser Automation"
 framework:
   - "MCP"
 tool_ecosystem:

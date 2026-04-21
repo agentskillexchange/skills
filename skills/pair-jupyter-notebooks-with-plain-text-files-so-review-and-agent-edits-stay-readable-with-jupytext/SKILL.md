@@ -4,6 +4,8 @@ slug: "pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-st
 description: "Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can happen outside bulky notebook JSON."
 verification: listed
 source: "https://github.com/mwouts/jupytext"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

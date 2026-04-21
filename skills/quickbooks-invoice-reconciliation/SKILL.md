@@ -4,6 +4,8 @@ slug: "quickbooks-invoice-reconciliation"
 description: "Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid."
 verification: security_reviewed
 source: "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 ---

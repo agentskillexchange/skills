@@ -4,6 +4,8 @@ slug: "drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-britt
 description: "Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop surfaces where DOM selectors are fragile, unavailable, or not the right abstraction."
 verification: listed
 source: "https://github.com/web-infra-dev/midscene"
+category:
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

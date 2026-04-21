@@ -4,6 +4,8 @@ slug: "aws-cloudwatch-alarm-runbook-wave48"
 description: "Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems Manager runbook documents. Maps alarm states to diagnostic procedures and remediation actions."
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
 tool_ecosystem:

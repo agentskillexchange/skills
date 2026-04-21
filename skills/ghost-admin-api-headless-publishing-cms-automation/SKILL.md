@@ -4,6 +4,8 @@ slug: "ghost-admin-api-headless-publishing-cms-automation"
 description: "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for structured publishing and operational automation in Ghost-backed sites."
 verification: security_reviewed
 source: "https://ghost.org/docs/admin-api/"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
 ---

@@ -4,6 +4,8 @@ slug: "export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downst
 description: "Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes."
 verification: listed
 source: "https://github.com/zoni/obsidian-export"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "diff-live-database-schemas-against-declarative-sql-before-schema-drift-re
 description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases."
 verification: listed
 source: "https://github.com/sqldef/sqldef"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

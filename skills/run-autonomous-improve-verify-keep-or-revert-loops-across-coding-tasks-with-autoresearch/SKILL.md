@@ -4,6 +4,8 @@ slug: "run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-wi
 description: "Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts automatically."
 verification: listed
 source: "https://github.com/uditgoenka/autoresearch"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

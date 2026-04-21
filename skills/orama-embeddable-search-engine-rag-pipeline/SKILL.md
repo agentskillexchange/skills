@@ -4,6 +4,8 @@ slug: "orama-embeddable-search-engine-rag-pipeline"
 description: "Orama is a full-text, vector, and hybrid search engine that runs in the browser, on a server, or at the edge in under 2KB. It provides built-in RAG pipeline support, typo tolerance, faceted search, and language-agnostic stemming — all without external dependencies."
 verification: security_reviewed
 source: "https://github.com/oramasearch/orama"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

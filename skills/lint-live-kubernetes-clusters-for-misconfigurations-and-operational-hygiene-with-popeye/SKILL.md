@@ -4,6 +4,8 @@ slug: "lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygie
 description: "Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells."
 verification: listed
 source: "https://github.com/derailed/popeye"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

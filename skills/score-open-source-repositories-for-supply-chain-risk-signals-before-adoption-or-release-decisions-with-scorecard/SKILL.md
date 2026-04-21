@@ -4,6 +4,8 @@ slug: "score-open-source-repositories-for-supply-chain-risk-signals-before-adopt
 description: "Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it."
 verification: listed
 source: "https://github.com/ossf/scorecard"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

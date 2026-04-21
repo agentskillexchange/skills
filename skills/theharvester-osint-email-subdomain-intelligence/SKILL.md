@@ -4,6 +4,8 @@ slug: "theharvester-osint-email-subdomain-intelligence"
 description: "theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and banners from public sources. Used during reconnaissance in penetration testing and red team assessments, it queries search engines, PGP key servers, the Shodan API, and other data sources to map an organization&#8217;s external threat surface."
 verification: security_reviewed
 source: "https://github.com/laramies/theHarvester"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

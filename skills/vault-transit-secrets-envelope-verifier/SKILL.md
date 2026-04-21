@@ -4,6 +4,8 @@ slug: "vault-transit-secrets-envelope-verifier"
 description: "Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe."
 verification: security_reviewed
 source: "https://github.com/hashicorp/vault"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Codex"
 tool_ecosystem:

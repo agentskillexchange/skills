@@ -4,6 +4,8 @@ slug: "crewai-multi-agent-orchestration-framework"
 description: "CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing autonomous AI agents. It enables developers to define agents with specific roles, goals, and backstories, then assemble them into crews that collaborate on complex tasks through sequential or parallel workflows."
 verification: security_reviewed
 source: "https://github.com/crewAIInc/crewAI"
+category:
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 ---

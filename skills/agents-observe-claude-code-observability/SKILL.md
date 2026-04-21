@@ -4,6 +4,8 @@ slug: "agents-observe-claude-code-observability"
 description: "Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task progress so debugging starts from what the agents are actually doing."
 verification: security_reviewed
 source: "https://github.com/simple10/agents-observe"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 tool_ecosystem:

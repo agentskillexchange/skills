@@ -4,6 +4,8 @@ slug: "devbox-nix-development-environment-jetify"
 description: "Devbox by Jetify creates instant, isolated development environments using Nix packages. Define project dependencies in a devbox.json file, and every developer gets identical toolchains without containerization overhead or system pollution."
 verification: security_reviewed
 source: "https://github.com/jetify-com/devbox"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

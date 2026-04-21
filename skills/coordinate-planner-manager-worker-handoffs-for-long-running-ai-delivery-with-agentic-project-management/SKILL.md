@@ -4,6 +4,8 @@ slug: "coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-w
 description: "Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in one giant chat."
 verification: listed
 source: "https://github.com/sdi2200262/agentic-project-management"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

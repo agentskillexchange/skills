@@ -4,6 +4,8 @@ slug: "repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-process
 description: "Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them."
 verification: listed
 source: "https://github.com/qpdf/qpdf"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "datadog-monitors-skill"
 description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Codex"
 ---

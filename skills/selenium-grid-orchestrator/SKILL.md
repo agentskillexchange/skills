@@ -4,6 +4,8 @@ slug: "selenium-grid-orchestrator"
 description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
 verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
+category:
+  - "Browser Automation"
 framework:
   - "OpenClaw"
 ---

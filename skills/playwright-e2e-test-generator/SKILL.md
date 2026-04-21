@@ -4,6 +4,8 @@ slug: "playwright-e2e-test-generator"
 description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
+category:
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

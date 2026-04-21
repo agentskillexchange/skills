@@ -4,6 +4,8 @@ slug: "fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-rep
 description: "Use GitHub Next&#8217;s pr-fix workflow when a pull request is blocked on failing checks and the likely repair is machine-doable. The agent inspects CI failures, traces the root cause, applies a focused fix on the PR branch, and leaves the result in reviewable Git history."
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/pr-fix.md"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

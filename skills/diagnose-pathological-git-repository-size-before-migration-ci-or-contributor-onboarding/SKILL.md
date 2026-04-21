@@ -4,6 +4,8 @@ slug: "diagnose-pathological-git-repository-size-before-migration-ci-or-contribu
 description: "Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone, fetch, repack, or work in. Use it when an agent needs evidence about large blobs, oversized trees, too many refs, or other Git pathologies before proposing cleanup."
 verification: security_reviewed
 source: "https://github.com/github/git-sizer"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

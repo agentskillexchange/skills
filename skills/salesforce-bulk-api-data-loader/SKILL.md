@@ -4,6 +4,8 @@ slug: "salesforce-bulk-api-data-loader"
 description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
 verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

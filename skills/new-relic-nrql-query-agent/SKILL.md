@@ -4,6 +4,8 @@ slug: "new-relic-nrql-query-agent"
 description: "Executes NRQL queries against New Relic&#8217;s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 ---

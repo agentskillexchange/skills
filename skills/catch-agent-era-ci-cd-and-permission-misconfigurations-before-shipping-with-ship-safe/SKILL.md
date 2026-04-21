@@ -4,6 +4,8 @@ slug: "catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-wi
 description: "Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency issues."
 verification: listed
 source: "https://github.com/asamassekou10/ship-safe"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

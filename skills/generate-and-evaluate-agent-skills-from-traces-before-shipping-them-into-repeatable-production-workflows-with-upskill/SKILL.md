@@ -4,6 +4,8 @@ slug: "generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-
 description: "Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in production."
 verification: security_reviewed
 source: "https://github.com/huggingface/upskill"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

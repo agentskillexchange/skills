@@ -4,6 +4,8 @@ slug: "probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses
 description: "Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review."
 verification: listed
 source: "https://github.com/testssl/testssl.sh"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

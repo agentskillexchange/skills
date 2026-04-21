@@ -4,6 +4,8 @@ slug: "triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir
 description: "Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup."
 verification: listed
 source: "https://github.com/AppliedIR/Valhuntir"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

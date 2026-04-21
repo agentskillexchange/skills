@@ -4,6 +4,8 @@ slug: "lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-t
 description: "Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early."
 verification: listed
 source: "https://github.com/terraform-linters/tflint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

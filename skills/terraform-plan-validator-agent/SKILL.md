@@ -4,6 +4,8 @@ slug: "terraform-plan-validator-agent"
 description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Cursor"
 tool_ecosystem:

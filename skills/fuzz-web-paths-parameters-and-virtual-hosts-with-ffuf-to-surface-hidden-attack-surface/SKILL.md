@@ -4,6 +4,8 @@ slug: "fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-a
 description: "Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface."
 verification: listed
 source: "https://github.com/ffuf/ffuf"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

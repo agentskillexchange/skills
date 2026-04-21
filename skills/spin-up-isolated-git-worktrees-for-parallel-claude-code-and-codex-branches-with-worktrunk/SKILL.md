@@ -4,6 +4,8 @@ slug: "spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branche
 description: "Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without stomping each other."
 verification: listed
 source: "https://github.com/max-sixty/worktrunk"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

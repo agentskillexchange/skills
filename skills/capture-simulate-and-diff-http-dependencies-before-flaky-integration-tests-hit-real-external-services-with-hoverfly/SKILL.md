@@ -4,6 +4,8 @@ slug: "capture-simulate-and-diff-http-dependencies-before-flaky-integration-test
 description: "Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services."
 verification: listed
 source: "https://github.com/SpectoLabs/hoverfly"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

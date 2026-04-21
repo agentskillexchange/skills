@@ -4,6 +4,8 @@ slug: "strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubect
 description: "Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work."
 verification: listed
 source: "https://github.com/itaysk/kubectl-neat"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

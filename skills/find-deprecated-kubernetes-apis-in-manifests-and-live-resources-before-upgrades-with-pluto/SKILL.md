@@ -4,6 +4,8 @@ slug: "find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-up
 description: "Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window."
 verification: listed
 source: "https://github.com/FairwindsOps/pluto"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

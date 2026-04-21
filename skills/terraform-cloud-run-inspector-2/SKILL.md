@@ -4,6 +4,8 @@ slug: "terraform-cloud-run-inspector-2"
 description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results."
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-relea
 description: "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing."
 verification: security_reviewed
 source: "https://github.com/release-plz/release-plz"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

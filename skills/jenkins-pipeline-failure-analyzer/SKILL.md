@@ -4,6 +4,8 @@ slug: "jenkins-pipeline-failure-analyzer"
 description: "Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification."
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Agents"
 tool_ecosystem:

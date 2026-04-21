@@ -4,6 +4,8 @@ slug: "scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-det
 description: "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning."
 verification: listed
 source: "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

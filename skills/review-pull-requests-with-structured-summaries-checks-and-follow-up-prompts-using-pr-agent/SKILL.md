@@ -4,6 +4,8 @@ slug: "review-pull-requests-with-structured-summaries-checks-and-follow-up-promp
 description: "Use PR-Agent when an agent should run an automated pull request review pass with summaries, comments, improvement prompts, or ask-mode follow-ups before human merge review."
 verification: listed
 source: "https://github.com/The-PR-Agent/pr-agent"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 ---

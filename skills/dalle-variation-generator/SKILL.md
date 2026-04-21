@@ -4,6 +4,8 @@ slug: "dalle-variation-generator"
 description: "Generates image variations and edits using OpenAI&#8217;s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
+category:
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

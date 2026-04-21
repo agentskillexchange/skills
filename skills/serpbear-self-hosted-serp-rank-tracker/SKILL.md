@@ -4,6 +4,8 @@ slug: "serpbear-self-hosted-serp-rank-tracker"
 description: "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads."
 verification: security_reviewed
 source: "https://github.com/towfiqi/serpbear"
+category:
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

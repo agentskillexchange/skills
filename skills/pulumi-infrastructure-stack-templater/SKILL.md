@@ -4,6 +4,8 @@ slug: "pulumi-infrastructure-stack-templater"
 description: "Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and @pulumi/gcp SDKs. Includes Pulumi Automation API integration for programmatic stack lifecycle management."
 verification: security_reviewed
 source: "https://github.com/pulumi/pulumi"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-s
 description: "Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and related tools instead of being copied and updated by hand."
 verification: security_reviewed
 source: "https://github.com/lbb00/ai-rules-sync"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

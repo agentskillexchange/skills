@@ -4,6 +4,8 @@ slug: "generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-gene
 description: "Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work."
 verification: listed
 source: "https://github.com/alonw0/web-asset-generator"
+category:
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Code"
 tool_ecosystem:

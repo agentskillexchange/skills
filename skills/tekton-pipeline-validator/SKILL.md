@@ -4,6 +4,8 @@ slug: "tekton-pipeline-validator"
 description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations before deployment. Supports PipelineRun, TaskRun, and Trigger resource types."
 verification: security_reviewed
 source: "https://github.com/tektoncd/pipeline"
+category:
+  - "CI/CD Integrations"
 framework:
   - "OpenClaw"
 tool_ecosystem:

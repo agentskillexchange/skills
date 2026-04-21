@@ -4,6 +4,8 @@ slug: "diagnose-site-seo-issues-with-a-structured-audit"
 description: "Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped."
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
+category:
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

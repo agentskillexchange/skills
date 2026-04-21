@@ -4,6 +4,8 @@ slug: "argocd-application-sync-monitor"
 description: "Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed sync operations with detailed resource diff analysis using argocd app diff."
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:

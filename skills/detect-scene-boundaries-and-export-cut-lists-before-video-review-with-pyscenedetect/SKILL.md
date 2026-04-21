@@ -4,6 +4,8 @@ slug: "detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pys
 description: "Detect scene changes in a video, emit cut boundaries, and hand back machine-usable scene lists before manual review, splitting, or clip assembly."
 verification: security_reviewed
 source: "https://github.com/Breakthrough/PySceneDetect"
+category:
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

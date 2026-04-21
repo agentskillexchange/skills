@@ -4,6 +4,8 @@ slug: "wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-n
 description: "Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface."
 verification: security_reviewed
 source: "https://github.com/HKUDS/CLI-Anything"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

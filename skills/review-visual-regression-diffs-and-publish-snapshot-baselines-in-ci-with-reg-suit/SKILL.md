@@ -4,6 +4,8 @@ slug: "review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-
 description: "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots."
 verification: security_reviewed
 source: "https://github.com/reg-viz/reg-suit"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "co-author-structured-docs-with-staged-context-gathering-and-reader-testin
 description: "Use Anthropic&#8217;s doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and pressure-tests the final document with reader-style review before teammates see it."
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 tool_ecosystem:

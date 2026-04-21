@@ -4,6 +4,8 @@ slug: "collect-unix-like-incident-response-artifacts-into-one-portable-evidence-
 description: "Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host."
 verification: listed
 source: "https://github.com/tclahr/uac"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

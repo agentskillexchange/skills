@@ -4,6 +4,8 @@ slug: "twilio-sms-voice-bridge"
 description: "Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using TwiML VoiceResponse, and processes delivery webhooks for message status tracking and conversation threading."
 verification: security_reviewed
 source: "https://github.com/twilio/twilio-node"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

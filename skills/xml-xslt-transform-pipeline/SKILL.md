@@ -4,6 +4,8 @@ slug: "xml-xslt-transform-pipeline"
 description: "Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath parameter injection, and multi-stage transform pipelines with intermediate validation."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "ChatGPT Agents"
 ---

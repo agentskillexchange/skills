@@ -4,6 +4,8 @@ slug: "parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci
 description: "Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output than cargo test when CI speed and stability matter."
 verification: listed
 source: "https://github.com/nextest-rs/nextest"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

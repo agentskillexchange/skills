@@ -4,6 +4,8 @@ slug: "wp-cli-site-migration-automator"
 description: "Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized data, multisite network moves, and DNS preflight checks via dig and curl health probes."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-cli-site-migration-automator/"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Codex"
 ---

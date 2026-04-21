@@ -4,6 +4,8 @@ slug: "enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spread
 description: "Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time."
 verification: listed
 source: "https://github.com/Shopify/packwerk"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

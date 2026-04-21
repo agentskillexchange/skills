@@ -4,6 +4,8 @@ slug: "docling-document-conversion-and-extraction-toolkit"
 description: "Docling is an open source document processing toolkit from the Docling project that converts PDFs, Office files, HTML, and other formats into structured output for downstream AI and automation workflows. It is well documented, actively maintained, and published as a Python package with a live docs site."
 verification: security_reviewed
 source: "https://github.com/docling-project/docling"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

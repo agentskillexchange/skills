@@ -4,6 +4,8 @@ slug: "develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrai
 description: "Use Automattic&#8217;s official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling, uninstall behavior, and data hygiene. This is a plugin engineering playbook, not a generic WordPress listing."
 verification: security_reviewed
 source: "https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 ---

@@ -4,6 +4,8 @@ slug: "systematic-debugging-and-error-recovery"
 description: "Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work."
 verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

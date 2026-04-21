@@ -4,6 +4,8 @@ slug: "audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-produc
 description: "Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an agent or operator. Invoke it when a machine is about to become internet-facing, after base image changes, or whenever you need a quick read on hardening drift instead of a generic vulnerability scan."
 verification: security_reviewed
 source: "https://github.com/CISOfy/lynis"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

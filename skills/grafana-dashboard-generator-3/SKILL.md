@@ -4,6 +4,8 @@ slug: "grafana-dashboard-generator-3"
 description: "Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views."
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 tool_ecosystem:

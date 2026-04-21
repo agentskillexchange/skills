@@ -4,6 +4,8 @@ slug: "dalle-3-batch-asset-generator"
 description: "Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance."
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
+category:
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

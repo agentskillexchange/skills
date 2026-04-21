@@ -4,6 +4,8 @@ slug: "grafana-dashboard-json-assembler"
 description: "Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures datasource references, template variables, and annotation queries for operational dashboards."
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-appl
 description: "Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs."
 verification: listed
 source: "https://github.com/homeport/dyff"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

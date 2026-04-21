@@ -4,6 +4,8 @@ slug: "ghostty-fast-native-terminal-emulator-gpu-acceleration"
 description: "Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it provides a native experience on macOS and Linux while supporting modern terminal protocols including Kitty graphics and synchronized rendering."
 verification: security_reviewed
 source: "https://github.com/ghostty-org/ghostty"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "back-up-github-repos-releases-and-gists-with-github-backup"
 description: "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo."
 verification: security_reviewed
 source: "https://github.com/SierraSoftworks/github-backup"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

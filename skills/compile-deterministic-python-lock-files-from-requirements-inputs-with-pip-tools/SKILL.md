@@ -4,6 +4,8 @@ slug: "compile-deterministic-python-lock-files-from-requirements-inputs-with-pip
 description: "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins."
 verification: security_reviewed
 source: "https://github.com/jazzband/pip-tools"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

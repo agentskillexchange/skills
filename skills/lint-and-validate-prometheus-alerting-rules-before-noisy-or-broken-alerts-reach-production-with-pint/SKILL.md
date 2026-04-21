@@ -4,6 +4,8 @@ slug: "lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts
 description: "Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are caught before deploy."
 verification: listed
 source: "https://github.com/cloudflare/pint"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

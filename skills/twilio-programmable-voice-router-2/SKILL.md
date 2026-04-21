@@ -4,6 +4,8 @@ slug: "twilio-programmable-voice-router-2"
 description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource."
 verification: security_reviewed
 source: "https://github.com/twilio/twilio-node"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Claude Agents"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-u
 description: "Run repeatable eval suites against prompts, RAG pipelines, and agents so regressions surface before release."
 verification: listed
 source: "https://github.com/confident-ai/deepeval"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

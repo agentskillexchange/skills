@@ -4,6 +4,8 @@ slug: "enforce-javascript-and-typescript-dependency-rules-before-architectural-d
 description: "Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift."
 verification: listed
 source: "https://github.com/sverweij/dependency-cruiser"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

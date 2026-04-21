@@ -4,6 +4,8 @@ slug: "probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misco
 description: "Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts."
 verification: listed
 source: "https://github.com/aquasecurity/kube-hunter"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

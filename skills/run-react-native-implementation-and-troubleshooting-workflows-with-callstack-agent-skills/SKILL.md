@@ -4,6 +4,8 @@ slug: "run-react-native-implementation-and-troubleshooting-workflows-with-callst
 description: "Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development."
 verification: listed
 source: "https://github.com/callstackincubator/agent-skills"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

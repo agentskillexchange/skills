@@ -4,6 +4,8 @@ slug: "validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declara
 description: "Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure."
 verification: listed
 source: "https://github.com/shiehn/DeclarAgent"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-se
 description: "Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow."
 verification: security_reviewed
 source: "https://github.com/agent-sh/agnix"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

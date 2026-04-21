@@ -4,6 +4,8 @@ slug: "commitlint-conventional-commit-message-linter"
 description: "commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured formats like type(scope): subject. Shareable configuration packages let teams standardize commit conventions, and integration with husky enables automatic linting on every commit via git hooks."
 verification: security_reviewed
 source: "https://github.com/conventional-changelog/commitlint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

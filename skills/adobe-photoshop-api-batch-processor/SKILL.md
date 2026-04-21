@@ -4,6 +4,8 @@ slug: "adobe-photoshop-api-batch-processor"
 description: "Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement, action playback, and PSD layer manipulation at scale."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/adobe-photoshop-api-batch-processor/"
+category:
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---

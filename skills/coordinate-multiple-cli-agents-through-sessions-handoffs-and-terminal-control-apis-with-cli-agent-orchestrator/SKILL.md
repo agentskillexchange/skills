@@ -4,6 +4,8 @@ slug: "coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-con
 description: "Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and message patterns."
 verification: listed
 source: "https://github.com/awslabs/cli-agent-orchestrator"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

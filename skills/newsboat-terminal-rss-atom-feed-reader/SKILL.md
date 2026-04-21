@@ -4,6 +4,8 @@ slug: "newsboat-terminal-rss-atom-feed-reader"
 description: "Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter, it provides a fast, keyboard-driven interface for subscribing to, reading, and managing feeds with powerful filtering, macro support, and scriptable automation."
 verification: security_reviewed
 source: "https://github.com/newsboat/newsboat"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

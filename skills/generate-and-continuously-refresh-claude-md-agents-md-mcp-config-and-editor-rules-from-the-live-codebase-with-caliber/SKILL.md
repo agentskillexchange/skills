@@ -4,6 +4,8 @@ slug: "generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-edit
 description: "Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep those files fresh across multiple coding agents."
 verification: security_reviewed
 source: "https://github.com/caliber-ai-org/ai-setup"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

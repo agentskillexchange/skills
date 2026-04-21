@@ -4,6 +4,8 @@ slug: "ansible-playbook-vault-runner"
 description: "Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports &#8211;check mode for dry-run validation before live runs."
 verification: security_reviewed
 source: "https://github.com/ansible/ansible"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

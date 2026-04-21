@@ -4,6 +4,8 @@ slug: "stable-diffusion-xl-pipeline-builder"
 description: "Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch prompt scheduling."
 verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
+category:
+  - "Image &amp; Creative Automation"
 framework:
   - "Cursor"
 ---

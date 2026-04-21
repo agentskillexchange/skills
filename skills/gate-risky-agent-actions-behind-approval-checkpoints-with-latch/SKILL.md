@@ -4,6 +4,8 @@ slug: "gate-risky-agent-actions-behind-approval-checkpoints-with-latch"
 description: "Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while safe calls continue automatically."
 verification: listed
 source: "https://github.com/latchagent/latch"
+category:
+  - "Security &amp; Verification"
 framework:
   - "MCP"
 tool_ecosystem:

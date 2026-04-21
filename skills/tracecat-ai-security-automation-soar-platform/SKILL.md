@@ -4,6 +4,8 @@ slug: "tracecat-ai-security-automation-soar-platform"
 description: "Tracecat is an open-source, AI-native security automation platform built as a self-hosted alternative to Tines and Splunk SOAR. It combines agents, workflows, case management, and lookup tables in one platform with sandboxed execution powered by Temporal and nsjail."
 verification: security_reviewed
 source: "https://github.com/TracecatHQ/tracecat"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

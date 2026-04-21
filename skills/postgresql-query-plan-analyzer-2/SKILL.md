@@ -4,6 +4,8 @@ slug: "postgresql-query-plan-analyzer-2"
 description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries."
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
+category:
+  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:

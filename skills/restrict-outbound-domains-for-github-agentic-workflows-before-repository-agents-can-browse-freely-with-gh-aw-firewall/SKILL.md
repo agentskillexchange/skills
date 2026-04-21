@@ -4,6 +4,8 @@ slug: "restrict-outbound-domains-for-github-agentic-workflows-before-repository-
 description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access."
 verification: listed
 source: "https://github.com/github/gh-aw-firewall"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

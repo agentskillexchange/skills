@@ -4,6 +4,8 @@ slug: "run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewa
 description: "Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes."
 verification: listed
 source: "https://github.com/openrewrite/rewrite"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

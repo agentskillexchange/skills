@@ -4,6 +4,8 @@ slug: "terraform-plan-reviewer-4"
 description: "Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries."
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:

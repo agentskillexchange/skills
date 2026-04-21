@@ -4,6 +4,8 @@ slug: "stress-test-javascript-and-typescript-test-suites-with-mutation-testing-b
 description: "Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced."
 verification: listed
 source: "https://github.com/stryker-mutator/stryker-js"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

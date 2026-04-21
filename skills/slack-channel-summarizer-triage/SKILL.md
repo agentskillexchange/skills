@@ -4,6 +4,8 @@ slug: "slack-channel-summarizer-triage"
 description: "Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Supports scheduled digests and posts summaries directly to a designated DM or channel."
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "video-subtitle-translator-agent"
 description: "Extracts embedded subtitles from video containers using FFmpeg&#8217;s subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages."
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
+category:
+  - "Media &amp; Transcription"
 framework:
   - "Gemini"
 tool_ecosystem:

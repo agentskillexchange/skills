@@ -4,6 +4,8 @@ slug: "run-security-audits-and-variant-analysis-workflows-in-claude-code-with-tr
 description: "Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding assistance."
 verification: listed
 source: "https://github.com/trailofbits/skills"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

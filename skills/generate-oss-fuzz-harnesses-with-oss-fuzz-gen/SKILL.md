@@ -4,6 +4,8 @@ slug: "generate-oss-fuzz-harnesses-with-oss-fuzz-gen"
 description: "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins."
 verification: listed
 source: "https://github.com/google/oss-fuzz-gen"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

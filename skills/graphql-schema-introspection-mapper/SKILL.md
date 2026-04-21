@@ -4,6 +4,8 @@ slug: "graphql-schema-introspection-mapper"
 description: "Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions."
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
   - "Multi-Framework"

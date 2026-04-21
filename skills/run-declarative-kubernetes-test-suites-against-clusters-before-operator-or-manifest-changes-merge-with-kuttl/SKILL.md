@@ -4,6 +4,8 @@ slug: "run-declarative-kubernetes-test-suites-against-clusters-before-operator-o
 description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
 verification: listed
 source: "https://github.com/kudobuilder/kuttl"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

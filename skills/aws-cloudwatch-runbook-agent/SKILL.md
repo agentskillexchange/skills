@@ -4,6 +4,8 @@ slug: "aws-cloudwatch-runbook-agent"
 description: "Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis."
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

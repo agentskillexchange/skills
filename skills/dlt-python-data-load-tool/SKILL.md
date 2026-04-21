@@ -4,6 +4,8 @@ slug: "dlt-python-data-load-tool"
 description: "An open-source Python library that makes loading data from APIs, databases, and files into structured datasets simple and Pythonic. dlt automates schema inference, incremental loading, and normalization, supporting destinations like DuckDB, BigQuery, Snowflake, and Postgres."
 verification: security_reviewed
 source: "https://github.com/dlt-hub/dlt"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "postgresql-query-plan-diagnostics-wave48"
 description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:

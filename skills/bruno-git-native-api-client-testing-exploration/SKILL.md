@@ -4,6 +4,8 @@ slug: "bruno-git-native-api-client-testing-exploration"
 description: "Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your filesystem. It serves as a privacy-focused, git-friendly alternative to Postman and Insomnia with no cloud sync and no account required."
 verification: security_reviewed
 source: "https://github.com/usebruno/bruno"
+category:
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

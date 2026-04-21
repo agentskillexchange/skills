@@ -4,6 +4,8 @@ slug: "pydanticai-type-safe-ai-agent-framework"
 description: "PydanticAI is an AI agent framework built by the Pydantic team that brings FastAPI-style ergonomics to GenAI development. It provides type-safe, model-agnostic agent construction with structured outputs, dependency injection, and seamless integration with Pydantic Logfire for observability."
 verification: security_reviewed
 source: "https://github.com/pydantic/pydantic-ai"
+category:
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

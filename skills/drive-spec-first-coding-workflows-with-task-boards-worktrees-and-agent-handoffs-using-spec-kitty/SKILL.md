@@ -4,6 +4,8 @@ slug: "drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-ha
 description: "Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination."
 verification: listed
 source: "https://github.com/Priivacy-ai/spec-kitty"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

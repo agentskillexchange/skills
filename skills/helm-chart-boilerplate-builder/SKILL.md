@@ -4,6 +4,8 @@ slug: "helm-chart-boilerplate-builder"
 description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration."
 verification: security_reviewed
 source: "https://github.com/helm/helm"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

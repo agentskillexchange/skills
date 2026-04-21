@@ -4,6 +4,8 @@ slug: "listmonk-self-hosted-newsletter-mailing-list"
 description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
 verification: security_reviewed
 source: "https://github.com/knadh/listmonk"
+category:
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

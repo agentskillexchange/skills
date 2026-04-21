@@ -4,6 +4,8 @@ slug: "hacker-news-deep-thread-analyzer"
 description: "Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 ---

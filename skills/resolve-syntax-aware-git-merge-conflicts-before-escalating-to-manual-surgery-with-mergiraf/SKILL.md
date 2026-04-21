@@ -4,6 +4,8 @@ slug: "resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surg
 description: "Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits."
 verification: listed
 source: "https://codeberg.org/mergiraf/mergiraf"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 ---

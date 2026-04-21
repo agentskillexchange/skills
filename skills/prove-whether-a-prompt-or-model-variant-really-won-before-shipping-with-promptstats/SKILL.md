@@ -4,6 +4,8 @@ slug: "prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-p
 description: "Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes."
 verification: listed
 source: "https://github.com/ianarawjo/promptstats"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

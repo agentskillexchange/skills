@@ -4,6 +4,8 @@ slug: "build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-g
 description: "Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source episode produced each fact, instead of storing flat chunks or chat history alone."
 verification: security_reviewed
 source: "https://github.com/getzep/graphiti"
+category:
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

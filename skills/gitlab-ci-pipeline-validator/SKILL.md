@@ -4,6 +4,8 @@ slug: "gitlab-ci-pipeline-validator"
 description: "Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths, and misconfigured rules before commit."
 verification: security_reviewed
 source: "https://github.com/gitlabhq/gitlabhq"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:

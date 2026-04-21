@@ -4,6 +4,8 @@ slug: "run-http-and-rest-request-files-with-variables-hooks-and-assertions-durin
 description: "Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client."
 verification: listed
 source: "https://github.com/AnWeber/httpyac"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

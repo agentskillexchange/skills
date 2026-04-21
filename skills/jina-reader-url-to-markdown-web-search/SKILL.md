@@ -4,6 +4,8 @@ slug: "jina-reader-url-to-markdown-web-search"
 description: "Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also provides a search endpoint at https://s.jina.ai/ that returns web search results in clean markdown format for RAG and agent workflows."
 verification: security_reviewed
 source: "https://github.com/jina-ai/reader"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

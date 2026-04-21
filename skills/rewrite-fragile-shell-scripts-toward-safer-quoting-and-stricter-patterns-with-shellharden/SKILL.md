@@ -4,6 +4,8 @@ slug: "rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-
 description: "Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production."
 verification: listed
 source: "https://github.com/anordal/shellharden"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

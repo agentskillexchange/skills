@@ -4,6 +4,8 @@ slug: "ruff-python-linter-configurator"
 description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 ---

@@ -4,6 +4,8 @@ slug: "git-updater-wordpress-plugin-theme-auto-updater"
 description: "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching."
 verification: security_reviewed
 source: "https://github.com/afragen/git-updater"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

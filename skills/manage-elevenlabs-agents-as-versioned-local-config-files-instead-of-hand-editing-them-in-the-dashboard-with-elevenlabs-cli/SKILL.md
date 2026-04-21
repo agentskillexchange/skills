@@ -4,6 +4,8 @@ slug: "manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-
 description: "Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI."
 verification: security_reviewed
 source: "https://github.com/elevenlabs/cli"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:

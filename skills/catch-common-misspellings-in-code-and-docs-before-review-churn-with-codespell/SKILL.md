@@ -4,6 +4,8 @@ slug: "catch-common-misspellings-in-code-and-docs-before-review-churn-with-codes
 description: "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases."
 verification: security_reviewed
 source: "https://github.com/codespell-project/codespell"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

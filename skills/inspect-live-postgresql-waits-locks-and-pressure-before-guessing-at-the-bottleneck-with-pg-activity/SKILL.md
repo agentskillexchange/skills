@@ -4,6 +4,8 @@ slug: "inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-b
 description: "Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call."
 verification: listed
 source: "https://github.com/dalibo/pg_activity"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

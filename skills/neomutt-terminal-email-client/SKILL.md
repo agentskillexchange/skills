@@ -4,6 +4,8 @@ slug: "neomutt-terminal-email-client"
 description: "NeoMutt is an actively maintained fork of the classic Mutt email client that brings modern features to terminal-based email management. It supports IMAP, POP3, SMTP, Maildir, notmuch search, and PGP encryption with a highly customizable ncurses interface."
 verification: security_reviewed
 source: "https://github.com/neomutt/neomutt"
+category:
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

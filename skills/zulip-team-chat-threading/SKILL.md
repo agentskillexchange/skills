@@ -4,6 +4,8 @@ slug: "zulip-team-chat-threading"
 description: "Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of email and chat. It offers a comprehensive REST API, webhook integrations, and bot framework for building automated workflows."
 verification: security_reviewed
 source: "https://github.com/zulip/zulip"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "codecov-coverage-diff-analyzer-2"
 description: "Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "ChatGPT Agents"
 ---

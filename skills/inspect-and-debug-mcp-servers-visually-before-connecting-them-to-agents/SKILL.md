@@ -4,6 +4,8 @@ slug: "inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents"
 description: "Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually, and troubleshoot transport or schema issues before putting that server in front of real agents."
 verification: listed
 source: "https://github.com/modelcontextprotocol/inspector"
+category:
+  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:

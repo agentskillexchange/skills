@@ -4,6 +4,8 @@ slug: "generate-slsa-build-provenance-in-github-actions"
 description: "Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata."
 verification: listed
 source: "https://github.com/slsa-framework/slsa-github-generator"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

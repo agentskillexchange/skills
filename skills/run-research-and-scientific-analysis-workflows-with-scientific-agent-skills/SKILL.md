@@ -4,6 +4,8 @@ slug: "run-research-and-scientific-analysis-workflows-with-scientific-agent-skil
 description: "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work."
 verification: listed
 source: "https://github.com/K-Dense-AI/scientific-agent-skills"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

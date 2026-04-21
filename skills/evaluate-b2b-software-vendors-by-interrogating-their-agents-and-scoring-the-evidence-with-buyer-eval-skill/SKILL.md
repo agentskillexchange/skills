@@ -4,6 +4,8 @@ slug: "evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-t
 description: "Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and returns evidence-backed scorecards."
 verification: listed
 source: "https://github.com/salespeak-ai/buyer-eval-skill"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 tool_ecosystem:

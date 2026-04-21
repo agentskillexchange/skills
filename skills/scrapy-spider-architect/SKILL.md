@@ -4,6 +4,8 @@ slug: "scrapy-spider-architect"
 description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
 verification: security_reviewed
 source: "https://github.com/scrapy/scrapy"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "review-risky-coding-agent-sessions-with-local-action-logs-using-gryph"
 description: "Capture and inspect file reads, writes, and shell activity from coding agents so developers can audit what actually happened after a session goes sideways."
 verification: listed
 source: "https://github.com/safedep/gryph"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

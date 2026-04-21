@@ -4,6 +4,8 @@ slug: "parquet-column-statistics-profiler"
 description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
 verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "ChatGPT Agents"
 ---

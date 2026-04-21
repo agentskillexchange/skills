@@ -4,6 +4,8 @@ slug: "scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before
 description: "Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed."
 verification: listed
 source: "https://github.com/cisco-ai-defense/skill-scanner"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

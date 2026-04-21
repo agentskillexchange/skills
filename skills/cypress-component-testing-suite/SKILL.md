@@ -4,6 +4,8 @@ slug: "cypress-component-testing-suite"
 description: "Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration."
 verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
+category:
+  - "Browser Automation"
 framework:
   - "MCP"
 tool_ecosystem:

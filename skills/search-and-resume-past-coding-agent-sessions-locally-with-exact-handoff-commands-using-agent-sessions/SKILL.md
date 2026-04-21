@@ -4,6 +4,8 @@ slug: "search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-c
 description: "Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands when you need to re-enter prior work."
 verification: security_reviewed
 source: "https://github.com/jazzyalex/agent-sessions"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

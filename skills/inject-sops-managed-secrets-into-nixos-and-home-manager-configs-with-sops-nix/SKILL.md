@@ -4,6 +4,8 @@ slug: "inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops
 description: "Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values."
 verification: listed
 source: "https://github.com/Mic92/sops-nix"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

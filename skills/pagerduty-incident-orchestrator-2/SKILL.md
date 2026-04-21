@@ -4,6 +4,8 @@ slug: "pagerduty-incident-orchestrator-2"
 description: "Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation."
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
 ---

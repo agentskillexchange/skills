@@ -4,6 +4,8 @@ slug: "orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-or
 description: "Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull requests, and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow control instead of improvising long git command chains."
 verification: security_reviewed
 source: "https://github.com/git-town/git-town"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

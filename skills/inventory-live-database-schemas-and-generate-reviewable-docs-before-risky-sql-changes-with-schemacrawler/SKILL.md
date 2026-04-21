@@ -4,6 +4,8 @@ slug: "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky
 description: "Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs."
 verification: listed
 source: "https://github.com/schemacrawler/SchemaCrawler"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

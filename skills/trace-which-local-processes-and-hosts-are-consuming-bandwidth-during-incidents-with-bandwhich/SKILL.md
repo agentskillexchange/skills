@@ -4,6 +4,8 @@ slug: "trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-inci
 description: "Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong incident hypothesis."
 verification: security_reviewed
 source: "https://github.com/imsnif/bandwhich"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

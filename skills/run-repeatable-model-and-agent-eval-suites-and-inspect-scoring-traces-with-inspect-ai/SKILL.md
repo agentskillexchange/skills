@@ -4,6 +4,8 @@ slug: "run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-wit
 description: "Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel."
 verification: listed
 source: "https://github.com/UKGovernmentBEIS/inspect_ai"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 ---

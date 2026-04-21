@@ -4,6 +4,8 @@ slug: "search-large-pdfs-and-read-only-the-relevant-pages-before-answering"
 description: "Use pdf-mcp to inspect a PDF, search it, and load only the pages that matter so an agent can answer questions from long documents without brute-forcing the whole file into context."
 verification: security_reviewed
 source: "https://github.com/jztan/pdf-mcp"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:

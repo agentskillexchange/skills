@@ -4,6 +4,8 @@ slug: "verify-agent-policy-coverage-and-risky-action-guardrails-before-productio
 description: "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early."
 verification: listed
 source: "https://github.com/microsoft/agent-governance-toolkit"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

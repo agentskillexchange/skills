@@ -4,6 +4,8 @@ slug: "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub"
 description: "Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search indexes."
 verification: listed
 source: "https://github.com/LeapBeyond/scrubadub"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

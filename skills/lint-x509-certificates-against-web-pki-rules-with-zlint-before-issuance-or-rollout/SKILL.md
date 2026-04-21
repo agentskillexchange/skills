@@ -4,6 +4,8 @@ slug: "lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-o
 description: "Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment."
 verification: listed
 source: "https://github.com/zmap/zlint"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

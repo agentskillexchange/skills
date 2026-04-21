@@ -4,6 +4,8 @@ slug: "docker-build-cache-optimizer"
 description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
 verification: security_reviewed
 source: "https://github.com/moby/moby"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

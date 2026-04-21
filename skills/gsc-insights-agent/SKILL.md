@@ -4,6 +4,8 @@ slug: "gsc-insights-agent"
 description: "Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
+category:
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
 ---

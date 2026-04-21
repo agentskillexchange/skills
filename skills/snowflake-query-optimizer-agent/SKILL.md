@@ -4,6 +4,8 @@ slug: "snowflake-query-optimizer-agent"
 description: "Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE. Identifies expensive scans, recommends clustering keys, and monitors warehouse credit consumption via WAREHOUSE_METERING_HISTORY."
 verification: security_reviewed
 source: "https://pypi.org/project/snowflake-connector-python/"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "OpenClaw"
 ---

@@ -4,6 +4,8 @@ slug: "docker-compose-orchestrator-v2"
 description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
 verification: security_reviewed
 source: "https://github.com/moby/moby"
+category:
+  - "Developer Tools"
 framework:
   - "OpenClaw"
 tool_ecosystem:

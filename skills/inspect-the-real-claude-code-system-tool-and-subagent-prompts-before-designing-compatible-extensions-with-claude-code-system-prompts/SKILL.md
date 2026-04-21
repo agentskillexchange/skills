@@ -4,6 +4,8 @@ slug: "inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-desi
 description: "Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool prompts, or subagent prompts before building a compatible plugin, workflow, or prompt customization."
 verification: security_reviewed
 source: "https://github.com/Piebald-AI/claude-code-system-prompts"
+category:
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:

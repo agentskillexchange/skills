@@ -4,6 +4,8 @@ slug: "apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter"
 description: "Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand."
 verification: listed
 source: "https://github.com/lefcha/imapfilter"
+category:
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-age
 description: "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output."
 verification: listed
 source: "https://github.com/stablyai/agent-slack"
+category:
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "owasp-zap-api-security-tester"
 description: "Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps."
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Codex"
 tool_ecosystem:

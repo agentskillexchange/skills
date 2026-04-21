@@ -4,6 +4,8 @@ slug: "push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras"
 description: "Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without wrapping them as conventional images."
 verification: listed
 source: "https://github.com/oras-project/oras"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

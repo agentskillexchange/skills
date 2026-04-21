@@ -4,6 +4,8 @@ slug: "codeclimate-maintainability-tracker-7"
 description: "Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt hotspots, monitors churn-complexity coupling, and generates weekly maintainability digests via SendGrid."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,6 +4,8 @@ slug: "apache-avro-schema-evolution-agent"
 description: "Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 ---

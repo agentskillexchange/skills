@@ -4,6 +4,8 @@ slug: "plan-and-apply-many-helm-releases-from-one-declarative-state-before-clust
 description: "Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file."
 verification: listed
 source: "https://github.com/helmfile/helmfile"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

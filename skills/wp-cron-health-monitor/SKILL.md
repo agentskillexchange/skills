@@ -4,6 +4,8 @@ slug: "wp-cron-health-monitor"
 description: "Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck, overdue, or orphaned cron jobs and reports via WP REST API webhooks with configurable alert thresholds."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-cron-health-monitor/"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "OpenClaw"
 ---

@@ -4,6 +4,8 @@ slug: "docker-container-health-inspector"
 description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
 verification: security_reviewed
 source: "https://github.com/moby/moby"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "flagsmith-feature-flag-remote-config"
 description: "Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote config across web, mobile, and server-side applications with granular user segmentation."
 verification: security_reviewed
 source: "https://github.com/Flagsmith/flagsmith"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

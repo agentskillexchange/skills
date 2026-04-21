@@ -4,6 +4,8 @@ slug: "openapi-generator-api-client-server-stub-tooling"
 description: "OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs, docs, and config. It is a practical fit when you need repeatable API scaffolding from a contract-first workflow."
 verification: security_reviewed
 source: "https://github.com/OpenAPITools/openapi-generator"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

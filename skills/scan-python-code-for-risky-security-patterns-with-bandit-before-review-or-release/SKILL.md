@@ -4,6 +4,8 @@ slug: "scan-python-code-for-risky-security-patterns-with-bandit-before-review-or
 description: "Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release."
 verification: listed
 source: "https://github.com/PyCQA/bandit"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

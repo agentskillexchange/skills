@@ -4,6 +4,8 @@ slug: "autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix"
 description: "Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work."
 verification: listed
 source: "https://github.com/oppiliappan/statix"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "terraform-module-registry-browser"
 description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "MCP"
 tool_ecosystem:

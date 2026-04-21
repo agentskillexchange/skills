@@ -4,6 +4,8 @@ slug: "eslint-custom-rule-builder"
 description: "Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations."
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 tool_ecosystem:

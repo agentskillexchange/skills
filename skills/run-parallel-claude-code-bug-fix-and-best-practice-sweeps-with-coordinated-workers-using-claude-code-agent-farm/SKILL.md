@@ -4,6 +4,8 @@ slug: "run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinate
 description: "Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice sweeps with coordination, conflict avoidance, and live monitoring."
 verification: security_reviewed
 source: "https://github.com/Dicklesworthstone/claude_code_agent_farm"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "sync-skills-across-ai-coding-clis-with-skillshare"
 description: "Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories."
 verification: listed
 source: "https://github.com/runkids/skillshare"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

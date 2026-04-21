@@ -4,6 +4,8 @@ slug: "capture-search-and-optionally-sync-local-coding-agent-session-history-acr
 description: "Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share those sessions."
 verification: security_reviewed
 source: "https://github.com/specstoryai/getspecstory"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

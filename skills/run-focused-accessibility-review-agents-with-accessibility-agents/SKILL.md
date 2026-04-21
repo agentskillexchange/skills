@@ -4,6 +4,8 @@ slug: "run-focused-accessibility-review-agents-with-accessibility-agents"
 description: "Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship."
 verification: listed
 source: "https://github.com/Community-Access/accessibility-agents"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

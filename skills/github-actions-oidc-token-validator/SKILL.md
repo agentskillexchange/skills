@@ -4,6 +4,8 @@ slug: "github-actions-oidc-token-validator"
 description: "Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access."
 verification: security_reviewed
 source: "https://docs.github.com/en/actions"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

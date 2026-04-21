@@ -4,6 +4,8 @@ slug: "bedrock-wordpress-composer-boilerplate-roots"
 description: "Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via .env files, and an improved folder structure. It separates WordPress core from application code for cleaner version control and deployment."
 verification: security_reviewed
 source: "https://github.com/roots/bedrock"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

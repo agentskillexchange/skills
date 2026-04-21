@@ -4,6 +4,8 @@ slug: "audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor"
 description: "Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early."
 verification: listed
 source: "https://github.com/zizmorcore/zizmor"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

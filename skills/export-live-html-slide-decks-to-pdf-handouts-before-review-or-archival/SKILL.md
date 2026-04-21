@@ -4,6 +4,8 @@ slug: "export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival"
 description: "Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It fits agent workflows that need a stable handout, attachment, or archive artifact from Reveal.js, Remark, WebSlides, and similar browser-based presentations."
 verification: security_reviewed
 source: "https://github.com/astefanutti/decktape"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

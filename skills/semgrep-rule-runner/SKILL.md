@@ -4,6 +4,8 @@ slug: "semgrep-rule-runner"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports &#8211;config auto for community rules, parses JSON output via &#8211;json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Gemini"
 tool_ecosystem:

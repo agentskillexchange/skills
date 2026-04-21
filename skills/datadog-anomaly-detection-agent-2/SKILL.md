@@ -4,6 +4,8 @@ slug: "datadog-anomaly-detection-agent-2"
 description: "Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing."
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "OpenClaw"
 ---

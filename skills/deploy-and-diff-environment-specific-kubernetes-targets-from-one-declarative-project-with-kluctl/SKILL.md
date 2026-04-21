@@ -4,6 +4,8 @@ slug: "deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarat
 description: "Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay."
 verification: listed
 source: "https://github.com/kluctl/kluctl"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "yeoman-scaffold-runner"
 description: "Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition."
 verification: security_reviewed
 source: "https://github.com/yeoman/yeoman"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:

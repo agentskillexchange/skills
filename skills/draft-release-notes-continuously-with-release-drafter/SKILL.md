@@ -4,6 +4,8 @@ slug: "draft-release-notes-continuously-with-release-drafter"
 description: "Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day."
 verification: security_reviewed
 source: "https://github.com/release-drafter/release-drafter"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-wit
 description: "Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default."
 verification: listed
 source: "https://github.com/GreyhavenHQ/greywall"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

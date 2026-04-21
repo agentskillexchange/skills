@@ -4,6 +4,8 @@ slug: "scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsuppo
 description: "Find packages that are out of support even when they do not show up as a classic CVE finding yet."
 verification: listed
 source: "https://github.com/xeol-io/xeol"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

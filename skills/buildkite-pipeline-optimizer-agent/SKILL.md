@@ -4,6 +4,8 @@ slug: "buildkite-pipeline-optimizer-agent"
 description: "Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces build times by identifying bottleneck steps and suggesting agent queue rebalancing."
 verification: security_reviewed
 source: "https://buildkite.com/docs"
+category:
+  - "CI/CD Integrations"
 framework:
   - "OpenClaw"
 ---

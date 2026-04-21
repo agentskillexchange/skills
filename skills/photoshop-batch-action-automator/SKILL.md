@@ -4,6 +4,8 @@ slug: "photoshop-batch-action-automator"
 description: "Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/"
+category:
+  - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
 ---

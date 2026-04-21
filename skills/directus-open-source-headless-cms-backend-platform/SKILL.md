@@ -4,6 +4,8 @@ slug: "directus-open-source-headless-cms-backend-platform"
 description: "Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into full-featured backends with authentication, file storage, and real-time subscriptions."
 verification: security_reviewed
 source: "https://github.com/directus/directus"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

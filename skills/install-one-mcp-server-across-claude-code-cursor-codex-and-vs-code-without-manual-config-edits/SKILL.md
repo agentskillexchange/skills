@@ -4,6 +4,8 @@ slug: "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-withou
 description: "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each config file separately."
 verification: security_reviewed
 source: "https://github.com/neondatabase/add-mcp"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

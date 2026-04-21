@@ -4,6 +4,8 @@ slug: "execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skill
 description: "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation."
 verification: listed
 source: "https://github.com/akin-ozer/cc-devops-skills"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "graphql-schema-registry-agent"
 description: "Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services."
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
+category:
+  - "Library &amp; API Reference"
 framework:
   - "Codex"
 tool_ecosystem:

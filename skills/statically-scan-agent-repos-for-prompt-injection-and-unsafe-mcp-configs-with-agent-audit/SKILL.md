@@ -4,6 +4,8 @@ slug: "statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-w
 description: "Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping."
 verification: listed
 source: "https://github.com/HeadyZhang/agent-audit"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

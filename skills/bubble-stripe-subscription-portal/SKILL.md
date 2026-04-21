@@ -4,6 +4,8 @@ slug: "bubble-stripe-subscription-portal"
 description: "Uses Bubble&#8217;s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble&#8217;s API Connector to call Stripe&#8217;s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
 verification: security_reviewed
 source: "https://manual.bubble.io/"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 ---

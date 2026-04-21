@@ -4,6 +4,8 @@ slug: "format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-wi
 description: "Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable."
 verification: listed
 source: "https://github.com/tamasfe/taplo"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

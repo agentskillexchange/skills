@@ -4,6 +4,8 @@ slug: "refresh-cookiecutter-based-repositories-from-upstream-template"
 description: "Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository&#8217;s saved answers and local customizations as carefully as possible."
 verification: security_reviewed
 source: "https://github.com/cruft/cruft"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

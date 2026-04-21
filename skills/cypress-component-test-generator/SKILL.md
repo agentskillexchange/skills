@@ -4,6 +4,8 @@ slug: "cypress-component-test-generator"
 description: "Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases."
 verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
+category:
+  - "Browser Automation"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

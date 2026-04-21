@@ -4,6 +4,8 @@ slug: "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mis
 description: "Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime."
 verification: listed
 source: "https://github.com/sbdchd/squawk"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

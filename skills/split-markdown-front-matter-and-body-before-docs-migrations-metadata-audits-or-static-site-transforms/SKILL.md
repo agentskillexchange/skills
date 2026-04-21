@@ -4,6 +4,8 @@ slug: "split-markdown-front-matter-and-body-before-docs-migrations-metadata-audi
 description: "Use gray-matter when an agent needs to open Markdown or content files, extract structured front matter, and pass clean body text plus metadata into the next step. This skill is for parsing and rewriting front matter safely, not for running a full CMS or static site generator."
 verification: security_reviewed
 source: "https://github.com/jonschlinkert/gray-matter"
+category:
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

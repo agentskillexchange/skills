@@ -4,6 +4,8 @@ slug: "jenkins-pipeline-generator"
 description: "Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization."
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-fl
 description: "Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches."
 verification: listed
 source: "https://github.com/arxanas/git-branchless"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

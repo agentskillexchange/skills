@@ -4,6 +4,8 @@ slug: "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qm
 description: "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs."
 verification: security_reviewed
 source: "https://github.com/tobi/qmd"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

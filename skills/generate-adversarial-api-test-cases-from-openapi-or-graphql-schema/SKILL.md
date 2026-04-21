@@ -4,6 +4,8 @@ slug: "generate-adversarial-api-test-cases-from-openapi-or-graphql-schema"
 description: "Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of hand-writing examples. The skill exercises live endpoints or app hooks, explores unexpected combinations, and reports failures that ordinary happy-path tests miss."
 verification: security_reviewed
 source: "https://github.com/schemathesis/schemathesis"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

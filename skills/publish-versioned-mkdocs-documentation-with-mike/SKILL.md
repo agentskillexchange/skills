@@ -4,6 +4,8 @@ slug: "publish-versioned-mkdocs-documentation-with-mike"
 description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
 verification: listed
 source: "https://github.com/jimporter/mike"
+category:
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

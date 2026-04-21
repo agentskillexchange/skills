@@ -4,6 +4,8 @@ slug: "turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks"
 description: "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes."
 verification: security_reviewed
 source: "https://github.com/zarazhangrui/lark-minutes-tasks"
+category:
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Claude Code"
 tool_ecosystem:

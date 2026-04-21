@@ -4,6 +4,8 @@ slug: "estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes
 description: "Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges."
 verification: listed
 source: "https://github.com/infracost/infracost"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

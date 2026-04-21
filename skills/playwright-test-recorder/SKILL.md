@@ -4,6 +4,8 @@ slug: "playwright-test-recorder"
 description: "Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is represented by microsoft/playwright (84,874+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like browser contexts, locators, page actions, tracing, screenshots, test runner and preserving [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

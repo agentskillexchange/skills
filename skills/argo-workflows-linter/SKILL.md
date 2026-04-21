@@ -4,6 +4,8 @@ slug: "argo-workflows-linter"
 description: "Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency cycles, invalid artifact references, and parameter type mismatches across workflow steps."
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-workflows"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:

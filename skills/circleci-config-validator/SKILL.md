@@ -4,6 +4,8 @@ slug: "circleci-config-validator"
 description: "Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation."
 verification: security_reviewed
 source: "https://github.com/circleci/circleci-docs"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Agents"
 tool_ecosystem:

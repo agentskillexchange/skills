@@ -4,6 +4,8 @@ slug: "mockoon-mock-api-server-cli"
 description: "Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating mock API servers with dynamic response templates, proxy mode, OpenAPI import, and request logging — no account required, fully open source."
 verification: security_reviewed
 source: "https://github.com/mockoon/mockoon"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

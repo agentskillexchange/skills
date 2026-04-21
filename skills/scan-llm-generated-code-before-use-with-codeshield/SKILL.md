@@ -4,6 +4,8 @@ slug: "scan-llm-generated-code-before-use-with-codeshield"
 description: "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first."
 verification: listed
 source: "https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield"
+category:
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 ---

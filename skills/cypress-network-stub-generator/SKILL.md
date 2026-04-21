@@ -4,6 +4,8 @@ slug: "cypress-network-stub-generator"
 description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
 verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
+category:
+  - "Browser Automation"
 framework:
   - "Codex"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-f
 description: "Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding, retries, machine-readable output, and CI triage."
 verification: security_reviewed
 source: "https://github.com/nextest-rs/nextest"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

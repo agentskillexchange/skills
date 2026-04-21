@@ -4,6 +4,8 @@ slug: "highlight-io-full-stack-monitoring"
 description: "Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend."
 verification: security_reviewed
 source: "https://github.com/highlight/highlight"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 tool_ecosystem:

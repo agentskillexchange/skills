@@ -4,6 +4,8 @@ slug: "strip-quoted-email-history-and-signatures-before-summarizing-inbound-repl
 description: "Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history, signatures, and common disclaimers. This is useful when an agent needs the actionable part of an inbound email before routing, summarizing, or creating follow-up tasks."
 verification: security_reviewed
 source: "https://github.com/alfonsrv/mail-parser-reply"
+category:
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

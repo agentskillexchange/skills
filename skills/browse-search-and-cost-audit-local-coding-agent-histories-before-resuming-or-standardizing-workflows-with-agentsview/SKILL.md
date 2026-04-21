@@ -4,6 +4,8 @@ slug: "browse-search-and-cost-audit-local-coding-agent-histories-before-resuming
 description: "Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly."
 verification: listed
 source: "https://github.com/wesm/agentsview"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

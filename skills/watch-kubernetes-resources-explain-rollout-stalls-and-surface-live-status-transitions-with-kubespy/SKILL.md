@@ -4,6 +4,8 @@ slug: "watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status
 description: "Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready."
 verification: listed
 source: "https://github.com/pulumi/kubespy"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

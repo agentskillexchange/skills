@@ -4,6 +4,8 @@ slug: "selenium-grid-parallel-execution-manager"
 description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution."
 verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
+category:
+  - "Browser Automation"
 framework:
   - "Claude Agents"
 ---

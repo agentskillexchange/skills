@@ -4,6 +4,8 @@ slug: "lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-ch
 description: "Run chart-focused lint and install checks so changed Helm charts are validated before release or merge."
 verification: listed
 source: "https://github.com/helm/chart-testing"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "selenium-webdriver-browser-automation-framework"
 description: "Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments."
 verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
+category:
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

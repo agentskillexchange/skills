@@ -4,6 +4,8 @@ slug: "jenkins-pipeline-dsl-generator"
 description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding."
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:

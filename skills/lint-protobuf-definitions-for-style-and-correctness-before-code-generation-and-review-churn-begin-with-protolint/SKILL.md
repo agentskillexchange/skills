@@ -4,6 +4,8 @@ slug: "lint-protobuf-definitions-for-style-and-correctness-before-code-generatio
 description: "Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner."
 verification: listed
 source: "https://github.com/yoheimuta/protolint"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

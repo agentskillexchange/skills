@@ -4,6 +4,8 @@ slug: "archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup"
 description: "Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a repeatable preservation job."
 verification: listed
 source: "https://github.com/bibanon/tubeup"
+category:
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

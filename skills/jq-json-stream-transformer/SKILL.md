@@ -4,6 +4,8 @@ slug: "jq-json-stream-transformer"
 description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq&#8217;s streaming parser."
 verification: security_reviewed
 source: "https://github.com/jqlang/jq"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:

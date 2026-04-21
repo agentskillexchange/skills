@@ -4,6 +4,8 @@ slug: "wpgraphql-graphql-api-plugin-for-headless-wordpress"
 description: "WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is a strong fit for headless builds, automation agents, and integration workflows that need structured reads and mutations instead of scraping wp-admin or loosely shaped REST responses."
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
+category:
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

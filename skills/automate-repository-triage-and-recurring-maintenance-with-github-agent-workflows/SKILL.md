@@ -4,6 +4,8 @@ slug: "automate-repository-triage-and-recurring-maintenance-with-github-agent-wo
 description: "Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository upkeep inside GitHub Actions with explicit workflow definitions and reviewable runs. This is for bounded, repeatable repository operations, not for listing GitHub as a general coding platform."
 verification: security_reviewed
 source: "https://github.com/github/gh-aw"
+category:
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

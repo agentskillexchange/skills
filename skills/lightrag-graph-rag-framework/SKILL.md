@@ -4,6 +4,8 @@ slug: "lightrag-graph-rag-framework"
 description: "LightRAG is a Python-based retrieval-augmented generation framework that builds knowledge graphs from documents for more connected, contextual retrieval. Published at EMNLP 2025, it enables graph-powered RAG with support for multiple storage backends and LLM providers."
 verification: security_reviewed
 source: "https://github.com/HKUDS/LightRAG"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 ---

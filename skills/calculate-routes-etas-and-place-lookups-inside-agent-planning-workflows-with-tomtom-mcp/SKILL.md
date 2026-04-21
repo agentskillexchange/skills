@@ -4,6 +4,8 @@ slug: "calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-w
 description: "Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel, field-service, and logistics tasks can stay inside an automated planning workflow."
 verification: security_reviewed
 source: "https://github.com/tomtom-international/tomtom-mcp"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

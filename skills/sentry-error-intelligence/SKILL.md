@@ -4,6 +4,8 @@ slug: "sentry-error-intelligence"
 description: "Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration."
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "mineru-pdf-to-markdown-document-parser"
 description: "Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence pipeline. Extracts text, tables, formulas, and images from scientific papers, reports, and scanned documents with layout-aware parsing."
 verification: security_reviewed
 source: "https://github.com/opendatalab/MinerU"
+category:
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

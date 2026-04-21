@@ -4,6 +4,8 @@ slug: "add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-codin
 description: "Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes."
 verification: listed
 source: "https://github.com/oraios/serena"
+category:
+  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:

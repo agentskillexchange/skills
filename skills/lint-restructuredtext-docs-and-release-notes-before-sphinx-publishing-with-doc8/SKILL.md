@@ -4,6 +4,8 @@ slug: "lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-wit
 description: "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy."
 verification: security_reviewed
 source: "https://github.com/PyCQA/doc8"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

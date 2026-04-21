@@ -4,6 +4,8 @@ slug: "turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automa
 description: "Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands and call tools immediately without hand-written wrappers."
 verification: security_reviewed
 source: "https://github.com/knowsuchagency/mcp2cli"
+category:
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

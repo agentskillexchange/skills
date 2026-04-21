@@ -4,6 +4,8 @@ slug: "expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-befor
 description: "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled wrappers for every project."
 verification: security_reviewed
 source: "https://github.com/googleapis/mcp-toolbox"
+category:
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

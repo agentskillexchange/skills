@@ -4,6 +4,8 @@ slug: "github-actions-matrix-strategy-builder"
 description: "Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage."
 verification: security_reviewed
 source: "https://github.com/actions/setup-node"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:

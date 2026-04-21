@@ -4,6 +4,8 @@ slug: "validate-ci-and-app-config-files-against-upstream-json-schemas-before-mer
 description: "Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other schema-backed config files before they hit CI. The agent picks the right schema hook, validates the changed files, and reports the exact key or structure that drifted from the contract."
 verification: security_reviewed
 source: "https://github.com/python-jsonschema/check-jsonschema"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

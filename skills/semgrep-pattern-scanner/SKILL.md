@@ -4,6 +4,8 @@ slug: "semgrep-pattern-scanner"
 description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration."
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

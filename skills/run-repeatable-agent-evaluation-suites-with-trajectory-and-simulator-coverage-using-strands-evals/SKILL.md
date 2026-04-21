@@ -4,6 +4,8 @@ slug: "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-cove
 description: "Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review."
 verification: listed
 source: "https://github.com/strands-agents/evals"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

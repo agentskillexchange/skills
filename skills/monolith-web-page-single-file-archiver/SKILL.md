@@ -4,6 +4,8 @@ slug: "monolith-web-page-single-file-archiver"
 description: "Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS, images, JavaScript, and fonts as data URLs. It produces self-contained HTML5 documents that render correctly offline without external dependencies."
 verification: security_reviewed
 source: "https://github.com/Y2Z/monolith"
+category:
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 ---

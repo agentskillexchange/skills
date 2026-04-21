@@ -4,6 +4,8 @@ slug: "diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-ris
 description: "Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow."
 verification: listed
 source: "https://github.com/skeema/skeema"
+category:
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

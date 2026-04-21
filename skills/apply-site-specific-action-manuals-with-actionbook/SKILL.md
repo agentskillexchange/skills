@@ -4,6 +4,8 @@ slug: "apply-site-specific-action-manuals-with-actionbook"
 description: "Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic browser prompting."
 verification: listed
 source: "https://github.com/actionbook/actionbook"
+category:
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,6 +4,8 @@ slug: "apply-repeatable-javascript-and-typescript-codemods-across-large-codebase
 description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs."
 verification: listed
 source: "https://github.com/facebook/jscodeshift"
+category:
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

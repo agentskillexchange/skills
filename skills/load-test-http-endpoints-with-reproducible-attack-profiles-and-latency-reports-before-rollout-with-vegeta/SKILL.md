@@ -4,6 +4,8 @@ slug: "load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-re
 description: "Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases."
 verification: listed
 source: "https://github.com/tsenart/vegeta"
+category:
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

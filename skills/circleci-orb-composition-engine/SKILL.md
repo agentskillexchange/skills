@@ -4,6 +4,8 @@ slug: "circleci-orb-composition-engine"
 description: "Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning. Manages reusable executors, commands, and jobs with parameterized pipeline configurations."
 verification: security_reviewed
 source: "https://github.com/circleci/circleci-docs"
+category:
+  - "CI/CD Integrations"
 framework:
   - "Custom Agents"
 tool_ecosystem:
