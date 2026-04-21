@@ -1,29 +1,27 @@
 ---
 title: "Co-author structured docs with staged context gathering and reader testing"
-slug: "co-author-structured-docs-with-staged-context-gathering-and-reader-testing"
-description: "Use Anthropic&#8217;s doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and pressure-tests the final document with reader-style review before teammates see it."
+description: "Use Anthropic’s doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and pressure-tests the final document with reader-style review before teammates see it."
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
 category:
   - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116918
 ---
 
 # Co-author structured docs with staged context gathering and reader testing
 
-Use Anthropic&#8217;s doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and pressure-tests the final document with reader-style review before teammates see it.
+Use Anthropic’s doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and pressure-tests the final document with reader-style review before teammates see it.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

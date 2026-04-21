@@ -1,6 +1,5 @@
 ---
 title: "Multi-Axis Code Review and Quality Gates"
-slug: "multi-axis-code-review-and-quality-gates"
 description: "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check."
 verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
@@ -8,9 +7,6 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "addyosmani/agent-skills"
-  github_stars: 17417
 ---
 
 # Multi-Axis Code Review and Quality Gates
@@ -19,11 +15,13 @@ Run a structured pre-merge review across correctness, readability, architecture,
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

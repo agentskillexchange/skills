@@ -1,6 +1,5 @@
 ---
 title: "Lightning CSS High-Performance CSS Parser Transformer and Minifier"
-slug: "lightning-css-high-performance-css-parser-transformer-and-minifier"
 description: "Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize stylesheets, lower modern CSS syntax for target browsers, and integrate fast CSS processing into build or refactor workflows."
 verification: security_reviewed
 source: "https://github.com/parcel-bundler/lightningcss"
@@ -19,11 +18,13 @@ Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier fro
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

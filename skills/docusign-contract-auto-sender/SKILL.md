@@ -1,6 +1,5 @@
 ---
 title: "DocuSign Contract Auto-Sender with Conditional Logic"
-slug: "docusign-contract-auto-sender"
 description: "Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks."
 verification: security_reviewed
 source: "https://developers.docusign.com/docs/esign-rest-api/"
@@ -16,11 +15,13 @@ Uses the DocuSign eSignature REST API SDK to programmatically create envelope de
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

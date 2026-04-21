@@ -1,6 +1,5 @@
 ---
 title: "k6 Load Testing and Performance Benchmarking Tool"
-slug: "k6-load-testing-performance-benchmarking-tool"
 description: "A modern open-source load testing tool from Grafana Labs, written in Go with JavaScript scripting. Enables developers to write performance tests as code, run HTTP/WebSocket/gRPC load tests, and integrate results with Grafana Cloud for analysis."
 verification: security_reviewed
 source: "https://github.com/grafana/k6"
@@ -19,11 +18,13 @@ A modern open-source load testing tool from Grafana Labs, written in Go with Jav
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,6 +1,5 @@
 ---
 title: "CairoSVG SVG to PNG PDF and PostScript Converter"
-slug: "cairosvg-svg-to-png-pdf-converter"
 description: "CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF, EPS, and PostScript formats via both a CLI and a Python API, making it a reliable tool for automated image pipeline workflows."
 verification: security_reviewed
 source: "https://github.com/Kozea/CairoSVG"
@@ -19,11 +18,13 @@ CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

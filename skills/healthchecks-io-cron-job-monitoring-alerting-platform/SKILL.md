@@ -1,6 +1,5 @@
 ---
 title: "Healthchecks.io Cron Job Monitoring and Alerting Platform"
-slug: "healthchecks-io-cron-job-monitoring-alerting-platform"
 description: "Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a dashboard, API, and notification integrations for tracking recurring jobs without building their own heartbeat system."
 verification: security_reviewed
 source: "https://github.com/healthchecks/healthchecks"
@@ -19,11 +18,13 @@ Healthchecks.io is an open-source cron and background task monitoring platform t
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

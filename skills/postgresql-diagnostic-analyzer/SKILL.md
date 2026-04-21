@@ -1,6 +1,5 @@
 ---
 title: "PostgreSQL Diagnostic Analyzer"
-slug: "postgresql-diagnostic-analyzer"
 description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
@@ -19,11 +18,13 @@ Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_act
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

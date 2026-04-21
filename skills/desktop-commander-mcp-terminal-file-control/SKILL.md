@@ -1,6 +1,5 @@
 ---
 title: "Desktop Commander MCP Server for Terminal and File Control"
-slug: "desktop-commander-mcp-terminal-file-control"
 description: "Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search, diff-based file editing, and process management capabilities. It extends Claude Desktop and other MCP clients with full local development environment control."
 verification: security_reviewed
 source: "https://github.com/wonderwhy-er/DesktopCommanderMCP"
@@ -19,11 +18,13 @@ Desktop Commander is an MCP server that gives AI assistants terminal command exe
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

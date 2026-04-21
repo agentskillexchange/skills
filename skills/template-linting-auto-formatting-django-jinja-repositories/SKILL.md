@@ -1,6 +1,5 @@
 ---
 title: "Template Linting and Auto-Formatting for Django and Jinja Repositories"
-slug: "template-linting-auto-formatting-django-jinja-repositories"
 description: "Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and style drift, then optionally rewrites them into a consistent format. This is for agents that need to clean and validate template-heavy repos before review or release, not for general web framework setup."
 verification: security_reviewed
 source: "https://github.com/djlint/djLint"
@@ -19,11 +18,13 @@ Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indent
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

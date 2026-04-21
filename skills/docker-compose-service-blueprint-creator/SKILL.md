@@ -1,6 +1,5 @@
 ---
 title: "Docker Compose Service Blueprint Creator"
-slug: "docker-compose-service-blueprint-creator"
 description: "Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering via depends_on conditions."
 verification: security_reviewed
 source: "https://github.com/moby/moby"
@@ -19,11 +18,13 @@ Creates Docker Compose YAML service definitions using the Compose Specification.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

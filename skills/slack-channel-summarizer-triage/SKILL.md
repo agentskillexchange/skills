@@ -1,6 +1,5 @@
 ---
-title: "Slack Channel Summarizer &amp; Triage Bot"
-slug: "slack-channel-summarizer-triage"
+title: "Slack Channel Summarizer & Triage Bot"
 description: "Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Supports scheduled digests and posts summaries directly to a designated DM or channel."
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
@@ -15,17 +14,19 @@ tool_ecosystem:
   npm_weekly_downloads: 2603193
 ---
 
-# Slack Channel Summarizer &amp; Triage Bot
+# Slack Channel Summarizer & Triage Bot
 
 Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Supports scheduled digests and posts summaries directly to a designated DM or channel.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

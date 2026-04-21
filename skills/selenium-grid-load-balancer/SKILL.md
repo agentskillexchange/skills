@@ -1,6 +1,5 @@
 ---
 title: "Selenium Grid Load Balancer"
-slug: "selenium-grid-load-balancer"
 description: "Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint."
 verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
@@ -8,6 +7,11 @@ category:
   - "Browser Automation"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "seleniumhq/selenium"
+  github_stars: 34076
+  npm_package: "selenium-webdriver"
+  npm_weekly_downloads: 1932148
 ---
 
 # Selenium Grid Load Balancer
@@ -16,11 +20,13 @@ Distributes browser automation workloads across Selenium Grid 4 nodes using the 
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

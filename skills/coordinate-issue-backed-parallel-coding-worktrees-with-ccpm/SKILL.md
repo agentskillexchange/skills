@@ -1,6 +1,5 @@
 ---
 title: "Coordinate issue-backed parallel coding worktrees with CCPM"
-slug: "coordinate-issue-backed-parallel-coding-worktrees-with-ccpm"
 description: "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding runs reviewable instead of relying on ad hoc chat memory."
 verification: security_reviewed
 source: "https://github.com/automazeio/ccpm"
@@ -19,11 +18,13 @@ Use CCPM when an agent team needs one issue-backed workflow that turns plans int
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

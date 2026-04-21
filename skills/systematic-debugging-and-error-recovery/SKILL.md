@@ -1,6 +1,5 @@
 ---
 title: "Systematic Debugging and Error Recovery"
-slug: "systematic-debugging-and-error-recovery"
 description: "Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work."
 verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
@@ -8,9 +7,6 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "addyosmani/agent-skills"
-  github_stars: 17417
 ---
 
 # Systematic Debugging and Error Recovery
@@ -19,11 +15,13 @@ Stop guessing when something breaks, preserve evidence, reproduce the failure, i
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,6 +1,5 @@
 ---
 title: "SiteOne Crawler Technical SEO and Site Audit"
-slug: "siteone-crawler-technical-seo-and-site-audit"
 description: "SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance checks. This skill uses the upstream SiteOne Crawler project to turn large site crawls into structured diagnostics, export files, and remediation queues."
 verification: security_reviewed
 source: "https://github.com/janreges/siteone-crawler"
@@ -19,11 +18,13 @@ SiteOne Crawler is a real website crawler and analyzer for technical SEO, access
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

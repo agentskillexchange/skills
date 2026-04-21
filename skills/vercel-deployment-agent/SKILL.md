@@ -1,7 +1,6 @@
 ---
 title: "Vercel Deployment Agent"
-slug: "vercel-deployment-agent"
-description: "Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving [&hellip;]"
+description: "Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving […]"
 verification: security_reviewed
 source: "https://github.com/vercel/vercel"
 category:
@@ -17,15 +16,17 @@ tool_ecosystem:
 
 # Vercel Deployment Agent
 
-Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving [&hellip;]
+Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving […]
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

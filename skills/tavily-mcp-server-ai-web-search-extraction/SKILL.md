@@ -1,7 +1,6 @@
 ---
 title: "Tavily MCP Server for AI-Powered Web Search and Extraction"
-slug: "tavily-mcp-server-ai-web-search-extraction"
-description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily&#8217;s search API to deliver structured, relevant results optimized for LLM consumption."
+description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption."
 verification: security_reviewed
 source: "https://github.com/tavily-ai/tavily-mcp"
 category:
@@ -17,15 +16,17 @@ tool_ecosystem:
 
 # Tavily MCP Server for AI-Powered Web Search and Extraction
 
-An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily&#8217;s search API to deliver structured, relevant results optimized for LLM consumption.
+An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

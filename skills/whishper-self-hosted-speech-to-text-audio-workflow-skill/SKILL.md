@@ -1,6 +1,5 @@
 ---
 title: "Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill"
-slug: "whishper-self-hosted-speech-to-text-audio-workflow-skill"
 description: "Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around Whisper models. This skill covers running Whishper with Docker, handling uploads and transcripts, and wiring the output into broader automation flows."
 verification: security_reviewed
 source: "https://github.com/pluja/whishper"
@@ -19,11 +18,13 @@ Whishper is an open source self-hosted web app for speech-to-text, translation, 
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

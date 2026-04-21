@@ -1,6 +1,5 @@
 ---
 title: "Prefect Python Workflow Orchestration Framework for Data Pipelines"
-slug: "prefect-python-workflow-orchestration-data-pipelines"
 description: "Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries, caching, and observability to any Python script with simple decorators. Monitor workflows through the self-hosted Prefect server or managed Prefect Cloud dashboard."
 verification: security_reviewed
 source: "https://github.com/PrefectHQ/prefect"
@@ -19,11 +18,13 @@ Prefect is a Python workflow orchestration framework for building resilient data
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

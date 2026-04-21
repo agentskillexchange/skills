@@ -1,13 +1,17 @@
 ---
 title: "Playwright Test Report to Slack"
-slug: "playwright-test-report-to-slack"
 description: "Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-test-report-to-slack/"
+source: "https://github.com/microsoft/playwright"
 category:
   - "CI/CD Integrations"
 framework:
   - "ChatGPT Agents"
+tool_ecosystem:
+  github_repo: "microsoft/playwright"
+  github_stars: 86911
+  npm_package: "playwright"
+  npm_weekly_downloads: 188960132
 ---
 
 # Playwright Test Report to Slack
@@ -16,11 +20,13 @@ Parses Playwright HTML and JSON test reports and posts structured summaries to S
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

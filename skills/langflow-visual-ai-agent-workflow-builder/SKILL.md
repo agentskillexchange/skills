@@ -1,6 +1,5 @@
 ---
 title: "Langflow Visual AI Agent and Workflow Builder"
-slug: "langflow-visual-ai-agent-workflow-builder"
 description: "Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs, vector stores, and observability services without starting from scratch."
 verification: security_reviewed
 source: "https://github.com/langflow-ai/langflow"
@@ -19,11 +18,13 @@ Langflow is an open-source visual builder for AI agents and workflows. It lets t
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

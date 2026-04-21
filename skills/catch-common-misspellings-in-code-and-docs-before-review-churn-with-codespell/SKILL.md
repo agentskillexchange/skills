@@ -1,6 +1,5 @@
 ---
 title: "Catch common misspellings in code and docs before review churn with codespell"
-slug: "catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell"
 description: "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases."
 verification: security_reviewed
 source: "https://github.com/codespell-project/codespell"
@@ -19,11 +18,13 @@ Run a fast typo pass across source files and documentation so common misspelling
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

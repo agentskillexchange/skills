@@ -1,6 +1,5 @@
 ---
 title: "pgroll PostgreSQL Zero-Downtime Schema Migration"
-slug: "pgroll-postgresql-zero-downtime-schema-migration"
 description: "pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL. It uses the expand-and-contract pattern to keep old and new schema versions running simultaneously with automatic backfilling and instant rollback."
 verification: security_reviewed
 source: "https://github.com/xataio/pgroll"
@@ -19,11 +18,13 @@ pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversibl
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

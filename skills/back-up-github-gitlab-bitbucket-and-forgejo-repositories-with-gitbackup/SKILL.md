@@ -1,6 +1,5 @@
 ---
 title: "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup"
-slug: "back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup"
 description: "Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider."
 verification: listed
 source: "https://github.com/amitsaha/gitbackup"
@@ -19,11 +18,13 @@ Run repeatable cross-forge repository backup jobs from one config instead of han
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,6 +1,5 @@
 ---
 title: "Build temporal context graphs for agent memory from evolving facts with Graphiti"
-slug: "build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti"
 description: "Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source episode produced each fact, instead of storing flat chunks or chat history alone."
 verification: security_reviewed
 source: "https://github.com/getzep/graphiti"
@@ -21,11 +20,13 @@ Use Graphiti when an agent needs long-term memory that tracks what changed, when
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

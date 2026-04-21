@@ -1,6 +1,5 @@
 ---
 title: "PagerDuty Incident Runbook Linker"
-slug: "pagerduty-incident-runbook-linker"
 description: "Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries."
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
@@ -8,6 +7,9 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "pagerduty/pdjs"
+  github_stars: 69
 ---
 
 # PagerDuty Incident Runbook Linker
@@ -16,11 +18,13 @@ Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

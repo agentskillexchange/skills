@@ -1,13 +1,15 @@
 ---
 title: "PuppeteerSharp Web Scraping Pipeline"
-slug: "puppeteersharp-web-scraping-pipeline"
 description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
+source: "https://github.com/hardkoded/puppeteer-sharp"
 category:
   - "Research &amp; Scraping"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "hardkoded/puppeteer-sharp"
+  github_stars: 3879
 ---
 
 # PuppeteerSharp Web Scraping Pipeline
@@ -16,11 +18,13 @@ Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environm
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

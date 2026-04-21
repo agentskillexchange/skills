@@ -1,6 +1,5 @@
 ---
 title: "Inngest Event-Driven Durable Workflow Orchestration Platform"
-slug: "inngest-event-driven-durable-workflow-orchestration"
 description: "Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling with durable step functions. It enables developers to write reliable event-driven workflows triggered by events, cron schedules, or webhooks, with built-in retries, concurrency control, and flow control."
 verification: security_reviewed
 source: "https://github.com/inngest/inngest"
@@ -19,11 +18,13 @@ Inngest is an open-source workflow orchestration platform that replaces queues, 
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

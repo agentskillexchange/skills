@@ -1,6 +1,5 @@
 ---
 title: "Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis"
-slug: "sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis"
 description: "Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between model changes."
 verification: listed
 source: "https://github.com/z3z1ma/dbt-osmosis"
@@ -19,11 +18,13 @@ Keep dbt schema YAML and column documentation aligned with the project so stale 
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

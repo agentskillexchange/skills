@@ -1,7 +1,6 @@
 ---
-title: "AssemblyAI Summarization &#038; Chapters Skill"
-slug: "assemblyai-summarization-chapters-skill"
-description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI&#8217;s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
+title: "AssemblyAI Summarization & Chapters Skill"
+description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
 verification: security_reviewed
 source: "https://www.assemblyai.com/docs"
 category:
@@ -10,17 +9,19 @@ framework:
   - "Claude Agents"
 ---
 
-# AssemblyAI Summarization &#038; Chapters Skill
+# AssemblyAI Summarization & Chapters Skill
 
-Transcribes audio and generates auto-chapters with summaries using AssemblyAI&#8217;s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
+Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

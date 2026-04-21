@@ -1,6 +1,5 @@
 ---
-title: "OpenAPI Spec Linter &#038; Docs Generator"
-slug: "openapi-spec-linter-docs-generator"
+title: "OpenAPI Spec Linter & Docs Generator"
 description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
@@ -10,17 +9,19 @@ framework:
   - "Claude Agents"
 ---
 
-# OpenAPI Spec Linter &#038; Docs Generator
+# OpenAPI Spec Linter & Docs Generator
 
 Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

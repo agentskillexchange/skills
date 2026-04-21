@@ -1,7 +1,6 @@
 ---
 title: "HeadstartWP Headless WordPress and Next.js Framework"
-slug: "headstartwp-headless-wordpress-nextjs-framework"
-description: "HeadstartWP is 10up&#8217;s open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster."
+description: "HeadstartWP is 10up’s open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster."
 verification: security_reviewed
 source: "https://github.com/10up/headstartwp"
 category:
@@ -15,15 +14,17 @@ tool_ecosystem:
 
 # HeadstartWP Headless WordPress and Next.js Framework
 
-HeadstartWP is 10up&#8217;s open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster.
+HeadstartWP is 10up’s open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster.
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

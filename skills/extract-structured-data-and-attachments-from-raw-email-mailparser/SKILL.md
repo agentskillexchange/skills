@@ -1,6 +1,5 @@
 ---
 title: "Extract structured data and attachments from raw email with MailParser"
-slug: "extract-structured-data-and-attachments-from-raw-email-mailparser"
 description: "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This is for email ingestion and handoff workflows, not for acting as a mailbox client or delivery platform."
 verification: security_reviewed
 source: "https://github.com/nodemailer/mailparser"
@@ -19,11 +18,13 @@ Use MailParser when an agent receives raw RFC822 or MIME email and needs a norma
 
 ## Installation
 
-1. Clone this skill into your local skills directory.
-2. Review the required tools and environment variables.
-3. Install dependencies with your preferred package manager or runtime.
-4. Run the upstream install command from the project documentation, if needed.
-5. Validate the installation and test the skill in your agent environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
