@@ -1,10 +1,9 @@
 ---
 title: "Baseline and Review Repository Secret Findings with detect-secrets"
+slug: "baseline-and-review-repository-secret-findings-with-detect-secrets"
 description: "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks."
 verification: security_reviewed
 source: "https://github.com/Yelp/detect-secrets"
-category:
-  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Scan a repository for secrets, keep an auditable baseline, and review only newly
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/baseline-and-review-repository-secret-findings-with-detect-secrets
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/baseline-and-review-repository-secret-findings-with-detect-secrets` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

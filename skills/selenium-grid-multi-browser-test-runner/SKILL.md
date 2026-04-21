@@ -1,10 +1,9 @@
 ---
 title: "Selenium Grid Multi-Browser Test Runner"
+slug: "selenium-grid-multi-browser-test-runner"
 description: "Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API. Supports Chrome, Firefox, and Edge with configurable DesiredCapabilities for each browser matrix."
 verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
-category:
-  - "Browser Automation"
 framework:
   - "OpenClaw"
 ---
@@ -15,27 +14,11 @@ Orchestrates parallel cross-browser testing across Selenium Grid nodes using Web
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/selenium-grid-multi-browser-test-runner
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/selenium-grid-multi-browser-test-runner` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

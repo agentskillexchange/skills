@@ -1,10 +1,9 @@
 ---
 title: "Download every archived snapshot of a URL before site migrations, takedowns, or investigations"
+slug: "download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations"
 description: "Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback Machine UI. The agent can list or download snapshots, constrain by date, deduplicate archives, and preserve evidence locally before a site changes or disappears."
 verification: security_reviewed
 source: "https://github.com/jsvine/waybackpack"
-category:
-  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Use waybackpack when an agent needs the full historical record for a URL, not a 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
+slug: "monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage"
 description: "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files."
 verification: security_reviewed
 source: "https://github.com/ryoppippi/ccusage"
-category:
-  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Use ccusage when an agent operator needs to turn local Claude Code or Codex usag
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

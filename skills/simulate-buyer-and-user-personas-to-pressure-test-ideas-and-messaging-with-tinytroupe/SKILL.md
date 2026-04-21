@@ -1,10 +1,9 @@
 ---
 title: "Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe"
+slug: "simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe"
 description: "Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research."
 verification: listed
 source: "https://github.com/microsoft/TinyTroupe"
-category:
-  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Use TinyTroupe when an agent should run simulated persona panels, synthetic inte
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

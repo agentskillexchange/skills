@@ -1,10 +1,9 @@
 ---
 title: "Ghostty Fast Native Terminal Emulator with GPU Acceleration"
+slug: "ghostty-fast-native-terminal-emulator-gpu-acceleration"
 description: "Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it provides a native experience on macOS and Linux while supporting modern terminal protocols including Kitty graphics and synchronized rendering."
 verification: security_reviewed
 source: "https://github.com/ghostty-org/ghostty"
-category:
-  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses plat
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ghostty-fast-native-terminal-emulator-gpu-acceleration
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/ghostty-fast-native-terminal-emulator-gpu-acceleration` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

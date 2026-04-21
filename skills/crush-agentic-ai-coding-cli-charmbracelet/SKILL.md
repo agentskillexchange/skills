@@ -1,10 +1,9 @@
 ---
 title: "Crush Agentic AI Coding CLI by Charmbracelet"
+slug: "crush-agentic-ai-coding-cli-charmbracelet"
 description: "Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to any LLM. It supports multi-model switching mid-session, MCP extensibility, and LSP-enhanced context across every major platform."
 verification: security_reviewed
 source: "https://github.com/charmbracelet/crush"
-category:
-  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Crush is a terminal-native AI coding agent built by Charmbracelet that connects 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crush-agentic-ai-coding-cli-charmbracelet
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/crush-agentic-ai-coding-cli-charmbracelet` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

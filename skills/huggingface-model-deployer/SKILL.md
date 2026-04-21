@@ -1,10 +1,9 @@
 ---
 title: "Hugging Face Model Deployer"
+slug: "huggingface-model-deployer"
 description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
 verification: security_reviewed
 source: "https://github.com/huggingface/transformers"
-category:
-  - "CI/CD Integrations"
 framework:
   - "Codex"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Deploys models from Hugging Face Hub to Inference Endpoints using the huggingfac
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/huggingface-model-deployer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/huggingface-model-deployer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

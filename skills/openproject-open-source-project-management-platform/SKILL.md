@@ -1,10 +1,9 @@
 ---
 title: "OpenProject Open Source Project Management Platform"
+slug: "openproject-open-source-project-management-platform"
 description: "OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real OpenProject platform, docs, and deployment model for teams that want structured project operations on their own infrastructure."
 verification: security_reviewed
 source: "https://github.com/opf/openproject"
-category:
-  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ OpenProject is a mature open source project management platform for work package
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openproject-open-source-project-management-platform
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/openproject-open-source-project-management-platform` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

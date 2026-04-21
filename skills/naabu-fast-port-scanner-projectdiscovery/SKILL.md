@@ -1,10 +1,9 @@
 ---
 title: "Naabu Fast Port Scanner by ProjectDiscovery"
+slug: "naabu-fast-port-scanner-projectdiscovery"
 description: "Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP scans, integrates with Nmap for service discovery, and handles IPv4/IPv6 targets with automatic deduplication for efficient attack surface enumeration."
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/naabu"
-category:
-  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscover
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/naabu-fast-port-scanner-projectdiscovery
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/naabu-fast-port-scanner-projectdiscovery` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Himalaya CLI Email Client for IMAP SMTP and Notmuch"
+slug: "himalaya-cli-email-client-imap-smtp-notmuch"
 description: "Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail, and SMTP and Sendmail for sending. It features multi-account configuration, PGP encryption, OAuth 2.0, system keyring integration, and JSON output for scripting and agent automation."
 verification: security_reviewed
 source: "https://github.com/pimalaya/himalaya"
-category:
-  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/himalaya-cli-email-client-imap-smtp-notmuch
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/himalaya-cli-email-client-imap-smtp-notmuch` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

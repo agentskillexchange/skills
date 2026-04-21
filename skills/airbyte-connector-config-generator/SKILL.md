@@ -1,10 +1,9 @@
 ---
 title: "Airbyte Connector Config Generator"
+slug: "airbyte-connector-config-generator"
 description: "Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol."
 verification: security_reviewed
 source: "https://github.com/airbytehq/airbyte"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Generates Airbyte source and destination connector configurations using the Airb
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/airbyte-connector-config-generator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/airbyte-connector-config-generator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform"
+slug: "ghostfolio-wealth-management-portfolio-tracking"
 description: "Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular, NestJS, and Prisma on PostgreSQL, it provides portfolio performance analysis, allocation insights, and data-driven investment decision support."
 verification: security_reviewed
 source: "https://github.com/ghostfolio/ghostfolio"
-category:
-  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Ghostfolio is an open-source wealth management application for tracking stocks, 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ghostfolio-wealth-management-portfolio-tracking
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/ghostfolio-wealth-management-portfolio-tracking` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

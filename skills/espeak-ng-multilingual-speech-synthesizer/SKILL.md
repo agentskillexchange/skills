@@ -1,10 +1,9 @@
 ---
 title: "eSpeak NG Multilingual Speech Synthesizer"
+slug: "espeak-ng-multilingual-speech-synthesizer"
 description: "An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via CLI and library API, with phoneme output, SSML support, and MBROLA voice integration for improved naturalness."
 verification: security_reviewed
 source: "https://github.com/espeak-ng/espeak-ng"
-category:
-  - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +17,11 @@ An agent skill built on eSpeak NG, the open-source formant-based speech synthesi
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/espeak-ng-multilingual-speech-synthesizer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/espeak-ng-multilingual-speech-synthesizer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

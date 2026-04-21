@@ -1,10 +1,9 @@
 ---
 title: "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed"
+slug: "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed"
 description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
 verification: security_reviewed
 source: "https://github.com/CodSpeedHQ/codspeed"
-category:
-  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on p
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

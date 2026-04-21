@@ -1,10 +1,9 @@
 ---
 title: "Diff nested JSON, API responses, and config snapshots before approving changes"
+slug: "diff-nested-json-api-responses-and-config-snapshots-before-approving-changes"
 description: "Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas instead of noisy line-based diffs. Best when an agent is validating API payloads, configuration snapshots, or migration outputs where nesting and key paths matter."
 verification: security_reviewed
 source: "https://github.com/qlustered/deepdiff"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Uses DeepDiff to compare structured objects deeply and return precise additions,
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

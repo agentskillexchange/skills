@@ -1,10 +1,9 @@
 ---
 title: "pdfplumber Python PDF Text and Table Extraction Library"
+slug: "pdfplumber-python-pdf-text-table-extraction"
 description: "pdfplumber is a Python library for extracting detailed information from PDFs — text, tables, lines, rectangles, and curves — with visual debugging support. Built on pdfminer.six, it excels at structured table extraction from machine-generated PDFs and includes both a Python API and CLI."
 verification: security_reviewed
 source: "https://github.com/jsvine/pdfplumber"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +17,11 @@ pdfplumber is a Python library for extracting detailed information from PDFs —
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pdfplumber-python-pdf-text-table-extraction
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/pdfplumber-python-pdf-text-table-extraction` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

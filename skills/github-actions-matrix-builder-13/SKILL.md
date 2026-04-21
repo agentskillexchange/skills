@@ -1,10 +1,9 @@
 ---
 title: "GitHub Actions Matrix Builder"
+slug: "github-actions-matrix-builder-13"
 description: "Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml. Automatically detects language versions, OS targets, and dependency variations from repository configuration files."
 verification: security_reviewed
 source: "https://docs.github.com/en/actions"
-category:
-  - "CI/CD Integrations"
 framework:
   - "OpenClaw"
 ---
@@ -15,27 +14,11 @@ Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST A
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/github-actions-matrix-builder-13
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/github-actions-matrix-builder-13` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

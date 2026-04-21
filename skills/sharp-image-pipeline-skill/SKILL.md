@@ -1,10 +1,9 @@
 ---
 title: "Sharp Image Pipeline Skill"
+slug: "sharp-image-pipeline-skill"
 description: "Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG XL), watermarking, and metadata extraction. Generates responsive image sets with srcset dimensions."
 verification: security_reviewed
 source: "https://github.com/lovell/sharp"
-category:
-  - "Image &amp; Creative Automation"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Processes images using the Sharp npm library (libvips). Supports batch resize, f
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sharp-image-pipeline-skill
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/sharp-image-pipeline-skill` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

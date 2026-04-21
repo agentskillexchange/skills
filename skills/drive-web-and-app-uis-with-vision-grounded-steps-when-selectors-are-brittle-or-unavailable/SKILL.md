@@ -1,10 +1,9 @@
 ---
 title: "Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable"
+slug: "drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable"
 description: "Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop surfaces where DOM selectors are fragile, unavailable, or not the right abstraction."
 verification: listed
 source: "https://github.com/web-infra-dev/midscene"
-category:
-  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Use Midscene.js when an agent needs screenshot-grounded UI actions and assertion
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

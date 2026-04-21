@@ -1,10 +1,9 @@
 ---
 title: "CircleCI Orb Pipeline Debugger"
+slug: "circleci-orb-pipeline-debugger"
 description: "Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems."
 verification: security_reviewed
 source: "https://github.com/circleci/circleci-docs"
-category:
-  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Diagnoses CircleCI orb configuration errors and pipeline failures using the Circ
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/circleci-orb-pipeline-debugger
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/circleci-orb-pipeline-debugger` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "WPGraphQL for ACF WordPress GraphQL Field Mapping"
+slug: "wpgraphql-for-acf-wordpress-graphql-field-mapping"
 description: "WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes queryable through a typed GraphQL schema. It is useful for headless WordPress builds that need structured access to field groups, repeaters, and custom post type metadata without writing bespoke REST endpoints."
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wpgraphql-acf"
-category:
-  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes query
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wpgraphql-for-acf-wordpress-graphql-field-mapping
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/wpgraphql-for-acf-wordpress-graphql-field-mapping` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Penpot Open Source Design and Prototyping Platform"
+slug: "penpot-open-source-design-prototyping"
 description: "Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while developers get ready-to-use CSS, SVG, and HTML code — no handoff friction, no vendor lock-in."
 verification: security_reviewed
 source: "https://github.com/penpot/penpot"
-category:
-  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Penpot is the first open-source design and prototyping platform built for cross-
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/penpot-open-source-design-prototyping
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/penpot-open-source-design-prototyping` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

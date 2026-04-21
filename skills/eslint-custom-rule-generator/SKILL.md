@@ -1,10 +1,9 @@
 ---
 title: "ESLint Custom Rule Generator"
+slug: "eslint-custom-rule-generator"
 description: "Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer patterns. Produces complete rule modules with meta schemas, fixers, and comprehensive test suites."
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Generates custom ESLint rules from natural language descriptions using the ESLin
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/eslint-custom-rule-generator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/eslint-custom-rule-generator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

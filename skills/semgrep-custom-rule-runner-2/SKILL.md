@@ -1,10 +1,9 @@
 ---
 title: "Semgrep Custom Rule Runner"
+slug: "semgrep-custom-rule-runner-2"
 description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep &#8211;config and &#8211;pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
-category:
-  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Executes Semgrep OSS with custom YAML rule files for project-specific static ana
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/semgrep-custom-rule-runner-2
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/semgrep-custom-rule-runner-2` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

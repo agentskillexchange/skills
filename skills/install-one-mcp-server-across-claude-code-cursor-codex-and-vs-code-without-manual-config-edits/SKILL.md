@@ -1,10 +1,9 @@
 ---
 title: "Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits"
+slug: "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits"
 description: "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each config file separately."
 verification: security_reviewed
 source: "https://github.com/neondatabase/add-mcp"
-category:
-  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP se
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

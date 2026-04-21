@@ -1,10 +1,9 @@
 ---
 title: "retext Natural Language Processor with Unified Plugin Ecosystem"
+slug: "retext-natural-language-processor-unified-plugins"
 description: "retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script text into an AST (nlcst), enabling programmatic text analysis and transformation through a rich plugin ecosystem for spell checking, readability analysis, typography fixes, and content quality enforcement."
 verification: security_reviewed
 source: "https://github.com/retextjs/retext"
-category:
-  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ retext is a natural language processor powered by plugins, part of the unified.j
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/retext-natural-language-processor-unified-plugins
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/retext-natural-language-processor-unified-plugins` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

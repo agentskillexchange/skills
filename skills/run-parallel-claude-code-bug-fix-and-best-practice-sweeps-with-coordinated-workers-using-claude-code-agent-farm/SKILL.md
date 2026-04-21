@@ -1,10 +1,9 @@
 ---
 title: "Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm"
+slug: "run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm"
 description: "Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice sweeps with coordination, conflict avoidance, and live monitoring."
 verification: security_reviewed
 source: "https://github.com/Dicklesworthstone/claude_code_agent_farm"
-category:
-  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

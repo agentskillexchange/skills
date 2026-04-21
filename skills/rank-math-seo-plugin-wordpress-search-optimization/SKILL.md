@@ -1,10 +1,9 @@
 ---
 title: "Rank Math SEO Plugin for WordPress Search Optimization"
+slug: "rank-math-seo-plugin-wordpress-search-optimization"
 description: "Rank Math SEO is the WordPress SEO plugin from Rank Math SEO, with more than 3 million active installs and current releases published through WordPress.org. This skill helps agents work with Rank Math’s metadata, schema, redirects, content analysis, and search-optimization settings using the plugin’s real configuration model."
 verification: security_reviewed
 source: "https://wordpress.org/plugins/seo-by-rank-math/"
-category:
-  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 ---
@@ -15,27 +14,11 @@ Rank Math SEO is the WordPress SEO plugin from Rank Math SEO, with more than 3 m
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/rank-math-seo-plugin-wordpress-search-optimization
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/rank-math-seo-plugin-wordpress-search-optimization` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

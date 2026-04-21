@@ -1,10 +1,9 @@
 ---
 title: "Grafana Dashboard as Code Generator"
+slug: "grafana-dashboard-as-code-generator"
 description: "Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries."
 verification: security_reviewed
 source: "https://github.com/grafana/grafonnet"
-category:
-  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Gra
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/grafana-dashboard-as-code-generator
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/grafana-dashboard-as-code-generator` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

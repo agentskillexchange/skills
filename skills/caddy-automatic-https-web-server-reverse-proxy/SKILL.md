@@ -1,10 +1,9 @@
 ---
 title: "Caddy Automatic HTTPS Web Server and Reverse Proxy"
-description: "Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies."
+slug: "caddy-automatic-https-web-server-reverse-proxy"
+description: "Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let&#8217;s Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies."
 verification: security_reviewed
 source: "https://github.com/caddyserver/caddy"
-category:
-  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +13,15 @@ tool_ecosystem:
 
 # Caddy Automatic HTTPS Web Server and Reverse Proxy
 
-Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies.
+Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let&#8217;s Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/caddy-automatic-https-web-server-reverse-proxy
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/caddy-automatic-https-web-server-reverse-proxy` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden"
+slug: "rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden"
 description: "Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production."
 verification: listed
 source: "https://github.com/anordal/shellharden"
-category:
-  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patter
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

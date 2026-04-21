@@ -1,10 +1,9 @@
 ---
 title: "Redoc OpenAPI Documentation Renderer"
+slug: "redoc-openapi-documentation-renderer"
 description: "Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from OpenAPI specifications. With 25,000+ GitHub stars and nearly 1 million weekly npm downloads, it is the most widely used API documentation renderer."
 verification: security_reviewed
 source: "https://github.com/Redocly/redoc"
-category:
-  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -20,27 +19,11 @@ Redoc is an open-source tool by Redocly for generating beautiful, three-panel AP
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/redoc-openapi-documentation-renderer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/redoc-openapi-documentation-renderer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

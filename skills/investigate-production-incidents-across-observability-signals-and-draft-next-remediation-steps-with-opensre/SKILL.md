@@ -1,10 +1,9 @@
 ---
 title: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
+slug: "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre"
 description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
 verification: listed
 source: "https://github.com/Tracer-Cloud/opensre"
-category:
-  - "Runbooks &amp; Diagnostics"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Pull logs, metrics, traces, and runbook context into one incident investigation 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

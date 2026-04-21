@@ -1,10 +1,9 @@
 ---
 title: "SearXNG Privacy-First Metasearch Engine and Search API"
+slug: "searxng-privacy-first-metasearch-engine-search-api"
 description: "SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking users. It fits research and scraping workflows that need self-hosted search, configurable engines, and a documented admin surface for search aggregation and result control."
 verification: security_reviewed
 source: "https://github.com/searxng/searxng"
-category:
-  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ SearXNG is an open-source metasearch engine that aggregates results from multipl
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/searxng-privacy-first-metasearch-engine-search-api
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/searxng-privacy-first-metasearch-engine-search-api` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

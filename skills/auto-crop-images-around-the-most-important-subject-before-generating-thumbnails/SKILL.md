@@ -1,10 +1,9 @@
 ---
 title: "Auto-crop images around the most important subject before generating thumbnails"
+slug: "auto-crop-images-around-the-most-important-subject-before-generating-thumbnails"
 description: "Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image. The workflow scores visual saliency, returns crop coordinates for a target aspect ratio, and hands those coordinates to an image pipeline that renders the final thumbnail or social card."
 verification: security_reviewed
 source: "https://www.npmjs.com/package/smartcrop"
-category:
-  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Use smartcrop when an agent needs to choose a sensible crop automatically instea
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

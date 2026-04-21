@@ -1,10 +1,9 @@
 ---
 title: "LiveKit Real-Time Video Audio and Data Server with WebRTC"
+slug: "livekit-realtime-webrtc-server"
 description: "LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides multi-user conferencing, streaming, and data channels with client SDKs for JavaScript, Swift, Kotlin, Flutter, React, Go, Python, Rust, and Unity."
 verification: security_reviewed
 source: "https://github.com/livekit/livekit"
-category:
-  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ LiveKit is an open-source, scalable WebRTC-based real-time communication server 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/livekit-realtime-webrtc-server
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/livekit-realtime-webrtc-server` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

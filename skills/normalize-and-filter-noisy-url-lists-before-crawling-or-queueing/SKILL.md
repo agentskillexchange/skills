@@ -1,10 +1,9 @@
 ---
 title: "Normalize and filter noisy URL lists before crawling or queueing"
+slug: "normalize-and-filter-noisy-url-lists-before-crawling-or-queueing"
 description: "Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or analyst queue touches them. Best when an agent already has too many candidate links and needs a smaller, cleaner frontier, not a full crawling stack."
 verification: security_reviewed
 source: "https://github.com/adbar/courlan"
-category:
-  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventor
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

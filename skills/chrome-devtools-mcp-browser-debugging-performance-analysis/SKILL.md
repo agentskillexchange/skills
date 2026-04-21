@@ -1,10 +1,9 @@
 ---
 title: "Chrome DevTools MCP Browser Debugging and Performance Analysis"
+slug: "chrome-devtools-mcp-browser-debugging-performance-analysis"
 description: "Chrome DevTools MCP connects an MCP-compatible agent to a live Chrome browser for debugging, automation, and performance work. It exposes Chrome DevTools capabilities through MCP, so agents can inspect network traffic, collect traces, capture screenshots, and automate browser actions from the same server."
 verification: security_reviewed
 source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-category:
-  - "Browser Automation"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Chrome DevTools MCP connects an MCP-compatible agent to a live Chrome browser fo
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/chrome-devtools-mcp-browser-debugging-performance-analysis
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/chrome-devtools-mcp-browser-debugging-performance-analysis` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

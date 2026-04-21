@@ -1,10 +1,9 @@
 ---
 title: "franc Natural Language Detection Library and CLI"
+slug: "franc-natural-language-detection"
 description: "franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and returns ISO 639-3 codes, making it the most comprehensive open-source language detection tool available for Node.js."
 verification: security_reviewed
 source: "https://github.com/wooorm/franc"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ franc is a JavaScript library and CLI tool for detecting the language of text. I
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/franc-natural-language-detection
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/franc-natural-language-detection` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Prometheus Alert Rule Synthesizer"
+slug: "prometheus-alert-rule-synthesizer"
 description: "Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from metric baselines. Integrates with Alertmanager API for routing configuration and PagerDuty Events API v2 for escalation."
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
-category:
-  - "Monitoring &amp; Alerts"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prometheus-alert-rule-synthesizer
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/prometheus-alert-rule-synthesizer` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

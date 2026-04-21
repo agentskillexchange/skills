@@ -1,10 +1,9 @@
 ---
 title: "Sigstore Cosign Container Signature Checker"
+slug: "sigstore-cosign-container-signature-checker"
 description: "Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection. Useful for agents that need to confirm whether an image was actually signed and recorded before it reaches a deployment pipeline."
 verification: security_reviewed
 source: "https://github.com/sigstore/cosign"
-category:
-  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Checks container trust with `cosign verify`, Rekor transparency log lookups, and
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sigstore-cosign-container-signature-checker
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/sigstore-cosign-container-signature-checker` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

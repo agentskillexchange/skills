@@ -1,10 +1,9 @@
 ---
 title: "Logdy Real-Time Log Viewer with Web UI and CLI"
+slug: "logdy-realtime-log-viewer-web-ui-cli"
 description: "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs."
 verification: security_reviewed
 source: "https://github.com/logdyhq/logdy-core"
-category:
-  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Logdy is a zero-dependency single-binary log viewer that pipes any command outpu
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/logdy-realtime-log-viewer-web-ui-cli
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/logdy-realtime-log-viewer-web-ui-cli` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

@@ -1,10 +1,9 @@
 ---
 title: "Tabula PDF Table Extraction Agent"
+slug: "tabula-pdf-table-extraction-agent"
 description: "Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both lattice and stream extraction modes with configurable area coordinates and outputs to pandas DataFrames or CSV."
 verification: security_reviewed
 source: "https://github.com/tabulapdf/tabula-java"
-category:
-  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Uses Tabula Java library via tabula-py bindings to detect and extract tables fro
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/tabula-pdf-table-extraction-agent
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/tabula-pdf-table-extraction-agent` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

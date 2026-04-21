@@ -1,10 +1,9 @@
 ---
 title: "Apprise Universal Push Notification Library and CLI"
+slug: "apprise-universal-push-notification-library-cli"
 description: "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery."
 verification: security_reviewed
 source: "https://github.com/caronc/apprise"
-category:
-  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Apprise is a Python library and CLI that sends push notifications to over 100 se
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apprise-universal-push-notification-library-cli
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/apprise-universal-push-notification-library-cli` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 

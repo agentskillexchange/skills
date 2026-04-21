@@ -1,10 +1,9 @@
 ---
 title: "Terraform Plan Analyzer"
+slug: "terraform-plan-analyzer-agent"
 description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
-category:
-  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -18,27 +17,11 @@ Analyzes Terraform plan output using the terraform show -json command and HCL2 p
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
-
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/terraform-plan-analyzer-agent
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/terraform-plan-analyzer-agent` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Clone this skill into your local skills directory.
+2. Review the required tools and environment variables.
+3. Install dependencies with your preferred package manager or runtime.
+4. Run the upstream install command from the project documentation, if needed.
+5. Validate the installation and test the skill in your agent environment.
 
 ## Source
 
