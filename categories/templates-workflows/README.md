@@ -121,6 +121,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Create and debug local-first declarative workflow jobs with Dagu](../../skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | 3.3k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
+| [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.7k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |

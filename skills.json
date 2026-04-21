@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2327,
+  "total": 2330,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark",
+      "name": "Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark",
+      "description": "Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress.",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 70
+      }
+    },
+    {
+      "slug": "benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench",
+      "name": "Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench",
+      "description": "Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 308
+      }
+    },
+    {
+      "slug": "generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness",
+      "name": "Generate domain-specific Claude Code agent teams and shared skills with Harness",
+      "description": "Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2737
+      }
+    },
     {
       "slug": "draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog",
       "name": "Draft user-facing App Store release notes from git history with App Store Changelog",

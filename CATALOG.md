@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2327 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 17:21 UTC
+> **2330 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 19:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1066,7 +1066,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (159 skills)
+### 📋 Runbooks & Diagnostics (160 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1192,6 +1192,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is… | Security Reviewed | 585 | — |
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds… | Published | 358 | — |
+| [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations. | Published | 308 | — |
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing… | Published | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic… | Security Reviewed | 102 | — |
@@ -1233,7 +1234,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (129 skills)
+### 📄 Templates & Workflows (130 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1320,6 +1321,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Create and debug local-first declarative workflow jobs with Dagu](skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures… | Security Reviewed | 3.3k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order,… | Security Reviewed | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition… | Published | 2.9k | 876.8k/wk |
+| [Generate domain-specific Claude Code agent teams and shared skills with Harness](skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | Turn a project description into a Claude Code team architecture with generated agents, shared skills, and… | Published | 2.7k | — |
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Published | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It… | Security Reviewed | 2.4k | — |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc… | Published | 2.3k | — |
@@ -1978,7 +1980,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (98 skills)
+### 🌐 Browser Automation (99 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2078,6 +2080,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Published | 436 | 1.7k/wk |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture… | Security Reviewed | 107 | 3k/wk |
+| [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress. | Published | 70 | — |
 | [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Security Reviewed | 61 | 818.3k/wk |
 | [playwright-extra Plugin Framework for Playwright](skills/playwright-extra-plugin-framework-for-playwright/) | An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such… | Security Reviewed | — | 623.1k/wk |
 | [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | — | — |
