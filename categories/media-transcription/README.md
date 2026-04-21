@@ -111,6 +111,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | 260 | 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | — |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | — |
+| [Run server-side ingest, search, and edit pipelines on video with VideoDB Skills](../../skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/) | 72 | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |

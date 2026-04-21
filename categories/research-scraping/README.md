@@ -89,7 +89,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
 | [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 527.8k/wk |
-| [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](../../skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | 4.6k | 584/wk |
+| [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](../../skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | 4.6k | 588/wk |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | 3.9k | — |
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](../../skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | 3.6k | — |
 | [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 937/wk |

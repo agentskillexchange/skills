@@ -128,6 +128,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Turn Lark meeting transcripts into action items and follow-up tasks](../../skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/) | 40 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
+| [Connect Claude Code to Apple apps and tmux with Claude Apple Bridges](../../skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/) | 9 | — |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |

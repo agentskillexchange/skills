@@ -1,8 +1,173 @@
 {
   "version": "2.0",
-  "total": 2304,
+  "total": 2315,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges",
+      "name": "Connect Claude Code to Apple apps and tmux with Claude Apple Bridges",
+      "description": "Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware personal ops on macOS.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9
+      }
+    },
+    {
+      "slug": "run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills",
+      "name": "Run server-side ingest, search, and edit pipelines on video with VideoDB Skills",
+      "description": "Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 72
+      }
+    },
+    {
+      "slug": "run-code-review-and-pr-autofix-workflows-with-coderabbit-skills",
+      "name": "Run code review and PR autofix workflows with CodeRabbit Skills",
+      "description": "Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 73
+      }
+    },
+    {
+      "slug": "audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor",
+      "name": "Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor",
+      "description": "Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 43
+      }
+    },
+    {
+      "slug": "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill",
+      "name": "Process, redact, OCR, and sign documents with Nutrient Agent Skill",
+      "description": "Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 46
+      }
+    },
+    {
+      "slug": "add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit",
+      "name": "Add persistent project memory and hook-driven synthesis with Claude Memory Kit",
+      "description": "Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 106
+      }
+    },
+    {
+      "slug": "turn-documents-into-validated-knowledge-graphs-with-docling-graph",
+      "name": "Turn documents into validated knowledge graphs with Docling Graph",
+      "description": "Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 134
+      }
+    },
+    {
+      "slug": "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf",
+      "name": "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF",
+      "description": "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 18715
+      }
+    },
+    {
+      "slug": "generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes",
+      "name": "Generate structured release notes from merged pull requests between two refs with Copilot Release Notes",
+      "description": "Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2
+      }
+    },
+    {
+      "slug": "scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner",
+      "name": "Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner",
+      "description": "Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 266
+      }
+    },
+    {
+      "slug": "run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine",
+      "name": "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine",
+      "description": "Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing.",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6597
+      }
+    },
     {
       "slug": "run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli",
       "name": "Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI",
@@ -13,7 +178,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 61
       }
@@ -28,9 +193,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 743
+        "github_stars": 744
       }
     },
     {
@@ -43,7 +208,7 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 2140
       }
@@ -75,7 +240,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 1926,
+        "github_stars": 1934,
         "npm_weekly_downloads": 5075
       }
     },
@@ -107,7 +272,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 2210
+        "github_stars": 2211
       }
     },
     {
@@ -122,7 +287,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 1932
+        "github_stars": 1979
       }
     },
     {
@@ -137,7 +302,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 5635,
+        "github_stars": 5642,
         "npm_weekly_downloads": 42829
       }
     },
@@ -153,7 +318,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 1552
+        "github_stars": 1563
       }
     },
     {
@@ -168,7 +333,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 233
+        "github_stars": 235
       }
     },
     {
@@ -183,7 +348,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 162
+        "github_stars": 166
       }
     },
     {
@@ -198,7 +363,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 2016,
+        "github_stars": 2032,
         "npm_weekly_downloads": 61943
       }
     },
@@ -214,7 +379,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 560,
+        "github_stars": 561,
         "npm_weekly_downloads": 3701
       }
     },
@@ -230,7 +395,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 1996,
+        "github_stars": 1997,
         "npm_weekly_downloads": 34672
       }
     },
@@ -244,7 +409,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 29,
         "npm_weekly_downloads": 343
@@ -260,7 +425,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 256
       }
@@ -275,9 +440,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 503,
+        "github_stars": 521,
         "npm_weekly_downloads": 2528
       }
     },
@@ -291,9 +456,9 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1625
+        "github_stars": 1626
       }
     },
     {
@@ -306,7 +471,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 96
       }
@@ -321,9 +486,9 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2820
+        "github_stars": 2853
       }
     },
     {
@@ -336,7 +501,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 8
       }
@@ -351,9 +516,9 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3300
+        "github_stars": 3303
       }
     },
     {
@@ -366,9 +531,9 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 126
+        "github_stars": 127
       }
     },
     {
@@ -381,7 +546,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 953
       }
@@ -398,7 +563,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1182
+        "github_stars": 1181
       }
     },
     {
@@ -413,7 +578,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 712
+        "github_stars": 717
       }
     },
     {
@@ -443,7 +608,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 17185
+        "github_stars": 17188
       }
     },
     {
@@ -473,7 +638,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 1938
+        "github_stars": 1940
       }
     },
     {
@@ -488,7 +653,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 13624
+        "github_stars": 13635
       }
     },
     {
@@ -503,7 +668,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 2789
+        "github_stars": 2792
       }
     },
     {
@@ -534,7 +699,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7684
+        "github_stars": 7687
       }
     },
     {
@@ -549,7 +714,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11871
+        "github_stars": 11873
       }
     },
     {
@@ -564,7 +729,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8273,
+        "github_stars": 8276,
         "npm_weekly_downloads": 29247
       }
     },
@@ -611,8 +776,8 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 3204,
-        "npm_weekly_downloads": 309151
+        "github_stars": 3206,
+        "npm_weekly_downloads": 54718
       }
     },
     {
@@ -643,7 +808,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 4620,
-        "npm_weekly_downloads": 584
+        "npm_weekly_downloads": 588
       }
     },
     {
@@ -658,7 +823,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 10195
+        "github_stars": 10198
       }
     },
     {
@@ -673,7 +838,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 1463,
+        "github_stars": 1464,
         "npm_weekly_downloads": 3419
       }
     },
@@ -704,7 +869,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 2075
+        "github_stars": 2076
       }
     },
     {
@@ -719,8 +884,8 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 806,
-        "npm_weekly_downloads": 37339
+        "github_stars": 809,
+        "npm_weekly_downloads": 36676
       }
     },
     {
@@ -735,7 +900,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 37094
+        "github_stars": 37104
       }
     },
     {
@@ -1066,7 +1231,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 2918,
-        "npm_weekly_downloads": 890807
+        "npm_weekly_downloads": 876849
       }
     },
     {

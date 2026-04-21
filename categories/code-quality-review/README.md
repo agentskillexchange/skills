@@ -170,22 +170,25 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
-| [Review AI-generated code changes in a cleaner diff workflow with Diffity](../../skills/review-ai-generated-code-changes-with-diffity/) | 560 | 3.7k/wk |
+| [Review AI-generated code changes in a cleaner diff workflow with Diffity](../../skills/review-ai-generated-code-changes-with-diffity/) | 561 | 3.7k/wk |
 | [Grade agent trajectories and tool-use decisions with AgentEvals](../../skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | 550 | 251k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
-| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 233 | — |
+| [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](../../skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | 266 | — |
+| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | — |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |
-| [Review AI-generated code changes in a local PR-style loop with DiffX](../../skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | 126 | — |
+| [Review AI-generated code changes in a local PR-style loop with DiffX](../../skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | 127 | — |
 | [Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals](../../skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/) | 105 | — |
 | [Prove whether a prompt or model variant really won before shipping with promptstats](../../skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/) | 97 | 678/wk |
 | [Spell-check docs and code comments with source-aware filters using pyspelling](../../skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/) | 94 | — |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](../../skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | 84 | — |
+| [Run code review and PR autofix workflows with CodeRabbit Skills](../../skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/) | 73 | — |
+| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](../../skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | 43 | — |
 | [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](../../skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | 34 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
 | [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](../../skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | 16 | — |

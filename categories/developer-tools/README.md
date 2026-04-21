@@ -292,14 +292,15 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
-| [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 806 | 37.3k/wk |
-| [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 712 | — |
+| [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
+| [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 390 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
+| [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](../../skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | 106 | — |
 | [Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI](../../skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli/) | 61 | — |
 | [Back up GitHub repos releases and gists with GitHub Backup](../../skills/back-up-github-repos-releases-and-gists-with-github-backup/) | 33 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |

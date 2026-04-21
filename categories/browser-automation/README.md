@@ -128,7 +128,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | 3.7k | 12.3k/wk |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
-| [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.8k | — |
+| [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |

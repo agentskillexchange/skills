@@ -85,6 +85,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | 20.3k | 34.2M/wk |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | 19.5k | — |
+| [Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF](../../skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/) | 18.7k | — |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | 17.5k | — |
 | [Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR](../../skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr/) | 17.1k | — |
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
@@ -178,7 +179,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | 387 | 170.7k/wk |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
+| [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 79 | — |
+| [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 46 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |

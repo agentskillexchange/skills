@@ -194,13 +194,14 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
-| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | 503 | 2.5k/wk |
+| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | 521 | 2.5k/wk |
 | [Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures](../../skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/) | 458 | — |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | 308 | 12.8M/wk |
 | [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](../../skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | 182 | — |
 | [Run only the relevant linters and formatters on changed files with Precious](../../skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | 152 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
+| [Generate structured release notes from merged pull requests between two refs with Copilot Release Notes](../../skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/) | 2 | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | — | — |
 | [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | — | — |
