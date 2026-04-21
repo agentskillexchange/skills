@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2330,
+  "total": 2331,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes",
+      "name": "Triage pull request security risks with staged threat modeling and investigation using VulnVibes",
+      "description": "Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1 finds credible threats, and return a structured verdict instead…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17
+      }
+    },
     {
       "slug": "benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark",
       "name": "Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark",

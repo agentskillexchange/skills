@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2330 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 19:22 UTC
+> **2331 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 21:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -304,7 +304,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (210 skills)
+### 🔒 Security & Verification (211 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -491,6 +491,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Infisical CLI Secrets Injection and Access Management](skills/infisical-cli-secrets-injection-and-access-management/) | Infisical CLI retrieves, injects, and manages secrets across local development, CI/CD, staging, and production… | Security Reviewed | 41 | — |
 | [Test API authorization flows with Hadrian](skills/hadrian-api-authorization-security-testing/) | Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA,… | Published | 38 | — |
 | [Gate MCP tool calls behind deterministic policy enforcement with Intercept](skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | Use Intercept when an MCP-connected agent needs transport-layer policy enforcement for risky tools, argument limits,… | Security Reviewed | 29 | 343/wk |
+| [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1… | Published | 17 | — |
 | [Gate risky agent actions behind approval checkpoints with Latch](skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while… | Security Reviewed | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust… | Published | 6 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file.… | Security Reviewed | — | — |
