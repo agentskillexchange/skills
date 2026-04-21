@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 4388
   npm_package: "stripe"
   npm_weekly_downloads: 9486580
-  license: "MIT"
 ---
 
 # Stripe MCP Server

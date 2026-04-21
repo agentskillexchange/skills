@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
   github_stars: 910
-  license: "AGPL-3.0"
 ---
 
 # OpenClaw Security Suite (ClawSec)

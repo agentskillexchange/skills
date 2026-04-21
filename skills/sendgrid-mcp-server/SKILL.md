@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3049
-  license: "MIT"
 ---
 
 # SendGrid MCP Server

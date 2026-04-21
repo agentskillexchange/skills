@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121743
-  license: "Apache-2.0"
 ---
 
 # Pod CrashLoop Runbook

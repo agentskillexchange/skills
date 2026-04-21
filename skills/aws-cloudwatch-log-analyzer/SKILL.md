@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
-  license: "Apache-2.0"
 ---
 
 # AWS CloudWatch Log Analyzer

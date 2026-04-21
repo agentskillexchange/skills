@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "go-gitea/gitea"
   github_stars: 54880
-  license: "MIT"
 ---
 
 # Gitea Repository & Pull Request Automation

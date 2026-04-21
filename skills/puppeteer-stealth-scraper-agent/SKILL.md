@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 94115
   npm_package: "puppeteer"
   npm_weekly_downloads: 36435448
-  license: "Apache-2.0"
 ---
 
 # Puppeteer Stealth Scraper

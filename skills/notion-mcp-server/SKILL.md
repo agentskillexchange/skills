@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 5589
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1165601
-  license: "MIT"
 ---
 
 # Notion MCP Server

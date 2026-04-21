@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 26668
   npm_package: "discord.js"
   npm_weekly_downloads: 564461
-  license: "Apache-2.0"
 ---
 
 # Discord Bot Manager

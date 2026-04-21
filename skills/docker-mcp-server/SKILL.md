@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71501
-  license: "Apache-2.0"
 ---
 
 # Docker MCP Server

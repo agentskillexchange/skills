@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 1455
   npm_package: "jsforce"
   npm_weekly_downloads: 958978
-  license: "MIT"
 ---
 
 # Salesforce MCP Server

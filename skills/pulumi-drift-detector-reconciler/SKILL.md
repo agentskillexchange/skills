@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 25042
   npm_package: "@pulumi/pulumi"
   npm_weekly_downloads: 2073384
-  license: "Apache-2.0"
 ---
 
 # Pulumi Drift Detector & Reconciler

@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "hashicorp/vault-mcp-server"
   github_stars: 44
-  license: "MPL-2.0"
 ---
 
 # HashiCorp Vault MCP Server

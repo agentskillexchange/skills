@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "grpc/grpc-node"
   github_stars: 4822
-  license: "Apache-2.0"
 ---
 
 # gRPC Service Tool

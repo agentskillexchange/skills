@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14809
-  license: "LGPL-2.1"
 ---
 
 # Semgrep Code Scanner

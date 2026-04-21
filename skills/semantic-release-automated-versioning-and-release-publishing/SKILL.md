@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 23549
   npm_package: "semantic-release"
   npm_weekly_downloads: 2496750
-  license: "MIT"
 ---
 
 # semantic-release Automated Versioning and Release Publishing

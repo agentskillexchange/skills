@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2193
-  license: "Apache-2.0"
 ---
 
 # Snyk Agent Scan

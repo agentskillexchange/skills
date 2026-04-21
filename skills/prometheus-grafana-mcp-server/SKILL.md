@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73311
-  license: "AGPL-3.0"
 ---
 
 # Prometheus / Grafana MCP Server

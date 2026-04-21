@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 10181
   npm_package: "mongodb"
   npm_weekly_downloads: 11189306
-  license: "Apache-2.0"
 ---
 
 # MongoDB MCP Server

@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 4355
   npm_package: "mysql2"
   npm_weekly_downloads: 8891567
-  license: "MIT"
 ---
 
 # MySQL Query Agent

@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 22762
   npm_package: "crawlee"
   npm_weekly_downloads: 80765
-  license: "Apache-2.0"
 ---
 
 # Crawlee Web Crawling and Scraping SDK

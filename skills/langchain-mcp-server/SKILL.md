@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 17527
   npm_package: "langchain"
   npm_weekly_downloads: 2176581
-  license: "MIT"
 ---
 
 # LangChain MCP Server

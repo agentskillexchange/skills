@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 436
   npm_package: "agent-browser-protocol"
   npm_weekly_downloads: 1710
-  license: "BSD-3-Clause"
 ---
 
 # Run deterministic browser steps with settled screenshots and event logs for agents

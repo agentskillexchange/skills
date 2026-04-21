@@ -7,12 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "datadog/datadog-api-client-typescript"
-  github_stars: 103
-  npm_package: "@datadog/datadog-api-client"
-  npm_weekly_downloads: 2059349
-  license: "Apache-2.0"
 ---
 
 # Metrics Dashboard Builder

@@ -7,10 +7,6 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "wordpress/abilities-api"
-  github_stars: 201
-  license: "GPL-2.0"
 ---
 
 # WP Abilities API

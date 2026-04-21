@@ -7,9 +7,6 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "meta-llama/purplellama"
-  github_stars: 4126
 ---
 
 # Scan LLM-generated code before use with CodeShield

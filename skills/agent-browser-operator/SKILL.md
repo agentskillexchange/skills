@@ -11,7 +11,6 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86852
-  license: "Apache-2.0"
 ---
 
 # Agent Browser Operator

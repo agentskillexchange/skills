@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
-  license: "Apache-2.0"
 ---
 
 # Docker Compose Health Monitor

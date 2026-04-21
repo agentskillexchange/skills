@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "netdata/netdata"
   github_stars: 78430
-  license: "GPL-3.0"
 ---
 
 # Netdata Real-Time Infrastructure Monitoring and Alerting

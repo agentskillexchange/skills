@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "supabase/supabase"
   github_stars: 100812
-  license: "Apache-2.0"
 ---
 
 # Supabase MCP Server

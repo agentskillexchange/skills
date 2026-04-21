@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "googleapis/mcp-toolbox"
   github_stars: 14664
-  license: "Apache-2.0"
 ---
 
 # Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls

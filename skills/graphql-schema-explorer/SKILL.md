@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 20323
   npm_package: "graphql"
   npm_weekly_downloads: 34570820
-  license: "MIT"
 ---
 
 # GraphQL Schema Explorer

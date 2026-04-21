@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 15002
-  license: "Apache-2.0"
 ---
 
 # Security Audit Skill

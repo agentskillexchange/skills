@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 1530
   npm_package: "twilio"
   npm_weekly_downloads: 3730748
-  license: "MIT"
 ---
 
 # Twilio MCP Server

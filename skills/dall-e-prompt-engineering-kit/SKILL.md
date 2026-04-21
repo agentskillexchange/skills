@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 10813
   npm_package: "openai"
   npm_weekly_downloads: 18107622
-  license: "Apache-2.0"
 ---
 
 # DALL-E Prompt Engineering Kit

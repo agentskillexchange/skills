@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
   github_stars: 48699
-  license: "MIT"
 ---
 
 # LlamaIndex MCP Server

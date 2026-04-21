@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25208
-  license: "MIT"
 ---
 
 # Jenkins MCP Server

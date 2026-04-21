@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "githubnext/agentics"
   github_stars: 585
-  license: "MIT"
 ---
 
 # Update repository docs automatically after code changes and open review PRs

@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "githubnext/agentics"
   github_stars: 585
-  license: "MIT"
 ---
 
 # Fix failing pull requests by analyzing CI errors and pushing targeted repairs

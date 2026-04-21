@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 24
   npm_package: "opsgenie-sdk"
   npm_weekly_downloads: 6580
-  license: "Apache-2.0"
 ---
 
 # OpsGenie MCP Server

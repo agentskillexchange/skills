@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25067
-  license: "Apache-2.0"
 ---
 
 # Pulumi MCP Server

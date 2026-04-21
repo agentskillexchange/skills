@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 27194
   npm_package: "eslint"
   npm_weekly_downloads: 126361287
-  license: "MIT"
 ---
 
 # ESLint Code Review

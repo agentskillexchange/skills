@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 7205
   npm_package: "newman"
   npm_weekly_downloads: 802612
-  license: "Apache-2.0"
 ---
 
 # Postman Collection Runner

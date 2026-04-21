@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "githubnext/agentics"
   github_stars: 585
-  license: "MIT"
 ---
 
 # Keep GitHub wiki pages synced with recently merged code changes

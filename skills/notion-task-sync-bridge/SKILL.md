@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 5582
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
-  license: "MIT"
 ---
 
 # Notion Task Sync Bridge

@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92
-  license: "Apache-2.0"
 ---
 
 # Checkly CLI Monitoring as Code for API and Browser Checks

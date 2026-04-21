@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 10821
   npm_package: "openai"
   npm_weekly_downloads: 17936570
-  license: "Apache-2.0"
 ---
 
 # OpenAI MCP Server
