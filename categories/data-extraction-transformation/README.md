@@ -12,10 +12,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.1k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
+| [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | ⭐ 73.6k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⭐ 61.3k |
-| [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
 
 ---
 
@@ -46,6 +46,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.1k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
+| [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 73.6k | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | 73.6k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | 61.3k | — |
@@ -196,7 +197,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | — | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | — | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
-| [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
 

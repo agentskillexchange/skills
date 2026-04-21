@@ -49,6 +49,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | — |
+| [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | 6k | — |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | 5.1k | — |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | 5.1k | 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 49.5k/wk |
@@ -102,7 +103,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Rank Math SEO Plugin for WordPress Search Optimization](../../skills/rank-math-seo-plugin-wordpress-search-optimization/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | — | — |
-| [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | — | — |
 | [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | — | — |
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | — | — |
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | — | — |

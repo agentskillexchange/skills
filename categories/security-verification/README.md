@@ -57,9 +57,11 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | 34.5k | — |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | 34.5k | — |
 | [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | 34.5k | — |
+| [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | 28k | — |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | 26.7k | 563.5k/wk |
+| [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | 26.1k | — |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | 25.6k | — |
 | [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | 25.3k | — |
@@ -69,6 +71,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | 16.9k | — |
 | [Audit Linux host hardening drift before exposing SSH or rolling to production](../../skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | 15.5k | — |
+| [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | 15k | — |
 | [Security Audit Skill](../../skills/security-audit-skill/) | 15k | — |
 | [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | 15k | — |
 | [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | 15k | — |
@@ -227,14 +230,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
-| [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | — | — |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | — | — |
-| [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | — | — |
@@ -246,7 +247,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | — | — |
-| [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |
 
 ---
 

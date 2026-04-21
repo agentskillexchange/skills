@@ -7,13 +7,13 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars |
 |---|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | ⭐ 116.2k |
+| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⭐ 94.1k |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | ⭐ 94.1k |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 94.1k |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | ⭐ 94.1k |
 | [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | ⭐ 94.1k |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 94.1k |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 94.1k |
-| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⭐ 94.1k |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 94.1k |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 94.1k |
 
@@ -23,6 +23,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Downloads |
 |---|---:|
+| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⬇ 36.4M/wk |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | ⬇ 47.9M/wk |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | ⬇ 47.9M/wk |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | ⬇ 47.9M/wk |
@@ -32,7 +33,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | ⬇ 47.9M/wk |
 | [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⬇ 47.9M/wk |
 | [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | ⬇ 47.9M/wk |
-| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | ⬇ 47.9M/wk |
 
 ---
 
@@ -41,13 +41,13 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | 116.2k | — |
+| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | 94.1k | — |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94.1k | — |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | 94.1k | — |
 | [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | 94.1k | — |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | 94.1k | — |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | 94.1k | — |
-| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | — |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | 94.1k | — |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | 94.1k | — |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | — |

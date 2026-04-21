@@ -31,8 +31,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⬇ 20.1k/wk |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⬇ 2.1k/wk |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 74.9k/wk |
+| [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | ⬇ 20.3k/wk |
 | [Fumadocs React Documentation Framework and Docs Site Generator](../../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | ⬇ 435/wk |
-| [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | ⬇ 413.2k/wk |
 
 ---
 
@@ -63,6 +63,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | — |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 74.9k/wk |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
+| [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | 11.6k | 20.3k/wk |
 | [Fumadocs React Documentation Framework and Docs Site Generator](../../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | 11.5k | 435/wk |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | 10.2k | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | 10.2k | — |
@@ -71,6 +72,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](../../skills/emdash-full-stack-typescript-cms-cloudflare/) | 9.2k | — |
 | [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | 6.5k | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | 6k | 413.2k/wk |
+| [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | 5.1k | — |
 | [WP-CLI WordPress Command Line Interface](../../skills/wp-cli-wordpress-command-line-interface/) | 5.1k | — |
 | [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | 5k | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | 5k | — |
@@ -125,7 +127,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
 | [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | — | — |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | — | — |
-| [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
@@ -134,7 +135,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |
-| [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | — | — |
 
 ---

@@ -74,6 +74,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
 | [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | 11.8k | — |
+| [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | 11.1k | — |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 11k | — |
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts](../../skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts/) | 9k | — |
@@ -131,7 +132,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | — | — |
-| [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | — | — |
 | [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | — | — |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | — | — |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | — | — |

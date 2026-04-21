@@ -7,6 +7,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Stars |
 |---|---:|
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | ⭐ 159.4k |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 86.9k |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | ⭐ 71.5k |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | ⭐ 71.5k |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 71.5k |
@@ -15,7 +16,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | ⭐ 48.1k |
 | [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | ⭐ 48.1k |
 | [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | ⭐ 48.1k |
-| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | ⭐ 48.1k |
 
 ---
 
@@ -23,6 +23,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Downloads |
 |---|---:|
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 189M/wk |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | ⬇ 2.5M/wk |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
@@ -40,6 +41,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | 159.4k | — |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 86.9k | 189M/wk |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | 71.5k | — |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | 71.5k | — |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | 71.5k | — |
@@ -222,7 +224,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | — | — |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
 
 ---
 

@@ -28,6 +28,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](../../skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/) | ⬇ 29.9k/wk |
 | [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](../../skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | ⬇ 42.8k/wk |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
+| [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | ⬇ 1.6M/wk |
 
 ---
 
@@ -107,6 +108,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Capture polished terminal screenshots for docs and changelogs with termshot](../../skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot/) | 751 | — |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](../../skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | 487 | — |
+| [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | 260 | 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | — |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
@@ -117,7 +119,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |
 | [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/) | — | — |
-| [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | — | — |
 | [Dolby Atmos ADM-BWF Metadata Extractor](../../skills/dolby-atmos-adm-bwf-metadata-extractor/) | — | — |
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | — | — |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |

@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2301,
+  "total": 2304,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli",
+      "name": "Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI",
+      "description": "Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 61
+      }
+    },
+    {
+      "slug": "turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator",
+      "name": "Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator",
+      "description": "Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 743
+      }
+    },
+    {
+      "slug": "turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng",
+      "name": "Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng",
+      "description": "Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2140
+      }
+    },
     {
       "slug": "run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner",
       "name": "Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner",
@@ -20190,6 +20235,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 36435448,
         "license": "Apache-2.0"
       }
     },
@@ -27486,7 +27532,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pandas"
+        "tool": "pandas",
+        "github_stars": 73629
       }
     },
     {
@@ -27625,7 +27672,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grpc"
+        "tool": "grpc",
+        "github_stars": 11051
       }
     },
     {
@@ -27652,7 +27700,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "playwright"
+        "tool": "playwright",
+        "github_stars": 28566,
+        "npm_weekly_downloads": 29518517
       }
     },
     {
@@ -28053,7 +28103,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stripe"
+        "tool": "stripe",
+        "github_stars": 26101
       }
     },
     {
@@ -28443,7 +28494,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 5061
       }
     },
     {
@@ -28493,7 +28545,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 11624,
+        "npm_weekly_downloads": 20291
       }
     },
     {
@@ -28571,7 +28625,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6017
+      }
     },
     {
       "slug": "deepgram-realtime-transcription-connector",
@@ -28583,7 +28640,11 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 260,
+        "npm_weekly_downloads": 1571012
+      }
     },
     {
       "slug": "cypress-e2e-api-intercept-skill",
@@ -28833,7 +28894,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 6867
       }
     },
     {
@@ -29005,7 +29067,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "owasp"
+        "tool": "owasp",
+        "github_stars": 15007
       }
     },
     {
@@ -29065,7 +29128,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 28011
+      }
     },
     {
       "slug": "puppeteersharp-web-scraping-pipeline",
@@ -29079,7 +29145,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "puppeteer"
+        "tool": "puppeteer",
+        "github_stars": 3879
       }
     },
     {
@@ -29849,7 +29916,11 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1262,
+        "npm_weekly_downloads": 5021257
+      }
     },
     {
       "slug": "dockerfile-security-hardening-advisor",
@@ -30955,7 +31026,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 47173
+      }
     },
     {
       "slug": "aws-ssm-runbook-executor",
@@ -33038,7 +33112,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 13909
       }
     },
     {
@@ -33309,7 +33384,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "playwright"
+        "tool": "playwright",
+        "github_stars": 86911,
+        "npm_weekly_downloads": 188960132
       }
     },
     {

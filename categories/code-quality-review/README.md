@@ -9,13 +9,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
+| [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | ⭐ 47.2k |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⭐ 27.2k |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⭐ 27.2k |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⭐ 27.2k |
-| [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | ⭐ 27.2k |
 
 ---
 
@@ -43,6 +43,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
+| [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | 47.2k | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
@@ -95,6 +96,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | 14.8k | — |
 | [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
+| [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | 13.9k | — |
 | [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
@@ -197,7 +199,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
-| [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | — | — |
@@ -206,7 +207,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
-| [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |
 
 ---
