@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2331,
+  "total": 2334,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage",
+      "name": "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage",
+      "description": "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2870
+      }
+    },
+    {
+      "slug": "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
+      "name": "Turn a research idea into a draft paper workflow with AutoResearchClaw",
+      "description": "Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning, draft writing, and verification artifacts instead of improvising…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11513
+      }
+    },
+    {
+      "slug": "investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt",
+      "name": "Investigate production incidents across Kubernetes and cloud signals with HolmesGPT",
+      "description": "Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and infrastructure context from multiple systems and returns a…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2253
+      }
+    },
     {
       "slug": "triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes",
       "name": "Triage pull request security risks with staged threat modeling and investigation using VulnVibes",

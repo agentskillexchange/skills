@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2331 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 21:21 UTC
+> **2334 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-21 23:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1067,7 +1067,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (160 skills)
+### 📋 Runbooks & Diagnostics (161 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1179,6 +1179,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods,… | Published | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
+| [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and… | Published | 2.3k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review. | Published | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
@@ -1871,7 +1872,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (102 skills)
+### 🔍 Research & Scraping (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1917,6 +1918,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Monolith Web Page Archiver and Single-File Bundler](skills/monolith-web-page-single-file-archiver/) | Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS,… | Security Reviewed | 14.9k | — |
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](skills/photon-osint-web-crawler/) | Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social… | Security Reviewed | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](skills/instaloader-instagram-content-metadata-downloader/) | Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights,… | Security Reviewed | 12k | — |
+| [Turn a research idea into a draft paper workflow with AutoResearchClaw](skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning,… | Published | 11.5k | — |
 | [Run configurable multi-source deep research passes with Open Deep Research](skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes,… | Published | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence… | Security Reviewed | 9.6k | — |
@@ -2298,7 +2300,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (86 skills)
+### 🎨 Image & Creative Automation (87 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2354,6 +2356,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Kroki Unified Diagram Rendering API and Server](skills/kroki-unified-diagram-rendering-api-server/) | Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25… | Security Reviewed | 4.1k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](skills/oxipng-png-compression-optimizer/) | Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes… | Security Reviewed | 3.9k | — |
 | [resvg High-Performance SVG Rendering Library in Rust](skills/resvg-svg-rendering-library-rust/) | resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high… | Security Reviewed | 3.8k | — |
+| [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset… | Published | 2.9k | — |
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | 1.8k | — |
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |

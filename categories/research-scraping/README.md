@@ -80,6 +80,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Monolith Web Page Archiver and Single-File Bundler](../../skills/monolith-web-page-single-file-archiver/) | 14.9k | — |
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
+| [Turn a research idea into a draft paper workflow with AutoResearchClaw](../../skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | 11.5k | — |
 | [Run configurable multi-source deep research passes with Open Deep Research](../../skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
