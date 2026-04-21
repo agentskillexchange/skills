@@ -1,8 +1,39 @@
 {
   "version": "2.0",
-  "total": 2299,
+  "total": 2301,
   "generated": "2026-04-21",
   "skills": [
+    {
+      "slug": "run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner",
+      "name": "Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner",
+      "description": "Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 670
+      }
+    },
+    {
+      "slug": "install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm",
+      "name": "Install and sync reproducible agent dependencies, prompts, and skills across repos with APM",
+      "description": "Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1926,
+        "npm_weekly_downloads": 5075
+      }
+    },
     {
       "slug": "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails",
       "name": "Run agent mailboxes and pull verification codes or reply context programmatically with Mails",

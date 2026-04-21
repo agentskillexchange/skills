@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2299 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-21 01:21 UTC
+> **2301 published skills** across **17 categories** · 2017 security reviewed · Updated 2026-04-21 03:25 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (284 skills)
+### 🛠️ Developer Tools (285 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -255,6 +255,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize… | Published | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit,… | Published | 2k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands… | Security Reviewed | 1.9k | — |
+| [Install and sync reproducible agent dependencies, prompts, and skills across repos with APM](skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/) | Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting… | Published | 1.9k | 5.1k/wk |
 | [OpenMeter Usage Metering and Billing Platform](skills/openmeter-usage-metering-and-billing-platform/) | OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you… | Security Reviewed | 1.9k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or… | Security Reviewed | 1.7k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | — |
@@ -1350,7 +1351,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (123 skills)
+### 📄 Templates & Workflows (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1449,6 +1450,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Published | 1.1k | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
+| [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when… | Published | 670 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between… | Published | 622 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | 585 | — |
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | 585 | — |

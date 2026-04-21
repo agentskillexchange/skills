@@ -281,6 +281,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](../../skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](../../skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | 2k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
+| [Install and sync reproducible agent dependencies, prompts, and skills across repos with APM](../../skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/) | 1.9k | 5.1k/wk |
 | [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | 1.9k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](../../skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | 1.7k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | — |
