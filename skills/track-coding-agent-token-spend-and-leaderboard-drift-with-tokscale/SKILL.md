@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "junhoyeo/tokscale"
-  github_stars: 2016
+  github_stars: 2032
   npm_package: "tokscale"
   npm_weekly_downloads: 61943
 ---

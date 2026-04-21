@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "steipete/summarize"
-  github_stars: 5635
+  github_stars: 5642
   npm_package: "@steipete/summarize"
   npm_weekly_downloads: 42829
 ---

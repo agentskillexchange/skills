@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "TheCraigHewitt/seomachine"
-  github_stars: 6592
+  github_stars: 6597
 ---
 
 # Run a long-form SEO blog production workflow inside Claude Code with SEO Machine

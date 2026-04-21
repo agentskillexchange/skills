@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mike-engel/jwt-cli"
-  github_stars: 1463
+  github_stars: 1464
   npm_package: "jwt-cli"
   npm_weekly_downloads: 3419
 ---

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prowler-cloud/prowler"
-  github_stars: 13624
+  github_stars: 13635
 ---
 
 # Audit cloud accounts for security misconfigurations with Prowler

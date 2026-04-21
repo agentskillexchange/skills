@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "caliber-ai-org/ai-setup"
-  github_stars: 712
+  github_stars: 717
 ---
 
 # Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber

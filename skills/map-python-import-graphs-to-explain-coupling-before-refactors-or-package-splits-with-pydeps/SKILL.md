@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thebjorn/pydeps"
-  github_stars: 2075
+  github_stars: 2076
 ---
 
 # Map Python import graphs to explain coupling before refactors or package splits with pydeps

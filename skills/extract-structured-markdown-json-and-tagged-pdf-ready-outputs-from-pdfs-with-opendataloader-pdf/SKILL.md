@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opendataloader-project/opendataloader-pdf"
-  github_stars: 18696
+  github_stars: 18715
 ---
 
 # Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF

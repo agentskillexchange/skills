@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "specstoryai/getspecstory"
-  github_stars: 1182
+  github_stars: 1181
 ---
 
 # Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory

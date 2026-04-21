@@ -9,9 +9,9 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AnWeber/httpyac"
-  github_stars: 806
+  github_stars: 809
   npm_package: "httpyac"
-  npm_weekly_downloads: 37339
+  npm_weekly_downloads: 36676
 ---
 
 # Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac

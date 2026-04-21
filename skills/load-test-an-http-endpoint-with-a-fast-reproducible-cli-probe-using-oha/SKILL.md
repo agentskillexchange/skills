@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hatoo/oha"
-  github_stars: 10195
+  github_stars: 10198
 ---
 
 # Load-test an HTTP endpoint with a fast reproducible CLI probe using oha

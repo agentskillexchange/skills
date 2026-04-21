@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/skills-for-copilot-studio"
-  github_stars: 162
+  github_stars: 166
 ---
 
 # Build and refactor Copilot Studio agents as YAML from coding-agent workflows

@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "Tracer-Cloud/opensre"
-  github_stars: 1932
+  github_stars: 1979
 ---
 
 # Investigate production incidents across observability signals and draft next remediation steps with OpenSRE

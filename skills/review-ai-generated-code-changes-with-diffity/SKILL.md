@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kamranahmedse/diffity"
-  github_stars: 560
+  github_stars: 561
   npm_package: "diffity"
   npm_weekly_downloads: 3701
 ---

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "runkids/skillshare"
-  github_stars: 1552
+  github_stars: 1563
 ---
 
 # Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare

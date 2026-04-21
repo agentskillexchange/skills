@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "asciinema/asciinema"
-  github_stars: 17185
+  github_stars: 17188
 ---
 
 # Record terminal demos and reproducible CLI walkthroughs with asciinema

@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "kubeshark/kubeshark"
-  github_stars: 11871
+  github_stars: 11873
 ---
 
 # Investigate Kubernetes network incidents through MCP with Kubeshark

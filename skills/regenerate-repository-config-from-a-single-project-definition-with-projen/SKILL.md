@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "projen/projen"
   github_stars: 2918
   npm_package: "projen"
-  npm_weekly_downloads: 890807
+  npm_weekly_downloads: 876849
 ---
 
 # Regenerate repository config from a single project definition with projen

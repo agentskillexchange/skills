@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/apm"
-  github_stars: 1926
+  github_stars: 1934
   npm_package: "apm-cli"
   npm_weekly_downloads: 5075
 ---

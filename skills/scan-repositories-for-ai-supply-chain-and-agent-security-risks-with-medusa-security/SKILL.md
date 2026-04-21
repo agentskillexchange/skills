@@ -1,7 +1,7 @@
 ---
 title: "Scan repositories for AI supply-chain and agent-security risks with Medusa Security"
 description: "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and AI supply-chain findings."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/Pantheon-Security/medusa"
 category:
   - "Security &amp; Verification"

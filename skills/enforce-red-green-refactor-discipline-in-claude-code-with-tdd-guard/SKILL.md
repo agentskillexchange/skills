@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "nizos/tdd-guard"
-  github_stars: 1996
+  github_stars: 1997
   npm_package: "tdd-guard"
   npm_weekly_downloads: 34672
 ---

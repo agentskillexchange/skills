@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sqlmapproject/sqlmap"
-  github_stars: 37094
+  github_stars: 37104
 ---
 
 # Reproduce SQL injection paths and map database takeover options with sqlmap

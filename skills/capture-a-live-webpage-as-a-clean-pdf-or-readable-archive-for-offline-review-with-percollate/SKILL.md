@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "danburzo/percollate"
   github_stars: 4620
   npm_package: "percollate"
-  npm_weekly_downloads: 584
+  npm_weekly_downloads: 588
 ---
 
 # Capture a live webpage as a clean PDF or readable archive for offline review with Percollate

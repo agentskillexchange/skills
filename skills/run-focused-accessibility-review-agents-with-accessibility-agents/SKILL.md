@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Community-Access/accessibility-agents"
-  github_stars: 233
+  github_stars: 235
 ---
 
 # Run focused accessibility review agents against coding-tool output with Accessibility Agents

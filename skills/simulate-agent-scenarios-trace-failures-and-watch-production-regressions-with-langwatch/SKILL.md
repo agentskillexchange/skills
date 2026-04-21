@@ -9,9 +9,9 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "langwatch/langwatch"
-  github_stars: 3204
+  github_stars: 3206
   npm_package: "langwatch"
-  npm_weekly_downloads: 309151
+  npm_weekly_downloads: 54718
 ---
 
 # Simulate agent scenarios, trace failures, and watch production regressions with LangWatch

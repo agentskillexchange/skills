@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "GitGuardian/ggshield"
-  github_stars: 1938
+  github_stars: 1940
 ---
 
 # Block secret leaks before commit or push with ggshield

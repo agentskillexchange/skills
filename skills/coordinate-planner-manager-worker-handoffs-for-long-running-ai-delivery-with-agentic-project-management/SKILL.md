@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sdi2200262/agentic-project-management"
-  github_stars: 2210
+  github_stars: 2211
 ---
 
 # Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management
