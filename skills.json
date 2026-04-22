@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2357,
+  "total": 2361,
   "generated": "2026-04-22",
   "skills": [
+    {
+      "slug": "red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam",
+      "name": "Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam",
+      "description": "Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1564
+      }
+    },
+    {
+      "slug": "extract-reusable-coding-agent-memory-from-past-sessions-with-lerim",
+      "name": "Extract reusable coding-agent memory from past sessions with Lerim",
+      "description": "Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as reusable markdown.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 73
+      }
+    },
+    {
+      "slug": "preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener",
+      "name": "Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener",
+      "description": "Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 48
+      }
+    },
+    {
+      "slug": "render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes",
+      "name": "Render HTML-native agent videos with slash-command workflows using HyperFrames",
+      "description": "Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9257,
+        "npm_weekly_downloads": 28006
+      }
+    },
     {
       "slug": "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
       "name": "Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg",
