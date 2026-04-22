@@ -106,7 +106,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
-| [Run computer-use agents inside cross-OS desktop sandboxes with CUA](../../skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | 13.5k | — |
 | [Browserless Headless Browser Automation Infrastructure](../../skills/browserless-headless-browser-automation-infrastructure/) | 13k | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | 12.9k | — |
 | [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](../../skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | 12.6k | 83.7k/wk |
@@ -129,14 +128,11 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | 3.7k | 12.3k/wk |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
-| [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
-| [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](../../skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | 327 | — |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |
-| [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](../../skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | 70 | — |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |
 | [playwright-extra Plugin Framework for Playwright](../../skills/playwright-extra-plugin-framework-for-playwright/) | — | 623.1k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |

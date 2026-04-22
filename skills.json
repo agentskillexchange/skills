@@ -1,18 +1,59 @@
 {
   "version": "2.0",
-  "total": 2343,
+  "total": 2347,
   "generated": "2026-04-22",
   "skills": [
+    {
+      "slug": "distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture",
+      "name": "Distill repository rules and workflows into reusable project skills with Skill-Based Architecture",
+      "description": "Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents can route through before making changes.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 116
+      }
+    },
+    {
+      "slug": "turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa",
+      "name": "Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa",
+      "description": "Parse Windows event logs into fast timelines and detection-rich outputs so agents can triage suspicious host activity, search for known patterns, and hand investigators…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3113
+      }
+    },
+    {
+      "slug": "ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide",
+      "name": "Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide",
+      "description": "Give coding agents a PostgreSQL-specific reference layer with semantic doc search and curated schema, indexing, and constraint guidance before they generate database code.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1696
+      }
+    },
+    {
+      "slug": "control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device",
+      "name": "Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device",
+      "description": "Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect logs, network traces, and performance evidence…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1825,
+        "npm_weekly_downloads": 156663
+      }
+    },
     {
       "slug": "block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails",
       "name": "Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails",
       "description": "Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2
@@ -22,12 +63,8 @@
       "slug": "benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer",
       "name": "Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer",
       "description": "Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests.",
-      "category": [
-        "Browser Automation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 327
@@ -37,12 +74,8 @@
       "slug": "operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents",
       "name": "Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents",
       "description": "Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP surface instead of loose shell access.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 335
@@ -52,12 +85,8 @@
       "slug": "run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua",
       "name": "Run computer-use agents inside cross-OS desktop sandboxes with CUA",
       "description": "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.",
-      "category": [
-        "Browser Automation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 13529
@@ -67,12 +96,8 @@
       "slug": "give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp",
       "name": "Give MCP agents disposable code execution sandboxes with OpenSandbox MCP",
       "description": "Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 10148
@@ -82,12 +107,8 @@
       "slug": "run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono",
       "name": "Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono",
       "description": "Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit filesystem, network, credential, and snapshot controls.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2063
@@ -97,12 +118,8 @@
       "slug": "gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator",
       "name": "Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator",
       "description": "Run Copilot, Claude Code, or Codex on isolated branches, verify each agent claim against real repo evidence, and block merges until automated quality gates…",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 83
@@ -112,12 +129,8 @@
       "slug": "scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa",
       "name": "Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA",
       "description": "Run a focused preflight scan over agent and MCP repositories to catch poisoned instruction files, dangerous configs, and AI-specific supply-chain risks before merge or…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 256
@@ -127,12 +140,8 @@
       "slug": "run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents",
       "name": "Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents",
       "description": "Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into the main repo flow instead of babysitting one…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1578
@@ -142,12 +151,8 @@
       "slug": "turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage",
       "name": "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage",
       "description": "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline…",
-      "category": [
-        "Image & Creative Automation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2870
@@ -157,12 +162,8 @@
       "slug": "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
       "name": "Turn a research idea into a draft paper workflow with AutoResearchClaw",
       "description": "Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning, draft writing, and verification artifacts instead of improvising…",
-      "category": [
-        "Research & Scraping"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 11513
@@ -172,12 +173,8 @@
       "slug": "investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt",
       "name": "Investigate production incidents across Kubernetes and cloud signals with HolmesGPT",
       "description": "Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and infrastructure context from multiple systems and returns a…",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2253
@@ -187,12 +184,8 @@
       "slug": "triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes",
       "name": "Triage pull request security risks with staged threat modeling and investigation using VulnVibes",
       "description": "Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1 finds credible threats, and return a structured verdict instead…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Claude Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 17
@@ -202,12 +195,8 @@
       "slug": "benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark",
       "name": "Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark",
       "description": "Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress.",
-      "category": [
-        "Browser Automation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 70
@@ -217,12 +206,8 @@
       "slug": "benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench",
       "name": "Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench",
       "description": "Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 308
@@ -232,12 +217,8 @@
       "slug": "generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness",
       "name": "Generate domain-specific Claude Code agent teams and shared skills with Harness",
       "description": "Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2737
@@ -247,12 +228,8 @@
       "slug": "draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog",
       "name": "Draft user-facing App Store release notes from git history with App Store Changelog",
       "description": "Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Codex"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3354
@@ -262,12 +239,8 @@
       "slug": "test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows",
       "name": "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows",
       "description": "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4338
@@ -277,12 +250,8 @@
       "slug": "run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor",
       "name": "Run context → spec → implement coding loops in Claude Code with Conductor",
       "description": "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 34018
@@ -292,12 +261,8 @@
       "slug": "block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard",
       "name": "Block unsafe agent actions and scan newly added skills with AgentGuard",
       "description": "Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 388,
@@ -308,12 +273,8 @@
       "slug": "turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus",
       "name": "Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus",
       "description": "Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 28304,
@@ -324,12 +285,8 @@
       "slug": "deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava",
       "name": "Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA",
       "description": "Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a PBX-native workflow.",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 988
@@ -339,12 +296,8 @@
       "slug": "run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon",
       "name": "Run autonomous white-box pentests against web apps and APIs with Shannon",
       "description": "Analyze a web app's source code, execute real exploit attempts against the running target, and return proof-backed findings before release.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 38904,
@@ -355,12 +308,8 @@
       "slug": "generate-podcast-style-audio-narratives-with-podcast-generation",
       "name": "Generate podcast-style audio narratives with Podcast Generation",
       "description": "Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2103
@@ -370,12 +319,8 @@
       "slug": "review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review",
       "name": "Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review",
       "description": "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2103
@@ -385,12 +330,8 @@
       "slug": "turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator",
       "name": "Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator",
       "description": "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2103
@@ -400,12 +341,8 @@
       "slug": "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices",
       "name": "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices",
       "description": "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1977
@@ -415,12 +352,8 @@
       "slug": "provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id",
       "name": "Provision OAuth-capable Microsoft agent identities with Entra Agent ID",
       "description": "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2103
@@ -430,12 +363,8 @@
       "slug": "connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges",
       "name": "Connect Claude Code to Apple apps and tmux with Claude Apple Bridges",
       "description": "Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware personal ops on macOS.",
-      "category": [
-        "Calendar, Email & Productivity"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 9
@@ -445,12 +374,8 @@
       "slug": "run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills",
       "name": "Run server-side ingest, search, and edit pipelines on video with VideoDB Skills",
       "description": "Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 72
@@ -460,12 +385,8 @@
       "slug": "run-code-review-and-pr-autofix-workflows-with-coderabbit-skills",
       "name": "Run code review and PR autofix workflows with CodeRabbit Skills",
       "description": "Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 73
@@ -475,12 +396,8 @@
       "slug": "audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor",
       "name": "Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor",
       "description": "Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 43
@@ -490,12 +407,8 @@
       "slug": "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill",
       "name": "Process, redact, OCR, and sign documents with Nutrient Agent Skill",
       "description": "Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 46
@@ -505,12 +418,8 @@
       "slug": "add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit",
       "name": "Add persistent project memory and hook-driven synthesis with Claude Memory Kit",
       "description": "Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 106
@@ -520,12 +429,8 @@
       "slug": "turn-documents-into-validated-knowledge-graphs-with-docling-graph",
       "name": "Turn documents into validated knowledge graphs with Docling Graph",
       "description": "Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 134
@@ -535,12 +440,8 @@
       "slug": "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf",
       "name": "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF",
       "description": "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to…",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 18715
@@ -550,12 +451,8 @@
       "slug": "generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes",
       "name": "Generate structured release notes from merged pull requests between two refs with Copilot Release Notes",
       "description": "Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2
@@ -565,12 +462,8 @@
       "slug": "scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner",
       "name": "Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner",
       "description": "Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual…",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 266
@@ -580,12 +473,8 @@
       "slug": "run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine",
       "name": "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine",
       "description": "Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing.",
-      "category": [
-        "Content Writing & SEO"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 6597
@@ -595,12 +484,8 @@
       "slug": "run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli",
       "name": "Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI",
       "description": "Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 61
@@ -610,12 +495,8 @@
       "slug": "turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator",
       "name": "Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator",
       "description": "Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 744
@@ -625,12 +506,8 @@
       "slug": "turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng",
       "name": "Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng",
       "description": "Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 2140
@@ -640,12 +517,8 @@
       "slug": "run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner",
       "name": "Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner",
       "description": "Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 670
@@ -655,12 +528,8 @@
       "slug": "install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm",
       "name": "Install and sync reproducible agent dependencies, prompts, and skills across repos with APM",
       "description": "Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1934,
@@ -671,12 +540,8 @@
       "slug": "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails",
       "name": "Run agent mailboxes and pull verification codes or reply context programmatically with Mails",
       "description": "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a…",
-      "category": [
-        "Calendar, Email & Productivity"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 294,
@@ -687,12 +552,8 @@
       "slug": "coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management",
       "name": "Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management",
       "description": "Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2211
@@ -702,12 +563,8 @@
       "slug": "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre",
       "name": "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE",
       "description": "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1979
@@ -717,12 +574,8 @@
       "slug": "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
       "name": "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize",
       "description": "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 5642,
@@ -733,12 +586,8 @@
       "slug": "sync-skills-across-ai-coding-clis-with-skillshare",
       "name": "Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare",
       "description": "Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories.",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1563
@@ -748,12 +597,8 @@
       "slug": "run-focused-accessibility-review-agents-with-accessibility-agents",
       "name": "Run focused accessibility review agents against coding-tool output with Accessibility Agents",
       "description": "Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 235
@@ -763,12 +608,8 @@
       "slug": "build-and-refactor-copilot-studio-agents-as-yaml",
       "name": "Build and refactor Copilot Studio agents as YAML from coding-agent workflows",
       "description": "Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 166
@@ -778,12 +619,8 @@
       "slug": "track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale",
       "name": "Track coding-agent token spend and leaderboard drift across local session logs with Tokscale",
       "description": "Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team.",
-      "category": [
-        "Monitoring & Alerts"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2032,
@@ -794,12 +631,8 @@
       "slug": "review-ai-generated-code-changes-with-diffity",
       "name": "Review AI-generated code changes in a cleaner diff workflow with Diffity",
       "description": "Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 561,
@@ -810,12 +643,8 @@
       "slug": "enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard",
       "name": "Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard",
       "description": "Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1997,
@@ -826,12 +655,8 @@
       "slug": "gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept",
       "name": "Gate MCP tool calls behind deterministic policy enforcement with Intercept",
       "description": "Use Intercept when an MCP-connected agent needs transport-layer policy enforcement for risky tools, argument limits, spend caps, hidden tools, or rate limits before calls…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 29,
@@ -842,12 +667,8 @@
       "slug": "scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security",
       "name": "Scan repositories for AI supply-chain and agent-security risks with Medusa Security",
       "description": "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 256
@@ -857,12 +678,8 @@
       "slug": "catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe",
       "name": "Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe",
       "description": "Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency…",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 521,
@@ -873,12 +690,8 @@
       "slug": "navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp",
       "name": "Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP",
       "description": "Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source retrieval instead of brute-reading whole files across a…",
-      "category": [
-        "Library & API Reference"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1626
@@ -888,12 +701,8 @@
       "slug": "run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks",
       "name": "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks",
       "description": "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 96
@@ -903,12 +712,8 @@
       "slug": "run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser",
       "name": "Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser",
       "description": "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.",
-      "category": [
-        "Browser Automation"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 2853
@@ -918,12 +723,8 @@
       "slug": "gate-risky-agent-actions-behind-approval-checkpoints-with-latch",
       "name": "Gate risky agent actions behind approval checkpoints with Latch",
       "description": "Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while safe calls continue…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 8
@@ -933,12 +734,8 @@
       "slug": "create-and-debug-local-first-declarative-workflow-jobs-with-dagu",
       "name": "Create and debug local-first declarative workflow jobs with Dagu",
       "description": "Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures through a lightweight operator surface instead…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3303
@@ -948,12 +745,8 @@
       "slug": "review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx",
       "name": "Review AI-generated code changes in a local PR-style loop with DiffX",
       "description": "Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback back to a coding agent…",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 127
@@ -963,12 +756,8 @@
       "slug": "scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar",
       "name": "Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar",
       "description": "Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 953
@@ -978,12 +767,8 @@
       "slug": "capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory",
       "name": "Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory",
       "description": "Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1181
@@ -993,12 +778,8 @@
       "slug": "generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber",
       "name": "Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber",
       "description": "Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 717
@@ -1008,12 +789,8 @@
       "slug": "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter",
       "name": "Probe Kubernetes clusters for exposed attack paths with kube-hunter",
       "description": "Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 5040
@@ -1023,12 +800,8 @@
       "slug": "record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema",
       "name": "Record terminal demos and reproducible CLI walkthroughs with asciinema",
       "description": "Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 17188
@@ -1038,12 +811,8 @@
       "slug": "benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench",
       "name": "Benchmark Kubernetes clusters against CIS controls with kube-bench",
       "description": "Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 8022
@@ -1053,12 +822,8 @@
       "slug": "block-secret-leaks-before-commit-or-push-with-ggshield",
       "name": "Block secret leaks before commit or push with ggshield",
       "description": "Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1940
@@ -1068,12 +833,8 @@
       "slug": "audit-cloud-accounts-for-security-misconfigurations-with-prowler",
       "name": "Audit cloud accounts for security misconfigurations with Prowler",
       "description": "Run targeted AWS, Azure, or GCP security and compliance audits when an agent needs actionable cloud findings instead of a generic cloud-security platform overview.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 13635
@@ -1083,12 +844,8 @@
       "slug": "capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget",
       "name": "Capture low-level Kubernetes runtime evidence with Inspektor Gadget",
       "description": "Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics…",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2792
@@ -1098,12 +855,8 @@
       "slug": "scan-llm-generated-code-before-use-with-codeshield",
       "name": "Scan LLM-generated code before use with CodeShield",
       "description": "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "tool": "purplellama",
@@ -1114,12 +867,8 @@
       "slug": "analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt",
       "name": "Analyze Kubernetes cluster issues through MCP with K8sGPT",
       "description": "Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural…",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 7687
@@ -1129,12 +878,8 @@
       "slug": "investigate-kubernetes-network-incidents-through-mcp-with-kubeshark",
       "name": "Investigate Kubernetes network incidents through MCP with Kubeshark",
       "description": "Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident…",
-      "category": [
-        "Monitoring & Alerts"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 11873
@@ -1144,12 +889,8 @@
       "slug": "compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent",
       "name": "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent",
       "description": "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 8276,
@@ -1160,12 +901,8 @@
       "slug": "benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation",
       "name": "Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation",
       "description": "Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 358
@@ -1175,12 +912,8 @@
       "slug": "grade-agent-trajectories-and-tool-use-decisions-with-agentevals",
       "name": "Grade agent trajectories and tool-use decisions with AgentEvals",
       "description": "Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 550,
@@ -1191,12 +924,8 @@
       "slug": "simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch",
       "name": "Simulate agent scenarios, trace failures, and watch production regressions with LangWatch",
       "description": "Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring.",
-      "category": [
-        "Monitoring & Alerts"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3206,
@@ -1207,12 +936,8 @@
       "slug": "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious",
       "name": "Run only the relevant linters and formatters on changed files with Precious",
       "description": "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 152
@@ -1222,12 +947,8 @@
       "slug": "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
       "name": "Capture a live webpage as a clean PDF or readable archive for offline review with Percollate",
       "description": "Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff.",
-      "category": [
-        "Research & Scraping"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4620,
@@ -1238,12 +959,8 @@
       "slug": "load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha",
       "name": "Load-test an HTTP endpoint with a fast reproducible CLI probe using oha",
       "description": "Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 10198
@@ -1253,12 +970,8 @@
       "slug": "decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli",
       "name": "Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli",
       "description": "Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1464,
@@ -1269,12 +982,8 @@
       "slug": "audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety",
       "name": "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety",
       "description": "Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1974
@@ -1284,12 +993,8 @@
       "slug": "map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps",
       "name": "Map Python import graphs to explain coupling before refactors or package splits with pydeps",
       "description": "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2076
@@ -1299,12 +1004,8 @@
       "slug": "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac",
       "name": "Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac",
       "description": "Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 809,
@@ -1315,12 +1016,8 @@
       "slug": "reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap",
       "name": "Reproduce SQL injection paths and map database takeover options with sqlmap",
       "description": "Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 37104
@@ -1330,12 +1027,8 @@
       "slug": "lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout",
       "name": "Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout",
       "description": "Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 429
@@ -1345,12 +1038,8 @@
       "slug": "generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in",
       "name": "Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in",
       "description": "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4753
@@ -1360,12 +1049,8 @@
       "slug": "generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage",
       "name": "Generate and screen lookalike domains with dnstwist for brand abuse triage",
       "description": "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 5656
@@ -1375,12 +1060,8 @@
       "slug": "scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review",
       "name": "Scan C and C++ code with Flawfinder for risky function patterns before review",
       "description": "Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4514
@@ -1390,12 +1071,8 @@
       "slug": "repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing",
       "name": "Repair, split, merge, and normalize PDFs with qpdf before downstream processing",
       "description": "Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1479
@@ -1405,12 +1082,8 @@
       "slug": "probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations",
       "name": "Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations",
       "description": "Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 7267
@@ -1420,12 +1093,8 @@
       "slug": "decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis",
       "name": "Decompile Android APKs into readable source with jadx for review and analysis",
       "description": "Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 46142
@@ -1435,12 +1104,8 @@
       "slug": "check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work",
       "name": "Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work",
       "description": "Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 7788
@@ -1450,12 +1115,8 @@
       "slug": "fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface",
       "name": "Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface",
       "description": "Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 13973
@@ -1465,12 +1126,8 @@
       "slug": "export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing",
       "name": "Export Obsidian vaults into clean Markdown trees for publishing or downstream processing",
       "description": "Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1300
@@ -1480,12 +1137,8 @@
       "slug": "inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec",
       "name": "Inspect binary hardening flags and exploit mitigations with checksec",
       "description": "Check ELF or PE binaries for hardening gaps like NX, PIE, RELRO, stack canaries, and Fortify before release or incident review.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2313
@@ -1495,12 +1148,8 @@
       "slug": "debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo",
       "name": "Debug DNS resolution and record mismatches from the terminal with doggo",
       "description": "Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service endpoints look wrong.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4221
@@ -1510,12 +1159,8 @@
       "slug": "trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage",
       "name": "Trace unstable network paths and packet loss with Trippy before escalating an outage",
       "description": "Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 6796
@@ -1525,12 +1170,8 @@
       "slug": "build-super-timelines-from-mixed-forensic-artifacts-with-plaso",
       "name": "Build super timelines from mixed forensic artifacts with Plaso",
       "description": "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2052
@@ -1540,12 +1181,8 @@
       "slug": "analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3",
       "name": "Analyze memory images for processes, modules, and malware indicators with Volatility 3",
       "description": "Inspect captured RAM images to enumerate processes, modules, handles, and suspicious in-memory behavior before escalation or evidence handoff.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4062
@@ -1555,12 +1192,8 @@
       "slug": "strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat",
       "name": "Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat",
       "description": "Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2057
@@ -1570,12 +1203,8 @@
       "slug": "find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent",
       "name": "Find deprecated Kubernetes APIs before cluster upgrades with kubent",
       "description": "Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3658
@@ -1585,12 +1214,8 @@
       "slug": "inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix",
       "name": "Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix",
       "description": "Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2771
@@ -1600,12 +1225,8 @@
       "slug": "run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest",
       "name": "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest",
       "description": "Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3729
@@ -1615,12 +1236,8 @@
       "slug": "sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery",
       "name": "Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery",
       "description": "Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 6375
@@ -1630,12 +1247,8 @@
       "slug": "seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal",
       "name": "Seal Kubernetes Secrets into Git-safe manifests with kubeseal",
       "description": "Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 9045
@@ -1645,12 +1258,8 @@
       "slug": "regenerate-repository-config-from-a-single-project-definition-with-projen",
       "name": "Regenerate repository config from a single project definition with projen",
       "description": "Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2918,
@@ -1661,12 +1270,8 @@
       "slug": "encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities",
       "name": "Encrypt and decrypt age secrets with hardware-backed YubiKey identities",
       "description": "Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 881
@@ -1676,12 +1281,8 @@
       "slug": "assemble-minimal-oci-images-from-declarative-package-configs-with-apko",
       "name": "Assemble minimal OCI images from declarative package configs with apko",
       "description": "Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1590
@@ -1691,12 +1292,8 @@
       "slug": "clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg",
       "name": "Clone and refresh whole GitHub orgs for audit or migration with ghorg",
       "description": "Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2016
@@ -1706,12 +1303,8 @@
       "slug": "build-test-and-package-postgresql-extensions-in-rust-with-pgrx",
       "name": "Build, test, and package PostgreSQL extensions in Rust with pgrx",
       "description": "Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs, and packaging across PostgreSQL versions.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4458
@@ -1721,12 +1314,8 @@
       "slug": "push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras",
       "name": "Push, pull, and attach non-container OCI artifacts in registries with ORAS",
       "description": "Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without wrapping them as conventional images.",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2213
@@ -1736,12 +1325,8 @@
       "slug": "capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot",
       "name": "Capture polished terminal screenshots for docs and changelogs with termshot",
       "description": "Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 751
@@ -1751,12 +1336,8 @@
       "slug": "rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive",
       "name": "Rehearse and run scripted terminal demos with realistic playback using doitlive",
       "description": "Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3561,
@@ -1767,12 +1348,8 @@
       "slug": "present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm",
       "name": "Present version-controlled markdown slide decks as terminal-native talks with Presenterm",
       "description": "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 8246,
@@ -1783,12 +1360,8 @@
       "slug": "boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose",
       "name": "Boot and supervise local multi-service process stacks from one declarative file with process-compose",
       "description": "Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc shell loops.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2303
@@ -1798,12 +1371,8 @@
       "slug": "collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac",
       "name": "Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC",
       "description": "Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1306
@@ -1813,12 +1382,8 @@
       "slug": "store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats",
       "name": "Store selective long-term agent memories with Mem0 instead of replaying whole chats",
       "description": "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back…",
-      "category": [
-        "Library & API Reference"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 53457,
@@ -1829,12 +1394,8 @@
       "slug": "break-large-coding-jobs-into-focused-subagent-missions-with-ab-method",
       "name": "Break large coding jobs into focused subagent missions with AB Method",
       "description": "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 159
@@ -1844,12 +1405,8 @@
       "slug": "search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations",
       "name": "Search and rewrite code with structural GritQL patterns before broad migrations",
       "description": "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change,…",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4482
@@ -1859,12 +1416,8 @@
       "slug": "sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync",
       "name": "Sync agent rules and skill files across coding assistants with AI Rules Sync",
       "description": "Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and…",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25
@@ -1874,12 +1427,8 @@
       "slug": "layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow",
       "name": "Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow",
       "description": "Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates, and parallel worktree routines to persist…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1933
@@ -1889,12 +1438,8 @@
       "slug": "coordinate-issue-backed-parallel-coding-worktrees-with-ccpm",
       "name": "Coordinate issue-backed parallel coding worktrees with CCPM",
       "description": "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 7995
@@ -1904,12 +1449,8 @@
       "slug": "run-reviewable-multi-step-codemod-workflows-with-codemod-cli",
       "name": "Run reviewable multi-step codemod workflows with Codemod CLI",
       "description": "Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a…",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 979
@@ -1919,12 +1460,8 @@
       "slug": "turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text",
       "name": "Turn captured WARC pages into clean text and language-tagged records with warc2text",
       "description": "Use warc2text when an agent already has WARC captures and needs readable text, language identification, and exportable records for review, search, or corpus building…",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 23
@@ -1934,12 +1471,8 @@
       "slug": "archive-and-reorganize-local-photo-libraries-with-photo-cli",
       "name": "Archive and reorganize local photo libraries with photo-cli",
       "description": "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder…",
-      "category": [
-        "Image & Creative Automation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 68
@@ -1949,12 +1482,8 @@
       "slug": "back-up-github-repos-releases-and-gists-with-github-backup",
       "name": "Back up GitHub repos releases and gists with GitHub Backup",
       "description": "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33
@@ -1964,12 +1493,8 @@
       "slug": "drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines",
       "name": "Drive dependency and config bumps through declarative Updatecli pipelines",
       "description": "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run…",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 894
@@ -1979,12 +1504,8 @@
       "slug": "generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator",
       "name": "Generate launch-ready web app icons and social assets with Web Asset Generator",
       "description": "Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work.",
-      "category": [
-        "Image & Creative Automation"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 321
@@ -1994,12 +1515,8 @@
       "slug": "turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course",
       "name": "Turn a codebase into an interactive onboarding course with Codebase to Course",
       "description": "Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3883
@@ -2009,12 +1526,8 @@
       "slug": "execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills",
       "name": "Execute DevOps delivery and infrastructure workflows with cc-devops-skills",
       "description": "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 182
@@ -2024,12 +1537,8 @@
       "slug": "run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills",
       "name": "Run React Native implementation and troubleshooting workflows with Callstack Agent Skills",
       "description": "Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1252
@@ -2039,12 +1548,8 @@
       "slug": "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills",
       "name": "Run research and scientific analysis workflows with Scientific Agent Skills",
       "description": "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work.",
-      "category": [
-        "Research & Scraping"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 18797
@@ -2054,12 +1559,8 @@
       "slug": "run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills",
       "name": "Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills",
       "description": "Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4663
@@ -2069,12 +1570,8 @@
       "slug": "validate-python-docstrings-against-function-signatures-with-pydoclint",
       "name": "Validate Python Docstrings Against Function Signatures with pydoclint",
       "description": "Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 208
@@ -2084,12 +1581,8 @@
       "slug": "lint-rego-policies-before-promotion-with-regal",
       "name": "Lint Rego Policies Before Promotion with Regal",
       "description": "Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 373
@@ -2099,12 +1592,8 @@
       "slug": "enforce-python-docstring-coverage-thresholds-with-interrogate",
       "name": "Enforce Python Docstring Coverage Thresholds with interrogate",
       "description": "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 662
@@ -2114,12 +1603,8 @@
       "slug": "prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz",
       "name": "Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz",
       "description": "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1345
@@ -2129,12 +1614,8 @@
       "slug": "compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools",
       "name": "Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools",
       "description": "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 8001
@@ -2144,12 +1625,8 @@
       "slug": "baseline-and-review-repository-secret-findings-with-detect-secrets",
       "name": "Baseline and Review Repository Secret Findings with detect-secrets",
       "description": "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4482
@@ -2159,12 +1636,8 @@
       "slug": "design-lifecycle-email-sequences",
       "name": "Design Lifecycle Email Sequences",
       "description": "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.",
-      "category": [
-        "Calendar, Email & Productivity"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 21914
@@ -2174,12 +1647,8 @@
       "slug": "diagnose-site-seo-issues-with-a-structured-audit",
       "name": "Diagnose Site SEO Issues with a Structured Audit",
       "description": "Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped.",
-      "category": [
-        "Content Writing & SEO"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 21914
@@ -2189,12 +1658,8 @@
       "slug": "plan-programmatic-seo-pages-at-scale",
       "name": "Plan Programmatic SEO Pages at Scale",
       "description": "Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content.",
-      "category": [
-        "Content Writing & SEO"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 21914
@@ -2204,12 +1669,8 @@
       "slug": "multi-axis-code-review-and-quality-gates",
       "name": "Multi-Axis Code Review and Quality Gates",
       "description": "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 17417
@@ -2219,12 +1680,8 @@
       "slug": "systematic-debugging-and-error-recovery",
       "name": "Systematic Debugging and Error Recovery",
       "description": "Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 17417
@@ -2234,12 +1691,8 @@
       "slug": "use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation",
       "name": "Use an escalating scrape strategy in Claude Code before reaching for browser automation",
       "description": "Start with cheap static fetches, escalate to a browser only when needed, validate findings, and turn the result into a production-ready scraping approach.",
-      "category": [
-        "Research & Scraping"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 38
@@ -2249,12 +1702,8 @@
       "slug": "benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection",
       "name": "Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection",
       "description": "Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 429
@@ -2264,12 +1713,8 @@
       "slug": "wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall",
       "name": "Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall",
       "description": "Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 158
@@ -2279,12 +1724,8 @@
       "slug": "scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar",
       "name": "Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar",
       "description": "Generate a reviewable security report for a supported agent workflow before deployment by scanning its code, tools, MCP usage, and known vulnerability surface.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 953
@@ -2294,12 +1735,8 @@
       "slug": "benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval",
       "name": "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval",
       "description": "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 34
@@ -2309,12 +1746,8 @@
       "slug": "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals",
       "name": "Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals",
       "description": "Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 105
@@ -2324,12 +1757,8 @@
       "slug": "test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval",
       "name": "Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval",
       "description": "Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 16
@@ -2339,12 +1768,8 @@
       "slug": "review-risky-coding-agent-sessions-with-local-action-logs-using-gryph",
       "name": "Review risky coding-agent sessions with local action logs using Gryph",
       "description": "Capture and inspect file reads, writes, and shell activity from coding agents so developers can audit what actually happened after a session goes sideways.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 105
@@ -2354,12 +1779,8 @@
       "slug": "start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli",
       "name": "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI",
       "description": "Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 143
@@ -2369,12 +1790,8 @@
       "slug": "probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran",
       "name": "Probe AI agents for dangerous tool chains and execution side effects with ZIRAN",
       "description": "Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust exploits before deployment.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 6
@@ -2384,12 +1801,8 @@
       "slug": "enforce-policy-gated-and-auditable-agent-execution-with-lacp",
       "name": "Enforce policy-gated and auditable agent execution with LACP",
       "description": "Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 211
@@ -2399,12 +1812,8 @@
       "slug": "run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch",
       "name": "Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch",
       "description": "Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3820
@@ -2414,12 +1823,8 @@
       "slug": "route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow",
       "name": "Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow",
       "description": "Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries.",
-      "category": [
-        "Calendar, Email & Productivity"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 105
@@ -2429,12 +1834,8 @@
       "slug": "mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync",
       "name": "Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync",
       "description": "Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push encrypted full-system backups to an…",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "OpenClaw"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 8,
@@ -2445,12 +1846,8 @@
       "slug": "back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup",
       "name": "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup",
       "description": "Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 218
@@ -2460,12 +1857,8 @@
       "slug": "find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka",
       "name": "Find duplicate and visually similar media before cleanup with Czkawka",
       "description": "Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them.",
-      "category": [
-        "Image & Creative Automation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 30600
@@ -2475,12 +1868,8 @@
       "slug": "mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync",
       "name": "Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync",
       "description": "Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes.",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "OpenClaw"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 8,
@@ -2491,12 +1880,8 @@
       "slug": "archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup",
       "name": "Archive online videos and metadata to the Internet Archive with Tubeup",
       "description": "Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a repeatable preservation job.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 487
@@ -2506,12 +1891,8 @@
       "slug": "sync-calendars-between-providers-with-a-stateless-calendarsync-job",
       "name": "Sync calendars between providers with a stateless CalendarSync job",
       "description": "Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service.",
-      "category": [
-        "Calendar, Email & Productivity"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 217
@@ -2521,12 +1902,8 @@
       "slug": "manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless",
       "name": "Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless",
       "description": "Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4045
@@ -2536,12 +1913,8 @@
       "slug": "turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks",
       "name": "Turn Lark meeting transcripts into action items and follow-up tasks",
       "description": "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes.",
-      "category": [
-        "Calendar, Email & Productivity"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 40
@@ -2551,12 +1924,8 @@
       "slug": "generate-reusable-site-adapters-from-live-browser-behavior-with-opencli",
       "name": "Generate reusable site adapters from live browser behavior with OpenCLI",
       "description": "Use OpenCLI to explore a logged-in site, synthesize a deterministic adapter, and expose the result as a reusable CLI command an agent can call…",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 16273,
@@ -2567,12 +1936,8 @@
       "slug": "scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner",
       "name": "Scan MCP servers for security findings before connecting them to agents with MCP Scanner",
       "description": "Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts,…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 889
@@ -2582,12 +1947,8 @@
       "slug": "put-coding-agents-on-a-governed-local-git-workflow-with-agentplane",
       "name": "Put coding agents on a governed local Git workflow with AgentPlane",
       "description": "Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 38
@@ -2597,12 +1958,8 @@
       "slug": "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api",
       "name": "Capture YouTube transcripts without browser automation using YouTube Transcript API",
       "description": "Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking.",
-      "category": [
-        "Media & Transcription"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 7352
@@ -2612,12 +1969,8 @@
       "slug": "generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram",
       "name": "Generate clickable architecture diagrams from public GitHub repos with GitDiagram",
       "description": "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 15447
@@ -2627,12 +1980,8 @@
       "slug": "package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers",
       "name": "Package docs, repos, and PDFs into installable agent skills with Skill Seekers",
       "description": "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 12876
@@ -2642,12 +1991,8 @@
       "slug": "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd",
       "name": "Search local notes, docs, and meeting transcripts for agent context with QMD",
       "description": "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs.",
-      "category": [
-        "Research & Scraping"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 22082,
@@ -2658,12 +2003,8 @@
       "slug": "screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet",
       "name": "Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet",
       "description": "Use SafeDep Vet as a pre-adoption gate when an agent, maintainer, or CI pipeline is about to add a new dependency or import a…",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1013,
@@ -2674,12 +2015,8 @@
       "slug": "embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk",
       "name": "Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK",
       "description": "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "tool": "claude-agent-sdk-python",
@@ -2691,12 +2028,8 @@
       "slug": "expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls",
       "name": "Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls",
       "description": "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled…",
-      "category": [
-        "Integrations & Connectors"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "tool": "mcp-toolbox",
@@ -2708,12 +2041,8 @@
       "slug": "gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review",
       "name": "Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review",
       "description": "Run a Claude Code powered security review pass on trusted pull requests so suspicious auth, secret, injection, and unsafe logic changes surface before merge.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4304
@@ -2723,12 +2052,8 @@
       "slug": "run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle",
       "name": "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle",
       "description": "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "MCP"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1718
@@ -2738,12 +2063,8 @@
       "slug": "run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues",
       "name": "Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues",
       "description": "Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and…",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Claude Code"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 7136
@@ -2753,12 +2074,8 @@
       "slug": "provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall",
       "name": "Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall",
       "description": "Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2610
@@ -2768,12 +2085,8 @@
       "slug": "run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd",
       "name": "Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd",
       "description": "Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops.",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4007
@@ -2783,12 +2096,8 @@
       "slug": "model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust",
       "name": "Model user behavior and run distributed load tests before backend changes face real traffic with Locust",
       "description": "Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout.",
-      "category": [
-        "Monitoring & Alerts"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 27720
@@ -2798,12 +2107,8 @@
       "slug": "automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures",
       "name": "Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures",
       "description": "Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 458
@@ -2813,12 +2118,8 @@
       "slug": "migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader",
       "name": "Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader",
       "description": "Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs before one-off import scripts become cutover risk.",
-      "category": [
-        "Data Extraction & Transformation"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 6393
@@ -2828,12 +2129,8 @@
       "slug": "diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef",
       "name": "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef",
       "description": "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases.",
-      "category": [
-        "Runbooks & Diagnostics"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 3076
@@ -2843,12 +2140,8 @@
       "slug": "sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis",
       "name": "Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis",
       "description": "Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between model changes.",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 622
@@ -2858,12 +2151,8 @@
       "slug": "deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl",
       "name": "Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl",
       "description": "Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 860
@@ -2873,12 +2162,8 @@
       "slug": "enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk",
       "name": "Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk",
       "description": "Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 1858
@@ -2888,12 +2173,8 @@
       "slug": "capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee",
       "name": "Capture Linux runtime security events and suspicious behavior for live triage with Tracee",
       "description": "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork.",
-      "category": [
-        "Security & Verification"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 4468
@@ -2903,12 +2184,8 @@
       "slug": "orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt",
       "name": "Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt",
       "description": "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift.",
-      "category": [
-        "CI/CD Integrations"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 9503
@@ -3387,12 +2664,8 @@
       "slug": "spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling",
       "name": "Spell-check docs and code comments with source-aware filters using pyspelling",
       "description": "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 94
@@ -3402,12 +2675,8 @@
       "slug": "lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8",
       "name": "Lint reStructuredText docs and release notes before Sphinx publishing with doc8",
       "description": "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 176
@@ -3417,12 +2686,8 @@
       "slug": "format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo",
       "name": "Format and lint TOML configs and lockfiles before config drift spreads with Taplo",
       "description": "Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2227
@@ -3432,12 +2697,8 @@
       "slug": "lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter",
       "name": "Lint .env files for duplicated keys and unsafe formatting with dotenv-linter",
       "description": "Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "listed",
       "signals": {
         "github_stars": 2068
@@ -3447,12 +2708,8 @@
       "slug": "catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell",
       "name": "Catch common misspellings in code and docs before review churn with codespell",
       "description": "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 2356
@@ -3462,12 +2719,8 @@
       "slug": "generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen",
       "name": "Generate and validate conventional commits and semver release bumps with Commitizen",
       "description": "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules.",
-      "category": [
-        "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
+      "category": [],
+      "framework": [],
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3382

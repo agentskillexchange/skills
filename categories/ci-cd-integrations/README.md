@@ -29,7 +29,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
-| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | ⬇ 2.5k/wk |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | ⬇ 12.8M/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | ⬇ 1k/wk |
@@ -128,7 +127,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.4k/wk |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | 14k | — |
 | [Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost](../../skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost/) | 12.3k | — |
-| [Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt](../../skills/orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt/) | 9.5k | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | 8.9k | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | 8.9k | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | 8.9k | — |
@@ -139,12 +137,10 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | 8.9k | — |
 | [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | 8.9k | — |
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | 8.9k | — |
-| [Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues](../../skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues/) | 7.1k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | — |
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](../../skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | 5.1k | — |
-| [Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in](../../skills/generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in/) | 4.8k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Draft release notes continuously with Release Drafter](../../skills/draft-release-notes-continuously-with-release-drafter/) | 3.9k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](../../skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
@@ -163,8 +159,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action](../../skills/run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action/) | 927 | — |
 | [Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact](../../skills/pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci-changes-merge-with-pinact/) | 917 | — |
-| [Drive dependency and config bumps through declarative Updatecli pipelines](../../skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines/) | 894 | — |
-| [Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl](../../skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl/) | 860 | — |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | 843 | — |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 843 | — |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 843 | — |
@@ -194,15 +188,9 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
-| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | 521 | 2.5k/wk |
-| [Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures](../../skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/) | 458 | — |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | 308 | 12.8M/wk |
-| [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](../../skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | 182 | — |
-| [Run only the relevant linters and formatters on changed files with Precious](../../skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | 152 | — |
-| [Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator](../../skills/gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator/) | 83 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
-| [Generate structured release notes from merged pull requests between two refs with Copilot Release Notes](../../skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/) | 2 | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | — | — |
 | [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | — | — |

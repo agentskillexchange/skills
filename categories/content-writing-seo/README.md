@@ -8,14 +8,14 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 |---|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | ⭐ 52.4k |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⭐ 35.9k |
-| [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | ⭐ 21.9k |
-| [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | ⭐ 21.9k |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 21k |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | ⭐ 17.5k |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⭐ 16.8k |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 10.2k |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⭐ 7.9k |
+| [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | ⭐ 6k |
+| [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | ⭐ 5.1k |
 
 ---
 
@@ -41,15 +41,12 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 45.6k/wk |
-| [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | 21.9k | — |
-| [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | 21.9k | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | 17.5k | — |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | — |
-| [Run a long-form SEO blog production workflow inside Claude Code with SEO Machine](../../skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/) | 6.6k | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | 6k | — |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | 5.1k | — |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | 5.1k | 30.6k/wk |

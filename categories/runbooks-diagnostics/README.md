@@ -104,28 +104,20 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | 25k | 2.1M/wk |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | 22.6k | — |
-| [Systematic Debugging and Error Recovery](../../skills/systematic-debugging-and-error-recovery/) | 17.4k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](../../skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | 11.7k | — |
-| [Load-test an HTTP endpoint with a fast reproducible CLI probe using oha](../../skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/) | 10.2k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](../../skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | 10.2k | — |
-| [Analyze Kubernetes cluster issues through MCP with K8sGPT](../../skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/) | 7.7k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](../../skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | 7.2k | — |
-| [Trace unstable network paths and packet loss with Trippy before escalating an outage](../../skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | 6.8k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |
-| [Debug DNS resolution and record mismatches from the terminal with doggo](../../skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | 4.2k | — |
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
-| [Analyze memory images for processes, modules, and malware indicators with Volatility 3](../../skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
 | [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.6M/wk |
-| [Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest](../../skills/run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest/) | 3.7k | — |
-| [Find deprecated Kubernetes APIs before cluster upgrades with kubent](../../skills/find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent/) | 3.7k | — |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | — |
@@ -141,17 +133,11 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
-| [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](../../skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](../../skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
-| [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](../../skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
-| [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](../../skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | 2.3k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
-| [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
-| [Investigate production incidents across observability signals and draft next remediation steps with OpenSRE](../../skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre/) | 2k | — |
-| [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](../../skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | 2k | — |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | 1.8k | — |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](../../skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | 1.4k | — |
@@ -160,12 +146,9 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |
-| [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
-| [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](../../skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | 308 | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](../../skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | 102 | — |
-| [Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks](../../skills/run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks/) | 96 | — |
 | [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | — |
 | [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | — |
 | [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | — |

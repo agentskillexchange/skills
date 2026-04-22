@@ -52,7 +52,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | — |
-| [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | 21.9k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |
@@ -118,17 +117,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
-| [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](../../skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | 294 | 1.4k/wk |
-| [Sync calendars between providers with a stateless CalendarSync job](../../skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | 217 | — |
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | — |
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | 106 | — |
-| [Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow](../../skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/) | 105 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | 78 | — |
-| [Turn Lark meeting transcripts into action items and follow-up tasks](../../skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/) | 40 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
-| [Connect Claude Code to Apple apps and tmux with Claude Apple Bridges](../../skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/) | 9 | — |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |

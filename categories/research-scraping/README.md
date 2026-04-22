@@ -32,7 +32,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⬇ 19.6M/wk |
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⬇ 80.8k/wk |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 72.5k/wk |
-| [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | ⬇ 25.9k/wk |
+| [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](../../skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | ⬇ 3.8k/wk |
 
 ---
 
@@ -70,9 +70,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.8k | 80.8k/wk |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
-| [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | 22.1k | 25.9k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
-| [Run research and scientific analysis workflows with Scientific Agent Skills](../../skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills/) | 18.8k | — |
 | [Linkwarden Collaborative Bookmark Archive and Preservation Platform](../../skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | 17.9k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 16.4k | — |
@@ -80,7 +78,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Monolith Web Page Archiver and Single-File Bundler](../../skills/monolith-web-page-single-file-archiver/) | 14.9k | — |
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
-| [Turn a research idea into a draft paper workflow with AutoResearchClaw](../../skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | 11.5k | — |
 | [Run configurable multi-source deep research passes with Open Deep Research](../../skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
@@ -90,7 +87,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
 | [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 527.8k/wk |
-| [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](../../skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | 4.6k | 588/wk |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | 3.9k | — |
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](../../skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | 3.6k | — |
 | [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 937/wk |
@@ -116,7 +112,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | — |
 | [Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill](../../skills/evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill/) | 55 | — |
-| [Use an escalating scrape strategy in Claude Code before reaching for browser automation](../../skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation/) | 38 | — |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | — | — |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | — | — |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |
