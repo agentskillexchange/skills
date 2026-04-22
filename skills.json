@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2334,
-  "generated": "2026-04-21",
+  "total": 2336,
+  "generated": "2026-04-22",
   "skills": [
+    {
+      "slug": "scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa",
+      "name": "Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA",
+      "description": "Run a focused preflight scan over agent and MCP repositories to catch poisoned instruction files, dangerous configs, and AI-specific supply-chain risks before merge or…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 256
+      }
+    },
+    {
+      "slug": "run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents",
+      "name": "Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents",
+      "description": "Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into the main repo flow instead of babysitting one…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1578
+      }
+    },
     {
       "slug": "turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage",
       "name": "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage",
