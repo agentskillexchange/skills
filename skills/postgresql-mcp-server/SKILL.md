@@ -12,7 +12,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 84130
+  github_stars: 84275
 ---
 
 # PostgreSQL MCP Server

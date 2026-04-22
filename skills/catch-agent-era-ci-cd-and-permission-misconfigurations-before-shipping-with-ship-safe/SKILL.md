@@ -1,7 +1,7 @@
 ---
 title: "Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe"
 description: "Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency issues."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/asamassekou10/ship-safe"
 tool_ecosystem:
   github_repo: "asamassekou10/ship-safe"

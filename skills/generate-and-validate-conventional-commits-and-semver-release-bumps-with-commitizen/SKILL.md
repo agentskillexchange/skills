@@ -1,7 +1,7 @@
 ---
 title: "Generate and validate conventional commits and semver release bumps with Commitizen"
 description: "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/commitizen-tools/commitizen"
 tool_ecosystem:
   github_repo: "commitizen-tools/commitizen"

@@ -1,7 +1,7 @@
 ---
 title: "Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow"
 description: "Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates, and parallel worktree routines to persist across sessions instead of being re-explained every time."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/rohitg00/pro-workflow"
 tool_ecosystem:
   github_repo: "rohitg00/pro-workflow"

@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21040
+  github_stars: 21046
 ---
 
 # WordPress Router

@@ -9,9 +9,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
-  github_stars: 1455
+  github_stars: 1457
   npm_package: "jsforce"
-  npm_weekly_downloads: 958978
+  npm_weekly_downloads: 969249
 ---
 
 # Salesforce MCP Server

@@ -1,7 +1,7 @@
 ---
 title: "Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng"
 description: "Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/Wirasm/PRPs-agentic-eng"
 tool_ecosystem:
   github_repo: "Wirasm/PRPs-agentic-eng"

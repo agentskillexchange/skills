@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
-  github_stars: 71501
+  github_stars: 71509
 ---
 
 # Docker MCP Server

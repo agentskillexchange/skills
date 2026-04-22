@@ -1,7 +1,7 @@
 ---
 title: "Turn captured WARC pages into clean text and language-tagged records with warc2text"
 description: "Use warc2text when an agent already has WARC captures and needs readable text, language identification, and exportable records for review, search, or corpus building instead of re-crawling pages."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/bitextor/warc2text"
 tool_ecosystem:
   github_repo: "bitextor/warc2text"

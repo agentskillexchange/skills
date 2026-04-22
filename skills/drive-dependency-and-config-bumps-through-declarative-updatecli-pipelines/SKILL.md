@@ -1,7 +1,7 @@
 ---
 title: "Drive dependency and config bumps through declarative Updatecli pipelines"
 description: "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/updatecli/updatecli"
 tool_ecosystem:
   github_repo: "updatecli/updatecli"

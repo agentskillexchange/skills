@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3607
+  github_stars: 3608
 ---
 
 # AWS Lambda MCP Server

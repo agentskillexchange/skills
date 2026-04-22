@@ -1,7 +1,7 @@
 ---
 title: "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent"
 description: "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/lastmile-ai/mcp-agent"
 tool_ecosystem:
   github_repo: "lastmile-ai/mcp-agent"

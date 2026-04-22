@@ -1,7 +1,7 @@
 ---
 title: "Investigate Kubernetes network incidents through MCP with Kubeshark"
 description: "Query live and historical Kubernetes network traffic through Kubeshark’s MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident response."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/kubeshark/kubeshark"
 tool_ecosystem:
   github_repo: "kubeshark/kubeshark"

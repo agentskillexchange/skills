@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "peterskoett/self-improving-agent"
-  github_stars: 531
+  github_stars: 543
 ---
 
 # Self-Improvement / Learnings Capture

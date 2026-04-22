@@ -1,7 +1,7 @@
 ---
 title: "Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser"
 description: "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation."
-verification: security_reviewed
+verification: listed
 source: "https://github.com/jo-inc/camofox-browser"
 tool_ecosystem:
   github_repo: "jo-inc/camofox-browser"

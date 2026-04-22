@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
-  github_stars: 910
+  github_stars: 914
 ---
 
 # OpenClaw Security Suite (ClawSec)

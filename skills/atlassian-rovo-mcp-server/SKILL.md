@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
-  github_stars: 599
+  github_stars: 606
 ---
 
 # Atlassian Rovo MCP Server
