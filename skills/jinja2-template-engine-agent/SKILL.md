@@ -2,11 +2,14 @@
 title: "Jinja2 Template Engine"
 description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
+source: "https://github.com/pallets/jinja"
 category:
   - "Templates &amp; Workflows"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "pallets/jinja"
+  github_stars: 11583
 ---
 
 # Jinja2 Template Engine
