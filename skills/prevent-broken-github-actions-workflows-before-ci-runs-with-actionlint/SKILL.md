@@ -1,10 +1,10 @@
 ---
 title: "Prevent broken GitHub Actions workflows before CI runs with actionlint"
 description: "Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions, action inputs, runner labels, cron patterns, and a few security footguns so the agent can stop bad workflow changes before CI burns time."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/rhysd/actionlint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,13 @@ Use actionlint when an agent needs to inspect GitHub Actions workflow files befo
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,8 +1,12 @@
 ---
 title: "Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval"
 description: "Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should."
-verification: listed
+verification: "listed"
 source: "https://github.com/sjnims/cc-plugin-eval"
+category:
+  - "Uncategorized"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sjnims/cc-plugin-eval"
   github_stars: 16
@@ -14,27 +18,13 @@ Run staged evaluations against a Claude Code plugin to verify that skills, agent
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

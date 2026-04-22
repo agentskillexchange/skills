@@ -1,10 +1,10 @@
 ---
 title: "ElasticSearch Cluster Vitals Agent"
 description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Claude Agents"
 tool_ecosystem:
@@ -18,27 +18,13 @@ Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detec
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/elasticsearch-cluster-vitals-agent/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/elasticsearch-cluster-vitals-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/elasticsearch-cluster-vitals-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

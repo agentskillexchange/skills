@@ -1,10 +1,10 @@
 ---
 title: "Mailtrap Node.js SDK for Transactional and Sandbox Email"
 description: "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/mailtrap/mailtrap-nodejs"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,13 @@ An ASE skill built on the official Mailtrap Node.js SDK for sending transactiona
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Supabase CLI for Local Development and Database Migrations"
 description: "Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream command-line tool for developers who need to work against Supabase from the terminal and CI."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/supabase/cli"
 category:
   - "Developer Tools"
@@ -20,27 +20,13 @@ Supabase CLI manages local Supabase projects, database migrations, types, and ed
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/supabase-cli-local-development-database-migrations/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/supabase-cli-local-development-database-migrations
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/supabase-cli-local-development-database-migrations`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

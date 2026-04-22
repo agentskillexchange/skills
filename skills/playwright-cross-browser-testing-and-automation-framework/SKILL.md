@@ -1,7 +1,7 @@
 ---
 title: "Playwright Cross-Browser Testing and Automation Framework"
 description: "Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots, tracing, and login flows. It fits teams that need reliable browser sessions, modern locator-based automation, and strong debugging artifacts instead of brittle timeout-heavy scripts."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category:
   - "Browser Automation"
@@ -20,27 +20,13 @@ Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-cross-browser-testing-and-automation-framework/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-cross-browser-testing-and-automation-framework
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/playwright-cross-browser-testing-and-automation-framework`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

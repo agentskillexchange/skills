@@ -1,10 +1,10 @@
 ---
 title: "Deepgram Podcast Chapter Generator"
 description: "Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps into logical chapters using a sliding-window topic boundary algorithm. Outputs YouTube-compatible chapter timestamps and an RSS-ready podcast:chapters JSON feed. Optionally posts chapters as a Notion database entry."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://developers.deepgram.com/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "ChatGPT Agents"
 ---
@@ -15,27 +15,13 @@ Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize feature
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/deepgram-podcast-chapter-generator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/deepgram-podcast-chapter-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

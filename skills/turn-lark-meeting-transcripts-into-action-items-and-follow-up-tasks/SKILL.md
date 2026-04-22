@@ -1,8 +1,12 @@
 ---
 title: "Turn Lark meeting transcripts into action items and follow-up tasks"
 description: "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes."
-verification: listed
+verification: "listed"
 source: "https://github.com/zarazhangrui/lark-minutes-tasks"
+category:
+  - "Uncategorized"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zarazhangrui/lark-minutes-tasks"
   github_stars: 40
@@ -14,27 +18,13 @@ Read a Lark Minutes transcript, extract explicit and implied follow-ups, then le
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

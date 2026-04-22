@@ -1,8 +1,12 @@
 ---
 title: "Back up GitHub repos releases and gists with GitHub Backup"
 description: "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo."
-verification: listed
+verification: "listed"
 source: "https://github.com/SierraSoftworks/github-backup"
+category:
+  - "Uncategorized"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "SierraSoftworks/github-backup"
   github_stars: 33
@@ -14,27 +18,13 @@ Use GitHub Backup when an agent needs to mirror repositories, release assets, an
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/back-up-github-repos-releases-and-gists-with-github-backup/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/back-up-github-repos-releases-and-gists-with-github-backup
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/back-up-github-repos-releases-and-gists-with-github-backup`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

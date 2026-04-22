@@ -1,10 +1,10 @@
 ---
 title: "Profile and clean large CSV datasets from the terminal with qsv"
 description: "Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows."
-verification: listed
+verification: "listed"
 source: "https://github.com/dathere/qsv"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,13 @@ Inspect, profile, normalize, and diff large CSV files before loading them into d
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

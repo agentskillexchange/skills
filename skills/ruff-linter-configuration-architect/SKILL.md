@@ -1,10 +1,10 @@
 ---
 title: "Ruff Linter Configuration Architect"
 description: "Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/astral-sh/ruff"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
@@ -18,27 +18,13 @@ Configures and optimizes Ruff Python linter settings using the ruff CLI and pypr
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ruff-linter-configuration-architect/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ruff-linter-configuration-architect
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/ruff-linter-configuration-architect`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Oxlint High-Performance JavaScript Linter"
 description: "Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust, Oxlint is 50-100x faster than ESLint and used by Shopify, ByteDance, and Preact."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/oxc-project/oxc"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -20,27 +20,13 @@ Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/oxlint-high-performance-javascript-linter/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/oxlint-high-performance-javascript-linter
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/oxlint-high-performance-javascript-linter`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

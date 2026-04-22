@@ -1,8 +1,12 @@
 ---
 title: "Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools"
 description: "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins."
-verification: listed
+verification: "listed"
 source: "https://github.com/jazzband/pip-tools"
+category:
+  - "Uncategorized"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jazzband/pip-tools"
   github_stars: 8001
@@ -14,27 +18,13 @@ Resolve Python dependency inputs into deterministic lock files and sync environm
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

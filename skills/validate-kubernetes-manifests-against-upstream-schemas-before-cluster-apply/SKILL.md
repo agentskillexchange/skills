@@ -1,7 +1,7 @@
 ---
 title: "Validate Kubernetes manifests against upstream schemas before cluster apply"
 description: "Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The agent can review rendered Helm output, raw manifests, or PR diffs and return invalid resources, missing schemas, and strict-mode failures without requiring live cluster credentials."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/yannh/kubeconform"
 category:
   - "CI/CD Integrations"
@@ -18,27 +18,13 @@ Uses kubeconform to validate Kubernetes manifests against versioned schemas befo
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

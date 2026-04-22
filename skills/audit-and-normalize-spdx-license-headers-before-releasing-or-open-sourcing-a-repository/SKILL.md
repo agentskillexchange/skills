@@ -1,10 +1,10 @@
 ---
 title: "Audit and normalize SPDX license headers before releasing or open-sourcing a repository"
 description: "Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file. The agent checks compliance, adds or verifies SPDX headers, pulls missing license texts into LICENSES/, and produces a concrete remediation list or SPDX export."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://codeberg.org/fsfe/reuse-tool"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 ---
@@ -15,27 +15,13 @@ Use REUSE when an agent needs file-level licensing clarity instead of guessing f
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

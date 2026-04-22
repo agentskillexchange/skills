@@ -1,7 +1,7 @@
 ---
 title: "Playwright MCP Server for Browser Automation"
 description: "The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context Protocol, enabling LLMs to interact with web pages via structured accessibility snapshots without requiring vision models or screenshots."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 category:
   - "Browser Automation"
@@ -18,27 +18,13 @@ The official Microsoft Playwright MCP server provides browser automation capabil
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-mcp-server-browser-automation/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-mcp-server-browser-automation
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/playwright-mcp-server-browser-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

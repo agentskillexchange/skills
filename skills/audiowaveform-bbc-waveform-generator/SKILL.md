@@ -1,10 +1,10 @@
 ---
 title: "audiowaveform Audio Waveform Data Generator and Image Renderer"
 description: "audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and Opus audio files. It outputs binary or JSON waveform data and renders PNG waveform images at configurable zoom levels."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/bbc/audiowaveform"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +18,13 @@ audiowaveform is a BBC open-source C++ CLI tool that generates waveform data fro
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/audiowaveform-bbc-waveform-generator/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audiowaveform-bbc-waveform-generator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/audiowaveform-bbc-waveform-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Extract data and complete workflows in your real logged-in browser"
 description: "Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user’s actual logged-in Chrome session. It is for browser work where normal HTTP fetches fail because the important context lives behind auth, cookies, or internal web apps."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/epiral/bb-browser/tree/main/skills/bb-browser"
 category:
   - "Browser Automation"
@@ -15,27 +15,13 @@ Use bb-browser when an agent needs to inspect pages, pull data, or complete form
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

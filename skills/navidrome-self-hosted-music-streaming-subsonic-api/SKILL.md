@@ -1,10 +1,10 @@
 ---
 title: "Navidrome Self-Hosted Music Streaming Server and Subsonic API"
 description: "Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome’s native REST endpoints."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/navidrome/navidrome"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,13 @@ Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/navidrome-self-hosted-music-streaming-subsonic-api/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/navidrome-self-hosted-music-streaming-subsonic-api
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/navidrome-self-hosted-music-streaming-subsonic-api`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
