@@ -1,12 +1,15 @@
 ---
 title: "Generate reproducible algorithmic art sketches with seeded p5.js randomness"
 description: "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or a generic design suggestion. It directs the agent toward a repeatable p5.js workflow with seeded randomness, parameter controls, and an explicit creative philosophy."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116918
 ---
 
 # Generate reproducible algorithmic art sketches with seeded p5.js randomness
@@ -15,13 +18,27 @@ Use the Anthropic algorithmic-art skill when an agent should turn a creative bri
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

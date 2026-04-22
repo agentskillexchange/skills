@@ -1,7 +1,7 @@
 ---
 title: "Terraform Drift Detector"
 description: "Detect infrastructure drift by comparing Terraform state with live cloud resources using terraform plan and the Terraform Cloud API. Supports AWS, GCP, and Azure provider state analysis."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category:
   - "CI/CD Integrations"
@@ -18,13 +18,27 @@ Detect infrastructure drift by comparing Terraform state with live cloud resourc
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/terraform-drift-detector-2
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/terraform-drift-detector-2` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

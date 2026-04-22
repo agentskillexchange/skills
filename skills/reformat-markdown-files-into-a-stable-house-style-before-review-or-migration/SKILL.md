@@ -1,10 +1,10 @@
 ---
 title: "Reformat Markdown files into a stable house style before review or migration"
 description: "Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an agent needs deterministic Markdown diffs before review, migration, or bulk cleanup, not when it needs to generate new content or build a docs site."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hukkin/mdformat"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,13 +18,27 @@ Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout o
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

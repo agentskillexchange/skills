@@ -1,7 +1,7 @@
 ---
 title: "Atuin Shell History Database and Sync"
 description: "Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes, session IDs, working directories, and command durations. It provides encrypted cross-machine sync and a full-screen fuzzy search UI bound to Ctrl-R."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/atuinsh/atuin"
 category:
   - "Developer Tools"
@@ -18,13 +18,27 @@ Atuin replaces your existing shell history with a SQLite database that records a
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/atuin-shell-history-database-sync
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/atuin-shell-history-database-sync` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

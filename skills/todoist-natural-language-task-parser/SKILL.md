@@ -1,10 +1,10 @@
 ---
 title: "Todoist Natural Language Task Parser"
 description: "Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority levels, and project assignments. Uses the Todoist Sync API for batch task creation and supports recurring date patterns via the RRule specification."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developer.todoist.com/api/v1/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "MCP"
 ---
@@ -15,13 +15,27 @@ Parses natural language task descriptions into structured Todoist API v2 task ob
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/todoist-natural-language-task-parser
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/todoist-natural-language-task-parser` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
