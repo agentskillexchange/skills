@@ -119,6 +119,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
+| [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | 5.8k | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | 5.8k | — |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | 5.8k | — |
@@ -227,11 +228,11 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](../../skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | 17 | — |
 | [Gate risky agent actions behind approval checkpoints with Latch](../../skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
+| [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](../../skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | 2 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | — | — |
-| [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | — | — |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | — | — |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | — | — |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |

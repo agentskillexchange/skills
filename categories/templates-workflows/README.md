@@ -99,6 +99,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Package docs, repos, and PDFs into installable agent skills with Skill Seekers](../../skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers/) | 12.9k | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
+| [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | 11.6k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
@@ -162,7 +163,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | — | — |
-| [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | — | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | — | — |

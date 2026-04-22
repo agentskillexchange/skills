@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2340 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-22 03:21 UTC
+> **2343 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-22 05:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -305,7 +305,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (214 skills)
+### 🔒 Security & Verification (215 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -390,6 +390,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review. | Published | 7.5k | — |
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts. | Published | 7.3k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Security Reviewed | 5.9k | — |
+| [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and… | Security Reviewed | 5.8k | — |
 | [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
 | [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
 | [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA… | Security Reviewed | 5.8k | — |
@@ -498,11 +499,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1… | Published | 17 | — |
 | [Gate risky agent actions behind approval checkpoints with Latch](skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while… | Security Reviewed | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust… | Published | 6 | — |
+| [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them. | Published | 2 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file.… | Security Reviewed | — | — |
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | — | — |
 | [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | Scans Docker and OCI container images for vulnerabilities using Trivy JSON output and the Docker Hub API v2 for… | Security Reviewed | — | — |
 | [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls,… | Security Reviewed | — | — |
-| [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and… | Security Reviewed | — | — |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly… | Security Reviewed | — | — |
 | [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for… | Security Reviewed | — | — |
 | [Dependency Vulnerability Scanner](skills/dependency-vulnerability-scanner-agent/) | Scans project dependencies using OSV.dev API and Snyk CLI for known CVEs across npm, PyPI, Maven, and Go modules.… | Security Reviewed | — | — |
@@ -902,7 +903,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (162 skills)
+### 🔄 Data Extraction & Transformation (163 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1045,6 +1046,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to… | Security Reviewed | 387 | 170.7k/wk |
 | [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and… | Security Reviewed | 387 | 170.7k/wk |
 | [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3).… | Security Reviewed | 387 | 170.7k/wk |
+| [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP… | Published | 335 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files… | Security Reviewed | 330 | — |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction… | Published | 134 | — |
@@ -1306,6 +1308,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Package docs, repos, and PDFs into installable agent skills with Skill Seekers](skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers/) | Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a… | Security Reviewed | 12.9k | — |
 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
+| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | 11.6k | — |
 | [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | 10.4k | — |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | 10.1k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows… | Security Reviewed | 8.3k | 29.2k/wk |
@@ -1369,7 +1372,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
 | [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
-| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
@@ -1387,6 +1389,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 |---|---|---|---:|---:|
 | [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 121.8k | — |
 | [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | 121.7k | — |
+| [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | 85.6k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a… | Security Reviewed | 85.1k | 97/wk |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across… | Security Reviewed | 78.4k | — |
 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is… | Security Reviewed | 76.5k | — |
@@ -1508,7 +1511,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | — | — |
 | [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite… | Security Reviewed | — | — |
-| [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | — | — |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | — | — |
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
@@ -1988,7 +1990,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (100 skills)
+### 🌐 Browser Automation (101 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2088,6 +2090,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Published | 1.5k | 4.7k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Published | 436 | 1.7k/wk |
+| [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from… | Published | 327 | — |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture… | Security Reviewed | 107 | 3k/wk |
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress. | Published | 70 | — |
 | [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Security Reviewed | 61 | 818.3k/wk |

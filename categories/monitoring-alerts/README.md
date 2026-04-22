@@ -8,6 +8,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |---|---:|
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | ⭐ 121.8k |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | ⭐ 121.7k |
+| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⭐ 85.6k |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | ⭐ 78.4k |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
@@ -15,7 +16,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.3k |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 73.2k |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | ⭐ 73.2k |
-| [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | ⭐ 73.2k |
 
 ---
 
@@ -42,6 +42,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |---|---:|---:|
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | 121.8k | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
+| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | 85.6k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
@@ -163,7 +164,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |
-| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | — | — |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | — | — |
 | [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | — | — |
 

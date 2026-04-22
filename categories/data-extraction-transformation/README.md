@@ -177,6 +177,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | 387 | 170.7k/wk |
 | [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | 387 | 170.7k/wk |
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | 387 | 170.7k/wk |
+| [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](../../skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | 335 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |

@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2340,
+  "total": 2343,
   "generated": "2026-04-22",
   "skills": [
+    {
+      "slug": "block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails",
+      "name": "Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails",
+      "description": "Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2
+      }
+    },
+    {
+      "slug": "benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer",
+      "name": "Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer",
+      "description": "Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests.",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 327
+      }
+    },
+    {
+      "slug": "operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents",
+      "name": "Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents",
+      "description": "Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP surface instead of loose shell access.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 335
+      }
+    },
     {
       "slug": "run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua",
       "name": "Run computer-use agents inside cross-OS desktop sandboxes with CUA",
@@ -22124,7 +22169,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 5837
       }
     },
     {
@@ -22553,7 +22599,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sendgrid"
+        "tool": "sendgrid",
+        "github_stars": 85583
       }
     },
     {
@@ -23206,7 +23253,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11583
+      }
     },
     {
       "slug": "scrapycloud-job-manager",
