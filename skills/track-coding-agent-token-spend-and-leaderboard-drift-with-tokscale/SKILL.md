@@ -3,10 +3,6 @@ title: "Track coding-agent token spend and leaderboard drift across local sessio
 description: "Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team."
 verification: listed
 source: "https://github.com/junhoyeo/tokscale"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "junhoyeo/tokscale"
   github_stars: 2032

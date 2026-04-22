@@ -3,10 +3,6 @@ title: "Run research and scientific analysis workflows with Scientific Agent Ski
 description: "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work."
 verification: listed
 source: "https://github.com/K-Dense-AI/scientific-agent-skills"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "K-Dense-AI/scientific-agent-skills"
   github_stars: 18797

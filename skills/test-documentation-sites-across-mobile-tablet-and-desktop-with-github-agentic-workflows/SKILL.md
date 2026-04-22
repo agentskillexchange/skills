@@ -3,10 +3,6 @@ title: "Test documentation sites across mobile, tablet, and desktop with GitHub 
 description: "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues."
 verification: listed
 source: "https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Multi-Framework"
 ---
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows

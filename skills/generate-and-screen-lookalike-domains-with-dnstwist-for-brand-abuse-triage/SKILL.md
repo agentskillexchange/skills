@@ -3,10 +3,6 @@ title: "Generate and screen lookalike domains with dnstwist for brand abuse tria
 description: "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review."
 verification: listed
 source: "https://github.com/elceef/dnstwist"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elceef/dnstwist"
   github_stars: 5656

@@ -3,10 +3,6 @@ title: "Turn a codebase into an interactive onboarding course with Codebase to C
 description: "Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts."
 verification: listed
 source: "https://github.com/zarazhangrui/codebase-to-course"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "zarazhangrui/codebase-to-course"
   github_stars: 3883

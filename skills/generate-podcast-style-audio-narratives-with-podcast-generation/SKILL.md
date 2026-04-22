@@ -3,10 +3,6 @@ title: "Generate podcast-style audio narratives with Podcast Generation"
 description: "Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output."
 verification: listed
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/podcast-generation"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
 ---
 
 # Generate podcast-style audio narratives with Podcast Generation

@@ -3,10 +3,6 @@ title: "Debug DNS resolution and record mismatches from the terminal with doggo"
 description: "Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service endpoints look wrong."
 verification: listed
 source: "https://github.com/mr-karan/doggo"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mr-karan/doggo"
   github_stars: 4221

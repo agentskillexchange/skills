@@ -3,10 +3,6 @@ title: "Design Lifecycle Email Sequences"
 description: "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email."
 verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
 ---
 
 # Design Lifecycle Email Sequences

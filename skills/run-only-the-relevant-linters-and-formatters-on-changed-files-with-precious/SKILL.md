@@ -3,10 +3,6 @@ title: "Run only the relevant linters and formatters on changed files with Preci
 description: "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted."
 verification: listed
 source: "https://github.com/houseabsolute/precious"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "houseabsolute/precious"
   github_stars: 152

@@ -3,10 +3,6 @@ title: "Block destructive Terraform, database, Kubernetes, cloud, and Git comman
 description: "Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them."
 verification: listed
 source: "https://github.com/roboticforce/agent-guardrails"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "roboticforce/agent-guardrails"
   github_stars: 2

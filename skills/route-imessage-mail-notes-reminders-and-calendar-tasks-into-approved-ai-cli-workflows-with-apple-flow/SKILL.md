@@ -3,10 +3,6 @@ title: "Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved
 description: "Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries."
 verification: listed
 source: "https://github.com/dkyazzentwatwa/apple-flow"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dkyazzentwatwa/apple-flow"
   github_stars: 105

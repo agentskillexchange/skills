@@ -3,10 +3,6 @@ title: "Orchestrate multi-environment OpenTofu and Terraform stacks with shared 
 description: "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift."
 verification: listed
 source: "https://github.com/gruntwork-io/terragrunt"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gruntwork-io/terragrunt"
   github_stars: 9503

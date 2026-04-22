@@ -3,10 +3,6 @@ title: "Run agent CLIs in a capability-based local sandbox with snapshots and co
 description: "Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit filesystem, network, credential, and snapshot controls."
 verification: listed
 source: "https://github.com/always-further/nono"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "always-further/nono"
   github_stars: 2063

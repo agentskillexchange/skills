@@ -3,10 +3,6 @@ title: "Benchmark virtual agents with scripted multi-turn conversations using Ag
 description: "Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases."
 verification: listed
 source: "https://github.com/awslabs/agent-evaluation"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "awslabs/agent-evaluation"
   github_stars: 358

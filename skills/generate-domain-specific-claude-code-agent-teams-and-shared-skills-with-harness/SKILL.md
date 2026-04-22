@@ -3,10 +3,6 @@ title: "Generate domain-specific Claude Code agent teams and shared skills with 
 description: "Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup."
 verification: listed
 source: "https://github.com/revfactory/harness"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "revfactory/harness"
   github_stars: 2737

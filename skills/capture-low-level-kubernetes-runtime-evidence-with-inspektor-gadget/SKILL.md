@@ -3,10 +3,6 @@ title: "Capture low-level Kubernetes runtime evidence with Inspektor Gadget"
 description: "Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics do not expose."
 verification: listed
 source: "https://github.com/inspektor-gadget/inspektor-gadget"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "inspektor-gadget/inspektor-gadget"
   github_stars: 2792
