@@ -101,6 +101,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](../../skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
+| [Give MCP agents disposable code execution sandboxes with OpenSandbox MCP](../../skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/) | 10.1k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](../../skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
@@ -165,6 +166,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.2k | — |
 | [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](../../skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | 2.1k | — |
+| [Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono](../../skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](../../skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | 2k | — |
 | [Block secret leaks before commit or push with ggshield](../../skills/block-secret-leaks-before-commit-or-push-with-ggshield/) | 1.9k | — |

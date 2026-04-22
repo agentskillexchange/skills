@@ -106,6 +106,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
+| [Run computer-use agents inside cross-OS desktop sandboxes with CUA](../../skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | 13.5k | — |
 | [Browserless Headless Browser Automation Infrastructure](../../skills/browserless-headless-browser-automation-infrastructure/) | 13k | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | 12.9k | — |
 | [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](../../skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | 12.6k | 83.7k/wk |

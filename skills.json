@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2336,
+  "total": 2340,
   "generated": "2026-04-22",
   "skills": [
+    {
+      "slug": "run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua",
+      "name": "Run computer-use agents inside cross-OS desktop sandboxes with CUA",
+      "description": "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 13529
+      }
+    },
+    {
+      "slug": "give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp",
+      "name": "Give MCP agents disposable code execution sandboxes with OpenSandbox MCP",
+      "description": "Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 10148
+      }
+    },
+    {
+      "slug": "run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono",
+      "name": "Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono",
+      "description": "Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit filesystem, network, credential, and snapshot controls.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2063
+      }
+    },
+    {
+      "slug": "gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator",
+      "name": "Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator",
+      "description": "Run Copilot, Claude Code, or Codex on isolated branches, verify each agent claim against real repo evidence, and block merges until automated quality gates…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 83
+      }
+    },
     {
       "slug": "scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa",
       "name": "Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA",

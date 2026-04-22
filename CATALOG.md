@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2336 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-22 01:28 UTC
+> **2340 published skills** across **17 categories** · 2030 security reviewed · Updated 2026-04-22 03:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -305,7 +305,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (212 skills)
+### 🔒 Security & Verification (214 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -372,6 +372,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit. | Published | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](skills/skopeo-container-image-registry-operations-cli/) | Skopeo is a command-line tool for working with container images and registries without requiring a running daemon.… | Security Reviewed | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](skills/magika-ai-file-type-detection-and-content-classification/) | Magika is Google's AI-powered file type detector for fast, content-based identification of binary and text files. It… | Security Reviewed | 10.2k | — |
+| [Give MCP agents disposable code execution sandboxes with OpenSandbox MCP](skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/) | Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code… | Published | 10.1k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](skills/httpx-http-probing-toolkit-projectdiscovery/) | httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It… | Security Reviewed | 9.8k | — |
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted… | Published | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review. | Published | 9k | — |
@@ -436,6 +437,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.2k | — |
 | [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph… | Published | 2.1k | — |
+| [Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono](skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono/) | Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit… | Published | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
 | [Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety](skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/) | Scan Python requirements and environments for known vulnerable or malicious packages before they move further… | Published | 2k | — |
 | [Block secret leaks before commit or push with ggshield](skills/block-secret-leaks-before-commit-or-push-with-ggshield/) | Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of… | Published | 1.9k | — |
@@ -525,7 +527,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (185 skills)
+### 🔧 CI/CD Integrations (186 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -691,6 +693,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with… | Published | 308 | 12.8M/wk |
 | [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more… | Published | 182 | — |
 | [Run only the relevant linters and formatters on changed files with Precious](skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted. | Published | 152 | — |
+| [Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator](skills/gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator/) | Run Copilot, Claude Code, or Codex on isolated branches, verify each agent claim against real repo evidence, and… | Published | 83 | — |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature… | Security Reviewed | 43 | 1k/wk |
 | [Generate structured release notes from merged pull requests between two refs with Copilot Release Notes](skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/) | Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes… | Published | 2 | — |
 | [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages… | Security Reviewed | — | — |
@@ -1985,7 +1988,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (99 skills)
+### 🌐 Browser Automation (100 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2057,6 +2060,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Stagehand is an open-source browser automation framework that combines natural language instructions with code for… | Security Reviewed | 21.8k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](skills/skyvern-ai-browser-workflow-automation/) | Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK… | Security Reviewed | 21k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](skills/playwright-python-browser-automation-library-cross-browser-testing/) | Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives… | Security Reviewed | 14.5k | — |
+| [Run computer-use agents inside cross-OS desktop sandboxes with CUA](skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through… | Published | 13.5k | — |
 | [Browserless Headless Browser Automation Infrastructure](skills/browserless-headless-browser-automation-infrastructure/) | Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a… | Security Reviewed | 13k | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Security Reviewed | 12.9k | — |
 | [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop… | Published | 12.6k | 83.7k/wk |
