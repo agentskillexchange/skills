@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 84.1k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.1k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 84.3k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.3k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 84.1k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.1k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 84.3k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.3k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 73.6k | — |
@@ -123,6 +123,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](../../skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | 8.6k | — |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 7.7k | — |
+| [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | 7.5k | — |
 | [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 6.4k | — |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | 6.2k | — |
@@ -174,7 +175,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | 387 | 170.7k/wk |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 79 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 81 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |

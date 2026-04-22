@@ -1,15 +1,15 @@
 # Skill Categories
 
-> **2347 skills** across **17 categories**
+> **2357 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **270** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **271** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **175** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🔒 | [**Security & Verification**](security-verification/) | **168** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **154** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔒 | [**Security & Verification**](security-verification/) | **169** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **155** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **146** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **145** | Linting rules, review checklists, code standards enforcement, and qua... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **144** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **122** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **114** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **113** | SDK documentation, API guides, framework reference material, and libr... |

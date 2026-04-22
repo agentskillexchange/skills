@@ -143,6 +143,8 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](../../skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | 1.4k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
+| [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
+| [Diagnose Tailscale and proxy conflicts before remote development stalls out](../../skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/) | 910 | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |

@@ -86,7 +86,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
-| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.7k | — |
+| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.8k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.2k | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | 48.1k | — |
@@ -134,7 +134,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 126.4M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 127.6M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -204,7 +204,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
-| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 17.9M/wk |
+| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 18M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.5k | — |
@@ -276,13 +276,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
 | [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | 1.9k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | — |
+| [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
-| [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
+| [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 841 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 390 | — |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |

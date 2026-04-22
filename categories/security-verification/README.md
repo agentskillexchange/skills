@@ -138,11 +138,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.2k | — |
 | [Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard](../../skills/filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard/) | 2.8k | — |
+| [Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide](../../skills/deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide/) | 2.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | 2.6k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |
-| [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.2k | — |
+| [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](../../skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
@@ -153,7 +154,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 910 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 914 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](../../skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | 687 | — |
@@ -171,9 +172,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 127 | — |
 | [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](../../skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | 124 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 121 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 44 | — |

@@ -106,7 +106,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 959k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 969.2k/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
@@ -121,7 +121,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 391 | 982.8k/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 391 | 978.6k/wk |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |

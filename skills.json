@@ -1,8 +1,137 @@
 {
   "version": "2.0",
-  "total": 2347,
+  "total": 2357,
   "generated": "2026-04-22",
   "skills": [
+    {
+      "slug": "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
+      "name": "Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg",
+      "description": "Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images, HTML, and other mixed inputs before downstream review or…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7624
+      }
+    },
+    {
+      "slug": "search-cross-agent-markdown-memory-and-conversation-history-with-memsearch",
+      "name": "Search cross-agent Markdown memory and conversation history with memsearch",
+      "description": "Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1299
+      }
+    },
+    {
+      "slug": "diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out",
+      "name": "Diagnose Tailscale and proxy conflicts before remote development stalls out",
+      "description": "Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 910
+      }
+    },
+    {
+      "slug": "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow",
+      "name": "Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow",
+      "description": "Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or replication packages with specialist-agent review and verification…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 965
+      }
+    },
+    {
+      "slug": "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
+      "name": "Put approval gates and audit-ready policy checks between agents and external actions with DashClaw",
+      "description": "Use DashClaw to intercept agent actions before they hit external systems, require approval or policy evaluation, and keep replayable decision evidence for later review.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 239,
+        "npm_weekly_downloads": 1592
+      }
+    },
+    {
+      "slug": "escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus",
+      "name": "Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus",
+      "description": "Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2788
+      }
+    },
+    {
+      "slug": "find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe",
+      "name": "Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe",
+      "description": "Use Claude Code dedupe to summarize an issue, run several GitHub duplicate searches in parallel, filter false positives, and post only well-supported possible-duplicate links.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 116829,
+        "npm_weekly_downloads": 49934290
+      }
+    },
+    {
+      "slug": "triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue",
+      "name": "Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue",
+      "description": "Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 116829,
+        "npm_weekly_downloads": 49934290
+      }
+    },
+    {
+      "slug": "run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook",
+      "name": "Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook",
+      "description": "Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1059
+      }
+    },
+    {
+      "slug": "deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide",
+      "name": "Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide",
+      "description": "Use an agent-facing OpenClaw security guide to audit a live setup, surface conflicts, and apply a bounded hardening defense matrix with explicit approval gates…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2786
+      }
+    },
     {
       "slug": "distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture",
       "name": "Distill repository rules and workflows into reusable project skills with Skill-Based Architecture",
@@ -486,7 +615,7 @@
       "description": "Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 61
       }
@@ -497,7 +626,7 @@
       "description": "Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 744
       }
@@ -508,7 +637,7 @@
       "description": "Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2140
       }
@@ -657,7 +786,7 @@
       "description": "Use Intercept when an MCP-connected agent needs transport-layer policy enforcement for risky tools, argument limits, spend caps, hidden tools, or rate limits before calls…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 29,
         "npm_weekly_downloads": 343
@@ -669,7 +798,7 @@
       "description": "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 256
       }
@@ -680,7 +809,7 @@
       "description": "Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 521,
         "npm_weekly_downloads": 2528
@@ -692,7 +821,7 @@
       "description": "Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source retrieval instead of brute-reading whole files across a…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1626
       }
@@ -703,7 +832,7 @@
       "description": "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 96
       }
@@ -714,7 +843,7 @@
       "description": "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2853
       }
@@ -725,7 +854,7 @@
       "description": "Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while safe calls continue…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8
       }
@@ -736,7 +865,7 @@
       "description": "Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures through a lightweight operator surface instead…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3303
       }
@@ -747,7 +876,7 @@
       "description": "Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback back to a coding agent…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 127
       }
@@ -758,7 +887,7 @@
       "description": "Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 953
       }
@@ -769,7 +898,7 @@
       "description": "Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1181
       }
@@ -780,7 +909,7 @@
       "description": "Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 717
       }
@@ -869,7 +998,7 @@
       "description": "Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 7687
       }
@@ -880,7 +1009,7 @@
       "description": "Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11873
       }
@@ -891,7 +1020,7 @@
       "description": "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8276,
         "npm_weekly_downloads": 29247
@@ -1018,7 +1147,7 @@
       "description": "Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 37104
       }
@@ -1040,7 +1169,7 @@
       "description": "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4753
       }
@@ -1384,7 +1513,7 @@
       "description": "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 53457,
         "npm_weekly_downloads": 2535676
@@ -1396,7 +1525,7 @@
       "description": "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 159
       }
@@ -1407,7 +1536,7 @@
       "description": "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change,…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4482
       }
@@ -1418,7 +1547,7 @@
       "description": "Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 25
       }
@@ -1429,7 +1558,7 @@
       "description": "Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates, and parallel worktree routines to persist…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1933
       }
@@ -1440,7 +1569,7 @@
       "description": "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 7995
       }
@@ -1451,7 +1580,7 @@
       "description": "Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 979
       }
@@ -1462,7 +1591,7 @@
       "description": "Use warc2text when an agent already has WARC captures and needs readable text, language identification, and exportable records for review, search, or corpus building…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 23
       }
@@ -1473,7 +1602,7 @@
       "description": "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 68
       }
@@ -1484,7 +1613,7 @@
       "description": "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 33
       }
@@ -1495,7 +1624,7 @@
       "description": "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 894
       }
@@ -1594,7 +1723,7 @@
       "description": "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 662
       }
@@ -1605,7 +1734,7 @@
       "description": "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1345
       }
@@ -1616,7 +1745,7 @@
       "description": "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8001
       }
@@ -1627,7 +1756,7 @@
       "description": "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4482
       }
@@ -1836,7 +1965,7 @@
       "description": "Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push encrypted full-system backups to an…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8,
         "npm_weekly_downloads": 295
@@ -1915,7 +2044,7 @@
       "description": "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 40
       }
@@ -1926,7 +2055,7 @@
       "description": "Use OpenCLI to explore a logged-in site, synthesize a deterministic adapter, and expose the result as a reusable CLI command an agent can call…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 16273,
         "npm_weekly_downloads": 10606
@@ -1938,7 +2067,7 @@
       "description": "Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts,…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 889
       }
@@ -1982,7 +2111,7 @@
       "description": "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 12876
       }
@@ -1993,7 +2122,7 @@
       "description": "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22082,
         "npm_weekly_downloads": 25854
@@ -2005,7 +2134,7 @@
       "description": "Use SafeDep Vet as a pre-adoption gate when an agent, maintainer, or CI pipeline is about to add a new dependency or import a…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1013,
         "npm_weekly_downloads": 90
@@ -2017,7 +2146,7 @@
       "description": "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "tool": "claude-agent-sdk-python",
         "github_stars": 6390,
@@ -2030,7 +2159,7 @@
       "description": "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "tool": "mcp-toolbox",
         "github_stars": 14664,
@@ -2043,7 +2172,7 @@
       "description": "Run a Claude Code powered security review pass on trusted pull requests so suspicious auth, secret, injection, and unsafe logic changes surface before merge.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4304
       }
@@ -2054,7 +2183,7 @@
       "description": "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1718
       }
@@ -2065,7 +2194,7 @@
       "description": "Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and…",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 7136
       }
@@ -2677,7 +2806,7 @@
       "description": "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 176
       }
@@ -2710,7 +2839,7 @@
       "description": "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2356
       }
@@ -2721,7 +2850,7 @@
       "description": "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules.",
       "category": [],
       "framework": [],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3382
       }
@@ -34801,7 +34930,7 @@
       "signals": {
         "tool": "netlify",
         "github_stars": 1843,
-        "npm_weekly_downloads": 263702
+        "npm_weekly_downloads": 264297
       }
     },
     {
@@ -34880,7 +35009,7 @@
       "signals": {
         "tool": "notion",
         "github_stars": 5582,
-        "npm_weekly_downloads": 1165601,
+        "npm_weekly_downloads": 1162525,
         "license": "MIT"
       }
     },
@@ -35044,7 +35173,7 @@
       "signals": {
         "tool": "newman",
         "github_stars": 7205,
-        "npm_weekly_downloads": 802612,
+        "npm_weekly_downloads": 804959,
         "license": "Apache-2.0"
       }
     },
@@ -35062,7 +35191,7 @@
       "signals": {
         "tool": "graphql",
         "github_stars": 20323,
-        "npm_weekly_downloads": 34570820,
+        "npm_weekly_downloads": 34699796,
         "license": "MIT"
       }
     },
@@ -35080,7 +35209,7 @@
       "signals": {
         "tool": "swagger",
         "github_stars": 28756,
-        "npm_weekly_downloads": 157680,
+        "npm_weekly_downloads": 156404,
         "license": "Apache-2.0"
       }
     },
@@ -35098,7 +35227,7 @@
       "signals": {
         "tool": "kafka",
         "github_stars": 3992,
-        "npm_weekly_downloads": 2566328
+        "npm_weekly_downloads": 2581278
       }
     },
     {
@@ -35230,7 +35359,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "docker",
-        "github_stars": 71507,
+        "github_stars": 71509,
         "license": "Apache-2.0"
       }
     },
@@ -35263,7 +35392,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "llamaindex",
-        "github_stars": 48699,
+        "github_stars": 48794,
         "license": "MIT"
       }
     },
@@ -35280,8 +35409,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "langchain",
-        "github_stars": 17527,
-        "npm_weekly_downloads": 2176581,
+        "github_stars": 17538,
+        "npm_weekly_downloads": 2166929,
         "license": "MIT"
       }
     },
@@ -35298,8 +35427,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openai",
-        "github_stars": 10821,
-        "npm_weekly_downloads": 17936570,
+        "github_stars": 10828,
+        "npm_weekly_downloads": 17993119,
         "license": "Apache-2.0"
       }
     },
@@ -35331,8 +35460,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4388,
-        "npm_weekly_downloads": 9486580,
+        "github_stars": 4389,
+        "npm_weekly_downloads": 9538463,
         "license": "MIT"
       }
     },
@@ -35350,7 +35479,7 @@
       "signals": {
         "tool": "datadog-api-client-typescript",
         "github_stars": 103,
-        "npm_weekly_downloads": 2059349,
+        "npm_weekly_downloads": 2097388,
         "license": "Apache-2.0"
       }
     },
@@ -35382,7 +35511,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sonarqube",
-        "github_stars": 10455,
+        "github_stars": 10466,
         "license": "LGPL-3.0"
       }
     },
@@ -35399,8 +35528,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "eslint",
-        "github_stars": 27194,
-        "npm_weekly_downloads": 126361287,
+        "github_stars": 27201,
+        "npm_weekly_downloads": 127607017,
         "license": "MIT"
       }
     },
@@ -35417,7 +35546,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "docker",
-        "github_stars": 71501,
+        "github_stars": 71509,
         "license": "Apache-2.0"
       }
     },
@@ -35434,7 +35563,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "aws",
-        "github_stars": 3607,
+        "github_stars": 3608,
         "license": "Apache-2.0"
       }
     },
@@ -35451,7 +35580,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "aws",
-        "github_stars": 3607,
+        "github_stars": 3608,
         "license": "Apache-2.0"
       }
     },
@@ -35468,7 +35597,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sendgrid",
-        "github_stars": 3049,
+        "github_stars": 3048,
         "license": "MIT"
       }
     },
@@ -35485,8 +35614,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "twilio",
-        "github_stars": 1530,
-        "npm_weekly_downloads": 3730748,
+        "github_stars": 1531,
+        "npm_weekly_downloads": 3728545,
         "license": "MIT"
       }
     },
@@ -35503,8 +35632,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4388,
-        "npm_weekly_downloads": 9486580,
+        "github_stars": 4389,
+        "npm_weekly_downloads": 9538463,
         "license": "MIT"
       }
     },
@@ -35521,8 +35650,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "salesforce",
-        "github_stars": 1455,
-        "npm_weekly_downloads": 958978,
+        "github_stars": 1457,
+        "npm_weekly_downloads": 969249,
         "license": "MIT"
       }
     },
@@ -35540,7 +35669,7 @@
       "signals": {
         "tool": "hubspot",
         "github_stars": 391,
-        "npm_weekly_downloads": 982788,
+        "npm_weekly_downloads": 978611,
         "license": "Apache-2.0"
       }
     },
@@ -35557,8 +35686,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "notion",
-        "github_stars": 5589,
-        "npm_weekly_downloads": 1165601,
+        "github_stars": 5588,
+        "npm_weekly_downloads": 1162525,
         "license": "MIT"
       }
     },
@@ -35575,7 +35704,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "grafana",
-        "github_stars": 73311,
+        "github_stars": 73350,
         "license": "AGPL-3.0"
       }
     },
@@ -35592,7 +35721,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "elasticsearch",
-        "github_stars": 76550
+        "github_stars": 76561
       }
     },
     {
@@ -35609,7 +35738,7 @@
       "signals": {
         "tool": "opsgenie",
         "github_stars": 24,
-        "npm_weekly_downloads": 6580,
+        "npm_weekly_downloads": 6895,
         "license": "Apache-2.0"
       }
     },
@@ -35645,7 +35774,7 @@
       "signals": {
         "tool": "datadog",
         "github_stars": 798,
-        "npm_weekly_downloads": 6758291
+        "npm_weekly_downloads": 6783625
       }
     },
     {
@@ -35661,7 +35790,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "pulumi",
-        "github_stars": 25067,
+        "github_stars": 25079,
         "license": "Apache-2.0"
       }
     },
@@ -35678,7 +35807,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "terraform",
-        "github_stars": 48176
+        "github_stars": 48195
       }
     },
     {
@@ -35694,7 +35823,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "argocd",
-        "github_stars": 22653,
+        "github_stars": 22676,
         "license": "Apache-2.0"
       }
     },
@@ -35711,7 +35840,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "circleci",
-        "github_stars": 842
+        "github_stars": 841
       }
     },
     {
@@ -35727,7 +35856,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "jenkins",
-        "github_stars": 25208,
+        "github_stars": 25216,
         "license": "MIT"
       }
     },
@@ -35744,7 +35873,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "atlassian-mcp-server",
-        "github_stars": 599,
+        "github_stars": 606,
         "license": "Apache-2.0"
       }
     },
@@ -35795,7 +35924,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "postgres-mcp",
-        "github_stars": 2563,
+        "github_stars": 2583,
         "license": "MIT"
       }
     },
@@ -35812,8 +35941,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-mcp",
-        "github_stars": 652,
-        "npm_weekly_downloads": 50241
+        "github_stars": 660,
+        "npm_weekly_downloads": 51564
       }
     },
     {
@@ -35829,7 +35958,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "agent-scan",
-        "github_stars": 2193,
+        "github_stars": 2216,
         "license": "Apache-2.0"
       }
     },
@@ -35862,7 +35991,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "clawsec",
-        "github_stars": 910,
+        "github_stars": 914,
         "license": "AGPL-3.0"
       }
     },
@@ -35880,7 +36009,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "claude-code-mcp",
-        "github_stars": 1237,
+        "github_stars": 1238,
         "license": "MIT"
       }
     },
@@ -35897,7 +36026,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "crawl4ai-mcp-server",
-        "github_stars": 79,
+        "github_stars": 81,
         "license": "MIT"
       }
     },
@@ -35914,7 +36043,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "mcp-server",
-        "github_stars": 390,
+        "github_stars": 393,
         "license": "Apache-2.0"
       }
     },
@@ -35943,7 +36072,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "self-improving-agent",
-        "github_stars": 531
+        "github_stars": 543
       }
     },
     {
@@ -35959,7 +36088,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openai",
-        "github_stars": 10821,
+        "github_stars": 10828,
         "license": "Apache-2.0"
       }
     },
@@ -35993,7 +36122,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "ffmpeg",
-        "github_stars": 59132
+        "github_stars": 59184
       }
     },
     {
@@ -36012,7 +36141,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84130
+        "github_stars": 84275
       }
     },
     {
@@ -36028,7 +36157,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "whisper",
-        "github_stars": 98063,
+        "github_stars": 98175,
         "license": "MIT"
       }
     },
@@ -36045,7 +36174,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21040
+        "github_stars": 21046
       }
     },
     {
@@ -36064,7 +36193,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84130
+        "github_stars": 84275
       }
     },
     {
@@ -36082,7 +36211,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-for-ai",
-        "github_stars": 121,
+        "github_stars": 127,
         "license": "MIT"
       }
     },
@@ -36099,7 +36228,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21040
+        "github_stars": 21046
       }
     },
     {
@@ -36118,7 +36247,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84130
+        "github_stars": 84275
       }
     },
     {
@@ -36137,8 +36266,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright-mcp",
-        "github_stars": 31114,
-        "npm_weekly_downloads": 2617828,
+        "github_stars": 31227,
+        "npm_weekly_downloads": 2559044,
         "license": "Apache-2.0"
       }
     },
@@ -36155,7 +36284,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21040
+        "github_stars": 21046
       }
     },
     {
@@ -36172,7 +36301,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright",
-        "github_stars": 86852,
+        "github_stars": 87008,
         "license": "Apache-2.0"
       }
     }
