@@ -48,15 +48,10 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [shadcn/ui — Re-usable UI Component Collection for React](skills/shadcn-ui-react-component-collection/)
+**[Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/)**  
+Category: Uncategorized · Verification: listed · GitHub stars: 116,829 · npm weekly downloads: 49,934,290
 
-
-
-- Tool: `shadcn-ui-react-component-collection`
-- Category: Developer Tools
-- Frameworks: Multi-Framework
-- GitHub stars: 112,069
-- Listing: https://agentskillexchange.com/skills/shadcn-ui-react-component-collection/
+Picked from today's strong popular pool, rotated by UTC day so the repo homepage keeps moving even on quiet sync days.
 
 ---
 
