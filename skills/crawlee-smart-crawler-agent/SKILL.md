@@ -2,11 +2,14 @@
 title: "Crawlee Smart Crawler Agent"
 description: "Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
+source: "https://github.com/apify/crawlee"
 category:
   - "Research &amp; Scraping"
 framework:
   - "Cursor"
+tool_ecosystem:
+  github_repo: "apify/crawlee"
+  github_stars: 22922
 ---
 
 # Crawlee Smart Crawler Agent
@@ -15,27 +18,27 @@ Implements intelligent web crawling using the Crawlee framework with adaptive re
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawlee-smart-crawler-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/crawlee-smart-crawler-agent`.
+Download the skill folder or repository archive and extract `skills/crawlee-smart-crawler-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
