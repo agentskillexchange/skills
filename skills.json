@@ -1,8 +1,123 @@
 {
   "version": "2.0",
-  "total": 2363,
+  "total": 2372,
   "generated": "2026-04-23",
   "skills": [
+    {
+      "slug": "build-and-sync-n8n-workflows-from-code-with-n8n-as-code",
+      "name": "Build and sync n8n workflows from code with n8n-as-code",
+      "description": "Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 884
+      }
+    },
+    {
+      "slug": "prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence",
+      "name": "Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence",
+      "description": "Pull relevant Notion context, tailor an agenda to attendees and decisions, and assemble a structured pre-read for an upcoming meeting.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17293
+      }
+    },
+    {
+      "slug": "address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments",
+      "name": "Address GitHub PR review comments from the current branch with gh-address-comments",
+      "description": "Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17293
+      }
+    },
+    {
+      "slug": "turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation",
+      "name": "Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation",
+      "description": "Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17293
+      }
+    },
+    {
+      "slug": "inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci",
+      "name": "Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci",
+      "description": "Inspect failing GitHub Actions checks on the current PR, pull the actionable log snippet, and stop at an approval gate before implementing a fix.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17293
+      }
+    },
+    {
+      "slug": "investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit",
+      "name": "Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit",
+      "description": "Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided investigation steps for live incidents.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6
+      }
+    },
+    {
+      "slug": "apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill",
+      "name": "Apply Git branching, commit, and pull request best practices through Git Workflow Skill",
+      "description": "Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 13
+      }
+    },
+    {
+      "slug": "broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli",
+      "name": "Broker API credentials to AI agents without exposing raw keys using OneCLI",
+      "description": "Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1857
+      }
+    },
+    {
+      "slug": "benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill",
+      "name": "Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill",
+      "description": "Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an approval-first optimization plan before changing project files.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 978
+      }
+    },
     {
       "slug": "coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw",
       "name": "Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw",
@@ -26987,7 +27102,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 22922
+      }
     },
     {
       "slug": "uptime-robot-multi-check-coordinator",
