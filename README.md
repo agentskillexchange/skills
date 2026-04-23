@@ -6,7 +6,7 @@
 
 [![Published](https://img.shields.io/badge/published-2%2C372-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C980-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C987-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/)
+### [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/)
 
 
 
-- Tool: `manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli`
-- Category: Integrations & Connectors
-- Frameworks: Custom Agents
-- GitHub stars: 49
-- Listing: https://agentskillexchange.com/skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/
+- Tool: `install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits`
+- Category: Developer Tools
+- Frameworks: Multi-Framework
+- GitHub stars: 151
+- Listing: https://agentskillexchange.com/skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/
 
 ---
 
@@ -69,11 +69,11 @@ A rotating recent-popular shelf: newer skills with real traction, trust, and eno
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library & API Reference |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring & Alerts |
-| [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Uncategorized |
-| [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Uncategorized |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai | 26.6k | Templates & Workflows |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage | 12.9k | Runbooks & Diagnostics |
+| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Uncategorized |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth | 6.2k | Data Extraction & Transformation |
+| [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Uncategorized |
 | [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens | 3.7k | Data Extraction & Transformation |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest | 2.9k | CI/CD Integrations |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny | 2.3k | Security & Verification |
@@ -123,7 +123,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 | Tier | Count | Meaning |
 |------|------:|---|
 | 📋 **Published** | 2,372 | In the catalog, every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,980 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 🛡️ **Security Reviewed** | 1,987 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 
