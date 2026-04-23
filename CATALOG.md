@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2372 published skills** across **17 categories** · 1987 security reviewed · Updated 2026-04-23 17:21 UTC
+> **2377 published skills** across **17 categories** · 1987 security reviewed · Updated 2026-04-23 19:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -60,7 +60,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill… | Security Reviewed | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | LazyDocker is a terminal UI for Docker and Docker Compose that provides container management, log viewing, resource… | Security Reviewed | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration.… | Security Reviewed | 49.2k | — |
-| [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is… | Security Reviewed | 48.8k | — |
+| [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is… | Security Reviewed | 48.9k | — |
 | [LlamaIndex Agent](skills/llamaindex-agent/) | LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented… | Security Reviewed | 48.6k | — |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | 48.2k | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | 48.1k | — |
@@ -1587,7 +1587,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | 585 | — |
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Security Reviewed | 556 | — |
-| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | 549 | — |
+| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | 550 | — |
 | [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Security Reviewed | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and… | Published | 473 | — |
@@ -2036,7 +2036,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Security Reviewed | 154.3k | — |
-| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 98.2k | — |
+| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 98.3k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | 97.8k | — |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | 97.8k | — |
