@@ -4,7 +4,7 @@ description: "Lets an agent crawl a live database and produce schema inventories
 verification: listed
 source: "https://github.com/schemacrawler/SchemaCrawler"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Lets an agent crawl a live database and produce schema inventories, dependency v
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler` into your local skills collection.
+- Download the repository ZIP and extract `skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

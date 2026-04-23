@@ -4,12 +4,13 @@ description: "Monitors SonarQube project quality gates via the Web API and block
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433
+  license: "LGPL-3.0"
 ---
 
 # SonarQube Quality Gate Monitor
@@ -18,27 +19,27 @@ Monitors SonarQube project quality gates via the Web API and blocks CI deploymen
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sonarqube-quality-gate-monitor-3
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/sonarqube-quality-gate-monitor-3` into your local skills collection.
+- Download the repository ZIP and extract `skills/sonarqube-quality-gate-monitor-3`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

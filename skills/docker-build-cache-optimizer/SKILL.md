@@ -4,12 +4,13 @@ description: "Optimizes Docker build performance using BuildKit cache mount anal
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
+  license: "Apache-2.0"
 ---
 
 # Docker Build Cache Optimizer
@@ -18,27 +19,27 @@ Optimizes Docker build performance using BuildKit cache mount analysis, docker h
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/docker-build-cache-optimizer/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docker-build-cache-optimizer
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/docker-build-cache-optimizer` into your local skills collection.
+- Download the repository ZIP and extract `skills/docker-build-cache-optimizer`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

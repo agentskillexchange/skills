@@ -4,7 +4,7 @@ description: "Vitest is a blazing-fast unit testing framework powered by Vite. I
 verification: security_reviewed
 source: "https://github.com/vitest-dev/vitest"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Vitest is a blazing-fast unit testing framework powered by Vite. It provides nat
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/vitest-vite-testing-framework/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/vitest-vite-testing-framework
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/vitest-vite-testing-framework` into your local skills collection.
+- Download the repository ZIP and extract `skills/vitest-vite-testing-framework`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

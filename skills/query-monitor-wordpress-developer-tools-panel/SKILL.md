@@ -4,12 +4,13 @@ description: "Query Monitor is the developer tools panel for WordPress and WooCo
 verification: security_reviewed
 source: "https://github.com/johnbillion/query-monitor"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "johnbillion/query-monitor"
   github_stars: 1743
+  license: "GPL-2.0"
 ---
 
 # Query Monitor WordPress Developer Tools Panel
@@ -18,27 +19,27 @@ Query Monitor is the developer tools panel for WordPress and WooCommerce. It ena
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/query-monitor-wordpress-developer-tools-panel/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/query-monitor-wordpress-developer-tools-panel
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/query-monitor-wordpress-developer-tools-panel` into your local skills collection.
+- Download the repository ZIP and extract `skills/query-monitor-wordpress-developer-tools-panel`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

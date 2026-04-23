@@ -4,7 +4,7 @@ description: "Stripe Reporting Agent is built around Stripe payments platform. T
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 4385
   npm_package: "stripe"
   npm_weekly_downloads: 9280426
+  license: "MIT"
 ---
 
 # Stripe Reporting Agent
@@ -20,27 +21,27 @@ Stripe Reporting Agent is built around Stripe payments platform. The underlying 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/stripe-reporting-agent/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stripe-reporting-agent
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/stripe-reporting-agent` into your local skills collection.
+- Download the repository ZIP and extract `skills/stripe-reporting-agent`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
