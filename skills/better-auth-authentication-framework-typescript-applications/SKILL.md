@@ -1,10 +1,10 @@
 ---
 title: "Better Auth Authentication Framework for TypeScript Applications"
 description: "Better Auth is an open source authentication framework for TypeScript apps. It gives agents a concrete way to wire sign-in, sessions, passkeys, OAuth providers, and plugins into modern web stacks with real package and docs support."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/better-auth/better-auth"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,13 @@ Better Auth is an open source authentication framework for TypeScript apps. It g
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/better-auth-authentication-framework-typescript-applications
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/better-auth-authentication-framework-typescript-applications` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
