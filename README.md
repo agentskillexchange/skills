@@ -48,36 +48,36 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [shadcn/ui — Re-usable UI Component Collection for React](skills/shadcn-ui-react-component-collection/)
+### [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/)
 
 
 
-- Tool: `shadcn-ui-react-component-collection`
-- Category: Developer Tools
-- Frameworks: Multi-Framework
-- GitHub stars: 112,069
-- Listing: https://agentskillexchange.com/skills/shadcn-ui-react-component-collection/
+- Tool: `manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli`
+- Category: Integrations & Connectors
+- Frameworks: Custom Agents
+- GitHub stars: 49
+- Listing: https://agentskillexchange.com/skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/
 
 ---
 
 ## Featured Skills
 
-A strong cross-section of high-signal skills across the catalog.
+A rotating recent-popular shelf: newer skills with real traction, trust, and enough diversity to keep the repo feeling alive.
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | openclaw | 356.8k | Developer Tools |
-| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | openclaw | 356.8k | Calendar, Email & Productivity |
-| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | openclaw | 356.8k | Security & Verification |
-| [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | openclaw | 356.8k | Runbooks & Diagnostics |
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | n8n-workflow-webhook-bridge | 182.1k | Integrations & Connectors |
-| [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | ollama-local-llm-runner-model-server | 167.9k | Developer Tools |
-| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | CI/CD Integrations |
-| [Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/) | hugging-face-transformers-ml-library | 159.2k | Developer Tools |
-| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
-| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | langflow-visual-ai-agent-workflow-builder | 146.8k | Templates & Workflows |
-| [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | open-webui-self-hosted-ai-interface | 130.4k | Developer Tools |
-| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | kubernetes | 121.8k | Monitoring & Alerts |
+| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library & API Reference |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring & Alerts |
+| [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Uncategorized |
+| [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Uncategorized |
+| [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai | 26.6k | Templates & Workflows |
+| [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage | 12.9k | Runbooks & Diagnostics |
+| [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth | 6.2k | Data Extraction & Transformation |
+| [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens | 3.7k | Data Extraction & Transformation |
+| [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest | 2.9k | CI/CD Integrations |
+| [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny | 2.3k | Security & Verification |
+| [MSW API Mocking Skill for Frontend and Integration Tests](skills/msw-api-mocking-skill-frontend-integration-tests/) | msw-api-mocking-skill-frontend-integration-tests | 17.8k | Code Quality & Review |
 
 ---
 

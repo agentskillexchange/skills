@@ -6,6 +6,7 @@ python3 - "$REPO_DIR" << 'PYEOF'
 import datetime as dt
 import html
 import json
+import math
 import sys
 import urllib.request
 from pathlib import Path
@@ -79,28 +80,80 @@ for item in items:
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
 
-def item_score(item):
-    return (
-        int(item.get("featured") or 0),
-        int(item.get("github_stars") or 0),
-        int(item.get("npm_weekly_downloads") or 0),
-        1 if item.get("verification") == "security_reviewed" else 0,
-        item.get("title", "").lower(),
-    )
+def parse_dt(raw):
+    if not raw:
+        return None
+    try:
+        return dt.datetime.fromisoformat(str(raw).replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+    except ValueError:
+        return None
 
-pool = [i for i in items if int(i.get("featured") or 0) or int(i.get("github_stars") or 0) > 0 or int(i.get("npm_weekly_downloads") or 0) > 0]
+def recent_popular_components(item):
+    now = dt.datetime.now(dt.timezone.utc)
+    published_at = parse_dt(item.get("date")) or now
+    days_old = max(0, (now - published_at).days)
+    recency_score = max(0, 45 - min(days_old, 45)) * 120
+    weekly_views = int(item.get("views_weekly") or 0)
+    stars = int(item.get("github_stars") or 0)
+    downloads = int(item.get("npm_downloads") or 0)
+    featured_boost = 700 if int(item.get("featured") or 0) else 0
+    trust_score = 900 if item.get("verification") == "security_reviewed" else 350 if item.get("verification") == "verified_metadata" else 0
+    view_score = min(2400, weekly_views * 80)
+    star_score = min(1800, int(math.log(stars + 1) * 180)) if stars > 0 else 0
+    download_score = min(1600, int(math.log(downloads + 1) * 160)) if downloads > 0 else 0
+    score = recency_score + view_score + star_score + download_score + trust_score + featured_boost
+    return {
+        "score": score,
+        "days_old": days_old,
+        "views_weekly": weekly_views,
+        "stars": stars,
+        "downloads": downloads,
+    }
+
+def sort_key(item):
+    rp = item["_recent_popular"]
+    return (-rp["score"], -rp["views_weekly"], rp["days_old"], -rp["stars"], -rp["downloads"], item.get("title", "").lower())
+
+def build_featured(items, limit=12, max_per_category=2):
+    picks = []
+    seen_tools = set()
+    cat_counts = {}
+    ranked = sorted(items, key=sort_key)
+    for item in ranked:
+        tool = (item.get("tool_match") or item.get("slug") or "").strip().lower()
+        if not tool or tool in seen_tools:
+            continue
+        cat = (item.get("categories") or ["Uncategorized"])[0]
+        if cat_counts.get(cat, 0) >= max_per_category:
+            continue
+        seen_tools.add(tool)
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+        picks.append(item)
+        if len(picks) >= limit:
+            return picks
+    if len(picks) < limit:
+        for item in ranked:
+            tool = (item.get("tool_match") or item.get("slug") or "").strip().lower()
+            if not tool or tool in seen_tools:
+                continue
+            seen_tools.add(tool)
+            picks.append(item)
+            if len(picks) >= limit:
+                break
+    return picks
+
+for item in items:
+    item["_recent_popular"] = recent_popular_components(item)
+
+pool = [i for i in items if i["_recent_popular"]["score"] > 0]
 if not pool:
     pool = items[:]
-pool.sort(key=item_score, reverse=True)
+pool.sort(key=sort_key)
 pool = pool[:60] if len(pool) > 60 else pool
 ordinal = dt.datetime.now(dt.timezone.utc).toordinal()
 skill = pool[ordinal % len(pool)] if pool else None
 
-featured = sorted(
-    [i for i in items if int(i.get("github_stars") or 0) > 0],
-    key=lambda i: (int(i.get("github_stars") or 0), int(i.get("npm_weekly_downloads") or 0)),
-    reverse=True,
-)[:12]
+featured = build_featured(pool if pool else items, limit=12)
 
 lines = []
 lines.append('<div align="center">')
@@ -177,7 +230,7 @@ lines.append("---")
 lines.append("")
 lines.append("## Featured Skills")
 lines.append("")
-lines.append("A strong cross-section of high-signal skills across the catalog.")
+lines.append("A rotating recent-popular shelf: newer skills with real traction, trust, and enough diversity to keep the repo feeling alive.")
 lines.append("")
 lines.append("| Skill | Tool | ⭐ Stars | Category |")
 lines.append("|-------|------|--------:|----------|")
