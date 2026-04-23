@@ -1,15 +1,11 @@
 ---
 title: "Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw"
 description: "Run manager-worker agent collaboration in Matrix rooms where humans can watch, intervene, and keep credentials out of worker hands."
-verification: "listed"
+verification: listed
 source: "https://github.com/agentscope-ai/HiClaw"
-category:
-  - "Uncategorized"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agentscope-ai/HiClaw"
-  github_stars: 4227
+  github_stars: 4231
 ---
 
 # Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw
@@ -18,13 +14,27 @@ Run manager-worker agent collaboration in Matrix rooms where humans can watch, i
 
 ## Installation
 
-Choose whichever fits your setup:
+### Option 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
