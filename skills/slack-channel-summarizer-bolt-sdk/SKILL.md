@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 2900
   npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
-  license: "MIT"
 ---
 
 # Slack Channel Summarizer
@@ -21,27 +20,27 @@ Generates channel summaries using Slack Bolt SDK with conversations.history and 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/slack-channel-summarizer-bolt-sdk
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/slack-channel-summarizer-bolt-sdk`.
+Download the skill folder or repository archive and extract `skills/slack-channel-summarizer-bolt-sdk` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
