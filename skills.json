@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 2362,
+  "total": 2363,
   "generated": "2026-04-23",
   "skills": [
+    {
+      "slug": "coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw",
+      "name": "Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw",
+      "description": "Run manager-worker agent collaboration in Matrix rooms where humans can watch, intervene, and keep credentials out of worker hands.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4227
+      }
+    },
     {
       "slug": "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
       "name": "Run repeatable Google Ads and SEO audits inside Claude Code with Toprank",
