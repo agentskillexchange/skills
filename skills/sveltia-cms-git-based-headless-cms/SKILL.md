@@ -4,7 +4,7 @@ description: "Sveltia CMS is a free, open-source, Git-based headless CMS that ru
 verification: security_reviewed
 source: "https://github.com/sveltia/sveltia-cms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 2245
   npm_package: "@sveltia/cms"
   npm_weekly_downloads: 2779
+  license: "MIT"
 ---
 
 # Sveltia CMS Git-Based Headless Content Management System
@@ -20,27 +21,27 @@ Sveltia CMS is a free, open-source, Git-based headless CMS that runs entirely in
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/sveltia-cms-git-based-headless-cms/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sveltia-cms-git-based-headless-cms
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/sveltia-cms-git-based-headless-cms` into your local skills collection.
+- Download the repository ZIP and extract `skills/sveltia-cms-git-based-headless-cms`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

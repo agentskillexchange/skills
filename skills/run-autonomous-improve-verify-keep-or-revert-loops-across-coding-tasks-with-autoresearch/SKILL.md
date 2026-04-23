@@ -3,6 +3,10 @@ title: "Run autonomous improve verify keep-or-revert loops across coding tasks w
 description: "Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts automatically."
 verification: listed
 source: "https://github.com/uditgoenka/autoresearch"
+category:
+  - "Uncategorized"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "uditgoenka/autoresearch"
   github_stars: 3820
@@ -14,27 +18,27 @@ Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one ch
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch` into your local skills collection.
+- Download the repository ZIP and extract `skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -4,7 +4,7 @@ description: "Batch-generates brand assets using the OpenAI Images API with DALL
 verification: security_reviewed
 source: "https://platform.openai.com/docs/guides/images"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 ---
@@ -15,27 +15,27 @@ Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/dall-e-3-brand-asset-batch-generator/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dall-e-3-brand-asset-batch-generator
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/dall-e-3-brand-asset-batch-generator` into your local skills collection.
+- Download the repository ZIP and extract `skills/dall-e-3-brand-asset-batch-generator`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

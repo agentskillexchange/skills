@@ -3,6 +3,10 @@ title: "Compose router, evaluator, and handoff workflows over MCP servers with m
 description: "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles."
 verification: listed
 source: "https://github.com/lastmile-ai/mcp-agent"
+category:
+  - "Uncategorized"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "lastmile-ai/mcp-agent"
   github_stars: 8276
@@ -16,27 +20,27 @@ Connect LLMs to MCP servers through composable patterns like router, evaluator-o
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent` into your local skills collection.
+- Download the repository ZIP and extract `skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

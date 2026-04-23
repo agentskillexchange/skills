@@ -4,10 +4,12 @@ description: "Use Anthropic’s slack-gif-creator skill to build animated GIFs t
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Claude Agents"
 tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116154
 ---
 
 # Generate Slack-ready animated GIFs from custom frame sequences
@@ -16,27 +18,27 @@ Use Anthropic’s slack-gif-creator skill to build animated GIFs that stay insid
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences` into your local skills collection.
+- Download the repository ZIP and extract `skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
