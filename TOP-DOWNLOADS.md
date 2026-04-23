@@ -18,7 +18,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 10 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 11 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 12 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
-| 13 | [OpenAI MCP Server](skills/openai-mcp-server/) | 18M/wk | openai | Developer Tools |
+| 13 | [OpenAI MCP Server](skills/openai-mcp-server/) | 18.5M/wk | openai | Developer Tools |
 | 14 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 15 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
 | 16 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |
@@ -43,8 +43,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 35 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 36 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
 | 37 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 38 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2.2M/wk | langchain | Developer Tools |
-| 39 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 38 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.2M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 39 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2.1M/wk | langchain | Developer Tools |
 | 40 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 41 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
 | 42 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
