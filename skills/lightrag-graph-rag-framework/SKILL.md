@@ -7,9 +7,6 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "hkuds/lightrag"
-  github_stars: 33160
 ---
 
 # LightRAG Graph-Based Retrieval-Augmented Generation Framework
@@ -18,13 +15,27 @@ LightRAG is a Python-based retrieval-augmented generation framework that builds 
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/lightrag-graph-rag-framework/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lightrag-graph-rag-framework
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/lightrag-graph-rag-framework`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,6 +1,6 @@
 ---
 title: "Audio Stem Separator with Demucs"
-description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
+description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
 verification: security_reviewed
 source: "https://github.com/adefossez/demucs"
 category:
@@ -14,17 +14,31 @@ tool_ecosystem:
 
 # Audio Stem Separator with Demucs
 
-Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
+Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/audio-stem-separator-demucs/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audio-stem-separator-demucs
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/audio-stem-separator-demucs`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

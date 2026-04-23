@@ -1,6 +1,6 @@
 ---
 title: "Bubble.io Stripe Subscription Portal Builder"
-description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
+description: "Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
 verification: security_reviewed
 source: "https://manual.bubble.io/"
 category:
@@ -11,17 +11,31 @@ framework:
 
 # Bubble.io Stripe Subscription Portal Builder
 
-Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
+Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bubble-stripe-subscription-portal
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/bubble-stripe-subscription-portal`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

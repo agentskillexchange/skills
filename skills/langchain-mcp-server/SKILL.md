@@ -1,6 +1,6 @@
 ---
 title: "LangChain MCP Server"
-description: "LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving […]"
+description: "LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/langchain-ai/langchainjs"
 category:
@@ -12,22 +12,35 @@ tool_ecosystem:
   github_stars: 17538
   npm_package: "langchain"
   npm_weekly_downloads: 2166929
-  license: "MIT"
 ---
 
 # LangChain MCP Server
 
-LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving […]
+LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving [&hellip;]
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/langchain-mcp-server/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/langchain-mcp-server
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/langchain-mcp-server`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

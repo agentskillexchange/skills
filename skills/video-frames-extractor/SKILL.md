@@ -1,36 +1,41 @@
 ---
 title: "Video Frames Extractor"
-description: "Extract frames and short clips from videos.\n\nCore Capabilities\n\nProcess audio and video files using ffmpeg for transcription and analysis\n\nExtract text, timestamps, and speaker metadata from media cont"
+description: "Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont"
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
   - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 59184
 ---
 
 # Video Frames Extractor
 
-Extract frames and short clips from videos.
-
-Core Capabilities
-
-Process audio and video files using ffmpeg for transcription and analysis
-
-Extract text, timestamps, and speaker metadata from media cont
+Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/video-frames-extractor/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/video-frames-extractor
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/video-frames-extractor`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

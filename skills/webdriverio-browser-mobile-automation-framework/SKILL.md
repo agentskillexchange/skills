@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 9762
   npm_package: "webdriverio"
   npm_weekly_downloads: 2683038
-  license: "MIT"
 ---
 
 # WebdriverIO Next-Gen Browser and Mobile Automation Framework
@@ -21,13 +20,27 @@ WebdriverIO is a next-generation browser and mobile automation test framework fo
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/webdriverio-browser-mobile-automation-framework/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/webdriverio-browser-mobile-automation-framework
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/webdriverio-browser-mobile-automation-framework`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

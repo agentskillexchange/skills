@@ -18,13 +18,27 @@ Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API an
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitlab-ci-pipeline-dependency-tracer
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/gitlab-ci-pipeline-dependency-tracer`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

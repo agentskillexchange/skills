@@ -1,6 +1,6 @@
 ---
 title: "DynamoDB Manager"
-description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]"
+description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
@@ -10,22 +10,35 @@ framework:
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
-  license: "Apache-2.0"
 ---
 
 # DynamoDB Manager
 
-DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]
+DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational [&hellip;]
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/dynamodb-manager/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dynamodb-manager
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/dynamodb-manager`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,5 +1,5 @@
 ---
-title: "NPM Package Audit & License Checker"
+title: "NPM Package Audit &#038; License Checker"
 description: "Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker/"
@@ -9,19 +9,33 @@ framework:
   - "Claude Code"
 ---
 
-# NPM Package Audit & License Checker
+# NPM Package Audit &#038; License Checker
 
 Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/npm-package-audit-license-checker/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/npm-package-audit-license-checker
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/npm-package-audit-license-checker`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

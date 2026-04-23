@@ -7,10 +7,6 @@ category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "twin/gatus"
-  github_stars: 10652
-  license: "Apache-2.0"
 ---
 
 # Gatus Endpoint Monitoring and Status Page Platform
@@ -19,13 +15,27 @@ Gatus is an open source uptime and endpoint monitoring platform built for develo
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gatus-endpoint-monitoring-status-page-platform/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gatus-endpoint-monitoring-status-page-platform
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/gatus-endpoint-monitoring-status-page-platform`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

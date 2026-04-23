@@ -1,6 +1,6 @@
 ---
 title: "HeadstartWP Headless WordPress and Next.js Framework"
-description: "HeadstartWP is 10up’s open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster."
+description: "HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster."
 verification: security_reviewed
 source: "https://github.com/10up/headstartwp"
 category:
@@ -14,17 +14,31 @@ tool_ecosystem:
 
 # HeadstartWP Headless WordPress and Next.js Framework
 
-HeadstartWP is 10up’s open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster.
+HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/headstartwp-headless-wordpress-nextjs-framework/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/headstartwp-headless-wordpress-nextjs-framework
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/headstartwp-headless-wordpress-nextjs-framework`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

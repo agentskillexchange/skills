@@ -1,5 +1,5 @@
 ---
-title: "Gitea Repository & Pull Request Automation"
+title: "Gitea Repository &#038; Pull Request Automation"
 description: "Automates repository administration, pull request workflows, issue triage, and release operations against Gitea using its REST API and webhook system. Useful for self-hosted software teams that want GitHub-like automation without leaving their own infrastructure."
 verification: security_reviewed
 source: "https://github.com/go-gitea/gitea"
@@ -10,22 +10,35 @@ framework:
 tool_ecosystem:
   github_repo: "go-gitea/gitea"
   github_stars: 54880
-  license: "MIT"
 ---
 
-# Gitea Repository & Pull Request Automation
+# Gitea Repository &#038; Pull Request Automation
 
 Automates repository administration, pull request workflows, issue triage, and release operations against Gitea using its REST API and webhook system. Useful for self-hosted software teams that want GitHub-like automation without leaving their own infrastructure.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gitea-repository-pull-request-automation/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitea-repository-pull-request-automation
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/gitea-repository-pull-request-automation`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

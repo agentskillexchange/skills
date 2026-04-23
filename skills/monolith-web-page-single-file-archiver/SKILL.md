@@ -7,10 +7,6 @@ category:
   - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "y2z/monolith"
-  github_stars: 14932
-  license: "CC0-1.0"
 ---
 
 # Monolith Web Page Archiver and Single-File Bundler
@@ -19,13 +15,27 @@ Monolith is a CLI tool and Rust library that saves complete web pages as a singl
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/monolith-web-page-single-file-archiver/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/monolith-web-page-single-file-archiver
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/monolith-web-page-single-file-archiver`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

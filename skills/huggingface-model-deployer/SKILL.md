@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159358
-  license: "Apache-2.0"
 ---
 
 # Hugging Face Model Deployer
@@ -19,13 +18,27 @@ Deploys models from Hugging Face Hub to Inference Endpoints using the huggingfac
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/huggingface-model-deployer/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/huggingface-model-deployer
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/huggingface-model-deployer`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

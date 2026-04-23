@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "newsboat/newsboat"
   github_stars: 3750
-  license: "MIT"
 ---
 
 # Newsboat Terminal RSS and Atom Feed Reader
@@ -19,13 +18,27 @@ Newsboat is an actively maintained RSS/Atom feed reader for the text console. A 
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/newsboat-terminal-rss-atom-feed-reader/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/newsboat-terminal-rss-atom-feed-reader
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/newsboat-terminal-rss-atom-feed-reader`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

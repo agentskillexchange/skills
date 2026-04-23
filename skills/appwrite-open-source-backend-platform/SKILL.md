@@ -1,6 +1,6 @@
 ---
 title: "Appwrite Open-Source Backend Platform"
-description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
+description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
 verification: security_reviewed
 source: "https://github.com/appwrite/appwrite"
 category:
@@ -14,17 +14,31 @@ tool_ecosystem:
 
 # Appwrite Open-Source Backend Platform
 
-Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
+Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/appwrite-open-source-backend-platform/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/appwrite-open-source-backend-platform
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/appwrite-open-source-backend-platform`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

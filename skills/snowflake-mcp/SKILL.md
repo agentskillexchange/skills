@@ -1,6 +1,6 @@
 ---
 title: "Snowflake MCP"
-description: "Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the skill […]"
+description: "Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the skill [&hellip;]"
 verification: security_reviewed
 source: "https://pypi.org/project/snowflake-connector-python/"
 category:
@@ -11,17 +11,31 @@ framework:
 
 # Snowflake MCP
 
-Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the skill […]
+Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the skill [&hellip;]
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/snowflake-mcp/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/snowflake-mcp
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/snowflake-mcp`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

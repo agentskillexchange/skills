@@ -1,6 +1,6 @@
 ---
 title: "Review open pull requests against repository contribution guidelines"
-description: "This entry turns GitHub Next’s Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters."
+description: "This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters."
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/contribution-check.md"
 category:
@@ -10,22 +10,35 @@ framework:
 tool_ecosystem:
   github_repo: "githubnext/agentics"
   github_stars: 585
-  license: "MIT"
 ---
 
 # Review open pull requests against repository contribution guidelines
 
-This entry turns GitHub Next’s Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters.
+This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/review-open-pull-requests-against-repository-contribution-guidelines/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-open-pull-requests-against-repository-contribution-guidelines
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/review-open-pull-requests-against-repository-contribution-guidelines`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

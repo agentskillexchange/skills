@@ -1,38 +1,41 @@
 ---
 title: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast.\n\nCore Capabilities\n\nManage WordPress sites using WP-CLI and the WordPress REST API\n\nAutomate plugin, theme, and core update workflows\n\nHandle content op"
+description: "Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op"
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
   - "WordPress &amp; CMS"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "wordpress/wordpress"
-  github_stars: 21046
 ---
 
 # WordPress Router
 
-Route WordPress tasks to the right workflow fast.
-
-Core Capabilities
-
-Manage WordPress sites using WP-CLI and the WordPress REST API
-
-Automate plugin, theme, and core update workflows
-
-Handle content op
+Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/wordpress-router/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wordpress-router
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/wordpress-router`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

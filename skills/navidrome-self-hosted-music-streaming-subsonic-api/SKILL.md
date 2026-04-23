@@ -1,6 +1,6 @@
 ---
 title: "Navidrome Self-Hosted Music Streaming Server and Subsonic API"
-description: "Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome’s native REST endpoints."
+description: "Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome's native REST endpoints."
 verification: security_reviewed
 source: "https://github.com/navidrome/navidrome"
 category:
@@ -14,17 +14,31 @@ tool_ecosystem:
 
 # Navidrome Self-Hosted Music Streaming Server and Subsonic API
 
-Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome’s native REST endpoints.
+Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome's native REST endpoints.
 
 ## Installation
 
-Choose the method that fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+- Install from the marketplace listing: https://agentskillexchange.com/skills/navidrome-self-hosted-music-streaming-subsonic-api/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/navidrome-self-hosted-music-streaming-subsonic-api
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/navidrome-self-hosted-music-streaming-subsonic-api`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
