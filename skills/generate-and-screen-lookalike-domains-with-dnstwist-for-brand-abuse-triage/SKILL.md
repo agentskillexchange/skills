@@ -3,10 +3,6 @@ title: "Generate and screen lookalike domains with dnstwist for brand abuse tria
 description: "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review."
 verification: listed
 source: "https://github.com/elceef/dnstwist"
-category:
-  - "Uncategorized"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elceef/dnstwist"
   github_stars: 5656
@@ -18,27 +14,27 @@ Generate typosquat and homograph domain candidates, resolve them, and flag likel
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage`.
+Download the skill folder or repository archive and extract `skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

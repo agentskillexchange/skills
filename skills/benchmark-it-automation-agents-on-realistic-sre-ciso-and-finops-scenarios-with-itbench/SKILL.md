@@ -3,10 +3,6 @@ title: "Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenar
 description: "Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations."
 verification: listed
 source: "https://github.com/itbench-hub/ITBench"
-category:
-  - "Uncategorized"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "itbench-hub/ITBench"
   github_stars: 308
@@ -18,27 +14,27 @@ Run realistic enterprise-style IT scenarios before trusting an automation agent 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench`.
+Download the skill folder or repository archive and extract `skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -4,13 +4,12 @@ description: "Batch-generate images through the OpenAI Images API with a prompt 
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10836
-  license: "Apache-2.0"
 ---
 
 # OpenAI Image Gen
@@ -19,27 +18,27 @@ Batch-generate images through the OpenAI Images API with a prompt sampler and ga
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/openai-image-gen/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openai-image-gen
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/openai-image-gen`.
+Download the skill folder or repository archive and extract `skills/openai-image-gen` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

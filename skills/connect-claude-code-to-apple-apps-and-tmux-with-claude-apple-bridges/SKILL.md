@@ -3,10 +3,6 @@ title: "Connect Claude Code to Apple apps and tmux with Claude Apple Bridges"
 description: "Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware personal ops on macOS."
 verification: listed
 source: "https://github.com/more-io/claude-apple-bridges"
-category:
-  - "Uncategorized"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "more-io/claude-apple-bridges"
   github_stars: 9
@@ -18,27 +14,27 @@ Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, M
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges`.
+Download the skill folder or repository archive and extract `skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

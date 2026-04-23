@@ -3,10 +3,6 @@ title: "Capture low-level Kubernetes runtime evidence with Inspektor Gadget"
 description: "Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics do not expose."
 verification: listed
 source: "https://github.com/inspektor-gadget/inspektor-gadget"
-category:
-  - "Uncategorized"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "inspektor-gadget/inspektor-gadget"
   github_stars: 2792
@@ -18,27 +14,27 @@ Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget`.
+Download the skill folder or repository archive and extract `skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -3,10 +3,6 @@ title: "Use an escalating scrape strategy in Claude Code before reaching for bro
 description: "Start with cheap static fetches, escalate to a browser only when needed, validate findings, and turn the result into a production-ready scraping approach."
 verification: listed
 source: "https://github.com/yfe404/web-scraper"
-category:
-  - "Uncategorized"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "yfe404/web-scraper"
   github_stars: 38
@@ -18,27 +14,27 @@ Start with cheap static fetches, escalate to a browser only when needed, validat
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation`.
+Download the skill folder or repository archive and extract `skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

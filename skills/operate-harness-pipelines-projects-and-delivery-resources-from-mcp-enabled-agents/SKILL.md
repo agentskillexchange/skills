@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 43
   npm_package: "harness-mcp-v2"
   npm_weekly_downloads: 1019
-  license: "Apache-2.0"
 ---
 
 # Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents
@@ -21,27 +20,27 @@ Use the Harness MCP Server when an agent needs governed access to Harness pipeli
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents`.
+Download the skill folder or repository archive and extract `skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

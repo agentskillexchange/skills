@@ -3,10 +3,6 @@ title: "Turn notes, logs, and screenshots into structured GitHub issues with Git
 description: "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence."
 verification: listed
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/github-issue-creator"
-category:
-  - "Uncategorized"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/skills"
   github_stars: 2103
@@ -18,27 +14,27 @@ Convert messy bug notes, error logs, voice dictation, and screenshots into crisp
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator`.
+Download the skill folder or repository archive and extract `skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

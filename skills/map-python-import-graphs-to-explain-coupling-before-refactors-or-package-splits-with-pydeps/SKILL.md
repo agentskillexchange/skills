@@ -3,10 +3,6 @@ title: "Map Python import graphs to explain coupling before refactors or package
 description: "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork."
 verification: listed
 source: "https://github.com/thebjorn/pydeps"
-category:
-  - "Uncategorized"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thebjorn/pydeps"
   github_stars: 2076
@@ -18,27 +14,27 @@ Generate Python module dependency graphs so refactors and package splits start f
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps`.
+Download the skill folder or repository archive and extract `skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

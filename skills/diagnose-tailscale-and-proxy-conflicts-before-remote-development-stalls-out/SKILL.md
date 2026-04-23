@@ -4,7 +4,7 @@ description: "Use tunnel-doctor in Claude Code when Tailscale partially works bu
 verification: security_reviewed
 source: "https://github.com/daymade/claude-code-skills/blob/main/tunnel-doctor/SKILL.md"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out`.
+Download the skill folder or repository archive and extract `skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

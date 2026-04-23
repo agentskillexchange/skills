@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "dagger/dagger"
   github_stars: 15582
-  license: "Apache-2.0"
 ---
 
 # Dagger Programmable CI/CD Automation Engine
@@ -19,27 +18,27 @@ Dagger is an open-source automation engine for building, testing, and shipping a
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/dagger-programmable-cicd-automation-engine/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dagger-programmable-cicd-automation-engine
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/dagger-programmable-cicd-automation-engine`.
+Download the skill folder or repository archive and extract `skills/dagger-programmable-cicd-automation-engine` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

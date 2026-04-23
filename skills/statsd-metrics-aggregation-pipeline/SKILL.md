@@ -4,7 +4,7 @@ description: "Configures StatsD metric collection with custom aggregation rules 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 ---
@@ -15,27 +15,27 @@ Configures StatsD metric collection with custom aggregation rules and flush inte
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/statsd-metrics-aggregation-pipeline
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/statsd-metrics-aggregation-pipeline`.
+Download the skill folder or repository archive and extract `skills/statsd-metrics-aggregation-pipeline` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

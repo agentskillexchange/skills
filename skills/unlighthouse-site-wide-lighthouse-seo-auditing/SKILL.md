@@ -4,7 +4,7 @@ description: "Unlighthouse runs Google Lighthouse across an entire site instead 
 verification: security_reviewed
 source: "https://github.com/harlan-zw/unlighthouse"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 4469
   npm_package: "unlighthouse"
   npm_weekly_downloads: 15320
-  license: "MIT"
 ---
 
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing
@@ -21,27 +20,27 @@ Unlighthouse runs Google Lighthouse across an entire site instead of just a sing
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/unlighthouse-site-wide-lighthouse-seo-auditing
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/unlighthouse-site-wide-lighthouse-seo-auditing`.
+Download the skill folder or repository archive and extract `skills/unlighthouse-site-wide-lighthouse-seo-auditing` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -3,10 +3,6 @@ title: "Run blocked-site browser tasks through anti-bot friendly sessions with C
 description: "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation."
 verification: listed
 source: "https://github.com/jo-inc/camofox-browser"
-category:
-  - "Uncategorized"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "jo-inc/camofox-browser"
   github_stars: 2853
@@ -18,27 +14,27 @@ Use Camofox Browser to route agent browser work through an anti-detection browse
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser`.
+Download the skill folder or repository archive and extract `skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
