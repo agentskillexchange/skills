@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "jrnl-org/jrnl"
   github_stars: 7195
+  license: "GPL-3.0"
 ---
 
 # jrnl Command-Line Journal and Note Capture Tool
@@ -18,27 +19,13 @@ jrnl is a command-line journal application that lets you capture thoughts and no
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose the method that fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jrnl-command-line-journal-note-capture
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/jrnl-command-line-journal-note-capture` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

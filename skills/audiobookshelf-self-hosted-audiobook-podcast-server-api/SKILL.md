@@ -1,6 +1,6 @@
 ---
 title: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
-description: "Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
+description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
 verification: security_reviewed
 source: "https://github.com/advplyr/audiobookshelf"
 category:
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
 
-Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
+Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose the method that fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audiobookshelf-self-hosted-audiobook-podcast-server-api
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/audiobookshelf-self-hosted-audiobook-podcast-server-api` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

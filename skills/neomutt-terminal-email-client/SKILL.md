@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "neomutt/neomutt"
   github_stars: 3685
+  license: "GPL-2.0"
 ---
 
 # NeoMutt Feature-Rich Terminal Email Client
@@ -18,27 +19,13 @@ NeoMutt is an actively maintained fork of the classic Mutt email client that bri
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose the method that fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/neomutt-terminal-email-client
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/neomutt-terminal-email-client` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

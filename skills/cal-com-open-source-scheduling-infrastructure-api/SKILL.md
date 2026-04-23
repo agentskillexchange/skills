@@ -1,6 +1,6 @@
 ---
 title: "Cal.com Open Source Scheduling Infrastructure and API"
-description: "Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API."
+description: "Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API."
 verification: security_reviewed
 source: "https://github.com/calcom/cal.com"
 category:
@@ -14,31 +14,17 @@ tool_ecosystem:
 
 # Cal.com Open Source Scheduling Infrastructure and API
 
-Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API.
+Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API.
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose the method that fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cal-com-open-source-scheduling-infrastructure-api
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/cal-com-open-source-scheduling-infrastructure-api` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
