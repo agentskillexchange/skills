@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 2361,
-  "generated": "2026-04-22",
+  "total": 2362,
+  "generated": "2026-04-23",
   "skills": [
+    {
+      "slug": "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
+      "name": "Run repeatable Google Ads and SEO audits inside Claude Code with Toprank",
+      "description": "Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash commands, account-backed analysis, and…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 444
+      }
+    },
     {
       "slug": "red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam",
       "name": "Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam",
