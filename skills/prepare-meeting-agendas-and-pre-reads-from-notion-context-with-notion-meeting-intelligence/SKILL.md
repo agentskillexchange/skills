@@ -4,8 +4,6 @@ description: "Pull relevant Notion context, tailor an agenda to attendees and de
 verification: listed
 source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence"
 tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 
 # Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence

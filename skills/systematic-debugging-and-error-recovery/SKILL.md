@@ -4,8 +4,6 @@ description: "Stop guessing when something breaks, preserve evidence, reproduce 
 verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
 tool_ecosystem:
-  github_repo: "addyosmani/agent-skills"
-  github_stars: 17417
 ---
 
 # Systematic Debugging and Error Recovery
