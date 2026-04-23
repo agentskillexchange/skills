@@ -146,6 +146,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](../../skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | 1.9k | — |
+| [Broker API credentials to AI agents without exposing raw keys using OneCLI](../../skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
 | [Sweep GitHub for leaked secrets and exposed credentials with git-hound](../../skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | 1.4k | — |

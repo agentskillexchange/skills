@@ -67,6 +67,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Colly Golang Web Scraper and Crawler Framework](../../skills/colly-golang-web-scraper-crawler-framework/) | 25.2k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
 | [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | 23.3k | — |
+| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | 22.9k | — |
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.8k | 80.8k/wk |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
@@ -117,7 +118,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | — | — |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | — | — |
-| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |

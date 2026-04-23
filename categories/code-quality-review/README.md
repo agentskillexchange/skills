@@ -148,6 +148,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](../../skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | 1k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](../../skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | 995 | — |
+| [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](../../skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | 978 | — |
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](../../skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | 977 | 18.6k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | — |
@@ -166,6 +167,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Prove whether a prompt or model variant really won before shipping with promptstats](../../skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/) | 97 | 678/wk |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](../../skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | 84 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
+| [Apply Git branching, commit, and pull request best practices through Git Workflow Skill](../../skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/) | 13 | — |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 703.6k/wk |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |

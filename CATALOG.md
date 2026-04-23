@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2363 published skills** across **17 categories** · 1980 security reviewed · Updated 2026-04-23 03:22 UTC
+> **2367 published skills** across **17 categories** · 1980 security reviewed · Updated 2026-04-23 05:25 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -470,7 +470,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (169 skills)
+### 🔒 Security & Verification (170 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -585,6 +585,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc… | Published | 1.9k | — |
+| [Broker API credentials to AI agents without exposing raw keys using OneCLI](skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli/) | Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without… | Published | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Published | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
 | [Sweep GitHub for leaked secrets and exposed credentials with git-hound](skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not… | Published | 1.4k | — |
@@ -810,7 +811,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (146 skills)
+### 📋 Runbooks & Diagnostics (147 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -935,6 +936,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Improve Qdrant vector search relevance and retrieval quality](skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches,… | Security Reviewed | 65 | — |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review… | Published | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional… | Published | 11 | — |
+| [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided… | Published | 6 | — |
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance… | Security Reviewed | — | 23.2M/wk |
@@ -964,7 +966,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (145 skills)
+### ✅ Code Quality & Review (147 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1078,6 +1080,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime. | Published | 1.1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit… | Published | 1k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Published | 995 | — |
+| [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an… | Published | 978 | — |
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching… | Security Reviewed | 977 | 18.6k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work. | Published | 872 | — |
@@ -1096,6 +1099,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Prove whether a prompt or model variant really won before shipping with promptstats](skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/) | Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not… | Published | 97 | 678/wk |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change… | Published | 84 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can… | Published | 22 | 9/wk |
+| [Apply Git branching, commit, and pull request best practices through Git Workflow Skill](skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/) | Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices,… | Published | 13 | — |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused… | Security Reviewed | — | 703.6k/wk |
 | [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates… | Security Reviewed | — | — |
 | [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt… | Security Reviewed | — | — |
@@ -1638,6 +1642,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Colly Golang Web Scraper and Crawler Framework](skills/colly-golang-web-scraper-crawler-framework/) | Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page… | Security Reviewed | 25.2k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](skills/karakeep-bookmark-manager-ai-tagging/) | Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered… | Security Reviewed | 24.5k | — |
 | [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](skills/scrapegraphai-llm-web-scraping/) | ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent… | Security Reviewed | 23.3k | — |
+| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | 22.9k | — |
 | [Crawlee Web Crawling and Scraping SDK](skills/crawlee-web-crawling-and-scraping-sdk/) | Crawlee is Apify's open source web crawling and scraping library for Node.js. It combines request queueing, browser… | Security Reviewed | 22.8k | 80.8k/wk |
 | [Crawlee Web Crawling and Scraping Library by Apify](skills/crawlee-web-crawling-and-scraping-library-by-apify/) | Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser… | Security Reviewed | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](skills/crawlee-web-crawling-browser-automation-library/) | Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library.… | Security Reviewed | 22.6k | 72.5k/wk |
@@ -1688,7 +1693,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
 | [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | — | — |
 | [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
-| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
 | [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | — | — |
 | [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |

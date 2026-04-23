@@ -159,6 +159,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 65 | — |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](../../skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](../../skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | 11 | — |
+| [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](../../skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | 6 | — |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | — | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | — | 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | — | 23.2M/wk |
