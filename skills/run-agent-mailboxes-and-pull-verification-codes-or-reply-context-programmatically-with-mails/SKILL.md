@@ -3,6 +3,10 @@ title: "Run agent mailboxes and pull verification codes or reply context program
 description: "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client."
 verification: "listed"
 source: "https://github.com/chekusu/mails"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chekusu/mails"
   github_stars: 294

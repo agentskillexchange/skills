@@ -3,6 +3,10 @@ title: "Scan agent workflows for tools, MCP exposure, and adversarial risk with 
 description: "Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before rollout."
 verification: "listed"
 source: "https://github.com/splx-ai/agentic-radar"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "splx-ai/agentic-radar"
   github_stars: 953

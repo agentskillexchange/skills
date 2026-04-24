@@ -3,6 +3,10 @@ title: "Collect Unix-like incident-response artifacts into one portable evidence
 description: "Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host."
 verification: "listed"
 source: "https://github.com/tclahr/uac"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tclahr/uac"
   github_stars: 1306

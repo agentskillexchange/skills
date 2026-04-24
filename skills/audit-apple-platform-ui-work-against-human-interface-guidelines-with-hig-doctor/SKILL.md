@@ -3,6 +3,10 @@ title: "Audit Apple-platform UI work against Human Interface Guidelines with HIG
 description: "Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation."
 verification: "listed"
 source: "https://github.com/raintree-technology/hig-doctor"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "raintree-technology/hig-doctor"
   github_stars: 44

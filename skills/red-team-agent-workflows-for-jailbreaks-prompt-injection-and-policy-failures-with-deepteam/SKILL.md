@@ -3,6 +3,10 @@ title: "Red-team agent workflows for jailbreaks, prompt injection, and policy fa
 description: "Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout."
 verification: "listed"
 source: "https://github.com/confident-ai/deepteam"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "confident-ai/deepteam"
   github_stars: 1566

@@ -3,6 +3,10 @@ title: "Escalate risky coding tasks into multi-model debate and consensus gates 
 description: "Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping."
 verification: "listed"
 source: "https://github.com/nyldn/claude-octopus"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "nyldn/claude-octopus"
   github_stars: 2806

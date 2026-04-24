@@ -3,6 +3,10 @@ title: "Simulate agent scenarios, trace failures, and watch production regressio
 description: "Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring."
 verification: "listed"
 source: "https://github.com/langwatch/langwatch"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "langwatch/langwatch"
   github_stars: 3206

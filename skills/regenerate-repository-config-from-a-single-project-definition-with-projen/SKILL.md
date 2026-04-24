@@ -3,6 +3,10 @@ title: "Regenerate repository config from a single project definition with proje
 description: "Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files."
 verification: "listed"
 source: "https://github.com/projen/projen"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "projen/projen"
   github_stars: 2918

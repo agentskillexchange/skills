@@ -3,6 +3,10 @@ title: "Review REST API designs before implementation for versioning, security, 
 description: "Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design quality, security, resilience, and missing contract decisions."
 verification: "listed"
 source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/review-api-design"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "psenger/ai-agent-skills"
   github_stars: 0

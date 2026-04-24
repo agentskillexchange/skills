@@ -3,6 +3,10 @@ title: "Capture Linux runtime security events and suspicious behavior for live t
 description: "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork."
 verification: "listed"
 source: "https://github.com/aquasecurity/tracee"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/tracee"
   github_stars: 4468

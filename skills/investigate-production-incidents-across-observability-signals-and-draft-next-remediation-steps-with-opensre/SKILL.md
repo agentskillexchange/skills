@@ -3,6 +3,10 @@ title: "Investigate production incidents across observability signals and draft 
 description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
 verification: "listed"
 source: "https://github.com/Tracer-Cloud/opensre"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Tracer-Cloud/opensre"
   github_stars: 1979

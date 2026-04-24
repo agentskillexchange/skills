@@ -3,6 +3,10 @@ title: "Provision Rust CLI toolchains from prebuilt binaries in fresh environmen
 description: "Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds."
 verification: "listed"
 source: "https://github.com/cargo-bins/cargo-binstall"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cargo-bins/cargo-binstall"
   github_stars: 2610

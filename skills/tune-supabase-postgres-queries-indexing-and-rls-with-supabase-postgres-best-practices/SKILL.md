@@ -3,6 +3,10 @@ title: "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres
 description: "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase’s own prioritized guidance."
 verification: "listed"
 source: "https://github.com/supabase/agent-skills/tree/main/supabase-postgres-best-practices"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "supabase/agent-skills"
   github_stars: 1977

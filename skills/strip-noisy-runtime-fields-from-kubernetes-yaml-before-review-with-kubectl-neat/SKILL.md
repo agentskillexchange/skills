@@ -3,6 +3,10 @@ title: "Strip noisy runtime fields from Kubernetes YAML before review with kubec
 description: "Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work."
 verification: "listed"
 source: "https://github.com/itaysk/kubectl-neat"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "itaysk/kubectl-neat"
   github_stars: 2057

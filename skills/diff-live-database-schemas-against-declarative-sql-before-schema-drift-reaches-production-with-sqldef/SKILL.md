@@ -3,6 +3,10 @@ title: "Diff live database schemas against declarative SQL before schema drift r
 description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases."
 verification: "listed"
 source: "https://github.com/sqldef/sqldef"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sqldef/sqldef"
   github_stars: 3076

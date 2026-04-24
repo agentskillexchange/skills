@@ -3,6 +3,10 @@ title: "Map Python import graphs to explain coupling before refactors or package
 description: "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork."
 verification: "listed"
 source: "https://github.com/thebjorn/pydeps"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thebjorn/pydeps"
   github_stars: 2076

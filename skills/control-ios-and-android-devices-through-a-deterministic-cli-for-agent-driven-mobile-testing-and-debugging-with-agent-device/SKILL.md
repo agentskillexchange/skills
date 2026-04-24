@@ -3,6 +3,10 @@ title: "Control iOS and Android devices through a deterministic CLI for agent-dr
 description: "Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect logs, network traces, and performance evidence during debugging."
 verification: "listed"
 source: "https://github.com/callstackincubator/agent-device"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "callstackincubator/agent-device"
   github_stars: 1838

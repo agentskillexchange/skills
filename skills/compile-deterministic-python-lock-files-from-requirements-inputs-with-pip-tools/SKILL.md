@@ -3,6 +3,10 @@ title: "Compile Deterministic Python Lock Files from Requirements Inputs with pi
 description: "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins."
 verification: "listed"
 source: "https://github.com/jazzband/pip-tools"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jazzband/pip-tools"
   github_stars: 8001

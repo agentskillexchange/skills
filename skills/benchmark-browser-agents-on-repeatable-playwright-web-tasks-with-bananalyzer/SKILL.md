@@ -3,6 +3,10 @@ title: "Benchmark browser agents on repeatable Playwright web tasks with Bananal
 description: "Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests."
 verification: "listed"
 source: "https://github.com/reworkd/bananalyzer"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "reworkd/bananalyzer"
   github_stars: 327

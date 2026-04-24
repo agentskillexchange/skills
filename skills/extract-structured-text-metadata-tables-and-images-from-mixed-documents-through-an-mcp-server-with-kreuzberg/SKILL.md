@@ -5,6 +5,8 @@ verification: "listed"
 source: "https://github.com/kreuzberg-dev/kreuzberg"
 category:
   - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "kreuzberg-dev/kreuzberg"
   github_stars: 7630

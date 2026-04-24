@@ -3,6 +3,10 @@ title: "Triage pull request security risks with staged threat modeling and inves
 description: "Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1 finds credible threats, and return a structured verdict instead of doing an ad hoc manual review."
 verification: "listed"
 source: "https://github.com/anshumanbh/vulnvibes"
+category:
+  - "Security & Verification"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "anshumanbh/vulnvibes"
   github_stars: 17

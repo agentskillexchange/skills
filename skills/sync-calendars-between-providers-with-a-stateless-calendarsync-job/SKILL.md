@@ -3,6 +3,10 @@ title: "Sync calendars between providers with a stateless CalendarSync job"
 description: "Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service."
 verification: "listed"
 source: "https://github.com/inovex/CalendarSync"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "inovex/CalendarSync"
   github_stars: 217

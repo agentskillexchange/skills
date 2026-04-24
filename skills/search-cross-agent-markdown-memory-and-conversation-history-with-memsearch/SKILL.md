@@ -5,6 +5,8 @@ verification: "listed"
 source: "https://github.com/zilliztech/memsearch"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zilliztech/memsearch"
   github_stars: 1324

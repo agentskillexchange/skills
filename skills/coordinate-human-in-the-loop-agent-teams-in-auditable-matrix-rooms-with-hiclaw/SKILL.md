@@ -3,6 +3,10 @@ title: "Coordinate human-in-the-loop agent teams in auditable Matrix rooms with 
 description: "Run manager-worker agent collaboration in Matrix rooms where humans can watch, intervene, and keep credentials out of worker hands."
 verification: "listed"
 source: "https://github.com/agentscope-ai/HiClaw"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agentscope-ai/HiClaw"
   github_stars: 4231

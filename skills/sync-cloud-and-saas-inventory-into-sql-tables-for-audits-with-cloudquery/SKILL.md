@@ -3,6 +3,10 @@ title: "Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery
 description: "Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL."
 verification: "listed"
 source: "https://github.com/cloudquery/cloudquery"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cloudquery/cloudquery"
   github_stars: 6375

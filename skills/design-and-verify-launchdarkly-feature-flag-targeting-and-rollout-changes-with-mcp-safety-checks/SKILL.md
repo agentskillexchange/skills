@@ -3,6 +3,10 @@ title: "Design and verify LaunchDarkly feature-flag targeting and rollout change
 description: "Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the outcome safely."
 verification: "listed"
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/feature-flags/launchdarkly-flag-targeting"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "launchdarkly/ai-tooling"
   github_stars: 6

@@ -3,6 +3,10 @@ title: "Configure and interpret LaunchDarkly AI Config online evaluations with j
 description: "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations."
 verification: "listed"
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "launchdarkly/ai-tooling"
   github_stars: 6

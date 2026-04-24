@@ -3,6 +3,10 @@ title: "Run AI-assisted security triage with role-based SOC runbooks from ai-run
 description: "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage."
 verification: "listed"
 source: "https://github.com/dandye/ai-runbooks"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dandye/ai-runbooks"
   github_stars: 96

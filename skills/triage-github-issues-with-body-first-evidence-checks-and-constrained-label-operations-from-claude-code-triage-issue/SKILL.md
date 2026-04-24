@@ -3,6 +3,10 @@ title: "Triage GitHub issues with body-first evidence checks and constrained lab
 description: "Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management."
 verification: "listed"
 source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/triage-issue.md"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "anthropics/claude-code"
   github_stars: 116829

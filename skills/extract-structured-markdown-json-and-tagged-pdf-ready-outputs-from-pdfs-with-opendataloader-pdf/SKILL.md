@@ -3,6 +3,10 @@ title: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDF
 description: "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done."
 verification: "listed"
 source: "https://github.com/opendataloader-project/opendataloader-pdf"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opendataloader-project/opendataloader-pdf"
   github_stars: 19060

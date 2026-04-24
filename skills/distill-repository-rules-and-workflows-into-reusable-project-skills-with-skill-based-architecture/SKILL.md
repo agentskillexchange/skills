@@ -3,6 +3,10 @@ title: "Distill repository rules and workflows into reusable project skills with
 description: "Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents can route through before making changes."
 verification: "listed"
 source: "https://github.com/WoJiSama/skill-based-architecture"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "WoJiSama/skill-based-architecture"
   github_stars: 131

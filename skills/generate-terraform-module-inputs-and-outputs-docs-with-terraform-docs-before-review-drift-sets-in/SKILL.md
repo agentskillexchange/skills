@@ -3,6 +3,10 @@ title: "Generate Terraform module inputs and outputs docs with terraform-docs be
 description: "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release."
 verification: "listed"
 source: "https://github.com/terraform-docs/terraform-docs"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "terraform-docs/terraform-docs"
   github_stars: 4753

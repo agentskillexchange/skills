@@ -3,6 +3,10 @@ title: "Generate clickable architecture diagrams from public GitHub repos with G
 description: "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff."
 verification: "listed"
 source: "https://github.com/ahmedkhaleel2004/gitdiagram"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ahmedkhaleel2004/gitdiagram"
   github_stars: 15447

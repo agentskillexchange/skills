@@ -3,6 +3,10 @@ title: "Find deprecated Kubernetes APIs before cluster upgrades with kubent"
 description: "Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage."
 verification: "listed"
 source: "https://github.com/doitintl/kube-no-trouble"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "doitintl/kube-no-trouble"
   github_stars: 3658

@@ -3,6 +3,10 @@ title: "Capture, search, and optionally sync local coding-agent session history 
 description: "Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share those sessions."
 verification: "listed"
 source: "https://github.com/specstoryai/getspecstory"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "specstoryai/getspecstory"
   github_stars: 1181
