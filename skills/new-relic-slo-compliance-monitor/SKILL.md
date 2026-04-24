@@ -2,7 +2,7 @@
 title: "New Relic SLO Compliance Monitor"
 description: "Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn rates, and generates compliance reports with Slack notifications via Incoming Webhooks."
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/"
+source: "https://docs.newrelic.com/"
 category:
   - "Monitoring & Alerts"
 framework:
