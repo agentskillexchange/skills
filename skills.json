@@ -1,8 +1,31 @@
 {
   "version": "2.0",
-  "total": 2381,
+  "total": 2383,
   "generated": "2026-04-24",
   "skills": [
+    {
+      "slug": "lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint",
+      "name": "Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint",
+      "description": "Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3856
+      }
+    },
+    {
+      "slug": "enforce-local-git-hook-checks-in-javascript-repos-with-husky",
+      "name": "Enforce local Git hook checks in JavaScript repos with Husky",
+      "description": "Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same local guardrails before changes leave…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 34988,
+        "npm_weekly_downloads": 25702615
+      }
+    },
     {
       "slug": "define-repeatable-python-automation-sessions-in-code-with-nox",
       "name": "Define repeatable Python automation sessions in code with nox",
