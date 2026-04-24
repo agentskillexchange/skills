@@ -5,6 +5,7 @@ verification: "listed"
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals"
 tool_ecosystem:
   github_repo: "launchdarkly/ai-tooling"
+  github_stars: 6
 ---
 
 # Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments

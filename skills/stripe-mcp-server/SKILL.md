@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
-  github_stars: 4389
+  github_stars: 4391
   npm_package: "stripe"
   npm_weekly_downloads: 9666818
 ---

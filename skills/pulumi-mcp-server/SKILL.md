@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
-  github_stars: 25091
+  github_stars: 25092
 ---
 
 # Pulumi MCP Server

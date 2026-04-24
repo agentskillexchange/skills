@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21045
+  github_stars: 21048
 ---
 
 # WordPress REST API Builder
