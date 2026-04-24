@@ -1,8 +1,55 @@
 {
   "version": "2.0",
-  "total": 2383,
+  "total": 2386,
   "generated": "2026-04-24",
   "skills": [
+    {
+      "slug": "validate-json-data-and-config-files-against-schemas-with-ajv-cli",
+      "name": "Validate JSON data and config files against schemas with ajv-cli",
+      "description": "Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling.",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 308,
+        "npm_weekly_downloads": 335297
+      }
+    },
+    {
+      "slug": "bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli",
+      "name": "Bundle and validate OpenAPI files into one publishable spec with swagger-cli",
+      "description": "Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec.",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 517,
+        "npm_weekly_downloads": 163977
+      }
+    },
+    {
+      "slug": "generate-dependency-update-pull-requests-from-code-with-dependabot-core",
+      "name": "Generate dependency update pull requests from code with dependabot-core",
+      "description": "Scan manifests, compute safe version bumps, and prepare dependency update PR material when you need self-hosted or custom Dependabot flows outside the default GitHub…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5549
+      }
+    },
     {
       "slug": "lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint",
       "name": "Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint",

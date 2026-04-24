@@ -94,6 +94,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
 | [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | 1.1k | — |
+| [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | 517 | 164k/wk |
+| [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |

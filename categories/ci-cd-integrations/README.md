@@ -140,6 +140,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | — |
+| [Generate dependency update pull requests from code with dependabot-core](../../skills/generate-dependency-update-pull-requests-from-code-with-dependabot-core/) | 5.5k | — |
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](../../skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | 5.1k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Draft release notes continuously with Release Drafter](../../skills/draft-release-notes-continuously-with-release-drafter/) | 3.9k | — |
