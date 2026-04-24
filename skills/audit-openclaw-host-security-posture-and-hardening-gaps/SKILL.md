@@ -8,6 +8,8 @@ category:
 framework:
   - "OpenClaw"
 tool_ecosystem:
+  github_repo: "openclaw/openclaw"
+  github_stars: 356821
 ---
 
 # Audit OpenClaw host security posture and hardening gaps

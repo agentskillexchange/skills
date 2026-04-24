@@ -4,6 +4,8 @@ description: "Run a structured SEO audit that surfaces crawlability, technical, 
 verification: "listed"
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
 tool_ecosystem:
+  github_repo: "coreyhaines31/marketingskills"
+  github_stars: 21914
 ---
 
 # Diagnose Site SEO Issues with a Structured Audit

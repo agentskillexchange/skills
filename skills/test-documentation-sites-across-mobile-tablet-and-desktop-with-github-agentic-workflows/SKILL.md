@@ -4,6 +4,8 @@ description: "Run a repeatable docs-site check that builds locally, opens the si
 verification: "listed"
 source: "https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md"
 tool_ecosystem:
+  github_repo: "github/gh-aw"
+  github_stars: 4338
 ---
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows

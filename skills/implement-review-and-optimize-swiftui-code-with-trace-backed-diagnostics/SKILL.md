@@ -4,6 +4,8 @@ description: "Guide SwiftUI implementation and refactoring with current Apple pa
 verification: "listed"
 source: "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill"
 tool_ecosystem:
+  github_repo: "avdlee/swiftui-agent-skill"
+  github_stars: 2661
 ---
 
 # Implement, review, and optimize SwiftUI code with trace-backed diagnostics

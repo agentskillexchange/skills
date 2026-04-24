@@ -8,6 +8,8 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
+  github_repo: "wordpress/agent-skills"
+  github_stars: 1219
 ---
 
 # Diagnose WordPress repo structure and route follow-up work safely

@@ -8,6 +8,8 @@ category:
 framework:
   - "OpenClaw"
 tool_ecosystem:
+  github_repo: "openclaw/skills"
+  github_stars: 4086
 ---
 
 # Remote-control tmux sessions for interactive CLI agents

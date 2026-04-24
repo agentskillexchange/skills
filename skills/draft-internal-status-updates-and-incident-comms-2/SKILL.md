@@ -8,6 +8,8 @@ category:
 framework:
   - "Claude Agents"
 tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116155
 ---
 
 # Draft internal status updates and incident comms
