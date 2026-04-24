@@ -77,6 +77,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 11k | — |
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts](../../skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts/) | 9k | — |
+| [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | 8.4k | 4.1M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
@@ -88,13 +89,13 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
+| [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | 1.9k | 14.5M/wk |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
 | [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | 1.1k | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
-| [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
@@ -151,7 +152,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Rust Crate Documentation Extractor](../../skills/rust-crate-documentation-extractor/) | — | — |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | — | — |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | — | — |
-| [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | — | — |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | — | — |
 
 ---

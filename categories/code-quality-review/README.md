@@ -9,13 +9,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
+| [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⭐ 51.8k |
+| [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⭐ 51.8k |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | ⭐ 47.2k |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⭐ 27.2k |
-| [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⭐ 27.2k |
-| [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⭐ 27.2k |
 
 ---
 
@@ -24,6 +24,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | Skill | Downloads |
 |---|---:|
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⬇ 46.8M/wk |
+| [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⬇ 90.5M/wk |
+| [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⬇ 90.5M/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⬇ 120.2M/wk |
@@ -31,8 +33,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Config Enforcer](../../skills/eslint-config-enforcer/) | ⬇ 120.2M/wk |
 | [ESLint Custom Rule Builder](../../skills/eslint-custom-rule-builder/) | ⬇ 120.2M/wk |
 | [ESLint Custom Rule Generator](../../skills/eslint-custom-rule-generator/) | ⬇ 120.2M/wk |
-| [ESLint Rule Analyzer](../../skills/eslint-rule-analyzer/) | ⬇ 120.2M/wk |
-| [ESLint Rule Analyzer and Fixer](../../skills/eslint-rule-analyzer-fixer/) | ⬇ 120.2M/wk |
 
 ---
 
@@ -43,6 +43,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
+| [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | 51.8k | 90.5M/wk |
+| [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | 51.8k | 90.5M/wk |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | 47.2k | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
@@ -120,6 +122,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | — |
+| [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | 5.7k | — |
 | [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](../../skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | 4.8k | — |
@@ -178,11 +181,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
-| [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
-| [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
-| [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | — | — |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |

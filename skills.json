@@ -23977,7 +23977,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 6021,
+        "npm_weekly_downloads": 15198934
       }
     },
     {
@@ -27096,7 +27098,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 3265
       }
     },
     {
@@ -27283,7 +27286,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "react"
+        "tool": "react",
+        "github_stars": 7645,
+        "npm_weekly_downloads": 1615370
       }
     },
     {
@@ -27296,7 +27301,11 @@
       "framework": [
         "Claude Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8391,
+        "npm_weekly_downloads": 4062205
+      }
     },
     {
       "slug": "rust-crate-docs-scanner",
@@ -27933,7 +27942,11 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3956,
+        "npm_weekly_downloads": 428357
+      }
     },
     {
       "slug": "jsdoc-type-definition-extractor",
@@ -29283,7 +29296,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 3956,
+        "npm_weekly_downloads": 428357
       }
     },
     {
@@ -29390,7 +29405,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 11585
       }
     },
     {
@@ -31867,7 +31883,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5673
+      }
     },
     {
       "slug": "aws-cloudwatch-alarm-runbook-wave48",
@@ -32060,7 +32079,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 51820,
+        "npm_weekly_downloads": 90506007
       }
     },
     {
@@ -32930,7 +32951,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "graphql"
+        "tool": "graphql",
+        "github_stars": 51820,
+        "npm_weekly_downloads": 90506007
       }
     },
     {
@@ -33601,7 +33624,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "aws"
+        "tool": "aws",
+        "github_stars": 1883,
+        "npm_weekly_downloads": 14518427
       }
     },
     {
@@ -33752,7 +33777,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 3265
       }
     },
     {
