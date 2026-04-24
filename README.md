@@ -9,7 +9,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C988-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
+**[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
 *2,386 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
@@ -102,6 +102,21 @@ A strong cross-section of high-signal skills across the catalog.
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 90 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 83 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 73 | SEO content, blog automation, editorial workflows |
+
+---
+
+## Industry Collections
+
+Curated editorial overlays for teams that want repo navigation by real workflow clusters without replacing the core category taxonomy.
+
+| | Collection | Stage | What you'll find |
+|---|---|---|---|
+| 🎙️ | [**Media & Publishing Systems**](industries/media-publishing-systems.md) | Wave 1 | Transcription, subtitles, podcast processing, and publishing prep workflows |
+| 💼 | [**Finance & Filings**](industries/finance-filings.md) | Wave 1 | Filings research, invoice extraction, reconciliation, and reporting workflows |
+| 🛒 | [**Ecommerce & Retail Operations**](industries/ecommerce-retail-operations.md) | Wave 1 | Catalog, storefront, order, inventory, and merchandising workflows |
+| ⚖️ | [**Legal Ops & Compliance**](industries/legal-ops-compliance.md) | Wave 1 | Contracts, document review, signing, OCR, and archive search workflows |
+
+See the full overlay index in [industries/README.md](industries/README.md).
 
 ---
 

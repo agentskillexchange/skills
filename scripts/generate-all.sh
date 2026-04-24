@@ -19,6 +19,9 @@ bash "$SCRIPT_DIR/generate-catalog.sh" "$REPO_DIR"
 echo "=== Generating categories/ ==="
 bash "$SCRIPT_DIR/generate-categories.sh" "$REPO_DIR"
 
+echo "=== Generating industries/ ==="
+bash "$SCRIPT_DIR/generate-industries.sh" "$REPO_DIR"
+
 echo "=== Generating TOP-STARS.md and TOP-DOWNLOADS.md ==="
 bash "$SCRIPT_DIR/generate-top-lists.sh" "$REPO_DIR"
 
