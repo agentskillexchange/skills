@@ -48,10 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-**[Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/)**  
-Category: Uncategorized · Verification: listed · GitHub stars: 116,829 · npm weekly downloads: 49,934,290
+### [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/)
 
-Picked from today's strong popular pool, rotated by UTC day so the repo homepage keeps moving even on quiet sync days.
+
+
+- Tool: `vault`
+- Category: Image & Creative Automation
+- Frameworks: Codex
+- GitHub stars: 109,121
+- Listing: https://agentskillexchange.com/skills/comfyui-workflow-executor/
 
 ---
 
