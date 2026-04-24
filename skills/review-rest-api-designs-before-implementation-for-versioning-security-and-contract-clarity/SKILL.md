@@ -4,8 +4,6 @@ description: "Review an API design, endpoint set, or OpenAPI spec before impleme
 verification: "listed"
 source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/review-api-design"
 tool_ecosystem:
-  github_repo: "psenger/ai-agent-skills"
-  github_stars: 0
 ---
 
 # Review REST API designs before implementation for versioning, security, and contract clarity

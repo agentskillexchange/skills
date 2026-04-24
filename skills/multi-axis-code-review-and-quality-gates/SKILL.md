@@ -4,8 +4,6 @@ description: "Run a structured pre-merge review across correctness, readability,
 verification: "listed"
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
 tool_ecosystem:
-  github_repo: "addyosmani/agent-skills"
-  github_stars: 17417
 ---
 
 # Multi-Axis Code Review and Quality Gates

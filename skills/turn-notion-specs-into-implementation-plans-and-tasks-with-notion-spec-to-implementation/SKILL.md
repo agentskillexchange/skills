@@ -4,8 +4,6 @@ description: "Read a Notion spec, extract requirements and ambiguities, then cre
 verification: "listed"
 source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation"
 tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 
 # Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation

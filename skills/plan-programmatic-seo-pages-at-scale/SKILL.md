@@ -4,8 +4,6 @@ description: "Design template and data driven SEO page programs that can scale w
 verification: "listed"
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo"
 tool_ecosystem:
-  github_repo: "coreyhaines31/marketingskills"
-  github_stars: 21914
 ---
 
 # Plan Programmatic SEO Pages at Scale

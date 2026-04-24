@@ -8,8 +8,6 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "wordpress/agent-skills"
-  github_stars: 1219
 ---
 
 # Build and debug custom WordPress REST API endpoints with schema and permission guardrails

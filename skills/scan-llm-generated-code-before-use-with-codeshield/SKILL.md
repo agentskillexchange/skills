@@ -4,8 +4,6 @@ description: "Run CodeShield on model-produced code or command suggestions befor
 verification: "listed"
 source: "https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield"
 tool_ecosystem:
-  github_repo: "meta-llama/purplellama"
-  github_stars: 4126
 ---
 
 # Scan LLM-generated code before use with CodeShield

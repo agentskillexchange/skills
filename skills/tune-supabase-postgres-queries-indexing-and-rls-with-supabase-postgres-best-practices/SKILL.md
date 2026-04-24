@@ -4,8 +4,6 @@ description: "Review Supabase Postgres work for query performance, schema design
 verification: "listed"
 source: "https://github.com/supabase/agent-skills/tree/main/supabase-postgres-best-practices"
 tool_ecosystem:
-  github_repo: "supabase/agent-skills"
-  github_stars: 1977
 ---
 
 # Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices

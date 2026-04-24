@@ -4,8 +4,6 @@ description: "Find the open PR for the current branch, gather unresolved review 
 verification: "listed"
 source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments"
 tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 
 # Address GitHub PR review comments from the current branch with gh-address-comments

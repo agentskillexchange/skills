@@ -4,10 +4,6 @@ description: "Use Claude Code dedupe to summarize an issue, run several GitHub d
 verification: "listed"
 source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/dedupe.md"
 tool_ecosystem:
-  github_repo: "anthropics/claude-code"
-  github_stars: 116829
-  npm_package: "@anthropic-ai/claude-code"
-  npm_weekly_downloads: 49934290
 ---
 
 # Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe

@@ -4,8 +4,6 @@ description: "Turn commits since the last tag into concise App Store What’s Ne
 verification: "listed"
 source: "https://github.com/Dimillian/Skills/tree/main/app-store-changelog"
 tool_ecosystem:
-  github_repo: "Dimillian/Skills"
-  github_stars: 3354
 ---
 
 # Draft user-facing App Store release notes from git history with App Store Changelog

@@ -4,8 +4,6 @@ description: "Inspect failing GitHub Actions checks on the current PR, pull the 
 verification: "listed"
 source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci"
 tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 
 # Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci

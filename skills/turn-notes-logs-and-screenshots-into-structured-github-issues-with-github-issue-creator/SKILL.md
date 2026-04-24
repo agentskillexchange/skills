@@ -4,8 +4,6 @@ description: "Convert messy bug notes, error logs, voice dictation, and screensh
 verification: "listed"
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/github-issue-creator"
 tool_ecosystem:
-  github_repo: "microsoft/skills"
-  github_stars: 2103
 ---
 
 # Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator
