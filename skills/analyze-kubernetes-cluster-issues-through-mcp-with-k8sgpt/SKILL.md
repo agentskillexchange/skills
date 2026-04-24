@@ -1,7 +1,7 @@
 ---
 title: "Analyze Kubernetes cluster issues through MCP with K8sGPT"
 description: "Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural language."
-verification: listed
+verification: "listed"
 source: "https://github.com/k8sgpt-ai/k8sgpt"
 tool_ecosystem:
   github_repo: "k8sgpt-ai/k8sgpt"
@@ -14,27 +14,27 @@ Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain u
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt` into your local skills collection.
+- Download the repository ZIP and extract `skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

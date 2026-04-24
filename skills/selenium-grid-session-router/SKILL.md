@@ -1,12 +1,17 @@
 ---
 title: "Selenium Grid Session Router"
 description: "Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category:
   - "Browser Automation"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "seleniumhq/selenium"
+  github_stars: 34076
+  npm_package: "selenium-webdriver"
+  npm_weekly_downloads: 1932148
 ---
 
 # Selenium Grid Session Router
@@ -15,27 +20,27 @@ Routes browser automation sessions across Selenium Grid 4 nodes using the /statu
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/selenium-grid-session-router/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/selenium-grid-session-router
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/selenium-grid-session-router` into your local skills collection.
+- Download the repository ZIP and extract `skills/selenium-grid-session-router`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

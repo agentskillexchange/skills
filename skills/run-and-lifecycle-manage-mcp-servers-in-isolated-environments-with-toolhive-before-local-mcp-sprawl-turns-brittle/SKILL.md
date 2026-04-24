@@ -1,7 +1,7 @@
 ---
 title: "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle"
 description: "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes."
-verification: listed
+verification: "listed"
 source: "https://github.com/stacklok/toolhive"
 tool_ecosystem:
   github_repo: "stacklok/toolhive"
@@ -14,27 +14,27 @@ Use ToolHive to install, isolate, update, and govern MCP servers so agents conne
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle` into your local skills collection.
+- Download the repository ZIP and extract `skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

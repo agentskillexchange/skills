@@ -1,10 +1,10 @@
 ---
 title: "Miniflux Self-Hosted RSS Feed Reader and Automation API"
 description: "Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This skill helps agents subscribe to sources, organize categories, and automate article triage or downstream alerting from RSS, Atom, and JSON feeds."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/miniflux/v2"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, we
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/miniflux-self-hosted-rss-feed-reader-and-automation-api
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/miniflux-self-hosted-rss-feed-reader-and-automation-api` into your local skills collection.
+- Download the repository ZIP and extract `skills/miniflux-self-hosted-rss-feed-reader-and-automation-api`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

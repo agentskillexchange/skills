@@ -1,10 +1,10 @@
 ---
 title: "Scrapy Pipeline Data Extractor"
 description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Gemini"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Builds production Scrapy spiders with custom Item Pipelines for data cleaning an
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scrapy-pipeline-data-extractor
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/scrapy-pipeline-data-extractor` into your local skills collection.
+- Download the repository ZIP and extract `skills/scrapy-pipeline-data-extractor`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

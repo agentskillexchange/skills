@@ -1,12 +1,17 @@
 ---
 title: "Parquet Schema Extractor for S3"
 description: "Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "ironsource/parquetjs"
+  github_stars: 387
+  npm_package: "parquetjs"
+  npm_weekly_downloads: 170660
 ---
 
 # Parquet Schema Extractor for S3
@@ -15,27 +20,27 @@ Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow lib
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/parquet-schema-extractor-for-s3
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/parquet-schema-extractor-for-s3` into your local skills collection.
+- Download the repository ZIP and extract `skills/parquet-schema-extractor-for-s3`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

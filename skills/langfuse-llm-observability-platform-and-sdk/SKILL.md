@@ -1,10 +1,10 @@
 ---
 title: "Langfuse LLM Observability Platform and SDK"
 description: "Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent workflows. This skill turns Langfuse from a generic observability brand into a concrete implementation pattern for tracing and analyzing model behavior."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/langfuse/langfuse"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use Langfuse to capture prompts, traces, generations, evaluations, and cost tele
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/langfuse-llm-observability-platform-and-sdk/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/langfuse-llm-observability-platform-and-sdk
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/langfuse-llm-observability-platform-and-sdk` into your local skills collection.
+- Download the repository ZIP and extract `skills/langfuse-llm-observability-platform-and-sdk`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

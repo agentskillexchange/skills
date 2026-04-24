@@ -1,7 +1,7 @@
 ---
 title: "Run computer-use agents inside cross-OS desktop sandboxes with CUA"
 description: "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls."
-verification: listed
+verification: "listed"
 source: "https://github.com/trycua/cua"
 tool_ecosystem:
   github_repo: "trycua/cua"
@@ -14,27 +14,27 @@ Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and dr
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua` into your local skills collection.
+- Download the repository ZIP and extract `skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
