@@ -81,7 +81,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 1661
       }
@@ -92,7 +92,11 @@
       "description": "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations.",
       "category": [],
       "framework": [],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "tool": "ai-tooling",
+        "github_stars": 6
+      }
     },
     {
       "slug": "implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics",
@@ -100,7 +104,12 @@
       "description": "Guide SwiftUI implementation and refactoring with current Apple patterns, then analyze Instruments traces to diagnose hangs, hitches, and expensive view updates.",
       "category": [],
       "framework": [],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "tool": "swiftui-agent-skill",
+        "github_stars": 2661,
+        "license": "MIT"
+      }
     },
     {
       "slug": "draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks",
@@ -108,7 +117,11 @@
       "description": "Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update changelog entries in a guarded commit-and-release communication workflow.",
       "category": [],
       "framework": [],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "tool": "ai-agent-skills",
+        "license": "MIT"
+      }
     },
     {
       "slug": "review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity",
@@ -116,7 +129,11 @@
       "description": "Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design quality, security, resilience, and missing contract decisions.",
       "category": [],
       "framework": [],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "tool": "ai-agent-skills",
+        "license": "MIT"
+      }
     },
     {
       "slug": "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks",
@@ -124,7 +141,11 @@
       "description": "Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the…",
       "category": [],
       "framework": [],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "tool": "ai-tooling",
+        "github_stars": 6
+      }
     },
     {
       "slug": "build-and-sync-n8n-workflows-from-code-with-n8n-as-code",
@@ -35794,7 +35815,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4389,
+        "github_stars": 4391,
         "npm_weekly_downloads": 9666818,
         "license": "MIT"
       }
@@ -35845,7 +35866,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sonarqube",
-        "github_stars": 10473,
+        "github_stars": 10475,
         "license": "LGPL-3.0"
       }
     },
@@ -35862,7 +35883,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "eslint",
-        "github_stars": 27212,
+        "github_stars": 27216,
         "npm_weekly_downloads": 129205379,
         "license": "MIT"
       }
@@ -35966,7 +35987,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4389,
+        "github_stars": 4391,
         "npm_weekly_downloads": 9666818,
         "license": "MIT"
       }
@@ -36020,7 +36041,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "notion",
-        "github_stars": 5589,
+        "github_stars": 5590,
         "npm_weekly_downloads": 1157040,
         "license": "MIT"
       }
@@ -36038,7 +36059,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "grafana",
-        "github_stars": 73386,
+        "github_stars": 73395,
         "license": "AGPL-3.0"
       }
     },
@@ -36055,7 +36076,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "elasticsearch",
-        "github_stars": 76569
+        "github_stars": 76573
       }
     },
     {
@@ -36124,7 +36145,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "pulumi",
-        "github_stars": 25091,
+        "github_stars": 25092,
         "license": "Apache-2.0"
       }
     },
@@ -36141,7 +36162,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "terraform",
-        "github_stars": 48224
+        "github_stars": 48234
       }
     },
     {
@@ -36157,7 +36178,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "argocd",
-        "github_stars": 22695,
+        "github_stars": 22702,
         "license": "Apache-2.0"
       }
     },
@@ -36207,7 +36228,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "atlassian-mcp-server",
-        "github_stars": 608,
+        "github_stars": 609,
         "license": "Apache-2.0"
       }
     },
@@ -36224,7 +36245,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "mcp-server-neon",
-        "github_stars": 589,
+        "github_stars": 590,
         "license": "MIT"
       }
     },
@@ -36258,7 +36279,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "postgres-mcp",
-        "github_stars": 2599,
+        "github_stars": 2602,
         "license": "MIT"
       }
     },
@@ -36275,7 +36296,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-mcp",
-        "github_stars": 666,
+        "github_stars": 667,
         "npm_weekly_downloads": 44817
       }
     },
@@ -36292,7 +36313,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "agent-scan",
-        "github_stars": 2232,
+        "github_stars": 2235,
         "license": "Apache-2.0"
       }
     },
@@ -36343,7 +36364,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "claude-code-mcp",
-        "github_stars": 1241,
+        "github_stars": 1243,
         "license": "MIT"
       }
     },
@@ -36406,7 +36427,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "self-improving-agent",
-        "github_stars": 550
+        "github_stars": 555
       }
     },
     {
@@ -36422,7 +36443,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openai",
-        "github_stars": 10836,
+        "github_stars": 10840,
         "license": "Apache-2.0"
       }
     },
@@ -36456,7 +36477,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "ffmpeg",
-        "github_stars": 59226
+        "github_stars": 59242
       }
     },
     {
@@ -36475,7 +36496,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84401
+        "github_stars": 84434
       }
     },
     {
@@ -36491,7 +36512,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "whisper",
-        "github_stars": 98262,
+        "github_stars": 98286,
         "license": "MIT"
       }
     },
@@ -36508,7 +36529,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21045
+        "github_stars": 21048
       }
     },
     {
@@ -36527,7 +36548,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84401
+        "github_stars": 84434
       }
     },
     {
@@ -36545,7 +36566,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-for-ai",
-        "github_stars": 128,
+        "github_stars": 131,
         "license": "MIT"
       }
     },
@@ -36562,7 +36583,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21045
+        "github_stars": 21048
       }
     },
     {
@@ -36581,7 +36602,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84401
+        "github_stars": 84434
       }
     },
     {
@@ -36600,7 +36621,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright-mcp",
-        "github_stars": 31308,
+        "github_stars": 31338,
         "npm_weekly_downloads": 2275157,
         "license": "Apache-2.0"
       }
@@ -36618,7 +36639,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21045
+        "github_stars": 21048
       }
     },
     {
@@ -36635,7 +36656,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright",
-        "github_stars": 87147,
+        "github_stars": 87191,
         "license": "Apache-2.0"
       }
     }

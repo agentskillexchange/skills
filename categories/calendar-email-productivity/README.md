@@ -112,7 +112,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 608 | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 609 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |
