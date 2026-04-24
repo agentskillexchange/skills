@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2377,
+  "total": 2381,
   "generated": "2026-04-24",
   "skills": [
+    {
+      "slug": "define-repeatable-python-automation-sessions-in-code-with-nox",
+      "name": "Define repeatable Python automation sessions in code with nox",
+      "description": "Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1513
+      }
+    },
+    {
+      "slug": "parallelize-large-pytest-suites-and-isolate-slow-feedback-loops-with-pytest-xdist",
+      "name": "Parallelize large pytest suites and isolate slow feedback loops with pytest-xdist",
+      "description": "Fan out Python test execution across workers so slow suites finish faster and bottlenecks show up before they dominate CI time.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1832
+      }
+    },
+    {
+      "slug": "strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout",
+      "name": "Strip noisy Jupyter output from notebooks before commit with nbstripout",
+      "description": "Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1447
+      }
+    },
+    {
+      "slug": "advance-gitops-app-manifests-to-newer-container-tags-with-argo-cd-image-updater",
+      "name": "Advance GitOps app manifests to newer container tags with Argo CD Image Updater",
+      "description": "Track approved container images and write back the matching GitOps manifest changes instead of hand-editing tags across Argo CD applications.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1661
+      }
+    },
     {
       "slug": "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments",
       "name": "Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments",
