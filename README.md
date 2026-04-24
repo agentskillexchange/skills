@@ -85,23 +85,23 @@ A strong cross-section of high-signal skills across the catalog.
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 271 | CLI tools, scaffolders, dev environment setup |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 178 | Pipeline configs, deployment automation, build tooling |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 170 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 155 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 148 | Linting, code review, test generators, coverage |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 147 | Incident response, troubleshooting, system diagnostics |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 122 | Metrics, alerting rules, observability |
-| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 115 | SDK docs, API parsers, symbol resolvers |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 114 | Email automation, calendar management, task coordination |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 108 | Scaffolders, boilerplate generators, workflow templates |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 98 | Web research, content discovery, data collection |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 97 | Web scraping, UI testing, headless browser control |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 97 | Third-party API bridges, webhooks, service connectors |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 293 | CLI tools, scaffolders, dev environment setup |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 220 | Vulnerability scanning, auth setup, compliance |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 190 | Pipeline configs, deployment automation, build tooling |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 175 | Linting, code review, test generators, coverage |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 164 | Incident response, troubleshooting, system diagnostics |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 164 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 140 | Scaffolders, boilerplate generators, workflow templates |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 127 | Metrics, alerting rules, observability |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 121 | Email automation, calendar management, task coordination |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 119 | SDK docs, API parsers, symbol resolvers |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 105 | Third-party API bridges, webhooks, service connectors |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 103 | Web research, content discovery, data collection |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 102 | Web scraping, UI testing, headless browser control |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 98 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 90 | Audio/video processing, speech-to-text |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 83 | Image generation, asset processing, design automation |
-| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 73 | SEO content, blog automation, editorial workflows |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 88 | Image generation, asset processing, design automation |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 77 | SEO content, blog automation, editorial workflows |
 
 ---
 
