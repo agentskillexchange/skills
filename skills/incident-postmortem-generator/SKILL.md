@@ -18,10 +18,13 @@ The skill pulls incident timeline data from PagerDuty’s REST API, conversation
 
 Key Features
 
-Automated timeline construction from PagerDuty incident logs, Slack messages, and deployment events
-Impact analysis using Grafana queries to quantify error rates, latency percentiles, and affected users
-Root cause categorization aligned with categories like code change, configuration, dependency, capacity
-Action item extraction with owner assignment and priority ranking
+- Automated timeline construction from PagerDuty incident logs, Slack messages, and deployment events
+
+- Impact analysis using Grafana queries to quantify error rates, latency percentiles, and affected users
+
+- Root cause categorization aligned with categories like code change, configuration, dependency, capacity
+
+- Action item extraction with owner assignment and priority ranking
 
 Output
 Generates documents in Confluence, Google Docs, or Markdown format. Tracks action item completion status. Supports recurring incident pattern detection across historical postmortems. Templates are customizable per team or service.

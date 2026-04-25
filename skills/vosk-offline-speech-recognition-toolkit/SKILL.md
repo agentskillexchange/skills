@@ -22,11 +22,15 @@ This skill enables agents to transcribe audio to text using the Vosk speech reco
 
 Key Capabilities
 
-Multi-language support: Pre-trained models for English, German, French, Spanish, Portuguese, Chinese, Russian, Turkish, Vietnamese, Italian, Dutch, Arabic, Greek, Hindi, Japanese, Ukrainian, and more.
-Streaming recognition: Process audio in real-time with streaming API that returns partial hypotheses as speech is detected, enabling live captioning and voice command scenarios.
-Speaker identification: Built-in speaker diarization support identifies different speakers in multi-party conversations without additional models.
-Reconfigurable vocabulary: Dynamically set grammar and vocabulary constraints to improve accuracy for domain-specific recognition (menu navigation, command sets, specialized terminology).
-Cross-platform bindings: Native API bindings for Python, Node.js, Java, C#, C++, Rust, and Go. Works on Linux, Windows, macOS, Android, iOS, and Raspberry Pi.
+- Multi-language support: Pre-trained models for English, German, French, Spanish, Portuguese, Chinese, Russian, Turkish, Vietnamese, Italian, Dutch, Arabic, Greek, Hindi, Japanese, Ukrainian, and more.
+
+- Streaming recognition: Process audio in real-time with streaming API that returns partial hypotheses as speech is detected, enabling live captioning and voice command scenarios.
+
+- Speaker identification: Built-in speaker diarization support identifies different speakers in multi-party conversations without additional models.
+
+- Reconfigurable vocabulary: Dynamically set grammar and vocabulary constraints to improve accuracy for domain-specific recognition (menu navigation, command sets, specialized terminology).
+
+- Cross-platform bindings: Native API bindings for Python, Node.js, Java, C#, C++, Rust, and Go. Works on Linux, Windows, macOS, Android, iOS, and Raspberry Pi.
 
 Integration Points
 Vosk accepts PCM audio input at 8kHz or 16kHz sample rates in mono format. It integrates with ffmpeg for audio format conversion, with WebSocket servers for browser-based real-time transcription, and with microphone input via PyAudio or PortAudio for live transcription. The Python package installs via pip install vosk and the Node.js package via npm install vosk. Output is structured JSON containing transcript text, word-level timings, and confidence scores suitable for downstream NLP processing.

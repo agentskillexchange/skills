@@ -18,10 +18,13 @@ Neon MCP Server is maintained by Neon and designed for use with Claude Code, Cur
 
 Best for
 
-Creating and managing Neon projects through conversational commands
-Branch-based migrations: test schema changes on a temporary branch before committing
-Running SQL queries against any Neon database through the agent
-Exploring schemas, tables, and data summaries
+- Creating and managing Neon projects through conversational commands
+
+- Branch-based migrations: test schema changes on a temporary branch before committing
+
+- Running SQL queries against any Neon database through the agent
+
+- Exploring schemas, tables, and data summaries
 
 How it differs from Postgres MCP Pro
 Postgres MCP Pro provides deep query analysis against any PostgreSQL instance. Neon MCP manages Neon-specific platform infrastructure — creating projects, branching databases for safe migrations, and managing the serverless platform layer.

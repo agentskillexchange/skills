@@ -22,12 +22,17 @@ At its core, git-cliff operates in three stages: parsing, grouping, and renderin
 
 Key Features
 
-Conventional Commits Support: Automatically categorizes commits by type (feat, fix, docs, chore, etc.) following the conventional commit standard.
-Custom Parsers: Define regex-powered commit parsers for projects that do not follow conventional commit conventions.
-Template Engine: Uses Tera templates for full control over changelog output format, including variables for commit metadata, authors, dates, and links.
-Monorepo Support: Generate changelogs for specific packages within a monorepo by filtering commits to relevant paths.
-GitHub/GitLab Integration: Fetches additional metadata like PR numbers, contributor usernames, and release URLs from remote repositories.
-Bump Detection: Automatically determines the next semantic version based on commit types since the last tag.
+- Conventional Commits Support: Automatically categorizes commits by type (feat, fix, docs, chore, etc.) following the conventional commit standard.
+
+- Custom Parsers: Define regex-powered commit parsers for projects that do not follow conventional commit conventions.
+
+- Template Engine: Uses Tera templates for full control over changelog output format, including variables for commit metadata, authors, dates, and links.
+
+- Monorepo Support: Generate changelogs for specific packages within a monorepo by filtering commits to relevant paths.
+
+- GitHub/GitLab Integration: Fetches additional metadata like PR numbers, contributor usernames, and release URLs from remote repositories.
+
+- Bump Detection: Automatically determines the next semantic version based on commit types since the last tag.
 
 Integration Points
 git-cliff integrates into CI/CD pipelines via its official GitHub Action, Docker images, and pre-built binaries for Linux, macOS, and Windows. It can be installed via cargo, Homebrew, Scoop, pacman, and other package managers. The tool also provides a Rust library (git-cliff-core) for programmatic usage in custom tooling.

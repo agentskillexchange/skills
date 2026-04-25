@@ -21,14 +21,21 @@ vdirsyncer operates on a pair-based model: you define a source (typically a CalD
 
 Key Features
 
-Bidirectional sync between CalDAV/CardDAV servers and local vdir directories
-Server-to-server synchronization without local intermediary
-Support for Google Calendar, Google Contacts, Nextcloud, Radicale, iCloud, Fastmail, and other standards-compliant servers
-OAuth2 authentication support for Google services
-Conflict resolution strategies: choose which side wins on conflicts
-Selective sync with filtering by calendar name or collection
-Available on PyPI and major Linux distributions
-Docker image available for containerized deployments
+- Bidirectional sync between CalDAV/CardDAV servers and local vdir directories
+
+- Server-to-server synchronization without local intermediary
+
+- Support for Google Calendar, Google Contacts, Nextcloud, Radicale, iCloud, Fastmail, and other standards-compliant servers
+
+- OAuth2 authentication support for Google services
+
+- Conflict resolution strategies: choose which side wins on conflicts
+
+- Selective sync with filtering by calendar name or collection
+
+- Available on PyPI and major Linux distributions
+
+- Docker image available for containerized deployments
 
 Integration Points
 vdirsyncer is designed to be the glue between remote calendar systems and local tools. After syncing, the local vdir files can be read and modified by any tool that understands iCalendar and vCard formats. The CLI supports discover, sync, and metasync subcommands that can be automated via cron or systemd timers.

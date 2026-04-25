@@ -21,16 +21,25 @@ Tracecat is built on a modern stack with Python (FastAPI, SQLAlchemy, Pydantic) 
 
 Key Features
 
-AI Agents: Build custom agents with prompts, tools, chat interfaces, and MCP server integration (remote HTTP/OAuth or local via npx/uvx)
-Workflows: Low-code visual builder with complex control flow including if-conditions, loops, and durable execution via Temporal
-Case Management: Track, automate, and resolve security incidents with agents and workflows
-100+ Integrations: Pre-built connectors to enterprise tools via HTTP, SMTP, gRPC, OAuth, and more
-Custom Registry: Turn custom Python scripts into agent tools and workflow steps synced from your Git repository
-Sandboxed Execution: Run untrusted code and agents within nsjail sandboxes
-Human-in-the-Loop: Review and approve sensitive tool calls from a unified inbox, Slack, or email
-MCP Server: Work with Tracecat through your own agent harness (Claude Code, Codex, OpenCode)
-Fine-grained Access Control: RBAC, ABAC, OAuth2.0 scopes for humans and agents
-No SSO Tax: SAML/OIDC support included in the open-source edition
+- AI Agents: Build custom agents with prompts, tools, chat interfaces, and MCP server integration (remote HTTP/OAuth or local via npx/uvx)
+
+- Workflows: Low-code visual builder with complex control flow including if-conditions, loops, and durable execution via Temporal
+
+- Case Management: Track, automate, and resolve security incidents with agents and workflows
+
+- 100+ Integrations: Pre-built connectors to enterprise tools via HTTP, SMTP, gRPC, OAuth, and more
+
+- Custom Registry: Turn custom Python scripts into agent tools and workflow steps synced from your Git repository
+
+- Sandboxed Execution: Run untrusted code and agents within nsjail sandboxes
+
+- Human-in-the-Loop: Review and approve sensitive tool calls from a unified inbox, Slack, or email
+
+- MCP Server: Work with Tracecat through your own agent harness (Claude Code, Codex, OpenCode)
+
+- Fine-grained Access Control: RBAC, ABAC, OAuth2.0 scopes for humans and agents
+
+- No SSO Tax: SAML/OIDC support included in the open-source edition
 
 Agent Integration
 Security-focused AI agents can leverage Tracecat as their automation backbone. The platform’s MCP server enables agents built with Claude Code, Codex, or OpenCode to directly trigger workflows, manage cases, and query lookup tables. Agents can build prompt-to-automation pipelines for incident response, threat investigation, and compliance automation.

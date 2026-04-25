@@ -20,10 +20,13 @@ Notion AI Document Summarizer & Action Item Extractor is built around Notion wor
 
 For content workflows, the skill uses notion primitives as the system of record, so an agent can read structured inputs, apply transformations, and publish or sync output without losing metadata, IDs, or status fields. The original use case is clear: Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create. The implementation typically relies on pages, databases.query, blocks.children, properties, relations, pagination, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses pages, databases.query, blocks.children, properties, relations, pagination instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as knowledge bases, task tracking, content sync, and structured note workflows.
+- Accesses pages, databases.query, blocks.children, properties, relations, pagination instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as knowledge bases, task tracking, content sync, and structured note workflows.
 
  Key integration points include knowledge bases, task tracking, content sync, and structured note workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

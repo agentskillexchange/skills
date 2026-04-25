@@ -20,10 +20,13 @@ Twilio MCP Server is built around Twilio communications APIs. The underlying eco
 
 In practice, the skill gives an agent a stable interface to twilio so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on SMS, voice, Media Streams, webhooks, recordings, messaging services, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses SMS, voice, Media Streams, webhooks, recordings, messaging services instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as notifications, call intelligence, and communication workflows.
+- Accesses SMS, voice, Media Streams, webhooks, recordings, messaging services instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as notifications, call intelligence, and communication workflows.
 
 Because this is exposed as an MCP skill, the tool surface is designed for agent-safe, structured calls instead of free-form shell usage. That means models can inspect schemas, call a narrow set of operations, and keep context across a longer workflow without re-implementing credentials or connection logic on every step. Key integration points include notifications, call intelligence, and communication workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

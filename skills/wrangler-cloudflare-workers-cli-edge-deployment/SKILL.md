@@ -19,11 +19,15 @@ Wrangler is Cloudflare official CLI for the Workers platform, the leading edge c
 
 Key Features
 
-Local Development: Built-in local dev server powered by Miniflare and the workerd runtime, providing accurate local simulation of the Workers environment including KV, R2, D1, Durable Objects, and Queues.
-Zero-Config Deploy: Ship code to the edge with wrangler deploy — no infrastructure configuration required. Automatic bundling with esbuild handles TypeScript, JSX, and module resolution.
-Storage Bindings: First-class support for Cloudflare storage products including Workers KV (key-value), R2 (S3-compatible object storage), D1 (SQLite at the edge), and Durable Objects (stateful coordination).
-Tail and Logs: Stream real-time logs from production Workers with wrangler tail for debugging and observability.
-Pages Integration: Deploy full-stack applications with Cloudflare Pages, combining static assets with Workers functions.
+- Local Development: Built-in local dev server powered by Miniflare and the workerd runtime, providing accurate local simulation of the Workers environment including KV, R2, D1, Durable Objects, and Queues.
+
+- Zero-Config Deploy: Ship code to the edge with wrangler deploy — no infrastructure configuration required. Automatic bundling with esbuild handles TypeScript, JSX, and module resolution.
+
+- Storage Bindings: First-class support for Cloudflare storage products including Workers KV (key-value), R2 (S3-compatible object storage), D1 (SQLite at the edge), and Durable Objects (stateful coordination).
+
+- Tail and Logs: Stream real-time logs from production Workers with wrangler tail for debugging and observability.
+
+- Pages Integration: Deploy full-stack applications with Cloudflare Pages, combining static assets with Workers functions.
 
 How It Works
 Wrangler reads a wrangler.toml configuration file that defines your Worker name, routes, environment variables, and storage bindings. During development, wrangler dev starts a local server that accurately simulates the Cloudflare runtime. When ready, wrangler deploy bundles your code and pushes it to the Cloudflare network where it runs in V8 isolates at the edge.

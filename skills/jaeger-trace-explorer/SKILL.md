@@ -18,10 +18,13 @@ Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The u
 
 In practice, the skill gives an agent a stable interface to jaeger so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on trace search, spans, service graph, latency timelines, baggage, sampling, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses trace search, spans, service graph, latency timelines, baggage, sampling instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as APM investigations, request tracing, and microservice diagnostics.
+- Accesses trace search, spans, service graph, latency timelines, baggage, sampling instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as APM investigations, request tracing, and microservice diagnostics.
 
  Key integration points include APM investigations, request tracing, and microservice diagnostics. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

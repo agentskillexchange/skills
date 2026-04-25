@@ -18,10 +18,13 @@ Loki Log Query Agent is built around Grafana Loki log aggregation system. The un
 
 The skill is especially useful when an agent needs to translate a natural-language request into concrete loki-level queries, run them safely, and then explain the result in operational terms rather than returning raw output. The implementation typically relies on LogQL, labels, streams, tailing, retention, query frontend, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses LogQL, labels, streams, tailing, retention, query frontend instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as log search, correlation with metrics, and troubleshooting workflows.
+- Accesses LogQL, labels, streams, tailing, retention, query frontend instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as log search, correlation with metrics, and troubleshooting workflows.
 
  Key integration points include log search, correlation with metrics, and troubleshooting workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

@@ -29,7 +29,7 @@ AI agents can use Konva to programmatically generate diagrams, data visualizatio
 
 Installation
 npm install konva
-Or include via CDN:
+Or include via CDN: <script src="https://unpkg.com/konva@10/konva.min.js"></script>
 
 ## Installation
 

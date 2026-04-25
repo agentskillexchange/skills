@@ -22,13 +22,19 @@ Database schema documentation is one of those tasks that everyone knows is impor
 
 Key Features
 
-Single-query schema import: Run one SQL query to extract your entire schema as JSON
-Multi-database support: PostgreSQL, MySQL, SQLite, MariaDB, and SQL Server
-AI-powered DDL export: Generate migration scripts between database dialects using OpenAI or custom LLM endpoints
-Interactive editor: Visual schema editing with drag-and-drop table positioning
-No account required: Full functionality without signup — runs entirely client-side
-Self-hostable: Docker deployment with optional AI capabilities via API key
-Open source: AGPL-3.0 license with active community development
+- Single-query schema import: Run one SQL query to extract your entire schema as JSON
+
+- Multi-database support: PostgreSQL, MySQL, SQLite, MariaDB, and SQL Server
+
+- AI-powered DDL export: Generate migration scripts between database dialects using OpenAI or custom LLM endpoints
+
+- Interactive editor: Visual schema editing with drag-and-drop table positioning
+
+- No account required: Full functionality without signup — runs entirely client-side
+
+- Self-hostable: Docker deployment with optional AI capabilities via API key
+
+- Open source: AGPL-3.0 license with active community development
 
 Integration Points
 ChartDB integrates into database documentation workflows, migration planning, and architecture review processes. The Docker deployment supports environment variable configuration for AI backends, including custom OpenAI-compatible endpoints like vLLM. Schema exports produce standard DDL that can be version-controlled or fed into migration tools like dbmate or Flyway.

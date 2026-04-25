@@ -21,10 +21,13 @@ The skill runs terraform plan -detailed-exitcode to detect changes, then parses 
 
 Key Features
 
-Drift categorization by resource type (compute, network, IAM, storage) with severity scoring
-Blast radius analysis estimating the impact of reconciliation applies
-Selective reconciliation plans using terraform apply -target for surgical fixes
-Support for Terraform workspaces, remote backends (S3, GCS, Azure Blob), and Terraform Cloud
+- Drift categorization by resource type (compute, network, IAM, storage) with severity scoring
+
+- Blast radius analysis estimating the impact of reconciliation applies
+
+- Selective reconciliation plans using terraform apply -target for surgical fixes
+
+- Support for Terraform workspaces, remote backends (S3, GCS, Azure Blob), and Terraform Cloud
 
 Scheduling
 Designed for scheduled drift detection runs. Maintains a drift history log for trend analysis. Alerts on critical drift like IAM policy changes or security group modifications. Compatible with OpenTofu and Terragrunt configurations.

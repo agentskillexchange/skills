@@ -21,14 +21,21 @@ Unlike traditional RAG systems that chunk documents and retrieve by vector simil
 
 Key Features
 
-Graph-based RAG: Builds knowledge graphs from documents using entity recognition and relation extraction for fine-grained, domain-specific retrieval.
-Multiple query modes: Supports naive, local, global, hybrid, and mixed query modes with reranker support for optimal results.
-Flexible storage backends: Works with Neo4J, PostgreSQL, MongoDB, OpenSearch, and built-in storage for both vector and graph data.
-LLM provider agnostic: Compatible with OpenAI, Anthropic, local models via Ollama, and other providers.
-REST API server: Includes a built-in API server for document insertion and querying, plus a WebUI for visualization.
-Multimodal support: Handles text, images, tables, and equations through RAG-Anything integration.
-Citation support: Enables proper source attribution and document traceability.
-Evaluation and tracing: Integrated RAGAS for evaluation and Langfuse for observability tracing.
+- Graph-based RAG: Builds knowledge graphs from documents using entity recognition and relation extraction for fine-grained, domain-specific retrieval.
+
+- Multiple query modes: Supports naive, local, global, hybrid, and mixed query modes with reranker support for optimal results.
+
+- Flexible storage backends: Works with Neo4J, PostgreSQL, MongoDB, OpenSearch, and built-in storage for both vector and graph data.
+
+- LLM provider agnostic: Compatible with OpenAI, Anthropic, local models via Ollama, and other providers.
+
+- REST API server: Includes a built-in API server for document insertion and querying, plus a WebUI for visualization.
+
+- Multimodal support: Handles text, images, tables, and equations through RAG-Anything integration.
+
+- Citation support: Enables proper source attribution and document traceability.
+
+- Evaluation and tracing: Integrated RAGAS for evaluation and Langfuse for observability tracing.
 
 Installation
 pip install lightrag-hku

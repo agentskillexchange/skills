@@ -21,13 +21,19 @@ Tolgee consists of a self-hostable backend platform (Java/Kotlin) and frontend S
 
 Key Features
 
-In-context translation: ALT+click any string in your app to edit translations directly. Works in development and production via the Tolgee Tools Chrome extension.
-Machine translation: Integrated DeepL, Google Translate, and AWS Translate services for instant translation suggestions.
-Translation memory: Automatically suggests translations based on previously used strings in your project, showing similarity percentages.
-Auto-translation: New keys are automatically translated using translation memory or configured machine translation services.
-Framework SDKs: Official SDKs for React, Vue, Angular, Svelte, Next.js, Gatsby, and vanilla JavaScript with i18next integration.
-MCP server: Exposes a Model Context Protocol server enabling AI coding assistants to search keys, create/update translations, manage languages, and trigger machine translation directly from the editor.
-Activity log: Track who modified, reviewed, or commented on every translation phrase.
+- In-context translation: ALT+click any string in your app to edit translations directly. Works in development and production via the Tolgee Tools Chrome extension.
+
+- Machine translation: Integrated DeepL, Google Translate, and AWS Translate services for instant translation suggestions.
+
+- Translation memory: Automatically suggests translations based on previously used strings in your project, showing similarity percentages.
+
+- Auto-translation: New keys are automatically translated using translation memory or configured machine translation services.
+
+- Framework SDKs: Official SDKs for React, Vue, Angular, Svelte, Next.js, Gatsby, and vanilla JavaScript with i18next integration.
+
+- MCP server: Exposes a Model Context Protocol server enabling AI coding assistants to search keys, create/update translations, manage languages, and trigger machine translation directly from the editor.
+
+- Activity log: Track who modified, reviewed, or commented on every translation phrase.
 
 Integration Points
 Self-host with Docker (docker run -p 8085:8085 tolgee/tolgee) or use Tolgee Cloud. Install framework SDKs via npm (e.g., npm install @tolgee/react). Use the Tolgee CLI (npm install -g @tolgee/cli) to push/pull translations between your repo and the platform. The REST API supports webhooks for CI/CD integration.

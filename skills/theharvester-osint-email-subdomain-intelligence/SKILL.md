@@ -21,12 +21,17 @@ theHarvester queries a wide range of passive and active data sources to enumerat
 
 Key Capabilities
 
-Email harvesting: Discovers email addresses associated with a domain by querying search engines and public databases
-Subdomain enumeration: Finds subdomains through certificate transparency logs, DNS brute-force, and search engine results
-Host discovery: Identifies IP addresses and hostnames associated with the target
-Shodan integration: Queries Shodan for open ports, banners, and service information on discovered hosts
-DNS resolution: Performs forward and reverse DNS lookups on discovered assets
-Screenshot capture: Can take screenshots of discovered web services for visual reconnaissance
+- Email harvesting: Discovers email addresses associated with a domain by querying search engines and public databases
+
+- Subdomain enumeration: Finds subdomains through certificate transparency logs, DNS brute-force, and search engine results
+
+- Host discovery: Identifies IP addresses and hostnames associated with the target
+
+- Shodan integration: Queries Shodan for open ports, banners, and service information on discovered hosts
+
+- DNS resolution: Performs forward and reverse DNS lookups on discovered assets
+
+- Screenshot capture: Can take screenshots of discovered web services for visual reconnaissance
 
 Integration Points
 theHarvester can be run as a CLI tool or integrated into automated reconnaissance pipelines. It outputs results in XML and JSON formats, making it straightforward to feed data into other tools in a security assessment workflow. The tool is included by default in Kali Linux and is installable via pip from PyPI. It supports API key configuration for premium data sources like Shodan, VirusTotal, and SecurityTrails.

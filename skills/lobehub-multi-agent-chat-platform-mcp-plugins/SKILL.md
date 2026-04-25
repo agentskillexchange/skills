@@ -28,17 +28,27 @@ AI coding agents can use LobeHub as a front-end interface for interacting with m
 
 Key Features
 
-Support for 50+ LLM providers (OpenAI, Claude, Gemini, DeepSeek, Ollama, etc.)
-Multi-agent collaboration with agent teams and handoffs
-MCP plugin marketplace with one-click installation
-Knowledge base with file upload and RAG pipeline
-Vision, TTS, and STT multimodal capabilities
-Text-to-image generation integration
-Branching conversations and chain-of-thought display
-Desktop application support
-Progressive Web App (PWA) with mobile adaptation
-Local and remote database support with multi-user management
-Custom themes and extensive personalization
+- Support for 50+ LLM providers (OpenAI, Claude, Gemini, DeepSeek, Ollama, etc.)
+
+- Multi-agent collaboration with agent teams and handoffs
+
+- MCP plugin marketplace with one-click installation
+
+- Knowledge base with file upload and RAG pipeline
+
+- Vision, TTS, and STT multimodal capabilities
+
+- Text-to-image generation integration
+
+- Branching conversations and chain-of-thought display
+
+- Desktop application support
+
+- Progressive Web App (PWA) with mobile adaptation
+
+- Local and remote database support with multi-user management
+
+- Custom themes and extensive personalization
 
 Deployment
 LobeHub can be deployed via Vercel, Docker, or Zeabur. For Docker deployment:

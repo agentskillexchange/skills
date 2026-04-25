@@ -26,9 +26,11 @@ This is not a general archive platform listing. The skill boundary is a single c
 
 Install notes
 
-Build or install warc2text with the documented system dependencies.
-Choose an output folder and desired output types.
-Run warc2text -o output_dir ... input.warc.gz against the capture set.
+- Build or install warc2text with the documented system dependencies.
+
+- Choose an output folder and desired output types.
+
+- Run warc2text -o output_dir ... input.warc.gz against the capture set.
 
 ## Installation
 

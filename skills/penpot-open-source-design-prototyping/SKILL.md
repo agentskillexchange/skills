@@ -22,14 +22,21 @@ Penpot exposes a REST API and supports webhooks, making it possible to integrate
 
 Key Features
 
-Open standards: SVG, CSS, HTML, and JSON throughout — no proprietary file formats
-Design tokens: Native design token support for maintaining consistency across design and code
-CSS Grid Layout: The first design tool with native CSS Grid, introduced in Penpot 2.0
-Components and variants: Reusable component system with variants for scalable design systems
-Real-time collaboration: Multi-user editing with shared workspaces
-Self-hostable: Deploy via Docker, Kubernetes, or use the hosted SaaS at design.penpot.app
-Plugin ecosystem: Extensible via Penpot plugins for custom workflows
-API and webhooks: REST API with access tokens for programmatic integration
+- Open standards: SVG, CSS, HTML, and JSON throughout — no proprietary file formats
+
+- Design tokens: Native design token support for maintaining consistency across design and code
+
+- CSS Grid Layout: The first design tool with native CSS Grid, introduced in Penpot 2.0
+
+- Components and variants: Reusable component system with variants for scalable design systems
+
+- Real-time collaboration: Multi-user editing with shared workspaces
+
+- Self-hostable: Deploy via Docker, Kubernetes, or use the hosted SaaS at design.penpot.app
+
+- Plugin ecosystem: Extensible via Penpot plugins for custom workflows
+
+- API and webhooks: REST API with access tokens for programmatic integration
 
 Integration Points
 Penpot fits into design-to-code pipelines, design system management, and collaborative prototyping workflows. The inspect tab provides developers with ready-to-use CSS and SVG output. Webhooks enable event-driven automation — for example, triggering a CI pipeline when a component library is updated. The API supports token-based authentication for headless access to project data and exports.

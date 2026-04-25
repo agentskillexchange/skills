@@ -22,12 +22,17 @@ This skill enables agents to automate media editing workflows using LosslessCutâ
 
 Key Capabilities
 
-Lossless cutting: Trim and split video/audio files at precise timestamps without quality loss. Smart cut mode enables frame-accurate cutting by re-encoding only the frames at cut boundaries while copying the rest losslessly.
-Segment management: Cut out unwanted sections (commercials, dead air), rearrange segment order, and export individual segments or merged output. Import/export segment lists as CSV for batch automation.
-Multi-track editing: Add, remove, replace, or re-order individual tracks (video, audio, subtitle, attachment) from media files. Combine tracks from multiple source files into a single output.
-Format remuxing: Convert container formats (MP4 to MKV, MOV to MP4, etc.) instantly without transcoding the underlying streams. Fix broken or incomplete media files by remuxing.
-Frame extraction: Export full-resolution snapshots as JPEG or PNG at any point in the video. Batch export every Nth frame, one per second, or based on scene change detection for thumbnail generation.
-Metadata editing: View and edit file-level metadata, per-track metadata, chapter markers, and track disposition flags. Inspect detailed codec and format information via embedded MediaInfo.
+- Lossless cutting: Trim and split video/audio files at precise timestamps without quality loss. Smart cut mode enables frame-accurate cutting by re-encoding only the frames at cut boundaries while copying the rest losslessly.
+
+- Segment management: Cut out unwanted sections (commercials, dead air), rearrange segment order, and export individual segments or merged output. Import/export segment lists as CSV for batch automation.
+
+- Multi-track editing: Add, remove, replace, or re-order individual tracks (video, audio, subtitle, attachment) from media files. Combine tracks from multiple source files into a single output.
+
+- Format remuxing: Convert container formats (MP4 to MKV, MOV to MP4, etc.) instantly without transcoding the underlying streams. Fix broken or incomplete media files by remuxing.
+
+- Frame extraction: Export full-resolution snapshots as JPEG or PNG at any point in the video. Batch export every Nth frame, one per second, or based on scene change detection for thumbnail generation.
+
+- Metadata editing: View and edit file-level metadata, per-track metadata, chapter markers, and track disposition flags. Inspect detailed codec and format information via embedded MediaInfo.
 
 Integration Points
 LosslessCut is built on Electron and uses FFmpeg for all media operations. It supports CLI invocation for headless batch processing scenarios. Segment lists can be imported/exported as CSV, enabling programmatic generation of edit decision lists from external analysis tools. The application reads any format FFmpeg supports and writes to major container formats including MP4 (H.264/H.265), MKV, MOV, WebM, and audio containers like MP3, M4A, FLAC, and OGG. It runs on Windows, macOS, and Linux.

@@ -9,7 +9,6 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "psenger/ai-agent-skills"
-  github_stars: 0
 ---
 
 # Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks

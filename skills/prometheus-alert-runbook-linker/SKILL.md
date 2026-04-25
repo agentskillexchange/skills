@@ -21,10 +21,13 @@ The skill scans Prometheus alerting rules (both file-based and PrometheusRule CR
 
 Key Features
 
-Scans prometheus.yml alert rules and Kubernetes PrometheusRule custom resources
-Validates runbook_url annotation presence and HTTP reachability for every alert
-Generates stub runbook templates for alerts missing documentation
-Cross-references alert labels with runbook metadata to detect mislinked documentation
+- Scans prometheus.yml alert rules and Kubernetes PrometheusRule custom resources
+
+- Validates runbook_url annotation presence and HTTP reachability for every alert
+
+- Generates stub runbook templates for alerts missing documentation
+
+- Cross-references alert labels with runbook metadata to detect mislinked documentation
 
 Templates
 Generated runbooks follow the SRE runbook format: Summary, Impact, Diagnosis Steps, Remediation Steps, and Escalation Path. Supports output to Confluence, GitBook, and Markdown in git repositories. Integrates with Grafana OnCall for runbook attachment.

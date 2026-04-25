@@ -29,12 +29,17 @@ For AI coding agents, WebdriverIO is valuable for generating, running, and debug
 
 Key Features
 
-Smart element selectors with automatic waiting and retry logic
-Visual regression testing with screenshot comparison
-Network interception and mocking via Chrome DevTools Protocol
-Component testing for React, Vue, Svelte, and Lit frameworks
-Accessibility testing with @wdio/accessibility-service
-Comprehensive reporting with Allure, Spec, JUnit, and custom reporters
+- Smart element selectors with automatic waiting and retry logic
+
+- Visual regression testing with screenshot comparison
+
+- Network interception and mocking via Chrome DevTools Protocol
+
+- Component testing for React, Vue, Svelte, and Lit frameworks
+
+- Accessibility testing with @wdio/accessibility-service
+
+- Comprehensive reporting with Allure, Spec, JUnit, and custom reporters
 
 Install via npm with npm init wdio@latest for an interactive setup wizard, or add individual packages like npm install webdriverio for standalone usage. The project is MIT-licensed and hosted at github.com/webdriverio/webdriverio with extensive documentation at webdriver.io.
 

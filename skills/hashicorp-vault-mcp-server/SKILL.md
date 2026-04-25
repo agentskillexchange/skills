@@ -18,17 +18,23 @@ The Vault MCP Server is maintained by HashiCorp (IBM) and provides full-featured
 
 Best for
 
-Reading API keys and secrets during development without leaving the agent workflow
-Provisioning new secret paths and managing KV mounts
-Managing Vault policies through natural language
-DevOps teams integrating secrets management into AI-assisted infrastructure workflows
+- Reading API keys and secrets during development without leaving the agent workflow
+
+- Provisioning new secret paths and managing KV mounts
+
+- Managing Vault policies through natural language
+
+- DevOps teams integrating secrets management into AI-assisted infrastructure workflows
 
 Key capabilities
 
-Secret operations: Write, read, list, and delete secrets in KV mounts (v1 and v2)
-Mount management: Create new mounts, list available mounts, and delete mounts
-Policy management: Read and manage Vault policies
-Dual transport: Stdio mode for local and StreamableHTTP for remote integrations
+- Secret operations: Write, read, list, and delete secrets in KV mounts (v1 and v2)
+
+- Mount management: Create new mounts, list available mounts, and delete mounts
+
+- Policy management: Read and manage Vault policies
+
+- Dual transport: Stdio mode for local and StreamableHTTP for remote integrations
 
 Security model
 Requires a valid Vault token with appropriate permissions. HTTP mode supports TLS and CORS restrictions. All actions are auditable through Vault’s standard audit log. Intended for local development and controlled environments.

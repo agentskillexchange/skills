@@ -28,16 +28,25 @@ AI agents can interact with Docmost through its REST API to create, read, update
 
 Key Features
 
-Real-time collaborative editing with multi-user support
-Spaces for organizing content into team workspaces
-Nested page hierarchies for structured documentation
-Built-in diagrams: Draw.io, Excalidraw, and Mermaid
-Granular permissions and group-based access control
-Full-text search across all content
-Page history and version tracking
-File attachment support
-Comment threads on documents
-Internationalization with 10+ language translations
+- Real-time collaborative editing with multi-user support
+
+- Spaces for organizing content into team workspaces
+
+- Nested page hierarchies for structured documentation
+
+- Built-in diagrams: Draw.io, Excalidraw, and Mermaid
+
+- Granular permissions and group-based access control
+
+- Full-text search across all content
+
+- Page history and version tracking
+
+- File attachment support
+
+- Comment threads on documents
+
+- Internationalization with 10+ language translations
 
 Deployment
 Docmost is deployed via Docker Compose. It requires PostgreSQL for data storage and Redis for caching and real-time features. A typical deployment runs with three containers: the Docmost application, PostgreSQL, and Redis.

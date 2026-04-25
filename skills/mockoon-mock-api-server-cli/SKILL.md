@@ -22,15 +22,23 @@ Mockoon’s desktop app provides a visual interface for creating API routes with
 
 Key Features
 
-Zero-config mock servers: Create and run mock APIs in seconds with the desktop app
-CLI for CI/CD: Run mock environments headlessly via @mockoon/cli in Docker, GitHub Actions, and pipelines
-Dynamic response templating: Faker.js data, request interpolation, conditional responses, and loops
-Proxy mode: Forward unmatched requests to a real API while intercepting specific routes
-OpenAPI import/export: Import Swagger/OpenAPI specs to auto-generate mock routes
-Request logging: Inspect incoming requests and outgoing responses for debugging
-CORS handling: Automatic CORS preflight responses for frontend development
-Multiple environments: Run several mock servers on different ports simultaneously
-Response rules: Serve different responses based on request body, headers, query params, or cookies
+- Zero-config mock servers: Create and run mock APIs in seconds with the desktop app
+
+- CLI for CI/CD: Run mock environments headlessly via @mockoon/cli in Docker, GitHub Actions, and pipelines
+
+- Dynamic response templating: Faker.js data, request interpolation, conditional responses, and loops
+
+- Proxy mode: Forward unmatched requests to a real API while intercepting specific routes
+
+- OpenAPI import/export: Import Swagger/OpenAPI specs to auto-generate mock routes
+
+- Request logging: Inspect incoming requests and outgoing responses for debugging
+
+- CORS handling: Automatic CORS preflight responses for frontend development
+
+- Multiple environments: Run several mock servers on different ports simultaneously
+
+- Response rules: Serve different responses based on request body, headers, query params, or cookies
 
 Agent Integration
 AI agents can leverage Mockoon for API testing workflows: generating mock servers from OpenAPI specs to test integrations without hitting production endpoints, running mock APIs in CI to validate client code against expected contracts, prototyping new API designs by defining routes and testing them locally, or using the proxy mode to intercept and modify specific API calls during debugging sessions.

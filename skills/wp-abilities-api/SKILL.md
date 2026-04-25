@@ -18,9 +18,11 @@ WP Abilities API is a specialist skill for WordPress builders working with wp_re
 
 Best for
 
-registering WordPress abilities and categories in PHP
-debugging REST exposure and missing client visibility
-implementing permission-aware ability checks in JavaScript clients
+- registering WordPress abilities and categories in PHP
+
+- debugging REST exposure and missing client visibility
+
+- implementing permission-aware ability checks in JavaScript clients
 
 Install notes
 Install the skill in an OpenClaw workspace that has access to your WordPress plugin, theme, or core checkout. It is most useful in environments targeting WordPress 6.9+ and may also rely on WP-CLI for validation workflows.

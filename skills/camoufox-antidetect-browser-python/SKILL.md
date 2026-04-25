@@ -21,12 +21,17 @@ Camoufox wraps around the Playwright API through its Python package. When launch
 
 Key Capabilities
 
-C++ Level Fingerprint Injection: All navigator properties, screen dimensions, geolocation, timezone, locale, and Intl spoofing are handled at the browser engine level, invisible to page JavaScript inspection.
-WebRTC IP Spoofing: Operates at the protocol level, not through JavaScript overrides.
-Anti-Graphical Fingerprinting: WebGL parameters, supported extensions, context attributes, shader precision formats, and font metrics are all spoofed consistently.
-Human-like Mouse Movement: Built-in cursor path simulation that mimics natural human interaction patterns.
-Ad Blocking and CSS Animation Removal: Reduces noise and improves performance for scraping tasks.
-Memory Optimized: Debloated Firefox build optimized for automation workloads.
+- C++ Level Fingerprint Injection: All navigator properties, screen dimensions, geolocation, timezone, locale, and Intl spoofing are handled at the browser engine level, invisible to page JavaScript inspection.
+
+- WebRTC IP Spoofing: Operates at the protocol level, not through JavaScript overrides.
+
+- Anti-Graphical Fingerprinting: WebGL parameters, supported extensions, context attributes, shader precision formats, and font metrics are all spoofed consistently.
+
+- Human-like Mouse Movement: Built-in cursor path simulation that mimics natural human interaction patterns.
+
+- Ad Blocking and CSS Animation Removal: Reduces noise and improves performance for scraping tasks.
+
+- Memory Optimized: Debloated Firefox build optimized for automation workloads.
 
 Integration Points
 Install from PyPI with pip install camoufox and camoufox fetch to download the browser binary. The Python interface wraps Playwright, so existing Playwright scripts can be adapted with minimal changes. Camoufox supports both sync and async APIs, headless and headed modes, and can be configured with custom proxies, geolocation, and locale settings per session.

@@ -31,12 +31,17 @@ Install via npm: npm install resend. Initialize with an API key from the Resend 
 
 Key Features
 
-Type-safe TypeScript SDK with full IntelliSense
-React component email templates via the react property
-Batch sending for up to 100 emails per API call
-Domain management, API key rotation, and audience/contact APIs
-Webhook support for delivery, bounce, and complaint events
-MIT licensed Node.js SDK with active maintenance
+- Type-safe TypeScript SDK with full IntelliSense
+
+- React component email templates via the react property
+
+- Batch sending for up to 100 emails per API call
+
+- Domain management, API key rotation, and audience/contact APIs
+
+- Webhook support for delivery, bounce, and complaint events
+
+- MIT licensed Node.js SDK with active maintenance
 
 ## Installation
 

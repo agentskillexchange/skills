@@ -25,14 +25,21 @@ AI agents can interact with MinIO using standard S3 SDKs (aws-sdk, boto3, minio-
 
 Key Features
 
-Full AWS S3 API compatibility
-Erasure coding and bitrot protection
-Server-side encryption (SSE-S3, SSE-C, SSE-KMS)
-Bucket versioning and object locking (WORM)
-Identity management with LDAP/AD, OpenID Connect, and built-in IAM
-Event notifications via webhooks, Kafka, AMQP, NATS, Redis
-Built-in web console at port 9001
-mc CLI for scriptable object and admin operations
+- Full AWS S3 API compatibility
+
+- Erasure coding and bitrot protection
+
+- Server-side encryption (SSE-S3, SSE-C, SSE-KMS)
+
+- Bucket versioning and object locking (WORM)
+
+- Identity management with LDAP/AD, OpenID Connect, and built-in IAM
+
+- Event notifications via webhooks, Kafka, AMQP, NATS, Redis
+
+- Built-in web console at port 9001
+
+- mc CLI for scriptable object and admin operations
 
 Installation
 # Binary

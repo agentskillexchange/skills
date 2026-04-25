@@ -26,9 +26,11 @@ This is not a general product listing for the Updatecli platform. The skill boun
 
 Install notes
 
-Install Updatecli from the project release page or one of the documented package methods.
-Create an updatecli.yaml policy describing sources, conditions, and targets.
-Run updatecli apply --config updatecli.yaml to execute the workflow.
+- Install Updatecli from the project release page or one of the documented package methods.
+
+- Create an updatecli.yaml policy describing sources, conditions, and targets.
+
+- Run updatecli apply --config updatecli.yaml to execute the workflow.
 
 ## Installation
 

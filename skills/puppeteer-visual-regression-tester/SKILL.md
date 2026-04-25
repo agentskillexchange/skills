@@ -18,10 +18,13 @@ Puppeteer Visual Regression Tester is built around Puppeteer Chrome automation l
 
 For testing and review work, the skill wraps the normal puppeteer commands into a repeatable analysis loop that can produce summaries, prioritized findings, and CI-friendly output instead of a wall of raw logs. The original use case is clear: Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions. The implementation typically relies on page.screenshot, tracing, DevTools protocol, PDF, viewport control, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses page.screenshot, tracing, DevTools protocol, PDF, viewport control instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as browser automation, screenshots, and visual regression testing.
+- Accesses page.screenshot, tracing, DevTools protocol, PDF, viewport control instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as browser automation, screenshots, and visual regression testing.
 
  Key integration points include browser automation, screenshots, and visual regression testing. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

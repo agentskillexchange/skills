@@ -26,9 +26,11 @@ This skill is scoped to the local CLI workflow engine. It is not a listing for t
 
 Install notes
 
-Install the CLI with npx codemod or the documented package method.
-Initialize a codemod project or create a workflow YAML.
-Run npx codemod workflow run -w workflow.yaml to execute the migration locally or in CI.
+- Install the CLI with npx codemod or the documented package method.
+
+- Initialize a codemod project or create a workflow YAML.
+
+- Run npx codemod workflow run -w workflow.yaml to execute the migration locally or in CI.
 
 ## Installation
 

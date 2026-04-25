@@ -18,16 +18,21 @@ The Atlassian Rovo MCP Server is maintained by Atlassian and provides a cloud-ba
 
 Best for
 
-Creating Jira tickets from specs or meeting notes without context switching
-Searching and summarizing Confluence documentation through your agent
-Querying Compass service metadata
-Automating cross-product workflows spanning Jira and Confluence
+- Creating Jira tickets from specs or meeting notes without context switching
+
+- Searching and summarizing Confluence documentation through your agent
+
+- Querying Compass service metadata
+
+- Automating cross-product workflows spanning Jira and Confluence
 
 Key capabilities
 
-Jira: Search issues, create and update tickets, view project status, manage workflows
-Confluence: Search pages, create and edit content, summarize documentation
-Compass: Query service information and component metadata
+- Jira: Search issues, create and update tickets, view project status, manage workflows
+
+- Confluence: Search pages, create and edit content, summarize documentation
+
+- Compass: Query service information and component metadata
 
 Security model
 All traffic encrypted via HTTPS (TLS 1.2+). OAuth 2.1 or API token authentication. Data access respects existing Jira, Confluence, and Compass user permissions.

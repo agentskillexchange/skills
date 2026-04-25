@@ -20,10 +20,13 @@ Postman Collection Runner is built around Postman API testing platform. The unde
 
 In practice, the skill gives an agent a stable interface to postman so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on collections, environments, Newman, scripts, assertions, monitors, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses collections, environments, Newman, scripts, assertions, monitors instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as API regression tests, collection execution, and documentation validation.
+- Accesses collections, environments, Newman, scripts, assertions, monitors instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as API regression tests, collection execution, and documentation validation.
 
  Key integration points include API regression tests, collection execution, and documentation validation. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

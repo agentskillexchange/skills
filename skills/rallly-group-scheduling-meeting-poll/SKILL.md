@@ -21,12 +21,17 @@ Users create a poll with proposed dates and times for a meeting or event. Partic
 
 Key Features
 
-Create date-based polls for group scheduling without sign-up requirements for participants
-Self-hostable with Docker for complete data ownership and privacy
-Built on a modern TypeScript stack: Next.js frontend, Prisma ORM, tRPC for type-safe APIs, PostgreSQL database
-Internationalized with community translations via Crowdin
-Email notifications for poll updates and new responses
-Clean, responsive UI with TailwindCSS
+- Create date-based polls for group scheduling without sign-up requirements for participants
+
+- Self-hostable with Docker for complete data ownership and privacy
+
+- Built on a modern TypeScript stack: Next.js frontend, Prisma ORM, tRPC for type-safe APIs, PostgreSQL database
+
+- Internationalized with community translations via Crowdin
+
+- Email notifications for poll updates and new responses
+
+- Clean, responsive UI with TailwindCSS
 
 Integration Points
 Rallly exposes a REST API that agents can use to programmatically create polls, add participants, check poll status, and retrieve results. Agents can automate the entire scheduling workflow: create a poll when a meeting is requested, distribute the link to participants, monitor responses, and announce the winning time slot.

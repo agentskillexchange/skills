@@ -21,13 +21,19 @@ Skyvern employs a swarm of specialized agents to comprehend websites, plan actio
 
 Key Capabilities
 
-Visual understanding: Uses computer vision to interpret page content rather than relying on fragile DOM selectors, XPaths, or CSS selectors.
-Zero-shot website support: Can automate workflows on websites it has never been trained on or seen before.
-Playwright-compatible SDK: Provides a Python SDK that extends Playwright with AI capabilities, allowing developers to mix traditional and AI-powered automation.
-No-code workflow builder: Includes a visual workflow editor for non-technical users to create and manage automations.
-Anti-bot resistance: The cloud version includes built-in proxy rotation, CAPTCHA solvers, and anti-detection mechanisms.
-Self-hostable: Can be deployed on your own infrastructure via Docker Compose or pip install for full data privacy.
-Multi-step workflows: Supports complex, multi-page workflows with conditional logic, data extraction, and form filling.
+- Visual understanding: Uses computer vision to interpret page content rather than relying on fragile DOM selectors, XPaths, or CSS selectors.
+
+- Zero-shot website support: Can automate workflows on websites it has never been trained on or seen before.
+
+- Playwright-compatible SDK: Provides a Python SDK that extends Playwright with AI capabilities, allowing developers to mix traditional and AI-powered automation.
+
+- No-code workflow builder: Includes a visual workflow editor for non-technical users to create and manage automations.
+
+- Anti-bot resistance: The cloud version includes built-in proxy rotation, CAPTCHA solvers, and anti-detection mechanisms.
+
+- Self-hostable: Can be deployed on your own infrastructure via Docker Compose or pip install for full data privacy.
+
+- Multi-step workflows: Supports complex, multi-page workflows with conditional logic, data extraction, and form filling.
 
 Integration Points
 Install locally with pip install skyvern followed by skyvern quickstart, or deploy via Docker. Skyvern exposes a REST API for integration with other systems, supports n8n workflow nodes, and provides a web UI at localhost:8080 for workflow management. It works with Python 3.11+ and requires Node.js for the frontend. The Playwright-based SDK enables direct integration into existing Python automation scripts.

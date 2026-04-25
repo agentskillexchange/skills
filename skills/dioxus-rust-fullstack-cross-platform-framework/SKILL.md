@@ -19,13 +19,19 @@ Dioxus is a comprehensive Rust framework for building cross-platform application
 
 Key Features
 
-Cross-platform from one codebase: Build for web (WASM), desktop (native webview), mobile, and server with the same Rust code
-RSX macro: JSX-like syntax for declaring UI components directly in Rust with full IDE support and compile-time checking
-Signals-based state management: Reactive state system inspired by Solid.js that combines the best of React, Solid, and Svelte paradigms
-Integrated bundler (dx CLI): The dx command-line tool handles building, bundling, and deploying to all target platforms with asset optimization
-Hot-reloading and hot-patching: Subsecond Rust hot-patching during development for rapid iteration cycles
-Server Functions: Built-in fullstack capabilities with server-side rendering (SSR), server functions, and deep axum integration
-TailwindCSS integration: Native support for Tailwind CSS alongside standard HTML/CSS styling
+- Cross-platform from one codebase: Build for web (WASM), desktop (native webview), mobile, and server with the same Rust code
+
+- RSX macro: JSX-like syntax for declaring UI components directly in Rust with full IDE support and compile-time checking
+
+- Signals-based state management: Reactive state system inspired by Solid.js that combines the best of React, Solid, and Svelte paradigms
+
+- Integrated bundler (dx CLI): The dx command-line tool handles building, bundling, and deploying to all target platforms with asset optimization
+
+- Hot-reloading and hot-patching: Subsecond Rust hot-patching during development for rapid iteration cycles
+
+- Server Functions: Built-in fullstack capabilities with server-side rendering (SSR), server functions, and deep axum integration
+
+- TailwindCSS integration: Native support for Tailwind CSS alongside standard HTML/CSS styling
 
 Agent Integration
 AI coding agents can use Dioxus to rapidly scaffold and iterate on cross-platform Rust applications. The RSX macro provides a familiar HTML-like syntax that agents can generate and modify, while the dx CLI handles the build toolchain complexity. Agents can leverage the framework’s type-safe API to generate correct UI components, manage application state with signals, and implement server functions — all with compile-time verification that catches errors before runtime.

@@ -18,10 +18,13 @@ Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying e
 
 In deployment workflows, the skill acts as a control layer around graphql operations so an agent can inspect current state, compute a diff, surface rollout risk, and only then trigger the change path. The implementation typically relies on queries, mutations, schema introspection, fragments, pagination, subscriptions, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses queries, mutations, schema introspection, fragments, pagination, subscriptions instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as typed API access, schema exploration, and integration workflows.
+- Accesses queries, mutations, schema introspection, fragments, pagination, subscriptions instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as typed API access, schema exploration, and integration workflows.
 
  Key integration points include typed API access, schema exploration, and integration workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

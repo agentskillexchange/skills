@@ -18,9 +18,11 @@ Crawl4AI MCP Server wraps the Crawl4AI open-source web crawling library behind a
 
 Best for
 
-Research pipelines and RAG ingestion
-Documentation extraction and competitive monitoring
-Any workflow needing structured web content without a paid crawling service
+- Research pipelines and RAG ingestion
+
+- Documentation extraction and competitive monitoring
+
+- Any workflow needing structured web content without a paid crawling service
 
 How it differs from Firecrawl
 Entirely self-hosted and free. No API keys for the crawling layer, no rate limits from a third party, no usage-based charges. Runs locally or in Docker.

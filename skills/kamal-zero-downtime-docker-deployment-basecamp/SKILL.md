@@ -21,14 +21,21 @@ Kamal uses SSHKit to execute commands on remote servers over SSH. It pairs with 
 
 Key Features
 
-Zero-downtime deploys: Rolling deployments with automatic container switching via kamal-proxy
-Rolling restarts: Restart running applications without interruption
-Multi-server support: Deploy to multiple servers simultaneously with role-based configuration
-Accessory management: Manage supporting services like databases, caches, and search engines alongside your app
-Asset bridging: Maintain asset availability during deployments
-Remote builds: Build Docker images on remote machines or via registry
-Lock management: Prevent concurrent deploys with built-in locking
-Hooks: Run custom scripts at various deployment lifecycle points
+- Zero-downtime deploys: Rolling deployments with automatic container switching via kamal-proxy
+
+- Rolling restarts: Restart running applications without interruption
+
+- Multi-server support: Deploy to multiple servers simultaneously with role-based configuration
+
+- Accessory management: Manage supporting services like databases, caches, and search engines alongside your app
+
+- Asset bridging: Maintain asset availability during deployments
+
+- Remote builds: Build Docker images on remote machines or via registry
+
+- Lock management: Prevent concurrent deploys with built-in locking
+
+- Hooks: Run custom scripts at various deployment lifecycle points
 
 Agent Integration
 AI coding agents can use Kamal to automate deployment workflows by generating deploy.yml configurations, running kamal setup for initial provisioning, executing kamal deploy for updates, and managing accessories. The CLI-driven interface makes it straightforward to integrate into agent pipelines for CI/CD automation without requiring complex platform-specific APIs.

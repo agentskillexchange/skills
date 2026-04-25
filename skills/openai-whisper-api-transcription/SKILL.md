@@ -18,9 +18,11 @@ The already-live OpenAI Whisper (local) listing runs the Whisper model directly 
 
 Best for
 
-Meeting recordings and podcast notes
-Voice memos and interview transcripts
-Any audio-to-text workflow where convenience and speed matter more than running your own model
+- Meeting recordings and podcast notes
+
+- Voice memos and interview transcripts
+
+- Any audio-to-text workflow where convenience and speed matter more than running your own model
 
 Install notes
 Set your OPENAI_API_KEY environment variable or configure it in OpenClaw skill config. Requires curl (pre-installed on most systems). No other dependencies.

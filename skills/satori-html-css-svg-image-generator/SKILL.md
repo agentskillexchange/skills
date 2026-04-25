@@ -22,13 +22,19 @@ Satori takes a React-like JSX element tree (or HTML via satori-html) and a confi
 
 Key Features
 
-JSX-to-SVG rendering: Write image templates as JSX components with full CSS Flexbox
-Custom font loading: Load .ttf/.otf fonts for brand-consistent typography
-Emoji support: Built-in Twemoji and OpenMoji rendering
-Multi-language text: CJK, Arabic, Thai, Devanagari with automatic text segmentation
-Edge-compatible: Runs on Edge Runtime, Cloudflare Workers, and Deno Deploy
-No headless browser: Pure layout engine — fast, lightweight, deterministic output
-Dynamic image generation: Perfect for OG images, social cards, certificates, receipts
+- JSX-to-SVG rendering: Write image templates as JSX components with full CSS Flexbox
+
+- Custom font loading: Load .ttf/.otf fonts for brand-consistent typography
+
+- Emoji support: Built-in Twemoji and OpenMoji rendering
+
+- Multi-language text: CJK, Arabic, Thai, Devanagari with automatic text segmentation
+
+- Edge-compatible: Runs on Edge Runtime, Cloudflare Workers, and Deno Deploy
+
+- No headless browser: Pure layout engine — fast, lightweight, deterministic output
+
+- Dynamic image generation: Perfect for OG images, social cards, certificates, receipts
 
 Agent Integration
 AI agents can use Satori to programmatically generate branded images from data: creating Open Graph cards for blog posts, generating social media preview images from article metadata, building visual report cards, or producing dynamic certificate and badge images. The JSX API makes it natural to template images using variables extracted from content.

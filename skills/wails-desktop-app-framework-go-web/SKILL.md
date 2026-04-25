@@ -21,13 +21,19 @@ Wails binds Go functions directly to the JavaScript frontend. Developers write b
 
 Key Features
 
-Native webview rendering: Uses the OS native webview instead of bundling Chromium, producing binaries as small as 10 MB compared to Electron 150 MB+.
-Go backend with JS frontend: Call Go functions from JavaScript and vice versa with automatic TypeScript bindings generation.
-Built-in templates: Scaffold projects with React, Vue, Svelte, Preact, Lit, or Vanilla JS templates.
-Native dialogs and menus: Access native file dialogs, system menus, and tray icons.
-Dark/Light mode: Automatic OS theme detection and switching.
-Live development mode: Hot reload for both Go and frontend code during development.
-Cross-platform: Build for Windows, macOS, and Linux from a single codebase.
+- Native webview rendering: Uses the OS native webview instead of bundling Chromium, producing binaries as small as 10 MB compared to Electron 150 MB+.
+
+- Go backend with JS frontend: Call Go functions from JavaScript and vice versa with automatic TypeScript bindings generation.
+
+- Built-in templates: Scaffold projects with React, Vue, Svelte, Preact, Lit, or Vanilla JS templates.
+
+- Native dialogs and menus: Access native file dialogs, system menus, and tray icons.
+
+- Dark/Light mode: Automatic OS theme detection and switching.
+
+- Live development mode: Hot reload for both Go and frontend code during development.
+
+- Cross-platform: Build for Windows, macOS, and Linux from a single codebase.
 
 Agent Integration
 Agents can use Wails to scaffold and build desktop applications that combine Go performance with modern web UIs. The CLI provides project creation (wails init), development server (wails dev), and production builds (wails build). Agents can generate Go backend code and frontend components, then compile to native binaries.

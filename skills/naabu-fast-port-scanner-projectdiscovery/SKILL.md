@@ -22,13 +22,19 @@ Naabu performs SYN, CONNECT, or UDP probe-based scanning against target hosts. I
 
 Key Features
 
-Fast SYN/CONNECT/UDP scanning: Optimized packet sending with configurable rate limiting (default 1000 packets/sec) and parallel workers.
-Multiple input formats: Accepts hosts, IP addresses, CIDR ranges, ASN numbers, and file lists.
-Nmap integration: Pass discovered open ports directly to Nmap for service version detection using the -nmap-cli flag.
-CDN/WAF exclusion: Automatically detect and exclude CDN-protected hosts from full port scans, only scanning ports 80 and 443.
-Passive enumeration: Query Shodan InternetDB API for passive port discovery without sending any packets.
-IPv4 and IPv6: Supports both address families with configurable preference.
-Host discovery: Built-in host discovery mode using TCP SYN, TCP ACK, ICMP echo, and ARP probes.
+- Fast SYN/CONNECT/UDP scanning: Optimized packet sending with configurable rate limiting (default 1000 packets/sec) and parallel workers.
+
+- Multiple input formats: Accepts hosts, IP addresses, CIDR ranges, ASN numbers, and file lists.
+
+- Nmap integration: Pass discovered open ports directly to Nmap for service version detection using the -nmap-cli flag.
+
+- CDN/WAF exclusion: Automatically detect and exclude CDN-protected hosts from full port scans, only scanning ports 80 and 443.
+
+- Passive enumeration: Query Shodan InternetDB API for passive port discovery without sending any packets.
+
+- IPv4 and IPv6: Supports both address families with configurable preference.
+
+- Host discovery: Built-in host discovery mode using TCP SYN, TCP ACK, ICMP echo, and ARP probes.
 
 Agent Integration
 Security-focused agents can use Naabu as the first step in an automated reconnaissance pipeline: enumerate open ports with Naabu, pipe results to httpx for HTTP probing, then to Nuclei for vulnerability scanning. The JSON output mode makes it easy to parse results programmatically for further automated analysis.

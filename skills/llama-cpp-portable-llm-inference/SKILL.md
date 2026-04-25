@@ -24,15 +24,23 @@ Agents connect to llama-server’s OpenAI-compatible REST API for local inferenc
 
 Key Features
 
-Pure C/C++ with no dependencies — compiles on virtually any platform
-Apple Silicon first-class support via ARM NEON, Accelerate, and Metal
-NVIDIA CUDA and AMD HIP GPU acceleration
-1.5-bit to 8-bit integer quantization for memory-efficient inference
-CPU+GPU hybrid inference for models larger than available VRAM
-OpenAI-compatible HTTP server (llama-server)
-Multimodal support for vision models
-Speculative decoding and continuous batching for throughput
-VS Code and Neovim plugins for local code completion
+- Pure C/C++ with no dependencies — compiles on virtually any platform
+
+- Apple Silicon first-class support via ARM NEON, Accelerate, and Metal
+
+- NVIDIA CUDA and AMD HIP GPU acceleration
+
+- 1.5-bit to 8-bit integer quantization for memory-efficient inference
+
+- CPU+GPU hybrid inference for models larger than available VRAM
+
+- OpenAI-compatible HTTP server (llama-server)
+
+- Multimodal support for vision models
+
+- Speculative decoding and continuous batching for throughput
+
+- VS Code and Neovim plugins for local code completion
 
 Integration Points
 Install via Homebrew (brew install llama.cpp), Nix, or build from source. Download models from Hugging Face with llama-cli -hf ggml-org/gemma-3-1b-it-GGUF. Launch an API server with llama-server -hf ggml-org/gemma-3-1b-it-GGUF. The project supports over 100 model architectures including LLaMA, Mistral, Gemma, Qwen, DeepSeek, and Phi.

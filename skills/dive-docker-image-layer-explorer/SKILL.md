@@ -17,7 +17,7 @@ tool_ecosystem:
 Dive is a powerful open-source CLI tool written in Go that gives developers an interactive terminal UI for exploring the contents of Docker and OCI container images, layer by layer. Created by Alex Goodman (wagoodman), Dive has become the de facto standard for understanding and optimizing Docker image sizes, with over 53,000 GitHub stars and millions of Docker Hub pulls.
 
 How Dive Works
-When you run dive , the tool pulls or references the target image and presents a split-pane TUI. The left pane shows each image layer with its size and command. The right pane displays the filesystem tree at that layer, with color-coded indicators showing which files were added, modified, or removed. This makes it trivially easy to spot bloated layers, unnecessary files, or duplicated content across layers.
+When you run dive <image-tag>, the tool pulls or references the target image and presents a split-pane TUI. The left pane shows each image layer with its size and command. The right pane displays the filesystem tree at that layer, with color-coded indicators showing which files were added, modified, or removed. This makes it trivially easy to spot bloated layers, unnecessary files, or duplicated content across layers.
 
 Key Features
 Dive offers layer-by-layer filesystem exploration with full tree navigation. It calculates an image efficiency score that estimates wasted space from duplicated or moved files. The dive build command integrates directly into your workflow, letting you build a Docker image and immediately analyze it. For CI/CD pipelines, running with CI=true produces a pass/fail result based on configurable efficiency thresholds, making it suitable for automated image size enforcement in build pipelines.

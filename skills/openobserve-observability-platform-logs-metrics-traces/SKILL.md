@@ -28,12 +28,17 @@ OpenObserve is built on the OpenTelemetry standard, supporting OTLP for ingestin
 
 Key Features
 
-Unified platform for logs, metrics, traces, RUM, dashboards, and alerts
-Single binary deployment — running in under 2 minutes
-Built-in dashboard builder with visualization widgets
-Alerting system with support for Slack, email, and webhook notifications
-Multi-tenant architecture with organization-level data isolation
-Stream-based data organization with configurable retention
+- Unified platform for logs, metrics, traces, RUM, dashboards, and alerts
+
+- Single binary deployment — running in under 2 minutes
+
+- Built-in dashboard builder with visualization widgets
+
+- Alerting system with support for Slack, email, and webhook notifications
+
+- Multi-tenant architecture with organization-level data isolation
+
+- Stream-based data organization with configurable retention
 
 Agent Integration Points
 AI agents and coding assistants can integrate with OpenObserve through its REST API for querying logs, creating dashboards programmatically, and setting up alerts. The platform’s SQL query interface makes it straightforward for agents to analyze application logs, search for error patterns, and generate incident reports. Agents can also use the OpenObserve API to set up monitoring for deployed applications automatically.

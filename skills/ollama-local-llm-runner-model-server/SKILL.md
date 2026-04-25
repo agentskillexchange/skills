@@ -22,12 +22,17 @@ Ollama packages LLMs into a standardized format using Modelfiles (similar to Doc
 
 Key Features
 
-Massive Model Library: Access hundreds of models from the Ollama registry including Llama 3, Gemma 3, Qwen, DeepSeek, Mistral, Phi, and community fine-tunes. Models range from 1B to 400B+ parameters.
-GPU Acceleration: Automatic GPU detection and offloading for NVIDIA (CUDA), AMD (ROCm), and Apple Silicon (Metal). Falls back to CPU for systems without a compatible GPU.
-OpenAI-Compatible API: The REST API matches the OpenAI chat completions format, making it a drop-in replacement for applications already using the OpenAI SDK.
-Custom Models: Create custom models by defining a Modelfile with a base model, system prompt, parameters, and adapter layers (LoRA/QLoRA). Share custom models via the Ollama registry.
-Multi-Modal Support: Vision-capable models like LLaVA and Gemma 3 accept images alongside text prompts for image understanding tasks.
-Official SDKs: First-party Python (ollama-python) and JavaScript (ollama-js) client libraries for programmatic access.
+- Massive Model Library: Access hundreds of models from the Ollama registry including Llama 3, Gemma 3, Qwen, DeepSeek, Mistral, Phi, and community fine-tunes. Models range from 1B to 400B+ parameters.
+
+- GPU Acceleration: Automatic GPU detection and offloading for NVIDIA (CUDA), AMD (ROCm), and Apple Silicon (Metal). Falls back to CPU for systems without a compatible GPU.
+
+- OpenAI-Compatible API: The REST API matches the OpenAI chat completions format, making it a drop-in replacement for applications already using the OpenAI SDK.
+
+- Custom Models: Create custom models by defining a Modelfile with a base model, system prompt, parameters, and adapter layers (LoRA/QLoRA). Share custom models via the Ollama registry.
+
+- Multi-Modal Support: Vision-capable models like LLaVA and Gemma 3 accept images alongside text prompts for image understanding tasks.
+
+- Official SDKs: First-party Python (ollama-python) and JavaScript (ollama-js) client libraries for programmatic access.
 
 Integration Points
 Ollama integrates with a broad ecosystem of tools: Open WebUI for a ChatGPT-like interface, Claude Code and Codex for AI-assisted coding, LangChain and LlamaIndex for RAG pipelines, and OpenClaw for personal AI assistant workflows. It runs on macOS, Linux, and Windows, with Docker images available for containerized deployment. The OpenAI-compatible API means most tools that work with OpenAI also work with Ollama by changing the base URL.

@@ -20,10 +20,13 @@ Cloudflare Workers Deployer is built around Cloudflare developer platform. The u
 
 In deployment workflows, the skill acts as a control layer around cloudflare operations so an agent can inspect current state, compute a diff, surface rollout risk, and only then trigger the change path. The implementation typically relies on Workers API, R2, KV, DNS, Pages, Zero Trust, signed URLs, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses Workers API, R2, KV, DNS, Pages, Zero Trust, signed URLs instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as edge deployment, storage, caching, and API gateway style workflows.
+- Accesses Workers API, R2, KV, DNS, Pages, Zero Trust, signed URLs instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as edge deployment, storage, caching, and API gateway style workflows.
 
  Key integration points include edge deployment, storage, caching, and API gateway style workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

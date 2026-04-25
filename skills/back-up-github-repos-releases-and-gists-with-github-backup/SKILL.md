@@ -26,9 +26,11 @@ This is not a generic GitHub product card. The skill boundary is the backup job 
 
 Install notes
 
-Download the binary or container image from the project releases.
-Create a YAML config with GitHub credentials and backup targets.
-Run github-backup --config config.yaml or the equivalent container command.
+- Download the binary or container image from the project releases.
+
+- Create a YAML config with GitHub credentials and backup targets.
+
+- Run github-backup --config config.yaml or the equivalent container command.
 
 ## Installation
 

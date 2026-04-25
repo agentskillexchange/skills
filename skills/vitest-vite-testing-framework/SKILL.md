@@ -25,13 +25,19 @@ AI coding agents can use Vitest to write and validate unit tests as part of code
 
 Key Features
 
-Vite-native: uses Vite’s transform pipeline for instant test startup
-Jest-compatible API: expect, describe, it, vi.mock, vi.fn
-In-source testing: write tests directly alongside source code
-Browser mode: run tests in real browser environments via Playwright or WebDriverIO
-Workspace support: configure multiple test projects in a monorepo
-Snapshot testing with inline snapshots
-Type testing via expect-type integration
+- Vite-native: uses Vite’s transform pipeline for instant test startup
+
+- Jest-compatible API: expect, describe, it, vi.mock, vi.fn
+
+- In-source testing: write tests directly alongside source code
+
+- Browser mode: run tests in real browser environments via Playwright or WebDriverIO
+
+- Workspace support: configure multiple test projects in a monorepo
+
+- Snapshot testing with inline snapshots
+
+- Type testing via expect-type integration
 
 Installation
 npm install -D vitest

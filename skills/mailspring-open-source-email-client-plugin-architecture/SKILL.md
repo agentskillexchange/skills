@@ -19,14 +19,21 @@ Mailspring is a cross-platform desktop email client that combines a modern TypeS
 
 Key Features
 
-Unified Inbox: Aggregate all email accounts into a single view with smart sorting and filtering
-Snooze and Send Later: Schedule emails to be sent at optimal times or snooze incoming messages for follow-up
-Mail Rules: Create automated rules to organize, label, and route incoming messages
-Templates: Create and reuse email templates with variable substitution for common correspondence
-Plugin Architecture: Extensible plugin system built on React that allows building custom features and integrations
-Theme System: CSS-based theming with a theme starter kit for creating custom visual appearances
-C++ Sync Engine: High-performance Mailcore2-based sync engine that runs locally, keeping email credentials off the cloud
-Multi-account Support: Connect and manage multiple IMAP, Gmail, and Office 365 accounts simultaneously
+- Unified Inbox: Aggregate all email accounts into a single view with smart sorting and filtering
+
+- Snooze and Send Later: Schedule emails to be sent at optimal times or snooze incoming messages for follow-up
+
+- Mail Rules: Create automated rules to organize, label, and route incoming messages
+
+- Templates: Create and reuse email templates with variable substitution for common correspondence
+
+- Plugin Architecture: Extensible plugin system built on React that allows building custom features and integrations
+
+- Theme System: CSS-based theming with a theme starter kit for creating custom visual appearances
+
+- C++ Sync Engine: High-performance Mailcore2-based sync engine that runs locally, keeping email credentials off the cloud
+
+- Multi-account Support: Connect and manage multiple IMAP, Gmail, and Office 365 accounts simultaneously
 
 Agent Integration
 AI agents can leverage Mailspring’s plugin architecture to build custom email automation workflows. The React-based plugin system uses a well-documented API for accessing mailbox data, composing messages, and responding to email events. Agents working on email productivity can scaffold Mailspring plugins that implement custom triage rules, automated responses, and integration bridges to other tools. The local sync engine means all data processing happens on-device, making it suitable for privacy-sensitive automation.

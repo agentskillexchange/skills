@@ -21,11 +21,15 @@ Nylas acts as a middleware layer between your application and email/calendar pro
 
 Key Capabilities
 
-Unified Email API: Read threads, send messages, manage drafts, handle attachments, and search across all connected email providers through a single API.
-Calendar Management: Create, read, update, and delete events. Check free/busy availability across multiple calendars. Handle recurring events and RSVPs.
-Contacts Access: Read and manage contact records across connected providers.
-Real-time Webhooks: Receive notifications when new emails arrive, calendar events change, or contacts are updated.
-Provider Abstraction: Handles the differences between Google APIs, Microsoft Graph, Exchange EWS, and IMAP/SMTP protocols transparently.
+- Unified Email API: Read threads, send messages, manage drafts, handle attachments, and search across all connected email providers through a single API.
+
+- Calendar Management: Create, read, update, and delete events. Check free/busy availability across multiple calendars. Handle recurring events and RSVPs.
+
+- Contacts Access: Read and manage contact records across connected providers.
+
+- Real-time Webhooks: Receive notifications when new emails arrive, calendar events change, or contacts are updated.
+
+- Provider Abstraction: Handles the differences between Google APIs, Microsoft Graph, Exchange EWS, and IMAP/SMTP protocols transparently.
 
 Integration Points
 The Python SDK uses dataclasses for type-safe request and response handling. Standard CRUD operations are available on each resource: nylas.calendars.list(), nylas.events.create(), nylas.messages.find(), etc. The Node.js SDK follows similar patterns with full TypeScript type definitions. Both SDKs support Nylas API v3 with OAuth 2.0 authentication flows.

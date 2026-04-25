@@ -19,9 +19,11 @@ Claude Code MCP Bridge exposes Claude Code as a single MCP tool. When an MCP cli
 
 Best for
 
-Agent-in-agent orchestration where one model delegates coding to another
-Cursor, Windsurf, or custom pipeline users who want Claude Code as a sub-agent
-Complex multi-step file operations that benefit from Claude Code capabilities
+- Agent-in-agent orchestration where one model delegates coding to another
+
+- Cursor, Windsurf, or custom pipeline users who want Claude Code as a sub-agent
+
+- Complex multi-step file operations that benefit from Claude Code capabilities
 
 How it differs from Coding Agent
 Coding Agent is about running coding agents directly. This bridge is about embedding Claude Code inside another MCP workflow as infrastructure — orchestration, not direct assistance.

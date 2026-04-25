@@ -23,14 +23,21 @@ TestCafe acts as a reverse proxy between the browser and the application under t
 
 Key Capabilities
 
-Zero configuration: Install with npm install -g testcafe and start testing immediately. No WebDriver binaries, no browser plugins, no additional software required.
-Cross-browser support: Works with Chrome, Firefox, Safari, Edge, and mobile browsers. Supports headless mode for CI environments.
-Automatic waiting: Built-in smart wait mechanism handles page loads, XHR requests, and element appearance without manual timeouts, reducing test flakiness.
-Live mode: Tests automatically re-run when code changes are saved, enabling rapid test development with instant feedback.
-TypeScript and ES2017: First-class TypeScript support with type definitions, plus modern JavaScript features including async/await.
-JS error detection: Automatically detects and reports JavaScript errors on tested pages, catching issues beyond test scope.
-Concurrent test execution: Run tests in multiple browsers simultaneously with testcafe chrome,firefox tests/.
-Page model pattern: Built-in support for the Page Object pattern to keep tests maintainable and DRY.
+- Zero configuration: Install with npm install -g testcafe and start testing immediately. No WebDriver binaries, no browser plugins, no additional software required.
+
+- Cross-browser support: Works with Chrome, Firefox, Safari, Edge, and mobile browsers. Supports headless mode for CI environments.
+
+- Automatic waiting: Built-in smart wait mechanism handles page loads, XHR requests, and element appearance without manual timeouts, reducing test flakiness.
+
+- Live mode: Tests automatically re-run when code changes are saved, enabling rapid test development with instant feedback.
+
+- TypeScript and ES2017: First-class TypeScript support with type definitions, plus modern JavaScript features including async/await.
+
+- JS error detection: Automatically detects and reports JavaScript errors on tested pages, catching issues beyond test scope.
+
+- Concurrent test execution: Run tests in multiple browsers simultaneously with testcafe chrome,firefox tests/.
+
+- Page model pattern: Built-in support for the Page Object pattern to keep tests maintainable and DRY.
 
 Integration Points
 TestCafe integrates with CI/CD systems (GitHub Actions, Jenkins, CircleCI), cloud testing services (BrowserStack, Sauce Labs), and reporting tools via a plugin ecosystem. The CLI accepts glob patterns for test files, supports custom reporters, and can generate screenshots and video recordings of test runs. Community plugins extend functionality with custom assertions, data-driven testing, and IDE integrations.

@@ -18,10 +18,13 @@ ClawSec is a security skill suite that protects your agent environment at the co
 
 Best for
 
-Production OpenClaw deployments needing security monitoring
-Protecting against prompt injection and supply-chain attacks on installed skills
-Configuration drift detection for agent identity files
-Automated security audits with reporting
+- Production OpenClaw deployments needing security monitoring
+
+- Protecting against prompt injection and supply-chain attacks on installed skills
+
+- Configuration drift detection for agent identity files
+
+- Automated security audits with reporting
 
 How it differs from Healthcheck Security Hardening
 Healthcheck operates at the host/OS level — SSH, firewalls, system updates. ClawSec operates at the agent/cognitive layer — prompt integrity, skill supply chain, runtime behavior, and identity file protection.

@@ -18,10 +18,13 @@ Prometheus Alerting Rules is built around Prometheus metrics and alerting system
 
 For incident response, the skill uses prometheus APIs to pull the exact monitors, traces, schedules, or logs that matter, reducing dashboard hopping and making it easier to produce a handoff-quality timeline. The implementation typically relies on PromQL, recording rules, alert rules, targets, range queries, TSDB, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses PromQL, recording rules, alert rules, targets, range queries, TSDB instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as SRE dashboards, alert tuning, and service monitoring.
+- Accesses PromQL, recording rules, alert rules, targets, range queries, TSDB instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as SRE dashboards, alert tuning, and service monitoring.
 
  Key integration points include SRE dashboards, alert tuning, and service monitoring. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

@@ -22,13 +22,19 @@ Oxipng analyzes PNG files and applies a series of lossless compression strategie
 Key Capabilities
 The CLI provides several powerful features for image optimization workflows:
 
-Multithreaded processing: Takes full advantage of modern multi-core CPUs for faster optimization of large batches of PNG files.
-Lossless compression: Reduces file size without any quality degradation, making it safe for production assets.
-Metadata stripping: The --strip safe option removes non-essential metadata (EXIF, text chunks) while preserving rendering-critical data. Use --strip all for maximum savings.
-Alpha optimization: The --alpha flag optimizes fully transparent pixels for better compression.
-Zopfli compression: Optional Zopfli backend (-Z) for maximum compression at the cost of speed.
-APNG support: Handles animated PNG files in addition to static PNGs.
-Batch processing: Supports glob patterns like oxipng *.png for processing entire directories.
+- Multithreaded processing: Takes full advantage of modern multi-core CPUs for faster optimization of large batches of PNG files.
+
+- Lossless compression: Reduces file size without any quality degradation, making it safe for production assets.
+
+- Metadata stripping: The --strip safe option removes non-essential metadata (EXIF, text chunks) while preserving rendering-critical data. Use --strip all for maximum savings.
+
+- Alpha optimization: The --alpha flag optimizes fully transparent pixels for better compression.
+
+- Zopfli compression: Optional Zopfli backend (-Z) for maximum compression at the cost of speed.
+
+- APNG support: Handles animated PNG files in addition to static PNGs.
+
+- Batch processing: Supports glob patterns like oxipng *.png for processing entire directories.
 
 Integration Points
 Oxipng integrates into CI/CD pipelines, static site generators, and build systems. Install via cargo install oxipng, system package managers (Homebrew, apt, pacman), or download prebuilt binaries from GitHub Releases. It can also be used as a Rust library crate for embedding in other applications. Common integration patterns include pre-commit hooks for image assets, build step optimization in web projects, and automated asset pipelines.

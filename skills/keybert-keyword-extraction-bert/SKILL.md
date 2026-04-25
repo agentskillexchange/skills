@@ -22,12 +22,17 @@ KeyBERT extracts document-level embeddings using sentence-transformers and compa
 
 Key Features
 
-Multiple embedding backends: sentence-transformers, Flair, spaCy, and Gensim
-Configurable n-gram range: Extract single keywords or multi-word keyphrases
-Diversity algorithms: MMR and Max Sum for diverse keyword sets
-Guided extraction: Seed keywords to guide the extraction toward specific topics
-Highlight mode: Visualize extracted keywords directly in the source document
-Vectorizer support: Use CountVectorizer or KeyphraseCountVectorizer for candidate generation
+- Multiple embedding backends: sentence-transformers, Flair, spaCy, and Gensim
+
+- Configurable n-gram range: Extract single keywords or multi-word keyphrases
+
+- Diversity algorithms: MMR and Max Sum for diverse keyword sets
+
+- Guided extraction: Seed keywords to guide the extraction toward specific topics
+
+- Highlight mode: Visualize extracted keywords directly in the source document
+
+- Vectorizer support: Use CountVectorizer or KeyphraseCountVectorizer for candidate generation
 
 Agent Integration
 AI agents can use KeyBERT for automated content analysis workflows: extracting keywords from blog posts for SEO tagging, generating topic summaries from research papers, building content taxonomies, or creating keyword-driven content briefs. The Python API is straightforward — instantiate KeyBERT with a model, call extract_keywords() with your text, and receive ranked keyword-score pairs.

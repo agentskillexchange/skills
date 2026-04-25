@@ -22,14 +22,21 @@ Plane provides a REST API and webhooks that enable agents to create, update, and
 
 Key Features
 
-Work items: Rich text editor with file uploads, sub-properties, and cross-references between issues
-Cycles (sprints): Time-boxed iterations with burn-down charts and velocity tracking
-Modules: Group related work items into feature-scoped containers for complex projects
-Views: Custom filtered views that can be saved and shared across the team
-Pages: Collaborative documents with AI features for capturing and organizing project knowledge
-Analytics: Real-time project insights with trend visualization and blocker identification
-Self-hostable: Deploy via Docker Compose or Kubernetes with full data ownership
-Cloud option: Hosted version at app.plane.so for teams that prefer managed infrastructure
+- Work items: Rich text editor with file uploads, sub-properties, and cross-references between issues
+
+- Cycles (sprints): Time-boxed iterations with burn-down charts and velocity tracking
+
+- Modules: Group related work items into feature-scoped containers for complex projects
+
+- Views: Custom filtered views that can be saved and shared across the team
+
+- Pages: Collaborative documents with AI features for capturing and organizing project knowledge
+
+- Analytics: Real-time project insights with trend visualization and blocker identification
+
+- Self-hostable: Deploy via Docker Compose or Kubernetes with full data ownership
+
+- Cloud option: Hosted version at app.plane.so for teams that prefer managed infrastructure
 
 Integration Points
 Plane connects to development workflows through GitHub and GitLab integrations for linking commits and PRs to work items. The REST API supports CRUD operations on all core entities (projects, issues, cycles, modules). Webhooks enable event-driven automation — for example, notifying a Slack channel when a sprint completes or triggering a deployment pipeline when all issues in a module are closed.

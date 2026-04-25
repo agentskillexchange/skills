@@ -21,14 +21,21 @@ Tera compiles templates at startup into an internal representation, then renders
 
 Key Features
 
-Jinja2-compatible syntax: Uses familiar {{ }}, {% %}, and {# #} delimiters that developers already know from Python templating.
-Template inheritance: Full support for extends, block, and include patterns for composable template hierarchies.
-Macros: Define reusable template components with parameters, similar to function calls in templates.
-Rich filter library: Built-in filters for string manipulation, number formatting, date handling, JSON serialization, and more.
-Custom filters and functions: Register your own Rust functions as template filters or global functions.
-Auto-escaping: Automatic HTML escaping prevents XSS vulnerabilities by default, with safe marking for trusted content.
-Error reporting: Clear error messages with template name and line numbers for debugging.
-Testers: Boolean test functions (is defined, is odd, etc.) for conditional logic.
+- Jinja2-compatible syntax: Uses familiar {{ }}, {% %}, and {# #} delimiters that developers already know from Python templating.
+
+- Template inheritance: Full support for extends, block, and include patterns for composable template hierarchies.
+
+- Macros: Define reusable template components with parameters, similar to function calls in templates.
+
+- Rich filter library: Built-in filters for string manipulation, number formatting, date handling, JSON serialization, and more.
+
+- Custom filters and functions: Register your own Rust functions as template filters or global functions.
+
+- Auto-escaping: Automatic HTML escaping prevents XSS vulnerabilities by default, with safe marking for trusted content.
+
+- Error reporting: Clear error messages with template name and line numbers for debugging.
+
+- Testers: Boolean test functions (is defined, is odd, etc.) for conditional logic.
 
 Installation
 # Add to Cargo.toml

@@ -21,11 +21,15 @@ markuplint operates as a Node.js CLI tool and can be integrated into CI/CD pipel
 
 Key Features
 
-Multi-framework support: JSX, Vue, Svelte, Astro, Alpine.js, HTMX, Pug, PHP, Nunjucks, Mustache, Liquid, and EJS templates are all supported through dedicated parser plugins.
-Accessibility enforcement: Rules check for proper ARIA attributes, landmark roles, heading hierarchy, and semantic HTML usage to ensure WCAG compliance.
-HTML spec validation: Validates elements and attributes against the living HTML specification, catching deprecated patterns and invalid nesting.
-Custom rule configuration: Rules are fully configurable via .markuplintrc JSON or YAML config files, supporting per-file overrides and shared presets.
-VS Code integration: The official vscode-markuplint extension provides real-time linting feedback directly in the editor.
+- Multi-framework support: JSX, Vue, Svelte, Astro, Alpine.js, HTMX, Pug, PHP, Nunjucks, Mustache, Liquid, and EJS templates are all supported through dedicated parser plugins.
+
+- Accessibility enforcement: Rules check for proper ARIA attributes, landmark roles, heading hierarchy, and semantic HTML usage to ensure WCAG compliance.
+
+- HTML spec validation: Validates elements and attributes against the living HTML specification, catching deprecated patterns and invalid nesting.
+
+- Custom rule configuration: Rules are fully configurable via .markuplintrc JSON or YAML config files, supporting per-file overrides and shared presets.
+
+- VS Code integration: The official vscode-markuplint extension provides real-time linting feedback directly in the editor.
 
 Integration Points
 Install via npm with npm install -D markuplint or use npx for one-off runs. Configure rules in a .markuplintrc file at your project root. The CLI outputs standard lint results compatible with CI formatters. For monorepos, markuplint supports workspace-level configuration with per-package overrides.

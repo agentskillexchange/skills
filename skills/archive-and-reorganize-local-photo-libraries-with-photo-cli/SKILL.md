@@ -26,9 +26,11 @@ This is not a generic photo product listing. The skill boundary is a local archi
 
 Install notes
 
-Install photo-cli from its documented package, container, or release method.
-Point it at the source library and choose the archive or copy mode.
-Run the archive workflow to build the reorganized output folder.
+- Install photo-cli from its documented package, container, or release method.
+
+- Point it at the source library and choose the archive or copy mode.
+
+- Run the archive workflow to build the reorganized output folder.
 
 ## Installation
 

@@ -23,13 +23,19 @@ Pixelmatch operates on raw typed arrays of image data (Uint8Array or Uint8Clampe
 
 Key Features
 
-Zero dependencies: Runs anywhere — Node.js, browsers, CI environments — with no external packages required.
-Anti-aliasing detection: Identifies and optionally excludes anti-aliased pixels to reduce false positives in screenshot comparisons.
-Perceptual color diff: Uses YIQ-based color distance for human-perceptual accuracy rather than simple RGB comparison.
-Configurable threshold: Adjust sensitivity from 0 (exact match) to 1 (loose match) with 0.1 as default.
-Visual diff output: Generates a diff image highlighting mismatched pixels in configurable colors.
-CLI tool included: Ship with a binary for command-line image comparison without writing code.
-Diff mask mode: Can output diffs on transparent backgrounds for overlay comparison.
+- Zero dependencies: Runs anywhere — Node.js, browsers, CI environments — with no external packages required.
+
+- Anti-aliasing detection: Identifies and optionally excludes anti-aliased pixels to reduce false positives in screenshot comparisons.
+
+- Perceptual color diff: Uses YIQ-based color distance for human-perceptual accuracy rather than simple RGB comparison.
+
+- Configurable threshold: Adjust sensitivity from 0 (exact match) to 1 (loose match) with 0.1 as default.
+
+- Visual diff output: Generates a diff image highlighting mismatched pixels in configurable colors.
+
+- CLI tool included: Ship with a binary for command-line image comparison without writing code.
+
+- Diff mask mode: Can output diffs on transparent backgrounds for overlay comparison.
 
 Installation
 npm install pixelmatch

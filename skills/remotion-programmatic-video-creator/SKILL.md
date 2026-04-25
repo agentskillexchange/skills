@@ -24,11 +24,15 @@ This skill enables agents to scaffold, compose, and render video projects using 
 
 Key Capabilities
 
-React-based composition: Define video scenes as reusable React components with props, state, and hooks. Use useCurrentFrame() and useVideoConfig() hooks to control animation timing.
-Data-driven videos: Pass dynamic data (API responses, database records, user input) as input props to generate personalized video content without manual editing.
-Web technology stack: Use CSS animations, SVG graphics, Canvas 2D/WebGL rendering, and any npm package within your video compositions.
-Server-side rendering: Render videos headlessly on servers using npx remotion render or the programmatic renderMedia() API, producing MP4, WebM, or GIF outputs.
-Lambda rendering: Distribute rendering across AWS Lambda functions using @remotion/lambda for fast parallel rendering of long-form content.
+- React-based composition: Define video scenes as reusable React components with props, state, and hooks. Use useCurrentFrame() and useVideoConfig() hooks to control animation timing.
+
+- Data-driven videos: Pass dynamic data (API responses, database records, user input) as input props to generate personalized video content without manual editing.
+
+- Web technology stack: Use CSS animations, SVG graphics, Canvas 2D/WebGL rendering, and any npm package within your video compositions.
+
+- Server-side rendering: Render videos headlessly on servers using npx remotion render or the programmatic renderMedia() API, producing MP4, WebM, or GIF outputs.
+
+- Lambda rendering: Distribute rendering across AWS Lambda functions using @remotion/lambda for fast parallel rendering of long-form content.
 
 Integration Points
 Remotion integrates with the Node.js and React ecosystem. It supports TypeScript out of the box, works with Tailwind CSS for styling, and can import assets from local files or remote URLs. The @remotion/player package embeds an interactive preview player in web applications. The rendering pipeline uses Chromium under the hood via Puppeteer, making it compatible with any content renderable in a browser. Output formats include H.264 MP4, VP8/VP9 WebM, ProRes, and animated GIF.

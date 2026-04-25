@@ -21,13 +21,19 @@ The tool leverages several optimization techniques to maximize transcription thr
 
 Key Capabilities
 
-Multiple model support: Works with all Whisper model sizes (tiny through large-v3) and distil-whisper variants for even faster processing.
-Flash Attention 2: Enable with --flash True for maximum GPU throughput on supported hardware.
-Configurable batching: Adjust batch size with --batch-size to optimize for available GPU memory.
-Multiple output formats: Generates transcripts with timestamps suitable for subtitles, captions, and text processing.
-URL input support: Accepts both local files and URLs as input, downloading audio automatically.
-Mac MPS support: Works on Apple Silicon Macs via the --device-id mps flag.
-Distil-Whisper integration: Use distilled models for even faster transcription with minimal quality loss.
+- Multiple model support: Works with all Whisper model sizes (tiny through large-v3) and distil-whisper variants for even faster processing.
+
+- Flash Attention 2: Enable with --flash True for maximum GPU throughput on supported hardware.
+
+- Configurable batching: Adjust batch size with --batch-size to optimize for available GPU memory.
+
+- Multiple output formats: Generates transcripts with timestamps suitable for subtitles, captions, and text processing.
+
+- URL input support: Accepts both local files and URLs as input, downloading audio automatically.
+
+- Mac MPS support: Works on Apple Silicon Macs via the --device-id mps flag.
+
+- Distil-Whisper integration: Use distilled models for even faster transcription with minimal quality loss.
 
 Integration Points
 Install via pipx install insanely-fast-whisper or run without installing using pipx run insanely-fast-whisper. The tool fits into audio processing pipelines, podcast transcription workflows, subtitle generation systems, and any scenario requiring fast batch transcription. It supports NVIDIA GPUs via CUDA and Apple Silicon via MPS. Combine with downstream tools for speaker diarization, translation, or text analysis.

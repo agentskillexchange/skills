@@ -19,14 +19,21 @@ ntopng is a high-performance, web-based network traffic monitoring application r
 
 Key Features
 
-Real-time traffic analysis: Monitor network flows, protocols, and bandwidth usage with sub-second granularity across all network interfaces
-Deep Packet Inspection: Uses the nDPI library (also by ntop) to classify network traffic by application protocol, detecting over 300 protocols including encrypted traffic
-Security monitoring: Detect anomalies, suspicious behaviors, lateral movement, DNS tunneling, and other network-based threats in real time
-Web dashboard: Rich HTML5 web interface with interactive charts, flow tables, host profiles, and customizable dashboards
-REST API: Comprehensive REST API for programmatic access to all monitoring data, enabling integration with external tools and automation workflows
-Flow export: Export flow data in NetFlow v5/v9, IPFIX, and sFlow formats for long-term storage and analysis
-Alerting system: Configurable alerts for bandwidth thresholds, security events, and anomaly detection with webhook, email, and Slack notification support
-Multi-platform: Runs on Debian/Ubuntu, CentOS/RHEL, Windows, Raspberry Pi, FreeBSD, OPNsense, and pfSense
+- Real-time traffic analysis: Monitor network flows, protocols, and bandwidth usage with sub-second granularity across all network interfaces
+
+- Deep Packet Inspection: Uses the nDPI library (also by ntop) to classify network traffic by application protocol, detecting over 300 protocols including encrypted traffic
+
+- Security monitoring: Detect anomalies, suspicious behaviors, lateral movement, DNS tunneling, and other network-based threats in real time
+
+- Web dashboard: Rich HTML5 web interface with interactive charts, flow tables, host profiles, and customizable dashboards
+
+- REST API: Comprehensive REST API for programmatic access to all monitoring data, enabling integration with external tools and automation workflows
+
+- Flow export: Export flow data in NetFlow v5/v9, IPFIX, and sFlow formats for long-term storage and analysis
+
+- Alerting system: Configurable alerts for bandwidth thresholds, security events, and anomaly detection with webhook, email, and Slack notification support
+
+- Multi-platform: Runs on Debian/Ubuntu, CentOS/RHEL, Windows, Raspberry Pi, FreeBSD, OPNsense, and pfSense
 
 Agent Integration
 AI agents can leverage ntopng’s REST API to build network intelligence and security monitoring workflows. The API exposes host data, flow information, alert streams, and historical statistics that agents can query to diagnose network issues, detect security incidents, and generate network health reports. Agents can automate responses to ntopng alerts by integrating with firewall APIs, ticketing systems, or incident response platforms. The JSON-based API is straightforward for agents to consume and reason about.

@@ -27,13 +27,19 @@ AI agents use Silero VAD as a preprocessing step in audio intelligence pipelines
 
 Key Features
 
-Enterprise-grade accuracy with sub-millisecond latency
-PyTorch and ONNX Runtime backends
-Supports 16kHz and 8kHz audio
-Real-time streaming and batch processing
-Minimal dependencies (torch or onnxruntime)
-MIT license, free for commercial use
-Used as default VAD in WhisperX and faster-whisper
+- Enterprise-grade accuracy with sub-millisecond latency
+
+- PyTorch and ONNX Runtime backends
+
+- Supports 16kHz and 8kHz audio
+
+- Real-time streaming and batch processing
+
+- Minimal dependencies (torch or onnxruntime)
+
+- MIT license, free for commercial use
+
+- Used as default VAD in WhisperX and faster-whisper
 
 ## Installation
 

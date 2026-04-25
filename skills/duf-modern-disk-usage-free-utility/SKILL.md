@@ -19,12 +19,17 @@ duf (Disk Usage/Free) is a modern replacement for the classic df command, writte
 
 Key Features
 
-Beautiful Terminal Output: duf formats disk usage information in colorful tables with Unicode progress bars showing percentage used, making it immediately readable at a glance.
-Smart Grouping: Filesystems are automatically grouped into categories — local devices, network volumes, and FUSE/special mounts — reducing clutter from pseudo-filesystems.
-JSON Output: Full JSON output mode (duf --json) for programmatic consumption, making it easy for agents and scripts to parse filesystem data.
-Filtering: Filter displayed filesystems by type, mount point, or device path. Show only specific filesystem types or hide types you do not care about.
-Sorting: Sort output by any column — size, used space, available space, usage percentage, filesystem type, or mount point.
-Cross-Platform: Works on Linux, macOS, Windows, FreeBSD, and other platforms with consistent output formatting.
+- Beautiful Terminal Output: duf formats disk usage information in colorful tables with Unicode progress bars showing percentage used, making it immediately readable at a glance.
+
+- Smart Grouping: Filesystems are automatically grouped into categories — local devices, network volumes, and FUSE/special mounts — reducing clutter from pseudo-filesystems.
+
+- JSON Output: Full JSON output mode (duf --json) for programmatic consumption, making it easy for agents and scripts to parse filesystem data.
+
+- Filtering: Filter displayed filesystems by type, mount point, or device path. Show only specific filesystem types or hide types you do not care about.
+
+- Sorting: Sort output by any column — size, used space, available space, usage percentage, filesystem type, or mount point.
+
+- Cross-Platform: Works on Linux, macOS, Windows, FreeBSD, and other platforms with consistent output formatting.
 
 How It Works
 A skill wrapping duf enables AI agents to quickly assess disk space across all mounted volumes on a system. The agent invokes duf --json to get structured data about every filesystem, including total size, used space, available space, and mount points. This is essential for diagnostic runbooks, deployment checks, and system monitoring tasks where the agent needs to verify sufficient disk space before proceeding.
@@ -34,10 +39,13 @@ duf is written in Go and distributed as a single binary. It can be installed via
 
 Integration Points
 
-JSON output for structured data parsing by agents and scripts
-Configurable columns and sort order via command-line flags
-Theme support for different terminal color schemes
-CI/CD integration for pre-deployment disk space checks
+- JSON output for structured data parsing by agents and scripts
+
+- Configurable columns and sort order via command-line flags
+
+- Theme support for different terminal color schemes
+
+- CI/CD integration for pre-deployment disk space checks
 
 ## Installation
 

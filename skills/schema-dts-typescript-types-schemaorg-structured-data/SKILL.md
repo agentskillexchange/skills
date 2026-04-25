@@ -22,7 +22,7 @@ What It Does
 The package auto-generates TypeScript interfaces from the official Schema.org ontology releases. Every Schema.org type — Article, Product, Organization, Event, Recipe, FAQPage, HowTo, BreadcrumbList, and hundreds more — gets a corresponding TypeScript interface with all properties correctly typed. This means your IDE provides autocomplete, and the TypeScript compiler catches invalid structured data at build time rather than in production.
 
 JSON-LD Generation
-schema-dts is designed specifically for JSON-LD output, the format recommended by Google for structured data. Import the types, construct your structured data objects with full type checking, and serialize to JSON-LD for embedding in HTML  tags. The library handles the @context, @type, and @id properties correctly.
+schema-dts is designed specifically for JSON-LD output, the format recommended by Google for structured data. Import the types, construct your structured data objects with full type checking, and serialize to JSON-LD for embedding in HTML <script type="application/ld+json"> tags. The library handles the @context, @type, and @id properties correctly.
 
 SEO and Rich Results
 Properly structured data is essential for Google Rich Results, knowledge panels, and AI-powered search features. schema-dts ensures your markup conforms to the Schema.org specification, reducing validation errors in Google’s Rich Results Test and Schema Markup Validator. Common use cases include Article markup for blog posts, Product markup for e-commerce, FAQ markup for help pages, and Organization markup for brand identity.

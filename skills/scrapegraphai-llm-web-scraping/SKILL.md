@@ -21,11 +21,15 @@ The library models scraping workflows as directed graphs where each node perform
 
 Key Capabilities
 
-Natural Language Extraction: Specify extraction targets in plain English. Ask for “all product names, prices, and ratings” and get structured JSON output without writing selectors.
-Multiple Source Support: Scrape websites, local HTML files, XML documents, JSON files, and Markdown content through the same interface.
-Multi-LLM Support: Works with OpenAI, Anthropic Claude, Google Gemini, Ollama local models, and other LLM providers. Run entirely locally with Ollama for privacy-sensitive tasks.
-Graph Pipeline Architecture: Compose custom scraping workflows by chaining graph nodes. Extend with custom nodes for specialized extraction logic.
-Built-in Browser Rendering: Uses Playwright under the hood for JavaScript-rendered pages. Handles SPAs and dynamic content automatically.
+- Natural Language Extraction: Specify extraction targets in plain English. Ask for “all product names, prices, and ratings” and get structured JSON output without writing selectors.
+
+- Multiple Source Support: Scrape websites, local HTML files, XML documents, JSON files, and Markdown content through the same interface.
+
+- Multi-LLM Support: Works with OpenAI, Anthropic Claude, Google Gemini, Ollama local models, and other LLM providers. Run entirely locally with Ollama for privacy-sensitive tasks.
+
+- Graph Pipeline Architecture: Compose custom scraping workflows by chaining graph nodes. Extend with custom nodes for specialized extraction logic.
+
+- Built-in Browser Rendering: Uses Playwright under the hood for JavaScript-rendered pages. Handles SPAs and dynamic content automatically.
 
 Integration Points
 Install with pip install scrapegraphai followed by playwright install for browser support. The library integrates with LangChain, LlamaIndex, CrewAI, and Agno agent frameworks. SDK packages are available for both Python and Node.js. An MCP server is available for integration with AI coding assistants. Low-code integrations exist for Zapier, n8n, Pipedream, and Dify.

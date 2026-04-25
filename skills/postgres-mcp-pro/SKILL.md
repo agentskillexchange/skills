@@ -18,10 +18,13 @@ Postgres MCP Pro is an open-source MCP server by Crystal DBA that goes beyond wr
 
 Best for
 
-Running queries with configurable read-only or full-access modes
-Diagnosing database performance problems with EXPLAIN plan analysis
-Getting industrial-strength index tuning recommendations
-Monitoring database health: connection utilization, buffer cache, vacuum health, replication lag
+- Running queries with configurable read-only or full-access modes
+
+- Diagnosing database performance problems with EXPLAIN plan analysis
+
+- Getting industrial-strength index tuning recommendations
+
+- Monitoring database health: connection utilization, buffer cache, vacuum health, replication lag
 
 Access modes
 Three modes: read-only (safe for production monitoring), restricted (allows writes with SQL parsing), and unrestricted (full access for development).

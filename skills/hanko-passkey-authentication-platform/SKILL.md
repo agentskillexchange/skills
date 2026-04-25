@@ -21,17 +21,24 @@ Hanko consists of a Go backend server that handles all authentication logic (pas
 
 Key Features
 
-Passkey-first authentication: Built on FIDO2/WebAuthn standards for phishing-resistant, passwordless login. Users register and authenticate using device biometrics (fingerprint, face ID) or security keys.
-Pre-built web components: Hanko Elements provide drop-in login, registration, and profile management UIs that work with any framework — React, Vue, Angular, Svelte, or plain HTML.
-Flexible auth methods: Supports passkeys, email passcodes, OAuth/OIDC providers (Google, Apple, GitHub, etc.), and combination flows.
-Session management: JWT-based session tokens with configurable expiration, issued via secure cookies or bearer tokens.
-Admin dashboard: Built-in admin UI for user management, authentication method configuration, and monitoring.
-REST API: Full API for user CRUD, session management, passkey management, and webhook configuration.
-Self-hosted or cloud: Deploy via Docker or use Hanko Cloud. No vendor lock-in — data freely migrates between cloud and self-hosted instances.
-Passkey API: A separate FIDO2-certified passkey server and SDK library for adding passkey support to apps with existing auth systems.
+- Passkey-first authentication: Built on FIDO2/WebAuthn standards for phishing-resistant, passwordless login. Users register and authenticate using device biometrics (fingerprint, face ID) or security keys.
+
+- Pre-built web components: Hanko Elements provide drop-in login, registration, and profile management UIs that work with any framework — React, Vue, Angular, Svelte, or plain HTML.
+
+- Flexible auth methods: Supports passkeys, email passcodes, OAuth/OIDC providers (Google, Apple, GitHub, etc.), and combination flows.
+
+- Session management: JWT-based session tokens with configurable expiration, issued via secure cookies or bearer tokens.
+
+- Admin dashboard: Built-in admin UI for user management, authentication method configuration, and monitoring.
+
+- REST API: Full API for user CRUD, session management, passkey management, and webhook configuration.
+
+- Self-hosted or cloud: Deploy via Docker or use Hanko Cloud. No vendor lock-in — data freely migrates between cloud and self-hosted instances.
+
+- Passkey API: A separate FIDO2-certified passkey server and SDK library for adding passkey support to apps with existing auth systems.
 
 Integration Points
-Deploy the Hanko backend with Docker: docker run -p 8000:8000 teamhanko/hanko. Install frontend elements via npm: npm install @teamhanko/hanko-elements. Configure the Hanko API URL in your app, embed the  web component, and authentication is ready. Backend SDKs are available for validating JWTs in your API middleware. The admin dashboard runs alongside the auth server.
+Deploy the Hanko backend with Docker: docker run -p 8000:8000 teamhanko/hanko. Install frontend elements via npm: npm install @teamhanko/hanko-elements. Configure the Hanko API URL in your app, embed the <hanko-auth> web component, and authentication is ready. Backend SDKs are available for validating JWTs in your API middleware. The admin dashboard runs alongside the auth server.
 
 Agent Integration
 AI agents building web applications can integrate Hanko to add complete authentication flows without implementing auth from scratch. The REST API enables programmatic user management, while the pre-built web components eliminate the need for agents to generate complex authentication UI code. Agents can configure OAuth providers, manage user sessions, and set up webhook listeners for auth events through the API.

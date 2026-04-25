@@ -23,14 +23,21 @@ Unlike traditional profiling which captures snapshots during development, contin
 Language Support
 Pyroscope provides SDKs and auto-instrumentation for multiple languages:
 
-Go — Native pprof-based profiling
-Java — async-profiler integration
-Python — py-spy based profiling
-Ruby — rbspy integration
-Node.js — V8 profiler integration
-Rust — pprof-rs integration
-.NET — dotnet-trace integration
-eBPF — Kernel-level profiling without code changes
+- Go — Native pprof-based profiling
+
+- Java — async-profiler integration
+
+- Python — py-spy based profiling
+
+- Ruby — rbspy integration
+
+- Node.js — V8 profiler integration
+
+- Rust — pprof-rs integration
+
+- .NET — dotnet-trace integration
+
+- eBPF — Kernel-level profiling without code changes
 
 Explore Profiles UI
 The Explore Profiles UI is part of the Grafana Explore Apps suite and provides a queryless, intuitive experience for visualizing profiling data. Users can browse services, compare time periods, and drill into specific functions without writing queries.

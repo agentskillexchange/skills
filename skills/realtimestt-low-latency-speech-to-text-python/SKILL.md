@@ -21,12 +21,17 @@ The library uses a multi-stage processing pipeline. First, WebRTC VAD performs i
 
 Core Features
 
-Automatic voice activity detection that identifies speech start and stop points
-Real-time transcription with configurable Whisper model sizes (tiny through large-v3)
-Wake word activation using Porcupine or OpenWakeWord for hands-free operation
-Client-server architecture with AudioToTextRecorderClient for distributed deployments
-CLI interface with stt-server and stt commands for quick integration
-Callback-based API for processing transcribed text as it becomes available
+- Automatic voice activity detection that identifies speech start and stop points
+
+- Real-time transcription with configurable Whisper model sizes (tiny through large-v3)
+
+- Wake word activation using Porcupine or OpenWakeWord for hands-free operation
+
+- Client-server architecture with AudioToTextRecorderClient for distributed deployments
+
+- CLI interface with stt-server and stt commands for quick integration
+
+- Callback-based API for processing transcribed text as it becomes available
 
 Agent Integration
 RealtimeSTT is particularly valuable for building voice-controlled AI agents and assistants. Its AudioToTextRecorder class provides a simple interface where agents receive transcribed text through callbacks, making it straightforward to pipe voice input into LLM-based conversation systems. The library handles all the complexity of microphone input, silence detection, and transcription timing.

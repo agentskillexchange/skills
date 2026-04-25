@@ -27,12 +27,17 @@ AI agents can leverage SpeechBrain for audio intelligence pipelines: transcribe 
 
 Key Features
 
-200+ training recipes across 40+ datasets
-20+ supported tasks including ASR, TTS, speaker verification, enhancement
-HuggingFace pretrained model integration
-Consistent YAML-based training interface
-EEG modality support for brain-computer interfaces
-Apache 2.0 license
+- 200+ training recipes across 40+ datasets
+
+- 20+ supported tasks including ASR, TTS, speaker verification, enhancement
+
+- HuggingFace pretrained model integration
+
+- Consistent YAML-based training interface
+
+- EEG modality support for brain-computer interfaces
+
+- Apache 2.0 license
 
 ## Installation
 

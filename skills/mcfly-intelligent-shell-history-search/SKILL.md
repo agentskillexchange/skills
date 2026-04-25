@@ -19,12 +19,17 @@ mcfly is a replacement for the default Ctrl+R shell history search, written in R
 
 Key Features
 
-Neural Network Ranking: mcfly prioritizes history results using a small neural network that considers the current working directory, the commands you have run recently, and whether commands succeeded or failed historically.
-Full-Screen Interface: A full-screen terminal UI replaces the single-line Ctrl+R interface, showing multiple candidates at once with syntax highlighting.
-Context-Aware Suggestions: Commands are ranked higher if they were previously run in the same directory or after the same preceding command, surfacing the most relevant history.
-Exit Status Tracking: mcfly tracks whether commands succeeded or failed, deprioritizing commands that historically produced errors.
-SQLite Backend: History is stored in a SQLite database, providing fast queries and durable storage beyond the default shell history file limits.
-Scrubbing Mode: Delete commands from history with a single keypress to remove sensitive entries like passwords accidentally typed in commands.
+- Neural Network Ranking: mcfly prioritizes history results using a small neural network that considers the current working directory, the commands you have run recently, and whether commands succeeded or failed historically.
+
+- Full-Screen Interface: A full-screen terminal UI replaces the single-line Ctrl+R interface, showing multiple candidates at once with syntax highlighting.
+
+- Context-Aware Suggestions: Commands are ranked higher if they were previously run in the same directory or after the same preceding command, surfacing the most relevant history.
+
+- Exit Status Tracking: mcfly tracks whether commands succeeded or failed, deprioritizing commands that historically produced errors.
+
+- SQLite Backend: History is stored in a SQLite database, providing fast queries and durable storage beyond the default shell history file limits.
+
+- Scrubbing Mode: Delete commands from history with a single keypress to remove sensitive entries like passwords accidentally typed in commands.
 
 How It Works
 An agent skill wrapping mcfly allows AI agents to intelligently search and suggest shell commands from the user’s history. Instead of generic command suggestions, the agent can query mcfly’s ranked results to find the most contextually appropriate command for the current situation — the right build command for the current project directory, the specific SSH command used previously, or the correct deployment script.
@@ -34,10 +39,13 @@ mcfly is written in Rust and installs as a single binary via cargo install mcfly
 
 Integration Points
 
-Shell initialization via eval/source for Bash, Zsh, and Fish
-SQLite database queryable for programmatic history analysis
-Environment variables for customizing behavior (MCFLY_RESULTS, MCFLY_FUZZY, MCFLY_KEY_SCHEME)
-Works alongside other shell enhancements without conflicts
+- Shell initialization via eval/source for Bash, Zsh, and Fish
+
+- SQLite database queryable for programmatic history analysis
+
+- Environment variables for customizing behavior (MCFLY_RESULTS, MCFLY_FUZZY, MCFLY_KEY_SCHEME)
+
+- Works alongside other shell enhancements without conflicts
 
 ## Installation
 

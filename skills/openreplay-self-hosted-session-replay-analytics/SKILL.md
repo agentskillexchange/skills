@@ -19,11 +19,15 @@ OpenReplay is an open-source session replay and product analytics platform with 
 Core Capabilities
 OpenReplay captures comprehensive session data that goes beyond basic screen recordings:
 
-Session Replay — Pixel-perfect replay of user sessions showing clicks, scrolls, navigation, and interactions. Each session is automatically analyzed using heuristics for easy triage.
-DevTools Integration — Captures network activity, console logs, JavaScript errors, Redux/VueX/MobX/NgRx/Pinia/Zustand state changes, GraphQL queries, and Fetch/Axios requests alongside the replay.
-Performance Metrics — Records page speed metrics, CPU/memory usage, and Web Vitals for every session.
-Assist — Live session viewing and WebRTC-based co-browsing without third-party screen sharing tools.
-Spot — A Chrome extension for recording bugs directly from the browser with full technical context included.
+- Session Replay — Pixel-perfect replay of user sessions showing clicks, scrolls, navigation, and interactions. Each session is automatically analyzed using heuristics for easy triage.
+
+- DevTools Integration — Captures network activity, console logs, JavaScript errors, Redux/VueX/MobX/NgRx/Pinia/Zustand state changes, GraphQL queries, and Fetch/Axios requests alongside the replay.
+
+- Performance Metrics — Records page speed metrics, CPU/memory usage, and Web Vitals for every session.
+
+- Assist — Live session viewing and WebRTC-based co-browsing without third-party screen sharing tools.
+
+- Spot — A Chrome extension for recording bugs directly from the browser with full technical context included.
 
 Analytics and Search
 OpenReplay provides an omni-search feature that lets you filter sessions by user actions, session attributes, or technical events without requiring custom instrumentation. The analytics module surfaces the most impactful issues affecting conversion and revenue, helping teams prioritize fixes based on actual user impact.
@@ -34,9 +38,11 @@ Fine-grained privacy controls let you choose exactly what to capture, obscure, o
 Deployment
 OpenReplay supports deployment on major cloud platforms:
 
-AWS, Google Cloud, Azure, DigitalOcean, Scaleway, OVHcloud
-Kubernetes with Helm charts
-The tracker is a lightweight ~26KB (.br) JavaScript snippet that sends data asynchronously
+- AWS, Google Cloud, Azure, DigitalOcean, Scaleway, OVHcloud
+
+- Kubernetes with Helm charts
+
+- The tracker is a lightweight ~26KB (.br) JavaScript snippet that sends data asynchronously
 
 Integration Ecosystem
 OpenReplay integrates with backend logging and monitoring tools including Sentry, Datadog, CloudWatch, Stackdriver, and Elastic. Framework plugins support React, Angular, Vue, Svelte, Next.js, and React Native. The plugin architecture allows extending data capture with custom metadata.

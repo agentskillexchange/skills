@@ -19,12 +19,17 @@ onefetch is a command-line information tool for Git repositories, written in Rus
 
 Key Features
 
-Language Detection: onefetch detects and displays the programming language breakdown of a repository with percentage statistics, supporting over 100 languages.
-ASCII Art Logos: Each detected language has a hand-crafted ASCII art logo displayed alongside repository information, making output visually distinctive.
-Git Statistics: Shows commit count, contributor count, repository age, lines of code, last change date, repository URL, version (from tags), and pending changes.
-License Detection: Automatically detects the license type from LICENSE files in the repository.
-JSON and YAML Output: Structured output via --output json or --output yaml for programmatic consumption by scripts and agents.
-Customization: Disable specific info lines, change ASCII art colors, use custom images instead of ASCII logos, and configure which languages to show or hide.
+- Language Detection: onefetch detects and displays the programming language breakdown of a repository with percentage statistics, supporting over 100 languages.
+
+- ASCII Art Logos: Each detected language has a hand-crafted ASCII art logo displayed alongside repository information, making output visually distinctive.
+
+- Git Statistics: Shows commit count, contributor count, repository age, lines of code, last change date, repository URL, version (from tags), and pending changes.
+
+- License Detection: Automatically detects the license type from LICENSE files in the repository.
+
+- JSON and YAML Output: Structured output via --output json or --output yaml for programmatic consumption by scripts and agents.
+
+- Customization: Disable specific info lines, change ASCII art colors, use custom images instead of ASCII logos, and configure which languages to show or hide.
 
 How It Works
 An agent skill using onefetch allows AI agents to quickly gather comprehensive repository metadata before starting work on a project. The agent runs onefetch --output json in the repository root to get structured data about the project’s languages, size, contributors, license, and version. This context helps the agent understand the project’s technology stack, maturity, and scale before making changes.
@@ -34,10 +39,13 @@ onefetch is written in Rust and distributed via cargo install onefetch, Homebrew
 
 Integration Points
 
-JSON/YAML output for structured data consumption
-Git hook integration to display project info on clone or pull
-CI/CD pipelines for project metadata extraction
-Composable with other CLI tools through standard Unix pipes
+- JSON/YAML output for structured data consumption
+
+- Git hook integration to display project info on clone or pull
+
+- CI/CD pipelines for project metadata extraction
+
+- Composable with other CLI tools through standard Unix pipes
 
 ## Installation
 

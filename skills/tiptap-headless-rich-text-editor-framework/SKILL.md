@@ -29,13 +29,19 @@ AI agents building content management systems, documentation platforms, or writi
 
 Key Features
 
-Headless architecture with full design control
-Framework bindings for React, Vue, Svelte, and vanilla JS
-100+ extensions for rich editing features
-ProseMirror-based reliability and performance
-Real-time collaboration via Hocuspocus and Yjs
-HTML, JSON, and plain text output formats
-MIT licensed open-source core
+- Headless architecture with full design control
+
+- Framework bindings for React, Vue, Svelte, and vanilla JS
+
+- 100+ extensions for rich editing features
+
+- ProseMirror-based reliability and performance
+
+- Real-time collaboration via Hocuspocus and Yjs
+
+- HTML, JSON, and plain text output formats
+
+- MIT licensed open-source core
 
 ## Installation
 

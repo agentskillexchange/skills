@@ -18,10 +18,13 @@ Helm Chart Diff & Upgrade Manager is built around Helm package manager for Kuber
 
 In deployment workflows, the skill acts as a control layer around helm operations so an agent can inspect current state, compute a diff, surface rollout risk, and only then trigger the change path. The original use case is clear: Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog. The implementation typically relies on charts, values.yaml, releases, helm diff, upgrade, rollback, OCI registries, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses charts, values.yaml, releases, helm diff, upgrade, rollback, OCI registries instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as Kubernetes application packaging, release automation, and environment promotion.
+- Accesses charts, values.yaml, releases, helm diff, upgrade, rollback, OCI registries instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as Kubernetes application packaging, release automation, and environment promotion.
 
  Key integration points include Kubernetes application packaging, release automation, and environment promotion. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

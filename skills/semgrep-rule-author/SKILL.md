@@ -21,10 +21,13 @@ Describe a vulnerability pattern in plain English — such as “SQL injection v
 
 Key Features
 
-Supports all Semgrep pattern operators including pattern-inside, pattern-either, and metavariable-regex
-Automatically runs semgrep –validate to ensure rule syntax correctness
-Generates test fixtures and runs semgrep –test to verify true/false positive behavior
-Outputs rules in Semgrep Registry format with proper severity, confidence, and CWE mappings
+- Supports all Semgrep pattern operators including pattern-inside, pattern-either, and metavariable-regex
+
+- Automatically runs semgrep –validate to ensure rule syntax correctness
+
+- Generates test fixtures and runs semgrep –test to verify true/false positive behavior
+
+- Outputs rules in Semgrep Registry format with proper severity, confidence, and CWE mappings
 
 Use Cases
 Ideal for security teams building custom rule packs, developers enforcing framework-specific patterns, and compliance teams mapping rules to OWASP Top 10 categories. Exports rules compatible with Semgrep Cloud Platform and semgrep-app.

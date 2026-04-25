@@ -22,11 +22,15 @@ This skill enables agents to synthesize speech from text using the Piper TTS eng
 
 Key Capabilities
 
-Offline operation: All processing happens locally. Models are compact ONNX files (15-100 MB) that load quickly and run without GPU acceleration.
-Multi-language support: Pre-trained voices available for English (US/UK), German, French, Spanish, Portuguese, Italian, Dutch, Russian, Chinese, Arabic, Hindi, Japanese, and 10+ more languages.
-Voice quality tiers: Choose between low, medium, and high quality models trading off file size and CPU usage for naturalness. High-quality models use multi-speaker VITS architectures.
-Streaming output: Piper supports streaming audio generation, outputting PCM audio chunks as they are synthesized for low-latency real-time playback.
-CLI and library usage: Use the piper command-line tool to pipe text in and get WAV audio out, or link against the C++ library for embedding in applications. Python bindings available via piper-tts on PyPI.
+- Offline operation: All processing happens locally. Models are compact ONNX files (15-100 MB) that load quickly and run without GPU acceleration.
+
+- Multi-language support: Pre-trained voices available for English (US/UK), German, French, Spanish, Portuguese, Italian, Dutch, Russian, Chinese, Arabic, Hindi, Japanese, and 10+ more languages.
+
+- Voice quality tiers: Choose between low, medium, and high quality models trading off file size and CPU usage for naturalness. High-quality models use multi-speaker VITS architectures.
+
+- Streaming output: Piper supports streaming audio generation, outputting PCM audio chunks as they are synthesized for low-latency real-time playback.
+
+- CLI and library usage: Use the piper command-line tool to pipe text in and get WAV audio out, or link against the C++ library for embedding in applications. Python bindings available via piper-tts on PyPI.
 
 Integration Points
 Piper integrates with Home Assistant for voice assistant pipelines, with Wyoming protocol for modular voice satellite setups, and with any system that can consume WAV or raw PCM audio. It outputs 16-bit mono audio at configurable sample rates (16kHz or 22.05kHz depending on the model). The CLI accepts text via stdin and writes audio to stdout, making it composable with ffmpeg, sox, aplay, and other audio tools via shell pipes. Docker images are available for containerized deployments.

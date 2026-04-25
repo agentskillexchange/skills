@@ -25,13 +25,19 @@ AI agents managing infrastructure can interact with Traefik through its REST API
 
 Key Features
 
-Automatic service discovery from Docker, Kubernetes, Consul, etcd
-Let’s Encrypt HTTPS with automatic certificate renewal
-HTTP/2, gRPC, WebSocket, TCP, and UDP routing
-Built-in middleware: rate limiting, circuit breakers, auth, headers
-Canary deployments and traffic mirroring
-Observability: Prometheus metrics, OpenTelemetry tracing, access logs
-Dashboard with real-time service and route visualization
+- Automatic service discovery from Docker, Kubernetes, Consul, etcd
+
+- Let’s Encrypt HTTPS with automatic certificate renewal
+
+- HTTP/2, gRPC, WebSocket, TCP, and UDP routing
+
+- Built-in middleware: rate limiting, circuit breakers, auth, headers
+
+- Canary deployments and traffic mirroring
+
+- Observability: Prometheus metrics, OpenTelemetry tracing, access logs
+
+- Dashboard with real-time service and route visualization
 
 Installation
 # Docker

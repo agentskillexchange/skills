@@ -19,14 +19,21 @@ textstat is an open-source Python library for calculating readability statistics
 Supported Readability Metrics
 textstat provides implementations of the most widely used readability scoring systems:
 
-Flesch Reading Ease: Scores text on a 0-100 scale where higher scores indicate easier reading. The most commonly used readability metric.
-Flesch-Kincaid Grade Level: Translates readability into a U.S. school grade level, making it intuitive for content targeting.
-Gunning Fog Index: Estimates years of formal education needed to understand the text on first reading.
-SMOG Index: Calculates the grade level required to comprehend a piece of writing based on polysyllable count.
-Coleman-Liau Index: Uses character counts rather than syllable counts for grade-level estimation.
-Dale-Chall Readability Score: Compares words against a list of 3,000 familiar words to assess difficulty.
-Automated Readability Index (ARI): Uses character and word counts for machine-friendly grade-level scoring.
-Linsear Write Formula: Measures readability based on sentence length and polysyllable density.
+- Flesch Reading Ease: Scores text on a 0-100 scale where higher scores indicate easier reading. The most commonly used readability metric.
+
+- Flesch-Kincaid Grade Level: Translates readability into a U.S. school grade level, making it intuitive for content targeting.
+
+- Gunning Fog Index: Estimates years of formal education needed to understand the text on first reading.
+
+- SMOG Index: Calculates the grade level required to comprehend a piece of writing based on polysyllable count.
+
+- Coleman-Liau Index: Uses character counts rather than syllable counts for grade-level estimation.
+
+- Dale-Chall Readability Score: Compares words against a list of 3,000 familiar words to assess difficulty.
+
+- Automated Readability Index (ARI): Uses character and word counts for machine-friendly grade-level scoring.
+
+- Linsear Write Formula: Measures readability based on sentence length and polysyllable density.
 
 Additional Text Statistics
 Beyond readability scores, textstat calculates fundamental text metrics: syllable count, lexicon count (word count), sentence count, character count, average sentence length, average syllables per word, and average letters per word. These atomic metrics are useful for building custom readability heuristics.

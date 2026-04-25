@@ -21,14 +21,21 @@ calcurse presents a split-pane terminal interface showing your calendar, appoint
 
 Key Features
 
-Interactive ncurses TUI with configurable layouts and color schemes
-Appointment management with support for recurring events and reminders
-To-do list with priority levels
-CalDAV synchronization via the included calcurse-caldav Python script
-Import and export in iCalendar (.ics) and pcal formats
-Powerful command-line filtering options for use in shell scripts and cron jobs
-Configurable notification system for upcoming deadlines
-Internationalization with gettext support
+- Interactive ncurses TUI with configurable layouts and color schemes
+
+- Appointment management with support for recurring events and reminders
+
+- To-do list with priority levels
+
+- CalDAV synchronization via the included calcurse-caldav Python script
+
+- Import and export in iCalendar (.ics) and pcal formats
+
+- Powerful command-line filtering options for use in shell scripts and cron jobs
+
+- Configurable notification system for upcoming deadlines
+
+- Internationalization with gettext support
 
 Integration Points
 calcurse stores data in ~/.local/share/calcurse/ in plain text. Agents can directly read and write appointment files, query upcoming events using calcurse command-line options with format strings, or trigger CalDAV syncs. The command-line interface supports filtering by date ranges and outputting in machine-parseable formats, making it straightforward to integrate into automation workflows.

@@ -18,10 +18,13 @@ ClickHouse Query Agent is built around ClickHouse columnar analytics database. T
 
 The skill is especially useful when an agent needs to translate a natural-language request into concrete clickhouse-level queries, run them safely, and then explain the result in operational terms rather than returning raw output. The implementation typically relies on SQL queries, MergeTree tables, materialized views, HTTP and native clients, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses SQL queries, MergeTree tables, materialized views, HTTP and native clients instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as high-volume analytics, log search, rollups, and low-latency BI queries.
+- Accesses SQL queries, MergeTree tables, materialized views, HTTP and native clients instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as high-volume analytics, log search, rollups, and low-latency BI queries.
 
  Key integration points include high-volume analytics, log search, rollups, and low-latency BI queries. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

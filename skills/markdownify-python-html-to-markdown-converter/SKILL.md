@@ -26,7 +26,7 @@ Agent Integration
 For AI agents, markdownify is a critical building block in content processing chains. When scraping web pages, agents can feed raw HTML through markdownify to produce clean Markdown suitable for LLM context windows. It is lighter weight than full browser-based solutions when the goal is text extraction rather than rendering. Agents can subclass MarkdownConverter to create domain-specific converters that handle custom HTML structures.
 
 Installation and Usage
-Install via pip: pip install markdownify. Basic usage: from markdownify import markdownify as md; result = md('Hello World'). The library requires Python 3.x and depends on BeautifulSoup4 and six.
+Install via pip: pip install markdownify. Basic usage: from markdownify import markdownify as md; result = md('<b>Hello</b> <a href="https://example.com">World</a>'). The library requires Python 3.x and depends on BeautifulSoup4 and six.
 
 Documentation and Community
 The project README on GitHub serves as the primary documentation with full option reference and custom converter examples. The library has over 2,100 GitHub stars, is MIT licensed, and is published on PyPI with consistent download numbers. It has been a stable dependency in the Python ecosystem for over a decade.

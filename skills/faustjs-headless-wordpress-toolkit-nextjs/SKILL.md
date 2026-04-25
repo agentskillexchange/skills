@@ -19,10 +19,13 @@ Faust.js is an open-source headless WordPress toolkit developed and maintained b
 Architecture and Components
 Faust.js is built around several key packages:
 
-@faustwp/core: The core Next.js framework integration that provides routing, data fetching hooks, and template resolution based on WordPress content types
-@faustwp/cli: A command-line tool for generating TypeScript types from your WordPress GraphQL schema and scaffolding new projects
-@faustwp/blocks: A block rendering system that maps WordPress Gutenberg blocks to React components on the frontend
-FaustWP Plugin: A WordPress plugin that enables authenticated previews, rewrites, and configuration management from the WordPress admin
+- @faustwp/core: The core Next.js framework integration that provides routing, data fetching hooks, and template resolution based on WordPress content types
+
+- @faustwp/cli: A command-line tool for generating TypeScript types from your WordPress GraphQL schema and scaffolding new projects
+
+- @faustwp/blocks: A block rendering system that maps WordPress Gutenberg blocks to React components on the frontend
+
+- FaustWP Plugin: A WordPress plugin that enables authenticated previews, rewrites, and configuration management from the WordPress admin
 
 Key Features
 Faust.js provides first-class support for WPGraphQL, the most popular GraphQL implementation for WordPress. It includes built-in authentication handling that lets editors preview unpublished content through the Next.js frontend. The template hierarchy system mirrors WordPress’s native template resolution, so developers can create templates for specific post types, taxonomies, and archives just as they would in a traditional WordPress theme.

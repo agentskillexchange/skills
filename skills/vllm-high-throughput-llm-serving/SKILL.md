@@ -24,15 +24,23 @@ Agents deploy vLLM as a production inference backend via its OpenAI-compatible A
 
 Key Features
 
-PagedAttention for efficient attention key-value memory management
-Continuous batching of incoming requests for maximum throughput
-GPTQ, AWQ, INT4, INT8, and FP8 quantization support
-Tensor, pipeline, data, and expert parallelism for distributed inference
-Speculative decoding and chunked prefill
-OpenAI-compatible API server with streaming support
-Multi-LoRA serving for concurrent adapter models
-Prefix caching for repeated prompts
-Support for 100+ Hugging Face model architectures
+- PagedAttention for efficient attention key-value memory management
+
+- Continuous batching of incoming requests for maximum throughput
+
+- GPTQ, AWQ, INT4, INT8, and FP8 quantization support
+
+- Tensor, pipeline, data, and expert parallelism for distributed inference
+
+- Speculative decoding and chunked prefill
+
+- OpenAI-compatible API server with streaming support
+
+- Multi-LoRA serving for concurrent adapter models
+
+- Prefix caching for repeated prompts
+
+- Support for 100+ Hugging Face model architectures
 
 Integration Points
 Install with pip install vllm. Launch a server with vllm serve meta-llama/Llama-3-8B-Instruct. The API is compatible with OpenAI client libraries, so any agent using the OpenAI SDK can switch to vLLM by changing the base URL. Supports models from Hugging Face including LLaMA, Mistral, Mixtral, DeepSeek, Qwen, Gemma, and multimodal models like LLaVA.

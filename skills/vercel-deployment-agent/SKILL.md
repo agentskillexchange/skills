@@ -20,10 +20,13 @@ Vercel Deployment Agent is built around Vercel deployment platform. The underlyi
 
 In deployment workflows, the skill acts as a control layer around vercel operations so an agent can inspect current state, compute a diff, surface rollout risk, and only then trigger the change path. The implementation typically relies on deployments, env vars, build logs, previews, edge runtime, project config, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Accesses deployments, env vars, build logs, previews, edge runtime, project config instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as frontend hosting, preview environments, and serverless deployment.
+- Accesses deployments, env vars, build logs, previews, edge runtime, project config instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as frontend hosting, preview environments, and serverless deployment.
 
  Key integration points include frontend hosting, preview environments, and serverless deployment. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 

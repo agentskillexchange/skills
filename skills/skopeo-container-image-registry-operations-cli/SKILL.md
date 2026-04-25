@@ -19,12 +19,17 @@ Skopeo is a command-line utility for performing operations on container images a
 
 Key Features
 
-Daemonless Operation: No Docker or container daemon required. Skopeo uses direct registry API calls, making it lightweight and suitable for restricted environments.
-Cross-Registry Copy: Copy images between registries (e.g., Docker Hub to a private registry) without pulling the full image to the local machine, saving bandwidth and time.
-Remote Inspection: Inspect image metadata, layers, labels, and architecture information from remote registries without downloading the image.
-Multi-Format Support: Works with OCI images, Docker v2 images, local directories, docker-archive files, and container storage backends.
-Registry Sync: Synchronize entire repositories between registries for air-gapped deployments and mirror management.
-Rootless by Default: Most operations run without elevated privileges, improving security posture in automated pipelines.
+- Daemonless Operation: No Docker or container daemon required. Skopeo uses direct registry API calls, making it lightweight and suitable for restricted environments.
+
+- Cross-Registry Copy: Copy images between registries (e.g., Docker Hub to a private registry) without pulling the full image to the local machine, saving bandwidth and time.
+
+- Remote Inspection: Inspect image metadata, layers, labels, and architecture information from remote registries without downloading the image.
+
+- Multi-Format Support: Works with OCI images, Docker v2 images, local directories, docker-archive files, and container storage backends.
+
+- Registry Sync: Synchronize entire repositories between registries for air-gapped deployments and mirror management.
+
+- Rootless by Default: Most operations run without elevated privileges, improving security posture in automated pipelines.
 
 How It Works
 Skopeo communicates directly with container registries using the Docker Registry HTTP API V2 and OCI Distribution Spec. It supports multiple image transports including docker:// for remote registries, containers-storage: for local Podman/CRI-O stores, dir: for filesystem layouts, and docker-archive: for tarball files. Authentication credentials are read from $XDG_RUNTIME_DIR/containers/auth.json or can be configured via skopeo login.

@@ -23,10 +23,13 @@ The skill scans all workspace packages for their ESLint configurations, merges t
 
 Key Features
 
-Automatic detection of conflicting rules between @eslint/js, typescript-eslint, and custom shared configs
-Generates override files that resolve conflicts while preserving intentional per-package customizations
-Compliance dashboard showing rule coverage and deviation percentages across all packages
-Supports eslint.config.mjs, eslint.config.ts, and legacy .eslintrc migration paths
+- Automatic detection of conflicting rules between @eslint/js, typescript-eslint, and custom shared configs
+
+- Generates override files that resolve conflicts while preserving intentional per-package customizations
+
+- Compliance dashboard showing rule coverage and deviation percentages across all packages
+
+- Supports eslint.config.mjs, eslint.config.ts, and legacy .eslintrc migration paths
 
 Integration
 Works with npm, pnpm, and Yarn workspaces. Integrates with CI pipelines to block merges when config drift exceeds configurable thresholds. Outputs JSON reports compatible with SonarQube and CodeClimate.
