@@ -8,6 +8,7 @@
 | 💼 | [**Finance & Filings**](finance-filings.md) | Wave 1 | 8 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. |
 | 🛒 | [**Ecommerce & Retail Operations**](ecommerce-retail-operations.md) | Wave 1 | 8 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising. |
 | ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | Wave 1 | 7 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. |
+| 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | Wave 2 | 8 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |
 
 ---
 

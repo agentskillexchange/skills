@@ -82,6 +82,27 @@
         "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
         "revise-pdf-slides-with-natural-language-edits"
       ]
+    },
+    {
+      "slug": "healthcare-documentation-intake",
+      "title": "Healthcare Documentation & Intake",
+      "launch_stage": "wave-2",
+      "description": "Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support — not diagnosis or medical decision support.",
+      "skill_slugs": [
+        "pubmed-literature-mining-agent",
+        "langextract-llm-structured-text-extraction",
+        "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "tesseract-ocr-document-extractor",
+        "tesseract-ocr-data-extractor",
+        "whisperx-speech-recognition-timestamps-diarization",
+        "assemblyai-lemur-summarizer-agent",
+        "docuseal-document-signing-pdf-forms"
+      ],
+      "backup_skill_slugs": [
+        "pdfplumber-python-pdf-text-table-extraction",
+        "openai-whisper-api-transcription"
+      ]
     }
   ]
 }
