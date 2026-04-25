@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/)
+### [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/)
 
 
 
-- Tool: `vault`
-- Category: Image & Creative Automation
-- Frameworks: Codex
-- GitHub stars: 109,121
-- Listing: https://agentskillexchange.com/skills/comfyui-workflow-executor/
+- Tool: `firecrawl`
+- Category: Research & Scraping
+- Frameworks: Multi-Framework
+- GitHub stars: 108,813
+- Listing: https://agentskillexchange.com/skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/
 
 ---
 
