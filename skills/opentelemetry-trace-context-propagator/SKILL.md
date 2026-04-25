@@ -2,7 +2,7 @@
 title: "OpenTelemetry Trace Context Propagator"
 description: "Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC, and message queue boundaries. Integrates with Jaeger, Zipkin, and OTLP exporters for distributed trace correlation."
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/"
+source: "https://opentelemetry.io/docs/languages/js/propagation/"
 category:
   - "Library & API Reference"
 framework:
