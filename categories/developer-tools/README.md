@@ -134,7 +134,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 129.2M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 130.2M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -251,7 +251,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](../../skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | 4.5k | — |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](../../skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | 4.4k | — |
-| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 9.7M/wk |
+| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 9.6M/wk |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |

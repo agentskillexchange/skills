@@ -47,7 +47,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | 73.4k | — |
-| [Video Frames Extractor](../../skills/video-frames-extractor/) | 59.2k | — |
+| [Video Frames Extractor](../../skills/video-frames-extractor/) | 59.3k | — |
 | [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | 59k | — |
 | [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | 59k | — |
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | 59k | — |

@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 84.4k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.4k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 84.5k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.5k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 84.4k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.4k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 84.5k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.5k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 73.6k | — |

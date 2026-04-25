@@ -14,8 +14,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | ⭐ 34.8k |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⭐ 34.6k |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 33k |
-| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21k |
-| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21k |
+| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21.1k |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21.1k |
 
 ---
 
@@ -48,9 +48,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | 34.8k | 23.3k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 34.6k | 20.1k/wk |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 33k | — |
-| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
-| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
-| [WordPress Router](../../skills/wordpress-router/) | 21k | — |
+| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21.1k | — |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21.1k | — |
+| [WordPress Router](../../skills/wordpress-router/) | 21.1k | — |
 | [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | 21k | — |
 | [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | 21k | — |
 | [WordPress Gutenberg Block Scaffolder](../../skills/wordpress-gutenberg-block-scaffolder/) | 21k | — |

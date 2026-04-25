@@ -191,7 +191,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
 | [Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar](../../skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar/) | 953 | — |
 | [Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar](../../skills/scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar/) | 953 | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 918 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 923 | — |
 | [Scan MCP servers for security findings before connecting them to agents with MCP Scanner](../../skills/scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner/) | 889 | — |
 | [Encrypt and decrypt age secrets with hardware-backed YubiKey identities](../../skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/) | 881 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
@@ -221,14 +221,14 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
 | [Start governed Claude Code sessions with short-lived service credentials using Kontext CLI](../../skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli/) | 143 | — |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 131 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 136 | — |
 | [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](../../skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | 124 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Review risky coding-agent sessions with local action logs using Gryph](../../skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/) | 105 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener](../../skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/) | 50 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
-| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 44 | — |
+| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 45 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Gate MCP tool calls behind deterministic policy enforcement with Intercept](../../skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | 29 | 336/wk |
