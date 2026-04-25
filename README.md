@@ -111,10 +111,11 @@ Curated editorial overlays for teams that want repo navigation by real workflow 
 
 | | Collection | Stage | What you'll find |
 |---|---|---|---|
-| 🎙️ | [**Media & Publishing Systems**](industries/media-publishing-systems.md) | Wave 1 | Transcription, subtitles, podcast processing, and publishing prep workflows |
-| 💼 | [**Finance & Filings**](industries/finance-filings.md) | Wave 1 | Filings research, invoice extraction, reconciliation, and reporting workflows |
-| 🛒 | [**Ecommerce & Retail Operations**](industries/ecommerce-retail-operations.md) | Wave 1 | Catalog, storefront, order, inventory, and merchandising workflows |
-| ⚖️ | [**Legal Ops & Compliance**](industries/legal-ops-compliance.md) | Wave 1 | Contracts, document review, signing, OCR, and archive search workflows |
+| 🎙️ | [**Media & Publishing Systems**](industries/media-publishing-systems.md) | Wave 1 | Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep |
+| 💼 | [**Finance & Filings**](industries/finance-filings.md) | Wave 1 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting |
+| 🛒 | [**Ecommerce & Retail Operations**](industries/ecommerce-retail-operations.md) | Wave 1 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising |
+| ⚖️ | [**Legal Ops & Compliance**](industries/legal-ops-compliance.md) | Wave 1 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support |
+| 🩺 | [**Healthcare Documentation & Intake**](industries/healthcare-documentation-intake.md) | Wave 2 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows |
 
 See the full overlay index in [industries/README.md](industries/README.md).
 

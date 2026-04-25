@@ -13,6 +13,20 @@ from pathlib import Path
 REPO_DIR = Path(sys.argv[1])
 BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
 WP_CAT_URL = "https://agentskillexchange.com/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
+INDUSTRY_MANIFEST = REPO_DIR / "scripts" / "industry-collections.json"
+INDUSTRY_EMOJI = {
+    "media-publishing-systems": "🎙️",
+    "finance-filings": "💼",
+    "ecommerce-retail-operations": "🛒",
+    "legal-ops-compliance": "⚖️",
+    "healthcare-documentation-intake": "🩺",
+}
+INDUSTRY_STAGE = {
+    "wave-1": "Wave 1",
+    "wave-2": "Wave 2",
+    "pilot": "Pilot",
+    "planned": "Planned",
+}
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧", "Runbooks & Diagnostics": "📋",
     "Code Quality & Review": "✅", "Developer Tools": "🛠️",
@@ -65,6 +79,8 @@ def fmt_badge(n):
 
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
+industry_manifest = json.loads(INDUSTRY_MANIFEST.read_text(encoding="utf-8"))
+industry_rows = industry_manifest.get("collections") or []
 items = []
 page = 1
 while True:
@@ -205,10 +221,11 @@ lines.append("Curated editorial overlays for teams that want repo navigation by 
 lines.append("")
 lines.append("| | Collection | Stage | What you'll find |")
 lines.append("|---|---|---|---|")
-lines.append("| 🎙️ | [**Media & Publishing Systems**](industries/media-publishing-systems.md) | Wave 1 | Transcription, subtitles, podcast processing, and publishing prep workflows |")
-lines.append("| 💼 | [**Finance & Filings**](industries/finance-filings.md) | Wave 1 | Filings research, invoice extraction, reconciliation, and reporting workflows |")
-lines.append("| 🛒 | [**Ecommerce & Retail Operations**](industries/ecommerce-retail-operations.md) | Wave 1 | Catalog, storefront, order, inventory, and merchandising workflows |")
-lines.append("| ⚖️ | [**Legal Ops & Compliance**](industries/legal-ops-compliance.md) | Wave 1 | Contracts, document review, signing, OCR, and archive search workflows |")
+for collection in industry_rows:
+    emoji = INDUSTRY_EMOJI.get(collection["slug"], "📦")
+    stage = INDUSTRY_STAGE.get((collection.get("launch_stage") or "planned").lower(), (collection.get("launch_stage") or "planned").replace("-", " ").title())
+    summary = collection.get("description", "").strip().rstrip(".")
+    lines.append(f'| {emoji} | [**{collection["title"]}**](industries/{collection["slug"]}.md) | {stage} | {summary} |')
 lines.append("")
 lines.append("See the full overlay index in [industries/README.md](industries/README.md).")
 lines.append("")
