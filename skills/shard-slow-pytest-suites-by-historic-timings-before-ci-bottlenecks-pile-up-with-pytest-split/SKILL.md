@@ -16,7 +16,9 @@ tool_ecosystem:
 
 # Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split
 
-Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance.
+Use pytest-split when an agent needs to break a growing pytest suite into balanced groups based on historical run times. It fits CI tuning work where the problem is not test correctness but slow, uneven, or unpredictable lane completion.
+
+Invoke this instead of running pytest normally when the agent must produce balanced shards and reduce end-to-end CI time without hand-curating test buckets. This is skill-shaped because the boundary is specific: timing-aware pytest sharding for CI. It is not a generic pytest plugin catalog entry or broad Python testing framework listing.
 
 ## Installation
 

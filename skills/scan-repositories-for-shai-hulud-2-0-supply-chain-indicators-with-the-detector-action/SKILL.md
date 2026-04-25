@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action
 
-Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning.
+Use the Shai-Hulud 2.0 Detector when a team needs a focused incident-response workflow for this specific npm compromise set. The scope boundary is unusually strong: scan for known malicious packages, suspicious scripts, runner indicators, and exfiltration traces tied to the Shai-Hulud 2.0 campaign, then feed the findings into triage. That keeps it skill-shaped instead of a generic security tool card. A user invokes it for one named supply-chain investigation job with concrete inputs and outputs.
 
 ## Installation
 

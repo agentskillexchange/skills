@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Distill repository rules and workflows into reusable project skills with Skill-Based Architecture
 
-Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents can route through before making changes.
+Use Skill-Based Architecture when a repo already has too many rules spread across SKILL.md files, agent docs, and tribal knowledge, and you want an agent to consolidate that into a reusable project skill. The scope boundary is narrow and workflow-shaped: analyze the repository’s conventions, split durable rules from procedures and gotchas, and output a routable skills directory for future agent work. That is meaningfully different from a generic documentation system or coding assistant product listing.
 
 ## Installation
 

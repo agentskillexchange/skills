@@ -1,7 +1,7 @@
 ---
 title: "Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools"
 description: "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jazzband/pip-tools"
 category:
   - "Developer Tools"
@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools
 
-Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins.
+This skill uses pip-tools for the specific compile-and-sync loop that turns human-maintained requirement inputs into deterministic lock files. The agent compiles transitive pins, reviews the resulting lock changes, and syncs environments so dependency state stays reproducible across local development and CI.
+
+Invoke it when teams already manage requirements.in, pyproject.toml, or layered dependency inputs and need a safe way to regenerate locks after upgrades. Use plain pip or a package manager directly for one-off installs. Use this skill when the real job is controlled lock regeneration and environment sync.
+
+The scope boundary is the deterministic dependency-resolution workflow itself. It is not a general Python package manager listing, dependency bot, or environment platform card.
 
 ## Installation
 

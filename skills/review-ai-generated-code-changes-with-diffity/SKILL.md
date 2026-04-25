@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Review AI-generated code changes in a cleaner diff workflow with Diffity
 
-Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes.
+Use Diffity when an agent has produced a patch and you want a deliberate review pass before accepting it. It opens a local GitHub-style diff UI, supports inline comments from you or the agent, and can feed unresolved review threads back into commands like `/diffity-resolve` for targeted follow-up edits. Invoke this instead of using a coding agent normally when the missing step is human review and comment-driven remediation, not raw code generation. The boundary is local diff inspection and review handoff for code changes, not a generic diff viewer or broad IDE replacement.
 
 ## Installation
 

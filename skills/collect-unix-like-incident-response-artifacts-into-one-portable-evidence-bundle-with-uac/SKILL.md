@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC
 
-Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host.
+Use UAC when an agent or responder needs to collect a broad incident-response artifact set from a Unix-like host for later forensic review, not when the user is simply administering the system normally. The workflow is explicit: choose or tune a collection profile, gather volatile and persistent artifacts, and hand off one portable bundle for downstream analysis. That scope boundary, evidence collection and preservation for incident response, keeps this skill-shaped instead of reading like a generic security tool listing.
 
 ## Installation
 

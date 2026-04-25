@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Extract reusable coding-agent memory from past sessions with Lerim
 
-Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as reusable markdown.
+Use Lerim when a coding workflow keeps repeating prior decisions because session context disappears between runs. Instead of treating it as a generic memory database, the operator workflow is specific: run the background service, ingest coding-agent sessions, extract durable project facts and decisions, consolidate them over time, and query that memory later. The scope boundary is session-derived project memory extraction and consolidation for coding agents, not a generic note app, vector store, or memory SDK listing.
 
 ## Installation
 

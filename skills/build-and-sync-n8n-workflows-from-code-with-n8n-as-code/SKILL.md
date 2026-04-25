@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Build and sync n8n workflows from code with n8n-as-code
 
-Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON.
+Use n8n-as-code when the agent should inspect n8n nodes, generate or update typed workflow definitions, and sync them back to n8n from code-managed files. Invoke it instead of editing workflows directly in n8n when the real need is a code-first authoring and synchronization workflow with reusable templates and version control. The scope boundary is narrow enough to be skill-shaped: authoring and syncing n8n workflows as code, not a generic n8n platform card or automation marketplace listing.
 
 ## Installation
 

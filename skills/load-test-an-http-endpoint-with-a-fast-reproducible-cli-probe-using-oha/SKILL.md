@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Load-test an HTTP endpoint with a fast reproducible CLI probe using oha
 
-Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage.
+Use oha when an agent needs to hit a specific HTTP endpoint with controlled concurrency and duration to get a fast latency and throughput snapshot. A user should invoke this instead of using a full performance platform normally when the task is a quick reproducible endpoint probe or comparison run, not scenario modeling, distributed testing, or long-lived monitoring. The scope boundary is skill-shaped: it benchmarks one HTTP target from a simple CLI invocation and returns concrete performance measurements, not a general observability stack or load-testing platform listing.
 
 ## Installation
 

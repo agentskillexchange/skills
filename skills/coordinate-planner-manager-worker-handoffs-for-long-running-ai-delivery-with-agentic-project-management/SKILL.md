@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management
 
-Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in one giant chat.
+Use Agentic Project Management when a project is large enough that one agent session cannot reliably hold the plan, execution state, and review context. Invoke it instead of using an AI coding tool in ordinary chat mode when you need explicit planner, manager, and worker handoffs with durable project artifacts and repeatable slash-command stages. The scope boundary is publishable and distinct: this is not a generic agent framework card, it is a concrete long-running delivery workflow for coordinating multi-stage software execution across supported AI assistants.
 
 ## Installation
 

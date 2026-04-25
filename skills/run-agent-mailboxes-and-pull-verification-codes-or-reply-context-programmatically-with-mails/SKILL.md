@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Run agent mailboxes and pull verification codes or reply context programmatically with Mails
 
-Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client.
+Use Mails when an agent needs a programmatic mailbox workflow, for example sending a transactional message, waiting for a reply, extracting a verification code, syncing messages locally, or handling attachments. Invoke it instead of using email normally when the job is automation-safe send and receive behavior for agents rather than interactive inbox use by a human. The scope boundary keeps this skill-shaped: this entry is about programmatic agent mailbox operations and code retrieval, not a generic email provider, SDK, or hosted mail product listing.
 
 ## Installation
 

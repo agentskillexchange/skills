@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Investigate production incidents across observability signals and draft next remediation steps with OpenSRE
 
-Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause.
+Use OpenSRE when an agent needs to investigate a live production incident across multiple observability surfaces and return a grounded diagnosis with suggested remediation or escalation steps. Invoke it instead of treating a monitoring product as the workspace when the missing job is cross-signal incident investigation, evidence gathering, and response planning. The scope boundary is narrow enough to be skill-shaped: OpenSRE is being used here for bounded incident investigation and remediation planning, not as a generic agent framework or broad infrastructure platform listing.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 ---
 title: "Scan MCP servers for security findings before connecting them to agents with MCP Scanner"
 description: "Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts, resources, dependencies, and supply-chain risk."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/cisco-ai-defense/mcp-scanner"
 category:
   - "Security & Verification"
@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Scan MCP servers for security findings before connecting them to agents with MCP Scanner
 
-Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts, resources, dependencies, and supply-chain risk.
+MCP Scanner is a pre-connection security review workflow for Model Context Protocol servers. The agent uses it to inspect an MCP server, its tools, prompts, resources, dependencies, and bundled files before that server is connected to a broader agent environment.
+
+Invoke this when you are evaluating whether an MCP server is safe enough to trust, especially before adding it to a production agent setup, CI gate, or shared team catalog. This is different from using the MCP server normally, because the job here is to audit the server first, not to consume its capabilities.
+
+The scope boundary is narrow and skill-shaped: security scanning of MCP servers and their attached surfaces. It is not a general SDK, not a generic security platform card, and not a broad AI product listing.
 
 ## Installation
 

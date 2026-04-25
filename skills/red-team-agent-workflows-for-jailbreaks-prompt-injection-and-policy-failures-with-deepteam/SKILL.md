@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam
 
-Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout.
+Use DeepTeam when you want to simulate attacks against an agent workflow before trusting it in production. The upstream workflow is clear: choose built-in vulnerability classes, run local red-team tests against an agent, RAG system, or chatbot, inspect binary pass/fail results with reasoning, and use those findings to harden prompts, tools, and policies. The scope boundary is adversarial red-team execution and review for LLM systems, not a generic security platform or plain model-evaluation listing.
 
 ## Installation
 

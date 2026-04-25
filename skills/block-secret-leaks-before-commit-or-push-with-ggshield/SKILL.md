@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Block secret leaks before commit or push with ggshield
 
-Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch.
+Use ggshield when an agent needs a pre-commit, pre-push, or CI guardrail that checks code changes for leaked credentials before they are shared. The agent can scan staged diffs, recent commits, or whole repositories and return concrete secret findings early enough to stop the handoff. The scope boundary is specific: this skill is about running GitGuardian’s local scanning workflow at the change boundary, not about publishing a generic secret-management or SaaS product card.
 
 ## Installation
 

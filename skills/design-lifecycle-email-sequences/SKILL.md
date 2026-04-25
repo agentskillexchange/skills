@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Design Lifecycle Email Sequences
 
-Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.
+Use this when the user needs a multi-email lifecycle flow designed or improved, not when they are just sending one campaign or using an email platform normally. The agent maps audience stage, sequence goals, timing, and email-by-email roles to produce a coherent series. The boundary is lifecycle sequence design, not a generic ESP, inbox, or marketing platform listing.
 
 ## Installation
 

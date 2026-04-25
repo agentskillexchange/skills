@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Validate Python Docstrings Against Function Signatures with pydoclint
 
-Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves.
+This skill uses pydoclint for a very specific documentation-integrity workflow. The agent compares Python docstrings to live function signatures and flags drift in parameters, return values, and documented exceptions so teams can catch stale API docs during review.
+
+Invoke it when code changes faster than its inline documentation and reviewers need a precise consistency check. Use general documentation tools when creating prose or broader style guidance. Use this skill when the real job is signature-to-docstring validation.
+
+The scope boundary is strict docstring consistency checking. It is not a broad documentation platform, generic Python linter, or package reference card.
 
 ## Installation
 

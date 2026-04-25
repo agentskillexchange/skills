@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence
 
-Pull relevant Notion context, tailor an agenda to attendees and decisions, and assemble a structured pre-read for an upcoming meeting.
+Use notion-meeting-intelligence when the agent should gather relevant Notion context, choose the right meeting template, and produce a tailored agenda or pre-read for a specific meeting. Invoke it instead of using Notion as a plain document store when you need a repeatable meeting-prep workflow with attendee-aware framing, supporting links, and optional outside research. The scope boundary keeps it skill-shaped: meeting preparation and materials assembly for a defined meeting, not a generic Notion workspace listing.
 
 ## Installation
 

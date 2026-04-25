@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Track coding-agent token spend and leaderboard drift across local session logs with Tokscale
 
-Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team.
+Use Tokscale when you need an agent-adjacent monitoring pass over local Claude Code, Codex, OpenClaw, Cursor, Gemini, and similar session logs. It ingests per-tool histories, normalizes token and cost data, and surfaces budget drift, usage trends, and optional leaderboard reporting from one place. Invoke this instead of using each coding product’s built-in UI when the job is cross-agent cost tracking from local artifacts rather than one tool’s native analytics. The boundary is token and spend observability across coding-agent logs, not a generic AI platform or standalone dashboard listing.
 
 ## Installation
 

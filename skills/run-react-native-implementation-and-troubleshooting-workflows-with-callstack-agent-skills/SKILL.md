@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run React Native implementation and troubleshooting workflows with Callstack Agent Skills
 
-Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development.
+Use Callstack Agent Skills when an agent is working on React Native delivery tasks such as upgrades, brownfield migration, performance work, repository hygiene, or mobile CI flows and needs domain-specific guidance instead of generic coding help. Invoke it when the operator wants a repeatable React Native workflow pack that works across agent harnesses, not when they are simply browsing a mobile library or framework. The scope boundary is clear: this repository packages React Native implementation and troubleshooting skills for coding agents, not a generic React Native ecosystem listing.
 
 ## Installation
 

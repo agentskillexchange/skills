@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Start governed Claude Code sessions with short-lived service credentials using Kontext CLI
 
-Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets.
+Use Kontext CLI when you need Claude Code to call systems like GitHub, Stripe, or internal services without handing the agent long-lived keys in plain env files. Invoke it instead of using the product normally when the job is starting a governed agent session with scoped credentials, hosted provider connection, and traceable tool activity, not generic secret storage or identity management. The boundary is the session-start credential brokering workflow for Claude Code, which is narrower than a general security platform or SDK listing.
 
 ## Installation
 

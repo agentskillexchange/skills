@@ -1,7 +1,7 @@
 ---
 title: "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks"
 description: "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/dandye/ai-runbooks"
 category:
   - "Runbooks & Diagnostics"
@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks
 
-Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage.
+Use ai-runbooks when the task is to guide an AI assistant through a defined security operations procedure such as alert triage, IOC enrichment, threat hunting, or incident-response handling. The upstream repository is explicit that it provides role-based guides, runbooks, incident plans, and shared rules-bank content for AI-assisted cybersecurity workflows.
+
+Invoke this instead of using the product normally when you need a repeatable procedural layer for security work across supported assistants, not just a repository of general security notes. The operator workflow is concrete: choose the relevant persona or runbook, load the shared rules-bank content into the assistant environment, then work the investigation steps in a standardized sequence.
+
+The scope boundary is what keeps this publishable as a skill. This is not a generic security platform listing or a vague documentation repo card. It is the bounded workflow of running AI-assisted security triage against structured SOC playbooks and role definitions.
 
 ## Installation
 

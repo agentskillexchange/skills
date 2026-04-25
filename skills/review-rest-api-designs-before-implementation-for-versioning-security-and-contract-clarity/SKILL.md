@@ -1,7 +1,7 @@
 ---
 title: "Review REST API designs before implementation for versioning, security, and contract clarity"
 description: "Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design quality, security, resilience, and missing contract decisions."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/review-api-design"
 category:
   - "Code Quality & Review"
@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Review REST API designs before implementation for versioning, security, and contract clarity
 
-Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design quality, security, resilience, and missing contract decisions.
+This skill lets an agent review a REST API design before code is written. The agent gathers missing context, loads the relevant reference material, evaluates the design across design principles, payloads and errors, security, resilience, and extensibility, then produces a structured review with severity levels, concrete recommendations, and a readiness assessment.
+
+Use this when the user is still designing an API and wants an expert review of endpoints, contracts, versioning, auth, pagination, error formats, idempotency, or integration boundaries before implementation starts. It is more appropriate than using the product normally because the value is the agent’s staged review workflow and critique, not just reading REST guidance or browsing an OpenAPI file.
+
+The scope boundary is specific: this is not a generic API framework or REST best-practices listing. It is a planning-phase design-review workflow with explicit questions, reference routing, severity scoring, and structured output for operator decision-making.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 ---
 title: "Baseline and Review Repository Secret Findings with detect-secrets"
 description: "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Yelp/detect-secrets"
 category:
   - "Security & Verification"
@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Baseline and Review Repository Secret Findings with detect-secrets
 
-Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks.
+This skill wraps detect-secrets as a repeatable secret-review workflow rather than a generic scanner listing. The agent generates or refreshes a baseline, scans the repository, and focuses review attention on newly introduced findings so teams can gate commits and CI runs without re-triaging known historical noise every time.
+
+Invoke it when a repository needs an incremental secret-hygiene check before merge, during pre-commit enforcement, or while cleaning up a legacy codebase in stages. Use the product normally for ad hoc scanning only. Use this skill when the job is specifically baseline management plus review of net-new findings.
+
+The scope boundary is narrow and explicit: repository secret detection, baseline upkeep, and review of new alerts. It is not a general AppSec platform, SIEM, or full security program card.
 
 ## Installation
 

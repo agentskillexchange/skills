@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg
 
-Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images, HTML, and other mixed inputs before downstream review or indexing.
+Use Kreuzberg when an agent needs a single MCP-accessible extraction layer for messy document batches before summarization, search, or downstream automation begins. The upstream project explicitly supports MCP server mode and returns structured outputs including text, metadata, tables, images, and code intelligence across many file types. The boundary is document extraction and normalization for agent handoff, not a generic SDK card or broad document platform listing.
 
 ## Installation
 

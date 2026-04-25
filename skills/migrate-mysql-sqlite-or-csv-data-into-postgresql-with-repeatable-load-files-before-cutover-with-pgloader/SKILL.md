@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader
 
-Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs before one-off import scripts become cutover risk.
+Use pgloader when an agent needs to migrate data from MySQL, SQLite, or CSV sources into PostgreSQL with a reusable load specification. Invoke it instead of writing fragile one-off import scripts when the real task is repeatable bulk migration, type mapping, and cutover rehearsal. The boundary is clear and skill-shaped: execute and refine PostgreSQL migration runs from supported source systems, not general database administration or a broad ETL platform listing.
 
 ## Installation
 

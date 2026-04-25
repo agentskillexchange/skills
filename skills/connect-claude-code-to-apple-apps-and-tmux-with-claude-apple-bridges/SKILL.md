@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Connect Claude Code to Apple apps and tmux with Claude Apple Bridges
 
-Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware personal ops on macOS.
+Use Claude Apple Bridges when Claude Code needs to read or update local Apple productivity data such as reminders, calendar events, contacts, notes, mail, or tmux sessions as part of an active workflow. A user should invoke it instead of using those Apple apps normally when the value comes from having Claude coordinate scheduling, follow-up capture, reminder management, or session context directly from the coding workspace. That boundary, local bridge commands that expose specific Apple app workflows to Claude Code, keeps it from being just a generic macOS automation or plugin listing.
 
 ## Installation
 

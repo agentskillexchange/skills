@@ -1,7 +1,7 @@
 ---
 title: "Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus"
 description: "Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/nyldn/claude-octopus"
 category:
   - "Code Quality & Review"
@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus
 
-Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping.
+Claude Octopus is skill-shaped around one escalation workflow: move selected coding work from a normal Claude-native path into a stricter multi-model review lane. The agent fans work out to multiple models, compares their outputs, surfaces disagreements, and uses a consensus threshold before the operator treats the result as ready. The upstream project explicitly frames Octopus as the escalation path while ordinary tasks stay in standard Claude Code flows.
+
+Invoke this instead of using Claude Code normally when the task is higher risk, the cost of a blind spot is meaningful, or you want adversarial review before shipping. The boundary prevents this from collapsing into a generic coding-agent listing: this entry is about the debate-and-consensus gate for risky tasks, not about every command, persona, or provider the project contains.
 
 ## Installation
 

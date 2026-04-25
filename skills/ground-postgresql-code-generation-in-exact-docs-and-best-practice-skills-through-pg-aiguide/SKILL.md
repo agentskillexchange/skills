@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide
 
-Give coding agents a PostgreSQL-specific reference layer with semantic doc search and curated schema, indexing, and constraint guidance before they generate database code.
+Use pg-aiguide when an agent is designing PostgreSQL schemas, indexes, or query patterns and needs authoritative, version-aware guidance instead of guessing from generic training data. The operator workflow is specific: connect the MCP server or install the packaged skills, search the official PostgreSQL and extension docs, and apply curated best-practice patterns during code generation. That keeps the listing skill-shaped, because it is about grounding database code generation in verified Postgres knowledge, not about listing PostgreSQL itself or a generic docs site.
 
 ## Installation
 

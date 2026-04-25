@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Provision OAuth-capable Microsoft agent identities with Entra Agent ID
 
-Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.
+Use Entra Agent ID when an agent needs to provision or troubleshoot OAuth-capable identities for Microsoft-based agents, especially around Agent Identity Blueprints, BlueprintPrincipals, Graph beta permissions, sponsors, and workload identity federation. Invoke this instead of using the product normally when the job is turning identity requirements into a correct provisioning workflow with the preview API and its gotchas, not general Entra administration. The boundary is agent identity setup and auth flow guidance for AI agents, not a generic Microsoft Entra product listing.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Address GitHub PR review comments from the current branch with gh-address-comments
 
-Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context.
+Use gh-address-comments when the agent should find the current branch’s open PR, enumerate review threads and comments, and help work through the ones the user chooses to address. Invoke it instead of browsing GitHub manually when you want a bounded comment-handling workflow anchored to the current PR and authenticated gh context. The scope boundary is specific enough to be skill-shaped: PR comment inspection and response planning for one live review surface, not a generic GitHub tooling card.
 
 ## Installation
 

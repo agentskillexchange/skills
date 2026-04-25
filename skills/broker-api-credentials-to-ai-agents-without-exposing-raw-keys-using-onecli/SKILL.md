@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Broker API credentials to AI agents without exposing raw keys using OneCLI
 
-Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets.
+Use OneCLI when an agent must call external APIs but should not receive raw credentials directly. The upstream project is specific about the workflow: store credentials once, issue scoped agent access, match outbound requests by host or path, and inject the real secrets at request time through the gateway.
+
+Invoke this instead of wiring secrets into agents, prompts, or app config normally when the job is controlled credential brokering for agent HTTP calls. The scope boundary is narrow enough to stay skill-shaped: OneCLI is being used here for per-agent secret injection and access control on outbound requests, not as a generic vault, dashboard, or platform listing.
 
 ## Installation
 

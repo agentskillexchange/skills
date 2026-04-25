@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Scan LLM-generated code before use with CodeShield
 
-Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first.
+Use CodeShield when an agent produces code or shell suggestions that should be screened for insecure patterns before they are shown, committed, or executed. CodeShield is an inference-time filtering layer designed to inspect LLM output, detect insecure code across multiple languages, and either block or warn on risky results.
+
+Invoke it at the handoff boundary between generation and action, especially in coding assistants, chat-based code help, and automated fix pipelines. The scope boundary is narrow and skill-shaped: this is an output-scanning guardrail for generated code, not a general LLM platform, SDK listing, or broad application security suite.
 
 ## Installation
 

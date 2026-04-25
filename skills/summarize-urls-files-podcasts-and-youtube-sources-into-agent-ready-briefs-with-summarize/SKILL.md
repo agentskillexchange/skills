@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize
 
-Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps.
+Use Summarize when an agent needs a bounded source-briefing step across URLs, files, podcasts, YouTube videos, or local media instead of reading or transcribing each source manually. The job is specific: point the tool at source material, extract the gist, and hand a reusable brief to downstream work. That scope boundary, multi-source briefing and summarization for agent handoff, keeps this publishable as a workflow skill rather than a generic model, browser extension, or CLI listing.
 
 ## Installation
 

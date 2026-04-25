@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync
 
-Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes.
+Use openclaw-workspace-sync when the job is specifically to move or protect an OpenClaw workspace and related agent data using the plugin’s OpenClaw-aware sync and backup modes. The scope boundary is clear because the workflow is anchored to OpenClaw installation, plugin config, and workspace semantics, not generic rclone usage or a plain storage connector card.
 
 ## Installation
 

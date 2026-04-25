@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit
 
-Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early.
+Use Agent Governance Toolkit when the job is to run a preflight governance check or enforce deterministic policy gates around agent actions before giving an agent real autonomy, not when a user simply wants a general agent framework. The operator workflow is specific: install AGT, run agt doctor and agt verify, inspect policy coverage or evidence gaps, and fail the release or runtime path if risky actions are not governed. That scope boundary, deterministic policy verification and action gating for agent tool use, keeps this publishable as a skill instead of a plain governance platform listing.
 
 ## Installation
 

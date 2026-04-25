@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Build super timelines from mixed forensic artifacts with Plaso
 
-Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review.
+Use Plaso when an agent needs to collect many timestamped forensic artifacts and normalize them into a single timeline for investigation. A user should invoke this instead of using the project normally when the task is specifically to build a super timeline from evidence sources before deeper analysis, not to browse a generic DFIR framework. The scope boundary is clear and skill-shaped: multi-artifact timeline construction for forensic review, not a plain product card.
 
 ## Installation
 

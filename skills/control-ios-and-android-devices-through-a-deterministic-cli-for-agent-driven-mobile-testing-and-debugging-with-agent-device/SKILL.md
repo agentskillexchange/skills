@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device
 
-Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect logs, network traces, and performance evidence during debugging.
+Use agent-device when an agent needs to operate a real iOS or Android app, inspect the current UI tree, reproduce a bug step by step, and capture evidence without hand-driving a mobile test session. The skill boundary is narrow and operational: open a target app, snapshot the current screen, interact through refs or selectors, diff state changes, and collect logs, network data, or performance snapshots for the same session. That makes this a concrete mobile debugging and automation workflow, not a generic product or device lab listing.
 
 ## Installation
 
