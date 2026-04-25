@@ -1,10 +1,10 @@
 ---
 title: "NetBird WireGuard Mesh VPN with Zero Trust Access Controls"
 description: "NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and granular access controls. It provides peer-to-peer connectivity with NAT traversal, centralized management via a web UI and REST API, and supports self-hosted deployment for secure private networking."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/netbirdio/netbird"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # NetBird WireGuard Mesh VPN with Zero Trust Access Controls
 
-Overview NetBird is an open-source zero-trust networking platform that creates WireGuard-based overlay networks connecting devices across any infrastructure. With nearly 24,000 GitHub stars, it eliminates the complexity of traditional VPNs by providing automatic peer discovery, NAT traversal, and centralized access management through an intuitive web interface and comprehensive REST API. How It Works NetBird deploys a lightweight agent on each device that establishes encrypted WireGuard tunnels directly between peers. The management service maintains network state, distributes peer configurations, and enforces access policies. When direct peer-to-peer connections are not possible due to strict NATs, the system automatically falls back to relay servers while maintaining end-to-end encryption. Key Capabilities The platform provides kernel-level WireGuard performance, automatic peer discovery and configuration, connection relay fallback, routes to external networks, private DNS management, and device posture checks. Security features include SSO and MFA support with multiple identity provider integrations, granular access control through groups and rules, activity logging, and periodic re-authentication enforcement. Agent Integration NetBird exposes a public REST API for managing networks, peers, groups, access rules, routes, DNS settings, and setup keys programmatically. AI agents and automation tools can provision new peers, modify access policies, query network state, and manage user groups through standard HTTP calls. Setup keys enable bulk provisioning of devices without manual intervention. Deployment NetBird offers both a managed cloud service at app.netbird.io and self-hosted deployment. Self-hosting requires a Linux VM with Docker and can be set up in about five minutes using the quickstart script. The platform supports advanced configurations with custom identity providers including Keycloak, Auth0, Azure AD, Google Workspace, and Okta. Platform Support Clients are available for Linux, macOS, Windows, Android, iOS, OpenWRT, Docker, and serverless environments. The Go-based codebase ensures high performance and cross-platform compatibility with quantum-resistant encryption support through Rosenpass integration.
+NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and granular access controls. It provides peer-to-peer connectivity with NAT traversal, centralized management via a web UI and REST API, and supports self-hosted deployment for secure private networking.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/netbird-wireguard-mesh-vpn-zero-trust-access/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/netbird-wireguard-mesh-vpn-zero-trust-access
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/netbird-wireguard-mesh-vpn-zero-trust-access`.
+Download the skill folder or repository archive and extract `skills/netbird-wireguard-mesh-vpn-zero-trust-access` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

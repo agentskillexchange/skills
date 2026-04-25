@@ -1,10 +1,10 @@
 ---
 title: "Capture polished terminal screenshots for docs and changelogs with termshot"
 description: "Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks."
-verification: "listed"
+verification: listed
 source: "https://github.com/homeport/termshot"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Capture polished terminal screenshots for docs and changelogs with termshot
 
-Use termshot when an agent needs to turn terminal output into a clean screenshot artifact for documentation or review, not when the user just needs a general screenshot app. The workflow is narrow: choose the command output, render it with controlled framing and styling, and save the resulting image for docs or changelogs. That scope boundary, terminal-output capture for publishable documentation assets, keeps it distinct from broader image or desktop tooling listings.
+Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot`.
+Download the skill folder or repository archive and extract `skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

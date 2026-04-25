@@ -1,10 +1,10 @@
 ---
 title: "Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper"
 description: "Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors."
-verification: "listed"
+verification: listed
 source: "https://github.com/mishushakov/llm-scraper"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper
 
-Use llm-scraper when an agent needs to turn a rendered web page into structured output for a known schema, especially when the page depends on client-side rendering. The user is not invoking a general browser automation product here. The workflow is bounded extraction: open the page, map content into a schema, and return structured JSON. That boundary keeps it distinct from generic browser control and from broader crawling platforms.
+Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper`.
+Download the skill folder or repository archive and extract `skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

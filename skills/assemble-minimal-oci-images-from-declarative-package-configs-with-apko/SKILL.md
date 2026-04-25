@@ -1,10 +1,10 @@
 ---
 title: "Assemble minimal OCI images from declarative package configs with apko"
 description: "Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow."
-verification: "listed"
+verification: listed
 source: "https://github.com/chainguard-dev/apko"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Assemble minimal OCI images from declarative package configs with apko
 
-apko is a real Chainguard build tool for assembling OCI images from declarative package configurations. Invoke this when you want an agent to construct minimal, auditable images from explicit package lists and metadata, instead of driving a general Dockerfile-based image build. The scope boundary is declarative image assembly for minimal OCI artifacts. That is narrower than a generic container platform, registry, or image product listing.
+Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko`.
+Download the skill folder or repository archive and extract `skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

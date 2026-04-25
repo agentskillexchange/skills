@@ -1,10 +1,10 @@
 ---
 title: "ESLint Rule Enforcement Agent"
 description: "Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # ESLint Rule Enforcement Agent
 
-The ESLint Rule Enforcement Agent skill leverages the ESLint Node.js API (new ESLint(), linter.verify(), linter.verifyAndFix()) along with @typescript-eslint/parser and @typescript-eslint/eslint-plugin to enforce coding standards across JavaScript and TypeScript projects. It supports flat config (eslint.config.js) and legacy .eslintrc formats. The skill can initialize project configurations using eslint –init, scan entire repositories with configurable ignore patterns via .eslintignore, and apply automatic fixes using the –fix flag. It integrates with popular rule sets including eslint-config-airbnb, eslint-config-standard, and eslint-plugin-react for framework-specific linting. Advanced features include custom rule creation using the RuleTester API, shareable config package generation, IDE integration configuration for VS Code (eslint.validate settings), and CI pipeline integration with JUnit XML report output via eslint-formatter-junit. The agent can also manage rule severity overrides, disable directives (eslint-disable comments), and generate compliance reports showing violation trends over time.
+Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/eslint-rule-enforcement-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/eslint-rule-enforcement-agent`.
+Download the skill folder or repository archive and extract `skills/eslint-rule-enforcement-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

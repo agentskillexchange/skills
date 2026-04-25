@@ -1,7 +1,7 @@
 ---
 title: "Supergateway MCP Transport Bridge"
 description: "Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging, and connecting clients across network boundaries with Docker and OAuth support."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/supercorp-ai/supergateway"
 category:
   - "Developer Tools"
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Supergateway MCP Transport Bridge
 
-What is Supergateway? Supergateway is an open-source MCP transport bridge with over 2,500 GitHub stars that converts between MCP transport protocols with a single npx command. It solves the fundamental problem of MCP server deployment: most MCP servers communicate via stdio (standard input/output), but production deployments need network-accessible transports like SSE (Server-Sent Events), WebSockets, or Streamable HTTP. How the Skill Works A Supergateway skill enables AI agents to deploy and manage MCP servers as network services. The core functionality wraps any stdio-based MCP server and exposes it over SSE, WebSockets, or Streamable HTTP on a configurable port. The reverse mode connects to remote SSE or Streamable HTTP endpoints and exposes them locally via stdio, enabling tools like Claude Desktop to connect to remote MCP servers. The bridge supports custom headers for authentication, OAuth2 Bearer token injection, CORS configuration with origin allowlists, health check endpoints for load balancer integration, and configurable logging levels. Stateful mode maintains session persistence with configurable timeouts for Streamable HTTP connections, enabling complex multi-turn interactions with MCP servers. Integration Points Supergateway works with any MCP server that uses stdio transport, including the official Model Context Protocol reference servers, community servers, and custom implementations. It integrates with Docker through official container images (supercorp/supergateway:deno), supports deployment behind reverse proxies and load balancers via health endpoints, and connects to Claude Desktop, Cursor, and other MCP clients. The npm package is available via npx -y supergateway. What It Outputs The skill produces a network-accessible MCP server endpoint (SSE, WebSocket, or Streamable HTTP) from any stdio-based MCP server. It outputs connection URLs, transport protocol details, session status for stateful connections, and structured logs at configurable verbosity levels.
+Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging, and connecting clients across network boundaries with Docker and OAuth support.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/supergateway-mcp-transport-bridge/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/supergateway-mcp-transport-bridge
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/supergateway-mcp-transport-bridge`.
+Download the skill folder or repository archive and extract `skills/supergateway-mcp-transport-bridge` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

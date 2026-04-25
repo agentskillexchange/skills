@@ -1,7 +1,7 @@
 ---
 title: "pdfcpu Go PDF Processor and Manipulation CLI"
 description: "pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pdfcpu/pdfcpu"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # pdfcpu Go PDF Processor and Manipulation CLI
 
-pdfcpu is a comprehensive PDF processing library written in Go that provides both a command-line interface and a Go API for manipulating PDF files. It supports PDF specification versions up to 2.0 and handles the full range of PDF operations that developers and document automation workflows require. Core Operations The CLI covers essential PDF tasks: pdfcpu merge combines multiple PDFs into one, pdfcpu split breaks a PDF into individual pages or page ranges, pdfcpu trim removes pages, and pdfcpu rotate adjusts page orientation. For document assembly, pdfcpu booklet and pdfcpu nup arrange multiple pages onto single sheets for printing. Validation and Optimization Use pdfcpu validate to check PDF conformance against the spec. The pdfcpu optimize command reduces file size by removing redundant objects, linearizing the file for fast web viewing, and compressing streams. This is particularly useful in document pipelines where PDFs pass through multiple processing stages and accumulate overhead. Watermarks and Stamps pdfcpu supports text, image, and PDF watermarks with full control over position, rotation, opacity, and scaling. Use pdfcpu stamp to add stamps on top of content or pdfcpu watermark to place them behind content. Multi-page stamp PDFs allow different stamps per page. Encryption and Security The tool supports AES-128, AES-256, and RC4 encryption. Use pdfcpu encrypt to set user and owner passwords, and pdfcpu permissions to control printing, copying, and modification rights. pdfcpu decrypt removes encryption when the password is known. Form Filling pdfcpu can fill PDF forms programmatically via JSON input with pdfcpu form fill. Export form field data with pdfcpu form export. This enables automated document generation from templates in billing, contracts, and compliance workflows. Installation Install via Go with go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest, via Homebrew with brew install pdfcpu, or download pre-built binaries from the GitHub releases page. Docker images are also available.
+pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/pdfcpu-go-pdf-processor-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pdfcpu-go-pdf-processor-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/pdfcpu-go-pdf-processor-cli`.
+Download the skill folder or repository archive and extract `skills/pdfcpu-go-pdf-processor-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

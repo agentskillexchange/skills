@@ -1,10 +1,10 @@
 ---
 title: "Hasura GraphQL Engine for Instant API and Database Automation"
 description: "Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is useful when an agent needs to inspect schemas, expose structured data safely, or automate backend workflows without hand-writing resolvers."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hasura/graphql-engine"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Hasura GraphQL Engine for Instant API and Database Automation
 
-Hasura GraphQL Engine is a mature open-source backend platform that generates GraphQL APIs directly from your database and layers on permissions, metadata, event triggers, and webhook automation. For agent workflows, that makes it a strong fit when you want an assistant to reason over a structured schema, inspect tables, generate queries, or wire a database into a larger automation pipeline without first building a custom API service. Instead of spending time on resolver code, the agent can work with a consistent GraphQL surface that reflects your underlying models. A practical use case is giving an agent controlled access to operational or product data. The agent can discover tables, run typed queries, and coordinate follow-up actions through actions, remote schemas, or event-triggered webhooks. Teams can use Hasura to expose internal data for support copilots, analytics helpers, admin automations, or workflow agents that need low-latency reads and writes. Because Hasura includes role-based access control and a metadata layer, it also supports safer deployment patterns than ad hoc scripts pointed straight at production databases. This skill belongs in a toolkit for teams that already have Postgres or SQL-backed systems and want to make those systems agent-accessible quickly. It pairs well with prompts that generate or validate GraphQL queries, map user requests to existing schema fields, and orchestrate downstream webhooks or job runners. Hasura is especially valuable when the job to be done is not merely “query the database,” but “stand up a reliable API surface that agents and applications can both reuse.”
+Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is useful when an agent needs to inspect schemas, expose structured data safely, or automate backend workflows without hand-writing resolvers.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/hasura-graphql-engine-instant-api-database-automation/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hasura-graphql-engine-instant-api-database-automation
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/hasura-graphql-engine-instant-api-database-automation`.
+Download the skill folder or repository archive and extract `skills/hasura-graphql-engine-instant-api-database-automation` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

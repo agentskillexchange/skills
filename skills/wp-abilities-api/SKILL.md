@@ -1,10 +1,10 @@
 ---
 title: "WP Abilities API"
 description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WordPress/abilities-api"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # WP Abilities API
 
-WP Abilities API is a specialist skill for WordPress builders working with wp_register_ability, wp_register_ability_category, /wp-json/wp-abilities/v1/*, and @wordpress/abilities. It focuses on one narrow job: helping teams define abilities cleanly and expose them to clients without falling back to generic WordPress advice. Best for registering WordPress abilities and categories in PHP debugging REST exposure and missing client visibility implementing permission-aware ability checks in JavaScript clients Install notes Install the skill in an OpenClaw workspace that has access to your WordPress plugin, theme, or core checkout. It is most useful in environments targeting WordPress 6.9+ and may also rely on WP-CLI for validation workflows. Source: OpenClaw-compatible WP Abilities API skill.
+Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wp-abilities-api/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wp-abilities-api
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/wp-abilities-api`.
+Download the skill folder or repository archive and extract `skills/wp-abilities-api` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

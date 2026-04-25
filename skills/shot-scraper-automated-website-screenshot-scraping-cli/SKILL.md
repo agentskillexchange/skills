@@ -1,10 +1,10 @@
 ---
 title: "shot-scraper Automated Website Screenshot and Scraping CLI"
 description: "shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it supports headless browser automation, multi-step screenshot workflows defined in YAML, and HTML-to-image rendering for CI pipelines and monitoring."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/simonw/shot-scraper"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # shot-scraper Automated Website Screenshot and Scraping CLI
 
-shot-scraper is a command-line utility built by Simon Willison that uses Playwright to take automated screenshots of websites and extract data by executing JavaScript against web pages. It is designed for developers, testers, and content creators who need repeatable, scriptable browser automation without writing full test suites. Core Capabilities The tool supports single-page screenshots with customizable viewport dimensions, CSS selectors for capturing specific page elements, JavaScript execution to interact with or extract data from pages, and multi-step workflows defined in YAML files. It can authenticate against websites that require login, wait for specific page states, and handle complex single-page applications. Screenshot Automation Run shot-scraper https://example.com to capture a full-page screenshot. Use --selector to target specific DOM elements, --width and --height to set viewport dimensions, and --javascript to execute scripts before capture. The shot-scraper multi command reads a YAML file defining multiple screenshots to take in sequence. Data Extraction Beyond screenshots, shot-scraper can execute arbitrary JavaScript against pages and return the results. This makes it useful for scraping data from JavaScript-heavy websites, extracting rendered content, testing page behavior, and monitoring visual changes over time. Installation Install via pip: pip install shot-scraper, then run shot-scraper install to download the Playwright browser binaries. The tool runs on Python 3.8+ and works on Linux, macOS, and Windows. CI/CD Integration shot-scraper integrates well with GitHub Actions and other CI systems for automated visual regression testing, documentation screenshot generation, and site monitoring. Its YAML-driven multi-shot mode makes it easy to maintain screenshot libraries that update automatically when pages change.
+shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it supports headless browser automation, multi-step screenshot workflows defined in YAML, and HTML-to-image rendering for CI pipelines and monitoring.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/shot-scraper-automated-website-screenshot-scraping-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/shot-scraper-automated-website-screenshot-scraping-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/shot-scraper-automated-website-screenshot-scraping-cli`.
+Download the skill folder or repository archive and extract `skills/shot-scraper-automated-website-screenshot-scraping-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

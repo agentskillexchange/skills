@@ -1,7 +1,7 @@
 ---
 title: "pastel Command-Line Color Generation Analysis and Manipulation Tool"
 description: "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette generation, contrast checking, and color blending."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sharkdp/pastel"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # pastel Command-Line Color Generation Analysis and Manipulation Tool
 
-pastel is a command-line color utility written in Rust by David Peter (sharkdp), the developer behind popular CLI tools bat, fd, and hyperfine. It provides comprehensive color manipulation capabilities directly from the terminal, making it useful for designers, frontend developers, and anyone working with color in automated workflows. Color Operations pastel supports conversion between multiple color spaces: RGB, HSL, HSV, Lab, LCH, and CSS color names. The pastel color command displays detailed information about any color including its hex value, RGB components, HSL values, and WCAG luminance. Colors can be specified as hex codes, CSS names, RGB triplets, or HSL values. Palette and Scheme Generation The pastel distinct command generates a set of visually distinct colors, useful for data visualization and charting. Complementary, analogous, triadic, and tetradic color schemes can be generated from any base color. The pastel gradient command creates smooth color gradients between two endpoints with configurable step counts. The pastel mix command blends colors in perceptually uniform color spaces like Lab and LCH. Accessibility and Contrast pastel includes WCAG contrast ratio checking between foreground and background colors, helping ensure text readability meets accessibility standards. The pastel textcolor command automatically selects black or white text for optimal readability against any background color. Terminal Integration Colors are displayed with actual terminal color preview swatches alongside their numeric values. The pastel paint command outputs colored text to the terminal. All output formats are designed to be pipeable and scriptable for integration into larger workflows. Agent Skill Applications AI agents working on frontend design, theming, or data visualization can use pastel to generate accessible color palettes, check contrast ratios, convert between color formats, and create harmonious color schemes. The CLI interface makes it easy to integrate into automated design systems, style guide generators, or accessibility audit pipelines. Agents can pipe colors through pastel to ensure all generated UI meets WCAG contrast requirements.
+pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette generation, contrast checking, and color blending.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/pastel-command-line-color-tool/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pastel-command-line-color-tool
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/pastel-command-line-color-tool`.
+Download the skill folder or repository archive and extract `skills/pastel-command-line-color-tool` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

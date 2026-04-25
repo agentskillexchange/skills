@@ -1,10 +1,10 @@
 ---
 title: "Maigret OSINT Username Profiler Across 3000+ Sites"
 description: "Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering available information from web pages. A powerful Sherlock fork with recursive search, profile parsing, and structured report output."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/soxoj/maigret"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Maigret OSINT Username Profiler Across 3000+ Sites
 
-Maigret is an advanced open-source OSINT tool that builds a comprehensive dossier on a person by searching for their username across more than 3000 websites and social networks. Created by soxoj and named after the fictional French detective Jules Maigret, it is a feature-rich fork of the Sherlock project that goes well beyond simple username enumeration. While Sherlock checks whether a username exists on a given site, Maigret takes the investigation further by parsing found profile pages to extract personal information, links to other profiles, and additional identifiers. It then performs recursive searches using any newly discovered usernames and IDs, building an expanding web of connected accounts. Core Features Maigret supports over 3000 sites with a default search against the 500 most popular ones ranked by traffic. It handles Tor hidden services, I2P sites, and regular domains via DNS resolution. The tool detects censorship and CAPTCHA blocks, implements request retries with configurable timeouts, and can filter searches by site category or country using tags. Profile Extraction Engine The socid_extractor module parses profile pages to pull out structured data: display names, bios, join dates, follower counts, linked accounts, and other metadata. This extracted information feeds back into the search process, enabling Maigret to discover accounts that use different usernames but belong to the same person. Output and Reporting Results can be output as plain text, JSON, CSV, HTML reports, or PDF documents. The HTML report provides a visual overview of all found accounts with extracted metadata, making it suitable for investigation documentation. The tool also has a Telegram bot interface for online searches without local installation. Agent Integration As an agent skill, Maigret enables deep OSINT automation. An AI agent can submit a username and receive back a structured dossier including all found accounts, extracted profile data, and cross-references between identities. The JSON output format is ideal for programmatic consumption. Maigret is installable via pip (maigret package on PyPI) and Docker, with standalone Windows binaries also available. The project is MIT-licensed and actively maintained with regular site database updates.
+Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering available information from web pages. A powerful Sherlock fork with recursive search, profile parsing, and structured report output.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/maigret-osint-username-profiler/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/maigret-osint-username-profiler
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/maigret-osint-username-profiler`.
+Download the skill folder or repository archive and extract `skills/maigret-osint-username-profiler` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

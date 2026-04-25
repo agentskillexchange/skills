@@ -1,10 +1,10 @@
 ---
 title: "Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall"
 description: "Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default."
-verification: "listed"
+verification: listed
 source: "https://github.com/GreyhavenHQ/greywall"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall
 
-Use Greywall when the operator needs to launch a local coding-agent CLI under a deny-by-default sandbox before granting it normal host access, not when they are merely browsing a sandbox product. The invoke moment is concrete: start the agent through Greywall, apply or learn a least-privilege profile, and review blocked filesystem, network, or command behavior as the run proceeds. That scope boundary, local least-privilege wrapping of agent CLIs with learned profiles and enforced deny rules, is specific enough to publish as a skill rather than a generic sandbox listing.
+Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall`.
+Download the skill folder or repository archive and extract `skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "ClickHouse Query Agent"
 description: "ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and […]"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ClickHouse/ClickHouse"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # ClickHouse Query Agent
 
-ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and preserving the operational context that matters for real tasks. The skill is especially useful when an agent needs to translate a natural-language request into concrete clickhouse-level queries, run them safely, and then explain the result in operational terms rather than returning raw output. The implementation typically relies on SQL queries, MergeTree tables, materialized views, HTTP and native clients, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform. Accesses SQL queries, MergeTree tables, materialized views, HTTP and native clients instead of scraping a UI, which makes runs easier to audit and retry. Supports structured inputs and outputs so another tool, agent, or CI step can consume the result. Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format. Fits into broader integration points such as high-volume analytics, log search, rollups, and low-latency BI queries. Key integration points include high-volume analytics, log search, rollups, and low-latency BI queries. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and […]
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/clickhouse-query-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/clickhouse-query-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/clickhouse-query-agent`.
+Download the skill folder or repository archive and extract `skills/clickhouse-query-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

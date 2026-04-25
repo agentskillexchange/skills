@@ -1,10 +1,10 @@
 ---
 title: "Slack Bolt Event Subscription Debugger"
 description: "Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Slack Bolt Event Subscription Debugger
 
-Slack Bolt Event Subscription Debugger is focused on one of the most frustrating parts of Slack app development: knowing whether an event actually arrived, was verified correctly, and was acknowledged within Slack’s deadline. The skill works with core Bolt concepts such as app.event(), app.command(), ack(), and signature verification based on the Slack signing secret. It is equally useful for classic Events API subscriptions, slash commands, and interactive payloads from buttons or modals. The workflow helps isolate common failure modes, including slow acknowledgements, malformed request bodies, mismatched routes, and middleware that rewrites headers before Bolt sees them. That matters because many Slack integration bugs look like “nothing happened” when the real problem is a failed verification step or a handler that never reached ack() in time. This skill pushes those issues into the open. Use it when building or maintaining Slack integrations that need dependable event handling, better diagnostic visibility, and a cleaner path from incoming callbacks to business logic.
+Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/slack-bolt-event-subscription-debugger/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/slack-bolt-event-subscription-debugger
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/slack-bolt-event-subscription-debugger`.
+Download the skill folder or repository archive and extract `skills/slack-bolt-event-subscription-debugger` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

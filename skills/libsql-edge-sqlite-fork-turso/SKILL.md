@@ -1,7 +1,7 @@
 ---
 title: "libSQL Edge-Ready SQLite Fork by Turso"
 description: "libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents to work with libSQL for edge computing, serverless, and embedded database workloads."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/tursodatabase/libsql"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # libSQL Edge-Ready SQLite Fork by Turso
 
-libSQL is an open-source fork of SQLite created and maintained by Turso that extends SQLite’s capabilities for modern application architectures. While preserving full SQLite compatibility, libSQL adds embedded replicas that sync from a remote primary, a server mode (libsql-server) that exposes SQLite over HTTP and WebSocket protocols similar to PostgreSQL or MySQL, and WebAssembly-based user-defined functions for running custom logic inside the database engine. This skill teaches agents how to use libSQL and its client libraries for building applications that need lightweight, embedded databases with replication support. Agents learn to set up libsql-server for remote database access, configure embedded replicas that maintain a local SQLite-compatible database file synchronized with a remote primary, and use the TypeScript, Python, Rust, Go, or PHP client SDKs to interact with both local and remote databases through a unified API. Key enhancements over stock SQLite include ALTER TABLE extensions for modifying column types and constraints (a major gap in standard SQLite), randomized ROWID generation for non-sequential primary keys, the virtual write-ahead log interface for custom WAL implementations, and the ability to pass SQL strings directly to virtual table implementations. These extensions solve practical problems that have long frustrated SQLite users building production applications. Agents using this skill can provision and manage SQLite-compatible databases that replicate across edge locations, configure read replicas inside application processes for zero-latency local reads, and build serverless applications backed by a database that scales to zero when idle. libSQL supports Rust, JavaScript/TypeScript, Python, Go, PHP, C, and D through official and community client libraries. The project has over 15,000 GitHub stars, is MIT-licensed, and receives regular releases from the Turso team. For new projects requiring concurrent writes and bidirectional sync, Turso Database (a separate Rust rewrite) is the recommended path, while libSQL remains the stable, battle-tested choice for production workloads.
+libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents to work with libSQL for edge computing, serverless, and embedded database workloads.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/libsql-edge-sqlite-fork-turso/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/libsql-edge-sqlite-fork-turso
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/libsql-edge-sqlite-fork-turso`.
+Download the skill folder or repository archive and extract `skills/libsql-edge-sqlite-fork-turso` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

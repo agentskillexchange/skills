@@ -1,7 +1,7 @@
 ---
 title: "Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL"
 description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
-verification: "listed"
+verification: listed
 source: "https://github.com/kudobuilder/kuttl"
 category:
   - "CI/CD Integrations"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL
 
-Use KUTTL when an agent needs to run declarative Kubernetes tests made of setup, apply, wait, and assert steps against a cluster. A user should invoke this instead of using kubectl or Helm normally when the task is repeatable cluster-level verification of operators, controllers, or manifest behavior before merge or release. The scope boundary is clear: YAML-defined Kubernetes test execution and assertions, not a generic cluster management tool listing.
+Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl`.
+Download the skill folder or repository archive and extract `skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
 description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/open-metadata/OpenMetadata"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery
 
-OpenMetadata is an open-source metadata platform designed to index and organize the assets that matter in modern data stacks: databases, tables, dashboards, pipelines, tests, ownership information, and lineage. For agent workflows, that is a strong foundation because the agent can use one system to answer questions like “where does this metric come from?”, “who owns this pipeline?”, or “what downstream dashboards will break if this table changes?” without stitching together custom logic across multiple tools. The job to be done is discovery and governance, not just storage. An OpenMetadata-oriented skill is especially useful for data engineering, analytics, and platform teams that want an agent to act as a reliable catalog assistant. The agent can search assets, surface descriptions and tags, reason about lineage, and support incident triage when a schema or job changes. Because OpenMetadata also tracks data quality and observability signals, it can anchor workflows where the agent summarizes health issues, routes the right owner, or generates documentation from existing metadata rather than guessing. This kind of skill fits best when you already have multiple data tools and need a trustworthy inventory layer. Instead of connecting an assistant separately to warehouse schemas, BI dashboards, and pipeline systems, OpenMetadata becomes the reference system the agent consults first. That makes the resulting workflows more explainable and easier to maintain. It is a practical building block for catalog search, data governance copilots, lineage-aware runbooks, and documentation automation across multi-tool data environments.
+OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/openmetadata-data-catalog-governance-platform-agent-discovery/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openmetadata-data-catalog-governance-platform-agent-discovery
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/openmetadata-data-catalog-governance-platform-agent-discovery`.
+Download the skill folder or repository archive and extract `skills/openmetadata-data-catalog-governance-platform-agent-discovery` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

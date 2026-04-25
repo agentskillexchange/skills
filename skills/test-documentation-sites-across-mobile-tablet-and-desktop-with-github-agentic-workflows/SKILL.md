@@ -1,44 +1,41 @@
 ---
 title: "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows"
 description: "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues."
-verification: "listed"
+verification: listed
 source: "https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "github/gh-aw"
-  github_stars: 4338
 ---
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows
 
-Use GitHub Agentic Workflows when the specific job is multi-device documentation-site testing inside a reviewable GitHub Actions run, not when the user simply wants a generic docs framework or a basic browser automation tool. The workflow builds the docs site, serves it locally, exercises it across mobile, tablet, and desktop viewports through Playwright-backed agent steps, then either files a report issue or records a clean pass. That scope boundary, multi-device docs verification as a guarded repository workflow, keeps this skill distinct from broad documentation tooling and from generic browser screenshots alone.
+Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows`.
+Download the skill folder or repository archive and extract `skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

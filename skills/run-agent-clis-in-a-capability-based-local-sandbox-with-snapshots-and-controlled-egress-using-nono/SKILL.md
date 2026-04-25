@@ -1,10 +1,10 @@
 ---
 title: "Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono"
 description: "Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit filesystem, network, credential, and snapshot controls."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/always-further/nono"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono
 
-nono is a skill-shaped operator tool for running agent CLIs under capability-based local confinement. It applies kernel-enforced sandbox rules, supports controlled credential injection, network filtering, verifiable audit logs, snapshots, and multiplexed agent sessions, with built-in profiles for coding-agent workflows. Invoke it when an agent should work against local code or files but must not get broad host access by default. This is a better fit than running the agent normally when you need least-privilege execution, rollback points, and explicit egress boundaries on a developer machine or CI runner. The scope boundary is secure agent execution control, not a general-purpose IDE, framework, or agent platform.
+Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit filesystem, network, credential, and snapshot controls.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono`.
+Download the skill folder or repository archive and extract `skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

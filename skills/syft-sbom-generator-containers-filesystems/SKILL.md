@@ -1,10 +1,10 @@
 ---
 title: "Syft SBOM Generator for Containers and Filesystems"
 description: "Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and filesystems. Supports CycloneDX, SPDX, and multiple output formats with coverage across dozens of packaging ecosystems including npm, PyPI, Go, and more."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anchore/syft"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Syft SBOM Generator for Containers and Filesystems
 
-Syft is a command-line tool and Go library developed by Anchore for generating Software Bills of Materials from container images, filesystems, and archives. With over 6,000 GitHub stars, 100+ contributors, and regular releases, it has become one of the most widely deployed SBOM generation tools in the open-source ecosystem. The tool supports dozens of packaging ecosystems out of the box, including Alpine (apk), Debian (dpkg), RPM, Go modules, Python (pip/poetry/conda), Java (Maven/Gradle), JavaScript (npm/yarn), Ruby (gems), Rust (cargo), PHP (composer), .NET (NuGet), and many more. For container scanning, it handles OCI images, Docker images, Singularity containers, and can scan directly from registries without pulling the full image. Syft produces SBOMs in multiple industry-standard formats: CycloneDX JSON and XML, SPDX JSON and tag-value, the native Syft JSON format, and GitHub’s dependency snapshot format. It can also convert between SBOM formats, making it useful as a normalization layer in supply chain security pipelines. For attestation workflows, Syft can create signed SBOM attestations using the in-toto specification, integrating with Sigstore for keyless signing. The tool pairs naturally with Anchore’s vulnerability scanner Grype: pipe Syft’s SBOM output into Grype to get vulnerability matches against multiple vulnerability databases. Installation is available through Homebrew, APT, RPM, Scoop, Chocolatey, Nix, and a Docker image (anchore/syft). Basic usage is straightforward: syft alpine:latest scans a container image, while syft ./my-project scans a local directory. Adding -o cyclonedx-json outputs in CycloneDX format. The project is licensed under Apache-2.0 and maintained at github.com/anchore/syft with active community meetings and comprehensive documentation.
+Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and filesystems. Supports CycloneDX, SPDX, and multiple output formats with coverage across dozens of packaging ecosystems including npm, PyPI, Go, and more.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/syft-sbom-generator-containers-filesystems/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/syft-sbom-generator-containers-filesystems
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/syft-sbom-generator-containers-filesystems`.
+Download the skill folder or repository archive and extract `skills/syft-sbom-generator-containers-filesystems` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

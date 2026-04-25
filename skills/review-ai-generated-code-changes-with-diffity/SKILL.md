@@ -1,10 +1,10 @@
 ---
 title: "Review AI-generated code changes in a cleaner diff workflow with Diffity"
 description: "Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes."
-verification: "listed"
+verification: listed
 source: "https://github.com/kamranahmedse/diffity"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Review AI-generated code changes in a cleaner diff workflow with Diffity
 
-Use Diffity when an agent has produced a patch and you want a deliberate review pass before accepting it. It opens a local GitHub-style diff UI, supports inline comments from you or the agent, and can feed unresolved review threads back into commands like `/diffity-resolve` for targeted follow-up edits. Invoke this instead of using a coding agent normally when the missing step is human review and comment-driven remediation, not raw code generation. The boundary is local diff inspection and review handoff for code changes, not a generic diff viewer or broad IDE replacement.
+Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/review-ai-generated-code-changes-with-diffity/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-ai-generated-code-changes-with-diffity
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/review-ai-generated-code-changes-with-diffity`.
+Download the skill folder or repository archive and extract `skills/review-ai-generated-code-changes-with-diffity` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

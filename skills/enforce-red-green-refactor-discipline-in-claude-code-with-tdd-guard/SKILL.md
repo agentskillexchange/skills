@@ -1,10 +1,10 @@
 ---
 title: "Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard"
 description: "Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops."
-verification: "listed"
+verification: listed
 source: "https://github.com/nizos/tdd-guard"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard
 
-Use TDD Guard when Claude Code is about to code ahead of the test signal. It intercepts the session, checks whether the change started from a failing test, and pushes the workflow back toward red, then green, then refactor before the agent keeps going. Invoke this instead of relying on normal Claude Code prompting when you need active enforcement of TDD discipline rather than best-effort instructions. The scope is tightly bounded to hook-based TDD validation inside Claude Code sessions, not a generic test runner or broad developer toolkit.
+Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard`.
+Download the skill folder or repository archive and extract `skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

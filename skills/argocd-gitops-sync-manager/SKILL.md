@@ -1,7 +1,7 @@
 ---
 title: "ArgoCD GitOps Sync Manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # ArgoCD GitOps Sync Manager
 
-The ArgoCD GitOps Sync Manager provides intelligent synchronization control for Kubernetes GitOps workflows. It interfaces with the ArgoCD Application Controller via the gRPC API for real-time sync status monitoring and automated drift remediation. The agent implements sophisticated sync strategies including selective resource synchronization using sync waves and hooks, automated rollback triggered by Prometheus health checks via the ArgoCD Resource Hook framework, and progressive delivery integration with Argo Rollouts for canary and blue-green deployment patterns. Advanced capabilities include ApplicationSet template generation using the Git Generator, Pull Request Generator, and Matrix Generator for dynamic multi-cluster application provisioning. The agent configures sync policies with automated pruning, self-healing, and retry backoff strategies. It also manages ArgoCD RBAC policies via the argocd-rbac-cm ConfigMap and integrates with External Secrets Operator for GitOps-compatible secret management across namespaces.
+Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/argocd-gitops-sync-manager/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/argocd-gitops-sync-manager
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/argocd-gitops-sync-manager`.
+Download the skill folder or repository archive and extract `skills/argocd-gitops-sync-manager` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

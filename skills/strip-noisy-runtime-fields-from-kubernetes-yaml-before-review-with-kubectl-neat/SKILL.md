@@ -1,10 +1,10 @@
 ---
 title: "Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat"
 description: "Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work."
-verification: "listed"
+verification: listed
 source: "https://github.com/itaysk/kubectl-neat"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat
 
-Use kubectl-neat when an agent needs to turn a live or exported Kubernetes object into a reviewable manifest by removing noisy runtime-generated fields. A user should invoke this instead of using kubectl output directly when the job is human or agent review, diffing, migration prep, or manifest cleanup, not ordinary cluster administration. The scope boundary is narrow and skill-shaped: Kubernetes YAML cleanup for review hygiene, not a generic Kubernetes CLI or product listing.
+Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat`.
+Download the skill folder or repository archive and extract `skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

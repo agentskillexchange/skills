@@ -1,7 +1,7 @@
 ---
 title: "Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator"
 description: "Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically."
-verification: "listed"
+verification: listed
 source: "https://github.com/ComposioHQ/agent-orchestrator"
 category:
   - "CI/CD Integrations"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator
 
-Use Agent Orchestrator when one coding agent session is not enough and the real job is supervising many parallel repo workers with clean branch isolation and feedback routing. The tool launches an orchestrator that spawns agent workers, assigns each one its own worktree and PR lane, then feeds CI failures and review comments back into the correct loop. The scope boundary is strong: this is not a generic dashboard or coding-agent marketplace, it is a concrete multi-agent repo execution workflow with autonomous handoff around PRs and CI.
+Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator`.
+Download the skill folder or repository archive and extract `skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

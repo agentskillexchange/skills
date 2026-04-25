@@ -1,10 +1,10 @@
 ---
 title: "Linkwarden Collaborative Bookmark Archive and Preservation Platform"
 description: "Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research material. It captures screenshots, PDFs, and archived page copies, adds reader and annotation features, and supports shared collections for teams."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/linkwarden/linkwarden"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Linkwarden Collaborative Bookmark Archive and Preservation Platform
 
-Linkwarden is the core project behind linkwarden/linkwarden, a self-hosted bookmark manager that focuses on long-term preservation instead of just storing URLs. When a link is saved, the platform can capture a screenshot, generate a PDF, and keep a preserved copy of the page so teams can still access information even after the original source changes or disappears. That makes Linkwarden a strong fit for research, competitive monitoring, knowledge capture, and any workflow where agents or human operators need stable references instead of fragile bookmarks. The project also adds reader mode, text highlighting, annotations, tagging, collections, collaboration controls, and API keys. Its documentation highlights optional integrations such as Wayback Machine snapshots, local AI tagging, browser extensions, browser synchronization, and upload flows from SingleFile. In an agent ecosystem, Linkwarden can act as a durable memory layer for sourced research. A skill built around it can collect articles, product pages, issue threads, and documentation pages, then preserve and organize them for later review. Because it supports multi-user collaboration and public or private sharing, it also maps well to research assistants, editorial workflows, and internal knowledge operations.
+Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research material. It captures screenshots, PDFs, and archived page copies, adds reader and annotation features, and supports shared collections for teams.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/linkwarden-collaborative-bookmark-archive-preservation-platform/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/linkwarden-collaborative-bookmark-archive-preservation-platform
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/linkwarden-collaborative-bookmark-archive-preservation-platform`.
+Download the skill folder or repository archive and extract `skills/linkwarden-collaborative-bookmark-archive-preservation-platform` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work"
 description: "Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts."
-verification: "listed"
+verification: listed
 source: "https://github.com/aquasecurity/kube-bench"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work
 
-Use kube-bench when an agent needs a benchmark-oriented security posture check against CIS guidance, not when a user is just operating Kubernetes normally. The workflow is narrow: inspect host and cluster configuration, map findings to CIS controls, and hand back concrete remediation items. That scope boundary, standards-based posture verification for Kubernetes environments, keeps it distinct from a broad Kubernetes platform or generic scanner listing.
+Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work`.
+Download the skill folder or repository archive and extract `skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

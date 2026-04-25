@@ -1,10 +1,10 @@
 ---
 title: "Format and lint TOML configs and lockfiles before config drift spreads with Taplo"
 description: "Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable."
-verification: "listed"
+verification: listed
 source: "https://github.com/tamasfe/taplo"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Format and lint TOML configs and lockfiles before config drift spreads with Taplo
 
-Use Taplo when an agent needs to format, lint, or validate TOML-heavy repositories such as Rust workspaces, Python tool configs, CI metadata, or lockfile-driven projects. It is strongest when the real job is restoring consistency across many TOML files before review, release, or automated edits continue. A user should invoke this instead of editing TOML by hand or treating it as generic text when the task is artifact-specific TOML normalization and validation. The scope boundary is explicit and skill-shaped: Taplo focuses on TOML parsing, formatting, and validation, not general code formatting, package publishing, or framework management.
+Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo`.
+Download the skill folder or repository archive and extract `skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

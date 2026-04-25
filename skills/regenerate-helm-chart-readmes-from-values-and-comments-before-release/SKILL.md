@@ -1,10 +1,10 @@
 ---
 title: "Regenerate Helm chart READMEs from values and comments before release"
 description: "Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent can run this before commit or release, then surface changed tables, missing descriptions, and documentation drift in a review-friendly diff."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/norwoodj/helm-docs"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Regenerate Helm chart READMEs from values and comments before release
 
-This entry is built around helm-docs, the open source tool in the norwoodj/helm-docs repository that generates markdown documentation from Helm charts. In an agent workflow, the job-to-be-done is very specific: inspect a chart, read its metadata and values, parse inline description comments, regenerate the README or another template-driven markdown file, and return a diff that shows whether chart documentation still matches the shipping configuration surface. That makes the agent useful in repositories where chart values evolve quickly and stale docs create deployment mistakes for other operators. You should invoke this skill when an agent edits values.yaml, changes Chart.yaml, reviews a Helm chart pull request, or prepares a release that should include refreshed operator-facing documentation. It is also a good fit for pre-commit hooks and CI jobs that fail when generated README content is out of date. The agent can call helm-docs, inspect the generated markdown, point out undocumented values, and decide whether the result is ready to commit or needs human clarification on missing comments. The scope boundary is clear. This is not a generic Helm deployment workflow, cluster operator, or packaging system. It does not install charts, render templates for runtime, or manage releases. Its lane is documentation generation and documentation drift detection for Helm charts. Integration points include pre-commit, CI pipelines, docs review bots, release automation, and agent loops that update chart values, regenerate docs, and stage both code and documentation changes together.
+Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent can run this before commit or release, then surface changed tables, missing descriptions, and documentation drift in a review-friendly diff.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release`.
+Download the skill folder or repository archive and extract `skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

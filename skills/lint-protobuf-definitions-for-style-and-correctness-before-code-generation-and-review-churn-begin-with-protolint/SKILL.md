@@ -1,10 +1,10 @@
 ---
 title: "Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint"
 description: "Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner."
-verification: "listed"
+verification: listed
 source: "https://github.com/yoheimuta/protolint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint
 
-Use protolint when an agent needs to validate .proto files for style consistency and correctness before generating code or opening review. A user should invoke this instead of working with protobuf tooling normally when the job is static linting of schema files, not compilation, service runtime work, or broader API platform management. The scope boundary is narrow and skill-shaped: linting protobuf source definitions and returning actionable findings, not listing a generic protobuf library or SDK.
+Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint`.
+Download the skill folder or repository archive and extract `skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

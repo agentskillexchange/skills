@@ -1,10 +1,10 @@
 ---
 title: "Review visual regression diffs and publish snapshot baselines in CI with reg-suit"
 description: "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/reg-viz/reg-suit"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Review visual regression diffs and publish snapshot baselines in CI with reg-suit
 
-This ASE entry is built around reg-suit, the visual regression testing CLI maintained by the reg-viz/reg-suit project and distributed on npm. The agent behavior is specific: fetch or resolve the expected snapshot set, compare new screenshots against that baseline, generate the HTML diff report, publish the resulting artifacts, and notify the team or PR thread when visual changes need review. That makes it skill-shaped. The value is in the operator workflow around visual diffs, not in listing “a screenshot tool” or “an npm package.” Invoke this skill when a repository already produces stable screenshots from Storybook, Playwright, Puppeteer, or another browser test harness and the next question is whether the UI changed in a meaningful way. An agent can run reg-suit during CI, inspect the difference report, summarize which screens changed, and decide whether the change looks intentional enough to promote the new baseline. This is useful for design-system releases, UI smoke checks, marketing-page updates, and regression review on pull requests where humans should see the diff but do not want to hand-wire every storage and report step. The scope boundary is tight. This is not a generic browser automation framework, not an image library, and not a product listing for a cloud platform. The skill is specifically about visual snapshot comparison and baseline publication. Integration points include screenshot-producing test suites, S3 or GCS storage, GitHub or GitLab notifications, and CI jobs that need a repeatable compare-and-publish workflow. Upstream evidence is solid: the official GitHub repo exists, npm package exists, releases and tags exist, the MIT license is published, the README documents the compare, publish, and notification flow, and recent commits show active maintenance.
+Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit`.
+Download the skill folder or repository archive and extract `skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

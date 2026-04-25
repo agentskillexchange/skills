@@ -1,10 +1,10 @@
 ---
 title: "Nginx Error Pattern Analyzer"
 description: "Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Nginx Error Pattern Analyzer
 
-The Nginx Error Pattern Analyzer processes Nginx error and access logs to identify recurring failure patterns and their root causes. It combines GoAccess for real-time log parsing with custom regex-based pattern matching to categorize errors by type, frequency, and impact. The agent focuses on critical error patterns including upstream connection timeouts, 502 Bad Gateway spikes, 503 Service Unavailable patterns, SSL handshake failures, and rate limiting events. It correlates Nginx error timestamps with backend service metrics via Prometheus PromQL queries to establish causation between upstream service degradation and frontend errors. Advanced analysis features include request path clustering to identify which API endpoints trigger the most errors, geographic correlation using GeoIP data, and time-series anomaly detection for unusual error rate spikes. The agent generates incident-ready reports with timeline visualizations, affected endpoint summaries, and recommended Nginx configuration changes (timeout adjustments, buffer sizes, retry policies) to mitigate identified issues.
+Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nginx-error-pattern-analyzer-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/nginx-error-pattern-analyzer-agent`.
+Download the skill folder or repository archive and extract `skills/nginx-error-pattern-analyzer-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

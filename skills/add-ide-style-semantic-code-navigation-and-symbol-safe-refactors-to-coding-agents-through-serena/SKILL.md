@@ -1,7 +1,7 @@
 ---
 title: "Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena"
 description: "Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes."
-verification: "listed"
+verification: listed
 source: "https://github.com/oraios/serena"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena
 
-Use Serena when an agent needs IDE-level semantic retrieval and symbol-safe refactoring in a real codebase instead of relying on plain grep, line numbers, and text-only edits. Invoke it when cross-file symbol lookup, reference tracing, or rename and move operations need to stay structurally correct. The scope boundary is concrete: Serena upgrades an agent with MCP-exposed semantic code navigation and refactor operations. It is not a generic coding assistant listing and not merely a product card for an MCP server.
+Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena`.
+Download the skill folder or repository archive and extract `skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

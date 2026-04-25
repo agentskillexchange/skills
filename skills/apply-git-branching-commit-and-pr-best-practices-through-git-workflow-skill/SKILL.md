@@ -1,10 +1,10 @@
 ---
 title: "Apply Git branching, commit, and pull request best practices through Git Workflow Skill"
 description: "Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/netresearch/git-workflow-skill"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Apply Git branching, commit, and pull request best practices through Git Workflow Skill
 
-Use Git Workflow Skill when an agent needs procedural guidance for Git branching strategy, commit conventions, pull request flow, merge selection, hooks, and CI-aware repository hygiene. The upstream package is explicit about its operator workflow: establish a branching model, create atomic commits, open and review PRs, and close the loop with merge and cleanup practices. Invoke this instead of relying on generic Git usage or freeform agent advice when the task is to follow a repeatable collaboration workflow rather than just run Git commands. The scope boundary is clear: this entry is a portable agent skill for Git workflow best practices, not a generic VCS, hosting platform, or broad Git product listing.
+Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill`.
+Download the skill folder or repository archive and extract `skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

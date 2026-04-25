@@ -1,7 +1,7 @@
 ---
 title: "OpenCode Multi-Model AI Coding Agent CLI"
 description: "An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing, code generation, shell command execution, and project understanding without subscription fees."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/opencode-ai/opencode"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # OpenCode Multi-Model AI Coding Agent CLI
 
-OpenCode is a free, open-source AI coding agent built for the terminal, written in Go. With support for over 75 language models from multiple providers, it gives developers a flexible alternative to proprietary coding assistants. The project has garnered over 11,000 GitHub stars and active community contribution. How It Works OpenCode runs as an interactive TUI application in your terminal. You describe what you want to build, fix, or understand in natural language, and the agent reads your codebase, plans changes, edits files, and can execute shell commands to verify its work. It maintains conversation context across turns, understanding your project structure and prior decisions. The agent connects to any supported LLM provider through a unified configuration. You can use Claude via Anthropic, GPT models via OpenAI, Gemini via Google, or run local models through Ollama. Switching between models mid-session is supported, and you can configure different models for different tasks like code generation versus code review. Key Features File operations include reading, creating, editing, and searching across your project. The agent understands project structure through automatic codebase indexing. Shell command execution lets it run tests, install dependencies, and verify changes. Built-in LSP integration provides type-aware code understanding. Session management preserves conversation history and project context. Integration Points OpenCode installs as a single binary via go install, Homebrew, or direct download. It reads standard environment variables for API keys (ANTHROPIC_API_KEY, OPENAI_API_KEY, etc.) and stores configuration in ~/.config/opencode. The tool works with any Git repository and respects .gitignore patterns. MCP server support enables extending its capabilities with additional tools and data sources. Output OpenCode produces file modifications directly in your working directory, terminal output from executed commands, and conversational explanations of what it did and why. All changes are made to real files that you can review with git diff before committing.
+An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing, code generation, shell command execution, and project understanding without subscription fees.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/opencode-multi-model-ai-coding-agent-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/opencode-multi-model-ai-coding-agent-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/opencode-multi-model-ai-coding-agent-cli`.
+Download the skill folder or repository archive and extract `skills/opencode-multi-model-ai-coding-agent-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

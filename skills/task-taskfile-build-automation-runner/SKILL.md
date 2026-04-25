@@ -1,7 +1,7 @@
 ---
 title: "Task Taskfile Build Automation Runner"
 description: "Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/go-task/task"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Task Taskfile Build Automation Runner
 
-Task (go-task/task) is a fast, cross-platform build tool inspired by Make but designed for modern development workflows. It uses simple YAML-based Taskfiles instead of Makefiles, eliminating the quirks and complexity of Make syntax while providing a more readable and maintainable way to define project commands and build steps. The Task runner reads a Taskfile.yml in your project directory and executes the defined tasks. Each task can specify commands, dependencies, environment variables, preconditions, and sources/generates for incremental builds. Task automatically detects file changes and skips execution when sources have not been modified, giving you fast incremental builds without manual cache management. Key capabilities include task dependency resolution (run tasks in order or in parallel), dynamic variables using shell commands, dotenv file loading, cross-platform compatibility (works identically on Linux, macOS, and Windows), and a built-in watch mode for automatic re-execution on file changes. Task also supports task namespacing through included Taskfiles, allowing you to compose build systems across multiple projects or modules. This skill enables agents to generate, modify, and execute Taskfiles for project automation. Agents can scaffold Taskfile.yml configs for new projects, add build/test/lint/deploy tasks, resolve task dependency chains, and run specific tasks with variable overrides. The skill outputs task execution results, dependency graphs, and Taskfile validation reports. Integration points include CI/CD pipelines (GitHub Actions, GitLab CI), Docker-based builds, monorepo setups with included Taskfiles, and local development workflows. Task is distributed as a single binary with zero dependencies, installable via Homebrew, snap, go install, or direct download from GitHub releases.
+Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/task-taskfile-build-automation-runner/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/task-taskfile-build-automation-runner
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/task-taskfile-build-automation-runner`.
+Download the skill folder or repository archive and extract `skills/task-taskfile-build-automation-runner` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

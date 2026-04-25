@@ -1,10 +1,10 @@
 ---
 title: "Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak"
 description: "Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review."
-verification: "listed"
+verification: listed
 source: "https://github.com/NVIDIA/garak"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak
 
-Use garak when the operator needs an active vulnerability scan of an LLM system, not a passive policy checklist. It runs named probe suites against target models and reports jailbreak, prompt injection, leakage, toxicity, and related failure modes across many providers. The boundary is red-team style model scanning and assessment, not a generic security platform or a broad repo scanner.
+Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak`.
+Download the skill folder or repository archive and extract `skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

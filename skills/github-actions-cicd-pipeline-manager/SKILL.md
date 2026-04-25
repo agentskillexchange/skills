@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actions CI/CD Pipeline Manager"
 description: "Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.github.com/en/actions"
 category:
   - "CI/CD Integrations"
@@ -11,31 +11,31 @@ framework:
 
 # GitHub Actions CI/CD Pipeline Manager
 
-The GitHub Actions CI/CD Pipeline Manager skill provides comprehensive automation for continuous integration and deployment workflows on GitHub. It leverages the GitHub REST API v3 and GraphQL API v4 to programmatically create, update, and monitor workflow files. The skill generates optimized YAML configurations for matrix builds across multiple OS and language versions, sets up dependency caching with actions/cache, and configures reusable workflow templates. It manages self-hosted runner registration via the Actions Runner API, handles artifact upload/download between jobs, and implements environment protection rules with required reviewers. The skill also integrates with GitHub Environments API for staging and production deployment gates, supports concurrency groups to prevent duplicate runs, and provides real-time status monitoring via the Checks API. Advanced features include automatic CODEOWNERS-based review assignment, branch protection rule synchronization, and composite action scaffolding for shared CI logic across repositories.
+Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/github-actions-cicd-pipeline-manager
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/github-actions-cicd-pipeline-manager`.
+Download the skill folder or repository archive and extract `skills/github-actions-cicd-pipeline-manager` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

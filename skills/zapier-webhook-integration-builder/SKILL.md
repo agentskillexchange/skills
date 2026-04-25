@@ -1,41 +1,41 @@
 ---
 title: "Zapier Webhook Integration Builder"
 description: "Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers, actions, and searches with OAuth2 authentication flows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/zapier-webhook-integration-builder/"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 ---
 
 # Zapier Webhook Integration Builder
 
-The Zapier Webhook Integration Builder automates the creation of custom Zapier integrations using the Zapier Platform CLI and Platform API. It scaffolds new integration projects with zapier init, generates trigger definitions using REST Hook subscriptions for real-time event delivery, and builds action modules with proper request/response mapping. The skill handles OAuth2 authentication setup including token refresh flows, session auth configurations, and API key injection patterns. Using the Zapier Platform CLI, it runs local testing with zapier test, validates integration schemas, and manages version promotion through zapier promote. The builder generates proper input field definitions with dynamic dropdowns powered by custom search endpoints, implements deduplication logic for polling triggers, and handles file upload/download actions with proper streaming. It configures error handling with custom error messages, implements rate limiting retry logic, and manages environment variables through zapier env. Advanced features include middleware setup for request/response transformation, bulk operation support for high-volume actions, and automated integration testing against sandbox APIs.
+Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers, actions, and searches with OAuth2 authentication flows.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/zapier-webhook-integration-builder/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/zapier-webhook-integration-builder
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/zapier-webhook-integration-builder`.
+Download the skill folder or repository archive and extract `skills/zapier-webhook-integration-builder` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

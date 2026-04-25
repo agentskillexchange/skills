@@ -1,41 +1,41 @@
 ---
 title: "Systemd Service Debugger"
 description: "Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies, ExecStart failures, resource limits, and generates fix recommendations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/systemd-service-debugger/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 ---
 
 # Systemd Service Debugger
 
-The Systemd Service Debugger skill provides automated diagnosis of failed systemd services on Linux systems. It uses journalctl for log analysis, systemctl for unit status inspection, and the systemd D-Bus org.freedesktop.systemd1 API for deep introspection of unit properties and dependency chains. When a service enters failed state, the skill retrieves the full journal output using journalctl -u {service} –since {timestamp} with structured JSON output format. It parses ExecStart command failures, identifying common issues like missing binaries, permission denied errors, port binding conflicts, and missing configuration files. Dependency analysis walks the unit After/Requires/Wants chain using the org.freedesktop.systemd1.Manager.GetUnit D-Bus method to identify cascading failures. Resource limit checking compares configured LimitNOFILE, MemoryMax, and CPUQuota values against actual usage from systemd-cgtop data. The skill also validates socket activation configurations, checks SELinux/AppArmor contexts, and inspects namespace isolation settings. Each diagnosis includes a priority-ranked list of remediation steps with the exact commands to execute.
+Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies, ExecStart failures, resource limits, and generates fix recommendations.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/systemd-service-debugger/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/systemd-service-debugger
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/systemd-service-debugger`.
+Download the skill folder or repository archive and extract `skills/systemd-service-debugger` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

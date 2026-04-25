@@ -1,10 +1,10 @@
 ---
 title: "Resend Developer Email API and Node.js SDK"
 description: "Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing emails from Node.js applications. It supports React-based email templates, domain verification, and integrates with popular frameworks like Next.js, Remix, Hono, and Astro."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/resend/resend-node"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Resend Developer Email API and Node.js SDK
 
-Overview Resend is a developer-first email sending platform that replaces legacy email services with a modern, type-safe API. The official Node.js SDK (resend on npm) provides a clean interface for sending transactional emails, batch emails, and managing domains, API keys, audiences, and contacts programmatically. Core Capabilities The Resend SDK enables agents and automation workflows to send emails with full programmatic control. It supports plain text, HTML, and React component-based email templates through its react property. Emails can include attachments, custom headers, reply-to addresses, and tags for tracking. The SDK also provides endpoints for managing email domains, retrieving send status, and handling bounces. Integration Points Resend integrates natively with the React Email component library for building responsive, dark-mode-compatible email templates using JSX. Framework-specific guides cover Next.js (App Router and Pages Router), Remix, Nuxt, Express, RedwoodJS, Hono, Bun, and Astro. The SDK works in serverless environments including AWS Lambda, Vercel Edge Functions, and Cloudflare Workers. Agent Use Cases AI agents can use the Resend SDK to send automated notifications, reports, alerts, and summaries via email. Common agent workflows include sending daily digest emails with curated content, triggering transactional emails based on webhook events, automating customer onboarding sequences, and delivering formatted reports from data pipelines. The type-safe TypeScript API makes it reliable for unattended automation. Installation and Setup Install via npm: npm install resend. Initialize with an API key from the Resend Dashboard: const resend = new Resend("re_xxxx"). Send emails with resend.emails.send({ from, to, subject, html }). The SDK requires Node.js 18+ and uses native fetch. Domain verification is required for sending from custom domains. Key Features Type-safe TypeScript SDK with full IntelliSense React component email templates via the react property Batch sending for up to 100 emails per API call Domain management, API key rotation, and audience/contact APIs Webhook support for delivery, bounce, and complaint events MIT licensed Node.js SDK with active maintenance
+Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing emails from Node.js applications. It supports React-based email templates, domain verification, and integrates with popular frameworks like Next.js, Remix, Hono, and Astro.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/resend-developer-email-api-nodejs-sdk/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/resend-developer-email-api-nodejs-sdk
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/resend-developer-email-api-nodejs-sdk`.
+Download the skill folder or repository archive and extract `skills/resend-developer-email-api-nodejs-sdk` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

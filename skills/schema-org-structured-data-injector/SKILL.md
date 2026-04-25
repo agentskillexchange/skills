@@ -1,41 +1,41 @@
 ---
 title: "Schema.org Structured Data Injector"
 description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://schema.org/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "ChatGPT Agents"
 ---
 
 # Schema.org Structured Data Injector
 
-Schema.org Structured Data Injector automates the creation and validation of JSON-LD markup for improved search engine visibility. It analyzes page content to determine the appropriate Schema.org type — Article, Product, FAQPage, HowTo, Recipe, or LocalBusiness — and generates compliant JSON-LD blocks with proper @context and @type declarations. The injector pulls content signals from HTML heading structure, product metadata, Q&A patterns, and step-by-step instructions to populate schema properties. For Article types, it extracts author, datePublished, dateModified, and headline. Product schemas include offers with price, priceCurrency, and availability from structured product pages. FAQ schemas detect question-answer pairs from accordion or definition list markup. Validation runs through Google’s Rich Results Test API endpoint and the Schema.org validator to catch missing required properties, incorrect value types, and deprecated markup patterns. The tool outputs both the JSON-LD snippet for manual insertion and a WordPress-compatible wp_head action hook implementation using wp_json_encode() for dynamic injection. Batch processing handles entire sitemaps by crawling URLs and generating schema for each page type.
+Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/schema-org-structured-data-injector/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/schema-org-structured-data-injector
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/schema-org-structured-data-injector`.
+Download the skill folder or repository archive and extract `skills/schema-org-structured-data-injector` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "delta Syntax-Highlighting Git Diff Pager"
 description: "A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff highlighting, side-by-side views, line numbering, and theme support using the same syntax themes as bat."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/dandavison/delta"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # delta Syntax-Highlighting Git Diff Pager
 
-delta (git-delta) is a command-line utility written in Rust that replaces the default git pager with syntax-highlighted, word-level diff output. Created by Dan Davison, delta transforms the output of git diff, git log, git show, git blame, and grep commands into readable, color-coded displays that make code review in the terminal dramatically more effective. The delta Syntax-Highlighting Git Diff Pager skill configures delta as the default git pager and provides agents with enhanced diff analysis capabilities. Once configured via .gitconfig, all git diff output automatically flows through delta, which applies language-aware syntax highlighting using the same theme library as bat (the popular cat replacement). A Levenshtein edit-distance algorithm identifies word-level changes within modified lines, highlighting exactly which tokens changed rather than marking entire lines. delta supports side-by-side diff views with automatic line wrapping, line numbering, and keyboard navigation (n/N to jump between files in large diffs). It renders improved merge conflict displays, enhanced git blame output with syntax highlighting and hyperlinks to hosting providers (GitHub, GitLab, SourceHut, Codeberg), and syntax-highlighted grep output from ripgrep, git grep, and standard grep. The tool supports Git’s –color-moved feature for detecting moved code blocks, and can format commit hashes as clickable terminal hyperlinks. For code review workflows, delta enables copying code directly from diffs with +/- markers removed by default. It provides emulation modes for diff-highlight and diff-so-fancy for users migrating from those tools. Configuration is done through .gitconfig with extensive customization options for colors, themes, line styles, and layout. delta ships as a single binary installable via brew, cargo, apt, scoop, and most other package managers. With nearly 30,000 GitHub stars, an MIT license, and commits as recent as March 2026, delta is the most widely adopted terminal diff enhancement tool in the ecosystem.
+A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff highlighting, side-by-side views, line numbering, and theme support using the same syntax themes as bat.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/delta-syntax-highlighting-git-diff-pager/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/delta-syntax-highlighting-git-diff-pager
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/delta-syntax-highlighting-git-diff-pager`.
+Download the skill folder or repository archive and extract `skills/delta-syntax-highlighting-git-diff-pager` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Turn documents into validated knowledge graphs with Docling Graph"
 description: "Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing."
-verification: "listed"
+verification: listed
 source: "https://github.com/docling-project/docling-graph"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Turn documents into validated knowledge graphs with Docling Graph
 
-Use Docling Graph when an agent needs to extract a schema-shaped knowledge graph from one or more documents, validate the result, and export graph-friendly outputs. A user should invoke this instead of using a general document parser normally when the real job is document-to-graph transformation with explicit entities, relationships, and template-backed validation. That scope boundary, validated knowledge-graph extraction from documents, keeps this distinct from generic parsing libraries and broader graph platforms.
+Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph`.
+Download the skill folder or repository archive and extract `skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

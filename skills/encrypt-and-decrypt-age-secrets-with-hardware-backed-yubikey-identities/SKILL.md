@@ -1,10 +1,10 @@
 ---
 title: "Encrypt and decrypt age secrets with hardware-backed YubiKey identities"
 description: "Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys."
-verification: "listed"
+verification: listed
 source: "https://github.com/str4d/age-plugin-yubikey"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Encrypt and decrypt age secrets with hardware-backed YubiKey identities
 
-age-plugin-yubikey adds a concrete hardware-backed secret workflow to age encryption. Invoke this when the task requires encrypting or decrypting age-managed secrets through a YubiKey-held identity, rather than handling plaintext secrets or ordinary software keys in the filesystem. The scope boundary is age encryption with YubiKey-backed recipient identities and operator presence requirements. That makes it a specific security workflow, not just a generic hardware token or encryption product card.
+Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities`.
+Download the skill folder or repository archive and extract `skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

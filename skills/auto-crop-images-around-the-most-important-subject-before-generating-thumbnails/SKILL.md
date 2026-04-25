@@ -1,10 +1,10 @@
 ---
 title: "Auto-crop images around the most important subject before generating thumbnails"
 description: "Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image. The workflow scores visual saliency, returns crop coordinates for a target aspect ratio, and hands those coordinates to an image pipeline that renders the final thumbnail or social card."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.npmjs.com/package/smartcrop"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Auto-crop images around the most important subject before generating thumbnails
 
-This ASE entry is built around smartcrop, an open source content-aware cropping package published on npm and maintained in the jwagner/smartcrop.js repository. The agent behavior is narrow and concrete: inspect an input image, estimate which region contains the most important visual subject, and return crop coordinates for a requested aspect ratio before a downstream step renders the final asset. That is a real operator task, not a generic image-tool listing, because the value is in deciding where to crop for a thumbnail, card, avatar, or preview image without asking a human to review each file. Use this when a user or automation already has source images and needs consistent thumbnail generation at scale, especially for article cards, storefront grids, CMS migrations, gallery backfills, or responsive breakpoints. This is the right invocation point when a plain resize would cut off faces, product shots, or the main focal subject. An agent can call smartcrop first, then pass the suggested box into Sharp, Canvas, ImageMagick, or another renderer that performs the actual crop and export. The scope boundary matters. smartcrop does not replace a design suite, a photo editor, or a full media DAM. It does not retouch images, remove backgrounds, write alt text, or generate new visuals. It solves one bounded job: pick an intelligent crop window from an existing image so downstream automation can create better thumbnails with less manual review. Integration points are simple: Node.js scripts, CI asset pipelines, CMS importers, static site generators, and batch image jobs that need deterministic crop suggestions.
+Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image. The workflow scores visual saliency, returns crop coordinates for a target aspect ratio, and hands those coordinates to an image pipeline that renders the final thumbnail or social card.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails`.
+Download the skill folder or repository archive and extract `skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

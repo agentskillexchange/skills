@@ -1,7 +1,7 @@
 ---
 title: "devenv Declarative Developer Environments with Nix"
 description: "A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a single configuration file, ensuring consistent environments across machines."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cachix/devenv"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # devenv Declarative Developer Environments with Nix
 
-devenv is an open-source tool from Cachix that makes Nix-powered developer environments accessible without requiring deep Nix expertise. It provides a high-level configuration interface (devenv.nix) where developers declare their project’s packages, language toolchains, services, scripts, pre-commit hooks, and environment variables — then activates a fully reproducible shell with everything configured. The core workflow is simple: run devenv init to scaffold a project, edit devenv.nix to declare dependencies, and run devenv shell to enter an environment where everything is available. Unlike Docker, devenv runs natively on your machine with no container overhead, giving full access to hardware acceleration, native file system performance, and host networking. Key features include: 50+ language integrations with built-in support for compilers, LSP servers, formatters, linters, and version selection across Python, Rust, Go, Node.js, Ruby, PHP, and more; service management via devenv up for PostgreSQL, MySQL, Redis, Elasticsearch, and other databases/services; process management for running development servers, watchers, and background tasks; pre-commit hooks with automatic git integration; and tasks for defining build steps and their dependencies. devenv pulls from the 100,000+ package Nixpkgs repository, supporting Linux (x64, ARM64), macOS (Intel, Apple Silicon), and WSL2. Every environment is hermetic and reproducible — the same devenv.nix produces the same environment on any machine. Lock files track exact package versions, and devenv update handles controlled dependency bumps. Installation requires only the Nix package manager. devenv itself is available via nix profile install or the cachix binary cache. The project is actively maintained with regular releases, comprehensive documentation at devenv.sh, and supports composing environments from remote configurations via --from flags for organizational sharing. Typical use cases include onboarding new developers instantly (no manual setup), CI/CD environments that match local development exactly, polyglot projects with complex dependency graphs, and teams that need guaranteed reproducibility across macOS and Linux workstations.
+A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a single configuration file, ensuring consistent environments across machines.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/devenv-declarative-developer-environments-nix/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/devenv-declarative-developer-environments-nix
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/devenv-declarative-developer-environments-nix`.
+Download the skill folder or repository archive and extract `skills/devenv-declarative-developer-environments-nix` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

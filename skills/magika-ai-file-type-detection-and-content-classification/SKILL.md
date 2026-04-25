@@ -1,10 +1,10 @@
 ---
 title: "Magika AI File Type Detection and Content Classification"
 description: "Magika is Google’s AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer routing, validation, triage, or downstream policy decisions based on the real file contents instead of just filenames or MIME headers."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/google/magika"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Magika AI File Type Detection and Content Classification
 
-Magika is an open-source file identification system from Google that uses a compact machine learning model to classify files from their actual contents. Instead of trusting extensions or weak MIME guesses, Magika analyzes the bytes in a file and predicts a concrete content type, with configurable confidence thresholds and fallbacks for uncertain cases. The project ships with a command-line interface, a Python package, JavaScript support, and a documented website that explains core concepts and operating modes. As a skill foundation, Magika is useful whenever an agent has to inspect unknown files before taking action. It can help route uploads to the right parser, separate code from documents, distinguish structured text formats, flag unknown binaries, and improve security-oriented intake workflows. The upstream project notes that Magika is used inside Google to support security and content policy scanning workflows, and the repository provides a practical install path for CLI and library usage. Typical integrations include pre-processing steps for document pipelines, attachment triage in email or storage workflows, content-aware validation in automation systems, and malware-analysis or abuse-report pipelines that need reliable type labels before invoking specialized tools. Install it with pip install magika or use the CLI via pipx install magika when you want isolated command-line usage.
+Magika is Google’s AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer routing, validation, triage, or downstream policy decisions based on the real file contents instead of just filenames or MIME headers.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/magika-ai-file-type-detection-and-content-classification/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/magika-ai-file-type-detection-and-content-classification
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/magika-ai-file-type-detection-and-content-classification`.
+Download the skill folder or repository archive and extract `skills/magika-ai-file-type-detection-and-content-classification` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

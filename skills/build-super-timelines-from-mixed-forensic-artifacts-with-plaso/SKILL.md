@@ -1,10 +1,10 @@
 ---
 title: "Build super timelines from mixed forensic artifacts with Plaso"
 description: "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review."
-verification: "listed"
+verification: listed
 source: "https://github.com/log2timeline/plaso"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Build super timelines from mixed forensic artifacts with Plaso
 
-Use Plaso when an agent needs to collect many timestamped forensic artifacts and normalize them into a single timeline for investigation. A user should invoke this instead of using the project normally when the task is specifically to build a super timeline from evidence sources before deeper analysis, not to browse a generic DFIR framework. The scope boundary is clear and skill-shaped: multi-artifact timeline construction for forensic review, not a plain product card.
+Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso`.
+Download the skill folder or repository archive and extract `skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

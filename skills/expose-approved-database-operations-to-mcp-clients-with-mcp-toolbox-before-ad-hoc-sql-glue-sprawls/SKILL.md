@@ -1,10 +1,10 @@
 ---
 title: "Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls"
 description: "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled wrappers for every project."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/googleapis/mcp-toolbox"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls
 
-This skill is for teams that want agents to work with production or staging databases through a reviewed tool boundary instead of direct credentials and improvised SQL helpers. It covers the workflow of configuring MCP Toolbox against a database, choosing prebuilt tools or defining custom operations, and exposing that tool surface to an MCP-compatible client. Invoke this instead of using the database product normally when the goal is not human SQL exploration but safe agent access to schemas, queries, and approved operations. It is a better fit when you need repeatable configuration, auth controls, and constrained tool affordances for an AI client. The scope boundary is clear: this is not a generic database platform listing and not a generic MCP catalog entry. It is specifically about turning database operations into a governed MCP tool surface with MCP Toolbox.
+Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled wrappers for every project.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls`.
+Download the skill folder or repository archive and extract `skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

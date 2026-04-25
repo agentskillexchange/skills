@@ -1,10 +1,10 @@
 ---
 title: "Lint Terraform modules for provider mistakes and policy violations with TFLint"
 description: "Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early."
-verification: "listed"
+verification: listed
 source: "https://github.com/terraform-linters/tflint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Lint Terraform modules for provider mistakes and policy violations with TFLint
 
-Use TFLint when an agent is validating Terraform code before plan, apply, or review. It can catch provider-specific mistakes, unsupported arguments, deprecated patterns, and custom rule violations across modules before the infrastructure run reaches a more expensive failure point. The boundary is Terraform linting and rule enforcement, not a generic infrastructure platform card.
+Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint`.
+Download the skill folder or repository archive and extract `skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Sherlock Social Media Username Hunter Across 400+ Networks"
 description: "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sherlock-project/sherlock"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Sherlock Social Media Username Hunter Across 400+ Networks
 
-Sherlock is an open-source OSINT (Open Source Intelligence) command-line tool that searches for a given username across more than 400 social networks and websites simultaneously. Developed and maintained by the Sherlock Project community, it has become one of the most widely used username enumeration tools in the security research and digital investigation space. The tool works by taking one or more usernames as input and querying hundreds of platforms — including GitHub, Twitter/X, Instagram, Reddit, TikTok, LinkedIn, Medium, Steam, and many more — to determine whether an account with that username exists. Results are output to the terminal and optionally saved as text, CSV, or XLSX files for further analysis. How It Works Sherlock sends HTTP requests to each supported site using known URL patterns for user profile pages. It analyzes the HTTP response status codes, page content, and redirect behavior to determine whether an account exists, does not exist, or returned an ambiguous result. The tool supports Tor routing for anonymous lookups, custom proxy configuration, and timeout controls for slow networks. Key Features and Capabilities The tool supports searching multiple usernames in a single run, similar username fuzzing using the {?} wildcard (replacing with underscore, dash, and period variants), and NSFW site filtering. Output can be directed to custom folders or files, and the –browse flag will automatically open found profile URLs in the default browser. Integration with AI Agents As an agent skill, Sherlock enables automated OSINT workflows where an AI agent can verify claimed identities, cross-reference usernames across platforms, detect sock puppet accounts, or build comprehensive digital footprints. The structured CSV/XLSX output makes it straightforward to parse results programmatically. The tool is available via pip (sherlock-project) and Docker, making it easy to integrate into any automated pipeline or agent environment. Technical Details Sherlock is written in Python and distributed via PyPI as the sherlock-project package. It requires Python 3.x and has minimal dependencies. The project is MIT-licensed and has an active contributor community with regular site list updates. It is packaged for major Linux distributions including Debian, Kali, BlackArch, and Homebrew on macOS.
+Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sherlock-social-media-username-hunter/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sherlock-social-media-username-hunter
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/sherlock-social-media-username-hunter`.
+Download the skill folder or repository archive and extract `skills/sherlock-social-media-username-hunter` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

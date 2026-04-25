@@ -1,10 +1,10 @@
 ---
 title: "Track coding-agent token spend and leaderboard drift across local session logs with Tokscale"
 description: "Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team."
-verification: "listed"
+verification: listed
 source: "https://github.com/junhoyeo/tokscale"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Track coding-agent token spend and leaderboard drift across local session logs with Tokscale
 
-Use Tokscale when you need an agent-adjacent monitoring pass over local Claude Code, Codex, OpenClaw, Cursor, Gemini, and similar session logs. It ingests per-tool histories, normalizes token and cost data, and surfaces budget drift, usage trends, and optional leaderboard reporting from one place. Invoke this instead of using each coding product’s built-in UI when the job is cross-agent cost tracking from local artifacts rather than one tool’s native analytics. The boundary is token and spend observability across coding-agent logs, not a generic AI platform or standalone dashboard listing.
+Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale`.
+Download the skill folder or repository archive and extract `skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

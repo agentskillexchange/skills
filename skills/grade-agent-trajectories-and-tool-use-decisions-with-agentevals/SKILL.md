@@ -1,10 +1,10 @@
 ---
 title: "Grade agent trajectories and tool-use decisions with AgentEvals"
 description: "Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks."
-verification: "listed"
+verification: listed
 source: "https://github.com/langchain-ai/agentevals"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Grade agent trajectories and tool-use decisions with AgentEvals
 
-Use AgentEvals when you need to judge the path an agent took, not just whether the final answer looked good. The upstream package is specifically about evaluating agent trajectories, including message sequences, tool calls, graph paths, and LLM-as-judge scoring. Invoke this instead of a general observability stack or broad eval product when the immediate job is trajectory grading inside tests or evaluation suites. The scope boundary is tight: AgentEvals evaluates agent steps and tool-use paths. It is not a general framework, hosted platform, or catch-all agent builder listing.
+Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals`.
+Download the skill folder or repository archive and extract `skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

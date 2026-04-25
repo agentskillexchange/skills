@@ -1,10 +1,10 @@
 ---
 title: "Define repeatable Python automation sessions in code with nox"
 description: "Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time."
-verification: "listed"
+verification: listed
 source: "https://github.com/wntrblm/nox"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Define repeatable Python automation sessions in code with nox
 
-Use nox when an agent needs a repository-native way to define and run repeatable Python automation sessions such as tests, lint, docs, or build steps across controlled environments. Invoke this instead of using ad hoc shell commands normally when the job is specifically to execute named automation sessions from a versioned noxfile, not to browse a generic task runner. The scope boundary is concrete: declare sessions in Python, provision their environments, and run the same coded workflow on demand, which is narrow enough to be a reusable skill rather than a plain CLI listing.
+Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/define-repeatable-python-automation-sessions-in-code-with-nox/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/define-repeatable-python-automation-sessions-in-code-with-nox
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/define-repeatable-python-automation-sessions-in-code-with-nox`.
+Download the skill folder or repository archive and extract `skills/define-repeatable-python-automation-sessions-in-code-with-nox` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

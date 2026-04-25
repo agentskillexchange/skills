@@ -1,7 +1,7 @@
 ---
 title: "Fresh Next-Generation Web Framework for Deno"
 description: "Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero JavaScript to the client by default, and provides file-system routing with TypeScript support out of the box."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/denoland/fresh"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Fresh Next-Generation Web Framework for Deno
 
-Fresh is a web framework created by the Deno team that takes a fundamentally different approach to client-side JavaScript. By default, Fresh ships zero JavaScript to the client, using island-based architecture to selectively hydrate only the interactive components that need client-side code. Architecture Fresh uses an island-based client hydration model where the majority of rendering happens on the server. Only explicitly marked interactive components (islands) receive client-side JavaScript, resulting in dramatically faster page loads and smaller bundle sizes. This approach draws from the islands architecture pattern popularized by frameworks like Astro but is deeply integrated into the framework. Developer Experience The framework requires no build step or configuration to get started. It provides file-system routing similar to Next.js, full TypeScript support out of the box via Deno, and uses Preact for the component layer. Scaffolding a new project takes a single command: deno run -Ar jsr:@fresh/init, and the development server starts with deno task dev. Performance By eliminating unnecessary client-side JavaScript, Fresh achieves exceptional performance metrics. Pages load faster because the browser has less JavaScript to parse and execute. The server-side rendering ensures content is immediately visible, while islands provide interactivity exactly where needed without bloating the rest of the page. Deployment Fresh projects deploy seamlessly to Deno Deploy, requiring only a GitHub push and project creation on the Deno Deploy console. Projects receive public subdomains automatically with no configuration required. The framework also supports standard Deno deployment options for self-hosted scenarios. Ecosystem Fresh leverages the Deno ecosystem including JSR (JavaScript Registry) for package management and the Deno standard library. It supports web standard APIs and integrates with the broader Preact plugin ecosystem for UI components and utilities.
+Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero JavaScript to the client by default, and provides file-system routing with TypeScript support out of the box.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/fresh-deno-web-framework/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/fresh-deno-web-framework
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/fresh-deno-web-framework`.
+Download the skill folder or repository archive and extract `skills/fresh-deno-web-framework` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

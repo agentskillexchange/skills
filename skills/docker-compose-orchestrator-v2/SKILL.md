@@ -1,7 +1,7 @@
 ---
 title: "Docker Compose Orchestrator"
 description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Docker Compose Orchestrator
 
-Docker Compose Orchestrator provides intelligent management of multi-service Docker environments through the Compose V2 specification. It uses the Docker Engine SDK for Go to monitor container health, manage network overlays, and orchestrate rolling updates with configurable parallelism. The tool analyzes depends_on chains to determine optimal startup ordering, implements custom health check retry logic beyond what Docker natively supports, and provides real-time log aggregation across services. It supports Docker Compose profiles for environment-specific configurations, volume backup and restore operations, and automatic image pruning based on retention policies. Integration with Docker BuildKit enables optimized multi-stage builds with layer caching analytics. The tool exposes Prometheus metrics for container resource utilization tracking.
+Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docker-compose-orchestrator-v2
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/docker-compose-orchestrator-v2`.
+Download the skill folder or repository archive and extract `skills/docker-compose-orchestrator-v2` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Translate and validate SQL across dialects with SQLGlot"
 description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL."
-verification: "listed"
+verification: listed
 source: "https://github.com/tobymao/sqlglot"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Translate and validate SQL across dialects with SQLGlot
 
-SQLGlot gives an agent a narrow, useful job: parse SQL, translate it across dialects, and catch syntax or semantic mismatches before a migration, review, or generated-query workflow ships bad SQL. Invoke it when the real task is cross-dialect validation or safe SQL rewriting, not when you just want a database engine to run the query. The boundary is specific and publishable: this is a SQL translation and validation workflow for agents, not a generic parser library card or a broad database platform listing.
+Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/translate-and-validate-sql-across-dialects-with-sqlglot/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/translate-and-validate-sql-across-dialects-with-sqlglot
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/translate-and-validate-sql-across-dialects-with-sqlglot`.
+Download the skill folder or repository archive and extract `skills/translate-and-validate-sql-across-dialects-with-sqlglot` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

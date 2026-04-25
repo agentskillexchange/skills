@@ -1,10 +1,10 @@
 ---
 title: "Review risky coding-agent sessions with local action logs using Gryph"
 description: "Capture and inspect file reads, writes, and shell activity from coding agents so developers can audit what actually happened after a session goes sideways."
-verification: "listed"
+verification: listed
 source: "https://github.com/safedep/gryph"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Review risky coding-agent sessions with local action logs using Gryph
 
-Use Gryph when a coding-agent session touched too much, failed unexpectedly, or needs a security review, and you want a local audit trail of file access, writes, and command execution. Invoke it instead of using the agent normally when the task is post-session review, querying, and export of agent actions across supported clients, not generic endpoint security or a broad agent platform. The boundary is the action-audit workflow itself: Gryph installs hooks, records events locally, and lets operators inspect what the agent did.
+Capture and inspect file reads, writes, and shell activity from coding agents so developers can audit what actually happened after a session goes sideways.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph`.
+Download the skill folder or repository archive and extract `skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

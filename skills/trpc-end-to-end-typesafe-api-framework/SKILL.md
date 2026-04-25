@@ -1,7 +1,7 @@
 ---
 title: "tRPC End-to-End Typesafe API Framework"
 description: "tRPC enables developers to build fully typesafe APIs in TypeScript without schemas, code generation, or runtime bloat. The client infers server types directly, providing autocompletion for inputs, outputs, and errors. It supports request batching, subscriptions, and adapters for Next.js, Express, Fastify, and many other frameworks."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/trpc/trpc"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # tRPC End-to-End Typesafe API Framework
 
-tRPC is a TypeScript RPC framework that eliminates the gap between server and client type definitions. Instead of defining API schemas in OpenAPI, GraphQL SDL, or Protocol Buffers and then generating client code, tRPC lets the client import the server’s type definitions directly. When a server-side procedure changes its input or output shape, TypeScript immediately flags type errors on the client before the code even runs. The framework uses a procedure-based model where developers define queries, mutations, and subscriptions as typed functions on the server. Each procedure specifies its input validation using libraries like Zod, Valibot, or ArkType, and tRPC infers the validated types through to the client. This means the client gets full autocompletion on request parameters and response data without any manual type declarations or generated client code. tRPC includes built-in request batching: multiple procedure calls made in the same event loop tick are automatically combined into a single HTTP request and split back apart on the server. This reduces network overhead without requiring developers to think about batching logic. The framework also supports real-time subscriptions via WebSockets or Server-Sent Events, enabling push-based data flows with the same type safety as regular queries. Official adapters exist for Next.js (both App Router and Pages Router), Express, Fastify, and standalone HTTP servers. Community adapters cover SvelteKit, Nuxt, Remix, Astro, AWS Lambda, Cloudflare Workers, and more. The React integration provides hooks built on TanStack Query (React Query), delivering caching, optimistic updates, and infinite queries out of the box. There are also clients for Vue, Svelte, Solid, and vanilla TypeScript. tRPC has zero runtime dependencies and adds minimal bundle size to client applications. The project has accumulated massive adoption in the TypeScript ecosystem, is MIT-licensed, and is actively maintained with regular releases. It is widely used in production by teams building full-stack TypeScript applications where type safety across the network boundary is critical.
+tRPC enables developers to build fully typesafe APIs in TypeScript without schemas, code generation, or runtime bloat. The client infers server types directly, providing autocompletion for inputs, outputs, and errors. It supports request batching, subscriptions, and adapters for Next.js, Express, Fastify, and many other frameworks.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trpc-end-to-end-typesafe-api-framework/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trpc-end-to-end-typesafe-api-framework
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/trpc-end-to-end-typesafe-api-framework`.
+Download the skill folder or repository archive and extract `skills/trpc-end-to-end-typesafe-api-framework` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

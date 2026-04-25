@@ -1,10 +1,10 @@
 ---
 title: "Docling AI Document Intelligence Pipeline"
 description: "Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen AI workflows. It features advanced PDF layout understanding, OCR, table extraction, and integrations with LangChain, LlamaIndex, and CrewAI."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/docling-project/docling"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Docling AI Document Intelligence Pipeline
 
-Docling is an open-source document processing toolkit originally developed by IBM Research and now maintained under the docling-project organization on GitHub. It converts a wide range of document formats — PDF, DOCX, PPTX, XLSX, HTML, images (PNG, TIFF, JPEG), LaTeX, WAV, MP3, WebVTT, and plain text — into a unified DoclingDocument representation that can be exported as Markdown, HTML, JSON, or DocTags. For PDF documents, Docling performs advanced layout analysis including page structure detection, reading order determination, table structure recognition, code block identification, mathematical formula extraction, and image classification. It supports scanned documents through built-in OCR and can leverage Visual Language Models such as GraniteDocling for enhanced understanding. The toolkit also handles chart interpretation (bar charts, pie charts, line plots) and molecular structure recognition. Docling provides a straightforward Python API and CLI. A basic conversion is as simple as calling DocumentConverter().convert(source) on a local file path or URL, then exporting with result.document.export_to_markdown(). The CLI supports batch conversion with docling https://arxiv.org/pdf/2206.01062. For production deployments, Docling offers an MCP server for agentic applications. The toolkit integrates directly with popular AI frameworks: LangChain, LlamaIndex, CrewAI, Haystack, and spaCy all have Docling connectors. This makes it a natural fit as the document ingestion layer in RAG (Retrieval-Augmented Generation) pipelines, where documents need to be parsed, chunked, and embedded before retrieval. Docling supports local execution for sensitive data and air-gapped environments, runs on macOS, Linux, and Windows (x86_64 and arm64), and requires Python 3.10+. It is available on PyPI via pip install docling and is licensed under the MIT license. The project has accumulated over 10,000 GitHub stars and was accepted to AAAI 2025.
+Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen AI workflows. It features advanced PDF layout understanding, OCR, table extraction, and integrations with LangChain, LlamaIndex, and CrewAI.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/docling-ai-document-intelligence-pipeline/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docling-ai-document-intelligence-pipeline
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/docling-ai-document-intelligence-pipeline`.
+Download the skill folder or repository archive and extract `skills/docling-ai-document-intelligence-pipeline` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

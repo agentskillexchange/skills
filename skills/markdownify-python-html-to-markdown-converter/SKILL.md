@@ -1,10 +1,10 @@
 ---
 title: "markdownify Python HTML to Markdown Conversion Library"
 description: "markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language detection, making it essential for content extraction and document transformation pipelines."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/matthewwithanm/python-markdownify"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # markdownify Python HTML to Markdown Conversion Library
 
-Overview markdownify is a Python library that converts HTML to Markdown. Created by Matthew Tretter, it uses BeautifulSoup under the hood to parse HTML and produces clean, configurable Markdown output. It is widely used in web scraping pipelines, content migration tools, and LLM data preparation workflows — notably, Microsoft’s MarkItDown uses markdownify internally for its HTML conversion step. Core Capabilities The library handles a comprehensive range of HTML elements: headings, paragraphs, bold, italic, links, images, lists (ordered and unordered), blockquotes, code blocks, tables, horizontal rules, and more. Configuration options include heading style (ATX, SETEXT), bullet characters, strong/em symbols, newline style (spaces or backslash), and escape behavior for special Markdown characters. Advanced features include tag-level strip/convert filtering (choose exactly which HTML tags to convert or ignore), custom converter classes for extending behavior per-tag, code language detection via callbacks, and inline image preservation in table cells and headings. Agent Integration For AI agents, markdownify is a critical building block in content processing chains. When scraping web pages, agents can feed raw HTML through markdownify to produce clean Markdown suitable for LLM context windows. It is lighter weight than full browser-based solutions when the goal is text extraction rather than rendering. Agents can subclass MarkdownConverter to create domain-specific converters that handle custom HTML structures. Installation and Usage Install via pip: pip install markdownify. Basic usage: from markdownify import markdownify as md; result = md('<b>Hello</b> <a href="https://example.com">World</a>'). The library requires Python 3.x and depends on BeautifulSoup4 and six. Documentation and Community The project README on GitHub serves as the primary documentation with full option reference and custom converter examples. The library has over 2,100 GitHub stars, is MIT licensed, and is published on PyPI with consistent download numbers. It has been a stable dependency in the Python ecosystem for over a decade.
+markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language detection, making it essential for content extraction and document transformation pipelines.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/markdownify-python-html-to-markdown-converter/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/markdownify-python-html-to-markdown-converter
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/markdownify-python-html-to-markdown-converter`.
+Download the skill folder or repository archive and extract `skills/markdownify-python-html-to-markdown-converter` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

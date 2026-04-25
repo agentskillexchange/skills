@@ -1,7 +1,7 @@
 ---
 title: "Agent Browser Operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
   - "Browser Automation"
@@ -15,31 +15,31 @@ tool_ecosystem:
 
 # Agent Browser Operator
 
-Agent Browser Operator handles interactive, session-aware browser tasks where simple scraping is not enough. It is built for logged-in flows, dynamic page interactions, form filling, and multi-step site navigation that requires a real browser context. Best for logged-in admin workflows (WordPress, dashboards, internal tools) multi-step form submission and interactive page flows extracting data from JavaScript-rendered or authentication-gated pages How it differs from MCP browser tools Unlike MCP-based browser connectors (Playwright MCP, Browser MCP, Browserbase), Agent Browser Operator works through OpenClaw’s native browser tool with direct session context. It is best for tasks that need the agent’s own authenticated session rather than a standalone browser-as-a-service. Install notes Enable the browser tool in OpenClaw. For managed mode, install Chrome or Chromium on the host. For relay mode, use the OpenClaw Browser Relay Chrome extension. Source: OpenClaw browser tool documentation.
+Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/agent-browser-operator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/agent-browser-operator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/agent-browser-operator`.
+Download the skill folder or repository archive and extract `skills/agent-browser-operator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

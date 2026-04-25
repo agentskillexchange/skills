@@ -1,10 +1,10 @@
 ---
 title: "Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta"
 description: "Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases."
-verification: "listed"
+verification: listed
 source: "https://github.com/tsenart/vegeta"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta
 
-Use Vegeta when an agent needs a tight load-test loop around HTTP targets: define a target set, run a repeatable attack, and turn the results into latency and error reports. That is the skill boundary. It is not a general performance platform listing. Invoke it instead of a heavier benchmarking stack when the task is quick, scriptable HTTP pressure testing from the command line before rollout, tuning, or regression review. The workflow stays narrow and operator-shaped: targets in, attack run, report or plot out.
+Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta`.
+Download the skill folder or repository archive and extract `skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

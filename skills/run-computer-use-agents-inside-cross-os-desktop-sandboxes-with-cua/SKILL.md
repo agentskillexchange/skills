@@ -1,7 +1,7 @@
 ---
 title: "Run computer-use agents inside cross-OS desktop sandboxes with CUA"
 description: "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls."
-verification: "listed"
+verification: listed
 source: "https://github.com/trycua/cua"
 category:
   - "Browser Automation"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run computer-use agents inside cross-OS desktop sandboxes with CUA
 
-CUA is distinct from ordinary browser automation because the documented workflow is full computer-use execution across desktop and device sandboxes. Its sandbox API and cuabot tooling let an operator run an agent in an isolated OS environment, capture screenshots, send mouse and keyboard actions, and benchmark the resulting behavior on computer-use tasks. Invoke it when the agent must interact with a real desktop or device surface instead of a DOM-only browser session or a local host environment. The scope boundary is sandboxed computer-use execution and evaluation, not a generic AI platform or broad workflow builder.
+Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua`.
+Download the skill folder or repository archive and extract `skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

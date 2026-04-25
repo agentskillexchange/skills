@@ -1,10 +1,10 @@
 ---
 title: "Yoast SEO WordPress Optimization Toolkit"
 description: "Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface into a practical workflow for optimizing content, schema, metadata, and indexing behavior. It is aimed at WordPress operators who want agent help with SEO settings that map to the actual Yoast plugin and docs."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Yoast/wordpress-seo"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Yoast SEO WordPress Optimization Toolkit
 
-Yoast SEO is a long-running WordPress plugin used to manage metadata, readability checks, XML sitemaps, canonical URLs, schema output, robots directives, and on-page SEO guidance. A skill built around Yoast SEO gives an agent a concrete way to work inside WordPress content operations rather than offering vague “SEO help.” The job-to-be-done is to improve how WordPress pages and posts are represented to search engines and AI retrieval systems by editing titles, meta descriptions, schema-related settings, social previews, internal linking signals, and crawl directives in a tool that millions of sites already use. In practice, the skill can inspect whether Yoast SEO is active, review indexability settings, suggest focus keyphrases, improve meta title length, check slug quality, and coordinate updates to post metadata alongside WordPress publishing workflows. It can also help interpret Yoast-specific concepts such as cornerstone content, canonical URLs, Open Graph tags, XML sitemap inclusion, readability analysis, and schema graph output. Outputs may include optimized metadata drafts, updated post settings, audit notes, keyword recommendations, and change summaries for editors. This skill integrates naturally with WordPress admin, REST-based publishing flows, editorial calendars, CMS audits, and content refresh work. Technical users will recognize terms like metadata fields, sitemap generation, schema.org markup, index/noindex, redirects, canonicalization, and social cards. Because the upstream project has an official GitHub repository, a real WordPress plugin record with massive adoption, and official Yoast documentation, the source provenance is strong enough for verified metadata intake.
+Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface into a practical workflow for optimizing content, schema, metadata, and indexing behavior. It is aimed at WordPress operators who want agent help with SEO settings that map to the actual Yoast plugin and docs.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/yoast-seo-wordpress-optimization-toolkit/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/yoast-seo-wordpress-optimization-toolkit
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/yoast-seo-wordpress-optimization-toolkit`.
+Download the skill folder or repository archive and extract `skills/yoast-seo-wordpress-optimization-toolkit` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam"
 description: "Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout."
-verification: "listed"
+verification: listed
 source: "https://github.com/confident-ai/deepteam"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam
 
-Use DeepTeam when you want to simulate attacks against an agent workflow before trusting it in production. The upstream workflow is clear: choose built-in vulnerability classes, run local red-team tests against an agent, RAG system, or chatbot, inspect binary pass/fail results with reasoning, and use those findings to harden prompts, tools, and policies. The scope boundary is adversarial red-team execution and review for LLM systems, not a generic security platform or plain model-evaluation listing.
+Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam`.
+Download the skill folder or repository archive and extract `skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

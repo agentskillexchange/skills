@@ -1,10 +1,10 @@
 ---
 title: "Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset"
 description: "Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing."
-verification: "listed"
+verification: listed
 source: "https://github.com/ConardLi/easy-dataset"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset
 
-Use easy-dataset when an agent needs to transform raw source material into publishable training, retrieval, or evaluation datasets. The skill boundary is tight: ingest mixed documents, segment them intelligently, clean and structure the outputs, then produce artifacts ready for fine-tuning, RAG ingestion, or benchmark-style eval work. This is not a generic LLM platform listing. The value is the operator workflow of converting messy inputs into usable dataset assets at the point where a team would otherwise hand-roll parsing, chunking, and curation steps for each project.
+Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset`.
+Download the skill folder or repository archive and extract `skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

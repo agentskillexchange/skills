@@ -1,7 +1,7 @@
 ---
 title: "WASM Component Model Linker"
 description: "Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WebAssembly/component-model"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # WASM Component Model Linker
 
-The WASM Component Model Linker automates the WebAssembly Component Model workflow from WIT (WebAssembly Interface Type) definitions through compilation and linking. It uses wit-bindgen to generate language-specific bindings for Rust (wit-bindgen-rust), JavaScript (jco), and Go (wit-bindgen-go) from .wit files. The agent orchestrates wasm-tools component new for creating components from core modules, wasm-tools compose for linking multiple components together, and wasm-tools validate for checking component conformance. It supports WASI Preview 2 interfaces including wasi:io, wasi:filesystem, wasi:http, and wasi:cli. For JavaScript hosts, it generates bindings using jco transpile and jco componentize. The pipeline integrates with Wasmtime for local testing and Fermyon Spin or Fastly Compute for edge deployment. Handles the full lifecycle from WIT authoring through component registry publishing using warg CLI for the WebAssembly component registry.
+Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wasm-component-model-linker/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wasm-component-model-linker
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/wasm-component-model-linker`.
+Download the skill folder or repository archive and extract `skills/wasm-component-model-linker` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

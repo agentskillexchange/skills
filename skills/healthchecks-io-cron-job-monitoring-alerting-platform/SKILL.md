@@ -1,10 +1,10 @@
 ---
 title: "Healthchecks.io Cron Job Monitoring and Alerting Platform"
 description: "Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a dashboard, API, and notification integrations for tracking recurring jobs without building their own heartbeat system."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/healthchecks/healthchecks"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Healthchecks.io Cron Job Monitoring and Alerting Platform
 
-Healthchecks.io is an open-source monitoring platform built for one very specific job: making sure cron jobs, scheduled scripts, and background workers actually run when they are supposed to. Instead of instrumenting a full metrics stack just to watch a few periodic tasks, you configure each job to send a ping by HTTP request or email message. If the ping does not arrive within the expected period and grace window, Healthchecks.io marks the check as late and sends alerts. The upstream project is the healthchecks/healthchecks codebase, written in Python and Django, with support for PostgreSQL, MySQL, or MariaDB. It includes a live dashboard for check status, configurable schedules, recurring reports, projects and team access, API endpoints, and a broad notification surface with more than 25 integrations. The project also ships a Dockerfile and prebuilt container images, which makes it practical for self-hosted operations teams and internal platform engineering groups. An ASE skill built around Healthchecks.io is useful when an agent needs to register new checks, audit missed-job incidents, verify grace-time settings, inspect the status dashboard, or wire existing batch jobs into heartbeat monitoring. Typical outputs include check definitions, remediation guidance for late or missing pings, API-driven inventory of monitored jobs, and alert-routing recommendations for email, chat, or incident tools. It also integrates naturally with cron-based maintenance, CI housekeeping tasks, database backups, feed imports, and any other recurring automation that is easy to forget until it silently stops running.
+Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a dashboard, API, and notification integrations for tracking recurring jobs without building their own heartbeat system.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/healthchecks-io-cron-job-monitoring-alerting-platform/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/healthchecks-io-cron-job-monitoring-alerting-platform
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/healthchecks-io-cron-job-monitoring-alerting-platform`.
+Download the skill folder or repository archive and extract `skills/healthchecks-io-cron-job-monitoring-alerting-platform` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

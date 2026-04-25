@@ -1,10 +1,10 @@
 ---
 title: "Super Productivity Open Source Task Manager with Time Tracking"
 description: "Super Productivity is an advanced open-source todo list application with integrated timeboxing, time tracking, and Pomodoro timer capabilities. It supports importing tasks from Jira, GitHub, GitLab, Trello, and CalDAV calendars, making it a powerful cross-platform productivity hub."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/super-productivity/super-productivity"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Super Productivity Open Source Task Manager with Time Tracking
 
-Super Productivity is a feature-rich, open-source task management application built with TypeScript and Angular. It combines a todo list with time tracking, timeboxing, and a Pomodoro timer into a single unified interface available on Windows, macOS, Linux, Android, and iOS. Core Capabilities The application supports planning and categorizing tasks using sub-tasks, projects, and tags with color coding. Its time tracking system generates time sheets and work summaries that can be exported to company time tracking systems. A break reminder prompts users to step away at intervals, and an anti-procrastination feature helps regain perspective during difficult tasks. Integrations Super Productivity integrates directly with Jira, Trello, GitHub, GitLab, Gitea, OpenProject, Linear, ClickUp, and Azure DevOps. It can auto-import tasks assigned to you, plan details locally, automatically create work logs, and notify you immediately when something changes upstream. Basic CalDAV integration is also available for calendar sync. Data and Privacy The application does not collect any user data and requires no user accounts or registration. Data synchronization across devices is supported via Dropbox and WebDAV. Users can attach notes, files, and project-level bookmarks for links, files, and even commands to tasks and projects. Agent Integration AI agents can leverage Super Productivity through its local file-based storage, allowing programmatic task creation, time log export, and project organization. The application supports keyboard-driven workflows with Vim-style navigation and a short syntax system for rapid task entry (e.g., adding tags with #, time estimates with m/h, due dates with @, and project assignment with +). Installation Super Productivity is available through multiple channels: Snap, Flatpak, Chocolatey, Scoop, AUR, and direct downloads from GitHub releases. A web version is available at app.super-productivity.com for quick access without installation.
+Super Productivity is an advanced open-source todo list application with integrated timeboxing, time tracking, and Pomodoro timer capabilities. It supports importing tasks from Jira, GitHub, GitLab, Trello, and CalDAV calendars, making it a powerful cross-platform productivity hub.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/super-productivity-task-manager-time-tracking/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/super-productivity-task-manager-time-tracking
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/super-productivity-task-manager-time-tracking`.
+Download the skill folder or repository archive and extract `skills/super-productivity-task-manager-time-tracking` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

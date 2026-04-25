@@ -1,7 +1,7 @@
 ---
 title: "llamafile Single-File LLM Distribution and Runner by Mozilla"
 description: "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights, server, and runtime into one file."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/mozilla-ai/llamafile"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # llamafile Single-File LLM Distribution and Runner by Mozilla
 
-llamafile is a Mozilla Builders project that makes open-source large language models radically accessible by packaging them as single-file executables. Built on top of llama.cpp and Cosmopolitan Libc, llamafile combines model weights, an inference engine, and an HTTP server into one portable binary that runs natively on six operating systems — macOS, Windows, Linux, FreeBSD, OpenBSD, and NetBSD — without any installation, package managers, or Python environments. How It Works llamafile uses the Actually Portable Executable (APE) format from Cosmopolitan Libc to create cross-platform binaries. A single .llamafile contains the llama.cpp inference server compiled for multiple architectures, plus the GGUF model weights appended via zipalign. When executed, llamafile auto-detects the host OS and CPU architecture, launches a local HTTP server with an OpenAI-compatible API, and optionally opens a web-based chat UI in the browser. Key Features GPU acceleration is supported via CUDA, Metal, Vulkan, and ROCm when available, automatically falling back to optimized CPU inference with AVX, AVX2, and AVX-512 support. llamafile includes whisperfile for single-file speech-to-text powered by whisper.cpp. Pre-built llamafiles for popular models like Llama 3, Qwen, Mistral, and LLaVA are hosted on Hugging Face. Users can also create custom llamafiles by combining any GGUF model with the llamafile server binary. Agent Integration For AI agents, llamafile provides a local LLM backend with an OpenAI-compatible HTTP API at localhost:8080. Agents can use it as a drop-in replacement for cloud LLM APIs, enabling fully offline inference. The /v1/chat/completions endpoint supports streaming, function calling, and grammar-constrained output. This makes llamafile ideal for air-gapped environments, privacy-sensitive workflows, or reducing API costs during development and testing. Creating Custom llamafiles Building a custom llamafile involves downloading the base server binary, adding GGUF weights with the zipalign utility, and optionally embedding a .args file for default launch parameters. The result is a self-contained executable that can be distributed to teammates or deployed on servers without dependency management.
+llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights, server, and runtime into one file.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/llamafile-single-file-llm-runner-mozilla/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/llamafile-single-file-llm-runner-mozilla
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/llamafile-single-file-llm-runner-mozilla`.
+Download the skill folder or repository archive and extract `skills/llamafile-single-file-llm-runner-mozilla` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

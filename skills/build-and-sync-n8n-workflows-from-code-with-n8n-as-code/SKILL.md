@@ -1,10 +1,10 @@
 ---
 title: "Build and sync n8n workflows from code with n8n-as-code"
 description: "Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON."
-verification: "listed"
+verification: listed
 source: "https://github.com/EtienneLescot/n8n-as-code"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -15,31 +15,31 @@ tool_ecosystem:
 
 # Build and sync n8n workflows from code with n8n-as-code
 
-Use n8n-as-code when the agent should inspect n8n nodes, generate or update typed workflow definitions, and sync them back to n8n from code-managed files. Invoke it instead of editing workflows directly in n8n when the real need is a code-first authoring and synchronization workflow with reusable templates and version control. The scope boundary is narrow enough to be skill-shaped: authoring and syncing n8n workflows as code, not a generic n8n platform card or automation marketplace listing.
+Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code`.
+Download the skill folder or repository archive and extract `skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

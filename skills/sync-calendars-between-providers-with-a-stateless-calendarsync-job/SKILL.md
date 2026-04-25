@@ -1,10 +1,10 @@
 ---
 title: "Sync calendars between providers with a stateless CalendarSync job"
 description: "Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service."
-verification: "listed"
+verification: listed
 source: "https://github.com/inovex/CalendarSync"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Sync calendars between providers with a stateless CalendarSync job
 
-Use CalendarSync when you need an agent to mirror or migrate events between calendar systems as a discrete job with a clear done state. The boundary is narrow: source-to-sink event synchronization with filters and transformations, not a general calendar product or hosted scheduling platform.
+Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job`.
+Download the skill folder or repository archive and extract `skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Harper Offline Privacy-First Grammar Checker by Automattic"
 description: "Harper is an offline, privacy-first grammar checker written in Rust by Automattic. It runs locally with sub-10ms response times, supports LSP for editor integration, compiles to WebAssembly for browser use, and provides grammar, spelling, and style checking without sending text to external servers."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Automattic/harper"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Harper Offline Privacy-First Grammar Checker by Automattic
 
-Harper is an open-source grammar checker built in Rust by Automattic (the company behind WordPress.com). It runs entirely offline on the user’s device, providing grammar, spelling, and style suggestions in under 10 milliseconds — no network requests, no cloud processing, no privacy concerns about text leaving the machine. The architecture is designed for integration across multiple surfaces. Harper compiles to WebAssembly for browser-based usage, runs as a Language Server Protocol (LSP) server for editor integration, and provides a Node.js binding for JavaScript applications. This means the same grammar engine can power checks in VS Code, Neovim, Obsidian, web browsers, and custom applications. For AI agents working on content writing and SEO tasks, Harper provides a fast local grammar layer that can validate and clean text before publishing. Unlike cloud-based grammar services, Harper processes everything locally, making it suitable for environments where text contains sensitive information or where network latency is a concern. The grammar rules cover common English writing issues: subject-verb agreement, article usage, commonly confused words, spelling errors, and stylistic patterns. Harper uses a custom dictionary system that supports user-defined words and domain-specific terminology, which is important for technical content where standard dictionaries flag legitimate terms as errors. Editor integrations include official support for VS Code (via the Harper extension), Neovim (via the LSP server), Obsidian, and Zed. The LSP server means any editor with LSP support can connect to Harper for real-time grammar checking. The Chrome extension provides in-browser grammar checking on any text input field. Installation is straightforward: cargo install for the Rust toolchain, npm packages for Node.js integration, or pre-built binaries and extensions for specific editors. The project maintains active development with regular releases, and the Automattic backing provides long-term sustainability that many open-source grammar tools lack. The Rust implementation delivers performance that makes real-time checking practical even in resource-constrained environments. Where LanguageTool requires a JVM and server process, Harper runs as a lightweight binary with minimal memory footprint.
+Harper is an offline, privacy-first grammar checker written in Rust by Automattic. It runs locally with sub-10ms response times, supports LSP for editor integration, compiles to WebAssembly for browser use, and provides grammar, spelling, and style checking without sending text to external servers.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/harper-offline-grammar-checker-automattic/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/harper-offline-grammar-checker-automattic
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/harper-offline-grammar-checker-automattic`.
+Download the skill folder or repository archive and extract `skills/harper-offline-grammar-checker-automattic` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

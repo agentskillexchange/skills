@@ -1,10 +1,10 @@
 ---
 title: "Monitor coding-agent token spend with Splitrail"
 description: "Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow."
-verification: "listed"
+verification: listed
 source: "https://github.com/Piebald-AI/splitrail"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Monitor coding-agent token spend with Splitrail
 
-Use Splitrail when you need a live operational view of token burn, cost, and model mix across multiple coding-agent tools during or after runs. Invoke it instead of checking each product’s native dashboard when the job is cross-tool usage monitoring and cost triage, not everyday agent use. The scope boundary is spend observability for local agent runs, not a general coding assistant or cloud platform listing.
+Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/monitor-coding-agent-token-spend-with-splitrail/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/monitor-coding-agent-token-spend-with-splitrail
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/monitor-coding-agent-token-spend-with-splitrail`.
+Download the skill folder or repository archive and extract `skills/monitor-coding-agent-token-spend-with-splitrail` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

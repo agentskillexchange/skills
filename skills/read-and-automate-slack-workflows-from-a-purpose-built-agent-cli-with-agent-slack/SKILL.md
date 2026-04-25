@@ -1,10 +1,10 @@
 ---
 title: "Read and automate Slack workflows from a purpose-built agent CLI with agent-slack"
 description: "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output."
-verification: "listed"
+verification: listed
 source: "https://github.com/stablyai/agent-slack"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Read and automate Slack workflows from a purpose-built agent CLI with agent-slack
 
-Use agent-slack when an agent needs to search Slack, read threads, fetch canvases, handle files, or perform message actions from a dedicated CLI instead of manual Slack use or custom API glue. The invoke moment is specific: a bounded Slack operation with JSON output, local artifact handling, and a skill package already aimed at agent runtimes. That scope boundary, operator-grade Slack task execution through an agent CLI, keeps this from being just another Slack product or platform listing.
+Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack`.
+Download the skill folder or repository archive and extract `skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

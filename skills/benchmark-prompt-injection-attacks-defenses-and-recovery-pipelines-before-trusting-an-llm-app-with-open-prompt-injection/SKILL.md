@@ -1,10 +1,10 @@
 ---
 title: "Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection"
 description: "Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines."
-verification: "listed"
+verification: listed
 source: "https://github.com/liu00222/Open-Prompt-Injection"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection
 
-Use Open Prompt Injection when the job is to benchmark prompt-injection attacks, defenses, and recovery flows against an LLM-integrated application before deployment, not when a user simply wants a generic security library. The workflow is bounded: configure the target task and model, run attack scenarios, measure outcomes such as attack success, and compare detector or localization defenses before trusting the app. That scope boundary, prompt-injection benchmarking and defense evaluation for LLM applications, is narrow enough to function as a publishable skill instead of a plain research toolkit card.
+Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection`.
+Download the skill folder or repository archive and extract `skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

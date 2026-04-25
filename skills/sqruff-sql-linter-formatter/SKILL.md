@@ -1,10 +1,10 @@
 ---
 title: "sqruff High-Performance SQL Linter and Formatter"
 description: "A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and automated formatting with significantly faster execution than Python-based alternatives, plus a browser playground for quick experimentation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/quarylabs/sqruff"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # sqruff High-Performance SQL Linter and Formatter
 
-sqruff is an open-source SQL linter and formatter built in Rust by Quary Labs. It reimplements SQLFluff’s rule set in a compiled language, achieving roughly 10x faster scan times on real-world SQL codebases. The tool supports multiple SQL dialects including PostgreSQL, BigQuery, Snowflake, ClickHouse, and ANSI SQL. The linter checks SQL files against a configurable set of rules covering formatting conventions, naming standards, query structure, and anti-patterns. When violations are found, sqruff can automatically fix many of them through its formatting mode. Developers configure the tool through a .sqruff configuration file in their project root, specifying the target dialect and enabling or disabling specific rules. sqruff is designed for integration into development workflows. It installs through Homebrew, pip, Cargo, or direct binary downloads, making it accessible regardless of the team’s primary language ecosystem. The CLI supports linting individual files, directories, or piped input, and produces structured output suitable for CI/CD pipelines. The project maintains an interactive browser playground at playground.quary.dev where developers can test rules against their SQL without installing anything. The documentation covers installation, usage patterns, configuration options, the full rule reference, and CLI commands. Rules are organized by category with clear descriptions and examples of violations and fixes. For data teams working with dbt, analytics pipelines, or any SQL-heavy workflow, sqruff provides consistent formatting and catches common mistakes before they reach production. Its speed makes it practical to run on every commit or as part of pre-commit hooks without adding noticeable delay to the development cycle.
+A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and automated formatting with significantly faster execution than Python-based alternatives, plus a browser playground for quick experimentation.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sqruff-sql-linter-formatter/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sqruff-sql-linter-formatter
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/sqruff-sql-linter-formatter`.
+Download the skill folder or repository archive and extract `skills/sqruff-sql-linter-formatter` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

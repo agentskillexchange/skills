@@ -1,10 +1,10 @@
 ---
 title: "Remotion React Video Generation and Rendering Framework"
 description: "Remotion is a framework for making videos programmatically with React. It lets agents and developers generate branded videos, social clips, explainers, and template-based renders using code, reusable components, and a documented rendering toolchain."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/remotion-dev/remotion"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Remotion React Video Generation and Rendering Framework
 
-Remotion is a framework for creating videos programmatically with React. The official repository, docs site, and npm packages show an actively maintained project with substantial adoption and a clear focus: turning familiar frontend components into rendered video output. That makes it useful for creative automation skills where the job is not just to edit media by hand, but to generate repeatable video assets from code, templates, or structured inputs. Instead of relying on timeline-first desktop tooling, Remotion treats video composition like a React application. Developers can define scenes as components, pass props from JSON or APIs, render dynamic text and visuals, and generate output through Remotion’s renderer. The docs describe project scaffolding, local development, and rendering workflows, while the npm ecosystem provides installable packages for core rendering and related tasks. For agents, this creates a clean path from prompt or data source to video output, especially when producing product demos, social snippets, recap videos, or branded motion graphics. Integration points are strong for JavaScript teams. A skill can scaffold a project with the official create command, pull data from APIs or CMS systems, generate videos from reusable templates, and run renders in local or CI environments. Because Remotion is code-driven, changes are reviewable in git and easier to automate than manual editing steps. For creative automation and repeatable video generation, it is a real upstream framework with clear docs, active releases, and a specific job-to-be-done.
+Remotion is a framework for making videos programmatically with React. It lets agents and developers generate branded videos, social clips, explainers, and template-based renders using code, reusable components, and a documented rendering toolchain.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/remotion-react-video-generation-rendering-framework/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/remotion-react-video-generation-rendering-framework
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/remotion-react-video-generation-rendering-framework`.
+Download the skill folder or repository archive and extract `skills/remotion-react-video-generation-rendering-framework` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

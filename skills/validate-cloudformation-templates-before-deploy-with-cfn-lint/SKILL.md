@@ -1,10 +1,10 @@
 ---
 title: "Validate CloudFormation templates before deploy with cfn-lint"
 description: "Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment."
-verification: "listed"
+verification: listed
 source: "https://github.com/aws-cloudformation/cfn-lint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Validate CloudFormation templates before deploy with cfn-lint
 
-Use cfn-lint when an agent needs to review or gate AWS CloudFormation changes before deployment. It can validate template structure, catch invalid properties, check region-specific resource rules, and surface intrinsic-function mistakes before they become failed stack operations. The scope is tightly bounded to pre-deploy CloudFormation validation, which keeps this from collapsing into a general AWS product listing.
+Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-cloudformation-templates-before-deploy-with-cfn-lint
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/validate-cloudformation-templates-before-deploy-with-cfn-lint`.
+Download the skill folder or repository archive and extract `skills/validate-cloudformation-templates-before-deploy-with-cfn-lint` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Exa JS Web Search SDK for AI Applications"
 description: "exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search the web, retrieve page contents, and generate sourced answers from code instead of stitching raw HTTP calls by hand."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/exa-labs/exa-js"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Exa JS Web Search SDK for AI Applications
 
-exa-js is the official JavaScript SDK for Exa, published by exa-labs and documented at docs.exa.ai. The package is designed for Node.js and browser-based applications that need structured web search capabilities for AI systems. Upstream examples show it handling standard search, streamed search, deep search variants, URL content extraction, and answer generation with citations. That makes the project a clear skill candidate for agent builders. An agent can use exa-js to find relevant documents, fetch clean page contents, ask a sourced question over the live web, or request structured output through an output schema. The job-to-be-done is concrete: connect an application or autonomous workflow to a search layer that is optimized for retrieval and downstream LLM use. Instead of hand-rolling search integration, the skill can guide installation, authentication with EXA_API_KEY, query design, citation-aware answers, and content extraction flows. The integration surface is also well defined. The upstream README documents installation with npm, then instantiating the client and calling methods such as search, streamSearch, getContents, and answer. The official docs expand on SDK usage and examples. Because the project has a public GitHub repository, an npm package, official documentation, license information, and recent repository activity, it passes the intake gate for verified metadata publishing. It is especially relevant for research agents, retrieval pipelines, and AI apps that need a maintained search SDK with concrete JavaScript ergonomics.
+exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search the web, retrieve page contents, and generate sourced answers from code instead of stitching raw HTTP calls by hand.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/exa-js-web-search-sdk-ai-applications/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/exa-js-web-search-sdk-ai-applications
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/exa-js-web-search-sdk-ai-applications`.
+Download the skill folder or repository archive and extract `skills/exa-js-web-search-sdk-ai-applications` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

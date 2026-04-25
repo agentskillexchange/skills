@@ -1,10 +1,10 @@
 ---
 title: "Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench"
 description: "Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows."
-verification: "listed"
+verification: listed
 source: "https://github.com/pinchbench/skill"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench
 
-Use PinchBench when the job is to benchmark OpenClaw coding agents on repeatable real-world tasks before changing models, prompts, or harness behavior, not when a user simply wants a generic leaderboard or agent framework. The operator workflow is crisp: run the benchmark suite, score task outcomes, compare results, and decide whether a candidate model or change is ready. That scope boundary, OpenClaw agent benchmarking before rollout, makes this a clear skill instead of a plain benchmark product listing.
+Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench`.
+Download the skill folder or repository archive and extract `skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

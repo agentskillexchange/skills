@@ -1,10 +1,10 @@
 ---
 title: "Track coding-agent quota burn and remaining headroom across providers with onWatch"
 description: "Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits."
-verification: "listed"
+verification: listed
 source: "https://github.com/onllm-dev/onWatch"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Track coding-agent quota burn and remaining headroom across providers with onWatch
 
-Use onWatch when an operator needs a single preflight and in-run view of quota burn across coding-agent providers, not when they are simply using one provider dashboard normally. The invoke moment is concrete: before or during a long coding-agent run, poll provider usage endpoints, store history, surface remaining headroom, and alert before throttling or overage hits. That scope boundary, cross-provider quota and usage monitoring for coding-agent operations, makes this publishable as a skill instead of a generic LLM product or dashboard listing.
+Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch`.
+Download the skill folder or repository archive and extract `skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

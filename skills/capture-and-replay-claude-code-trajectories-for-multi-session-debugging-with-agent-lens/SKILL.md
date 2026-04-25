@@ -1,10 +1,10 @@
 ---
 title: "Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens"
 description: "Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic debugging instead of ad hoc transcript review."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/dreadnode/agent-lens"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens
 
-Use Agent Lens when the job is to run or inspect Claude Code sessions as structured trajectories, then replay or resample them to understand what went wrong. The workflow is specific: define a multi-session run in YAML, execute it through the harness, inspect ATIF outputs and file-state diffs, and replay branch points or resample turns during debugging or research. The scope boundary is sharp enough for ASE. This is not a generic observability platform or a generic Claude product listing. It is a bounded trajectory-capture and replay workflow for Claude Code via the Claude Agent SDK, aimed at debugging, safety analysis, and behavior inspection.
+Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic debugging instead of ad hoc transcript review.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens`.
+Download the skill folder or repository archive and extract `skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

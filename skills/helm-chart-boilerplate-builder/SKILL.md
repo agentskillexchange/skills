@@ -1,10 +1,10 @@
 ---
 title: "Helm Chart Boilerplate Builder"
 description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/helm/helm"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Helm Chart Boilerplate Builder
 
-Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration. This skill automates helm chart boilerplate builder operations for agent-driven workflows. It wraps the underlying API client libraries with sensible defaults for authentication, error handling, and pagination. Configuration is managed through environment variables and a local settings file, keeping credentials out of your codebase. The agent validates inputs against the provider’s API schema before making requests, catching configuration errors early. Includes retry logic with exponential backoff for transient failures and structured logging for audit trails. Works in both synchronous command mode and event-driven webhook mode for real-time integrations.
+Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/helm-chart-boilerplate-builder
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/helm-chart-boilerplate-builder`.
+Download the skill folder or repository archive and extract `skills/helm-chart-boilerplate-builder` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

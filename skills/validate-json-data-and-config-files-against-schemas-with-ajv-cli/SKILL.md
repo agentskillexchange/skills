@@ -1,10 +1,10 @@
 ---
 title: "Validate JSON data and config files against schemas with ajv-cli"
 description: "Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling."
-verification: "listed"
+verification: listed
 source: "https://github.com/ajv-validator/ajv-cli"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Validate JSON data and config files against schemas with ajv-cli
 
-Use ajv-cli when an agent needs a command-line validation step that checks JSON, JSON5, or YAML inputs against explicit schemas and returns a machine-usable pass/fail result. Invoke this instead of using a broader application platform when the task is narrowly about schema validation, schema compilation, or schema migration in automation. The scope boundary is specific enough to be skill-shaped: validate concrete data and config artifacts against declared schemas in scripts or CI, not serve as a generic library, framework, or product listing.
+Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli`.
+Download the skill folder or repository archive and extract `skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

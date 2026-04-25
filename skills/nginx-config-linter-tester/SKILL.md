@@ -1,10 +1,10 @@
 ---
 title: "Nginx Config Linter and Tester"
 description: "Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Nginx Config Linter and Tester
 
-The Nginx Config Linter and Tester skill provides comprehensive validation and security analysis for Nginx web server configurations. It combines multiple analysis tools for thorough configuration auditing. The skill uses the gixy static analyzer to detect common Nginx security misconfigurations including SSRF via proxy_pass, HTTP splitting vulnerabilities, and improper alias path traversal. It parses configuration files using the crossplane Python library for structural validation. Configuration testing includes dry-run validation via nginx -t subprocess execution, verifying syntax correctness and file reference integrity. The skill checks for missing security headers (HSTS, CSP, X-Frame-Options), improper SSL/TLS configurations, and weak cipher suite selections. Advanced features include upstream health check configuration validation, rate limiting rule analysis, and gzip compression settings optimization. The skill generates remediation suggestions with corrected configuration snippets and links to Nginx documentation for each finding.
+Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/nginx-config-linter-tester/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nginx-config-linter-tester
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/nginx-config-linter-tester`.
+Download the skill folder or repository archive and extract `skills/nginx-config-linter-tester` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

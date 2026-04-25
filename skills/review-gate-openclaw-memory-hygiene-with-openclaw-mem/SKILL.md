@@ -1,10 +1,10 @@
 ---
 title: "Review-gate OpenClaw memory hygiene with openclaw-mem"
 description: "Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory."
-verification: "listed"
+verification: listed
 source: "https://github.com/phenomenoner/openclaw-mem"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Review-gate OpenClaw memory hygiene with openclaw-mem
 
-Use openclaw-mem when an OpenClaw operator needs to pack trusted context, inspect provenance, and review memory writes before long sessions drift or accumulate bad memory. Invoke it instead of relying on OpenClaw memory alone when the job is memory hygiene and bounded recall, not ordinary day-to-day chat. The boundary is a trust-aware OpenClaw memory review workflow, not a generic vector store, database, or standalone memory platform listing.
+Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem`.
+Download the skill folder or repository archive and extract `skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

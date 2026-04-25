@@ -1,10 +1,10 @@
 ---
 title: "Shopify Admin GraphQL Sync Agent"
 description: "Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Shopify/shopify-api-js"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Shopify Admin GraphQL Sync Agent
 
-Shopify Admin GraphQL Sync Agent is intended for integration workflows that need to move beyond manual REST polling and into more scalable, event-aware synchronization. It uses real Shopify Admin GraphQL patterns such as bulkOperationRunQuery, connection-based pagination for products and orders, and webhook-triggered delta processing to keep local systems aligned with Shopify without repeatedly fetching the same records. That makes it a strong fit for catalog mirrors, fulfillment systems, and analytics pipelines. The skill is especially valuable when a store has enough products or order volume that naive pagination becomes expensive and slow. By combining bulk queries for baseline syncs with webhook-assisted updates for ongoing changes, it becomes easier to manage throughput and freshness together. The workflow can also clarify how to use global IDs, filter scopes, and updated timestamps so sync logic remains deterministic. Use this skill when integrating Shopify with external systems that need reliable product, order, or inventory state and when GraphQL offers a cleaner long-term path than isolated REST endpoints.
+Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/shopify-admin-graphql-sync-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/shopify-admin-graphql-sync-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/shopify-admin-graphql-sync-agent`.
+Download the skill folder or repository archive and extract `skills/shopify-admin-graphql-sync-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

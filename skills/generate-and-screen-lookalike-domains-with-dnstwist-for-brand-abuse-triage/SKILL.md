@@ -1,10 +1,10 @@
 ---
 title: "Generate and screen lookalike domains with dnstwist for brand abuse triage"
 description: "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review."
-verification: "listed"
+verification: listed
 source: "https://github.com/elceef/dnstwist"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Generate and screen lookalike domains with dnstwist for brand abuse triage
 
-Use dnstwist when the immediate job is to generate lookalike domains for a known brand or domain, resolve them, and screen the results for likely phishing, typosquatting, or impersonation signals. The upstream project is explicitly focused on domain permutations and follow-up checks for brand abuse detection. Invoke this instead of normal DNS tooling when the goal is abuse triage around confusingly similar domains, not generic hostname lookup or broad attack-surface enumeration. The scope boundary is tight: dnstwist generates permutations and screens them for review. It is not a general DNS platform, registrar product, or full reconnaissance suite.
+Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage`.
+Download the skill folder or repository archive and extract `skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

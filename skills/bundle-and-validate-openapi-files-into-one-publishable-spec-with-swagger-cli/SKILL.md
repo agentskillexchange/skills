@@ -1,10 +1,10 @@
 ---
 title: "Bundle and validate OpenAPI files into one publishable spec with swagger-cli"
 description: "Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec."
-verification: "listed"
+verification: listed
 source: "https://github.com/APIDevTools/swagger-cli"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Bundle and validate OpenAPI files into one publishable spec with swagger-cli
 
-Use swagger-cli when an agent needs to take a split OpenAPI definition, follow its references, and emit a single validated artifact for downstream publishing or checks. Invoke this instead of using a general API platform when the job is specifically spec bundling and validation in a local or CI workflow. The scope boundary is tight: combine referenced OpenAPI files and fail fast on invalid contracts, not run API servers, manage docs portals, or act as a general SDK/framework listing. Note that the upstream project is deprecated, so this is publishable but less future-proof than more actively maintained alternatives.
+Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli`.
+Download the skill folder or repository archive and extract `skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

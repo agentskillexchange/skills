@@ -1,7 +1,7 @@
 ---
 title: "Frontend Design Guidance Skill"
 description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
 category:
   - "Developer Tools"
@@ -11,31 +11,31 @@ framework:
 
 # Frontend Design Guidance Skill
 
-Frontend Design Guidance Skill helps teams plan and refine interface work with more structure before implementation starts. It is aimed at builders working on dashboards, landing pages, and product UI who want practical direction on layout, hierarchy, spacing, typography, and implementation-ready design choices. Best for planning UI layouts and page structure before coding reviewing design direction for dashboards and landing pages adding stronger frontend implementation guidance to build workflows Install notes Install the skill in an OpenClaw workspace and use it during frontend planning or review. It works best when paired with an existing project or prototype context where design suggestions can be applied directly. Source: SuperDesign-inspired frontend guidance skill.
+Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/frontend-design-guidance-skill/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/frontend-design-guidance-skill
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/frontend-design-guidance-skill`.
+Download the skill folder or repository archive and extract `skills/frontend-design-guidance-skill` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

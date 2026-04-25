@@ -1,10 +1,10 @@
 ---
 title: "Enforce policy-gated and auditable agent execution with LACP"
 description: "Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds."
-verification: "listed"
+verification: listed
 source: "https://github.com/0xNyk/lacp"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Enforce policy-gated and auditable agent execution with LACP
 
-Use LACP when agent work needs control-plane governance, not just raw execution. It is for routing tasks through risk tiers, approval and budget gates, verification contracts, evidence manifests, and replayable run loops before or during real work. The boundary is what keeps this skill-shaped: LACP is publishable here as governed agent execution and preflight posture checking, not as a generic framework listing, because the operator invokes it specifically to gate, verify, and audit runs rather than merely to host agents.
+Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp`.
+Download the skill folder or repository archive and extract `skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Stripe Agent Toolkit for AI Payment Integration"
 description: "The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating Stripe payment APIs with AI agent frameworks. Supports OpenAI, LangChain, CrewAI, and Vercel AI SDK through function calling with granular API key permissions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/stripe/ai"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Stripe Agent Toolkit for AI Payment Integration
 
-What is the Stripe Agent Toolkit? The Stripe Agent Toolkit is Stripe’s official SDK for connecting AI agents to payment infrastructure. Hosted at github.com/stripe/ai with over 1,400 GitHub stars, it includes @stripe/agent-toolkit for function calling integration, @stripe/ai-sdk for Vercel AI billing, and @stripe/token-meter for usage metering across OpenAI, Anthropic, and Google Gemini. Stripe also operates a hosted MCP server at mcp.stripe.com with OAuth-based remote access. How the Skill Works An agent skill built on the Stripe Agent Toolkit exposes payment operations as callable functions within an AI agent’s tool repertoire. The toolkit wraps Stripe’s Python and Node SDKs, providing 25 tools across 13 categories including creating payment links, managing subscriptions, issuing refunds, querying transaction data, and creating customer records. Permissions are enforced through Stripe’s Restricted API Keys, giving fine-grained control over which operations an agent can perform. The MCP server implementation follows the Model Context Protocol standard, allowing any MCP-compatible client to connect to Stripe’s payment APIs. The local server runs via npx, while the remote server at mcp.stripe.com supports OAuth authentication for secure cloud-based access. Tool availability automatically adapts based on the permissions configured on the restricted API key. Integration Points The toolkit integrates with OpenAI’s Agent SDK, LangChain, CrewAI, and Vercel’s AI SDK natively. The MCP server works with Claude Desktop, Cursor, and any MCP-compatible client. Both Python (pip install stripe-agent-toolkit) and TypeScript (npm install @stripe/agent-toolkit) packages are available. The toolkit requires Python 3.11+ or Node.js and a Stripe API key. What It Outputs The skill produces structured payment operation results including payment link URLs, subscription IDs, refund confirmations, customer records, and transaction query results. Error responses include Stripe error codes and human-readable messages for agent interpretation.
+The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating Stripe payment APIs with AI agent frameworks. Supports OpenAI, LangChain, CrewAI, and Vercel AI SDK through function calling with granular API key permissions.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/stripe-agent-toolkit-ai-payment-integration/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stripe-agent-toolkit-ai-payment-integration
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/stripe-agent-toolkit-ai-payment-integration`.
+Download the skill folder or repository archive and extract `skills/stripe-agent-toolkit-ai-payment-integration` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

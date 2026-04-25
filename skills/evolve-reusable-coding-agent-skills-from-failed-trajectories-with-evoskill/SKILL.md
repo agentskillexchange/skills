@@ -1,10 +1,10 @@
 ---
 title: "Evolve reusable coding-agent skills from failed trajectories with EvoSkill"
 description: "Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sentient-agi/EvoSkill"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Evolve reusable coding-agent skills from failed trajectories with EvoSkill
 
-Use EvoSkill when the job is to turn repeated coding-agent failures into reusable skills instead of fixing prompts by hand one task at a time. The operator workflow is narrow and publishable: point EvoSkill at a supported coding agent and task set, induce candidate skills from failures, evaluate them, and keep the versions that measurably outperform the baseline. The scope boundary is what saves this from being a generic product card. This is not a broad agent framework listing or model marketplace entry. It is a concrete failed-trajectory-to-skill-improvement loop for coding agents, with benchmarking and selection built into the workflow.
+Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill`.
+Download the skill folder or repository archive and extract `skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

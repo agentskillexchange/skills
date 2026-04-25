@@ -1,10 +1,10 @@
 ---
 title: "Playwright Test Generator with Codegen"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Playwright Test Generator with Codegen
 
-The Playwright Test Generator leverages Playwright Codegen to record user interactions and produce maintainable end-to-end test scripts. Recording sessions capture clicks, form fills, navigation, and assertions across Chromium, Firefox, and WebKit browsers simultaneously through Playwright multi-browser architecture. Generated tests use the Playwright Test runner with TypeScript for type-safe selectors, built-in auto-waiting, and web-first assertions that eliminate flaky test patterns. The Page Object Model pattern is applied to generated code with automatic selector optimization preferring test-id attributes, ARIA roles, and text content over brittle CSS selectors. Visual regression testing integrates through the playwright-visual-regression plugin with configurable diff thresholds, platform-specific baselines, and automatic screenshot management. Test results flow to Allure reporting framework producing rich HTML reports with step-by-step traces, screenshots, and video recordings attached to failed tests. The generator supports API mocking via Playwright route interception for isolated frontend testing, and network HAR recording for replay-based test stabilization. Parallel execution leverages Playwright sharding for CI environments with automatic retry configuration for infrastructure-related failures.
+Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-test-generator-codegen/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-test-generator-codegen
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/playwright-test-generator-codegen`.
+Download the skill folder or repository archive and extract `skills/playwright-test-generator-codegen` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Build and refactor Copilot Studio agents as YAML from coding-agent workflows"
 description: "Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI."
-verification: "listed"
+verification: listed
 source: "https://github.com/microsoft/skills-for-copilot-studio"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Build and refactor Copilot Studio agents as YAML from coding-agent workflows
 
-Use Skills for Copilot Studio when you want a coding agent to create, edit, validate, test, or troubleshoot Copilot Studio agent definitions as files. The plugin exposes focused commands for authoring YAML, syncing agent content, running tests, and debugging routing or validation issues from Claude Code, GitHub Copilot CLI, or VS Code. Invoke this instead of using Copilot Studio normally when the advantage is code-first agent authoring and repeatable validation in your editor or terminal. The scope is bounded to Copilot Studio YAML workflows and related test or troubleshooting commands, not a generic Copilot Studio listing.
+Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-and-refactor-copilot-studio-agents-as-yaml/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-and-refactor-copilot-studio-agents-as-yaml
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/build-and-refactor-copilot-studio-agents-as-yaml`.
+Download the skill folder or repository archive and extract `skills/build-and-refactor-copilot-studio-agents-as-yaml` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

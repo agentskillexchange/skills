@@ -1,10 +1,10 @@
 ---
 title: "Run configurable multi-source deep research passes with Open Deep Research"
 description: "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends."
-verification: "listed"
+verification: listed
 source: "https://github.com/langchain-ai/open_deep_research"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run configurable multi-source deep research passes with Open Deep Research
 
-Use Open Deep Research when the task is to execute a deep-research run that gathers sources, iterates on search, compresses findings, and produces a synthesized report. Invoke it instead of doing ad hoc web research in ordinary chat when you need a configurable research agent with interchangeable model providers, search tools, and MCP-compatible retrieval sources. The scope boundary is skill-shaped and concrete: this is a bounded research-run workflow, not a generic framework listing and not just a product card for LangChain or a hosted research app.
+Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research`.
+Download the skill folder or repository archive and extract `skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

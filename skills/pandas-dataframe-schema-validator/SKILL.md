@@ -1,10 +1,10 @@
 ---
 title: "Pandas DataFrame Schema Validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pandas-dev/pandas"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Pandas DataFrame Schema Validator
 
-The Pandas DataFrame Schema Validator enforces data quality rules on Pandas DataFrames using the pandera schema validation library. It defines validation schemas using pa.DataFrameSchema with column-level type enforcement, nullable constraints, and value range specifications via pandera.Column definitions. The validator supports custom check functions using pandera.Check with lambda expressions, regex patterns, and statistical validations for distribution testing. It integrates with the pandas.api.types module to validate dtype compatibility across DataFrame operations. Schema inference is available using pandera.infer_schema() to generate baseline schemas from sample data, which can then be customized and tightened. The skill validates multi-index DataFrames, handles categorical dtype enforcement, and supports hypothesis testing checks using pandera.Hypothesis for statistical property validation. Error reporting generates detailed failure summaries with row indices, failing values, and schema violation categories.
+Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pandas-dataframe-schema-validator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/pandas-dataframe-schema-validator`.
+Download the skill folder or repository archive and extract `skills/pandas-dataframe-schema-validator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

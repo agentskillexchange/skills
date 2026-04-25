@@ -1,10 +1,10 @@
 ---
 title: "Verify a freshly provisioned server or container matches expected services, ports, and files"
 description: "Uses Goss to express the expected state of a machine or container, then validates that reality still matches the contract. Reach for it after provisioning, image builds, or config changes when an agent needs a fast pass or fail answer about service health and system drift."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/goss-org/goss"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Verify a freshly provisioned server or container matches expected services, ports, and files
 
-This skill uses Goss to validate that a newly provisioned server, golden image, or container actually matches the state you intended to ship. Goss works from a YAML test file and can check packages, files, ports, services, processes, users, groups, HTTP endpoints, and more. For an agent, the useful job is very concrete: compare a host or container against an expected operational contract and report drift before that machine goes further down the pipeline. Invoke this after infrastructure automation has already run, not instead of it. It fits the moment right after cloud-init, Ansible, Terraform, Packer, a Docker build, or a Kubernetes image update when you need to answer questions like “is sshd really listening,” “did the right package version land,” “does the config file exist with the expected mode,” or “did the service come up yet.” An agent can generate an initial baseline with autoadd, trim it to the assertions that matter, run goss validate, and use retry mode to wait until a target reaches a healthy state. The scope boundary keeps this skill from collapsing into a generic server tool listing. Goss is not configuration management, not a monitoring platform, and not a full compliance suite. It is a fast validation layer for post-provisioning checks and repeatable health assertions. Integration points include CI jobs, container image tests via dgoss, AMI bake pipelines, infrastructure runbooks, and deployment gates that should fail fast when a machine is not in the state the automation promised.
+Uses Goss to express the expected state of a machine or container, then validates that reality still matches the contract. Reach for it after provisioning, image builds, or config changes when an agent needs a fast pass or fail answer about service health and system drift.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files`.
+Download the skill folder or repository archive and extract `skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

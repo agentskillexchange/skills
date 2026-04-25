@@ -1,7 +1,7 @@
 ---
 title: "Budibase Open Source Low-Code Operations App Platform"
 description: "Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools on top of PostgreSQL, REST APIs, and other business data sources with self-hosted deployment options."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Budibase/budibase"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Budibase Open Source Low-Code Operations App Platform
 
-Budibase is an open-source low-code platform maintained by the Budibase team for building internal tools, approval flows, forms, and business applications. The upstream project focuses on operational software rather than generic website building, which makes it useful when an agent needs to help a team ship dashboards, CRUD apps, or process-driven interfaces quickly. Budibase can pull from multiple data sources, including PostgreSQL, MySQL, MariaDB, MongoDB, REST APIs, Airtable, S3, and more, so it can sit in front of the systems companies already use instead of forcing a greenfield stack. From an agent workflow perspective, Budibase is valuable because it reduces the amount of custom frontend and backend code needed for routine operations software. An agent can use it as the foundation for an inventory dashboard, approval workflow, internal admin portal, or ticketing-style interface, then extend it where needed instead of building every screen manually. The official documentation includes self-hosted Docker Compose deployment guidance, while the repository and release history show it is a real, maintained project with an active community footprint. Budibase also documents production hosting considerations and environment configuration, which helps agents move from proof of concept to a serviceable internal deployment. That combination of real upstream source, documentation, adoption, and clear job-to-be-done makes it a strong verified-metadata intake candidate.
+Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools on top of PostgreSQL, REST APIs, and other business data sources with self-hosted deployment options.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/budibase-open-source-low-code-operations-app-platform/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/budibase-open-source-low-code-operations-app-platform
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/budibase-open-source-low-code-operations-app-platform`.
+Download the skill folder or repository archive and extract `skills/budibase-open-source-low-code-operations-app-platform` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

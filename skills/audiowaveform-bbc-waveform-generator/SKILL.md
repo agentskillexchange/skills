@@ -1,10 +1,10 @@
 ---
 title: "audiowaveform Audio Waveform Data Generator and Image Renderer"
 description: "audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and Opus audio files. It outputs binary or JSON waveform data and renders PNG waveform images at configurable zoom levels."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/bbc/audiowaveform"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # audiowaveform Audio Waveform Data Generator and Image Renderer
 
-audiowaveform is a command-line application developed by BBC Research & Development that processes audio files to generate waveform data suitable for visual rendering. It accepts MP3, WAV, FLAC, Ogg Vorbis, and Opus input formats and produces output in binary (.dat), JSON (.json), or PNG image (.png) formats. The tool works by first mixing multi-channel audio to mono, then computing minimum and maximum sample values over groups of N input samples (controlled by the --zoom parameter). Each group of N samples produces one min/max pair in the output, creating a compact representation of the audio waveform that can be rendered at various zoom levels. A skill built around audiowaveform enables agents to generate audio visualizations for podcast episodes, music tracks, voice recordings, and any audio content. The JSON output format integrates directly with Peaks.js, BBC’s browser-based interactive audio waveform viewer, enabling rich web-based audio experiences. Key CLI options include: --input-format (specify input type when piping from stdin), --output-format (dat, json, or png), --zoom (samples per pixel), --bits (8 or 16-bit output resolution), --start and --end (time range in seconds), --width and --height (image dimensions), --colors (waveform color scheme), and --split-channels (render each channel separately). Integration workflows include: piping FFmpeg video output into audiowaveform for video soundtrack visualization, batch-processing podcast libraries to generate waveform thumbnails, creating audio previews for CMS platforms, and generating waveform data for interactive web audio players. The tool pairs with Peaks.js for browser-based waveform editing and with FFmpeg for format conversion pipelines. Available via apt on Ubuntu/Debian and as pre-built binaries for Linux, macOS, and Windows.
+audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and Opus audio files. It outputs binary or JSON waveform data and renders PNG waveform images at configurable zoom levels.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/audiowaveform-bbc-waveform-generator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audiowaveform-bbc-waveform-generator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/audiowaveform-bbc-waveform-generator`.
+Download the skill folder or repository archive and extract `skills/audiowaveform-bbc-waveform-generator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

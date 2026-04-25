@@ -1,10 +1,10 @@
 ---
 title: "Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations"
 description: "Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts."
-verification: "listed"
+verification: listed
 source: "https://github.com/aquasecurity/kube-hunter"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -15,31 +15,31 @@ tool_ecosystem:
 
 # Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations
 
-Use kube-hunter when the agent needs discovery-oriented probing of a Kubernetes environment, not when a user is just administering Kubernetes. The workflow is bounded: inspect reachable services and configuration exposures, identify likely risks, and produce findings for validation or remediation. That scope boundary, Kubernetes exposure discovery rather than general cluster management, makes this a publishable skill instead of a plain product listing.
+Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations`.
+Download the skill folder or repository archive and extract `skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

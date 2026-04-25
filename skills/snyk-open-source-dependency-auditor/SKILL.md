@@ -1,10 +1,10 @@
 ---
 title: "Snyk Open Source Dependency Auditor"
 description: "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/snyk/cli"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Cursor"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Snyk Open Source Dependency Auditor
 
-The Snyk Open Source Dependency Auditor uses the Snyk CLI test command and Snyk REST API to perform comprehensive software composition analysis across project dependency trees. It resolves full transitive dependency graphs for npm (package-lock.json), Python (Pipfile.lock, requirements.txt), Go (go.sum), and Maven (pom.xml) projects. Each vulnerability is matched against the Snyk Vulnerability Database with enriched context including exploit maturity, social trending, and reachability analysis that determines if vulnerable code paths are actually invoked. The skill generates automated fix recommendations—either version upgrades to patched releases or Snyk-maintained patches for cases where upgrades would cause breaking changes. It can create GitHub pull requests with precise version bumps, updated lock files, and detailed changelogs explaining what each upgrade addresses. License compliance checking identifies AGPL, GPL, and other copyleft dependencies that may conflict with commercial software distribution.
+Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/snyk-open-source-dependency-auditor
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/snyk-open-source-dependency-auditor`.
+Download the skill folder or repository archive and extract `skills/snyk-open-source-dependency-auditor` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

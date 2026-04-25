@@ -1,7 +1,7 @@
 ---
 title: "Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark"
 description: "Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress."
-verification: "listed"
+verification: listed
 source: "https://github.com/browser-use/benchmark"
 category:
   - "Browser Automation"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark
 
-Use browser-use benchmark when the job is to measure browser-agent performance on a fixed evaluation suite, not to operate websites in production. It runs benchmark tasks and stealth checks across browser providers and model setups so you can compare reliability with the same harness each time. Invoke this instead of using browser-use normally when you need evidence about browser-agent quality before changing models, providers, or orchestration choices. The scope boundary is benchmark execution and comparison on fixed suites, not the broader browser-use automation library itself.
+Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark`.
+Download the skill folder or repository archive and extract `skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

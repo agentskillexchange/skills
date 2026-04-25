@@ -1,10 +1,10 @@
 ---
 title: "Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner"
 description: "Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really needs you."
-verification: "listed"
+verification: listed
 source: "https://github.com/Git-on-my-level/codex-autorunner"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner
 
-Use Codex Autorunner when the job is to run a queued implementation plan through multiple coding-agent tickets without constant supervision, not when a user simply wants an interactive coding chat. The operator workflow is narrow and concrete: convert planned work into CAR ticket files, let the state machine dispatch them to supported agents, and surface interruptions only for blockers, reviews, or human decisions. That scope boundary, ticket-driven unattended agent orchestration with escalation, keeps this skill distinct from a general coding agent, IDE, or terminal session manager listing.
+Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really needs you.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner`.
+Download the skill folder or repository archive and extract `skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

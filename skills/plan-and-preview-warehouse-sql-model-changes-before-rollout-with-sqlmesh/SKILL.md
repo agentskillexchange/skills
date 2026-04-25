@@ -1,10 +1,10 @@
 ---
 title: "Plan and preview warehouse SQL model changes before rollout with SQLMesh"
 description: "Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution."
-verification: "listed"
+verification: listed
 source: "https://github.com/SQLMesh/sqlmesh"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Plan and preview warehouse SQL model changes before rollout with SQLMesh
 
-Use SQLMesh when an agent needs to review analytics-model changes before they hit the warehouse. The agent can diff models, preview impacted tables and backfills, and produce a safer rollout plan before any destructive or expensive run. The boundary is tightly pre-rollout planning and impact review for SQL transformations, not a generic SQL editor, BI tool, or warehouse platform listing.
+Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh`.
+Download the skill folder or repository archive and extract `skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

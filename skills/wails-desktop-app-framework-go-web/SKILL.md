@@ -1,7 +1,7 @@
 ---
 title: "Wails Desktop Application Framework for Go and Web Technologies"
 description: "Wails is an open source framework for building desktop applications using Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the frontend. It compiles to a single native binary with no embedded browser overhead."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/wailsapp/wails"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Wails Desktop Application Framework for Go and Web Technologies
 
-Wails is a desktop application framework that lets developers build native applications using Go for the backend and any web frontend framework for the UI. Instead of embedding a full browser engine like Electron, Wails uses the platform native webview (WebKit on macOS, WebView2 on Windows, WebKitGTK on Linux), resulting in significantly smaller binaries and lower memory usage. How It Works Wails binds Go functions directly to the JavaScript frontend. Developers write backend logic in Go and build the UI with React, Vue, Svelte, or plain HTML/CSS/JS. The wails build command compiles everything into a single native binary. No bundled Chromium, no Node.js runtime — just a lean executable. Key Features Native webview rendering: Uses the OS native webview instead of bundling Chromium, producing binaries as small as 10 MB compared to Electron 150 MB+. Go backend with JS frontend: Call Go functions from JavaScript and vice versa with automatic TypeScript bindings generation. Built-in templates: Scaffold projects with React, Vue, Svelte, Preact, Lit, or Vanilla JS templates. Native dialogs and menus: Access native file dialogs, system menus, and tray icons. Dark/Light mode: Automatic OS theme detection and switching. Live development mode: Hot reload for both Go and frontend code during development. Cross-platform: Build for Windows, macOS, and Linux from a single codebase. Agent Integration Agents can use Wails to scaffold and build desktop applications that combine Go performance with modern web UIs. The CLI provides project creation (wails init), development server (wails dev), and production builds (wails build). Agents can generate Go backend code and frontend components, then compile to native binaries. Installation go install github.com/wailsapp/wails/v2/cmd/wails@latest
+Wails is an open source framework for building desktop applications using Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the frontend. It compiles to a single native binary with no embedded browser overhead.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wails-desktop-app-framework-go-web/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wails-desktop-app-framework-go-web
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/wails-desktop-app-framework-go-web`.
+Download the skill folder or repository archive and extract `skills/wails-desktop-app-framework-go-web` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

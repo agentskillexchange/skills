@@ -1,7 +1,7 @@
 ---
 title: "GitLab CI Auto DevOps Configurator"
 description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
   - "CI/CD Integrations"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # GitLab CI Auto DevOps Configurator
 
-The GitLab CI Auto DevOps Configurator skill generates .gitlab-ci.yml configurations using GitLab CI/CD syntax including stages, jobs, rules, artifacts, and cache directives. It leverages Auto DevOps templates (include: template: Auto-DevOps.gitlab-ci.yml) and GitLab-maintained CI templates for common languages and frameworks. The skill configures job definitions with script blocks, before_script/after_script hooks, image specifications for Docker executors, and services for dependency containers (postgres, redis, elasticsearch). It manages variables at project, group, and instance levels with protected and masked options. Cache configuration uses key-based strategies with cache:paths and cache:policy for build artifact reuse. Advanced features include multi-project pipeline triggers using trigger:project, parent-child pipelines with trigger:include, DAG (Directed Acyclic Graph) dependencies using needs for optimized execution order, and rules-based job control replacing only/except with flexible conditions. The configurator supports GitLab Container Registry integration (CI_REGISTRY_IMAGE), review app deployment with environment:url and environment:on_stop, SAST/DAST security scanning template inclusion, and GitLab Pages deployment configuration for static site hosting.
+Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitlab-ci-auto-devops-configurator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/gitlab-ci-auto-devops-configurator`.
+Download the skill folder or repository archive and extract `skills/gitlab-ci-auto-devops-configurator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

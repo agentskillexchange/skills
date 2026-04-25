@@ -1,10 +1,10 @@
 ---
 title: "SOPS Encrypted Secrets Editor and Manager"
 description: "SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/getsops/sops"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # SOPS Encrypted Secrets Editor and Manager
 
-SOPS is a battle-tested open-source tool for encrypting and decrypting structured data files while keeping them version-control friendly. Unlike full-file encryption that produces opaque binary blobs, SOPS encrypts only the values in your YAML, JSON, ENV, INI, or binary files while leaving the keys visible. This means you can review diffs, merge changes, and audit secrets in Git without ever exposing sensitive data in plaintext. How It Works When you run sops encrypt secrets.yaml, SOPS encrypts each value in the file using one or more master keys from providers like AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, or PGP. The encrypted file retains its original structure with keys visible and values replaced by encrypted strings. A metadata block tracks which master keys can decrypt the file, enabling key rotation and multi-party access control. Key Features SOPS supports multiple encryption backends simultaneously, allowing you to encrypt a single file with both an AWS KMS key and a PGP key for redundancy. The .sops.yaml configuration file lets you define creation rules that automatically select the right encryption keys based on file paths and patterns. Key groups enable threshold-based decryption where multiple keys from different groups must agree before secrets are revealed. Integration Points SOPS integrates with CI/CD pipelines through its CLI interface and Go library. Kubernetes users can pair it with controllers like sops-secrets-operator to decrypt secrets at deploy time. Terraform users leverage the sops provider to read encrypted variable files. The tool also supports Hashicorp Vault as a key management backend, providing a bridge between file-based and service-based secret management. Agent Workflow AI agents can use SOPS to safely manage environment configurations that contain secrets. An agent can encrypt new secrets files, rotate encryption keys with sops updatekeys, extract individual values with sops -d --extract for runtime consumption, and audit which master keys have access to which files. The structured output format makes SOPS output easy to parse and pipe into other tools or scripts.
+SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sops-encrypted-secrets-editor-manager/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sops-encrypted-secrets-editor-manager
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/sops-encrypted-secrets-editor-manager`.
+Download the skill folder or repository archive and extract `skills/sops-encrypted-secrets-editor-manager` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

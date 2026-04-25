@@ -1,44 +1,41 @@
 ---
 title: "Generate reproducible algorithmic art sketches with seeded p5.js randomness"
 description: "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or a generic design suggestion. It directs the agent toward a repeatable p5.js workflow with seeded randomness, parameter controls, and an explicit creative philosophy."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116918
 ---
 
 # Generate reproducible algorithmic art sketches with seeded p5.js randomness
 
-The upstream tool is Anthropic’s algorithmic-art skill from the anthropics/skills repository. The agent’s job is unusually specific: create original generative art systems in p5.js, grounded in a defined algorithmic philosophy, then implement them as reproducible sketches with seeds and interactive parameters. In practice that means the agent does more than brainstorm aesthetics. It frames a computational art direction, translates that into code, and produces a sketch where reruns are intentional rather than accidental. This should be invoked when a user wants coded art, generative visuals, flow fields, particle systems, or other algorithmic compositions. It is the right tool when the user needs executable creative output that can be tuned, replayed, and iterated on, especially when a normal product workflow would stop at a static mockup or image prompt. The skill is useful for artists, demo builders, creative coders, and anyone who wants the agent to make a working sketch instead of just describing one. The scope boundary keeps this from collapsing into a plain product listing. This is not a card for p5.js itself, not a gallery site, and not a generic image model. The value is the bounded workflow: establish the creative system, keep randomness seeded, expose parameters cleanly, and ship runnable code. Integration points include p5.js, HTML viewers, parameter controls, seeded random and noise functions, and iterative testing of generative behavior.
+Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or a generic design suggestion. It directs the agent toward a repeatable p5.js workflow with seeded randomness, parameter controls, and an explicit creative philosophy.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness`.
+Download the skill folder or repository archive and extract `skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

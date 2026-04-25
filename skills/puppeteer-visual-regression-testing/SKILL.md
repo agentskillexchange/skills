@@ -1,7 +1,7 @@
 ---
 title: "Puppeteer Visual Regression Testing"
 description: "Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
   - "Browser Automation"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Puppeteer Visual Regression Testing
 
-This skill implements automated visual regression testing using Puppeteer for browser control and the pixelmatch library for pixel-level image comparison. It launches Chrome via puppeteer.launch() with configurable viewport dimensions using page.setViewport({ width, height }). For each test case, it captures full-page screenshots using page.screenshot({ fullPage: true, type: “png” }) and compares them against stored baseline images. The diffing engine uses pixelmatch with adjustable threshold (0.0-1.0) and alpha channel handling. When differences exceed the configured tolerance, the skill generates a diff image highlighting changed pixels in red. It supports testing across multiple viewport sizes for responsive design verification, running parallel browser instances via Promise.all for speed. Authentication is handled through page.type() for form filling and page.waitForNavigation() for login flows. Results are output as JSON reports with pass/fail status, diff percentage, and paths to diff images. Integrates with CI pipelines via exit codes and JUnit XML report generation.
+Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/puppeteer-visual-regression-testing
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/puppeteer-visual-regression-testing`.
+Download the skill folder or repository archive and extract `skills/puppeteer-visual-regression-testing` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

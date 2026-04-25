@@ -1,10 +1,10 @@
 ---
 title: "Auto-Editor Automated Video and Audio Silence Trimmer CLI"
 description: "Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WyattBlue/auto-editor"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI
 
-Auto-Editor is a command-line tool written in Nim and Python that performs automated first-pass editing on video and audio files. The core concept is simple: analyze media for silence, motionlessness, or other signals, then cut out the dead space automatically. This saves editors hours of tedious work trimming pauses and gaps from recordings, lectures, podcasts, and vlogs. How It Works Run auto-editor path/to/your/video.mp4 and it analyzes audio loudness by default (threshold configurable via --edit audio:threshold=0.04). It can also detect motion (--edit motion:threshold=0.02) or combine methods (--edit "(or audio:0.03 motion:0.06)"). The --margin flag adds padding around cuts for natural-feeling edits. Export Formats Auto-Editor can render the final output directly or export edit decision lists for professional NLEs: --export premiere (FCP7 XML for Premiere Pro), --export resolve (DaVinci Resolve), --export final-cut-pro, --export shotcut, --export kdenlive, and --export clip-sequence for individual clips. Agent Integration As a CLI tool, Auto-Editor integrates naturally into agent workflows. An agent can run it in a shell to automatically process raw recordings, apply configurable edit thresholds, and produce timeline files ready for manual review. The --cut-out and --add-in flags allow precise segment control, while --edit none or --edit all provide full manual override. Install via pip install auto-editor. The tool is in the public domain.
+Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/auto-editor-automated-video-audio-silence-trimmer-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/auto-editor-automated-video-audio-silence-trimmer-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/auto-editor-automated-video-audio-silence-trimmer-cli`.
+Download the skill folder or repository archive and extract `skills/auto-editor-automated-video-audio-silence-trimmer-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

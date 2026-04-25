@@ -1,10 +1,10 @@
 ---
 title: "Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync"
 description: "Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push encrypted full-system backups to an rclone backend."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync
 
-Use openclaw-workspace-sync when an OpenClaw agent needs a bounded workspace sync or backup job instead of a generic cloud storage tool listing. The upstream project is explicitly an OpenClaw plugin that installs into OpenClaw, adds openclaw workspace-sync commands, supports mailbox, mirror, and bisync workspace sync modes, and can stream encrypted backups of the wider agent system through rclone-backed storage. This is skill-shaped because the invocation is not use rclone or use cloud storage normally. The agent invokes an OpenClaw-specific operator workflow: set up the plugin, choose a sync mode, move files through the workspace inbox or outbox path, or run encrypted backup and retention flows against configured storage. The scope boundary is OpenClaw workspace synchronization and backup orchestration, not general-purpose storage management.
+Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push encrypted full-system backups to an rclone backend.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync`.
+Download the skill folder or repository archive and extract `skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

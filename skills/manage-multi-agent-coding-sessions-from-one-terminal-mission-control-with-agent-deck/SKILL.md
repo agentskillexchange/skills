@@ -1,7 +1,7 @@
 ---
 title: "Manage multi-agent coding sessions from one terminal mission control with Agent Deck"
 description: "Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs, panes, and worktrees by hand."
-verification: "listed"
+verification: listed
 source: "https://github.com/asheshgoplani/agent-deck"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Manage multi-agent coding sessions from one terminal mission control with Agent Deck
 
-Use Agent Deck when the missing step is operational control over many live coding-agent sessions at once. An agent operator can create and group sessions, switch instantly between them, fork existing conversations, attach pooled MCP servers and skills, manage git worktrees, and keep waiting or failed sessions visible from one terminal UI. The scope boundary is clear: this is a multi-session control surface for existing coding agents, not a generic coding assistant listing and not merely a tmux helper. Invoke it when session sprawl is the problem, not when you simply need another single-agent CLI.
+Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs, panes, and worktrees by hand.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck`.
+Download the skill folder or repository archive and extract `skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

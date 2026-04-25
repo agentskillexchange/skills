@@ -1,44 +1,41 @@
 ---
 title: "Generate Slack-ready animated GIFs from custom frame sequences"
 description: "Use Anthropic’s slack-gif-creator skill to build animated GIFs that stay inside Slack’s practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116154
 ---
 
 # Generate Slack-ready animated GIFs from custom frame sequences
 
-Tool name: Anthropic’s slack-gif-creator skill from the public anthropics/skills repository. The upstream source defines a very specific job: create animated GIFs optimized for Slack, with explicit dimensions, frame-rate guidance, color limits, and a code path built around GIFBuilder, Pillow, and image encoding helpers. That specificity is exactly why this passes the skill-shaped gate. What the agent does: decide whether the output is an emoji-sized GIF or a larger message GIF, build or transform the frame sequence, draw graphics with Pillow primitives or use uploaded images as direct source material, optimize the palette and frame count, and export a GIF that is small enough and short enough to work well in Slack. The skill is valuable because it translates vague requests like “make me a Slack GIF of this mascot waving” into a repeatable rendering and optimization workflow with concrete technical constraints. When to use it: invoke this skill when the user wants a custom Slack reaction GIF, a lightweight animated status graphic, or a short looping visual for internal chat. It is the right choice when a normal image generator is not enough because the final output must actually behave well inside Slack and not balloon in file size or playback length. Scope boundary: this is not a generic design tool, not a broad video editor, and not a catalog card for Pillow or imageio. Its scope is narrowly bounded to Slack-oriented GIF creation and optimization. Integration points: Python, Pillow, imageio, imageio-ffmpeg, numpy, uploaded PNG or JPG source images, and downstream Slack usage for emoji or message attachments.
+Use Anthropic’s slack-gif-creator skill to build animated GIFs that stay inside Slack’s practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences`.
+Download the skill folder or repository archive and extract `skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Zapier Webhooks by Zapier Router"
 description: "Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/zapier/zapier-platform"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Zapier Webhooks by Zapier Router
 
-Zapier Webhooks by Zapier Router is a useful skill for teams that rely on Zapier as glue between SaaS products and need more discipline around the data entering their automations. It centers on real Webhooks by Zapier catch and post endpoints, especially the familiar hooks.zapier.com/hooks/catch/... pattern, and helps inspect payload shape, trigger assumptions, header usage, and the contract between upstream systems and downstream zaps. That is often where mysterious automation failures start. The skill can document expected JSON bodies, normalize fields before they branch into multiple zaps, and identify where a route should be split to avoid coupling unrelated systems together. It is particularly useful when the same webhook source feeds Slack alerts, CRM updates, and spreadsheet logging, because subtle schema drift in one place can break all three. Having a dedicated routing and validation layer reduces that risk. Use this skill when Zapier workflows have grown beyond a single trigger-action pair and you need clearer payload governance, better observability, and less guesswork around webhook-driven integrations.
+Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/zapier-webhooks-by-zapier-router/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/zapier-webhooks-by-zapier-router
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/zapier-webhooks-by-zapier-router`.
+Download the skill folder or repository archive and extract `skills/zapier-webhooks-by-zapier-router` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Export Obsidian vaults into clean Markdown trees for publishing or downstream processing"
 description: "Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes."
-verification: "listed"
+verification: listed
 source: "https://github.com/zoni/obsidian-export"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Export Obsidian vaults into clean Markdown trees for publishing or downstream processing
 
-Use obsidian-export when an agent needs to turn an Obsidian vault into regular Markdown that other tools can index, publish, or transform. A user should invoke this instead of using Obsidian normally when the job is an export-and-normalize handoff for downstream processing, not interactive note taking. The scope boundary is clear and skill-shaped: vault conversion from Obsidian-flavored Markdown into portable Markdown output, not a generic knowledge-base app listing.
+Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing`.
+Download the skill folder or repository archive and extract `skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill"
 description: "Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an approval-first optimization plan before changing project files."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill
 
-Use Xcode Build Optimization Agent Skill when an agent needs to benchmark clean and incremental Xcode builds, inspect compile hotspots and build settings, and turn the findings into a prioritized optimization plan. The upstream workflow is explicit: benchmark, analyze, recommend, get approval, apply selected fixes, and re-benchmark for verification. Invoke this instead of using Xcode or ad hoc scripts normally when the job is to diagnose slow local build loops and produce evidence-backed optimization steps rather than just compile the app. The scope boundary is tight and skill-shaped: this is an agent workflow for Xcode build-performance analysis and approved remediation, not a generic IDE, build system, or Apple developer-tool listing.
+Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an approval-first optimization plan before changing project files.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill`.
+Download the skill folder or repository archive and extract `skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

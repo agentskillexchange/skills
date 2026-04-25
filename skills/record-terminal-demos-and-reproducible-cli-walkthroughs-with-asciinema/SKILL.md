@@ -1,10 +1,10 @@
 ---
 title: "Record terminal demos and reproducible CLI walkthroughs with asciinema"
 description: "Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording."
-verification: "listed"
+verification: listed
 source: "https://github.com/asciinema/asciinema"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Record terminal demos and reproducible CLI walkthroughs with asciinema
 
-Use asciinema when an agent should preserve a terminal interaction as a lightweight replayable cast for bug reports, onboarding, runbooks, or skill demonstrations. This is better than ordinary video capture when the important surface is the shell session itself, including commands, timing, and searchable terminal output. The scope boundary keeps it skill-shaped: record and replay terminal workflows, not general-purpose video production or a generic developer-product listing.
+Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema`.
+Download the skill folder or repository archive and extract `skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

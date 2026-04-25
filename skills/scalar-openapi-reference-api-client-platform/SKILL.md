@@ -1,10 +1,10 @@
 ---
 title: "Scalar OpenAPI Reference and API Client Platform"
 description: "Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/scalar/scalar"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Scalar OpenAPI Reference and API Client Platform
 
-Scalar is an open-source API platform built around OpenAPI and Swagger documents. It gives teams a modern API reference UI, an offline-first API client, and a registry-style workflow for managing machine-readable specs. For agent builders and developers, the main job-to-be-done is straightforward: turn an OpenAPI document into a reference that humans can read, explore, and test without sending people into a cluttered legacy docs interface. The project supports a broad integration surface. Its README documents HTML/JavaScript embedding plus integrations for ASP.NET Core, Django, Express, FastAPI, Laravel, NestJS, Next.js, React, Spring Boot, Vue, and more. That makes it useful when an agent needs to expose or consume an API contract in mixed environments instead of being locked to one framework. The quickstart uses the @scalar/api-reference package from jsDelivr and initializes the UI against an OpenAPI URL, which is simple to automate in CI, docs portals, or generated developer hubs. Scalar also ships a browser-based API client and managed hosting options, so the same upstream tool can cover documentation publishing, request testing, and API onboarding. The upstream project is actively maintained on GitHub, carries an MIT license, and links to full product documentation at docs.scalar.com. For ASE, this skill is a strong fit for teams that want to publish polished API references, validate OpenAPI-driven workflows, and provide a better developer experience around existing REST services.
+Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scalar-openapi-reference-api-client-platform/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scalar-openapi-reference-api-client-platform
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/scalar-openapi-reference-api-client-platform`.
+Download the skill folder or repository archive and extract `skills/scalar-openapi-reference-api-client-platform` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

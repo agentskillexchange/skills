@@ -1,10 +1,10 @@
 ---
 title: "Find unused Python code before cleanup refactors with Vulture"
 description: "Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly."
-verification: "listed"
+verification: listed
 source: "https://github.com/jendrikseipp/vulture"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Find unused Python code before cleanup refactors with Vulture
 
-Use Vulture when an agent is preparing a Python cleanup, migration, or repo-slimming pass and needs a focused list of likely unused code first. The agent can scan the project, review suspicious dead-code findings, and hand back a triage list before any destructive edits happen. The boundary is a pre-refactor dead-code review loop for Python, not a generic Python toolkit or broad linting platform listing.
+Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/find-unused-python-code-before-cleanup-refactors-with-vulture/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-unused-python-code-before-cleanup-refactors-with-vulture
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/find-unused-python-code-before-cleanup-refactors-with-vulture`.
+Download the skill folder or repository archive and extract `skills/find-unused-python-code-before-cleanup-refactors-with-vulture` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

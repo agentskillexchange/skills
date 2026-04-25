@@ -1,7 +1,7 @@
 ---
 title: "WebdriverIO Next-Gen Browser and Mobile Automation Framework"
 description: "WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver, WebDriver BiDi, and Appium protocols with built-in test runner, BDD/TDD frameworks, and cloud service integration for cross-browser and mobile testing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/webdriverio/webdriverio"
 category:
   - "Browser Automation"
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # WebdriverIO Next-Gen Browser and Mobile Automation Framework
 
-WebdriverIO is a comprehensive test automation framework built for Node.js that enables both end-to-end and component testing across browsers and mobile devices. Created and actively maintained by the open-source community with backing from organizations like Sauce Labs and BrowserStack, it has become one of the most widely adopted browser automation tools in the JavaScript ecosystem. Core Capabilities WebdriverIO supports multiple automation protocols including the W3C WebDriver specification, the newer WebDriver BiDi protocol for bidirectional browser communication, and Appium for native mobile app testing. This protocol flexibility means a single framework can handle web browsers (Chrome, Firefox, Safari, Edge) and mobile platforms (iOS, Android) without switching tools. Test Runner and Framework Support The built-in @wdio/cli test runner provides parallel test execution, automatic retries, spec and suite grouping, and a rich plugin ecosystem. It integrates with popular BDD/TDD frameworks like Mocha, Jasmine, and Cucumber, and supports cloud testing platforms including Sauce Labs, BrowserStack, TestingBot, and LambdaTest. Agent Integration For AI coding agents, WebdriverIO is valuable for generating, running, and debugging automated browser tests. Agents can scaffold test suites from user stories, write page object models, configure test matrices across browsers and devices, and analyze test failure reports. The framework’s TypeScript-first approach with strong type definitions makes it particularly well-suited for code generation by AI systems. Key Features Smart element selectors with automatic waiting and retry logic Visual regression testing with screenshot comparison Network interception and mocking via Chrome DevTools Protocol Component testing for React, Vue, Svelte, and Lit frameworks Accessibility testing with @wdio/accessibility-service Comprehensive reporting with Allure, Spec, JUnit, and custom reporters Install via npm with npm init wdio@latest for an interactive setup wizard, or add individual packages like npm install webdriverio for standalone usage. The project is MIT-licensed and hosted at github.com/webdriverio/webdriverio with extensive documentation at webdriver.io.
+WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver, WebDriver BiDi, and Appium protocols with built-in test runner, BDD/TDD frameworks, and cloud service integration for cross-browser and mobile testing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/webdriverio-browser-mobile-automation-framework/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/webdriverio-browser-mobile-automation-framework
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/webdriverio-browser-mobile-automation-framework`.
+Download the skill folder or repository archive and extract `skills/webdriverio-browser-mobile-automation-framework` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

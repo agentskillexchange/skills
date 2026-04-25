@@ -1,10 +1,10 @@
 ---
 title: "Datasette Data Exploration and Publishing Tool"
 description: "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/simonw/datasette"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Datasette Data Exploration and Publishing Tool
 
-Datasette is an open-source multi-tool created by Simon Willison for exploring and publishing data. It takes one or more SQLite database files and instantly serves them as an interactive website with a full JSON API. The tool is aimed at data journalists, researchers, archivists, and anyone who needs to make data accessible and queryable without building custom applications. Running datasette serve database.db starts a local web server that provides a browsable interface for every table, view, and query in the database. Users can filter rows, sort columns, apply facets, and run arbitrary SQL queries through the web interface. Every page also serves as a JSON API endpoint, making it easy to build downstream tools that consume the published data programmatically. Datasette supports one-command deployment to cloud platforms. datasette publish heroku database.db or datasette publish cloudrun database.db packages the database and application into a Docker container and deploys it, giving you a public URL in minutes. This publish workflow has made Datasette popular in newsrooms and government agencies for releasing open data. The plugin ecosystem extends Datasette with capabilities like full-text search, map visualizations, chart rendering, authentication, and write APIs. The companion tool sqlite-utils provides a CLI and Python library for creating SQLite databases from CSV, JSON, and other formats, making Datasette part of a broader data pipeline. Datasette also integrates with GitHub Codespaces for cloud-based data exploration. With over 10,000 GitHub stars, an Apache 2.0 license, and active development since 2017, Datasette has become a foundational tool in the data publishing ecosystem. It is available via pip, Homebrew, and Docker, and requires Python 3.8 or higher.
+Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/datasette-data-exploration-publishing-tool/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/datasette-data-exploration-publishing-tool
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/datasette-data-exploration-publishing-tool`.
+Download the skill folder or repository archive and extract `skills/datasette-data-exploration-publishing-tool` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

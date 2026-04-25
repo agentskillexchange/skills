@@ -1,10 +1,10 @@
 ---
 title: "LightRAG Graph-Based Retrieval-Augmented Generation Framework"
 description: "LightRAG is a Python-based retrieval-augmented generation framework that builds knowledge graphs from documents for more connected, contextual retrieval. Published at EMNLP 2025, it enables graph-powered RAG with support for multiple storage backends and LLM providers."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/HKUDS/LightRAG"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # LightRAG Graph-Based Retrieval-Augmented Generation Framework
 
-LightRAG is an open-source Python framework for retrieval-augmented generation (RAG) that uses knowledge graphs to enable more connected and contextual information retrieval. Developed by the HKUDS research group at the University of Hong Kong, it was published at EMNLP 2025 and has rapidly gained adoption with over 32,000 GitHub stars. How It Works Unlike traditional RAG systems that chunk documents and retrieve by vector similarity alone, LightRAG extracts entities and relationships from your documents to build a knowledge graph. When you query, it uses both vector similarity and graph traversal to find relevant information, producing more coherent and connected answers that span multiple documents. Key Features Graph-based RAG: Builds knowledge graphs from documents using entity recognition and relation extraction for fine-grained, domain-specific retrieval. Multiple query modes: Supports naive, local, global, hybrid, and mixed query modes with reranker support for optimal results. Flexible storage backends: Works with Neo4J, PostgreSQL, MongoDB, OpenSearch, and built-in storage for both vector and graph data. LLM provider agnostic: Compatible with OpenAI, Anthropic, local models via Ollama, and other providers. REST API server: Includes a built-in API server for document insertion and querying, plus a WebUI for visualization. Multimodal support: Handles text, images, tables, and equations through RAG-Anything integration. Citation support: Enables proper source attribution and document traceability. Evaluation and tracing: Integrated RAGAS for evaluation and Langfuse for observability tracing. Installation pip install lightrag-hku Integration with AI Agents LightRAG can serve as the knowledge retrieval backbone for AI coding agents and assistants. Its REST API makes it straightforward to integrate into agent workflows — insert documents during setup, then query during task execution. The knowledge graph approach is particularly valuable for codebases and technical documentation where entities (functions, classes, APIs) have rich relationships that flat vector search misses.
+LightRAG is a Python-based retrieval-augmented generation framework that builds knowledge graphs from documents for more connected, contextual retrieval. Published at EMNLP 2025, it enables graph-powered RAG with support for multiple storage backends and LLM providers.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lightrag-graph-rag-framework/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lightrag-graph-rag-framework
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/lightrag-graph-rag-framework`.
+Download the skill folder or repository archive and extract `skills/lightrag-graph-rag-framework` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

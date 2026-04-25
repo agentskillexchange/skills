@@ -1,10 +1,10 @@
 ---
 title: "Stress-test Python test suites with mutation runs from mutmut"
 description: "Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite."
-verification: "listed"
+verification: listed
 source: "https://github.com/boxed/mutmut"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Stress-test Python test suites with mutation runs from mutmut
 
-Use mutmut when an agent needs to evaluate how well a Python test suite actually detects behavioral changes before a risky merge or release. The agent can run mutation tests, collect surviving mutants, and point maintainers to weak assertions or missing cases. The boundary is mutation-based test-strength analysis for Python repositories, not a generic test runner or broad QA product listing.
+Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut`.
+Download the skill folder or repository archive and extract `skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

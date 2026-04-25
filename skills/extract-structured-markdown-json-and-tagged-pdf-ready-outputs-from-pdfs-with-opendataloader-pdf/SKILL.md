@@ -1,10 +1,10 @@
 ---
 title: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF"
 description: "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done."
-verification: "listed"
+verification: listed
 source: "https://github.com/opendataloader-project/opendataloader-pdf"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF
 
-Use OpenDataLoader PDF when an agent needs to turn PDFs into structured outputs such as markdown, JSON with bounding boxes, or accessibility-oriented tagged-PDF artifacts rather than treating it as a general document platform. A user should invoke it when the task is PDF extraction, layout-aware parsing, or remediation preparation for downstream RAG and accessibility flows. That scope boundary, PDF-only structured extraction and tagging workflow, keeps this skill-shaped instead of reading like a generic parsing SDK listing.
+Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf`.
+Download the skill folder or repository archive and extract `skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

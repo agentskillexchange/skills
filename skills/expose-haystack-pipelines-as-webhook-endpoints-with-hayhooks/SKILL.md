@@ -1,10 +1,10 @@
 ---
 title: "Expose Haystack pipelines as webhook endpoints with Hayhooks"
 description: "Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service."
-verification: "listed"
+verification: listed
 source: "https://github.com/deepset-ai/hayhooks"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Expose Haystack pipelines as webhook endpoints with Hayhooks
 
-Use Hayhooks when an agent already has a Haystack pipeline and needs to serve it through HTTP, webhook-style, OpenAI-compatible, or MCP endpoints for other systems to call. The user is not invoking a generic AI platform here. The workflow is narrow: wrap a pipeline, deploy it, and expose a documented endpoint surface for handoffs. That scope boundary, serving existing Haystack pipelines as callable endpoints, keeps it distinct from a plain library or framework listing.
+Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks`.
+Download the skill folder or repository archive and extract `skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

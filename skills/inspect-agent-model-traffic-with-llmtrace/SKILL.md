@@ -1,10 +1,10 @@
 ---
 title: "Inspect agent model traffic with LLMTrace"
 description: "Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls."
-verification: "listed"
+verification: listed
 source: "https://github.com/epappas/llmtrace"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Inspect agent model traffic with LLMTrace
 
-Use LLMTrace when an operator wants to put OpenAI-compatible traffic behind a proxy that can inspect prompts, flag prompt injection or PII, and enforce cost or policy controls before responses hit downstream systems. Invoke it instead of calling the model endpoint directly when the task is security and observability around agent traffic, not routine application usage. The boundary is a traffic-inspection and guardrail workflow for model calls, not a generic SDK, model host, or broad observability platform listing.
+Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/inspect-agent-model-traffic-with-llmtrace/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inspect-agent-model-traffic-with-llmtrace
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/inspect-agent-model-traffic-with-llmtrace`.
+Download the skill folder or repository archive and extract `skills/inspect-agent-model-traffic-with-llmtrace` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

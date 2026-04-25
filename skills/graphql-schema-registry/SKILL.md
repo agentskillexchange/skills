@@ -1,10 +1,10 @@
 ---
 title: "GraphQL Schema Registry"
 description: "Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Agents"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # GraphQL Schema Registry
 
-The GraphQL Schema Registry skill provides schema lifecycle management for GraphQL APIs, handling validation, evolution tracking, and federated composition. It uses graphql-inspector to compare schema versions and detect breaking changes including removed fields, changed argument types, and modified enum values. For federated architectures, the skill leverages Apollo Rover CLI (rover supergraph compose) to compose subgraph schemas into a unified supergraph, validating that all entity references resolve correctly and that no naming conflicts exist across subgraphs. It supports both Apollo Federation v1 and v2 directives. Schema quality is enforced through @graphql-eslint/eslint-plugin with configurable rule sets covering naming conventions (camelCase fields, PascalCase types), description requirements for public-facing fields, depth limiting rules to prevent abuse, and relay-style connection pagination patterns. The skill generates comprehensive documentation including field-level usage analytics by integrating with Apollo Studio reporting API, deprecated field tracking with sunset timelines, and interactive schema explorer HTML pages using GraphiQL or GraphQL Playground embedded builds. Migration support includes automatic generation of schema migration scripts for Prisma, TypeORM, and Hasura when GraphQL schema changes require underlying database modifications. The skill also validates that resolver implementations match schema definitions by analyzing TypeScript type coverage. Compatible with any GraphQL server implementation (Apollo, Yoga, Mercurius, Helix).
+Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/graphql-schema-registry/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/graphql-schema-registry
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/graphql-schema-registry`.
+Download the skill folder or repository archive and extract `skills/graphql-schema-registry` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,41 +1,41 @@
 ---
 title: "Hacker News Deep Thread Analyzer"
 description: "Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 ---
 
 # Hacker News Deep Thread Analyzer
 
-The Hacker News Deep Thread Analyzer skill provides rich analysis of Hacker News discussion threads using the official Algolia HN API and Firebase real-time API for comprehensive data retrieval. Given a story URL or HN item ID, it fetches the complete comment tree including deleted and dead comments (when accessible), reconstructing the full conversation topology. Sentiment analysis via TextBlob and VADER classifiers identifies emotional tone shifts throughout the thread, detecting where discussions become heated, where consensus emerges, and where productive technical debate occurs. Expertise signals are extracted by analyzing commenter history — accounts with high karma, longtime membership, and domain-relevant past comments are weighted higher in summary generation. The structured output maps key arguments and counterarguments into a debate tree, identifying the strongest points on each side of contentious topics. Link extraction and classification categorizes referenced URLs by type (documentation, blog posts, academic papers, code repositories), creating a curated resource list from the collective intelligence of the thread. The tool generates executive summaries at configurable detail levels: one-paragraph TL;DR, bullet-point key takeaways, or full argument mapping with attributed quotes. Batch mode processes multiple related threads to identify recurring themes across discussions.
+Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hacker-news-deep-thread-analyzer
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/hacker-news-deep-thread-analyzer`.
+Download the skill folder or repository archive and extract `skills/hacker-news-deep-thread-analyzer` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

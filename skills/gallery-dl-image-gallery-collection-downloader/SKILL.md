@@ -1,10 +1,10 @@
 ---
 title: "gallery-dl Image Gallery and Collection Downloader"
 description: "gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/mikf/gallery-dl"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # gallery-dl Image Gallery and Collection Downloader
 
-gallery-dl is a popular open-source command-line program for batch downloading image galleries and collections from a wide range of image hosting sites and social media platforms. Written in Python with over 17,000 GitHub stars, it fills the same niche for images that yt-dlp fills for video — reliable, scriptable, and extensively configurable bulk downloading. Supported Sites gallery-dl supports dozens of platforms including Pixiv, DeviantArt, Twitter/X, Reddit, Instagram, Danbooru, Gelbooru, ArtStation, Flickr, Tumblr, Imgur, and many more. Each site has a dedicated extractor module that handles the platform-specific API or HTML scraping required to discover and download images at full resolution. Core Capabilities The tool downloads entire galleries, user profiles, tag searches, and individual posts. It extracts and preserves metadata such as artist names, tags, descriptions, upload dates, and image dimensions. Output directory structures and filenames are fully customizable using Python format strings with metadata placeholders. Archive databases track previously downloaded files to avoid re-downloading on subsequent runs. Authentication and Filtering gallery-dl supports login credentials and browser cookie extraction for accessing age-restricted or private content. Post-processors handle file conversion, metadata writing to JSON sidecar files, and execution of custom commands after each download. Filter expressions allow selecting images by date range, file type, minimum resolution, tag inclusion or exclusion, and rating. Integration Points Configuration files in JSON format define site-specific settings, credentials, and output templates. The tool can be used as a Python library for programmatic integration. It works in automation pipelines via shell scripts and cron jobs. gallery-dl pairs well with media management tools like Hydrus Network for organizing downloaded collections with their preserved metadata.
+gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gallery-dl-image-gallery-collection-downloader
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/gallery-dl-image-gallery-collection-downloader`.
+Download the skill folder or repository archive and extract `skills/gallery-dl-image-gallery-collection-downloader` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

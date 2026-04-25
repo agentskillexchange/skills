@@ -1,10 +1,10 @@
 ---
 title: "Chafa Terminal Image and Graphics Renderer"
 description: "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hpjansson/chafa"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Chafa Terminal Image and Graphics Renderer
 
-Chafa is a versatile command-line utility and C library that converts image data—including animated GIFs, SVGs, and video frames—into graphics formats suitable for terminal display. Created by Hans Petter Jansson, Chafa supports multiple terminal graphics protocols including Sixel, Kitty graphics protocol, and iTerm2 inline images, as well as classic ANSI/Unicode character art. What Chafa Does Chafa reads image files in virtually any format (PNG, JPEG, WebP, TIFF, GIF, SVG via librsvg, and more) and converts them into output optimized for your terminal. It automatically detects your terminal’s capabilities and selects the best rendering mode available—from high-fidelity Sixel graphics on supported terminals down to ASCII art on the most basic text displays. Core Capabilities The tool provides fine-grained control over output through options for canvas size, color space, dithering algorithms, symbol selection, and animation frame rate. It can render to Unicode block characters, Braille patterns, ASCII characters, or pixel-perfect terminal graphics protocols. The ‘–animate’ flag enables smooth playback of animated GIFs directly in the terminal. Integration Points Chafa is available as both a CLI tool (‘chafa’) and a shared C library (libchafa) with a documented public API. The library can be embedded into other applications for terminal graphics rendering. Python bindings are available via the ‘chafa.py’ package on PyPI. Chafa is packaged for most Linux distributions (apt, dnf, pacman), macOS (Homebrew), and can be built from source using autotools. Agent Use Cases For AI agents operating in terminal environments, Chafa enables visual content rendering within CLI workflows—displaying image previews, showing visual diffs, rendering charts or diagrams, and presenting image analysis results directly in the terminal. Agents can pipe image data through Chafa to produce human-readable visual output without leaving the command line. The tool is particularly useful in SSH sessions, CI/CD pipelines, and headless server environments where a graphical display is unavailable.
+Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/chafa-terminal-image-graphics-renderer/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/chafa-terminal-image-graphics-renderer
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/chafa-terminal-image-graphics-renderer`.
+Download the skill folder or repository archive and extract `skills/chafa-terminal-image-graphics-renderer` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

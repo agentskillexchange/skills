@@ -1,10 +1,10 @@
 ---
 title: "Linkup JS SDK for Sourced Web Search and Fetch"
 description: "Linkup’s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/LinkupPlatform/linkup-js-sdk"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Linkup JS SDK for Sourced Web Search and Fetch
 
-Linkup JS SDK is the official JavaScript and TypeScript client for the Linkup API. The upstream repository and docs describe a simple client for running standard and deep search queries, as well as fetching page content in cleaned markdown form. The npm package exposes a practical integration point for developers who want sourced answers and web retrieval without building every request and response transform manually. For agent workflows, the job-to-be-done is straightforward. An agent can call Linkup to search for current information, switch to a deeper search mode for more complex queries, or fetch a specific URL with JavaScript rendering enabled when the target page depends on client-side execution. That combination makes the tool relevant for research assistants, monitoring agents, answer synthesis pipelines, and retrieval-heavy automations that need a documented SDK rather than ad hoc scraping logic. The upstream README documents installation from npm, client creation with an API key, and examples for both search and fetch endpoints. The official documentation site provides SDK references and implementation details. Although the repository is smaller than some other candidates, it meets the intake bar because it has a public official repo, npm package, docs, license, tagged releases, and recent maintenance activity. Those factors are enough to publish it at the verified metadata tier while leaving security promotion to the separate scanner workflow.
+Linkup’s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/linkup-js-sdk-sourced-web-search-fetch/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/linkup-js-sdk-sourced-web-search-fetch
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/linkup-js-sdk-sourced-web-search-fetch`.
+Download the skill folder or repository archive and extract `skills/linkup-js-sdk-sourced-web-search-fetch` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

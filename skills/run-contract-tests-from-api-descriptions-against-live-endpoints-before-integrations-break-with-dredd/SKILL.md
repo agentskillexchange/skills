@@ -1,10 +1,10 @@
 ---
 title: "Run contract tests from API descriptions against live endpoints before integrations break with Dredd"
 description: "Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release."
-verification: "listed"
+verification: listed
 source: "https://github.com/apiaryio/dredd"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Run contract tests from API descriptions against live endpoints before integrations break with Dredd
 
-Use Dredd when an agent needs to verify that a live HTTP API still behaves like its published description. It fits integration review, release hardening, and contract drift investigations where a spec already exists and must be tested against reality. Invoke this instead of using the API product normally when the agent must turn an API description into executable contract checks against a running service. This is skill-shaped because the boundary is narrow: spec-driven contract verification of live endpoints. It is not a generic API platform, SDK, or documentation server listing.
+Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd`.
+Download the skill folder or repository archive and extract `skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

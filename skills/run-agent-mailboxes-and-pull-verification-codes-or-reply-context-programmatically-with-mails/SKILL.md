@@ -1,10 +1,10 @@
 ---
 title: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
 description: "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client."
-verification: "listed"
+verification: listed
 source: "https://github.com/chekusu/mails"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,31 +16,31 @@ tool_ecosystem:
 
 # Run agent mailboxes and pull verification codes or reply context programmatically with Mails
 
-Use Mails when an agent needs a programmatic mailbox workflow, for example sending a transactional message, waiting for a reply, extracting a verification code, syncing messages locally, or handling attachments. Invoke it instead of using email normally when the job is automation-safe send and receive behavior for agents rather than interactive inbox use by a human. The scope boundary keeps this skill-shaped: this entry is about programmatic agent mailbox operations and code retrieval, not a generic email provider, SDK, or hosted mail product listing.
+Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails`.
+Download the skill folder or repository archive and extract `skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

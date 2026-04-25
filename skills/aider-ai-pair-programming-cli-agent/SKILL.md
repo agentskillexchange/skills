@@ -1,7 +1,7 @@
 ---
 title: "Aider AI Pair Programming CLI Agent"
 description: "Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Aider-AI/aider"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Aider AI Pair Programming CLI Agent
 
-Aider is a terminal-based AI pair programming agent that lets developers collaborate with large language models to write, edit, and refactor code directly in their existing codebases. Maintained at github.com/Aider-AI/aider with 42,000+ GitHub stars and over 4.1 million installations, it is the most widely deployed open-source CLI coding agent. What makes Aider distinct from simple code generation tools is its deep understanding of your project. It builds a repository map of your entire codebase using tree-sitter parsing, which gives the LLM awareness of function signatures, class definitions, and module relationships across files. This means you can ask Aider to make changes that span multiple files — adding a new API endpoint with its route handler, database model, tests, and documentation — and it understands how the pieces connect. Git integration is core to Aider’s workflow. Every change the AI makes is automatically committed with a descriptive commit message. This means you can use standard git tools to review diffs, cherry-pick changes, or revert anything the AI did. The tool also integrates with your existing linters and test suites, automatically running them after changes and fixing any issues detected. Aider supports virtually every major LLM provider. It works best with Claude 3.7 Sonnet, DeepSeek R1, and GPT-4o, but connects to any OpenAI-compatible API including local models via Ollama. It handles over 100 programming languages including Python, JavaScript, TypeScript, Rust, Go, Ruby, C++, PHP, and more. A skill leveraging Aider would enable an agent to perform sophisticated multi-file code edits with full version control safety. The agent could implement features, fix bugs, refactor code, or add tests — all with automatic commits and rollback capability. Install via pip install aider-chat. Aider is Apache 2.0 licensed with active daily development.
+Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/aider-ai-pair-programming-cli-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aider-ai-pair-programming-cli-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/aider-ai-pair-programming-cli-agent`.
+Download the skill folder or repository archive and extract `skills/aider-ai-pair-programming-cli-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

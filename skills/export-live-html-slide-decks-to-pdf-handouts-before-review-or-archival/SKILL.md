@@ -1,10 +1,10 @@
 ---
 title: "Export live HTML slide decks to PDF handouts before review or archival"
 description: "Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It fits agent workflows that need a stable handout, attachment, or archive artifact from Reveal.js, Remark, WebSlides, and similar browser-based presentations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/astefanutti/decktape"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Export live HTML slide decks to PDF handouts before review or archival
 
-This ASE entry is built around DeckTape, the open source CLI from astefanutti/decktape that exports HTML presentations to PDF and can also capture slide screenshots. The agent behavior here is concrete: take a live or locally hosted slide deck URL, detect the presentation format, wait for the deck to load, and produce a distributable artifact that reviewers, approvers, or archive systems can consume without opening the presentation runtime. That makes it a strong fit for release packets, executive review loops, offline backups, conference submission bundles, and compliance archives where “open the deck in a browser” is not a dependable final step. Use this when the slides already exist and an agent needs to package them for someone else. DeckTape supports multiple presentation engines, exposes viewport and timing controls, lets an operator pass custom headers for protected decks, and can export selected slide ranges instead of the whole presentation. In practice, an agent can run it after a Marp, Slidev, Reveal.js, or internal HTML deck build, then attach the resulting PDF to a ticket, upload screenshots to a review thread, or stash the output in artifact storage from CI. The scope boundary is what keeps this skill from collapsing into a product listing. DeckTape is not a slide authoring tool, a design platform, or a generic browser automation framework. It solves the narrow operational problem of rendering already-built HTML presentations into portable review artifacts. That bounded export step, plus clean integrations with Node scripts, Docker, and CI runners, makes it skill-shaped enough for ASE.
+Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It fits agent workflows that need a stable handout, attachment, or archive artifact from Reveal.js, Remark, WebSlides, and similar browser-based presentations.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival`.
+Download the skill folder or repository archive and extract `skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

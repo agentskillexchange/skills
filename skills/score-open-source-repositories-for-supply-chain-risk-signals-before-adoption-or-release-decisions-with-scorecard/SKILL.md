@@ -1,10 +1,10 @@
 ---
 title: "Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard"
 description: "Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it."
-verification: "listed"
+verification: listed
 source: "https://github.com/ossf/scorecard"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard
 
-Use Scorecard when an agent needs a repeatable upstream trust check on an open source repository, not when someone is simply browsing GitHub or running a full SCA platform. The job is concrete: inspect a repo against published OpenSSF checks, surface weak supply-chain signals, and hand back a reviewable risk summary before adoption or release decisions. That scope boundary, repository security posture scoring against a known check set, keeps this skill-shaped instead of turning it into a generic product listing.
+Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard`.
+Download the skill folder or repository archive and extract `skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Run server-side ingest, search, and edit pipelines on video with VideoDB Skills"
 description: "Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline."
-verification: "listed"
+verification: listed
 source: "https://github.com/video-db/skills"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run server-side ingest, search, and edit pipelines on video with VideoDB Skills
 
-Use VideoDB Skills when an agent needs to upload or capture video, generate transcripts and scene understanding, search for moments, assemble clips, add subtitles or overlays, and return playable outputs from a server-side workflow. The right time to invoke it is when the operator wants promptable video ingestion and editing from inside an agent session rather than manually operating a video toolchain or stitching together ffmpeg-heavy scripts. That scope boundary, end-to-end agent video workflows with ingest, understanding, search, and edit steps, keeps it distinct from a generic media platform listing.
+Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills`.
+Download the skill folder or repository archive and extract `skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

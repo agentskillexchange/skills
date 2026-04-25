@@ -1,7 +1,7 @@
 ---
 title: "LazyDocker Terminal UI for Docker Management"
 description: "LazyDocker is a terminal UI for Docker and Docker Compose that provides container management, log viewing, resource monitoring, and image inspection through a keyboard-driven interface. Created by Jesse Duffield with 50,000+ GitHub stars."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jesseduffield/lazydocker"
 category:
   - "Developer Tools"
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # LazyDocker Terminal UI for Docker Management
 
-LazyDocker is an open-source terminal user interface for managing Docker containers, images, volumes, and networks, available at github.com/jesseduffield/lazydocker with over 50,000 GitHub stars. Written in Go by Jesse Duffield (who also created lazygit), it replaces the constant switching between docker and docker-compose CLI commands with a single, persistent dashboard view. The interface is split into panels showing containers, images, volumes, and their associated details. For each container, developers can view live logs with filtering, inspect resource usage (CPU, memory, network I/O), read the full container configuration, exec into the container shell, and perform lifecycle actions like start, stop, restart, remove, and rebuild. All operations are bound to single-key shortcuts with a context-sensitive help panel that shows available actions for the currently selected item. Docker Compose projects get first-class support. LazyDocker reads docker-compose.yml files and presents services as manageable units, allowing developers to rebuild specific services, view their logs independently, and monitor their resource consumption side by side. Bulk operations like bringing up or tearing down entire stacks are accessible from the services panel. The tool is customizable through a YAML configuration file at ~/.config/jesseduffield/lazydocker/config.yml where users can define custom command templates, adjust keybindings, configure log settings, and set UI panel layouts. Custom commands can be attached to containers or services, enabling project-specific workflows like running database migrations or triggering test suites from within the interface. Installation is available via Homebrew, scoop, chocolatey, pacman, Go install, and Docker itself (though running LazyDocker inside Docker has known limitations with log viewing and CPU stats). Binary releases are provided for Linux, macOS, and Windows. For agent skills that involve Docker-based development environments, deployment management, or container troubleshooting, LazyDocker provides a structured way to inspect container state, monitor resource usage, and execute management operations without constructing complex docker CLI commands. Agents can use it to quickly diagnose container issues, inspect logs, and manage multi-service application stacks.
+LazyDocker is a terminal UI for Docker and Docker Compose that provides container management, log viewing, resource monitoring, and image inspection through a keyboard-driven interface. Created by Jesse Duffield with 50,000+ GitHub stars.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lazydocker-terminal-docker-management/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lazydocker-terminal-docker-management
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/lazydocker-terminal-docker-management`.
+Download the skill folder or repository archive and extract `skills/lazydocker-terminal-docker-management` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint"
 description: "Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed."
-verification: "listed"
+verification: listed
 source: "https://github.com/ansible/ansible-lint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint
 
-This skill runs ansible-lint on Ansible content and helps agents interpret and fix the findings. Invoke it when you need a bounded pre-run or pre-merge review of playbooks, roles, or collections instead of manually scanning YAML or relying on a generic Ansible runner. The boundary is clear: the agent is performing a lint-and-remediate workflow for infrastructure code quality, not publishing ansible-lint as a generic tool listing.
+Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint`.
+Download the skill folder or repository archive and extract `skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Trace unstable network paths and packet loss with Trippy before escalating an outage"
 description: "Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents."
-verification: "listed"
+verification: listed
 source: "https://github.com/fujiapple852/trippy"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Trace unstable network paths and packet loss with Trippy before escalating an outage
 
-Use Trippy when an agent needs to diagnose an unreliable network path and identify where latency, jitter, or packet loss starts appearing. A user should invoke this instead of using generic network tooling when the job is a bounded route-health investigation before escalation, not broad network administration. The scope boundary is clear and skill-shaped: interactive traceroute-style path diagnostics with comparative hop evidence, not a plain terminal utility listing.
+Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage`.
+Download the skill folder or repository archive and extract `skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

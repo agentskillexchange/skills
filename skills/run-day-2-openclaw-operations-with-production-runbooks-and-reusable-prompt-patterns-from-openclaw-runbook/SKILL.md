@@ -1,10 +1,10 @@
 ---
 title: "Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook"
 description: "Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and cost control."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/digitalknk/openclaw-runbook"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook
 
-Use this skill when an OpenClaw deployment already exists and you need concrete operating procedures for keeping it stable, predictable, and affordable over time. ## What the agent does – follows the upstream runbook for day-2 OpenClaw operations – applies prompt patterns for coordinator, worker, heartbeat, and spawning workflows – adapts config snippets and operating guidance for quotas, memory boundaries, and security guardrails – uses the included examples and showcases as bounded operational templates ## When to invoke it Invoke this when you need repeatable OpenClaw operating practice for a long-running setup, not when you are looking for a generic introduction to the framework. ## Scope boundary This is not an OpenClaw product card. The scope is limited to operational runbooks, prompt patterns, and deployment hygiene for running OpenClaw day to day.
+Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and cost control.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook`.
+Download the skill folder or repository archive and extract `skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

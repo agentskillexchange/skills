@@ -1,41 +1,41 @@
 ---
 title: "SEO Keyword Research Automator"
 description: "Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Gemini"
 ---
 
 # SEO Keyword Research Automator
 
-The SEO Keyword Research Automator combines DataForSEO API for comprehensive SERP data collection with Google Search Console API for first-party performance metrics. It automates the entire keyword research pipeline from seed keyword expansion to final content brief generation. The agent performs bulk keyword analysis including search volume, keyword difficulty, CPC data, and SERP feature detection through DataForSEO’s Keywords Data endpoints. It clusters related keywords using TF-IDF scoring and cosine similarity, grouping them by search intent categories: informational, navigational, transactional, and commercial investigation. Advanced capabilities include competitor gap analysis by cross-referencing ranking domains, content brief generation with recommended headings and word counts based on top-ranking pages, and automated tracking of keyword position changes via Search Console’s searchAnalytics query endpoint. The agent also identifies featured snippet opportunities and People Also Ask patterns for content optimization.
+Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/seo-keyword-research-automator/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/seo-keyword-research-automator
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/seo-keyword-research-automator`.
+Download the skill folder or repository archive and extract `skills/seo-keyword-research-automator` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

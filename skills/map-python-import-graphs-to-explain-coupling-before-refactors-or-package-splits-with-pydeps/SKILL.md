@@ -1,10 +1,10 @@
 ---
 title: "Map Python import graphs to explain coupling before refactors or package splits with pydeps"
 description: "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork."
-verification: "listed"
+verification: listed
 source: "https://github.com/thebjorn/pydeps"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,31 +14,31 @@ tool_ecosystem:
 
 # Map Python import graphs to explain coupling before refactors or package splits with pydeps
 
-Use pydeps when an agent needs to inspect how Python modules depend on each other before a refactor, extraction, or architecture review. It is most useful when the real task is to surface import cycles, noisy coupling, or hidden dependency paths and hand back a graph or dependency report. This is not just a package listing because the boundary is a specific analysis workflow: run dependency discovery against a target package, tune scope and noise, and produce a graph that explains coupling. That is a concrete operator task with a clear before-and-after artifact.
+Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps`.
+Download the skill folder or repository archive and extract `skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

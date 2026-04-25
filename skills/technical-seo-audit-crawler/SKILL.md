@@ -1,41 +1,41 @@
 ---
 title: "Technical SEO Audit Crawler"
 description: "Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains, hreflang conflicts, and XML sitemap validation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "OpenClaw"
 ---
 
 # Technical SEO Audit Crawler
 
-This skill performs comprehensive technical SEO audits by combining multiple analysis tools. It initiates crawls using Screaming Frog SEO Spider command-line interface with custom extraction rules and configuration files for crawl depth, URL scope, and rendering settings. Lighthouse CI runs automated performance audits using the lighthouse-ci/action with budgets configured for Core Web Vitals thresholds (LCP under 2.5s, FID under 100ms, CLS under 0.1). PageSpeed Insights API v5 provides field data from Chrome User Experience Report alongside lab metrics. The agent analyzes crawl data for technical issues including redirect chains (301/302 sequences), canonical tag conflicts between self-referencing and cross-domain canonicals, orphaned pages without internal links, and mixed content warnings. Hreflang implementation is validated for reciprocal tag presence, x-default fallbacks, and ISO 639-1 language code compliance. XML sitemap validation checks for proper lastmod dates, priority values, and URL inclusion against crawl results. The skill generates prioritized issue reports with estimated traffic impact based on Google Search Console impression data.
+Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains, hreflang conflicts, and XML sitemap validation.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/technical-seo-audit-crawler/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/technical-seo-audit-crawler
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/technical-seo-audit-crawler`.
+Download the skill folder or repository archive and extract `skills/technical-seo-audit-crawler` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
