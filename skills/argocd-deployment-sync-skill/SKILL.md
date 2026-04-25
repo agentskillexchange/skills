@@ -1,7 +1,7 @@
 ---
 title: "ArgoCD Deployment Sync Skill"
 description: "Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
@@ -18,27 +18,27 @@ Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers appl
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/argocd-deployment-sync-skill/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/argocd-deployment-sync-skill
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/argocd-deployment-sync-skill` into your local skills collection.
+- Download the repository ZIP and extract `skills/argocd-deployment-sync-skill`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

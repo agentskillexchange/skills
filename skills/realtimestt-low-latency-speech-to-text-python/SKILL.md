@@ -1,10 +1,10 @@
 ---
 title: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
 description: "RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/KoljaB/RealtimeSTT"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +18,27 @@ RealtimeSTT is a Python library for real-time speech-to-text with advanced voice
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/realtimestt-low-latency-speech-to-text-python/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/realtimestt-low-latency-speech-to-text-python
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/realtimestt-low-latency-speech-to-text-python` into your local skills collection.
+- Download the repository ZIP and extract `skills/realtimestt-low-latency-speech-to-text-python`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

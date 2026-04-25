@@ -1,7 +1,7 @@
 ---
 title: "Playwright Visual Regression Suite"
 description: "Automated visual regression testing using Playwright’s screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category:
   - "Browser Automation"
@@ -20,27 +20,27 @@ Automated visual regression testing using Playwright’s screenshot comparison A
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-visual-regression-suite/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-visual-regression-suite
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/playwright-visual-regression-suite` into your local skills collection.
+- Download the repository ZIP and extract `skills/playwright-visual-regression-suite`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

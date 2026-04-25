@@ -1,10 +1,10 @@
 ---
 title: "Netdata Real-Time Infrastructure Monitoring and Alerting"
 description: "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project’s documented collectors, streaming, and cloud integrations."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/netdata/netdata"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Netdata is an open-source observability platform for real-time metrics, anomaly 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/netdata-real-time-infrastructure-monitoring-and-alerting/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/netdata-real-time-infrastructure-monitoring-and-alerting
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/netdata-real-time-infrastructure-monitoring-and-alerting` into your local skills collection.
+- Download the repository ZIP and extract `skills/netdata-real-time-infrastructure-monitoring-and-alerting`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

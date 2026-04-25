@@ -1,7 +1,7 @@
 ---
 title: "Lefthook Git Hooks Manager"
 description: "Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook commands in parallel. It integrates with Node.js, Ruby, Python, and any other project type through a simple YAML configuration."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/evilmartians/lefthook"
 category:
   - "Developer Tools"
@@ -20,27 +20,27 @@ Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pr
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/lefthook-git-hooks-manager/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lefthook-git-hooks-manager
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/lefthook-git-hooks-manager` into your local skills collection.
+- Download the repository ZIP and extract `skills/lefthook-git-hooks-manager`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

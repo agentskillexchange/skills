@@ -1,10 +1,10 @@
 ---
 title: "GlitchTip Open-Source Error Tracking Platform"
 description: "GlitchTip is an open-source, Sentry-compatible error tracking platform built for self-hosted exception monitoring and alerting. It is a strong fit when you want production error visibility with API compatibility, lighter infrastructure, and clear deployment docs."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://gitlab.com/glitchtip/glitchtip-backend"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---
@@ -15,27 +15,27 @@ GlitchTip is an open-source, Sentry-compatible error tracking platform built for
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/glitchtip-open-source-error-tracking-platform/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/glitchtip-open-source-error-tracking-platform
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/glitchtip-open-source-error-tracking-platform` into your local skills collection.
+- Download the repository ZIP and extract `skills/glitchtip-open-source-error-tracking-platform`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

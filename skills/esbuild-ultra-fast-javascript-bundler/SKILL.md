@@ -1,7 +1,7 @@
 ---
 title: "esbuild Ultra-Fast JavaScript Bundler"
 description: "esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build times than traditional tools like webpack. It handles bundling, minification, tree shaking, source maps, and CSS modules with a straightforward API available from the CLI, JavaScript, and Go."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/evanw/esbuild"
 category:
   - "Developer Tools"
@@ -20,27 +20,27 @@ esbuild is an extremely fast JavaScript and TypeScript bundler written in Go tha
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/esbuild-ultra-fast-javascript-bundler/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/esbuild-ultra-fast-javascript-bundler
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/esbuild-ultra-fast-javascript-bundler` into your local skills collection.
+- Download the repository ZIP and extract `skills/esbuild-ultra-fast-javascript-bundler`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP"
 description: "Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead of sending the user back to the Fabric UI or wiring custom SDK glue."
-verification: listed
+verification: "listed"
 source: "https://github.com/microsoft/fabric-rti-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric 
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp` into your local skills collection.
+- Download the repository ZIP and extract `skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
