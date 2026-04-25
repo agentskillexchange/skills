@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Diagnose Tailscale and proxy conflicts before remote development stalls out
 
-tunnel-doctor is a Claude Code skill for diagnosing and fixing multi-layer conflicts between Tailscale and proxy/VPN tooling on macOS. It walks an agent through symptom-based checks for route hijacking, HTTP proxy environment variables, system proxy bypass, SSH ProxyCommand double tunneling, and VM or container proxy propagation, including remote development and WSL-over-Tailscale edge cases.
-
-Invoke this instead of using Tailscale, Shadowrocket, Clash, Surge, Docker, or SSH normally when basic connectivity signals are misleading — for example when tailscale ping works but SSH times out, curl and browser disagree, git push fails through relays, or Docker image fetches break behind TUN and proxy layers. The scope boundary is clear: this is not a product listing for Tailscale or proxy software. It is a repeatable operator runbook for isolating the failing network layer and applying the right remediation path inside a Claude Code troubleshooting workflow.
+tunnel-doctor is a Claude Code skill for diagnosing and fixing multi-layer conflicts between Tailscale and proxy/VPN tooling on macOS. It walks an agent through symptom-based checks for route hijacking, HTTP proxy environment variables, system proxy bypass, SSH ProxyCommand double tunneling, and VM or container proxy propagation, including remote development and WSL-over-Tailscale edge cases. Invoke this instead of using Tailscale, Shadowrocket, Clash, Surge, Docker, or SSH normally when basic connectivity signals are misleading — for example when tailscale ping works but SSH times out, curl and browser disagree, git push fails through relays, or Docker image fetches break behind TUN and proxy layers. The scope boundary is clear: this is not a product listing for Tailscale or proxy software. It is a repeatable operator runbook for isolating the failing network layer and applying the right remediation path inside a Claude Code troubleshooting workflow.
 
 ## Installation
 

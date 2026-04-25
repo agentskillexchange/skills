@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Encrypt and decrypt age secrets with hardware-backed YubiKey identities
 
-age-plugin-yubikey adds a concrete hardware-backed secret workflow to age encryption. Invoke this when the task requires encrypting or decrypting age-managed secrets through a YubiKey-held identity, rather than handling plaintext secrets or ordinary software keys in the filesystem.
-
-The scope boundary is age encryption with YubiKey-backed recipient identities and operator presence requirements. That makes it a specific security workflow, not just a generic hardware token or encryption product card.
+age-plugin-yubikey adds a concrete hardware-backed secret workflow to age encryption. Invoke this when the task requires encrypting or decrypting age-managed secrets through a YubiKey-held identity, rather than handling plaintext secrets or ordinary software keys in the filesystem. The scope boundary is age encryption with YubiKey-backed recipient identities and operator presence requirements. That makes it a specific security workflow, not just a generic hardware token or encryption product card.
 
 ## Installation
 

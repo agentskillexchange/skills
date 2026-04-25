@@ -16,11 +16,7 @@ tool_ecosystem:
 
 # Gate MCP tool calls behind deterministic policy enforcement with Intercept
 
-Use Intercept when the job is to enforce hard policy on MCP tool calls. It runs as a proxy between an MCP client and an upstream MCP server, evaluating each tools/call request against YAML rules so dangerous tools can be hidden, blocked, rate-limited, or budget-constrained before execution.
-
-Invoke this instead of using the product normally when prompt-only guardrails are not enough and an agent needs deterministic enforcement outside the model context. The workflow is concrete: generate or author a policy, place Intercept in front of the MCP server, then let the agent operate through the guarded transport.
-
-The scope boundary is explicit. This is not a generic MCP server card and not a broad security product listing. It is the bounded workflow of proxying MCP traffic through auditable transport-layer rules that constrain what an agent can actually call.
+Use Intercept when the job is to enforce hard policy on MCP tool calls. It runs as a proxy between an MCP client and an upstream MCP server, evaluating each tools/call request against YAML rules so dangerous tools can be hidden, blocked, rate-limited, or budget-constrained before execution. Invoke this instead of using the product normally when prompt-only guardrails are not enough and an agent needs deterministic enforcement outside the model context. The workflow is concrete: generate or author a policy, place Intercept in front of the MCP server, then let the agent operate through the guarded transport. The scope boundary is explicit. This is not a generic MCP server card and not a broad security product listing. It is the bounded workflow of proxying MCP traffic through auditable transport-layer rules that constrain what an agent can actually call.
 
 ## Installation
 

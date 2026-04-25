@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Regenerate repository config from a single project definition with projen
 
-projen is a real project generator and synthesizer for repository configuration. Invoke this when the job is to regenerate package, CI, lint, and repo boilerplate from a canonical project definition and review the resulting drift, not when you simply want a general-purpose SDK or framework.
-
-The scope boundary is repository config synthesis and drift control from a single definition file. That is a distinct workflow and not just a plain product listing.
+projen is a real project generator and synthesizer for repository configuration. Invoke this when the job is to regenerate package, CI, lint, and repo boilerplate from a canonical project definition and review the resulting drift, not when you simply want a general-purpose SDK or framework. The scope boundary is repository config synthesis and drift control from a single definition file. That is a distinct workflow and not just a plain product listing.
 
 ## Installation
 

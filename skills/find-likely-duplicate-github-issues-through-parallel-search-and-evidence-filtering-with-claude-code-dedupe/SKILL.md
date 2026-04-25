@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe
 
-This entry is built from Anthropic’s dedupe command for Claude Code. The agent workflow is explicit: skip closed or non-actionable issues, summarize the target issue, launch multiple search passes with different query strategies, filter weak matches, and only then post up to three likely duplicates. That makes the operator job concrete and repeatable rather than a generic GitHub utility card.
-
-Invoke this when a repository is large enough that duplicate reports waste maintainer time and quick keyword searches miss the real prior thread. The scope boundary is tight: this skill is only for evidence-backed duplicate hunting and duplicate-link posting. It is not a general issue triage suite, GitHub platform listing, or broad repository automation package.
+This entry is built from Anthropic’s dedupe command for Claude Code. The agent workflow is explicit: skip closed or non-actionable issues, summarize the target issue, launch multiple search passes with different query strategies, filter weak matches, and only then post up to three likely duplicates. That makes the operator job concrete and repeatable rather than a generic GitHub utility card. Invoke this when a repository is large enough that duplicate reports waste maintainer time and quick keyword searches miss the real prior thread. The scope boundary is tight: this skill is only for evidence-backed duplicate hunting and duplicate-link posting. It is not a general issue triage suite, GitHub platform listing, or broad repository automation package.
 
 ## Installation
 

@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac
 
-Use httpYac when an agent needs to run versioned .http or .rest request files with variables, tags, hooks, and assertions as part of a repeatable API check. It fits local preflight runs, CI smoke tests, and handoff workflows where the requests should stay in the repo instead of a hosted workspace.
-
-This is skill-shaped because the job is not “use an API client” in the abstract. The bounded workflow is to execute scripted request files, filter which requests run, pass environment variables, and emit machine-usable results such as JSON or JUnit for downstream automation.
+Use httpYac when an agent needs to run versioned .http or .rest request files with variables, tags, hooks, and assertions as part of a repeatable API check. It fits local preflight runs, CI smoke tests, and handoff workflows where the requests should stay in the repo instead of a hosted workspace. This is skill-shaped because the job is not “use an API client” in the abstract. The bounded workflow is to execute scripted request files, filter which requests run, pass environment variables, and emit machine-usable results such as JSON or JUnit for downstream automation.
 
 ## Installation
 

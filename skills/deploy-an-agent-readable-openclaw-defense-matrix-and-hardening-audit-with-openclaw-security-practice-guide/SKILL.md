@@ -14,27 +14,7 @@ tool_ecosystem:
 
 # Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide
 
-Use this skill when you want OpenClaw to review and harden an existing deployment against a concrete threat model instead of asking for generic security advice.
-
-## What the agent does
-
-– reads the upstream security practice guide
-
-– checks the current OpenClaw setup for conflicts, gaps, and risky assumptions
-
-– applies the guide’s defense matrix in a controlled way
-
-– preserves human approval for high-risk or irreversible changes
-
-– validates that audit and follow-up checks are in place
-
-## When to invoke it
-
-Invoke this when you are operating a privileged or long-running OpenClaw instance and need a structured hardening pass, not when you simply want to install or learn OpenClaw.
-
-## Scope boundary
-
-This is not a plain OpenClaw listing. The job is narrowly bounded to security review and defense-matrix deployment from a specific upstream guide. It does not try to represent the whole platform, SDK, or ecosystem.
+Use this skill when you want OpenClaw to review and harden an existing deployment against a concrete threat model instead of asking for generic security advice. ## What the agent does – reads the upstream security practice guide – checks the current OpenClaw setup for conflicts, gaps, and risky assumptions – applies the guide’s defense matrix in a controlled way – preserves human approval for high-risk or irreversible changes – validates that audit and follow-up checks are in place ## When to invoke it Invoke this when you are operating a privileged or long-running OpenClaw instance and need a structured hardening pass, not when you simply want to install or learn OpenClaw. ## Scope boundary This is not a plain OpenClaw listing. The job is narrowly bounded to security review and defense-matrix deployment from a specific upstream guide. It does not try to represent the whole platform, SDK, or ecosystem.
 
 ## Installation
 

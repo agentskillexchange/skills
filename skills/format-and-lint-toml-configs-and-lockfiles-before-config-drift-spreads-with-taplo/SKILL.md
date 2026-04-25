@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Format and lint TOML configs and lockfiles before config drift spreads with Taplo
 
-Use Taplo when an agent needs to format, lint, or validate TOML-heavy repositories such as Rust workspaces, Python tool configs, CI metadata, or lockfile-driven projects. It is strongest when the real job is restoring consistency across many TOML files before review, release, or automated edits continue.
-
-A user should invoke this instead of editing TOML by hand or treating it as generic text when the task is artifact-specific TOML normalization and validation. The scope boundary is explicit and skill-shaped: Taplo focuses on TOML parsing, formatting, and validation, not general code formatting, package publishing, or framework management.
+Use Taplo when an agent needs to format, lint, or validate TOML-heavy repositories such as Rust workspaces, Python tool configs, CI metadata, or lockfile-driven projects. It is strongest when the real job is restoring consistency across many TOML files before review, release, or automated edits continue. A user should invoke this instead of editing TOML by hand or treating it as generic text when the task is artifact-specific TOML normalization and validation. The scope boundary is explicit and skill-shaped: Taplo focuses on TOML parsing, formatting, and validation, not general code formatting, package publishing, or framework management.
 
 ## Installation
 

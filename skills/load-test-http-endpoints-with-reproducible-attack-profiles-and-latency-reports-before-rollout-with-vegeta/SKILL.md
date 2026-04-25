@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta
 
-Use Vegeta when an agent needs a tight load-test loop around HTTP targets: define a target set, run a repeatable attack, and turn the results into latency and error reports. That is the skill boundary. It is not a general performance platform listing.
-
-Invoke it instead of a heavier benchmarking stack when the task is quick, scriptable HTTP pressure testing from the command line before rollout, tuning, or regression review. The workflow stays narrow and operator-shaped: targets in, attack run, report or plot out.
+Use Vegeta when an agent needs a tight load-test loop around HTTP targets: define a target set, run a repeatable attack, and turn the results into latency and error reports. That is the skill boundary. It is not a general performance platform listing. Invoke it instead of a heavier benchmarking stack when the task is quick, scriptable HTTP pressure testing from the command line before rollout, tuning, or regression review. The workflow stays narrow and operator-shaped: targets in, attack run, report or plot out.
 
 ## Installation
 

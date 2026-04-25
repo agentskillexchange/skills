@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill
 
-Use Xcode Build Optimization Agent Skill when an agent needs to benchmark clean and incremental Xcode builds, inspect compile hotspots and build settings, and turn the findings into a prioritized optimization plan. The upstream workflow is explicit: benchmark, analyze, recommend, get approval, apply selected fixes, and re-benchmark for verification.
-
-Invoke this instead of using Xcode or ad hoc scripts normally when the job is to diagnose slow local build loops and produce evidence-backed optimization steps rather than just compile the app. The scope boundary is tight and skill-shaped: this is an agent workflow for Xcode build-performance analysis and approved remediation, not a generic IDE, build system, or Apple developer-tool listing.
+Use Xcode Build Optimization Agent Skill when an agent needs to benchmark clean and incremental Xcode builds, inspect compile hotspots and build settings, and turn the findings into a prioritized optimization plan. The upstream workflow is explicit: benchmark, analyze, recommend, get approval, apply selected fixes, and re-benchmark for verification. Invoke this instead of using Xcode or ad hoc scripts normally when the job is to diagnose slow local build loops and produce evidence-backed optimization steps rather than just compile the app. The scope boundary is tight and skill-shaped: this is an agent workflow for Xcode build-performance analysis and approved remediation, not a generic IDE, build system, or Apple developer-tool listing.
 
 ## Installation
 

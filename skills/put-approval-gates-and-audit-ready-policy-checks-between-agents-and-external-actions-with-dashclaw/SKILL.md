@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Put approval gates and audit-ready policy checks between agents and external actions with DashClaw
 
-DashClaw is publishable as a bounded governance skill rather than a generic agent platform card. The agent job is clear: sit in front of risky external actions, evaluate them against approval or policy rules, stop or allow execution, and record verifiable evidence of what happened. The source describes this as decision infrastructure that intercepts actions and produces audit-ready trails.
-
-Invoke this instead of using an agent stack normally when the missing piece is governed execution: approvals, policy enforcement, and decision replay before an agent touches external systems. The boundary keeps it skill-shaped. This is not a listing for every framework DashClaw supports, nor a general orchestration product entry. It is specifically the guarded action-interception and evidence-capture layer.
+DashClaw is publishable as a bounded governance skill rather than a generic agent platform card. The agent job is clear: sit in front of risky external actions, evaluate them against approval or policy rules, stop or allow execution, and record verifiable evidence of what happened. The source describes this as decision infrastructure that intercepts actions and produces audit-ready trails. Invoke this instead of using an agent stack normally when the missing piece is governed execution: approvals, policy enforcement, and decision replay before an agent touches external systems. The boundary keeps it skill-shaped. This is not a listing for every framework DashClaw supports, nor a general orchestration product entry. It is specifically the guarded action-interception and evidence-capture layer.
 
 ## Installation
 

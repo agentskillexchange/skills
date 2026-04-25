@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Coordinate issue-backed parallel coding worktrees with CCPM
 
-Tool: CCPM. This skill gives agents a bounded project-delivery workflow: turn a PRD or epic into GitHub issues, decompose the work into parallelizable tasks, map each task to a worktree, and keep execution traceable through issue state and repo structure instead of loose chat coordination.
-
-When to use it: invoke this when a coding project is large enough that one agent session is no longer sufficient, and you need explicit task breakdown, handoffs, worktree isolation, and GitHub-backed status tracking before implementation drifts or parallel changes collide. The value is not “use a PM tool” in the abstract, it is the repeatable operator workflow that moves from planning to issue sync to parallel execution.
-
-Scope boundary: this is not a generic project-management product listing and not a broad GitHub Issues card. Its boundary is narrower: coordinate issue-backed parallel agent work with worktrees and traceable execution rules. If you just need a task tracker, this is too much. If you need a repo-native orchestration method for parallel coding agents, this is the job.
+Tool: CCPM. This skill gives agents a bounded project-delivery workflow: turn a PRD or epic into GitHub issues, decompose the work into parallelizable tasks, map each task to a worktree, and keep execution traceable through issue state and repo structure instead of loose chat coordination. When to use it: invoke this when a coding project is large enough that one agent session is no longer sufficient, and you need explicit task breakdown, handoffs, worktree isolation, and GitHub-backed status tracking before implementation drifts or parallel changes collide. The value is not “use a PM tool” in the abstract, it is the repeatable operator workflow that moves from planning to issue sync to parallel execution. Scope boundary: this is not a generic project-management product listing and not a broad GitHub Issues card. Its boundary is narrower: coordinate issue-backed parallel agent work with worktrees and traceable execution rules. If you just need a task tracker, this is too much. If you need a repo-native orchestration method for parallel coding agents, this is the job.
 
 ## Installation
 

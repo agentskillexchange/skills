@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Clone and refresh whole GitHub orgs for audit or migration with ghorg
 
-ghorg gives an agent a narrow workflow for syncing many GitHub repositories at once. Invoke this when you need a local mirror of an org or user account for audit, migration, archival review, or offline analysis, rather than using GitHub one repository at a time.
-
-The scope boundary is bulk repository synchronization from GitHub accounts into a local working set. That keeps it skill-shaped instead of becoming a generic Git hosting platform listing.
+ghorg gives an agent a narrow workflow for syncing many GitHub repositories at once. Invoke this when you need a local mirror of an org or user account for audit, migration, archival review, or offline analysis, rather than using GitHub one repository at a time. The scope boundary is bulk repository synchronization from GitHub accounts into a local working set. That keeps it skill-shaped instead of becoming a generic Git hosting platform listing.
 
 ## Installation
 

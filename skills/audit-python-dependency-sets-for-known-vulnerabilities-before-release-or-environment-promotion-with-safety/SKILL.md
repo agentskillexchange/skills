@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety
 
-Use Safety when an agent needs to scan a Python project, requirements file, or environment for vulnerable dependencies and return remediation guidance before release, deployment, or environment promotion. It is a command-line audit workflow, not a general package manager action.
-
-The scope boundary is clear: inspect Python dependency inventories, compare them with Safety’s vulnerability data, and produce a pass fail report with fix guidance. That keeps it skill-shaped instead of collapsing into a generic product card for the broader Safety platform.
+Use Safety when an agent needs to scan a Python project, requirements file, or environment for vulnerable dependencies and return remediation guidance before release, deployment, or environment promotion. It is a command-line audit workflow, not a general package manager action. The scope boundary is clear: inspect Python dependency inventories, compare them with Safety’s vulnerability data, and produce a pass fail report with fix guidance. That keeps it skill-shaped instead of collapsing into a generic product card for the broader Safety platform.
 
 ## Installation
 

@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP
 
-Use TomTom MCP when an agent needs tool-callable place search, reverse geocoding, route calculation, ETA estimation, traffic-aware planning, or map lookups as part of a larger workflow. It fits travel planning, dispatch support, field-service coordination, and itinerary generation where the agent must reason over live location data instead of sending a user out to a web map.
-
-This is skill-shaped because the job is narrow and repeatable: give an agent routing and location intelligence inside a planning workflow. It is not a generic TomTom product listing, full navigation app, SDK directory, or general GIS platform card. Invoke it for structured route and place decisions, not for human turn-by-turn driving or broad map-platform administration.
+Use TomTom MCP when an agent needs tool-callable place search, reverse geocoding, route calculation, ETA estimation, traffic-aware planning, or map lookups as part of a larger workflow. It fits travel planning, dispatch support, field-service coordination, and itinerary generation where the agent must reason over live location data instead of sending a user out to a web map. This is skill-shaped because the job is narrow and repeatable: give an agent routing and location intelligence inside a planning workflow. It is not a generic TomTom product listing, full navigation app, SDK directory, or general GIS platform card. Invoke it for structured route and place decisions, not for human turn-by-turn driving or broad map-platform administration.
 
 ## Installation
 

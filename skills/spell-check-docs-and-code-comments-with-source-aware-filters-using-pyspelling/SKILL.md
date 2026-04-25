@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Spell-check docs and code comments with source-aware filters using pyspelling
 
-Use pyspelling when an agent needs source-aware spell checking across documentation, generated text inputs, HTML, Markdown, or code comments with file-type-specific filters. It is especially useful when the workflow needs to preserve structure, ignore known non-prose regions, and fail CI only on meaningful spelling defects.
-
-A user should invoke this instead of a generic spell checker when the task is configurable, format-aware spelling review across a project tree. The scope boundary is specific and skill-shaped: pyspelling orchestrates spelling scans with filters and dictionary backends such as Aspell or Hunspell, not general writing assistance, editing, or documentation publishing.
+Use pyspelling when an agent needs source-aware spell checking across documentation, generated text inputs, HTML, Markdown, or code comments with file-type-specific filters. It is especially useful when the workflow needs to preserve structure, ignore known non-prose regions, and fail CI only on meaningful spelling defects. A user should invoke this instead of a generic spell checker when the task is configurable, format-aware spelling review across a project tree. The scope boundary is specific and skill-shaped: pyspelling orchestrates spelling scans with filters and dictionary backends such as Aspell or Hunspell, not general writing assistance, editing, or documentation publishing.
 
 ## Installation
 

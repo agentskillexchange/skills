@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Push, pull, and attach non-container OCI artifacts in registries with ORAS
 
-ORAS gives an agent a clean workflow for pushing, pulling, and attaching non-container artifacts to OCI registries. Invoke this when you need to store or retrieve SBOMs, attestations, model bundles, or related metadata in the same registry ecosystem as container delivery, but the job is not traditional image build or runtime management.
-
-The scope boundary is specific: registry-native artifact packaging and attachment workflows for OCI-compatible registries. This is not a generic registry product listing or a full container platform card.
+ORAS gives an agent a clean workflow for pushing, pulling, and attaching non-container artifacts to OCI registries. Invoke this when you need to store or retrieve SBOMs, attestations, model bundles, or related metadata in the same registry ecosystem as container delivery, but the job is not traditional image build or runtime management. The scope boundary is specific: registry-native artifact packaging and attachment workflows for OCI-compatible registries. This is not a generic registry product listing or a full container platform card.
 
 ## Installation
 

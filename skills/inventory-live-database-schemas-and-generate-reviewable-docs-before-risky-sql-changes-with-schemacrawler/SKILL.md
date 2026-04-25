@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler
 
-Use SchemaCrawler when an agent needs a trustworthy picture of a live database before migration, cleanup, documentation, or governance work begins. It fits situations where the problem is incomplete schema understanding, not general database administration.
-
-Invoke this instead of using the database product normally when the agent must extract a structural inventory, map dependencies, and generate reviewable docs from the live schema. This is skill-shaped because the job boundary is narrow: schema discovery and documentation. It is not a generic SQL client, database server, or broad data platform listing.
+Use SchemaCrawler when an agent needs a trustworthy picture of a live database before migration, cleanup, documentation, or governance work begins. It fits situations where the problem is incomplete schema understanding, not general database administration. Invoke this instead of using the database product normally when the agent must extract a structural inventory, map dependencies, and generate reviewable docs from the live schema. This is skill-shaped because the job boundary is narrow: schema discovery and documentation. It is not a generic SQL client, database server, or broad data platform listing.
 
 ## Installation
 

@@ -14,25 +14,7 @@ tool_ecosystem:
 
 # Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook
 
-Use this skill when an OpenClaw deployment already exists and you need concrete operating procedures for keeping it stable, predictable, and affordable over time.
-
-## What the agent does
-
-– follows the upstream runbook for day-2 OpenClaw operations
-
-– applies prompt patterns for coordinator, worker, heartbeat, and spawning workflows
-
-– adapts config snippets and operating guidance for quotas, memory boundaries, and security guardrails
-
-– uses the included examples and showcases as bounded operational templates
-
-## When to invoke it
-
-Invoke this when you need repeatable OpenClaw operating practice for a long-running setup, not when you are looking for a generic introduction to the framework.
-
-## Scope boundary
-
-This is not an OpenClaw product card. The scope is limited to operational runbooks, prompt patterns, and deployment hygiene for running OpenClaw day to day.
+Use this skill when an OpenClaw deployment already exists and you need concrete operating procedures for keeping it stable, predictable, and affordable over time. ## What the agent does – follows the upstream runbook for day-2 OpenClaw operations – applies prompt patterns for coordinator, worker, heartbeat, and spawning workflows – adapts config snippets and operating guidance for quotas, memory boundaries, and security guardrails – uses the included examples and showcases as bounded operational templates ## When to invoke it Invoke this when you need repeatable OpenClaw operating practice for a long-running setup, not when you are looking for a generic introduction to the framework. ## Scope boundary This is not an OpenClaw product card. The scope is limited to operational runbooks, prompt patterns, and deployment hygiene for running OpenClaw day to day.
 
 ## Installation
 

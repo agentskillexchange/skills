@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Map Python import graphs to explain coupling before refactors or package splits with pydeps
 
-Use pydeps when an agent needs to inspect how Python modules depend on each other before a refactor, extraction, or architecture review. It is most useful when the real task is to surface import cycles, noisy coupling, or hidden dependency paths and hand back a graph or dependency report.
-
-This is not just a package listing because the boundary is a specific analysis workflow: run dependency discovery against a target package, tune scope and noise, and produce a graph that explains coupling. That is a concrete operator task with a clear before-and-after artifact.
+Use pydeps when an agent needs to inspect how Python modules depend on each other before a refactor, extraction, or architecture review. It is most useful when the real task is to surface import cycles, noisy coupling, or hidden dependency paths and hand back a graph or dependency report. This is not just a package listing because the boundary is a specific analysis workflow: run dependency discovery against a target package, tune scope and noise, and produce a graph that explains coupling. That is a concrete operator task with a clear before-and-after artifact.
 
 ## Installation
 

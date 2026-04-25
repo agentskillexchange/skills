@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Generate and screen lookalike domains with dnstwist for brand abuse triage
 
-Use dnstwist when the immediate job is to generate lookalike domains for a known brand or domain, resolve them, and screen the results for likely phishing, typosquatting, or impersonation signals. The upstream project is explicitly focused on domain permutations and follow-up checks for brand abuse detection.
-
-Invoke this instead of normal DNS tooling when the goal is abuse triage around confusingly similar domains, not generic hostname lookup or broad attack-surface enumeration. The scope boundary is tight: dnstwist generates permutations and screens them for review. It is not a general DNS platform, registrar product, or full reconnaissance suite.
+Use dnstwist when the immediate job is to generate lookalike domains for a known brand or domain, resolve them, and screen the results for likely phishing, typosquatting, or impersonation signals. The upstream project is explicitly focused on domain permutations and follow-up checks for brand abuse detection. Invoke this instead of normal DNS tooling when the goal is abuse triage around confusingly similar domains, not generic hostname lookup or broad attack-surface enumeration. The scope boundary is tight: dnstwist generates permutations and screens them for review. It is not a general DNS platform, registrar product, or full reconnaissance suite.
 
 ## Installation
 

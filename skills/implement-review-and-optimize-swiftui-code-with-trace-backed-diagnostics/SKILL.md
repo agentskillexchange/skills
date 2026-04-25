@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Implement, review, and optimize SwiftUI code with trace-backed diagnostics
 
-This skill gives an agent a concrete SwiftUI operator workflow instead of a generic Apple or SwiftUI listing. The agent reviews existing SwiftUI code, routes issues through topic-specific references, flags deprecated APIs, suggests targeted refactors, and can move into trace-driven diagnosis when the user provides or records an Instruments .trace file. The upstream skill includes explicit guidance for state management, view composition, performance, accessibility, iOS 26+ gating, and trace analysis.
-
-Use this when the user wants help implementing or refactoring SwiftUI code, reviewing architecture and performance decisions, or diagnosing runtime issues from Instruments traces. This is the right invocation shape when the user wants agent-guided code review and evidence-backed performance diagnosis rather than simply consulting SwiftUI docs or using Xcode normally.
-
-The scope boundary is sharp: this is not a plain SwiftUI framework card. It is a workflow skill for code review, optimization, and trace-based diagnosis with explicit steps, references, and performance-analysis procedures.
+This skill gives an agent a concrete SwiftUI operator workflow instead of a generic Apple or SwiftUI listing. The agent reviews existing SwiftUI code, routes issues through topic-specific references, flags deprecated APIs, suggests targeted refactors, and can move into trace-driven diagnosis when the user provides or records an Instruments .trace file. The upstream skill includes explicit guidance for state management, view composition, performance, accessibility, iOS 26+ gating, and trace analysis. Use this when the user wants help implementing or refactoring SwiftUI code, reviewing architecture and performance decisions, or diagnosing runtime issues from Instruments traces. This is the right invocation shape when the user wants agent-guided code review and evidence-backed performance diagnosis rather than simply consulting SwiftUI docs or using Xcode normally. The scope boundary is sharp: this is not a plain SwiftUI framework card. It is a workflow skill for code review, optimization, and trace-based diagnosis with explicit steps, references, and performance-analysis procedures.
 
 ## Installation
 

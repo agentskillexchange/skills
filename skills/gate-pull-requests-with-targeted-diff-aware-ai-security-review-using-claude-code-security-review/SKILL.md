@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review
 
-This skill is for repositories that want a dedicated security-focused AI review pass inside GitHub Actions. It covers the workflow of triggering on trusted pull requests, scanning only the changed code, tuning false-positive filtering, and posting findings back to the pull request for human review.
-
-Invoke this instead of using Claude Code manually when you need a repeatable, CI-native security checkpoint rather than an informal one-off review. It fits best when maintainers want security findings attached to the PR discussion and governed by normal merge policy.
-
-The scope boundary is tight: this is not a general Claude Code listing and not a generic SAST product card. It is specifically the GitHub Action workflow for AI-assisted security review of pull request diffs.
+This skill is for repositories that want a dedicated security-focused AI review pass inside GitHub Actions. It covers the workflow of triggering on trusted pull requests, scanning only the changed code, tuning false-positive filtering, and posting findings back to the pull request for human review. Invoke this instead of using Claude Code manually when you need a repeatable, CI-native security checkpoint rather than an informal one-off review. It fits best when maintainers want security findings attached to the PR discussion and governed by normal merge policy. The scope boundary is tight: this is not a general Claude Code listing and not a generic SAST product card. It is specifically the GitHub Action workflow for AI-assisted security review of pull request diffs.
 
 ## Installation
 

@@ -1,8 +1,54 @@
 {
   "version": "2.0",
-  "total": 2386,
+  "total": 2389,
   "generated": "2026-04-25",
   "skills": [
+    {
+      "slug": "query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp",
+      "name": "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP",
+      "description": "Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 111
+      }
+    },
+    {
+      "slug": "search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context",
+      "name": "Search large codebases semantically from MCP-compatible coding agents with Claude Context",
+      "description": "Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of repeatedly loading folders or files into…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9226
+      }
+    },
+    {
+      "slug": "preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode",
+      "name": "Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode",
+      "description": "Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after compaction. It wraps tool-heavy workflows…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9956,
+        "npm_weekly_downloads": 5456
+      }
+    },
     {
       "slug": "validate-json-data-and-config-files-against-schemas-with-ajv-cli",
       "name": "Validate JSON data and config files against schemas with ajv-cli",

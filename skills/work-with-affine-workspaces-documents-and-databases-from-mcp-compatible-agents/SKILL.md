@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents
 
-affine-mcp-server gives an MCP-compatible agent a bounded AFFiNE workspace workflow. It can read and update server-backed workspaces, search and edit documents, inspect or fill databases, work with comments, and automate repeatable knowledge-base operations from an agent session instead of making a human click through the AFFiNE app.
-
-The scope is narrow enough to be skill-shaped: this is for agent-side AFFiNE workspace operations through MCP. It is not a generic AFFiNE product card, not a general knowledge-base platform listing, and not a catch-all collaboration suite entry. Invoke it when the missing step is structured workspace access inside an MCP workflow, not when the user simply wants to browse AFFiNE normally or evaluate AFFiNE as a product.
+affine-mcp-server gives an MCP-compatible agent a bounded AFFiNE workspace workflow. It can read and update server-backed workspaces, search and edit documents, inspect or fill databases, work with comments, and automate repeatable knowledge-base operations from an agent session instead of making a human click through the AFFiNE app. The scope is narrow enough to be skill-shaped: this is for agent-side AFFiNE workspace operations through MCP. It is not a generic AFFiNE product card, not a general knowledge-base platform listing, and not a catch-all collaboration suite entry. Invoke it when the missing step is structured workspace access inside an MCP workflow, not when the user simply wants to browse AFFiNE normally or evaluate AFFiNE as a product.
 
 ## Installation
 

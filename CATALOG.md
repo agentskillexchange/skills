@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2386 published skills** across **17 categories** · 2062 security reviewed · Updated 2026-04-25 11:38 UTC
+> **2389 published skills** across **17 categories** · 2062 security reviewed · Updated 2026-04-25 13:38 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (293 skills)
+### 🛠️ Developer Tools (295 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -184,10 +184,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [fq Binary Format Inspector and jq for Media Files](skills/fq-binary-format-inspector-jq-media/) | fq is a command-line tool that brings jq-style querying to binary formats. It decodes, inspects, and transforms… | Security Reviewed | 10.5k | — |
 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by… | Security Reviewed | 10.2k | 11.2M/wk |
 | [ElectricSQL Real-Time Postgres Sync Engine](skills/electricsql-postgres-sync-engine/) | ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out.… | Security Reviewed | 10.1k | — |
+| [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after… | Published | 10k | 5.5k/wk |
 | [usql Universal Command-Line SQL Client for Multiple Databases](skills/usql-universal-sql-client/) | usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL… | Security Reviewed | 9.9k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](skills/aichat-llm-cli-shell-assistant-rag/) | AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation,… | Security Reviewed | 9.8k | — |
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](skills/wxt-next-gen-web-extension-framework/) | WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both… | Security Reviewed | 9.5k | — |
 | [Inspect and debug MCP servers visually before connecting them to agents](skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually,… | Published | 9.4k | 635.2k/wk |
+| [Search large codebases semantically from MCP-compatible coding agents with Claude Context](skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of… | Published | 9.2k | — |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](skills/bullmq-redis-message-queue-job-processor-nodejs/) | BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides… | Security Reviewed | 8.7k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](skills/pdfcpu-go-pdf-processor-cli/) | pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting,… | Security Reviewed | 8.6k | — |
 | [Starlight Documentation Framework for Astro](skills/starlight-documentation-framework-astro/) | Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and… | Security Reviewed | 8.2k | — |
@@ -1806,7 +1808,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (105 skills)
+### 🔗 Integrations & Connectors (106 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1903,6 +1905,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and… | Security Reviewed | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper… | Published | 138 | — |
+| [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such… | Published | 111 | — |
 | [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | — |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Use vobject when an agent receives .vcf contact exports and needs reliable parsing into names, emails, phone… | Security Reviewed | 50 | — |
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code… | Security Reviewed | 49 | 10.4k/wk |

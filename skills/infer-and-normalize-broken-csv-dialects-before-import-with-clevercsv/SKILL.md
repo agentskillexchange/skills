@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Infer And Normalize Broken CSV Dialects Before Import With Clevercsv
 
-CleverCSV is a skill for handling messy CSV files when delimiter, quoting, or dialect issues would break a normal import. An agent should invoke it when a user has a malformed or inconsistent CSV and needs the file detected, standardized, or loaded safely before ETL, Pandas work, or database import.
-
-Use this instead of a generic CSV utility when the blocker is dialect inference on broken real-world files. The scope boundary is tight: detect the dialect, normalize the file, or emit import-ready code. It is not a broad spreadsheet platform or generic data-wrangling product card.
+CleverCSV is a skill for handling messy CSV files when delimiter, quoting, or dialect issues would break a normal import. An agent should invoke it when a user has a malformed or inconsistent CSV and needs the file detected, standardized, or loaded safely before ETL, Pandas work, or database import. Use this instead of a generic CSV utility when the blocker is dialect inference on broken real-world files. The scope boundary is tight: detect the dialect, normalize the file, or emit import-ready code. It is not a broad spreadsheet platform or generic data-wrangling product card.
 
 ## Installation
 

@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Analyze Kubernetes cluster issues through MCP with K8sGPT
 
-Use K8sGPT when an agent needs a fast diagnostic pass over a Kubernetes cluster before a human starts manually stitching together events, failing resources, and likely causes. K8sGPT analyzes cluster objects, explains findings in plain language, and can expose that workflow through an MCP server for Claude Desktop and other MCP-compatible clients.
-
-Invoke it for outage triage, failed rollout review, and namespace health checks when the job is to summarize what is broken and why. The scope boundary is specific: this skill is about running K8sGPT analysis and explanation flows via its MCP surface, not about general cluster administration or a generic Kubernetes product listing.
+Use K8sGPT when an agent needs a fast diagnostic pass over a Kubernetes cluster before a human starts manually stitching together events, failing resources, and likely causes. K8sGPT analyzes cluster objects, explains findings in plain language, and can expose that workflow through an MCP server for Claude Desktop and other MCP-compatible clients. Invoke it for outage triage, failed rollout review, and namespace health checks when the job is to summarize what is broken and why. The scope boundary is specific: this skill is about running K8sGPT analysis and explanation flows via its MCP surface, not about general cluster administration or a generic Kubernetes product listing.
 
 ## Installation
 

@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Lint reStructuredText docs and release notes before Sphinx publishing with doc8
 
-Use doc8 when an agent needs to lint reStructuredText documentation, changelogs, and other docs trees for invalid RST structure, long lines, trailing whitespace, tabs, or newline issues. It is a good fit for docs QA passes before publishing, release note cleanup, and CI gates around Sphinx-oriented repositories.
-
-A user should invoke this instead of using a generic prose editor when the task is enforcing RST-specific documentation hygiene at repository scale. The scope boundary is tight and skill-shaped: doc8 checks documentation file structure and simple style rules for RST and related text files, not broader writing assistance, site generation, or content strategy.
+Use doc8 when an agent needs to lint reStructuredText documentation, changelogs, and other docs trees for invalid RST structure, long lines, trailing whitespace, tabs, or newline issues. It is a good fit for docs QA passes before publishing, release note cleanup, and CI gates around Sphinx-oriented repositories. A user should invoke this instead of using a generic prose editor when the task is enforcing RST-specific documentation hygiene at repository scale. The scope boundary is tight and skill-shaped: doc8 checks documentation file structure and simple style rules for RST and related text files, not broader writing assistance, site generation, or content strategy.
 
 ## Installation
 
