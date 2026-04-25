@@ -1,7 +1,7 @@
 ---
 title: "Jenkins Shared Library Manager"
 description: "Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the Jenkins Pipeline Shared Groovy Libraries plugin. Validates Groovy syntax, tests steps with jenkins-pipeline-unit, and configures Global Pipeline Libraries via Jenkins CLI."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 category:
   - "CI/CD Integrations"
@@ -18,27 +18,27 @@ Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/jenkins-shared-library-manager/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jenkins-shared-library-manager
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/jenkins-shared-library-manager`.
+Download the skill folder or repository archive and extract `skills/jenkins-shared-library-manager` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

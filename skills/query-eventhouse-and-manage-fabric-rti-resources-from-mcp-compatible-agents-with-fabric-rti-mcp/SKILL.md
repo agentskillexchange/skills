@@ -1,10 +1,10 @@
 ---
 title: "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP"
 description: "Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead of sending the user back to the Fabric UI or wiring custom SDK glue."
-verification: "listed"
+verification: listed
 source: "https://github.com/microsoft/fabric-rti-mcp"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp`.
+Download the skill folder or repository archive and extract `skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

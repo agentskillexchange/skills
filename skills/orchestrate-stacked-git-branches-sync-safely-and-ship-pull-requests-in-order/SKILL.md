@@ -1,10 +1,10 @@
 ---
 title: "Orchestrate stacked Git branches, sync safely, and ship pull requests in order"
 description: "Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull requests, and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow control instead of improvising long git command chains."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/git-town/git-town"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Uses Git Town to keep a branch stack healthy by syncing with the main branch, re
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order`.
+Download the skill folder or repository archive and extract `skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

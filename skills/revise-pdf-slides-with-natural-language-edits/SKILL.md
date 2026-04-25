@@ -1,10 +1,10 @@
 ---
 title: "Revise PDF Slides with Natural-Language Edits"
 description: "Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language instructions. The workflow is bounded to PDF page edits and deck-consistent slide generation, not general design automation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/gavrielc/Nano-PDF"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use Nano-PDF when an agent needs to update existing PDF slides or insert matchin
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/revise-pdf-slides-with-natural-language-edits/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/revise-pdf-slides-with-natural-language-edits
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/revise-pdf-slides-with-natural-language-edits`.
+Download the skill folder or repository archive and extract `skills/revise-pdf-slides-with-natural-language-edits` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

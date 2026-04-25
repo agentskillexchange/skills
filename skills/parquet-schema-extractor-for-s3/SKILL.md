@@ -1,10 +1,10 @@
 ---
 title: "Parquet Schema Extractor for S3"
 description: "Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Gemini"
 tool_ecosystem:
@@ -20,27 +20,27 @@ Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow lib
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/parquet-schema-extractor-for-s3
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/parquet-schema-extractor-for-s3`.
+Download the skill folder or repository archive and extract `skills/parquet-schema-extractor-for-s3` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

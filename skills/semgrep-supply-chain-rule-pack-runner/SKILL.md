@@ -1,10 +1,10 @@
 ---
 title: "Semgrep Supply Chain Rule Pack Runner"
 description: "Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to surface risky patterns early. Useful when agents need to summarize security results in repo terms developers can act on immediately."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule pac
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/semgrep-supply-chain-rule-pack-runner/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/semgrep-supply-chain-rule-pack-runner
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/semgrep-supply-chain-rule-pack-runner`.
+Download the skill folder or repository archive and extract `skills/semgrep-supply-chain-rule-pack-runner` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

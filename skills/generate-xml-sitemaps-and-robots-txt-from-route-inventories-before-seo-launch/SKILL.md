@@ -1,10 +1,10 @@
 ---
 title: "Generate XML sitemaps and robots.txt from route inventories before SEO launch"
 description: "Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap indexes, or robots.txt references before launch. This is a publishing-artifact skill, not a crawler or SEO platform."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ekalinin/sitemap.js"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use sitemap when an agent already knows the site routes or content URLs and need
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch`.
+Download the skill folder or repository archive and extract `skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

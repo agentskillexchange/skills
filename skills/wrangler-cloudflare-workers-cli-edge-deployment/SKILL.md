@@ -1,7 +1,7 @@
 ---
 title: "Wrangler Cloudflare Workers CLI for Edge Deployment"
 description: "Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a complete development workflow for serverless edge applications including local development with Miniflare, KV/R2/D1 bindings, and zero-config deployment to Cloudflare global network."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cloudflare/workers-sdk"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ Wrangler is the official command-line tool for building, testing, and deploying 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wrangler-cloudflare-workers-cli-edge-deployment/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wrangler-cloudflare-workers-cli-edge-deployment
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/wrangler-cloudflare-workers-cli-edge-deployment`.
+Download the skill folder or repository archive and extract `skills/wrangler-cloudflare-workers-cli-edge-deployment` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

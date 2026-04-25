@@ -1,7 +1,7 @@
 ---
 title: "onefetch Git Repository Information and Statistics CLI"
 description: "onefetch is a Rust CLI tool that displays project information and code statistics for Git repositories directly in the terminal. It detects languages, shows contributor stats, license info, and repo metadata with an ASCII art logo for the dominant language."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/o2sh/onefetch"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ onefetch is a Rust CLI tool that displays project information and code statistic
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/onefetch-git-repository-info-statistics-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/onefetch-git-repository-info-statistics-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/onefetch-git-repository-info-statistics-cli`.
+Download the skill folder or repository archive and extract `skills/onefetch-git-repository-info-statistics-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

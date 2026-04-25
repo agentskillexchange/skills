@@ -1,10 +1,10 @@
 ---
 title: "Search PDFs, Office files, ebooks, and archives with one query before manual review"
 description: "Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence without separately extracting every file type first. Best when a workflow has PDFs, Office documents, ebooks, media sidecars, or compressed bundles that need fast on-demand search."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/phiresky/ripgrep-all"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Uses ripgrep-all to run one full-text search across mixed document and archive f
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review`.
+Download the skill folder or repository archive and extract `skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

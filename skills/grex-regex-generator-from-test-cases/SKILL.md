@@ -1,7 +1,7 @@
 ---
 title: "grex Regular Expression Generator from Test Cases"
 description: "grex is a command-line tool and library that automatically generates regular expressions from user-provided test cases. Written in Rust with Python bindings, it produces the most specific regex that matches the given input, supporting Unicode 16.0, character class detection, quantifier notation, and case-insensitive matching."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pemistahl/grex"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ grex is a command-line tool and library that automatically generates regular exp
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/grex-regex-generator-from-test-cases/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/grex-regex-generator-from-test-cases
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/grex-regex-generator-from-test-cases`.
+Download the skill folder or repository archive and extract `skills/grex-regex-generator-from-test-cases` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

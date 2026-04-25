@@ -1,10 +1,10 @@
 ---
 title: "n8n-nodes-mcp Community Node for Model Context Protocol Workflows"
 description: "n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol servers. This skill covers installing the package, configuring MCP transports inside n8n, and using the node in automation workflows that need external tools and structured context exchange."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nerding-io/n8n-nodes-mcp"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +18,27 @@ n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances c
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows`.
+Download the skill folder or repository archive and extract `skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

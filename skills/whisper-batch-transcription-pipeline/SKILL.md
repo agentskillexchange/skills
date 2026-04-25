@@ -1,10 +1,10 @@
 ---
 title: "OpenAI Whisper Batch Transcription Pipeline"
 description: "Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back to S3. Supports language auto-detection and translation to English."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/openai/whisper"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Processes audio files from an S3 bucket using Whisper large-v3, splitting record
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/whisper-batch-transcription-pipeline
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/whisper-batch-transcription-pipeline`.
+Download the skill folder or repository archive and extract `skills/whisper-batch-transcription-pipeline` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

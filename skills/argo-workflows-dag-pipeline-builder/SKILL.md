@@ -1,10 +1,10 @@
 ---
 title: "Argo Workflows DAG Pipeline Builder"
 description: "Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact passing via S3/MinIO, and template composition through WorkflowTemplates and ClusterWorkflowTemplates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/argoproj/argo-workflows"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with config
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/argo-workflows-dag-pipeline-builder/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/argo-workflows-dag-pipeline-builder
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/argo-workflows-dag-pipeline-builder`.
+Download the skill folder or repository archive and extract `skills/argo-workflows-dag-pipeline-builder` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

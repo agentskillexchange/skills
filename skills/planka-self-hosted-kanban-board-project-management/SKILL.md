@@ -1,10 +1,10 @@
 ---
 title: "Planka Self-Hosted Kanban Board for Project Management"
 description: "Planka is an elegant, self-hosted Kanban-style project management tool and open-source Trello alternative. With 11,000+ GitHub stars and 35+ language translations, it provides real-time collaborative boards, markdown support, drag-and-drop task management, and OpenID Connect SSO."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/plankanban/planka"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Planka is an elegant, self-hosted Kanban-style project management tool and open-
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/planka-self-hosted-kanban-board-project-management/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/planka-self-hosted-kanban-board-project-management
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/planka-self-hosted-kanban-board-project-management`.
+Download the skill folder or repository archive and extract `skills/planka-self-hosted-kanban-board-project-management` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

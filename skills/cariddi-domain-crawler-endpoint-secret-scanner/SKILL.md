@@ -1,10 +1,10 @@
 ---
 title: "Cariddi Domain Crawler and Endpoint Secret Scanner"
 description: "Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints, secrets, API keys, file extensions, tokens, and errors. It supports configurable concurrency, depth limits, proxy routing, and multiple output formats."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/edoardottt/cariddi"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Cariddi is a Go-based security tool that takes a list of domains, crawls their U
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/cariddi-domain-crawler-endpoint-secret-scanner/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cariddi-domain-crawler-endpoint-secret-scanner
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/cariddi-domain-crawler-endpoint-secret-scanner`.
+Download the skill folder or repository archive and extract `skills/cariddi-domain-crawler-endpoint-secret-scanner` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

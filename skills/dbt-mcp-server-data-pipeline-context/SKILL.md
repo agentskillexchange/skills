@@ -1,10 +1,10 @@
 ---
 title: "dbt MCP Server for Data Pipeline Context"
 description: "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/dbt-labs/dbt-mcp"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -18,27 +18,27 @@ The official dbt MCP Server by dbt Labs provides Model Context Protocol tools fo
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dbt-mcp-server-data-pipeline-context
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/dbt-mcp-server-data-pipeline-context`.
+Download the skill folder or repository archive and extract `skills/dbt-mcp-server-data-pipeline-context` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI"
 description: "Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds on a GPU."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds usi
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/insanely-fast-whisper-gpu-transcription/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/insanely-fast-whisper-gpu-transcription
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/insanely-fast-whisper-gpu-transcription`.
+Download the skill folder or repository archive and extract `skills/insanely-fast-whisper-gpu-transcription` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

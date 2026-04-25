@@ -1,10 +1,10 @@
 ---
 title: "Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI"
 description: "Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/elevenlabs/cli"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -20,27 +20,27 @@ Initialize, authenticate, and edit ElevenLabs agent configs from local files whe
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli`.
+Download the skill folder or repository archive and extract `skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

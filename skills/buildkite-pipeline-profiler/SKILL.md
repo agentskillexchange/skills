@@ -1,7 +1,7 @@
 ---
 title: "Buildkite Pipeline Profiler"
 description: "Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://buildkite.com/docs"
 category:
   - "CI/CD Integrations"
@@ -15,27 +15,27 @@ Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/buildkite-pipeline-profiler/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/buildkite-pipeline-profiler
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/buildkite-pipeline-profiler`.
+Download the skill folder or repository archive and extract `skills/buildkite-pipeline-profiler` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

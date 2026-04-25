@@ -1,10 +1,10 @@
 ---
 title: "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage"
 description: "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline as one production workflow instead of treating each media tool as a separate manual step."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/calesthio/OpenMontage"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use OpenMontage when an agent should take a brief or reference video and run the
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage`.
+Download the skill folder or repository archive and extract `skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

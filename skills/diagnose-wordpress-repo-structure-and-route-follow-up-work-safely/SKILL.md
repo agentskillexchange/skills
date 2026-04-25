@@ -1,15 +1,12 @@
 ---
 title: "Diagnose WordPress repo structure and route follow-up work safely"
 description: "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or running tools. Use it when you need a deterministic first pass instead of guessing whether a repo is a plugin, block theme, site, core checkout, or mixed workspace."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "wordpress/agent-skills"
-  github_stars: 1219
 ---
 
 # Diagnose WordPress repo structure and route follow-up work safely
@@ -18,27 +15,27 @@ This skill inspects a WordPress codebase, identifies what kind of project it is,
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely`.
+Download the skill folder or repository archive and extract `skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

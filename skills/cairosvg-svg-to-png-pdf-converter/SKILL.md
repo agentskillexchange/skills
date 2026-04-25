@@ -1,10 +1,10 @@
 ---
 title: "CairoSVG SVG to PNG PDF and PostScript Converter"
 description: "CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF, EPS, and PostScript formats via both a CLI and a Python API, making it a reliable tool for automated image pipeline workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Kozea/CairoSVG"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/cairosvg-svg-to-png-pdf-converter/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cairosvg-svg-to-png-pdf-converter
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/cairosvg-svg-to-png-pdf-converter`.
+Download the skill folder or repository archive and extract `skills/cairosvg-svg-to-png-pdf-converter` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

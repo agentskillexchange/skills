@@ -1,7 +1,7 @@
 ---
 title: "Orval OpenAPI Client Regeneration Skill for Typed SDKs"
 description: "Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema changes, and update generated hooks without hand-editing the output. It is a narrowly scoped Orval workflow skill, not a generic listing for the Orval project."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/orval-labs/orval"
 category:
   - "Developer Tools"
@@ -20,27 +20,27 @@ Use this skill when an agent needs to regenerate a typed API client from an Open
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/orval-openapi-client-regeneration-skill-typed-sdks/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orval-openapi-client-regeneration-skill-typed-sdks
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/orval-openapi-client-regeneration-skill-typed-sdks`.
+Download the skill folder or repository archive and extract `skills/orval-openapi-client-regeneration-skill-typed-sdks` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

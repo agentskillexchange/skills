@@ -1,10 +1,10 @@
 ---
 title: "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety"
 description: "Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows."
-verification: "listed"
+verification: listed
 source: "https://github.com/pyupio/safety"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Scan Python requirements and environments for known vulnerable or malicious pack
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety`.
+Download the skill folder or repository archive and extract `skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
 description: "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship."
-verification: "listed"
+verification: listed
 source: "https://github.com/MiroMindAI/MiroEval"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Score deep research agents on benchmark tasks using factual verification, report
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval`.
+Download the skill folder or repository archive and extract `skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

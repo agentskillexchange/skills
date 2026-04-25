@@ -1,7 +1,7 @@
 ---
 title: "smolagents Code-First AI Agent Library"
 description: "smolagents is HuggingFace’s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/huggingface/smolagents"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ smolagents is HuggingFace’s barebones Python library for building AI agents th
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/smolagents-code-first-ai-agent-library/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/smolagents-code-first-ai-agent-library
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/smolagents-code-first-ai-agent-library`.
+Download the skill folder or repository archive and extract `skills/smolagents-code-first-ai-agent-library` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform"
 description: "Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular, NestJS, and Prisma on PostgreSQL, it provides portfolio performance analysis, allocation insights, and data-driven investment decision support."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ghostfolio/ghostfolio"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Ghostfolio is an open-source wealth management application for tracking stocks, 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ghostfolio-wealth-management-portfolio-tracking/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ghostfolio-wealth-management-portfolio-tracking
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/ghostfolio-wealth-management-portfolio-tracking`.
+Download the skill folder or repository archive and extract `skills/ghostfolio-wealth-management-portfolio-tracking` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

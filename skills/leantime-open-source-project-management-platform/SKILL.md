@@ -1,10 +1,10 @@
 ---
 title: "Leantime Open Source Goals-Focused Project Management Platform"
 description: "Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built with ADHD, autism, and dyslexia accessibility in mind."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Leantime/leantime"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Leantime is an open-source project management system designed for non-project ma
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/leantime-open-source-project-management-platform/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/leantime-open-source-project-management-platform
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/leantime-open-source-project-management-platform`.
+Download the skill folder or repository archive and extract `skills/leantime-open-source-project-management-platform` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

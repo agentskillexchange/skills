@@ -1,15 +1,12 @@
 ---
 title: "Turn GitHub Issues into Fix PRs"
 description: "Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review comments. This is a bounded backlog-to-PR operator loop, not a general GitHub product listing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/openclaw/openclaw/tree/main/skills/gh-issues"
 category:
   - "Developer Tools"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "openclaw/openclaw"
-  github_stars: 356821
 ---
 
 # Turn GitHub Issues into Fix PRs
@@ -18,27 +15,27 @@ Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-github-issues-into-fix-prs/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-github-issues-into-fix-prs
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/turn-github-issues-into-fix-prs`.
+Download the skill folder or repository archive and extract `skills/turn-github-issues-into-fix-prs` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
