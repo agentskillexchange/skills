@@ -7,6 +7,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Stars |
 |---|---:|
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | ⭐ 71.5k |
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⭐ 53.5k |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | ⭐ 51.3k |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | ⭐ 48.1k |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⭐ 45.8k |
@@ -15,7 +16,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⭐ 28.8k |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⭐ 28.8k |
-| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⭐ 28.8k |
 
 ---
 
@@ -23,6 +23,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⬇ 2.5M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 153.5k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⬇ 149.2k/wk |
@@ -32,7 +33,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⬇ 529.3k/wk |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | ⬇ 34.2M/wk |
-| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | ⬇ 34.2M/wk |
 
 ---
 
@@ -41,6 +41,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.5k | — |
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | 53.5k | 2.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | 48.1k | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.8k | 9.9M/wk |
@@ -88,8 +89,11 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
+| [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | 2.7k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | 1.9k | 14.5M/wk |
+| [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](../../skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | 1.7k | — |
+| [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](../../skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | 1.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
@@ -97,12 +101,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | 517 | 164k/wk |
 | [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
+| [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
-| [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
