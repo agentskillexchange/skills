@@ -181,6 +181,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
 | [Review AI-generated code changes in a cleaner diff workflow with Diffity](../../skills/review-ai-generated-code-changes-with-diffity/) | 561 | 3.5k/wk |
 | [Grade agent trajectories and tool-use decisions with AgentEvals](../../skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | 550 | 251k/wk |
+| [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](../../skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | 530 | — |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |

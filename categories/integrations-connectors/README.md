@@ -110,6 +110,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
+| [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | 1.5k | — |
 | [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 955.8k/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |

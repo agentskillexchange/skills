@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2389,
+  "total": 2392,
   "generated": "2026-04-26",
   "skills": [
+    {
+      "slug": "extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors",
+      "name": "Extract structured fields from HTML XML and JSON endpoints with Xidel selectors",
+      "description": "Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 835
+      }
+    },
+    {
+      "slug": "convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise",
+      "name": "Convert SMTP-only alerts into routed notification deliveries with Mailrise",
+      "description": "Use Mailrise to accept ordinary email alerts and fan them out through Apprise-backed notification channels when legacy systems can only speak SMTP.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1514
+      }
+    },
+    {
+      "slug": "normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt",
+      "name": "Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt",
+      "description": "Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 530
+      }
+    },
     {
       "slug": "query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp",
       "name": "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP",
