@@ -8,6 +8,8 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
+  github_repo: "Automattic/agent-skills"
+  github_stars: 196
 ---
 
 # Develop and harden WordPress plugins with lifecycle and security guardrails

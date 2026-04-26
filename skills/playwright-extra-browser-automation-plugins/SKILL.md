@@ -8,6 +8,8 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
+  github_repo: "berstend/puppeteer-extra"
+  github_stars: 7294
 ---
 
 # Playwright Extra Browser Automation Plugins
