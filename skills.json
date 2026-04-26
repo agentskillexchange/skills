@@ -1,8 +1,54 @@
 {
   "version": "2.0",
-  "total": 2392,
+  "total": 2395,
   "generated": "2026-04-26",
   "skills": [
+    {
+      "slug": "search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch",
+      "name": "Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch",
+      "description": "Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 189
+      }
+    },
+    {
+      "slug": "validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli",
+      "name": "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI",
+      "description": "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 270,
+        "npm_weekly_downloads": 27164
+      }
+    },
+    {
+      "slug": "capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized",
+      "name": "Capture network device config snapshots diffs and change attribution after edits with Oxidized",
+      "description": "Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3350
+      }
+    },
     {
       "slug": "extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors",
       "name": "Extract structured fields from HTML XML and JSON endpoints with Xidel selectors",

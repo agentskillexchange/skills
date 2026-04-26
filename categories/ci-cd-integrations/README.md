@@ -32,7 +32,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | ⬇ 2.8k/wk |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | ⬇ 12.8M/wk |
-| [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | ⬇ 1k/wk |
+| [Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI](../../skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/) | ⬇ 27.2k/wk |
 
 ---
 
@@ -202,6 +202,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures](../../skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/) | 458 | — |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | 361 | 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | 308 | 12.8M/wk |
+| [Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI](../../skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/) | 270 | 27.2k/wk |
 | [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](../../skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | 182 | — |
 | [Run only the relevant linters and formatters on changed files with Precious](../../skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | 152 | — |
 | [Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator](../../skills/gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator/) | 83 | — |
