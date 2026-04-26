@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Render HTML-native agent videos with slash-command workflows using HyperFrames
 
-Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs.
+Use HyperFrames when you want an agent to author or revise a video as HTML/CSS/animation code instead of hand-driving a traditional video editor. The upstream project ships explicit agent skills and slash-command workflows for Claude Code, Cursor, Gemini CLI, and Codex, so the operator workflow is: ask the agent to scaffold a composition, iterate on scenes and animation, preview, then render to MP4. The scope boundary is tight: HTML-native video composition and rendering for agent-generated creative assets, not a generic video platform or broad creative suite.
 
 ## Installation
 

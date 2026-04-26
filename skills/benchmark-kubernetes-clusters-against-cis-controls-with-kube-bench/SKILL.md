@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark Kubernetes clusters against CIS controls with kube-bench
 
-Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing.
+Use kube-bench when an agent needs to execute CIS-aligned Kubernetes benchmark checks and surface which hardening controls are passing or failing on a target cluster. It is the right invoke point for cluster security baselines, audit preparation, and post-build verification where the job is to run benchmark logic and interpret actionable failures. The scope boundary is clear: this skill is specifically about CIS benchmark execution and results review, not broad Kubernetes management or a generic security product overview.
 
 ## Installation
 

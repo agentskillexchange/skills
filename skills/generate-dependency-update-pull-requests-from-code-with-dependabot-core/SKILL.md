@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate dependency update pull requests from code with dependabot-core
 
-Scan manifests, compute safe version bumps, and prepare dependency update PR material when you need self-hosted or custom Dependabot flows outside the default GitHub service.
+Use dependabot-core when an agent needs to inspect dependency manifests, resolve upgrade candidates, and generate reviewable dependency update changes outside the normal hosted Dependabot experience. Invoke this when you need self-hosted, custom, or nonstandard update workflows rather than simply enabling Dependabot on GitHub. The scope boundary is narrow and skill-shaped: calculate dependency updates and produce update diffs or PR-ready outputs for supported ecosystems, not act as a general package manager, platform listing, or generic GitHub product card.
 
 ## Installation
 

@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Validate JSON data and config files against schemas with ajv-cli
 
-Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling.
+Use ajv-cli when an agent needs a command-line validation step that checks JSON, JSON5, or YAML inputs against explicit schemas and returns a machine-usable pass/fail result. Invoke this instead of using a broader application platform when the task is narrowly about schema validation, schema compilation, or schema migration in automation. The scope boundary is specific enough to be skill-shaped: validate concrete data and config artifacts against declared schemas in scripts or CI, not serve as a generic library, framework, or product listing.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run code review and PR autofix workflows with CodeRabbit Skills
 
-Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops.
+Use CodeRabbit Skills when the agent’s job is to run a CodeRabbit review over current changes or pull unresolved CodeRabbit PR comments into a fix-and-re-review workflow before merge. A user should invoke this instead of using CodeRabbit as a normal background product when they want the coding agent to actively launch the review, summarize findings, and optionally apply fixes from outstanding review threads. That boundary, agent-driven review and autofix execution around CodeRabbit CLI, keeps it from being just a generic code-review platform card.
 
 ## Installation
 

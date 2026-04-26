@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Give MCP agents disposable code execution sandboxes with OpenSandbox MCP
 
-Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes.
+OpenSandbox clears the skill-shaped bar when framed around its documented MCP workflow. The relevant job is to give an MCP-capable agent a disposable execution environment with command, file, and lifecycle operations, instead of letting that agent run generated code directly on the host. The upstream repo explicitly documents opensandbox-mcp for clients like Claude Code and Cursor, alongside sandbox egress controls and isolated runtimes.
+
+Use this when an agent needs temporary code execution or filesystem work that should happen inside a managed sandbox rather than the local machine. The scope boundary is the MCP-exposed sandbox execution workflow itself, not the broader OpenSandbox platform, SDK collection, or generic runtime stack.
 
 ## Installation
 

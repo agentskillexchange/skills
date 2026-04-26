@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng
 
-Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts.
+PRPs Agentic Eng gives Claude Code a structured planning workflow instead of an open-ended chat. It adds slash commands such as /prp-prd, /prp-plan, /prp-implement, /prp-issue-investigate, and /prp-ralph so an agent can turn a requirement or issue into a plan, run validation commands, and keep iterating until checks pass.
+
+Invoke this when a task needs an explicit execution packet, not just a conversational answer. It is a better fit than normal Claude Code use when you need a PRD, a codebase-aware plan, archived artifacts in .claude/PRPs/, repeatable validation commands, or an autonomous repair loop that keeps fixing failures until the work is complete.
+
+The scope boundary is the PRP workflow itself. This is not a general Claude Code listing or a generic prompt pack. It is a specific operator flow for converting requirements, issues, and debugging work into executable plans, tracked artifacts, and validation loops.
 
 ## Installation
 

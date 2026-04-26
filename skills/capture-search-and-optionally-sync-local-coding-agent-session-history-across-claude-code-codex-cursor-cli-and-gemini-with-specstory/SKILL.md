@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory
 
-Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share those sessions.
+SpecStory wraps supported coding agents so their sessions are automatically saved to local project history, then makes that history searchable and processable for summaries, stats, and later retrieval. It can also optionally sync those saved sessions to the vendor cloud, but the local capture workflow stands on its own.
+
+Invoke this instead of using Claude Code, Codex, Cursor CLI, or Gemini alone when you need durable project-level memory of what those agents already tried, decided, and fixed. The boundary is clear: this is not another general coding assistant, IDE, or agent platform. It is a session-history capture and retrieval workflow layered on top of existing coding agents.
 
 ## Installation
 

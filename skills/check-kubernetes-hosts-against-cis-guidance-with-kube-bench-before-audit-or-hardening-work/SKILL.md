@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work
 
-Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts.
+Use kube-bench when an agent needs a benchmark-oriented security posture check against CIS guidance, not when a user is just operating Kubernetes normally. The workflow is narrow: inspect host and cluster configuration, map findings to CIS controls, and hand back concrete remediation items. That scope boundary, standards-based posture verification for Kubernetes environments, keeps it distinct from a broad Kubernetes platform or generic scanner listing.
 
 ## Installation
 

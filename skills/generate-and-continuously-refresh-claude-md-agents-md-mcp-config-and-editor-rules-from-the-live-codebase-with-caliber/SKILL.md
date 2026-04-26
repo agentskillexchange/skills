@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber
 
-Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep those files fresh across multiple coding agents.
+Caliber is a repo-grounded setup and refresh workflow for agent-facing project instructions. It audits your current CLAUDE.md, AGENTS.md, Cursor rules, MCP config, and related files against the real filesystem, proposes changes as diffs, and can keep them refreshed as the codebase evolves.
+
+Invoke this instead of editing each config file by hand when your team uses multiple coding agents and stale instructions are causing bad paths, missing dependencies, or inconsistent guidance. The scope boundary is tight: this skill is about generating and syncing agent instruction artifacts from a codebase, not acting as a general IDE, model, or agent platform.
 
 ## Installation
 

@@ -16,7 +16,9 @@ tool_ecosystem:
 
 # Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus
 
-Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit.
+Use GitNexus when the immediate job is to index a software repository into a dependency and call-chain aware knowledge graph, then expose that graph to agents through MCP for repo exploration. The upstream project is explicit about this operator path: run npx gitnexus analyze from the repo root, build the graph, and attach GitNexus to Claude Code, Codex, Cursor, or similar editors through MCP.
+
+Invoke this instead of a normal code search tool or generic repo chat product when architecture-aware retrieval is the real need. The scope boundary is narrow: GitNexus converts a codebase into a queryable graph-backed context layer for agent reasoning. That keeps it skill-shaped rather than a broad code intelligence product card or generic framework listing.
 
 ## Installation
 

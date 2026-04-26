@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Find deprecated Kubernetes APIs before cluster upgrades with kubent
 
-Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage.
+Use kubent when an agent needs to check manifests or a live cluster for APIs that will break in a target Kubernetes version before an upgrade starts. A user should invoke this instead of using Kubernetes normally when the job is upgrade-readiness analysis and remediation planning, not everyday cluster operations. The scope boundary is specific and skill-shaped: deprecated API discovery ahead of cluster upgrades, not a generic Kubernetes diagnostics or platform listing.
 
 ## Installation
 

@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Enforce Python Docstring Coverage Thresholds with interrogate
 
-Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold.
+This skill uses interrogate as a documentation-quality gate for Python repositories. The agent measures docstring coverage, reports which modules or objects are dragging the score down, and decides pass or fail against an explicit threshold so teams can keep documentation debt from spreading silently.
+
+Invoke it when a team wants an enforceable documentation bar in CI or during review. Use ordinary documentation tools when writing prose or browsing docs manually. Use this skill when the task is specifically coverage measurement and threshold enforcement for Python docstrings.
+
+The scope boundary is narrow: Python docstring coverage auditing and gating. It is not a general Python linter, documentation platform, or broad code-quality suite listing.
 
 ## Installation
 

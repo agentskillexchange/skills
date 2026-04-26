@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Turn documents into validated knowledge graphs with Docling Graph
 
-Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing.
+Use Docling Graph when an agent needs to extract a schema-shaped knowledge graph from one or more documents, validate the result, and export graph-friendly outputs. A user should invoke this instead of using a general document parser normally when the real job is document-to-graph transformation with explicit entities, relationships, and template-backed validation. That scope boundary, validated knowledge-graph extraction from documents, keeps this distinct from generic parsing libraries and broader graph platforms.
 
 ## Installation
 

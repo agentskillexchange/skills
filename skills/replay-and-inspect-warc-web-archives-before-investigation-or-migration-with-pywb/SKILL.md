@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb
 
-Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review preserved site behavior before migration or investigation work.
+pywb is a skill for replaying and inspecting WARC web archives with high-fidelity historical playback. An agent should invoke it when the user needs to review captured pages, query archived states, or verify historical evidence before migration checks, takedown response, incident reconstruction, or archive QA.
+
+Use this instead of browsing the live site or using a generic archiving platform when the actual job is local replay and inspection of archived captures. The boundary is narrow: load archived collections, replay them, inspect what was preserved, and hand findings to the next step. It is not a generic CMS, crawler, or broad web platform listing.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Record terminal demos and reproducible CLI walkthroughs with asciinema
 
-Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording.
+Use asciinema when an agent should preserve a terminal interaction as a lightweight replayable cast for bug reports, onboarding, runbooks, or skill demonstrations. This is better than ordinary video capture when the important surface is the shell session itself, including commands, timing, and searchable terminal output. The scope boundary keeps it skill-shaped: record and replay terminal workflows, not general-purpose video production or a generic developer-product listing.
 
 ## Installation
 

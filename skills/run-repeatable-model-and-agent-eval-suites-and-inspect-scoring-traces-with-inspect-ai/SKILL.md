@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI
 
-Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel.
+Use Inspect AI when an agent needs to run repeatable evaluation suites against models or external agents, then inspect transcripts, scores, and traces to understand failures. It is invoked for benchmark-style or task-suite evaluation, not for ordinary prompt iteration or generic chat use. That scope boundary, authoring and running scored eval tasks with inspection tooling, keeps it narrower than a plain framework card.
 
 ## Installation
 

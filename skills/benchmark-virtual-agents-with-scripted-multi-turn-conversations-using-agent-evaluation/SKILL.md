@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation
 
-Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases.
+Use Agent Evaluation when you want an evaluator agent to run scripted, multi-turn test conversations against a target agent and score the responses. The upstream project is explicit about this workflow: define cases, orchestrate conversations, evaluate results during the run, and plug the checks into CI or broader testing.
+
+Invoke this instead of manual spot-checking or a generic hosted agent platform when the need is repeatable conversation-based benchmarking. The scope boundary is clear: Agent Evaluation tests target agents through scripted interactions. It is not a general AWS product listing or broad agent framework card.
 
 ## Installation
 

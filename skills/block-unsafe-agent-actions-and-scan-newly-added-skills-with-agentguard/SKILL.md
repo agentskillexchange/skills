@@ -16,7 +16,9 @@ tool_ecosystem:
 
 # Block unsafe agent actions and scan newly added skills with AgentGuard
 
-Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run.
+Use AgentGuard when the job is to place a security review layer in front of agent actions and newly added skills, then stop obviously dangerous behavior before execution. The upstream project defines a concrete workflow: install the package, enable its hooks or plugin integration, scan new skills, and evaluate risky commands, secret access, and exfiltration patterns at runtime.
+
+Invoke this instead of a generic security SDK or passive policy document when you need live guardrail enforcement around agent execution. The scope boundary is specific: AgentGuard audits skills and evaluates agent actions against explicit runtime security rules. That makes it a skill-shaped security workflow, not just a general-purpose library or broad platform listing.
 
 ## Installation
 

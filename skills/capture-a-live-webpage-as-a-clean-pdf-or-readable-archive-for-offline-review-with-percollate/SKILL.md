@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Capture a live webpage as a clean PDF or readable archive for offline review with Percollate
 
-Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff.
+Use Percollate when an agent needs to fetch a live webpage and preserve it as a clean PDF or readable offline artifact for later review, sharing, or citation. A user should invoke this instead of using the browser print or save flow normally when the task needs repeatable CLI capture and a cleaner reading artifact, not interactive browsing or site editing. The scope boundary is specific and skill-shaped: it captures and packages a supplied webpage into an offline deliverable, not a browser platform, CMS, or generic web product listing.
 
 ## Installation
 

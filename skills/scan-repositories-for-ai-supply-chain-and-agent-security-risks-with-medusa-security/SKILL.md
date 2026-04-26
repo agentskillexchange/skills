@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Scan repositories for AI supply-chain and agent-security risks with Medusa Security
 
-Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and AI supply-chain findings.
+Use Medusa Security when the agent needs a pre-trust repository scan focused on AI and agent attack surfaces. The tool is built around scanning codebases for repo poisoning, prompt-injection-related artifacts, MCP risks, AI supply-chain issues, and broader security findings with dedicated CLI workflows.
+
+Invoke this instead of using the product normally when the task is to vet a repository before adoption, execution, or dependency approval. The operator workflow is specific: install Medusa, scan a local repo or a remote Git URL, then use the findings to decide whether the codebase is safe enough to trust or merge.
+
+The scope boundary keeps it skill-shaped. This is not a generic security platform listing and not a broad package card. It is the bounded workflow of running an AI-focused repository security scan before trust, execution, or handoff.
 
 ## Installation
 

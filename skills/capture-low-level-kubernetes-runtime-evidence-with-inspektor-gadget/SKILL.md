@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Capture low-level Kubernetes runtime evidence with Inspektor Gadget
 
-Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics do not expose.
+Use Inspektor Gadget when an agent needs kernel-level or container-runtime evidence to explain behavior that higher-level telemetry missed. It runs named gadgets such as trace_exec, trace_tcp, and snapshot_process to collect targeted eBPF-backed data from Kubernetes workloads and Linux hosts.
+
+Invoke it during deep incident response, runtime debugging, and low-level troubleshooting after the usual logs, events, and dashboards stop being enough. The scope boundary is clear: this skill is about selecting and running purpose-built gadgets to capture specific runtime evidence, not about serving as a generic Kubernetes management or observability product card.
 
 ## Installation
 

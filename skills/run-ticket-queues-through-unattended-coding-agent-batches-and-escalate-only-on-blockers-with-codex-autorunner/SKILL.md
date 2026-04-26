@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner
 
-Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really needs you.
+Use Codex Autorunner when the job is to run a queued implementation plan through multiple coding-agent tickets without constant supervision, not when a user simply wants an interactive coding chat. The operator workflow is narrow and concrete: convert planned work into CAR ticket files, let the state machine dispatch them to supported agents, and surface interruptions only for blockers, reviews, or human decisions. That scope boundary, ticket-driven unattended agent orchestration with escalation, keeps this skill distinct from a general coding agent, IDE, or terminal session manager listing.
 
 ## Installation
 

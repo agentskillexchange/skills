@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact
 
-Rewrite mutable GitHub Actions refs to commit SHAs so workflow changes do not ship with drifting dependencies.
+Use pinact when an agent needs to harden GitHub workflow files by replacing mutable action refs with immutable commit SHAs, not when the user is just browsing Actions docs or running a generic workflow linter. The workflow is specific: inspect workflow and composite action files, pin third-party actions and reusable workflows, and optionally verify version annotations before merge. That scope boundary, automated immutable-ref enforcement for GitHub Actions files, keeps it skill-shaped and distinct from broader CI tooling.
 
 ## Installation
 

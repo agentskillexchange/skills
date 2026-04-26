@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat
 
-Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work.
+Use kubectl-neat when an agent needs to turn a live or exported Kubernetes object into a reviewable manifest by removing noisy runtime-generated fields. A user should invoke this instead of using kubectl output directly when the job is human or agent review, diffing, migration prep, or manifest cleanup, not ordinary cluster administration. The scope boundary is narrow and skill-shaped: Kubernetes YAML cleanup for review hygiene, not a generic Kubernetes CLI or product listing.
 
 ## Installation
 

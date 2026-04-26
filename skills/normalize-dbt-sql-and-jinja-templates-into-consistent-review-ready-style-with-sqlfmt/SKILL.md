@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt
 
-Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff.
+Use this skill when an agent needs to clean up messy dbt SQL or Jinja-templated query files before review, commit, or downstream linting. sqlfmt is a focused formatter: it rewrites supported SQL files into one consistent style, handles Jinja-aware source text, and avoids turning the task into a broader linting or warehouse-management workflow.
+
+Invoke it when the job is specifically make these SQL files readable and consistent rather than run dbt itself, manage models, or operate a data platform. That scope boundary keeps this entry skill-shaped: the agent performs a narrow formatting pass over existing SQL assets and returns reviewable diffs.
+
+This is especially useful after agent-generated edits, before pull requests, or when teams want style normalization without code-review debates. The upstream project explicitly positions sqlfmt as a fast SQL formatter for dbt SQL files that works with Jinja and integrates into CLI, CI, and editor workflows.
 
 ## Installation
 

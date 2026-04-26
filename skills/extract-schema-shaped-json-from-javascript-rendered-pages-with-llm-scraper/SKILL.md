@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper
 
-Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors.
+Use llm-scraper when an agent needs to turn a rendered web page into structured output for a known schema, especially when the page depends on client-side rendering. The user is not invoking a general browser automation product here. The workflow is bounded extraction: open the page, map content into a schema, and return structured JSON. That boundary keeps it distinct from generic browser control and from broader crawling platforms.
 
 ## Installation
 

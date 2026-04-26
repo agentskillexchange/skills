@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Query and rewrite Markdown structure with mdq
 
-Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits.
+mdq gives an agent a precise docs-maintenance workflow: query Markdown by structure, inspect the matching nodes, and rewrite targeted sections safely. Invoke it when the actual job is structural Markdown cleanup or migration, not when you simply want a text editor or a generic Markdown parser. The boundary is strong and specific: structure-aware Markdown querying and rewriting for documentation operations, not a broad content platform listing.
 
 ## Installation
 

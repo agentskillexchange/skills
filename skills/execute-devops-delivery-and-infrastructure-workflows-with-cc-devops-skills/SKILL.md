@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Execute DevOps delivery and infrastructure workflows with cc-devops-skills
 
-Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation.
+Use cc-devops-skills when an agent needs a DevOps workflow pack for infrastructure and delivery work, especially generating production-ready configs, linting them, running security checks, or dry-running changes before rollout. Invoke it when the operator wants repeatable generator plus validator loops for infra work inside Claude Code or Codex, not when they are looking for a general plugin or generic automation platform. The scope boundary is DevOps delivery and validation workflows for coding agents, not a broad product listing or all-purpose platform card.
 
 ## Installation
 

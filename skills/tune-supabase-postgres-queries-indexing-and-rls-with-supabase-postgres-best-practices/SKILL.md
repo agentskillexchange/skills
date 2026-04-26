@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices
 
-Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase’s own prioritized guidance.
+Use Supabase Postgres Best Practices when an agent needs to review or improve SQL queries, schema design, indexing, connection pooling, scaling behavior, or Row-Level Security in a Supabase-backed Postgres system. Invoke this instead of using the product normally when the job is a bounded performance and safety review driven by Supabase’s curated Postgres guidance, not general Supabase project management or a plain platform listing. The boundary is Postgres tuning and correctness guidance inside Supabase workflows, not the full Supabase product surface.
 
 ## Installation
 

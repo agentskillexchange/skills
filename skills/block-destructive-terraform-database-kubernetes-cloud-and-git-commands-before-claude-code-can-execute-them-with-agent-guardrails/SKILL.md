@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails
 
-Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them.
+Use Agent Guardrails when you want Claude Code to help with infrastructure or repository work but you need hard blocks on destructive commands first. Invoke this instead of using Claude Code normally when the missing step is policy enforcement on shell actions such as `terraform destroy`, `DROP DATABASE`, dangerous `kubectl delete`, or force pushes. The scope boundary is narrow and skill-shaped: pre-tool command interception and blocking for Claude Code, not a generic security platform or plain config bundle listing.
 
 ## Installation
 

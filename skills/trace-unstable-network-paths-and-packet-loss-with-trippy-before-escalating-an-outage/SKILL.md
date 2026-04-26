@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Trace unstable network paths and packet loss with Trippy before escalating an outage
 
-Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.
+Use Trippy when an agent needs to diagnose an unreliable network path and identify where latency, jitter, or packet loss starts appearing. A user should invoke this instead of using generic network tooling when the job is a bounded route-health investigation before escalation, not broad network administration. The scope boundary is clear and skill-shaped: interactive traceroute-style path diagnostics with comparative hop evidence, not a plain terminal utility listing.
 
 ## Installation
 

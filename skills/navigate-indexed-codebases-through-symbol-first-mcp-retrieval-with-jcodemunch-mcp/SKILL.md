@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP
 
-Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source retrieval instead of brute-reading whole files across a large repository.
+Use jCodeMunch MCP when the job is repository navigation and code retrieval, not generic chatting about a codebase. It indexes a repository once, then lets an agent query symbols, outlines, references, bundles, and exact source spans through MCP so context stays narrow and retrieval-heavy work becomes cheaper and more precise.
+
+Invoke this instead of using the product normally when an agent is wasting tokens opening broad files just to locate one function, class, import path, or blast-radius view. The operator workflow is concrete: index the repo, query symbols or structural relationships, then fetch only the exact code needed for the current turn.
+
+The scope boundary is what makes this publishable as a skill. This is not a generic code-search product card or a plain MCP server listing. It is the bounded workflow of running symbol-first indexed retrieval for code understanding, change planning, and focused context assembly inside an MCP-compatible agent.
 
 ## Installation
 

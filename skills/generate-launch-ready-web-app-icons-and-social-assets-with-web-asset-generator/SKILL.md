@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate launch-ready web app icons and social assets with Web Asset Generator
 
-Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work.
+Use Web Asset Generator when an agent needs to create the web asset bundle a project is missing, especially favicons, app icons, and social images generated from logos, text, or emojis. Invoke it instead of ordinary image editing when the operator wants Claude Code to generate the asset set, validate it, and help integrate it into a web project. The scope boundary is specific: produce and validate web launch assets for a site or app, not serve as a general graphics product or open-ended design tool listing.
 
 ## Installation
 

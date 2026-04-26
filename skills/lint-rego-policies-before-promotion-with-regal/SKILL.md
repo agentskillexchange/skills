@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Lint Rego Policies Before Promotion with Regal
 
-Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted.
+This skill wraps Regal as a policy-authoring quality gate for Rego. The agent lints policy files, highlights correctness and maintainability issues, and gives teams a repeatable pre-promotion check before bundles move into enforcement environments.
+
+Invoke it when a repository contains Rego policies that need review before merge or bundle promotion. Use OPA itself normally for policy evaluation and runtime decisions. Use this skill when the job is specifically authoring-time linting and policy hygiene.
+
+The scope boundary is Rego linting and authoring feedback. It is not an OPA platform listing, policy engine card, or general compliance product entry.
 
 ## Installation
 

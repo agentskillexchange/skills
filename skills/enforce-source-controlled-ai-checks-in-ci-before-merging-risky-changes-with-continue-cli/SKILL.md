@@ -14,7 +14,9 @@ tool_ecosystem:
 
 # Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI
 
-Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI.
+Use Continue CLI when an agent needs to codify review rules in the repository and enforce them on every pull request. It fits security review, policy checks, and repo-specific quality gates where the job is to keep AI review logic versioned alongside the codebase.
+
+Invoke this instead of using an AI coding product normally when the agent must create or maintain source-controlled checks, run them non-interactively in CI, and return pass or fail results with suggested diffs. This is skill-shaped because the boundary is specific: repo-owned AI checks in CI. It is not a generic IDE assistant, SDK, or broad coding-agent listing.
 
 ## Installation
 

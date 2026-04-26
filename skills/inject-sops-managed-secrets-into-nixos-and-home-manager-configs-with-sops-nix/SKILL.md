@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix
 
-Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values.
+Use sops-nix when an agent needs to wire encrypted SOPS secrets into NixOS or Home Manager configurations so they are decrypted and materialized at activation time. A user should invoke this instead of using SOPS by itself when the job is declarative Nix secret integration and deployment, not generic secret file editing or encryption. The scope boundary is clear and skill-shaped: NixOS and Home Manager secret injection from SOPS-managed inputs, not a general secret management product card.
 
 ## Installation
 

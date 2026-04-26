@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Probe Kubernetes clusters for exposed attack paths with kube-hunter
 
-Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing.
+Use kube-hunter when an agent needs to probe a Kubernetes environment from an attacker’s perspective and surface reachable weaknesses such as exposed dashboards, insecure ports, or risky cluster configurations. It is appropriate for offensive validation, external exposure review, and security triage where the workflow is to run the probe, inspect findings, and hand back attack-path evidence. The scope boundary is specific: this skill is about exposure-oriented cluster probing, not full cluster administration or a generic Kubernetes security platform card.
 
 ## Installation
 

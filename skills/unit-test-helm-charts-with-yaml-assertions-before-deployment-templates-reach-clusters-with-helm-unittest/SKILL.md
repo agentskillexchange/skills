@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest
 
-Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster.
+Use helm-unittest when an agent needs to verify chart rendering behavior with explicit assertions, not when someone is using Helm as a general package manager. The job is narrow and repeatable: render a chart locally, run YAML-defined tests against the rendered manifests, and report exactly which expectations failed before deployment or review. That scope boundary, local chart unit testing with fixture values and assertions, keeps this from being just a Helm product listing.
 
 ## Installation
 

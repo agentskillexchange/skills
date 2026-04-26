@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate podcast-style audio narratives with Podcast Generation
 
-Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output.
+Use Podcast Generation when an agent needs to implement or adapt a bounded text-to-audio pipeline for podcast-style narration using Azure OpenAI Realtime, including WebSocket setup, streaming PCM audio capture, transcript handling, WAV conversion, and playback wiring. Invoke this instead of using the product normally when the job is building the end-to-end generation workflow for narrated audio output, not general Azure OpenAI usage or a plain API listing. The boundary is podcast-style audio generation pipeline design and integration, not generic speech or media tooling.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery
 
-Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL.
+Use CloudQuery when an agent needs to pull infrastructure and SaaS inventory into structured tables for audit or drift analysis instead of navigating each provider console by hand. A user should invoke this instead of using the product normally when the task is repeatable inventory extraction into a destination database for SQL-driven review, not ordinary cloud administration. The scope boundary is specific and skill-shaped: source-backed inventory ETL for audits and evidence collection, not a generic cloud platform or SDK listing.
 
 ## Installation
 

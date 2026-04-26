@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Capture Linux runtime security events and suspicious behavior for live triage with Tracee
 
-Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork.
+Use Tracee when an agent needs a live runtime forensics pass on a Linux host or container environment instead of a generic security platform or static scanner. The workflow is bounded: attach Tracee, collect runtime events or detections, filter on suspicious behavior, and inspect what processes, syscalls, or containers are actually doing. That scope boundary, runtime event capture and triage through Tracee, keeps this from being just a product card for a broader security offering.
 
 ## Installation
 

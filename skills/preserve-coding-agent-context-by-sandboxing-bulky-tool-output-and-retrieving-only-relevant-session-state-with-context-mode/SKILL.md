@@ -16,7 +16,9 @@ tool_ecosystem:
 
 # Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode
 
-Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after compaction. It wraps tool-heavy workflows with sandboxed execution, indexed session history, and targeted retrieval so the agent can keep working without reloading raw data into the prompt.
+Context Mode is a cross-platform MCP server and plugin workflow for coding agents that routes bulky tool output away from the main prompt, stores actionable session events in SQLite/FTS5, and retrieves only the relevant state when work resumes. It is useful when an agent is reading large logs, repo outputs, or browser snapshots and would otherwise waste context or forget in-progress edits after compaction.
+
+Invoke this instead of using the product normally when the goal is not generic agent chat, but a repeatable operator workflow: keep a long coding session stable, searchable, and context-efficient across tool calls. The scope boundary is clear: this is not a generic AI coding product card, but a specific skill for enforcing context-saving routing and session continuity inside supported agent runtimes.
 
 ## Installation
 

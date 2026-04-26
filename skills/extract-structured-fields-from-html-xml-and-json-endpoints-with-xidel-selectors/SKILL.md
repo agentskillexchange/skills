@@ -14,7 +14,11 @@ tool_ecosystem:
 
 # Extract structured fields from HTML XML and JSON endpoints with Xidel selectors
 
-Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions.
+Use this skill when an agent needs to extract structured values from markup or API responses without spinning up a full browser-automation stack. Xidel can download and query HTML, XML, and JSON sources using CSS selectors, XPath, XQuery, and JSONiq, which makes it a strong fit for precise field extraction, feed harvesting, or transformation-oriented scraping tasks.
+
+Invoke it instead of using the product normally when the requested job is a narrow selector-driven extraction pass: fetch a source, run declarative queries, and return structured results. That scope boundary keeps this from being a generic scraper or CLI listing. The agent is not selling a browser framework or broad crawling platform; it is performing a concrete extraction workflow over supplied sources.
+
+Xidel is also distinct from simpler HTML-only selector tools because the same invocation model spans HTML, XML, and JSON inputs and supports richer query languages such as XPath, XQuery, and JSONiq. The upstream repository explicitly presents it as a command-line tool for downloading and extracting data from HTML/XML pages or JSON APIs.
 
 ## Installation
 

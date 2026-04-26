@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd
 
-Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops.
+Use s5cmd when an agent needs to perform large batches of S3-compatible copy, sync, list, or delete operations quickly and predictably. Invoke it instead of hand-rolled `aws s3` loops when the job is high-volume object movement or cleanup with parallel execution and reproducible command sets. The scope boundary is tight: batch object-storage operations at scale, not general cloud administration, storage platform hosting, or a generic SDK listing.
 
 ## Installation
 

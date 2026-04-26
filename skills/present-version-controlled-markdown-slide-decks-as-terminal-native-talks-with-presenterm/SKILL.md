@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Present version-controlled markdown slide decks as terminal-native talks with Presenterm
 
-Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
+Use Presenterm when an agent needs to render and deliver a markdown slide deck inside the terminal for a talk, demo, or workshop, not when the user is looking for a general presentation product. The workflow is concrete: author or edit slides in markdown, preview the deck, then run the talk from a terminal-native presenter view. That scope boundary, terminal delivery of version-controlled markdown decks, keeps this narrower than a generic slide platform listing.
 
 ## Installation
 
