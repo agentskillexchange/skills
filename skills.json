@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 2389,
-  "generated": "2026-04-25",
+  "generated": "2026-04-26",
   "skills": [
     {
       "slug": "query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp",
@@ -280,7 +280,8 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 884
+        "github_stars": 884,
+        "npm_weekly_downloads": 297
       }
     },
     {
@@ -21368,7 +21369,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "puppeteer"
+        "tool": "puppeteer",
+        "github_stars": 94192
       }
     },
     {
@@ -21715,7 +21717,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 319
+      }
     },
     {
       "slug": "mdn-web-api-reference-fetcher",
@@ -22331,7 +22336,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "datadog"
+        "tool": "datadog",
+        "github_stars": 1476
       }
     },
     {
@@ -22513,7 +22519,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 489
+      }
     },
     {
       "slug": "sast-rule-compiler-semgrep",
@@ -23615,7 +23624,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 42500
+      }
     },
     {
       "slug": "csp-policy-analyzer",
@@ -25055,7 +25067,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "graphql"
+        "tool": "graphql",
+        "github_stars": 10425
       }
     },
     {
@@ -25068,7 +25081,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2626
+      }
     },
     {
       "slug": "typescript-ast-refactor-ts-morph",
@@ -25995,7 +26011,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "semgrep"
+        "tool": "semgrep",
+        "github_stars": 14922
       }
     },
     {
@@ -26023,7 +26040,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 47246
+      }
     },
     {
       "slug": "eslint-custom-rule-builder",

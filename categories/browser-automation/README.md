@@ -7,6 +7,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars |
 |---|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | ⭐ 116.2k |
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | ⭐ 94.2k |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⭐ 94.1k |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | ⭐ 94.1k |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 94.1k |
@@ -15,7 +16,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 94.1k |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 94.1k |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 94.1k |
-| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 94.1k |
 
 ---
 
@@ -41,6 +41,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | 116.2k | — |
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | 94.2k | — |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | 94.1k | — |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94.1k | — |
@@ -133,6 +134,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device](../../skills/control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device/) | 1.8k | 162.4k/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
+| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 1.5k | — |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](../../skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | 327 | — |
@@ -140,8 +142,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](../../skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | 71 | — |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |
 | [playwright-extra Plugin Framework for Playwright](../../skills/playwright-extra-plugin-framework-for-playwright/) | — | 623.1k/wk |
-| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
-| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
 
 ---
 

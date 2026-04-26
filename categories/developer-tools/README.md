@@ -208,6 +208,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.5k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
+| [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | 10.4k | — |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | 10.2k | 11.2M/wk |
 | [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | 10.1k | — |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](../../skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | 10k | 5.5k/wk |
@@ -272,6 +273,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | 2.6k | 260.6k/wk |
 | [Apply structural codemods across large codebases with Comby](../../skills/apply-structural-codemods-across-large-codebases-with-comby/) | 2.6k | — |
+| [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | 2.6k | — |
 | [Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall](../../skills/provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall/) | 2.6k | — |
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | 2.6k | — |
 | [Persist reusable coding-agent memory across sessions with Engram](../../skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | 2.6k | — |
@@ -318,7 +320,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](../../skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |
-| [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | — | — |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | — | — |
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](../../skills/github-copilot-ai-code-assistant/) | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
@@ -331,7 +332,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
-| [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |

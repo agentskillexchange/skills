@@ -11,11 +11,11 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⭐ 51.8k |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⭐ 51.8k |
+| [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | ⭐ 47.2k |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | ⭐ 47.2k |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
-| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | ⭐ 28.5k |
 
 ---
 
@@ -45,6 +45,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | 51.8k | 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | 51.8k | 90.5M/wk |
+| [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | 47.2k | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | 47.2k | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
@@ -217,7 +218,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Review REST API designs before implementation for versioning, security, and contract clarity](../../skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | — | — |
-| [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |
 
 ---
 

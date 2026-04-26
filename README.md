@@ -48,7 +48,7 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/)
+### [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/)
 
 
 
@@ -56,7 +56,7 @@ clawhub install <slug>
 - Category: Research & Scraping
 - Frameworks: Multi-Framework
 - GitHub stars: 108,813
-- Listing: https://agentskillexchange.com/skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/
+- Listing: https://agentskillexchange.com/skills/firecrawl-web-data-api-for-ai-agents/
 
 ---
 

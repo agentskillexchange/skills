@@ -87,6 +87,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | 15k | — |
 | [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | 15k | — |
 | [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | 15k | — |
+| [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | 14.9k | — |
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface](../../skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/) | 14k | — |
@@ -199,6 +200,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](../../skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | 687 | — |
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
+| [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | 489 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |
 | [Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection](../../skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/) | 429 | — |
 | [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](../../skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | 429 | — |
@@ -253,9 +255,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
-| [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | — | — |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | — | — |
-| [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
