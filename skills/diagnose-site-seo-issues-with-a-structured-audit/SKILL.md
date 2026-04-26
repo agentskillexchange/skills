@@ -8,8 +8,6 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "coreyhaines31/marketingskills"
-  github_stars: 21914
 ---
 
 # Diagnose Site SEO Issues with a Structured Audit

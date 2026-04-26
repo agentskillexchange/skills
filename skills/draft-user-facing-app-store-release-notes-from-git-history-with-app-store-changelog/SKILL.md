@@ -8,8 +8,6 @@ category:
 framework:
   - "Codex"
 tool_ecosystem:
-  github_repo: "Dimillian/Skills"
-  github_stars: 3354
 ---
 
 # Draft user-facing App Store release notes from git history with App Store Changelog

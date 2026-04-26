@@ -8,10 +8,6 @@ category:
 framework:
   - "Claude Code"
 tool_ecosystem:
-  github_repo: "anthropics/claude-code"
-  github_stars: 116829
-  npm_package: "@anthropic-ai/claude-code"
-  npm_weekly_downloads: 49934290
 ---
 
 # Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe
