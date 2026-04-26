@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Sync calendars between providers with a stateless CalendarSync job
 
-Use CalendarSync when you need an agent to mirror or migrate events between calendar systems as a discrete job with a clear done state. The boundary is narrow: source-to-sink event synchronization with filters and transformations, not a general calendar product or hosted scheduling platform.
+Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service.
 
 ## Installation
 

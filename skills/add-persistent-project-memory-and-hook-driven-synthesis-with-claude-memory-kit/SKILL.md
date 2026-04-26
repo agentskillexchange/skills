@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Add persistent project memory and hook-driven synthesis with Claude Memory Kit
 
-Use Claude Memory Kit when Claude Code is losing project context across sessions and the real job is to persist decisions, working memory, handoff notes, and lightweight knowledge synthesis directly inside the repo. The agent loads saved context at session start, checkpoints progress through hooks, and can run daily close-out and memory-compilation flows. That boundary, local markdown memory and hook-driven session continuity for Claude Code, keeps this skill distinct from a generic agent platform or broad knowledge-base product listing.
+Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time.
 
 ## Installation
 

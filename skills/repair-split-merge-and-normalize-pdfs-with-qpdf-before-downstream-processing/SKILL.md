@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Repair, split, merge, and normalize PDFs with qpdf before downstream processing
 
-Use qpdf when an agent needs a bounded PDF preprocessing step instead of treating the tool like a generic document product. The practical invoke moment is before downstream extraction, OCR, review, or delivery: repair damaged files, split or merge pages, and normalize structure into a cleaner artifact. That scope boundary, PDF preprocessing and normalization before another workflow, is narrow enough to be skill-shaped rather than a plain utility listing.
+Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them.
 
 ## Installation
 

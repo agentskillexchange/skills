@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa
 
-Use Hayabusa when an agent needs to ingest EVTX data, apply Sigma-aligned detections, and produce a timeline for Windows host triage or enterprise threat hunting. The scope boundary is concrete: it is about turning Windows event logs into investigation-ready timelines and detections, whether from live systems or collected logs. That is a bounded DFIR workflow with a clear input and output, not a generic security platform or endpoint product card.
+Parse Windows event logs into fast timelines and detection-rich outputs so agents can triage suspicious host activity, search for known patterns, and hand investigators reviewable artifacts.
 
 ## Installation
 

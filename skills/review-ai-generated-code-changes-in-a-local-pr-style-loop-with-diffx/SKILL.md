@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Review AI-generated code changes in a local PR-style loop with DiffX
 
-Use DiffX when an agent or developer has already produced code changes and the next step is a bounded human review loop before accepting or refining them. The upstream project is explicit about this job: run `diffx` in a git repository, inspect the local diff in a PR-like web UI, leave inline comments, then copy or fetch structured review comments for the coding agent to address.
-
-Invoke this instead of using the product normally when you need a local, review-first checkpoint for AI-generated changes without opening a hosted pull request. This is especially useful for working-tree diffs, staged changes, or branch comparisons that are not ready for remote review yet.
-
-The scope boundary is specific and keeps it skill-shaped: DiffX is not being listed as a generic code review product or UI toolkit. The skill is the review loop itself, start local diff review, capture line-level comments, return them to the agent, and resolve the requested fixes.
+Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback back to a coding agent for repair.
 
 ## Installation
 

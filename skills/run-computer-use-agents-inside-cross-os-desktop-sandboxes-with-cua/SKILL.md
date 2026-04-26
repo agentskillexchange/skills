@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Run computer-use agents inside cross-OS desktop sandboxes with CUA
 
-CUA is distinct from ordinary browser automation because the documented workflow is full computer-use execution across desktop and device sandboxes. Its sandbox API and cuabot tooling let an operator run an agent in an isolated OS environment, capture screenshots, send mouse and keyboard actions, and benchmark the resulting behavior on computer-use tasks.
-
-Invoke it when the agent must interact with a real desktop or device surface instead of a DOM-only browser session or a local host environment. The scope boundary is sandboxed computer-use execution and evaluation, not a generic AI platform or broad workflow builder.
+Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.
 
 ## Installation
 

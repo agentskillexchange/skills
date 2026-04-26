@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run configurable multi-source deep research passes with Open Deep Research
 
-Use Open Deep Research when the task is to execute a deep-research run that gathers sources, iterates on search, compresses findings, and produces a synthesized report. Invoke it instead of doing ad hoc web research in ordinary chat when you need a configurable research agent with interchangeable model providers, search tools, and MCP-compatible retrieval sources. The scope boundary is skill-shaped and concrete: this is a bounded research-run workflow, not a generic framework listing and not just a product card for LangChain or a hosted research app.
+Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends.
 
 ## Installation
 

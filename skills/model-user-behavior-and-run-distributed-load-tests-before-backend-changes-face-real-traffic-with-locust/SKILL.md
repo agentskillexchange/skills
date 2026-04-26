@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Model user behavior and run distributed load tests before backend changes face real traffic with Locust
 
-Use Locust when an agent needs to express user behavior as executable scenarios, run them at scale, and inspect latency or failure patterns before a release or capacity change. Invoke it instead of ad hoc curl loops or single-endpoint smoke checks when the real task is distributed scenario-based load testing. The scope boundary is specific and skill-shaped: model and run load scenarios against a target service, not general observability, generic backend development, or a plain load-testing product card.
+Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout.
 
 ## Installation
 

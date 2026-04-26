@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Advance GitOps app manifests to newer container tags with Argo CD Image Updater
 
-Use Argo CD Image Updater when an agent needs to watch approved image registries, choose newer tags under explicit update rules, and write the resulting tag changes back to the GitOps source of truth for Argo CD-managed workloads. Invoke this instead of using Argo CD normally when the job is specifically image selection plus manifest or parameter write-back, not general deployment sync, application health review, or cluster operations. The scope boundary is concrete: detect eligible image updates and advance Argo CD application manifests for supported Helm or Kustomize workloads, which makes this a bounded operator workflow rather than a plain platform listing.
+Track approved container images and write back the matching GitOps manifest changes instead of hand-editing tags across Argo CD applications.
 
 ## Installation
 

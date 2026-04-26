@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Turn Lark meeting transcripts into action items and follow-up tasks
 
-Lark Minutes Tasks is a post-meeting execution workflow. The agent reads a Lark Minutes transcript or notes document, extracts explicit and implied action items, lets the user choose which ones matter, and then carries out the selected follow-up work.
-
-Invoke this when the meeting transcript is the handoff artifact and you want the agent to turn discussion into concrete next actions, messages, documents, research, or calendar follow-through. That is different from using Lark Minutes normally, because the transcript is not the end product here, it is the trigger for execution.
-
-The boundary is narrow: transcript-to-task extraction and follow-up execution from Lark meeting records. It is not a generic meeting platform listing and not a broad productivity suite card.
+Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Systematic Debugging and Error Recovery
 
-Use this when tests fail, builds break, or runtime behavior stops matching expectations and you want an agent to follow a disciplined debugging flow instead of improvising. The agent applies a reproduce, localize, reduce, fix, and guard-against-regression sequence. The boundary is failure triage and recovery workflow execution, not a generic IDE, debugger, or product listing.
+Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work.
 
 ## Installation
 

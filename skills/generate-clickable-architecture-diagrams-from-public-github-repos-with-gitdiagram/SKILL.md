@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Generate clickable architecture diagrams from public GitHub repos with GitDiagram
 
-Use GitDiagram when the immediate job is to turn a public GitHub repository into an interactive architecture or system diagram that links back to source files. The upstream workflow is explicit: supply a GitHub repo, generate a diagram, inspect components, and export Mermaid or PNG output.
-
-Invoke this instead of manually reading the repo or opening a generic diagramming product when you need a repo-to-diagram pass first. The scope boundary is narrow and skill-shaped: GitDiagram converts repository structure into clickable diagrams. It is not a general whiteboard, diagram SDK, or broad GitHub platform listing.
+Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff.
 
 ## Installation
 

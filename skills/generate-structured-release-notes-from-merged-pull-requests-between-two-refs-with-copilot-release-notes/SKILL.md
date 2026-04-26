@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate structured release notes from merged pull requests between two refs with Copilot Release Notes
 
-Use Copilot Release Notes when a release workflow needs a bounded pass that compares two refs, inspects the merged pull requests in that range, and emits structured release notes. A user should invoke this instead of using GitHub or Copilot normally when the job is release-note generation for a specific diff window, not ongoing release management or generic changelog tooling. That scope boundary, PR-to-release-notes generation between two refs with uncertainty flags and structured outputs, makes this skill-shaped and distinct from broader release platforms.
+Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow.
 
 ## Installation
 

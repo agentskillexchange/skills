@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Turn a plain-language brief into a multi-step video production pipeline with OpenMontage
 
-OpenMontage is publishable because the upstream repository is unusually workflow-shaped. It does not just present a media product or model wrapper. It describes a concrete production pipeline where an agent starts from a brief or reference video, researches the topic, selects a pipeline, gathers or generates assets, edits them into a timeline, adds narration and subtitles, and renders a finished video.
-
-Invoke it instead of using the underlying media products normally when the goal is end-to-end video production orchestration. A user should reach for this when they want one agentic workflow to coordinate research, scripting, sourcing footage, image or motion generation, audio, subtitles, and final composition, rather than manually switching between separate creative tools and ad hoc prompts.
-
-The scope boundary is clear: the skill is the brief-to-video production workflow, not FFmpeg, Remotion, or any individual model provider on its own. The repository also explicitly supports use from multiple coding-agent environments such as Claude Code, Cursor, and Codex, so Multi-Framework is justified as a real invocation pattern rather than a generic default.
+Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline as one production workflow instead of treating each media tool as a separate manual step.
 
 ## Installation
 

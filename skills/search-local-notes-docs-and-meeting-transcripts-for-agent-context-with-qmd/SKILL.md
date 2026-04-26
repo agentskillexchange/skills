@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Search local notes, docs, and meeting transcripts for agent context with QMD
 
-Use QMD when an agent needs to search local markdown notes, meeting transcripts, or documentation before answering, planning, or drafting. It combines keyword search, semantic search, reranking, and agent-friendly JSON or file outputs in one local workflow.
-
-Invoke this instead of a normal note app or raw grep when the job is to build a focused context bundle for an agent, not just browse notes manually. The scope boundary is tight: QMD indexes local text collections and returns relevant documents or paths for downstream agent use. It is not a general knowledge base product listing, hosted search platform, or broad note-taking workspace.
+Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Export Obsidian vaults into clean Markdown trees for publishing or downstream processing
 
-Use obsidian-export when an agent needs to turn an Obsidian vault into regular Markdown that other tools can index, publish, or transform. A user should invoke this instead of using Obsidian normally when the job is an export-and-normalize handoff for downstream processing, not interactive note taking. The scope boundary is clear and skill-shaped: vault conversion from Obsidian-flavored Markdown into portable Markdown output, not a generic knowledge-base app listing.
+Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes.
 
 ## Installation
 

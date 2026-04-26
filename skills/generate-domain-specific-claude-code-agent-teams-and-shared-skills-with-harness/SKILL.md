@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate domain-specific Claude Code agent teams and shared skills with Harness
 
-Use Harness when the job is to design a domain-specific Claude Code agent team before implementation work starts. It takes a project or domain description, chooses a team pattern, and emits .claude/agents plus .claude/skills so the team can be invoked inside Claude Code. Invoke this instead of using Claude Code normally when the missing step is team architecture and reusable shared skills, not ordinary coding or chat. The scope boundary is tight: team-and-skill generation for Claude Code’s agent system, not a generic multi-agent framework or broad product listing.
+Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup.
 
 ## Installation
 

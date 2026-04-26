@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Convert SMTP-only alerts into routed notification deliveries with Mailrise
 
-Use this skill when an agent needs to bridge SMTP-only alert sources into modern notification destinations without changing the upstream system. Mailrise runs as an SMTP gateway that receives ordinary email and converts it into Apprise notifications, letting legacy apps, appliances, scripts, or home-lab systems route alerts to services like Matrix, mobile push targets, and other Apprise-supported channels.
-
-Invoke it instead of using the product normally when the agent’s job is specifically translate email alert output into downstream notification delivery. The scope boundary is tight: this is not a general-purpose mail server, inbox client, or notification platform listing. It is an operator workflow for converting one alert transport into another at the integration edge.
-
-This makes it publishable as a skill because the user asks the agent to set up or use a relay pattern for alerts, not to browse or administer a generic email product. The upstream project explicitly describes Mailrise as an SMTP gateway for Apprise notifications.
+Use Mailrise to accept ordinary email alerts and fan them out through Apprise-backed notification channels when legacy systems can only speak SMTP.
 
 ## Installation
 

@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Build, test, and package PostgreSQL extensions in Rust with pgrx
 
-pgrx is a real Rust toolchain for building PostgreSQL extensions. Invoke this when the task is extension development itself, such as compiling Rust-based extensions, running extension-focused tests against local PostgreSQL installs, and preparing packages for distribution, instead of doing generic Rust application work or ordinary SQL administration.
-
-The scope boundary is the PostgreSQL extension lifecycle in Rust. That makes it a publishable operator workflow rather than a plain Rust library or database product listing.
+Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs, and packaging across PostgreSQL versions.
 
 ## Installation
 

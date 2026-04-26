@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Boot and supervise local multi-service process stacks from one declarative file with process-compose
 
-Use process-compose when an agent needs to run and supervise a local multi-process development or test stack from one config file, not when the user needs a container platform or a generic server product. The operator job is narrow: define the services, start them together, watch logs and health, and coordinate restarts or shutdowns from one control surface. That scope boundary, local process orchestration for non-container service stacks, keeps it distinct from broader infrastructure listings.
+Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc shell loops.
 
 ## Installation
 

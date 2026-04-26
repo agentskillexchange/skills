@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills
 
-Use Trail of Bits Skills when an agent needs a security-focused workflow inside Claude Code, especially vulnerability research, differential review, variant analysis, Semgrep rule work, false-positive verification, or fix validation. Invoke it when the operator needs a repeatable security procedure and supporting prompts, not when they are simply using Claude Code as a general coding assistant. The scope boundary is clear: this is a curated security workflow pack for audit and verification jobs, not a generic plugin marketplace card or broad software engineering toolkit.
+Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding assistance.
 
 ## Installation
 

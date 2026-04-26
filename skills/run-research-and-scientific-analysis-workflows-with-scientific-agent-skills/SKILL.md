@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run research and scientific analysis workflows with Scientific Agent Skills
 
-Use Scientific Agent Skills when an agent needs a repeatable scientific or research workflow, such as bioinformatics analysis, cheminformatics, clinical data work, geospatial science, forecasting, or scientific writing, and the missing piece is domain guidance rather than raw model access. Invoke it instead of normal chat prompting when the operator needs curated scientific packages, databases, and stepwise research procedures that improve reliability across specialized tasks. The scope boundary is scientific research and analysis workflows delivered as open Agent Skills, not a generic desktop AI app listing or a broad model platform card.
+Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work.
 
 ## Installation
 

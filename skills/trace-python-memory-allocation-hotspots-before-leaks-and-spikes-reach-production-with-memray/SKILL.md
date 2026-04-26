@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Trace Python memory allocation hotspots before leaks and spikes reach production with Memray
 
-Use Memray when an agent needs to answer a specific diagnostic question: where is Python memory actually being allocated, retained, or leaking? It fits incident response, performance regression triage, and pre-release investigations where heap growth is real but the cause is not yet clear.
-
-Invoke this instead of using the product normally when the agent must capture an allocation trace, compare runs, and turn the resulting evidence into a concrete remediation path. This is skill-shaped because the workflow boundary is narrow and operational: capture memory traces, inspect hotspots, and identify leak sources. It is not a generic Python tooling card or broad observability platform listing.
+Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths before memory growth turns into a production incident.
 
 ## Installation
 

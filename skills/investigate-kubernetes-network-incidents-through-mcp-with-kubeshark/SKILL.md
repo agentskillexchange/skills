@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Investigate Kubernetes network incidents through MCP with Kubeshark
 
-Use Kubeshark when an agent needs direct access to Kubernetes network evidence instead of guessing from logs alone. Kubeshark captures and indexes L4 and L7 traffic with Kubernetes context, exposes that data through MCP, and lets the agent ask focused questions about failed requests, service-to-service paths, TLS traffic, and retrospective packet captures.
-
-Invoke it during root cause analysis, degraded API investigations, and cross-service incident response, especially when the important signal lives in the network path rather than in one workload’s logs. The scope boundary is tight: this skill is about querying captured cluster traffic and exporting targeted evidence through Kubeshark’s MCP tools, not about being a general observability platform card.
+Query live and historical Kubernetes network traffic through Kubeshark’s MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident response.
 
 ## Installation
 

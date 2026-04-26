@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run only the relevant linters and formatters on changed files with Precious
 
-Use Precious when an agent needs to inspect a repository diff and run only the configured linters and formatters that apply to the changed files. A user should invoke this instead of running the full repo toolchain normally when the task is selective pre-commit or CI quality gating, not broad code review, static-analysis platform setup, or formatter authoring. The scope boundary is skill-shaped: it orchestrates changed-file quality checks from existing repo configuration and returns focused lint or format results, not a generic linting product or framework listing.
+Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted.
 
 ## Installation
 

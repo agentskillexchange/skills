@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action
 
-Tool: codex-action. This skill gives an agent a narrow CI job: run Codex from a GitHub Actions workflow to review a pull request or perform another bounded repository task under explicit workflow permissions.
-
-When to use it: invoke this when a repo already lives in GitHub Actions and you want Codex to execute review, maintenance, or scheduled automation steps without opening an interactive local session. Using this skill is different from using the product normally because the operator workflow is CI-shaped: define the workflow trigger, install the action, pass a bounded prompt and sandbox mode, then capture Codex output as comments, artifacts, or follow-up steps.
-
-Scope boundary: this is not a generic Codex listing and not a broad GitHub Actions card. Its boundary is specific: run Codex as a permission-bounded GitHub Action for repository tasks.
+Use codex-action when an agent operator wants Codex to run inside GitHub Actions for PR review or scheduled repo work with explicit workflow permissions, prompts, and CI boundaries.
 
 ## Installation
 

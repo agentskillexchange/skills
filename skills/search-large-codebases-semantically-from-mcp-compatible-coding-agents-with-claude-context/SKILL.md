@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Search large codebases semantically from MCP-compatible coding agents with Claude Context
 
-Claude Context is an MCP-delivered semantic code search workflow for coding agents. It indexes a repository into a vector store and returns the most relevant code for a task, so the agent can navigate large codebases without repeatedly dumping whole directories into context.
-
-Invoke this instead of using the product normally when the agent needs code-aware retrieval as part of an interactive coding loop, especially on large repositories where naive file reads are expensive or incomplete. The scope boundary is that the publishable skill is the agent-facing retrieval workflow through MCP, not a generic vector database, not a general code search product listing, and not just a package card.
+Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of repeatedly loading folders or files into prompt context. It indexes code into a vector database and exposes code-search retrieval through MCP for Claude Code and other compatible agent clients.
 
 ## Installation
 

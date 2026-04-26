@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Find unused Python code before cleanup refactors with Vulture
 
-Use Vulture when an agent is preparing a Python cleanup, migration, or repo-slimming pass and needs a focused list of likely unused code first. The agent can scan the project, review suspicious dead-code findings, and hand back a triage list before any destructive edits happen. The boundary is a pre-refactor dead-code review loop for Python, not a generic Python toolkit or broad linting platform listing.
+Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly.
 
 ## Installation
 

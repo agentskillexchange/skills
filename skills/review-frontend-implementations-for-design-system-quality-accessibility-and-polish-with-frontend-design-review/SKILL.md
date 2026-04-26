@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review
 
-Use Frontend Design Review when an agent needs to audit an existing UI for design-system compliance, accessibility, responsive behavior, action hierarchy, and overall interface polish before shipping. Invoke this instead of using the product normally when the job is a bounded frontend review pass with prioritized findings and remediation guidance, not broad design inspiration or generic frontend coding help. The boundary is review and critique of implemented UI against concrete quality criteria, not a general frontend framework or design tool listing.
+Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.
 
 ## Installation
 

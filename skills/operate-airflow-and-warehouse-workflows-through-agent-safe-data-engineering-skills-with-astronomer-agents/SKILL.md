@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents
 
-Use Astronomer Agents when an agent needs structured help with Airflow operations, DAG authoring and debugging, warehouse analysis, or dbt-adjacent data engineering tasks. Invoke this instead of using Airflow, dbt, or raw terminal access normally when the job needs agent-facing tools, installable skills, and an Airflow MCP server rather than freeform commands. The scope boundary is specific: agent-safe Airflow and warehouse workflow execution for data engineering, not a generic orchestration platform or product listing.
+Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP surface instead of loose shell access.
 
 ## Installation
 

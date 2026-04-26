@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF
 
-Use OpenDataLoader PDF when an agent needs to turn PDFs into structured outputs such as markdown, JSON with bounding boxes, or accessibility-oriented tagged-PDF artifacts rather than treating it as a general document platform. A user should invoke it when the task is PDF extraction, layout-aware parsing, or remediation preparation for downstream RAG and accessibility flows. That scope boundary, PDF-only structured extraction and tagging workflow, keeps this skill-shaped instead of reading like a generic parsing SDK listing.
+Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done.
 
 ## Installation
 

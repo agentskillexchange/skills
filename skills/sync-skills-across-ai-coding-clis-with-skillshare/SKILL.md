@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare
 
-Use Skillshare when a team maintains skills, agents, rules, or prompts in one place but runs more than one coding CLI. It keeps a canonical source directory and syncs those assets into Claude Code, Codex, OpenClaw, OpenCode, and other supported targets with filtering and audit features. Invoke this instead of using each product normally when the real job is cross-tool rollout and consistency of shared skill assets. The boundary is file-based skill and agent distribution across AI CLIs, not a generic marketplace or broad agent platform listing.
+Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories.
 
 ## Installation
 

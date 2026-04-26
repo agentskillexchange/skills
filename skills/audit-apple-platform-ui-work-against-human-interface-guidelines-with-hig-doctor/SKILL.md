@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor
 
-Use HIG Doctor when an agent needs to score a codebase against Apple Human Interface Guidelines and surface concrete UI, accessibility, color, typography, layout, and platform-pattern issues before release. The right invocation is a bounded audit and remediation pass over a project directory, not general browsing of Apple design docs. That scope boundary, project-level HIG compliance scanning with actionable findings, keeps this distinct from a generic design system, framework, or style-guide listing.
+Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation.
 
 ## Installation
 

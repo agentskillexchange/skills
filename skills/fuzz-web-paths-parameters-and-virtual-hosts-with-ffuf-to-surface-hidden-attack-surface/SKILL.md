@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface
 
-Use ffuf when the job is active discovery of hidden web attack surface, not ordinary browsing or generic use of a web stack. It gives an agent a bounded workflow: send wordlist-driven requests against paths, parameters, or virtual hosts, filter noisy responses, and return candidate findings for follow-up testing. That scope boundary, focused content discovery and fuzzing against a target, keeps this skill-shaped instead of reading like a plain security tool listing.
+Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface.
 
 ## Installation
 

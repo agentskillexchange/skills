@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Bundle and validate OpenAPI files into one publishable spec with swagger-cli
 
-Use swagger-cli when an agent needs to take a split OpenAPI definition, follow its references, and emit a single validated artifact for downstream publishing or checks. Invoke this instead of using a general API platform when the job is specifically spec bundling and validation in a local or CI workflow. The scope boundary is tight: combine referenced OpenAPI files and fail fast on invalid contracts, not run API servers, manage docs portals, or act as a general SDK/framework listing. Note that the upstream project is deprecated, so this is publishable but less future-proof than more actively maintained alternatives.
+Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec.
 
 ## Installation
 

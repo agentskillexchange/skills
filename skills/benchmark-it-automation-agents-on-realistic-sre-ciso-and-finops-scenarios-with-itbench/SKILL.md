@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench
 
-Use ITBench when an agent team needs a pre-rollout evaluation on realistic IT automation tasks instead of relying on demos or ad hoc smoke tests. The workflow is specific: deploy or access the benchmark scenarios, run an agent against SRE, CISO, or FinOps cases, and compare outcomes with interpretable metrics. Invoke this instead of using the underlying agent stack normally when the question is whether it can handle realistic IT incidents and operations safely enough to trust. The scope boundary is benchmarked IT-automation evaluation, not a general agent platform or generic enterprise product card.
+Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations.
 
 ## Installation
 

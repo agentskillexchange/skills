@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP
 
-Fabric RTI MCP is an MCP server that exposes Microsoft Fabric Real-Time Intelligence operations as agent-callable tools, including KQL querying for Eventhouse or Azure Data Explorer, Eventstream management, Activator trigger setup, and Map operations. It gives an agent a concrete invoke surface for analytics and streaming tasks inside an MCP workflow.
-
-Invoke this instead of using the product normally when the user wants an MCP-compatible agent to inspect schemas, run KQL, manage streaming resources, or prepare alerts from the same conversational loop. The scope boundary is the MCP bridge and agent tool workflow; that keeps it from being merely a Microsoft Fabric product listing or generic cloud platform card.
+Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead of sending the user back to the Fabric UI or wiring custom SDK glue.
 
 ## Installation
 

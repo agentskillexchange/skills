@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema
 
-Use Skeema when an agent needs to manage MySQL or MariaDB schema as reviewable files, compare intended changes against live databases, and stage safe deploys. A user should invoke this instead of using the database normally when the task is schema pull, diff, lint, and controlled push, not ad hoc querying or generic administration. The scope boundary is crisp and skill-shaped: filesystem-backed schema change review and deployment for MySQL-family databases, not a plain database product or migration framework listing.
+Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow.
 
 ## Installation
 

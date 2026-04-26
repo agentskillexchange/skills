@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run server-side ingest, search, and edit pipelines on video with VideoDB Skills
 
-Use VideoDB Skills when an agent needs to upload or capture video, generate transcripts and scene understanding, search for moments, assemble clips, add subtitles or overlays, and return playable outputs from a server-side workflow. The right time to invoke it is when the operator wants promptable video ingestion and editing from inside an agent session rather than manually operating a video toolchain or stitching together ffmpeg-heavy scripts. That scope boundary, end-to-end agent video workflows with ingest, understanding, search, and edit steps, keeps it distinct from a generic media platform listing.
+Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline.
 
 ## Installation
 

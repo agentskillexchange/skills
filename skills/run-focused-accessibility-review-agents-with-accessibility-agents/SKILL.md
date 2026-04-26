@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run focused accessibility review agents against coding-tool output with Accessibility Agents
 
-Use Accessibility Agents when you want an agent workflow to run targeted accessibility reviews instead of hoping general coding prompts remember WCAG details. The project packages specialist agents for web, document, workflow, and tooling accessibility so you can invoke focused review passes against AI-generated output and catch issues around ARIA, keyboard flows, contrast, and related compliance concerns. Invoke this instead of using a coding tool normally when the missing step is explicit accessibility review by dedicated specialists. The scope is bounded to accessibility evaluation and remediation guidance, not a generic coding platform or CMS listing.
+Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship.
 
 ## Installation
 

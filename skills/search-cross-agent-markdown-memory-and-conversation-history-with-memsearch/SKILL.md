@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Search cross-agent Markdown memory and conversation history with memsearch
 
-Use memsearch when an agent needs to recover prior context from Markdown memory files before taking action. It is explicitly built to capture and recall conversation history across multiple agent environments, with plugin-driven installs for Claude Code and OpenClaw and documented support for other coding-agent surfaces. The boundary is durable memory capture and retrieval from Markdown-backed history, not a generic vector database, note app, or broad agent platform.
+Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context from scratch.
 
 ## Installation
 

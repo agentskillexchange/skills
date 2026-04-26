@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA
 
-Use MEDUSA when an agent or security reviewer needs one preflight scan over an agent-oriented repository to surface AI-specific attack paths before the repo is trusted or shipped. The point is not general vulnerability management. The bounded operator workflow is to scan a local or remote repo for poisoned AI editor files, prompt-injection surfaces, unsafe MCP configurations, and related supply-chain issues, then review the resulting findings before merge, deployment, or onboarding the repo into an agent workflow. That boundary, repo-level AI security screening with explicit repo-poisoning and MCP coverage, keeps this narrower than a plain scanner listing.
+Run a focused preflight scan over agent and MCP repositories to catch poisoned instruction files, dangerous configs, and AI-specific supply-chain risks before merge or deployment.
 
 ## Installation
 

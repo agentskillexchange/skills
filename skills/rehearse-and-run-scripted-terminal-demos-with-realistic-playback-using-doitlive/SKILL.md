@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Rehearse and run scripted terminal demos with realistic playback using doitlive
 
-Use doitlive when an agent needs to rehearse or deliver a scripted terminal demo with believable typing and timing, not when the user is simply using a shell normally. The job is bounded: write the demo script, tune pauses or prompts, and play it back during a presentation or training session. That scope boundary, repeatable terminal-demo playback, keeps it skill-shaped instead of collapsing into a generic CLI utility card.
+Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth.
 
 ## Installation
 

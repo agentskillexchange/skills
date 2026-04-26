@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation
 
-Use notion-spec-to-implementation when the agent should turn a Notion PRD or feature spec into an implementation plan, linked tasks, and status updates rather than leaving the spec as a passive document. Invoke it instead of using Notion normally when you need a repeatable spec-to-plan workflow with explicit parsing, task sizing, and artifact linking. The scope boundary is tight enough to be a publishable skill: converting one Notion spec into execution artifacts and progress tracking, not a generic Notion connector or planning product card.
+Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure.
 
 ## Installation
 

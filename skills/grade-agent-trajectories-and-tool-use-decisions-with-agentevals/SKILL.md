@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Grade agent trajectories and tool-use decisions with AgentEvals
 
-Use AgentEvals when you need to judge the path an agent took, not just whether the final answer looked good. The upstream package is specifically about evaluating agent trajectories, including message sequences, tool calls, graph paths, and LLM-as-judge scoring.
-
-Invoke this instead of a general observability stack or broad eval product when the immediate job is trajectory grading inside tests or evaluation suites. The scope boundary is tight: AgentEvals evaluates agent steps and tool-use paths. It is not a general framework, hosted platform, or catch-all agent builder listing.
+Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks.
 
 ## Installation
 

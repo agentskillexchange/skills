@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator
 
-Use GitHub Issue Creator when an agent needs to turn raw bug evidence like notes, logs, screenshots, or voice dictation into a clean GitHub-flavored issue draft with summary, environment, repro steps, expected versus actual behavior, severity, and attachments. Invoke this instead of using the product normally when the job is issue drafting and evidence structuring, not general GitHub repository management or issue workflow automation. The boundary is intake-to-issue authoring for bug reports, not a generic GitHub product card.
+Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.
 
 ## Installation
 

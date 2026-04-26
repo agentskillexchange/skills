@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard
 
-Use LLM Guard when the immediate job is to scan or sanitize prompts and model outputs for injection attempts, secret leakage, toxicity, or related policy risks. It is most useful as a preflight and postflight safety layer wrapped around LLM calls in applications or agent pipelines. The boundary is prompt and output filtering, not a full security platform, observability stack, or general-purpose agent framework.
+Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems.
 
 ## Installation
 

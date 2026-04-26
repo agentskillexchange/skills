@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures
 
-Use pytest-rerunfailures when an agent needs to stabilize an existing pytest pipeline by rerunning intermittent failures under explicit retry limits. Invoke it instead of manually rerunning the full suite or bolting retry logic onto CI scripts when the job is flaky-test containment inside pytest itself. The scope boundary is narrow: retry and report unstable pytest cases, not generic Python testing, broad CI orchestration, or a plain plugin listing.
+Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand.
 
 ## Installation
 

@@ -15,11 +15,7 @@ tool_ecosystem:
 
 # Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK
 
-This skill is for Python automation that needs to call Claude Code as a component instead of as a human-operated terminal session. It covers the workflow of launching queries from Python, constraining tool permissions, setting working directories, and consuming streamed or structured responses inside a larger automation pipeline.
-
-Invoke this instead of using Claude Code manually when the real job is orchestration from Python, such as repository maintenance tasks, coding helpers inside an internal service, or batch workflows that need a bounded coding agent step.
-
-The scope boundary is specific: this is not a generic SDK listing and not a broad Anthropic platform card. It is about embedding Claude Code style sessions inside Python automation through the SDK boundary.
+Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume structured responses programmatically.
 
 ## Installation
 

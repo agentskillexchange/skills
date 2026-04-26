@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Search Help Scout conversations and thread context before drafting support replies
 
-Use Help Scout MCP Server when an agent is assisting support work and needs prior conversations, ticket history, customer records, organization context, or full thread contents before summarizing a case or drafting a reply. It is especially useful when the value comes from gathering the right Help Scout context first, rather than having the agent guess from a single message.
-
-This is skill-shaped because the scope stays inside a repeatable support-context retrieval workflow. It does not replace Help Scout itself, a general helpdesk platform, or outbound support automation. Invoke it when the agent needs to search and assemble Help Scout context before answering, escalating, or summarizing.
+Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context.
 
 ## Installation
 

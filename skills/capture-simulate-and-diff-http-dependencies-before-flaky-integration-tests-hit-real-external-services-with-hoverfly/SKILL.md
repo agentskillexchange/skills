@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly
 
-Use Hoverfly when an agent needs to proxy, capture, replay, or compare HTTP dependency behavior for integration testing and debugging. A user should invoke this instead of calling the real service normally when the goal is deterministic test isolation, safe replay, or controlled simulation of external APIs. The scope boundary is narrow: proxy-based HTTP dependency capture and simulation, not a generic test framework, proxy product, or broad API platform listing.
+Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services.
 
 ## Installation
 

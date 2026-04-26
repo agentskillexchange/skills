@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Simulate agent scenarios, trace failures, and watch production regressions with LangWatch
 
-Use LangWatch when the job is to simulate realistic agent scenarios, inspect where runs break, and monitor for regressions after release. The upstream project is explicit about this loop: trace runs, build datasets, evaluate behavior, optimize prompts or models, and re-test while keeping production observability in view.
-
-Invoke this instead of normal ad hoc logging or manual prompt poking when you need a repeatable agent reliability workflow across testing and production. The scope boundary is narrow enough to stay skill-shaped: LangWatch is being used for agent simulations, evaluations, and regression monitoring, not as a generic AI platform card.
+Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring.
 
 ## Installation
 

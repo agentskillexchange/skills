@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Seal Kubernetes Secrets into Git-safe manifests with kubeseal
 
-Use kubeseal when an agent needs to turn a plaintext Kubernetes Secret manifest into an encrypted SealedSecret that is safe to store in Git and later decrypt only inside the target cluster. A user should invoke this instead of handling Secrets normally when the job is certificate-aware secret sealing for GitOps, rekeying, or controller-bound secret delivery, not day to day secret viewing or generic secret management. The scope boundary is narrow and skill-shaped: encrypting Kubernetes Secret manifests for the Sealed Secrets controller, not listing a Kubernetes platform or generic security product.
+Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext.
 
 ## Installation
 

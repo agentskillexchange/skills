@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard
 
-Use TDD Guard when Claude Code is about to code ahead of the test signal. It intercepts the session, checks whether the change started from a failing test, and pushes the workflow back toward red, then green, then refactor before the agent keeps going. Invoke this instead of relying on normal Claude Code prompting when you need active enforcement of TDD discipline rather than best-effort instructions. The scope is tightly bounded to hook-based TDD validation inside Claude Code sessions, not a generic test runner or broad developer toolkit.
+Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops.
 
 ## Installation
 

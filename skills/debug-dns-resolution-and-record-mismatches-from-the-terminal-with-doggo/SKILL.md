@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Debug DNS resolution and record mismatches from the terminal with doggo
 
-Use doggo when an agent needs to investigate DNS behavior for a hostname, compare answers across resolvers, or verify specific record types such as A, AAAA, CNAME, TXT, or MX. A user should invoke this instead of using a general DNS product when the task is a bounded resolution-debugging workflow from the terminal, not ongoing DNS management. The scope boundary is clear and skill-shaped: ad hoc resolver and record inspection for troubleshooting, not a generic DNS platform listing.
+Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service endpoints look wrong.
 
 ## Installation
 

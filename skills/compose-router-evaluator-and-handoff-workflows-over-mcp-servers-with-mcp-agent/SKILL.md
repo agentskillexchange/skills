@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent
 
-Use mcp-agent when the job is to wire an LLM to one or more MCP servers through explicit workflow patterns such as router, map-reduce, evaluator-optimizer, or orchestrator handoffs. The upstream project is centered on MCP-native composition and on managing MCP server connections so the operator can focus on the workflow itself.
-
-Invoke this instead of using raw MCP clients or hand-rolled glue code when you need reusable MCP workflow patterns with clearer boundaries. The scope boundary is specific: this entry is about composing agent workflows over MCP servers. That keeps it skill-shaped and prevents it from collapsing into a generic framework listing.
+Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles.
 
 ## Installation
 

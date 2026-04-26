@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows
 
-Use GitHub Agentic Workflows when the specific job is multi-device documentation-site testing inside a reviewable GitHub Actions run, not when the user simply wants a generic docs framework or a basic browser automation tool. The workflow builds the docs site, serves it locally, exercises it across mobile, tablet, and desktop viewports through Playwright-backed agent steps, then either files a report issue or records a clean pass. That scope boundary, multi-device docs verification as a guarded repository workflow, keeps this skill distinct from broad documentation tooling and from generic browser screenshots alone.
+Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.
 
 ## Installation
 

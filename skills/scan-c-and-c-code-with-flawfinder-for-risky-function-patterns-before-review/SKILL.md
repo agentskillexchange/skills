@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan C and C++ code with Flawfinder for risky function patterns before review
 
-Use Flawfinder when the goal is a quick static pass for risky C or C++ function patterns, not general development or broad platform use. The operator workflow is clear: scan source files, surface suspect calls and patterns, and hand the findings into review or remediation. That scope boundary, secure-code triage for unsafe idioms in C and C++, keeps it skill-shaped instead of reading like a plain analyzer listing.
+Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins.
 
 ## Installation
 

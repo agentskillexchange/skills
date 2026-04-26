@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark deep research agents across factual, quality, and process dimensions with MiroEval
 
-Use MiroEval when you need to benchmark a deep research system against a fixed task set and score not just the final report but also factual correctness and research process quality. Invoke it instead of normal product usage when the job is comparative evaluation of research-agent outputs before rollout or model changes, not general web research. The boundary is a benchmarked deep-research evaluation workflow with defined input/result schemas and scoring dimensions, which keeps it skill-shaped rather than a generic platform listing.
+Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Decompile Android APKs into readable source with jadx for review and analysis
 
-Use jadx when the task is to convert an Android APK into readable source for inspection, not when a user is simply using Android tooling normally. The agent workflow is specific: load the APK, decompile Dalvik bytecode into readable source, and inspect code paths, resources, or app behavior clues. That scope boundary, APK-to-readable-source analysis, keeps this narrower than a generic Android tooling or product card.
+Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage.
 
 ## Installation
 

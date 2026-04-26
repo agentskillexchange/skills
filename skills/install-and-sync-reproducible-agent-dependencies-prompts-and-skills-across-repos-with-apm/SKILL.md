@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Install and sync reproducible agent dependencies, prompts, and skills across repos with APM
 
-Use APM when an agent or team needs to bootstrap the same agent setup across repositories from a manifest instead of manually reconfiguring Claude Code, Codex, Cursor, Copilot, plugins, prompts, and related agent dependencies one repo at a time. The workflow is specific: declare agent packages and primitives in apm.yml, install or sync them into a project, and keep that setup reproducible across environments. That scope boundary, manifest-driven agent dependency installation and sync, keeps this skill distinct from a general AI platform or coding agent listing.
+Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine.
 
 ## Installation
 

@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals
 
-Use Strands Evals when you need a reusable evaluation suite for an agent or LLM app, including output scoring, tool-use trajectory checks, simulated conversations, and trace-based analysis. Invoke it instead of ad hoc prompting when the task is packaging repeatable experiments and measuring agent behavior over time, not just using an agent framework normally. The boundary is the evaluation workflow itself, and the project is genuinely cross-framework by design rather than tied to one agent client.
+Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review.
 
 ## Installation
 

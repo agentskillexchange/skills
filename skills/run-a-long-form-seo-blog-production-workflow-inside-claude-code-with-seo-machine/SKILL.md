@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run a long-form SEO blog production workflow inside Claude Code with SEO Machine
 
-Use SEO Machine when the job is a repeatable long-form content production run inside Claude Code, not generic use of an SEO product or a normal writing chat. The agent workflow is concrete: research a topic, analyze competitors, draft the article, run optimization and review passes, and hand back a publish-ready post plus supporting SEO artifacts. That scope boundary, end-to-end blog production inside a documented Claude Code workspace with explicit commands and agents, keeps this skill-shaped instead of collapsing into a broad marketing tool listing.
+Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing.
 
 ## Installation
 

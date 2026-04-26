@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner
 
-Use Accessibility Scanner when the operator task is to run a repeatable scan to find accessibility problems on specific pages, file those findings as GitHub issues, and optionally route them into Copilot-assisted fix proposals. A user should invoke this instead of using GitHub or a generic accessibility product normally when the missing job is scan-to-issue remediation workflow automation. That scope boundary, accessibility scanning plus issue creation and fix handoff inside repository workflows, keeps this from being just a plain GitHub Action listing.
+Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual audit chore.
 
 ## Installation
 

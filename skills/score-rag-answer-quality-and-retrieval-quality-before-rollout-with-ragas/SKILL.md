@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Score RAG answer quality and retrieval quality before rollout with Ragas
 
-Use Ragas when an agent needs a structured evaluation loop for a RAG system after changing prompts, retrievers, chunking, indexes, or models. The job is specific: assemble or generate evaluation data, score answer quality and retrieval quality with RAG-focused metrics, then compare runs before rollout. That scope boundary, RAG evaluation rather than general observability or broad LLM experimentation, keeps this skill-shaped instead of reading like a plain framework listing.
+Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks.
 
 ## Installation
 

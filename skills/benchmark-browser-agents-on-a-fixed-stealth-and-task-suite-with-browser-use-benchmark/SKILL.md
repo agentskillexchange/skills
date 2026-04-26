@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark
 
-Use browser-use benchmark when the job is to measure browser-agent performance on a fixed evaluation suite, not to operate websites in production. It runs benchmark tasks and stealth checks across browser providers and model setups so you can compare reliability with the same harness each time. Invoke this instead of using browser-use normally when you need evidence about browser-agent quality before changing models, providers, or orchestration choices. The scope boundary is benchmark execution and comparison on fixed suites, not the broader browser-use automation library itself.
+Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress.
 
 ## Installation
 

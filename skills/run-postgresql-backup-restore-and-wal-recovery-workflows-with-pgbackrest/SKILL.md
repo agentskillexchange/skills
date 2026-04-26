@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest
 
-Use pgBackRest when an agent needs to run or verify PostgreSQL backup and recovery procedures, including restore testing and WAL-based point in time recovery, instead of treating Postgres as a general database product. A user should invoke this instead of normal database use when the job is operational protection and recovery, not query execution or application development. The scope boundary is tight and skill-shaped: PostgreSQL backup, restore, retention, and recovery runbooks, not a plain database or backup platform listing.
+Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling.
 
 ## Installation
 

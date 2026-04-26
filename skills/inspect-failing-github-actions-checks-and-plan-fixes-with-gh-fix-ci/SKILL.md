@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci
 
-Use gh-fix-ci when the agent should inspect the current PR’s failing GitHub Actions checks, pull the relevant logs, summarize the real failure, and propose a fix plan before touching code. Invoke it instead of using GitHub or gh manually when you want a bounded failure-triage workflow with an explicit approval checkpoint. The scope boundary is clear and skill-shaped: GitHub Actions failure inspection and plan-first remediation for one PR, not a generic GitHub or CI product listing.
+Inspect failing GitHub Actions checks on the current PR, pull the actionable log snippet, and stop at an approval gate before implementing a fix.
 
 ## Installation
 

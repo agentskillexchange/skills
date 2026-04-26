@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator
 
-Swarm Orchestrator is a concrete CI workflow for AI-generated code, not a generic coding-agent listing. It launches supported coding agents on isolated branches, captures transcripts, cross-checks claims like test success or commits against the real filesystem and git state, retries failures with targeted repair strategies, and only allows changes forward once verification and quality gates succeed.
-
-Use it when you want agents to produce implementation work but you do not want to trust their output blindly. This is the right fit when the job is to orchestrate parallel agent runs, inspect evidence, and gate merges with reviewable reports before code reaches the main branch. The scope boundary is the merge-governance workflow itself, not the underlying agent CLIs.
+Run Copilot, Claude Code, or Codex on isolated branches, verify each agent claim against real repo evidence, and block merges until automated quality gates pass.
 
 ## Installation
 

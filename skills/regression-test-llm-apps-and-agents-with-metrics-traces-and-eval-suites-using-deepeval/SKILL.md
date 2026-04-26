@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval
 
-Use DeepEval when the job is to define eval cases, score outputs, and catch regressions in LLM apps before shipping changes. It fits teams that want a code-first evaluation workflow around agents, RAG systems, or chatbots, with reusable metrics and CI-friendly test runs. The scope boundary is evaluation and regression testing, not general observability or a hosted AI platform.
+Run repeatable eval suites against prompts, RAG pipelines, and agents so regressions surface before release.
 
 ## Installation
 

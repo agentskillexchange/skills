@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint
 
-This skill runs ansible-lint on Ansible content and helps agents interpret and fix the findings. Invoke it when you need a bounded pre-run or pre-merge review of playbooks, roles, or collections instead of manually scanning YAML or relying on a generic Ansible runner. The boundary is clear: the agent is performing a lint-and-remediate workflow for infrastructure code quality, not publishing ansible-lint as a generic tool listing.
+Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed.
 
 ## Installation
 

@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations
 
-Use kube-hunter when the agent needs discovery-oriented probing of a Kubernetes environment, not when a user is just administering Kubernetes. The workflow is bounded: inspect reachable services and configuration exposures, identify likely risks, and produce findings for validation or remediation. That scope boundary, Kubernetes exposure discovery rather than general cluster management, makes this a publishable skill instead of a plain product listing.
+Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts.
 
 ## Installation
 

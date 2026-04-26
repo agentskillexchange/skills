@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener
 
-Use Prompt Hardener when you need a structured security review before shipping an agent, RAG flow, tool-calling workflow, or MCP agent. Instead of using a generic security product dashboard, you define the system in `agent_spec.yaml`, run deterministic analysis across prompt, tool, and architecture layers, inspect recommended mitigations, and optionally validate the design with built-in adversarial scenarios. The scope boundary is pre-deployment spec analysis and reporting for prompt-injection risk, not a generic model firewall, runtime platform, or broad agent framework listing.
+Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout.
 
 ## Installation
 

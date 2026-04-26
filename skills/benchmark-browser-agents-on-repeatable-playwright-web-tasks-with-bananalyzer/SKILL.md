@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer
 
-Use Bananalyzer when an agent team needs to evaluate a browser agent on repeatable web tasks with stored page snapshots and explicit expected outputs. Invoke this instead of using Playwright or a browser agent normally when the goal is benchmarking and comparison, not task completion itself. The scope boundary is clear: browser-agent evaluation on replayable web-task datasets, not a generic browser automation framework or product listing.
+Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests.
 
 ## Installation
 

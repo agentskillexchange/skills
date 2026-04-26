@@ -16,9 +16,7 @@ tool_ecosystem:
 
 # Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue
 
-This entry is built from Anthropic’s triage-issue command for Claude Code. The agent job is narrow and operator-facing: inspect a newly filed GitHub issue, decide whether it is genuinely about Claude Code based on issue-body evidence, review the conversation, search for nearby duplicates, and then add or remove only labels that already exist in the repository. The workflow is intentionally constrained to label operations rather than free-form issue handling.
-
-Invoke this instead of using GitHub normally when maintainers need consistent first-pass issue intake with explicit evidence rules and low-overreach guardrails. The scope boundary keeps it skill-shaped: it is not a listing for GitHub, the gh CLI, or Claude Code as a whole. It is specifically the evidence-first issue qualification and labeling loop for new or ambiguous issues.
+Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management.
 
 ## Installation
 

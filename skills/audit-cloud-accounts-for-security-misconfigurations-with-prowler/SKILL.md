@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Audit cloud accounts for security misconfigurations with Prowler
 
-Use Prowler when an agent needs to execute a concrete cloud audit pass against an account, subscription, or project and return specific misconfiguration findings with remediation context. It fits pre-release security reviews, periodic posture checks, and focused compliance investigations where the job is to run checks, filter findings, and hand back a triageable report. The scope boundary is tight: this skill is about invoking Prowler’s audit checks and reports, not listing a broad cloud platform or SDK.
+Run targeted AWS, Azure, or GCP security and compliance audits when an agent needs actionable cloud findings instead of a generic cloud-security platform overview.
 
 ## Installation
 

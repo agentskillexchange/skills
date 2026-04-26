@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Build n8n workflows from node docs, templates, and schemas through MCP
 
-Use n8n-MCP when the missing step is reliable workflow authoring context for n8n. It exposes n8n node documentation, property schemas, operations, AI-capable tool variants, and template examples through an MCP server so an agent can search capabilities, choose the right node shape, and draft or troubleshoot workflow changes with fewer hallucinated configurations. The scope boundary is specific enough to be skill-shaped: this is an MCP bridge for n8n workflow design and node selection, not a generic listing for the n8n platform and not just another MCP product card.
+Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while designing or debugging workflows, instead of guessing from raw docs or clicking through the n8n UI by hand.
 
 ## Installation
 

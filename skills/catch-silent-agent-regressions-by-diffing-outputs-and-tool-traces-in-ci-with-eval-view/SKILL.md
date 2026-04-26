@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view
 
-Use eval-view when the job is regression-gating an existing agent workflow in CI, not when a user just wants a general observability product or benchmark library. The workflow is bounded: capture a baseline, rerun the same agent scenarios, diff outputs and tool traces, then classify whether the change is safe, flaky, or a release blocker. That scope boundary, behavior-regression review for multi-turn tool-calling agents, gives it a clear skill shape instead of leaving it as a generic eval toolkit listing.
+Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change quietly shifts behavior.
 
 ## Installation
 

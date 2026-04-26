@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Draft user-facing App Store release notes from git history with App Store Changelog
 
-Use App Store Changelog when the task is to convert a release range in git history into short, user-facing App Store notes instead of reading commits manually or publishing a generic release-management tool card. The agent collects changes since the last tag or chosen ref, filters for user-visible work, groups themes, and rewrites them into storefront-ready bullets. That scope boundary, git-range to App Store release-note drafting for Codex users, keeps the entry skill-shaped and distinct from broader changelog generators.
+Turn commits since the last tag into concise App Store What’s New bullets instead of hand-sifting raw git history.
 
 ## Installation
 

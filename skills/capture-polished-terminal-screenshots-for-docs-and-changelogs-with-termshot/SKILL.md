@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Capture polished terminal screenshots for docs and changelogs with termshot
 
-Use termshot when an agent needs to turn terminal output into a clean screenshot artifact for documentation or review, not when the user just needs a general screenshot app. The workflow is narrow: choose the command output, render it with controlled framing and styling, and save the resulting image for docs or changelogs. That scope boundary, terminal-output capture for publishable documentation assets, keeps it distinct from broader image or desktop tooling listings.
+Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks.
 
 ## Installation
 

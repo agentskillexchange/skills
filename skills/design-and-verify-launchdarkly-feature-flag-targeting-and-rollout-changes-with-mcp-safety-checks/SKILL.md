@@ -14,11 +14,7 @@ tool_ecosystem:
 
 # Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks
 
-This skill helps an agent make safe, auditable LaunchDarkly targeting changes instead of treating LaunchDarkly as a generic product listing. The agent first reads the current flag state, checks whether the flag is on, reviews existing rules, individual targets, fallthrough behavior, prerequisites, and approval requirements, then chooses the right targeting operation for the requested rollout. It supports toggling flags, percentage rollouts, targeting rules, individual targets, cross-environment config copy, and approval-gated changes.
-
-Use this when a user wants an agent to change who sees a feature flag, roll out a variation by percentage, target specific segments or users, or promote tested targeting from one environment to another. This is the right invocation shape when the user wants the agent to reason about evaluation order, safety checks, approval workflows, and post-change verification instead of clicking around the LaunchDarkly UI manually.
-
-The scope boundary is clear: this is not a generic LaunchDarkly or feature-flag product card. It is a narrowly defined operator workflow for targeting and rollout control through MCP tools, with explicit preflight checks, approval handling, and verification after mutation.
+Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the outcome safely.
 
 ## Installation
 

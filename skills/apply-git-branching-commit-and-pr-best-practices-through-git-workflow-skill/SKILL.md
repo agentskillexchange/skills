@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Apply Git branching, commit, and pull request best practices through Git Workflow Skill
 
-Use Git Workflow Skill when an agent needs procedural guidance for Git branching strategy, commit conventions, pull request flow, merge selection, hooks, and CI-aware repository hygiene. The upstream package is explicit about its operator workflow: establish a branching model, create atomic commits, open and review PRs, and close the loop with merge and cleanup practices.
-
-Invoke this instead of relying on generic Git usage or freeform agent advice when the task is to follow a repeatable collaboration workflow rather than just run Git commands. The scope boundary is clear: this entry is a portable agent skill for Git workflow best practices, not a generic VCS, hosting platform, or broad Git product listing.
+Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration.
 
 ## Installation
 

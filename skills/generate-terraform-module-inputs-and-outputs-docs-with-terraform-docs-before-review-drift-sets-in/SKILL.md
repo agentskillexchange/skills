@@ -14,9 +14,7 @@ tool_ecosystem:
 
 # Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in
 
-Use terraform-docs when a Terraform module’s README or reference docs need to be regenerated from the module source before review, release, or internal handoff. The upstream project is explicit about the workflow: inspect a module, extract its documented inputs, outputs, providers, and related metadata, then emit updated docs in stable formats.
-
-Invoke this instead of editing module docs by hand when the real need is code-to-doc synchronization, not general Terraform authoring or infrastructure deployment. The scope boundary is narrow and skill-shaped: terraform-docs generates documentation from Terraform modules. It is not a Terraform platform listing, registry, or broad infrastructure-as-code framework card.
+Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release.
 
 ## Installation
 

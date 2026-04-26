@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Run context → spec → implement coding loops in Claude Code with Conductor
 
-Use Conductor when the job is to run a disciplined Context → Spec & Plan → Implement loop inside Claude Code instead of free-form coding chat. The agent sets up project context, creates track-level specifications and phased plans, then executes work with checkpoints and reversible units. That scope boundary keeps this skill focused on structured project orchestration in Claude Code, not on listing a general agent marketplace or plugin bundle.
+Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.
 
 ## Installation
 

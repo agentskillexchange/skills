@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Probe ML and LLM systems for regressions and vulnerabilities with Giskard
 
-Use Giskard when an agent needs to probe an LLM or RAG system for security issues, business-logic failures, and regression-prone behavior before release. The workflow is not generic model development. It is targeted testing: generate or run scanning suites, review failing cases, and harden the system. That scope boundary, red-teaming and failure detection for AI behavior, keeps it distinct from broad ML platforms and generic evaluation dashboards.
+Run automated red-team and failure scans against an LLM or RAG app before users find the breakage.
 
 ## Installation
 

@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Enforce local Git hook checks in JavaScript repos with Husky
 
-This skill sets up and maintains Husky-based Git hooks for a JavaScript or TypeScript repository. Invoke it when you want an agent to install or update local repo guardrails such as pre-commit linting, test gates, formatting, or commit message validation, rather than manually editing hook scripts by hand. The scope stays skill-shaped because the agent is performing one bounded workflow: attach concrete local checks to Git lifecycle events for a specific repository, not merely describing Husky as a package.
+Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same local guardrails before changes leave the workstation.
 
 ## Installation
 

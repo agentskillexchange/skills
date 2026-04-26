@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli
 
-Use jwt-cli when an agent needs to decode JWT headers and claims, inspect token contents, or sign and verify tokens against local secrets or keys while debugging an authentication flow or building test fixtures. A user should invoke this instead of using an auth provider or SDK normally when the task is token-level inspection or offline verification, not running the identity platform itself. The scope boundary is specific and skill-shaped: it operates on supplied JWTs and keys to return decoded data or verification results, not a generic auth product, SDK, or identity service listing.
+Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup.
 
 ## Installation
 
