@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21054
+  github_stars: 21059
 ---
 
 # WordPress Content Publisher

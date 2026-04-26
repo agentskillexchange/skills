@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
   npm_package: "@notionhq/client"
-  npm_weekly_downloads: 1150655
+  npm_weekly_downloads: 1195706
 ---
 
 # Notion Workspace Agent

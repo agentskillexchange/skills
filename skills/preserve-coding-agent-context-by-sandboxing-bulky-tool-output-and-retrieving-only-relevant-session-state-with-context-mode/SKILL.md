@@ -1,7 +1,7 @@
 ---
 title: "Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode"
 description: "Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after compaction. It wraps tool-heavy workflows with sandboxed execution, indexed session history, and targeted retrieval so the agent can keep working without reloading raw data into the prompt."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/mksglu/context-mode"
 category:
   - "Developer Tools"

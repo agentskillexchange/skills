@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20323
   npm_package: "graphql"
-  npm_weekly_downloads: 34768779
+  npm_weekly_downloads: 34798589
 ---
 
 # GraphQL Schema Explorer
