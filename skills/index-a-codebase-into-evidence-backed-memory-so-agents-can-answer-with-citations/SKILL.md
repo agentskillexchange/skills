@@ -1,7 +1,7 @@
 ---
 title: "Index a codebase into evidence-backed memory so agents can answer with citations"
 description: "Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole codebase every session."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/Bpolat0/atlasmemory"
 category:
   - "Developer Tools"
@@ -20,27 +20,27 @@ Use AtlasMemory when an agent keeps losing repo context and needs indexed, evide
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations` into your local skills collection.
+- Download the repository ZIP and extract `skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

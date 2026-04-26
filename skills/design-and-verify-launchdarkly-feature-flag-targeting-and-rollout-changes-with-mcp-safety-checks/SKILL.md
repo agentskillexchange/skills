@@ -1,12 +1,15 @@
 ---
 title: "Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks"
 description: "Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the outcome safely."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/feature-flags/launchdarkly-flag-targeting"
 category:
   - "Developer Tools"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "launchdarkly/ai-tooling"
+  github_stars: 6
 ---
 
 # Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks
@@ -15,27 +18,27 @@ Inspect a LaunchDarkly flag’s current state, choose the right targeting approa
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks` into your local skills collection.
+- Download the repository ZIP and extract `skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

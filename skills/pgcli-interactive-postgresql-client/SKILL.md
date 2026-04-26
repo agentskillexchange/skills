@@ -1,7 +1,7 @@
 ---
 title: "pgcli Interactive PostgreSQL Client with Autocompletion"
 description: "pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query editing. Part of the dbcli project with 13k+ GitHub stars, it makes database exploration and query writing dramatically more productive."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/dbcli/pgcli"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/pgcli-interactive-postgresql-client/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pgcli-interactive-postgresql-client
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/pgcli-interactive-postgresql-client` into your local skills collection.
+- Download the repository ZIP and extract `skills/pgcli-interactive-postgresql-client`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
