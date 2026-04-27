@@ -1,7 +1,7 @@
 ---
 title: "Find and export SVG icons across icon libraries for UI work"
 description: "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/better-auth/better-icons"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ Use Better Icons when an agent needs to search icon sets, compare matches, and r
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work`.
+Download the skill folder or repository archive and extract `skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

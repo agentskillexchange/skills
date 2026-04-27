@@ -1,7 +1,7 @@
 ---
 title: "Drizzle ORM TypeScript SQL Database Toolkit"
 description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema declarations, relational and SQL-like query builders, and automatic migration generation. At only 7.4kb minified and gzipped with zero dependencies, it supports PostgreSQL, MySQL, and SQLite including serverless databases like Neon, Turso, and Cloudflare D1."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/drizzle-team/drizzle-orm"
 category:
   - "Developer Tools"
@@ -20,27 +20,27 @@ Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema d
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/drizzle-orm-typescript-sql-database-toolkit/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/drizzle-orm-typescript-sql-database-toolkit
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/drizzle-orm-typescript-sql-database-toolkit`.
+Download the skill folder or repository archive and extract `skills/drizzle-orm-typescript-sql-database-toolkit` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

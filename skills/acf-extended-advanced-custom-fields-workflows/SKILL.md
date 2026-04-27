@@ -1,10 +1,10 @@
 ---
 title: "ACF Extended for Advanced Custom Fields Workflows"
 description: "An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options pages, and developer tooling. It is a practical fit for agents working inside complex WordPress content models and custom field workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/acf-extended/ACF-Extended"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ An ASE skill built around ACF Extended, the WordPress enhancement suite for Adva
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/acf-extended-advanced-custom-fields-workflows/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/acf-extended-advanced-custom-fields-workflows
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/acf-extended-advanced-custom-fields-workflows`.
+Download the skill folder or repository archive and extract `skills/acf-extended-advanced-custom-fields-workflows` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

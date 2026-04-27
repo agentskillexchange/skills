@@ -1,7 +1,7 @@
 ---
 title: "Playwright Extra Browser Automation Plugins"
 description: "Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of wiring those capabilities by hand. It is useful when browser automations need anti-bot evasions or shared middleware across Chromium sessions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra"
 category:
   - "Browser Automation"
@@ -18,27 +18,27 @@ Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents ca
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-extra-browser-automation-plugins/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-extra-browser-automation-plugins
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/playwright-extra-browser-automation-plugins`.
+Download the skill folder or repository archive and extract `skills/playwright-extra-browser-automation-plugins` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "ripgrep Recursive Regex Search Tool"
 description: "ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/BurntSushi/ripgrep"
 category:
   - "Developer Tools"
@@ -18,27 +18,27 @@ ripgrep (rg) is a line-oriented search tool that recursively searches directorie
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ripgrep-recursive-regex-search-tool
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/ripgrep-recursive-regex-search-tool`.
+Download the skill folder or repository archive and extract `skills/ripgrep-recursive-regex-search-tool` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

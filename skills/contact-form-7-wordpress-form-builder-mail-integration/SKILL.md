@@ -1,10 +1,10 @@
 ---
 title: "Contact Form 7 WordPress Form Builder and Mail Integration"
 description: "Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc., with more than 10 million active installs and official documentation at contactform7.com. This skill is for agents that need to understand how a site’s forms, mail templates, validation behavior, and shortcode placements are actually handled in Contact Form 7."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://wordpress.org/plugins/contact-form-7/"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 ---
@@ -15,27 +15,27 @@ Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/contact-form-7-wordpress-form-builder-mail-integration/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/contact-form-7-wordpress-form-builder-mail-integration
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/contact-form-7-wordpress-form-builder-mail-integration`.
+Download the skill folder or repository archive and extract `skills/contact-form-7-wordpress-form-builder-mail-integration` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

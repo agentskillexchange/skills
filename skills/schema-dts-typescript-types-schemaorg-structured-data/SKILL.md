@@ -1,10 +1,10 @@
 ---
 title: "schema-dts TypeScript Types for Schema.org Structured Data"
 description: "An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org vocabulary. Enables type-safe generation and validation of JSON-LD structured data markup for SEO, rich search results, and knowledge graph integration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/google/schema-dts"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -20,27 +20,27 @@ An agent skill built on schema-dts by Google, which provides complete TypeScript
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/schema-dts-typescript-types-schemaorg-structured-data/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/schema-dts-typescript-types-schemaorg-structured-data
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/schema-dts-typescript-types-schemaorg-structured-data`.
+Download the skill folder or repository archive and extract `skills/schema-dts-typescript-types-schemaorg-structured-data` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

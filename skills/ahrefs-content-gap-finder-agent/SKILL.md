@@ -1,10 +1,10 @@
 ---
 title: "Ahrefs Content Gap Finder"
 description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor keyword profiles and surfaces untapped opportunities with volume, KD, and SERP feature data."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://ahrefs.com/blog/content-gap-analysis/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "OpenClaw"
 ---
@@ -15,27 +15,27 @@ Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ahrefs-content-gap-finder-agent
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/ahrefs-content-gap-finder-agent`.
+Download the skill folder or repository archive and extract `skills/ahrefs-content-gap-finder-agent` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Chrome MCP Server Extension-Based Browser Automation for AI Agents"
 description: "Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents. It is designed for workflows where an agent should reuse real tabs, existing login state, browser history, bookmarks, and native Chrome APIs instead of launching a separate automation browser."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hangwin/mcp-chrome"
 category:
   - "Browser Automation"
@@ -18,27 +18,27 @@ Chrome MCP Server uses a Chrome extension and local bridge to expose your everyd
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/chrome-mcp-server-extension-based-browser-automation-ai-agents
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/chrome-mcp-server-extension-based-browser-automation-ai-agents`.
+Download the skill folder or repository archive and extract `skills/chrome-mcp-server-extension-based-browser-automation-ai-agents` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

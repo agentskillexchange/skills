@@ -1,10 +1,10 @@
 ---
 title: "Format plain-text drafts for clean Substack paste"
 description: "Transforms raw draft text into paste-ready Substack HTML so an agent can preserve headings, emphasis, lists, and spacing without hand-formatting every paragraph. Use it when the job is preparing a finished newsletter draft for the editor, not when you just need general writing help."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Transforms raw draft text into paste-ready Substack HTML so an agent can preserv
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/format-plain-text-drafts-for-clean-substack-paste/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-plain-text-drafts-for-clean-substack-paste
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/format-plain-text-drafts-for-clean-substack-paste`.
+Download the skill folder or repository archive and extract `skills/format-plain-text-drafts-for-clean-substack-paste` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

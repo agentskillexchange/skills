@@ -1,10 +1,10 @@
 ---
 title: "Capture network device config snapshots diffs and change attribution after edits with Oxidized"
 description: "Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good state."
-verification: "listed"
+verification: listed
 source: "https://github.com/ytti/oxidized"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Pull running configs from routers and switches on a schedule or after change eve
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized`.
+Download the skill folder or repository archive and extract `skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

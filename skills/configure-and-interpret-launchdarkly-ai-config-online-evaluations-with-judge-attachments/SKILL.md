@@ -1,10 +1,10 @@
 ---
 title: "Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments"
 description: "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Attach judges to LaunchDarkly AI Config variations, create custom judges, set sa
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments`.
+Download the skill folder or repository archive and extract `skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

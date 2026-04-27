@@ -1,10 +1,10 @@
 ---
 title: "Extract structured fields from HTML XML and JSON endpoints with Xidel selectors"
 description: "Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/benibela/xidel"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with C
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors`.
+Download the skill folder or repository archive and extract `skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

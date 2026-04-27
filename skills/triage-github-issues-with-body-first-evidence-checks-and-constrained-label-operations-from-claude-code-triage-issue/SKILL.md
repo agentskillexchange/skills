@@ -1,10 +1,10 @@
 ---
 title: "Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue"
 description: "Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/triage-issue.md"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
 tool_ecosystem:
@@ -20,27 +20,27 @@ Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue`.
+Download the skill folder or repository archive and extract `skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "Pa11y Accessibility Testing CLI and CI"
 description: "Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command line or in CI. This skill uses Pa11y to turn page-level accessibility checks into actionable reports with issue counts, selectors, and remediation context."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pa11y/pa11y"
 category:
   - "Browser Automation"
@@ -20,27 +20,27 @@ Pa11y is a real open-source accessibility testing tool that lets agents audit pa
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/pa11y-accessibility-testing-cli-and-ci/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pa11y-accessibility-testing-cli-and-ci
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/pa11y-accessibility-testing-cli-and-ci`.
+Download the skill folder or repository archive and extract `skills/pa11y-accessibility-testing-cli-and-ci` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

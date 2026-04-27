@@ -1,10 +1,10 @@
 ---
 title: "trdsql SQL Query Engine for CSV JSON and YAML Files"
 description: "trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports PostgreSQL and MySQL syntax, can join data across multiple files and databases, and outputs results in various formats including JSON, Markdown, and vertical display."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/noborus/trdsql"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:
@@ -18,27 +18,27 @@ trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+### Option 1, Agent Skill Exchange
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trdsql-sql-query-engine-csv-json-yaml-files/
+Browse and install from the marketplace page for this skill.
 
-### Method 2, Git clone
+### Option 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trdsql-sql-query-engine-csv-json-yaml-files
 ```
 
-### Method 3, Download ZIP
+### Option 3, Download ZIP
 
-- Download the repository ZIP and extract `skills/trdsql-sql-query-engine-csv-json-yaml-files`.
+Download the skill folder or repository archive and extract `skills/trdsql-sql-query-engine-csv-json-yaml-files` into your local skills collection.
 
-### Method 4, Manual copy
+### Option 4, Manual copy
 
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
 
-### Method 5, Fork and sync
+### Option 5, Fork and sync
 
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
