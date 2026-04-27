@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
-  github_stars: 393
+  github_stars: 394
 ---
 
 # E2B Code Execution MCP

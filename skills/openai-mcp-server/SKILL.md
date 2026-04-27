@@ -9,9 +9,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "openai/openai-node"
-  github_stars: 10846
+  github_stars: 10852
   npm_package: "openai"
-  npm_weekly_downloads: 18856029
+  npm_weekly_downloads: 19316762
 ---
 
 # OpenAI MCP Server

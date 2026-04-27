@@ -9,9 +9,9 @@ framework:
   - "Claude Agents"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
-  github_stars: 4391
+  github_stars: 4392
   npm_package: "stripe"
-  npm_weekly_downloads: 9681164
+  npm_weekly_downloads: 9743677
 ---
 
 # Webhook Debugger

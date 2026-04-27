@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "moby/moby"
-  github_stars: 71486
+  github_stars: 71507
 ---
 
 # Docker Compose Generator Skill

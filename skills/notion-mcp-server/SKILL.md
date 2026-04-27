@@ -9,9 +9,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
-  github_stars: 5589
+  github_stars: 5590
   npm_package: "@notionhq/client"
-  npm_weekly_downloads: 1195706
+  npm_weekly_downloads: 1212617
 ---
 
 # Notion MCP Server
