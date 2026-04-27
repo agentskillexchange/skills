@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2395,
-  "generated": "2026-04-26",
+  "total": 2397,
+  "generated": "2026-04-27",
   "skills": [
+    {
+      "slug": "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code",
+      "name": "Run deterministic SQL and dbt analysis under coding agents with Altimate Code",
+      "description": "Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows underneath Claude Code, Codex, or terminal-driven agent sessions.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 552
+      }
+    },
+    {
+      "slug": "compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz",
+      "name": "Compress repeated agent context and command output before it reaches coding agents with sqz",
+      "description": "Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to Claude Code, Codex, Cursor, and related coding-agent…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 165
+      }
+    },
     {
       "slug": "search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch",
       "name": "Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch",

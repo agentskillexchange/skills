@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C395-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C397-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C068-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,395 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,397 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/)
+### [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/)
 
 
 
-- Tool: `firecrawl`
+- Tool: `firecrawl-markdown-capture-pipeline`
 - Category: Research & Scraping
-- Frameworks: Multi-Framework
-- GitHub stars: 108,813
-- Listing: https://agentskillexchange.com/skills/firecrawl-web-data-api-for-ai-agents/
+- Frameworks: Codex
+- GitHub stars: 102,630
+- Listing: https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/
 
 ---
 
@@ -85,7 +85,7 @@ A strong cross-section of high-signal skills across the catalog.
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 296 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 298 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 222 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 191 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 179 | Linting, code review, test generators, coverage |
@@ -138,7 +138,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,395 | In the catalog, every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,397 | In the catalog, every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,068 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
