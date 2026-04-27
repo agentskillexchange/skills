@@ -115,6 +115,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Analyze Kubernetes cluster issues through MCP with K8sGPT](../../skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/) | 7.7k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](../../skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | 7.2k | — |
 | [Trace unstable network paths and packet loss with Trippy before escalating an outage](../../skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | 6.8k | — |
+| [Schedule and retain cross-database backups from one self-hosted control plane with Databasus](../../skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/) | 6.6k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |

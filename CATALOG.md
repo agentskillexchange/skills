@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2397 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-27 17:35 UTC
+> **2400 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-27 19:38 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -743,7 +743,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (179 skills)
+### ✅ Code Quality & Review (180 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -833,6 +833,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift](skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift/) | Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites,… | Published | 10k | 27.1M/wk |
 | [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can… | Security Reviewed | 9.2k | — |
+| [Format shell scripts into a stable house style before review with shfmt](skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes. | Published | 8.7k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](skills/axe-core-accessibility-testing-engine/) | axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0,… | Security Reviewed | 7k | — |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule… | Published | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations… | Published | 5.7k | — |
@@ -930,7 +931,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (165 skills)
+### 📋 Runbooks & Diagnostics (166 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1011,6 +1012,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Analyze Kubernetes cluster issues through MCP with K8sGPT](skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/) | Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return… | Security Reviewed | 7.7k | — |
 | [Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence](skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/) | Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real… | Published | 7.2k | — |
 | [Trace unstable network paths and packet loss with Trippy before escalating an outage](skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/) | Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents. | Published | 6.8k | — |
+| [Schedule and retain cross-database backups from one self-hosted control plane with Databasus](skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/) | Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from… | Published | 6.6k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod. | Published | 4.6k | — |
@@ -2361,7 +2363,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (88 skills)
+### 🎨 Image & Creative Automation (89 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2424,6 +2426,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Security Reviewed | 917 | — |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration… | Published | 321 | — |
+| [Generate fast static photo album sites from curated folders with DD Photos](skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery… | Published | 155 | — |
 | [Archive and reorganize local photo libraries with photo-cli](skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding… | Security Reviewed | 68 | — |
 | [Auto-crop images around the most important subject before generating thumbnails](skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image.… | Security Reviewed | — | 49k/wk |
 | [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |

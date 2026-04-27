@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 2397,
+  "total": 2400,
   "generated": "2026-04-27",
   "skills": [
+    {
+      "slug": "generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos",
+      "name": "Generate fast static photo album sites from curated folders with DD Photos",
+      "description": "Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system.",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 155
+      }
+    },
+    {
+      "slug": "schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus",
+      "name": "Schedule and retain cross-database backups from one self-hosted control plane with Databasus",
+      "description": "Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from one place.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6581
+      }
+    },
+    {
+      "slug": "format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt",
+      "name": "Format shell scripts into a stable house style before review with shfmt",
+      "description": "Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8700
+      }
+    },
     {
       "slug": "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code",
       "name": "Run deterministic SQL and dbt analysis under coding agents with Altimate Code",

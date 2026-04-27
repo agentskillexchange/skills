@@ -124,6 +124,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift](../../skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift/) | 10k | 27.1M/wk |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
+| [Format shell scripts into a stable house style before review with shfmt](../../skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | 8.7k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | — |
