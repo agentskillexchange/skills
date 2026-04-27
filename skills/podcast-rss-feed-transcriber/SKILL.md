@@ -1,10 +1,10 @@
 ---
 title: "Podcast RSS Feed Transcriber"
 description: "Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes them through OpenAI Whisper API or local faster-whisper models. Generates timestamped SRT files and searchable markdown transcripts with speaker diarization via pyannote.audio."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/openai/whisper"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "OpenClaw"
 tool_ecosystem:
@@ -18,27 +18,27 @@ Automatically fetches podcast episodes from RSS feeds using feedparser, download
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/podcast-rss-feed-transcriber/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/podcast-rss-feed-transcriber
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/podcast-rss-feed-transcriber` into your local skills collection.
+- Download the repository ZIP and extract `skills/podcast-rss-feed-transcriber`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "AgentQL Natural Language Web Query SDK for Extraction and Automation"
 description: "AgentQL is TinyFish’s web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/tinyfish-io/agentql"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -20,27 +20,27 @@ AgentQL is TinyFish’s web automation and extraction toolkit that layers a natu
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/agentql-natural-language-web-query-sdk-extraction-automation/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/agentql-natural-language-web-query-sdk-extraction-automation
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/agentql-natural-language-web-query-sdk-extraction-automation` into your local skills collection.
+- Download the repository ZIP and extract `skills/agentql-natural-language-web-query-sdk-extraction-automation`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 title: "WebdriverIO Next-Gen Browser and Mobile Automation Framework"
 description: "WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver, WebDriver BiDi, and Appium protocols with built-in test runner, BDD/TDD frameworks, and cloud service integration for cross-browser and mobile testing."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/webdriverio/webdriverio"
 category:
   - "Browser Automation"
@@ -20,27 +20,27 @@ WebdriverIO is a next-generation browser and mobile automation test framework fo
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/webdriverio-browser-mobile-automation-framework/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/webdriverio-browser-mobile-automation-framework
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/webdriverio-browser-mobile-automation-framework` into your local skills collection.
+- Download the repository ZIP and extract `skills/webdriverio-browser-mobile-automation-framework`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

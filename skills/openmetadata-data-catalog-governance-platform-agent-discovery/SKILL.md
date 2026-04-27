@@ -1,10 +1,10 @@
 ---
 title: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
 description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/open-metadata/OpenMetadata"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -18,27 +18,27 @@ OpenMetadata provides a central metadata layer for data discovery, lineage, qual
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+### Method 1, Agent Skill Exchange
 
-Browse and install from the marketplace page for this skill.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/openmetadata-data-catalog-governance-platform-agent-discovery/
 
-### Option 2, Git clone
+### Method 2, Git clone
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openmetadata-data-catalog-governance-platform-agent-discovery
 ```
 
-### Option 3, Download ZIP
+### Method 3, Download ZIP
 
-Download the skill folder or repository archive and extract `skills/openmetadata-data-catalog-governance-platform-agent-discovery` into your local skills collection.
+- Download the repository ZIP and extract `skills/openmetadata-data-catalog-governance-platform-agent-discovery`.
 
-### Option 4, Manual copy
+### Method 4, Manual copy
 
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
 
-### Option 5, Fork and sync
+### Method 5, Fork and sync
 
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
