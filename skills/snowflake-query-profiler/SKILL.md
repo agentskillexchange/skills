@@ -7,8 +7,6 @@ category:
   - "Data Extraction & Transformation"
 framework:
   - "ChatGPT Agents"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Snowflake Query Profiler

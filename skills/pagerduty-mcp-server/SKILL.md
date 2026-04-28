@@ -7,12 +7,6 @@ category:
   - "Monitoring & Alerts"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
-  github_stars: 69
-  npm_package: "@pagerduty/pdjs"
-  npm_weekly_downloads: 238014
-  license: "Apache-2.0"
 ---
 
 # PagerDuty MCP Server

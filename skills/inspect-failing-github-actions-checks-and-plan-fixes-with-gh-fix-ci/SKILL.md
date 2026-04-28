@@ -7,6 +7,9 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "openai/skills"
+  github_stars: 17293
 ---
 
 # Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci

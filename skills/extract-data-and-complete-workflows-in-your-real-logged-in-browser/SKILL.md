@@ -7,6 +7,9 @@ category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "epiral/bb-browser"
+  github_stars: 4412
 ---
 
 # Extract data and complete workflows in your real logged-in browser

@@ -7,6 +7,9 @@ category:
   - "Templates & Workflows"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "openai/skills"
+  github_stars: 17293
 ---
 
 # Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation

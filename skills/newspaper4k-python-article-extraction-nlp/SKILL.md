@@ -7,9 +7,6 @@ category:
   - "Research & Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "andythefactory/newspaper4k"
-  github_stars: 1085
 ---
 
 # Newspaper4k Python Article Extraction and NLP Library

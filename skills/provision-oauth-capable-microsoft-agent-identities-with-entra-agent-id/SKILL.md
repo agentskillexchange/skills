@@ -7,6 +7,9 @@ category:
   - "Security & Verification"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "microsoft/skills"
+  github_stars: 2103
 ---
 
 # Provision OAuth-capable Microsoft agent identities with Entra Agent ID

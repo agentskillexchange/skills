@@ -7,8 +7,6 @@ category:
   - "Library & API Reference"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  license: "MIT"
 ---
 
 # Implement, review, and optimize SwiftUI code with trace-backed diagnostics

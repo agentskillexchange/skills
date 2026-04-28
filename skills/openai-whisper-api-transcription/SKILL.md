@@ -7,8 +7,6 @@ category:
   - "Media & Transcription"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  license: "MIT"
 ---
 
 # OpenAI Whisper API Transcription

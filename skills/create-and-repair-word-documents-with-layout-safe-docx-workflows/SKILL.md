@@ -7,6 +7,9 @@ category:
   - "Templates & Workflows"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116918
 ---
 
 # Create and repair Word documents with layout-safe DOCX workflows

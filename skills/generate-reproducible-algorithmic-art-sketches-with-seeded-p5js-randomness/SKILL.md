@@ -7,6 +7,9 @@ category:
   - "Image & Creative Automation"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116918
 ---
 
 # Generate reproducible algorithmic art sketches with seeded p5.js randomness

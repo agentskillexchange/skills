@@ -7,10 +7,6 @@ category:
   - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
-tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
-  github_stars: 69
-  license: "Apache-2.0"
 ---
 
 # PagerDuty Incident Runbook Automator

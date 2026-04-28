@@ -7,8 +7,6 @@ category:
   - "Data Extraction & Transformation"
 framework:
   - "MCP"
-tool_ecosystem:
-  license: "Apache-2.0"
 ---
 
 # Snowflake MCP Server

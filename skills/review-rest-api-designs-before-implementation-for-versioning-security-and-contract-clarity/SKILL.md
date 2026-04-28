@@ -8,6 +8,7 @@ category:
 framework:
   - "Claude Code"
 tool_ecosystem:
+  github_repo: "psenger/ai-agent-skills"
   license: "MIT"
 ---
 

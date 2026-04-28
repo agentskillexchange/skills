@@ -7,6 +7,9 @@ category:
   - "Templates & Workflows"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116918
 ---
 
 # Co-author structured docs with staged context gathering and reader testing
