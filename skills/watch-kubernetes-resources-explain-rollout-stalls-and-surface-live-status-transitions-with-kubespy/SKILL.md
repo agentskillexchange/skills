@@ -1,7 +1,7 @@
 ---
 title: "Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy"
 description: "Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready."
-verification: "listed"
+verification: listed
 source: "https://github.com/pulumi/kubespy"
 category:
   - "Runbooks & Diagnostics"

@@ -1,7 +1,7 @@
 ---
 title: "Playwright Accessibility Audit Runner"
 description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
   - "Browser Automation"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 86409
   npm_package: "playwright"
   npm_weekly_downloads: 47883561
+  license: "Apache-2.0"
 ---
 
 # Playwright Accessibility Audit Runner

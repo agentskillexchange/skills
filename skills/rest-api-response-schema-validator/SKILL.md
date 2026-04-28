@@ -1,7 +1,7 @@
 ---
 title: "REST API Response Schema Validator"
 description: "Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports OpenAPI 3.x schema extraction and detects undocumented fields or type mismatches."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-response-schema-validator/"
 category:
   - "Library & API Reference"

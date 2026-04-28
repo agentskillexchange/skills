@@ -1,7 +1,7 @@
 ---
 title: "Generate SLSA build provenance in GitHub Actions"
 description: "Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata."
-verification: "listed"
+verification: listed
 source: "https://github.com/slsa-framework/slsa-github-generator"
 category:
   - "Security & Verification"

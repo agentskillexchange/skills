@@ -1,7 +1,7 @@
 ---
 title: "Appwrite Open-Source Backend Platform"
 description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/appwrite/appwrite"
 category:
   - "Integrations & Connectors"

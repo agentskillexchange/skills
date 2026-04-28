@@ -1,7 +1,7 @@
 ---
 title: "Run server-side ingest, search, and edit pipelines on video with VideoDB Skills"
 description: "Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline."
-verification: "listed"
+verification: listed
 source: "https://github.com/video-db/skills"
 category:
   - "Media & Transcription"

@@ -1,7 +1,7 @@
 ---
 title: "fzf Command-Line Fuzzy Finder"
 description: "fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes, git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted characters and typos."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/junegunn/fzf"
 category:
   - "Developer Tools"

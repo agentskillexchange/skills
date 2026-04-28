@@ -1,7 +1,7 @@
 ---
 title: "Build and sync n8n workflows from code with n8n-as-code"
 description: "Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON."
-verification: "listed"
+verification: listed
 source: "https://github.com/EtienneLescot/n8n-as-code"
 category:
   - "Templates & Workflows"

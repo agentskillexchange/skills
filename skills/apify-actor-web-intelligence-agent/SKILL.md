@@ -1,7 +1,7 @@
 ---
 title: "Apify Actor Web Intelligence Agent"
 description: "Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/apify/apify-sdk-js"
 category:
   - "Research & Scraping"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 173
   npm_package: "apify"
   npm_weekly_downloads: 34097
+  license: "Apache-2.0"
 ---
 
 # Apify Actor Web Intelligence Agent

@@ -1,7 +1,7 @@
 ---
 title: "Repair malformed JSON before parsing downstream automations with jsonrepair"
 description: "Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as trailing commas, missing quotes, or concatenated fragments. The agent’s role is to normalize the payload before validation or routing, not to replace real schema design."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/josdejong/jsonrepair"
 category:
   - "Developer Tools"

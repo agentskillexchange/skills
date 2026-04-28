@@ -1,24 +1,27 @@
 ---
 title: "Video Frames Extractor"
-description: "Extract frames and short clips from videos.\n\n Core Capabilities\n\n Process audio and video files using ffmpeg for transcription and analysis\n\nExtract text, timestamps, and speaker metadata from media cont"
-verification: "security_reviewed"
+description: "Extract frames and short clips from videos.
+
+Core Capabilities
+
+Process audio and video files using ffmpeg for transcription and analysis
+
+Extract text, timestamps, and speaker metadata from media cont"
+verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
   - "Media & Transcription"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
-  github_stars: 59321
 ---
 
 # Video Frames Extractor
 
 Extract frames and short clips from videos.
 
- Core Capabilities
+Core Capabilities
 
- Process audio and video files using ffmpeg for transcription and analysis
+Process audio and video files using ffmpeg for transcription and analysis
 
 Extract text, timestamps, and speaker metadata from media cont
 

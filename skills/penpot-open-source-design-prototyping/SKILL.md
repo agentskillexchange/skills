@@ -1,7 +1,7 @@
 ---
 title: "Penpot Open Source Design and Prototyping Platform"
 description: "Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while developers get ready-to-use CSS, SVG, and HTML code — no handoff friction, no vendor lock-in."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/penpot/penpot"
 category:
   - "Image & Creative Automation"

@@ -1,7 +1,7 @@
 ---
 title: "Encrypt and decrypt age secrets with hardware-backed YubiKey identities"
 description: "Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys."
-verification: "listed"
+verification: listed
 source: "https://github.com/str4d/age-plugin-yubikey"
 category:
   - "Security & Verification"

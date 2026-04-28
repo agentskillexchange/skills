@@ -1,7 +1,7 @@
 ---
 title: "AWS CloudFormation Stack Diagnostics"
 description: "Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events) and cfn-lint validator. Traces resource creation failures, rollback causes, and nested stack dependency chains."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
 category:
   - "Runbooks & Diagnostics"

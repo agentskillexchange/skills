@@ -1,7 +1,7 @@
 ---
 title: "Atuin Shell History Database and Sync"
 description: "Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes, session IDs, working directories, and command durations. It provides encrypted cross-machine sync and a full-screen fuzzy search UI bound to Ctrl-R."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/atuinsh/atuin"
 category:
   - "Developer Tools"

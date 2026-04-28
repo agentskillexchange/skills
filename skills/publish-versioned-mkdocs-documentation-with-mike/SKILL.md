@@ -1,7 +1,7 @@
 ---
 title: "Publish versioned MkDocs documentation with mike"
 description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
-verification: "listed"
+verification: listed
 source: "https://github.com/jimporter/mike"
 category:
   - "Content Writing & SEO"

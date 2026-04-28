@@ -1,17 +1,12 @@
 ---
 title: "Datadog Monitor Configurator"
 description: "Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category:
   - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
-  github_stars: 791
-  npm_package: "dd-trace"
-  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Monitor Configurator

@@ -1,7 +1,7 @@
 ---
 title: "Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI"
 description: "Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/continuedev/continue"
 category:
   - "CI/CD Integrations"

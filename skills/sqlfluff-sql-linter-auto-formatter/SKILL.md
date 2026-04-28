@@ -1,7 +1,7 @@
 ---
 title: "SQLFluff SQL Linter and Auto-Formatter"
 description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues, and supports Jinja/dbt templating for ELT workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sqlfluff/sqlfluff"
 category:
   - "Code Quality & Review"

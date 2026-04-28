@@ -1,7 +1,7 @@
 ---
 title: "Orval OpenAPI Client Regeneration Skill for Typed SDKs"
 description: "Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema changes, and update generated hooks without hand-editing the output. It is a narrowly scoped Orval workflow skill, not a generic listing for the Orval project."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/orval-labs/orval"
 category:
   - "Developer Tools"

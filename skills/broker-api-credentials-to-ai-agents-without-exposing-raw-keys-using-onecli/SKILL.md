@@ -1,7 +1,7 @@
 ---
 title: "Broker API credentials to AI agents without exposing raw keys using OneCLI"
 description: "Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/onecli/onecli"
 category:
   - "Security & Verification"

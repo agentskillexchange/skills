@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actions Pipeline Validator"
 description: "Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node, and dorny/paths-filter APIs."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.github.com/en/actions"
 category:
   - "CI/CD Integrations"

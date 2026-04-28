@@ -1,7 +1,7 @@
 ---
 title: "Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches"
 description: "Use Speaches when an agent stack expects OpenAI-style audio endpoints but you want a self-hosted speech backend for transcription, translation, and text-to-speech instead of a hosted API."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/speaches-ai/speaches"
 category:
   - "Media & Transcription"

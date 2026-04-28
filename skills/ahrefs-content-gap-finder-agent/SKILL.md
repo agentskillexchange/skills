@@ -1,7 +1,7 @@
 ---
 title: "Ahrefs Content Gap Finder"
 description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor keyword profiles and surfaces untapped opportunities with volume, KD, and SERP feature data."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://ahrefs.com/blog/content-gap-analysis/"
 category:
   - "Content Writing & SEO"

@@ -1,7 +1,7 @@
 ---
 title: "Run contract tests from API descriptions against live endpoints before integrations break with Dredd"
 description: "Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release."
-verification: "listed"
+verification: listed
 source: "https://github.com/apiaryio/dredd"
 category:
   - "Library & API Reference"

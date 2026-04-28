@@ -1,7 +1,7 @@
 ---
 title: "Playwright MCP Server for Browser Automation"
 description: "The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context Protocol, enabling LLMs to interact with web pages via structured accessibility snapshots without requiring vision models or screenshots."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright-mcp"
 category:
   - "Browser Automation"

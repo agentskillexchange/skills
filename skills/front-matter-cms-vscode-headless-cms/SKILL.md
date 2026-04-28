@@ -1,7 +1,7 @@
 ---
 title: "Front Matter CMS Visual Studio Code Headless CMS"
 description: "An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual Studio Code. Manages content for static site generators like Hugo, Jekyll, Next.js, Gatsby, and Astro through an editor-native interface with taxonomy management, media handling, and content scaffolding."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/estruyf/vscode-front-matter"
 category:
   - "WordPress & CMS"

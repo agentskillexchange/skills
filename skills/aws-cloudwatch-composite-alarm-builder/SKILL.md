@@ -1,7 +1,7 @@
 ---
 title: "AWS CloudWatch Composite Alarm Builder"
 description: "Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
   - "Monitoring & Alerts"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
+  license: "Apache-2.0"
 ---
 
 # AWS CloudWatch Composite Alarm Builder

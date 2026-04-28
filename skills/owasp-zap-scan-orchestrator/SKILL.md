@@ -1,7 +1,7 @@
 ---
 title: "OWASP ZAP Scan Orchestrator"
 description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
   - "Security & Verification"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
+  license: "Apache-2.0"
 ---
 
 # OWASP ZAP Scan Orchestrator

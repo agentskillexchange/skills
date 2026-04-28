@@ -1,7 +1,7 @@
 ---
 title: "Apply Git branching, commit, and pull request best practices through Git Workflow Skill"
 description: "Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/netresearch/git-workflow-skill"
 category:
   - "Code Quality & Review"

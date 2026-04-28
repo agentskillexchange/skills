@@ -1,7 +1,7 @@
 ---
 title: "Grafana Dashboard as Code Builder"
 description: "Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
   - "Monitoring & Alerts"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187
+  license: "AGPL-3.0"
 ---
 
 # Grafana Dashboard as Code Builder

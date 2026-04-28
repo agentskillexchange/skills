@@ -1,7 +1,7 @@
 ---
 title: "Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd"
 description: "Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops."
-verification: "listed"
+verification: listed
 source: "https://github.com/peak/s5cmd"
 category:
   - "Developer Tools"

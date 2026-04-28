@@ -1,7 +1,7 @@
 ---
 title: "Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures"
 description: "Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand."
-verification: "listed"
+verification: listed
 source: "https://github.com/pytest-dev/pytest-rerunfailures"
 category:
   - "CI/CD Integrations"

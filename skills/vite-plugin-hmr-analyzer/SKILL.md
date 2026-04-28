@@ -1,7 +1,7 @@
 ---
 title: "Vite Plugin Hot Module Analyzer"
 description: "Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws WebSocket events. Identifies slow module boundaries, circular dependency hot paths, and generates flamegraph-compatible output for Chrome DevTools Performance panel."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/vitejs/vite"
 category:
   - "Developer Tools"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 79927
   npm_package: "vite"
   npm_weekly_downloads: 96756115
+  license: "MIT"
 ---
 
 # Vite Plugin Hot Module Analyzer

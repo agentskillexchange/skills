@@ -1,7 +1,7 @@
 ---
 title: "Regenerate Helm chart READMEs from values and comments before release"
 description: "Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent can run this before commit or release, then surface changed tables, missing descriptions, and documentation drift in a review-friendly diff."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/norwoodj/helm-docs"
 category:
   - "Templates & Workflows"

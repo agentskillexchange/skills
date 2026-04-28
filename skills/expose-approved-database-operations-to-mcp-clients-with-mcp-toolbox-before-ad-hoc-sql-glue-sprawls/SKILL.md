@@ -1,7 +1,7 @@
 ---
 title: "Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls"
 description: "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled wrappers for every project."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/googleapis/mcp-toolbox"
 category:
   - "Integrations & Connectors"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "googleapis/mcp-toolbox"
   github_stars: 14664
+  license: "Apache-2.0"
 ---
 
 # Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls

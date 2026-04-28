@@ -1,7 +1,7 @@
 ---
 title: "Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout"
 description: "Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment."
-verification: "listed"
+verification: listed
 source: "https://github.com/zmap/zlint"
 category:
   - "Security & Verification"

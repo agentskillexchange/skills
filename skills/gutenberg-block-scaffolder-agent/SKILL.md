@@ -1,7 +1,7 @@
 ---
 title: "Gutenberg Block Scaffolder"
 description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developer.wordpress.org/block-editor/"
 category:
   - "WordPress & CMS"

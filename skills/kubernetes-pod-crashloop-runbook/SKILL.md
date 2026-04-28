@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Pod Crashloop Runbook"
 description: "Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to identify root causes such as OOMKilled, misconfigured liveness probes, or missing ConfigMaps. Generates a step-by-step remediation runbook."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category:
   - "Runbooks & Diagnostics"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700
+  license: "Apache-2.0"
 ---
 
 # Kubernetes Pod Crashloop Runbook

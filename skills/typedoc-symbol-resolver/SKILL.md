@@ -1,7 +1,7 @@
 ---
 title: "TypeDoc Symbol Resolver"
 description: "Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference pages with declaration merging support and module augmentation tracking."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/TypeStrong/typedoc"
 category:
   - "Library & API Reference"

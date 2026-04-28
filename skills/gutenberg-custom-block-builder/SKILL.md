@@ -1,7 +1,7 @@
 ---
 title: "Gutenberg Custom Block Builder"
 description: "Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WordPress/gutenberg"
 category:
   - "WordPress & CMS"

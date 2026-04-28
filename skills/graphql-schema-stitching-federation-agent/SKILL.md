@@ -1,7 +1,7 @@
 ---
 title: "GraphQL Schema Stitching & Federation Agent"
 description: "Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
   - "Library & API Reference"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 20324
   npm_package: "graphql"
   npm_weekly_downloads: 34200861
+  license: "MIT"
 ---
 
 # GraphQL Schema Stitching & Federation Agent

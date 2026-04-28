@@ -1,7 +1,7 @@
 ---
 title: "OWASP ZAP Security Scanner Agent"
 description: "Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
   - "Security & Verification"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
+  license: "Apache-2.0"
 ---
 
 # OWASP ZAP Security Scanner Agent

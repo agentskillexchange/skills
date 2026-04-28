@@ -1,7 +1,7 @@
 ---
 title: "GraphQL Data Federation Agent"
 description: "Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with automatic type merging and the DataLoader pattern for N+1 prevention."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
   - "Data Extraction & Transformation"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 20324
   npm_package: "graphql"
   npm_weekly_downloads: 34200861
+  license: "MIT"
 ---
 
 # GraphQL Data Federation Agent

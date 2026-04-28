@@ -1,7 +1,7 @@
 ---
 title: "Sentry Error Triage Assistant"
 description: "Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/getsentry/sentry"
 category:
   - "Runbooks & Diagnostics"

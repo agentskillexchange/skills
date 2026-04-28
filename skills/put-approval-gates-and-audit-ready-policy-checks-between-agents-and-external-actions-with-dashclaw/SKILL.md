@@ -1,7 +1,7 @@
 ---
 title: "Put approval gates and audit-ready policy checks between agents and external actions with DashClaw"
 description: "Use DashClaw to intercept agent actions before they hit external systems, require approval or policy evaluation, and keep replayable decision evidence for later review."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ucsandman/DashClaw"
 category:
   - "Security & Verification"

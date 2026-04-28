@@ -1,7 +1,7 @@
 ---
 title: "Draft release notes continuously with Release Drafter"
 description: "Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/release-drafter/release-drafter"
 category:
   - "CI/CD Integrations"

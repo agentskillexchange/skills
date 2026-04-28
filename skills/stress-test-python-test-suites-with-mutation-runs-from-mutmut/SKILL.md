@@ -1,7 +1,7 @@
 ---
 title: "Stress-test Python test suites with mutation runs from mutmut"
 description: "Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite."
-verification: "listed"
+verification: listed
 source: "https://github.com/boxed/mutmut"
 category:
   - "Code Quality & Review"

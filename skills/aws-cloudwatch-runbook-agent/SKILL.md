@@ -1,7 +1,7 @@
 ---
 title: "AWS CloudWatch Runbook Agent"
 description: "Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
   - "Runbooks & Diagnostics"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
+  license: "Apache-2.0"
 ---
 
 # AWS CloudWatch Runbook Agent

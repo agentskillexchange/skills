@@ -1,7 +1,7 @@
 ---
 title: "Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection"
 description: "Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines."
-verification: "listed"
+verification: listed
 source: "https://github.com/liu00222/Open-Prompt-Injection"
 category:
   - "Security & Verification"

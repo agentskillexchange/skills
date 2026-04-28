@@ -1,7 +1,7 @@
 ---
 title: "Metabase Dashboard Snapshot & Alerting"
 description: "Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key metrics against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance Metabase deployments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.metabase.com/docs/latest/"
 category:
   - "Data Extraction & Transformation"

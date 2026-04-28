@@ -1,7 +1,7 @@
 ---
 title: "Broken Link Verification for Static Sites and Documentation"
 description: "Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and return a link-focused validation report before deploy. This is a narrow docs QA skill for agents validating already-built HTML, not a generic site generator or crawler listing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/wjdp/htmltest"
 category:
   - "Code Quality & Review"

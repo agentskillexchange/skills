@@ -1,7 +1,7 @@
 ---
 title: "Jenkins Pipeline Log Parser"
 description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 category:
   - "CI/CD Integrations"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189
+  license: "MIT"
 ---
 
 # Jenkins Pipeline Log Parser

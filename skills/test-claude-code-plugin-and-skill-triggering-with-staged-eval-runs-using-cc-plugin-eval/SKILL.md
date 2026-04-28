@@ -1,7 +1,7 @@
 ---
 title: "Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval"
 description: "Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should."
-verification: "listed"
+verification: listed
 source: "https://github.com/sjnims/cc-plugin-eval"
 category:
   - "Code Quality & Review"

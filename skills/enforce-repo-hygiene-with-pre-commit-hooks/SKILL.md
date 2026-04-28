@@ -1,7 +1,7 @@
 ---
 title: "Enforce repo hygiene with pre-commit hooks"
 description: "Run a repeatable pre-commit gate that catches formatting, lint, secret, and policy issues before they land in the repo."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pre-commit/pre-commit"
 category:
   - "Templates & Workflows"

@@ -1,7 +1,7 @@
 ---
 title: "Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext"
 description: "Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can happen outside bulky notebook JSON."
-verification: "listed"
+verification: listed
 source: "https://github.com/mwouts/jupytext"
 category:
   - "Templates & Workflows"

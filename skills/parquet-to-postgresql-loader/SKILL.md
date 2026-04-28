@@ -1,7 +1,7 @@
 ---
 title: "Parquet to PostgreSQL Loader"
 description: "Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles schema mapping, partitioned datasets, and incremental upserts with conflict resolution."
-verification: "listed"
+verification: listed
 source: "https://agentskillexchange.com/skills/parquet-to-postgresql-loader/"
 category:
   - "Data Extraction & Transformation"

@@ -1,7 +1,7 @@
 ---
 title: "Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare"
 description: "Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories."
-verification: "listed"
+verification: listed
 source: "https://github.com/runkids/skillshare"
 category:
   - "Integrations & Connectors"

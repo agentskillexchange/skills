@@ -1,7 +1,7 @@
 ---
 title: "Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management"
 description: "Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in one giant chat."
-verification: "listed"
+verification: listed
 source: "https://github.com/sdi2200262/agentic-project-management"
 category:
   - "Templates & Workflows"

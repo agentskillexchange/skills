@@ -1,7 +1,7 @@
 ---
 title: "Apprise Universal Push Notification Library and CLI"
 description: "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/caronc/apprise"
 category:
   - "Monitoring & Alerts"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "caronc/apprise"
   github_stars: 16227
+  license: "BSD-2-Clause"
 ---
 
 # Apprise Universal Push Notification Library and CLI

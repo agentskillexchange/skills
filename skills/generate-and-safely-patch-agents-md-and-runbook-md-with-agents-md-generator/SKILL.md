@@ -1,7 +1,7 @@
 ---
 title: "Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator"
 description: "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract."
-verification: "listed"
+verification: listed
 source: "https://github.com/markoblogo/AGENTS.md_generator"
 category:
   - "Templates & Workflows"

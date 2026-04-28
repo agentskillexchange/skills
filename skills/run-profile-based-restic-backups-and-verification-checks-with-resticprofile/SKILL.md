@@ -1,7 +1,7 @@
 ---
 title: "Run profile-based restic backups and verification checks with resticprofile"
 description: "Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands."
-verification: "listed"
+verification: listed
 source: "https://github.com/creativeprojects/resticprofile"
 category:
   - "Runbooks & Diagnostics"

@@ -1,7 +1,7 @@
 ---
 title: "Git Branch Analyzer"
 description: "Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge conflicts, and divergence points via the GitHub GraphQL API."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/libgit2/libgit2"
 category:
   - "Developer Tools"

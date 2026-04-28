@@ -1,7 +1,7 @@
 ---
 title: "Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch"
 description: "Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl."
-verification: "listed"
+verification: listed
 source: "https://github.com/shibing624/TreeSearch"
 category:
   - "Developer Tools"

@@ -1,7 +1,7 @@
 ---
 title: "Verify Markdown links before docs or content ship with markdown-link-check"
 description: "Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users."
-verification: "listed"
+verification: listed
 source: "https://github.com/tcort/markdown-link-check"
 category:
   - "Content Writing & SEO"

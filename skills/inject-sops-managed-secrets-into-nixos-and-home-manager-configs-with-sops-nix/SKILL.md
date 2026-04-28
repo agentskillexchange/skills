@@ -1,7 +1,7 @@
 ---
 title: "Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix"
 description: "Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values."
-verification: "listed"
+verification: listed
 source: "https://github.com/Mic92/sops-nix"
 category:
   - "Security & Verification"

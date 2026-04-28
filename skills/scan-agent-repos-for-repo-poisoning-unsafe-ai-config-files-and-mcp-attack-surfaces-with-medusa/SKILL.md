@@ -1,7 +1,7 @@
 ---
 title: "Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA"
 description: "Run a focused preflight scan over agent and MCP repositories to catch poisoned instruction files, dangerous configs, and AI-specific supply-chain risks before merge or deployment."
-verification: "listed"
+verification: listed
 source: "https://github.com/Pantheon-Security/medusa"
 category:
   - "Security & Verification"

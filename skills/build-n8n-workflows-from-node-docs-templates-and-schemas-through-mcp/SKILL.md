@@ -1,7 +1,7 @@
 ---
 title: "Build n8n workflows from node docs, templates, and schemas through MCP"
 description: "Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while designing or debugging workflows, instead of guessing from raw docs or clicking through the n8n UI by hand."
-verification: "listed"
+verification: listed
 source: "https://github.com/czlonkowski/n8n-mcp"
 category:
   - "Integrations & Connectors"

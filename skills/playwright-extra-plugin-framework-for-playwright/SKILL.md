@@ -1,7 +1,7 @@
 ---
 title: "playwright-extra Plugin Framework for Playwright"
 description: "An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such as stealth and other browser behavior extensions. It fits agent workflows that need Playwright-compatible automation with a modular plugin layer instead of raw browser scripts alone."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.npmjs.com/package/playwright-extra"
 category:
   - "Browser Automation"

@@ -1,7 +1,7 @@
 ---
 title: "Capture live transcripts and searchable meeting memory for agents with Minutes"
 description: "Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action."
-verification: "listed"
+verification: listed
 source: "https://github.com/silverstein/minutes"
 category:
   - "Media & Transcription"

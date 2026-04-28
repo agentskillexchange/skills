@@ -1,7 +1,7 @@
 ---
 title: "Discord Moderation Bot with AI Classification"
 description: "Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to detect spam and coordinated inauthentic behavior. Issues timeouts via the Discord REST API and logs incidents to a Supabase Postgres table for moderator review. Rule sets are stored in Supabase and hot-reloaded without restart."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/discordjs/discord.js"
 category:
   - "Security & Verification"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 26668
   npm_package: "discord.js"
   npm_weekly_downloads: 563530
+  license: "Apache-2.0"
 ---
 
 # Discord Moderation Bot with AI Classification

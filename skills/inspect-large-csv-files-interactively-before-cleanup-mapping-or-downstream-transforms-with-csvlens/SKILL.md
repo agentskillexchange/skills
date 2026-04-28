@@ -1,7 +1,7 @@
 ---
 title: "Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens"
 description: "Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/YS-L/csvlens"
 category:
   - "Data Extraction & Transformation"

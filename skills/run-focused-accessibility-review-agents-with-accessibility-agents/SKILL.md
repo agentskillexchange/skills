@@ -1,7 +1,7 @@
 ---
 title: "Run focused accessibility review agents against coding-tool output with Accessibility Agents"
 description: "Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship."
-verification: "listed"
+verification: listed
 source: "https://github.com/Community-Access/accessibility-agents"
 category:
   - "Code Quality & Review"

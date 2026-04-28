@@ -1,7 +1,7 @@
 ---
 title: "Block unsafe agent actions and scan newly added skills with AgentGuard"
 description: "Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/GoPlusSecurity/agentguard"
 category:
   - "Security & Verification"

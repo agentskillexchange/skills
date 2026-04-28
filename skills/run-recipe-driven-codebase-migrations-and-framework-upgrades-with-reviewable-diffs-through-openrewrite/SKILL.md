@@ -1,7 +1,7 @@
 ---
 title: "Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite"
 description: "Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes."
-verification: "listed"
+verification: listed
 source: "https://github.com/openrewrite/rewrite"
 category:
   - "Templates & Workflows"

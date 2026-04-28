@@ -1,7 +1,7 @@
 ---
 title: "Run reviewable multi-step codemod workflows with Codemod CLI"
 description: "Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a one-off search-and-replace or browsing the hosted Codemod platform."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/codemod/codemod"
 category:
   - "Code Quality & Review"

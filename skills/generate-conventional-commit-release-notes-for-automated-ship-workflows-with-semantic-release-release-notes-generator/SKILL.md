@@ -1,7 +1,7 @@
 ---
 title: "Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator"
 description: "Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do."
-verification: "listed"
+verification: listed
 source: "https://github.com/semantic-release/release-notes-generator"
 category:
   - "CI/CD Integrations"

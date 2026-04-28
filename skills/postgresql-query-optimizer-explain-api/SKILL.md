@@ -1,7 +1,7 @@
 ---
 title: "PostgreSQL Query Optimizer Agent"
 description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
   - "Developer Tools"

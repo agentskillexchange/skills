@@ -1,7 +1,7 @@
 ---
 title: "Self-Improvement / Learnings Capture"
 description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/peterskoett/self-improving-agent"
 category:
   - "Templates & Workflows"

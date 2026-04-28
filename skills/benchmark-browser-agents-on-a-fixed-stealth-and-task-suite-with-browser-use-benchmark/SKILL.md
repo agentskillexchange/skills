@@ -1,7 +1,7 @@
 ---
 title: "Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark"
 description: "Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress."
-verification: "listed"
+verification: listed
 source: "https://github.com/browser-use/benchmark"
 category:
   - "Browser Automation"

@@ -1,7 +1,7 @@
 ---
 title: "Cookiecutter Project Scaffold"
 description: "Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for post-generation linting via Ruff and pre-commit framework setup."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
   - "Templates & Workflows"

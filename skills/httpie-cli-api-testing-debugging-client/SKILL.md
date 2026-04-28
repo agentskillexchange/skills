@@ -1,7 +1,7 @@
 ---
 title: "HTTPie CLI API Testing and Debugging Client"
 description: "HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax with formatted and colorized terminal output, built-in JSON support, and session persistence."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/httpie/cli"
 category:
   - "Developer Tools"

@@ -1,7 +1,7 @@
 ---
 title: "Slack MCP Server"
 description: "Agent access to Slack conversations and workspace workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/modelcontextprotocol/servers"
 category:
   - "Calendar, Email & Productivity"

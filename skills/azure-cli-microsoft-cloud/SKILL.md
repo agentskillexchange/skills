@@ -1,7 +1,7 @@
 ---
 title: "Azure CLI — Command-Line Interface for Microsoft Azure"
 description: "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands."
-verification: "listed"
+verification: listed
 source: "https://github.com/Azure/azure-cli"
 category:
   - "Developer Tools"

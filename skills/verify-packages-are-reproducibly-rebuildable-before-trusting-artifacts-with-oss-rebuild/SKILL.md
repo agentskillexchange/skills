@@ -1,7 +1,7 @@
 ---
 title: "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild"
 description: "Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/google/oss-rebuild"
 category:
   - "Security & Verification"

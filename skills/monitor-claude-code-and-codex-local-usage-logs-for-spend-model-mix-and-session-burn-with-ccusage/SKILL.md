@@ -1,7 +1,7 @@
 ---
 title: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
 description: "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ryoppippi/ccusage"
 category:
   - "Runbooks & Diagnostics"

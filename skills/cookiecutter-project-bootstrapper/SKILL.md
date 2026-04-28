@@ -1,7 +1,7 @@
 ---
 title: "Cookiecutter Project Bootstrapper"
 description: "Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
   - "Templates & Workflows"

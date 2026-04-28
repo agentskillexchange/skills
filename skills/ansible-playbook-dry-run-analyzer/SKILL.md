@@ -1,7 +1,7 @@
 ---
 title: "Ansible Playbook Dry-Run Analyzer"
 description: "Executes ansible-playbook –check –diff mode and parses the JSON callback output using the ansible.posix.json callback plugin. Identifies tasks that would change, predicts idempotency issues, and generates change impact reports."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
   - "Runbooks & Diagnostics"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364
+  license: "GPL-3.0"
 ---
 
 # Ansible Playbook Dry-Run Analyzer

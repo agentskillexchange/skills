@@ -1,7 +1,7 @@
 ---
 title: "PostgreSQL Query Diagnostics"
 description: "Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
   - "Runbooks & Diagnostics"

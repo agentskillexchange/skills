@@ -1,7 +1,7 @@
 ---
 title: "Hugging Face Model Deployer"
 description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/huggingface/transformers"
 category:
   - "CI/CD Integrations"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159358
+  license: "Apache-2.0"
 ---
 
 # Hugging Face Model Deployer

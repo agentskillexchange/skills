@@ -1,7 +1,7 @@
 ---
 title: "Multi-Axis Code Review and Quality Gates"
 description: "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check."
-verification: "listed"
+verification: listed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
 category:
   - "Code Quality & Review"

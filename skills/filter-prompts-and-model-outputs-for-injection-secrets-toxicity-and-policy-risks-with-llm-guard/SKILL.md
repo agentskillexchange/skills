@@ -1,7 +1,7 @@
 ---
 title: "Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard"
 description: "Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems."
-verification: "listed"
+verification: listed
 source: "https://github.com/protectai/llm-guard"
 category:
   - "Security & Verification"

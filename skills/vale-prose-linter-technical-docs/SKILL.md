@@ -1,7 +1,7 @@
 ---
 title: "Vale Prose Linter for Technical Documentation"
 description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/vale-cli/vale"
 category:
   - "Code Quality & Review"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "vale-cli/vale"
   github_stars: 5316
+  license: "MIT"
 ---
 
 # Vale Prose Linter for Technical Documentation

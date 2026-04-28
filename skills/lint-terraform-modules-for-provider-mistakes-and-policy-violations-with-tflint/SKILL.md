@@ -1,7 +1,7 @@
 ---
 title: "Lint Terraform modules for provider mistakes and policy violations with TFLint"
 description: "Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early."
-verification: "listed"
+verification: listed
 source: "https://github.com/terraform-linters/tflint"
 category:
   - "Code Quality & Review"

@@ -1,7 +1,7 @@
 ---
 title: "Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit"
 description: "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early."
-verification: "listed"
+verification: listed
 source: "https://github.com/microsoft/agent-governance-toolkit"
 category:
   - "Security & Verification"

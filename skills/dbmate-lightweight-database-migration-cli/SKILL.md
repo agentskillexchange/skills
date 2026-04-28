@@ -1,7 +1,7 @@
 ---
 title: "dbmate Lightweight Database Migration CLI"
 description: "dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports PostgreSQL, MySQL, SQLite, ClickHouse, BigQuery, and Spanner, and works with any programming language or framework."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/amacneil/dbmate"
 category:
   - "Developer Tools"

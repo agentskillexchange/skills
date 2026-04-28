@@ -1,7 +1,7 @@
 ---
 title: "Ahrefs Keyword Gap Analysis Skill"
 description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords"
 category:
   - "Content Writing & SEO"

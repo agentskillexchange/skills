@@ -1,7 +1,7 @@
 ---
 title: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
 description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
-verification: "listed"
+verification: listed
 source: "https://github.com/Tracer-Cloud/opensre"
 category:
   - "Runbooks & Diagnostics"

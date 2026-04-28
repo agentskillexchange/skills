@@ -1,7 +1,7 @@
 ---
 title: "Nginx Error Log Pattern Analyzer"
 description: "Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
   - "Runbooks & Diagnostics"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930
+  license: "BSD-2-Clause"
 ---
 
 # Nginx Error Log Pattern Analyzer

@@ -1,7 +1,7 @@
 ---
 title: "Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk"
 description: "Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without stomping each other."
-verification: "listed"
+verification: listed
 source: "https://github.com/max-sixty/worktrunk"
 category:
   - "Developer Tools"

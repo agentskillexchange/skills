@@ -1,7 +1,7 @@
 ---
 title: "Astro Content-Driven Web Framework"
 description: "Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue, Svelte, Solid), and provides islands architecture for optimal performance."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/withastro/astro"
 category:
   - "Developer Tools"

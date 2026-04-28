@@ -1,7 +1,7 @@
 ---
 title: "Build, test, and package PostgreSQL extensions in Rust with pgrx"
 description: "Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs, and packaging across PostgreSQL versions."
-verification: "listed"
+verification: listed
 source: "https://github.com/pgcentralfoundation/pgrx"
 category:
   - "Developer Tools"

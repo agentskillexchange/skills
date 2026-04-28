@@ -1,7 +1,7 @@
 ---
 title: "Notion Workspace Automator"
 description: "Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
   - "Calendar, Email & Productivity"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5582
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
+  license: "MIT"
 ---
 
 # Notion Workspace Automator

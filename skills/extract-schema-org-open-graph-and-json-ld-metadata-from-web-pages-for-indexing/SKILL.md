@@ -1,7 +1,7 @@
 ---
 title: "Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing"
 description: "Uses extruct to pull machine-readable metadata from raw HTML so an agent can classify, deduplicate, or enrich pages without brittle full-page parsing. It is best for metadata harvesting workflows, not for crawling an entire site or rendering JavaScript-heavy pages."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/scrapinghub/extruct"
 category:
   - "Research & Scraping"

@@ -1,7 +1,7 @@
 ---
 title: "Bazel Build Graph Analyzer"
 description: "Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/bazelbuild/bazel"
 category:
   - "Developer Tools"

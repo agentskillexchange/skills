@@ -1,7 +1,7 @@
 ---
 title: "Sign agent-made Git commits with gitsign"
 description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sigstore/gitsign"
 category:
   - "Security & Verification"

@@ -1,7 +1,7 @@
 ---
 title: "Python Package API Surface Mapper"
 description: "Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy stubs."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
 category:
   - "Library & API Reference"

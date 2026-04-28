@@ -1,7 +1,7 @@
 ---
 title: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize"
 description: "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps."
-verification: "listed"
+verification: listed
 source: "https://github.com/steipete/summarize"
 category:
   - "Media & Transcription"

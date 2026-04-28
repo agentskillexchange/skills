@@ -1,7 +1,7 @@
 ---
 title: "Run repeatable Google Ads and SEO audits inside Claude Code with Toprank"
 description: "Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash commands, account-backed analysis, and optional repo edits instead of one-off marketing prompting."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nowork-studio/toprank"
 category:
   - "Content Writing & SEO"

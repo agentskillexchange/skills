@@ -1,7 +1,7 @@
 ---
 title: "nb CLI Note-Taking Bookmarking and Knowledge Base Application"
 description: "nb is a command-line and local web note-taking, bookmarking, archiving, and knowledge base application. It stores everything as plain text with Git-backed versioning and syncing, supports wiki-style linking, encryption, tagging, search, and Pandoc-powered import/export — all in a single portable Bash script."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/xwmx/nb"
 category:
   - "Calendar, Email & Productivity"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "xwmx/nb"
   github_stars: 8088
+  license: "AGPL-3.0"
 ---
 
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application

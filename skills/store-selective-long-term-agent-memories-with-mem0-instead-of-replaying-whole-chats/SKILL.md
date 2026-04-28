@@ -1,7 +1,7 @@
 ---
 title: "Store selective long-term agent memories with Mem0 instead of replaying whole chats"
 description: "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/mem0ai/mem0"
 category:
   - "Library & API Reference"

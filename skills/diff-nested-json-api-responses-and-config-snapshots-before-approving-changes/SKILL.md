@@ -1,7 +1,7 @@
 ---
 title: "Diff nested JSON, API responses, and config snapshots before approving changes"
 description: "Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas instead of noisy line-based diffs. Best when an agent is validating API payloads, configuration snapshots, or migration outputs where nesting and key paths matter."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/qlustered/deepdiff"
 category:
   - "Data Extraction & Transformation"

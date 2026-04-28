@@ -1,7 +1,7 @@
 ---
 title: "Audit GitHub Actions for privilege and supply-chain risks with zizmor"
 description: "Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early."
-verification: "listed"
+verification: listed
 source: "https://github.com/zizmorcore/zizmor"
 category:
   - "Security & Verification"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "zizmorcore/zizmor"
   github_stars: 4186
+  license: "MIT"
 ---
 
 # Audit GitHub Actions for privilege and supply-chain risks with zizmor

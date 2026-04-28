@@ -1,7 +1,7 @@
 ---
 title: "Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide"
 description: "Use an agent-facing OpenClaw security guide to audit a live setup, surface conflicts, and apply a bounded hardening defense matrix with explicit approval gates and nightly checks."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/slowmist/openclaw-security-practice-guide"
 category:
   - "Security & Verification"

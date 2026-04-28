@@ -1,7 +1,7 @@
 ---
 title: "Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk"
 description: "Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime."
-verification: "listed"
+verification: listed
 source: "https://github.com/sbdchd/squawk"
 category:
   - "Code Quality & Review"

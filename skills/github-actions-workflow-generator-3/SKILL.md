@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actions Workflow Generator"
 description: "Generates GitHub Actions workflow YAML files using the GitHub REST API v3 and Actions API. Supports matrix builds, reusable workflows, and composite actions with caching via actions/cache."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.github.com/en/actions"
 category:
   - "CI/CD Integrations"

@@ -1,7 +1,7 @@
 ---
 title: "Ollama Local LLM Runner and Model Server"
 description: "Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models including Llama, Gemma, Qwen, and DeepSeek, with GPU acceleration and an OpenAI-compatible API endpoint."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ollama/ollama"
 category:
   - "Developer Tools"

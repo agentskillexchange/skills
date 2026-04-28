@@ -1,7 +1,7 @@
 ---
 title: "Semgrep Code Pattern Scanner"
 description: "Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 category:
   - "Code Quality & Review"

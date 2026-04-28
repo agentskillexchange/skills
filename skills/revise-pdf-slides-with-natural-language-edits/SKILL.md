@@ -1,7 +1,7 @@
 ---
 title: "Revise PDF Slides with Natural-Language Edits"
 description: "Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language instructions. The workflow is bounded to PDF page edits and deck-consistent slide generation, not general design automation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/gavrielc/Nano-PDF"
 category:
   - "Image & Creative Automation"

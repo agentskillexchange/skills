@@ -1,7 +1,7 @@
 ---
 title: "MDN Web Docs Fetcher"
 description: "Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developer.mozilla.org/"
 category:
   - "Library & API Reference"

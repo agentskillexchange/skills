@@ -1,7 +1,7 @@
 ---
 title: "GitLab CI Cache Optimizer"
 description: "Optimizes GitLab CI/CD cache configurations using the GitLab Pipelines API v4 and cache:key:files directive analysis. Reduces pipeline duration by identifying cache misses and suggesting optimal key strategies."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
   - "CI/CD Integrations"

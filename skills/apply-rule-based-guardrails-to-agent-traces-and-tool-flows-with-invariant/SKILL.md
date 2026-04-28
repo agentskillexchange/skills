@@ -1,7 +1,7 @@
 ---
 title: "Apply rule-based guardrails to agent traces and tool flows with Invariant"
 description: "Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules."
-verification: "listed"
+verification: listed
 source: "https://github.com/invariantlabs-ai/invariant"
 category:
   - "Security & Verification"

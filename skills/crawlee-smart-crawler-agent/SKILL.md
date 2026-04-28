@@ -1,7 +1,7 @@
 ---
 title: "Crawlee Smart Crawler Agent"
 description: "Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/apify/crawlee"
 category:
   - "Research & Scraping"

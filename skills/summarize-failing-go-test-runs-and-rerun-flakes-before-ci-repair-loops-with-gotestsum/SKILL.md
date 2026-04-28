@@ -1,7 +1,7 @@
 ---
 title: "Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum"
 description: "Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional reruns of flaky tests before an agent starts fixing Go code."
-verification: "listed"
+verification: listed
 source: "https://github.com/gotestyourself/gotestsum"
 category:
   - "Code Quality & Review"

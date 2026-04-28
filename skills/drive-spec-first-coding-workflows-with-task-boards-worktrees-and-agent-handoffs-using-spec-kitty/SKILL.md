@@ -1,7 +1,7 @@
 ---
 title: "Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty"
 description: "Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination."
-verification: "listed"
+verification: listed
 source: "https://github.com/Priivacy-ai/spec-kitty"
 category:
   - "Templates & Workflows"

@@ -1,7 +1,7 @@
 ---
 title: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
 description: "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge."
-verification: "listed"
+verification: listed
 source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
 category:
   - "Code Quality & Review"

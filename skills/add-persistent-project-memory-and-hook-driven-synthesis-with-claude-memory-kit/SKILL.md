@@ -1,7 +1,7 @@
 ---
 title: "Add persistent project memory and hook-driven synthesis with Claude Memory Kit"
 description: "Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time."
-verification: "listed"
+verification: listed
 source: "https://github.com/awrshift/claude-memory-kit"
 category:
   - "Developer Tools"

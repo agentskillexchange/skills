@@ -1,7 +1,7 @@
 ---
 title: "Ansible Playbook Debugger"
 description: "Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
   - "Runbooks & Diagnostics"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364
+  license: "GPL-3.0"
 ---
 
 # Ansible Playbook Debugger

@@ -1,7 +1,7 @@
 ---
 title: "ArgoCD GitOps Sync Manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593
+  license: "Apache-2.0"
 ---
 
 # ArgoCD GitOps Sync Manager

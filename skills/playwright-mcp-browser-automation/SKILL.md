@@ -1,7 +1,7 @@
 ---
 title: "Playwright MCP Browser Automation"
 description: "Official Playwright-powered browser control for agent workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright-mcp"
 category:
   - "Browser Automation"
@@ -15,6 +15,7 @@ tool_ecosystem:
   github_stars: 31477
   npm_package: "@playwright/mcp"
   npm_weekly_downloads: 1632140
+  license: "Apache-2.0"
 ---
 
 # Playwright MCP Browser Automation

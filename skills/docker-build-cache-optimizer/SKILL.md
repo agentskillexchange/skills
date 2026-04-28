@@ -1,7 +1,7 @@
 ---
 title: "Docker Build Cache Optimizer"
 description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/moby/moby"
 category:
   - "Code Quality & Review"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
+  license: "Apache-2.0"
 ---
 
 # Docker Build Cache Optimizer

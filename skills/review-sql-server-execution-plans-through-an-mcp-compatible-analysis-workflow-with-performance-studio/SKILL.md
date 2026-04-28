@@ -1,7 +1,7 @@
 ---
 title: "Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio"
 description: "Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance warnings, inspect missing-index suggestions, and turn execution-plan evidence into a reviewable tuning workflow."
-verification: "listed"
+verification: listed
 source: "https://github.com/erikdarlingdata/PerformanceStudio"
 category:
   - "Runbooks & Diagnostics"

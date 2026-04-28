@@ -1,7 +1,7 @@
 ---
 title: "ArgoCD Application Deployer"
 description: "Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593
+  license: "Apache-2.0"
 ---
 
 # ArgoCD Application Deployer

@@ -1,7 +1,7 @@
 ---
 title: "Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill"
 description: "Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and returns evidence-backed scorecards."
-verification: "listed"
+verification: listed
 source: "https://github.com/salespeak-ai/buyer-eval-skill"
 category:
   - "Research & Scraping"

@@ -1,7 +1,7 @@
 ---
 title: "NocoDB Self-Hosted No-Code Database Platform with REST API"
 description: "NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable alternative that connects to PostgreSQL, MySQL, SQLite, and other databases, enabling no-code data management with automation, collaboration, and API-first access."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nocodb/nocodb"
 category:
   - "Integrations & Connectors"

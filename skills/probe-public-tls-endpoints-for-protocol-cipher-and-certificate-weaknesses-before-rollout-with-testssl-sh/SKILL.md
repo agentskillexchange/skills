@@ -1,7 +1,7 @@
 ---
 title: "Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh"
 description: "Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review."
-verification: "listed"
+verification: listed
 source: "https://github.com/testssl/testssl.sh"
 category:
   - "Security & Verification"

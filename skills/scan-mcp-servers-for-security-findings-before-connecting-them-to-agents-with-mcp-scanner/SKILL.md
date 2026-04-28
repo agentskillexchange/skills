@@ -1,7 +1,7 @@
 ---
 title: "Scan MCP servers for security findings before connecting them to agents with MCP Scanner"
 description: "Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts, resources, dependencies, and supply-chain risk."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cisco-ai-defense/mcp-scanner"
 category:
   - "Security & Verification"

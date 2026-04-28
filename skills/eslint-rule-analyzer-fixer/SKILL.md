@@ -1,7 +1,7 @@
 ---
 title: "ESLint Rule Analyzer and Fixer"
 description: "Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
   - "Code Quality & Review"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 27188
   npm_package: "eslint"
   npm_weekly_downloads: 120215107
+  license: "MIT"
 ---
 
 # ESLint Rule Analyzer and Fixer

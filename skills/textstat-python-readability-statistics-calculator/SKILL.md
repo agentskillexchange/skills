@@ -1,7 +1,7 @@
 ---
 title: "textstat Python Readability Statistics Calculator"
 description: "textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease, Gunning Fog Index, SMOG Index, Coleman-Liau Index, and Dale-Chall score. It provides quantitative readability metrics that content writers and SEO professionals use to optimize content for target audiences."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/textstat/textstat"
 category:
   - "Content Writing & SEO"

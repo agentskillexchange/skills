@@ -1,7 +1,7 @@
 ---
 title: "Read and automate Slack workflows from a purpose-built agent CLI with agent-slack"
 description: "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output."
-verification: "listed"
+verification: listed
 source: "https://github.com/stablyai/agent-slack"
 category:
   - "Calendar, Email & Productivity"

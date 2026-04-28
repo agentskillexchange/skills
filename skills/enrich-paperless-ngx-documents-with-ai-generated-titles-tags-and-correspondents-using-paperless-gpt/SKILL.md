@@ -1,7 +1,7 @@
 ---
 title: "Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt"
 description: "Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it."
-verification: "listed"
+verification: listed
 source: "https://github.com/icereed/paperless-gpt"
 category:
   - "Data Extraction & Transformation"

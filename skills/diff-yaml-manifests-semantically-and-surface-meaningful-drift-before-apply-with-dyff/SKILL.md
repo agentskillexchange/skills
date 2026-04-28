@@ -1,7 +1,7 @@
 ---
 title: "Diff YAML manifests semantically and surface meaningful drift before apply with dyff"
 description: "Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs."
-verification: "listed"
+verification: listed
 source: "https://github.com/homeport/dyff"
 category:
   - "Code Quality & Review"

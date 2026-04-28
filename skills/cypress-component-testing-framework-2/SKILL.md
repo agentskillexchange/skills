@@ -1,7 +1,7 @@
 ---
 title: "Cypress Component Testing Framework"
 description: "Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
 category:
   - "Browser Automation"

@@ -1,7 +1,7 @@
 ---
 title: "VHS Terminal Session Recorder and GIF Generator"
 description: "Create terminal session recordings as GIFs, videos, or images using VHS (charmbracelet/vhs). Write declarative .tape scripts that define typed commands, delays, and settings — then render pixel-perfect terminal demos automatically."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/charmbracelet/vhs"
 category:
   - "Developer Tools"

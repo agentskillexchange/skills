@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Kubernetes clusters against CIS controls with kube-bench"
 description: "Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing."
-verification: "listed"
+verification: listed
 source: "https://github.com/aquasecurity/kube-bench"
 category:
   - "Security & Verification"

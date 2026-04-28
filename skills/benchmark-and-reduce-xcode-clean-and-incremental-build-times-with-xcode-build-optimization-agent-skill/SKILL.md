@@ -1,7 +1,7 @@
 ---
 title: "Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill"
 description: "Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an approval-first optimization plan before changing project files."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill"
 category:
   - "Code Quality & Review"

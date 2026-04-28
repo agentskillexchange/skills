@@ -1,7 +1,7 @@
 ---
 title: "Nginx Error Log Parser"
 description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category:
   - "Developer Tools"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930
+  license: "BSD-2-Clause"
 ---
 
 # Nginx Error Log Parser

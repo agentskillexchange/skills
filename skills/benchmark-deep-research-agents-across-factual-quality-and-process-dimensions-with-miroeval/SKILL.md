@@ -1,7 +1,7 @@
 ---
 title: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
 description: "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship."
-verification: "listed"
+verification: listed
 source: "https://github.com/MiroMindAI/MiroEval"
 category:
   - "Code Quality & Review"

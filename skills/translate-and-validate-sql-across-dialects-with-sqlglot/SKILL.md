@@ -1,7 +1,7 @@
 ---
 title: "Translate and validate SQL across dialects with SQLGlot"
 description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL."
-verification: "listed"
+verification: listed
 source: "https://github.com/tobymao/sqlglot"
 category:
   - "Data Extraction & Transformation"

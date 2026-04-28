@@ -1,7 +1,7 @@
 ---
 title: "Prettier Config Conflict Resolver"
 description: "Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/prettier/prettier"
 category:
   - "Code Quality & Review"

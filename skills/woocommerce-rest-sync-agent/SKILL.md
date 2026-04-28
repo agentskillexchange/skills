@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce REST Sync Agent"
 description: "Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developer.woocommerce.com/docs/apis/rest-api/"
 category:
   - "WordPress & CMS"

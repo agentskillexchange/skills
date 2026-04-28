@@ -1,7 +1,7 @@
 ---
 title: "OpenMeter Usage Metering and Billing Platform"
 description: "OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you need to track API or AI usage events, define meters, and connect that usage data to limits, plans, or customer-facing reporting."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/openmeterio/openmeter"
 category:
   - "Developer Tools"

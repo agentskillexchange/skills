@@ -1,7 +1,7 @@
 ---
 title: "Ansible Playbook Linter"
 description: "Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency, variable naming, and handler usage with custom rule profiles."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category:
   - "Templates & Workflows"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364
+  license: "GPL-3.0"
 ---
 
 # Ansible Playbook Linter

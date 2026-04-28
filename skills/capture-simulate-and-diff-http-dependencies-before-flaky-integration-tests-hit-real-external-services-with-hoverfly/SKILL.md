@@ -1,7 +1,7 @@
 ---
 title: "Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly"
 description: "Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services."
-verification: "listed"
+verification: listed
 source: "https://github.com/SpectoLabs/hoverfly"
 category:
   - "CI/CD Integrations"

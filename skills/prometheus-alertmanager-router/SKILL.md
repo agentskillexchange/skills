@@ -1,7 +1,7 @@
 ---
 title: "Prometheus AlertManager Router"
 description: "Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category:
   - "Monitoring & Alerts"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584
+  license: "Apache-2.0"
 ---
 
 # Prometheus AlertManager Router

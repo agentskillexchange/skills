@@ -1,7 +1,7 @@
 ---
 title: "Build and refactor Copilot Studio agents as YAML from coding-agent workflows"
 description: "Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI."
-verification: "listed"
+verification: listed
 source: "https://github.com/microsoft/skills-for-copilot-studio"
 category:
   - "Templates & Workflows"

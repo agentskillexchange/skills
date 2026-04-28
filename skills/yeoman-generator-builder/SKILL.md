@@ -1,7 +1,7 @@
 ---
 title: "Yeoman Generator Builder"
 description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/yeoman/generator"
 category:
   - "Templates & Workflows"

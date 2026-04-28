@@ -1,7 +1,7 @@
 ---
 title: "npm Audit Dependency Report Generator"
 description: "Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities) API. Parses npm audit –json results, enriches each CVE with CVSS scores from the NVD REST API, and groups findings by severity. Produces SARIF output compatible with GitHub Advanced Security."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
 category:
   - "CI/CD Integrations"

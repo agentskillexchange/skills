@@ -1,7 +1,7 @@
 ---
 title: "Load-test an HTTP endpoint with a fast reproducible CLI probe using oha"
 description: "Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage."
-verification: "listed"
+verification: listed
 source: "https://github.com/hatoo/oha"
 category:
   - "Runbooks & Diagnostics"

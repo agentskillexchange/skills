@@ -1,7 +1,7 @@
 ---
 title: "Linear Issue Triage & Sprint Planner"
 description: "Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage rules to auto-assign or escalate. Generates sprint plan drafts scored against velocity and team capacity from Linear projectMilestone and workflowState data."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://linear.app/docs"
 category:
   - "Integrations & Connectors"

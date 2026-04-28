@@ -1,7 +1,7 @@
 ---
 title: "Prove whether a prompt or model variant really won before shipping with promptstats"
 description: "Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes."
-verification: "listed"
+verification: listed
 source: "https://github.com/ianarawjo/promptstats"
 category:
   - "Code Quality & Review"

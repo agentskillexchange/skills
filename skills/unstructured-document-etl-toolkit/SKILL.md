@@ -1,7 +1,7 @@
 ---
 title: "Unstructured Document ETL Toolkit"
 description: "Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into structured data. This skill covers how to use the real Unstructured project for partitioning documents, normalizing content, and feeding downstream agent or RAG pipelines."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Unstructured-IO/unstructured"
 category:
   - "Data Extraction & Transformation"

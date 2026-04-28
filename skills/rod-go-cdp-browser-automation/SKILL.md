@@ -1,7 +1,7 @@
 ---
 title: "Rod Go Chrome DevTools Protocol Driver for Web Automation"
 description: "Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It provides thread-safe, chained-context operations with auto-wait, headless browser debugging, and 100% CI test coverage."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/go-rod/rod"
 category:
   - "Browser Automation"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "go-rod/rod"
   github_stars: 6830
+  license: "MIT"
 ---
 
 # Rod Go Chrome DevTools Protocol Driver for Web Automation

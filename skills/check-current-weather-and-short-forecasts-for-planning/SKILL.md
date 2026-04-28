@@ -1,7 +1,7 @@
 ---
 title: "Check current weather and short forecasts for planning"
 description: "This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of sending a user to a weather site. It is narrowly scoped to quick planning questions, not historical analysis, severe-alert monitoring, or a generic weather product listing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/openclaw/openclaw/tree/main/skills/weather"
 category:
   - "Calendar, Email & Productivity"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "openclaw/openclaw"
   github_stars: 356821
+  license: "MIT"
 ---
 
 # Check current weather and short forecasts for planning

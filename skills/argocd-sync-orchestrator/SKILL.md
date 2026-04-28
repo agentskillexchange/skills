@@ -1,7 +1,7 @@
 ---
 title: "ArgoCD Sync Orchestrator"
 description: "Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593
+  license: "Apache-2.0"
 ---
 
 # ArgoCD Sync Orchestrator

@@ -1,7 +1,7 @@
 ---
 title: "Puppeteer Scraping Framework"
 description: "Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
   - "Research & Scraping"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115
+  license: "Apache-2.0"
 ---
 
 # Puppeteer Scraping Framework

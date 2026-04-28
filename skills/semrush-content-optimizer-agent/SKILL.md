@@ -1,7 +1,7 @@
 ---
 title: "SEMrush Content Optimizer Agent"
 description: "Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time readability scoring via Flesch-Kincaid, keyword density analysis, and semantic similarity checks using SEMrush Topic Research endpoints."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
 category:
   - "Content Writing & SEO"

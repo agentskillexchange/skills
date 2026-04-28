@@ -1,7 +1,7 @@
 ---
 title: "Schema.org Structured Data Injector"
 description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://schema.org/"
 category:
   - "Content Writing & SEO"

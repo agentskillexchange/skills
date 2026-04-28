@@ -1,7 +1,7 @@
 ---
 title: "Playwright E2E Test Generator"
 description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
   - "Developer Tools"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 86409
   npm_package: "playwright"
   npm_weekly_downloads: 47883561
+  license: "Apache-2.0"
 ---
 
 # Playwright E2E Test Generator

@@ -1,7 +1,7 @@
 ---
 title: "Diagnose Tailscale and proxy conflicts before remote development stalls out"
 description: "Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need a structured diagnosis."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/daymade/claude-code-skills/blob/main/tunnel-doctor/SKILL.md"
 category:
   - "Runbooks & Diagnostics"

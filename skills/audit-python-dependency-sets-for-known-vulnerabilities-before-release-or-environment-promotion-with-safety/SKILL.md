@@ -1,7 +1,7 @@
 ---
 title: "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety"
 description: "Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows."
-verification: "listed"
+verification: listed
 source: "https://github.com/pyupio/safety"
 category:
   - "Security & Verification"

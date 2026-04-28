@@ -1,7 +1,7 @@
 ---
 title: "ESLint Rule Generator Agent"
 description: "Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors. Integrates with typescript-eslint parser for TypeScript-aware linting."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
   - "Developer Tools"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 27188
   npm_package: "eslint"
   npm_weekly_downloads: 120215107
+  license: "MIT"
 ---
 
 # ESLint Rule Generator Agent

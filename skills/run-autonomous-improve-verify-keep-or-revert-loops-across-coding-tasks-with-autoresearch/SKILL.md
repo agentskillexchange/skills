@@ -1,7 +1,7 @@
 ---
 title: "Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch"
 description: "Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts automatically."
-verification: "listed"
+verification: listed
 source: "https://github.com/uditgoenka/autoresearch"
 category:
   - "Templates & Workflows"

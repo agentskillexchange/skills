@@ -1,7 +1,7 @@
 ---
 title: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
 description: "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship."
-verification: "listed"
+verification: listed
 source: "https://github.com/hadolint/hadolint"
 category:
   - "Security & Verification"

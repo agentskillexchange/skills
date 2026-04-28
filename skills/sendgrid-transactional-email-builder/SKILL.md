@@ -1,7 +1,7 @@
 ---
 title: "SendGrid Transactional Email Builder"
 description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 category:
   - "Integrations & Connectors"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 3049
   npm_package: "@sendgrid/mail"
   npm_weekly_downloads: 3588681
+  license: "MIT"
 ---
 
 # SendGrid Transactional Email Builder

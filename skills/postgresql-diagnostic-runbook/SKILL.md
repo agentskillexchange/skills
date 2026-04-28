@@ -1,7 +1,7 @@
 ---
 title: "PostgreSQL Diagnostic Runbook"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer. Identifies slow queries, lock contention, and bloat via pgstattuple extension."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
   - "Runbooks & Diagnostics"

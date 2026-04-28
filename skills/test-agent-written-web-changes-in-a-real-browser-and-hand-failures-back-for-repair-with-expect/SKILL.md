@@ -1,7 +1,7 @@
 ---
 title: "Test agent-written web changes in a real browser and hand failures back for repair with Expect"
 description: "Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete failures for the coding agent to fix."
-verification: "listed"
+verification: listed
 source: "https://github.com/millionco/expect"
 category:
   - "Browser Automation"

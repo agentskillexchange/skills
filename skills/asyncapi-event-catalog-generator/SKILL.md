@@ -1,7 +1,7 @@
 ---
 title: "AsyncAPI Event Catalog Generator"
 description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.asyncapi.com/"
 category:
   - "Library & API Reference"

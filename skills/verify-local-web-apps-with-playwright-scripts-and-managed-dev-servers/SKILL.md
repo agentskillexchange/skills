@@ -1,7 +1,7 @@
 ---
 title: "Verify local web apps with Playwright scripts and managed dev servers"
 description: "Use Anthropic’s webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against the rendered app. It is for agent-led verification and UI debugging of local web apps, not for listing Playwright as a generic browser framework."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
 category:
   - "Browser Automation"

@@ -1,7 +1,7 @@
 ---
 title: "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI"
 description: "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream."
-verification: "listed"
+verification: listed
 source: "https://github.com/sourcemeta/jsonschema"
 category:
   - "CI/CD Integrations"

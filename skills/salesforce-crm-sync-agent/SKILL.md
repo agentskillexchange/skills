@@ -1,7 +1,7 @@
 ---
 title: "Salesforce CRM Sync Agent"
 description: "Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via connection.query(), bulk upserts through connection.sobject().upsertBulk(), and subscribes to Platform Events using connection.streaming.topic() for real-time data sync."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
 category:
   - "Integrations & Connectors"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 1453
   npm_package: "jsforce"
   npm_weekly_downloads: 936641
+  license: "MIT"
 ---
 
 # Salesforce CRM Sync Agent

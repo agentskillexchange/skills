@@ -1,7 +1,7 @@
 ---
 title: "Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action"
 description: "Use codex-action when an agent operator wants Codex to run inside GitHub Actions for PR review or scheduled repo work with explicit workflow permissions, prompts, and CI boundaries."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/openai/codex-action"
 category:
   - "CI/CD Integrations"

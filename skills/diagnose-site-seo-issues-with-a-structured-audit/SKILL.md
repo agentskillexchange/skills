@@ -1,7 +1,7 @@
 ---
 title: "Diagnose Site SEO Issues with a Structured Audit"
 description: "Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped."
-verification: "listed"
+verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
 category:
   - "Content Writing & SEO"

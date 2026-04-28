@@ -1,7 +1,7 @@
 ---
 title: "Swagger OpenAPI Schema Validator"
 description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/swagger-api/swagger-ui"
 category:
   - "Library & API Reference"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 28751
   npm_package: "swagger-ui"
   npm_weekly_downloads: 149194
+  license: "Apache-2.0"
 ---
 
 # Swagger OpenAPI Schema Validator

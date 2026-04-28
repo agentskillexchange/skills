@@ -1,7 +1,7 @@
 ---
 title: "PHPStan Static Analyzer Agent"
 description: "Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/phpstan/phpstan"
 category:
   - "Code Quality & Review"

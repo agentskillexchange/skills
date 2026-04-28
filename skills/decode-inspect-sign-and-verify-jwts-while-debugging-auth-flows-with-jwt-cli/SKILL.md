@@ -1,7 +1,7 @@
 ---
 title: "Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli"
 description: "Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup."
-verification: "listed"
+verification: listed
 source: "https://github.com/mike-engel/jwt-cli"
 category:
   - "Security & Verification"

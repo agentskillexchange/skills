@@ -1,7 +1,7 @@
 ---
 title: "Stripe Payments Connector"
 description: "Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
   - "Integrations & Connectors"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 4385
   npm_package: "stripe"
   npm_weekly_downloads: 9280426
+  license: "MIT"
 ---
 
 # Stripe Payments Connector

@@ -1,7 +1,7 @@
 ---
 title: "Tekton Pipeline Debugger"
 description: "Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API. Extracts step container logs, identifies parameter resolution errors, and suggests workspace volume fixes."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/tektoncd/pipeline"
 category:
   - "CI/CD Integrations"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936
+  license: "Apache-2.0"
 ---
 
 # Tekton Pipeline Debugger

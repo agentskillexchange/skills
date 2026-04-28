@@ -1,7 +1,7 @@
 ---
 title: "Pin GitHub Actions and reusable workflow refs to immutable SHAs before CI changes merge with pinact"
 description: "Rewrite mutable GitHub Actions refs to commit SHAs so workflow changes do not ship with drifting dependencies."
-verification: "listed"
+verification: listed
 source: "https://github.com/suzuki-shunsuke/pinact"
 category:
   - "CI/CD Integrations"

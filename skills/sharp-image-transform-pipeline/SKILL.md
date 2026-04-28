@@ -1,7 +1,7 @@
 ---
 title: "Sharp Image Transform Pipeline"
 description: "Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains resize, crop, overlay, and format conversion operations with streaming I/O, EXIF metadata preservation, and ICC color profile management."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/lovell/sharp"
 category:
   - "Image & Creative Automation"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 32138
   npm_package: "sharp"
   npm_weekly_downloads: 52472150
+  license: "Apache-2.0"
 ---
 
 # Sharp Image Transform Pipeline

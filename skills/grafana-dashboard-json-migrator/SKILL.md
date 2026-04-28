@@ -1,7 +1,7 @@
 ---
 title: "Grafana Dashboard JSON Migrator"
 description: "Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder structures, and alert rule references for cross-environment promotion."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
   - "Monitoring & Alerts"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187
+  license: "AGPL-3.0"
 ---
 
 # Grafana Dashboard JSON Migrator

@@ -1,7 +1,7 @@
 ---
 title: "Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement"
 description: "Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce retention policy, and react to backup failures across supported engines from one operational workflow."
-verification: "listed"
+verification: listed
 source: "https://github.com/David-Crty/databasement"
 category:
   - "Runbooks & Diagnostics"

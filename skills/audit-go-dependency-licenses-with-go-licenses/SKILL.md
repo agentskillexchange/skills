@@ -1,7 +1,7 @@
 ---
 title: "Audit Go dependency licenses with go-licenses"
 description: "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence."
-verification: "listed"
+verification: listed
 source: "https://github.com/google/go-licenses"
 category:
   - "Security & Verification"

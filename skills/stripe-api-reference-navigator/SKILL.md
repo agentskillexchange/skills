@@ -1,7 +1,7 @@
 ---
 title: "Stripe API Reference Navigator"
 description: "Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent lifecycle, webhook event schemas, and Connect platform payout structures with type-safe parameter validation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category:
   - "Library & API Reference"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 4385
   npm_package: "stripe"
   npm_weekly_downloads: 9280426
+  license: "MIT"
 ---
 
 # Stripe API Reference Navigator

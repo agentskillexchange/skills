@@ -1,7 +1,7 @@
 ---
 title: "Lightpanda Headless Browser for AI Automation"
 description: "Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It delivers 11x faster page rendering and 9x lower memory usage than Chrome while maintaining full CDP compatibility with Playwright, Puppeteer, and chromedp."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/lightpanda-io/browser"
 category:
   - "Browser Automation"

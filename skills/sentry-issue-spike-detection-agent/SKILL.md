@@ -1,7 +1,7 @@
 ---
 title: "Sentry Issue Spike Detection Agent"
 description: "Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/getsentry/sentry"
 category:
   - "Monitoring & Alerts"

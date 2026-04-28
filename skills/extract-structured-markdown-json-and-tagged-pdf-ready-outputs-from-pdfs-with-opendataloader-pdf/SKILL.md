@@ -1,7 +1,7 @@
 ---
 title: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF"
 description: "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done."
-verification: "listed"
+verification: listed
 source: "https://github.com/opendataloader-project/opendataloader-pdf"
 category:
   - "Data Extraction & Transformation"

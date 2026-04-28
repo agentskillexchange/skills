@@ -1,7 +1,7 @@
 ---
 title: "Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow"
 description: "Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or replication packages with specialist-agent review and verification gates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pedrohcgs/claude-code-my-workflow"
 category:
   - "Templates & Workflows"

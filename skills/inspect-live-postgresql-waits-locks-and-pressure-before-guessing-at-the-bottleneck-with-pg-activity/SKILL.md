@@ -1,7 +1,7 @@
 ---
 title: "Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity"
 description: "Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call."
-verification: "listed"
+verification: listed
 source: "https://github.com/dalibo/pg_activity"
 category:
   - "Runbooks & Diagnostics"

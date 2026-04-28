@@ -1,7 +1,7 @@
 ---
 title: "OWASP ZAP Automated Pen Testing Agent"
 description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category:
   - "Security & Verification"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
+  license: "Apache-2.0"
 ---
 
 # OWASP ZAP Automated Pen Testing Agent

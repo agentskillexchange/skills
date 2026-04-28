@@ -1,7 +1,7 @@
 ---
 title: "Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence"
 description: "Pull relevant Notion context, tailor an agenda to attendees and decisions, and assemble a structured pre-read for an upcoming meeting."
-verification: "listed"
+verification: listed
 source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence"
 category:
   - "Calendar, Email & Productivity"

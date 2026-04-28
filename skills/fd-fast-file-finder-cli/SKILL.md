@@ -1,7 +1,7 @@
 ---
 title: "fd Fast File Finder CLI"
 description: "A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and glob support, colorized output, parallel execution, and automatic .gitignore awareness."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sharkdp/fd"
 category:
   - "Developer Tools"

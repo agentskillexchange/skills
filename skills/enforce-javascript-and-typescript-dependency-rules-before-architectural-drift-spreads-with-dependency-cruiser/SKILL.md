@@ -1,7 +1,7 @@
 ---
 title: "Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser"
 description: "Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift."
-verification: "listed"
+verification: listed
 source: "https://github.com/sverweij/dependency-cruiser"
 category:
   - "Code Quality & Review"

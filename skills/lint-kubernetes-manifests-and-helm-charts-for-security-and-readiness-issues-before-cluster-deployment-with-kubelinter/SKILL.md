@@ -1,7 +1,7 @@
 ---
 title: "Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter"
 description: "Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster."
-verification: "listed"
+verification: listed
 source: "https://github.com/stackrox/kube-linter"
 category:
   - "Security & Verification"

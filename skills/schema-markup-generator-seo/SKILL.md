@@ -1,7 +1,7 @@
 ---
 title: "Schema Markup Generator for SEO"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://schema.org/"
 category:
   - "Content Writing & SEO"

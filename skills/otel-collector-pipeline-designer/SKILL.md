@@ -1,7 +1,7 @@
 ---
 title: "OpenTelemetry Collector Pipeline Designer"
 description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/open-telemetry/opentelemetry-collector"
 category:
   - "Monitoring & Alerts"

@@ -1,7 +1,7 @@
 ---
 title: "Puppeteer Stealth Scraper"
 description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
   - "Browser Automation"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 94115
   npm_package: "puppeteer"
   npm_weekly_downloads: 36435448
+  license: "Apache-2.0"
 ---
 
 # Puppeteer Stealth Scraper

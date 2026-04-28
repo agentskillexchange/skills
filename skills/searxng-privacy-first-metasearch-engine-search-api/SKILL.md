@@ -1,7 +1,7 @@
 ---
 title: "SearXNG Privacy-First Metasearch Engine and Search API"
 description: "SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking users. It fits research and scraping workflows that need self-hosted search, configurable engines, and a documented admin surface for search aggregation and result control."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/searxng/searxng"
 category:
   - "Research & Scraping"
@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "searxng/searxng"
   github_stars: 28324
+  license: "AGPL-3.0"
 ---
 
 # SearXNG Privacy-First Metasearch Engine and Search API

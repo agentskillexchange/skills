@@ -1,7 +1,7 @@
 ---
 title: "Agent Browser Operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
   - "Browser Automation"
@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 87409
+  license: "Apache-2.0"
 ---
 
 # Agent Browser Operator

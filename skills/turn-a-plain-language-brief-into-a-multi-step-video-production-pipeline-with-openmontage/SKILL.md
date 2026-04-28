@@ -1,7 +1,7 @@
 ---
 title: "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage"
 description: "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline as one production workflow instead of treating each media tool as a separate manual step."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/calesthio/OpenMontage"
 category:
   - "Image & Creative Automation"

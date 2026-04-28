@@ -1,7 +1,7 @@
 ---
 title: "Casdoor Open Source Identity and Access Management Platform"
 description: "Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, and MCP gateway integration with a web-based admin UI."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/casdoor/casdoor"
 category:
   - "Security & Verification"

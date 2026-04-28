@@ -1,7 +1,7 @@
 ---
 title: "Triage production log spikes and incidents from the terminal with lnav"
 description: "Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data to a separate platform."
-verification: "listed"
+verification: listed
 source: "https://github.com/tstack/lnav"
 category:
   - "Runbooks & Diagnostics"

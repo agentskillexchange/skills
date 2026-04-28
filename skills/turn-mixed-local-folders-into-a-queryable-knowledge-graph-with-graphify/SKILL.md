@@ -1,7 +1,7 @@
 ---
 title: "Turn mixed local folders into a queryable knowledge graph with Graphify"
 description: "Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text."
-verification: "listed"
+verification: listed
 source: "https://github.com/safishamsi/graphify"
 category:
   - "Data Extraction & Transformation"

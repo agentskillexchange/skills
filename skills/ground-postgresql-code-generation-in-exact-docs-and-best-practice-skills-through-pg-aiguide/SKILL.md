@@ -1,7 +1,7 @@
 ---
 title: "Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide"
 description: "Give coding agents a PostgreSQL-specific reference layer with semantic doc search and curated schema, indexing, and constraint guidance before they generate database code."
-verification: "listed"
+verification: listed
 source: "https://github.com/timescale/pg-aiguide"
 category:
   - "Library & API Reference"

@@ -1,7 +1,7 @@
 ---
 title: "Query and rewrite Markdown structure with mdq"
 description: "Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits."
-verification: "listed"
+verification: listed
 source: "https://github.com/yshavit/mdq"
 category:
   - "Data Extraction & Transformation"

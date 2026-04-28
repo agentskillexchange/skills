@@ -1,7 +1,7 @@
 ---
 title: "Playwright Test Generator with Codegen"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
   - "Research & Scraping"
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 86409
   npm_package: "playwright"
   npm_weekly_downloads: 47883561
+  license: "Apache-2.0"
 ---
 
 # Playwright Test Generator with Codegen

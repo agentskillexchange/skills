@@ -1,7 +1,7 @@
 ---
 title: "Cookiecutter Project Scaffolder"
 description: "Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation with JSON Schema."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
   - "Templates & Workflows"
