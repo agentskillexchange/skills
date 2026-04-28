@@ -11,7 +11,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
-  github_stars: 148
+  github_stars: 154
   license: "MIT"
 ---
 

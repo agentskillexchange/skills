@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
-  github_stars: 76590
+  github_stars: 76598
 ---
 
 # Elastic / Kibana MCP Server

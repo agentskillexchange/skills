@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "grafana/grafana"
-  github_stars: 73452
+  github_stars: 73468
   license: "AGPL-3.0"
 ---
 

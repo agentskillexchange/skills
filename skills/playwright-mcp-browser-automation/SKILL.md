@@ -12,7 +12,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
-  github_stars: 31477
+  github_stars: 31540
   npm_package: "@playwright/mcp"
   npm_weekly_downloads: 1632140
   license: "Apache-2.0"

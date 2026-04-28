@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
-  github_stars: 5590
+  github_stars: 5591
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1212617
   license: "MIT"

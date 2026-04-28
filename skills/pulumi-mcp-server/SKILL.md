@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
-  github_stars: 25107
+  github_stars: 25114
   license: "Apache-2.0"
 ---
 

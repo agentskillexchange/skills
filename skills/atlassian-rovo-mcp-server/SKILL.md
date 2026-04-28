@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
-  github_stars: 624
+  github_stars: 627
   license: "Apache-2.0"
 ---
 

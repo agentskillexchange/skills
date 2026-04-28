@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
-  github_stars: 953
+  github_stars: 959
   license: "AGPL-3.0"
 ---
 

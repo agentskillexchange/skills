@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
-  github_stars: 98474
+  github_stars: 98538
   license: "MIT"
 ---
 

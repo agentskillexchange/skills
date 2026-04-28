@@ -10,7 +10,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
-  github_stars: 87409
+  github_stars: 87490
   license: "Apache-2.0"
 ---
 

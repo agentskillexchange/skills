@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
-  github_stars: 2261
+  github_stars: 2266
   license: "Apache-2.0"
 ---
 
