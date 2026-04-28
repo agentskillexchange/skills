@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "microsoft/skills"
-  github_stars: 2103
 ---
 
 # Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator

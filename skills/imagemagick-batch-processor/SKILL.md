@@ -7,6 +7,9 @@ category:
   - "Image & Creative Automation"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "imagemagick/imagemagick"
+  github_stars: 16152
 ---
 
 # ImageMagick Batch Processor

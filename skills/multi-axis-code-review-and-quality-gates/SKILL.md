@@ -7,9 +7,6 @@ category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "addyosmani/agent-skills"
-  github_stars: 17417
 ---
 
 # Multi-Axis Code Review and Quality Gates

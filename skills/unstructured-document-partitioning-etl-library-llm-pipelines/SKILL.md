@@ -7,6 +7,10 @@ category:
   - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "unstructured-io/unstructured"
+  github_stars: 14390
+  license: "Apache-2.0"
 ---
 
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines

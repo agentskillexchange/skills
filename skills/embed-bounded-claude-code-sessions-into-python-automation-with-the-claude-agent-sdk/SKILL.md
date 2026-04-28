@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "anthropics/claude-agent-sdk-python"
   github_stars: 6390
-  npm_package: "claude-agent-sdk"
   license: "MIT"
 ---
 

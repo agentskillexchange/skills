@@ -7,6 +7,10 @@ category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "the-pr-agent/pr-agent"
+  github_stars: 10915
+  license: "AGPL-3.0"
 ---
 
 # Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent

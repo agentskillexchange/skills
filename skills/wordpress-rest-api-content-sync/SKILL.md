@@ -7,6 +7,9 @@ category:
   - "WordPress & CMS"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "wordpress/wordpress"
+  github_stars: 21027
 ---
 
 # WordPress REST API Content Sync

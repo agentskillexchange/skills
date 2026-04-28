@@ -7,6 +7,12 @@ category:
   - "Integrations & Connectors"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "hubspot/hubspot-api-nodejs"
+  github_stars: 392
+  npm_package: "@hubspot/api-client"
+  npm_weekly_downloads: 1044960
+  license: "Apache-2.0"
 ---
 
 # HubSpot MCP Server

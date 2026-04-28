@@ -7,6 +7,10 @@ category:
   - "Media & Transcription"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "libaudioflux/audioflux"
+  github_stars: 3290
+  license: "MIT"
 ---
 
 # audioFlux Audio and Music Analysis Feature Extraction Library

@@ -7,6 +7,10 @@ category:
   - "Security & Verification"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "giskard-ai/giskard-oss"
+  github_stars: 5261
+  license: "Apache-2.0"
 ---
 
 # Probe ML and LLM systems for regressions and vulnerabilities with Giskard

@@ -7,9 +7,6 @@ category:
   - "Templates & Workflows"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "wshobson/agents"
-  github_stars: 34018
 ---
 
 # Run context → spec → implement coding loops in Claude Code with Conductor

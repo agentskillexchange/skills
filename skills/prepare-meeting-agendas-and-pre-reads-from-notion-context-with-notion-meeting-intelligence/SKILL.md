@@ -7,9 +7,6 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Codex"
-tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 
 # Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence

@@ -7,9 +7,6 @@ category:
   - "Templates & Workflows"
 framework:
   - "Claude Agents"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116154
 ---
 
 # Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui

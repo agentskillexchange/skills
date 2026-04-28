@@ -7,6 +7,10 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "openapitools/openapi-generator"
+  github_stars: 26127
+  license: "Apache-2.0"
 ---
 
 # API Client Generator Skill

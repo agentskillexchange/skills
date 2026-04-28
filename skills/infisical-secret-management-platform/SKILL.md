@@ -7,6 +7,9 @@ category:
   - "Security & Verification"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "infisical/infisical"
+  github_stars: 25635
 ---
 
 # Infisical Open-Source Secret Management Platform

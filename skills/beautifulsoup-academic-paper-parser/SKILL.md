@@ -7,6 +7,8 @@ category:
   - "Research & Scraping"
 framework:
   - "MCP"
+tool_ecosystem:
+  license: "MIT License"
 ---
 
 # Beautiful Soup Academic Paper Parser

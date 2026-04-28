@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "keats/tera"
+  github_stars: 4183
 ---
 
 # Tera Jinja2-Inspired Template Engine for Rust

@@ -7,6 +7,10 @@ category:
   - "Code Quality & Review"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
+  license: "LGPL-3.0"
 ---
 
 # SonarQube Code Quality Scanner

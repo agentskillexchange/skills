@@ -13,6 +13,9 @@ category:
   - "Media & Transcription"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "ffmpeg/ffmpeg"
+  github_stars: 59347
 ---
 
 # Video Frames Extractor

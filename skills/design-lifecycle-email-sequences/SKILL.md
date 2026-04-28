@@ -7,9 +7,6 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "coreyhaines31/marketingskills"
-  github_stars: 21914
 ---
 
 # Design Lifecycle Email Sequences

@@ -8,8 +8,6 @@ category:
 framework:
   - "OpenClaw"
 tool_ecosystem:
-  github_repo: "openclaw/openclaw"
-  github_stars: 356821
   license: "MIT"
 ---
 

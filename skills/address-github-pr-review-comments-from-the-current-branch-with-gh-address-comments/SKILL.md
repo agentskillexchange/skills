@@ -7,9 +7,6 @@ category:
   - "Code Quality & Review"
 framework:
   - "Codex"
-tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 
 # Address GitHub PR review comments from the current branch with gh-address-comments

@@ -7,6 +7,10 @@ category:
   - "Media & Transcription"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "chocobozzz/peertube"
+  github_stars: 14638
+  license: "AGPL-3.0"
 ---
 
 # PeerTube Video Publishing and Moderation API

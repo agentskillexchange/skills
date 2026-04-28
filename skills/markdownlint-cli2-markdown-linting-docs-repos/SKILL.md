@@ -7,6 +7,12 @@ category:
   - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "davidanson/markdownlint-cli2"
+  github_stars: 740
+  npm_package: "markdownlint-cli2"
+  npm_weekly_downloads: 522496
+  license: "MIT"
 ---
 
 # markdownlint-cli2 Markdown Linting for Docs and Repos

@@ -7,6 +7,10 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "gothenburgbitfactory/taskwarrior"
+  github_stars: 5685
+  license: "MIT"
 ---
 
 # Taskwarrior Command-Line Task Management System
