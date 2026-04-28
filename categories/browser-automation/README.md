@@ -54,7 +54,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | — |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 87.4k | — |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 87.5k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | 86.4k | 47.9M/wk |
