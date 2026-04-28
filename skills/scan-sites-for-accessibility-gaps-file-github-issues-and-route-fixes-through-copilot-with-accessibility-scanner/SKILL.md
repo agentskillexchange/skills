@@ -1,17 +1,14 @@
 ---
-title: Scan sites for accessibility gaps, file GitHub issues, and route fixes through
-  Copilot with Accessibility Scanner
-description: Run accessibility scans against target URLs, open trackable issues, and
-  optionally hand remediation suggestions to Copilot instead of treating accessibility
-  review as a manual audit chore.
+title: "Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner"
+description: "Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual audit chore."
 verification: listed
-source: https://github.com/github/accessibility-scanner
+source: "https://github.com/github/accessibility-scanner"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: github/accessibility-scanner
+  github_repo: "github/accessibility-scanner"
   github_stars: 266
 ---
 

@@ -1,18 +1,17 @@
 ---
-title: Embed bounded Claude Code sessions into Python automation with the Claude Agent
-  SDK
-description: Use the Claude Agent SDK for Python when an existing script or service
-  needs to delegate scoped repo work to Claude Code and consume structured responses
-  programmatically.
+title: "Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK"
+description: "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume structured responses programmatically."
 verification: security_reviewed
-source: https://github.com/anthropics/claude-agent-sdk-python
+source: "https://github.com/anthropics/claude-agent-sdk-python"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: anthropics/claude-agent-sdk-python
+  github_repo: "anthropics/claude-agent-sdk-python"
   github_stars: 6390
+  npm_package: "claude-agent-sdk"
+  license: "MIT"
 ---
 
 # Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK

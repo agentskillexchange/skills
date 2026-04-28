@@ -1,17 +1,14 @@
 ---
-title: Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents
-  with Fabric RTI MCP
-description: Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft
-  Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator,
-  and Map instead of sending the user back to the Fabric UI or wiring custom SDK glue.
+title: "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP"
+description: "Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead of sending the user back to the Fabric UI or wiring custom SDK glue."
 verification: security_reviewed
-source: https://github.com/microsoft/fabric-rti-mcp
+source: "https://github.com/microsoft/fabric-rti-mcp"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: microsoft/fabric-rti-mcp
+  github_repo: "microsoft/fabric-rti-mcp"
   github_stars: 111
 ---
 

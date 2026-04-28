@@ -1,19 +1,16 @@
 ---
-title: Yeoman Enterprise Generator Suite
-description: Manages Yeoman generators for enterprise application scaffolding with
-  custom sub-generators. Handles Angular module generation via generator-angular,
-  Express API scaffolding, and composite generators with shared prompting and conflict
-  resolution.
+title: "Yeoman Enterprise Generator Suite"
+description: "Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution."
 verification: security_reviewed
-source: https://github.com/yeoman/yo
+source: "https://github.com/yeoman/yo"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: yeoman/yo
+  github_repo: "yeoman/yo"
   github_stars: 3956
-  npm_package: yo
+  npm_package: "yo"
   npm_weekly_downloads: 428357
 ---
 

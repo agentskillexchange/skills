@@ -1,16 +1,14 @@
 ---
-title: Turn notes, logs, and screenshots into structured GitHub issues with GitHub
-  Issue Creator
-description: Convert messy bug notes, error logs, voice dictation, and screenshots
-  into crisp GitHub issue reports with clear repro steps, impact, and evidence.
+title: "Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator"
+description: "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence."
 verification: listed
-source: https://github.com/microsoft/skills/tree/main/.github/skills/github-issue-creator
+source: "https://github.com/microsoft/skills/tree/main/.github/skills/github-issue-creator"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: microsoft/skills
+  github_repo: "microsoft/skills"
   github_stars: 2103
 ---
 

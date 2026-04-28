@@ -1,15 +1,14 @@
 ---
-title: Catch common misspellings in code and docs before review churn with codespell
-description: Run a fast typo pass across source files and documentation so common
-  misspellings are fixed before they spread through reviews and releases.
+title: "Catch common misspellings in code and docs before review churn with codespell"
+description: "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases."
 verification: security_reviewed
-source: https://github.com/codespell-project/codespell
+source: "https://github.com/codespell-project/codespell"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: codespell-project/codespell
+  github_repo: "codespell-project/codespell"
   github_stars: 2356
 ---
 

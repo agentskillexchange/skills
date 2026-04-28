@@ -1,18 +1,18 @@
 ---
-title: Cypress Component Test Generator
-description: Auto-generates Cypress component tests from React and Vue source files
-  using AST parsing. Produces mount, interaction, and accessibility test cases.
+title: "Cypress Component Test Generator"
+description: "Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases."
 verification: security_reviewed
-source: https://github.com/cypress-io/cypress
+source: "https://github.com/cypress-io/cypress"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: cypress-io/cypress
+  github_repo: "cypress-io/cypress"
   github_stars: 49617
-  npm_package: cypress
+  npm_package: "cypress"
   npm_weekly_downloads: 7268478
+  license: "MIT"
 ---
 
 # Cypress Component Test Generator

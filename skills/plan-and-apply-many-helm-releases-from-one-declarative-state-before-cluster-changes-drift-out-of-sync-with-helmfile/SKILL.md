@@ -1,16 +1,14 @@
 ---
-title: Plan and apply many Helm releases from one declarative state before cluster
-  changes drift out of sync with Helmfile
-description: Keep multi-chart Kubernetes environments coherent by diffing and syncing
-  all declared Helm releases from one state file.
+title: "Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile"
+description: "Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file."
 verification: listed
-source: https://github.com/helmfile/helmfile
+source: "https://github.com/helmfile/helmfile"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: helmfile/helmfile
+  github_repo: "helmfile/helmfile"
   github_stars: 5058
 ---
 

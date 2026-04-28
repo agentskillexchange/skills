@@ -1,14 +1,12 @@
 ---
-title: PyPI Package Inspector
-description: Queries the PyPI JSON API and the libraries.io API to analyze Python
-  package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability
-  scanning against the OSV database.
+title: "PyPI Package Inspector"
+description: "Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database."
 verification: security_reviewed
-source: https://pypi.org/
+source: "https://pypi.org/"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Gemini
+  - "Gemini"
 ---
 
 # PyPI Package Inspector

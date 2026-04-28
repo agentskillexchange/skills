@@ -1,19 +1,18 @@
 ---
-title: Slack Channel Summarizer
-description: Generates channel summaries using Slack Bolt SDK with conversations.history
-  and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive
-  summarization and delivers digests via Slack Block Kit interactive messages.
+title: "Slack Channel Summarizer"
+description: "Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack Block Kit interactive messages."
 verification: security_reviewed
-source: https://github.com/slackapi/bolt-js
+source: "https://github.com/slackapi/bolt-js"
 category:
-- Calendar, Email & Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: slackapi/bolt-js
+  github_repo: "slackapi/bolt-js"
   github_stars: 2900
-  npm_package: '@slack/bolt'
+  npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
+  license: "MIT"
 ---
 
 # Slack Channel Summarizer

@@ -1,15 +1,14 @@
 ---
-title: Monitor coding-agent token spend with Splitrail
-description: Track token burn, spend, and model mix across multiple coding-agent tools
-  from one local monitoring workflow.
+title: "Monitor coding-agent token spend with Splitrail"
+description: "Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow."
 verification: listed
-source: https://github.com/Piebald-AI/splitrail
+source: "https://github.com/Piebald-AI/splitrail"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: Piebald-AI/splitrail
+  github_repo: "Piebald-AI/splitrail"
   github_stars: 159
 ---
 

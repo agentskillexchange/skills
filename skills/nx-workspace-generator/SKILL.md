@@ -1,16 +1,14 @@
 ---
-title: Nx Workspace Generator
-description: Creates and manages Nx monorepo workspace generators using @nx/devkit
-  and the Nx plugin API. Generates libraries, applications, and custom executors with
-  automatic dependency graph updates via nx graph.
+title: "Nx Workspace Generator"
+description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
 verification: security_reviewed
-source: https://github.com/nrwl/nx
+source: "https://github.com/nrwl/nx"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: nrwl/nx
+  github_repo: "nrwl/nx"
   github_stars: 28562
 ---
 

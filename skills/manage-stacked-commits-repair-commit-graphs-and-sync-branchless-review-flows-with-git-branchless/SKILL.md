@@ -1,16 +1,14 @@
 ---
-title: Manage stacked commits, repair commit graphs, and sync branchless review flows
-  with git-branchless
-description: Use smartlog, restack, undo, and sync commands to keep stacked commit
-  workflows reviewable without juggling throwaway branches.
+title: "Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless"
+description: "Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches."
 verification: listed
-source: https://github.com/arxanas/git-branchless
+source: "https://github.com/arxanas/git-branchless"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: arxanas/git-branchless
+  github_repo: "arxanas/git-branchless"
   github_stars: 4045
 ---
 

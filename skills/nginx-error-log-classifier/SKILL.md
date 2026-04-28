@@ -1,17 +1,16 @@
 ---
-title: Nginx Error Log Classifier
-description: Classifies and prioritizes Nginx error log entries using pattern matching
-  against known error signatures and the GoAccess real-time log analyzer. Maps upstream
-  timeout patterns to specific backend service degradation.
+title: "Nginx Error Log Classifier"
+description: "Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation."
 verification: security_reviewed
-source: https://github.com/nginx/nginx
+source: "https://github.com/nginx/nginx"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Cursor
+  - "Cursor"
 tool_ecosystem:
-  github_repo: nginx/nginx
+  github_repo: "nginx/nginx"
   github_stars: 29930
+  license: "BSD-2-Clause"
 ---
 
 # Nginx Error Log Classifier

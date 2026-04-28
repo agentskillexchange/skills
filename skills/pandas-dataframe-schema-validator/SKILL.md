@@ -1,17 +1,16 @@
 ---
-title: Pandas DataFrame Schema Validator
-description: Validates Pandas DataFrame structures using the pandera library API and
-  pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and
-  custom check functions via pandera.Check.
+title: "Pandas DataFrame Schema Validator"
+description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
 verification: security_reviewed
-source: https://github.com/pandas-dev/pandas
+source: "https://github.com/pandas-dev/pandas"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: pandas-dev/pandas
+  github_repo: "pandas-dev/pandas"
   github_stars: 48498
+  license: "BSD-3-Clause"
 ---
 
 # Pandas DataFrame Schema Validator

@@ -1,20 +1,18 @@
 ---
-title: Twilio SMS & Voice Bridge
-description: Connects to Twilio REST API via the twilio-node SDK for programmable
-  messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using
-  TwiML VoiceResponse, and processes delivery webhooks for message status tracking
-  and conversation threading.
+title: "Twilio SMS & Voice Bridge"
+description: "Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using TwiML VoiceResponse, and processes delivery webhooks for message status tracking and conversation threading."
 verification: security_reviewed
-source: https://github.com/twilio/twilio-node
+source: "https://github.com/twilio/twilio-node"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: twilio/twilio-node
+  github_repo: "twilio/twilio-node"
   github_stars: 1528
-  npm_package: twilio
+  npm_package: "twilio"
   npm_weekly_downloads: 3731324
+  license: "MIT"
 ---
 
 # Twilio SMS & Voice Bridge

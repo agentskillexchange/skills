@@ -1,16 +1,14 @@
 ---
-title: Run React Native implementation and troubleshooting workflows with Callstack
-  Agent Skills
-description: Give coding agents React Native-specific build, upgrade, GitHub Actions,
-  and troubleshooting guidance instead of treating mobile work like generic web development.
+title: "Run React Native implementation and troubleshooting workflows with Callstack Agent Skills"
+description: "Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development."
 verification: listed
-source: https://github.com/callstackincubator/agent-skills
+source: "https://github.com/callstackincubator/agent-skills"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: callstackincubator/agent-skills
+  github_repo: "callstackincubator/agent-skills"
   github_stars: 1252
 ---
 

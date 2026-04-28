@@ -1,19 +1,16 @@
 ---
-title: Anthropic SDK Token Usage Logger
-description: Instruments Anthropic API calls to log token usage, latency, and cost
-  per request using the Anthropic TypeScript SDK. Wraps the anthropic.messages.create
-  method to capture usage.input_tokens, usage.output_tokens, and timing from the API
-  response. Writes structured logs to CloudWatch Logs via the AWS SDK v3 CloudWatchLogsClient.
+title: "Anthropic SDK Token Usage Logger"
+description: "Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript SDK. Wraps the anthropic.messages.create method to capture usage.input_tokens, usage.output_tokens, and timing from the API response. Writes structured logs to CloudWatch Logs via the AWS SDK v3 CloudWatchLogsClient."
 verification: security_reviewed
-source: https://github.com/anthropics/anthropic-sdk-typescript
+source: "https://github.com/anthropics/anthropic-sdk-typescript"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: anthropics/anthropic-sdk-typescript
+  github_repo: "anthropics/anthropic-sdk-typescript"
   github_stars: 1883
-  npm_package: '@anthropic-ai/sdk'
+  npm_package: "@anthropic-ai/sdk"
   npm_weekly_downloads: 14518427
 ---
 

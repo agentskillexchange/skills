@@ -1,17 +1,16 @@
 ---
-title: Tekton Pipeline Resource Optimizer
-description: Analyzes Tekton Pipeline and Task resource definitions using the Tekton
-  Results API. Recommends CPU/memory request adjustments based on historical TaskRun
-  metrics from Prometheus.
+title: "Tekton Pipeline Resource Optimizer"
+description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
 verification: security_reviewed
-source: https://github.com/tektoncd/pipeline
+source: "https://github.com/tektoncd/pipeline"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Cursor
+  - "Cursor"
 tool_ecosystem:
-  github_repo: tektoncd/pipeline
+  github_repo: "tektoncd/pipeline"
   github_stars: 8936
+  license: "Apache-2.0"
 ---
 
 # Tekton Pipeline Resource Optimizer

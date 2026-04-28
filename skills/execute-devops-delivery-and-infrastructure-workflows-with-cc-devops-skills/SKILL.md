@@ -1,15 +1,14 @@
 ---
-title: Execute DevOps delivery and infrastructure workflows with cc-devops-skills
-description: Use generator and validator loops for infra, CI, and platform work so
-  agents ship operational changes with more checks and less improvisation.
+title: "Execute DevOps delivery and infrastructure workflows with cc-devops-skills"
+description: "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation."
 verification: listed
-source: https://github.com/akin-ozer/cc-devops-skills
+source: "https://github.com/akin-ozer/cc-devops-skills"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: akin-ozer/cc-devops-skills
+  github_repo: "akin-ozer/cc-devops-skills"
   github_stars: 182
 ---
 

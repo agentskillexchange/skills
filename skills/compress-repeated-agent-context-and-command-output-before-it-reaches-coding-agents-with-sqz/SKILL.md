@@ -1,17 +1,14 @@
 ---
-title: Compress repeated agent context and command output before it reaches coding
-  agents with sqz
-description: Reduces token burn by compressing command output and deduplicating repeated
-  file reads before they are sent to Claude Code, Codex, Cursor, and related coding-agent
-  tools.
+title: "Compress repeated agent context and command output before it reaches coding agents with sqz"
+description: "Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to Claude Code, Codex, Cursor, and related coding-agent tools."
 verification: security_reviewed
-source: https://github.com/ojuschugh1/sqz
+source: "https://github.com/ojuschugh1/sqz"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ojuschugh1/sqz
+  github_repo: "ojuschugh1/sqz"
   github_stars: 165
 ---
 

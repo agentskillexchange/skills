@@ -1,14 +1,12 @@
 ---
-title: WP-CLI Site Migration Automator
-description: Automates full WordPress site migrations using WP-CLI search-replace,
-  wp db export, and rsync. Handles serialized data, multisite network moves, and DNS
-  preflight checks via dig and curl health probes.
+title: "WP-CLI Site Migration Automator"
+description: "Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized data, multisite network moves, and DNS preflight checks via dig and curl health probes."
 verification: security_reviewed
-source: https://wp-cli.org/
+source: "https://wp-cli.org/"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Codex
+  - "Codex"
 ---
 
 # WP-CLI Site Migration Automator

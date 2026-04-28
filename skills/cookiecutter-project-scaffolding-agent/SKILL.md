@@ -1,16 +1,14 @@
 ---
-title: Cookiecutter Project Scaffolding Agent
-description: Generates project boilerplate from Cookiecutter templates with interactive
-  variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template
-  composition from multiple cookiecutter.json sources for complex monorepo scaffolding.
+title: "Cookiecutter Project Scaffolding Agent"
+description: "Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding."
 verification: security_reviewed
-source: https://github.com/cookiecutter/cookiecutter
+source: "https://github.com/cookiecutter/cookiecutter"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: cookiecutter/cookiecutter
+  github_repo: "cookiecutter/cookiecutter"
   github_stars: 24818
 ---
 

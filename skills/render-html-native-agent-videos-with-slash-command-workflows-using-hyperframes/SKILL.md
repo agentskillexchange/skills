@@ -1,17 +1,16 @@
 ---
-title: Render HTML-native agent videos with slash-command workflows using HyperFrames
-description: Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo
-  context into editable HTML video compositions and rendered MP4 outputs.
+title: "Render HTML-native agent videos with slash-command workflows using HyperFrames"
+description: "Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs."
 verification: listed
-source: https://github.com/heygen-com/hyperframes
+source: "https://github.com/heygen-com/hyperframes"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: heygen-com/hyperframes
+  github_repo: "heygen-com/hyperframes"
   github_stars: 9510
-  npm_package: hyperframes
+  npm_package: "hyperframes"
   npm_weekly_downloads: 28006
 ---
 

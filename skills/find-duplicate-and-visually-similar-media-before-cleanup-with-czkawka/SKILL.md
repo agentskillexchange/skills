@@ -1,15 +1,14 @@
 ---
-title: Find duplicate and visually similar media before cleanup with Czkawka
-description: Scan local archives for duplicate files, similar images, similar videos,
-  empties, and related cleanup targets before deleting or reorganizing them.
+title: "Find duplicate and visually similar media before cleanup with Czkawka"
+description: "Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them."
 verification: listed
-source: https://github.com/qarmin/czkawka
+source: "https://github.com/qarmin/czkawka"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: qarmin/czkawka
+  github_repo: "qarmin/czkawka"
   github_stars: 30600
 ---
 

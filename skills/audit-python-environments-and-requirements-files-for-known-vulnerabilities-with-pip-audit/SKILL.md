@@ -1,16 +1,14 @@
 ---
-title: Audit Python environments and requirements files for known vulnerabilities
-  with pip-audit
-description: Check Python environments and requirements files for published vulnerabilities
-  before shipping, upgrading, or approving dependency changes.
+title: "Audit Python environments and requirements files for known vulnerabilities with pip-audit"
+description: "Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or approving dependency changes."
 verification: listed
-source: https://github.com/pypa/pip-audit
+source: "https://github.com/pypa/pip-audit"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pypa/pip-audit
+  github_repo: "pypa/pip-audit"
   github_stars: 1260
 ---
 

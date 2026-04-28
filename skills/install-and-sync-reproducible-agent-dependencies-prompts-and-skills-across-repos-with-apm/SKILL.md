@@ -1,18 +1,16 @@
 ---
-title: Install and sync reproducible agent dependencies, prompts, and skills across
-  repos with APM
-description: Use one manifest to reproduce agent setup across repositories so skills,
-  prompts, plugins, and config stop drifting from machine to machine.
+title: "Install and sync reproducible agent dependencies, prompts, and skills across repos with APM"
+description: "Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine."
 verification: listed
-source: https://github.com/microsoft/apm
+source: "https://github.com/microsoft/apm"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: microsoft/apm
+  github_repo: "microsoft/apm"
   github_stars: 1934
-  npm_package: apm-cli
+  npm_package: "apm-cli"
   npm_weekly_downloads: 5075
 ---
 

@@ -1,17 +1,14 @@
 ---
-title: Inspect the real Claude Code system, tool, and subagent prompts before designing
-  compatible extensions with claude-code-system-prompts
-description: Use claude-code-system-prompts when you need the current extracted Claude
-  Code system prompts, built-in tool prompts, or subagent prompts before building
-  a compatible plugin, workflow, or prompt customization.
+title: "Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts"
+description: "Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool prompts, or subagent prompts before building a compatible plugin, workflow, or prompt customization."
 verification: security_reviewed
-source: https://github.com/Piebald-AI/claude-code-system-prompts
+source: "https://github.com/Piebald-AI/claude-code-system-prompts"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: Piebald-AI/claude-code-system-prompts
+  github_repo: "Piebald-AI/claude-code-system-prompts"
   github_stars: 8974
 ---
 

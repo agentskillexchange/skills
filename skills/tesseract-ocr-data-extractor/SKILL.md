@@ -1,16 +1,14 @@
 ---
-title: Tesseract OCR Data Extractor
-description: Extracts structured data from scanned documents using Tesseract OCR engine
-  with LSTM models. Supports table detection via OpenCV contour analysis and outputs
-  to CSV, JSON, or Pandas DataFrames.
+title: "Tesseract OCR Data Extractor"
+description: "Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table detection via OpenCV contour analysis and outputs to CSV, JSON, or Pandas DataFrames."
 verification: security_reviewed
-source: https://github.com/tesseract-ocr/tesseract
+source: "https://github.com/tesseract-ocr/tesseract"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Gemini
+  - "Gemini"
 tool_ecosystem:
-  github_repo: tesseract-ocr/tesseract
+  github_repo: "tesseract-ocr/tesseract"
   github_stars: 73629
 ---
 

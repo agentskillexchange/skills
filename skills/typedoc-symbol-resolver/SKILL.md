@@ -1,18 +1,16 @@
 ---
-title: TypeDoc Symbol Resolver
-description: Resolves TypeScript symbols and generates API documentation using the
-  TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference
-  pages with declaration merging support and module augmentation tracking.
+title: "TypeDoc Symbol Resolver"
+description: "Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference pages with declaration merging support and module augmentation tracking."
 verification: security_reviewed
-source: https://github.com/TypeStrong/typedoc
+source: "https://github.com/TypeStrong/typedoc"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Claude Agents
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: TypeStrong/typedoc
+  github_repo: "TypeStrong/typedoc"
   github_stars: 8391
-  npm_package: typedoc
+  npm_package: "typedoc"
   npm_weekly_downloads: 4062205
 ---
 

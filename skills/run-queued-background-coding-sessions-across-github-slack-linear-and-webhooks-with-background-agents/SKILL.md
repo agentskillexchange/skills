@@ -1,17 +1,14 @@
 ---
-title: Run queued background coding sessions across GitHub, Slack, Linear, and webhooks
-  with background-agents
-description: Dispatch long-running coding work to background agents, check progress
-  later, and pull reviewed outputs back into the main repo flow instead of babysitting
-  one foreground session.
+title: "Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents"
+description: "Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into the main repo flow instead of babysitting one foreground session."
 verification: security_reviewed
-source: https://github.com/ColeMurray/background-agents
+source: "https://github.com/ColeMurray/background-agents"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: ColeMurray/background-agents
+  github_repo: "ColeMurray/background-agents"
   github_stars: 1591
 ---
 

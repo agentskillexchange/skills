@@ -1,15 +1,14 @@
 ---
-title: Run research and scientific analysis workflows with Scientific Agent Skills
-description: Give an agent curated scientific workflows, databases, and domain-specific
-  guidance when general prompting is not reliable enough for research-heavy work.
+title: "Run research and scientific analysis workflows with Scientific Agent Skills"
+description: "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work."
 verification: listed
-source: https://github.com/K-Dense-AI/scientific-agent-skills
+source: "https://github.com/K-Dense-AI/scientific-agent-skills"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: K-Dense-AI/scientific-agent-skills
+  github_repo: "K-Dense-AI/scientific-agent-skills"
   github_stars: 18797
 ---
 

@@ -1,16 +1,14 @@
 ---
-title: Yeoman Scaffold Runner
-description: Executes Yeoman generators via the yo CLI and yeoman-environment API
-  to scaffold applications, components, and microservices. Manages generator discovery
-  through the npm registry and supports sub-generator composition.
+title: "Yeoman Scaffold Runner"
+description: "Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition."
 verification: security_reviewed
-source: https://github.com/yeoman/yeoman
+source: "https://github.com/yeoman/yeoman"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: yeoman/yeoman
+  github_repo: "yeoman/yeoman"
   github_stars: 10120
 ---
 

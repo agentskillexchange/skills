@@ -1,17 +1,14 @@
 ---
-title: Turn feature ideas into executable implementation specs and task plans with
-  Spec Kit
-description: Use Spec Kit when an agent should turn a feature idea into a spec-first
-  workflow with explicit artifacts, planning steps, and task breakdowns before code
-  is written.
+title: "Turn feature ideas into executable implementation specs and task plans with Spec Kit"
+description: "Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before code is written."
 verification: listed
-source: https://github.com/github/spec-kit
+source: "https://github.com/github/spec-kit"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: github/spec-kit
+  github_repo: "github/spec-kit"
   github_stars: 88536
 ---
 

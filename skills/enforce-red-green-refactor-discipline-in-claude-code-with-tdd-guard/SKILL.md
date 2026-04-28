@@ -1,17 +1,16 @@
 ---
-title: Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard
-description: Block implementation-first agent behavior and keep Claude Code anchored
-  to failing-tests-first TDD loops.
+title: "Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard"
+description: "Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops."
 verification: listed
-source: https://github.com/nizos/tdd-guard
+source: "https://github.com/nizos/tdd-guard"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: nizos/tdd-guard
+  github_repo: "nizos/tdd-guard"
   github_stars: 1997
-  npm_package: tdd-guard
+  npm_package: "tdd-guard"
   npm_weekly_downloads: 35484
 ---
 

@@ -1,14 +1,12 @@
 ---
-title: API Documentation Indexer
-description: Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser
-  and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas
-  for quick reference.
+title: "API Documentation Indexer"
+description: "Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas for quick reference."
 verification: security_reviewed
-source: https://swagger.io/docs/
+source: "https://swagger.io/docs/"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
 
 # API Documentation Indexer

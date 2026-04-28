@@ -1,17 +1,14 @@
 ---
-title: Reformat Markdown files into a stable house style before review or migration
-description: Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented
-  layout or check mode in CI. Use it when an agent needs deterministic Markdown diffs
-  before review, migration, or bulk cleanup, not when it needs to generate new content
-  or build a docs site.
+title: "Reformat Markdown files into a stable house style before review or migration"
+description: "Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an agent needs deterministic Markdown diffs before review, migration, or bulk cleanup, not when it needs to generate new content or build a docs site."
 verification: security_reviewed
-source: https://github.com/hukkin/mdformat
+source: "https://github.com/hukkin/mdformat"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: hukkin/mdformat
+  github_repo: "hukkin/mdformat"
   github_stars: 758
 ---
 

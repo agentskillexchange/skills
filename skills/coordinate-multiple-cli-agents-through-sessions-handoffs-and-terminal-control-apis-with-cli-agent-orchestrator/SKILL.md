@@ -1,16 +1,14 @@
 ---
-title: Coordinate multiple CLI agents through sessions, handoffs, and terminal control
-  APIs with CLI Agent Orchestrator
-description: Lets an agent supervisor spawn and steer isolated terminal-based worker
-  agents with explicit handoff, assign, and message patterns.
+title: "Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator"
+description: "Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and message patterns."
 verification: listed
-source: https://github.com/awslabs/cli-agent-orchestrator
+source: "https://github.com/awslabs/cli-agent-orchestrator"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: awslabs/cli-agent-orchestrator
+  github_repo: "awslabs/cli-agent-orchestrator"
   github_stars: 473
 ---
 

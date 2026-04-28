@@ -1,17 +1,16 @@
 ---
-title: Kubernetes CrashLoop Diagnoser
-description: Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API
-  /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes
-  with OOM kills, readiness probe failures, and config errors.
+title: "Kubernetes CrashLoop Diagnoser"
+description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors."
 verification: security_reviewed
-source: https://github.com/kubernetes/kubernetes
+source: "https://github.com/kubernetes/kubernetes"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Gemini
+  - "Gemini"
 tool_ecosystem:
-  github_repo: kubernetes/kubernetes
+  github_repo: "kubernetes/kubernetes"
   github_stars: 121700
+  license: "Apache-2.0"
 ---
 
 # Kubernetes CrashLoop Diagnoser

@@ -1,17 +1,16 @@
 ---
-title: Kubernetes Pod Crash Diagnostician
-description: Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource
-  quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with
-  container memory profiles from Prometheus queries.
+title: "Kubernetes Pod Crash Diagnostician"
+description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries."
 verification: security_reviewed
-source: https://github.com/kubernetes/kubernetes
+source: "https://github.com/kubernetes/kubernetes"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: kubernetes/kubernetes
+  github_repo: "kubernetes/kubernetes"
   github_stars: 121700
+  license: "Apache-2.0"
 ---
 
 # Kubernetes Pod Crash Diagnostician

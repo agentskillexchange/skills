@@ -1,15 +1,14 @@
 ---
-title: Enforce Python Docstring Coverage Thresholds with interrogate
-description: Measure Python docstring coverage and fail a docs-quality gate when code
-  drops below an agreed threshold.
+title: "Enforce Python Docstring Coverage Thresholds with interrogate"
+description: "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold."
 verification: security_reviewed
-source: https://github.com/econchick/interrogate
+source: "https://github.com/econchick/interrogate"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: econchick/interrogate
+  github_repo: "econchick/interrogate"
   github_stars: 662
 ---
 

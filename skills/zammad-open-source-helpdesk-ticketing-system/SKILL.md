@@ -1,17 +1,14 @@
 ---
-title: Zammad Open Source Web-Based Helpdesk and Ticketing System
-description: Zammad is a self-hosted, open-source helpdesk and customer support system
-  with email, chat, phone, Twitter, and Telegram channel integration. It provides
-  a REST and GraphQL API for ticket management, user administration, and workflow
-  automation.
+title: "Zammad Open Source Web-Based Helpdesk and Ticketing System"
+description: "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation."
 verification: security_reviewed
-source: https://github.com/zammad/zammad
+source: "https://github.com/zammad/zammad"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: zammad/zammad
+  github_repo: "zammad/zammad"
   github_stars: 5513
 ---
 

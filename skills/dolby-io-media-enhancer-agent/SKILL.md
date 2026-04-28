@@ -1,14 +1,12 @@
 ---
-title: Dolby.io Media Enhancer
-description: Enhances audio and video quality using the Dolby.io Media Processing
-  API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic
-  range compression via the /media/enhance endpoint.
+title: "Dolby.io Media Enhancer"
+description: "Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint."
 verification: security_reviewed
-source: https://optiview.dolby.com/docs/
+source: "https://optiview.dolby.com/docs/"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Cursor
+  - "Cursor"
 ---
 
 # Dolby.io Media Enhancer

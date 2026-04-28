@@ -1,16 +1,14 @@
 ---
-title: Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation
-description: Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL
-  endpoint so an agent can discover commands and call tools immediately without hand-written
-  wrappers.
+title: "Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation"
+description: "Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands and call tools immediately without hand-written wrappers."
 verification: security_reviewed
-source: https://github.com/knowsuchagency/mcp2cli
+source: "https://github.com/knowsuchagency/mcp2cli"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: knowsuchagency/mcp2cli
+  github_repo: "knowsuchagency/mcp2cli"
   github_stars: 1940
 ---
 

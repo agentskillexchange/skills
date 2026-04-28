@@ -1,15 +1,14 @@
 ---
-title: Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent
-description: Turn YAML runbooks into auditable agent actions with validation, dry-runs,
-  destructive-step approval, and optional MCP exposure.
+title: "Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent"
+description: "Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure."
 verification: listed
-source: https://github.com/shiehn/DeclarAgent
+source: "https://github.com/shiehn/DeclarAgent"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: shiehn/DeclarAgent
+  github_repo: "shiehn/DeclarAgent"
   github_stars: 11
 ---
 

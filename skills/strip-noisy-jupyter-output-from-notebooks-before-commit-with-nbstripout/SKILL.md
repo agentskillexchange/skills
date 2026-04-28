@@ -1,15 +1,14 @@
 ---
-title: Strip noisy Jupyter output from notebooks before commit with nbstripout
-description: Keep notebook diffs reviewable by removing execution output and excess
-  metadata before notebooks land in Git history.
+title: "Strip noisy Jupyter output from notebooks before commit with nbstripout"
+description: "Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history."
 verification: listed
-source: https://github.com/kynan/nbstripout
+source: "https://github.com/kynan/nbstripout"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: kynan/nbstripout
+  github_repo: "kynan/nbstripout"
   github_stars: 1447
 ---
 

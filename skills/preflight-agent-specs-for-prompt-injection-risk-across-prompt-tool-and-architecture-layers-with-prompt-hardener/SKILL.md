@@ -1,16 +1,14 @@
 ---
-title: Preflight agent specs for prompt-injection risk across prompt, tool, and architecture
-  layers with Prompt Hardener
-description: Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection
-  analysis, generate mitigations, and validate defenses before rollout.
+title: "Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener"
+description: "Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout."
 verification: listed
-source: https://github.com/cybozu/prompt-hardener
+source: "https://github.com/cybozu/prompt-hardener"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: cybozu/prompt-hardener
+  github_repo: "cybozu/prompt-hardener"
   github_stars: 50
 ---
 

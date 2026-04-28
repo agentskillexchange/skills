@@ -1,18 +1,16 @@
 ---
-title: Prometheus Alert Resolver
-description: Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range
-  endpoints for metric time series analysis. Executes playbook steps for common alerts
-  like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences
-  alerts via Alertmanager /api/v2/silences.
+title: "Prometheus Alert Resolver"
+description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences."
 verification: security_reviewed
-source: https://github.com/prometheus/prometheus
+source: "https://github.com/prometheus/prometheus"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Gemini
+  - "Gemini"
 tool_ecosystem:
-  github_repo: prometheus/prometheus
+  github_repo: "prometheus/prometheus"
   github_stars: 63584
+  license: "Apache-2.0"
 ---
 
 # Prometheus Alert Resolver

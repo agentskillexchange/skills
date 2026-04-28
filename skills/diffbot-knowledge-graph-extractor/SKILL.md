@@ -1,14 +1,12 @@
 ---
-title: Diffbot Knowledge Graph Extractor
-description: Extracts structured entities from web pages using the Diffbot Extraction
-  API and Knowledge Graph. Supports article, product, and discussion extraction with
-  automatic entity linking via DQL queries.
+title: "Diffbot Knowledge Graph Extractor"
+description: "Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article, product, and discussion extraction with automatic entity linking via DQL queries."
 verification: security_reviewed
-source: https://docs.diffbot.com/
+source: "https://docs.diffbot.com/"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
 
 # Diffbot Knowledge Graph Extractor

@@ -1,16 +1,14 @@
 ---
-title: Run AI coding agents in isolated containers and compare their behavior side
-  by side with VibePod CLI
-description: Launch supported coding agents in Docker, collect local metrics and HTTP
-  traces, and compare their runs in a built-in dashboard.
+title: "Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI"
+description: "Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard."
 verification: security_reviewed
-source: https://github.com/VibePod/vibepod-cli
+source: "https://github.com/VibePod/vibepod-cli"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: VibePod/vibepod-cli
+  github_repo: "VibePod/vibepod-cli"
   github_stars: 61
 ---
 

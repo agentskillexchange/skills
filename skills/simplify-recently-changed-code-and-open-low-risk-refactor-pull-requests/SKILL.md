@@ -1,18 +1,16 @@
 ---
-title: Simplify recently changed code and open low-risk refactor pull requests
-description: This entry turns GitHub Next’s Code Simplifier workflow into a narrow
-  cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving
-  simplifications, runs validation, and opens small refactor pull requests instead
-  of attempting broad rewrites.
+title: "Simplify recently changed code and open low-risk refactor pull requests"
+description: "This entry turns GitHub Next’s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites."
 verification: security_reviewed
-source: https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md
+source: "https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: githubnext/agentics
+  github_repo: "githubnext/agentics"
   github_stars: 585
+  license: "MIT"
 ---
 
 # Simplify recently changed code and open low-risk refactor pull requests

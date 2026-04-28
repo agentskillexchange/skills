@@ -1,16 +1,14 @@
 ---
-title: Wrap ordinary CLIs so agents can invoke them through a normalized agent-native
-  interface with CLI-Anything
-description: Lets an agent install or build a harness around an existing tool so the
-  tool becomes callable through a predictable CLI surface.
+title: "Wrap ordinary CLIs so agents can invoke them through a normalized agent-native interface with CLI-Anything"
+description: "Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface."
 verification: security_reviewed
-source: https://github.com/HKUDS/CLI-Anything
+source: "https://github.com/HKUDS/CLI-Anything"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: HKUDS/CLI-Anything
+  github_repo: "HKUDS/CLI-Anything"
   github_stars: 31214
 ---
 

@@ -1,16 +1,14 @@
 ---
-title: GitLab Pipeline Orchestrator
-description: Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API
-  and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the
-  GitLab Artifacts API and triggers downstream pipelines through bridge jobs.
+title: "GitLab Pipeline Orchestrator"
+description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs."
 verification: security_reviewed
-source: https://github.com/gitlabhq/gitlabhq
+source: "https://github.com/gitlabhq/gitlabhq"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: gitlabhq/gitlabhq
+  github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
 ---
 

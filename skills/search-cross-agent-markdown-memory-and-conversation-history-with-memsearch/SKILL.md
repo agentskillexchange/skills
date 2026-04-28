@@ -1,16 +1,14 @@
 ---
-title: Search cross-agent Markdown memory and conversation history with memsearch
-description: Give supported coding agents a shared Markdown-first memory layer so
-  they can recall prior decisions, transcripts, and notes across sessions instead
-  of re-deriving context from scratch.
+title: "Search cross-agent Markdown memory and conversation history with memsearch"
+description: "Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context from scratch."
 verification: listed
-source: https://github.com/zilliztech/memsearch
+source: "https://github.com/zilliztech/memsearch"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: zilliztech/memsearch
+  github_repo: "zilliztech/memsearch"
   github_stars: 1324
 ---
 

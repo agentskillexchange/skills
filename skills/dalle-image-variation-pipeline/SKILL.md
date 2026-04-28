@@ -1,19 +1,18 @@
 ---
-title: DALL-E Image Variation Pipeline
-description: Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation
-  with style references, aspect ratio control, and automated prompt refinement using
-  GPT-4 Vision feedback loops.
+title: "DALL-E Image Variation Pipeline"
+description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops."
 verification: security_reviewed
-source: https://github.com/openai/openai-node
+source: "https://github.com/openai/openai-node"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: openai/openai-node
+  github_repo: "openai/openai-node"
   github_stars: 10813
-  npm_package: openai
+  npm_package: "openai"
   npm_weekly_downloads: 18107622
+  license: "Apache-2.0"
 ---
 
 # DALL-E Image Variation Pipeline

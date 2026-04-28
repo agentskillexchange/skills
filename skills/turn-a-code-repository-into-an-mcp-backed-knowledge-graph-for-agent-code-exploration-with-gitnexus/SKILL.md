@@ -1,18 +1,16 @@
 ---
-title: Turn a code repository into an MCP-backed knowledge graph for agent code exploration
-  with GitNexus
-description: Index a repository into a code knowledge graph, expose it through MCP,
-  and give agents architecture-aware context before they answer or edit.
+title: "Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus"
+description: "Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit."
 verification: security_reviewed
-source: https://github.com/abhigyanpatwari/GitNexus
+source: "https://github.com/abhigyanpatwari/GitNexus"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: abhigyanpatwari/GitNexus
+  github_repo: "abhigyanpatwari/GitNexus"
   github_stars: 28499
-  npm_package: gitnexus
+  npm_package: "gitnexus"
   npm_weekly_downloads: 138166
 ---
 

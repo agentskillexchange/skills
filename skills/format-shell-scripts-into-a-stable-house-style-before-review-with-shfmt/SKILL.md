@@ -1,15 +1,14 @@
 ---
-title: Format shell scripts into a stable house style before review with shfmt
-description: Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style
-  noise stops hiding the real changes.
+title: "Format shell scripts into a stable house style before review with shfmt"
+description: "Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes."
 verification: listed
-source: https://github.com/mvdan/sh
+source: "https://github.com/mvdan/sh"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mvdan/sh
+  github_repo: "mvdan/sh"
   github_stars: 8700
 ---
 

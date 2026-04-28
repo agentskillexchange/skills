@@ -1,17 +1,16 @@
 ---
-title: Rehearse and run scripted terminal demos with realistic playback using doitlive
-description: Play back a scripted terminal demo with controlled typing and pauses
-  so talks, onboarding sessions, and trainings stay smooth.
+title: "Rehearse and run scripted terminal demos with realistic playback using doitlive"
+description: "Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth."
 verification: listed
-source: https://github.com/sloria/doitlive
+source: "https://github.com/sloria/doitlive"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: sloria/doitlive
+  github_repo: "sloria/doitlive"
   github_stars: 3561
-  npm_package: doitlive
+  npm_package: "doitlive"
   npm_weekly_downloads: 236
 ---
 

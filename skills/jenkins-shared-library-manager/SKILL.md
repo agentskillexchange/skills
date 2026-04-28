@@ -1,18 +1,16 @@
 ---
-title: Jenkins Shared Library Manager
-description: Manages Jenkins Shared Libraries with proper vars/ and src/ structure
-  using the Jenkins Pipeline Shared Groovy Libraries plugin. Validates Groovy syntax,
-  tests steps with jenkins-pipeline-unit, and configures Global Pipeline Libraries
-  via Jenkins CLI.
+title: "Jenkins Shared Library Manager"
+description: "Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the Jenkins Pipeline Shared Groovy Libraries plugin. Validates Groovy syntax, tests steps with jenkins-pipeline-unit, and configures Global Pipeline Libraries via Jenkins CLI."
 verification: security_reviewed
-source: https://github.com/jenkinsci/jenkins
+source: "https://github.com/jenkinsci/jenkins"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: jenkinsci/jenkins
+  github_repo: "jenkinsci/jenkins"
   github_stars: 25189
+  license: "MIT"
 ---
 
 # Jenkins Shared Library Manager

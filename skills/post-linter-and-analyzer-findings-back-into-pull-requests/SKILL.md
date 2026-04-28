@@ -1,17 +1,14 @@
 ---
-title: Post linter and analyzer findings back into pull requests
-description: This ASE skill uses reviewdog to turn linter and analyzer output into
-  diff-aware pull request feedback. An agent can run existing checks, filter findings
-  to the changed lines, and publish inline review comments or annotations instead
-  of dumping raw logs into CI.
+title: "Post linter and analyzer findings back into pull requests"
+description: "This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can run existing checks, filter findings to the changed lines, and publish inline review comments or annotations instead of dumping raw logs into CI."
 verification: security_reviewed
-source: https://github.com/reviewdog/reviewdog
+source: "https://github.com/reviewdog/reviewdog"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: reviewdog/reviewdog
+  github_repo: "reviewdog/reviewdog"
   github_stars: 9207
 ---
 

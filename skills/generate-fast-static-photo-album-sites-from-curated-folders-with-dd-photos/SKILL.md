@@ -1,15 +1,14 @@
 ---
-title: Generate fast static photo album sites from curated folders with DD Photos
-description: Turn exported photo folders into a mobile-friendly static album site
-  without standing up a database-backed gallery system.
+title: "Generate fast static photo album sites from curated folders with DD Photos"
+description: "Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system."
 verification: listed
-source: https://github.com/dougdonohoe/ddphotos
+source: "https://github.com/dougdonohoe/ddphotos"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: dougdonohoe/ddphotos
+  github_repo: "dougdonohoe/ddphotos"
   github_stars: 155
 ---
 

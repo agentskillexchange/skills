@@ -1,16 +1,14 @@
 ---
-title: GitLab CI Auto DevOps Configurator
-description: Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps
-  templates, includes, and the GitLab Container Registry. Manages multi-project pipelines
-  and environment-specific deployments.
+title: "GitLab CI Auto DevOps Configurator"
+description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments."
 verification: security_reviewed
-source: https://github.com/gitlabhq/gitlabhq
+source: "https://github.com/gitlabhq/gitlabhq"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Claude Agents
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: gitlabhq/gitlabhq
+  github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
 ---
 

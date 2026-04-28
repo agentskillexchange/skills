@@ -1,16 +1,14 @@
 ---
-title: Analyze Kubernetes cluster issues through MCP with K8sGPT
-description: Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster,
-  explain unhealthy resources, and return prioritized remediation clues in natural
-  language.
+title: "Analyze Kubernetes cluster issues through MCP with K8sGPT"
+description: "Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural language."
 verification: security_reviewed
-source: https://github.com/k8sgpt-ai/k8sgpt
+source: "https://github.com/k8sgpt-ai/k8sgpt"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: k8sgpt-ai/k8sgpt
+  github_repo: "k8sgpt-ai/k8sgpt"
   github_stars: 7687
 ---
 

@@ -1,18 +1,16 @@
 ---
-title: Gutenberg Custom Block Builder
-description: Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block
-  and the Block API registerBlockType(). Generates edit/save components with InspectorControls,
-  RichText, and InnerBlocks support.
+title: "Gutenberg Custom Block Builder"
+description: "Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support."
 verification: security_reviewed
-source: https://github.com/WordPress/gutenberg
+source: "https://github.com/WordPress/gutenberg"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: WordPress/gutenberg
+  github_repo: "WordPress/gutenberg"
   github_stars: 11624
-  npm_package: '@wordpress/create-block'
+  npm_package: "@wordpress/create-block"
   npm_weekly_downloads: 20291
 ---
 

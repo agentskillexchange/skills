@@ -1,17 +1,14 @@
 ---
-title: Gate AI-generated pull requests with evidence checks and quality barriers using
-  Swarm Orchestrator
-description: Run Copilot, Claude Code, or Codex on isolated branches, verify each
-  agent claim against real repo evidence, and block merges until automated quality
-  gates pass.
+title: "Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator"
+description: "Run Copilot, Claude Code, or Codex on isolated branches, verify each agent claim against real repo evidence, and block merges until automated quality gates pass."
 verification: security_reviewed
-source: https://github.com/moonrunnerkc/swarm-orchestrator
+source: "https://github.com/moonrunnerkc/swarm-orchestrator"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: moonrunnerkc/swarm-orchestrator
+  github_repo: "moonrunnerkc/swarm-orchestrator"
   github_stars: 83
 ---
 

@@ -1,16 +1,14 @@
 ---
-title: Put coding agents on a governed local Git workflow with AgentPlane
-description: Run coding agents inside a repo with explicit policy files, task state,
-  approvals, and closure records when teams need auditable local workflows instead
-  of opaque agent runs.
+title: "Put coding agents on a governed local Git workflow with AgentPlane"
+description: "Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of opaque agent runs."
 verification: listed
-source: https://github.com/basilisk-labs/agentplane
+source: "https://github.com/basilisk-labs/agentplane"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: basilisk-labs/agentplane
+  github_repo: "basilisk-labs/agentplane"
   github_stars: 38
 ---
 

@@ -1,15 +1,14 @@
 ---
-title: Build super timelines from mixed forensic artifacts with Plaso
-description: Ingest disk, log, and system artifacts into a sortable forensic timeline
-  before analysis, scoping, or case review.
+title: "Build super timelines from mixed forensic artifacts with Plaso"
+description: "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review."
 verification: listed
-source: https://github.com/log2timeline/plaso
+source: "https://github.com/log2timeline/plaso"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: log2timeline/plaso
+  github_repo: "log2timeline/plaso"
   github_stars: 2052
 ---
 

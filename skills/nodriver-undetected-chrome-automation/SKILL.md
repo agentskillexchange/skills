@@ -1,17 +1,14 @@
 ---
-title: Nodriver Async Undetected Chrome Browser Automation for Python
-description: Nodriver is the official successor to Undetected-Chromedriver, providing
-  async browser automation that communicates directly with Chrome DevTools Protocol
-  without Selenium or WebDriver dependencies. Built for stealth web automation that
-  bypasses anti-bot systems including Cloudflare and Imperva.
+title: "Nodriver Async Undetected Chrome Browser Automation for Python"
+description: "Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates directly with Chrome DevTools Protocol without Selenium or WebDriver dependencies. Built for stealth web automation that bypasses anti-bot systems including Cloudflare and Imperva."
 verification: security_reviewed
-source: https://github.com/ultrafunkamsterdam/nodriver
+source: "https://github.com/ultrafunkamsterdam/nodriver"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: ultrafunkamsterdam/nodriver
+  github_repo: "ultrafunkamsterdam/nodriver"
   github_stars: 4005
 ---
 

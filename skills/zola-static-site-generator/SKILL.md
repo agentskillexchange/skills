@@ -1,17 +1,16 @@
 ---
-title: Zola Fast Static Site Generator in a Single Binary
-description: Zola is a fast static site generator written in Rust that ships as a
-  single binary with built-in Sass compilation, syntax highlighting, search indexing,
-  image processing, and multilingual support. No dependencies required.
+title: "Zola Fast Static Site Generator in a Single Binary"
+description: "Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation, syntax highlighting, search indexing, image processing, and multilingual support. No dependencies required."
 verification: security_reviewed
-source: https://github.com/getzola/zola
+source: "https://github.com/getzola/zola"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: getzola/zola
+  github_repo: "getzola/zola"
   github_stars: 16799
+  license: "EUPL-1.2"
 ---
 
 # Zola Fast Static Site Generator in a Single Binary

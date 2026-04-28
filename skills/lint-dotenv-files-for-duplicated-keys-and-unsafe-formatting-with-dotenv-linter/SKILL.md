@@ -1,15 +1,14 @@
 ---
-title: Lint .env files for duplicated keys and unsafe formatting with dotenv-linter
-description: Check dotenv files for duplicated keys, malformed values, and formatting
-  mistakes before they break local runs or secret handoffs.
+title: "Lint .env files for duplicated keys and unsafe formatting with dotenv-linter"
+description: "Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs."
 verification: listed
-source: https://github.com/dotenv-linter/dotenv-linter
+source: "https://github.com/dotenv-linter/dotenv-linter"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: dotenv-linter/dotenv-linter
+  github_repo: "dotenv-linter/dotenv-linter"
   github_stars: 2068
 ---
 

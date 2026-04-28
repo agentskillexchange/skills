@@ -1,16 +1,14 @@
 ---
-title: Terraform Plan Validator
-description: Parses terraform plan JSON output via the Terraform CLI (terraform show
-  -json) to validate infrastructure changes before apply. Detects destructive operations,
-  cost estimate impacts via Infracost API, and drift from desired state.
+title: "Terraform Plan Validator"
+description: "Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state."
 verification: security_reviewed
-source: https://github.com/hashicorp/terraform
+source: "https://github.com/hashicorp/terraform"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: hashicorp/terraform
+  github_repo: "hashicorp/terraform"
   github_stars: 48146
 ---
 

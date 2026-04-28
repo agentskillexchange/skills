@@ -1,17 +1,16 @@
 ---
-title: AWS Systems Manager Runbook Engine
-description: Executes automated diagnostics using the AWS Systems Manager Automation
-  API and SSM Documents. Collects system metrics via the CloudWatch GetMetricData
-  API and correlates with AWS Health events.
+title: "AWS Systems Manager Runbook Engine"
+description: "Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system metrics via the CloudWatch GetMetricData API and correlates with AWS Health events."
 verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
+  license: "Apache-2.0"
 ---
 
 # AWS Systems Manager Runbook Engine

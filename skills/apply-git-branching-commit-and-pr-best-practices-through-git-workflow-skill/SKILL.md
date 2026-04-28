@@ -1,16 +1,14 @@
 ---
-title: Apply Git branching, commit, and pull request best practices through Git Workflow
-  Skill
-description: Give an agent a portable Git workflow playbook for branch strategy, commit
-  hygiene, pull requests, merge choices, and CI-aware collaboration.
+title: "Apply Git branching, commit, and pull request best practices through Git Workflow Skill"
+description: "Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration."
 verification: security_reviewed
-source: https://github.com/netresearch/git-workflow-skill
+source: "https://github.com/netresearch/git-workflow-skill"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: netresearch/git-workflow-skill
+  github_repo: "netresearch/git-workflow-skill"
   github_stars: 13
 ---
 

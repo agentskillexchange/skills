@@ -1,14 +1,12 @@
 ---
-title: Cloudinary Asset Optimization Agent
-description: Manages image and video assets using the Cloudinary Node.js SDK and Upload
-  API. Applies automatic format selection, responsive breakpoints, and AI-based cropping
-  with face detection.
+title: "Cloudinary Asset Optimization Agent"
+description: "Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection, responsive breakpoints, and AI-based cropping with face detection."
 verification: security_reviewed
-source: https://cloudinary.com/documentation
+source: "https://cloudinary.com/documentation"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
 
 # Cloudinary Asset Optimization Agent

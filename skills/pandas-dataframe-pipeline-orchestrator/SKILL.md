@@ -1,17 +1,16 @@
 ---
-title: Pandas DataFrame Pipeline Orchestrator
-description: Chains pandas DataFrame transformations into reproducible pipelines using
-  pipe() method composition. Handles missing data imputation with fillna() strategies,
-  type coercion with astype(), and memory optimization via category dtypes.
+title: "Pandas DataFrame Pipeline Orchestrator"
+description: "Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes."
 verification: security_reviewed
-source: https://github.com/pandas-dev/pandas
+source: "https://github.com/pandas-dev/pandas"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: pandas-dev/pandas
+  github_repo: "pandas-dev/pandas"
   github_stars: 48498
+  license: "BSD-3-Clause"
 ---
 
 # Pandas DataFrame Pipeline Orchestrator

@@ -1,15 +1,14 @@
 ---
-title: Turn documents into validated knowledge graphs with Docling Graph
-description: Convert documents into schema-enforced entities and graph relationships
-  when the job is exact knowledge extraction rather than generic document parsing.
+title: "Turn documents into validated knowledge graphs with Docling Graph"
+description: "Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing."
 verification: listed
-source: https://github.com/docling-project/docling-graph
+source: "https://github.com/docling-project/docling-graph"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: docling-project/docling-graph
+  github_repo: "docling-project/docling-graph"
   github_stars: 134
 ---
 

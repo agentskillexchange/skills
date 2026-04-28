@@ -1,15 +1,14 @@
 ---
-title: Parallelize large pytest suites and isolate slow feedback loops with pytest-xdist
-description: Fan out Python test execution across workers so slow suites finish faster
-  and bottlenecks show up before they dominate CI time.
+title: "Parallelize large pytest suites and isolate slow feedback loops with pytest-xdist"
+description: "Fan out Python test execution across workers so slow suites finish faster and bottlenecks show up before they dominate CI time."
 verification: listed
-source: https://github.com/pytest-dev/pytest-xdist
+source: "https://github.com/pytest-dev/pytest-xdist"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: pytest-dev/pytest-xdist
+  github_repo: "pytest-dev/pytest-xdist"
   github_stars: 1832
 ---
 

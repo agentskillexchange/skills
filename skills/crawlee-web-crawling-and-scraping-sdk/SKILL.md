@@ -1,20 +1,18 @@
 ---
-title: Crawlee Web Crawling and Scraping SDK
-description: Crawlee is Apify’s open source web crawling and scraping library for
-  Node.js. It combines request queueing, browser automation, proxy support, and storage
-  primitives so agents can build reliable Playwright, Puppeteer, Cheerio, or HTTP
-  crawlers from one toolkit.
+title: "Crawlee Web Crawling and Scraping SDK"
+description: "Crawlee is Apify’s open source web crawling and scraping library for Node.js. It combines request queueing, browser automation, proxy support, and storage primitives so agents can build reliable Playwright, Puppeteer, Cheerio, or HTTP crawlers from one toolkit."
 verification: security_reviewed
-source: https://github.com/apify/crawlee
+source: "https://github.com/apify/crawlee"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: apify/crawlee
+  github_repo: "apify/crawlee"
   github_stars: 22762
-  npm_package: crawlee
+  npm_package: "crawlee"
   npm_weekly_downloads: 80765
+  license: "Apache-2.0"
 ---
 
 # Crawlee Web Crawling and Scraping SDK

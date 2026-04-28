@@ -1,16 +1,14 @@
 ---
-title: OpenAI Agents SDK JavaScript Workflow Toolkit
-description: A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript.
-  It covers agent orchestration, tools, handoffs, tracing, and the practical install
-  path.
+title: "OpenAI Agents SDK JavaScript Workflow Toolkit"
+description: "A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools, handoffs, tracing, and the practical install path."
 verification: security_reviewed
-source: https://github.com/openai/openai-agents-js
+source: "https://github.com/openai/openai-agents-js"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: openai/openai-agents-js
+  github_repo: "openai/openai-agents-js"
   github_stars: 2635
 ---
 

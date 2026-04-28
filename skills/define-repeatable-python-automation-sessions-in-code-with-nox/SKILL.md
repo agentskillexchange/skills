@@ -1,15 +1,14 @@
 ---
-title: Define repeatable Python automation sessions in code with nox
-description: Encode test, lint, build, and docs routines as named Python sessions
-  so humans and agents run the same workflow every time.
+title: "Define repeatable Python automation sessions in code with nox"
+description: "Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time."
 verification: listed
-source: https://github.com/wntrblm/nox
+source: "https://github.com/wntrblm/nox"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: wntrblm/nox
+  github_repo: "wntrblm/nox"
   github_stars: 1513
 ---
 

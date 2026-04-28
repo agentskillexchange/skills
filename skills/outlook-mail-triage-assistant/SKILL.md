@@ -1,14 +1,12 @@
 ---
-title: Outlook Mail Triage Assistant
-description: Automated email triage using Microsoft Graph API and @azure/msal-node
-  for OAuth. Classifies messages with zero-shot classification, applies Outlook rules,
-  and manages focused inbox priorities.
+title: "Outlook Mail Triage Assistant"
+description: "Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot classification, applies Outlook rules, and manages focused inbox priorities."
 verification: security_reviewed
-source: https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
+source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
 category:
-- Calendar, Email & Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
 
 # Outlook Mail Triage Assistant

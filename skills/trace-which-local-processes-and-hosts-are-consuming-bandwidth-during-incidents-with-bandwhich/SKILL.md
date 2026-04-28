@@ -1,16 +1,14 @@
 ---
-title: Trace which local processes and hosts are consuming bandwidth during incidents
-  with bandwhich
-description: Identify which processes, connections, and remote hosts are actually
-  using bandwidth before you chase the wrong incident hypothesis.
+title: "Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich"
+description: "Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong incident hypothesis."
 verification: security_reviewed
-source: https://github.com/imsnif/bandwhich
+source: "https://github.com/imsnif/bandwhich"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: imsnif/bandwhich
+  github_repo: "imsnif/bandwhich"
   github_stars: 11691
 ---
 

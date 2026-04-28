@@ -1,17 +1,16 @@
 ---
-title: Jenkins Pipeline Monitor
-description: Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and
-  Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result
-  trends using JUnit XML parsing.
+title: "Jenkins Pipeline Monitor"
+description: "Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing."
 verification: security_reviewed
-source: https://github.com/jenkinsci/jenkins
+source: "https://github.com/jenkinsci/jenkins"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Gemini
+  - "Gemini"
 tool_ecosystem:
-  github_repo: jenkinsci/jenkins
+  github_repo: "jenkinsci/jenkins"
   github_stars: 25189
+  license: "MIT"
 ---
 
 # Jenkins Pipeline Monitor

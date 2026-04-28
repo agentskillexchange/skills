@@ -1,15 +1,14 @@
 ---
-title: Generate drift and quality reports for ML and LLM pipelines with Evidently
-description: Produce repeatable drift and quality reports after data, model, or prompt
-  changes so regressions are visible before rollout.
+title: "Generate drift and quality reports for ML and LLM pipelines with Evidently"
+description: "Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before rollout."
 verification: listed
-source: https://github.com/evidentlyai/evidently
+source: "https://github.com/evidentlyai/evidently"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: evidentlyai/evidently
+  github_repo: "evidentlyai/evidently"
   github_stars: 7386
 ---
 

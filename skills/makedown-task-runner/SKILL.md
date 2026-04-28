@@ -1,16 +1,14 @@
 ---
-title: Makedown Task Runner
-description: Extracts executable task definitions from Markdown files and runs them
-  as shell pipelines. Parses fenced code blocks with task metadata annotations and
-  manages dependencies between tasks.
+title: "Makedown Task Runner"
+description: "Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks."
 verification: security_reviewed
-source: https://github.com/tzador/makedown
+source: "https://github.com/tzador/makedown"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: tzador/makedown
+  github_repo: "tzador/makedown"
   github_stars: 319
 ---
 
