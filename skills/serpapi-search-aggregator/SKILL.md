@@ -1,12 +1,14 @@
 ---
-title: "SerpAPI Search Aggregator"
-description: "Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis."
+title: SerpAPI Search Aggregator
+description: Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI
+  REST endpoint. Parses organic results, knowledge panels, and People Also Ask data
+  into structured JSON for downstream analysis.
 verification: security_reviewed
-source: "https://serpapi.com/"
+source: https://serpapi.com/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
 
 # SerpAPI Search Aggregator

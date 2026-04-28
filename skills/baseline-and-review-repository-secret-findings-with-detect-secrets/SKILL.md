@@ -1,14 +1,15 @@
 ---
-title: "Baseline and Review Repository Secret Findings with detect-secrets"
-description: "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks."
+title: Baseline and Review Repository Secret Findings with detect-secrets
+description: Scan a repository for secrets, keep an auditable baseline, and review
+  only newly introduced findings during commits or CI checks.
 verification: security_reviewed
-source: "https://github.com/Yelp/detect-secrets"
+source: https://github.com/Yelp/detect-secrets
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "Yelp/detect-secrets"
+  github_repo: Yelp/detect-secrets
   github_stars: 4482
 ---
 

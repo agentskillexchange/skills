@@ -1,14 +1,16 @@
 ---
-title: "Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals"
-description: "Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review."
+title: Run repeatable agent evaluation suites with trajectory and simulator coverage
+  using Strands Evals
+description: Build repeatable evaluation experiments for agents and LLM apps with
+  output checks, trajectory scoring, simulators, and trace-based review.
 verification: listed
-source: "https://github.com/strands-agents/evals"
+source: https://github.com/strands-agents/evals
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "strands-agents/evals"
+  github_repo: strands-agents/evals
   github_stars: 105
 ---
 

@@ -1,16 +1,18 @@
 ---
-title: "Nx Workspace Generator Toolkit"
-description: "Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness."
+title: Nx Workspace Generator Toolkit
+description: Creates and manages custom Nx workspace generators using @nrwl/devkit
+  with TypeTree file generation and schema.json validation. Automates monorepo library
+  and app scaffolding with dependency graph awareness.
 verification: security_reviewed
-source: "https://github.com/nrwl/nx"
+source: https://github.com/nrwl/nx
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Cursor"
+- Cursor
 tool_ecosystem:
-  github_repo: "nrwl/nx"
+  github_repo: nrwl/nx
   github_stars: 28566
-  npm_package: "@nx/devkit"
+  npm_package: '@nx/devkit'
   npm_weekly_downloads: 29518517
 ---
 

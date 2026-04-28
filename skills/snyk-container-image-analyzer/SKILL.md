@@ -1,14 +1,16 @@
 ---
-title: "Snyk Container Image Analyzer"
-description: "Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions."
+title: Snyk Container Image Analyzer
+description: Scans Docker and OCI container images for OS and application vulnerabilities
+  using Snyk Container API. Cross-references findings against the Snyk vulnerability
+  database with CVSS scoring and provides Dockerfile remediation suggestions.
 verification: security_reviewed
-source: "https://github.com/snyk/cli"
+source: https://github.com/snyk/cli
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   github_stars: 5496
 ---
 

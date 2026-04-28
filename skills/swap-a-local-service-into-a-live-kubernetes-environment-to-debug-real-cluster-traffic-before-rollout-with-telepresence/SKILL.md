@@ -1,14 +1,16 @@
 ---
-title: "Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence"
-description: "Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real dependencies before release."
+title: Swap a local service into a live Kubernetes environment to debug real cluster
+  traffic before rollout with Telepresence
+description: Intercept a Kubernetes service and route live cluster traffic into a
+  local process so debugging happens against real dependencies before release.
 verification: listed
-source: "https://github.com/telepresenceio/telepresence"
+source: https://github.com/telepresenceio/telepresence
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "telepresenceio/telepresence"
+  github_repo: telepresenceio/telepresence
   github_stars: 7183
 ---
 

@@ -1,16 +1,18 @@
 ---
-title: "Capture a live webpage as a clean PDF or readable archive for offline review with Percollate"
-description: "Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff."
+title: Capture a live webpage as a clean PDF or readable archive for offline review
+  with Percollate
+description: Turn a live webpage into a clean offline artifact such as a PDF or readable
+  archive for review, citation, or handoff.
 verification: listed
-source: "https://github.com/danburzo/percollate"
+source: https://github.com/danburzo/percollate
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "danburzo/percollate"
+  github_repo: danburzo/percollate
   github_stars: 4620
-  npm_package: "percollate"
+  npm_package: percollate
   npm_weekly_downloads: 588
 ---
 

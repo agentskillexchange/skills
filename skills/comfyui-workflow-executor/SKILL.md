@@ -1,14 +1,17 @@
 ---
-title: "ComfyUI Workflow Executor"
-description: "Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint."
+title: ComfyUI Workflow Executor
+description: Executes ComfyUI image generation workflows via the /prompt REST API
+  endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler
+  scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval
+  from the /view endpoint.
 verification: security_reviewed
-source: "https://github.com/Comfy-Org/ComfyUI"
+source: https://github.com/Comfy-Org/ComfyUI
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "Comfy-Org/ComfyUI"
+  github_repo: Comfy-Org/ComfyUI
   github_stars: 109121
 ---
 

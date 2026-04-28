@@ -1,16 +1,18 @@
 ---
-title: "AWS CloudWatch Alarm Diagnostic"
-description: "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options."
+title: AWS CloudWatch Alarm Diagnostic
+description: Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics,
+  alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates
+  metric anomalies with recent infrastructure changes to suggest root cause hypotheses.
+  Outputs a structured incident summary with remediation options.
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
-  license: "Apache-2.0"
 ---
 
 # AWS CloudWatch Alarm Diagnostic

@@ -1,14 +1,15 @@
 ---
-title: "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup"
-description: "Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider."
+title: Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup
+description: Run repeatable cross-forge repository backup jobs from one config instead
+  of hand-scripting clone and export steps per provider.
 verification: listed
-source: "https://github.com/amitsaha/gitbackup"
+source: https://github.com/amitsaha/gitbackup
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "amitsaha/gitbackup"
+  github_repo: amitsaha/gitbackup
   github_stars: 218
 ---
 

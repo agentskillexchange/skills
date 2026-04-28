@@ -1,14 +1,15 @@
 ---
-title: "Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect"
-description: "Detect scene changes in a video, emit cut boundaries, and hand back machine-usable scene lists before manual review, splitting, or clip assembly."
+title: Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect
+description: Detect scene changes in a video, emit cut boundaries, and hand back machine-usable
+  scene lists before manual review, splitting, or clip assembly.
 verification: security_reviewed
-source: "https://github.com/Breakthrough/PySceneDetect"
+source: https://github.com/Breakthrough/PySceneDetect
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "Breakthrough/PySceneDetect"
+  github_repo: Breakthrough/PySceneDetect
   github_stars: 4711
 ---
 

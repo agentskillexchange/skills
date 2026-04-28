@@ -1,14 +1,16 @@
 ---
-title: "Terraform Cloud Run Inspector"
-description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results."
+title: Terraform Cloud Run Inspector
+description: Queries the Terraform Cloud API to inspect plan outputs, apply logs,
+  and state file changes. Analyzes resource diffs including module-level changes,
+  provider version constraints, and Sentinel policy evaluation results.
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
+source: https://github.com/hashicorp/terraform
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 

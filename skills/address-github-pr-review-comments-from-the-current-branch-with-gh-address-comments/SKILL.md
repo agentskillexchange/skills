@@ -1,14 +1,15 @@
 ---
-title: "Address GitHub PR review comments from the current branch with gh-address-comments"
-description: "Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context."
+title: Address GitHub PR review comments from the current branch with gh-address-comments
+description: Find the open PR for the current branch, gather unresolved review comments,
+  and drive a focused comment-resolution workflow with gh-authenticated context.
 verification: listed
-source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments"
+source: https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "openai/skills"
+  github_repo: openai/skills
   github_stars: 17293
 ---
 

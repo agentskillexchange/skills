@@ -1,16 +1,17 @@
 ---
-title: "AWS CloudWatch Alarm Runbook"
-description: "Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems Manager runbook documents. Maps alarm states to diagnostic procedures and remediation actions."
+title: AWS CloudWatch Alarm Runbook
+description: Automates incident response for AWS CloudWatch alarms using boto3, the
+  CloudWatch GetMetricData API, and AWS Systems Manager runbook documents. Maps alarm
+  states to diagnostic procedures and remediation actions.
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
+source: https://github.com/aws/aws-sdk-js-v3
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
-  license: "Apache-2.0"
 ---
 
 # AWS CloudWatch Alarm Runbook

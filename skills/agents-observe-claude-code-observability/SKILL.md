@@ -1,14 +1,16 @@
 ---
-title: "Inspect Claude Code multi-agent runs with Agents Observe"
-description: "Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task progress so debugging starts from what the agents are actually doing."
+title: Inspect Claude Code multi-agent runs with Agents Observe
+description: Gives Claude Code operators a live dashboard for multi-agent sessions,
+  tool calls, file activity, and nested task progress so debugging starts from what
+  the agents are actually doing.
 verification: security_reviewed
-source: "https://github.com/simple10/agents-observe"
+source: https://github.com/simple10/agents-observe
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "simple10/agents-observe"
+  github_repo: simple10/agents-observe
   github_stars: 421
 ---
 

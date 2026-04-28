@@ -1,14 +1,17 @@
 ---
-title: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
-description: "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship."
+title: Benchmark deep research agents across factual, quality, and process dimensions
+  with MiroEval
+description: Score deep research agents on benchmark tasks using factual verification,
+  report-quality scoring, and process evaluation before model or workflow changes
+  ship.
 verification: listed
-source: "https://github.com/MiroMindAI/MiroEval"
+source: https://github.com/MiroMindAI/MiroEval
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "MiroMindAI/MiroEval"
+  github_repo: MiroMindAI/MiroEval
   github_stars: 34
 ---
 

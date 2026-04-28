@@ -1,18 +1,19 @@
 ---
-title: "Playwright Multi-Browser Test Generator"
-description: "Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the Playwright codegen recorder API and assertion library for reliable E2E tests."
+title: Playwright Multi-Browser Test Generator
+description: Generates Playwright test scripts for Chromium, Firefox, and WebKit from
+  natural language descriptions. Uses the Playwright codegen recorder API and assertion
+  library for reliable E2E tests.
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
+source: https://github.com/microsoft/playwright
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
-  npm_package: "playwright"
+  npm_package: playwright
   npm_weekly_downloads: 47883561
-  license: "Apache-2.0"
 ---
 
 # Playwright Multi-Browser Test Generator

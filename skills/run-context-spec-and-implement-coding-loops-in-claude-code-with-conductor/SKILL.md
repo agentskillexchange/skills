@@ -1,14 +1,15 @@
 ---
-title: "Run context → spec → implement coding loops in Claude Code with Conductor"
-description: "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks."
+title: Run context → spec → implement coding loops in Claude Code with Conductor
+description: Turn Claude Code into a structured project workflow that captures context,
+  plans work, and executes implementation in reviewable tracks.
 verification: listed
-source: "https://github.com/wshobson/agents/tree/main/plugins/conductor"
+source: https://github.com/wshobson/agents/tree/main/plugins/conductor
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "wshobson/agents"
+  github_repo: wshobson/agents
   github_stars: 34018
 ---
 

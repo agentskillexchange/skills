@@ -1,16 +1,17 @@
 ---
-title: "Ansible Playbook Dry Run Validator"
-description: "Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates role dependencies, and detects deprecated module usage across collections."
+title: Ansible Playbook Dry Run Validator
+description: Validates Ansible playbooks using ansible-lint and the Ansible Galaxy
+  API. Performs check-mode dry runs, validates role dependencies, and detects deprecated
+  module usage across collections.
 verification: security_reviewed
-source: "https://github.com/ansible/ansible"
+source: https://github.com/ansible/ansible
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
-  license: "GPL-3.0"
 ---
 
 # Ansible Playbook Dry Run Validator

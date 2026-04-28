@@ -1,14 +1,15 @@
 ---
-title: "Probe AI agents for dangerous tool chains and execution side effects with ZIRAN"
-description: "Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust exploits before deployment."
+title: Probe AI agents for dangerous tool chains and execution side effects with ZIRAN
+description: Test agent systems for graph-discovered tool-chain vulnerabilities, silent
+  side effects, and multi-phase trust exploits before deployment.
 verification: listed
-source: "https://github.com/taoq-ai/ziran"
+source: https://github.com/taoq-ai/ziran
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "taoq-ai/ziran"
+  github_repo: taoq-ai/ziran
   github_stars: 6
 ---
 

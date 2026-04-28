@@ -1,14 +1,15 @@
 ---
-title: "Run computer-use agents inside cross-OS desktop sandboxes with CUA"
-description: "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls."
+title: Run computer-use agents inside cross-OS desktop sandboxes with CUA
+description: Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes
+  and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.
 verification: listed
-source: "https://github.com/trycua/cua"
+source: https://github.com/trycua/cua
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "trycua/cua"
+  github_repo: trycua/cua
   github_stars: 13544
 ---
 

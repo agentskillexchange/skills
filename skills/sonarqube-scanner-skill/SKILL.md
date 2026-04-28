@@ -1,12 +1,18 @@
 ---
-title: "SonarQube Scanner Skill"
-description: "Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results from api/qualitygates/project_status, parses issues via api/issues/search, and maps findings to source lines for inline code review annotations."
+title: SonarQube Scanner Skill
+description: Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube
+  Web API. Fetches quality gate results from api/qualitygates/project_status, parses
+  issues via api/issues/search, and maps findings to source lines for inline code
+  review annotations.
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
+source: https://github.com/SonarSource/sonarqube
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Claude Code"
+- Claude Code
+tool_ecosystem:
+  github_repo: sonarsource/sonarqube
+  github_stars: 10433
 ---
 
 # SonarQube Scanner Skill

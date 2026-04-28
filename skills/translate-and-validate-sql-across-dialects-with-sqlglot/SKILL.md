@@ -1,14 +1,15 @@
 ---
-title: "Translate and validate SQL across dialects with SQLGlot"
-description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL."
+title: Translate and validate SQL across dialects with SQLGlot
+description: Use SQLGlot when an agent needs to parse, transpile, or sanity-check
+  SQL before moving queries between engines or trusting generated SQL.
 verification: listed
-source: "https://github.com/tobymao/sqlglot"
+source: https://github.com/tobymao/sqlglot
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "tobymao/sqlglot"
+  github_repo: tobymao/sqlglot
   github_stars: 9133
 ---
 

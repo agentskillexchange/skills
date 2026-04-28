@@ -1,14 +1,16 @@
 ---
-title: "Generate dependency update pull requests from code with dependabot-core"
-description: "Scan manifests, compute safe version bumps, and prepare dependency update PR material when you need self-hosted or custom Dependabot flows outside the default GitHub service."
+title: Generate dependency update pull requests from code with dependabot-core
+description: Scan manifests, compute safe version bumps, and prepare dependency update
+  PR material when you need self-hosted or custom Dependabot flows outside the default
+  GitHub service.
 verification: listed
-source: "https://github.com/dependabot/dependabot-core"
+source: https://github.com/dependabot/dependabot-core
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "dependabot/dependabot-core"
+  github_repo: dependabot/dependabot-core
   github_stars: 5549
 ---
 

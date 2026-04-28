@@ -1,14 +1,16 @@
 ---
-title: "Sigstore Cosign Verifier"
-description: "Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA provenance attestations and checks Fulcio certificate chains for keyless signing."
+title: Sigstore Cosign Verifier
+description: Automates container image signature verification using Cosign CLI and
+  the Rekor transparency log API. Validates SLSA provenance attestations and checks
+  Fulcio certificate chains for keyless signing.
 verification: security_reviewed
-source: "https://github.com/sigstore/cosign"
+source: https://github.com/sigstore/cosign
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Cursor"
+- Cursor
 tool_ecosystem:
-  github_repo: "sigstore/cosign"
+  github_repo: sigstore/cosign
   github_stars: 5830
 ---
 

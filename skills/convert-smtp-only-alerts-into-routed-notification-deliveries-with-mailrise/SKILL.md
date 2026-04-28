@@ -1,14 +1,15 @@
 ---
-title: "Convert SMTP-only alerts into routed notification deliveries with Mailrise"
-description: "Use Mailrise to accept ordinary email alerts and fan them out through Apprise-backed notification channels when legacy systems can only speak SMTP."
+title: Convert SMTP-only alerts into routed notification deliveries with Mailrise
+description: Use Mailrise to accept ordinary email alerts and fan them out through
+  Apprise-backed notification channels when legacy systems can only speak SMTP.
 verification: security_reviewed
-source: "https://github.com/YoRyan/mailrise"
+source: https://github.com/YoRyan/mailrise
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "YoRyan/mailrise"
+  github_repo: YoRyan/mailrise
   github_stars: 1514
 ---
 

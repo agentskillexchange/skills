@@ -1,14 +1,15 @@
 ---
-title: "Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz"
-description: "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing."
+title: Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz
+description: Inspect Rust workspace changes, draft release PRs, bump versions, and
+  assemble changelogs before publishing.
 verification: security_reviewed
-source: "https://github.com/release-plz/release-plz"
+source: https://github.com/release-plz/release-plz
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "release-plz/release-plz"
+  github_repo: release-plz/release-plz
   github_stars: 1345
 ---
 

@@ -1,12 +1,19 @@
 ---
-title: "Selenium Grid Load Balancer"
-description: "Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint."
+title: Selenium Grid Load Balancer
+description: Distributes browser automation workloads across Selenium Grid 4 nodes
+  using the Grid REST API and session queue management. Implements weighted round-robin
+  with health-check monitoring via /status endpoint.
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
+source: https://github.com/SeleniumHQ/selenium
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Codex"
+- Codex
+tool_ecosystem:
+  github_repo: seleniumhq/selenium
+  github_stars: 34076
+  npm_package: selenium-webdriver
+  npm_weekly_downloads: 1932148
 ---
 
 # Selenium Grid Load Balancer

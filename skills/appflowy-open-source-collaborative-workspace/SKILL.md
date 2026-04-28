@@ -1,14 +1,17 @@
 ---
-title: "AppFlowy Open Source Collaborative Workspace"
-description: "AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project, docs, and deployment methods when users need an open source Notion-style environment with local control."
+title: AppFlowy Open Source Collaborative Workspace
+description: AppFlowy brings documents, projects, wikis, and AI-assisted collaboration
+  into a self-hosted or desktop-friendly workspace. This skill helps agents work from
+  the real AppFlowy project, docs, and deployment methods when users need an open
+  source Notion-style environment with local control.
 verification: security_reviewed
-source: "https://github.com/AppFlowy-IO/AppFlowy"
+source: https://github.com/AppFlowy-IO/AppFlowy
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "AppFlowy-IO/AppFlowy"
+  github_repo: AppFlowy-IO/AppFlowy
   github_stars: 69650
 ---
 

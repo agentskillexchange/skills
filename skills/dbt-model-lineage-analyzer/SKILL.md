@@ -1,14 +1,16 @@
 ---
-title: "dbt Model Lineage Analyzer"
-description: "Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis."
+title: dbt Model Lineage Analyzer
+description: Parses dbt project manifests and catalog artifacts to build complete
+  data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core
+  manifest.json for model dependency analysis.
 verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
+source: https://github.com/dbt-labs/dbt-core
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 

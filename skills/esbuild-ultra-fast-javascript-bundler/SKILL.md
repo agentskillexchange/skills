@@ -1,18 +1,20 @@
 ---
-title: "esbuild Ultra-Fast JavaScript Bundler"
-description: "esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build times than traditional tools like webpack. It handles bundling, minification, tree shaking, source maps, and CSS modules with a straightforward API available from the CLI, JavaScript, and Go."
+title: esbuild Ultra-Fast JavaScript Bundler
+description: esbuild is an extremely fast JavaScript and TypeScript bundler written
+  in Go that delivers 10-100x faster build times than traditional tools like webpack.
+  It handles bundling, minification, tree shaking, source maps, and CSS modules with
+  a straightforward API available from the CLI, JavaScript, and Go.
 verification: security_reviewed
-source: "https://github.com/evanw/esbuild"
+source: https://github.com/evanw/esbuild
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "evanw/esbuild"
+  github_repo: evanw/esbuild
   github_stars: 39815
-  npm_package: "esbuild"
+  npm_package: esbuild
   npm_weekly_downloads: 164021497
-  license: "MIT"
 ---
 
 # esbuild Ultra-Fast JavaScript Bundler

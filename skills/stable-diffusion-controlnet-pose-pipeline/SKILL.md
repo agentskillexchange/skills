@@ -1,14 +1,16 @@
 ---
-title: "Stable Diffusion ControlNet Pose Pipeline"
-description: "Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains OpenPose detection, depth estimation, and img2img endpoints."
+title: Stable Diffusion ControlNet Pose Pipeline
+description: Orchestrates Stable Diffusion image generation with ControlNet pose conditioning
+  via the Automatic1111 API. Chains OpenPose detection, depth estimation, and img2img
+  endpoints.
 verification: security_reviewed
-source: "https://github.com/lllyasviel/ControlNet"
+source: https://github.com/lllyasviel/ControlNet
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "lllyasviel/ControlNet"
+  github_repo: lllyasviel/ControlNet
   github_stars: 33793
 ---
 

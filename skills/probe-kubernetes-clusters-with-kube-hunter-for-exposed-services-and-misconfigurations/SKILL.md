@@ -1,16 +1,16 @@
 ---
-title: "Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations"
-description: "Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts."
+title: Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations
+description: Run a focused exposure probe against a Kubernetes environment before
+  deeper pentest work or remediation planning starts.
 verification: listed
-source: "https://github.com/aquasecurity/kube-hunter"
+source: https://github.com/aquasecurity/kube-hunter
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "aquasecurity/kube-hunter"
+  github_repo: aquasecurity/kube-hunter
   github_stars: 7267
-  npm_package: "kube-hunter"
 ---
 
 # Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations

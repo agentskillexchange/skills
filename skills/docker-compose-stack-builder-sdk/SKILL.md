@@ -1,16 +1,17 @@
 ---
-title: "Docker Compose Stack Builder"
-description: "Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check configuration and network isolation. Validates compose files against the Compose Specification v2.x and generates .env templates."
+title: Docker Compose Stack Builder
+description: Builds multi-service Docker Compose stacks using Docker Engine SDK for
+  Python with automatic health check configuration and network isolation. Validates
+  compose files against the Compose Specification v2.x and generates .env templates.
 verification: security_reviewed
-source: "https://github.com/moby/moby"
+source: https://github.com/moby/moby
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
-  license: "Apache-2.0"
 ---
 
 # Docker Compose Stack Builder

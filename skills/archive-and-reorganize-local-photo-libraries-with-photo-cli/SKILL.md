@@ -1,14 +1,16 @@
 ---
-title: "Archive and reorganize local photo libraries with photo-cli"
-description: "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder structure without moving into a hosted photo platform."
+title: Archive and reorganize local photo libraries with photo-cli
+description: Use photo-cli when an agent needs to normalize a local photo archive
+  by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner
+  folder structure without moving into a hosted photo platform.
 verification: security_reviewed
-source: "https://github.com/photo-cli/photo-cli"
+source: https://github.com/photo-cli/photo-cli
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "photo-cli/photo-cli"
+  github_repo: photo-cli/photo-cli
   github_stars: 68
 ---
 

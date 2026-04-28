@@ -1,16 +1,17 @@
 ---
-title: "SAST Rule Compiler for Semgrep"
-description: "Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets."
+title: SAST Rule Compiler for Semgrep
+description: Compiles and validates custom Semgrep SAST rules using the semgrep-core
+  engine. Tests pattern matching against sample codebases and generates rule performance
+  benchmarks with p/ci rulesets.
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
+source: https://github.com/semgrep/semgrep
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14802
-  license: "LGPL-2.1"
 ---
 
 # SAST Rule Compiler for Semgrep

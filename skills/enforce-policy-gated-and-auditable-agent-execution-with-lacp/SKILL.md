@@ -1,14 +1,15 @@
 ---
-title: "Enforce policy-gated and auditable agent execution with LACP"
-description: "Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds."
+title: Enforce policy-gated and auditable agent execution with LACP
+description: Run Claude, Codex, and related coding-agent tasks through policy gates,
+  evidence loops, and auditable execution tiers before risky work proceeds.
 verification: listed
-source: "https://github.com/0xNyk/lacp"
+source: https://github.com/0xNyk/lacp
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "0xNyk/lacp"
+  github_repo: 0xNyk/lacp
   github_stars: 211
 ---
 

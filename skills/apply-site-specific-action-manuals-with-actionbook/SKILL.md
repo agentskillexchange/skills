@@ -1,16 +1,17 @@
 ---
-title: "Apply site-specific action manuals with Actionbook"
-description: "Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic browser prompting."
+title: Apply site-specific action manuals with Actionbook
+description: Load maintained action manuals for fragile websites so agents can execute
+  known flows more reliably than generic browser prompting.
 verification: listed
-source: "https://github.com/actionbook/actionbook"
+source: https://github.com/actionbook/actionbook
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "actionbook/actionbook"
+  github_repo: actionbook/actionbook
   github_stars: 1497
-  npm_package: "@actionbookdev/cli"
+  npm_package: '@actionbookdev/cli'
   npm_weekly_downloads: 4657
 ---
 

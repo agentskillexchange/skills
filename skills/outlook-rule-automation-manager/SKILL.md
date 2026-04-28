@@ -1,12 +1,14 @@
 ---
-title: "Outlook Rule Automation Manager"
-description: "Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage."
+title: Outlook Rule Automation Manager
+description: Creates and manages Outlook email rules programmatically using the Microsoft
+  Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition
+  chains with action sequences for automated email triage.
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0"
+source: https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
 
 # Outlook Rule Automation Manager

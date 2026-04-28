@@ -1,14 +1,16 @@
 ---
-title: "Schedule and retain cross-database backups from one self-hosted control plane with Databasus"
-description: "Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from one place."
+title: Schedule and retain cross-database backups from one self-hosted control plane
+  with Databasus
+description: Run scheduled backups with retention rules and storage targets across
+  PostgreSQL, MySQL, MariaDB, and MongoDB from one place.
 verification: listed
-source: "https://github.com/databasus/databasus"
+source: https://github.com/databasus/databasus
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "databasus/databasus"
+  github_repo: databasus/databasus
   github_stars: 6581
 ---
 

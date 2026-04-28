@@ -1,16 +1,17 @@
 ---
-title: "Scrapy Pipeline Data Extractor"
-description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
+title: Scrapy Pipeline Data Extractor
+description: Builds production Scrapy spiders with custom Item Pipelines for data
+  cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping
+  and ItemLoader with MapCompose processors for field normalization.
 verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
+source: https://github.com/scrapy/scrapy
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: scrapy/scrapy
   github_stars: 61314
-  license: "BSD-3-Clause"
 ---
 
 # Scrapy Pipeline Data Extractor

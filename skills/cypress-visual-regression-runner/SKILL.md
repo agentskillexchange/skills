@@ -1,18 +1,19 @@
 ---
-title: "Cypress Visual Regression Runner"
-description: "Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images using pixelmatch diffing. Integrates with Percy SDK for cross-browser visual snapshots."
+title: Cypress Visual Regression Runner
+description: Runs visual regression tests comparing screenshots captured via Cypress
+  cy.screenshot() against baseline images using pixelmatch diffing. Integrates with
+  Percy SDK for cross-browser visual snapshots.
 verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
+source: https://github.com/cypress-io/cypress
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Cursor"
+- Cursor
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
-  npm_package: "cypress"
+  npm_package: cypress
   npm_weekly_downloads: 7268478
-  license: "MIT"
 ---
 
 # Cypress Visual Regression Runner
