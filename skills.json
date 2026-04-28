@@ -31191,7 +31191,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 16248
+      }
     },
     {
       "slug": "graphql-schema-introspection-analyzer",
@@ -33711,7 +33714,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 16248
+      }
     },
     {
       "slug": "k8s-crashloopbackoff-diagnoser",
@@ -34019,7 +34025,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 16248
+      }
     },
     {
       "slug": "graphql-schema-registry",

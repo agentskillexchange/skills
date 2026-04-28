@@ -105,6 +105,9 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | 22.6k | — |
 | [Systematic Debugging and Error Recovery](../../skills/systematic-debugging-and-error-recovery/) | 17.4k | — |
+| [Systemd Service Debugger](../../skills/systemd-service-debugger/) | 16.2k | — |
+| [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | 16.2k | — |
+| [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | 16.2k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
@@ -205,9 +208,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | — | — |
 | [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | — | — |
-| [Systemd Service Debugger](../../skills/systemd-service-debugger/) | — | — |
-| [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | — | — |
-| [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | — | — |
 
 ---
 

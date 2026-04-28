@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2402 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-28 01:36 UTC
+> **2402 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-28 03:39 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1002,6 +1002,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [ArgoCD Application Health Runbook](skills/argocd-application-health-runbook/) | Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries… | Security Reviewed | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](skills/argocd-deployment-runbook-agent/) | Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback… | Security Reviewed | 22.6k | — |
 | [Systematic Debugging and Error Recovery](skills/systematic-debugging-and-error-recovery/) | Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix… | Published | 17.4k | — |
+| [Systemd Service Debugger](skills/systemd-service-debugger/) | Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies,… | Security Reviewed | 16.2k | — |
+| [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes… | Security Reviewed | 16.2k | — |
+| [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | 16.2k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](skills/borgbackup-deduplicating-encrypted-backup/) | BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses… | Security Reviewed | 13.2k | — |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports… | Security Reviewed | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge… | Security Reviewed | 12.1k | — |
@@ -1102,9 +1105,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Incident Timeline Builder](skills/incident-timeline-builder/) | Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives.… | Security Reviewed | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](skills/k8s-crashloopbackoff-diagnoser/) | Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled… | Security Reviewed | — | — |
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Security Reviewed | — | — |
-| [Systemd Service Debugger](skills/systemd-service-debugger/) | Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies,… | Security Reviewed | — | — |
-| [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes… | Security Reviewed | — | — |
-| [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
 ### 🔄 Data Extraction & Transformation (165 skills)
