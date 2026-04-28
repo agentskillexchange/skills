@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2400,
-  "generated": "2026-04-27",
+  "total": 2402,
+  "generated": "2026-04-28",
   "skills": [
+    {
+      "slug": "orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement",
+      "name": "Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement",
+      "description": "Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce retention policy, and react to backup failures across supported…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 315
+      }
+    },
+    {
+      "slug": "review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio",
+      "name": "Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio",
+      "description": "Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance warnings, inspect missing-index suggestions, and turn execution-plan evidence…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 175
+      }
+    },
     {
       "slug": "generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos",
       "name": "Generate fast static photo album sites from curated folders with DD Photos",

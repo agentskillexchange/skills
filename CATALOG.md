@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2400 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-27 23:35 UTC
+> **2402 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-28 01:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -931,7 +931,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (166 skills)
+### 📋 Runbooks & Diagnostics (168 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1062,7 +1062,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is… | Security Reviewed | 585 | — |
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds… | Published | 358 | — |
+| [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce… | Published | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations. | Published | 308 | — |
+| [Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio](skills/review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio/) | Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance… | Published | 175 | — |
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing… | Published | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic… | Security Reviewed | 102 | — |
