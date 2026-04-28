@@ -1,16 +1,17 @@
 ---
-title: "Docker Compose Health Checker"
-description: "Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations."
+title: Docker Compose Health Checker
+description: Validates docker-compose.yml files against the Compose Specification,
+  checks image vulnerability status via Docker Scout API, and verifies healthcheck
+  configurations.
 verification: security_reviewed
-source: "https://github.com/moby/moby"
+source: https://github.com/moby/moby
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
-  license: "Apache-2.0"
 ---
 
 # Docker Compose Health Checker

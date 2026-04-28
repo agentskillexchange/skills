@@ -1,14 +1,17 @@
 ---
-title: "Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono"
-description: "Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside a kernel-enforced local sandbox with explicit filesystem, network, credential, and snapshot controls."
+title: Run agent CLIs in a capability-based local sandbox with snapshots and controlled
+  egress using nono
+description: Constrain Claude Code, Codex, OpenClaw, and similar agent CLIs inside
+  a kernel-enforced local sandbox with explicit filesystem, network, credential, and
+  snapshot controls.
 verification: security_reviewed
-source: "https://github.com/always-further/nono"
+source: https://github.com/always-further/nono
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "always-further/nono"
+  github_repo: always-further/nono
   github_stars: 2080
 ---
 

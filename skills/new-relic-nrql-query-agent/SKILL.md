@@ -1,12 +1,14 @@
 ---
-title: "New Relic NRQL Query Agent"
-description: "Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
+title: New Relic NRQL Query Agent
+description: Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application
+  performance monitoring. Generates automated SLA reports with percentile latency
+  breakdowns and error budget calculations.
 verification: security_reviewed
-source: "https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/"
+source: https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
 
 # New Relic NRQL Query Agent

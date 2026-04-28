@@ -1,16 +1,18 @@
 ---
-title: "Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split"
-description: "Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance."
+title: Shard slow pytest suites by historic timings before CI bottlenecks pile up
+  with pytest-split
+description: Lets an agent split a large pytest suite into timing-balanced shards
+  so parallel CI lanes finish faster and with less variance.
 verification: listed
-source: "https://github.com/jerry-git/pytest-split"
+source: https://github.com/jerry-git/pytest-split
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "jerry-git/pytest-split"
+  github_repo: jerry-git/pytest-split
   github_stars: 308
-  npm_package: "pytest-split"
+  npm_package: pytest-split
   npm_weekly_downloads: 12820130
 ---
 

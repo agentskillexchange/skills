@@ -1,12 +1,14 @@
 ---
-title: "Todoist Sync API Task Orchestrator"
-description: "Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses commands array for atomic batch operations on items, projects, and labels."
+title: Todoist Sync API Task Orchestrator
+description: Orchestrates complex task workflows using the Todoist Sync API v9 with
+  incremental sync via sync_token. Uses commands array for atomic batch operations
+  on items, projects, and labels.
 verification: security_reviewed
-source: "https://developer.todoist.com/api/v1/"
+source: https://developer.todoist.com/api/v1/
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Gemini"
+- Gemini
 ---
 
 # Todoist Sync API Task Orchestrator

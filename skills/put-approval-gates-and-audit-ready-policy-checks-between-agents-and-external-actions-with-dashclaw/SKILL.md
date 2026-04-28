@@ -1,16 +1,19 @@
 ---
-title: "Put approval gates and audit-ready policy checks between agents and external actions with DashClaw"
-description: "Use DashClaw to intercept agent actions before they hit external systems, require approval or policy evaluation, and keep replayable decision evidence for later review."
+title: Put approval gates and audit-ready policy checks between agents and external
+  actions with DashClaw
+description: Use DashClaw to intercept agent actions before they hit external systems,
+  require approval or policy evaluation, and keep replayable decision evidence for
+  later review.
 verification: security_reviewed
-source: "https://github.com/ucsandman/DashClaw"
+source: https://github.com/ucsandman/DashClaw
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "ucsandman/DashClaw"
+  github_repo: ucsandman/DashClaw
   github_stars: 241
-  npm_package: "dashclaw"
+  npm_package: dashclaw
   npm_weekly_downloads: 1592
 ---
 

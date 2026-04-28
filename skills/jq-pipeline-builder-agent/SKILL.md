@@ -1,14 +1,16 @@
 ---
-title: "jq Pipeline Builder Agent"
-description: "Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators."
+title: jq Pipeline Builder Agent
+description: Constructs complex jq filter pipelines from natural language queries
+  against JSON/NDJSON data streams. Uses jq built-in functions including path expressions,
+  reduce, and SQL-style operators.
 verification: security_reviewed
-source: "https://github.com/jqlang/jq"
+source: https://github.com/jqlang/jq
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "jqlang/jq"
+  github_repo: jqlang/jq
   github_stars: 34478
 ---
 

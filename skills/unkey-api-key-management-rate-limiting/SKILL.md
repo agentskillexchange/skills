@@ -1,14 +1,16 @@
 ---
-title: "Unkey Open Source API Key Management and Rate Limiting Platform"
-description: "Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a fast, globally distributed key verification system that integrates into any API with minimal code changes."
+title: Unkey Open Source API Key Management and Rate Limiting Platform
+description: Unkey is an open-source developer platform for managing API keys, rate
+  limiting, and usage analytics. It provides a fast, globally distributed key verification
+  system that integrates into any API with minimal code changes.
 verification: security_reviewed
-source: "https://github.com/unkeyed/unkey"
+source: https://github.com/unkeyed/unkey
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "unkeyed/unkey"
+  github_repo: unkeyed/unkey
   github_stars: 5224
 ---
 

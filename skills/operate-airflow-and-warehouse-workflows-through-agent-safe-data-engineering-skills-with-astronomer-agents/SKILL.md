@@ -1,14 +1,16 @@
 ---
-title: "Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents"
-description: "Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP surface instead of loose shell access."
+title: Operate Airflow and warehouse workflows through agent-safe data engineering
+  skills with Astronomer Agents
+description: Give agents structured Airflow, lineage, dbt, and warehouse workflows
+  through installable skills and an Airflow MCP surface instead of loose shell access.
 verification: listed
-source: "https://github.com/astronomer/agents"
+source: https://github.com/astronomer/agents
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "astronomer/agents"
+  github_repo: astronomer/agents
   github_stars: 337
 ---
 

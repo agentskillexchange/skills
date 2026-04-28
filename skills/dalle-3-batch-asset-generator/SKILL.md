@@ -1,18 +1,20 @@
 ---
-title: "DALL-E 3 Batch Asset Generator"
-description: "Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance."
+title: DALL-E 3 Batch Asset Generator
+description: Generates multiple image variations from a single brief using the OpenAI
+  Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines
+  via structured prompt templates. Handles concurrent generation requests with retry
+  logic for rate limit compliance.
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
+source: https://github.com/openai/openai-node
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
-  npm_package: "openai"
+  npm_package: openai
   npm_weekly_downloads: 18107622
-  license: "Apache-2.0"
 ---
 
 # DALL-E 3 Batch Asset Generator

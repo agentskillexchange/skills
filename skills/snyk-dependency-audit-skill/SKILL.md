@@ -1,14 +1,16 @@
 ---
-title: "Snyk Dependency Audit Skill"
-description: "Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format."
+title: Snyk Dependency Audit Skill
+description: Uses the Snyk CLI and REST API v1 to scan package manifests for known
+  CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM
+  documents in CycloneDX format.
 verification: security_reviewed
-source: "https://github.com/snyk/cli"
+source: https://github.com/snyk/cli
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   github_stars: 5496
 ---
 

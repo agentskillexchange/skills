@@ -1,16 +1,17 @@
 ---
-title: "Tekton Pipeline Scaffolder"
-description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions."
+title: Tekton Pipeline Scaffolder
+description: Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs
+  (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests
+  with proper workspace bindings, result passing, and when expressions.
 verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
+source: https://github.com/tektoncd/pipeline
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
-  license: "Apache-2.0"
 ---
 
 # Tekton Pipeline Scaffolder

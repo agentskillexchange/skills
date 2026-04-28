@@ -1,12 +1,14 @@
 ---
-title: "Browserless Scraping Agent"
-description: "Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits."
+title: Browserless Scraping Agent
+description: Drives headless Chrome via the Browserless.io API for scraping dynamic
+  SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages
+  session tokens and concurrent connection limits.
 verification: security_reviewed
-source: "https://docs.browserless.io/"
+source: https://docs.browserless.io/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
 
 # Browserless Scraping Agent

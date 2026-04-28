@@ -1,18 +1,19 @@
 ---
-title: "Stripe Connect Marketplace Sync"
-description: "Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK."
+title: Stripe Connect Marketplace Sync
+description: Synchronize marketplace transactions using the Stripe Connect API with
+  automatic payout splitting, transfer reversals, and account onboarding via Stripe.js
+  and the stripe-node SDK.
 verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
+source: https://github.com/stripe/stripe-node
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
-  npm_package: "stripe"
+  npm_package: stripe
   npm_weekly_downloads: 9280426
-  license: "MIT"
 ---
 
 # Stripe Connect Marketplace Sync

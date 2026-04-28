@@ -1,14 +1,16 @@
 ---
-title: "Cookiecutter Project Bootstrapper"
-description: "Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins."
+title: Cookiecutter Project Bootstrapper
+description: Bootstraps project repositories from Cookiecutter templates with Jinja2
+  variable substitution and post-generation hooks. Supports remote template registries
+  and custom extension plugins.
 verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
+source: https://github.com/cookiecutter/cookiecutter
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 

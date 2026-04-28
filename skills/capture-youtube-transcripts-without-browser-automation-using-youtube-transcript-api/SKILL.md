@@ -1,14 +1,16 @@
 ---
-title: "Capture YouTube transcripts without browser automation using YouTube Transcript API"
-description: "Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking."
+title: Capture YouTube transcripts without browser automation using YouTube Transcript
+  API
+description: Fetch manual or auto-generated YouTube subtitles, including translations,
+  without Selenium or API keys before summarization, extraction, or quote-checking.
 verification: listed
-source: "https://github.com/jdepoix/youtube-transcript-api"
+source: https://github.com/jdepoix/youtube-transcript-api
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "jdepoix/youtube-transcript-api"
+  github_repo: jdepoix/youtube-transcript-api
   github_stars: 7352
 ---
 

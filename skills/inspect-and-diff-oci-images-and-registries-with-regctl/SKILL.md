@@ -1,14 +1,15 @@
 ---
-title: "Inspect and diff OCI images and registries with regctl"
-description: "Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling whole images locally first."
+title: Inspect and diff OCI images and registries with regctl
+description: Use regctl when an agent needs to inspect manifests, compare image contents,
+  or debug registry state without pulling whole images locally first.
 verification: listed
-source: "https://github.com/regclient/regclient"
+source: https://github.com/regclient/regclient
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "regclient/regclient"
+  github_repo: regclient/regclient
   github_stars: 1813
 ---
 

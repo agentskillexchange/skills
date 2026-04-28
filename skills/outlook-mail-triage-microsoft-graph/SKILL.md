@@ -1,12 +1,14 @@
 ---
-title: "Outlook Mail Triage Skill"
-description: "Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies ML-based priority scoring via Azure Cognitive Services Text Analytics and auto-files messages into folders based on learned patterns."
+title: Outlook Mail Triage Skill
+description: Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query
+  support for incremental mail sync. Applies ML-based priority scoring via Azure Cognitive
+  Services Text Analytics and auto-files messages into folders based on learned patterns.
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
+source: https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
 
 # Outlook Mail Triage Skill

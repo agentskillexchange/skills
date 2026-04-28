@@ -1,16 +1,17 @@
 ---
-title: "YouTube Chapters Generator with Whisper"
-description: "Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling algorithm to auto-generate chapter markers with timestamps and titles."
+title: YouTube Chapters Generator with Whisper
+description: Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses
+  NLP topic segmentation via TextTiling algorithm to auto-generate chapter markers
+  with timestamps and titles.
 verification: security_reviewed
-source: "https://github.com/openai/whisper"
+source: https://github.com/openai/whisper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97803
-  license: "MIT"
 ---
 
 # YouTube Chapters Generator with Whisper

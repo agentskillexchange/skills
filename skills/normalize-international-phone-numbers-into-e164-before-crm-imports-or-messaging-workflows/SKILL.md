@@ -1,14 +1,18 @@
 ---
-title: "Normalize international phone numbers into E.164 before CRM imports or messaging workflows"
-description: "Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing contacts or triggering downstream messaging. The skill is about normalization and validation, not telephony delivery, call routing, or campaign orchestration."
+title: Normalize international phone numbers into E.164 before CRM imports or messaging
+  workflows
+description: Use libphonenumber-js when an agent needs to clean messy phone-number
+  input, validate it against country rules, and return a stable E.164 value before
+  storing contacts or triggering downstream messaging. The skill is about normalization
+  and validation, not telephony delivery, call routing, or campaign orchestration.
 verification: security_reviewed
-source: "https://www.npmjs.com/package/libphonenumber-js"
+source: https://www.npmjs.com/package/libphonenumber-js
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  npm_package: "libphonenumber-js"
+  npm_package: libphonenumber-js
   npm_weekly_downloads: 15571336
 ---
 

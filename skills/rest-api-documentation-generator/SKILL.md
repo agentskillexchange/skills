@@ -1,12 +1,14 @@
 ---
-title: "REST API Documentation Generator"
-description: "Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the Redoc (@redocly/cli) renderer. Supports OpenAPI 3.1 output with JSON Schema $ref resolution via @apidevtools/json-schema-ref-parser."
+title: REST API Documentation Generator
+description: Generates interactive API documentation from code annotations using swagger-jsdoc
+  for Express.js routes and the Redoc (@redocly/cli) renderer. Supports OpenAPI 3.1
+  output with JSON Schema $ref resolution via @apidevtools/json-schema-ref-parser.
 verification: security_reviewed
-source: "https://swagger.io/docs/"
+source: https://swagger.io/docs/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Claude Code"
+- Claude Code
 ---
 
 # REST API Documentation Generator

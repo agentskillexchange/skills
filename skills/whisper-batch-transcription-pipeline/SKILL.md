@@ -1,16 +1,18 @@
 ---
-title: "OpenAI Whisper Batch Transcription Pipeline"
-description: "Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back to S3. Supports language auto-detection and translation to English."
+title: OpenAI Whisper Batch Transcription Pipeline
+description: Processes audio files from an S3 bucket using Whisper large-v3, splitting
+  recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped
+  SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back
+  to S3. Supports language auto-detection and translation to English.
 verification: security_reviewed
-source: "https://github.com/openai/whisper"
+source: https://github.com/openai/whisper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97803
-  license: "MIT"
 ---
 
 # OpenAI Whisper Batch Transcription Pipeline

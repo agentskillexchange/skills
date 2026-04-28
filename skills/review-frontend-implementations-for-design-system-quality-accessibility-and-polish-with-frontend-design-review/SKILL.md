@@ -1,14 +1,16 @@
 ---
-title: "Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review"
-description: "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release."
+title: Review frontend implementations for design-system quality, accessibility, and
+  polish with Frontend Design Review
+description: Audit frontend work against design-system rules, accessibility expectations,
+  responsive behavior, and visual craft before merge or release.
 verification: listed
-source: "https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review"
+source: https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "microsoft/skills"
+  github_repo: microsoft/skills
   github_stars: 2103
 ---
 

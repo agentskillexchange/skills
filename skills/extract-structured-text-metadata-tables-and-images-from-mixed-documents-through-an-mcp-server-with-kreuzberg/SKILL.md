@@ -1,14 +1,17 @@
 ---
-title: "Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg"
-description: "Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images, HTML, and other mixed inputs before downstream review or indexing."
+title: Extract structured text, metadata, tables, and images from mixed documents
+  through an MCP server with Kreuzberg
+description: Expose one document-extraction surface to MCP-compatible agents so they
+  can normalize PDFs, Office files, images, HTML, and other mixed inputs before downstream
+  review or indexing.
 verification: listed
-source: "https://github.com/kreuzberg-dev/kreuzberg"
+source: https://github.com/kreuzberg-dev/kreuzberg
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "kreuzberg-dev/kreuzberg"
+  github_repo: kreuzberg-dev/kreuzberg
   github_stars: 7630
 ---
 

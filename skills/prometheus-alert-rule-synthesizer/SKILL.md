@@ -1,16 +1,17 @@
 ---
-title: "Prometheus Alert Rule Synthesizer"
-description: "Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from metric baselines. Integrates with Alertmanager API for routing configuration and PagerDuty Events API v2 for escalation."
+title: Prometheus Alert Rule Synthesizer
+description: Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting
+  rules from metric baselines. Integrates with Alertmanager API for routing configuration
+  and PagerDuty Events API v2 for escalation.
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
+source: https://github.com/prometheus/prometheus
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
-  license: "Apache-2.0"
 ---
 
 # Prometheus Alert Rule Synthesizer

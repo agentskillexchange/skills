@@ -1,14 +1,16 @@
 ---
-title: "Give MCP agents disposable code execution sandboxes with OpenSandbox MCP"
-description: "Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes."
+title: Give MCP agents disposable code execution sandboxes with OpenSandbox MCP
+description: Expose sandbox creation, command execution, and file operations to MCP-capable
+  agents so they can run untrusted code inside disposable Docker or Kubernetes-backed
+  runtimes.
 verification: security_reviewed
-source: "https://github.com/alibaba/OpenSandbox"
+source: https://github.com/alibaba/OpenSandbox
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "alibaba/OpenSandbox"
+  github_repo: alibaba/OpenSandbox
   github_stars: 10207
 ---
 

@@ -1,14 +1,15 @@
 ---
-title: "Encrypt and decrypt age secrets with hardware-backed YubiKey identities"
-description: "Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys."
+title: Encrypt and decrypt age secrets with hardware-backed YubiKey identities
+description: Use age-plugin-yubikey when an agent needs age encryption tied to a physical
+  YubiKey identity instead of software-only keys.
 verification: listed
-source: "https://github.com/str4d/age-plugin-yubikey"
+source: https://github.com/str4d/age-plugin-yubikey
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "str4d/age-plugin-yubikey"
+  github_repo: str4d/age-plugin-yubikey
   github_stars: 881
 ---
 

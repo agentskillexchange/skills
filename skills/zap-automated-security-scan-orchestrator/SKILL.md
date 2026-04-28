@@ -1,14 +1,16 @@
 ---
-title: "ZAP Automated Security Scan Orchestrator"
-description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
+title: ZAP Automated Security Scan Orchestrator
+description: Orchestrates OWASP ZAP security scans via the ZAP API with automated
+  spider, active scanner, and authentication sequence configuration. Generates compliance
+  reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats.
 verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
+source: https://github.com/zaproxy/zaproxy
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 15007
 ---
 

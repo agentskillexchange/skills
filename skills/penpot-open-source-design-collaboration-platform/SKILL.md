@@ -1,14 +1,16 @@
 ---
-title: "Penpot Open-Source Design Collaboration Platform"
-description: "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks to Penpot’s real workspace, self-hosting, and collaboration model."
+title: Penpot Open-Source Design Collaboration Platform
+description: Penpot is an open-source design and prototyping platform built for design
+  and code collaboration. This skill helps agents anchor UI, prototype, and handoff
+  tasks to Penpot’s real workspace, self-hosting, and collaboration model.
 verification: security_reviewed
-source: "https://github.com/penpot/penpot"
+source: https://github.com/penpot/penpot
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "penpot/penpot"
+  github_repo: penpot/penpot
   github_stars: 45294
 ---
 

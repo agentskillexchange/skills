@@ -1,14 +1,16 @@
 ---
-title: "Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler"
-description: "Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs."
+title: Inventory live database schemas and generate reviewable docs before risky SQL
+  changes with SchemaCrawler
+description: Lets an agent crawl a live database and produce schema inventories, dependency
+  views, and reviewable documentation before migrations or handoffs.
 verification: listed
-source: "https://github.com/schemacrawler/SchemaCrawler"
+source: https://github.com/schemacrawler/SchemaCrawler
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "schemacrawler/SchemaCrawler"
+  github_repo: schemacrawler/SchemaCrawler
   github_stars: 1801
 ---
 

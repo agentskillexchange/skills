@@ -1,16 +1,16 @@
 ---
-title: "Argo Workflows DAG Optimizer"
-description: "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis."
+title: Argo Workflows DAG Optimizer
+description: Analyzes Argo Workflows DAG templates to identify parallelization opportunities.
+  Uses the Argo Server API to fetch workflow execution history and critical path analysis.
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-workflows"
+source: https://github.com/argoproj/argo-workflows
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-workflows"
+  github_repo: argoproj/argo-workflows
   github_stars: 16616
-  license: "Apache-2.0"
 ---
 
 # Argo Workflows DAG Optimizer

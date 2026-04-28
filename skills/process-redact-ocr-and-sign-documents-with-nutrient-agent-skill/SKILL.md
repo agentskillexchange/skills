@@ -1,14 +1,15 @@
 ---
-title: "Process, redact, OCR, and sign documents with Nutrient Agent Skill"
-description: "Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks."
+title: Process, redact, OCR, and sign documents with Nutrient Agent Skill
+description: Give coding agents one promptable workflow surface for OCR, extraction,
+  redaction, form filling, conversion, and signing across document-heavy tasks.
 verification: listed
-source: "https://github.com/PSPDFKit-labs/nutrient-agent-skill"
+source: https://github.com/PSPDFKit-labs/nutrient-agent-skill
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "PSPDFKit-labs/nutrient-agent-skill"
+  github_repo: PSPDFKit-labs/nutrient-agent-skill
   github_stars: 5
 ---
 

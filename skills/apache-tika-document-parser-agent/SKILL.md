@@ -1,14 +1,16 @@
 ---
-title: "Apache Tika Document Parser Agent"
-description: "Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and email archive extraction with MIME detection."
+title: Apache Tika Document Parser Agent
+description: Extracts text and metadata from 1000+ file formats using Apache Tika
+  server REST API. Handles PDF OCR via Tesseract integration, Office document parsing,
+  and email archive extraction with MIME detection.
 verification: security_reviewed
-source: "https://github.com/apache/tika"
+source: https://github.com/apache/tika
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Gemini"
+- Gemini
 tool_ecosystem:
-  github_repo: "apache/tika"
+  github_repo: apache/tika
   github_stars: 3703
 ---
 

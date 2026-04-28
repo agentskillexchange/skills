@@ -1,14 +1,16 @@
 ---
-title: "MediaInfo Metadata Extractor"
-description: "Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset management."
+title: MediaInfo Metadata Extractor
+description: Extracts comprehensive media metadata using the MediaInfo library and
+  pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats,
+  and HDR metadata for media asset management.
 verification: security_reviewed
-source: "https://github.com/MediaArea/MediaInfo"
+source: https://github.com/MediaArea/MediaInfo
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "MediaArea/MediaInfo"
+  github_repo: MediaArea/MediaInfo
   github_stars: 1873
 ---
 

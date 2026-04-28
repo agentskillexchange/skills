@@ -1,16 +1,17 @@
 ---
-title: "Prometheus AlertManager Rule Builder"
-description: "Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations."
+title: Prometheus AlertManager Rule Builder
+description: Generates Prometheus alerting rules and AlertManager routing configs
+  using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie,
+  and Slack receiver configurations.
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
+source: https://github.com/prometheus/prometheus
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
-  license: "Apache-2.0"
 ---
 
 # Prometheus AlertManager Rule Builder

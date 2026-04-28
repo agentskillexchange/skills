@@ -1,14 +1,16 @@
 ---
-title: "Assemble minimal OCI images from declarative package configs with apko"
-description: "Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow."
+title: Assemble minimal OCI images from declarative package configs with apko
+description: Use apko to build small OCI images from declarative package manifests
+  when supply-chain clarity and minimal contents matter more than a conventional Dockerfile
+  flow.
 verification: listed
-source: "https://github.com/chainguard-dev/apko"
+source: https://github.com/chainguard-dev/apko
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "chainguard-dev/apko"
+  github_repo: chainguard-dev/apko
   github_stars: 1590
 ---
 

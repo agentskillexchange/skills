@@ -1,14 +1,16 @@
 ---
-title: "Python Docstring Linter"
-description: "Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration."
+title: Python Docstring Linter
+description: Validates and auto-generates Python docstrings using the ast module and
+  pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with
+  type stub integration.
 verification: security_reviewed
-source: "https://github.com/PyCQA/pydocstyle"
+source: https://github.com/PyCQA/pydocstyle
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Codex"
+- Codex
 tool_ecosystem:
-  github_repo: "PyCQA/pydocstyle"
+  github_repo: PyCQA/pydocstyle
   github_stars: 1119
 ---
 

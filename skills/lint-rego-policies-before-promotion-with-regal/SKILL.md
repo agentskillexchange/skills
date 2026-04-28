@@ -1,14 +1,15 @@
 ---
-title: "Lint Rego Policies Before Promotion with Regal"
-description: "Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted."
+title: Lint Rego Policies Before Promotion with Regal
+description: Analyze Rego policy files for style, correctness, and maintainability
+  issues before policy bundles are promoted.
 verification: listed
-source: "https://github.com/StyraInc/regal"
+source: https://github.com/StyraInc/regal
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "StyraInc/regal"
+  github_repo: StyraInc/regal
   github_stars: 373
 ---
 

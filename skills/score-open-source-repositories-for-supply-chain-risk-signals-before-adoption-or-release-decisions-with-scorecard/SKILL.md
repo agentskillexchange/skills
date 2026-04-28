@@ -1,14 +1,16 @@
 ---
-title: "Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard"
-description: "Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it."
+title: Score open source repositories for supply-chain risk signals before adoption
+  or release decisions with Scorecard
+description: Check a repository against OpenSSF security heuristics before you trust
+  it as a dependency, approve it for use, or ship from it.
 verification: listed
-source: "https://github.com/ossf/scorecard"
+source: https://github.com/ossf/scorecard
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "ossf/scorecard"
+  github_repo: ossf/scorecard
   github_stars: 5376
 ---
 
