@@ -2,7 +2,7 @@
 title: "Frontend Design Guidance Skill"
 description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
 verification: "security_reviewed"
-source: "https://superdesign.dev"
+source: "https://www.superdesign.dev/"
 author: "SuperDesign"
 publisher_type: "company"
 category:

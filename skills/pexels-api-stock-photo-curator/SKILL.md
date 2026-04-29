@@ -2,7 +2,7 @@
 title: "Pexels API Stock Photo Curator"
 description: "Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite."
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
+source: "https://www.pexels.com/api/documentation/"
 category:
   - "Image & Creative Automation"
 framework:

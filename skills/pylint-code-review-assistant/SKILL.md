@@ -2,11 +2,14 @@
 title: "Pylint Code Review Assistant"
 description: "Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation. Supports custom checker plugins and per-project rcfile configurations."
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pylint-code-review-assistant/"
+source: "https://github.com/pylint-dev/pylint"
 category:
   - "Code Quality & Review"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "pylint-dev/pylint"
+  github_stars: 5676
 ---
 
 # Pylint Code Review Assistant
