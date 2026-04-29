@@ -1,18 +1,16 @@
 ---
-title: Lint YAML configs for syntax, duplicate keys, and style drift before CI or
-  deploy
-description: Uses yamllint to inspect hand-written or generated YAML before it reaches
-  CI or deploy. The agent returns line-level syntax, duplicate-key, indentation, and
-  formatting findings so config changes can be fixed before they break pipelines or
-  runtime environments.
-verification: security_reviewed
-source: https://github.com/adrienverge/yamllint
+title: "Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy"
+description: "Uses yamllint to inspect hand-written or generated YAML before it reaches CI or deploy. The agent returns line-level syntax, duplicate-key, indentation, and formatting findings so config changes can be fixed before they break pipelines or runtime environments."
+verification: "security_reviewed"
+source: "https://github.com/adrienverge/yamllint"
+author: "adrienverge"
+publisher_type: "Open Source Project"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: adrienverge/yamllint
+  github_repo: "adrienverge/yamllint"
   github_stars: 3360
 ---
 
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Uses yamllint to inspect hand-written or generated YAML before it reaches CI or deploy. The agent returns line-level syntax, duplicate-key, indentation, and formatting findings so config changes can be fixed before they break pipelines or runtime environments.
 
+## Prerequisites
+
+Python and the yamllint CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy
+```
+pip install --user yamllint
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://yamllint.readthedocs.io/
 
 ## Source
 

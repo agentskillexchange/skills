@@ -1,18 +1,16 @@
 ---
-title: Record and replay HTTP fixtures for deterministic Python tests with VCR.py
-description: Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python
-  tests into stable runs by recording real HTTP interactions once and replaying them
-  from cassette files. The agent decides which requests belong in fixtures, refreshes
-  stale cassettes when upstream APIs change, and keeps external traffic out of the
-  repeat test loop.
-verification: security_reviewed
-source: https://github.com/kevin1024/vcrpy
+title: "Record and replay HTTP fixtures for deterministic Python tests with VCR.py"
+description: "Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and replaying them from cassette files. The agent decides which requests belong in fixtures, refreshes stale cassettes when upstream APIs change, and keeps external traffic out of the repeat test loop."
+verification: "security_reviewed"
+source: "https://github.com/kevin1024/vcrpy"
+author: "Kevin1024 and contributors"
+publisher_type: "Open Source Project"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: kevin1024/vcrpy
+  github_repo: "kevin1024/vcrpy"
   github_stars: 2956
 ---
 
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and replaying them from cassette files. The agent decides which requests belong in fixtures, refreshes stale cassettes when upstream APIs change, and keeps external traffic out of the repeat test loop.
 
+## Prerequisites
+
+Python plus VCR.py integrated into the project's test framework
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py
+```
+pip install vcrpy
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://vcrpy.readthedocs.io/
 
 ## Source
 

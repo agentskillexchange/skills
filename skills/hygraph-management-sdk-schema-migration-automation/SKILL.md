@@ -1,17 +1,16 @@
 ---
-title: Hygraph Management SDK for Schema Migration Automation
-description: A source-backed ASE skill for the Hygraph Management SDK, the JavaScript
-  package for managing Hygraph project schema through code-first migrations. It is
-  a good fit for agent workflows that need repeatable content-model changes, environment-aware
-  schema updates, and dry-run migration previews.
-verification: security_reviewed
-source: https://github.com/hygraph/management-sdk
+title: "Hygraph Management SDK for Schema Migration Automation"
+description: "A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema through code-first migrations. It is a good fit for agent workflows that need repeatable content-model changes, environment-aware schema updates, and dry-run migration previews."
+verification: "security_reviewed"
+source: "https://github.com/hygraph/management-sdk"
+author: "Hygraph"
+publisher_type: "Company"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: hygraph/management-sdk
+  github_repo: "hygraph/management-sdk"
   github_stars: 51
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema through code-first migrations. It is a good fit for agent workflows that need repeatable content-model changes, environment-aware schema updates, and dry-run migration previews.
 
+## Prerequisites
+
+Node.js, a Hygraph auth token, and a Hygraph environment endpoint
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/hygraph-management-sdk-schema-migration-automation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hygraph-management-sdk-schema-migration-automation
+```
+npm install @hygraph/management-sdk --save-dev
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/hygraph-management-sdk-schema-migration-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://hygraph.com/docs/api-reference/developer-tools/management-sdk
 
 ## Source
 

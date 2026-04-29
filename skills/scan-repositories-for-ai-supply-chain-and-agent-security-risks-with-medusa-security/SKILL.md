@@ -1,17 +1,16 @@
 ---
-title: Scan repositories for AI supply-chain and agent-security risks with Medusa
-  Security
-description: Use Medusa Security before trusting a repository, dependency, or AI-agent
-  codebase when an agent needs a focused scan for repo poisoning, prompt-injection,
-  MCP, and AI supply-chain findings.
-verification: security_reviewed
-source: https://github.com/Pantheon-Security/medusa
+title: "Scan repositories for AI supply-chain and agent-security risks with Medusa Security"
+description: "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and AI supply-chain findings."
+verification: "security_reviewed"
+source: "https://github.com/Pantheon-Security/medusa"
+author: "Pantheon Security"
+publisher_type: "organization"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: Pantheon-Security/medusa
+  github_repo: "Pantheon-Security/medusa"
   github_stars: 256
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and AI supply-chain findings.
 
+## Prerequisites
+
+Python 3.10+, pip, local repository path or remote Git URL
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security
+```
+Install with pip install medusa-security, then run medusa scan against a local repository or use medusa scan --git <repo> to assess a remote repository before trusting it.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.medusa-security.dev
 
 ## Source
 

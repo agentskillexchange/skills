@@ -1,46 +1,43 @@
 ---
-title: Turn notes, logs, and screenshots into structured GitHub issues with GitHub
-  Issue Creator
-description: Convert messy bug notes, error logs, voice dictation, and screenshots
-  into crisp GitHub issue reports with clear repro steps, impact, and evidence.
-verification: listed
-source: https://github.com/microsoft/skills/tree/main/.github/skills/github-issue-creator
+title: "Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator"
+description: "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence."
+verification: "listed"
+source: "https://github.com/microsoft/skills/tree/main/.github/skills/github-issue-creator"
+author: "Microsoft"
+publisher_type: "organization"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: microsoft/skills
-  github_stars: 2103
+  - "Multi-Framework"
 ---
 
 # Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator
 
 Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.
 
+## Prerequisites
+
+GitHub issue markdown format, bug notes or logs, optional screenshots or GIF attachments
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator
+```
+Install the Microsoft skills repository with npx skills add microsoft/skills, then enable github-issue-creator for the agent and supply raw notes, errors, or screenshots to produce a structured issue draft.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://microsoft.github.io/skills/
 
 ## Source
 

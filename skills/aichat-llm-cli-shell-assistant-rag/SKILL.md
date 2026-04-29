@@ -1,17 +1,14 @@
 ---
-title: AIChat All-in-One LLM CLI with Shell Assistant and RAG
-description: AIChat is a comprehensive LLM command-line tool written in Rust that
-  combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider
-  support into a single binary. It connects to 20+ LLM providers including OpenAI,
-  Claude, Gemini, and Ollama.
-verification: security_reviewed
-source: https://github.com/sigoden/aichat
+title: "AIChat All-in-One LLM CLI with Shell Assistant and RAG"
+description: "AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider support into a single binary. It connects to 20+ LLM providers including OpenAI, Claude, Gemini, and Ollama."
+verification: "security_reviewed"
+source: "https://github.com/sigoden/aichat"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: sigoden/aichat
+  github_repo: "sigoden/aichat"
   github_stars: 9754
 ---
 
@@ -21,27 +18,13 @@ AIChat is a comprehensive LLM command-line tool written in Rust that combines ch
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/aichat-llm-cli-shell-assistant-rag/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aichat-llm-cli-shell-assistant-rag
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/aichat-llm-cli-shell-assistant-rag`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

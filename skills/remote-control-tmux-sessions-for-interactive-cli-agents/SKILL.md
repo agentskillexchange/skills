@@ -1,47 +1,43 @@
 ---
-title: Remote-control tmux sessions for interactive CLI agents
-description: Lets an agent drive existing tmux sessions by sending keystrokes and
-  scraping pane output, which is exactly what you need for interactive CLIs that cannot
-  be handled as one-shot shell commands. Use it for session supervision and intervention,
-  not for general terminal automation or starting new background jobs.
-verification: security_reviewed
-source: https://github.com/openclaw/skills/tree/main/skills/steipete/tmux
+title: "Remote-control tmux sessions for interactive CLI agents"
+description: "Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you need for interactive CLIs that cannot be handled as one-shot shell commands. Use it for session supervision and intervention, not for general terminal automation or starting new background jobs."
+verification: "security_reviewed"
+source: "https://github.com/openclaw/skills/tree/main/skills/steipete/tmux"
+author: "steipete"
+publisher_type: "open-source"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- OpenClaw
-tool_ecosystem:
-  github_repo: openclaw/skills
-  github_stars: 4086
+  - "OpenClaw"
 ---
 
 # Remote-control tmux sessions for interactive CLI agents
 
 Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you need for interactive CLIs that cannot be handled as one-shot shell commands. Use it for session supervision and intervention, not for general terminal automation or starting new background jobs.
 
+## Prerequisites
+
+tmux
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/remote-control-tmux-sessions-for-interactive-cli-agents/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/remote-control-tmux-sessions-for-interactive-cli-agents
+```
+Install tmux, then install the tmux skill from openclaw/skills.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/remote-control-tmux-sessions-for-interactive-cli-agents`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/openclaw/skills/tree/main/skills/steipete/tmux
 
 ## Source
 

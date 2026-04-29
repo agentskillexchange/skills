@@ -1,16 +1,14 @@
 ---
-title: AWS CloudTrail Log Normalizer
-description: Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity
-  Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique
-  IDs using the MITRE ATT&CK STIX API.
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+title: "AWS CloudTrail Log Normalizer"
+description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
 ---
 
@@ -20,27 +18,13 @@ Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity S
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aws-cloudtrail-log-normalizer
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/aws-cloudtrail-log-normalizer`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,15 +1,16 @@
 ---
-title: WP Abilities API
-description: Specialized support for defining, exposing, and debugging WordPress abilities
-  through the Abilities API.
-verification: security_reviewed
-source: https://github.com/WordPress/abilities-api
+title: "WP Abilities API"
+description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/abilities-api"
+author: "WordPress"
+publisher_type: "open_source_collective"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: wordpress/abilities-api
+  github_repo: "wordpress/abilities-api"
   github_stars: 203
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
 
+## Prerequisites
+
+WordPress, PHP, Composer
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wp-abilities-api/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wp-abilities-api
+```
+composer require wordpress/abilities-api
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/wp-abilities-api`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/WordPress/abilities-api/blob/trunk/docs/rest-api.md
 
 ## Source
 

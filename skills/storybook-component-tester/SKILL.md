@@ -1,18 +1,15 @@
 ---
-title: Storybook Component Tester
-description: Storybook Component Tester is built around Storybook component workshop.
-  The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub
-  stars). It gives an agent a more technical and reliable way to work with the tool
-  than a thin one-line wrapper, using stable interfaces like stories, controls, test
-  runner, interaction tests, snapshots, addons and preserving the operational […]
-verification: security_reviewed
-source: https://github.com/storybookjs/storybook
+title: "Storybook Component Tester"
+description: "Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational […]"
+verification: "security_reviewed"
+source: "https://github.com/storybookjs/storybook"
+author: "storybookjs"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: storybookjs/storybook
+  github_repo: "storybookjs/storybook"
   github_stars: 89703
 ---
 
@@ -22,27 +19,17 @@ Storybook Component Tester is built around Storybook component workshop. The und
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/storybook-component-tester/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/storybook-component-tester
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/storybook-component-tester`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://storybook.js.org/docs
 
 ## Source
 

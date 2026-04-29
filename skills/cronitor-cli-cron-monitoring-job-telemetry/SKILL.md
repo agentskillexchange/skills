@@ -1,17 +1,16 @@
 ---
-title: Cronitor CLI for Cron Monitoring and Job Telemetry
-description: CronitorCLI is Cronitor’s open-source command-line tool for syncing cron
-  jobs, sending telemetry pings, and wrapping commands with execution monitoring.
-  It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and
-  long-running commands need explicit visibility.
-verification: security_reviewed
-source: https://github.com/cronitorio/cronitor-cli
+title: "Cronitor CLI for Cron Monitoring and Job Telemetry"
+description: "CronitorCLI is Cronitor’s open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility."
+verification: "security_reviewed"
+source: "https://github.com/cronitorio/cronitor-cli"
+author: "cronitorio"
+publisher_type: "Company"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: cronitorio/cronitor-cli
+  github_repo: "cronitorio/cronitor-cli"
   github_stars: 399
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 CronitorCLI is Cronitor’s open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility.
 
+## Prerequisites
+
+Linux, macOS, or Windows shell environment
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/cronitor-cli-cron-monitoring-job-telemetry/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cronitor-cli-cron-monitoring-job-telemetry
+```
+curl https://cronitor.io/install-linux?sudo=1 -H "API-KEY: API_KEY" | sh
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/cronitor-cli-cron-monitoring-job-telemetry`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://cronitor.io/docs/using-cronitor-cli
 
 ## Source
 

@@ -1,17 +1,14 @@
 ---
-title: Dasel Multi-Format Data Selector and Modifier
-description: Dasel (Data-Select) is a command-line tool and Go library for querying,
-  modifying, and transforming structured data across JSON, YAML, TOML, XML, CSV, HCL,
-  and INI formats using a unified selector syntax. It supports format conversion between
-  all supported types.
-verification: security_reviewed
-source: https://github.com/TomWright/dasel
+title: "Dasel Multi-Format Data Selector and Modifier"
+description: "Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data across JSON, YAML, TOML, XML, CSV, HCL, and INI formats using a unified selector syntax. It supports format conversion between all supported types."
+verification: "security_reviewed"
+source: "https://github.com/TomWright/dasel"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: TomWright/dasel
+  github_repo: "TomWright/dasel"
   github_stars: 7892
 ---
 
@@ -21,27 +18,13 @@ Dasel (Data-Select) is a command-line tool and Go library for querying, modifyin
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/dasel-multi-format-data-selector-modifier/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dasel-multi-format-data-selector-modifier
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/dasel-multi-format-data-selector-modifier`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

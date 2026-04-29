@@ -1,17 +1,16 @@
 ---
-title: Cockpit CMS Headless Content Platform with REST and GraphQL APIs
-description: Cockpit CMS is a lightweight headless content platform for teams that
-  want flexible models, REST and GraphQL APIs, and self-hosted deployment without
-  a heavy stack. It supports websites, apps, and multi-language content workflows
-  with either SQLite or MongoDB backends.
-verification: security_reviewed
-source: https://github.com/Cockpit-HQ/Cockpit
+title: "Cockpit CMS Headless Content Platform with REST and GraphQL APIs"
+description: "Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs, and self-hosted deployment without a heavy stack. It supports websites, apps, and multi-language content workflows with either SQLite or MongoDB backends."
+verification: "security_reviewed"
+source: "https://github.com/Cockpit-HQ/Cockpit"
+author: "Cockpit-HQ"
+publisher_type: "Open Source Project"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: Cockpit-HQ/Cockpit
+  github_repo: "Cockpit-HQ/Cockpit"
   github_stars: 686
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs, and self-hosted deployment without a heavy stack. It supports websites, apps, and multi-language content workflows with either SQLite or MongoDB backends.
 
+## Prerequisites
+
+PHP 8.3+, SQLite or MongoDB, Apache or Nginx, Docker optional
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/cockpit-cms-headless-content-platform-rest-graphql-apis/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cockpit-cms-headless-content-platform-rest-graphql-apis
+```
+docker run -d --name cockpit -p 8080:80 -v cockpit_storage:/var/www/html/storage cockpithq/cockpit:core-latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/cockpit-cms-headless-content-platform-rest-graphql-apis`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://getcockpit.com/documentation
 
 ## Source
 

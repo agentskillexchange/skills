@@ -1,16 +1,15 @@
 ---
-title: Regression-test prompts, agents, and RAG outputs before shipping changes
-description: Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior
-  against saved assertions before a change goes live. The value here is the repeatable
-  evaluation workflow, not a generic AI tooling catalog entry.
-verification: security_reviewed
-source: https://github.com/promptfoo/promptfoo
+title: "Regression-test prompts, agents, and RAG outputs before shipping changes"
+description: "Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a change goes live. The value here is the repeatable evaluation workflow, not a generic AI tooling catalog entry."
+verification: "security_reviewed"
+source: "https://github.com/promptfoo/promptfoo"
+author: "promptfoo"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: promptfoo/promptfoo
+  github_repo: "promptfoo/promptfoo"
   github_stars: 20007
 ---
 
@@ -18,29 +17,29 @@ tool_ecosystem:
 
 Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a change goes live. The value here is the repeatable evaluation workflow, not a generic AI tooling catalog entry.
 
+## Prerequisites
+
+Node.js, CI pipeline, model provider credentials
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes
+```
+Install promptfoo, define evaluation cases and assertions in config files, then run local or CI evaluations against prompts, agents, or RAG flows before merging changes.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.promptfoo.dev/docs/intro/
 
 ## Source
 

@@ -1,16 +1,15 @@
 ---
-title: OpenAI Agents SDK JavaScript Workflow Toolkit
-description: A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript.
-  It covers agent orchestration, tools, handoffs, tracing, and the practical install
-  path.
-verification: security_reviewed
-source: https://github.com/openai/openai-agents-js
+title: "OpenAI Agents SDK JavaScript Workflow Toolkit"
+description: "A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools, handoffs, tracing, and the practical install path."
+verification: "security_reviewed"
+source: "https://github.com/openai/openai-agents-js"
+author: "openai"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: openai/openai-agents-js
+  github_repo: "openai/openai-agents-js"
   github_stars: 2635
 ---
 
@@ -20,27 +19,13 @@ A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/openai-agents-sdk-javascript-workflow-toolkit/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openai-agents-sdk-javascript-workflow-toolkit
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/openai-agents-sdk-javascript-workflow-toolkit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

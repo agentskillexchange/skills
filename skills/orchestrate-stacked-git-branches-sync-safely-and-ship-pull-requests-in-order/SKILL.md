@@ -1,17 +1,16 @@
 ---
-title: Orchestrate stacked Git branches, sync safely, and ship pull requests in order
-description: Uses Git Town to keep a branch stack healthy by syncing with the main
-  branch, rebasing dependent branches in order, opening or updating pull requests,
-  and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow
-  control instead of improvising long git command chains.
-verification: security_reviewed
-source: https://github.com/git-town/git-town
+title: "Orchestrate stacked Git branches, sync safely, and ship pull requests in order"
+description: "Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull requests, and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow control instead of improvising long git command chains."
+verification: "security_reviewed"
+source: "https://github.com/git-town/git-town"
+author: "Git Town"
+publisher_type: "Open Source Project"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: git-town/git-town
+  github_repo: "git-town/git-town"
   github_stars: 3143
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull requests, and cleaning up after merge. Best when an agent needs repeatable multi-branch workflow control instead of improvising long git command chains.
 
+## Prerequisites
+
+Git CLI and a Git repository
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order
+```
+brew install git-town
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.git-town.com/
 
 ## Source
 

@@ -1,19 +1,18 @@
 ---
-title: Trace Python memory allocation hotspots before leaks and spikes reach production
-  with Memray
-description: Lets an agent record Python allocation traces and inspect the biggest
-  allocators, retained objects, and leak paths before memory growth turns into a production
-  incident.
-verification: security_reviewed
-source: https://github.com/bloomberg/memray
+title: "Trace Python memory allocation hotspots before leaks and spikes reach production with Memray"
+description: "Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths before memory growth turns into a production incident."
+verification: "security_reviewed"
+source: "https://github.com/bloomberg/memray"
+author: "Bloomberg"
+publisher_type: "organization"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: bloomberg/memray
+  github_repo: "bloomberg/memray"
   github_stars: 14986
-  npm_package: memray
+  npm_package: "memray"
   npm_weekly_downloads: 16282665
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths before memory growth turns into a production incident.
 
+## Prerequisites
+
+Python, pip or uv, memray CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray
+```
+pip install memray
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://bloomberg.github.io/memray/
 
 ## Source
 

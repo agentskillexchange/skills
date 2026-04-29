@@ -1,17 +1,18 @@
 ---
-title: Rehearse and run scripted terminal demos with realistic playback using doitlive
-description: Play back a scripted terminal demo with controlled typing and pauses
-  so talks, onboarding sessions, and trainings stay smooth.
-verification: listed
-source: https://github.com/sloria/doitlive
+title: "Rehearse and run scripted terminal demos with realistic playback using doitlive"
+description: "Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth."
+verification: "listed"
+source: "https://github.com/sloria/doitlive"
+author: "sloria"
+publisher_type: "individual"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: sloria/doitlive
+  github_repo: "sloria/doitlive"
   github_stars: 3561
-  npm_package: doitlive
+  npm_package: "doitlive"
   npm_weekly_downloads: 236
 ---
 
@@ -19,29 +20,29 @@ tool_ecosystem:
 
 Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth.
 
+## Prerequisites
+
+Python environment, doitlive installation, a scripted demo file, terminal access for playback during rehearsal or presentation
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive
+```
+Install doitlive from the upstream package instructions, write the demo steps in its script format, then run the playback command and tune prompts, speed, and pauses for the target session.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://doitlive.readthedocs.io/
 
 ## Source
 

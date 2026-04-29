@@ -1,17 +1,16 @@
 ---
-title: Wagtail Django CMS for Structured Content and Editorial Workflows
-description: Wagtail is an open source CMS built on Django for teams that need structured
-  content, flexible page models, and a polished editor experience. It works for traditional
-  websites and headless builds, with a content API, image handling, search, and multi-site
-  support baked in.
-verification: security_reviewed
-source: https://github.com/wagtail/wagtail
+title: "Wagtail Django CMS for Structured Content and Editorial Workflows"
+description: "Wagtail is an open source CMS built on Django for teams that need structured content, flexible page models, and a polished editor experience. It works for traditional websites and headless builds, with a content API, image handling, search, and multi-site support baked in."
+verification: "security_reviewed"
+source: "https://github.com/wagtail/wagtail"
+author: "Wagtail"
+publisher_type: "Open Source Project"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: wagtail/wagtail
+  github_repo: "wagtail/wagtail"
   github_stars: 20291
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Wagtail is an open source CMS built on Django for teams that need structured content, flexible page models, and a polished editor experience. It works for traditional websites and headless builds, with a content API, image handling, search, and multi-site support baked in.
 
+## Prerequisites
+
+Python 3, pip, Django
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wagtail-django-cms-structured-content-editorial-workflows/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wagtail-django-cms-structured-content-editorial-workflows
+```
+pip install wagtail && wagtail start mysite
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/wagtail-django-cms-structured-content-editorial-workflows`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.wagtail.org/
 
 ## Source
 

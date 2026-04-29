@@ -1,14 +1,13 @@
 ---
-title: Figma Export Automator
-description: Exports assets from Figma files using the Figma REST API v1. Extracts
-  component sets, design tokens (colors, typography, spacing), and renders frames
-  as SVG/PNG. Generates CSS custom properties from styles.
-verification: security_reviewed
-source: https://developers.figma.com/docs/rest-api/
+title: "Figma Export Automator"
+description: "Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors, typography, spacing), and renders frames as SVG/PNG. Generates CSS custom properties from styles."
+verification: "security_reviewed"
+source: "https://developers.figma.com/docs/rest-api/"
+author: "Figma"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
 
 # Figma Export Automator
@@ -17,27 +16,17 @@ Exports assets from Figma files using the Figma REST API v1. Extracts component 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/figma-export-automator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/figma-export-automator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/figma-export-automator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://developers.figma.com/docs/rest-api/
 
 ## Source
 

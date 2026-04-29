@@ -1,17 +1,18 @@
 ---
-title: Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent
-description: Connect LLMs to MCP servers through composable patterns like router,
-  evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles.
-verification: security_reviewed
-source: https://github.com/lastmile-ai/mcp-agent
+title: "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent"
+description: "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles."
+verification: "security_reviewed"
+source: "https://github.com/lastmile-ai/mcp-agent"
+author: "LastMile AI"
+publisher_type: "open_source_project"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: lastmile-ai/mcp-agent
+  github_repo: "lastmile-ai/mcp-agent"
   github_stars: 8276
-  npm_package: mcp-agent
+  npm_package: "mcp-agent"
   npm_weekly_downloads: 29247
 ---
 
@@ -19,29 +20,29 @@ tool_ecosystem:
 
 Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles.
 
+## Prerequisites
+
+Python runtime, MCP servers, LLM API key, optional Temporal for durable workflows
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent
+```
+Install mcp-agent from the upstream package, configure your MCP servers and model credentials, then compose the desired workflow pattern from the quickstart examples.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.mcp-agent.com/
 
 ## Source
 

@@ -1,17 +1,14 @@
 ---
-title: Helm Chart Diff & Upgrade Manager
-description: Uses helm-diff to compute a human-readable diff between deployed and
-  candidate chart versions before upgrade. Automatically bumps image tags by querying
-  the OCI registry, then executes helm upgrade –atomic with configurable rollback
-  timeouts. Sends upgrade status to PagerDuty or Datadog.
-verification: security_reviewed
-source: https://github.com/helm/helm
+title: "Helm Chart Diff & Upgrade Manager"
+description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
+verification: "security_reviewed"
+source: "https://github.com/helm/helm"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: helm/helm
+  github_repo: "helm/helm"
   github_stars: 29693
 ---
 
@@ -21,27 +18,13 @@ Uses helm-diff to compute a human-readable diff between deployed and candidate c
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/helm-chart-diff-upgrade-manager
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/helm-chart-diff-upgrade-manager`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

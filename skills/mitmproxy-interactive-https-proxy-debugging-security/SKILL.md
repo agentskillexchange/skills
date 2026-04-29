@@ -1,17 +1,14 @@
 ---
-title: mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
-description: mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy
-  for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3,
-  and WebSockets, offering console, command-line, and web-based interfaces for intercepting,
-  inspecting, modifying, and replaying web traffic.
-verification: security_reviewed
-source: https://github.com/mitmproxy/mitmproxy
+title: "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing"
+description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line, and web-based interfaces for intercepting, inspecting, modifying, and replaying web traffic."
+verification: "security_reviewed"
+source: "https://github.com/mitmproxy/mitmproxy"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: mitmproxy/mitmproxy
+  github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881
 ---
 
@@ -21,27 +18,13 @@ mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetra
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mitmproxy-interactive-https-proxy-debugging-security/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mitmproxy-interactive-https-proxy-debugging-security
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/mitmproxy-interactive-https-proxy-debugging-security`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

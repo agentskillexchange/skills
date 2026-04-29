@@ -1,17 +1,16 @@
 ---
-title: Checkly CLI Monitoring as Code for API and Browser Checks
-description: Checkly CLI lets agents define, test, and deploy synthetic monitoring
-  from a JavaScript or TypeScript codebase. It is especially useful when monitoring
-  should live next to Playwright tests, API checks, and CI workflows instead of being
-  configured by hand in a UI.
-verification: security_reviewed
-source: https://github.com/checkly/checkly-cli
+title: "Checkly CLI Monitoring as Code for API and Browser Checks"
+description: "Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It is especially useful when monitoring should live next to Playwright tests, API checks, and CI workflows instead of being configured by hand in a UI."
+verification: "security_reviewed"
+source: "https://github.com/checkly/checkly-cli"
+author: "checkly"
+publisher_type: "Company"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: checkly/checkly-cli
+  github_repo: "checkly/checkly-cli"
   github_stars: 92
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It is especially useful when monitoring should live next to Playwright tests, API checks, and CI workflows instead of being configured by hand in a UI.
 
+## Prerequisites
+
+npm, pip, go, java
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks
+```
+npm create checkly@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://checklyhq.com/docs/cli/
 
 ## Source
 

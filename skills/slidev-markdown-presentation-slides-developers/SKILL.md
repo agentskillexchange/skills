@@ -1,16 +1,14 @@
 ---
-title: Slidev Markdown Presentation Slides for Developers
-description: Slidev is a web-based presentation tool built for developers that turns
-  Markdown files into interactive slide decks with code highlighting, live coding
-  via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX.
-verification: security_reviewed
-source: https://github.com/slidevjs/slidev
+title: "Slidev Markdown Presentation Slides for Developers"
+description: "Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX."
+verification: "security_reviewed"
+source: "https://github.com/slidevjs/slidev"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: slidevjs/slidev
+  github_repo: "slidevjs/slidev"
   github_stars: 45362
 ---
 
@@ -20,27 +18,13 @@ Slidev is a web-based presentation tool built for developers that turns Markdown
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-developers/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/slidev-markdown-presentation-slides-developers
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/slidev-markdown-presentation-slides-developers`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

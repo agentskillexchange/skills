@@ -1,19 +1,16 @@
 ---
-title: Bootstrap an OpenAPI spec from captured API traffic before client or test automation
-  starts
-description: Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exports
-  into a first-pass OpenAPI document that an agent can refine, validate, and hand
-  off to downstream tooling. Invoke it when the API already exists but the contract
-  does not, and you need a concrete spec before generating clients, mocks, tests,
-  or reviewable docs.
-verification: security_reviewed
-source: https://github.com/alufers/mitmproxy2swagger
+title: "Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts"
+description: "Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exports into a first-pass OpenAPI document that an agent can refine, validate, and hand off to downstream tooling. Invoke it when the API already exists but the contract does not, and you need a concrete spec before generating clients, mocks, tests, or reviewable docs."
+verification: "security_reviewed"
+source: "https://github.com/alufers/mitmproxy2swagger"
+author: "alufers"
+publisher_type: "Individual Maintainer"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: alufers/mitmproxy2swagger
+  github_repo: "alufers/mitmproxy2swagger"
   github_stars: 9347
 ---
 
@@ -21,29 +18,29 @@ tool_ecosystem:
 
 Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exports into a first-pass OpenAPI document that an agent can refine, validate, and hand off to downstream tooling. Invoke it when the API already exists but the contract does not, and you need a concrete spec before generating clients, mocks, tests, or reviewable docs.
 
+## Prerequisites
+
+Python 3 and pip, plus mitmproxy flow captures or a HAR export from browser DevTools
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation
+```
+pip install mitmproxy2swagger
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/alufers/mitmproxy2swagger
 
 ## Source
 

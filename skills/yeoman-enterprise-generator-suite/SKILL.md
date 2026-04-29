@@ -1,19 +1,17 @@
 ---
-title: Yeoman Enterprise Generator Suite
-description: Manages Yeoman generators for enterprise application scaffolding with
-  custom sub-generators. Handles Angular module generation via generator-angular,
-  Express API scaffolding, and composite generators with shared prompting and conflict
-  resolution.
-verification: security_reviewed
-source: https://github.com/yeoman/yo
+title: "Yeoman Enterprise Generator Suite"
+description: "Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution."
+verification: "security_reviewed"
+source: "https://github.com/yeoman/yo"
+author: "Yeoman"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: yeoman/yo
+  github_repo: "yeoman/yo"
   github_stars: 3956
-  npm_package: yo
+  npm_package: "yo"
   npm_weekly_downloads: 428357
 ---
 
@@ -23,27 +21,23 @@ Manages Yeoman generators for enterprise application scaffolding with custom sub
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/yeoman-enterprise-generator-suite
+```
+npm install -g yo
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/yeoman-enterprise-generator-suite`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://yeoman.io/
 
 ## Source
 

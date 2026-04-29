@@ -1,19 +1,18 @@
 ---
-title: Vercel Agent Browser
-description: Vercel Agent Browser is a browser automation CLI built specifically for
-  AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility
-  snapshots, click elements, fill forms, capture screenshots, and manage browser state
-  from the command line.
-verification: security_reviewed
-source: https://github.com/vercel-labs/agent-browser
+title: "Vercel Agent Browser"
+description: "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line."
+verification: "security_reviewed"
+source: "https://github.com/vercel-labs/agent-browser"
+author: "Vercel Labs"
+publisher_type: "Company"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: vercel-labs/agent-browser
+  github_repo: "vercel-labs/agent-browser"
   github_stars: 29072
-  npm_package: agent-browser
+  npm_package: "agent-browser"
   npm_weekly_downloads: 601908
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line.
 
+## Prerequisites
+
+Node.js, Chrome or Chrome for Testing
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/vercel-agent-browser/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/vercel-agent-browser
+```
+npm install -g agent-browser && agent-browser install
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/vercel-agent-browser`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://agent-browser.dev
 
 ## Source
 

@@ -1,20 +1,17 @@
 ---
-title: AWS CDK Scaffolder
-description: AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The
-  underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars).
-  It gives an agent a more technical and reliable way to work with the tool than a
-  thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda,
-  CloudWatch, DynamoDB, EC2 and […]
-verification: security_reviewed
-source: https://github.com/aws/aws-cdk
+title: "AWS CDK Scaffolder"
+description: "AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]"
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-cdk"
+author: "aws"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: aws/aws-cdk
+  github_repo: "aws/aws-cdk"
   github_stars: 12737
-  npm_package: aws-cdk
+  npm_package: "aws-cdk"
   npm_weekly_downloads: 3290338
 ---
 
@@ -22,29 +19,29 @@ tool_ecosystem:
 
 AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]
 
+## Prerequisites
+
+Node.js, AWS CDK CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/aws-cdk-scaffolder/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aws-cdk-scaffolder
+```
+npm install -g aws-cdk
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/aws-cdk-scaffolder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
 
 ## Source
 

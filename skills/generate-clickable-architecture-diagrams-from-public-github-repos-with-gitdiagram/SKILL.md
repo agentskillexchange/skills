@@ -1,15 +1,16 @@
 ---
-title: Generate clickable architecture diagrams from public GitHub repos with GitDiagram
-description: Turn a public GitHub repository into an interactive architecture diagram
-  before onboarding, code review, or agent handoff.
-verification: listed
-source: https://github.com/ahmedkhaleel2004/gitdiagram
+title: "Generate clickable architecture diagrams from public GitHub repos with GitDiagram"
+description: "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff."
+verification: "listed"
+source: "https://github.com/ahmedkhaleel2004/gitdiagram"
+author: "Ahmed Khaleel"
+publisher_type: "open_source_project"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ahmedkhaleel2004/gitdiagram
+  github_repo: "ahmedkhaleel2004/gitdiagram"
   github_stars: 15447
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff.
 
+## Prerequisites
+
+Public GitHub repository URL, web access, optional self-hosted OpenAI or OpenRouter configuration
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram
+```
+Use the hosted service at gitdiagram.com or self-host from the upstream repository.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://gitdiagram.com
 
 ## Source
 

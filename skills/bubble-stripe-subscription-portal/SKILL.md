@@ -1,15 +1,13 @@
 ---
-title: Bubble.io Stripe Subscription Portal Builder
-description: Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service
-  subscription management portal inside a Bubble application. Configures Bubble’s
-  API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook
-  events for real-time plan change updates.
-verification: security_reviewed
-source: https://manual.bubble.io/
+title: "Bubble.io Stripe Subscription Portal Builder"
+description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
+verification: "security_reviewed"
+source: "https://manual.bubble.io/"
+author: "Bubble"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
 
 # Bubble.io Stripe Subscription Portal Builder
@@ -18,27 +16,17 @@ Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscri
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bubble-stripe-subscription-portal
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/bubble-stripe-subscription-portal`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://manual.bubble.io/
 
 ## Source
 

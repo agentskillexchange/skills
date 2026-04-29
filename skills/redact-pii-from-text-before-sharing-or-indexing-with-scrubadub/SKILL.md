@@ -1,16 +1,16 @@
 ---
-title: Redact PII from text before sharing or indexing with scrubadub
-description: Use scrubadub when an agent needs to strip emails, phone numbers, names,
-  and similar sensitive text before sending content to external systems or search
-  indexes.
-verification: listed
-source: https://github.com/LeapBeyond/scrubadub
+title: "Redact PII from text before sharing or indexing with scrubadub"
+description: "Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search indexes."
+verification: "listed"
+source: "https://github.com/LeapBeyond/scrubadub"
+author: "LeapBeyond"
+publisher_type: "organization"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: LeapBeyond/scrubadub
+  github_repo: "LeapBeyond/scrubadub"
   github_stars: 421
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search indexes.
 
+## Prerequisites
+
+Python and scrubadub, plus any text source the agent needs to sanitize.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub
+```
+Install with `pip install scrubadub`, then run its cleaners in preprocessing steps before text is shared externally, indexed, or passed into downstream LLM workflows.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://scrubadub.readthedocs.io/en/stable/
 
 ## Source
 

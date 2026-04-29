@@ -1,14 +1,13 @@
 ---
-title: NPM Audit Deep Scanner
-description: Extends npm audit with deep transitive dependency analysis using the
-  npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against
-  the OSV.dev vulnerability database.
-verification: security_reviewed
-source: https://docs.npmjs.com/cli/v10/commands/npm-audit/
+title: "NPM Audit Deep Scanner"
+description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
+verification: "security_reviewed"
+source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
+author: "npm, Inc."
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
 
 # NPM Audit Deep Scanner
@@ -17,27 +16,17 @@ Extends npm audit with deep transitive dependency analysis using the npm Registr
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/npm-audit-deep-scanner/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/npm-audit-deep-scanner
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/npm-audit-deep-scanner`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.npmjs.com/cli/v10/commands/npm-audit/
 
 ## Source
 

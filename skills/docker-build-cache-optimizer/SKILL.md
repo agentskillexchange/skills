@@ -1,16 +1,14 @@
 ---
-title: Docker Build Cache Optimizer
-description: Optimizes Docker build performance using BuildKit cache mount analysis,
-  docker history layer inspection, and Dockerfile linting via hadolint. Reduces build
-  times by restructuring layer ordering and implementing multi-stage build patterns.
-verification: security_reviewed
-source: https://github.com/moby/moby
+title: "Docker Build Cache Optimizer"
+description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
+verification: "security_reviewed"
+source: "https://github.com/moby/moby"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
 ---
 
@@ -20,27 +18,13 @@ Optimizes Docker build performance using BuildKit cache mount analysis, docker h
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/docker-build-cache-optimizer/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docker-build-cache-optimizer
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/docker-build-cache-optimizer`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,18 +1,16 @@
 ---
-title: Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before
-  publishing
-description: Use Citation.js when an agent has raw references and needs clean citation
-  output instead of hand-formatting sources. It can resolve supported identifiers,
-  normalize metadata into CSL-JSON, and emit bibliography or inline citation formats
-  that fit articles, research notes, docs, or release materials.
-verification: security_reviewed
-source: https://www.npmjs.com/package/citation-js
+title: "Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing"
+description: "Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources. It can resolve supported identifiers, normalize metadata into CSL-JSON, and emit bibliography or inline citation formats that fit articles, research notes, docs, or release materials."
+verification: "security_reviewed"
+source: "https://www.npmjs.com/package/citation-js"
+author: "Lars Willighagen"
+publisher_type: "Open Source Project"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  npm_package: citation-js
+  npm_package: "citation-js"
   npm_weekly_downloads: 10654
 ---
 
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources. It can resolve supported identifiers, normalize metadata into CSL-JSON, and emit bibliography or inline citation formats that fit articles, research notes, docs, or release materials.
 
+## Prerequisites
+
+Node.js and npm
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing
+```
+npm install citation-js
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://citation.js.org/
 
 ## Source
 

@@ -1,17 +1,14 @@
 ---
-title: Lightpanda Headless Browser for AI Automation
-description: Lightpanda is a headless browser built from scratch in Zig, purpose-designed
-  for AI agents and web automation. It delivers 11x faster page rendering and 9x lower
-  memory usage than Chrome while maintaining full CDP compatibility with Playwright,
-  Puppeteer, and chromedp.
-verification: security_reviewed
-source: https://github.com/lightpanda-io/browser
+title: "Lightpanda Headless Browser for AI Automation"
+description: "Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It delivers 11x faster page rendering and 9x lower memory usage than Chrome while maintaining full CDP compatibility with Playwright, Puppeteer, and chromedp."
+verification: "security_reviewed"
+source: "https://github.com/lightpanda-io/browser"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: lightpanda-io/browser
+  github_repo: "lightpanda-io/browser"
   github_stars: 26505
 ---
 
@@ -21,27 +18,13 @@ Lightpanda is a headless browser built from scratch in Zig, purpose-designed for
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lightpanda-headless-browser-ai-automation/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lightpanda-headless-browser-ai-automation
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/lightpanda-headless-browser-ai-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

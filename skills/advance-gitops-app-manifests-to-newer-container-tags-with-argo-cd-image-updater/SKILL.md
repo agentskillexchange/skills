@@ -1,15 +1,16 @@
 ---
-title: Advance GitOps app manifests to newer container tags with Argo CD Image Updater
-description: Track approved container images and write back the matching GitOps manifest
-  changes instead of hand-editing tags across Argo CD applications.
-verification: security_reviewed
-source: https://github.com/argoproj-labs/argocd-image-updater
+title: "Advance GitOps app manifests to newer container tags with Argo CD Image Updater"
+description: "Track approved container images and write back the matching GitOps manifest changes instead of hand-editing tags across Argo CD applications."
+verification: "security_reviewed"
+source: "https://github.com/argoproj-labs/argocd-image-updater"
+author: "Argo Project Labs"
+publisher_type: "organization"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: argoproj-labs/argocd-image-updater
+  github_repo: "argoproj-labs/argocd-image-updater"
   github_stars: 1661
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Track approved container images and write back the matching GitOps manifest changes instead of hand-editing tags across Argo CD applications.
 
+## Prerequisites
+
+Argo CD-managed Kubernetes applications, Argo CD Image Updater, registry access, and Git or Argo CD API write-back permissions
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/advance-gitops-app-manifests-to-newer-container-tags-with-argo-cd-image-updater/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/advance-gitops-app-manifests-to-newer-container-tags-with-argo-cd-image-updater
+```
+Install Argo CD Image Updater from the upstream manifests, Helm chart, or release artifacts, configure registry credentials and the desired write-back method, then annotate supported Argo CD applications so approved image tags can be tracked and updated automatically.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/advance-gitops-app-manifests-to-newer-container-tags-with-argo-cd-image-updater`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://argocd-image-updater.readthedocs.io/
 
 ## Source
 

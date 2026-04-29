@@ -1,20 +1,17 @@
 ---
-title: Devcontainer Setup Agent
-description: Devcontainer Setup Agent is built around Docker container platform. The
-  underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives
-  an agent a more technical and reliable way to work with the tool than a thin one-line
-  wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose,
-  image builds, registries and preserving the […]
-verification: security_reviewed
-source: https://github.com/devcontainers/cli
+title: "Devcontainer Setup Agent"
+description: "Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]"
+verification: "security_reviewed"
+source: "https://github.com/devcontainers/cli"
+author: "devcontainers"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: devcontainers/cli
+  github_repo: "devcontainers/cli"
   github_stars: 2637
-  npm_package: '@devcontainers/cli'
+  npm_package: "@devcontainers/cli"
   npm_weekly_downloads: 260579
 ---
 
@@ -22,29 +19,29 @@ tool_ecosystem:
 
 Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]
 
+## Prerequisites
+
+Node.js, Docker
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/devcontainer-setup-agent/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/devcontainer-setup-agent
+```
+npm install -g @devcontainers/cli
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/devcontainer-setup-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/devcontainers/cli
 
 ## Source
 

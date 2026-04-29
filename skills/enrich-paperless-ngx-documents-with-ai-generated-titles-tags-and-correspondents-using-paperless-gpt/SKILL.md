@@ -1,16 +1,16 @@
 ---
-title: Enrich Paperless-ngx documents with AI-generated titles tags and correspondents
-  using paperless-gpt
-description: Take an OCR archive that already exists in Paperless-ngx and push smarter
-  titles, tags, and document metadata back into it.
-verification: listed
-source: https://github.com/icereed/paperless-gpt
+title: "Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt"
+description: "Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it."
+verification: "listed"
+source: "https://github.com/icereed/paperless-gpt"
+author: "icereed"
+publisher_type: "individual"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: icereed/paperless-gpt
+  github_repo: "icereed/paperless-gpt"
   github_stars: 2256
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it.
 
+## Prerequisites
+
+Paperless-ngx instance access, paperless-gpt runtime, supported LLM provider credentials, OCRed document archive
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt
+```
+Deploy paperless-gpt with the repository Docker or local runtime path, connect it to the target Paperless-ngx instance and model provider, then run the documented metadata enrichment workflow against existing documents.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/icereed/paperless-gpt
 
 ## Source
 

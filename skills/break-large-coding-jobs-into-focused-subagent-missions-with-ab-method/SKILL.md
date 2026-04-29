@@ -1,16 +1,16 @@
 ---
-title: Break large coding jobs into focused subagent missions with AB Method
-description: Use AB Method when a Claude Code task is too large for one pass and needs
-  to be broken into focused tasks and missions that are completed incrementally instead
-  of trying to solve the whole project in one conversation.
-verification: security_reviewed
-source: https://github.com/ayoubben18/ab-method
+title: "Break large coding jobs into focused subagent missions with AB Method"
+description: "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation."
+verification: "security_reviewed"
+source: "https://github.com/ayoubben18/ab-method"
+author: "ayoubben18"
+publisher_type: "individual"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: ayoubben18/ab-method
+  github_repo: "ayoubben18/ab-method"
   github_stars: 159
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation.
 
+## Prerequisites
+
+Claude Code, the AB Method installer or workflow files, and a repository where generated task, mission, and architecture documents can live alongside implementation work.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method
+```
+Install AB Method using the documented npx installer or manual project setup, let it add the command files and workflow directories to your Claude Code environment, then create tasks and missions through the provided commands so larger jobs run as bounded incremental work instead of one monolithic session.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/ayoubben18/ab-method
 
 ## Source
 

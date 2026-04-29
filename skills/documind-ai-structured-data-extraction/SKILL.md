@@ -1,19 +1,16 @@
 ---
-title: Documind AI-Powered Structured Data Extraction from Documents
-description: Documind is an open-source Node.js tool that uses AI to extract structured
-  JSON data from PDFs and other documents. Define a custom schema for what you need,
-  and Documind returns clean, typed data — supporting OpenAI and local LLM backends
-  like Llama 3.2 Vision.
-verification: security_reviewed
-source: https://github.com/DocumindHQ/documind
+title: "Documind AI-Powered Structured Data Extraction from Documents"
+description: "Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision."
+verification: "security_reviewed"
+source: "https://github.com/DocumindHQ/documind"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: DocumindHQ/documind
+  github_repo: "DocumindHQ/documind"
   github_stars: 1468
-  npm_package: documind
+  npm_package: "documind"
   npm_weekly_downloads: 14
 ---
 
@@ -23,27 +20,13 @@ Documind is an open-source Node.js tool that uses AI to extract structured JSON 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/documind-ai-structured-data-extraction/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/documind-ai-structured-data-extraction
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/documind-ai-structured-data-extraction`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

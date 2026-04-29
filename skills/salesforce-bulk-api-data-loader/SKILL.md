@@ -1,18 +1,17 @@
 ---
-title: Salesforce Bulk API Data Loader
-description: Performs high-volume data operations using the Salesforce Bulk API 2.0.
-  Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status
-  via getJobInfo() for millions of records.
-verification: security_reviewed
-source: https://github.com/jsforce/jsforce
+title: "Salesforce Bulk API Data Loader"
+description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
+verification: "security_reviewed"
+source: "https://github.com/jsforce/jsforce"
+author: "Salesforce"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: jsforce/jsforce
+  github_repo: "jsforce/jsforce"
   github_stars: 1453
-  npm_package: jsforce
+  npm_package: "jsforce"
   npm_weekly_downloads: 936641
 ---
 
@@ -22,27 +21,17 @@ Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/salesforce-bulk-api-data-loader
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/salesforce-bulk-api-data-loader`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/
 
 ## Source
 

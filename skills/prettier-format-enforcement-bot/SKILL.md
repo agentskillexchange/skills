@@ -1,18 +1,17 @@
 ---
-title: Prettier Format Enforcement Bot
-description: Enforces code formatting standards using the Prettier API (prettier.format(),
-  prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with
-  .prettierrc configuration management.
-verification: security_reviewed
-source: https://github.com/prettier/prettier
+title: "Prettier Format Enforcement Bot"
+description: "Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with .prettierrc configuration management."
+verification: "security_reviewed"
+source: "https://github.com/prettier/prettier"
+author: "Prettier"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: prettier/prettier
+  github_repo: "prettier/prettier"
   github_stars: 51820
-  npm_package: prettier
+  npm_package: "prettier"
   npm_weekly_downloads: 90506007
 ---
 
@@ -22,27 +21,23 @@ Enforces code formatting standards using the Prettier API (prettier.format(), pr
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/prettier-format-enforcement-bot/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prettier-format-enforcement-bot
+```
+npm install --save-dev --save-exact prettier
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/prettier-format-enforcement-bot`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://prettier.io/docs/
 
 ## Source
 

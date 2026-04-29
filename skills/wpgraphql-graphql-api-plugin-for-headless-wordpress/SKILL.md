@@ -1,18 +1,15 @@
 ---
-title: WPGraphQL GraphQL API Plugin for Headless WordPress
-description: WPGraphQL is the core GraphQL API plugin for WordPress, giving developers
-  a typed schema for posts, terms, users, menus, and custom content. It is a strong
-  fit for headless builds, automation agents, and integration workflows that need
-  structured reads and mutations instead of scraping wp-admin or loosely shaped REST
-  responses.
-verification: security_reviewed
-source: https://github.com/wp-graphql/wp-graphql
+title: "WPGraphQL GraphQL API Plugin for Headless WordPress"
+description: "WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is a strong fit for headless builds, automation agents, and integration workflows that need structured reads and mutations instead of scraping wp-admin or loosely shaped REST responses."
+verification: "security_reviewed"
+source: "https://github.com/wp-graphql/wp-graphql"
+author: "wp-graphql"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: wp-graphql/wp-graphql
+  github_repo: "wp-graphql/wp-graphql"
   github_stars: 3776
 ---
 
@@ -22,27 +19,17 @@ WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a type
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wpgraphql-graphql-api-plugin-for-headless-wordpress
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/wpgraphql-graphql-api-plugin-for-headless-wordpress`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.wpgraphql.com
 
 ## Source
 

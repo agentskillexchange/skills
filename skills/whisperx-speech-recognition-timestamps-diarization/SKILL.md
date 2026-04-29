@@ -1,17 +1,14 @@
 ---
-title: WhisperX Speech Recognition with Word-Level Timestamps and Diarization
-description: WhisperX extends OpenAI Whisper with batched inference for 70x realtime
-  transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice
-  activity detection, and speaker diarization. It produces accurate per-word timestamps
-  and speaker labels from audio files.
-verification: security_reviewed
-source: https://github.com/m-bain/whisperX
+title: "WhisperX Speech Recognition with Word-Level Timestamps and Diarization"
+description: "WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice activity detection, and speaker diarization. It produces accurate per-word timestamps and speaker labels from audio files."
+verification: "security_reviewed"
+source: "https://github.com/m-bain/whisperX"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: m-bain/whisperX
+  github_repo: "m-bain/whisperX"
   github_stars: 21036
 ---
 
@@ -21,27 +18,13 @@ WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcri
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/whisperx-speech-recognition-timestamps-diarization/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/whisperx-speech-recognition-timestamps-diarization
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/whisperx-speech-recognition-timestamps-diarization`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,15 +1,14 @@
 ---
-title: Format shell scripts into a stable house style before review with shfmt
-description: Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style
-  noise stops hiding the real changes.
-verification: listed
-source: https://github.com/mvdan/sh
+title: "Format shell scripts into a stable house style before review with shfmt"
+description: "Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes."
+verification: "listed"
+source: "https://github.com/mvdan/sh"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mvdan/sh
+  github_repo: "mvdan/sh"
   github_stars: 8700
 ---
 
@@ -19,27 +18,13 @@ Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

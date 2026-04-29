@@ -1,16 +1,16 @@
 ---
-title: Inventory live database schemas and generate reviewable docs before risky SQL
-  changes with SchemaCrawler
-description: Lets an agent crawl a live database and produce schema inventories, dependency
-  views, and reviewable documentation before migrations or handoffs.
-verification: listed
-source: https://github.com/schemacrawler/SchemaCrawler
+title: "Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler"
+description: "Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs."
+verification: "listed"
+source: "https://github.com/schemacrawler/SchemaCrawler"
+author: "SchemaCrawler"
+publisher_type: "organization"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: schemacrawler/SchemaCrawler
+  github_repo: "schemacrawler/SchemaCrawler"
   github_stars: 1801
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs.
 
+## Prerequisites
+
+Java, JDBC driver for target database, SchemaCrawler CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler
+```
+Install the SchemaCrawler CLI, then run it with the correct JDBC driver for the target database.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.schemacrawler.com/
 
 ## Source
 

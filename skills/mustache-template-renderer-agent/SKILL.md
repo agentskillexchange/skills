@@ -1,18 +1,16 @@
 ---
-title: Mustache Template Renderer
-description: Renders Mustache logic-less templates with partials resolution and lambda
-  support. Uses the mustache.js library for client and server-side rendering with
-  custom delimiter configuration.
-verification: security_reviewed
-source: https://github.com/janl/mustache.js
+title: "Mustache Template Renderer"
+description: "Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for client and server-side rendering with custom delimiter configuration."
+verification: "security_reviewed"
+source: "https://github.com/janl/mustache.js"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: janl/mustache.js
+  github_repo: "janl/mustache.js"
   github_stars: 16718
-  npm_package: mustache
+  npm_package: "mustache"
   npm_weekly_downloads: 12663471
 ---
 
@@ -22,27 +20,13 @@ Renders Mustache logic-less templates with partials resolution and lambda suppor
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mustache-template-renderer-agent/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mustache-template-renderer-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/mustache-template-renderer-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

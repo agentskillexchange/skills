@@ -1,18 +1,16 @@
 ---
-title: Tiptap Headless Rich Text Editor Framework for Web Applications
-description: Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror.
-  It provides a fully customizable editing experience through 100+ extensions, supporting
-  React, Vue, and plain JavaScript with no preset UI constraints.
-verification: security_reviewed
-source: https://github.com/ueberdosis/tiptap
+title: "Tiptap Headless Rich Text Editor Framework for Web Applications"
+description: "Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue, and plain JavaScript with no preset UI constraints."
+verification: "security_reviewed"
+source: "https://github.com/ueberdosis/tiptap"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ueberdosis/tiptap
+  github_repo: "ueberdosis/tiptap"
   github_stars: 35948
-  npm_package: tiptap
+  npm_package: "tiptap"
   npm_weekly_downloads: 45635
 ---
 
@@ -22,27 +20,13 @@ Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/tiptap-headless-rich-text-editor-framework/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/tiptap-headless-rich-text-editor-framework
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/tiptap-headless-rich-text-editor-framework`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

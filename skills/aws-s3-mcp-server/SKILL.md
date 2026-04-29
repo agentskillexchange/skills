@@ -1,18 +1,15 @@
 ---
-title: AWS S3 MCP Server
-description: AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The
-  underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars).
-  It gives an agent a more technical and reliable way to work with the tool than a
-  thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda,
-  CloudWatch, DynamoDB, EC2 […]
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
+title: "AWS S3 MCP Server"
+description: "AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 […]"
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
+author: "aws"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3610
 ---
 
@@ -20,29 +17,23 @@ tool_ecosystem:
 
 AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 […]
 
+## Prerequisites
+
+Node.js, npm
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/aws-s3-mcp-server/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aws-s3-mcp-server
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/aws-s3-mcp-server`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/
 
 ## Source
 

@@ -1,17 +1,16 @@
 ---
-title: Unstructured Document ETL Toolkit
-description: Unstructured is an open source document ETL toolkit for converting PDFs,
-  HTML, emails, and office files into structured data. This skill covers how to use
-  the real Unstructured project for partitioning documents, normalizing content, and
-  feeding downstream agent or RAG pipelines.
-verification: security_reviewed
-source: https://github.com/Unstructured-IO/unstructured
+title: "Unstructured Document ETL Toolkit"
+description: "Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into structured data. This skill covers how to use the real Unstructured project for partitioning documents, normalizing content, and feeding downstream agent or RAG pipelines."
+verification: "security_reviewed"
+source: "https://github.com/Unstructured-IO/unstructured"
+author: "Unstructured"
+publisher_type: "Open Source Project"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: Unstructured-IO/unstructured
+  github_repo: "Unstructured-IO/unstructured"
   github_stars: 14454
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into structured data. This skill covers how to use the real Unstructured project for partitioning documents, normalizing content, and feeding downstream agent or RAG pipelines.
 
+## Prerequisites
+
+Python
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/unstructured-document-etl-toolkit/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/unstructured-document-etl-toolkit
+```
+pip install unstructured
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/unstructured-document-etl-toolkit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.unstructured.io
 
 ## Source
 

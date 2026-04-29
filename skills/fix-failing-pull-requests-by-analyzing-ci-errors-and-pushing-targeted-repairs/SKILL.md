@@ -1,47 +1,43 @@
 ---
-title: Fix failing pull requests by analyzing CI errors and pushing targeted repairs
-description: Use GitHub Next’s pr-fix workflow when a pull request is blocked on failing
-  checks and the likely repair is machine-doable. The agent inspects CI failures,
-  traces the root cause, applies a focused fix on the PR branch, and leaves the result
-  in reviewable Git history.
-verification: security_reviewed
-source: https://github.com/githubnext/agentics/blob/main/docs/pr-fix.md
+title: "Fix failing pull requests by analyzing CI errors and pushing targeted repairs"
+description: "Use GitHub Next’s pr-fix workflow when a pull request is blocked on failing checks and the likely repair is machine-doable. The agent inspects CI failures, traces the root cause, applies a focused fix on the PR branch, and leaves the result in reviewable Git history."
+verification: "security_reviewed"
+source: "https://github.com/githubnext/agentics/blob/main/docs/pr-fix.md"
+author: "GitHub Next"
+publisher_type: "Organization"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: githubnext/agentics
-  github_stars: 585
+  - "Multi-Framework"
 ---
 
 # Fix failing pull requests by analyzing CI errors and pushing targeted repairs
 
 Use GitHub Next’s pr-fix workflow when a pull request is blocked on failing checks and the likely repair is machine-doable. The agent inspects CI failures, traces the root cause, applies a focused fix on the PR branch, and leaves the result in reviewable Git history.
 
+## Prerequisites
+
+GitHub CLI, gh-aw extension
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs
+```
+gh extension install github/gh-aw && gh aw add-wizard githubnext/agentics/pr-fix
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/githubnext/agentics/blob/main/docs/pr-fix.md
 
 ## Source
 

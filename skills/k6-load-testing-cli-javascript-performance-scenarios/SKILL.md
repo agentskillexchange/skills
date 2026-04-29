@@ -1,16 +1,16 @@
 ---
-title: k6 Load Testing CLI for JavaScript Performance Scenarios
-description: k6 is a modern load testing tool for writing performance checks in JavaScript.
-  It fits CI, developer testing, and observability workflows where repeatable load
-  scenarios matter.
-verification: security_reviewed
-source: https://github.com/grafana/k6
+title: "k6 Load Testing CLI for JavaScript Performance Scenarios"
+description: "k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and observability workflows where repeatable load scenarios matter."
+verification: "security_reviewed"
+source: "https://github.com/grafana/k6"
+author: "Grafana Labs"
+publisher_type: "Company"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: grafana/k6
+  github_repo: "grafana/k6"
   github_stars: 30348
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and observability workflows where repeatable load scenarios matter.
 
+## Prerequisites
+
+Go, JavaScript runtime
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/k6-load-testing-cli-javascript-performance-scenarios/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/k6-load-testing-cli-javascript-performance-scenarios
+```
+Download from GitHub releases or install via platform package managers
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/k6-load-testing-cli-javascript-performance-scenarios`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://grafana.com/docs/k6/latest/
 
 ## Source
 

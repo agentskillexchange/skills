@@ -1,49 +1,43 @@
 ---
-title: Run PHPStan on WordPress codebases with correct stubs baselines and narrow
-  ignores
-description: This entry turns WordPress/agent-skills’ WP PHPStan guidance into a bounded
-  agent workflow for plugin, theme, and site repositories. The agent inspects the
-  existing PHPStan setup, adds or verifies WordPress-aware stubs, tightens config
-  paths, and fixes or documents only the narrow ignores and baseline changes needed
-  to get useful static-analysis output.
-verification: security_reviewed
-source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-phpstan
+title: "Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores"
+description: "This entry turns WordPress/agent-skills’ WP PHPStan guidance into a bounded agent workflow for plugin, theme, and site repositories. The agent inspects the existing PHPStan setup, adds or verifies WordPress-aware stubs, tightens config paths, and fixes or documents only the narrow ignores and baseline changes needed to get useful static-analysis output."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-phpstan"
+author: "WordPress"
+publisher_type: "Open Source Project"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: wordpress/agent-skills
-  github_stars: 1219
+  - "Multi-Framework"
 ---
 
 # Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores
 
 This entry turns WordPress/agent-skills’ WP PHPStan guidance into a bounded agent workflow for plugin, theme, and site repositories. The agent inspects the existing PHPStan setup, adds or verifies WordPress-aware stubs, tightens config paths, and fixes or documents only the narrow ignores and baseline changes needed to get useful static-analysis output.
 
+## Prerequisites
+
+PHP, Composer, PHPStan, and a WordPress plugin, theme, or site repository
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores
+```
+Use a Composer-based PHPStan setup and load WordPress-aware stubs such as szepeviktor/phpstan-wordpress or php-stubs/wordpress-stubs before analysis.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-phpstan
 
 ## Source
 

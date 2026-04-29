@@ -1,16 +1,15 @@
 ---
-title: Uptime Kuma Status Sync
-description: Interfaces with the Uptime Kuma Socket.IO API to monitor service health
-  checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers
-  incident workflows in Rootly.
-verification: security_reviewed
-source: https://github.com/louislam/uptime-kuma
+title: "Uptime Kuma Status Sync"
+description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly."
+verification: "security_reviewed"
+source: "https://github.com/louislam/uptime-kuma"
+author: "Louis Lam"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Claude Agents
+  - "Claude Agents"
 tool_ecosystem:
-  github_repo: louislam/uptime-kuma
+  github_repo: "louislam/uptime-kuma"
   github_stars: 85583
 ---
 
@@ -20,27 +19,17 @@ Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/uptime-kuma-status-sync/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/uptime-kuma-status-sync
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/uptime-kuma-status-sync`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://uptimekuma.org/
 
 ## Source
 

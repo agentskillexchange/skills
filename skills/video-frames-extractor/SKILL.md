@@ -1,59 +1,46 @@
 ---
-title: Video Frames Extractor
-description: 'Extract frames and short clips from videos.
-
-
-  Core Capabilities
-
-
-  Process audio and video files using ffmpeg for transcription and analysis
-
-
-  Extract text, timestamps, and speaker metadata from media cont'
-verification: security_reviewed
-source: https://github.com/FFmpeg/FFmpeg
+title: "Video Frames Extractor"
+description: "Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont"
+verification: "security_reviewed"
+source: "https://github.com/FFmpeg/FFmpeg"
+author: "FFmpeg"
+publisher_type: "open_source_collective"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: ffmpeg/ffmpeg
+  github_repo: "ffmpeg/ffmpeg"
   github_stars: 59347
 ---
 
 # Video Frames Extractor
 
-Extract frames and short clips from videos.
+Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont
 
-Core Capabilities
+## Prerequisites
 
-Process audio and video files using ffmpeg for transcription and analysis
-
-Extract text, timestamps, and speaker metadata from media cont
+FFmpeg
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/video-frames-extractor/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/video-frames-extractor
+```
+Install from the OpenClaw skills set and make sure ffmpeg is available on the host machine.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/video-frames-extractor`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://ffmpeg.org/documentation.html
 
 ## Source
 

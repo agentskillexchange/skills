@@ -1,47 +1,43 @@
 ---
-title: Update repository docs automatically after code changes and open review PRs
-description: Use GitHub Next’s update-docs workflow when code changes should trigger
-  documentation maintenance instead of waiting for humans to remember it later. The
-  agent analyzes what changed, generates the missing docs updates, and opens a reviewable
-  PR rather than silently rewriting the docs in place.
-verification: security_reviewed
-source: https://github.com/githubnext/agentics/blob/main/docs/update-docs.md
+title: "Update repository docs automatically after code changes and open review PRs"
+description: "Use GitHub Next’s update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes what changed, generates the missing docs updates, and opens a reviewable PR rather than silently rewriting the docs in place."
+verification: "security_reviewed"
+source: "https://github.com/githubnext/agentics/blob/main/docs/update-docs.md"
+author: "GitHub Next"
+publisher_type: "Organization"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: githubnext/agentics
-  github_stars: 585
+  - "Multi-Framework"
 ---
 
 # Update repository docs automatically after code changes and open review PRs
 
 Use GitHub Next’s update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes what changed, generates the missing docs updates, and opens a reviewable PR rather than silently rewriting the docs in place.
 
+## Prerequisites
+
+GitHub CLI, gh-aw extension
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs
+```
+gh extension install github/gh-aw && gh aw add-wizard githubnext/agentics/update-docs
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/githubnext/agentics/blob/main/docs/update-docs.md
 
 ## Source
 

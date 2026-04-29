@@ -1,17 +1,16 @@
 ---
-title: Run day-2 OpenClaw operations with production runbooks and reusable prompt
-  patterns from openclaw-runbook
-description: Use a practical OpenClaw operations runbook to stabilize long-running
-  deployments, tune coordinator and worker patterns, and apply reusable prompt templates
-  for monitoring, security, and cost control.
-verification: security_reviewed
-source: https://github.com/digitalknk/openclaw-runbook
+title: "Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook"
+description: "Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and cost control."
+verification: "security_reviewed"
+source: "https://github.com/digitalknk/openclaw-runbook"
+author: "digitalknk"
+publisher_type: "community"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: digitalknk/openclaw-runbook
+  github_repo: "digitalknk/openclaw-runbook"
   github_stars: 1061
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and cost control.
 
+## Prerequisites
+
+OpenClaw
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook
+```
+Review guide.md and the examples directory, then have OpenClaw adapt the runbook’s config snippets, prompts, and operating patterns to the current deployment before applying any changes.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/digitalknk/openclaw-runbook
 
 ## Source
 

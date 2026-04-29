@@ -1,15 +1,16 @@
 ---
-title: Plan and preview warehouse SQL model changes before rollout with SQLMesh
-description: Compare SQL model changes, preview backfills and downstream impact, and
-  stage safer warehouse rollouts before execution.
-verification: listed
-source: https://github.com/SQLMesh/sqlmesh
+title: "Plan and preview warehouse SQL model changes before rollout with SQLMesh"
+description: "Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution."
+verification: "listed"
+source: "https://github.com/SQLMesh/sqlmesh"
+author: "SQLMesh"
+publisher_type: "organization"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: SQLMesh/sqlmesh
+  github_repo: "SQLMesh/sqlmesh"
   github_stars: 3034
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution.
 
+## Prerequisites
+
+Python 3.9+, pip, SQLMesh, warehouse connection
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh
+```
+Install with `pip install sqlmesh`, connect your warehouse in the SQLMesh project config, then use commands like `sqlmesh plan` and `sqlmesh diff` before applying changes.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://sqlmesh.readthedocs.io/
 
 ## Source
 

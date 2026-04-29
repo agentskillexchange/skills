@@ -1,16 +1,14 @@
 ---
-title: Ansible Playbook Debugger
-description: Diagnoses Ansible playbook failures using ansible-playbook –check –diff
-  mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results
-  and suggests fixes for common module errors in ansible.builtin and community collections.
-verification: security_reviewed
-source: https://github.com/ansible/ansible
+title: "Ansible Playbook Debugger"
+description: "Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections."
+verification: "security_reviewed"
+source: "https://github.com/ansible/ansible"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: ansible/ansible
+  github_repo: "ansible/ansible"
   github_stars: 68364
 ---
 
@@ -20,27 +18,13 @@ Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ansible-playbook-debugger/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ansible-playbook-debugger
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/ansible-playbook-debugger`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

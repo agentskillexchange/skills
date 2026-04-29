@@ -1,15 +1,13 @@
 ---
-title: GitHub Discussions Community Digest
-description: Queries GitHub GraphQL API for new and unanswered Discussions, ranks
-  them by reaction count and recency, and drafts a weekly digest via SendGrid. Automatically
-  labels stale discussions as needs-triage via the GitHub REST API. Digest content
-  is also mirrored as a pinned post to a linked Discord channel.
-verification: security_reviewed
-source: https://docs.github.com/en/discussions
+title: "GitHub Discussions Community Digest"
+description: "Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts a weekly digest via SendGrid. Automatically labels stale discussions as needs-triage via the GitHub REST API. Digest content is also mirrored as a pinned post to a linked Discord channel."
+verification: "security_reviewed"
+source: "https://docs.github.com/en/discussions"
+author: "GitHub"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- MCP
+  - "MCP"
 ---
 
 # GitHub Discussions Community Digest
@@ -18,27 +16,17 @@ Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by rea
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/github-discussions-community-digest/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/github-discussions-community-digest
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/github-discussions-community-digest`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.github.com/en/discussions
 
 ## Source
 

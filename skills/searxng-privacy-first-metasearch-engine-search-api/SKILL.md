@@ -1,17 +1,15 @@
 ---
-title: SearXNG Privacy-First Metasearch Engine and Search API
-description: SearXNG is an open-source metasearch engine that aggregates results from
-  multiple search providers without tracking users. It fits research and scraping
-  workflows that need self-hosted search, configurable engines, and a documented admin
-  surface for search aggregation and result control.
-verification: security_reviewed
-source: https://github.com/searxng/searxng
+title: "SearXNG Privacy-First Metasearch Engine and Search API"
+description: "SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking users. It fits research and scraping workflows that need self-hosted search, configurable engines, and a documented admin surface for search aggregation and result control."
+verification: "security_reviewed"
+source: "https://github.com/searxng/searxng"
+author: "searxng"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: searxng/searxng
+  github_repo: "searxng/searxng"
   github_stars: 28324
 ---
 
@@ -21,27 +19,17 @@ SearXNG is an open-source metasearch engine that aggregates results from multipl
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/searxng-privacy-first-metasearch-engine-search-api/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/searxng-privacy-first-metasearch-engine-search-api
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/searxng-privacy-first-metasearch-engine-search-api`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.searxng.org
 
 ## Source
 

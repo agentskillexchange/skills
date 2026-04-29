@@ -1,15 +1,16 @@
 ---
-title: Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor
-description: Run a repeatable HIG compliance audit over app code before shipping UI
-  changes, then use the findings to guide remediation.
-verification: listed
-source: https://github.com/raintree-technology/hig-doctor
+title: "Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor"
+description: "Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation."
+verification: "listed"
+source: "https://github.com/raintree-technology/hig-doctor"
+author: "raintree-technology"
+publisher_type: "organization"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: raintree-technology/hig-doctor
+  github_repo: "raintree-technology/hig-doctor"
   github_stars: 44
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation.
 
+## Prerequisites
+
+Bun, a local project directory to audit, and an agent setup that can call the HIG Doctor commands or installed skills
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor
+```
+Install or clone the repository, install Bun dependencies, then run the documented audit command against the target project directory or install the companion agent skills through the upstream skill installation path.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://apple.raintree.technology/
 
 ## Source
 

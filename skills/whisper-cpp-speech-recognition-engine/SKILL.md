@@ -1,16 +1,14 @@
 ---
-title: whisper.cpp High-Performance C/C++ Speech Recognition Engine
-description: whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s
-  Whisper automatic speech recognition model. It runs on CPU and GPU across all major
-  platforms with zero dependencies and zero runtime memory allocations.
-verification: security_reviewed
-source: https://github.com/ggml-org/whisper.cpp
+title: "whisper.cpp High-Performance C/C++ Speech Recognition Engine"
+description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations."
+verification: "security_reviewed"
+source: "https://github.com/ggml-org/whisper.cpp"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ggml-org/whisper.cpp
+  github_repo: "ggml-org/whisper.cpp"
   github_stars: 48315
 ---
 
@@ -20,27 +18,13 @@ whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s Whisper 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/whisper-cpp-speech-recognition-engine/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/whisper-cpp-speech-recognition-engine
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/whisper-cpp-speech-recognition-engine`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

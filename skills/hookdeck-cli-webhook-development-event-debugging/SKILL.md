@@ -1,17 +1,16 @@
 ---
-title: Hookdeck CLI for Webhook Development and Event Debugging
-description: Hookdeck CLI is Hookdeck’s official command-line tool for forwarding
-  webhooks to localhost, managing event gateway resources, and running an MCP server
-  for agent workflows. It is useful when you need repeatable webhook testing, local
-  event inspection, and a bridge between webhook infrastructure and agent tooling.
-verification: security_reviewed
-source: https://github.com/hookdeck/hookdeck-cli
+title: "Hookdeck CLI for Webhook Development and Event Debugging"
+description: "Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling."
+verification: "security_reviewed"
+source: "https://github.com/hookdeck/hookdeck-cli"
+author: "hookdeck"
+publisher_type: "Company"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: hookdeck/hookdeck-cli
+  github_repo: "hookdeck/hookdeck-cli"
   github_stars: 353
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
 
+## Prerequisites
+
+Node.js or Homebrew
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/hookdeck-cli-webhook-development-event-debugging/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hookdeck-cli-webhook-development-event-debugging
+```
+npm install hookdeck-cli -g
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/hookdeck-cli-webhook-development-event-debugging`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://hookdeck.com/docs
 
 ## Source
 

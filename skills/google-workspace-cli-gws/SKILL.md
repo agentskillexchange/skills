@@ -1,17 +1,16 @@
 ---
-title: Google Workspace CLI (gws)
-description: Google Workspace CLI, branded as gws, is a command-line tool that gives
-  humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs,
-  Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping
-  responses machine-friendly for agent workflows.
-verification: security_reviewed
-source: https://github.com/googleworkspace/cli
+title: "Google Workspace CLI (gws)"
+description: "Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping responses machine-friendly for agent workflows."
+verification: "security_reviewed"
+source: "https://github.com/googleworkspace/cli"
+author: "googleworkspace"
+publisher_type: "Community"
 category:
-- Calendar, Email & Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: googleworkspace/cli
+  github_repo: "googleworkspace/cli"
   github_stars: 24348
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping responses machine-friendly for agent workflows.
 
+## Prerequisites
+
+Node.js or prebuilt gws binary, Google account, Google Cloud OAuth credentials
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/google-workspace-cli-gws/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/google-workspace-cli-gws
+```
+npm install -g @googleworkspace/cli
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/google-workspace-cli-gws`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://developers.google.com/workspace
 
 ## Source
 

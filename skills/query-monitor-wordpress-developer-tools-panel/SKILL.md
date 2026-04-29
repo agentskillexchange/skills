@@ -1,17 +1,14 @@
 ---
-title: Query Monitor WordPress Developer Tools Panel
-description: Query Monitor is the developer tools panel for WordPress and WooCommerce.
-  It enables debugging of database queries, PHP errors, hooks and actions, block editor
-  blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering
-  by plugin or theme.
-verification: security_reviewed
-source: https://github.com/johnbillion/query-monitor
+title: "Query Monitor WordPress Developer Tools Panel"
+description: "Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering by plugin or theme."
+verification: "security_reviewed"
+source: "https://github.com/johnbillion/query-monitor"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: johnbillion/query-monitor
+  github_repo: "johnbillion/query-monitor"
   github_stars: 1743
 ---
 
@@ -21,27 +18,13 @@ Query Monitor is the developer tools panel for WordPress and WooCommerce. It ena
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/query-monitor-wordpress-developer-tools-panel/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/query-monitor-wordpress-developer-tools-panel
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/query-monitor-wordpress-developer-tools-panel`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,15 +1,16 @@
 ---
-title: Catch common misspellings in code and docs before review churn with codespell
-description: Run a fast typo pass across source files and documentation so common
-  misspellings are fixed before they spread through reviews and releases.
-verification: security_reviewed
-source: https://github.com/codespell-project/codespell
+title: "Catch common misspellings in code and docs before review churn with codespell"
+description: "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases."
+verification: "security_reviewed"
+source: "https://github.com/codespell-project/codespell"
+author: "codespell-project"
+publisher_type: "organization"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: codespell-project/codespell
+  github_repo: "codespell-project/codespell"
   github_stars: 2356
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases.
 
+## Prerequisites
+
+Python 3.9+ and the codespell CLI in a checked-out repository or docs tree.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell
+```
+<p>Install with <code>pip install codespell</code>, run <code>codespell</code> at the repository root for a dry run, and use flags such as <code>-w</code>, <code>-i</code>, <code>-I</code>, or <code>--skip</code> to review and apply safe fixes.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/codespell-project/codespell
 
 ## Source
 

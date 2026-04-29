@@ -1,18 +1,18 @@
 ---
-title: Track coding-agent token spend and leaderboard drift across local session logs
-  with Tokscale
-description: Aggregate local coding-agent usage logs into spend, token, and trend
-  views before quotas or budgets surprise the team.
-verification: listed
-source: https://github.com/junhoyeo/tokscale
+title: "Track coding-agent token spend and leaderboard drift across local session logs with Tokscale"
+description: "Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team."
+verification: "listed"
+source: "https://github.com/junhoyeo/tokscale"
+author: "junhoyeo"
+publisher_type: "individual"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: junhoyeo/tokscale
+  github_repo: "junhoyeo/tokscale"
   github_stars: 2032
-  npm_package: tokscale
+  npm_package: "tokscale"
   npm_weekly_downloads: 64618
 ---
 
@@ -20,29 +20,29 @@ tool_ecosystem:
 
 Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team.
 
+## Prerequisites
+
+Supported coding-agent local logs, Node.js or Bun for install, optional browser or TUI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale
+```
+Install the CLI with the upstream package instructions, point it at the default local agent log locations, then run Tokscale to inspect token, cost, and trend views or submit leaderboard data if desired.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://tokscale.ai
 
 ## Source
 

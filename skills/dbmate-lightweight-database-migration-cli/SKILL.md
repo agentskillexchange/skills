@@ -1,18 +1,16 @@
 ---
-title: dbmate Lightweight Database Migration CLI
-description: dbmate is a standalone, framework-agnostic database migration tool that
-  uses plain SQL files. It supports PostgreSQL, MySQL, SQLite, ClickHouse, BigQuery,
-  and Spanner, and works with any programming language or framework.
-verification: security_reviewed
-source: https://github.com/amacneil/dbmate
+title: "dbmate Lightweight Database Migration CLI"
+description: "dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports PostgreSQL, MySQL, SQLite, ClickHouse, BigQuery, and Spanner, and works with any programming language or framework."
+verification: "security_reviewed"
+source: "https://github.com/amacneil/dbmate"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: amacneil/dbmate
+  github_repo: "amacneil/dbmate"
   github_stars: 6801
-  npm_package: dbmate
+  npm_package: "dbmate"
   npm_weekly_downloads: 99225
 ---
 
@@ -22,27 +20,13 @@ dbmate is a standalone, framework-agnostic database migration tool that uses pla
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/dbmate-lightweight-database-migration-cli/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dbmate-lightweight-database-migration-cli
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/dbmate-lightweight-database-migration-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

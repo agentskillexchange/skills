@@ -1,18 +1,14 @@
 ---
-title: Co-author structured docs with staged context gathering and reader testing
-description: Use Anthropic’s doc-coauthoring skill to run a disciplined writing workflow
-  instead of freeform drafting. The agent gathers missing context, iterates section
-  by section, and pressure-tests the final document with reader-style review before
-  teammates see it.
-verification: security_reviewed
-source: https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
+title: "Co-author structured docs with staged context gathering and reader testing"
+description: "Use Anthropic’s doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and pressure-tests the final document with reader-style review before teammates see it."
+verification: "security_reviewed"
+source: "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
+author: "Anthropic"
+publisher_type: "Organization"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Agents
-tool_ecosystem:
-  github_repo: anthropics/skills
-  github_stars: 116918
+  - "Claude Agents"
 ---
 
 # Co-author structured docs with staged context gathering and reader testing
@@ -21,27 +17,17 @@ Use Anthropic’s doc-coauthoring skill to run a disciplined writing workflow in
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
 
 ## Source
 

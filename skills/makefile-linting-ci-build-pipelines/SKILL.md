@@ -1,17 +1,16 @@
 ---
-title: Makefile Linting for CI and Build Pipelines
-description: Uses checkmake to inspect Makefiles for style issues, fragile targets,
-  and maintainability problems before build automation breaks in CI. It is a narrow
-  build-script review skill for agents working inside repositories that already rely
-  on make, not a generic build tool listing.
-verification: security_reviewed
-source: https://github.com/checkmake/checkmake
+title: "Makefile Linting for CI and Build Pipelines"
+description: "Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script review skill for agents working inside repositories that already rely on make, not a generic build tool listing."
+verification: "security_reviewed"
+source: "https://github.com/checkmake/checkmake"
+author: "checkmake maintainers"
+publisher_type: "Open Source Project"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: checkmake/checkmake
+  github_repo: "checkmake/checkmake"
   github_stars: 1188
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script review skill for agents working inside repositories that already rely on make, not a generic build tool listing.
 
+## Prerequisites
+
+checkmake binary and existing Makefiles
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/makefile-linting-ci-build-pipelines/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/makefile-linting-ci-build-pipelines
+```
+Install checkmake from the project releases or package manager for your platform
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/makefile-linting-ci-build-pipelines`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/checkmake/checkmake
 
 ## Source
 

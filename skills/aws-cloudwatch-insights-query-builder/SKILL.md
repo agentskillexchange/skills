@@ -1,44 +1,43 @@
 ---
-title: AWS CloudWatch Insights Query Builder
-description: Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK
-  v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account
-  observability dashboards with CloudWatch Metrics Insights.
-verification: security_reviewed
-source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html
+title: "AWS CloudWatch Insights Query Builder"
+description: "Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights."
+verification: "security_reviewed"
+source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html"
+author: "Amazon Web Services"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Codex
-- Multi-Framework
+  - "Codex"
+  - "Multi-Framework"
 ---
 
 # AWS CloudWatch Insights Query Builder
 
 Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights.
 
+## Prerequisites
+
+Amazon CloudWatch Logs Insights, AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch)
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aws-cloudwatch-insights-query-builder
+```
+npm install @aws-sdk/client-cloudwatch-logs @aws-sdk/client-cloudwatch
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/aws-cloudwatch-insights-query-builder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html
 
 ## Source
 

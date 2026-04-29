@@ -1,16 +1,16 @@
 ---
-title: Wrap ordinary CLIs so agents can invoke them through a normalized agent-native
-  interface with CLI-Anything
-description: Lets an agent install or build a harness around an existing tool so the
-  tool becomes callable through a predictable CLI surface.
-verification: security_reviewed
-source: https://github.com/HKUDS/CLI-Anything
+title: "Wrap ordinary CLIs so agents can invoke them through a normalized agent-native interface with CLI-Anything"
+description: "Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface."
+verification: "security_reviewed"
+source: "https://github.com/HKUDS/CLI-Anything"
+author: "HKUDS"
+publisher_type: "organization"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: HKUDS/CLI-Anything
+  github_repo: "HKUDS/CLI-Anything"
   github_stars: 31214
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface.
 
+## Prerequisites
+
+Python, cli-anything-hub or target CLI harness, target software or service
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything
+```
+Install the hub with pip install cli-anything-hub, then browse or install a target harness with cli-hub.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://clianything.cc/
 
 ## Source
 

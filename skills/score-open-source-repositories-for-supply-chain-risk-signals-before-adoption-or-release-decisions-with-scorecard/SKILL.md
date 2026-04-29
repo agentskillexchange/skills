@@ -1,16 +1,16 @@
 ---
-title: Score open source repositories for supply-chain risk signals before adoption
-  or release decisions with Scorecard
-description: Check a repository against OpenSSF security heuristics before you trust
-  it as a dependency, approve it for use, or ship from it.
-verification: listed
-source: https://github.com/ossf/scorecard
+title: "Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard"
+description: "Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it."
+verification: "listed"
+source: "https://github.com/ossf/scorecard"
+author: "OpenSSF"
+publisher_type: "organization"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: ossf/scorecard
+  github_repo: "ossf/scorecard"
   github_stars: 5376
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it.
 
+## Prerequisites
+
+Scorecard CLI or GitHub Action, network access to the target repository host, and optional GitHub authentication for higher API limits.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard
+```
+Install Scorecard from the upstream release, package, or action path documented at scorecard.dev, then run it against the target repository URL or dependency list and review the reported checks before adoption or release work proceeds.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://scorecard.dev
 
 ## Source
 

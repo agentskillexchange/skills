@@ -1,15 +1,16 @@
 ---
-title: Scan Kubernetes clusters and manifests for security posture drift with Kubescape
-description: Run Kubernetes security and compliance scans against manifests or live
-  clusters before rollout or audit.
-verification: listed
-source: https://github.com/kubescape/kubescape
+title: "Scan Kubernetes clusters and manifests for security posture drift with Kubescape"
+description: "Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit."
+verification: "listed"
+source: "https://github.com/kubescape/kubescape"
+author: "Kubescape"
+publisher_type: "organization"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: kubescape/kubescape
+  github_repo: "kubescape/kubescape"
   github_stars: 11310
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit.
 
+## Prerequisites
+
+Kubescape CLI, Kubernetes manifests or cluster access
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape
+```
+Install the Kubescape CLI from the project documentation, then run scans against local manifests or a target cluster context and review the generated findings.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://kubescape.io/docs/
 
 ## Source
 

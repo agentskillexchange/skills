@@ -1,18 +1,16 @@
 ---
-title: Turborepo Monorepo Build System
-description: Use Turborepo to orchestrate builds, tests, and tasks across JavaScript
-  and TypeScript monorepos with intelligent caching, parallel execution, and remote
-  cache sharing via Vercel.
-verification: security_reviewed
-source: https://github.com/vercel/turborepo
+title: "Turborepo Monorepo Build System"
+description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel."
+verification: "security_reviewed"
+source: "https://github.com/vercel/turborepo"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: vercel/turborepo
+  github_repo: "vercel/turborepo"
   github_stars: 30114
-  npm_package: turbo
+  npm_package: "turbo"
   npm_weekly_downloads: 12928111
 ---
 
@@ -22,27 +20,13 @@ Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and Type
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turborepo-monorepo-build-system/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turborepo-monorepo-build-system
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/turborepo-monorepo-build-system`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

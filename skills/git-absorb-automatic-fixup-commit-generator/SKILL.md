@@ -1,16 +1,14 @@
 ---
-title: git-absorb Automatic Fixup Commit Generator
-description: Automatically generates fixup commits by analyzing staged changes and
-  matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb
-  that eliminates manual interactive rebasing for review feedback.
-verification: security_reviewed
-source: https://github.com/tummychow/git-absorb
+title: "git-absorb Automatic Fixup Commit Generator"
+description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback."
+verification: "security_reviewed"
+source: "https://github.com/tummychow/git-absorb"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: tummychow/git-absorb
+  github_repo: "tummychow/git-absorb"
   github_stars: 5455
 ---
 
@@ -20,27 +18,13 @@ Automatically generates fixup commits by analyzing staged changes and matching t
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/git-absorb-automatic-fixup-commit-generator/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/git-absorb-automatic-fixup-commit-generator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/git-absorb-automatic-fixup-commit-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

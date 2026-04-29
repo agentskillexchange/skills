@@ -1,15 +1,12 @@
 ---
-title: Internal Link Graph Optimizer
-description: Analyzes internal linking structure by crawling sitemaps with Screaming
-  Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms,
-  and identifying orphan pages. Recommends contextual link insertions using BM25 text
-  matching against existing content inventory.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/internal-link-graph-optimizer/
+title: "Internal Link Graph Optimizer"
+description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Cursor
+  - "Cursor"
 ---
 
 # Internal Link Graph Optimizer
@@ -18,27 +15,13 @@ Analyzes internal linking structure by crawling sitemaps with Screaming Frog or 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/internal-link-graph-optimizer/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/internal-link-graph-optimizer
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/internal-link-graph-optimizer`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

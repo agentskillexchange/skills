@@ -1,45 +1,43 @@
 ---
-title: Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation
-description: Read a Notion spec, extract requirements and ambiguities, then create
-  a linked implementation plan, task breakdown, and progress-tracking structure.
-verification: listed
-source: https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation
+title: "Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation"
+description: "Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure."
+verification: "listed"
+source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation"
+author: "OpenAI"
+publisher_type: "organization"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Codex
-tool_ecosystem:
-  github_repo: openai/skills
-  github_stars: 17293
+  - "Codex"
 ---
 
 # Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation
 
 Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure.
 
+## Prerequisites
+
+Codex, Notion MCP connection, access to the target Notion workspace and task database
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation
+```
+Use the curated notion-spec-to-implementation skill from the openai/skills catalog, connect Notion MCP for Codex, then run it against a target spec page so it can parse requirements, create a linked plan, and generate tasks in the right Notion database.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-spec-to-implementation/SKILL.md
 
 ## Source
 

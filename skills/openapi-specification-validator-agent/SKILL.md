@@ -1,18 +1,17 @@
 ---
-title: OpenAPI Specification Validator
-description: Validates and lints OpenAPI 3.x specifications using swagger-parser,
-  spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking
-  API changes via oasdiff.
-verification: security_reviewed
-source: https://github.com/APIDevTools/swagger-parser
+title: "OpenAPI Specification Validator"
+description: "Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff."
+verification: "security_reviewed"
+source: "https://github.com/APIDevTools/swagger-parser"
+author: "API Dev Tools"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Cursor
+  - "Cursor"
 tool_ecosystem:
-  github_repo: APIDevTools/swagger-parser
+  github_repo: "APIDevTools/swagger-parser"
   github_stars: 1194
-  npm_package: '@apidevtools/swagger-parser'
+  npm_package: "@apidevtools/swagger-parser"
   npm_weekly_downloads: 4282678
 ---
 
@@ -20,29 +19,29 @@ tool_ecosystem:
 
 Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff.
 
+## Prerequisites
+
+swagger-parser, @stoplight/spectral, openapi-typescript, oasdiff, Redocly CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/openapi-specification-validator-agent/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openapi-specification-validator-agent
+```
+npm install @apidevtools/swagger-parser
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/openapi-specification-validator-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://apidevtools.com/swagger-parser/docs/
 
 ## Source
 

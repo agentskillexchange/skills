@@ -1,17 +1,14 @@
 ---
-title: pastel Command-Line Color Generation Analysis and Manipulation Tool
-description: pastel is a command-line tool for generating, analyzing, converting,
-  and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine,
-  it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette
-  generation, contrast checking, and color blending.
-verification: security_reviewed
-source: https://github.com/sharkdp/pastel
+title: "pastel Command-Line Color Generation Analysis and Manipulation Tool"
+description: "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette generation, contrast checking, and color blending."
+verification: "security_reviewed"
+source: "https://github.com/sharkdp/pastel"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: sharkdp/pastel
+  github_repo: "sharkdp/pastel"
   github_stars: 6301
 ---
 
@@ -21,27 +18,13 @@ pastel is a command-line tool for generating, analyzing, converting, and manipul
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/pastel-command-line-color-tool/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pastel-command-line-color-tool
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/pastel-command-line-color-tool`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

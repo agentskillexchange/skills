@@ -1,18 +1,18 @@
 ---
-title: Run one formatter plan across a mixed-language repo and keep generated edits
-  predictable with treefmt
-description: Use treefmt when an agent needs one repo-level formatting plan across
-  multiple languages instead of stitching formatter commands together ad hoc.
-verification: security_reviewed
-source: https://github.com/numtide/treefmt
+title: "Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt"
+description: "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc."
+verification: "security_reviewed"
+source: "https://github.com/numtide/treefmt"
+author: "Numtide"
+publisher_type: "company"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: numtide/treefmt
+  github_repo: "numtide/treefmt"
   github_stars: 977
-  npm_package: treefmt
+  npm_package: "treefmt"
   npm_weekly_downloads: 18627
 ---
 
@@ -20,29 +20,29 @@ tool_ecosystem:
 
 Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc.
 
+## Prerequisites
+
+treefmt, the underlying language formatters you plan to invoke, a repository-level treefmt configuration file, and shell access.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt
+```
+Install treefmt with the method documented by the project, add a treefmt configuration file that points at the language formatters your repo uses, install those formatter binaries, then run treefmt over the repository in local or CI workflows.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://treefmt.com/latest/
 
 ## Source
 

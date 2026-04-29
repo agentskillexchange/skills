@@ -1,16 +1,16 @@
 ---
-title: Swap a local service into a live Kubernetes environment to debug real cluster
-  traffic before rollout with Telepresence
-description: Intercept a Kubernetes service and route live cluster traffic into a
-  local process so debugging happens against real dependencies before release.
-verification: listed
-source: https://github.com/telepresenceio/telepresence
+title: "Swap a local service into a live Kubernetes environment to debug real cluster traffic before rollout with Telepresence"
+description: "Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real dependencies before release."
+verification: "listed"
+source: "https://github.com/telepresenceio/telepresence"
+author: "telepresenceio"
+publisher_type: "organization"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: telepresenceio/telepresence
+  github_repo: "telepresenceio/telepresence"
   github_stars: 7183
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real dependencies before release.
 
+## Prerequisites
+
+Telepresence CLI, kubectl access, kubeconfig for the target cluster, a locally runnable service, and permission to create intercepts in the namespace
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence
+```
+Install the Telepresence CLI from the upstream packages or release binaries, connect it to the target Kubernetes cluster with working kubectl credentials, then run the documented intercept workflow against the service you want to replace locally.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/telepresenceio/telepresence
 
 ## Source
 

@@ -1,19 +1,18 @@
 ---
-title: Run deterministic browser steps with settled screenshots and event logs for
-  agents
-description: Use Agent Browser Protocol when an agent needs browser actions to resolve
-  into stable step results, complete with screenshots and surfaced events, instead
-  of racing an always-live browser session.
-verification: listed
-source: https://github.com/theredsix/agent-browser-protocol
+title: "Run deterministic browser steps with settled screenshots and event logs for agents"
+description: "Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of racing an always-live browser session."
+verification: "listed"
+source: "https://github.com/theredsix/agent-browser-protocol"
+author: "The Red Six"
+publisher_type: "organization"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: theredsix/agent-browser-protocol
+  github_repo: "theredsix/agent-browser-protocol"
   github_stars: 436
-  npm_package: agent-browser-protocol
+  npm_package: "agent-browser-protocol"
   npm_weekly_downloads: 1710
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of racing an always-live browser session.
 
+## Prerequisites
+
+Chromium-compatible local environment, Node.js/npx for MCP mode, MCP-compatible client or HTTP caller, vision-capable agent/client
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents
+```
+Run `npx -y agent-browser-protocol` for local REST control or add `npx -y agent-browser-protocol --mcp` as an MCP server in a supported client, then drive browser actions as settled step calls.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/theredsix/agent-browser-protocol
 
 ## Source
 

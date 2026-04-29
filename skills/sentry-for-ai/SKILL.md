@@ -1,16 +1,18 @@
 ---
-title: Sentry for AI
-description: Observability and debugging support for AI-assisted application workflows.
-verification: security_reviewed
-source: https://github.com/getsentry/sentry-for-ai
+title: "Sentry for AI"
+description: "Observability and debugging support for AI-assisted application workflows."
+verification: "security_reviewed"
+source: "https://github.com/getsentry/sentry-for-ai"
+author: "Sentry"
+publisher_type: "company"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Claude Code
-- Cursor
-- Custom Agents
+  - "Claude Code"
+  - "Cursor"
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: getsentry/sentry-for-ai
+  github_repo: "getsentry/sentry-for-ai"
   github_stars: 154
 ---
 
@@ -18,29 +20,29 @@ tool_ecosystem:
 
 Observability and debugging support for AI-assisted application workflows.
 
+## Prerequisites
+
+Sentry account or project, supported integration path
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sentry-for-ai/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sentry-for-ai
+```
+Install from the GitHub repository and configure with a Sentry project. Follow integration-specific setup steps.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/sentry-for-ai`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/getsentry/sentry-for-ai
 
 ## Source
 

@@ -1,14 +1,12 @@
 ---
-title: Stable Diffusion XL Pipeline
-description: Orchestrates SDXL image generation via the Stability AI REST API with
-  ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement
-  using CLIP interrogation.
-verification: security_reviewed
-source: https://github.com/Stability-AI/stablediffusion
+title: "Stable Diffusion XL Pipeline"
+description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
+verification: "security_reviewed"
+source: "https://github.com/Stability-AI/stablediffusion"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
 
 # Stable Diffusion XL Pipeline
@@ -17,27 +15,13 @@ Orchestrates SDXL image generation via the Stability AI REST API with ControlNet
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stable-diffusion-xl-pipeline
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/stable-diffusion-xl-pipeline`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

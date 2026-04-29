@@ -1,18 +1,16 @@
 ---
-title: DALL-E Variations Pipeline
-description: Generates image variations and edits using the OpenAI Images API (DALL-E
-  3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based
-  inpainting, and outputs multiple sizes with quality presets.
-verification: security_reviewed
-source: https://github.com/openai/openai-node
+title: "DALL-E Variations Pipeline"
+description: "Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets."
+verification: "security_reviewed"
+source: "https://github.com/openai/openai-node"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: openai/openai-node
+  github_repo: "openai/openai-node"
   github_stars: 10813
-  npm_package: openai
+  npm_package: "openai"
   npm_weekly_downloads: 18107622
 ---
 
@@ -22,27 +20,13 @@ Generates image variations and edits using the OpenAI Images API (DALL-E 3 and g
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/dalle-variations-pipeline/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/dalle-variations-pipeline
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/dalle-variations-pipeline`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

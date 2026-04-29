@@ -1,19 +1,18 @@
 ---
-title: Manage ElevenLabs agents as versioned local config files instead of hand-editing
-  them in the dashboard with ElevenLabs CLI
-description: Initialize, authenticate, and edit ElevenLabs agent configs from local
-  files when you want agent definitions in code review instead of only in a hosted
-  UI.
-verification: security_reviewed
-source: https://github.com/elevenlabs/cli
+title: "Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI"
+description: "Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI."
+verification: "security_reviewed"
+source: "https://github.com/elevenlabs/cli"
+author: "ElevenLabs"
+publisher_type: "vendor"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: elevenlabs/cli
+  github_repo: "elevenlabs/cli"
   github_stars: 49
-  npm_package: '@elevenlabs/cli'
+  npm_package: "@elevenlabs/cli"
   npm_weekly_downloads: 10433
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI.
 
+## Prerequisites
+
+Node.js, elevenlabs CLI, ElevenLabs API key
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli
+```
+npm install -g @elevenlabs/cli # or pnpm install -g @elevenlabs/cli # then authenticate elevenlabs auth login
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/elevenlabs/cli
 
 ## Source
 

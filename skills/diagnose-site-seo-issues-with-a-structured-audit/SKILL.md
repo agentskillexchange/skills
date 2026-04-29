@@ -1,45 +1,43 @@
 ---
-title: Diagnose Site SEO Issues with a Structured Audit
-description: Run a structured SEO audit that surfaces crawlability, technical, and
-  on-page issues before you start guessing at why traffic or rankings slipped.
-verification: listed
-source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit
+title: "Diagnose Site SEO Issues with a Structured Audit"
+description: "Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped."
+verification: "listed"
+source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
+author: "coreyhaines31"
+publisher_type: "individual"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: coreyhaines31/marketingskills
-  github_stars: 21914
+  - "Multi-Framework"
 ---
 
 # Diagnose Site SEO Issues with a Structured Audit
 
 Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped.
 
+## Prerequisites
+
+Agent runtime with skill support, target URLs or site scope, optional analytics and Search Console context, optional browser inspection tools
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/diagnose-site-seo-issues-with-a-structured-audit/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diagnose-site-seo-issues-with-a-structured-audit
+```
+Copy this skill directory from the upstream repository into your agent's supported skills directory, then invoke it when you need a structured SEO audit for a site or page.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/diagnose-site-seo-issues-with-a-structured-audit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit
 
 ## Source
 

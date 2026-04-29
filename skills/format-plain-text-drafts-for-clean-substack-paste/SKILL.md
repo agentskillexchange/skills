@@ -1,47 +1,37 @@
 ---
-title: Format plain-text drafts for clean Substack paste
-description: Transforms raw draft text into paste-ready Substack HTML so an agent
-  can preserve headings, emphasis, lists, and spacing without hand-formatting every
-  paragraph. Use it when the job is preparing a finished newsletter draft for the
-  editor, not when you just need general writing help.
-verification: security_reviewed
-source: https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter
+title: "Format plain-text drafts for clean Substack paste"
+description: "Transforms raw draft text into paste-ready Substack HTML so an agent can preserve headings, emphasis, lists, and spacing without hand-formatting every paragraph. Use it when the job is preparing a finished newsletter draft for the editor, not when you just need general writing help."
+verification: "security_reviewed"
+source: "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter"
+author: "maddiedreese"
+publisher_type: "open-source"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- OpenClaw
-tool_ecosystem:
-  github_repo: openclaw/skills
-  github_stars: 4086
+  - "OpenClaw"
 ---
 
 # Format plain-text drafts for clean Substack paste
 
 Transforms raw draft text into paste-ready Substack HTML so an agent can preserve headings, emphasis, lists, and spacing without hand-formatting every paragraph. Use it when the job is preparing a finished newsletter draft for the editor, not when you just need general writing help.
 
+## Prerequisites
+
+Python 3
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/format-plain-text-drafts-for-clean-substack-paste/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-plain-text-drafts-for-clean-substack-paste
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/format-plain-text-drafts-for-clean-substack-paste`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter
 
 ## Source
 

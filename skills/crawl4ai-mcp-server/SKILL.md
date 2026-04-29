@@ -1,16 +1,16 @@
 ---
-title: Crawl4AI MCP Server
-description: Self-hosted web crawling and content extraction exposed as MCP tools.
-  Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted
-  and free.
-verification: security_reviewed
-source: https://github.com/sadiuysal/crawl4ai-mcp-server
+title: "Crawl4AI MCP Server"
+description: "Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free."
+verification: "security_reviewed"
+source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
+author: "Crawl4AI community (server by sadiuysal)"
+publisher_type: "individual"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: sadiuysal/crawl4ai-mcp-server
+  github_repo: "sadiuysal/crawl4ai-mcp-server"
   github_stars: 82
 ---
 
@@ -18,29 +18,23 @@ tool_ecosystem:
 
 Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free.
 
+## Prerequisites
+
+MCP-compatible client, Python 3.10+ with Playwright or Docker
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/crawl4ai-mcp-server/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawl4ai-mcp-server
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/crawl4ai-mcp-server`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.crawl4ai.com/
 
 ## Source
 

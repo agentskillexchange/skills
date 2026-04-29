@@ -1,18 +1,17 @@
 ---
-title: Yeoman Generator Builder
-description: Creates custom Yeoman generators using the yeoman-generator API and yo
-  CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting
-  composability via this.composeWith() for multi-generator workflows.
-verification: security_reviewed
-source: https://github.com/yeoman/generator
+title: "Yeoman Generator Builder"
+description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
+verification: "security_reviewed"
+source: "https://github.com/yeoman/generator"
+author: "Yeoman"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: yeoman/generator
+  github_repo: "yeoman/generator"
   github_stars: 1262
-  npm_package: yeoman-generator
+  npm_package: "yeoman-generator"
   npm_weekly_downloads: 5021257
 ---
 
@@ -20,29 +19,29 @@ tool_ecosystem:
 
 Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows.
 
+## Prerequisites
+
+Node.js
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/yeoman-generator-builder/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/yeoman-generator-builder
+```
+npm install yeoman-generator
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/yeoman-generator-builder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://yeoman.io/authoring/
 
 ## Source
 

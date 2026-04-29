@@ -1,15 +1,16 @@
 ---
-title: Build super timelines from mixed forensic artifacts with Plaso
-description: Ingest disk, log, and system artifacts into a sortable forensic timeline
-  before analysis, scoping, or case review.
-verification: listed
-source: https://github.com/log2timeline/plaso
+title: "Build super timelines from mixed forensic artifacts with Plaso"
+description: "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review."
+verification: "listed"
+source: "https://github.com/log2timeline/plaso"
+author: "log2timeline"
+publisher_type: "organization"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: log2timeline/plaso
+  github_repo: "log2timeline/plaso"
   github_stars: 2052
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review.
 
+## Prerequisites
+
+Plaso tooling such as log2timeline and psort, Python environment, artifact set or disk image to parse
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso
+```
+Install Plaso from the upstream project or supported packages, feed it the target artifact source or image, then generate and review the resulting timeline with the standard Plaso tools.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://plaso.readthedocs.io/en/latest/
 
 ## Source
 

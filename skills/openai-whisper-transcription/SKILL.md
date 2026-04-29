@@ -1,14 +1,16 @@
 ---
-title: OpenAI Whisper Transcription
-description: Local speech-to-text transcription without relying on an API.
-verification: security_reviewed
-source: https://github.com/openai/whisper
+title: "OpenAI Whisper Transcription"
+description: "Local speech-to-text transcription without relying on an API."
+verification: "security_reviewed"
+source: "https://github.com/openai/whisper"
+author: "openai"
+publisher_type: "open_source_collective"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: openai/whisper
+  github_repo: "openai/whisper"
   github_stars: 98538
 ---
 
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Local speech-to-text transcription without relying on an API.
 
+## Prerequisites
+
+Python, pip, FFmpeg
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/openai-whisper-transcription/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openai-whisper-transcription
+```
+pip install -U openai-whisper
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/openai-whisper-transcription`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/openclaw/openclaw/tree/main/skills/openai-whisper/SKILL.md
 
 ## Source
 

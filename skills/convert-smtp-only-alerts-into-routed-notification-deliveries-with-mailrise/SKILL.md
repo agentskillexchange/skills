@@ -1,15 +1,14 @@
 ---
-title: Convert SMTP-only alerts into routed notification deliveries with Mailrise
-description: Use Mailrise to accept ordinary email alerts and fan them out through
-  Apprise-backed notification channels when legacy systems can only speak SMTP.
-verification: security_reviewed
-source: https://github.com/YoRyan/mailrise
+title: "Convert SMTP-only alerts into routed notification deliveries with Mailrise"
+description: "Use Mailrise to accept ordinary email alerts and fan them out through Apprise-backed notification channels when legacy systems can only speak SMTP."
+verification: "security_reviewed"
+source: "https://github.com/YoRyan/mailrise"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: YoRyan/mailrise
+  github_repo: "YoRyan/mailrise"
   github_stars: 1514
 ---
 
@@ -19,27 +18,13 @@ Use Mailrise to accept ordinary email alerts and fan them out through Apprise-ba
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,16 +1,16 @@
 ---
-title: Temporal CLI Workflow and Server Control
-description: Temporal CLI runs a local Temporal server and talks to workflows, activities,
-  and namespaces. It is the practical command-line companion for Temporal development
-  and debugging.
-verification: security_reviewed
-source: https://github.com/temporalio/cli
+title: "Temporal CLI Workflow and Server Control"
+description: "Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and debugging."
+verification: "security_reviewed"
+source: "https://github.com/temporalio/cli"
+author: "Temporal"
+publisher_type: "Company"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: temporalio/cli
+  github_repo: "temporalio/cli"
   github_stars: 350
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and debugging.
 
+## Prerequisites
+
+Go, Docker, or a downloaded Temporal binary depending on install path
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/temporal-cli-workflow-server-control/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/temporal-cli-workflow-server-control
+```
+brew install temporal
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/temporal-cli-workflow-server-control`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/temporalio/cli
 
 ## Source
 

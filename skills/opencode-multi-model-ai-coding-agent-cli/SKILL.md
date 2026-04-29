@@ -1,17 +1,14 @@
 ---
-title: OpenCode Multi-Model AI Coding Agent CLI
-description: An open-source terminal-native AI coding agent written in Go that supports
-  75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing,
-  code generation, shell command execution, and project understanding without subscription
-  fees.
-verification: security_reviewed
-source: https://github.com/opencode-ai/opencode
+title: "OpenCode Multi-Model AI Coding Agent CLI"
+description: "An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing, code generation, shell command execution, and project understanding without subscription fees."
+verification: "security_reviewed"
+source: "https://github.com/opencode-ai/opencode"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: opencode-ai/opencode
+  github_repo: "opencode-ai/opencode"
   github_stars: 11729
 ---
 
@@ -21,27 +18,13 @@ An open-source terminal-native AI coding agent written in Go that supports 75+ L
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/opencode-multi-model-ai-coding-agent-cli/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/opencode-multi-model-ai-coding-agent-cli
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/opencode-multi-model-ai-coding-agent-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,47 +1,43 @@
 ---
-title: Investigate failing GitHub Actions runs with CI Doctor
-description: Use GitHub Next’s CI Doctor workflow to watch GitHub Actions runs, pull
-  failure logs, trace recurring patterns, and open investigation issues with concrete
-  next steps. This is for agents acting as CI failure investigators, not for listing
-  GitHub Agentic Workflows as a product.
-verification: security_reviewed
-source: https://github.com/githubnext/agentics/blob/main/docs/ci-doctor.md
+title: "Investigate failing GitHub Actions runs with CI Doctor"
+description: "Use GitHub Next’s CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product."
+verification: "security_reviewed"
+source: "https://github.com/githubnext/agentics/blob/main/docs/ci-doctor.md"
+author: "GitHub Next"
+publisher_type: "Open source project"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: githubnext/agentics
-  github_stars: 581
+  - "Multi-Framework"
 ---
 
 # Investigate failing GitHub Actions runs with CI Doctor
 
 Use GitHub Next’s CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product.
 
+## Prerequisites
+
+GitHub, GitHub Actions, gh, GitHub Agentic Workflows extension, AI provider token supported by gh-aw
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/investigate-failing-github-actions-runs-with-ci-doctor-2/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/investigate-failing-github-actions-runs-with-ci-doctor-2
+```
+Install gh-aw with gh extension install github/gh-aw, then add githubnext/agentics/ci-doctor to your repository and compile the workflow.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/investigate-failing-github-actions-runs-with-ci-doctor-2`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://raw.githubusercontent.com/githubnext/agentics/main/docs/ci-doctor.md
 
 ## Source
 

@@ -1,15 +1,16 @@
 ---
-title: Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval
-description: Run staged evaluations against a Claude Code plugin to verify that skills,
-  agents, commands, hooks, and MCP components trigger when they should.
-verification: listed
-source: https://github.com/sjnims/cc-plugin-eval
+title: "Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval"
+description: "Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should."
+verification: "listed"
+source: "https://github.com/sjnims/cc-plugin-eval"
+author: "sjnims"
+publisher_type: "individual"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: sjnims/cc-plugin-eval
+  github_repo: "sjnims/cc-plugin-eval"
   github_stars: 16
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should.
 
+## Prerequisites
+
+Node.js 20+, Anthropic API key, Claude Code plugin directory
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval
+```
+Clone the repo, run `npm install` and `npm run build`, set `ANTHROPIC_API_KEY` in `.env`, then run `npx cc-plugin-eval run -p ./path/to/your/plugin` or start with `--dry-run` for an estimate.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/sjnims/cc-plugin-eval
 
 ## Source
 

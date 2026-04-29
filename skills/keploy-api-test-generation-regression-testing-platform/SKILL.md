@@ -1,17 +1,15 @@
 ---
-title: Keploy API Test Generation and Regression Testing Platform
-description: Keploy is an open source platform for generating API tests from real
-  traffic and improving regression coverage. This skill helps agents work with test
-  generation, API replay, coverage expansion, and validation workflows around Keploy
-  projects.
-verification: security_reviewed
-source: https://github.com/keploy/keploy
+title: "Keploy API Test Generation and Regression Testing Platform"
+description: "Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test generation, API replay, coverage expansion, and validation workflows around Keploy projects."
+verification: "security_reviewed"
+source: "https://github.com/keploy/keploy"
+author: "keploy"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: keploy/keploy
+  github_repo: "keploy/keploy"
   github_stars: 17090
 ---
 
@@ -21,27 +19,13 @@ Keploy is an open source platform for generating API tests from real traffic and
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/keploy-api-test-generation-regression-testing-platform/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/keploy-api-test-generation-regression-testing-platform
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/keploy-api-test-generation-regression-testing-platform`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

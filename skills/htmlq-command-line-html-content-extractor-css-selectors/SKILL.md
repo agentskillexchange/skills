@@ -1,17 +1,16 @@
 ---
-title: htmlq Command-Line HTML Content Extractor with CSS Selectors
-description: htmlq is a command-line tool for extracting content from HTML using CSS
-  selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you
-  pipe HTML through CSS selectors to extract text, attributes, and structured content
-  directly from the terminal.
-verification: security_reviewed
-source: https://github.com/mgdm/htmlq
+title: "htmlq Command-Line HTML Content Extractor with CSS Selectors"
+description: "htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal."
+verification: "security_reviewed"
+source: "https://github.com/mgdm/htmlq"
+author: "Michael Maclean"
+publisher_type: "Individual Developer"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mgdm/htmlq
+  github_repo: "mgdm/htmlq"
   github_stars: 7514
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal.
 
+## Prerequisites
+
+Rust (cargo) or Homebrew
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/htmlq-command-line-html-content-extractor-css-selectors/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/htmlq-command-line-html-content-extractor-css-selectors
+```
+cargo install htmlq
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/htmlq-command-line-html-content-extractor-css-selectors`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/mgdm/htmlq#readme
 
 ## Source
 

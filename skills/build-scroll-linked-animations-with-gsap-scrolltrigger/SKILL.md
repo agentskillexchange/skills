@@ -1,15 +1,13 @@
 ---
-title: Build scroll-linked animations with GSAP ScrollTrigger
-description: Use Greensock’s official gsap-scrolltrigger skill to plan, implement,
-  and debug scroll-linked animations, pinned sections, and scrubbed storytelling without
-  guessing at plugin setup. The agent should reach for this when a user needs a bounded
-  scroll-animation workflow, not when they just need the GSAP product page.
-verification: security_reviewed
-source: https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger
+title: "Build scroll-linked animations with GSAP ScrollTrigger"
+description: "Use Greensock’s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page."
+verification: "security_reviewed"
+source: "https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger"
+publisher_type: "organization"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Build scroll-linked animations with GSAP ScrollTrigger
@@ -18,27 +16,17 @@ Use Greensock’s official gsap-scrolltrigger skill to plan, implement, and debu
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-scroll-linked-animations-with-gsap-scrolltrigger/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-scroll-linked-animations-with-gsap-scrolltrigger
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/build-scroll-linked-animations-with-gsap-scrolltrigger`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger
 
 ## Source
 

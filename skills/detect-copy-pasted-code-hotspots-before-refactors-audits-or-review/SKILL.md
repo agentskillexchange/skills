@@ -1,17 +1,16 @@
 ---
-title: Detect copy-pasted code hotspots before refactors, audits, or review
-description: Use jscpd when an agent needs to scan a codebase for duplicated blocks
-  and turn clone findings into a focused cleanup or review queue. The skill is about
-  duplication detection and hotspot reporting, not general linting, testing, or automated
-  refactoring by itself.
-verification: security_reviewed
-source: https://www.npmjs.com/package/jscpd
+title: "Detect copy-pasted code hotspots before refactors, audits, or review"
+description: "Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused cleanup or review queue. The skill is about duplication detection and hotspot reporting, not general linting, testing, or automated refactoring by itself."
+verification: "security_reviewed"
+source: "https://www.npmjs.com/package/jscpd"
+author: "Andrey Kucherenko"
+publisher_type: "Individual Maintainer"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  npm_package: jscpd
+  npm_package: "jscpd"
   npm_weekly_downloads: 703581
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused cleanup or review queue. The skill is about duplication detection and hotspot reporting, not general linting, testing, or automated refactoring by itself.
 
+## Prerequisites
+
+Node.js and npm
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review
+```
+npm install -g jscpd
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/kucherenko/jscpd#readme
 
 ## Source
 

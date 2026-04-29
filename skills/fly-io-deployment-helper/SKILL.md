@@ -1,18 +1,15 @@
 ---
-title: Fly.io Deployment Helper
-description: Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying
-  ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives
-  an agent a more technical and reliable way to work with the tool than a thin one-line
-  wrapper, using stable interfaces like queries, mutations, schema introspection,
-  fragments, pagination, subscriptions and preserving the operational context […]
-verification: security_reviewed
-source: https://github.com/superfly/flyctl
+title: "Fly.io Deployment Helper"
+description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
+verification: "security_reviewed"
+source: "https://github.com/superfly/flyctl"
+author: "Fly.io"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: superfly/flyctl
+  github_repo: "superfly/flyctl"
   github_stars: 1645
 ---
 
@@ -22,27 +19,17 @@ Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying e
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/fly-io-deployment-helper/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/fly-io-deployment-helper
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/fly-io-deployment-helper`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://fly.io/docs/flyctl/
 
 ## Source
 

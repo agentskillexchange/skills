@@ -1,17 +1,14 @@
 ---
-title: Hurl Declarative HTTP Request Runner and Tester
-description: Hurl is a command-line tool for running and testing HTTP requests defined
-  in plain text files. Built on libcurl, it supports chaining multiple requests, capturing
-  values, asserting responses with JSONPath and XPath, and integrating into CI/CD
-  pipelines — making it ideal for API testing, integration testing, and endpoint validation.
-verification: security_reviewed
-source: https://github.com/Orange-OpenSource/hurl
+title: "Hurl Declarative HTTP Request Runner and Tester"
+description: "Hurl is a command-line tool for running and testing HTTP requests defined in plain text files. Built on libcurl, it supports chaining multiple requests, capturing values, asserting responses with JSONPath and XPath, and integrating into CI/CD pipelines — making it ideal for API testing, integration testing, and endpoint validation."
+verification: "security_reviewed"
+source: "https://github.com/Orange-OpenSource/hurl"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: Orange-OpenSource/hurl
+  github_repo: "Orange-OpenSource/hurl"
   github_stars: 18696
 ---
 
@@ -21,27 +18,13 @@ Hurl is a command-line tool for running and testing HTTP requests defined in pla
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/hurl-declarative-http-request-runner-tester/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hurl-declarative-http-request-runner-tester
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/hurl-declarative-http-request-runner-tester`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,45 +1,43 @@
 ---
-title: Address GitHub PR review comments from the current branch with gh-address-comments
-description: Find the open PR for the current branch, gather unresolved review comments,
-  and drive a focused comment-resolution workflow with gh-authenticated context.
-verification: listed
-source: https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments
+title: "Address GitHub PR review comments from the current branch with gh-address-comments"
+description: "Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context."
+verification: "listed"
+source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments"
+author: "OpenAI"
+publisher_type: "organization"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Codex
-tool_ecosystem:
-  github_repo: openai/skills
-  github_stars: 17293
+  - "Codex"
 ---
 
 # Address GitHub PR review comments from the current branch with gh-address-comments
 
 Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context.
 
+## Prerequisites
+
+Codex, GitHub CLI (gh), repository with an open PR, GitHub auth
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments
+```
+Use the curated gh-address-comments skill from the openai/skills catalog, ensure `gh auth status` works in the repository, then run it on the current branch so it can fetch the PR's unresolved comments and guide the selected fixes.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-address-comments/SKILL.md
 
 ## Source
 

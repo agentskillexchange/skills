@@ -1,18 +1,15 @@
 ---
-title: Compare recurring CSV, TSV, or JSON exports and emit row-level change sets
-  before syncs
-description: Use csv-diff when an agent needs to explain what changed between two
-  structured exports, not just that the files differ. The agent lines records up by
-  a stable key, reports added, removed, and changed rows, and can hand the result
-  to humans or downstream automations as readable text or machine-friendly JSON.
-verification: security_reviewed
-source: https://github.com/simonw/csv-diff
+title: "Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs"
+description: "Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files differ. The agent lines records up by a stable key, reports added, removed, and changed rows, and can hand the result to humans or downstream automations as readable text or machine-friendly JSON."
+verification: "security_reviewed"
+source: "https://github.com/simonw/csv-diff"
+author: "Simon Willison"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: simonw/csv-diff
+  github_repo: "simonw/csv-diff"
   github_stars: 330
 ---
 
@@ -20,29 +17,29 @@ tool_ecosystem:
 
 Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files differ. The agent lines records up by a stable key, reports added, removed, and changed rows, and can hand the result to humans or downstream automations as readable text or machine-friendly JSON.
 
+## Prerequisites
+
+Python 3, pip, two comparable CSV, TSV, or JSON snapshots, and a stable key column or field.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs
+```
+pip install csv-diff
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/simonw/csv-diff
 
 ## Source
 

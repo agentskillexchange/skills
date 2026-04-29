@@ -1,17 +1,16 @@
 ---
-title: MailHog SMTP Testing Server with Web UI and API
-description: Uses MailHog to capture outbound email in development and test environments
-  through a local SMTP server, browser UI, and JSON API. It is a practical fit for
-  debugging transactional mail, verifying templates, and testing delivery behavior
-  without sending messages to real recipients.
-verification: security_reviewed
-source: https://github.com/mailhog/MailHog
+title: "MailHog SMTP Testing Server with Web UI and API"
+description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
+verification: "security_reviewed"
+source: "https://github.com/mailhog/MailHog"
+author: "MailHog"
+publisher_type: "open_source_collective"
 category:
-- Calendar, Email & Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mailhog/mailhog
+  github_repo: "mailhog/mailhog"
   github_stars: 15892
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients.
 
+## Prerequisites
+
+Docker, Homebrew, or Go
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mailhog-smtp-testing-server-with-web-ui-and-api/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mailhog-smtp-testing-server-with-web-ui-and-api
+```
+brew update && brew install mailhog
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/mailhog-smtp-testing-server-with-web-ui-and-api`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/mailhog/MailHog
 
 ## Source
 

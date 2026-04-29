@@ -1,17 +1,14 @@
 ---
-title: Terraform MCP Server for Infrastructure as Code
-description: The official HashiCorp Terraform MCP server integrates with the Terraform
-  Registry and HCP Terraform, enabling AI agents to browse providers, discover modules,
-  manage workspaces, and validate infrastructure configurations through the Model
-  Context Protocol.
-verification: security_reviewed
-source: https://github.com/hashicorp/terraform-mcp-server
+title: "Terraform MCP Server for Infrastructure as Code"
+description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
+verification: "security_reviewed"
+source: "https://github.com/hashicorp/terraform-mcp-server"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: hashicorp/terraform-mcp-server
+  github_repo: "hashicorp/terraform-mcp-server"
   github_stars: 1298
 ---
 
@@ -21,27 +18,13 @@ The official HashiCorp Terraform MCP server integrates with the Terraform Regist
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/terraform-mcp-server-infrastructure-as-code
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/terraform-mcp-server-infrastructure-as-code`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,15 +1,13 @@
 ---
-title: DocuSign Contract Auto-Sender with Conditional Logic
-description: Uses the DocuSign eSignature REST API SDK to programmatically create
-  envelope definitions with conditional routing rules based on contract value thresholds.
-  Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope
-  status updates are tracked via DocuSign Connect webhooks.
-verification: security_reviewed
-source: https://developers.docusign.com/docs/esign-rest-api/
+title: "DocuSign Contract Auto-Sender with Conditional Logic"
+description: "Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks."
+verification: "security_reviewed"
+source: "https://developers.docusign.com/docs/esign-rest-api/"
+author: "DocuSign"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
 
 # DocuSign Contract Auto-Sender with Conditional Logic
@@ -18,27 +16,17 @@ Uses the DocuSign eSignature REST API SDK to programmatically create envelope de
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/docusign-contract-auto-sender/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docusign-contract-auto-sender
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/docusign-contract-auto-sender`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://developers.docusign.com/docs/esign-rest-api/
 
 ## Source
 

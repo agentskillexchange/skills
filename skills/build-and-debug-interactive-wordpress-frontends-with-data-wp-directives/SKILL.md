@@ -1,47 +1,43 @@
 ---
-title: Build and debug interactive WordPress frontends with data-wp directives
-description: This skill helps an agent create or troubleshoot WordPress Interactivity
-  API behavior, from store wiring to server-rendered state and hydration checks. Use
-  it when a block, theme, or plugin needs directive-driven interactivity rather than
-  ad hoc frontend glue.
-verification: security_reviewed
-source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api
+title: "Build and debug interactive WordPress frontends with data-wp directives"
+description: "This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when a block, theme, or plugin needs directive-driven interactivity rather than ad hoc frontend glue."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api"
+author: "WordPress Contributors"
+publisher_type: "Open Source Project"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: wordpress/agent-skills
-  github_stars: 1219
+  - "Multi-Framework"
 ---
 
 # Build and debug interactive WordPress frontends with data-wp directives
 
 This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when a block, theme, or plugin needs directive-driven interactivity rather than ad hoc frontend glue.
 
+## Prerequisites
+
+Node.js; filesystem access; WordPress block tooling; optional WP-CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives
+```
+Clone WordPress/agent-skills, run node shared/scripts/skillpack-build.mjs --clean, then install with node shared/scripts/skillpack-install.mjs --global or --dest=<project>.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/WordPress/agent-skills
 
 ## Source
 

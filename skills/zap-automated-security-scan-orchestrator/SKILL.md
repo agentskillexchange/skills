@@ -1,16 +1,15 @@
 ---
-title: ZAP Automated Security Scan Orchestrator
-description: Orchestrates OWASP ZAP security scans via the ZAP API with automated
-  spider, active scanner, and authentication sequence configuration. Generates compliance
-  reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats.
-verification: security_reviewed
-source: https://github.com/zaproxy/zaproxy
+title: "ZAP Automated Security Scan Orchestrator"
+description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
+verification: "security_reviewed"
+source: "https://github.com/zaproxy/zaproxy"
+author: "OWASP ZAP"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Codex
+  - "Codex"
 tool_ecosystem:
-  github_repo: zaproxy/zaproxy
+  github_repo: "zaproxy/zaproxy"
   github_stars: 15007
 ---
 
@@ -18,29 +17,29 @@ tool_ecosystem:
 
 Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats.
 
+## Prerequisites
+
+Java or Docker
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/zap-automated-security-scan-orchestrator
+```
+docker pull ghcr.io/zaproxy/zaproxy:stable
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/zap-automated-security-scan-orchestrator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.zaproxy.org/docs/
 
 ## Source
 

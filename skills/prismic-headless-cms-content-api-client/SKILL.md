@@ -1,19 +1,17 @@
 ---
-title: Prismic Headless CMS Content API Client
-description: Prismic provides a headless CMS with an API-first editing model, and
-  the official @prismicio/client package is the main integration point for fetching
-  content in apps and automations. It fits agents that need to inspect repositories,
-  publish structured content flows, or wire CMS data into websites and internal tools.
-verification: security_reviewed
-source: https://github.com/prismicio/prismic-client
+title: "Prismic Headless CMS Content API Client"
+description: "Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the main integration point for fetching content in apps and automations. It fits agents that need to inspect repositories, publish structured content flows, or wire CMS data into websites and internal tools."
+verification: "security_reviewed"
+source: "https://github.com/prismicio/prismic-client"
+author: "prismicio"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: prismicio/prismic-client
+  github_repo: "prismicio/prismic-client"
   github_stars: 177
-  npm_package: '@prismicio/client'
+  npm_package: "@prismicio/client"
   npm_weekly_downloads: 199739
 ---
 
@@ -23,27 +21,17 @@ Prismic provides a headless CMS with an API-first editing model, and the officia
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/prismic-headless-cms-content-api-client/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prismic-headless-cms-content-api-client
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/prismic-headless-cms-content-api-client`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://prismic.io/docs/technical-reference/prismicio-client
 
 ## Source
 

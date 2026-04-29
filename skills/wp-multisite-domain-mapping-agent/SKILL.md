@@ -1,17 +1,15 @@
 ---
-title: WP Multisite Domain Mapping Agent
-description: Manages domain mapping configurations across WordPress Multisite networks
-  using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate
-  provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs
-  table updates for custom domain routing.
-verification: security_reviewed
-source: https://github.com/certbot/certbot
+title: "WP Multisite Domain Mapping Agent"
+description: "Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing."
+verification: "security_reviewed"
+source: "https://github.com/certbot/certbot"
+author: "certbot"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: certbot/certbot
+  github_repo: "certbot/certbot"
   github_stars: 32972
 ---
 
@@ -21,27 +19,13 @@ Manages domain mapping configurations across WordPress Multisite networks using 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wp-multisite-domain-mapping-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/wp-multisite-domain-mapping-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

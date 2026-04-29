@@ -1,16 +1,14 @@
 ---
-title: Scrapy Pipeline Data Extractor
-description: Builds production Scrapy spiders with custom Item Pipelines for data
-  cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping
-  and ItemLoader with MapCompose processors for field normalization.
-verification: security_reviewed
-source: https://github.com/scrapy/scrapy
+title: "Scrapy Pipeline Data Extractor"
+description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
+verification: "security_reviewed"
+source: "https://github.com/scrapy/scrapy"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Gemini
+  - "Gemini"
 tool_ecosystem:
-  github_repo: scrapy/scrapy
+  github_repo: "scrapy/scrapy"
   github_stars: 61314
 ---
 
@@ -20,27 +18,13 @@ Builds production Scrapy spiders with custom Item Pipelines for data cleaning an
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scrapy-pipeline-data-extractor
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/scrapy-pipeline-data-extractor`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

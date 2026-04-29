@@ -1,16 +1,14 @@
 ---
-title: ArgoCD Deployment Monitor
-description: Monitors ArgoCD application deployments using the ArgoCD REST API and
-  gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes
-  namespaces.
-verification: security_reviewed
-source: https://github.com/argoproj/argo-cd
+title: "ArgoCD Deployment Monitor"
+description: "Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces."
+verification: "security_reviewed"
+source: "https://github.com/argoproj/argo-cd"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: argoproj/argo-cd
+  github_repo: "argoproj/argo-cd"
   github_stars: 22593
 ---
 
@@ -20,27 +18,13 @@ Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC inter
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/argocd-deployment-monitor/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/argocd-deployment-monitor
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/argocd-deployment-monitor`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

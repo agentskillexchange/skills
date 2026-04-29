@@ -1,16 +1,14 @@
 ---
-title: CDP Network Interception Logger
-description: Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived
-  events to intercept, log, and modify HTTP traffic during browser automation. Exports
-  HAR files compatible with Charles Proxy and supports request/response body modification.
-verification: security_reviewed
-source: https://github.com/ChromeDevTools/devtools-protocol
+title: "CDP Network Interception Logger"
+description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
+verification: "security_reviewed"
+source: "https://github.com/ChromeDevTools/devtools-protocol"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Codex
+  - "Codex"
 tool_ecosystem:
-  github_repo: ChromeDevTools/devtools-protocol
+  github_repo: "ChromeDevTools/devtools-protocol"
   github_stars: 1476
 ---
 
@@ -20,27 +18,13 @@ Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived e
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/cdp-network-interception-logger/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cdp-network-interception-logger
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/cdp-network-interception-logger`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

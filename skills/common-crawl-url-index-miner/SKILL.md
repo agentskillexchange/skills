@@ -1,16 +1,15 @@
 ---
-title: Common Crawl URL Index Miner
-description: Queries the Common Crawl Index API and CC-MAIN collections to surface
-  historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research
-  workflows that need broad web recall without building a full crawler from scratch.
-verification: security_reviewed
-source: https://github.com/commoncrawl/cc-index-table
+title: "Common Crawl URL Index Miner"
+description: "Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch."
+verification: "security_reviewed"
+source: "https://github.com/commoncrawl/cc-index-table"
+author: "commoncrawl"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: commoncrawl/cc-index-table
+  github_repo: "commoncrawl/cc-index-table"
   github_stars: 127
 ---
 
@@ -20,27 +19,13 @@ Queries the Common Crawl Index API and CC-MAIN collections to surface historical
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/common-crawl-url-index-miner/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/common-crawl-url-index-miner
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/common-crawl-url-index-miner`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,17 +1,16 @@
 ---
-title: Apprise Universal Push Notification Library and CLI
-description: Apprise is a Python library and CLI that sends push notifications to
-  over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email,
-  and more through a single unified API. It supports attachments, images, and asynchronous
-  delivery.
-verification: security_reviewed
-source: https://github.com/caronc/apprise
+title: "Apprise Universal Push Notification Library and CLI"
+description: "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery."
+verification: "security_reviewed"
+source: "https://github.com/caronc/apprise"
+author: "Chris Caron"
+publisher_type: "Individual Developer"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: caronc/apprise
+  github_repo: "caronc/apprise"
   github_stars: 16227
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery.
 
+## Prerequisites
+
+Python 3.8+
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/apprise-universal-push-notification-library-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apprise-universal-push-notification-library-cli
+```
+pip install apprise
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/apprise-universal-push-notification-library-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://appriseit.com/
 
 ## Source
 

@@ -1,16 +1,14 @@
 ---
-title: Kubernetes Helm Chart Scaffold Builder
-description: Generates Helm v3 chart scaffolds with templated deployments, services,
-  ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval
-  for Kubernetes API version compatibility.
-verification: security_reviewed
-source: https://github.com/helm/helm
+title: "Kubernetes Helm Chart Scaffold Builder"
+description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
+verification: "security_reviewed"
+source: "https://github.com/helm/helm"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: helm/helm
+  github_repo: "helm/helm"
   github_stars: 29697
 ---
 
@@ -20,27 +18,13 @@ Generates Helm v3 chart scaffolds with templated deployments, services, ingress 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/kubernetes-helm-chart-scaffold-builder
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/kubernetes-helm-chart-scaffold-builder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

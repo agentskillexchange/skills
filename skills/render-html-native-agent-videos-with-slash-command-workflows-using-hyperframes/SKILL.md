@@ -1,17 +1,18 @@
 ---
-title: Render HTML-native agent videos with slash-command workflows using HyperFrames
-description: Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo
-  context into editable HTML video compositions and rendered MP4 outputs.
-verification: listed
-source: https://github.com/heygen-com/hyperframes
+title: "Render HTML-native agent videos with slash-command workflows using HyperFrames"
+description: "Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs."
+verification: "listed"
+source: "https://github.com/heygen-com/hyperframes"
+author: "HeyGen"
+publisher_type: "organization"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: heygen-com/hyperframes
+  github_repo: "heygen-com/hyperframes"
   github_stars: 9510
-  npm_package: hyperframes
+  npm_package: "hyperframes"
   npm_weekly_downloads: 28006
 ---
 
@@ -19,29 +20,29 @@ tool_ecosystem:
 
 Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs.
 
+## Prerequisites
+
+Node.js 22+, FFmpeg
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes
+```
+Install the package with `npx hyperframes init my-video` or add the upstream agent skills with `npx skills add heygen-com/hyperframes`, then preview with `npx hyperframes preview` and render with `npx hyperframes render`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/heygen-com/hyperframes
 
 ## Source
 

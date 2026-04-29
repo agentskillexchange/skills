@@ -1,17 +1,16 @@
 ---
-title: Normalize loudness across podcast, lesson, or video batches before publishing
-description: Uses ffmpeg-normalize to batch-normalize audio levels so an agent can
-  hand off consistent output without opening a DAW or touching every file by hand.
-  It fits pipelines that need EBU R128, RMS, or peak targets across mixed media before
-  delivery.
-verification: security_reviewed
-source: https://github.com/slhck/ffmpeg-normalize
+title: "Normalize loudness across podcast, lesson, or video batches before publishing"
+description: "Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off consistent output without opening a DAW or touching every file by hand. It fits pipelines that need EBU R128, RMS, or peak targets across mixed media before delivery."
+verification: "security_reviewed"
+source: "https://github.com/slhck/ffmpeg-normalize"
+author: "slhck"
+publisher_type: "Open Source Project"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: slhck/ffmpeg-normalize
+  github_repo: "slhck/ffmpeg-normalize"
   github_stars: 1500
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off consistent output without opening a DAW or touching every file by hand. It fits pipelines that need EBU R128, RMS, or peak targets across mixed media before delivery.
 
+## Prerequisites
+
+ffmpeg plus a Python or uv environment
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing
+```
+pip3 install ffmpeg-normalize
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://slhck.info/ffmpeg-normalize/
 
 ## Source
 

@@ -1,16 +1,16 @@
 ---
-title: Orchestrate multi-environment OpenTofu and Terraform stacks with shared config
-  and dependency ordering using Terragrunt
-description: Coordinate layered Terraform or OpenTofu stacks across environments so
-  plan and apply runs happen in the right order with shared inputs and less drift.
-verification: listed
-source: https://github.com/gruntwork-io/terragrunt
+title: "Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt"
+description: "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift."
+verification: "listed"
+source: "https://github.com/gruntwork-io/terragrunt"
+author: "Gruntwork"
+publisher_type: "organization"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: gruntwork-io/terragrunt
+  github_repo: "gruntwork-io/terragrunt"
   github_stars: 9503
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift.
 
+## Prerequisites
+
+Terragrunt CLI, Terraform or OpenTofu, access to the target infrastructure codebase, environment credentials, and remote state or backend access as required by the stack
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt
+```
+Install Terragrunt from the upstream release or package instructions, ensure Terraform or OpenTofu is available, configure credentials and backends for the target environments, then run the documented terragrunt plan or apply workflow against the stack hierarchy.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://terragrunt.com
 
 ## Source
 

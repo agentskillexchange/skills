@@ -1,15 +1,16 @@
 ---
-title: Probe ML and LLM systems for regressions and vulnerabilities with Giskard
-description: Run automated red-team and failure scans against an LLM or RAG app before
-  users find the breakage.
-verification: listed
-source: https://github.com/Giskard-AI/giskard-oss
+title: "Probe ML and LLM systems for regressions and vulnerabilities with Giskard"
+description: "Run automated red-team and failure scans against an LLM or RAG app before users find the breakage."
+verification: "listed"
+source: "https://github.com/Giskard-AI/giskard-oss"
+author: "Giskard AI"
+publisher_type: "organization"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: giskard-ai/giskard-oss
+  github_repo: "giskard-ai/giskard-oss"
   github_stars: 5261
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Run automated red-team and failure scans against an LLM or RAG app before users find the breakage.
 
+## Prerequisites
+
+Python environment, Giskard open-source package, model or RAG application access, test datasets or prompts, model provider credentials where required
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard
+```
+Install the Giskard open-source package in a Python environment, connect it to the target model or RAG workflow, then run the documented scan or evaluation flows and review the reported failures.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.giskard.ai/
 
 ## Source
 

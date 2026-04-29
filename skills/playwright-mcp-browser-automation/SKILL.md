@@ -1,19 +1,21 @@
 ---
-title: Playwright MCP Browser Automation
-description: Official Playwright-powered browser control for agent workflows.
-verification: security_reviewed
-source: https://github.com/microsoft/playwright-mcp
+title: "Playwright MCP Browser Automation"
+description: "Official Playwright-powered browser control for agent workflows."
+verification: "security_reviewed"
+source: "https://github.com/microsoft/playwright-mcp"
+author: "Microsoft"
+publisher_type: "company"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Claude Code
-- Cursor
-- MCP
-- OpenClaw
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: microsoft/playwright-mcp
+  github_repo: "microsoft/playwright-mcp"
   github_stars: 31540
-  npm_package: '@playwright/mcp'
+  npm_package: "@playwright/mcp"
   npm_weekly_downloads: 1632140
 ---
 
@@ -21,29 +23,29 @@ tool_ecosystem:
 
 Official Playwright-powered browser control for agent workflows.
 
+## Prerequisites
+
+Node.js, Playwright, MCP client or host environment
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-mcp-browser-automation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-mcp-browser-automation
+```
+Install from the GitHub repository and register as an MCP server in the host agent environment. Requires Node.js and Playwright.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/playwright-mcp-browser-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/microsoft/playwright-mcp
 
 ## Source
 

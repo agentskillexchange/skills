@@ -1,47 +1,43 @@
 ---
-title: Simplify recently changed code and open low-risk refactor pull requests
-description: This entry turns GitHub Next’s Code Simplifier workflow into a narrow
-  cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving
-  simplifications, runs validation, and opens small refactor pull requests instead
-  of attempting broad rewrites.
-verification: security_reviewed
-source: https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md
+title: "Simplify recently changed code and open low-risk refactor pull requests"
+description: "This entry turns GitHub Next’s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites."
+verification: "security_reviewed"
+source: "https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md"
+author: "GitHub Next"
+publisher_type: "Open Source Project"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: githubnext/agentics
-  github_stars: 585
+  - "Multi-Framework"
 ---
 
 # Simplify recently changed code and open low-risk refactor pull requests
 
 This entry turns GitHub Next’s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites.
 
+## Prerequisites
+
+GitHub CLI, the gh-aw extension, and repository CI or tests for validation
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests
+```
+gh extension install github/gh-aw && gh aw add-wizard githubnext/agentics/code-simplifier
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md
 
 ## Source
 

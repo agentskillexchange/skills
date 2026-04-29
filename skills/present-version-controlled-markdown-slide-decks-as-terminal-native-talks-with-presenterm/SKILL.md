@@ -1,18 +1,18 @@
 ---
-title: Present version-controlled markdown slide decks as terminal-native talks with
-  Presenterm
-description: Turn markdown slide decks into terminal presentations for live demos,
-  reviews, and workshops without leaving plain text or git.
-verification: listed
-source: https://github.com/mfontanini/presenterm
+title: "Present version-controlled markdown slide decks as terminal-native talks with Presenterm"
+description: "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git."
+verification: "listed"
+source: "https://github.com/mfontanini/presenterm"
+author: "mfontanini"
+publisher_type: "individual"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mfontanini/presenterm
+  github_repo: "mfontanini/presenterm"
   github_stars: 8246
-  npm_package: presenterm
+  npm_package: "presenterm"
   npm_weekly_downloads: 29896
 ---
 
@@ -20,29 +20,29 @@ tool_ecosystem:
 
 Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
 
+## Prerequisites
+
+Presenterm installation, markdown slide deck files, terminal with supported rendering features, optional speaker notes or theme assets
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm
+```
+Install Presenterm from the upstream package or release instructions, prepare a markdown slide deck in the documented format, then preview and present it from the terminal using the built-in presenter workflow.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://mfontanini.github.io/presenterm/
 
 ## Source
 

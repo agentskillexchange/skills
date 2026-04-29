@@ -1,16 +1,15 @@
 ---
-title: Buf Protobuf Linter
-description: Lints Protocol Buffer definitions using the Buf CLI ruleset and validates
-  gRPC service contracts. Detects breaking changes between proto revisions using buf
-  breaking with git integration.
-verification: security_reviewed
-source: https://github.com/bufbuild/buf
+title: "Buf Protobuf Linter"
+description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
+verification: "security_reviewed"
+source: "https://github.com/bufbuild/buf"
+author: "Buf"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: bufbuild/buf
+  github_repo: "bufbuild/buf"
   github_stars: 11049
 ---
 
@@ -20,27 +19,13 @@ Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC s
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/buf-protobuf-linter/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/buf-protobuf-linter
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/buf-protobuf-linter`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

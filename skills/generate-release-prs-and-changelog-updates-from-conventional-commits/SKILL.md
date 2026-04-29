@@ -1,17 +1,15 @@
 ---
-title: Generate release PRs and changelog updates from Conventional Commits
-description: Use release-please when an agent should turn merged Conventional Commits
-  into structured release PRs, version bumps, and changelog updates before a human
-  reviews and merges. This is a release-management workflow, not a generic package
-  or CI listing.
-verification: security_reviewed
-source: https://github.com/googleapis/release-please
+title: "Generate release PRs and changelog updates from Conventional Commits"
+description: "Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps, and changelog updates before a human reviews and merges. This is a release-management workflow, not a generic package or CI listing."
+verification: "security_reviewed"
+source: "https://github.com/googleapis/release-please"
+author: "Google APIs"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: googleapis/release-please
+  github_repo: "googleapis/release-please"
   github_stars: 6700
 ---
 
@@ -19,29 +17,29 @@ tool_ecosystem:
 
 Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps, and changelog updates before a human reviews and merges. This is a release-management workflow, not a generic package or CI listing.
 
+## Prerequisites
+
+GitHub, Conventional Commits
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-release-prs-and-changelog-updates-from-conventional-commits/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-release-prs-and-changelog-updates-from-conventional-commits
+```
+Install release-please via npm or use the GitHub integration, configure release-please in the repository, then let it open release PRs from commit history.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-release-prs-and-changelog-updates-from-conventional-commits`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/googleapis/release-please
 
 ## Source
 

@@ -1,20 +1,17 @@
 ---
-title: Playwright Test Recorder
-description: Playwright Test Recorder is built around Playwright browser automation
-  framework. The underlying ecosystem is represented by microsoft/playwright (84,874+
-  GitHub stars). It gives an agent a more technical and reliable way to work with
-  the tool than a thin one-line wrapper, using stable interfaces like browser contexts,
-  locators, page actions, tracing, screenshots, test runner and preserving […]
-verification: security_reviewed
-source: https://github.com/microsoft/playwright
+title: "Playwright Test Recorder"
+description: "Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is represented by microsoft/playwright (84,874+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like browser contexts, locators, page actions, tracing, screenshots, test runner and preserving […]"
+verification: "security_reviewed"
+source: "https://github.com/microsoft/playwright"
+author: "microsoft"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: microsoft/playwright
+  github_repo: "microsoft/playwright"
   github_stars: 86378
-  npm_package: playwright
+  npm_package: "playwright"
   npm_weekly_downloads: 46839239
 ---
 
@@ -22,29 +19,29 @@ tool_ecosystem:
 
 Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is represented by microsoft/playwright (84,874+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like browser contexts, locators, page actions, tracing, screenshots, test runner and preserving […]
 
+## Prerequisites
+
+Node.js, Playwright browsers
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-test-recorder/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-test-recorder
+```
+npm init playwright@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/playwright-test-recorder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://playwright.dev/docs/codegen
 
 ## Source
 

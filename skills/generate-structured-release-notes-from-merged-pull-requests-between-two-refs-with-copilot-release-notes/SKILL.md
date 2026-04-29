@@ -1,16 +1,16 @@
 ---
-title: Generate structured release notes from merged pull requests between two refs
-  with Copilot Release Notes
-description: Compare two tags, branches, or SHAs and turn merged pull requests into
-  reviewable markdown and JSON release notes for a release workflow.
-verification: listed
-source: https://github.com/github/copilot-release-notes
+title: "Generate structured release notes from merged pull requests between two refs with Copilot Release Notes"
+description: "Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow."
+verification: "listed"
+source: "https://github.com/github/copilot-release-notes"
+author: "GitHub"
+publisher_type: "organization"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: github/copilot-release-notes
+  github_repo: "github/copilot-release-notes"
   github_stars: 2
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow.
 
+## Prerequisites
+
+GitHub Actions runner, checked-out git history for the compared refs, GitHub Copilot license, fine-grained PAT with Copilot Requests read permission
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes
+```
+Add the documented action to a GitHub Actions workflow, provide base-ref and head-ref, configure the COPILOT_GITHUB_TOKEN secret, then consume the generated markdown or JSON outputs in the release pipeline.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/github/copilot-release-notes
 
 ## Source
 

@@ -1,19 +1,18 @@
 ---
-title: Bright Data Web MCP Live Web Access and Scraping Tools
-description: Bright Data Web MCP gives MCP-compatible agents live web search, scraping,
-  and optional browser-automation access through Bright Data’s web-access platform.
-  It is built for agents that need current information, anti-bot resilience, and structured
-  extraction without maintaining their own scraping stack.
-verification: security_reviewed
-source: https://github.com/browserbase/mcp-server-browserbase
+title: "Bright Data Web MCP Live Web Access and Scraping Tools"
+description: "Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for agents that need current information, anti-bot resilience, and structured extraction without maintaining their own scraping stack."
+verification: "security_reviewed"
+source: "https://github.com/browserbase/mcp-server-browserbase"
+author: "browserbase"
+publisher_type: "Company"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: browserbase/mcp-server-browserbase
+  github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3249
-  npm_package: '@browserbasehq/mcp'
+  npm_package: "@browserbasehq/mcp"
   npm_weekly_downloads: 937
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for agents that need current information, anti-bot resilience, and structured extraction without maintaining their own scraping stack.
 
+## Prerequisites
+
+BROWSERBASE_API_KEY, BROWSERBASE_PROJECT_ID, GEMINI_API_KEY
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/bright-data-web-mcp-live-web-access-scraping-tools/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bright-data-web-mcp-live-web-access-scraping-tools
+```
+npx @browserbasehq/mcp
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/bright-data-web-mcp-live-web-access-scraping-tools`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.browserbase.com/integrations/mcp/introduction
 
 ## Source
 

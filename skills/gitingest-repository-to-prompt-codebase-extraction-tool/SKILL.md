@@ -1,17 +1,16 @@
 ---
-title: Gitingest Repository-to-Prompt Codebase Extraction Tool
-description: Gitingest turns a Git repository into a prompt-friendly text bundle that
-  agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern,
-  a Python package, or a local server for extracting repository summaries, structure,
-  and source content.
-verification: security_reviewed
-source: https://github.com/coderamp-labs/gitingest
+title: "Gitingest Repository-to-Prompt Codebase Extraction Tool"
+description: "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content."
+verification: "security_reviewed"
+source: "https://github.com/coderamp-labs/gitingest"
+author: "Filip Christiansen"
+publisher_type: "Company"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: coderamp-labs/gitingest
+  github_repo: "coderamp-labs/gitingest"
   github_stars: 14266
 ---
 
@@ -19,29 +18,25 @@ tool_ecosystem:
 
 Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content.
 
+## Prerequisites
+
+Python 3.8+
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/gitingest-repository-to-prompt-codebase-extraction-tool/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitingest-repository-to-prompt-codebase-extraction-tool
 ```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/gitingest-repository-to-prompt-codebase-extraction-tool`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+pip install gitingest
+```
 
 ## Source
 

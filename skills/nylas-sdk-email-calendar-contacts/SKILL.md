@@ -1,17 +1,15 @@
 ---
-title: Nylas Platform SDK for Unified Email Calendar and Contacts API
-description: Nylas provides REST APIs and SDKs for Python and Node.js that offer unified
-  access to email, calendar, and contacts across all major providers including Gmail,
-  Outlook, and Exchange. Build email and scheduling integrations without managing
-  individual provider APIs.
-verification: security_reviewed
-source: https://github.com/nylas/nylas-python
+title: "Nylas Platform SDK for Unified Email Calendar and Contacts API"
+description: "Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including Gmail, Outlook, and Exchange. Build email and scheduling integrations without managing individual provider APIs."
+verification: "security_reviewed"
+source: "https://github.com/nylas/nylas-python"
+author: "Nylas"
 category:
-- Calendar, Email & Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: nylas/nylas-python
+  github_repo: "nylas/nylas-python"
   github_stars: 106
 ---
 
@@ -21,27 +19,13 @@ Nylas provides REST APIs and SDKs for Python and Node.js that offer unified acce
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/nylas-sdk-email-calendar-contacts/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nylas-sdk-email-calendar-contacts
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/nylas-sdk-email-calendar-contacts`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

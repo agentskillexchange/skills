@@ -1,16 +1,16 @@
 ---
-title: OpenAPI Generator API Client and Server Stub Tooling
-description: OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs,
-  docs, and config. It is a practical fit when you need repeatable API scaffolding
-  from a contract-first workflow.
-verification: security_reviewed
-source: https://github.com/OpenAPITools/openapi-generator
+title: "OpenAPI Generator API Client and Server Stub Tooling"
+description: "OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs, docs, and config. It is a practical fit when you need repeatable API scaffolding from a contract-first workflow."
+verification: "security_reviewed"
+source: "https://github.com/OpenAPITools/openapi-generator"
+author: "OpenAPITools"
+publisher_type: "Open Source Project"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: OpenAPITools/openapi-generator
+  github_repo: "OpenAPITools/openapi-generator"
   github_stars: 26095
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs, docs, and config. It is a practical fit when you need repeatable API scaffolding from a contract-first workflow.
 
+## Prerequisites
+
+Java, Maven
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/openapi-generator-api-client-server-stub-tooling/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openapi-generator-api-client-server-stub-tooling
+```
+Download from releases or use the Maven artifact org.openapitools:openapi-generator
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/openapi-generator-api-client-server-stub-tooling`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/OpenAPITools/openapi-generator/wiki
 
 ## Source
 

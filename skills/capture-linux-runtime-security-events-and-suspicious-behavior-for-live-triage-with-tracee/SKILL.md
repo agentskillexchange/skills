@@ -1,16 +1,16 @@
 ---
-title: Capture Linux runtime security events and suspicious behavior for live triage
-  with Tracee
-description: Watch live Linux and container activity through eBPF so you can triage
-  suspicious runtime behavior before it disappears into guesswork.
-verification: listed
-source: https://github.com/aquasecurity/tracee
+title: "Capture Linux runtime security events and suspicious behavior for live triage with Tracee"
+description: "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork."
+verification: "listed"
+source: "https://github.com/aquasecurity/tracee"
+author: "Aqua Security"
+publisher_type: "organization"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: aquasecurity/tracee
+  github_repo: "aquasecurity/tracee"
   github_stars: 4468
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork.
 
+## Prerequisites
+
+Linux host or Kubernetes environment with the required kernel support, Tracee runtime or container image, elevated access to collect eBPF events, and access to the target system or cluster
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee
+```
+Install Tracee from the upstream binary, container, Helm chart, or package path documented by the project, confirm the host or cluster meets the kernel and privilege requirements, then run Tracee with the documented event or rule filters for the target environment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://aquasecurity.github.io/tracee/latest/
 
 ## Source
 

@@ -1,16 +1,15 @@
 ---
-title: OpenTelemetry Collector Pipeline Designer
-description: Designs OpenTelemetry Collector pipeline configurations with receivers
-  (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and
-  exporters (otlphttp, jaeger, elasticsearch).
-verification: security_reviewed
-source: https://github.com/open-telemetry/opentelemetry-collector
+title: "OpenTelemetry Collector Pipeline Designer"
+description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
+verification: "security_reviewed"
+source: "https://github.com/open-telemetry/opentelemetry-collector"
+author: "OpenTelemetry"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: open-telemetry/opentelemetry-collector
+  github_repo: "open-telemetry/opentelemetry-collector"
   github_stars: 6867
 ---
 
@@ -18,29 +17,29 @@ tool_ecosystem:
 
 Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch).
 
+## Prerequisites
+
+Go
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/otel-collector-pipeline-designer/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/otel-collector-pipeline-designer
+```
+go install go.opentelemetry.io/collector/cmd/otelcol@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/otel-collector-pipeline-designer`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://opentelemetry.io/docs/collector/
 
 ## Source
 

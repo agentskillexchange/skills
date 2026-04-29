@@ -1,17 +1,14 @@
 ---
-title: Kubernetes Pod Diagnostics
-description: Diagnoses Kubernetes pod failures using kubectl describe, logs –previous,
-  and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff
-  root causes, OOMKilled memory analysis, and generates remediation steps with resource
-  limit recommendations.
-verification: security_reviewed
-source: https://github.com/kubernetes/kubernetes
+title: "Kubernetes Pod Diagnostics"
+description: "Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations."
+verification: "security_reviewed"
+source: "https://github.com/kubernetes/kubernetes"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: kubernetes/kubernetes
+  github_repo: "kubernetes/kubernetes"
   github_stars: 121700
 ---
 
@@ -21,27 +18,13 @@ Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and 
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/kubernetes-pod-diagnostics-skill
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/kubernetes-pod-diagnostics-skill`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

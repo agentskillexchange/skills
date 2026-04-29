@@ -1,18 +1,16 @@
 ---
-title: Netdata Real-Time Infrastructure Monitoring and Alerting
-description: Netdata is an open-source observability platform for real-time metrics,
-  anomaly detection, and alerting across servers, containers, databases, and cloud
-  services. This skill helps agents install Netdata, connect nodes, inspect dashboards,
-  and route alerts using the project’s documented collectors, streaming, and cloud
-  integrations.
-verification: security_reviewed
-source: https://github.com/netdata/netdata
+title: "Netdata Real-Time Infrastructure Monitoring and Alerting"
+description: "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project’s documented collectors, streaming, and cloud integrations."
+verification: "security_reviewed"
+source: "https://github.com/netdata/netdata"
+author: "netdata"
+publisher_type: "Company"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: netdata/netdata
+  github_repo: "netdata/netdata"
   github_stars: 78430
 ---
 
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project’s documented collectors, streaming, and cloud integrations.
 
+## Prerequisites
+
+Linux, Docker or Kubernetes environment for deployment; optional Netdata Cloud account for centralized dashboards; alert destinations such as email, Slack, Discord, PagerDuty, or Telegram.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/netdata-real-time-infrastructure-monitoring-and-alerting/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/netdata-real-time-infrastructure-monitoring-and-alerting
+```
+bash <(curl -Ss https://my-netdata.io/kickstart.sh)
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/netdata-real-time-infrastructure-monitoring-and-alerting`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://learn.netdata.cloud
 
 ## Source
 

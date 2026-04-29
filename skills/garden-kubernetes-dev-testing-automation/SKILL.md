@@ -1,17 +1,15 @@
 ---
-title: Garden Kubernetes Development and Testing Automation Platform
-description: Garden is a DevOps automation tool for developing and testing Kubernetes
-  apps faster. It spins up production-like environments on demand, provides smart
-  build caching with parallel execution, and uses a unified YAML configuration across
-  development, testing, and CI stages.
-verification: security_reviewed
-source: https://github.com/garden-io/garden
+title: "Garden Kubernetes Development and Testing Automation Platform"
+description: "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages."
+verification: "security_reviewed"
+source: "https://github.com/garden-io/garden"
+author: "garden.io"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: garden-io/garden
+  github_repo: "garden-io/garden"
   github_stars: 3574
 ---
 
@@ -21,27 +19,13 @@ Garden is a DevOps automation tool for developing and testing Kubernetes apps fa
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/garden-kubernetes-dev-testing-automation/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/garden-kubernetes-dev-testing-automation
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/garden-kubernetes-dev-testing-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

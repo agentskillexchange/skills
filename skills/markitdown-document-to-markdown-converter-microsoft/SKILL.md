@@ -1,17 +1,14 @@
 ---
-title: MarkItDown Document-to-Markdown Converter by Microsoft
-description: MarkItDown is a Python utility by Microsoft that converts PDF, Word,
-  PowerPoint, Excel, images, audio, HTML, and other files into Markdown for LLM consumption.
-  It preserves headings, lists, tables, and links while producing token-efficient
-  output optimized for text analysis pipelines.
-verification: security_reviewed
-source: https://github.com/microsoft/markitdown
+title: "MarkItDown Document-to-Markdown Converter by Microsoft"
+description: "MarkItDown is a Python utility by Microsoft that converts PDF, Word, PowerPoint, Excel, images, audio, HTML, and other files into Markdown for LLM consumption. It preserves headings, lists, tables, and links while producing token-efficient output optimized for text analysis pipelines."
+verification: "security_reviewed"
+source: "https://github.com/microsoft/markitdown"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: microsoft/markitdown
+  github_repo: "microsoft/markitdown"
   github_stars: 93207
 ---
 
@@ -21,27 +18,13 @@ MarkItDown is a Python utility by Microsoft that converts PDF, Word, PowerPoint,
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/markitdown-document-to-markdown-converter-microsoft/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/markitdown-document-to-markdown-converter-microsoft
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/markitdown-document-to-markdown-converter-microsoft`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

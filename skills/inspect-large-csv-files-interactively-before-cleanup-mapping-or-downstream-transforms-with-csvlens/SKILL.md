@@ -1,18 +1,18 @@
 ---
-title: Inspect large CSV files interactively before cleanup, mapping, or downstream
-  transforms with csvlens
-description: Use csvlens when an agent or operator needs fast column-aware inspection
-  of a large CSV before cleaning, mapping, or transforming it.
-verification: security_reviewed
-source: https://github.com/YS-L/csvlens
+title: "Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens"
+description: "Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it."
+verification: "security_reviewed"
+source: "https://github.com/YS-L/csvlens"
+author: "YS-L"
+publisher_type: "individual"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: YS-L/csvlens
+  github_repo: "YS-L/csvlens"
   github_stars: 3715
-  npm_package: csvlens
+  npm_package: "csvlens"
   npm_weekly_downloads: 56891
 ---
 
@@ -20,29 +20,29 @@ tool_ecosystem:
 
 Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it.
 
+## Prerequisites
+
+csvlens, local CSV files, and terminal access on the machine where the data lives.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens
+```
+Install csvlens using the method documented in the repository, open the CSV file you want to inspect, then use its interactive filtering and navigation features to validate column shape and row anomalies before writing downstream transforms.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/YS-L/csvlens#readme
 
 ## Source
 

@@ -1,15 +1,16 @@
 ---
-title: Run research and scientific analysis workflows with Scientific Agent Skills
-description: Give an agent curated scientific workflows, databases, and domain-specific
-  guidance when general prompting is not reliable enough for research-heavy work.
-verification: listed
-source: https://github.com/K-Dense-AI/scientific-agent-skills
+title: "Run research and scientific analysis workflows with Scientific Agent Skills"
+description: "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work."
+verification: "listed"
+source: "https://github.com/K-Dense-AI/scientific-agent-skills"
+author: "K-Dense"
+publisher_type: "company"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: K-Dense-AI/scientific-agent-skills
+  github_repo: "K-Dense-AI/scientific-agent-skills"
   github_stars: 18797
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work.
 
+## Prerequisites
+
+An Agent Skills compatible harness such as Claude Code, Cursor, or Codex, plus Python and the scientific libraries, databases, model providers, or local environment dependencies required by the selected workflow.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills
+```
+Install the repository using the upstream Agent Skills instructions for your harness, then invoke the relevant scientific skill for the target workflow. The README documents broader compatibility across Agent Skills compatible agents and includes setup guidance for the included skills and optional desktop workspace.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/K-Dense-AI/scientific-agent-skills#readme
 
 ## Source
 

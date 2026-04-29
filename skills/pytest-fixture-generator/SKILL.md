@@ -1,18 +1,15 @@
 ---
-title: Pytest Fixture Generator
-description: Pytest Fixture Generator is built around pytest Python testing framework.
-  The underlying ecosystem is represented by pytest-dev/pytest (13,718+ GitHub stars).
-  It gives an agent a more technical and reliable way to work with the tool than a
-  thin one-line wrapper, using stable interfaces like fixtures, parametrization, markers,
-  plugins, xdist, assertion introspection and preserving the operational […]
-verification: security_reviewed
-source: https://github.com/pytest-dev/pytest
+title: "Pytest Fixture Generator"
+description: "Pytest Fixture Generator is built around pytest Python testing framework. The underlying ecosystem is represented by pytest-dev/pytest (13,718+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like fixtures, parametrization, markers, plugins, xdist, assertion introspection and preserving the operational […]"
+verification: "security_reviewed"
+source: "https://github.com/pytest-dev/pytest"
+author: "pytest-dev"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: pytest-dev/pytest
+  github_repo: "pytest-dev/pytest"
   github_stars: 13758
 ---
 
@@ -20,29 +17,29 @@ tool_ecosystem:
 
 Pytest Fixture Generator is built around pytest Python testing framework. The underlying ecosystem is represented by pytest-dev/pytest (13,718+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like fixtures, parametrization, markers, plugins, xdist, assertion introspection and preserving the operational […]
 
+## Prerequisites
+
+Python
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/pytest-fixture-generator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pytest-fixture-generator
+```
+pip install pytest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/pytest-fixture-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.pytest.org/en/stable/how-to/fixtures.html
 
 ## Source
 

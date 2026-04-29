@@ -1,49 +1,43 @@
 ---
-title: Triage GitHub issues with body-first evidence checks and constrained label
-  operations from Claude Code triage-issue
-description: Use Claude Code triage-issue to read a GitHub issue, verify it actually
-  belongs to the product from body evidence first, check nearby duplicates, and apply
-  only allowed labels without drifting into open-ended repo management.
-verification: security_reviewed
-source: https://github.com/anthropics/claude-code/blob/main/.claude/commands/triage-issue.md
+title: "Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue"
+description: "Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management."
+verification: "security_reviewed"
+source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/triage-issue.md"
+author: "Anthropic"
+publisher_type: "organization"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Claude Code
-tool_ecosystem:
-  github_repo: anthropics/claude-code
-  github_stars: 116829
-  npm_package: '@anthropic-ai/claude-code'
-  npm_weekly_downloads: 49934290
+  - "Claude Code"
 ---
 
 # Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue
 
 Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management.
 
+## Prerequisites
+
+Claude Code, GitHub repository access, repository-provided gh wrapper/label scripts
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue
+```
+Install Claude Code from the official docs, then use the repository's triage-issue command file in a repo that exposes the expected GitHub wrapper scripts and label-edit script.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://code.claude.com/docs/en/overview
 
 ## Source
 

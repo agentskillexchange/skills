@@ -1,17 +1,15 @@
 ---
-title: Generate Markdown tables of contents before publishing docs or README updates
-description: Runs DocToc to insert or refresh navigable tables of contents inside
-  Markdown files after headings already exist. Use it when an agent is preparing README
-  or docs updates and needs reliable intra-document navigation, not when it is generating
-  the documentation itself.
-verification: security_reviewed
-source: https://github.com/thlorenz/doctoc
+title: "Generate Markdown tables of contents before publishing docs or README updates"
+description: "Runs DocToc to insert or refresh navigable tables of contents inside Markdown files after headings already exist. Use it when an agent is preparing README or docs updates and needs reliable intra-document navigation, not when it is generating the documentation itself."
+verification: "security_reviewed"
+source: "https://github.com/thlorenz/doctoc"
+author: "Thorsten Lorenz"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: thlorenz/doctoc
+  github_repo: "thlorenz/doctoc"
   github_stars: 4432
 ---
 
@@ -19,29 +17,29 @@ tool_ecosystem:
 
 Runs DocToc to insert or refresh navigable tables of contents inside Markdown files after headings already exist. Use it when an agent is preparing README or docs updates and needs reliable intra-document navigation, not when it is generating the documentation itself.
 
+## Prerequisites
+
+Node.js, npm, command line
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates
+```
+npm install -g doctoc
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/thlorenz/doctoc#readme
 
 ## Source
 

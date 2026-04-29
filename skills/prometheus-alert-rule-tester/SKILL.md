@@ -1,16 +1,14 @@
 ---
-title: Prometheus Alert Rule Tester
-description: Tests Prometheus alerting rules against historical metrics using promtool
-  and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions,
-  simulates alert firing, and checks routing configurations.
-verification: security_reviewed
-source: https://github.com/prometheus/prometheus
+title: "Prometheus Alert Rule Tester"
+description: "Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations."
+verification: "security_reviewed"
+source: "https://github.com/prometheus/prometheus"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: prometheus/prometheus
+  github_repo: "prometheus/prometheus"
   github_stars: 63584
 ---
 
@@ -20,27 +18,13 @@ Tests Prometheus alerting rules against historical metrics using promtool and th
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/prometheus-alert-rule-tester/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prometheus-alert-rule-tester
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/prometheus-alert-rule-tester`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

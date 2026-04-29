@@ -1,19 +1,18 @@
 ---
-title: Turn a PRD into a dependency-aware task graph and keep AI implementation work
-  scoped with Task Master AI
-description: Use Task Master AI when an agent needs to turn a product request or PRD
-  into a dependency-aware task graph, expand or scope tasks, and keep implementation
-  work anchored to an explicit plan instead of improvising in chat.
-verification: security_reviewed
-source: https://github.com/eyaltoledano/claude-task-master
+title: "Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI"
+description: "Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks, and keep implementation work anchored to an explicit plan instead of improvising in chat."
+verification: "security_reviewed"
+source: "https://github.com/eyaltoledano/claude-task-master"
+author: "Eyal Toledano"
+publisher_type: "individual"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: eyaltoledano/claude-task-master
+  github_repo: "eyaltoledano/claude-task-master"
   github_stars: 26557
-  npm_package: task-master-ai
+  npm_package: "task-master-ai"
   npm_weekly_downloads: 113563
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks, and keep implementation work anchored to an explicit plan instead of improvising in chat.
 
+## Prerequisites
+
+Task Master AI, an AI coding assistant or editor session that can invoke it, and whichever model credentials or local agent runtimes the selected Task Master commands require.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai
+```
+Install Task Master AI with the package or MCP setup documented by the project, add the required model credentials or local agent integrations, then use its planning commands such as parse-prd, expand, and scope adjustment to generate and maintain the task graph for the target project.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.task-master.dev
 
 ## Source
 

@@ -1,17 +1,16 @@
 ---
-title: Moonshine Voice On-Device Speech Recognition and Voice Commands
-description: Moonshine Voice is a fast on-device speech recognition library for interactive
-  voice applications. This skill helps agents install the Python package, load supported
-  language models, transcribe live microphone input, and wire transcript events into
-  local voice-command workflows.
-verification: security_reviewed
-source: https://github.com/moonshine-ai/moonshine
+title: "Moonshine Voice On-Device Speech Recognition and Voice Commands"
+description: "Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language models, transcribe live microphone input, and wire transcript events into local voice-command workflows."
+verification: "security_reviewed"
+source: "https://github.com/moonshine-ai/moonshine"
+author: "moonshine-ai"
+publisher_type: "Open Source Project"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: moonshine-ai/moonshine
+  github_repo: "moonshine-ai/moonshine"
   github_stars: 7672
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language models, transcribe live microphone input, and wire transcript events into local voice-command workflows.
 
+## Prerequisites
+
+Python 3 environment, microphone or other audio source, and downloaded Moonshine language models for the target language.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/moonshine-voice-on-device-speech-recognition-and-voice-commands
+```
+pip install moonshine-voice
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/moonshine-voice-on-device-speech-recognition-and-voice-commands`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/moonshine-ai/moonshine/blob/main/README.md
 
 ## Source
 

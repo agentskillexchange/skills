@@ -1,18 +1,16 @@
 ---
-title: AI Engine WordPress MCP Server and AI Automation
-description: AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI,
-  Claude, Gemini, and other models while exposing WordPress actions through MCP and
-  REST interfaces. This skill helps agents configure providers, enable the plugin’s
-  MCP capabilities, and automate content, chatbots, media, and site-management workflows
-  from WordPress.
-verification: security_reviewed
-source: https://github.com/jordymeow/ai-engine
+title: "AI Engine WordPress MCP Server and AI Automation"
+description: "AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin’s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress."
+verification: "security_reviewed"
+source: "https://github.com/jordymeow/ai-engine"
+author: "Jordy Meow"
+publisher_type: "Individual Developer"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: jordymeow/ai-engine
+  github_repo: "jordymeow/ai-engine"
   github_stars: 37
 ---
 
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin’s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress.
 
+## Prerequisites
+
+WordPress site with plugin access, an API key for a supported provider such as OpenAI, Anthropic, Google, or OpenRouter, and optional vector database services such as Pinecone, Chroma, or Qdrant for embeddings.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ai-engine-wordpress-mcp-server-and-ai-automation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ai-engine-wordpress-mcp-server-and-ai-automation
+```
+Upload ai-engine to /wp-content/plugins/ and activate it from the Plugins menu.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/ai-engine-wordpress-mcp-server-and-ai-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://meowapps.com/ai-engine/tutorial/
 
 ## Source
 

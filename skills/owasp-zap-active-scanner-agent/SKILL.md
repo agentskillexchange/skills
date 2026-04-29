@@ -1,16 +1,15 @@
 ---
-title: OWASP ZAP Active Scanner Agent
-description: Runs OWASP ZAP active security scans via the ZAP API daemon with custom
-  scan policies. Generates SARIF reports compatible with GitHub Advanced Security
-  code scanning alerts.
-verification: security_reviewed
-source: https://github.com/zaproxy/zaproxy
+title: "OWASP ZAP Active Scanner Agent"
+description: "Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan policies. Generates SARIF reports compatible with GitHub Advanced Security code scanning alerts."
+verification: "security_reviewed"
+source: "https://github.com/zaproxy/zaproxy"
+author: "zaproxy"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- Codex
+  - "Codex"
 tool_ecosystem:
-  github_repo: zaproxy/zaproxy
+  github_repo: "zaproxy/zaproxy"
   github_stars: 14991
 ---
 
@@ -20,27 +19,17 @@ Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan pol
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/owasp-zap-active-scanner-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/owasp-zap-active-scanner-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.zaproxy.org/docs/
 
 ## Source
 

@@ -1,18 +1,17 @@
 ---
-title: Puppeteer Stealth Scraper
-description: Anti-detection web scraping using puppeteer-extra-plugin-stealth with
-  residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor
-  masking via puppeteer-extra.
-verification: security_reviewed
-source: https://github.com/puppeteer/puppeteer
+title: "Puppeteer Stealth Scraper"
+description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra."
+verification: "security_reviewed"
+source: "https://github.com/puppeteer/puppeteer"
+author: "puppeteer"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- OpenClaw
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: puppeteer/puppeteer
+  github_repo: "puppeteer/puppeteer"
   github_stars: 94115
-  npm_package: puppeteer
+  npm_package: "puppeteer"
   npm_weekly_downloads: 36435448
 ---
 
@@ -22,27 +21,17 @@ Anti-detection web scraping using puppeteer-extra-plugin-stealth with residentia
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/puppeteer-stealth-scraper-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/puppeteer-stealth-scraper-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://pptr.dev/
 
 ## Source
 

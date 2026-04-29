@@ -1,17 +1,16 @@
 ---
-title: Nightwatch.js Integrated Browser and Mobile Testing Framework
-description: A source-backed ASE skill for Nightwatch.js, the Node.js automation framework
-  for end-to-end, component, API, accessibility, and mobile testing through the W3C
-  WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser
-  assertions, and CI-friendly test execution.
-verification: security_reviewed
-source: https://github.com/nightwatchjs/nightwatch
+title: "Nightwatch.js Integrated Browser and Mobile Testing Framework"
+description: "A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution."
+verification: "security_reviewed"
+source: "https://github.com/nightwatchjs/nightwatch"
+author: "nightwatchjs"
+publisher_type: "Open Source Project"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: nightwatchjs/nightwatch
+  github_repo: "nightwatchjs/nightwatch"
   github_stars: 11943
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution.
 
+## Prerequisites
+
+Node.js
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/nightwatchjs-integrated-browser-mobile-testing-framework/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nightwatchjs-integrated-browser-mobile-testing-framework
+```
+npm init nightwatch@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/nightwatchjs-integrated-browser-mobile-testing-framework`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://nightwatchjs.org/guide
 
 ## Source
 

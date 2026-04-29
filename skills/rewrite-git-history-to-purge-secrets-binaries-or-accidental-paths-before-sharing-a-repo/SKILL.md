@@ -1,18 +1,15 @@
 ---
-title: Rewrite Git history to purge secrets, binaries, or accidental paths before
-  sharing a repo
-description: Use git-filter-repo when an agent needs to surgically rewrite repository
-  history after a leaked secret, a huge binary commit, or a bad subtree split. The
-  agent analyzes the problem, builds the rewrite command, and leaves a clean follow-up
-  checklist for force-push, clone reset, and downstream cleanup.
-verification: security_reviewed
-source: https://github.com/newren/git-filter-repo
+title: "Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo"
+description: "Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge binary commit, or a bad subtree split. The agent analyzes the problem, builds the rewrite command, and leaves a clean follow-up checklist for force-push, clone reset, and downstream cleanup."
+verification: "security_reviewed"
+source: "https://github.com/newren/git-filter-repo"
+publisher_type: "individual_maintainer"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: newren/git-filter-repo
+  github_repo: "newren/git-filter-repo"
   github_stars: 12127
 ---
 
@@ -20,29 +17,29 @@ tool_ecosystem:
 
 Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge binary commit, or a bad subtree split. The agent analyzes the problem, builds the rewrite command, and leaves a clean follow-up checklist for force-push, clone reset, and downstream cleanup.
 
+## Prerequisites
+
+git >= 2.36.0, python3 >= 3.6
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo
+```
+Download the git-filter-repo script from the repo, preserve its name, and place it on your PATH
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/newren/git-filter-repo
 
 ## Source
 

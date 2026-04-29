@@ -1,16 +1,16 @@
 ---
-title: HashiCorp Vault MCP Server
-description: The official HashiCorp Vault MCP server lets AI assistants read, write,
-  list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface.
-  Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
-verification: security_reviewed
-source: https://github.com/hashicorp/vault-mcp-server
+title: "HashiCorp Vault MCP Server"
+description: "The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls."
+verification: "security_reviewed"
+source: "https://github.com/hashicorp/vault-mcp-server"
+author: "HashiCorp (IBM)"
+publisher_type: "company"
 category:
-- Security & Verification
+  - "Security & Verification"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: hashicorp/vault-mcp-server
+  github_repo: "hashicorp/vault-mcp-server"
   github_stars: 45
 ---
 
@@ -18,29 +18,23 @@ tool_ecosystem:
 
 The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
 
+## Prerequisites
+
+MCP-compatible client, HashiCorp Vault server, Vault token with appropriate permissions, Go 1.24+ or Docker
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/hashicorp-vault-mcp-server/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hashicorp-vault-mcp-server
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/hashicorp-vault-mcp-server`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://developer.hashicorp.com/vault/docs/mcp-server/overview
 
 ## Source
 

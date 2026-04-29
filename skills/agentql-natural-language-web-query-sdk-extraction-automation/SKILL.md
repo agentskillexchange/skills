@@ -1,19 +1,18 @@
 ---
-title: AgentQL Natural Language Web Query SDK for Extraction and Automation
-description: AgentQL is TinyFish’s web automation and extraction toolkit that layers
-  a natural-language query system on top of live sites. Its Python and JavaScript
-  SDKs integrate with Playwright and let agents target data and interface elements
-  without depending on brittle CSS selectors alone.
-verification: security_reviewed
-source: https://github.com/tinyfish-io/agentql
+title: "AgentQL Natural Language Web Query SDK for Extraction and Automation"
+description: "AgentQL is TinyFish’s web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone."
+verification: "security_reviewed"
+source: "https://github.com/tinyfish-io/agentql"
+author: "tinyfish-io"
+publisher_type: "Company"
 category:
-- Research & Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: tinyfish-io/agentql
+  github_repo: "tinyfish-io/agentql"
   github_stars: 1312
-  npm_package: agentql
+  npm_package: "agentql"
   npm_weekly_downloads: 878
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 AgentQL is TinyFish’s web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone.
 
+## Prerequisites
+
+python, go, java
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/agentql-natural-language-web-query-sdk-extraction-automation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/agentql-natural-language-web-query-sdk-extraction-automation
+```
+pip3 install agentql
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/agentql-natural-language-web-query-sdk-extraction-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.agentql.com
 
 ## Source
 

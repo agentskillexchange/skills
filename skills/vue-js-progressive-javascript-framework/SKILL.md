@@ -1,16 +1,15 @@
 ---
-title: Vue.js — Progressive JavaScript Framework for Building UIs
-description: Vue.js is a progressive JavaScript framework for building user interfaces
-  with an incrementally adoptable architecture, reactive data binding, and a rich
-  ecosystem including Vue Router, Pinia, and Vite.
-verification: listed
-source: https://github.com/vuejs/core
+title: "Vue.js — Progressive JavaScript Framework for Building UIs"
+description: "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite."
+verification: "listed"
+source: "https://github.com/vuejs/core"
+author: "Evan You / Vue.js"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: vuejs/core
+  github_repo: "vuejs/core"
   github_stars: 53379
 ---
 
@@ -18,29 +17,29 @@ tool_ecosystem:
 
 Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite.
 
+## Prerequisites
+
+Node.js 18+, npm or yarn
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/vue-js-progressive-javascript-framework/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/vue-js-progressive-javascript-framework
+```
+npm create vue@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/vue-js-progressive-javascript-framework`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://vuejs.org/guide/introduction.html
 
 ## Source
 

@@ -1,17 +1,15 @@
 ---
-title: Nodriver Async Undetected Chrome Browser Automation for Python
-description: Nodriver is the official successor to Undetected-Chromedriver, providing
-  async browser automation that communicates directly with Chrome DevTools Protocol
-  without Selenium or WebDriver dependencies. Built for stealth web automation that
-  bypasses anti-bot systems including Cloudflare and Imperva.
-verification: security_reviewed
-source: https://github.com/ultrafunkamsterdam/nodriver
+title: "Nodriver Async Undetected Chrome Browser Automation for Python"
+description: "Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates directly with Chrome DevTools Protocol without Selenium or WebDriver dependencies. Built for stealth web automation that bypasses anti-bot systems including Cloudflare and Imperva."
+verification: "security_reviewed"
+source: "https://github.com/ultrafunkamsterdam/nodriver"
+author: "Leon"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: ultrafunkamsterdam/nodriver
+  github_repo: "ultrafunkamsterdam/nodriver"
   github_stars: 4005
 ---
 
@@ -21,27 +19,13 @@ Nodriver is the official successor to Undetected-Chromedriver, providing async b
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/nodriver-undetected-chrome-automation/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nodriver-undetected-chrome-automation
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/nodriver-undetected-chrome-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

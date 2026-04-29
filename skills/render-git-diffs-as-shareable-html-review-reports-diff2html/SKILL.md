@@ -1,16 +1,15 @@
 ---
-title: Render git diffs as shareable HTML review reports with Diff2Html
-description: Use Diff2Html when an agent needs to turn raw unified diffs into readable
-  HTML artifacts for reviews, audits, or status updates. This is a rendering and packaging
-  workflow, not a generic Git hosting, code review, or SCM platform listing.
-verification: security_reviewed
-source: https://github.com/rtfpessoa/diff2html
+title: "Render git diffs as shareable HTML review reports with Diff2Html"
+description: "Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or status updates. This is a rendering and packaging workflow, not a generic Git hosting, code review, or SCM platform listing."
+verification: "security_reviewed"
+source: "https://github.com/rtfpessoa/diff2html"
+author: "Rafael Pessoa"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: rtfpessoa/diff2html
+  github_repo: "rtfpessoa/diff2html"
   github_stars: 3345
 ---
 
@@ -18,29 +17,29 @@ tool_ecosystem:
 
 Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or status updates. This is a rendering and packaging workflow, not a generic Git hosting, code review, or SCM platform listing.
 
+## Prerequisites
+
+Node.js
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/render-git-diffs-as-shareable-html-review-reports-diff2html/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/render-git-diffs-as-shareable-html-review-reports-diff2html
+```
+npm install diff2html-cli
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/render-git-diffs-as-shareable-html-review-reports-diff2html`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/rtfpessoa/diff2html#readme
 
 ## Source
 

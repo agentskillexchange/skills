@@ -1,17 +1,14 @@
 ---
-title: qsv Blazing-Fast CSV Data Wrangling Toolkit
-description: qsv is a high-performance command-line toolkit for querying, transforming,
-  validating, and analyzing CSV and tabular data. Written in Rust, it provides over
-  50 commands for data wrangling tasks and supports Excel, Parquet, JSON, and other
-  formats.
-verification: security_reviewed
-source: https://github.com/dathere/qsv
+title: "qsv Blazing-Fast CSV Data Wrangling Toolkit"
+description: "qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular data. Written in Rust, it provides over 50 commands for data wrangling tasks and supports Excel, Parquet, JSON, and other formats."
+verification: "security_reviewed"
+source: "https://github.com/dathere/qsv"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: dathere/qsv
+  github_repo: "dathere/qsv"
   github_stars: 3569
 ---
 
@@ -21,27 +18,13 @@ qsv is a high-performance command-line toolkit for querying, transforming, valid
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/qsv-blazing-fast-csv-data-wrangling-toolkit/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/qsv-blazing-fast-csv-data-wrangling-toolkit
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/qsv-blazing-fast-csv-data-wrangling-toolkit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

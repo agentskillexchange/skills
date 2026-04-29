@@ -1,17 +1,14 @@
 ---
-title: ntfy Self-Hosted Push Notification Server
-description: ntfy is an open-source HTTP-based pub-sub notification service that lets
-  you send push notifications to phones and desktops via simple PUT or POST requests.
-  Self-hostable with zero signup required, it provides a dead-simple API for alerting
-  from scripts, CI pipelines, cron jobs, and IoT devices.
-verification: listed
-source: https://github.com/binwiederhier/ntfy
+title: "ntfy Self-Hosted Push Notification Server"
+description: "ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests. Self-hostable with zero signup required, it provides a dead-simple API for alerting from scripts, CI pipelines, cron jobs, and IoT devices."
+verification: "listed"
+source: "https://github.com/binwiederhier/ntfy"
 category:
-- Integrations & Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: binwiederhier/ntfy
+  github_repo: "binwiederhier/ntfy"
   github_stars: 29493
 ---
 
@@ -21,27 +18,13 @@ ntfy is an open-source HTTP-based pub-sub notification service that lets you sen
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ntfy-self-hosted-push-notification-server/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ntfy-self-hosted-push-notification-server
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/ntfy-self-hosted-push-notification-server`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

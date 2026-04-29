@@ -1,17 +1,16 @@
 ---
-title: MCP WordPress Server by docdyhr
-description: An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server
-  that exposes site management tools through the Model Context Protocol. It is useful
-  when an agent needs natural-language control over posts, pages, taxonomies, media,
-  users, plugins, and multisite WordPress operations via a real MCP server.
-verification: security_reviewed
-source: https://github.com/docdyhr/mcp-wordpress
+title: "MCP WordPress Server by docdyhr"
+description: "An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through the Model Context Protocol. It is useful when an agent needs natural-language control over posts, pages, taxonomies, media, users, plugins, and multisite WordPress operations via a real MCP server."
+verification: "security_reviewed"
+source: "https://github.com/docdyhr/mcp-wordpress"
+author: "docdyhr"
+publisher_type: "Individual Developer"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: docdyhr/mcp-wordpress
+  github_repo: "docdyhr/mcp-wordpress"
   github_stars: 81
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through the Model Context Protocol. It is useful when an agent needs natural-language control over posts, pages, taxonomies, media, users, plugins, and multisite WordPress operations via a real MCP server.
 
+## Prerequisites
+
+Node.js, npm, a WordPress site with REST API enabled, and a WordPress application password
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mcp-wordpress-server-docdyhr/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mcp-wordpress-server-docdyhr
+```
+npm install -g mcp-wordpress
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/mcp-wordpress-server-docdyhr`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/docdyhr/mcp-wordpress
 
 ## Source
 

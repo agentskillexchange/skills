@@ -1,17 +1,14 @@
 ---
-title: MkDocs Project Documentation Generator
-description: MkDocs is a fast, simple, and elegant static site generator designed
-  for building project documentation from Markdown files. Configured with a single
-  YAML file, it transforms documentation source files into professional, navigable
-  websites with built-in themes and plugin support.
-verification: security_reviewed
-source: https://github.com/mkdocs/mkdocs
+title: "MkDocs Project Documentation Generator"
+description: "MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from Markdown files. Configured with a single YAML file, it transforms documentation source files into professional, navigable websites with built-in themes and plugin support."
+verification: "security_reviewed"
+source: "https://github.com/mkdocs/mkdocs"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: mkdocs/mkdocs
+  github_repo: "mkdocs/mkdocs"
   github_stars: 21931
 ---
 
@@ -21,27 +18,13 @@ MkDocs is a fast, simple, and elegant static site generator designed for buildin
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mkdocs-project-documentation-generator/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mkdocs-project-documentation-generator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/mkdocs-project-documentation-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

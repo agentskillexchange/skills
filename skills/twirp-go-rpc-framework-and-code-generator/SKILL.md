@@ -1,17 +1,16 @@
 ---
-title: Twirp Go RPC Framework and Code Generator
-description: Twirp is a protobuf-based RPC framework from Twitch that generates Go
-  servers and clients with a simple HTTP transport. It suits agent workflows that
-  need to scaffold service definitions, generate code with protoc plugins, and wire
-  strongly typed RPC endpoints into Go services.
-verification: security_reviewed
-source: https://github.com/twitchtv/twirp
+title: "Twirp Go RPC Framework and Code Generator"
+description: "Twirp is a protobuf-based RPC framework from Twitch that generates Go servers and clients with a simple HTTP transport. It suits agent workflows that need to scaffold service definitions, generate code with protoc plugins, and wire strongly typed RPC endpoints into Go services."
+verification: "security_reviewed"
+source: "https://github.com/twitchtv/twirp"
+author: "Twitch"
+publisher_type: "Company"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: twitchtv/twirp
+  github_repo: "twitchtv/twirp"
   github_stars: 7503
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Twirp is a protobuf-based RPC framework from Twitch that generates Go servers and clients with a simple HTTP transport. It suits agent workflows that need to scaffold service definitions, generate code with protoc plugins, and wire strongly typed RPC endpoints into Go services.
 
+## Prerequisites
+
+Go, protoc, protoc-gen-go, protoc-gen-twirp
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/twirp-go-rpc-framework-and-code-generator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/twirp-go-rpc-framework-and-code-generator
+```
+go install github.com/twitchtv/twirp/protoc-gen-twirp@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/twirp-go-rpc-framework-and-code-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://twitchtv.github.io/twirp/docs/install.html
 
 ## Source
 

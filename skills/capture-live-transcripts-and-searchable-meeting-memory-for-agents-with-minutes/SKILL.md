@@ -1,17 +1,18 @@
 ---
-title: Capture live transcripts and searchable meeting memory for agents with Minutes
-description: Stream meeting transcripts into searchable conversation memory so agents
-  can read live or post-meeting context before drafting follow-ups or taking action.
-verification: listed
-source: https://github.com/silverstein/minutes
+title: "Capture live transcripts and searchable meeting memory for agents with Minutes"
+description: "Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action."
+verification: "listed"
+source: "https://github.com/silverstein/minutes"
+author: "Mat Silverstein"
+publisher_type: "individual"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: silverstein/minutes
+  github_repo: "silverstein/minutes"
   github_stars: 1051
-  npm_package: minutes-mcp
+  npm_package: "minutes-mcp"
   npm_weekly_downloads: 3196
 ---
 
@@ -19,29 +20,29 @@ tool_ecosystem:
 
 Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action.
 
+## Prerequisites
+
+Minutes app or service, minutes-mcp package, microphone or meeting audio source
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes
+```
+Install the minutes-mcp package and connect it to a running Minutes setup, then capture meetings so agents can query live or recent transcript memory through MCP.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://useminutes.app
 
 ## Source
 

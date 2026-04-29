@@ -1,44 +1,37 @@
 ---
-title: Elementor Website Builder WordPress Visual Page Editor
-description: Elementor is the visual drag-and-drop website builder plugin for WordPress
-  maintained by Elementor, with more than 10 million active installs on WordPress.org.
-  This skill is for agents that need to work with Elementor-powered pages, templates,
-  sections, and widgets without treating the site like a generic WordPress install.
-verification: security_reviewed
-source: https://wordpress.org/plugins/elementor/
+title: "Elementor Website Builder WordPress Visual Page Editor"
+description: "Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than 10 million active installs on WordPress.org. This skill is for agents that need to work with Elementor-powered pages, templates, sections, and widgets without treating the site like a generic WordPress install."
+verification: "security_reviewed"
+source: "https://wordpress.org/plugins/elementor/"
+author: "Elementor"
+publisher_type: "Company"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # Elementor Website Builder WordPress Visual Page Editor
 
 Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than 10 million active installs on WordPress.org. This skill is for agents that need to work with Elementor-powered pages, templates, sections, and widgets without treating the site like a generic WordPress install.
 
+## Prerequisites
+
+WordPress 6.6+, PHP 7.4+
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/elementor-website-builder-wordpress-visual-page-editor/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/elementor-website-builder-wordpress-visual-page-editor
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/elementor-website-builder-wordpress-visual-page-editor`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://elementor.com/help/
 
 ## Source
 

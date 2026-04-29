@@ -1,19 +1,16 @@
 ---
-title: Unlighthouse Site-Wide Lighthouse and SEO Auditing
-description: Unlighthouse runs Google Lighthouse across an entire site instead of
-  just a single page. This skill gives agents a repeatable way to crawl URLs, surface
-  SEO and accessibility issues, and return prioritized audit findings for content
-  and technical optimization work.
-verification: security_reviewed
-source: https://github.com/harlan-zw/unlighthouse
+title: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
+description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
+verification: "security_reviewed"
+source: "https://github.com/harlan-zw/unlighthouse"
 category:
-- Content Writing & SEO
+  - "Content Writing & SEO"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: harlan-zw/unlighthouse
+  github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469
-  npm_package: unlighthouse
+  npm_package: "unlighthouse"
   npm_weekly_downloads: 15320
 ---
 
@@ -23,27 +20,13 @@ Unlighthouse runs Google Lighthouse across an entire site instead of just a sing
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/unlighthouse-site-wide-lighthouse-seo-auditing
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/unlighthouse-site-wide-lighthouse-seo-auditing`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

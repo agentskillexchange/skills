@@ -1,19 +1,16 @@
 ---
-title: Fumadocs React Documentation Framework and Docs Site Generator
-description: Build and maintain documentation websites with Fumadocs, the React-based
-  docs framework published by the fuma-nama project. This skill helps an agent scaffold
-  docs pages, wire content collections, and extend interactive UI components for product
-  docs, SDK docs, and internal knowledge bases.
-verification: security_reviewed
-source: https://github.com/fuma-nama/fumadocs
+title: "Fumadocs React Documentation Framework and Docs Site Generator"
+description: "Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama project. This skill helps an agent scaffold docs pages, wire content collections, and extend interactive UI components for product docs, SDK docs, and internal knowledge bases."
+verification: "security_reviewed"
+source: "https://github.com/fuma-nama/fumadocs"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: fuma-nama/fumadocs
+  github_repo: "fuma-nama/fumadocs"
   github_stars: 11519
-  npm_package: fumadocs
+  npm_package: "fumadocs"
   npm_weekly_downloads: 435
 ---
 
@@ -23,27 +20,13 @@ Build and maintain documentation websites with Fumadocs, the React-based docs fr
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/fumadocs-react-documentation-framework-and-docs-site-generator/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/fumadocs-react-documentation-framework-and-docs-site-generator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/fumadocs-react-documentation-framework-and-docs-site-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

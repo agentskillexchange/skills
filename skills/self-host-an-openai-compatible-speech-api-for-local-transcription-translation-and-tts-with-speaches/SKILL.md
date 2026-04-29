@@ -1,17 +1,16 @@
 ---
-title: Self-host an OpenAI-compatible speech API for local transcription, translation,
-  and TTS with Speaches
-description: Use Speaches when an agent stack expects OpenAI-style audio endpoints
-  but you want a self-hosted speech backend for transcription, translation, and text-to-speech
-  instead of a hosted API.
-verification: security_reviewed
-source: https://github.com/speaches-ai/speaches
+title: "Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches"
+description: "Use Speaches when an agent stack expects OpenAI-style audio endpoints but you want a self-hosted speech backend for transcription, translation, and text-to-speech instead of a hosted API."
+verification: "security_reviewed"
+source: "https://github.com/speaches-ai/speaches"
+author: "speaches-ai"
+publisher_type: "company"
 category:
-- Media & Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: speaches-ai/speaches
+  github_repo: "speaches-ai/speaches"
   github_stars: 3170
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Use Speaches when an agent stack expects OpenAI-style audio endpoints but you want a self-hosted speech backend for transcription, translation, and text-to-speech instead of a hosted API.
 
+## Prerequisites
+
+Docker or Python-based deployment environment, CPU or GPU runtime, supported speech models, and any client or agent stack that can call OpenAI-compatible audio endpoints.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches
+```
+Deploy Speaches with Docker or the supported local setup from the project docs, download or configure the speech models you plan to serve, start the API, then point your agent or application at the Speaches base URL using the same OpenAI-style audio calls it already expects.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://speaches.ai
 
 ## Source
 

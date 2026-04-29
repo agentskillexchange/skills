@@ -1,45 +1,43 @@
 ---
-title: Implement, review, and optimize SwiftUI code with trace-backed diagnostics
-description: Guide SwiftUI implementation and refactoring with current Apple patterns,
-  then analyze Instruments traces to diagnose hangs, hitches, and expensive view updates.
-verification: security_reviewed
-source: https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill
+title: "Implement, review, and optimize SwiftUI code with trace-backed diagnostics"
+description: "Guide SwiftUI implementation and refactoring with current Apple patterns, then analyze Instruments traces to diagnose hangs, hitches, and expensive view updates."
+verification: "security_reviewed"
+source: "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill"
+author: "Antoine van der Lee"
+publisher_type: "individual"
 category:
-- Library & API Reference
+  - "Library & API Reference"
 framework:
-- Custom Agents
-tool_ecosystem:
-  github_repo: avdlee/swiftui-agent-skill
-  github_stars: 2661
+  - "Custom Agents"
 ---
 
 # Implement, review, and optimize SwiftUI code with trace-backed diagnostics
 
 Guide SwiftUI implementation and refactoring with current Apple patterns, then analyze Instruments traces to diagnose hangs, hitches, and expensive view updates.
 
+## Prerequisites
+
+Xcode Instruments traces; SwiftUI source files; custom skill-capable agent client
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics
+```
+Copy the skill folder into your agent client’s local skills path, then invoke it for SwiftUI implementation, review, or .trace analysis tasks.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/AvdLee/SwiftUI-Agent-Skill
 
 ## Source
 

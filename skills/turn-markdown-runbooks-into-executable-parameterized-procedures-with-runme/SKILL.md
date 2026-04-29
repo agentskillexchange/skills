@@ -1,17 +1,18 @@
 ---
-title: Turn Markdown runbooks into executable, parameterized procedures with Runme
-description: Run named steps directly from Markdown runbooks so operational docs stay
-  executable instead of drifting into stale reference text.
-verification: listed
-source: https://github.com/runmedev/runme
+title: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
+description: "Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text."
+verification: "listed"
+source: "https://github.com/runmedev/runme"
+author: "Runme"
+publisher_type: "organization"
 category:
-- Runbooks & Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: runmedev/runme
+  github_repo: "runmedev/runme"
   github_stars: 2031
-  npm_package: runme
+  npm_package: "runme"
   npm_weekly_downloads: 1167
 ---
 
@@ -19,29 +20,29 @@ tool_ecosystem:
 
 Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text.
 
+## Prerequisites
+
+Runme CLI, Markdown runbooks with fenced code blocks, local shell or supported runtime
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme
+```
+Install with `brew install runme` or `npm install -g runme`, point it at a Markdown file or repo, then use commands like `runme list` and `runme run <step>` to execute named runbook steps.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.runme.dev/
 
 ## Source
 

@@ -1,16 +1,17 @@
 ---
-title: Agent Browser Operator
-description: Interactive browser skill for logged-in flows, dynamic pages, and session-aware
-  site operations.
-verification: security_reviewed
-source: https://github.com/microsoft/playwright
+title: "Agent Browser Operator"
+description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
+verification: "security_reviewed"
+source: "https://github.com/microsoft/playwright"
+author: "microsoft"
+publisher_type: "open_source_collective"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Custom Agents
-- OpenClaw
+  - "Custom Agents"
+  - "OpenClaw"
 tool_ecosystem:
-  github_repo: microsoft/playwright
+  github_repo: "microsoft/playwright"
   github_stars: 87490
 ---
 
@@ -18,29 +19,29 @@ tool_ecosystem:
 
 Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.
 
+## Prerequisites
+
+OpenClaw, browser tool (OpenClaw-managed or Chrome extension relay)
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/agent-browser-operator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/agent-browser-operator
+```
+npm init playwright@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/agent-browser-operator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://playwright.dev/docs/intro
 
 ## Source
 

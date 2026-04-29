@@ -1,15 +1,16 @@
 ---
-title: WordPress Content Publisher
-description: Structured publishing workflow for WordPress drafts, metadata, and content
-  operations.
-verification: security_reviewed
-source: https://github.com/WordPress/WordPress
+title: "WordPress Content Publisher"
+description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+verification: "security_reviewed"
+source: "https://github.com/WordPress/WordPress"
+author: "WordPress"
+publisher_type: "open_source_collective"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: wordpress/wordpress
+  github_repo: "wordpress/wordpress"
   github_stars: 21070
 ---
 
@@ -17,29 +18,29 @@ tool_ecosystem:
 
 Structured publishing workflow for WordPress drafts, metadata, and content operations.
 
+## Prerequisites
+
+OpenClaw, WordPress site with REST API access, application password
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wordpress-content-publisher/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wordpress-content-publisher
+```
+Install the WordPress skills from the OpenClaw skills set. Create an application password in WordPress (Users → Profile → Application Passwords) and configure REST API access in your OpenClaw environment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/wordpress-content-publisher`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://wordpress.org/documentation/
 
 ## Source
 

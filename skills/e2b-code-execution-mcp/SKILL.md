@@ -1,16 +1,16 @@
 ---
-title: E2B Code Execution MCP
-description: Add sandboxed code execution to any MCP-compatible AI client. E2B gives
-  agents access to secure, internet-connected Linux environments for running Python,
-  JavaScript, and shell commands without touching your local machine.
-verification: security_reviewed
-source: https://github.com/e2b-dev/mcp-server
+title: "E2B Code Execution MCP"
+description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
+verification: "security_reviewed"
+source: "https://github.com/e2b-dev/mcp-server"
+author: "E2B"
+publisher_type: "individual"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
-  github_repo: e2b-dev/mcp-server
+  github_repo: "e2b-dev/mcp-server"
   github_stars: 395
 ---
 
@@ -18,29 +18,23 @@ tool_ecosystem:
 
 Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
 
+## Prerequisites
+
+MCP-compatible client (Claude Code, Cursor, or similar), E2B API key, Node.js runtime
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/e2b-code-execution-mcp/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/e2b-code-execution-mcp
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/e2b-code-execution-mcp`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://e2b.dev/docs/mcp
 
 ## Source
 

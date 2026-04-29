@@ -1,16 +1,16 @@
 ---
-title: Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation
-description: Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL
-  endpoint so an agent can discover commands and call tools immediately without hand-written
-  wrappers.
-verification: security_reviewed
-source: https://github.com/knowsuchagency/mcp2cli
+title: "Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation"
+description: "Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands and call tools immediately without hand-written wrappers."
+verification: "security_reviewed"
+source: "https://github.com/knowsuchagency/mcp2cli"
+author: "Knowsuch Agency"
+publisher_type: "company"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: knowsuchagency/mcp2cli
+  github_repo: "knowsuchagency/mcp2cli"
   github_stars: 1940
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands and call tools immediately without hand-written wrappers.
 
+## Prerequisites
+
+Python with uv or uvx, network access to the target MCP/OpenAPI/GraphQL endpoint, and any required auth headers or OAuth credentials for that endpoint.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation
+```
+<p>Run <code>uvx mcp2cli --help</code> for an ephemeral install, or <code>uv tool install mcp2cli</code> for a persistent global install. Then point it at an MCP server with <code>--mcp</code>, an OpenAPI spec with <code>--spec</code>, or a GraphQL endpoint with <code>--graphql</code>, use <code>--list</code> to discover generated subcommands, and call the command you need with the same connection and auth flags.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/knowsuchagency/mcp2cli
 
 ## Source
 

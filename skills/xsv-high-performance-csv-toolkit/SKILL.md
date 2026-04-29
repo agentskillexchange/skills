@@ -1,17 +1,14 @@
 ---
-title: xsv High-Performance CSV Toolkit
-description: xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant
-  (BurntSushi). It provides indexing, slicing, analyzing, splitting, joining, searching,
-  sampling, and statistics operations on CSV files with exceptional speed and memory
-  efficiency.
-verification: security_reviewed
-source: https://github.com/BurntSushi/xsv
+title: "xsv High-Performance CSV Toolkit"
+description: "xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing, slicing, analyzing, splitting, joining, searching, sampling, and statistics operations on CSV files with exceptional speed and memory efficiency."
+verification: "security_reviewed"
+source: "https://github.com/BurntSushi/xsv"
 category:
-- Data Extraction & Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: BurntSushi/xsv
+  github_repo: "BurntSushi/xsv"
   github_stars: 10758
 ---
 
@@ -21,27 +18,13 @@ xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntS
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/xsv-high-performance-csv-toolkit/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/xsv-high-performance-csv-toolkit
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/xsv-high-performance-csv-toolkit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

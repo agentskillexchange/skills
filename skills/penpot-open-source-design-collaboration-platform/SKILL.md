@@ -1,16 +1,16 @@
 ---
-title: Penpot Open-Source Design Collaboration Platform
-description: Penpot is an open-source design and prototyping platform built for design
-  and code collaboration. This skill helps agents anchor UI, prototype, and handoff
-  tasks to Penpot’s real workspace, self-hosting, and collaboration model.
-verification: security_reviewed
-source: https://github.com/penpot/penpot
+title: "Penpot Open-Source Design Collaboration Platform"
+description: "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks to Penpot’s real workspace, self-hosting, and collaboration model."
+verification: "security_reviewed"
+source: "https://github.com/penpot/penpot"
+author: "Penpot"
+publisher_type: "Open Source Project"
 category:
-- Image & Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: penpot/penpot
+  github_repo: "penpot/penpot"
   github_stars: 45294
 ---
 
@@ -18,29 +18,29 @@ tool_ecosystem:
 
 Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks to Penpot’s real workspace, self-hosting, and collaboration model.
 
+## Prerequisites
+
+Docker Compose or Kubernetes/Helm for self-hosting
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/penpot-open-source-design-collaboration-platform/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/penpot-open-source-design-collaboration-platform
+```
+Deploy with docker compose
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/penpot-open-source-design-collaboration-platform`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://help.penpot.app/technical-guide/getting-started/
 
 ## Source
 

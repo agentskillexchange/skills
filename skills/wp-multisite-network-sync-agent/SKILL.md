@@ -1,14 +1,12 @@
 ---
-title: WP Multisite Network Sync Agent
-description: Synchronizes content, users, and plugin configurations across WordPress
-  Multisite networks using the WP_Site_Query API and switch_to_blog(). Automates bulk
-  site provisioning via wp_insert_site() with REST endpoint monitoring.
-verification: security_reviewed
-source: https://developer.wordpress.org/advanced-administration/multisite/
+title: "WP Multisite Network Sync Agent"
+description: "Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query API and switch_to_blog(). Automates bulk site provisioning via wp_insert_site() with REST endpoint monitoring."
+verification: "security_reviewed"
+source: "https://developer.wordpress.org/advanced-administration/multisite/"
 category:
-- WordPress & CMS
+  - "WordPress & CMS"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
 
 # WP Multisite Network Sync Agent
@@ -17,27 +15,13 @@ Synchronizes content, users, and plugin configurations across WordPress Multisit
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wp-multisite-network-sync-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/wp-multisite-network-sync-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

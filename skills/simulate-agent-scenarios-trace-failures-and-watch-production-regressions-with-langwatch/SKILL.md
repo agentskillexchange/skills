@@ -1,18 +1,18 @@
 ---
-title: Simulate agent scenarios, trace failures, and watch production regressions
-  with LangWatch
-description: Run end-to-end agent simulations, review traces, and watch production
-  regressions when reliability work spans pre-release testing and live monitoring.
-verification: listed
-source: https://github.com/langwatch/langwatch
+title: "Simulate agent scenarios, trace failures, and watch production regressions with LangWatch"
+description: "Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring."
+verification: "listed"
+source: "https://github.com/langwatch/langwatch"
+author: "LangWatch"
+publisher_type: "open_source_project"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: langwatch/langwatch
+  github_repo: "langwatch/langwatch"
   github_stars: 3206
-  npm_package: langwatch
+  npm_package: "langwatch"
   npm_weekly_downloads: 54718
 ---
 
@@ -20,29 +20,29 @@ tool_ecosystem:
 
 Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring.
 
+## Prerequisites
+
+LangWatch platform, your agent application traces, optional Docker for self-hosting
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch
+```
+Clone the repo and run docker compose up -d --wait --build for a self-hosted instance, or create a LangWatch account and project to start sending traces.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.langwatch.ai/
 
 ## Source
 

@@ -1,14 +1,13 @@
 ---
-title: Uptime Robot Multi-Check Coordinator
-description: Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP,
-  keyword, and port monitors with alert contacts, maintenance windows, and status
-  page synchronization.
-verification: security_reviewed
-source: https://uptimerobot.com/api/
+title: "Uptime Robot Multi-Check Coordinator"
+description: "Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert contacts, maintenance windows, and status page synchronization."
+verification: "security_reviewed"
+source: "https://uptimerobot.com/api/"
+author: "UptimeRobot"
 category:
-- Monitoring & Alerts
+  - "Monitoring & Alerts"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
 
 # Uptime Robot Multi-Check Coordinator
@@ -17,27 +16,17 @@ Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keywor
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/uptime-robot-multi-check-coordinator
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/uptime-robot-multi-check-coordinator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://uptimerobot.com/api/
 
 ## Source
 

@@ -1,17 +1,15 @@
 ---
-title: Browser Use Agentic Browser Control
-description: Browser Use is an open source browser automation framework for AI agents
-  that turns websites into controllable interfaces for multi-step tasks. It combines
-  a Python SDK, browser orchestration, and model integrations so agents can navigate,
-  extract data, and complete workflows in real browsers.
-verification: security_reviewed
-source: https://github.com/browser-use/browser-use
+title: "Browser Use Agentic Browser Control"
+description: "Browser Use is an open source browser automation framework for AI agents that turns websites into controllable interfaces for multi-step tasks. It combines a Python SDK, browser orchestration, and model integrations so agents can navigate, extract data, and complete workflows in real browsers."
+verification: "security_reviewed"
+source: "https://github.com/browser-use/browser-use"
+author: "browser-use"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: browser-use/browser-use
+  github_repo: "browser-use/browser-use"
   github_stars: 87316
 ---
 
@@ -19,29 +17,29 @@ tool_ecosystem:
 
 Browser Use is an open source browser automation framework for AI agents that turns websites into controllable interfaces for multi-step tasks. It combines a Python SDK, browser orchestration, and model integrations so agents can navigate, extract data, and complete workflows in real browsers.
 
+## Prerequisites
+
+python, uv, go
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/browser-use-agentic-browser-control/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/browser-use-agentic-browser-control
+```
+uvx browser-use init --template default
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/browser-use-agentic-browser-control`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.browser-use.com/open-source/introduction
 
 ## Source
 

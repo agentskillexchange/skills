@@ -1,19 +1,18 @@
 ---
-title: Apply repeatable JavaScript and TypeScript codemods across large codebases
-  with jscodeshift
-description: Use jscodeshift when an agent needs AST-based JavaScript or TypeScript
-  codemods for bulk migrations, API rewrites, and large refactors with reviewable
-  diffs.
-verification: listed
-source: https://github.com/facebook/jscodeshift
+title: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
+description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs."
+verification: "listed"
+source: "https://github.com/facebook/jscodeshift"
+author: "Meta"
+publisher_type: "organization"
 category:
-- Code Quality & Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: facebook/jscodeshift
+  github_repo: "facebook/jscodeshift"
   github_stars: 9983
-  npm_package: jscodeshift
+  npm_package: "jscodeshift"
   npm_weekly_downloads: 27093990
 ---
 
@@ -21,29 +20,29 @@ tool_ecosystem:
 
 Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs.
 
+## Prerequisites
+
+Node.js, npm or pnpm, Git
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift
+```
+Install with npm install -g jscodeshift or run it with npx, then provide a transform file and target paths, for example jscodeshift -t ./transform.js src/.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://jscodeshift.com
 
 ## Source
 

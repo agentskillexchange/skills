@@ -1,17 +1,16 @@
 ---
-title: Regenerate Helm chart READMEs from values and comments before release
-description: Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml,
-  and inline comments so README files stay aligned with the actual chart. The agent
-  can run this before commit or release, then surface changed tables, missing descriptions,
-  and documentation drift in a review-friendly diff.
-verification: security_reviewed
-source: https://github.com/norwoodj/helm-docs
+title: "Regenerate Helm chart READMEs from values and comments before release"
+description: "Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent can run this before commit or release, then surface changed tables, missing descriptions, and documentation drift in a review-friendly diff."
+verification: "security_reviewed"
+source: "https://github.com/norwoodj/helm-docs"
+author: "norwoodj"
+publisher_type: "Open Source Project"
 category:
-- Templates & Workflows
+  - "Templates & Workflows"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: norwoodj/helm-docs
+  github_repo: "norwoodj/helm-docs"
   github_stars: 1732
 ---
 
@@ -19,29 +18,29 @@ tool_ecosystem:
 
 Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent can run this before commit or release, then surface changed tables, missing descriptions, and documentation drift in a review-friendly diff.
 
+## Prerequisites
+
+Helm charts and the helm-docs CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release
+```
+brew install norwoodj/tap/helm-docs
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/norwoodj/helm-docs
 
 ## Source
 
