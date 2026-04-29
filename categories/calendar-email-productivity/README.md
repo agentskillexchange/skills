@@ -126,6 +126,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | 106 | — |
 | [Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow](../../skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/) | 105 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | 78 | — |
+| [Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP](../../skills/search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp/) | 54 | — |
 | [Turn Lark meeting transcripts into action items and follow-up tasks](../../skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/) | 40 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |

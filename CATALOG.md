@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2402 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-28 23:35 UTC
+> **2403 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-29 01:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1563,7 +1563,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (121 skills)
+### 📅 Calendar, Email & Productivity (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1655,6 +1655,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](skills/nylas-sdk-email-calendar-contacts/) | Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts… | Security Reviewed | 106 | — |
 | [Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow](skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/) | Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists,… | Published | 105 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history,… | Security Reviewed | 78 | — |
+| [Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP](skills/search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp/) | Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work… | Published | 54 | — |
 | [Turn Lark meeting transcripts into action items and follow-up tasks](skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/) | Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks… | Security Reviewed | 40 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | Use mbox-to-sqlite when an agent needs to work across an email archive as structured data instead of parsing one… | Security Reviewed | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support… | Security Reviewed | 36 | 184/wk |

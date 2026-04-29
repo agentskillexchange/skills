@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2402,
-  "generated": "2026-04-28",
+  "total": 2403,
+  "generated": "2026-04-29",
   "skills": [
+    {
+      "slug": "search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp",
+      "name": "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP",
+      "description": "Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work can stay inside a bounded agent…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 54
+      }
+    },
     {
       "slug": "orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement",
       "name": "Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement",

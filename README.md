@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C402-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C403-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C070-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,402 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,403 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI](skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/)
+### [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/)
 
 
 
-- Tool: `run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli`
+- Tool: `llama.cpp`
 - Category: Developer Tools
-- Frameworks: Gemini
-- GitHub stars: 101,569
-- Listing: https://agentskillexchange.com/skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/
+- Frameworks: Multi-Framework
+- GitHub stars: 100,939
+- Listing: https://agentskillexchange.com/skills/llama-cpp-portable-llm-inference/
 
 ---
 
@@ -93,7 +93,7 @@ A strong cross-section of high-signal skills across the catalog.
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 165 | ETL pipelines, parsing, format conversion |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 140 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 127 | Metrics, alerting rules, observability |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 121 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 119 | SDK docs, API parsers, symbol resolvers |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 107 | Third-party API bridges, webhooks, service connectors |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 103 | Web research, content discovery, data collection |
@@ -138,7 +138,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,402 | In the catalog, every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,403 | In the catalog, every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,070 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
