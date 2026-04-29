@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2403 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-04-29 10:34 UTC
+> **2404 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-04-29 13:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -931,7 +931,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (168 skills)
+### 📋 Runbooks & Diagnostics (169 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1081,6 +1081,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review… | Published | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional… | Published | 11 | — |
 | [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided… | Security Reviewed | 6 | — |
+| [Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup](skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/) | Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of… | Published | 1 | — |
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer.… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance… | Security Reviewed | — | 23.2M/wk |

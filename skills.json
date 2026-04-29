@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2403,
+  "total": 2404,
   "generated": "2026-04-29",
   "skills": [
+    {
+      "slug": "back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup",
+      "name": "Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup",
+      "description": "Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of ad hoc file copying.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      }
+    },
     {
       "slug": "search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp",
       "name": "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP",
