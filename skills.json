@@ -32630,7 +32630,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5676
+      }
     },
     {
       "slug": "gitlab-cicd-pipeline-orchestrator",

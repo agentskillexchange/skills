@@ -128,6 +128,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | — |
+| [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | 5.7k | — |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | 5.7k | — |
 | [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
@@ -216,7 +217,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
-| [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Review REST API designs before implementation for versioning, security, and contract clarity](../../skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | — | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2403 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-29 01:41 UTC
+> **2403 published skills** across **17 categories** · 2070 security reviewed · Updated 2026-04-29 03:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -837,6 +837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](skills/axe-core-accessibility-testing-engine/) | axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0,… | Security Reviewed | 7k | — |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule… | Published | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations… | Published | 5.7k | — |
+| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | 5.7k | — |
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | 5.7k | — |
 | [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
@@ -925,7 +926,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
 | [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml.… | Security Reviewed | — | — |
 | [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | — | — |
-| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | — | — |
 | [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness… | Security Reviewed | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Published | — | — |
 | [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | — | — |
