@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "tulios/kafkajs"
   github_stars: 3992
   npm_package: "kafkajs"
-  npm_weekly_downloads: 2615458
+  npm_weekly_downloads: 2605839
 ---
 
 # Queue Backup Runbook

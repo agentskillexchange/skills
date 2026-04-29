@@ -9,9 +9,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "langchain-ai/langchainjs"
-  github_stars: 17579
+  github_stars: 17590
   npm_package: "langchain"
-  npm_weekly_downloads: 2075623
+  npm_weekly_downloads: 2097133
 ---
 
 # LangChain MCP Server

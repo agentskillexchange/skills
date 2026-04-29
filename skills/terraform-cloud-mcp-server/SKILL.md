@@ -10,7 +10,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
-  github_stars: 48274
+  github_stars: 48282
 ---
 
 # Terraform Cloud MCP Server

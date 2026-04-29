@@ -1,7 +1,7 @@
 ---
 title: "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP"
 description: "Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work can stay inside a bounded agent workflow."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/s-morgan-jeffries/apple-mail-mcp"
 category:
   - "Calendar, Email & Productivity"

@@ -10,7 +10,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
-  github_stars: 3048
+  github_stars: 3047
 ---
 
 # SendGrid MCP Server
