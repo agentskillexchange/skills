@@ -6,9 +6,11 @@ source: "https://github.com/tcort/markdown-link-check"
 author: "tcort"
 publisher_type: "individual"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tcort/markdown-link-check"
   github_stars: 693

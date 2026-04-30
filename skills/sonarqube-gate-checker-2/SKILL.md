@@ -4,9 +4,11 @@ description: "Queries the SonarQube Web API (/api/qualitygates/project_status) t
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

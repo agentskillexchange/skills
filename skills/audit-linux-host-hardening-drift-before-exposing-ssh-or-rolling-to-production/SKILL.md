@@ -6,9 +6,11 @@ source: "https://github.com/CISOfy/lynis"
 author: "CISOfy"
 publisher_type: "Company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "CISOfy/lynis"
   github_stars: 15505

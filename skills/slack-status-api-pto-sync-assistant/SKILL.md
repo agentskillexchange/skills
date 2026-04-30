@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://api.slack.com/"
 author: "Slack"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Slack Status API PTO Sync Assistant

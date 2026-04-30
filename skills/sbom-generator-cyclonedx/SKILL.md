@@ -3,10 +3,13 @@ title: "SBOM Generator with CycloneDX"
 description: "Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev."
 verification: "security_reviewed"
 source: "https://github.com/CycloneDX/cyclonedx-cli"
+author: "CycloneDX"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "CycloneDX/cyclonedx-cli"
   github_stars: 489
@@ -25,6 +28,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://github.com/CycloneDX/cyclonedx-cli#readme
 
 ## Source
 

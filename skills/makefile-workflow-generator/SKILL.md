@@ -4,9 +4,11 @@ description: "Generates project Makefiles with standard targets using GNU Make s
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Makefile Workflow Generator

@@ -4,9 +4,11 @@ description: "Automated keyword research using DataForSEO API and Google Search 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # SEO Keyword Research Automator

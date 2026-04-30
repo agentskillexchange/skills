@@ -4,9 +4,11 @@ description: "Use i18next-parser when an agent needs to scan a codebase, find tr
 verification: "security_reviewed"
 source: "https://github.com/i18next/i18next-parser"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "i18next/i18next-parser"
   github_stars: 556

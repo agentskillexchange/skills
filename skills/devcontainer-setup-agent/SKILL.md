@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/devcontainers/cli"
 author: "devcontainers"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "devcontainers/cli"
   github_stars: 2637

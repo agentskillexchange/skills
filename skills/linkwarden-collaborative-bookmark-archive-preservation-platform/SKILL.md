@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/linkwarden/linkwarden"
 author: "linkwarden"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "linkwarden/linkwarden"
   github_stars: 17869

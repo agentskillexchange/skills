@@ -4,9 +4,11 @@ description: "Manages secret lifecycle through the HashiCorp Vault HTTP API v1. 
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/vault"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
   github_stars: 35396

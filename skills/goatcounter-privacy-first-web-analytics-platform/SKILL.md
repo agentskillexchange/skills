@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/arp242/goatcounter"
 author: "arp242"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "arp242/goatcounter"
   github_stars: 5628

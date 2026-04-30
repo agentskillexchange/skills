@@ -6,9 +6,11 @@ source: "https://github.com/saulpw/visidata"
 author: "saulpw"
 publisher_type: "individual"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "saulpw/visidata"
   github_stars: 9025

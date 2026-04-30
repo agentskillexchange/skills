@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/googleapis/release-please"
 author: "Google APIs"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "googleapis/release-please"
   github_stars: 6700

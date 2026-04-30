@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developers.notion.com/"
 author: "Notion"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Notion Workspace Sync Engine

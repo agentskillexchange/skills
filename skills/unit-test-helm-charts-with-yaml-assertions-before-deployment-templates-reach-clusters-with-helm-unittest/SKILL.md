@@ -6,9 +6,11 @@ source: "https://github.com/helm-unittest/helm-unittest"
 author: "helm-unittest"
 publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "helm-unittest/helm-unittest"
   github_stars: 1305

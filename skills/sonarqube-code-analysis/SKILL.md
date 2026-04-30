@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 author: "SonarSource"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10484

@@ -6,9 +6,11 @@ source: "https://github.com/sqldef/sqldef"
 author: "sqldef"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sqldef/sqldef"
   github_stars: 3076

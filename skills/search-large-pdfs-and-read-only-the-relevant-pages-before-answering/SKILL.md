@@ -6,9 +6,11 @@ source: "https://github.com/jztan/pdf-mcp"
 author: "jztan"
 publisher_type: "individual"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jztan/pdf-mcp"
   github_stars: 17

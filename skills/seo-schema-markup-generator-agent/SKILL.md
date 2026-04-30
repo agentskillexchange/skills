@@ -4,9 +4,11 @@ description: "Generates JSON-LD structured data for articles, products, FAQs, an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # SEO Schema Markup Generator

@@ -4,9 +4,11 @@ description: "Soft Serve is a self-hostable Git server by Charmbracelet that pro
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/soft-serve"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "charmbracelet/soft-serve"
   github_stars: 6756

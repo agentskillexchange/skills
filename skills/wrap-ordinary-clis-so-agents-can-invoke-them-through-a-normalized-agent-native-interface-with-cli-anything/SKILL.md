@@ -6,9 +6,11 @@ source: "https://github.com/HKUDS/CLI-Anything"
 author: "HKUDS"
 publisher_type: "organization"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "HKUDS/CLI-Anything"
   github_stars: 31214

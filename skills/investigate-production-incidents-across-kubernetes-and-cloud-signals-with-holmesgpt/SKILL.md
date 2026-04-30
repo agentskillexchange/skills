@@ -6,9 +6,11 @@ source: "https://github.com/HolmesGPT/holmesgpt"
 author: "HolmesGPT"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "HolmesGPT/holmesgpt"
   github_stars: 2265

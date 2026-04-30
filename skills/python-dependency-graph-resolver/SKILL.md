@@ -4,9 +4,11 @@ description: "Resolves and visualizes Python package dependency graphs using pip
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Python Dependency Graph Resolver

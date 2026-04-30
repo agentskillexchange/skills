@@ -6,9 +6,11 @@ source: "https://github.com/google-gemini/gemini-cli"
 author: "Google"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "google-gemini/gemini-cli"
   github_stars: 101569

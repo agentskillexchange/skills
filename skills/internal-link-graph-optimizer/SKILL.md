@@ -4,9 +4,11 @@ description: "Analyzes internal linking structure by crawling sitemaps with Scre
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Internal Link Graph Optimizer

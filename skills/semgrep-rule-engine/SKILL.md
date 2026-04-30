@@ -4,9 +4,11 @@ description: "Executes Semgrep static analysis using the semgrep CLI with custom
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794

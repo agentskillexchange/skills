@@ -6,9 +6,11 @@ source: "https://github.com/caronc/apprise"
 author: "Chris Caron"
 publisher_type: "Individual Developer"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "caronc/apprise"
   github_stars: 16227

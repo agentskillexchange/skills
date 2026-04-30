@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/rive-app/rive-react"
 author: "rive-app"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "rive-app/rive-react"
   github_stars: 1111

@@ -4,9 +4,11 @@ description: "Validates OpenAPI 3.0/3.1 specifications using Spectral linting ru
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenAPI Spec Validator & Docs Generator

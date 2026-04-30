@@ -6,9 +6,11 @@ source: "https://github.com/oraios/serena"
 author: "oraios"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "oraios/serena"
   github_stars: 23039

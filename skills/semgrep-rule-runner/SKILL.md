@@ -1,12 +1,14 @@
 ---
 title: "Semgrep Rule Runner"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
+description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports --config auto for community rules, parses JSON output via --json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794
@@ -14,7 +16,7 @@ tool_ecosystem:
 
 # Semgrep Rule Runner
 
-Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
+Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports --config auto for community rules, parses JSON output via --json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
 
 ## Installation
 

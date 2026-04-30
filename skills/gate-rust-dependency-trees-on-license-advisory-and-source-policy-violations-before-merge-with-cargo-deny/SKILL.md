@@ -6,9 +6,11 @@ source: "https://github.com/EmbarkStudios/cargo-deny"
 author: "Embark Studios"
 publisher_type: "company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "EmbarkStudios/cargo-deny"
   github_stars: 2263

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.diffbot.com/dev/docs/"
 author: "Diffbot"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Diffbot Article Extraction Verifier

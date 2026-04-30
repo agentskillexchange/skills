@@ -6,9 +6,11 @@ source: "https://github.com/kamranahmedse/diffity"
 author: "kamranahmedse"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "kamranahmedse/diffity"
   github_stars: 561

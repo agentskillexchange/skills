@@ -6,9 +6,11 @@ source: "https://github.com/acf-extended/ACF-Extended"
 author: "Konrad Chmielewski"
 publisher_type: "Individual Developer"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "acf-extended/ACF-Extended"
   github_stars: 253

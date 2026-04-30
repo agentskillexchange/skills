@@ -6,9 +6,11 @@ source: "https://github.com/wong2/diffx"
 author: "wong2"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wong2/diffx"
   github_stars: 127
@@ -20,7 +22,7 @@ Use DiffX to review local git changes in a PR-style browser UI, leave inline com
 
 ## Prerequisites
 
-Array
+git, diffx CLI, browser
 
 ## Installation
 

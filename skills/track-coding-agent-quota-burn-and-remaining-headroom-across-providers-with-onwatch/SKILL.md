@@ -6,9 +6,11 @@ source: "https://github.com/onllm-dev/onWatch"
 author: "onllm-dev"
 publisher_type: "organization"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "onllm-dev/onWatch"
   github_stars: 580

@@ -6,9 +6,11 @@ source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
 author: "dbt-checkpoint"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dbt-checkpoint/dbt-checkpoint"
   github_stars: 738

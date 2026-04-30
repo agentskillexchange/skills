@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "zaproxy"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991

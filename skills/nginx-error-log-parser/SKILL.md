@@ -4,9 +4,11 @@ description: "Parses nginx error.log and access.log files using pattern matching
 verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

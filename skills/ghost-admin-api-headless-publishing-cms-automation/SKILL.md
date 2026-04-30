@@ -4,9 +4,11 @@ description: "The Ghost Admin API exposes authenticated operations for posts, pa
 verification: "security_reviewed"
 source: "https://ghost.org/docs/admin-api/"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Ghost Admin API Headless Publishing and CMS Automation

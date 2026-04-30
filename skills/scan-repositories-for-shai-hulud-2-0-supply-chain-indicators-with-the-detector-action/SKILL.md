@@ -6,9 +6,11 @@ source: "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
 author: "GenSecAIHQ"
 publisher_type: "GitHub repository"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gensecaihq/Shai-Hulud-2.0-Detector"
   github_stars: 124

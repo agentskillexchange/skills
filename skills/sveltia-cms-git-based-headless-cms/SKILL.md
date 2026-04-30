@@ -4,9 +4,11 @@ description: "Sveltia CMS is a free, open-source, Git-based headless CMS that ru
 verification: "security_reviewed"
 source: "https://github.com/sveltia/sveltia-cms"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sveltia/sveltia-cms"
   github_stars: 2245

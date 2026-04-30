@@ -4,9 +4,11 @@ description: "Jira Advanced Query Agent is built around Jira issue tracking plat
 verification: "security_reviewed"
 source: "https://pypi.org/project/jira/"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Jira Advanced Query Agent

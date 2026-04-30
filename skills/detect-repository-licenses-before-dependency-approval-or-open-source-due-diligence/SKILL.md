@@ -6,9 +6,11 @@ source: "https://github.com/licensee/licensee"
 author: "licensee"
 publisher_type: "Open Source Project"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "licensee/licensee"
   github_stars: 876

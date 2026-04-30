@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/grafana/grafonnet"
 author: "Grafana"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/grafonnet"
   github_stars: 528

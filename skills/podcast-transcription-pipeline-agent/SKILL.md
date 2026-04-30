@@ -3,10 +3,13 @@ title: "Podcast Transcription Pipeline"
 description: "Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments."
 verification: "security_reviewed"
 source: "https://platform.openai.com/docs/guides/speech-to-text"
+author: "OpenAI"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # Podcast Transcription Pipeline
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://platform.openai.com/docs/guides/speech-to-text
 
 ## Source
 

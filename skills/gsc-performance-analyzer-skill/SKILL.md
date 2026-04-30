@@ -1,17 +1,20 @@
 ---
 title: "Google Search Console Performance Analyzer"
-description: "Pulls search analytics from Google Search Console’s /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates."
+description: "Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates."
 verification: "security_reviewed"
 source: "https://developers.google.com/webmaster-tools/v1/searchanalytics/query"
+author: "Google"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Google Search Console Performance Analyzer
 
-Pulls search analytics from Google Search Console’s /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates.
+Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates.
 
 ## Installation
 
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developers.google.com/webmaster-tools/v1/searchanalytics/query
 
 ## Source
 

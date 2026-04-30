@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/vuejs/vitepress"
 author: "vuejs"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "vuejs/vitepress"
   github_stars: 17508

@@ -3,10 +3,14 @@ title: "Enforce local Git hook checks in JavaScript repos with Husky"
 description: "Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same local guardrails before changes leave the workstation."
 verification: "listed"
 source: "https://github.com/typicode/husky"
+author: "typicode"
+publisher_type: "open_source"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "typicode/husky"
   github_stars: 34988
@@ -18,6 +22,10 @@ tool_ecosystem:
 
 Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same local guardrails before changes leave the workstation.
 
+## Prerequisites
+
+Git, Node.js, npm or pnpm or yarn
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -27,6 +35,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the package in the target repo, enable Husky, then add hook scripts such as pre-commit or commit-msg for the required local checks.
+```
+
+## Documentation
+
+- https://typicode.github.io/husky/
 
 ## Source
 

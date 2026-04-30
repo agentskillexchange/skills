@@ -4,9 +4,11 @@ description: "Generates image variations and edits using the OpenAI Images API (
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813

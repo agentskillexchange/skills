@@ -6,9 +6,11 @@ source: "https://github.com/numtide/treefmt"
 author: "Numtide"
 publisher_type: "company"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "numtide/treefmt"
   github_stars: 977

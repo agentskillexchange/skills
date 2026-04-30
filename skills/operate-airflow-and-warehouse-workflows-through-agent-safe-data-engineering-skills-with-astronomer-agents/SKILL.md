@@ -6,9 +6,11 @@ source: "https://github.com/astronomer/agents"
 author: "Astronomer"
 publisher_type: "organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "astronomer/agents"
   github_stars: 337

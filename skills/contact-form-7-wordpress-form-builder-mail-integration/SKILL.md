@@ -6,9 +6,11 @@ source: "https://wordpress.org/plugins/contact-form-7/"
 author: "Rock Lobster Inc."
 publisher_type: "Company"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Contact Form 7 WordPress Form Builder and Mail Integration

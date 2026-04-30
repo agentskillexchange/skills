@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/OpenAPITools/openapi-generator"
 author: "OpenAPITools"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openapitools/openapi-generator"
   github_stars: 26127

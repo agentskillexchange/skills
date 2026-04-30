@@ -4,9 +4,11 @@ description: "Use the Contentful Management API and JavaScript SDK to create, up
 verification: "security_reviewed"
 source: "https://github.com/contentful/contentful-management.js"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "contentful/contentful-management.js"
   github_stars: 286

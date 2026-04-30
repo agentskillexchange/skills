@@ -6,9 +6,11 @@ source: "https://github.com/MiroMindAI/MiroEval"
 author: "MiroMindAI"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "MiroMindAI/MiroEval"
   github_stars: 34

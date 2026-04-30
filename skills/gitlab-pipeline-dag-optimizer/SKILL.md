@@ -4,9 +4,11 @@ description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298

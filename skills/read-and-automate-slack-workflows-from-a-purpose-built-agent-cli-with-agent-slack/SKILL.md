@@ -6,9 +6,11 @@ source: "https://github.com/stablyai/agent-slack"
 author: "stablyai"
 publisher_type: "organization"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stablyai/agent-slack"
   github_stars: 382

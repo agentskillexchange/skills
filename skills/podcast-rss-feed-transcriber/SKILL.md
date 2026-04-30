@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/openai/whisper"
 author: "openai"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 97391

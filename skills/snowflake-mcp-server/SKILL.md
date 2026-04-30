@@ -4,9 +4,11 @@ description: "Snowflake MCP Server is built around Snowflake cloud data warehous
 verification: "security_reviewed"
 source: "https://pypi.org/project/snowflake-connector-python/"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # Snowflake MCP Server

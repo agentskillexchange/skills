@@ -4,9 +4,11 @@ description: "Zola is a fast static site generator written in Rust that ships as
 verification: "security_reviewed"
 source: "https://github.com/getzola/zola"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "getzola/zola"
   github_stars: 16799

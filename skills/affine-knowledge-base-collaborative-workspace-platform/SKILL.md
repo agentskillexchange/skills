@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/toeverything/AFFiNE"
 author: "toeverything"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "toeverything/AFFiNE"
   github_stars: 67240

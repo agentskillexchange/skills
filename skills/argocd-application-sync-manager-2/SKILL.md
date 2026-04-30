@@ -4,9 +4,11 @@ description: "Manages ArgoCD application synchronization using the ArgoCD REST A
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

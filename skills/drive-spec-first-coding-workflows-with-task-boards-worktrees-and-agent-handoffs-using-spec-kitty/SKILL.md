@@ -6,9 +6,11 @@ source: "https://github.com/Priivacy-ai/spec-kitty"
 author: "Priivacy AI"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Priivacy-ai/spec-kitty"
   github_stars: 1071

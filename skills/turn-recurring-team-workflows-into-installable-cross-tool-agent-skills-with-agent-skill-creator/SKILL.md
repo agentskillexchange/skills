@@ -6,9 +6,11 @@ source: "https://github.com/FrancyJGLisboa/agent-skill-creator"
 author: "Francy JG Lisboa"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "FrancyJGLisboa/agent-skill-creator"
   github_stars: 744

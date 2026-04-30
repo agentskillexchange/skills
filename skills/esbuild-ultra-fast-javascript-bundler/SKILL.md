@@ -4,9 +4,11 @@ description: "esbuild is an extremely fast JavaScript and TypeScript bundler wri
 verification: "security_reviewed"
 source: "https://github.com/evanw/esbuild"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "evanw/esbuild"
   github_stars: 39815

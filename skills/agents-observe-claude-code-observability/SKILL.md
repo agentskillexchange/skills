@@ -6,9 +6,11 @@ source: "https://github.com/simple10/agents-observe"
 author: "Joe Johnston"
 publisher_type: "individual"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "simple10/agents-observe"
   github_stars: 421

@@ -6,9 +6,11 @@ source: "https://github.com/tsenart/vegeta"
 author: "tsenart"
 publisher_type: "individual"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tsenart/vegeta"
   github_stars: 25004

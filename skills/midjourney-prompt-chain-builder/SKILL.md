@@ -1,18 +1,20 @@
 ---
 title: "Midjourney Prompt Chain Builder"
-description: "Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for –ar, –v, –style, and –chaos flags across generation sequences."
+description: "Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar, --v, --style, and --chaos flags across generation sequences."
 verification: "security_reviewed"
 source: "https://docs.midjourney.com/hc/en-us/categories/32013335627533-Documentation"
 author: "Midjourney"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Midjourney Prompt Chain Builder
 
-Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for –ar, –v, –style, and –chaos flags across generation sequences.
+Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar, --v, --style, and --chaos flags across generation sequences.
 
 ## Installation
 

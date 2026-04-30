@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developers.google.com/calendar/api"
 author: "Google"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Google Calendar FreeBusy Scheduler Bridge

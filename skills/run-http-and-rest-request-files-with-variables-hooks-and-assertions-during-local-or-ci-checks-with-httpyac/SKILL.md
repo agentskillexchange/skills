@@ -6,9 +6,11 @@ source: "https://github.com/AnWeber/httpyac"
 author: "AnWeber"
 publisher_type: "individual"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "AnWeber/httpyac"
   github_stars: 809

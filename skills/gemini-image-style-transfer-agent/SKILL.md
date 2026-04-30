@@ -3,10 +3,13 @@ title: "Gemini Image Style Transfer Agent"
 description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts."
 verification: "security_reviewed"
 source: "https://ai.google.dev/gemini-api/docs/image-generation"
+author: "Google"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Gemini Image Style Transfer Agent
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://ai.google.dev/gemini-api/docs/image-generation
 
 ## Source
 

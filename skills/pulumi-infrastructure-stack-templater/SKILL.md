@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/pulumi/pulumi"
 author: "pulumi"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 24984

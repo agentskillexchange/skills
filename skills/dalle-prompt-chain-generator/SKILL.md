@@ -4,9 +4,11 @@ description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Ima
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/solidtime-io/solidtime"
 author: "solidtime"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "solidtime-io/solidtime"
   github_stars: 8399

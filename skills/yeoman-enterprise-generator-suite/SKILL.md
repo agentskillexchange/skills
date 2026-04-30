@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/yeoman/yo"
 author: "Yeoman"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3956

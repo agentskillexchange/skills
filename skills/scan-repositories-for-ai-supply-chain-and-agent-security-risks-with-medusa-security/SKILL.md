@@ -6,9 +6,11 @@ source: "https://github.com/Pantheon-Security/medusa"
 author: "Pantheon Security"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Pantheon-Security/medusa"
   github_stars: 256

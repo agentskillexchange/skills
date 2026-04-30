@@ -6,9 +6,11 @@ source: "https://github.com/dalibo/pg_activity"
 author: "DALIBO"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dalibo/pg_activity"
   github_stars: 3010

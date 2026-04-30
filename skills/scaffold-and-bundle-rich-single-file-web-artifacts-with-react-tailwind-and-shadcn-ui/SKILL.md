@@ -1,19 +1,21 @@
 ---
 title: "Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui"
-description: "Use Anthropic’s web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable HTML file. It is for artifact-delivery workflows, not for listing React or Tailwind as standalone products."
+description: "Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable HTML file. It is for artifact-delivery workflows, not for listing React or Tailwind as standalone products."
 verification: "security_reviewed"
 source: "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder"
 author: "Anthropic"
 publisher_type: "Public repository"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui
 
-Use Anthropic’s web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable HTML file. It is for artifact-delivery workflows, not for listing React or Tailwind as standalone products.
+Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable HTML file. It is for artifact-delivery workflows, not for listing React or Tailwind as standalone products.
 
 ## Prerequisites
 

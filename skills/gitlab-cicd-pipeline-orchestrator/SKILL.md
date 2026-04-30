@@ -4,9 +4,11 @@ description: "Build and manage GitLab CI/CD pipelines using .gitlab-ci.yml and t
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298

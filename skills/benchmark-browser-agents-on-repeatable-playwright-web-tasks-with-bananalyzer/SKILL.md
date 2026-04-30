@@ -6,9 +6,11 @@ source: "https://github.com/reworkd/bananalyzer"
 author: "Reworkd"
 publisher_type: "organization"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "reworkd/bananalyzer"
   github_stars: 327

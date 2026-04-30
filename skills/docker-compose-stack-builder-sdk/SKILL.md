@@ -4,9 +4,11 @@ description: "Builds multi-service Docker Compose stacks using Docker Engine SDK
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

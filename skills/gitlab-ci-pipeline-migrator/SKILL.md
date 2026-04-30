@@ -4,9 +4,11 @@ description: "Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions work
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298

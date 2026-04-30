@@ -6,9 +6,11 @@ source: "https://github.com/silverstein/minutes"
 author: "Mat Silverstein"
 publisher_type: "individual"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "silverstein/minutes"
   github_stars: 1051

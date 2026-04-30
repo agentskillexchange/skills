@@ -4,9 +4,11 @@ description: "A blazing-fast, cross-platform package manager and workflow tool w
 verification: "security_reviewed"
 source: "https://github.com/prefix-dev/pixi"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prefix-dev/pixi"
   github_stars: 6724

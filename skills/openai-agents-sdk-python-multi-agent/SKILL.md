@@ -4,9 +4,11 @@ description: "The OpenAI Agents SDK is a lightweight Python framework for buildi
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-agents-python"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openai/openai-agents-python"
   github_stars: 20576

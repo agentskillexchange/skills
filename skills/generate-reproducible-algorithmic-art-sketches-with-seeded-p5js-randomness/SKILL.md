@@ -6,9 +6,11 @@ source: "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
 author: "Anthropic"
 publisher_type: "official_repository"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Generate reproducible algorithmic art sketches with seeded p5.js randomness

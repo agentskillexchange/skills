@@ -6,9 +6,11 @@ source: "https://github.com/dimitri/pgloader"
 author: "Dimitri Fontaine"
 publisher_type: "individual"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dimitri/pgloader"
   github_stars: 6393

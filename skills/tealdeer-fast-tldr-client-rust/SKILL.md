@@ -4,9 +4,11 @@ description: "Tealdeer is a very fast Rust implementation of the tldr project â€
 verification: "security_reviewed"
 source: "https://github.com/tealdeer-rs/tealdeer"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tealdeer-rs/tealdeer"
   github_stars: 6115

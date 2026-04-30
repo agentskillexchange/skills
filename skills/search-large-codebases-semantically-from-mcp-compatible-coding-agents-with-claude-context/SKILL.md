@@ -3,10 +3,14 @@ title: "Search large codebases semantically from MCP-compatible coding agents wi
 description: "Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of repeatedly loading folders or files into prompt context. It indexes code into a vector database and exposes code-search retrieval through MCP for Claude Code and other compatible agent clients."
 verification: "security_reviewed"
 source: "https://github.com/zilliztech/claude-context"
+author: "Zilliz"
+publisher_type: "Organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zilliztech/claude-context"
   github_stars: 9226
@@ -18,6 +22,10 @@ tool_ecosystem:
 
 Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of repeatedly loading folders or files into prompt context. It indexes code into a vector database and exposes code-search retrieval through MCP for Claude Code and other compatible agent clients.
 
+## Prerequisites
+
+MCP-compatible coding agent; Node.js 20-23; OpenAI API key; Milvus or Zilliz Cloud vector database
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -27,6 +35,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Configure the MCP server in your client using the upstream package, for example `claude mcp add claude-context -- npx @zilliz/claude-context-mcp@latest`, then provide the required OpenAI and Milvus/Zilliz credentials.
+```
+
+## Documentation
+
+- https://github.com/zilliztech/claude-context/tree/master/docs
 
 ## Source
 

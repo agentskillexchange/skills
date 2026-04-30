@@ -4,9 +4,11 @@ description: "Use Firecrawl to search, scrape, crawl, and interact with the web 
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 108813

@@ -6,9 +6,11 @@ source: "https://github.com/stryker-mutator/stryker-js"
 author: "Stryker Mutator"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stryker-mutator/stryker-js"
   github_stars: 2828

@@ -4,9 +4,11 @@ description: "Automated K8s pod troubleshooting using kubectl, crictl, and the K
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

@@ -6,9 +6,11 @@ source: "https://github.com/commitizen-tools/commitizen"
 author: "commitizen-tools"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "commitizen-tools/commitizen"
   github_stars: 3382

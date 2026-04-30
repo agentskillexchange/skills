@@ -4,9 +4,11 @@ description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and pa
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

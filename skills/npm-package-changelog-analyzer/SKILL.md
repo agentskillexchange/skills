@@ -4,9 +4,11 @@ description: "Analyzes NPM package changelogs and release notes using the NPM Re
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # NPM Package Changelog Analyzer

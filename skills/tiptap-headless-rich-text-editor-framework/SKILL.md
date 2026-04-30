@@ -4,9 +4,11 @@ description: "Tiptap is a headless, framework-agnostic rich text editor built on
 verification: "security_reviewed"
 source: "https://github.com/ueberdosis/tiptap"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ueberdosis/tiptap"
   github_stars: 35948

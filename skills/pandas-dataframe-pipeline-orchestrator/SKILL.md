@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/pandas-dev/pandas"
 author: "pandas-dev"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pandas-dev/pandas"
   github_stars: 48498

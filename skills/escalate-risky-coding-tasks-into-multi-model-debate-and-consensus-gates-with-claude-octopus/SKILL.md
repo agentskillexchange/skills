@@ -6,9 +6,11 @@ source: "https://github.com/nyldn/claude-octopus"
 author: "nyldn"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nyldn/claude-octopus"
   github_stars: 2806

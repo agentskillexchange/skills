@@ -4,9 +4,11 @@ description: "vdirsyncer is a command-line tool for synchronizing calendars and 
 verification: "security_reviewed"
 source: "https://github.com/pimutils/vdirsyncer"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pimutils/vdirsyncer"
   github_stars: 1804

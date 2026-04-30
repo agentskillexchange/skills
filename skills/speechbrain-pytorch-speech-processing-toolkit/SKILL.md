@@ -4,9 +4,11 @@ description: "SpeechBrain is an open-source PyTorch toolkit that accelerates con
 verification: "security_reviewed"
 source: "https://github.com/speechbrain/speechbrain"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "speechbrain/speechbrain"
   github_stars: 11388

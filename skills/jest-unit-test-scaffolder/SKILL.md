@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/jestjs/jest"
 author: "Jest"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jestjs/jest"
   github_stars: 45332

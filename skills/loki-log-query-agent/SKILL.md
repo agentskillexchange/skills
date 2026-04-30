@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 author: "Grafana Labs"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/loki"
   github_stars: 27962

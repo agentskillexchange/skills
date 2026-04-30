@@ -4,9 +4,11 @@ description: "Strapi is the leading open-source headless CMS built with Node.js 
 verification: "security_reviewed"
 source: "https://github.com/strapi/strapi"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71740

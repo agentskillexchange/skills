@@ -3,10 +3,14 @@ title: "Validate lint bundle and unit-test JSON Schema repositories before relea
 description: "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream."
 verification: "listed"
 source: "https://github.com/sourcemeta/jsonschema"
+author: "Sourcemeta"
+publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sourcemeta/jsonschema"
   github_stars: 270
@@ -18,6 +22,10 @@ tool_ecosystem:
 
 Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream.
 
+## Prerequisites
+
+JSON Schema CLI, local schema repository, and optional CI environment or package manager install path
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -27,6 +35,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the CLI from the upstream package or binary instructions, run commands such as validate, lint, test, fmt, and bundle against the target schema repository, and wire the same checks into CI if needed.
+```
+
+## Documentation
+
+- https://github.com/sourcemeta/jsonschema
 
 ## Source
 

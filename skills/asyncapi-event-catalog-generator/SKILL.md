@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.asyncapi.com/"
 author: "AsyncAPI Initiative"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # AsyncAPI Event Catalog Generator

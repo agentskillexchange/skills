@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/amplication/amplication"
 author: "amplication"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "amplication/amplication"
   github_stars: 15988

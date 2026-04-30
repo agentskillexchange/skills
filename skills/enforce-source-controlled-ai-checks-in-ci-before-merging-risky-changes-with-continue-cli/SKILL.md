@@ -6,9 +6,11 @@ source: "https://github.com/continuedev/continue"
 author: "Continue Dev"
 publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "continuedev/continue"
   github_stars: 32622

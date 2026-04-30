@@ -4,9 +4,11 @@ description: "Profiles GitLab CI/CD pipeline execution times using the GitLab RE
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298

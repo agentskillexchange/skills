@@ -4,9 +4,11 @@ description: "Audits CircleCI orb dependencies using the CircleCI v2 API and orb
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

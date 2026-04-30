@@ -6,9 +6,11 @@ source: "https://github.com/GoPlusSecurity/agentguard"
 author: "GoPlusSecurity"
 publisher_type: "open_source_project"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "GoPlusSecurity/agentguard"
   github_stars: 390

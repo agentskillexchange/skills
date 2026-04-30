@@ -4,9 +4,11 @@ description: "Lints and validates Argo Workflows templates using the argo CLI an
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-workflows"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"
   github_stars: 16616

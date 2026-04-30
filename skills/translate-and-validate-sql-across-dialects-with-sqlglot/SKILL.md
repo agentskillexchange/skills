@@ -6,9 +6,11 @@ source: "https://github.com/tobymao/sqlglot"
 author: "tobymao"
 publisher_type: "individual"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tobymao/sqlglot"
   github_stars: 9133

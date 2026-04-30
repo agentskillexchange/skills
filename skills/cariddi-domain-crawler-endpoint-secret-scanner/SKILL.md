@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/edoardottt/cariddi"
 author: "Edoardo Ottavianelli"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "edoardottt/cariddi"
   github_stars: 3338

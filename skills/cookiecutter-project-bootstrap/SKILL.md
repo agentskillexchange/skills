@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/cookiecutter/cookiecutter"
 author: "cookiecutter"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cookiecutter/cookiecutter"
   github_stars: 24818

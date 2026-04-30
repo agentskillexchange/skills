@@ -4,9 +4,11 @@ description: "Automates pixel-level visual regression testing using Cypress with
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 author: "Stripe"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4392

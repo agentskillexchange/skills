@@ -4,9 +4,11 @@ description: "Generates and validates Kubernetes Helm charts using helm template
 verification: "security_reviewed"
 source: "https://github.com/helm/helm"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693

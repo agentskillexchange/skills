@@ -3,10 +3,13 @@ title: "Google Calendar Sync Agent"
 description: "Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and conflict resolution."
 verification: "security_reviewed"
 source: "https://developers.google.com/calendar/api"
+author: "Google"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Google Calendar Sync Agent
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developers.google.com/calendar/api
 
 ## Source
 

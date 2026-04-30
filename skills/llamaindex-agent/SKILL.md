@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/run-llama/llama_index"
 author: "run-llama"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
   github_stars: 48568

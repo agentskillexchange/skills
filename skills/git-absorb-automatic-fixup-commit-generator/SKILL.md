@@ -1,12 +1,14 @@
 ---
 title: "git-absorb Automatic Fixup Commit Generator"
-description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback."
+description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook's hg absorb that eliminates manual interactive rebasing for review feedback."
 verification: "security_reviewed"
 source: "https://github.com/tummychow/git-absorb"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tummychow/git-absorb"
   github_stars: 5455
@@ -14,7 +16,7 @@ tool_ecosystem:
 
 # git-absorb Automatic Fixup Commit Generator
 
-Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback.
+Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook's hg absorb that eliminates manual interactive rebasing for review feedback.
 
 ## Installation
 

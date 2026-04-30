@@ -4,9 +4,11 @@ description: "Fetches all Advanced Custom Fields field groups and their field de
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

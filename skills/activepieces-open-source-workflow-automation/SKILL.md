@@ -4,9 +4,11 @@ description: "Activepieces is an open-source, self-hostable workflow automation 
 verification: "security_reviewed"
 source: "https://github.com/activepieces/activepieces"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "activepieces/activepieces"
   github_stars: 21510

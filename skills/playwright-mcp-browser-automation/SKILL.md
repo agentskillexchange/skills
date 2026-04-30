@@ -6,12 +6,11 @@ source: "https://github.com/microsoft/playwright-mcp"
 author: "Microsoft"
 publisher_type: "company"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 31741

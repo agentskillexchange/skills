@@ -6,9 +6,11 @@ source: "https://github.com/doitintl/kube-no-trouble"
 author: "doitintl"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "doitintl/kube-no-trouble"
   github_stars: 3658

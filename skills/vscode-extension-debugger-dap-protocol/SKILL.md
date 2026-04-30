@@ -4,9 +4,11 @@ description: "Debugs VS Code extensions using the Debug Adapter Protocol (DAP) w
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vscode-extension-debugger-dap-protocol/"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # VS Code Extension Debugger

@@ -4,9 +4,11 @@ description: "Starlight is a documentation website framework built on Astro that
 verification: "security_reviewed"
 source: "https://github.com/withastro/starlight"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "withastro/starlight"
   github_stars: 8213

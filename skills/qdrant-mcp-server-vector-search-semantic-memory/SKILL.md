@@ -4,9 +4,11 @@ description: "An official Qdrant MCP server implementation that provides semanti
 verification: "security_reviewed"
 source: "https://github.com/qdrant/mcp-server-qdrant"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "qdrant/mcp-server-qdrant"
   github_stars: 1314

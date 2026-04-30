@@ -4,9 +4,11 @@ description: "Monitors ArgoCD application deployments using the ArgoCD REST API 
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

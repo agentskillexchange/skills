@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/zammad/zammad"
 author: "Zammad"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zammad/zammad"
   github_stars: 5513

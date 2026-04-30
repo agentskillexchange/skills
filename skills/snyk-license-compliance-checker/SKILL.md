@@ -4,9 +4,11 @@ description: "Uses the Snyk CLI and REST API to audit open-source dependencies f
 verification: "security_reviewed"
 source: "https://github.com/snyk/cli"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "snyk/cli"
   github_stars: 5496

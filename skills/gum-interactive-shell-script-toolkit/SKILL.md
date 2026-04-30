@@ -4,9 +4,11 @@ description: "Gum by Charmbracelet is a tool for building glamorous shell script
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/gum"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "charmbracelet/gum"
   github_stars: 23196

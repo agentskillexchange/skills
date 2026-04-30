@@ -6,9 +6,11 @@ source: "https://github.com/biomejs/gritql"
 author: "biomejs"
 publisher_type: "community"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "biomejs/gritql"
   github_stars: 4482

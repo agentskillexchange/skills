@@ -4,9 +4,11 @@ description: "DevDocs aggregates 500+ API documentation sets into a single searc
 verification: "security_reviewed"
 source: "https://github.com/freeCodeCamp/devdocs"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "freeCodeCamp/devdocs"
   github_stars: 38655

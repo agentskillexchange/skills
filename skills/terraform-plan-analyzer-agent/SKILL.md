@@ -4,9 +4,11 @@ description: "Analyzes Terraform plan output using the terraform show -json comm
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

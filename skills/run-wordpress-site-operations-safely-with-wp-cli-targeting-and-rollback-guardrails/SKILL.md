@@ -6,9 +6,11 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-an
 author: "WordPress"
 publisher_type: "Open Source Project"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Run WordPress site operations safely with WP-CLI targeting and rollback guardrails

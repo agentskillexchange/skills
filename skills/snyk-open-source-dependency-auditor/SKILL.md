@@ -4,9 +4,11 @@ description: "Performs deep dependency analysis using the Snyk CLI and REST API 
 verification: "security_reviewed"
 source: "https://github.com/snyk/cli"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "snyk/cli"
   github_stars: 5496

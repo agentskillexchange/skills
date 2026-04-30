@@ -6,9 +6,11 @@ source: "https://github.com/raintree-technology/hig-doctor"
 author: "raintree-technology"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "raintree-technology/hig-doctor"
   github_stars: 44

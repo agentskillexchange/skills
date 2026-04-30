@@ -4,9 +4,11 @@ description: "Jujutsu (jj) is a powerful Git-compatible version control system t
 verification: "security_reviewed"
 source: "https://github.com/jj-vcs/jj"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jj-vcs/jj"
   github_stars: 27472

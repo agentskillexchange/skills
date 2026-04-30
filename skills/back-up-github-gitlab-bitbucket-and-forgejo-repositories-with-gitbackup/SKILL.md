@@ -6,9 +6,11 @@ source: "https://github.com/amitsaha/gitbackup"
 author: "Amit Saha"
 publisher_type: "individual"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "amitsaha/gitbackup"
   github_stars: 218

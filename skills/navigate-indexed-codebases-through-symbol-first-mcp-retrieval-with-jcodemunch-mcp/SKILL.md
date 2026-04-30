@@ -6,9 +6,11 @@ source: "https://github.com/jgravelle/jcodemunch-mcp"
 author: "J. Gravelle"
 publisher_type: "individual"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jgravelle/jcodemunch-mcp"
   github_stars: 1626

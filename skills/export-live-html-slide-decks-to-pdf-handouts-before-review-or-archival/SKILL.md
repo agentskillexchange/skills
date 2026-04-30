@@ -6,9 +6,11 @@ source: "https://github.com/astefanutti/decktape"
 author: "astefanutti"
 publisher_type: "User"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "astefanutti/decktape"
   github_stars: 2361

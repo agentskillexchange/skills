@@ -6,9 +6,11 @@ source: "https://github.com/reg-viz/reg-suit"
 author: "reg-viz"
 publisher_type: "Open Source Project"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "reg-viz/reg-suit"
   github_stars: 1260

@@ -3,10 +3,13 @@ title: "Gmail Thread Summarizer and Action Extractor"
 description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
 verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get"
+author: "Google"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Gmail Thread Summarizer and Action Extractor
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get
 
 ## Source
 

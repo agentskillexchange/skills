@@ -6,9 +6,11 @@ source: "https://github.com/larksuite/cli"
 author: "LarkSuite"
 publisher_type: "organization"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "larksuite/cli"
   github_stars: 7942

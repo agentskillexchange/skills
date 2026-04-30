@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.assemblyai.com/docs"
 author: "AssemblyAI"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # AssemblyAI Real-Time Call Intelligence

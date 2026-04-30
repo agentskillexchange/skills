@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://crates.io/"
 author: "The Rust Project Developers"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Rust Crates.io Explorer

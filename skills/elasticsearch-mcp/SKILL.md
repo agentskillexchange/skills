@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 author: "elastic"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76518

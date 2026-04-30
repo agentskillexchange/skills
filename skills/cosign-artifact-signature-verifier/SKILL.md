@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/sigstore/cosign"
 author: "Sigstore"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5837

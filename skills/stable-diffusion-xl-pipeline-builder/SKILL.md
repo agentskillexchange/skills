@@ -4,9 +4,11 @@ description: "Constructs and executes SDXL image generation pipelines using diff
 verification: "security_reviewed"
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Stable Diffusion XL Pipeline Builder

@@ -3,10 +3,13 @@ title: "Zod Schema Generator"
 description: "Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion."
 verification: "security_reviewed"
 source: "https://github.com/colinhacks/zod"
+author: "Colin McDonnell"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "colinhacks/zod"
   github_stars: 42500
@@ -25,6 +28,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install zod
+```
+
+## Documentation
+
+- https://zod.dev/
 
 ## Source
 

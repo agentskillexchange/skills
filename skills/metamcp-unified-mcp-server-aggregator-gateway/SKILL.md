@@ -4,9 +4,11 @@ description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP s
 verification: "security_reviewed"
 source: "https://github.com/metatool-ai/metamcp"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "metatool-ai/metamcp"
   github_stars: 2175

@@ -4,9 +4,11 @@ description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accele
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 58972

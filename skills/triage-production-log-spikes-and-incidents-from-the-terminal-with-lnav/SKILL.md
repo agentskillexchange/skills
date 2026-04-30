@@ -6,9 +6,11 @@ source: "https://github.com/tstack/lnav"
 author: "tstack"
 publisher_type: "individual"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tstack/lnav"
   github_stars: 10159

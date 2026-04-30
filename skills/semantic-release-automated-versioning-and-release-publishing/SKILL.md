@@ -6,9 +6,11 @@ source: "https://github.com/semantic-release/semantic-release"
 author: "semantic-release"
 publisher_type: "Open Source Project"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "semantic-release/semantic-release"
   github_stars: 23549

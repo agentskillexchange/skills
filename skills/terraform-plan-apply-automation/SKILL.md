@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 author: "HashiCorp"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48121

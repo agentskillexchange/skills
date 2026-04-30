@@ -4,9 +4,11 @@ description: "Docker MCP Server is built around Docker container platform. The u
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71513

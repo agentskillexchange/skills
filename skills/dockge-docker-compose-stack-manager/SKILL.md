@@ -4,9 +4,11 @@ description: "Dockge is a self-hosted Docker Compose stack manager with a reacti
 verification: "security_reviewed"
 source: "https://github.com/louislam/dockge"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "louislam/dockge"
   github_stars: 22685

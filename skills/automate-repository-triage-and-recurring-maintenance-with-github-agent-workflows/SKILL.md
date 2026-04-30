@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/github/gh-aw"
 author: "GitHub"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "github/gh-aw"
   github_stars: 4286

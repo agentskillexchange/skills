@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://uptimerobot.com/api/"
 author: "UptimeRobot"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Uptime Robot Status Page Webhook Alerter

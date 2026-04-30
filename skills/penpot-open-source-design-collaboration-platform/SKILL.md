@@ -6,9 +6,11 @@ source: "https://github.com/penpot/penpot"
 author: "Penpot"
 publisher_type: "Open Source Project"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "penpot/penpot"
   github_stars: 45294

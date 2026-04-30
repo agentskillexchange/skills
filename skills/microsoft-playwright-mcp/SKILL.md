@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 author: "microsoft"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30794

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://docs.github.com/en/actions"
 author: "GitHub"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # GitHub Actions OIDC Token Verifier

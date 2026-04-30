@@ -6,9 +6,11 @@ source: "https://github.com/digitalknk/openclaw-runbook"
 author: "digitalknk"
 publisher_type: "community"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "digitalknk/openclaw-runbook"
   github_stars: 1061

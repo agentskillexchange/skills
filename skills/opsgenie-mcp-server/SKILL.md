@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
 author: "opsgenie"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "opsgenie/opsgenie-nodejs-sdk"
   github_stars: 24

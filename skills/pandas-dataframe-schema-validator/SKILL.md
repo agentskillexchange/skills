@@ -4,9 +4,11 @@ description: "Validates Pandas DataFrame structures using the pandera library AP
 verification: "security_reviewed"
 source: "https://github.com/pandas-dev/pandas"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pandas-dev/pandas"
   github_stars: 48498

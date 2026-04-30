@@ -4,9 +4,11 @@ description: "Generates pixel-perfect PDFs from web pages using Puppeteer with c
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115

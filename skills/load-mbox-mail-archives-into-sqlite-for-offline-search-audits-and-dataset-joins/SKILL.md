@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/simonw/mbox-to-sqlite"
 author: "Simon Willison"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "simonw/mbox-to-sqlite"
   github_stars: 39

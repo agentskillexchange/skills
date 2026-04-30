@@ -4,9 +4,11 @@ description: "Validate Kubernetes resource configurations against best practice 
 verification: "security_reviewed"
 source: "https://github.com/FairwindsOps/polaris"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "FairwindsOps/polaris"
   github_stars: 3355

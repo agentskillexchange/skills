@@ -6,9 +6,11 @@ source: "https://github.com/actionbook/actionbook"
 author: "Actionbook"
 publisher_type: "organization"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "actionbook/actionbook"
   github_stars: 1497

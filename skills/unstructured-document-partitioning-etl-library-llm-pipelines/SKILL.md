@@ -6,9 +6,11 @@ source: "https://github.com/Unstructured-IO/unstructured"
 author: "Unstructured"
 publisher_type: "Company"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "unstructured-io/unstructured"
   github_stars: 14390

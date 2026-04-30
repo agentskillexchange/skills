@@ -1,18 +1,20 @@
 ---
 title: "Schema.org Structured Data Injector"
-description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
+description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google's Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
 verification: "security_reviewed"
 source: "https://schema.org/"
 author: "Schema.org"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Schema.org Structured Data Injector
 
-Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.
+Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google's Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.
 
 ## Installation
 
@@ -23,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://schema.org/
 
 ## Source
 

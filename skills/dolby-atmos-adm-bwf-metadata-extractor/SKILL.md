@@ -4,9 +4,11 @@ description: "Extracts and validates Audio Definition Model (ADM) metadata from 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Dolby Atmos ADM-BWF Metadata Extractor

@@ -3,10 +3,13 @@ title: "Cloudinary Media Transform Skill"
 description: "Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations, generates responsive breakpoints, and optimizes delivery with f_auto and q_auto parameters."
 verification: "security_reviewed"
 source: "https://cloudinary.com/documentation"
+author: "Cloudinary"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Cloudinary Media Transform Skill
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://cloudinary.com/documentation
 
 ## Source
 

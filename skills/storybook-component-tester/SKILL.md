@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/storybookjs/storybook"
 author: "storybookjs"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "storybookjs/storybook"
   github_stars: 89703

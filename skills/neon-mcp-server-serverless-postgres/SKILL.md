@@ -4,9 +4,11 @@ description: "The Neon MCP Server enables AI agents to manage serverless Postgre
 verification: "security_reviewed"
 source: "https://github.com/neondatabase/mcp-server-neon"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "neondatabase/mcp-server-neon"
   github_stars: 567

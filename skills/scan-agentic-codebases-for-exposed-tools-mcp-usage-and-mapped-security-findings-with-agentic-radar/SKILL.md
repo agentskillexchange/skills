@@ -6,9 +6,11 @@ source: "https://github.com/splx-ai/agentic-radar"
 author: "SPLX AI"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "splx-ai/agentic-radar"
   github_stars: 953

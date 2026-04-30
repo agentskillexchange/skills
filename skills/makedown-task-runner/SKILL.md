@@ -3,10 +3,13 @@ title: "Makedown Task Runner"
 description: "Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks."
 verification: "security_reviewed"
 source: "https://github.com/tzador/makedown"
+author: "tzador"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tzador/makedown"
   github_stars: 319
@@ -25,6 +28,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://github.com/tzador/makedown#readme
 
 ## Source
 

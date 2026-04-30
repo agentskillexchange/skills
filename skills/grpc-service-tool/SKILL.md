@@ -4,9 +4,11 @@ description: "gRPC Service Tool is built around gRPC remote procedure call frame
 verification: "security_reviewed"
 source: "https://github.com/grpc/grpc-node"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grpc/grpc-node"
   github_stars: 4822

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 author: "Microsoft"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86911

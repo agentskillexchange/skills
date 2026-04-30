@@ -4,9 +4,11 @@ description: "Context7 by Upstash injects up-to-date, version-specific library d
 verification: "security_reviewed"
 source: "https://github.com/upstash/context7"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "upstash/context7"
   github_stars: 51326

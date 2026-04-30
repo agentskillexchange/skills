@@ -3,10 +3,13 @@ title: "Schema Markup Generator for SEO"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
 verification: "security_reviewed"
 source: "https://schema.org/"
+author: "Schema.org"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # Schema Markup Generator for SEO
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://schema.org/
 
 ## Source
 

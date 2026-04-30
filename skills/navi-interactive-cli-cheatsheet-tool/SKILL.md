@@ -4,9 +4,11 @@ description: "An interactive cheatsheet tool for the command line that lets you 
 verification: "security_reviewed"
 source: "https://github.com/denisidoro/navi"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "denisidoro/navi"
   github_stars: 16941

@@ -1,14 +1,16 @@
 ---
 title: "PeerTube Video Publishing and Moderation API"
-description: "Uses PeerTube’s REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators or communities running their own open video infrastructure."
+description: "Uses PeerTube's REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators or communities running their own open video infrastructure."
 verification: "security_reviewed"
 source: "https://github.com/Chocobozzz/PeerTube"
 author: "Framasoft"
 publisher_type: "Community"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "chocobozzz/peertube"
   github_stars: 14638
@@ -16,7 +18,7 @@ tool_ecosystem:
 
 # PeerTube Video Publishing and Moderation API
 
-Uses PeerTube’s REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators or communities running their own open video infrastructure.
+Uses PeerTube's REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators or communities running their own open video infrastructure.
 
 ## Prerequisites
 

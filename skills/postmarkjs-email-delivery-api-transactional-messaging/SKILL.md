@@ -6,9 +6,11 @@ source: "https://github.com/ActiveCampaign/postmark.js"
 author: "Postmark"
 publisher_type: "Company"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ActiveCampaign/postmark.js"
   github_stars: 357

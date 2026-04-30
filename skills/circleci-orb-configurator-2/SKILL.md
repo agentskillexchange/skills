@@ -4,9 +4,11 @@ description: "Builds and validates CircleCI orb configurations using the CircleC
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

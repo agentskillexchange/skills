@@ -6,9 +6,11 @@ source: "https://github.com/louislam/uptime-kuma"
 author: "louislam"
 publisher_type: "Open Source Project"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "louislam/uptime-kuma"
   github_stars: 85143

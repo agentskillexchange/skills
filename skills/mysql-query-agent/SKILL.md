@@ -4,9 +4,11 @@ description: "MySQL Query Agent is built around MySQL relational database. The u
 verification: "security_reviewed"
 source: "https://github.com/sidorares/node-mysql2"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sidorares/node-mysql2"
   github_stars: 4355

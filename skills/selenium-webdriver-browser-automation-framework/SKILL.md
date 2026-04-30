@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 author: "SeleniumHQ"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SeleniumHQ/selenium"
   github_stars: 34075

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/cloudflare/workers-sdk"
 author: "cloudflare"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cloudflare/workers-sdk"
   github_stars: 3970

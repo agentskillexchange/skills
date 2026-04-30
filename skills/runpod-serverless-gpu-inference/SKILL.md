@@ -4,9 +4,11 @@ description: "Deploy and manage GPU inference endpoints on RunPod Serverless usi
 verification: "security_reviewed"
 source: "https://docs.runpod.io/serverless/overview"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # RunPod Serverless GPU Inference

@@ -6,9 +6,11 @@ source: "https://github.com/LeapBeyond/scrubadub"
 author: "LeapBeyond"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "LeapBeyond/scrubadub"
   github_stars: 421

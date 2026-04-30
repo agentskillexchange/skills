@@ -6,9 +6,11 @@ source: "https://github.com/googleapis/mcp-toolbox"
 author: "Google Cloud"
 publisher_type: "organization"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "googleapis/mcp-toolbox"
   github_stars: 14664

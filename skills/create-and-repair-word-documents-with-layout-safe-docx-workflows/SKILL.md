@@ -6,9 +6,11 @@ source: "https://github.com/anthropics/skills/tree/main/skills/docx"
 author: "Anthropic"
 publisher_type: "official_repository"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Create and repair Word documents with layout-safe DOCX workflows

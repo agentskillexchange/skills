@@ -4,9 +4,11 @@ description: "Monitors container runtime behavior using Falco rules and the Dock
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/container-runtime-security-monitor/"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Container Runtime Security Monitor

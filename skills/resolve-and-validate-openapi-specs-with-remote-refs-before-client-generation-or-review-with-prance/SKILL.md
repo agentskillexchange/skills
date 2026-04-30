@@ -6,9 +6,11 @@ source: "https://github.com/RonnyPfannschmidt/prance"
 author: "Ronny Pfannschmidt"
 publisher_type: "individual"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "RonnyPfannschmidt/prance"
   github_stars: 261

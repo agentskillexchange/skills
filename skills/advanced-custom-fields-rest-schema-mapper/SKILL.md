@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/"
 author: "WP Engine"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Advanced Custom Fields REST Schema Mapper

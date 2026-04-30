@@ -4,9 +4,11 @@ description: "Like cURL but for gRPC servers. A command-line tool for interactin
 verification: "security_reviewed"
 source: "https://github.com/fullstorydev/grpcurl"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "fullstorydev/grpcurl"
   github_stars: 12548

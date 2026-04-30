@@ -6,9 +6,11 @@ source: "https://github.com/nextest-rs/nextest"
 author: "nextest-rs"
 publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nextest-rs/nextest"
   github_stars: 2911

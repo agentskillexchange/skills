@@ -4,9 +4,11 @@ description: "An agent skill built on Decap CMS (formerly Netlify CMS), the open
 verification: "security_reviewed"
 source: "https://github.com/decaporg/decap-cms"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "decaporg/decap-cms"
   github_stars: 18998

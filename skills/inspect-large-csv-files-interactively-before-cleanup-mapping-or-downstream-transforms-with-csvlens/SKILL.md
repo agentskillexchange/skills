@@ -6,9 +6,11 @@ source: "https://github.com/YS-L/csvlens"
 author: "YS-L"
 publisher_type: "individual"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "YS-L/csvlens"
   github_stars: 3715

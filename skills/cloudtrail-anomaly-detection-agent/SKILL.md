@@ -4,9 +4,11 @@ description: "Analyzes AWS CloudTrail event logs via the Lookup Events API to de
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agent/"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # CloudTrail Anomaly Detection Agent

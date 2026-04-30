@@ -6,9 +6,11 @@ source: "https://github.com/jazzyalex/agent-sessions"
 author: "jazzyalex"
 publisher_type: "open_source"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jazzyalex/agent-sessions"
   github_stars: 478
@@ -35,7 +37,8 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-brew tap jazzyalex/agent-sessions && brew install --cask agent-sessions # or download the DMG from GitHub Releases
+brew tap jazzyalex/agent-sessions && brew install --cask agent-sessions
+# or download the DMG from GitHub Releases
 ```
 
 ## Documentation

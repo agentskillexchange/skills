@@ -4,11 +4,11 @@ description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. 
 verification: "security_reviewed"
 source: "https://github.com/sqlfluff/sqlfluff"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
-  - "Codex"
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sqlfluff/sqlfluff"
   github_stars: 9635

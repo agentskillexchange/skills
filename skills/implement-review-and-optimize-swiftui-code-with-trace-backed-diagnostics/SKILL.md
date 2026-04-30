@@ -6,9 +6,11 @@ source: "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-
 author: "Antoine van der Lee"
 publisher_type: "individual"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Implement, review, and optimize SwiftUI code with trace-backed diagnostics

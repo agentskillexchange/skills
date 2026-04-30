@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://opentelemetry.io/"
 author: "OpenTelemetry"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenTelemetry Trace Aggregator

@@ -4,9 +4,11 @@ description: "Calculates CI/CD spend using the GitLab REST API v4 pipelines and 
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298

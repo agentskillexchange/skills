@@ -6,10 +6,11 @@ source: "https://github.com/steipete/claude-code-mcp"
 author: "Peter Steinberger (@steipete)"
 publisher_type: "individual"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1263

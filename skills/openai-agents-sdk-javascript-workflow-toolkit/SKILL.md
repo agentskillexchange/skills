@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/openai/openai-agents-js"
 author: "openai"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openai/openai-agents-js"
   github_stars: 2635

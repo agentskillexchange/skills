@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 author: "hashicorp"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48282

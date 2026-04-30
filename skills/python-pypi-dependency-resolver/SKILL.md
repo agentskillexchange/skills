@@ -3,10 +3,13 @@ title: "Python PyPI Dependency Resolver"
 description: "Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked requirements files and checks compatibility across Python version markers via packaging library."
 verification: "security_reviewed"
 source: "https://docs.pypi.org/"
+author: "PyPI"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # Python PyPI Dependency Resolver
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.pypi.org/
 
 ## Source
 

@@ -4,9 +4,11 @@ description: "Monitors ArgoCD applications for configuration drift using the Arg
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

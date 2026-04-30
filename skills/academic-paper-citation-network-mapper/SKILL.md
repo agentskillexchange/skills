@@ -4,9 +4,11 @@ description: "Builds citation networks from Semantic Scholar API and CrossRef DO
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Academic Paper Citation Network Mapper

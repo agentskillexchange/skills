@@ -4,9 +4,11 @@ description: "CrewAI is a lean, lightning-fast Python framework for orchestratin
 verification: "security_reviewed"
 source: "https://github.com/crewAIInc/crewAI"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "crewaiinc/crewai"
   github_stars: 47658

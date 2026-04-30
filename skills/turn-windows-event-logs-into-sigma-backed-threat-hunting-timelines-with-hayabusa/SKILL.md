@@ -6,9 +6,11 @@ source: "https://github.com/Yamato-Security/hayabusa"
 author: "Yamato Security"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Yamato-Security/hayabusa"
   github_stars: 3116

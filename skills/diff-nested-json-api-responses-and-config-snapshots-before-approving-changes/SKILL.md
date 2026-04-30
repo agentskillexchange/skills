@@ -6,9 +6,11 @@ source: "https://github.com/qlustered/deepdiff"
 author: "Qluster"
 publisher_type: "Organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "qlustered/deepdiff"
   github_stars: 2495

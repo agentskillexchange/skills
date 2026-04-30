@@ -4,9 +4,11 @@ description: "broot is a Rust-based terminal tool that provides a new way to see
 verification: "security_reviewed"
 source: "https://github.com/Canop/broot"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Canop/broot"
   github_stars: 12549

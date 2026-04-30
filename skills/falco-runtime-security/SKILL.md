@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/falcosecurity/falco"
 author: "Falco"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "falcosecurity/falco"
   github_stars: 8847

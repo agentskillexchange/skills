@@ -4,9 +4,11 @@ description: "Manages ArgoCD application sync waves and hooks using the ArgoCD A
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

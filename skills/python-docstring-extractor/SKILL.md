@@ -4,9 +4,11 @@ description: "Extracts and indexes Python module documentation using ast.parse a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-docstring-extractor/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Python Docstring Extractor

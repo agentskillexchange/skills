@@ -6,9 +6,11 @@ source: "https://github.com/yfe404/web-scraper"
 author: "yfe404"
 publisher_type: "individual"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "yfe404/web-scraper"
   github_stars: 38

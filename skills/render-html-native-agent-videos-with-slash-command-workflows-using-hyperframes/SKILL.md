@@ -6,9 +6,11 @@ source: "https://github.com/heygen-com/hyperframes"
 author: "HeyGen"
 publisher_type: "organization"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "heygen-com/hyperframes"
   github_stars: 9510

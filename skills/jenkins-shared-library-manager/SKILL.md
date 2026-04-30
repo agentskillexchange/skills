@@ -4,9 +4,11 @@ description: "Manages Jenkins Shared Libraries with proper vars/ and src/ struct
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

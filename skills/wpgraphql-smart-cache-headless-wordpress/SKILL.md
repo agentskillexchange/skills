@@ -6,9 +6,11 @@ source: "https://github.com/wp-graphql/wp-graphql-smart-cache"
 author: "Jason Bahl"
 publisher_type: "Open Source Project"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql-smart-cache"
   github_stars: 80

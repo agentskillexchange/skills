@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://linear.app/docs"
 author: "Linear"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Linear Sprint Planner

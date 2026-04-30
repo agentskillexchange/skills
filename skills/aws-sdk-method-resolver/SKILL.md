@@ -4,9 +4,11 @@ description: "Resolves AWS SDK v3 client commands and service endpoint signature
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607

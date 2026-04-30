@@ -5,9 +5,11 @@ verification: "listed"
 source: "https://github.com/shadcn-ui/ui"
 author: "shadcn"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"
   github_stars: 112069

@@ -4,9 +4,11 @@ description: "OpenMetadata provides a central metadata layer for data discovery,
 verification: "security_reviewed"
 source: "https://github.com/open-metadata/OpenMetadata"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "open-metadata/OpenMetadata"
   github_stars: 10041

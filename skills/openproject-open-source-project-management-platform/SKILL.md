@@ -6,9 +6,11 @@ source: "https://github.com/opf/openproject"
 author: "OpenProject Foundation"
 publisher_type: "Open Source Project"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "opf/openproject"
   github_stars: 14810

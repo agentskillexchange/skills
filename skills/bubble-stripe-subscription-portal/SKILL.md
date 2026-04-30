@@ -1,18 +1,20 @@
 ---
 title: "Bubble.io Stripe Subscription Portal Builder"
-description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
+description: "Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
 verification: "security_reviewed"
 source: "https://manual.bubble.io/"
 author: "Bubble"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Bubble.io Stripe Subscription Portal Builder
 
-Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
+Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
 
 ## Installation
 

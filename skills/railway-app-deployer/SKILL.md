@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/railwayapp/cli"
 author: "Railway"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "railwayapp/cli"
   github_stars: 523

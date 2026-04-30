@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/airbnb/lottie-web"
 author: "airbnb"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "airbnb/lottie-web"
   github_stars: 31794

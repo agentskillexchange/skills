@@ -4,9 +4,11 @@ description: "Wraps OWASP ZAP API for automated web application security testing
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991

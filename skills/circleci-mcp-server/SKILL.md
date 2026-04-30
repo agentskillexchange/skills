@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 author: "circleci"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 841

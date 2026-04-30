@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/SYSTRAN/faster-whisper"
 author: "SYSTRAN"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SYSTRAN/faster-whisper"
   github_stars: 22156

@@ -6,9 +6,11 @@ source: "https://github.com/qpdf/qpdf"
 author: "qpdf"
 publisher_type: "organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "qpdf/qpdf"
   github_stars: 1479

@@ -6,9 +6,11 @@ source: "https://github.com/Piebald-AI/claude-code-system-prompts"
 author: "Piebald AI"
 publisher_type: "company"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Piebald-AI/claude-code-system-prompts"
   github_stars: 8974

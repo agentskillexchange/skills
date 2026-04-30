@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/apache/avro"
 author: "Apache Software Foundation"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "apache/avro"
   github_stars: 3265

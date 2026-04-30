@@ -4,9 +4,11 @@ description: "Pedalboard is a Python library built by Spotify for working with a
 verification: "security_reviewed"
 source: "https://github.com/spotify/pedalboard"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "spotify/pedalboard"
   github_stars: 6041

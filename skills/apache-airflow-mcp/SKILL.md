@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/apache/airflow"
 author: "apache"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "apache/airflow"
   github_stars: 45040

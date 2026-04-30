@@ -4,9 +4,11 @@ description: "The official Notion MCP Server enables AI agents to interact with 
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-mcp-server"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "makenotion/notion-mcp-server"
   github_stars: 4141

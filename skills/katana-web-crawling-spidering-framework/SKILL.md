@@ -4,9 +4,11 @@ description: "Katana by ProjectDiscovery is a fast, configurable web crawling an
 verification: "security_reviewed"
 source: "https://github.com/projectdiscovery/katana"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "projectdiscovery/katana"
   github_stars: 16388

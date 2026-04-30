@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://swagger.io/docs/"
 author: "SmartBear"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # API Documentation Indexer

@@ -6,9 +6,11 @@ source: "https://github.com/cisco-ai-defense/skill-scanner"
 author: "Cisco AI Defense"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cisco-ai-defense/skill-scanner"
   github_stars: 1767

@@ -6,9 +6,11 @@ source: "https://github.com/confident-ai/deepteam"
 author: "Confident AI"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "confident-ai/deepteam"
   github_stars: 1566

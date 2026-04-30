@@ -1,12 +1,14 @@
 ---
 title: "whisper.cpp High-Performance C/C++ Speech Recognition Engine"
-description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations."
+description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations."
 verification: "security_reviewed"
 source: "https://github.com/ggml-org/whisper.cpp"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ggml-org/whisper.cpp"
   github_stars: 48315
@@ -14,7 +16,7 @@ tool_ecosystem:
 
 # whisper.cpp High-Performance C/C++ Speech Recognition Engine
 
-whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations.
+whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations.
 
 ## Installation
 

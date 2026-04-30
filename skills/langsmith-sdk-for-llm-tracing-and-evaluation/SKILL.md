@@ -4,9 +4,11 @@ description: "LangSmith provides tracing, evaluation, and debugging workflows fo
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langsmith-sdk"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "langchain-ai/langsmith-sdk"
   github_stars: 843

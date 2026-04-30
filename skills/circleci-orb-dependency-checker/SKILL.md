@@ -4,9 +4,11 @@ description: "Scans CircleCI config.yml for orb version conflicts and breaking c
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

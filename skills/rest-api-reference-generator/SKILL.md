@@ -3,10 +3,13 @@ title: "REST API Reference Generator"
 description: "Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI."
 verification: "security_reviewed"
 source: "https://swagger.io/docs/"
+author: "SmartBear"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # REST API Reference Generator
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://swagger.io/docs/
 
 ## Source
 

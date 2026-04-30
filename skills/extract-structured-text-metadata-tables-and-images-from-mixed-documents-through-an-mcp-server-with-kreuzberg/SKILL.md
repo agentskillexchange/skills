@@ -6,9 +6,11 @@ source: "https://github.com/kreuzberg-dev/kreuzberg"
 author: "kreuzberg-dev"
 publisher_type: "organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "kreuzberg-dev/kreuzberg"
   github_stars: 7630

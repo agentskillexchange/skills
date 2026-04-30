@@ -4,9 +4,11 @@ description: "Decap CMS is a Git-based content management system for static site
 verification: "security_reviewed"
 source: "https://github.com/decaporg/decap-cms"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "decaporg/decap-cms"
   github_stars: 18995

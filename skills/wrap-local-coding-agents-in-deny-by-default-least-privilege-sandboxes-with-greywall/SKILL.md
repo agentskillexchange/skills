@@ -6,9 +6,11 @@ source: "https://github.com/GreyhavenHQ/greywall"
 author: "GreyhavenHQ"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "GreyhavenHQ/greywall"
   github_stars: 158

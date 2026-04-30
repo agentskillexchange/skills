@@ -6,9 +6,11 @@ source: "https://github.com/maxritter/pilot-shell"
 author: "Max Ritter"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "maxritter/pilot-shell"
   github_stars: 1645

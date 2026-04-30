@@ -6,9 +6,11 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-performa
 author: "WordPress Contributors"
 publisher_type: "Open Source Project"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Investigate backend-only WordPress performance bottlenecks

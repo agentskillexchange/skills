@@ -6,9 +6,11 @@ source: "https://github.com/terraform-linters/tflint"
 author: "terraform-linters"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "terraform-linters/tflint"
   github_stars: 5677

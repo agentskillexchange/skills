@@ -6,9 +6,11 @@ source: "https://github.com/getzep/graphiti"
 author: "Zep"
 publisher_type: "company"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "getzep/graphiti"
   github_stars: 24898

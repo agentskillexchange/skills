@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 author: "ESLint"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27186

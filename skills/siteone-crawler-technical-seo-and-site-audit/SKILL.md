@@ -4,9 +4,11 @@ description: "SiteOne Crawler is a real website crawler and analyzer for technic
 verification: "security_reviewed"
 source: "https://github.com/janreges/siteone-crawler"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "janreges/siteone-crawler"
   github_stars: 708

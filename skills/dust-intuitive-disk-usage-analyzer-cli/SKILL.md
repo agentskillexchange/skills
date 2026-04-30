@@ -4,9 +4,11 @@ description: "A more intuitive version of the du command, written in Rust. dust 
 verification: "security_reviewed"
 source: "https://github.com/bootandy/dust"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bootandy/dust"
   github_stars: 11500

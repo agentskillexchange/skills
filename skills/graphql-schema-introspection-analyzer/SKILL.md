@@ -4,9 +4,11 @@ description: "Introspects GraphQL APIs via the standard __schema query and analy
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324

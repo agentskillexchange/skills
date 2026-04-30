@@ -6,9 +6,11 @@ source: "https://github.com/browserbase/mcp-server-browserbase"
 author: "browserbase"
 publisher_type: "Company"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3249

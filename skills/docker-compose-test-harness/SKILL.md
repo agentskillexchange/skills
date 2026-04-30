@@ -4,9 +4,11 @@ description: "Scaffolds integration test environments using Docker Compose v2 CL
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

@@ -4,9 +4,11 @@ description: "Tabby is an open-source, self-hosted AI coding assistant that serv
 verification: "security_reviewed"
 source: "https://github.com/TabbyML/tabby"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "TabbyML/tabby"
   github_stars: 33305

@@ -6,9 +6,11 @@ source: "https://github.com/gepa-ai/gepa"
 author: "GEPA AI"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gepa-ai/gepa"
   github_stars: 3550

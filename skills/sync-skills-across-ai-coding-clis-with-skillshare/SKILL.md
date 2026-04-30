@@ -6,9 +6,11 @@ source: "https://github.com/runkids/skillshare"
 author: "runkids"
 publisher_type: "individual"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "runkids/skillshare"
   github_stars: 1563

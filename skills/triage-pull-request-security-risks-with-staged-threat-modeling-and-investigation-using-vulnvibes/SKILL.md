@@ -6,9 +6,11 @@ source: "https://github.com/anshumanbh/vulnvibes"
 author: "anshumanbh"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "anshumanbh/vulnvibes"
   github_stars: 17

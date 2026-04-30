@@ -6,9 +6,11 @@ source: "https://github.com/sbdchd/squawk"
 author: "sbdchd"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sbdchd/squawk"
   github_stars: 1050

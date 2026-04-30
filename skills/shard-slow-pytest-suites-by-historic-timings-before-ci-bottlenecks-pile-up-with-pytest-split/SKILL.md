@@ -6,9 +6,11 @@ source: "https://github.com/jerry-git/pytest-split"
 author: "jerry-git"
 publisher_type: "individual"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jerry-git/pytest-split"
   github_stars: 308

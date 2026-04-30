@@ -4,9 +4,11 @@ description: "Automated video and audio transcoding using FFmpeg with hardware-a
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 58972

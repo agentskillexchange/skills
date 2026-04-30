@@ -4,9 +4,11 @@ description: "Tests Prometheus alerting rules against historical metrics using p
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

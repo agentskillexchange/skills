@@ -4,9 +4,11 @@ description: "Manages AWS CodePipeline stages and actions using AWS SDK for Java
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607

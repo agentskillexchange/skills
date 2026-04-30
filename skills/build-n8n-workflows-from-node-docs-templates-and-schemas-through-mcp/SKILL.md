@@ -6,9 +6,11 @@ source: "https://github.com/czlonkowski/n8n-mcp"
 author: "czlonkowski"
 publisher_type: "individual"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "czlonkowski/n8n-mcp"
   github_stars: 18088

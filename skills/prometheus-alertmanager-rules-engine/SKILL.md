@@ -4,9 +4,11 @@ description: "Generates and validates Prometheus alerting rules and AlertManager
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

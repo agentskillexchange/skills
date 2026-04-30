@@ -4,9 +4,11 @@ description: "A fast, configurable secrets scanner built by the creator of Gitle
 verification: "security_reviewed"
 source: "https://github.com/betterleaks/betterleaks"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "betterleaks/betterleaks"
   github_stars: 712

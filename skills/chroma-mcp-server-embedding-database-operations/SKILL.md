@@ -4,9 +4,11 @@ description: "An official MCP server for the Chroma open-source embedding databa
 verification: "security_reviewed"
 source: "https://github.com/chroma-core/chroma-mcp"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "chroma-core/chroma-mcp"
   github_stars: 527

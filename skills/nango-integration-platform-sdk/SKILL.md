@@ -6,9 +6,11 @@ source: "https://github.com/NangoHQ/nango"
 author: "NangoHQ"
 publisher_type: "Company"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "NangoHQ/nango"
   github_stars: 7092

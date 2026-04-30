@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.npmjs.com/package/node-ical"
 author: "Jens Maus"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "node-ical"
   npm_weekly_downloads: 128582

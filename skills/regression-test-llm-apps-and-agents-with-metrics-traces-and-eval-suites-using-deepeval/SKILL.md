@@ -6,9 +6,11 @@ source: "https://github.com/confident-ai/deepeval"
 author: "Confident AI"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "confident-ai/deepeval"
   github_stars: 14815

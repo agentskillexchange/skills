@@ -4,9 +4,11 @@ description: "Analyzes Terraform state files and plan outputs to detect drift, o
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

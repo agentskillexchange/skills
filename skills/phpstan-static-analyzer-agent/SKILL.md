@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/phpstan/phpstan"
 author: "PHPStan"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "phpstan/phpstan"
   github_stars: 13909

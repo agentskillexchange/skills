@@ -4,9 +4,11 @@ description: "Redis MCP Server is built around Redis in-memory datastore. The un
 verification: "security_reviewed"
 source: "https://github.com/redis/redis"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "redis/redis"
   github_stars: 73815

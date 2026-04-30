@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/Kozea/WeasyPrint"
 author: "Kozea"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Kozea/WeasyPrint"
   github_stars: 8841

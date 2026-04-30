@@ -4,9 +4,11 @@ description: "Generates optimized title tags, meta descriptions, and Open Graph 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # SEO Meta Tag Optimizer

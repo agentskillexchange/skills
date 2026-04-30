@@ -6,9 +6,11 @@ source: "https://github.com/ConardLi/easy-dataset"
 author: "ConardLi"
 publisher_type: "GitHub repository"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ConardLi/easy-dataset"
   github_stars: 14000

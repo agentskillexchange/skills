@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/tulios/kafkajs"
 author: "KafkaJS"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tulios/kafkajs"
   github_stars: 3992

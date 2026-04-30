@@ -6,9 +6,11 @@ source: "https://github.com/bitextor/warc2text"
 author: "Bitextor contributors"
 publisher_type: "open_source_project"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bitextor/warc2text"
   github_stars: 23

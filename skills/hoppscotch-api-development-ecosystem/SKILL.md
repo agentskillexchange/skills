@@ -4,9 +4,11 @@ description: "Hoppscotch is a lightweight, open-source API development platform 
 verification: "security_reviewed"
 source: "https://github.com/hoppscotch/hoppscotch"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hoppscotch/hoppscotch"
   github_stars: 78738

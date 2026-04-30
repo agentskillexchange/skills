@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 author: "jenkinsci"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25242

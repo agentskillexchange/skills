@@ -4,9 +4,11 @@ description: "Use Browserbase when an agent needs hosted browser sessions, remot
 verification: "security_reviewed"
 source: "https://github.com/browserbase/sdk-node"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "browserbase/sdk-node"
   github_stars: 61

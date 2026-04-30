@@ -6,9 +6,11 @@ source: "https://github.com/bitnami-labs/sealed-secrets"
 author: "bitnami-labs"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bitnami-labs/sealed-secrets"
   github_stars: 9045

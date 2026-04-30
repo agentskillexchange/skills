@@ -3,10 +3,13 @@ title: "OpenTelemetry Trace Context Propagator"
 description: "Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC, and message queue boundaries. Integrates with Jaeger, Zipkin, and OTLP exporters for distributed trace correlation."
 verification: "security_reviewed"
 source: "https://opentelemetry.io/docs/languages/js/propagation/"
+author: "OpenTelemetry"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenTelemetry Trace Context Propagator
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://opentelemetry.io/docs/languages/js/propagation/
 
 ## Source
 

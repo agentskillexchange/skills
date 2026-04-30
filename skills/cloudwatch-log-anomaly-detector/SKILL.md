@@ -4,9 +4,11 @@ description: "Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # CloudWatch Log Anomaly Detector

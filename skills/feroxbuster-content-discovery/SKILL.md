@@ -4,9 +4,11 @@ description: "Feroxbuster is a high-performance content discovery tool written i
 verification: "security_reviewed"
 source: "https://github.com/epi052/feroxbuster"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "epi052/feroxbuster"
   github_stars: 7645

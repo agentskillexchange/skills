@@ -4,9 +4,11 @@ description: "Scaffolds Terraform modules using the HCL SDK with provider schema
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

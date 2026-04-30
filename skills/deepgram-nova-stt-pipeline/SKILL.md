@@ -4,9 +4,11 @@ description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming 
 verification: "security_reviewed"
 source: "https://developers.deepgram.com/"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # Deepgram Nova STT Pipeline

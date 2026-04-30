@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/ultrafunkamsterdam/nodriver"
 author: "Leon"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ultrafunkamsterdam/nodriver"
   github_stars: 4005

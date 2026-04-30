@@ -6,9 +6,11 @@ source: "https://github.com/hatoo/oha"
 author: "hatoo"
 publisher_type: "open_source_project"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hatoo/oha"
   github_stars: 10198

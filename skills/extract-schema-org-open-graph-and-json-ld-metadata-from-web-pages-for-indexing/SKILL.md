@@ -6,9 +6,11 @@ source: "https://github.com/scrapinghub/extruct"
 author: "Scrapinghub"
 publisher_type: "Company"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "scrapinghub/extruct"
   github_stars: 961

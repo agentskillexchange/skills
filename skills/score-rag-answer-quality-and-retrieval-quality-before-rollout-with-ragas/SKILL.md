@@ -6,9 +6,11 @@ source: "https://github.com/vibrantlabsai/ragas"
 author: "Vibrant Labs AI"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "vibrantlabsai/ragas"
   github_stars: 13412

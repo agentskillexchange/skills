@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://auth0.com/docs/secure/tokens/access-tokens/validate-access-tokens"
 author: "Auth0"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # OAuth2 Token Introspection Agent

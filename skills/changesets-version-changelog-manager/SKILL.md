@@ -4,9 +4,11 @@ description: "Use Changesets to manage package versioning and changelogs in mono
 verification: "security_reviewed"
 source: "https://github.com/changesets/changesets"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "changesets/changesets"
   github_stars: 11620

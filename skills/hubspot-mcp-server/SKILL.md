@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
 author: "HubSpot"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hubspot/hubspot-api-nodejs"
   github_stars: 392

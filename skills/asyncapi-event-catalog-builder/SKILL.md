@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.asyncapi.com/"
 author: "AsyncAPI Initiative"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # AsyncAPI Event Catalog Builder

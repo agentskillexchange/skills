@@ -4,9 +4,11 @@ description: "Penrose is an open-source platform that creates beautiful mathemat
 verification: "security_reviewed"
 source: "https://github.com/penrose/penrose"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "penrose/penrose"
   github_stars: 7933

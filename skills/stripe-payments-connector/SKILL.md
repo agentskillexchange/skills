@@ -4,9 +4,11 @@ description: "Full Stripe API integration using the stripe-node SDK. Creates Pay
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4385

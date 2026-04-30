@@ -4,9 +4,11 @@ description: "Grafana Alloy is an open-source OpenTelemetry Collector distributi
 verification: "security_reviewed"
 source: "https://github.com/grafana/alloy"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026

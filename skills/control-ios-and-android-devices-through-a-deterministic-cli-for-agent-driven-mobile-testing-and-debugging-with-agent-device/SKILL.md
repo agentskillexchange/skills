@@ -6,9 +6,11 @@ source: "https://github.com/callstackincubator/agent-device"
 author: "Callstack"
 publisher_type: "organization"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "callstackincubator/agent-device"
   github_stars: 1838

@@ -4,9 +4,11 @@ description: "Catch insensitive, inconsiderate writing with alex. This CLI tool 
 verification: "security_reviewed"
 source: "https://github.com/get-alex/alex"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096

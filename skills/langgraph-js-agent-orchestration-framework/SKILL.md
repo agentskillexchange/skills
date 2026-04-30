@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langgraphjs"
 author: "langchain-ai"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "langchain-ai/langgraphjs"
   github_stars: 2781

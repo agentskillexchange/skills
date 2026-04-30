@@ -6,9 +6,11 @@ source: "https://github.com/zoni/obsidian-export"
 author: "zoni"
 publisher_type: "user"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zoni/obsidian-export"
   github_stars: 1300

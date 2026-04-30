@@ -6,9 +6,11 @@ source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-a
 author: "addyosmani"
 publisher_type: "individual"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Systematic Debugging and Error Recovery

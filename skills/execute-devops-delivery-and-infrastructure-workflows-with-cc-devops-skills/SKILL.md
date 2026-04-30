@@ -6,9 +6,11 @@ source: "https://github.com/akin-ozer/cc-devops-skills"
 author: "Akin Ozer"
 publisher_type: "individual"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "akin-ozer/cc-devops-skills"
   github_stars: 182

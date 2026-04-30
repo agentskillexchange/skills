@@ -6,9 +6,11 @@ source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-c
 author: "OpenAI"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # Address GitHub PR review comments from the current branch with gh-address-comments

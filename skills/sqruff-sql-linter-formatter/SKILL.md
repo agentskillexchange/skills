@@ -4,9 +4,11 @@ description: "A fast SQL linter and formatter written in Rust by Quary Labs. sqr
 verification: "security_reviewed"
 source: "https://github.com/quarylabs/sqruff"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "quarylabs/sqruff"
   github_stars: 1268

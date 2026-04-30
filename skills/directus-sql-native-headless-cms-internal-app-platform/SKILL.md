@@ -4,9 +4,11 @@ description: "Directus turns a SQL database into a headless CMS, admin app, and 
 verification: "security_reviewed"
 source: "https://github.com/directus/directus"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "directus/directus"
   github_stars: 34784

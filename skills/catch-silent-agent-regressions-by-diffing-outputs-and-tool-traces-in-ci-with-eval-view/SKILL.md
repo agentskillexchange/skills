@@ -6,9 +6,11 @@ source: "https://github.com/hidai25/eval-view"
 author: "hidai25"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hidai25/eval-view"
   github_stars: 84

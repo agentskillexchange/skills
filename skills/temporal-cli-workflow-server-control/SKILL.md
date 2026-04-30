@@ -6,9 +6,11 @@ source: "https://github.com/temporalio/cli"
 author: "Temporal"
 publisher_type: "Company"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "temporalio/cli"
   github_stars: 350

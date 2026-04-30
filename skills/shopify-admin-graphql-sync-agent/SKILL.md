@@ -4,9 +4,11 @@ description: "Coordinates Shopify data syncs with the Admin GraphQL API, includi
 verification: "security_reviewed"
 source: "https://github.com/Shopify/shopify-api-js"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Shopify/shopify-api-js"
   github_stars: 959

@@ -4,9 +4,11 @@ description: "LazyDocker is a terminal UI for Docker and Docker Compose that pro
 verification: "security_reviewed"
 source: "https://github.com/jesseduffield/lazydocker"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jesseduffield/lazydocker"
   github_stars: 50476

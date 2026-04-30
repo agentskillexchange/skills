@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://linear.app/docs"
 author: "Linear"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Linear Issue Manager

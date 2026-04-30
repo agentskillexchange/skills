@@ -4,9 +4,11 @@ description: "Rallly is an open-source scheduling and collaboration tool that ma
 verification: "security_reviewed"
 source: "https://github.com/lukevella/rallly"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "lukevella/rallly"
   github_stars: 5027

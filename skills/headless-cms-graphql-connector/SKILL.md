@@ -3,10 +3,13 @@ title: "Headless CMS GraphQL Connector"
 description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds."
 verification: "security_reviewed"
 source: "https://graphql.org/learn/queries/"
+author: "GraphQL Foundation"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Headless CMS GraphQL Connector
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://graphql.org/learn/queries/
 
 ## Source
 

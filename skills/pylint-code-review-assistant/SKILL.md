@@ -3,10 +3,13 @@ title: "Pylint Code Review Assistant"
 description: "Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation. Supports custom checker plugins and per-project rcfile configurations."
 verification: "security_reviewed"
 source: "https://github.com/pylint-dev/pylint"
+author: "PyCQA"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pylint-dev/pylint"
   github_stars: 5676
@@ -25,6 +28,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://pylint.readthedocs.io/en/stable/
 
 ## Source
 

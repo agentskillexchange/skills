@@ -6,9 +6,11 @@ source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-
 author: "OpenAI"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation

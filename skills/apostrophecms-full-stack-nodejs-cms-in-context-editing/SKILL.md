@@ -6,9 +6,11 @@ source: "https://github.com/apostrophecms/apostrophe"
 author: "ApostropheCMS"
 publisher_type: "Open Source Project"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "apostrophecms/apostrophe"
   github_stars: 4547

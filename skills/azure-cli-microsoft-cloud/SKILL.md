@@ -5,9 +5,11 @@ verification: "listed"
 source: "https://github.com/Azure/azure-cli"
 author: "Microsoft"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Azure/azure-cli"
   github_stars: 4502

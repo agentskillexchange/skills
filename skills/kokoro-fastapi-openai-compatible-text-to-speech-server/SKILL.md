@@ -6,9 +6,11 @@ source: "https://github.com/remsky/Kokoro-FastAPI"
 author: "remsky"
 publisher_type: "Individual Developer"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "remsky/Kokoro-FastAPI"
   github_stars: 4671

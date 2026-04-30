@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://learn.microsoft.com/en-us/graph/"
 author: "Microsoft"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Microsoft Graph Calendar Conflict Resolver

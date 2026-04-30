@@ -4,9 +4,11 @@ description: "Bearer CLI is an open-source static application security testing (
 verification: "security_reviewed"
 source: "https://github.com/Bearer/bearer"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Bearer/bearer"
   github_stars: 2610

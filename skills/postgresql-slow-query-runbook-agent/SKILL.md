@@ -4,9 +4,11 @@ description: "Diagnoses PostgreSQL slow queries using pg_stat_statements extensi
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

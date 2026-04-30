@@ -4,9 +4,11 @@ description: "Integrates Aqua Security Trivy CLI for comprehensive container ima
 verification: "security_reviewed"
 source: "https://github.com/aquasecurity/trivy"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aquasecurity/trivy"
   github_stars: 34488

@@ -6,9 +6,11 @@ source: "https://github.com/WoJiSama/skill-based-architecture"
 author: "WoJiSama"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "WoJiSama/skill-based-architecture"
   github_stars: 131

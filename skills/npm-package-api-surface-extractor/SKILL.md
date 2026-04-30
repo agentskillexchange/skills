@@ -4,9 +4,11 @@ description: "Extracts and documents public API surfaces from NPM packages using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # NPM Package API Surface Extractor

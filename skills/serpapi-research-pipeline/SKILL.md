@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://serpapi.com/"
 author: "SerpApi"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # SerpAPI Research Pipeline

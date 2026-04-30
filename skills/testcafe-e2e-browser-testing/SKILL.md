@@ -4,9 +4,11 @@ description: "TestCafe is a Node.js-based end-to-end browser testing framework b
 verification: "listed"
 source: "https://github.com/DevExpress/testcafe"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "devexpress/testcafe"
   github_stars: 9915

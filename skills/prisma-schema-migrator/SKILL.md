@@ -4,9 +4,11 @@ description: "Automates Prisma ORM schema evolution and migration planning using
 verification: "security_reviewed"
 source: "https://github.com/prisma/prisma"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prisma/prisma"
   github_stars: 45760

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developer.wordpress.org/block-editor/"
 author: "WordPress"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # WordPress Block Theme Scaffolder
@@ -23,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developer.wordpress.org/themes/global-settings-and-styles/introduction-to-theme-json/
 
 ## Source
 

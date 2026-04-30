@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/bufbuild/buf"
 author: "Buf"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bufbuild/buf"
   github_stars: 11051

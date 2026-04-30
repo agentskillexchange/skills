@@ -4,9 +4,11 @@ description: "A terminal-based interactive JSON viewer and jq filter editor writ
 verification: "security_reviewed"
 source: "https://github.com/ynqa/jnv"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ynqa/jnv"
   github_stars: 5979

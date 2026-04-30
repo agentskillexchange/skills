@@ -4,9 +4,11 @@ description: "Manages federated GraphQL schemas using Apollo Studio API and Hive
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324

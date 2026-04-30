@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/basecamp/kamal"
 author: "37signals"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "basecamp/kamal"
   github_stars: 14009

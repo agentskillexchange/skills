@@ -6,9 +6,11 @@ source: "https://github.com/snyk/agent-scan"
 author: "Snyk"
 publisher_type: "company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2283

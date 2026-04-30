@@ -6,9 +6,11 @@ source: "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk"
 author: "hkjarral"
 publisher_type: "open_source_project"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hkjarral/AVA-AI-Voice-Agent-for-Asterisk"
   github_stars: 991

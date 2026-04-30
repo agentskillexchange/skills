@@ -4,9 +4,11 @@ description: "Inspects WooCommerce webhook reliability through the `WC_Webhook` 
 verification: "security_reviewed"
 source: "https://github.com/woocommerce/woocommerce"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10231

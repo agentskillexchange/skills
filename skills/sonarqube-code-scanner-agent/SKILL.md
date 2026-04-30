@@ -4,9 +4,11 @@ description: "Automated code quality scanning using SonarQube REST API and Sonar
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

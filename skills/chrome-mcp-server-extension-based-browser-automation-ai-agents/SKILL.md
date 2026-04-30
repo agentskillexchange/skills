@@ -6,9 +6,11 @@ source: "https://github.com/hangwin/mcp-chrome"
 author: "hangwin"
 publisher_type: "Individual Developer"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hangwin/mcp-chrome"
   github_stars: 11177

@@ -6,9 +6,11 @@ source: "https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-mu
 author: "GitHub"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows

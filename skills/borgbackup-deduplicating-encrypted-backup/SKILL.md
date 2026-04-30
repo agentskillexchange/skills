@@ -4,9 +4,11 @@ description: "BorgBackup (Borg) is a deduplicating backup program with optional 
 verification: "security_reviewed"
 source: "https://github.com/borgbackup/borg"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "borgbackup/borg"
   github_stars: 13199

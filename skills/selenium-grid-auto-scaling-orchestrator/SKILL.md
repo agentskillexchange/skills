@@ -4,9 +4,11 @@ description: "Orchestrates Selenium Grid 4 node scaling based on test queue dept
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

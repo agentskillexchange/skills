@@ -3,10 +3,14 @@ title: "Lint Ansible playbooks and roles before automation breaks in prod with a
 description: "Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed."
 verification: "listed"
 source: "https://github.com/ansible/ansible-lint"
+author: "Ansible community"
+publisher_type: "open_source"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ansible/ansible-lint"
   github_stars: 3856
@@ -15,6 +19,10 @@ tool_ecosystem:
 # Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint
 
 Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed.
+
+## Prerequisites
+
+Python, Ansible, ansible-lint
 
 ## Installation
 
@@ -25,6 +33,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install ansible-lint in the target environment, then run it against the repository root or the specific playbook, role, or collection that needs review.
+```
+
+## Documentation
+
+- https://ansible.readthedocs.io/projects/lint/
 
 ## Source
 

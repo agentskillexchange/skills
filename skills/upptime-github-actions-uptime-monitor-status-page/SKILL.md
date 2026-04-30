@@ -6,9 +6,11 @@ source: "https://github.com/upptime/upptime"
 author: "Anand Chowdhary"
 publisher_type: "Open Source Project"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "upptime/upptime"
   github_stars: 16979

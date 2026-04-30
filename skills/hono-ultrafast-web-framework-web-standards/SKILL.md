@@ -4,9 +4,11 @@ description: "Hono is a small, simple, and ultrafast web framework built on Web 
 verification: "security_reviewed"
 source: "https://github.com/honojs/hono"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "honojs/hono"
   github_stars: 29789

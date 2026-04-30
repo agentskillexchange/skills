@@ -4,9 +4,11 @@ description: "Integrates the OWASP ZAP API to run automated DAST scans against w
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991

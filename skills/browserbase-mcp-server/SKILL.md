@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/browserbase/mcp-server-browserbase"
 author: "browserbase"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3255

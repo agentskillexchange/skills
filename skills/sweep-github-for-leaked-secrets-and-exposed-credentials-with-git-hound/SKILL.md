@@ -6,9 +6,11 @@ source: "https://github.com/tillson/git-hound"
 author: "tillson"
 publisher_type: "GitHub repository"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tillson/git-hound"
   github_stars: 1400

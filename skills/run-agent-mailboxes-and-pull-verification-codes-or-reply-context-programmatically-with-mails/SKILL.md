@@ -6,9 +6,11 @@ source: "https://github.com/chekusu/mails"
 author: "chekusu"
 publisher_type: "individual"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "chekusu/mails"
   github_stars: 294

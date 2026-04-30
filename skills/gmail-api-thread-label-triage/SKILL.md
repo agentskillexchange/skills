@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api"
 author: "Google"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Gmail API Thread Label Triage

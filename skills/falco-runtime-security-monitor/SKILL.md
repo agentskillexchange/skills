@@ -5,10 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/falcosecurity/falco"
 author: "Falco"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "falcosecurity/falco"
   github_stars: 8883

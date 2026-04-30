@@ -4,9 +4,11 @@ description: "An open-source Python library that makes loading data from APIs, d
 verification: "security_reviewed"
 source: "https://github.com/dlt-hub/dlt"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dlt-hub/dlt"
   github_stars: 5161

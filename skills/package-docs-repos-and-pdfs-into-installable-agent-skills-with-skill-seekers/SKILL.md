@@ -6,9 +6,11 @@ source: "https://github.com/yusufkaraaslan/Skill_Seekers"
 author: "Yusuf Karaaslan"
 publisher_type: "open_source_project"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "yusufkaraaslan/Skill_Seekers"
   github_stars: 12876

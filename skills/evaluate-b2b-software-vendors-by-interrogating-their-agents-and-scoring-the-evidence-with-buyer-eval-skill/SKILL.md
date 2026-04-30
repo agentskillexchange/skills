@@ -6,9 +6,11 @@ source: "https://github.com/salespeak-ai/buyer-eval-skill"
 author: "Salespeak AI"
 publisher_type: "organization"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "salespeak-ai/buyer-eval-skill"
   github_stars: 55

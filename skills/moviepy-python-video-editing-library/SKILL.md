@@ -4,9 +4,11 @@ description: "MoviePy is a Python library for video editing — cuts, concatenat
 verification: "security_reviewed"
 source: "https://github.com/Zulko/moviepy"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zulko/moviepy"
   github_stars: 14491

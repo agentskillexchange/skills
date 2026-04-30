@@ -6,9 +6,11 @@ source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-a
 author: "coreyhaines31"
 publisher_type: "individual"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Diagnose Site SEO Issues with a Structured Audit

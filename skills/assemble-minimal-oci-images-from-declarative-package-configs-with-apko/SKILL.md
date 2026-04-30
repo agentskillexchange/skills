@@ -6,9 +6,11 @@ source: "https://github.com/chainguard-dev/apko"
 author: "Chainguard"
 publisher_type: "open_source_project"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "chainguard-dev/apko"
   github_stars: 1590

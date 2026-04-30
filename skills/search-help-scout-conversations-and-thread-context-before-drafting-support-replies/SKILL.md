@@ -6,9 +6,11 @@ source: "https://github.com/drewburchfield/help-scout-mcp-server"
 author: "drewburchfield"
 publisher_type: "individual"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "drewburchfield/help-scout-mcp-server"
   github_stars: 36

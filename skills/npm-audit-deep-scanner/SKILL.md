@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
 author: "npm, Inc."
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # NPM Audit Deep Scanner

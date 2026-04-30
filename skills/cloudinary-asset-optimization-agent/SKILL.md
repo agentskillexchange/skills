@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://cloudinary.com/documentation"
 author: "Cloudinary"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Cloudinary Asset Optimization Agent

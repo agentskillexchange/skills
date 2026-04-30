@@ -4,9 +4,11 @@ description: "The official Brave Search MCP server integrates the Brave Search A
 verification: "security_reviewed"
 source: "https://github.com/brave/brave-search-mcp-server"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "brave/brave-search-mcp-server"
   github_stars: 854

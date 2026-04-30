@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
 author: "ansible"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68362

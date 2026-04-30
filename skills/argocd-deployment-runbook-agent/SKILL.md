@@ -4,9 +4,11 @@ description: "Manages GitOps deployments using ArgoCD API, argocd CLI, and Kusto
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

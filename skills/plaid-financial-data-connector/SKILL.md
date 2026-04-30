@@ -3,10 +3,13 @@ title: "Plaid Financial Data Connector"
 description: "Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API. Supports account balance polling, institution search, and webhook-driven sync."
 verification: "security_reviewed"
 source: "https://plaid.com/docs/"
+author: "Plaid"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Plaid Financial Data Connector
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://plaid.com/docs/
 
 ## Source
 

@@ -6,9 +6,11 @@ source: "https://github.com/google/oss-rebuild"
 author: "Google and contributors"
 publisher_type: "Open Source"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "google/oss-rebuild"
   github_stars: 687

@@ -6,9 +6,11 @@ source: "https://github.com/wagtail/wagtail"
 author: "Wagtail"
 publisher_type: "Open Source Project"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wagtail/wagtail"
   github_stars: 20291

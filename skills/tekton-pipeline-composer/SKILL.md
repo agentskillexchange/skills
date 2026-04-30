@@ -4,9 +4,11 @@ description: "Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipel
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

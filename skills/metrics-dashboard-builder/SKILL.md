@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/DataDog/datadog-api-client-typescript"
 author: "DataDog"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "datadog/datadog-api-client-typescript"
   github_stars: 102

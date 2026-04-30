@@ -4,9 +4,11 @@ description: "Automates ESLint v9 flat config enforcement across monorepos using
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188

@@ -6,9 +6,11 @@ source: "https://github.com/video-db/skills"
 author: "VideoDB"
 publisher_type: "organization"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "video-db/skills"
   github_stars: 73

@@ -6,9 +6,11 @@ source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 author: "SuperClaude-Org"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SuperClaude-Org/SuperClaude_Framework"
   github_stars: 22321

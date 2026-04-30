@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/biomejs/biome"
 author: "Biome"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "biomejs/biome"
   github_stars: 24340

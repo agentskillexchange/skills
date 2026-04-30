@@ -4,9 +4,11 @@ description: "Bubble Tea is a powerful Go framework for building terminal user i
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/bubbletea"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "charmbracelet/bubbletea"
   github_stars: 41168

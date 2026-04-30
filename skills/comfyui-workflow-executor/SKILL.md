@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/Comfy-Org/ComfyUI"
 author: "Comfy Org"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Comfy-Org/ComfyUI"
   github_stars: 109121

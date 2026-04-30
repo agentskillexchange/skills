@@ -4,9 +4,11 @@ description: "Run self-hosted push notifications with Gotify, including a REST A
 verification: "security_reviewed"
 source: "https://github.com/gotify/server"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gotify/server"
   github_stars: 14868

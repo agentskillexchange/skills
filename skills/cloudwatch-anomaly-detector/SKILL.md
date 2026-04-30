@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Anomaly_Detection.html"
 author: "Amazon Web Services"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # CloudWatch Anomaly Detector

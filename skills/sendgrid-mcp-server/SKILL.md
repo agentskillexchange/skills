@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 author: "sendgrid"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3047

@@ -6,9 +6,11 @@ source: "https://github.com/google/go-licenses"
 author: "Google"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "google/go-licenses"
   github_stars: 992

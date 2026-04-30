@@ -4,9 +4,11 @@ description: "Generates typed client SDKs from OpenAPI 3.x specifications using 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenAPI SDK Generator Pipeline

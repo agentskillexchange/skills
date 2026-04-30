@@ -6,9 +6,11 @@ source: "https://github.com/Giskard-AI/giskard-oss"
 author: "Giskard AI"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "giskard-ai/giskard-oss"
   github_stars: 5261

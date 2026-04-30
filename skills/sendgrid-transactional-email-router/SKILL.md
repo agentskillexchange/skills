@@ -4,9 +4,11 @@ description: "Manages transactional email delivery via SendGrid v3 Mail Send API
 verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3049

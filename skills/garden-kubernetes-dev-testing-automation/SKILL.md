@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/garden-io/garden"
 author: "garden.io"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "garden-io/garden"
   github_stars: 3574

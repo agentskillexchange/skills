@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/jqlang/jq"
 author: "jqlang"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jqlang/jq"
   github_stars: 34478

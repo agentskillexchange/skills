@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://opentelemetry.io/"
 author: "OpenTelemetry"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenTelemetry Trace Analyzer

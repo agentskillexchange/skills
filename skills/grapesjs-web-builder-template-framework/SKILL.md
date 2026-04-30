@@ -4,9 +4,11 @@ description: "GrapesJS is a free, open-source web builder framework for creating
 verification: "security_reviewed"
 source: "https://github.com/GrapesJS/grapesjs"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "GrapesJS/grapesjs"
   github_stars: 25682

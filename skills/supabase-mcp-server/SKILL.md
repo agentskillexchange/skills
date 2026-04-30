@@ -4,9 +4,11 @@ description: "Supabase MCP Server is built around Supabase developer platform. T
 verification: "security_reviewed"
 source: "https://github.com/supabase/supabase"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "supabase/supabase"
   github_stars: 100812

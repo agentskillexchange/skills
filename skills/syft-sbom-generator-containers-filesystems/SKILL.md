@@ -4,9 +4,11 @@ description: "Syft by Anchore is a CLI tool for generating Software Bills of Mat
 verification: "security_reviewed"
 source: "https://github.com/anchore/syft"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "anchore/syft"
   github_stars: 8628

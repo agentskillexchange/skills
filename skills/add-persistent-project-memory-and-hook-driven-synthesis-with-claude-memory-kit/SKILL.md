@@ -6,9 +6,11 @@ source: "https://github.com/awrshift/claude-memory-kit"
 author: "awrshift"
 publisher_type: "individual"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "awrshift/claude-memory-kit"
   github_stars: 11

@@ -6,9 +6,11 @@ source: "https://github.com/microsoft/apm"
 author: "Microsoft"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microsoft/apm"
   github_stars: 1934

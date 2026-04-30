@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/pytest-dev/pytest"
 author: "pytest-dev"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pytest-dev/pytest"
   github_stars: 13758

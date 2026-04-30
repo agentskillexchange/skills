@@ -4,9 +4,11 @@ description: "GitButler is a modern Git client built in Rust and Svelte that int
 verification: "security_reviewed"
 source: "https://github.com/gitbutlerapp/gitbutler"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitbutlerapp/gitbutler"
   github_stars: 19988

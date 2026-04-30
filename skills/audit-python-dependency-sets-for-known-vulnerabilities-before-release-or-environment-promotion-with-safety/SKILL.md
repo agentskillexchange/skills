@@ -6,9 +6,11 @@ source: "https://github.com/pyupio/safety"
 author: "pyup.io"
 publisher_type: "company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pyupio/safety"
   github_stars: 1974

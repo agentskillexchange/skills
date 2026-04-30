@@ -4,9 +4,11 @@ description: "An MCP server that integrates Linear project management with AI as
 verification: "security_reviewed"
 source: "https://github.com/jerhadf/linear-mcp-server"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jerhadf/linear-mcp-server"
   github_stars: 346

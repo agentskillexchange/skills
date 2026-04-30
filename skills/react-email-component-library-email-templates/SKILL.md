@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/resend/react-email"
 author: "Resend"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "resend/react-email"
   github_stars: 18373

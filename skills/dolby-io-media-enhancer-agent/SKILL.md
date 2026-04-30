@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://optiview.dolby.com/docs/"
 author: "Dolby.io"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Dolby.io Media Enhancer

@@ -6,9 +6,11 @@ source: "https://github.com/jsh9/pydoclint"
 author: "jsh9"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jsh9/pydoclint"
   github_stars: 208

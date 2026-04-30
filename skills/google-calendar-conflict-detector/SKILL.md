@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developers.google.com/workspace/calendar/api/guides/overview"
 author: "Google"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Google Calendar Conflict Detector

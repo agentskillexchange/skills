@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developer.mozilla.org/"
 author: "Mozilla"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # MDN Web API Reference Fetcher

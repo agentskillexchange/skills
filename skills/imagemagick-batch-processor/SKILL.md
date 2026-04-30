@@ -1,12 +1,14 @@
 ---
 title: "ImageMagick Batch Processor"
-description: "Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
+description: "Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
 verification: "security_reviewed"
 source: "https://github.com/ImageMagick/ImageMagick"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "imagemagick/imagemagick"
   github_stars: 16152
@@ -14,7 +16,7 @@ tool_ecosystem:
 
 # ImageMagick Batch Processor
 
-Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation.
+Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation.
 
 ## Installation
 

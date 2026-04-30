@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 author: "GitLab"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24307

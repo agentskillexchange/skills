@@ -4,9 +4,11 @@ description: "Parses Terraform plan JSON output to summarize resource changes, d
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

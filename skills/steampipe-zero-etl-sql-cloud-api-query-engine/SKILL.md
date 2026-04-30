@@ -4,9 +4,11 @@ description: "Query cloud APIs, SaaS services, and infrastructure with standard 
 verification: "security_reviewed"
 source: "https://github.com/turbot/steampipe"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "turbot/steampipe"
   github_stars: 7745

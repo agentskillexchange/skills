@@ -4,9 +4,11 @@ description: "Validates nginx.conf files using the gixy static analyzer and cros
 verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

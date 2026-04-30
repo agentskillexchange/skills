@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/postmanlabs/newman"
 author: "postmanlabs"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7205

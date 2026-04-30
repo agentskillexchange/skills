@@ -4,9 +4,11 @@ description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing 
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

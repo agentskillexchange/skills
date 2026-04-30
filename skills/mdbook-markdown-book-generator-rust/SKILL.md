@@ -4,9 +4,11 @@ description: "mdBook is a command-line utility for creating online books from Ma
 verification: "security_reviewed"
 source: "https://github.com/rust-lang/mdBook"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "rust-lang/mdbook"
   github_stars: 21419

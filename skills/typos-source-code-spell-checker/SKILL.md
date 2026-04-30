@@ -4,9 +4,11 @@ description: "A blazing-fast source code spell checker written in Rust that find
 verification: "security_reviewed"
 source: "https://github.com/crate-ci/typos"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "crate-ci/typos"
   github_stars: 3864

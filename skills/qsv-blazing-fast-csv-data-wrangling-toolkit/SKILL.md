@@ -4,9 +4,11 @@ description: "qsv is a high-performance command-line toolkit for querying, trans
 verification: "security_reviewed"
 source: "https://github.com/dathere/qsv"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3569

@@ -6,9 +6,11 @@ source: "https://github.com/trycua/cua"
 author: "trycua"
 publisher_type: "organization"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "trycua/cua"
   github_stars: 13544

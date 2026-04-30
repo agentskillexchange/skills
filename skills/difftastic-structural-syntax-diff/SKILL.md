@@ -4,9 +4,11 @@ description: "Difftastic is a structural diff tool that compares files based on 
 verification: "security_reviewed"
 source: "https://github.com/Wilfred/difftastic"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Wilfred/difftastic"
   github_stars: 24900

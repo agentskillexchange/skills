@@ -6,9 +6,11 @@ source: "https://github.com/praetorian-inc/hadrian"
 author: "Praetorian"
 publisher_type: "company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "praetorian-inc/hadrian"
   github_stars: 38

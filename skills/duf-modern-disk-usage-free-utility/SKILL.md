@@ -4,9 +4,11 @@ description: "duf is a modern disk usage/free utility written in Go that provide
 verification: "security_reviewed"
 source: "https://github.com/muesli/duf"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "muesli/duf"
   github_stars: 14916

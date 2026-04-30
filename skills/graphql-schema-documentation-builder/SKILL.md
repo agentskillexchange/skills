@@ -4,9 +4,11 @@ description: "Generates interactive API documentation from GraphQL schemas using
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324

@@ -4,9 +4,11 @@ description: "Migrates Grafana dashboards between instances using the Grafana HT
 verification: "security_reviewed"
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187

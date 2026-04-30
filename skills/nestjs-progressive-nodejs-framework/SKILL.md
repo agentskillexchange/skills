@@ -5,9 +5,11 @@ verification: "listed"
 source: "https://github.com/nestjs/nest"
 author: "Kamil Mysliwiec / NestJS"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nestjs/nest"
   github_stars: 75073

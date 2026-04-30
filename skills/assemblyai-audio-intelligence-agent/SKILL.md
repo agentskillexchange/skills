@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.assemblyai.com/docs"
 author: "AssemblyAI"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # AssemblyAI Audio Intelligence Agent

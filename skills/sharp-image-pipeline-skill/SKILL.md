@@ -4,9 +4,11 @@ description: "Processes images using the Sharp npm library (libvips). Supports b
 verification: "security_reviewed"
 source: "https://github.com/lovell/sharp"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138

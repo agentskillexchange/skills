@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/adbar/courlan"
 author: "Adrien Barbaresi"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "adbar/courlan"
   github_stars: 165

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developer.pagerduty.com/"
 author: "PagerDuty"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # PagerDuty Event Orchestration Runbook

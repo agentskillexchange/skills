@@ -6,9 +6,11 @@ source: "https://github.com/alonw0/web-asset-generator"
 author: "alonw0"
 publisher_type: "individual"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "alonw0/web-asset-generator"
   github_stars: 321

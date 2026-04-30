@@ -6,9 +6,11 @@ source: "https://github.com/agentscope-ai/HiClaw"
 author: "AgentScope AI"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "agentscope-ai/HiClaw"
   github_stars: 4231

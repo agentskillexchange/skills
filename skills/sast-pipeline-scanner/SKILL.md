@@ -3,10 +3,13 @@ title: "SAST Pipeline Scanner"
 description: "Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management."
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
+author: "Semgrep"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14922
@@ -25,6 +28,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+python3 -m pip install semgrep
+```
+
+## Documentation
+
+- https://semgrep.dev/docs/
 
 ## Source
 

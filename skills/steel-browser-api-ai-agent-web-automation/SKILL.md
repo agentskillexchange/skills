@@ -4,9 +4,11 @@ description: "Steel Browser is an open-source browser API that provides a batter
 verification: "security_reviewed"
 source: "https://github.com/steel-dev/steel-browser"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "steel-dev/steel-browser"
   github_stars: 6768

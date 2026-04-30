@@ -1,17 +1,19 @@
 ---
 title: "AssemblyAI Summarization & Chapters Skill"
-description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
+description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
 verification: "security_reviewed"
 source: "https://www.assemblyai.com/docs"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # AssemblyAI Summarization & Chapters Skill
 
-Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
+Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
 
 ## Installation
 

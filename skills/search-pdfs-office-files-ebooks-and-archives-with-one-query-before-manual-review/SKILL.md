@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/phiresky/ripgrep-all"
 publisher_type: "User"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "phiresky/ripgrep-all"
   github_stars: 9573

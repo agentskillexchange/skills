@@ -6,9 +6,11 @@ source: "https://github.com/microlinkhq/metascraper"
 author: "microlinkhq"
 publisher_type: "Organization"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microlinkhq/metascraper"
   github_stars: 2660

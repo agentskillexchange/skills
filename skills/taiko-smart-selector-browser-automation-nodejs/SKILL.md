@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/getgauge/taiko"
 author: "getgauge"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "getgauge/taiko"
   github_stars: 3666

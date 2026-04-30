@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.zyte.com/scrapy-cloud/"
 author: "Zyte"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # ScrapyCloud Job Manager

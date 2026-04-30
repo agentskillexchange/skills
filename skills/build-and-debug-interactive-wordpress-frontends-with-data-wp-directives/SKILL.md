@@ -6,9 +6,11 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interact
 author: "WordPress Contributors"
 publisher_type: "Open Source Project"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Build and debug interactive WordPress frontends with data-wp directives

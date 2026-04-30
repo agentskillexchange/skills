@@ -4,9 +4,11 @@ description: "A fast terminal user interface for Git inspired by Emacs Magit, wr
 verification: "security_reviewed"
 source: "https://github.com/altsem/gitu"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "altsem/gitu"
   github_stars: 2664

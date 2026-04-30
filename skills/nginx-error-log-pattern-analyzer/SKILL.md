@@ -4,9 +4,11 @@ description: "Parses Nginx error logs using configurable regex patterns and the 
 verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

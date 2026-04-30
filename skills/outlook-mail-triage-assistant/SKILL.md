@@ -3,10 +3,13 @@ title: "Outlook Mail Triage Assistant"
 description: "Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot classification, applies Outlook rules, and manages focused inbox priorities."
 verification: "security_reviewed"
 source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
+author: "Microsoft"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # Outlook Mail Triage Assistant
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
 
 ## Source
 

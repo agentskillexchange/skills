@@ -4,9 +4,11 @@ description: "Benchmark command-line programs with statistical rigor using Hyper
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/hyperfine"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sharkdp/hyperfine"
   github_stars: 27797

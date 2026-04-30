@@ -6,9 +6,11 @@ source: "https://github.com/k8sgpt-ai/k8sgpt"
 author: "K8sGPT Authors"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "k8sgpt-ai/k8sgpt"
   github_stars: 7687

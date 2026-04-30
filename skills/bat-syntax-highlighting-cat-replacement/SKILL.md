@@ -4,9 +4,11 @@ description: "bat is a cat(1) clone written in Rust that adds syntax highlightin
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/bat"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sharkdp/bat"
   github_stars: 57909

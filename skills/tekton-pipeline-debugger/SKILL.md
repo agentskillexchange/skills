@@ -4,9 +4,11 @@ description: "Debugs Tekton pipeline failures by querying TaskRun and PipelineRu
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

@@ -3,10 +3,13 @@ title: "Outlook Rule Automation Manager"
 description: "Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage."
 verification: "security_reviewed"
 source: "https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0"
+author: "Microsoft"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Outlook Rule Automation Manager
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0
 
 ## Source
 

@@ -6,9 +6,11 @@ source: "https://github.com/inspektor-gadget/inspektor-gadget"
 author: "Inspektor Gadget"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "inspektor-gadget/inspektor-gadget"
   github_stars: 2792

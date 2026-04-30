@@ -4,9 +4,11 @@ description: "Queries Grafana Loki log aggregation system using LogQL via the Lo
 verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/loki"
   github_stars: 27993

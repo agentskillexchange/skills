@@ -4,9 +4,11 @@ description: "Queries pg_stat_statements and pg_stat_activity to surface the top
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

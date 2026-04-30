@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "aws"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3609

@@ -6,9 +6,11 @@ source: "https://github.com/latchagent/latch"
 author: "Latch"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "latchagent/latch"
   github_stars: 8

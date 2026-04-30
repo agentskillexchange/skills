@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/nodemailer/nodemailer"
 author: "nodemailer"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nodemailer/nodemailer"
   github_stars: 17534

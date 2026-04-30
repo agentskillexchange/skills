@@ -3,10 +3,13 @@ title: "ACF Custom Fields REST Exposer"
 description: "Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization."
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/wp-rest-api-integration/"
+author: "WP Engine"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # ACF Custom Fields REST Exposer
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://www.advancedcustomfields.com/resources/wp-rest-api-integration/
 
 ## Source
 

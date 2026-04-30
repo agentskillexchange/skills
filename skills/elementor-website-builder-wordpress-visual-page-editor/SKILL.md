@@ -6,9 +6,11 @@ source: "https://wordpress.org/plugins/elementor/"
 author: "Elementor"
 publisher_type: "Company"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Elementor Website Builder WordPress Visual Page Editor

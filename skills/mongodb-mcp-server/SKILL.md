@@ -4,9 +4,11 @@ description: "MongoDB MCP Server is built around MongoDB document database. The 
 verification: "security_reviewed"
 source: "https://github.com/mongodb/node-mongodb-native"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "mongodb/node-mongodb-native"
   github_stars: 10181

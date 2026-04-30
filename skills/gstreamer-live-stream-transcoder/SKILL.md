@@ -1,18 +1,20 @@
 ---
 title: "GStreamer Live Stream Transcoder"
-description: "Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports adaptive bitrate HLS/DASH output via GStreamer’s hlssink2 and dashsink elements."
+description: "Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports adaptive bitrate HLS/DASH output via GStreamer's hlssink2 and dashsink elements."
 verification: "security_reviewed"
 source: "https://gstreamer.freedesktop.org/documentation/"
 author: "GStreamer"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # GStreamer Live Stream Transcoder
 
-Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports adaptive bitrate HLS/DASH output via GStreamer’s hlssink2 and dashsink elements.
+Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports adaptive bitrate HLS/DASH output via GStreamer's hlssink2 and dashsink elements.
 
 ## Installation
 

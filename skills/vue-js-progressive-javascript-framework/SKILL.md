@@ -5,9 +5,11 @@ verification: "listed"
 source: "https://github.com/vuejs/core"
 author: "Evan You / Vue.js"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "vuejs/core"
   github_stars: 53379

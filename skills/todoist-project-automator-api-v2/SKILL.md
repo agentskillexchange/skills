@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developer.todoist.com/api/v1/"
 author: "Doist"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Todoist Project Automator

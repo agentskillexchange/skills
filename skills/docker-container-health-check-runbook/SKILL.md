@@ -4,9 +4,11 @@ description: "Runs systematic health diagnostics on Docker containers using dock
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

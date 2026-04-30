@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.blender.org/"
 author: "Blender Foundation"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Blender Geometry Nodes Script Generator

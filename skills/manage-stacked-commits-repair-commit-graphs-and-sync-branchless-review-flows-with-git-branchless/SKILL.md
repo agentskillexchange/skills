@@ -6,9 +6,11 @@ source: "https://github.com/arxanas/git-branchless"
 author: "arxanas"
 publisher_type: "individual"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "arxanas/git-branchless"
   github_stars: 4045

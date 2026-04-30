@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/verdaccio/verdaccio"
 author: "Verdaccio"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "verdaccio/verdaccio"
   github_stars: 17595

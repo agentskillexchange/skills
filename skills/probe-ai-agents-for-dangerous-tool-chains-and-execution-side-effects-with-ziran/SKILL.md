@@ -6,9 +6,11 @@ source: "https://github.com/taoq-ai/ziran"
 author: "taoq-ai"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "taoq-ai/ziran"
   github_stars: 6

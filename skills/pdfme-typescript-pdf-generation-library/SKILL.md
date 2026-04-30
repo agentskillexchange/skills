@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/pdfme/pdfme"
 author: "pdfme"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pdfme/pdfme"
   github_stars: 4263

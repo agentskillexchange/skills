@@ -4,9 +4,11 @@ description: "Extracts search performance data via the Google Search Console API
 verification: "security_reviewed"
 source: "https://developers.google.com/search/blog/2025/06/search-console-insights"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Google Search Console Insights Agent

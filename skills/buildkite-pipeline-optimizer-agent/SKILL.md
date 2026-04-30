@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://buildkite.com/docs"
 author: "Buildkite"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Buildkite Pipeline Optimizer

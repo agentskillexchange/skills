@@ -6,9 +6,11 @@ source: "https://github.com/dagucloud/dagu"
 author: "Dagu Cloud"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dagucloud/dagu"
   github_stars: 3303

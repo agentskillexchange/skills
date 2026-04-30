@@ -4,9 +4,11 @@ description: "Maigret collects a dossier on a person by username only, checking 
 verification: "security_reviewed"
 source: "https://github.com/soxoj/maigret"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "soxoj/maigret"
   github_stars: 19325

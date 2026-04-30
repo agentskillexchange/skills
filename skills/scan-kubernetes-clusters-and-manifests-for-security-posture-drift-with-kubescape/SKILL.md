@@ -6,9 +6,11 @@ source: "https://github.com/kubescape/kubescape"
 author: "Kubescape"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "kubescape/kubescape"
   github_stars: 11310

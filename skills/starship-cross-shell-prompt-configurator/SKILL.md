@@ -4,9 +4,11 @@ description: "The minimal, blazing-fast, and infinitely customizable prompt for 
 verification: "security_reviewed"
 source: "https://github.com/starship/starship"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "starship/starship"
   github_stars: 55675

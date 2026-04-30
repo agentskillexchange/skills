@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://linear.app/docs"
 author: "Linear"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # Linear Issue Triage & Sprint Planner

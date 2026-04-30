@@ -6,9 +6,11 @@ source: "https://github.com/darold/pgbadger"
 author: "darold"
 publisher_type: "individual"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "darold/pgbadger"
   github_stars: 3994

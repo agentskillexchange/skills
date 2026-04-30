@@ -4,9 +4,11 @@ description: "Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

@@ -6,9 +6,11 @@ source: "https://github.com/markoblogo/AGENTS.md_generator"
 author: "markoblogo"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "markoblogo/AGENTS.md_generator"
   github_stars: 2

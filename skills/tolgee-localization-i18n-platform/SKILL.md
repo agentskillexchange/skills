@@ -4,9 +4,11 @@ description: "Tolgee is an open-source localization platform that lets developer
 verification: "security_reviewed"
 source: "https://github.com/tolgee/tolgee-platform"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tolgee/tolgee-platform"
   github_stars: 3875

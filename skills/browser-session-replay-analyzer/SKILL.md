@@ -3,10 +3,13 @@ title: "Browser Session Replay Analyzer"
 description: "Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics."
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
+author: "Puppeteer"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94192
@@ -25,6 +28,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install puppeteer
+```
+
+## Documentation
+
+- https://pptr.dev
 
 ## Source
 

@@ -4,9 +4,11 @@ description: "Skyvern automates browser-based workflows using LLMs and computer 
 verification: "security_reviewed"
 source: "https://github.com/Skyvern-AI/skyvern"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "skyvern-ai/skyvern"
   github_stars: 20997

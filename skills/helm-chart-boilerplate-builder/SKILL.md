@@ -4,9 +4,11 @@ description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingr
 verification: "security_reviewed"
 source: "https://github.com/helm/helm"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693

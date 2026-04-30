@@ -4,9 +4,11 @@ description: "gron transforms JSON into discrete assignment statements, making i
 verification: "security_reviewed"
 source: "https://github.com/tomnomnom/gron"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tomnomnom/gron"
   github_stars: 14413

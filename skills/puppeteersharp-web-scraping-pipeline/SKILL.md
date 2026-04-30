@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/hardkoded/puppeteer-sharp"
 author: "PuppeteerSharp"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hardkoded/puppeteer-sharp"
   github_stars: 3879

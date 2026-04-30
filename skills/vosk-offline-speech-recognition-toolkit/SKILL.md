@@ -4,9 +4,11 @@ description: "Perform offline speech recognition across 20+ languages with Vosk.
 verification: "security_reviewed"
 source: "https://github.com/alphacep/vosk-api"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "alphacep/vosk-api"
   github_stars: 14474

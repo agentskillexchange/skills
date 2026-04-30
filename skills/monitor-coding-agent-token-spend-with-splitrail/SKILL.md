@@ -6,9 +6,11 @@ source: "https://github.com/Piebald-AI/splitrail"
 author: "Piebald AI"
 publisher_type: "organization"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Piebald-AI/splitrail"
   github_stars: 159

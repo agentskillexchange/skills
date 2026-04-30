@@ -4,9 +4,11 @@ description: "Tests authorization and policy bundles with the Open Policy Agent 
 verification: "security_reviewed"
 source: "https://github.com/open-policy-agent/opa"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "open-policy-agent/opa"
   github_stars: 11534

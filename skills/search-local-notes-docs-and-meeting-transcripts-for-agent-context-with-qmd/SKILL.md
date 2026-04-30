@@ -6,9 +6,11 @@ source: "https://github.com/tobi/qmd"
 author: "tobi"
 publisher_type: "open_source_project"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tobi/qmd"
   github_stars: 22082

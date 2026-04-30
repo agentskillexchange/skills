@@ -6,9 +6,11 @@ source: "https://github.com/norwoodj/helm-docs"
 author: "norwoodj"
 publisher_type: "Open Source Project"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "norwoodj/helm-docs"
   github_stars: 1732

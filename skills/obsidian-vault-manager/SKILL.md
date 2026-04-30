@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://help.obsidian.md/"
 author: "Obsidian"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Obsidian Vault Manager

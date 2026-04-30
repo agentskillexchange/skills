@@ -4,9 +4,11 @@ description: "Orchestrates parallel cross-browser testing across Selenium Grid n
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

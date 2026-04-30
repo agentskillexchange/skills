@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 author: "eslint"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27218

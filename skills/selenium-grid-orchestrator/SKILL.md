@@ -4,9 +4,11 @@ description: "Manages Selenium Grid 4 hub and node registration for cross-browse
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

@@ -6,9 +6,11 @@ source: "https://github.com/cloudquery/cloudquery"
 author: "cloudquery"
 publisher_type: "organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cloudquery/cloudquery"
   github_stars: 6375

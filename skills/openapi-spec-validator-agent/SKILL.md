@@ -4,9 +4,11 @@ description: "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenAPI Spec Validator

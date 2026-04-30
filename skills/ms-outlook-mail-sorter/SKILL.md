@@ -3,10 +3,13 @@ title: "Microsoft Outlook Mail Sorter"
 description: "Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies intelligent categorization with customizable rules and moves messages to appropriate folders."
 verification: "security_reviewed"
 source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
+author: "Microsoft"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # Microsoft Outlook Mail Sorter
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
 
 ## Source
 

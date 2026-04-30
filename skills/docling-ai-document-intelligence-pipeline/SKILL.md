@@ -4,9 +4,11 @@ description: "Docling is an IBM-backed open-source toolkit that converts PDF, DO
 verification: "security_reviewed"
 source: "https://github.com/docling-project/docling"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "docling-project/docling"
   github_stars: 56871

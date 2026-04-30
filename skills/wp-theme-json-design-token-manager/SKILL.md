@@ -4,9 +4,11 @@ description: "Manages WordPress theme.json design tokens including color palette
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

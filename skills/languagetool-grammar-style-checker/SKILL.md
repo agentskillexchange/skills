@@ -4,9 +4,11 @@ description: "Check grammar, style, and spelling across 25+ languages with Langu
 verification: "security_reviewed"
 source: "https://github.com/languagetool-org/languagetool"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "languagetool-org/languagetool"
   github_stars: 14238

@@ -6,9 +6,11 @@ source: "https://github.com/openrewrite/rewrite"
 author: "OpenRewrite"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openrewrite/rewrite"
   github_stars: 3395

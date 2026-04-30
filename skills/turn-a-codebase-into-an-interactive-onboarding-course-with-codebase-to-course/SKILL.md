@@ -6,9 +6,11 @@ source: "https://github.com/zarazhangrui/codebase-to-course"
 author: "zarazhangrui"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zarazhangrui/codebase-to-course"
   github_stars: 3883

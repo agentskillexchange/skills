@@ -1,19 +1,21 @@
 ---
 title: "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices"
-description: "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase’s own prioritized guidance."
+description: "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance."
 verification: "listed"
 source: "https://github.com/supabase/agent-skills/tree/main/supabase-postgres-best-practices"
 author: "Supabase"
 publisher_type: "organization"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices
 
-Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase’s own prioritized guidance.
+Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.
 
 ## Prerequisites
 

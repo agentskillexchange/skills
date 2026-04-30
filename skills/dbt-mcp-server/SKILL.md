@@ -4,9 +4,11 @@ description: "dbt MCP Server is built around dbt transformation framework. The u
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
   github_stars: 12643

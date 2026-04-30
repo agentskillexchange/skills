@@ -6,9 +6,11 @@ source: "https://github.com/webrecorder/pywb"
 author: "Webrecorder and contributors"
 publisher_type: "Open Source"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "webrecorder/pywb"
   github_stars: 1646

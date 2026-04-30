@@ -4,9 +4,11 @@ description: "Scaffolds VS Code extensions using the vscode-extension API with T
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # VS Code Extension Scaffolder

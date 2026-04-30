@@ -6,9 +6,11 @@ source: "https://github.com/alibaba/OpenSandbox"
 author: "Alibaba"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "alibaba/OpenSandbox"
   github_stars: 10207

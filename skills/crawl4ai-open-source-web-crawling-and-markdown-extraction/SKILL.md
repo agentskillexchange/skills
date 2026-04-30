@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
 author: "unclecode"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "unclecode/crawl4ai"
   github_stars: 63814

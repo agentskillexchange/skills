@@ -6,9 +6,11 @@ source: "https://github.com/openclaw/skills/tree/main/skills/steipete/tmux"
 author: "steipete"
 publisher_type: "open-source"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Remote-control tmux sessions for interactive CLI agents

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 author: "Cypress.io"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49609

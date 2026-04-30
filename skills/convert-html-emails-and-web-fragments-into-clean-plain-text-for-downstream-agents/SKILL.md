@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.npmjs.com/package/html-to-text"
 author: "Malte Legenhausen"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "html-to-text"
   npm_weekly_downloads: 8213869

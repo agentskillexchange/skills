@@ -4,9 +4,11 @@ description: "Chafa converts images, animated GIFs, and video frames into ANSI/U
 verification: "security_reviewed"
 source: "https://github.com/hpjansson/chafa"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hpjansson/chafa"
   github_stars: 4542

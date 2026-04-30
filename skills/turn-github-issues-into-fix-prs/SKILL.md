@@ -4,9 +4,11 @@ description: "Use the gh-issues workflow to fetch filtered GitHub issues, spawn 
 verification: "security_reviewed"
 source: "https://github.com/openclaw/openclaw/tree/main/skills/gh-issues"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Turn GitHub Issues into Fix PRs

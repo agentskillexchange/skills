@@ -6,9 +6,11 @@ source: "https://github.com/microsoft/skills/tree/main/.github/skills/frontend-d
 author: "Microsoft"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review

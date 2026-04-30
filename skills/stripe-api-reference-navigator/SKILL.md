@@ -4,9 +4,11 @@ description: "Navigates and queries the Stripe REST API documentation using stri
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4385

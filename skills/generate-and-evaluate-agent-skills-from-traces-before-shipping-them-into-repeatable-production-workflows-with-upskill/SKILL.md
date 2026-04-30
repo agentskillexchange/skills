@@ -6,9 +6,11 @@ source: "https://github.com/huggingface/upskill"
 author: "Hugging Face"
 publisher_type: "open_source"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "huggingface/upskill"
   github_stars: 477
@@ -35,7 +37,9 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-uv pip install upskill # or run without global install uvx upskill
+uv pip install upskill
+# or run without global install
+uvx upskill
 ```
 
 ## Documentation

@@ -4,9 +4,11 @@ description: "Use this skill when an agent needs to regenerate a typed API clien
 verification: "security_reviewed"
 source: "https://github.com/orval-labs/orval"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "orval-labs/orval"
   github_stars: 5675

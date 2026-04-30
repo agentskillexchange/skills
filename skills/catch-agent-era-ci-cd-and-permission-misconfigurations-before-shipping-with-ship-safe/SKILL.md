@@ -6,9 +6,11 @@ source: "https://github.com/asamassekou10/ship-safe"
 author: "Asa M. Assekou"
 publisher_type: "individual"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "asamassekou10/ship-safe"
   github_stars: 521

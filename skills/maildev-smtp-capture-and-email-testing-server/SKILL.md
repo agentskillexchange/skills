@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/maildev/maildev"
 author: "maildev"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "maildev/maildev"
   github_stars: 5892

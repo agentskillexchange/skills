@@ -6,9 +6,11 @@ source: "https://github.com/stackrox/kube-linter"
 author: "StackRox"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stackrox/kube-linter"
   github_stars: 3437

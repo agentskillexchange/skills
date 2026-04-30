@@ -6,9 +6,11 @@ source: "https://github.com/modelcontextprotocol/inspector"
 author: "Model Context Protocol"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/inspector"
   github_stars: 9431

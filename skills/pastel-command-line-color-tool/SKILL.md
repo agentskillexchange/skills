@@ -4,9 +4,11 @@ description: "pastel is a command-line tool for generating, analyzing, convertin
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/pastel"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sharkdp/pastel"
   github_stars: 6301

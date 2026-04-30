@@ -4,9 +4,11 @@ description: "Indexes Rust crate documentation from docs.rs using rustdoc JSON o
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Rust Crate Documentation Indexer

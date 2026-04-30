@@ -4,9 +4,11 @@ description: "Compiles Protocol Buffer definitions into language-specific gRPC c
 verification: "security_reviewed"
 source: "https://github.com/grpc/grpc-node"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grpc/grpc-node"
   github_stars: 4822

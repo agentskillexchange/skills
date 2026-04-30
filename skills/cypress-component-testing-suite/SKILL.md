@@ -4,9 +4,11 @@ description: "Implements component and E2E tests using Cypress with cy.mount, cy
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

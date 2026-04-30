@@ -4,9 +4,11 @@ description: "An agent skill built on Chatterbox by Resemble AI, a state-of-the-
 verification: "security_reviewed"
 source: "https://github.com/resemble-ai/chatterbox"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "resemble-ai/chatterbox"
   github_stars: 24089

@@ -4,9 +4,11 @@ description: "Instaloader is a Python CLI tool and library that downloads Instag
 verification: "security_reviewed"
 source: "https://github.com/instaloader/instaloader"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "instaloader/instaloader"
   github_stars: 12047

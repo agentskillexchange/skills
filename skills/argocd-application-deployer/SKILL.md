@@ -4,9 +4,11 @@ description: "Manages ArgoCD application deployments via the ArgoCD REST API and
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

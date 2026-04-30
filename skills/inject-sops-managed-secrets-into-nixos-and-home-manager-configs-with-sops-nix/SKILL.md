@@ -6,9 +6,11 @@ source: "https://github.com/Mic92/sops-nix"
 author: "Mic92"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Mic92/sops-nix"
   github_stars: 2771

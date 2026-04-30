@@ -4,9 +4,11 @@ description: "Use Storyblok’s Management API and JavaScript client to automate
 verification: "security_reviewed"
 source: "https://github.com/storyblok/storyblok-js-client"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "storyblok/storyblok-js-client"
   github_stars: 137

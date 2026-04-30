@@ -4,9 +4,11 @@ description: "Temporal is an open-source durable execution platform that lets de
 verification: "security_reviewed"
 source: "https://github.com/temporalio/temporal"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "temporalio/temporal"
   github_stars: 19402

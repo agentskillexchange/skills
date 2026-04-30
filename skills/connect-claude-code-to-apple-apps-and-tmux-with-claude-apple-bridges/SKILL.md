@@ -6,9 +6,11 @@ source: "https://github.com/more-io/claude-apple-bridges"
 author: "more-io"
 publisher_type: "organization"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "more-io/claude-apple-bridges"
   github_stars: 9

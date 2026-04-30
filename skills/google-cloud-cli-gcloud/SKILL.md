@@ -5,9 +5,11 @@ verification: "listed"
 source: "https://cloud.google.com/sdk"
 author: "Google Cloud"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Google Cloud CLI (gcloud) — Command-Line Interface for GCP

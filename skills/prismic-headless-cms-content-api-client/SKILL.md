@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/prismicio/prismic-client"
 author: "prismicio"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prismicio/prismic-client"
   github_stars: 177

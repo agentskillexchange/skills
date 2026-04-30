@@ -3,10 +3,13 @@ title: "Gutenberg Block Pattern Generator"
 description: "Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries."
 verification: "security_reviewed"
 source: "https://developer.wordpress.org/themes/patterns/registering-patterns/"
+author: "WordPress"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # Gutenberg Block Pattern Generator
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developer.wordpress.org/themes/patterns/registering-patterns/
 
 ## Source
 

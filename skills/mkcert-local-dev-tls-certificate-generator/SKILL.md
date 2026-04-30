@@ -4,9 +4,11 @@ description: "mkcert is a zero-configuration CLI tool by Filippo Valsorda that c
 verification: "security_reviewed"
 source: "https://github.com/FiloSottile/mkcert"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "FiloSottile/mkcert"
   github_stars: 58399

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/plopjs/plop"
 author: "PlopJS"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "plopjs/plop"
   github_stars: 7645

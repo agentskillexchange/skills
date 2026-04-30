@@ -4,9 +4,11 @@ description: "Analyzes Sentry project event streams via the Sentry Issues API to
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "getsentry/sentry"
   github_stars: 43486

@@ -3,10 +3,13 @@ title: "NPM Package Auditor"
 description: "Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX expression parser."
 verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
+author: "npm, Inc."
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # NPM Package Auditor
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.npmjs.com/cli/v10/using-npm/registry/
 
 ## Source
 

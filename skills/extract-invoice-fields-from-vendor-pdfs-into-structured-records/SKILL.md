@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/invoice-x/invoice2data"
 publisher_type: "open_source_project"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "invoice-x/invoice2data"
   github_stars: 2137

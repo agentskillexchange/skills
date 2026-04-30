@@ -4,9 +4,11 @@ description: "Svix is an open-source enterprise-grade webhook delivery service w
 verification: "security_reviewed"
 source: "https://github.com/svix/svix-webhooks"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "svix/svix-webhooks"
   github_stars: 3152

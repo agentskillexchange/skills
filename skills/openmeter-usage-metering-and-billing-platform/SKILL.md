@@ -6,9 +6,11 @@ source: "https://github.com/openmeterio/openmeter"
 author: "openmeterio"
 publisher_type: "Open Source Project"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openmeterio/openmeter"
   github_stars: 1899
@@ -35,7 +37,9 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-git clone git@github.com:openmeterio/openmeter.git cd openmeter/quickstart docker compose up -d
+git clone git@github.com:openmeterio/openmeter.git
+cd openmeter/quickstart
+docker compose up -d
 ```
 
 ## Documentation

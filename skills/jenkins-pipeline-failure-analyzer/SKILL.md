@@ -4,9 +4,11 @@ description: "Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json 
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

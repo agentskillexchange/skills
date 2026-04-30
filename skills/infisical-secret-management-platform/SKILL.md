@@ -4,9 +4,11 @@ description: "Infisical is an open-source platform for managing application secr
 verification: "security_reviewed"
 source: "https://github.com/Infisical/infisical"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "infisical/infisical"
   github_stars: 25635

@@ -6,9 +6,11 @@ source: "https://github.com/GitGuardian/ggshield"
 author: "GitGuardian"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "GitGuardian/ggshield"
   github_stars: 1940

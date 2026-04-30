@@ -4,9 +4,11 @@ description: "Audits CircleCI orb versions and configurations using the CircleCI
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

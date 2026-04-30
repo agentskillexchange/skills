@@ -6,9 +6,11 @@ source: "https://github.com/abhigyanpatwari/GitNexus"
 author: "abhigyanpatwari"
 publisher_type: "open_source_project"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "abhigyanpatwari/GitNexus"
   github_stars: 28499

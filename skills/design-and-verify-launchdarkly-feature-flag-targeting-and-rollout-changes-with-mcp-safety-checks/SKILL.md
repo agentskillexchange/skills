@@ -6,9 +6,11 @@ source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/feature-fla
 author: "launchdarkly"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks

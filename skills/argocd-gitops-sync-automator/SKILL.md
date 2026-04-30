@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 author: "Argo Project"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22518

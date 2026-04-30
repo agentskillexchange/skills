@@ -4,9 +4,11 @@ description: "Debugs Slack app event flows with the Bolt SDK, signature verifica
 verification: "security_reviewed"
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2898

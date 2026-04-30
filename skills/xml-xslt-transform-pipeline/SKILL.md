@@ -4,9 +4,11 @@ description: "Applies chained XSLT transformations to XML documents using lxml a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # XML XSLT Transform Pipeline

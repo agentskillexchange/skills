@@ -6,9 +6,11 @@ source: "https://github.com/google/oss-fuzz-gen"
 author: "Google"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "google/oss-fuzz-gen"
   github_stars: 1384

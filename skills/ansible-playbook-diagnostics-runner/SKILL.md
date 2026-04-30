@@ -4,9 +4,11 @@ description: "Runs Ansible diagnostic playbooks using ansible-runner and the Ans
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364

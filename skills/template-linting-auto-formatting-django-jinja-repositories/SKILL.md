@@ -6,9 +6,11 @@ source: "https://github.com/djlint/djLint"
 author: "djLint maintainers"
 publisher_type: "Open Source Project"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "djlint/djLint"
   github_stars: 911

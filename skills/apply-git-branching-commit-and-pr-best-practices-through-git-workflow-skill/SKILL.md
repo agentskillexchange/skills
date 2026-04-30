@@ -6,9 +6,11 @@ source: "https://github.com/netresearch/git-workflow-skill"
 author: "Netresearch DTT GmbH"
 publisher_type: "open_source_project"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "netresearch/git-workflow-skill"
   github_stars: 13

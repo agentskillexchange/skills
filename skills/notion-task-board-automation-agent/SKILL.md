@@ -4,9 +4,11 @@ description: "Automates Notion database workflows using the Notion API databases
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582

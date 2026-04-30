@@ -4,9 +4,11 @@ description: "Connects to IMAP email servers to classify, prioritize, and auto-l
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # IMAP Inbox Triage Agent

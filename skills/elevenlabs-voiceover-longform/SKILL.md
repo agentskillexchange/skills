@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://elevenlabs.io/docs"
 author: "ElevenLabs"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 ---
 
 # ElevenLabs Voiceover Generator for Long-Form Content

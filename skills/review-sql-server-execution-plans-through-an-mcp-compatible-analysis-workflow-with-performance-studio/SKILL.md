@@ -3,10 +3,14 @@ title: "Review SQL Server execution plans through an MCP-compatible analysis wor
 description: "Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance warnings, inspect missing-index suggestions, and turn execution-plan evidence into a reviewable tuning workflow."
 verification: "listed"
 source: "https://github.com/erikdarlingdata/PerformanceStudio"
+author: "Erik Darling Data"
+publisher_type: "company"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "erikdarlingdata/PerformanceStudio"
   github_stars: 175
@@ -15,6 +19,10 @@ tool_ecosystem:
 # Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio
 
 Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance warnings, inspect missing-index suggestions, and turn execution-plan evidence into a reviewable tuning workflow.
+
+## Prerequisites
+
+Performance Studio via its built-in MCP server or CLI, plus SQL Server execution plan files or a reachable SQL Server environment.
 
 ## Installation
 
@@ -25,6 +33,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Clone the repository or download a release from GitHub, then follow the README to run Performance Studio and enable its built-in MCP server or CLI workflow for execution-plan analysis.
+```
+
+## Documentation
+
+- https://github.com/erikdarlingdata/PerformanceStudio
 
 ## Source
 

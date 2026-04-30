@@ -4,9 +4,11 @@ description: "ntfy is an open-source HTTP-based pub-sub notification service tha
 verification: "listed"
 source: "https://github.com/binwiederhier/ntfy"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "binwiederhier/ntfy"
   github_stars: 29493

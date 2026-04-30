@@ -4,9 +4,11 @@ description: "Builds Grafana dashboards programmatically using grafonnet-lib (Js
 verification: "security_reviewed"
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/open-policy-agent/opa"
 author: "open-policy-agent"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "open-policy-agent/opa"
   github_stars: 11581

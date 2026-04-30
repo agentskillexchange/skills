@@ -6,9 +6,11 @@ source: "https://www.npmjs.com/package/smartcrop"
 author: "Jonas Wagner"
 publisher_type: "Open Source Project"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   npm_package: "smartcrop"
   npm_weekly_downloads: 49019

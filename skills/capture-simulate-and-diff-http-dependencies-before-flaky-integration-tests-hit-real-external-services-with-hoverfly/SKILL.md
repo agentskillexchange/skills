@@ -6,9 +6,11 @@ source: "https://github.com/SpectoLabs/hoverfly"
 author: "SpectoLabs"
 publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SpectoLabs/hoverfly"
   github_stars: 2482

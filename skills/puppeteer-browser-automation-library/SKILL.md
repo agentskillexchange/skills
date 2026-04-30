@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "puppeteer"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115

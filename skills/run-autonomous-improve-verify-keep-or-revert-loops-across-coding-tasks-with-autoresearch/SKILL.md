@@ -6,9 +6,11 @@ source: "https://github.com/uditgoenka/autoresearch"
 author: "uditgoenka"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "uditgoenka/autoresearch"
   github_stars: 3820

@@ -3,10 +3,13 @@ title: "GitHub REST API Paginator Library"
 description: "Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest plugin. Handles Link header parsing, rate limit detection via X-RateLimit-Remaining, and automatic retry with exponential backoff. Supports listing issues, pull requests, commits, and workflow runs with async iterator patterns."
 verification: "security_reviewed"
 source: "https://github.com/octokit/plugin-paginate-rest.js"
+author: "Octokit"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "octokit/plugin-paginate-rest.js"
   github_stars: 58
@@ -27,6 +30,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install @octokit/plugin-paginate-rest
+```
+
+## Documentation
+
+- https://github.com/octokit/plugin-paginate-rest.js#readme
 
 ## Source
 

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 author: "kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

@@ -6,9 +6,11 @@ source: "https://github.com/peak/s5cmd"
 author: "Peak"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "peak/s5cmd"
   github_stars: 4007

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/resend/resend-node"
 author: "Resend"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "resend/resend-node"
   github_stars: 887

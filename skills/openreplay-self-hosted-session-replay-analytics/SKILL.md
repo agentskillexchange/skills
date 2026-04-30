@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/openreplay/openreplay"
 author: "OpenReplay"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openreplay/openreplay"
   github_stars: 11929

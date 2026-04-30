@@ -6,9 +6,11 @@ source: "https://github.com/github/git-sizer"
 author: "GitHub"
 publisher_type: "Company"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "github/git-sizer"
   github_stars: 4014

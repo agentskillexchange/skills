@@ -4,9 +4,11 @@ description: "Scaffolds Helm 3 chart templates with Go templating best practices
 verification: "security_reviewed"
 source: "https://github.com/helm/helm"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693

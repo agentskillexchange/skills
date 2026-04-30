@@ -4,9 +4,11 @@ description: "Validates OpenAPI 3.x specifications using Spectral rulesets and g
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # OpenAPI Spec Linter & Docs Generator

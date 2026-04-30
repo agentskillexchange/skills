@@ -6,9 +6,11 @@ source: "https://github.com/pgcentralfoundation/pgrx"
 author: "PgCentral Foundation"
 publisher_type: "open_source_project"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pgcentralfoundation/pgrx"
   github_stars: 4458

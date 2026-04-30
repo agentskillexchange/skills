@@ -6,9 +6,11 @@ source: "https://github.com/elevenlabs/cli"
 author: "ElevenLabs"
 publisher_type: "vendor"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "elevenlabs/cli"
   github_stars: 49
@@ -37,7 +39,11 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-npm install -g @elevenlabs/cli # or pnpm install -g @elevenlabs/cli # then authenticate elevenlabs auth login
+npm install -g @elevenlabs/cli
+# or
+pnpm install -g @elevenlabs/cli
+# then authenticate
+elevenlabs auth login
 ```
 
 ## Documentation

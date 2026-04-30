@@ -6,9 +6,11 @@ source: "https://github.com/go-gitea/gitea"
 author: "go-gitea"
 publisher_type: "Open Source Project"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "go-gitea/gitea"
   github_stars: 54880

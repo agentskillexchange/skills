@@ -6,9 +6,11 @@ source: "https://github.com/ahmedkhaleel2004/gitdiagram"
 author: "Ahmed Khaleel"
 publisher_type: "open_source_project"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ahmedkhaleel2004/gitdiagram"
   github_stars: 15447

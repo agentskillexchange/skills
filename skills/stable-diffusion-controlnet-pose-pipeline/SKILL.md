@@ -4,9 +4,11 @@ description: "Orchestrates Stable Diffusion image generation with ControlNet pos
 verification: "security_reviewed"
 source: "https://github.com/lllyasviel/ControlNet"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "lllyasviel/ControlNet"
   github_stars: 33793

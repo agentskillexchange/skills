@@ -3,10 +3,14 @@ title: "Bundle and validate OpenAPI files into one publishable spec with swagger
 description: "Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec."
 verification: "listed"
 source: "https://github.com/APIDevTools/swagger-cli"
+author: "APIDevTools"
+publisher_type: "organization"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-cli"
   github_stars: 517
@@ -18,6 +22,10 @@ tool_ecosystem:
 
 Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec.
 
+## Prerequisites
+
+Node.js, npm or npx, and one or more Swagger/OpenAPI JSON or YAML files with local or remote $ref targets as needed
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -27,6 +35,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install swagger-cli from npm or invoke it with npx, then run its validate or bundle commands against the root OpenAPI file to produce a single resolved artifact or CI validation result.
+```
+
+## Documentation
+
+- https://github.com/APIDevTools/swagger-cli
 
 ## Source
 

@@ -6,9 +6,11 @@ source: "https://github.com/cargo-bins/cargo-binstall"
 author: "cargo-bins"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cargo-bins/cargo-binstall"
   github_stars: 2610

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/streetsidesoftware/cspell"
 author: "streetsidesoftware"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "streetsidesoftware/cspell"
   github_stars: 1616

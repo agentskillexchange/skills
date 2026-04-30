@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://protobuf.dev/"
 author: "Protocol Buffers"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Protocol Buffers Documentation Compiler

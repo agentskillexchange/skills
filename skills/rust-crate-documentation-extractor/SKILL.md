@@ -4,9 +4,11 @@ description: "Extracts and indexes Rust crate documentation using cargo-doc, doc
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-extractor/"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Rust Crate Documentation Extractor

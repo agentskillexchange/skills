@@ -4,9 +4,11 @@ description: "linkding is a minimal, fast, self-hosted bookmark manager with a f
 verification: "security_reviewed"
 source: "https://github.com/sissbruecker/linkding"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "sissbruecker/linkding"
   github_stars: 10379

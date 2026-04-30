@@ -4,9 +4,11 @@ description: "yt-dlp is a powerful command-line tool for downloading audio and v
 verification: "security_reviewed"
 source: "https://github.com/yt-dlp/yt-dlp"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "yt-dlp/yt-dlp"
   github_stars: 154307

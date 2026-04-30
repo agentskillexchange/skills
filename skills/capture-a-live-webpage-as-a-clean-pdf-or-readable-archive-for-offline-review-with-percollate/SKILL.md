@@ -6,9 +6,11 @@ source: "https://github.com/danburzo/percollate"
 author: "danburzo"
 publisher_type: "open_source_project"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "danburzo/percollate"
   github_stars: 4620

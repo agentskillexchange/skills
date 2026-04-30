@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/prettier/prettier"
 author: "Prettier"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prettier/prettier"
   github_stars: 51820

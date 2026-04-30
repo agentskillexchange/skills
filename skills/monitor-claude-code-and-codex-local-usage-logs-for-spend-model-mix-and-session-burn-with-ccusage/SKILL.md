@@ -6,9 +6,11 @@ source: "https://github.com/ryoppippi/ccusage"
 author: "ryoppippi"
 publisher_type: "individual"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ryoppippi/ccusage"
   github_stars: 12900

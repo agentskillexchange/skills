@@ -4,9 +4,11 @@ description: "Transcodes and processes audio files using the FFmpeg CLI and liba
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 58972

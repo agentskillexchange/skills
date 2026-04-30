@@ -4,9 +4,11 @@ description: "Reads Apache Parquet files using PyArrow and bulk-loads them into 
 verification: "listed"
 source: "https://agentskillexchange.com/skills/parquet-to-postgresql-loader/"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Parquet to PostgreSQL Loader

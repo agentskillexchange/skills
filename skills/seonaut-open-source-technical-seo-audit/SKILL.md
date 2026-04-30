@@ -4,9 +4,11 @@ description: "SEOnaut is an open-source SEO auditing tool built with Go that cra
 verification: "security_reviewed"
 source: "https://github.com/StJudeWasHere/seonaut"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "StJudeWasHere/seonaut"
   github_stars: 673

@@ -4,9 +4,11 @@ description: "Newsboat is an actively maintained RSS/Atom feed reader for the te
 verification: "security_reviewed"
 source: "https://github.com/newsboat/newsboat"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "newsboat/newsboat"
   github_stars: 3750

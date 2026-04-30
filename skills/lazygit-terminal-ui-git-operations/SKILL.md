@@ -4,9 +4,11 @@ description: "A simple terminal user interface for git commands built with Go. l
 verification: "security_reviewed"
 source: "https://github.com/jesseduffield/lazygit"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jesseduffield/lazygit"
   github_stars: 75400

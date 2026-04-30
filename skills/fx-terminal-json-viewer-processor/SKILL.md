@@ -4,9 +4,11 @@ description: "fx is a terminal-based JSON viewer and processor that provides an 
 verification: "security_reviewed"
 source: "https://github.com/antonmedv/fx"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "antonmedv/fx"
   github_stars: 20376

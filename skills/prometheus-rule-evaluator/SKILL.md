@@ -4,9 +4,11 @@ description: "Validates and tests Prometheus alerting rules against historical m
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

@@ -4,9 +4,11 @@ description: "An agent skill built on SVGO (SVG Optimizer), the Node.js tool for
 verification: "security_reviewed"
 source: "https://github.com/svg/svgo"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "svg/svgo"
   github_stars: 22412

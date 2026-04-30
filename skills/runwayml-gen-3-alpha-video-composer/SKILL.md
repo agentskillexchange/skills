@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 author: "FFmpeg"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/grafana/grafana"
 author: "grafana"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73493

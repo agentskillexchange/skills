@@ -4,9 +4,11 @@ description: "A smarter cd command written in Rust, inspired by z and autojump. 
 verification: "security_reviewed"
 source: "https://github.com/ajeetdsouza/zoxide"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ajeetdsouza/zoxide"
   github_stars: 35119

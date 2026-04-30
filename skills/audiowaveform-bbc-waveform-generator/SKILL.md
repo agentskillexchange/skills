@@ -4,9 +4,11 @@ description: "audiowaveform is a BBC open-source C++ CLI tool that generates wav
 verification: "security_reviewed"
 source: "https://github.com/bbc/audiowaveform"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bbc/audiowaveform"
   github_stars: 2130

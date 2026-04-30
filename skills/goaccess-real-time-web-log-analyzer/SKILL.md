@@ -4,9 +4,11 @@ description: "GoAccess is an open-source real-time web log analyzer that runs in
 verification: "security_reviewed"
 source: "https://github.com/allinurl/goaccess"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "allinurl/goaccess"
   github_stars: 20377

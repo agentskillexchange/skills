@@ -4,9 +4,11 @@ description: "Hanko is an open-source authentication and user management platfor
 verification: "security_reviewed"
 source: "https://github.com/teamhanko/hanko"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "teamhanko/hanko"
   github_stars: 8893

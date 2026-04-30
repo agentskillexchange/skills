@@ -4,9 +4,11 @@ description: "Mitosis lets you write UI components once and compile them to Reac
 verification: "security_reviewed"
 source: "https://github.com/BuilderIO/mitosis"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "BuilderIO/mitosis"
   github_stars: 13808

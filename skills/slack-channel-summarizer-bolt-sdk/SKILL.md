@@ -4,9 +4,11 @@ description: "Generates channel summaries using Slack Bolt SDK with conversation
 verification: "security_reviewed"
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2900

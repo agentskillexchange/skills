@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/open-policy-agent/conftest"
 author: "Open Policy Agent"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "open-policy-agent/conftest"
   github_stars: 3155

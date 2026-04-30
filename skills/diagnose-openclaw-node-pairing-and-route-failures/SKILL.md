@@ -6,9 +6,11 @@ source: "https://github.com/openclaw/openclaw/tree/main/skills/node-connect"
 author: "openclaw"
 publisher_type: "open-source"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Diagnose OpenClaw node pairing and route failures

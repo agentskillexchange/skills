@@ -4,9 +4,11 @@ description: "Vale is an open-source, markup-aware prose linter that enforces ed
 verification: "security_reviewed"
 source: "https://github.com/vale-cli/vale"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "vale-cli/vale"
   github_stars: 5316

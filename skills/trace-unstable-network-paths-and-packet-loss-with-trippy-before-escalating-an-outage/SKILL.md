@@ -6,9 +6,11 @@ source: "https://github.com/fujiapple852/trippy"
 author: "fujiapple852"
 publisher_type: "user"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "fujiapple852/trippy"
   github_stars: 6796

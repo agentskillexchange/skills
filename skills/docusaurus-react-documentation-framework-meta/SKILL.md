@@ -4,9 +4,11 @@ description: "Docusaurus is an open-source static site generator built with Reac
 verification: "security_reviewed"
 source: "https://github.com/facebook/docusaurus"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "facebook/docusaurus"
   github_stars: 64315

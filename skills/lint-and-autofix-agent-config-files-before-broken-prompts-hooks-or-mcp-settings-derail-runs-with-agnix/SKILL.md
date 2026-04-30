@@ -6,9 +6,11 @@ source: "https://github.com/agent-sh/agnix"
 author: "agent-sh"
 publisher_type: "open_source"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "agent-sh/agnix"
   github_stars: 179
@@ -37,7 +39,11 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-npm install -g agnix # or brew tap agent-sh/agnix && brew install agnix # or cargo install agnix-cli
+npm install -g agnix
+# or
+brew tap agent-sh/agnix && brew install agnix
+# or
+cargo install agnix-cli
 ```
 
 ## Documentation

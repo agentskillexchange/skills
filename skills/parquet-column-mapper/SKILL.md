@@ -4,9 +4,11 @@ description: "Reads and transforms Apache Parquet file metadata and column stati
 verification: "listed"
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ironsource/parquetjs"
   github_stars: 387

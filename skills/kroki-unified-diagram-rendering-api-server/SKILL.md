@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/yuzutech/kroki"
 author: "Yuzu tech"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "yuzutech/kroki"
   github_stars: 4072

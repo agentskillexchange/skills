@@ -6,9 +6,11 @@ source: "https://github.com/z3z1ma/dbt-osmosis"
 author: "z3z1ma"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "z3z1ma/dbt-osmosis"
   github_stars: 622

@@ -6,9 +6,11 @@ source: "https://github.com/moonrunnerkc/swarm-orchestrator"
 author: "moonrunnerkc"
 publisher_type: "individual"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moonrunnerkc/swarm-orchestrator"
   github_stars: 83

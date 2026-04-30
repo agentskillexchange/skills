@@ -4,9 +4,11 @@ description: "Sonic is a fast, lightweight, and schema-less search backend writt
 verification: "security_reviewed"
 source: "https://github.com/valeriansaliou/sonic"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "valeriansaliou/sonic"
   github_stars: 21176

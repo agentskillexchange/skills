@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/aws/aws-cdk"
 author: "aws"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12737

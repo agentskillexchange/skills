@@ -6,9 +6,11 @@ source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
 publisher_type: "open_source_collective"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94016

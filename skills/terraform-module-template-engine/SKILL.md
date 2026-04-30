@@ -4,9 +4,11 @@ description: "Scaffolds production-ready Terraform modules using HCL templates w
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

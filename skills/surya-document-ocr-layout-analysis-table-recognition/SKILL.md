@@ -4,9 +4,11 @@ description: "Surya is a document OCR toolkit by Datalab that performs OCR in 90
 verification: "security_reviewed"
 source: "https://github.com/VikParuchuri/surya"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "vikparuchuri/surya"
   github_stars: 19530

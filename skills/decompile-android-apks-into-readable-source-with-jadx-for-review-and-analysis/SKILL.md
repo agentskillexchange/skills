@@ -6,9 +6,11 @@ source: "https://github.com/skylot/jadx"
 author: "skylot"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "skylot/jadx"
   github_stars: 46142

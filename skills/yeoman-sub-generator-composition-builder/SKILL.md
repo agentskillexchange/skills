@@ -4,9 +4,11 @@ description: "Orchestrates Yeoman generator composition by chaining sub-generato
 verification: "security_reviewed"
 source: "https://github.com/yeoman/yo"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3953

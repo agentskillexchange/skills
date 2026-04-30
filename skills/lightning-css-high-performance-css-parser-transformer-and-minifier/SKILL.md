@@ -6,9 +6,11 @@ source: "https://github.com/parcel-bundler/lightningcss"
 author: "parcel-bundler"
 publisher_type: "Open Source Project"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "parcel-bundler/lightningcss"
   github_stars: 7502

@@ -3,10 +3,13 @@ title: "npm Registry Analyzer"
 description: "Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and download trends. Uses npm-audit for security vulnerability detection against the GitHub Advisory Database."
 verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
+author: "npm, Inc."
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 ---
 
 # npm Registry Analyzer
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.npmjs.com/cli/v10/using-npm/registry/
 
 ## Source
 

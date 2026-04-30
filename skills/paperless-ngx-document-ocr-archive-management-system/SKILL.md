@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/paperless-ngx/paperless-ngx"
 author: "paperless-ngx"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "paperless-ngx/paperless-ngx"
   github_stars: 38063

@@ -6,9 +6,11 @@ source: "https://github.com/HeadyZhang/agent-audit"
 author: "Agent Security Team"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "HeadyZhang/agent-audit"
   github_stars: 149

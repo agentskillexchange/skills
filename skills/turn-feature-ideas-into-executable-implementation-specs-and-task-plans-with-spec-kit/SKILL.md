@@ -6,9 +6,11 @@ source: "https://github.com/github/spec-kit"
 author: "GitHub"
 publisher_type: "organization"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "github/spec-kit"
   github_stars: 88536

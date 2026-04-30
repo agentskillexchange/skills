@@ -4,9 +4,11 @@ description: "Deploys models from Hugging Face Hub to Inference Endpoints using 
 verification: "security_reviewed"
 source: "https://github.com/huggingface/transformers"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159358

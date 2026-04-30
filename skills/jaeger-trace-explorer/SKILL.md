@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/jaegertracing/jaeger"
 author: "Jaeger - Distributed Tracing Platform"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jaegertracing/jaeger"
   github_stars: 22671

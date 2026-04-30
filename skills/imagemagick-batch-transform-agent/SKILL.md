@@ -4,9 +4,11 @@ description: "Automates ImageMagick convert and mogrify operations for bulk imag
 verification: "security_reviewed"
 source: "https://github.com/ImageMagick/ImageMagick"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "imagemagick/imagemagick"
   github_stars: 16152

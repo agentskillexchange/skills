@@ -4,9 +4,11 @@ description: "Vitest is a blazing-fast unit testing framework powered by Vite. I
 verification: "security_reviewed"
 source: "https://github.com/vitest-dev/vitest"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "vitest-dev/vitest"
   github_stars: 16296

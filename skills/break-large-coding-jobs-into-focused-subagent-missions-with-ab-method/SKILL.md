@@ -6,9 +6,11 @@ source: "https://github.com/ayoubben18/ab-method"
 author: "ayoubben18"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ayoubben18/ab-method"
   github_stars: 159

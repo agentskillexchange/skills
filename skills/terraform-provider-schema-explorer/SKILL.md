@@ -4,9 +4,11 @@ description: "Explores HashiCorp Terraform provider schemas using terraform prov
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

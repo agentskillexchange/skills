@@ -4,9 +4,11 @@ description: "A fast, declarative, and reproducible developer environment tool b
 verification: "security_reviewed"
 source: "https://github.com/cachix/devenv"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cachix/devenv"
   github_stars: 6614

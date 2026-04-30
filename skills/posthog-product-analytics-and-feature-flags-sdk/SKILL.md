@@ -4,9 +4,11 @@ description: "Use PostHog to capture product analytics events, identify users, e
 verification: "security_reviewed"
 source: "https://github.com/PostHog/posthog-js"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "posthog/posthog-js"
   github_stars: 531

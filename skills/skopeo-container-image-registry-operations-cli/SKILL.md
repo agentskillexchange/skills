@@ -4,9 +4,11 @@ description: "Skopeo is a command-line tool for working with container images an
 verification: "security_reviewed"
 source: "https://github.com/containers/skopeo"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "containers/skopeo"
   github_stars: 10665

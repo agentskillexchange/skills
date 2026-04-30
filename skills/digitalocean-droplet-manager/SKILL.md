@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/digitalocean/doctl"
 author: "DigitalOcean"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "digitalocean/doctl"
   github_stars: 3417

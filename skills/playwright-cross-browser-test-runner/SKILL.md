@@ -4,9 +4,11 @@ description: "Runs end-to-end browser tests using Playwright Test with page.goto
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86409

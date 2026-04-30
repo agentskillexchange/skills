@@ -4,9 +4,11 @@ description: "Searches the USPTO PatentsView API and European Patent Office OPS 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/patent-landscape-analyzer/"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Patent Landscape Analyzer

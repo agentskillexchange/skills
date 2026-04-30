@@ -6,9 +6,11 @@ source: "https://github.com/affaan-m/agentshield"
 author: "affaan-m"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "affaan-m/agentshield"
   github_stars: 388

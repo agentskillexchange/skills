@@ -6,9 +6,11 @@ source: "https://github.com/SigNoz/signoz"
 author: "SigNoz"
 publisher_type: "Company"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SigNoz/signoz"
   github_stars: 26517

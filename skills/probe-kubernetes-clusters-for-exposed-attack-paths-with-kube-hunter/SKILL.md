@@ -6,9 +6,11 @@ source: "https://github.com/aquasecurity/kube-hunter"
 author: "Aqua Security"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aquasecurity/kube-hunter"
   github_stars: 5040

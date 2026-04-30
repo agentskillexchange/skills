@@ -4,9 +4,11 @@ description: "Configures Grafana Loki log pipelines with Promtail collectors and
 verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "grafana/loki"
   github_stars: 27993

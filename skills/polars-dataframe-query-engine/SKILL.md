@@ -4,9 +4,11 @@ description: "Polars is an extremely fast DataFrame library written in Rust with
 verification: "security_reviewed"
 source: "https://github.com/pola-rs/polars"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "pola-rs/polars"
   github_stars: 37924

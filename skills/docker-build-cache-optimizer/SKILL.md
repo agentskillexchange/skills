@@ -4,9 +4,11 @@ description: "Optimizes Docker build performance using BuildKit cache mount anal
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

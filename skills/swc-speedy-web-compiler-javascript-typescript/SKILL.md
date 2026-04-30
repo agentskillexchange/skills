@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/swc-project/swc"
 author: "swc"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "swc-project/swc"
   github_stars: 33347

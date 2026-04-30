@@ -4,9 +4,11 @@ description: "Constructs incident timelines from PagerDuty Events API v2, Datado
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-timeline-builder/"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 ---
 
 # Incident Timeline Builder

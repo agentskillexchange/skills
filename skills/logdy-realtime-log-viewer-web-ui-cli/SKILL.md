@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/logdyhq/logdy-core"
 author: "Logdy"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "logdyhq/logdy-core"
   github_stars: 2148

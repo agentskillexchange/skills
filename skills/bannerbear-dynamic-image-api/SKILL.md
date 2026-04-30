@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://developers.bannerbear.com/v2/"
 author: "Bannerbear"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Bannerbear Dynamic Image API

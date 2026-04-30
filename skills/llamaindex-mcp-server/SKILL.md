@@ -4,9 +4,11 @@ description: "LlamaIndex MCP Server is built around LlamaIndex framework for LLM
 verification: "security_reviewed"
 source: "https://github.com/run-llama/llama_index"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
   github_stars: 49029

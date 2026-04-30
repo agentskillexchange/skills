@@ -6,9 +6,11 @@ source: "https://github.com/argoproj-labs/argocd-image-updater"
 author: "Argo Project Labs"
 publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "argoproj-labs/argocd-image-updater"
   github_stars: 1661

@@ -6,9 +6,11 @@ source: "https://github.com/shiehn/DeclarAgent"
 author: "shiehn"
 publisher_type: "individual"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "shiehn/DeclarAgent"
   github_stars: 11

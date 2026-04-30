@@ -6,9 +6,11 @@ source: "https://github.com/Dicklesworthstone/claude_code_agent_farm"
 author: "Dicklesworthstone"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Dicklesworthstone/claude_code_agent_farm"
   github_stars: 784

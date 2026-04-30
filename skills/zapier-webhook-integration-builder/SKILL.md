@@ -4,9 +4,11 @@ description: "Creates and manages Zapier integrations using the Zapier Platform 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zapier-webhook-integration-builder/"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Zapier Webhook Integration Builder

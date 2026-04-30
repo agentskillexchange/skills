@@ -6,9 +6,11 @@ source: "https://github.com/F1bonacc1/process-compose"
 author: "F1bonacc1"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "F1bonacc1/process-compose"
   github_stars: 2303

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/nylas/nylas-python"
 author: "Nylas"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nylas/nylas-python"
   github_stars: 106

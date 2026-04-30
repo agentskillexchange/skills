@@ -6,9 +6,11 @@ source: "https://github.com/SierraSoftworks/github-backup"
 author: "Sierra Softworks"
 publisher_type: "open_source_project"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SierraSoftworks/github-backup"
   github_stars: 33

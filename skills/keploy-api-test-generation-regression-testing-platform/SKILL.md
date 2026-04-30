@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/keploy/keploy"
 author: "keploy"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "keploy/keploy"
   github_stars: 17090

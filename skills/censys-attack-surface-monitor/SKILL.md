@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://docs.censys.com/docs/internet-scanning"
 author: "Censys"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Censys Attack Surface Monitor

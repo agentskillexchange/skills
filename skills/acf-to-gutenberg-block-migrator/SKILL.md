@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/"
 author: "WP Engine"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # ACF to Gutenberg Block Migrator
@@ -23,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://www.advancedcustomfields.com/resources/acf_register_block_type/
 
 ## Source
 

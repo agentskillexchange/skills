@@ -4,9 +4,11 @@ description: "Configures and manages Prometheus AlertManager routing trees and s
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

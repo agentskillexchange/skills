@@ -3,10 +3,13 @@ title: "Codecov Coverage Tracker"
 description: "Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API."
 verification: "security_reviewed"
 source: "https://docs.codecov.com/reference/repos_commits_list"
+author: "Codecov"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Codecov Coverage Tracker
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.codecov.com/reference/repos_commits_list
 
 ## Source
 

@@ -3,10 +3,13 @@ title: "Cloudinary Media Optimization Agent"
 description: "Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent cropping with gravity detection."
 verification: "security_reviewed"
 source: "https://cloudinary.com/documentation"
+author: "Cloudinary"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Cloudinary Media Optimization Agent
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://cloudinary.com/documentation
 
 ## Source
 

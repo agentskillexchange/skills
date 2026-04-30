@@ -4,9 +4,11 @@ description: "On-the-fly image optimization using Sharp (libvips Node.js binding
 verification: "security_reviewed"
 source: "https://github.com/lovell/sharp"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138

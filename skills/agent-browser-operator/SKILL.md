@@ -6,10 +6,11 @@ source: "https://github.com/microsoft/playwright"
 author: "microsoft"
 publisher_type: "open_source_collective"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 87593

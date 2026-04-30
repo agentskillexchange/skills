@@ -4,9 +4,11 @@ description: "Nango is an open-source platform for building product integrations
 verification: "security_reviewed"
 source: "https://github.com/NangoHQ/nango"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "NangoHQ/nango"
   github_stars: 7003

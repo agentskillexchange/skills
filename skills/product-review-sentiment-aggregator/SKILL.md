@@ -4,9 +4,11 @@ description: "Collects and analyzes product reviews from Amazon Product API and 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Product Review Sentiment Aggregator

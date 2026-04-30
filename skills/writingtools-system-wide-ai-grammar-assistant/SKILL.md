@@ -4,9 +4,11 @@ description: "WritingTools is an open-source, Apple Intelligence-inspired writin
 verification: "security_reviewed"
 source: "https://github.com/theJayTea/WritingTools"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
   github_stars: 2186

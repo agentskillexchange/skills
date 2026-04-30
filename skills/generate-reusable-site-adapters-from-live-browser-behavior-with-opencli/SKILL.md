@@ -6,9 +6,11 @@ source: "https://github.com/jackwener/OpenCLI"
 author: "jackwener"
 publisher_type: "open_source_project"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jackwener/OpenCLI"
   github_stars: 16273

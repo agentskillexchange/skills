@@ -3,10 +3,13 @@ title: "ScrapingBee API Data Harvester"
 description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
 verification: "security_reviewed"
 source: "https://www.scrapingbee.com/documentation/"
+author: "ScrapingBee"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # ScrapingBee API Data Harvester
@@ -22,6 +25,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://www.scrapingbee.com/documentation/
 
 ## Source
 

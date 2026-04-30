@@ -4,9 +4,11 @@ description: "Connects to the Sentry API v0 to analyze error trends, group simil
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "getsentry/sentry"
   github_stars: 43576

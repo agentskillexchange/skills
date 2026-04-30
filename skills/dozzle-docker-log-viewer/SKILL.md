@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/amir20/dozzle"
 author: "Amir Raminfar"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "amir20/dozzle"
   github_stars: 12360

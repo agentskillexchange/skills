@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/dsherret/ts-morph"
 author: "David Sherret"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dsherret/ts-morph"
   github_stars: 6021

@@ -6,9 +6,11 @@ source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci"
 author: "OpenAI"
 publisher_type: "organization"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci

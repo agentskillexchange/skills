@@ -6,9 +6,11 @@ source: "https://github.com/ucbepic/docetl"
 author: "UCB EPIC"
 publisher_type: "organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ucbepic/docetl"
   github_stars: 3707

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
 author: "Amazon Web Services"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # AWS CloudFormation Drift Detector

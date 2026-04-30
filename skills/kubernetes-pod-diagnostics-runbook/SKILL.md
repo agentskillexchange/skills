@@ -4,9 +4,11 @@ description: "Automates Kubernetes troubleshooting using kubectl and the Kuberne
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

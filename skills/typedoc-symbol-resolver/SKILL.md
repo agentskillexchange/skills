@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/TypeStrong/typedoc"
 author: "TypeStrong"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "TypeStrong/typedoc"
   github_stars: 8391

@@ -4,9 +4,11 @@ description: "Use the Harness MCP Server when an agent needs governed access to 
 verification: "security_reviewed"
 source: "https://github.com/harness/mcp-server"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "harness/mcp-server"
   github_stars: 43

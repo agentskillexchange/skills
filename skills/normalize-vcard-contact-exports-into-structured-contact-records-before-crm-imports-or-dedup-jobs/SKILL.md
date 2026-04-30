@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/py-vobject/vobject"
 publisher_type: "GitHub Organization"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "py-vobject/vobject"
   github_stars: 50

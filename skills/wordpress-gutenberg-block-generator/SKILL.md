@@ -4,9 +4,11 @@ description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-bloc
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

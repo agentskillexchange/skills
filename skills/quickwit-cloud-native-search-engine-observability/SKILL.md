@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/quickwit-oss/quickwit"
 author: "Quickwit OSS"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "quickwit-oss/quickwit"
   github_stars: 11067

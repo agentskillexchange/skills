@@ -6,9 +6,11 @@ source: "https://github.com/peterskoett/self-improving-agent"
 author: "Peter Skoett"
 publisher_type: "individual"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "peterskoett/self-improving-agent"
   github_stars: 576

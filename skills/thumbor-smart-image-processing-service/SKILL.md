@@ -4,9 +4,11 @@ description: "An agent skill that leverages Thumbor, the open-source smart image
 verification: "security_reviewed"
 source: "https://github.com/thumbor/thumbor"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "thumbor/thumbor"
   github_stars: 10470

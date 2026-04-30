@@ -6,9 +6,11 @@ source: "https://github.com/checkmake/checkmake"
 author: "checkmake maintainers"
 publisher_type: "Open Source Project"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "checkmake/checkmake"
   github_stars: 1188

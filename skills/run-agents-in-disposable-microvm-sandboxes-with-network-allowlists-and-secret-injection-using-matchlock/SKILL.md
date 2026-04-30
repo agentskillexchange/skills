@@ -6,9 +6,11 @@ source: "https://github.com/jingkaihe/matchlock"
 author: "jingkaihe"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jingkaihe/matchlock"
   github_stars: 552

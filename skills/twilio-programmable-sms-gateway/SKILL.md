@@ -4,9 +4,11 @@ description: "Sends and receives SMS/MMS messages via Twilio REST API with webho
 verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1528

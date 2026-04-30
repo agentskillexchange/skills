@@ -6,9 +6,11 @@ source: "https://github.com/bloomberg/memray"
 author: "Bloomberg"
 publisher_type: "organization"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bloomberg/memray"
   github_stars: 14986

@@ -6,9 +6,11 @@ source: "https://github.com/facelessuser/pyspelling"
 author: "facelessuser"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "facelessuser/pyspelling"
   github_stars: 94

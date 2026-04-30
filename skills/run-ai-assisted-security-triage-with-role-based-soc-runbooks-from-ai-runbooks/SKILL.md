@@ -6,9 +6,11 @@ source: "https://github.com/dandye/ai-runbooks"
 author: "Dan Dye"
 publisher_type: "individual"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "dandye/ai-runbooks"
   github_stars: 96

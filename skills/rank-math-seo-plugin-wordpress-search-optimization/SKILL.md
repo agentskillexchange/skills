@@ -6,9 +6,11 @@ source: "https://wordpress.org/plugins/seo-by-rank-math/"
 author: "Rank Math SEO"
 publisher_type: "Company"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Rank Math SEO Plugin for WordPress Search Optimization

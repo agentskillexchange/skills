@@ -4,9 +4,11 @@ description: "Classifies and organizes emails from IMAP servers using imaplib an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # IMAP Email Classifier

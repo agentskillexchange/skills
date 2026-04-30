@@ -6,9 +6,11 @@ source: "https://github.com/projen/projen"
 author: "projen"
 publisher_type: "open_source_project"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "projen/projen"
   github_stars: 2918

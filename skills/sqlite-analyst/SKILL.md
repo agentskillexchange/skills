@@ -4,9 +4,11 @@ description: "SQLite Analyst is built around SQLite embedded database. The under
 verification: "security_reviewed"
 source: "https://github.com/WiseLibs/better-sqlite3"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wiselibs/better-sqlite3"
   github_stars: 7111

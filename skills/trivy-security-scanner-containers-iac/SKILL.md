@@ -6,9 +6,11 @@ source: "https://github.com/aquasecurity/trivy"
 author: "Aqua Security"
 publisher_type: "Company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "aquasecurity/trivy"
   github_stars: 34481

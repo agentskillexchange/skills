@@ -6,9 +6,11 @@ source: "https://github.com/zizmorcore/zizmor"
 author: "zizmorcore"
 publisher_type: "Open Source Project"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "zizmorcore/zizmor"
   github_stars: 4145

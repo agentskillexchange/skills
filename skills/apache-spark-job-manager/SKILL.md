@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/apache/spark"
 author: "apache"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "apache/spark"
   github_stars: 43119

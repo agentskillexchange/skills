@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://plaid.com/docs/"
 author: "Plaid"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 ---
 
 # Plaid Financial Data Aggregator & Budget Classifier

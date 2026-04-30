@@ -6,9 +6,11 @@ source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review
 author: "addyosmani"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Multi-Axis Code Review and Quality Gates

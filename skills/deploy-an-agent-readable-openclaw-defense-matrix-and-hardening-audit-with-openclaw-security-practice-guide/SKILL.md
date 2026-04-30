@@ -6,9 +6,11 @@ source: "https://github.com/slowmist/openclaw-security-practice-guide"
 author: "SlowMist"
 publisher_type: "community"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "slowmist/openclaw-security-practice-guide"
   github_stars: 2791

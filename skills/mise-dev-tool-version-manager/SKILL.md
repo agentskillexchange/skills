@@ -4,9 +4,11 @@ description: "Use mise (mise-en-place) to manage development tool versions, envi
 verification: "listed"
 source: "https://github.com/jdx/mise"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jdx/mise"
   github_stars: 26298

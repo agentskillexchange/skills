@@ -4,9 +4,11 @@ description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image g
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813

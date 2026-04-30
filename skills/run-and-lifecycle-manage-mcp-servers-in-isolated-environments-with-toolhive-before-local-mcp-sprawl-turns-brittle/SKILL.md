@@ -6,9 +6,11 @@ source: "https://github.com/stacklok/toolhive"
 author: "Stacklok"
 publisher_type: "organization"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "stacklok/toolhive"
   github_stars: 1718

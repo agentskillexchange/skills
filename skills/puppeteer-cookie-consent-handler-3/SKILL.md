@@ -4,9 +4,11 @@ description: "Detects and dismisses cookie consent banners across websites using
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115

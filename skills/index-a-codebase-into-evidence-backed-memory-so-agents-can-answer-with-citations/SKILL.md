@@ -6,9 +6,11 @@ source: "https://github.com/Bpolat0/atlasmemory"
 author: "Mehmet Batuhan Polat"
 publisher_type: "individual"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Bpolat0/atlasmemory"
   github_stars: 5

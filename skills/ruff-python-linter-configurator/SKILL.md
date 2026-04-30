@@ -3,10 +3,13 @@ title: "Ruff Python Linter Configurator"
 description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
 verification: "security_reviewed"
 source: "https://github.com/astral-sh/ruff"
+author: "Astral"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "astral-sh/ruff"
   github_stars: 47246
@@ -25,6 +28,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install ruff
+```
+
+## Documentation
+
+- https://docs.astral.sh/ruff/
 
 ## Source
 

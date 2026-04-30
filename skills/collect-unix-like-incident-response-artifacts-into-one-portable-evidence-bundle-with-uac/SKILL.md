@@ -6,9 +6,11 @@ source: "https://github.com/tclahr/uac"
 author: "tclahr"
 publisher_type: "individual"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tclahr/uac"
   github_stars: 1306

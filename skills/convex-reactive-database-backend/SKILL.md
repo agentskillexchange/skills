@@ -4,9 +4,11 @@ description: "Convex is an open-source reactive database for app developers. Wri
 verification: "security_reviewed"
 source: "https://github.com/get-convex/convex-backend"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "get-convex/convex-backend"
   github_stars: 11179

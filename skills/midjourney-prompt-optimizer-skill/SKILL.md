@@ -1,18 +1,20 @@
 ---
 title: "Midjourney Prompt Optimizer"
-description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
+description: "Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags. Generates prompt variations with style references (--sref) and character references (--cref) for consistent image output."
 verification: "security_reviewed"
 source: "https://docs.midjourney.com/hc/en-us/categories/32013335627533-Documentation"
 author: "Midjourney"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # Midjourney Prompt Optimizer
 
-Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output.
+Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags. Generates prompt variations with style references (--sref) and character references (--cref) for consistent image output.
 
 ## Installation
 

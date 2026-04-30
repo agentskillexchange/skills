@@ -3,15 +3,22 @@ title: "Kubernetes CrashLoopBackOff Diagnoser"
 description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps."
 verification: "security_reviewed"
 source: "https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/"
+author: "Kubernetes"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 ---
 
 # Kubernetes CrashLoopBackOff Diagnoser
 
 Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps.
+
+## Prerequisites
+
+kubectl, Kubernetes API
 
 ## Installation
 
@@ -22,6 +29,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
 
 ## Source
 

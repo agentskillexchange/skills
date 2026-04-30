@@ -4,9 +4,11 @@ description: "Inspects and debugs OAuth 2.0 authorization flows including PKCE, 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/oauth2-flow-debugger/"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "ChatGPT Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # OAuth2 Flow Debugger

@@ -4,9 +4,11 @@ description: "Bidirectional Salesforce integration using jsforce library and the
 verification: "security_reviewed"
 source: "https://github.com/jsforce/jsforce"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
   github_stars: 1453

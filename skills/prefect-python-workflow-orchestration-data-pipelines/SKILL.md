@@ -4,9 +4,11 @@ description: "Prefect is a Python workflow orchestration framework for building 
 verification: "security_reviewed"
 source: "https://github.com/PrefectHQ/prefect"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "PrefectHQ/prefect"
   github_stars: 22145

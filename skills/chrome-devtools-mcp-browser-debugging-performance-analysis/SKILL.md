@@ -6,9 +6,11 @@ source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 author: "ChromeDevTools"
 publisher_type: "Open Source Project"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "MCP"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ChromeDevTools/chrome-devtools-mcp"
   github_stars: 34239

@@ -1,12 +1,14 @@
 ---
 title: "Semgrep Rule Author"
-description: "Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically."
+description: "Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate to verify rule syntax and semgrep --test to run against sample code fixtures automatically."
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794
@@ -14,7 +16,7 @@ tool_ecosystem:
 
 # Semgrep Rule Author
 
-Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically.
+Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate to verify rule syntax and semgrep --test to run against sample code fixtures automatically.
 
 ## Installation
 

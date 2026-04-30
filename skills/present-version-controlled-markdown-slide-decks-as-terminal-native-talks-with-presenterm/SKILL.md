@@ -6,9 +6,11 @@ source: "https://github.com/mfontanini/presenterm"
 author: "mfontanini"
 publisher_type: "individual"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "mfontanini/presenterm"
   github_stars: 8246

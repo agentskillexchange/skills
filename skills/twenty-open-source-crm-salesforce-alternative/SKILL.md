@@ -4,9 +4,11 @@ description: "Twenty is a modern open-source CRM built to replace Salesforce, wi
 verification: "security_reviewed"
 source: "https://github.com/twentyhq/twenty"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "twentyhq/twenty"
   github_stars: 43525

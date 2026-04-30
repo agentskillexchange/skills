@@ -5,9 +5,11 @@ verification: "listed"
 source: "https://github.com/angular/angular"
 author: "Google / Angular Team"
 category:
-  - "Developer Tools"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "angular/angular"
   github_stars: 100106

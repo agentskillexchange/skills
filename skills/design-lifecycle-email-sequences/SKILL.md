@@ -6,9 +6,11 @@ source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email
 author: "coreyhaines31"
 publisher_type: "individual"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 ---
 
 # Design Lifecycle Email Sequences

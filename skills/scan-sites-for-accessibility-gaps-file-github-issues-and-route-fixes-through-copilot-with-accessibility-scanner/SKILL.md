@@ -6,9 +6,11 @@ source: "https://github.com/github/accessibility-scanner"
 author: "GitHub"
 publisher_type: "organization"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "github/accessibility-scanner"
   github_stars: 266

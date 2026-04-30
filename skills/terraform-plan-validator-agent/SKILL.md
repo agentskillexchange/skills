@@ -4,9 +4,11 @@ description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov.
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

@@ -4,9 +4,11 @@ description: "Captures clean site content through Firecrawl endpoints like `/v1/
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
-  - "Research & Scraping"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 102630

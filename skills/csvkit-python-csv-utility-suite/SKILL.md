@@ -4,9 +4,11 @@ description: "csvkit is a suite of Python command-line utilities for converting 
 verification: "security_reviewed"
 source: "https://github.com/wireservice/csvkit"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wireservice/csvkit"
   github_stars: 6363

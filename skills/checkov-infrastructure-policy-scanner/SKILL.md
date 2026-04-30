@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/bridgecrewio/checkov"
 author: "Bridgecrew"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Codex"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "bridgecrewio/checkov"
   github_stars: 8646

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/anthropics/anthropic-sdk-typescript"
 author: "Anthropic"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "anthropics/anthropic-sdk-typescript"
   github_stars: 1883

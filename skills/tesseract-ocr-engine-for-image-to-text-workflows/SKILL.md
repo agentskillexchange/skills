@@ -6,9 +6,11 @@ source: "https://github.com/tesseract-ocr/tesseract"
 author: "tesseract-ocr"
 publisher_type: "Community"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tesseract-ocr/tesseract"
   github_stars: 73445

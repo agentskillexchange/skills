@@ -4,9 +4,11 @@ description: "Maps and transforms data between systems using Apache Camel route 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 ---
 
 # Apache Camel Route Data Mapper

@@ -4,9 +4,11 @@ description: "Lint natural language text with textlint, the pluggable linting fr
 verification: "security_reviewed"
 source: "https://github.com/textlint/textlint"
 category:
-  - "Content Writing & SEO"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "textlint/textlint"
   github_stars: 3099

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/camelot-dev/camelot"
 author: "Camelot"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "camelot-dev/camelot"
   github_stars: 3673

@@ -4,9 +4,11 @@ description: "Ghost is an open-source publishing platform built for modern blogs
 verification: "security_reviewed"
 source: "https://github.com/TryGhost/Ghost"
 category:
-  - "WordPress & CMS"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "tryghost/ghost"
   github_stars: 52496

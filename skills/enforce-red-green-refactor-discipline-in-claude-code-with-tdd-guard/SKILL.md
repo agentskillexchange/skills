@@ -6,9 +6,11 @@ source: "https://github.com/nizos/tdd-guard"
 author: "nizos"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "nizos/tdd-guard"
   github_stars: 1997

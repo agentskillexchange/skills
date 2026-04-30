@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/hashicorp/packer"
 author: "HashiCorp"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/packer"
   github_stars: 15647

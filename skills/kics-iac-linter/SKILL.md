@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/Checkmarx/kics"
 author: "Checkmarx"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Checkmarx/kics"
   github_stars: 2607

@@ -4,9 +4,11 @@ description: "Perform ultra-fast lossless trimming, cutting, and merging of vide
 verification: "security_reviewed"
 source: "https://github.com/mifi/lossless-cut"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "mifi/lossless-cut"
   github_stars: 39480

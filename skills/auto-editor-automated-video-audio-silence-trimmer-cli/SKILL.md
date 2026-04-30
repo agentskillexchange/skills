@@ -4,9 +4,11 @@ description: "Auto-Editor is a command-line application that automatically edits
 verification: "security_reviewed"
 source: "https://github.com/WyattBlue/auto-editor"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "wyattblue/auto-editor"
   github_stars: 4089

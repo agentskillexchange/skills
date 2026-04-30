@@ -4,9 +4,11 @@ description: "ty is an extremely fast Python type checker and language server wr
 verification: "security_reviewed"
 source: "https://github.com/astral-sh/ty"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "astral-sh/ty"
   github_stars: 18132

@@ -6,9 +6,11 @@ source: "https://github.com/invariantlabs-ai/invariant"
 author: "Invariant Labs"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "invariantlabs-ai/invariant"
   github_stars: 409

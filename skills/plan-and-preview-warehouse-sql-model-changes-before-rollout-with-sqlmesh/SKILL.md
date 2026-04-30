@@ -6,9 +6,11 @@ source: "https://github.com/SQLMesh/sqlmesh"
 author: "SQLMesh"
 publisher_type: "organization"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "SQLMesh/sqlmesh"
   github_stars: 3034

@@ -6,9 +6,11 @@ source: "https://github.com/rhysd/actionlint"
 author: "rhysd"
 publisher_type: "individual"
 category:
-  - "CI/CD Integrations"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "rhysd/actionlint"
   github_stars: 3787

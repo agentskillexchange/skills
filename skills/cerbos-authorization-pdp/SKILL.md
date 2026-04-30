@@ -4,9 +4,11 @@ description: "Cerbos is an open-core, language-agnostic, scalable authorization 
 verification: "security_reviewed"
 source: "https://github.com/cerbos/cerbos"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cerbos/cerbos"
   github_stars: 4319

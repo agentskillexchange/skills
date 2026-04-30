@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://pypi.org/"
 author: "PyPI"
 category:
-  - "Library & API Reference"
+  - "errors"
+  - "error_data"
 framework:
-  - "Gemini"
+  - "errors"
+  - "error_data"
 ---
 
 # PyPI Package Inspector

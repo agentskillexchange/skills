@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
 author: "browser-use"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 87316

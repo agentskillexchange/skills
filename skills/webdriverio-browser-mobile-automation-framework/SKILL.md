@@ -4,9 +4,11 @@ description: "WebdriverIO is a next-generation browser and mobile automation tes
 verification: "security_reviewed"
 source: "https://github.com/webdriverio/webdriverio"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "webdriverio/webdriverio"
   github_stars: 9762

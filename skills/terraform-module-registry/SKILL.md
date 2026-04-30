@@ -4,9 +4,11 @@ description: "Terraform Module Registry is built around Terraform infrastructure
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates & Workflows"
+  - "errors"
+  - "error_data"
 framework:
-  - "Custom Agents"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

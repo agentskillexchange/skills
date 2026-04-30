@@ -6,9 +6,11 @@ source: "https://github.com/evidentlyai/evidently"
 author: "Evidently AI"
 publisher_type: "organization"
 category:
-  - "Monitoring & Alerts"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "evidentlyai/evidently"
   github_stars: 7386

@@ -6,9 +6,11 @@ source: "https://github.com/borgmatic-collective/borgmatic"
 author: "Borgmatic Collective"
 publisher_type: "open_source_project"
 category:
-  - "Runbooks & Diagnostics"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "borgmatic-collective/borgmatic"
   github_stars: 2200

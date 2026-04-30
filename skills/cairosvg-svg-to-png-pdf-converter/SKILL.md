@@ -4,9 +4,11 @@ description: "CairoSVG is a Python-based SVG converter built on the Cairo 2D gra
 verification: "security_reviewed"
 source: "https://github.com/Kozea/CairoSVG"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "Kozea/CairoSVG"
   github_stars: 917

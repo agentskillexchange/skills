@@ -6,9 +6,11 @@ source: "https://github.com/cartesia-ai/cartesia-js"
 author: "cartesia-ai"
 publisher_type: "Company"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "cartesia-ai/cartesia-js"
   github_stars: 130

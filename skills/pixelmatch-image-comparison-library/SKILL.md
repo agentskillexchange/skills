@@ -4,9 +4,11 @@ description: "Pixelmatch is the smallest, simplest, and fastest JavaScript pixel
 verification: "security_reviewed"
 source: "https://github.com/mapbox/pixelmatch"
 category:
-  - "Image & Creative Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "mapbox/pixelmatch"
   github_stars: 6786

@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/baxtree/subaligner"
 publisher_type: "open_source_project"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "baxtree/subaligner"
   github_stars: 504

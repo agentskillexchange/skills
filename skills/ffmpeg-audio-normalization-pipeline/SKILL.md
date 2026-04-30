@@ -4,9 +4,11 @@ description: "Normalizes audio loudness to broadcast standards using FFmpeg loud
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "OpenClaw"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 58972

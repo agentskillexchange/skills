@@ -6,9 +6,11 @@ source: "https://github.com/spencermarx/open-code-review"
 author: "Spencer Marx"
 publisher_type: "individual"
 category:
-  - "Code Quality & Review"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "spencermarx/open-code-review"
   github_stars: 131

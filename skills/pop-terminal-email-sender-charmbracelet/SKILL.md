@@ -4,9 +4,11 @@ description: "Pop is a terminal-based email sending tool by Charmbracelet with b
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/pop"
 category:
-  - "Calendar, Email & Productivity"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "charmbracelet/pop"
   github_stars: 2814

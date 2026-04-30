@@ -6,9 +6,11 @@ source: "https://github.com/formbricks/formbricks"
 author: "Formbricks"
 publisher_type: "Company"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "formbricks/formbricks"
   github_stars: 12045

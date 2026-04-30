@@ -6,9 +6,11 @@ source: "https://github.com/trailofbits/skills"
 author: "Trail of Bits"
 publisher_type: "company"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "trailofbits/skills"
   github_stars: 4663

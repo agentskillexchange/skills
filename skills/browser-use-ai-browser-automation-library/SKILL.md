@@ -4,9 +4,11 @@ description: "Automates browser tasks with Browser Use, the open-source library 
 verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
 category:
-  - "Browser Automation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 85193

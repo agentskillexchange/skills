@@ -6,9 +6,11 @@ source: "https://github.com/moonshine-ai/moonshine"
 author: "moonshine-ai"
 publisher_type: "Open Source Project"
 category:
-  - "Media & Transcription"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "moonshine-ai/moonshine"
   github_stars: 7672

@@ -6,9 +6,11 @@ source: "https://github.com/lbb00/ai-rules-sync"
 author: "lbb00"
 publisher_type: "individual"
 category:
-  - "Integrations & Connectors"
+  - "errors"
+  - "error_data"
 framework:
-  - "Multi-Framework"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "lbb00/ai-rules-sync"
   github_stars: 25

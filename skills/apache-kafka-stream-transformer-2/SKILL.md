@@ -5,9 +5,11 @@ verification: "security_reviewed"
 source: "https://github.com/apache/kafka"
 author: "apache"
 category:
-  - "Data Extraction & Transformation"
+  - "errors"
+  - "error_data"
 framework:
-  - "Cursor"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "apache/kafka"
   github_stars: 32377

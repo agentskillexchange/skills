@@ -6,9 +6,11 @@ source: "https://github.com/anthropics/claude-code-security-review"
 author: "Anthropic"
 publisher_type: "organization"
 category:
-  - "Security & Verification"
+  - "errors"
+  - "error_data"
 framework:
-  - "Claude Code"
+  - "errors"
+  - "error_data"
 tool_ecosystem:
   github_repo: "anthropics/claude-code-security-review"
   github_stars: 4304
