@@ -6,11 +6,9 @@ source: "https://github.com/dathere/qsv"
 author: "datHere"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3594

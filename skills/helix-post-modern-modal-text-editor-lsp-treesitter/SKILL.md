@@ -4,11 +4,9 @@ description: "Helix is a post-modern terminal-based modal text editor written in
 verification: "security_reviewed"
 source: "https://github.com/helix-editor/helix"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "helix-editor/helix"
   github_stars: 43690

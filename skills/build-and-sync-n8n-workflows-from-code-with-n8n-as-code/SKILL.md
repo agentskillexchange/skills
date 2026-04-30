@@ -6,11 +6,9 @@ source: "https://github.com/EtienneLescot/n8n-as-code"
 author: "Etienne Lescot"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "EtienneLescot/n8n-as-code"
   github_stars: 884

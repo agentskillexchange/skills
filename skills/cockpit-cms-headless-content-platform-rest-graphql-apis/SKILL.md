@@ -6,11 +6,9 @@ source: "https://github.com/Cockpit-HQ/Cockpit"
 author: "Cockpit-HQ"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Cockpit-HQ/Cockpit"
   github_stars: 686

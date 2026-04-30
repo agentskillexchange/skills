@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/bazelbuild/bazel"
 author: "Bazel"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "bazelbuild/bazel"
   github_stars: 25335

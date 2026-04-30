@@ -6,11 +6,9 @@ source: "https://github.com/openclaw/openclaw/tree/main/skills/healthcheck"
 author: "OpenClaw"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Audit OpenClaw host security posture and hardening gaps

@@ -6,11 +6,9 @@ source: "https://github.com/coollabsio/coolify"
 author: "CoolLabs"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "coollabsio/coolify"
   github_stars: 52900

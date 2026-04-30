@@ -6,11 +6,9 @@ source: "https://github.com/steipete/summarize"
 author: "steipete"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "steipete/summarize"
   github_stars: 5642

@@ -4,11 +4,9 @@ description: "Parses dbt manifest.json and catalog.json to extract full model li
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
   github_stars: 12621

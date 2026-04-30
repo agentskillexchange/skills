@@ -6,11 +6,9 @@ source: "https://github.com/langchain-ai/agentevals"
 author: "LangChain"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "langchain-ai/agentevals"
   github_stars: 550

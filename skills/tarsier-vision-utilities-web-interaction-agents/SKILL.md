@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/reworkd/tarsier"
 author: "Reworkd"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "reworkd/tarsier"
   github_stars: 1758

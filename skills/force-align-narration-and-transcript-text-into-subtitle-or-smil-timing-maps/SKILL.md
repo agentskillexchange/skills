@@ -6,11 +6,9 @@ source: "https://github.com/readbeyond/aeneas"
 author: "Alberto Pettarin"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "readbeyond/aeneas"
   github_stars: 2820

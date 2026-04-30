@@ -6,11 +6,9 @@ source: "https://github.com/sentient-agi/EvoSkill"
 author: "Sentient"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sentient-agi/EvoSkill"
   github_stars: 489

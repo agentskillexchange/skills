@@ -4,11 +4,9 @@ description: "Git Updater enables automatic updates for WordPress plugins and th
 verification: "security_reviewed"
 source: "https://github.com/afragen/git-updater"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "afragen/git-updater"
   github_stars: 3316

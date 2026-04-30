@@ -6,11 +6,9 @@ source: "https://github.com/Gentleman-Programming/engram"
 author: "Gentleman Programming"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "Gentleman-Programming/engram"
   github_stars: 2576

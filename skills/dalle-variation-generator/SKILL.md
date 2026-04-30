@@ -4,11 +4,9 @@ description: "Generates image variations and edits using OpenAI's DALL-E 3 API w
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813

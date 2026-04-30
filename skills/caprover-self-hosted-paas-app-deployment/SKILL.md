@@ -4,11 +4,9 @@ description: "CapRover is a self-hosted Platform-as-a-Service that automates Doc
 verification: "security_reviewed"
 source: "https://github.com/caprover/caprover"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "caprover/caprover"
   github_stars: 14949

@@ -4,11 +4,10 @@ description: "Orchestrate data pipelines using Dagster, the cloud-native data or
 verification: "security_reviewed"
 source: "https://github.com/dagster-io/dagster"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "dagster-io/dagster"
   github_stars: 15257

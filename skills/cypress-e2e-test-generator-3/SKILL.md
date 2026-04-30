@@ -4,11 +4,9 @@ description: "Generates Cypress end-to-end test suites from user flow recordings
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.github.com/en/actions"
 author: "GitHub"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # GitHub Actions CI Pipeline Builder

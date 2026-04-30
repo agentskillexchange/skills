@@ -4,11 +4,9 @@ description: "Detects and resolves scheduling conflicts across multiple Google C
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver-2/"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Google Calendar Conflict Resolver

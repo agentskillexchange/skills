@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://woocommerce.github.io/woocommerce-rest-api-docs/"
 author: "WooCommerce"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # WooCommerce REST Order Manager

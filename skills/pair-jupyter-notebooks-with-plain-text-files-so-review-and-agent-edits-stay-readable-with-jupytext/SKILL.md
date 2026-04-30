@@ -6,11 +6,9 @@ source: "https://github.com/mwouts/jupytext"
 author: "mwouts"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mwouts/jupytext"
   github_stars: 7156

@@ -4,11 +4,9 @@ description: "Generates Helm v3 chart scaffolds with templated deployments, serv
 verification: "security_reviewed"
 source: "https://github.com/helm/helm"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29697

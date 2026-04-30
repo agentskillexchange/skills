@@ -4,11 +4,9 @@ description: "Infers Protocol Buffer (.proto) definitions from JSON samples usin
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Protocol Buffer Schema Generator

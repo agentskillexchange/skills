@@ -6,11 +6,9 @@ source: "https://github.com/CrowdStrike/falcon-mcp"
 author: "CrowdStrike"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "CrowdStrike/falcon-mcp"
   github_stars: 136

@@ -6,11 +6,9 @@ source: "https://github.com/vercel-labs/agent-browser"
 author: "Vercel Labs"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel-labs/agent-browser"
   github_stars: 29072

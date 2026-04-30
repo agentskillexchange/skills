@@ -4,11 +4,9 @@ description: "Analyzes Tekton Pipeline and Task resource definitions using the T
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

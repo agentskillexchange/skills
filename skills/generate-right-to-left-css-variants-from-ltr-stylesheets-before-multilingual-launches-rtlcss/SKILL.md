@@ -6,11 +6,9 @@ source: "https://github.com/MohammadYounes/rtlcss"
 author: "Mohammad Younes"
 publisher_type: "user"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "MohammadYounes/rtlcss"
   github_stars: 1708

@@ -6,11 +6,9 @@ source: "https://www.npmjs.com/package/citation-js"
 author: "Lars Willighagen"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   npm_package: "citation-js"
   npm_weekly_downloads: 10654

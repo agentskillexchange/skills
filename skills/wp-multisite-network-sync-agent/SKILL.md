@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.wordpress.org/advanced-administration/multisite/"
 author: "WordPress"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # WP Multisite Network Sync Agent

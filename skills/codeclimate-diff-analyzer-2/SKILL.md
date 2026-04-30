@@ -4,11 +4,9 @@ description: "Runs CodeClimate analysis on pull request diffs using the CLI engi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # CodeClimate Diff Analyzer

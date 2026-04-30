@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://lldb.llvm.org/"
 author: "LLVM Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # LLDB Debug Session Automator

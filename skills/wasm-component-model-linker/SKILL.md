@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/WebAssembly/component-model"
 author: "WebAssembly"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "WebAssembly/component-model"
   github_stars: 1294

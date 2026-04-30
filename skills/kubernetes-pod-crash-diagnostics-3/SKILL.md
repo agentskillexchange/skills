@@ -4,11 +4,9 @@ description: "Runs kubectl describe pod, kubectl logs --previous, and kubectl ge
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

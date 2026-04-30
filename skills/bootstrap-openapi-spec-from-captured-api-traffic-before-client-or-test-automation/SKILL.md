@@ -6,11 +6,9 @@ source: "https://github.com/alufers/mitmproxy2swagger"
 author: "alufers"
 publisher_type: "Individual Maintainer"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "alufers/mitmproxy2swagger"
   github_stars: 9347

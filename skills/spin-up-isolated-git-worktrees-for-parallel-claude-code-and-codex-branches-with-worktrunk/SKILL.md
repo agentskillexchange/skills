@@ -6,11 +6,9 @@ source: "https://github.com/max-sixty/worktrunk"
 author: "max-sixty"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "max-sixty/worktrunk"
   github_stars: 4399

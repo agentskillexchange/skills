@@ -4,11 +4,9 @@ description: "Redocly CLI is an all-in-one OpenAPI utility that lints, validates
 verification: "security_reviewed"
 source: "https://github.com/Redocly/redocly-cli"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "redocly/redocly-cli"
   github_stars: 1422

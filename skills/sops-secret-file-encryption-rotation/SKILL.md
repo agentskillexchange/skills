@@ -6,11 +6,9 @@ source: "https://github.com/getsops/sops"
 author: "Getsops"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsops/sops"
   github_stars: 21476

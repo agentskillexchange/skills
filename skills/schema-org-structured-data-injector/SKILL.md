@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://schema.org/"
 author: "Schema.org"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Schema.org Structured Data Injector

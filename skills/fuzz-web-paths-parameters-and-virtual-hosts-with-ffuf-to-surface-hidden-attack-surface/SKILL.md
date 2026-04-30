@@ -6,11 +6,9 @@ source: "https://github.com/ffuf/ffuf"
 author: "ffuf"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ffuf/ffuf"
   github_stars: 13973

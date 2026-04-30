@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.docusign.com/docs/esign-rest-api/"
 author: "DocuSign"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # DocuSign Contract Auto-Sender with Conditional Logic

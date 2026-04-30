@@ -4,11 +4,9 @@ description: "Connects to Jenkins via the Jenkins REST API and Blue Ocean API to
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

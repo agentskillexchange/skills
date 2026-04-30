@@ -4,11 +4,9 @@ description: "Listens to Discord gateway events, passing flagged messages to the
 verification: "security_reviewed"
 source: "https://github.com/discordjs/discord.js"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "discordjs/discord.js"
   github_stars: 26668

@@ -6,11 +6,9 @@ source: "https://github.com/mailhog/MailHog"
 author: "MailHog"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailhog/mailhog"
   github_stars: 15892

@@ -4,11 +4,9 @@ description: "Himalaya is a CLI email client written in Rust that supports IMAP,
 verification: "security_reviewed"
 source: "https://github.com/pimalaya/himalaya"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pimalaya/himalaya"
   github_stars: 5825

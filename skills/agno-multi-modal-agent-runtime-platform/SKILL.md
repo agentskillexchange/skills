@@ -4,11 +4,9 @@ description: "Agno is a high-performance Python framework for building, running,
 verification: "security_reviewed"
 source: "https://github.com/agno-agi/agno"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "agno-agi/agno"
   github_stars: 39050

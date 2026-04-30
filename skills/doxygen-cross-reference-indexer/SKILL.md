@@ -4,11 +4,9 @@ description: "Builds searchable cross-reference indexes from Doxygen XML output 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Doxygen Cross-Reference Indexer

@@ -4,11 +4,9 @@ description: "A complete, idiomatic Git implementation written in pure Rust, pro
 verification: "security_reviewed"
 source: "https://github.com/GitoxideLabs/gitoxide"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "GitoxideLabs/gitoxide"
   github_stars: 11102

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://plaid.com/docs/"
 author: "Plaid"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Plaid Financial Data Connector

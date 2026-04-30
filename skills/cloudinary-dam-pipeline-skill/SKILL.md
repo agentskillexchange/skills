@@ -4,11 +4,9 @@ description: "Manage digital assets through the Cloudinary Upload, Admin, and Tr
 verification: "security_reviewed"
 source: "https://cloudinary.com/documentation"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Cloudinary DAM Pipeline

@@ -1,14 +1,12 @@
 ---
 title: "DynamoDB Manager"
-description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
@@ -16,7 +14,7 @@ tool_ecosystem:
 
 # DynamoDB Manager
 
-DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]
+
 
 ## Installation
 

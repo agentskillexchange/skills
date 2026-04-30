@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/elastic/apm-server"
 author: "elastic"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "elastic/apm-server"
   github_stars: 1273

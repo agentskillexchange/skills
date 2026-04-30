@@ -4,11 +4,9 @@ description: "Configures StatsD metric collection with custom aggregation rules 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # StatsD Metrics Aggregation Pipeline

@@ -6,11 +6,9 @@ source: "https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.m
 author: "GitHub Next"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Simplify recently changed code and open low-risk refactor pull requests

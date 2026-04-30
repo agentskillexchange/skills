@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl-mcp-server"
 author: "firecrawl"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl-mcp-server"
   github_stars: 6001

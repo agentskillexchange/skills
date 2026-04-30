@@ -6,11 +6,9 @@ source: "https://github.com/rtk-ai/rtk"
 author: "RTK AI"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rtk-ai/rtk"
   github_stars: 25419

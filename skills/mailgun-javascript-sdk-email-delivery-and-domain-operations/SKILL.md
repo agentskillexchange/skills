@@ -6,11 +6,9 @@ source: "https://github.com/mailgun/mailgun.js"
 author: "mailgun"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailgun/mailgun.js"
   github_stars: 547

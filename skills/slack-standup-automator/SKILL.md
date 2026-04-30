@@ -4,11 +4,9 @@ description: "Automates daily standup collection and reporting in Slack using th
 verification: "security_reviewed"
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2900

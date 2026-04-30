@@ -6,11 +6,9 @@ source: "https://github.com/jazzyalex/agent-sessions"
 author: "jazzyalex"
 publisher_type: "open_source"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jazzyalex/agent-sessions"
   github_stars: 478

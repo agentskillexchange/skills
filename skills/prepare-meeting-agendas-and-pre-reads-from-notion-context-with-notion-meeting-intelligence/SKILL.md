@@ -6,11 +6,9 @@ source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeti
 author: "OpenAI"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence

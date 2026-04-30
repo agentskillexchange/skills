@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/"
 author: "WP Engine"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # ACF to Gutenberg Block Migrator

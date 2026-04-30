@@ -6,11 +6,9 @@ source: "https://github.com/OpenAPITools/openapi-generator"
 author: "OpenAPITools"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "OpenAPITools/openapi-generator"
   github_stars: 26095

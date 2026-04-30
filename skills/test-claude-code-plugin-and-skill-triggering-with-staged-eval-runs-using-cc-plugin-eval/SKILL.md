@@ -6,11 +6,9 @@ source: "https://github.com/sjnims/cc-plugin-eval"
 author: "sjnims"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sjnims/cc-plugin-eval"
   github_stars: 16

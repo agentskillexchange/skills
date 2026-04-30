@@ -6,11 +6,9 @@ source: "https://github.com/screenpipe/screenpipe"
 author: "screenpipe"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "screenpipe/screenpipe"
   github_stars: 18176

@@ -6,11 +6,9 @@ source: "https://github.com/callstackincubator/agent-skills"
 author: "Callstack"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "callstackincubator/agent-skills"
   github_stars: 1252

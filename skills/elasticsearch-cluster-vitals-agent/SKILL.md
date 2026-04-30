@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 author: "elastic"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76475

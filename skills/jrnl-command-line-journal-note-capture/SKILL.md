@@ -4,11 +4,9 @@ description: "jrnl is a command-line journal application that lets you capture t
 verification: "security_reviewed"
 source: "https://github.com/jrnl-org/jrnl"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jrnl-org/jrnl"
   github_stars: 7195

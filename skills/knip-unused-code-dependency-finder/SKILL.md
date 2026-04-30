@@ -4,11 +4,9 @@ description: "Run Knip to find and remove unused files, dependencies, and export
 verification: "security_reviewed"
 source: "https://github.com/webpro-nl/knip"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "webpro-nl/knip"
   github_stars: 10806

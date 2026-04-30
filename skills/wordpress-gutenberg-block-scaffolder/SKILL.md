@@ -4,11 +4,9 @@ description: "Generates custom Gutenberg blocks using @wordpress/create-block an
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

@@ -6,11 +6,9 @@ source: "https://github.com/yoheimuta/protolint"
 author: "yoheimuta"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yoheimuta/protolint"
   github_stars: 685

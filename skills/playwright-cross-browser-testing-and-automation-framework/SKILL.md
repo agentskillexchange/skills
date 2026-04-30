@@ -6,11 +6,9 @@ source: "https://github.com/microsoft/playwright"
 author: "Microsoft"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 85523

@@ -6,11 +6,9 @@ source: "https://www.npmjs.com/package/jscpd"
 author: "Andrey Kucherenko"
 publisher_type: "Individual Maintainer"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   npm_package: "jscpd"
   npm_weekly_downloads: 703581

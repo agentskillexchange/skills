@@ -4,11 +4,9 @@ description: "Open-source developer platform to turn scripts into webhooks, work
 verification: "security_reviewed"
 source: "https://github.com/windmill-labs/windmill"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "windmill-labs/windmill"
   github_stars: 16115

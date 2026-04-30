@@ -6,11 +6,9 @@ source: "https://github.com/grafana/k6"
 author: "Grafana Labs"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/k6"
   github_stars: 30348

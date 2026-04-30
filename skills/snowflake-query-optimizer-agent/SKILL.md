@@ -4,11 +4,9 @@ description: "Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTO
 verification: "security_reviewed"
 source: "https://pypi.org/project/snowflake-connector-python/"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Snowflake Query Optimizer Agent

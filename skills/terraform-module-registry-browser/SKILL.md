@@ -4,11 +4,9 @@ description: "Searches and evaluates Terraform modules from the HashiCorp Regist
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

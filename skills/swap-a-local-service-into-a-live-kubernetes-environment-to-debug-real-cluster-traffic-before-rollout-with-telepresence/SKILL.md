@@ -6,11 +6,9 @@ source: "https://github.com/telepresenceio/telepresence"
 author: "telepresenceio"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "telepresenceio/telepresence"
   github_stars: 7183

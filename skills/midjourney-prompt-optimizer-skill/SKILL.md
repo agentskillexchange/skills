@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.midjourney.com/hc/en-us/categories/32013335627533-Documentation"
 author: "Midjourney"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Midjourney Prompt Optimizer

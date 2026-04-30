@@ -6,11 +6,9 @@ source: "https://github.com/itbench-hub/ITBench"
 author: "itbench-hub"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "itbench-hub/ITBench"
   github_stars: 308

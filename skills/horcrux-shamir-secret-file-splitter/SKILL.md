@@ -4,11 +4,9 @@ description: "Horcrux splits files into encrypted fragments using Shamir Secret 
 verification: "security_reviewed"
 source: "https://github.com/jesseduffield/horcrux"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
   github_stars: 5041

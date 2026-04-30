@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/jsforce/jsforce"
 author: "Salesforce"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
   github_stars: 1453

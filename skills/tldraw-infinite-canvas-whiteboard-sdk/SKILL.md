@@ -4,11 +4,9 @@ description: "tldraw is a feature-complete infinite canvas engine and whiteboard
 verification: "security_reviewed"
 source: "https://github.com/tldraw/tldraw"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tldraw/tldraw"
   github_stars: 46154

@@ -6,11 +6,9 @@ source: "https://github.com/twitchtv/twirp"
 author: "Twitch"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "twitchtv/twirp"
   github_stars: 7503

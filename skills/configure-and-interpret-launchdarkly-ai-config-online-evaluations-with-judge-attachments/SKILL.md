@@ -6,11 +6,9 @@ source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/
 author: "launchdarkly"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments

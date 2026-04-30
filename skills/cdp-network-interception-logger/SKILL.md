@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/ChromeDevTools/devtools-protocol"
 author: "ChromeDevTools"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "ChromeDevTools/devtools-protocol"
   github_stars: 1476

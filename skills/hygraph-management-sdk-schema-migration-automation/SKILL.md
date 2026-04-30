@@ -6,11 +6,9 @@ source: "https://github.com/hygraph/management-sdk"
 author: "Hygraph"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hygraph/management-sdk"
   github_stars: 51

@@ -6,11 +6,9 @@ source: "https://github.com/release-drafter/release-drafter"
 author: "Release Drafter maintainers"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "release-drafter/release-drafter"
   github_stars: 3869

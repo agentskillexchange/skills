@@ -4,11 +4,9 @@ description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipeli
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

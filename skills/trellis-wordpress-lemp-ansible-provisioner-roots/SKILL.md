@@ -4,11 +4,9 @@ description: "Trellis is a collection of Ansible playbooks for provisioning and 
 verification: "security_reviewed"
 source: "https://github.com/roots/trellis"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "roots/trellis"
   github_stars: 2560

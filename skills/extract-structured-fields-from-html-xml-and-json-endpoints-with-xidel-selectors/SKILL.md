@@ -6,11 +6,9 @@ source: "https://github.com/benibela/xidel"
 author: "Benjamin Eichel and contributors"
 publisher_type: "oss"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "benibela/xidel"
   github_stars: 835

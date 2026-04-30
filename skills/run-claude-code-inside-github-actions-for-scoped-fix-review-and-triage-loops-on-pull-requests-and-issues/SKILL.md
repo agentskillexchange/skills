@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/claude-code-action"
 author: "Anthropic"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "anthropics/claude-code-action"
   github_stars: 7136

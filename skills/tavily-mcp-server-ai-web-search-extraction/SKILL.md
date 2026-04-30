@@ -4,11 +4,9 @@ description: "An official MCP server from Tavily that provides AI agents with re
 verification: "security_reviewed"
 source: "https://github.com/tavily-ai/tavily-mcp"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "tavily-ai/tavily-mcp"
   github_stars: 1615

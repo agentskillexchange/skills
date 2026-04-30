@@ -6,11 +6,9 @@ source: "https://github.com/DrDroidLab/sample-debug-agent"
 author: "DrDroidLab"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "DrDroidLab/sample-debug-agent"
   github_stars: 6

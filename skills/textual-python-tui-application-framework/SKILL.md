@@ -4,11 +4,9 @@ description: "Textual is a lean application framework for Python that lets you b
 verification: "security_reviewed"
 source: "https://github.com/Textualize/textual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Textualize/textual"
   github_stars: 35301

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.pypi.org/"
 author: "PyPI"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Python PyPI Package Reference Indexer

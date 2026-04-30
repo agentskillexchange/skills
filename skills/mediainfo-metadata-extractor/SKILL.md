@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/MediaArea/MediaInfo"
 author: "MediaArea"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "MediaArea/MediaInfo"
   github_stars: 1873

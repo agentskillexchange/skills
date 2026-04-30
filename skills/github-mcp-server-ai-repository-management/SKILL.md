@@ -4,11 +4,9 @@ description: "GitHub's official Model Context Protocol (MCP) server that connect
 verification: "security_reviewed"
 source: "https://github.com/github/github-mcp-server"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "github/github-mcp-server"
   github_stars: 28462

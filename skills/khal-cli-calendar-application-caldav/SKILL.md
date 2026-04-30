@@ -4,11 +4,9 @@ description: "khal is a standards-based CLI and terminal calendar program writte
 verification: "security_reviewed"
 source: "https://github.com/pimutils/khal"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pimutils/khal"
   github_stars: 2971

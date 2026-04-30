@@ -1,15 +1,13 @@
 ---
 title: "DigitalOcean Droplet Manager"
-description: "DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/digitalocean/doctl"
 author: "DigitalOcean"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "digitalocean/doctl"
   github_stars: 3417
@@ -17,7 +15,7 @@ tool_ecosystem:
 
 # DigitalOcean Droplet Manager
 
-DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
+
 
 ## Installation
 

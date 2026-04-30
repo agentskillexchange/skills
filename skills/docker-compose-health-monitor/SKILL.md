@@ -4,11 +4,9 @@ description: "Monitors Docker Compose service health using the Docker Engine API
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

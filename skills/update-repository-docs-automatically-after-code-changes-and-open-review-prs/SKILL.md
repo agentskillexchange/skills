@@ -6,11 +6,9 @@ source: "https://github.com/githubnext/agentics/blob/main/docs/update-docs.md"
 author: "GitHub Next"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Update repository docs automatically after code changes and open review PRs

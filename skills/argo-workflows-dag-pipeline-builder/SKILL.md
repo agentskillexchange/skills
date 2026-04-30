@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-workflows"
 author: "argoproj"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"
   github_stars: 16600

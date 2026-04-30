@@ -6,11 +6,11 @@ source: "https://github.com/getsentry/sentry-for-ai"
 author: "Sentry"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
+  - "Cursor"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
   github_stars: 155

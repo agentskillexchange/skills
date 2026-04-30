@@ -6,11 +6,9 @@ source: "https://github.com/es617/claude-replay"
 author: "es617"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "es617/claude-replay"
   github_stars: 621

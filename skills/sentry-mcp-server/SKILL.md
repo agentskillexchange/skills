@@ -6,11 +6,9 @@ source: "https://github.com/getsentry/sentry-mcp"
 author: "Sentry"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 672

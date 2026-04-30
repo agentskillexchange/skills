@@ -4,11 +4,9 @@ description: "Documenso is an open-source digital document signing platform and 
 verification: "security_reviewed"
 source: "https://github.com/documenso/documenso"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "documenso/documenso"
   github_stars: 12587

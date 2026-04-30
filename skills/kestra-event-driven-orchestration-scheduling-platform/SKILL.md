@@ -4,11 +4,9 @@ description: "Kestra is an open-source, event-driven orchestration platform that
 verification: "security_reviewed"
 source: "https://github.com/kestra-io/kestra"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kestra-io/kestra"
   github_stars: 26683

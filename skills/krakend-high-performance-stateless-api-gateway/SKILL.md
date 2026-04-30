@@ -4,11 +4,9 @@ description: "KrakenD is an ultra-high performance, stateless, declarative API G
 verification: "security_reviewed"
 source: "https://github.com/krakend/krakend-ce"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "krakend/krakend-ce"
   github_stars: 2595

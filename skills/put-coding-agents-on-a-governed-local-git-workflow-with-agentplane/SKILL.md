@@ -6,11 +6,9 @@ source: "https://github.com/basilisk-labs/agentplane"
 author: "basilisk-labs"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "basilisk-labs/agentplane"
   github_stars: 38

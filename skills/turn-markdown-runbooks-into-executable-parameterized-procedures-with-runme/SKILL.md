@@ -6,11 +6,9 @@ source: "https://github.com/runmedev/runme"
 author: "Runme"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "runmedev/runme"
   github_stars: 2031

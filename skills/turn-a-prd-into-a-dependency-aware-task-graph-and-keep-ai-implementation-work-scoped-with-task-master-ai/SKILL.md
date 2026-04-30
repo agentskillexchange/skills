@@ -6,11 +6,9 @@ source: "https://github.com/eyaltoledano/claude-task-master"
 author: "Eyal Toledano"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "eyaltoledano/claude-task-master"
   github_stars: 26557

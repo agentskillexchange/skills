@@ -6,11 +6,9 @@ source: "https://github.com/TheCraigHewitt/seomachine"
 author: "TheCraigHewitt"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "TheCraigHewitt/seomachine"
   github_stars: 6597

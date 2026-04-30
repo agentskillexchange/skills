@@ -4,11 +4,9 @@ description: "Maxun is an open-source no-code web data platform for turning any 
 verification: "security_reviewed"
 source: "https://github.com/getmaxun/maxun"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "getmaxun/maxun"
   github_stars: 15319

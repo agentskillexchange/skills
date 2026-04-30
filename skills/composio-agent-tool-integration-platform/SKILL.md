@@ -4,11 +4,9 @@ description: "Composio provides 1000+ pre-built toolkits with managed authentica
 verification: "security_reviewed"
 source: "https://github.com/ComposioHQ/composio"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ComposioHQ/composio"
   github_stars: 27601

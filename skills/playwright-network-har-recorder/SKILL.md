@@ -4,11 +4,9 @@ description: "Records and replays HTTP Archive (HAR) files using Playwright rout
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86409

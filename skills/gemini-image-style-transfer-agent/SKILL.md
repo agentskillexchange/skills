@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://ai.google.dev/gemini-api/docs/image-generation"
 author: "Google"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Gemini Image Style Transfer Agent

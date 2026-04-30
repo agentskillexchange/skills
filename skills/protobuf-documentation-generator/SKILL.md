@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://protobuf.dev/"
 author: "Protocol Buffers"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Protobuf Documentation Generator

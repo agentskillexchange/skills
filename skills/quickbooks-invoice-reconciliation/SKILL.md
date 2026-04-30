@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice"
 author: "Intuit"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # QuickBooks Online Invoice Reconciliation Agent

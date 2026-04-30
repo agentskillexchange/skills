@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/prometheus/alertmanager"
 author: "prometheus"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
   github_stars: 8403

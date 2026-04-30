@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.cloudflare.com/analytics/"
 author: "Cloudflare"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Cloudflare Analytics Health Monitor

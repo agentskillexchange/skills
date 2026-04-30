@@ -4,11 +4,9 @@ description: "An agent skill built on eSpeak NG, the open-source formant-based s
 verification: "security_reviewed"
 source: "https://github.com/espeak-ng/espeak-ng"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "espeak-ng/espeak-ng"
   github_stars: 6311

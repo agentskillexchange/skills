@@ -4,11 +4,9 @@ description: "Analyzes webpack bundle composition using webpack-bundle-analyzer 
 verification: "security_reviewed"
 source: "https://github.com/webpack/webpack"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "webpack/webpack"
   github_stars: 65837

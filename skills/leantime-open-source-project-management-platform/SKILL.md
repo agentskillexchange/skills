@@ -4,11 +4,9 @@ description: "Leantime is an open-source project management system designed for 
 verification: "security_reviewed"
 source: "https://github.com/Leantime/leantime"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "leantime/leantime"
   github_stars: 9460

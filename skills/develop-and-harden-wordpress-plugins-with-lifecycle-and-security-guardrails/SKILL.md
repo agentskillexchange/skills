@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Develop and harden WordPress plugins with lifecycle and security guardrails

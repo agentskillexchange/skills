@@ -6,11 +6,9 @@ source: "https://www.superdesign.dev/"
 author: "SuperDesign"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Frontend Design Guidance Skill

@@ -6,11 +6,9 @@ source: "https://github.com/slhck/ffmpeg-normalize"
 author: "slhck"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "slhck/ffmpeg-normalize"
   github_stars: 1500

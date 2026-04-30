@@ -6,11 +6,9 @@ source: "https://developers.openai.com/api/docs/guides/speech-to-text"
 author: "OpenAI"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # OpenAI Whisper API Transcription

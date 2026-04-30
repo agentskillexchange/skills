@@ -6,11 +6,9 @@ source: "https://github.com/dependabot/dependabot-core"
 author: "GitHub"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dependabot/dependabot-core"
   github_stars: 5549

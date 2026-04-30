@@ -4,11 +4,9 @@ description: "Generates and optimizes Midjourney prompts using the Midjourney AP
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Midjourney Prompt Engineering Suite

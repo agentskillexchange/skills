@@ -6,11 +6,9 @@ source: "https://github.com/theredsix/agent-browser-protocol"
 author: "The Red Six"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "theredsix/agent-browser-protocol"
   github_stars: 436

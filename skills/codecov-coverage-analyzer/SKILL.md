@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.codecov.com/docs/quick-start"
 author: "Codecov"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Codecov Coverage Analyzer

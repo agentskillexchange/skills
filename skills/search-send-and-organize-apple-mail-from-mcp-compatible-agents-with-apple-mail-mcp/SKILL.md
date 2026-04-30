@@ -6,11 +6,9 @@ source: "https://github.com/s-morgan-jeffries/apple-mail-mcp"
 author: "s-morgan-jeffries"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "s-morgan-jeffries/apple-mail-mcp"
   github_stars: 54

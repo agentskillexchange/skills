@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/Kong/kong"
 author: "Kong"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kong/kong"
   github_stars: 43188

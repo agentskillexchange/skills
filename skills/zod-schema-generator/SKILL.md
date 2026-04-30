@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/colinhacks/zod"
 author: "Colin McDonnell"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "colinhacks/zod"
   github_stars: 42500

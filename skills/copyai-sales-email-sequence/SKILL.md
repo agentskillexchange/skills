@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.copy.ai/"
 author: "Copy.ai"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Copy.ai Sales Email Sequence Builder

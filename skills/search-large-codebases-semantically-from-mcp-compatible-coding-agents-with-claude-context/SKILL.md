@@ -6,11 +6,9 @@ source: "https://github.com/zilliztech/claude-context"
 author: "Zilliz"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "zilliztech/claude-context"
   github_stars: 9226

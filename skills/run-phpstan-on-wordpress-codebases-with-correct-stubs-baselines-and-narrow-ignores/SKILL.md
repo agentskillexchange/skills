@@ -6,11 +6,9 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-phpstan"
 author: "WordPress"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores

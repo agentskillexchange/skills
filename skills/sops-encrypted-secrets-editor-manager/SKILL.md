@@ -4,11 +4,9 @@ description: "SOPS (Secrets OPerationS) is an editor of encrypted files that sup
 verification: "security_reviewed"
 source: "https://github.com/getsops/sops"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsops/sops"
   github_stars: 21312

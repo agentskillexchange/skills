@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.sec.gov/edgar/searchedgar/companysearch"
 author: "SEC"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # SEC EDGAR Financial Filing Parser

@@ -4,11 +4,9 @@ description: "Runs Semgrep static analysis with custom rule packs targeting OWAS
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794

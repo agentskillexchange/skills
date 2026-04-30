@@ -4,11 +4,9 @@ description: "Resolves npm audit vulnerabilities by analyzing the npm registry A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-dependency-audit-resolver/"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # npm Dependency Audit Resolver

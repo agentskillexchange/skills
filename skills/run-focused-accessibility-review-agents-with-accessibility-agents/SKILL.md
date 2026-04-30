@@ -6,11 +6,9 @@ source: "https://github.com/Community-Access/accessibility-agents"
 author: "Community Access"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Community-Access/accessibility-agents"
   github_stars: 235

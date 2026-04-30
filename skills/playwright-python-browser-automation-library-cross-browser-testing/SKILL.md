@@ -6,11 +6,9 @@ source: "https://github.com/microsoft/playwright-python"
 author: "microsoft"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/playwright-python"
   github_stars: 14510

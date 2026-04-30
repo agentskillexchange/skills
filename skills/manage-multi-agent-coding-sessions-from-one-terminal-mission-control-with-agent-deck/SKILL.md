@@ -6,11 +6,9 @@ source: "https://github.com/asheshgoplani/agent-deck"
 author: "Ashesh Goplani"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "asheshgoplani/agent-deck"
   github_stars: 2027

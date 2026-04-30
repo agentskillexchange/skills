@@ -6,11 +6,9 @@ source: "https://github.com/pydantic/logfire"
 author: "pydantic"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pydantic/logfire"
   github_stars: 4161

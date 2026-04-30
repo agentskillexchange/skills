@@ -6,11 +6,9 @@ source: "https://github.com/locustio/locust"
 author: "Locust"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "locustio/locust"
   github_stars: 27720

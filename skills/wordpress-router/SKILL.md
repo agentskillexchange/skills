@@ -6,11 +6,9 @@ source: "https://github.com/WordPress/WordPress"
 author: "WordPress"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21070

@@ -6,11 +6,9 @@ source: "https://github.com/semantic-release/release-notes-generator"
 author: "semantic-release maintainers"
 publisher_type: "GitHub repository + npm package"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "semantic-release/release-notes-generator"
   github_stars: 361

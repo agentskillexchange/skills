@@ -4,11 +4,9 @@ description: "Executes ComfyUI workflow JSON files against a local or remote Com
 verification: "security_reviewed"
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 ---
 
 # Stable Diffusion ComfyUI Workflow Runner

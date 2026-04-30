@@ -4,11 +4,9 @@ description: "Orchestrates deployment pipelines using the Argo Workflows Engine 
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-workflows"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"
   github_stars: 16616

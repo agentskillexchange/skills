@@ -6,11 +6,9 @@ source: "https://github.com/nowork-studio/toprank"
 author: "nowork-studio"
 publisher_type: "Public GitHub repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "nowork-studio/toprank"
   github_stars: 466

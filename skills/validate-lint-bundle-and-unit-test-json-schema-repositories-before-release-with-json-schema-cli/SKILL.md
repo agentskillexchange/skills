@@ -6,11 +6,9 @@ source: "https://github.com/sourcemeta/jsonschema"
 author: "Sourcemeta"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sourcemeta/jsonschema"
   github_stars: 270

@@ -6,11 +6,9 @@ source: "https://github.com/dbt-labs/dbt-audit-helper"
 author: "dbt Labs"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-audit-helper"
   github_stars: 402

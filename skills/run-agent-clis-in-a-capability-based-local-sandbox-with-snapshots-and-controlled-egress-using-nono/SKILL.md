@@ -6,11 +6,9 @@ source: "https://github.com/always-further/nono"
 author: "always-further"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "always-further/nono"
   github_stars: 2080

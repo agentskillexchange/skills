@@ -6,11 +6,9 @@ source: "https://github.com/Yelp/detect-secrets"
 author: "Yelp"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Yelp/detect-secrets"
   github_stars: 4482

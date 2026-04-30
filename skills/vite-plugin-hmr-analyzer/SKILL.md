@@ -4,11 +4,9 @@ description: "Monitors and analyzes Vite HMR (Hot Module Replacement) update cha
 verification: "security_reviewed"
 source: "https://github.com/vitejs/vite"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "vitejs/vite"
   github_stars: 79927

@@ -6,11 +6,9 @@ source: "https://github.com/gruntwork-io/terragrunt"
 author: "Gruntwork"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gruntwork-io/terragrunt"
   github_stars: 9503

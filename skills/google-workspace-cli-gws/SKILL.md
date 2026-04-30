@@ -6,11 +6,9 @@ source: "https://github.com/googleworkspace/cli"
 author: "googleworkspace"
 publisher_type: "Community"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "googleworkspace/cli"
   github_stars: 24348

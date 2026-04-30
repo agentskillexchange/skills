@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 author: "nginx"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

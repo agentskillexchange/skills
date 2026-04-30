@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.adobe.com/firefly-services/docs/firefly-api/"
 author: "Adobe"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # Adobe Firefly API Batch Image Generator

@@ -6,11 +6,9 @@ source: "https://github.com/mksglu/context-mode"
 author: "mksglu"
 publisher_type: "Individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mksglu/context-mode"
   github_stars: 9956

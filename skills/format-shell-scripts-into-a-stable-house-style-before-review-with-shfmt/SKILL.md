@@ -6,11 +6,9 @@ source: "https://github.com/mvdan/sh"
 author: "mvdan"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mvdan/sh"
   github_stars: 8700

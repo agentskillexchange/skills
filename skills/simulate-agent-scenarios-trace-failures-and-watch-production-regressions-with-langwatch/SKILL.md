@@ -6,11 +6,9 @@ source: "https://github.com/langwatch/langwatch"
 author: "LangWatch"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "langwatch/langwatch"
   github_stars: 3206

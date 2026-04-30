@@ -6,11 +6,9 @@ source: "https://github.com/photoprism/photoprism"
 author: "photoprism"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "photoprism/photoprism"
   github_stars: 39547

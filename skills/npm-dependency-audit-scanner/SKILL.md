@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/"
 author: "npm, Inc."
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # npm Dependency Audit Scanner

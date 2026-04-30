@@ -6,11 +6,9 @@ source: "https://github.com/luckyPipewrench/pipelock"
 author: "luckyPipewrench"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "luckyPipewrench/pipelock"
   github_stars: 333

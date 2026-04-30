@@ -6,11 +6,9 @@ source: "https://github.com/netdata/netdata"
 author: "netdata"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "netdata/netdata"
   github_stars: 78430

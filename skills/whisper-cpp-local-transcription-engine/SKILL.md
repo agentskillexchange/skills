@@ -4,11 +4,9 @@ description: "Runs OpenAI Whisper models locally via whisper.cpp with GGML quant
 verification: "security_reviewed"
 source: "https://github.com/openai/whisper"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 97775

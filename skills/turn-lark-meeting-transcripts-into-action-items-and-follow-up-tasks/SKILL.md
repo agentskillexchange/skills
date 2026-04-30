@@ -6,11 +6,9 @@ source: "https://github.com/zarazhangrui/lark-minutes-tasks"
 author: "zarazhangrui"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "zarazhangrui/lark-minutes-tasks"
   github_stars: 40

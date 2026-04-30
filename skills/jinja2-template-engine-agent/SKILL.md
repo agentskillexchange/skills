@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/pallets/jinja"
 author: "Pallets"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "pallets/jinja"
   github_stars: 11583

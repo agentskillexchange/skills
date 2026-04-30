@@ -4,11 +4,9 @@ description: "pdfplumber is a Python library for extracting detailed information
 verification: "security_reviewed"
 source: "https://github.com/jsvine/pdfplumber"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "jsvine/pdfplumber"
   github_stars: 10102

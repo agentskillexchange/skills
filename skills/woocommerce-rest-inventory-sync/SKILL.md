@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/woocommerce/woocommerce"
 author: "woocommerce"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10243

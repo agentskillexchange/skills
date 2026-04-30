@@ -6,11 +6,9 @@ source: "https://github.com/FFmpeg/FFmpeg"
 author: "FFmpeg"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 59378

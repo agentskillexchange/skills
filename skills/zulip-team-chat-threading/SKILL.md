@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/zulip/zulip"
 author: "Zulip"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zulip/zulip"
   github_stars: 25013

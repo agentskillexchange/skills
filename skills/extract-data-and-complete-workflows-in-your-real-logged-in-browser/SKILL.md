@@ -6,11 +6,9 @@ source: "https://github.com/epiral/bb-browser/tree/main/skills/bb-browser"
 author: "epiral"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Extract data and complete workflows in your real logged-in browser

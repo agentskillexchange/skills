@@ -6,11 +6,9 @@ source: "https://github.com/kluctl/kluctl"
 author: "Kluctl"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kluctl/kluctl"
   github_stars: 860

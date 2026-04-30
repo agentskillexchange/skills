@@ -4,11 +4,9 @@ description: "Analyzes CircleCI orb dependencies using the CircleCI v2 API and O
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

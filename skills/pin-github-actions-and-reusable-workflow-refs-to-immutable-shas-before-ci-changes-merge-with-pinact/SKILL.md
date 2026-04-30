@@ -6,11 +6,9 @@ source: "https://github.com/suzuki-shunsuke/pinact"
 author: "suzuki-shunsuke"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "suzuki-shunsuke/pinact"
   github_stars: 917

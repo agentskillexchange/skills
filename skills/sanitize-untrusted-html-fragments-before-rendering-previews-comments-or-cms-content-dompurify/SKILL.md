@@ -6,11 +6,9 @@ source: "https://github.com/cure53/DOMPurify"
 author: "Cure53"
 publisher_type: "user"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "cure53/DOMPurify"
   github_stars: 16854

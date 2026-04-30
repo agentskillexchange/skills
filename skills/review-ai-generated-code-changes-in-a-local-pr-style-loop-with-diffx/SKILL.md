@@ -6,11 +6,9 @@ source: "https://github.com/wong2/diffx"
 author: "wong2"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "wong2/diffx"
   github_stars: 127

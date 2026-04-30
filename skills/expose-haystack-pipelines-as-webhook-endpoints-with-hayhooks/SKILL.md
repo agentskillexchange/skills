@@ -6,11 +6,9 @@ source: "https://github.com/deepset-ai/hayhooks"
 author: "deepset"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "deepset-ai/hayhooks"
   github_stars: 138

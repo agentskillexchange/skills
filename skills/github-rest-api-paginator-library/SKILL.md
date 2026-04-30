@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/octokit/plugin-paginate-rest.js"
 author: "Octokit"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "octokit/plugin-paginate-rest.js"
   github_stars: 58

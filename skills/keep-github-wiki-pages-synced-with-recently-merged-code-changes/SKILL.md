@@ -6,11 +6,9 @@ source: "https://github.com/githubnext/agentics/blob/main/docs/agentic-wiki-writ
 author: "GitHub Next"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Keep GitHub wiki pages synced with recently merged code changes

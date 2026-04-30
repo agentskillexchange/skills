@@ -4,11 +4,9 @@ description: "Automates diagnosis of CrashLoopBackOff pods using kubectl command
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

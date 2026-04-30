@@ -6,11 +6,9 @@ source: "https://github.com/Breakthrough/PySceneDetect"
 author: "Brandon Castellano and contributors"
 publisher_type: "Open Source"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Breakthrough/PySceneDetect"
   github_stars: 4711

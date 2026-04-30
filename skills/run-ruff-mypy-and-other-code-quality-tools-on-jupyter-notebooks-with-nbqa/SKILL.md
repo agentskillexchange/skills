@@ -6,11 +6,9 @@ source: "https://github.com/nbQA-dev/nbQA"
 author: "nbQA-dev"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nbQA-dev/nbQA"
   github_stars: 1196

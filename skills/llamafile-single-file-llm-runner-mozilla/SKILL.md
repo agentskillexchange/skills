@@ -4,11 +4,9 @@ description: "llamafile by Mozilla bundles open-source LLMs into a single portab
 verification: "security_reviewed"
 source: "https://github.com/mozilla-ai/llamafile"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mozilla-ai/llamafile"
   github_stars: 24134

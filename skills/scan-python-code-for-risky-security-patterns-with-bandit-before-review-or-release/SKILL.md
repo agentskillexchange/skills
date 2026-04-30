@@ -6,11 +6,9 @@ source: "https://github.com/PyCQA/bandit"
 author: "PyCQA"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "PyCQA/bandit"
   github_stars: 7933

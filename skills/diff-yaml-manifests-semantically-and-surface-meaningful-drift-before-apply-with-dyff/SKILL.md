@@ -6,11 +6,9 @@ source: "https://github.com/homeport/dyff"
 author: "homeport"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "homeport/dyff"
   github_stars: 1800

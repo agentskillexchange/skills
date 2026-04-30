@@ -5,11 +5,9 @@ verification: "listed"
 source: "https://docs.github.com/en/copilot"
 author: "GitHub"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # GitHub Copilot — AI-Powered Code Completion and Chat Assistant

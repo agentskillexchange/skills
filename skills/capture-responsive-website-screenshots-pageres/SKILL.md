@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/sindresorhus/pageres"
 author: "Sindre Sorhus"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sindresorhus/pageres"
   github_stars: 9741

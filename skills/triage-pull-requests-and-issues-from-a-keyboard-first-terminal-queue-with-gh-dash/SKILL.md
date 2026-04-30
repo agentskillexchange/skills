@@ -6,11 +6,9 @@ source: "https://github.com/dlvhdr/gh-dash"
 author: "Dolev Hadar"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dlvhdr/gh-dash"
   github_stars: 11340

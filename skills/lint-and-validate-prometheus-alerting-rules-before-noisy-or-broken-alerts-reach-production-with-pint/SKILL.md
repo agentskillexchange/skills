@@ -6,11 +6,9 @@ source: "https://github.com/cloudflare/pint"
 author: "Cloudflare"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cloudflare/pint"
   github_stars: 1015

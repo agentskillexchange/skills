@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/jenkinsci/pipeline-model-definition-plugin"
 author: "Jenkins"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "jenkinsci/pipeline-model-definition-plugin"
   github_stars: 564

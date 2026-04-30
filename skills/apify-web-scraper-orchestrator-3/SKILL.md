@@ -4,11 +4,9 @@ description: "Orchestrates Apify actors for large-scale web scraping via the Api
 verification: "security_reviewed"
 source: "https://github.com/apify/apify-sdk-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173

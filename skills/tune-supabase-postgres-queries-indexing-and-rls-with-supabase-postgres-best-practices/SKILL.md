@@ -6,11 +6,9 @@ source: "https://github.com/supabase/agent-skills/tree/main/supabase-postgres-be
 author: "Supabase"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices

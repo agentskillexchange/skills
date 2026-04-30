@@ -6,11 +6,9 @@ source: "https://github.com/APIDevTools/swagger-cli"
 author: "APIDevTools"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-cli"
   github_stars: 517

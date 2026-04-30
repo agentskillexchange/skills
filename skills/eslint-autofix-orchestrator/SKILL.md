@@ -4,11 +4,9 @@ description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js AP
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188

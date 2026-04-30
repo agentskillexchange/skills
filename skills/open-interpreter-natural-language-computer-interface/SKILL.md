@@ -4,11 +4,9 @@ description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, S
 verification: "security_reviewed"
 source: "https://github.com/openinterpreter/open-interpreter"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
   github_stars: 62934

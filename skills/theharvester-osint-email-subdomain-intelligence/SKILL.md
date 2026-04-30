@@ -4,11 +4,9 @@ description: "theHarvester is an open-source OSINT tool for gathering emails, su
 verification: "security_reviewed"
 source: "https://github.com/laramies/theHarvester"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "laramies/theHarvester"
   github_stars: 15942

@@ -4,11 +4,9 @@ description: "wp-browser is a PHP library that provides Codeception modules for 
 verification: "security_reviewed"
 source: "https://github.com/lucatume/wp-browser"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lucatume/wp-browser"
   github_stars: 634

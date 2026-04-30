@@ -6,11 +6,9 @@ source: "https://github.com/neondatabase/mcp-server-neon"
 author: "Neon"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "neondatabase/mcp-server-neon"
   github_stars: 593

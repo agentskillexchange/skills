@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/clerk/javascript"
 author: "clerk"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "clerk/javascript"
   github_stars: 1690

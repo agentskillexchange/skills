@@ -4,11 +4,9 @@ description: "pgcli is an interactive PostgreSQL CLI with context-aware autocomp
 verification: "security_reviewed"
 source: "https://github.com/dbcli/pgcli"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "dbcli/pgcli"
   github_stars: 13092

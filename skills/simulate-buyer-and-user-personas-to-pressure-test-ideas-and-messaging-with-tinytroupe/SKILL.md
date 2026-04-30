@@ -6,11 +6,9 @@ source: "https://github.com/microsoft/TinyTroupe"
 author: "Microsoft"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/TinyTroupe"
   github_stars: 7392

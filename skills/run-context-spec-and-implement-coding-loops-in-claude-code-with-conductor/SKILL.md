@@ -6,11 +6,9 @@ source: "https://github.com/wshobson/agents/tree/main/plugins/conductor"
 author: "wshobson"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Run context → spec → implement coding loops in Claude Code with Conductor

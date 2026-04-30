@@ -6,11 +6,9 @@ source: "https://github.com/caliber-ai-org/ai-setup"
 author: "Caliber AI"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "caliber-ai-org/ai-setup"
   github_stars: 717

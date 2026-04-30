@@ -4,11 +4,9 @@ description: "Orchestrates Terraform Cloud run pipelines via the TFC API v2 and 
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

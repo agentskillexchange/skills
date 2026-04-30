@@ -6,11 +6,9 @@ source: "https://github.com/checkly/checkly-cli"
 author: "checkly"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92

@@ -6,11 +6,9 @@ source: "https://gitlab.com/glitchtip/glitchtip-backend"
 author: "GlitchTip"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # GlitchTip Open-Source Error Tracking Platform

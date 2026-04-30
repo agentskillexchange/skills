@@ -6,11 +6,9 @@ source: "https://github.com/homeport/termshot"
 author: "homeport"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "homeport/termshot"
   github_stars: 751

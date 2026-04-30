@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/google/osv.dev"
 author: "Google"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "google/osv.dev"
   github_stars: 2626

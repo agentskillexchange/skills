@@ -6,11 +6,9 @@ source: "https://github.com/ComposioHQ/agent-orchestrator"
 author: "Composio"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ComposioHQ/agent-orchestrator"
   github_stars: 6270

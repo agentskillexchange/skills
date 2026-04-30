@@ -6,11 +6,9 @@ source: "https://github.com/StyraInc/regal"
 author: "Styra"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "StyraInc/regal"
   github_stars: 373

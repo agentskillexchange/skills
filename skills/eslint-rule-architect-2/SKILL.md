@@ -4,11 +4,9 @@ description: "Creates custom ESLint rules and shareable configs using the ESLint
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188

@@ -4,11 +4,9 @@ description: "proselint is a Python CLI tool that lints English prose for style 
 verification: "security_reviewed"
 source: "https://github.com/amperser/proselint"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "amperser/proselint"
   github_stars: 4515

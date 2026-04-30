@@ -6,11 +6,9 @@ source: "https://github.com/elceef/dnstwist"
 author: "elceef"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "elceef/dnstwist"
   github_stars: 5656

@@ -4,11 +4,9 @@ description: "Novu is an open-source notification infrastructure platform that p
 verification: "security_reviewed"
 source: "https://github.com/novuhq/novu"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "novuhq/novu"
   github_stars: 38747

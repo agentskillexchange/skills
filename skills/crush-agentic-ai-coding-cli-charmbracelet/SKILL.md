@@ -6,11 +6,9 @@ source: "https://github.com/charmbracelet/crush"
 author: "Charmbracelet"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/crush"
   github_stars: 22213

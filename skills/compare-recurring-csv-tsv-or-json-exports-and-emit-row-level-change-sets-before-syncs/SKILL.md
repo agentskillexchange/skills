@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/simonw/csv-diff"
 author: "Simon Willison"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/csv-diff"
   github_stars: 330

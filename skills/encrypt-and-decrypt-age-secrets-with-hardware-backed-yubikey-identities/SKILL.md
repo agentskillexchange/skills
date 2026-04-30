@@ -6,11 +6,9 @@ source: "https://github.com/str4d/age-plugin-yubikey"
 author: "str4d"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "str4d/age-plugin-yubikey"
   github_stars: 881

@@ -6,11 +6,9 @@ source: "https://github.com/itaysk/kubectl-neat"
 author: "itaysk"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "itaysk/kubectl-neat"
   github_stars: 2057

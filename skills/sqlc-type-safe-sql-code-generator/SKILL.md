@@ -4,11 +4,9 @@ description: "sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin
 verification: "security_reviewed"
 source: "https://github.com/sqlc-dev/sqlc"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sqlc-dev/sqlc"
   github_stars: 17275

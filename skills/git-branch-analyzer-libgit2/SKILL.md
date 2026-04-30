@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/libgit2/libgit2"
 author: "libgit2"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "libgit2/libgit2"
   github_stars: 10425

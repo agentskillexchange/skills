@@ -6,11 +6,9 @@ source: "https://github.com/bats-core/bats-core"
 author: "bats-core contributors"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bats-core/bats-core"
   github_stars: 5974

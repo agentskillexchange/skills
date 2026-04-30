@@ -4,11 +4,9 @@ description: "Automates Terraform Cloud workspace runs using the TFC API v2. Cre
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

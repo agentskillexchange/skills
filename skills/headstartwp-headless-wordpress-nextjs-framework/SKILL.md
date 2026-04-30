@@ -4,11 +4,9 @@ description: "HeadstartWP is 10up's open-source framework for building headless 
 verification: "security_reviewed"
 source: "https://github.com/10up/headstartwp"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "10up/headstartwp"
   github_stars: 198

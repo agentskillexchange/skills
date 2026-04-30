@@ -6,11 +6,9 @@ source: "https://github.com/browserbase/stagehand"
 author: "Browserbase"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22057

@@ -6,11 +6,9 @@ source: "https://github.com/The-PR-Agent/pr-agent"
 author: "The PR-Agent maintainers"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "the-pr-agent/pr-agent"
   github_stars: 10915

@@ -6,11 +6,9 @@ source: "https://github.com/metabase/metabase"
 author: "metabase"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "metabase/metabase"
   github_stars: 46828

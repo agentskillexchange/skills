@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.npmjs.com/"
 author: "npm, Inc."
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # NPM Package Explorer

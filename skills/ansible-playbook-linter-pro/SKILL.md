@@ -4,11 +4,9 @@ description: "Validates Ansible playbooks using ansible-lint with custom rule pl
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364

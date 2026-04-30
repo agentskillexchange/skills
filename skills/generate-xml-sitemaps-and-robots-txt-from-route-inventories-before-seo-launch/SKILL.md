@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/ekalinin/sitemap.js"
 author: "Eugene Kalinin"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ekalinin/sitemap.js"
   github_stars: 1708

@@ -6,11 +6,9 @@ source: "https://github.com/opendataloader-project/opendataloader-pdf"
 author: "opendataloader-project"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opendataloader-project/opendataloader-pdf"
   github_stars: 19060

@@ -4,11 +4,9 @@ description: "Testcontainers for Node.js is a library that provides lightweight,
 verification: "listed"
 source: "https://github.com/testcontainers/testcontainers-node"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "testcontainers/testcontainers-node"
   github_stars: 2508

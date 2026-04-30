@@ -6,11 +6,9 @@ source: "https://github.com/AppliedIR/Valhuntir"
 author: "AppliedIR"
 publisher_type: "GitHub repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AppliedIR/Valhuntir"
   github_stars: 40

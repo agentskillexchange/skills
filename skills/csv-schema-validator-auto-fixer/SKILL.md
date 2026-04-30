@@ -4,11 +4,9 @@ description: "Validates CSV files against JSON Schema definitions using AJV and 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # CSV Schema Validator & Auto-Fixer

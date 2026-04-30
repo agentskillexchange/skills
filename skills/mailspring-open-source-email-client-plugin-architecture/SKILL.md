@@ -4,11 +4,9 @@ description: "Mailspring is a beautiful, fast, and fully open source email clien
 verification: "security_reviewed"
 source: "https://github.com/Foundry376/Mailspring"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Foundry376/Mailspring"
   github_stars: 17366

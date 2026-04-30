@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/chartbrew/chartbrew"
 author: "Chartbrew"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chartbrew/chartbrew"
   github_stars: 3692

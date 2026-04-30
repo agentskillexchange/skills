@@ -4,11 +4,9 @@ description: "Extracts YouTube video transcripts via the youtube-transcript-api 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # YouTube Chapter Generator from Transcripts

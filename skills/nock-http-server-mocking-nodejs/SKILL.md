@@ -4,11 +4,9 @@ description: "Nock is an HTTP server mocking and expectations library for Node.j
 verification: "security_reviewed"
 source: "https://github.com/nock/nock"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nock/nock"
   github_stars: 13101

@@ -4,11 +4,9 @@ description: "Magika is Google's AI-powered file type detector for fast, content
 verification: "security_reviewed"
 source: "https://github.com/google/magika"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/magika"
   github_stars: 10199

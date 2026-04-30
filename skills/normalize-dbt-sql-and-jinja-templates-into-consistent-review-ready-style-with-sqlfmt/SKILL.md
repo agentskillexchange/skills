@@ -6,11 +6,9 @@ source: "https://github.com/tconbeer/sqlfmt"
 author: "Tristan Conbeer and contributors"
 publisher_type: "oss"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tconbeer/sqlfmt"
   github_stars: 530

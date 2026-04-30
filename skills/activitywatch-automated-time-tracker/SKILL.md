@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/ActivityWatch/activitywatch"
 author: "ActivityWatch"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ActivityWatch/activitywatch"
   github_stars: 17242

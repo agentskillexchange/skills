@@ -6,11 +6,9 @@ source: "https://github.com/wntrblm/nox"
 author: "Alicia Ramirez"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wntrblm/nox"
   github_stars: 1513

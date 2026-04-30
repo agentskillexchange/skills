@@ -4,11 +4,9 @@ description: "Unkey is an open-source developer platform for managing API keys, 
 verification: "security_reviewed"
 source: "https://github.com/unkeyed/unkey"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "unkeyed/unkey"
   github_stars: 5224

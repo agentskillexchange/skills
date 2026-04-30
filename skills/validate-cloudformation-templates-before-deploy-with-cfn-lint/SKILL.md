@@ -6,11 +6,9 @@ source: "https://github.com/aws-cloudformation/cfn-lint"
 author: "AWS CloudFormation"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aws-cloudformation/cfn-lint"
   github_stars: 2608

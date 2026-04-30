@@ -4,11 +4,9 @@ description: "Karakeep (formerly Hoarder) is a self-hosted bookmark-everything a
 verification: "security_reviewed"
 source: "https://github.com/karakeep-app/karakeep"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "karakeep-app/karakeep"
   github_stars: 24456

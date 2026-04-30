@@ -4,11 +4,9 @@ description: "Optimizes Apache Parquet file reads using PyArrow column pruning a
 verification: "security_reviewed"
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ironsource/parquetjs"
   github_stars: 387

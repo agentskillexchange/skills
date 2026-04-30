@@ -4,11 +4,9 @@ description: "Super Productivity is an advanced open-source todo list applicatio
 verification: "security_reviewed"
 source: "https://github.com/super-productivity/super-productivity"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "super-productivity/super-productivity"
   github_stars: 18281

@@ -6,11 +6,9 @@ source: "https://github.com/jo-inc/camofox-browser"
 author: "Jo, Inc."
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "jo-inc/camofox-browser"
   github_stars: 2853

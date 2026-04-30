@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/janl/mustache.js"
 author: "Jan Lehnardt"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "janl/mustache.js"
   github_stars: 16718

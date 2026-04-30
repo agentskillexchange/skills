@@ -6,11 +6,9 @@ source: "https://github.com/calesthio/OpenMontage"
 author: "calesthio"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "calesthio/OpenMontage"
   github_stars: 3008

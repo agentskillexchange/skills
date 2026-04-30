@@ -4,11 +4,9 @@ description: "Orchestrates LoRA fine-tuning for Stable Diffusion XL using the di
 verification: "security_reviewed"
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Stable Diffusion LoRA Training Pipeline

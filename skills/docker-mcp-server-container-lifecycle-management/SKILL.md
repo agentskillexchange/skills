@@ -4,11 +4,9 @@ description: "An MCP server that enables AI agents to manage Docker containers, 
 verification: "security_reviewed"
 source: "https://github.com/ckreiling/mcp-server-docker"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "ckreiling/mcp-server-docker"
   github_stars: 695

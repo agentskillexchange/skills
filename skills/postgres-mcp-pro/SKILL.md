@@ -6,11 +6,9 @@ source: "https://github.com/crystaldba/postgres-mcp"
 author: "Crystal DBA"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
   github_stars: 2653

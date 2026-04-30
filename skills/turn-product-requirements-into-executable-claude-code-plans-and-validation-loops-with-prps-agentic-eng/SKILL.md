@@ -6,11 +6,9 @@ source: "https://github.com/Wirasm/PRPs-agentic-eng"
 author: "Rasmus Widing"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "Wirasm/PRPs-agentic-eng"
   github_stars: 2140

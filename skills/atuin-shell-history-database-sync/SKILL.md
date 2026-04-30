@@ -4,11 +4,9 @@ description: "Atuin replaces your existing shell history with a SQLite database 
 verification: "security_reviewed"
 source: "https://github.com/atuinsh/atuin"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "atuinsh/atuin"
   github_stars: 28925

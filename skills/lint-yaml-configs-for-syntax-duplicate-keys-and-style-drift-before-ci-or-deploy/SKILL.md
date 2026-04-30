@@ -6,11 +6,9 @@ source: "https://github.com/adrienverge/yamllint"
 author: "adrienverge"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "adrienverge/yamllint"
   github_stars: 3360

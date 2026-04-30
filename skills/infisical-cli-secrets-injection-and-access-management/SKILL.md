@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/Infisical/cli"
 author: "Infisical"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Infisical/cli"
   github_stars: 41

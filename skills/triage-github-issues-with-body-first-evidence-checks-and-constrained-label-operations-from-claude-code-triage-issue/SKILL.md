@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/tr
 author: "Anthropic"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue

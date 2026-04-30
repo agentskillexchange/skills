@@ -4,11 +4,9 @@ description: "Creates structured incident response templates using the PagerDuty
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-template-generator/"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Incident Response Template Generator

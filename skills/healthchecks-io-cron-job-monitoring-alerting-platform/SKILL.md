@@ -6,11 +6,9 @@ source: "https://github.com/healthchecks/healthchecks"
 author: "healthchecks"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "healthchecks/healthchecks"
   github_stars: 9967

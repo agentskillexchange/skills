@@ -6,11 +6,9 @@ source: "https://github.com/githubnext/agentics/blob/main/docs/ci-doctor.md"
 author: "GitHub Next"
 publisher_type: "Open source project"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Investigate failing GitHub Actions runs with CI Doctor

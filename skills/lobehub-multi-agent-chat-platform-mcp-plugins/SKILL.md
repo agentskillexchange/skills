@@ -4,11 +4,9 @@ description: "LobeHub is an open-source multi-agent chat platform supporting 50+
 verification: "security_reviewed"
 source: "https://github.com/lobehub/lobehub"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lobehub/lobehub"
   github_stars: 74891

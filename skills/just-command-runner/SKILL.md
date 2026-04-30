@@ -4,11 +4,9 @@ description: "Just is a command runner written in Rust that provides a convenien
 verification: "security_reviewed"
 source: "https://github.com/casey/just"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "casey/just"
   github_stars: 32526

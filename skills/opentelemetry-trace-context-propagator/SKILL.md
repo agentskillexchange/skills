@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://opentelemetry.io/docs/languages/js/propagation/"
 author: "OpenTelemetry"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # OpenTelemetry Trace Context Propagator

@@ -6,11 +6,9 @@ source: "https://github.com/bojand/ghz"
 author: "bojand"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bojand/ghz"
   github_stars: 3315

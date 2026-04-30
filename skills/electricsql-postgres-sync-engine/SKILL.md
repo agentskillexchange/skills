@@ -4,11 +4,9 @@ description: "ElectricSQL is a read-path sync engine for PostgreSQL that handles
 verification: "security_reviewed"
 source: "https://github.com/electric-sql/electric"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "electric-sql/electric"
   github_stars: 10069

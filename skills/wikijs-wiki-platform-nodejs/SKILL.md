@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/requarks/wiki"
 author: "requarks.io"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "requarks/wiki"
   github_stars: 28154

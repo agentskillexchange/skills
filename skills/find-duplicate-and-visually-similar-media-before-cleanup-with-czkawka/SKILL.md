@@ -6,11 +6,9 @@ source: "https://github.com/qarmin/czkawka"
 author: "qarmin"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "qarmin/czkawka"
   github_stars: 30600

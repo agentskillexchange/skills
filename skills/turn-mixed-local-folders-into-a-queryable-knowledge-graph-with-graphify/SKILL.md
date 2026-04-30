@@ -6,11 +6,9 @@ source: "https://github.com/safishamsi/graphify"
 author: "safishamsi"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "safishamsi/graphify"
   github_stars: 25688

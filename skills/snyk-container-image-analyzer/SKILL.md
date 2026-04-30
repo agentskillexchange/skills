@@ -4,11 +4,9 @@ description: "Scans Docker and OCI container images for OS and application vulne
 verification: "security_reviewed"
 source: "https://github.com/snyk/cli"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "snyk/cli"
   github_stars: 5496

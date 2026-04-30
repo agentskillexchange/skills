@@ -4,11 +4,9 @@ description: "Podman is a daemonless container engine for developing, managing, 
 verification: "security_reviewed"
 source: "https://github.com/containers/podman"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "containers/podman"
   github_stars: 31227

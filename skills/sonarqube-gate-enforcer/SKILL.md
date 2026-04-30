@@ -4,11 +4,9 @@ description: "Enforces SonarQube quality gate conditions in CI pipelines using t
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

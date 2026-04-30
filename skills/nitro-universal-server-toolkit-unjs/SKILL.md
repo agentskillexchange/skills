@@ -4,11 +4,9 @@ description: "Nitro is a universal server framework from the UnJS ecosystem that
 verification: "security_reviewed"
 source: "https://github.com/nitrojs/nitro"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nitrojs/nitro"
   github_stars: 10640

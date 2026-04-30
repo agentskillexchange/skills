@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/dogsheep/github-to-sqlite"
 author: "Dogsheep"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dogsheep/github-to-sqlite"
   github_stars: 461

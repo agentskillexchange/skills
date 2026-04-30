@@ -4,11 +4,9 @@ description: "Triages Outlook emails using the Microsoft Graph API /me/messages 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Microsoft Graph Mail Triage Agent

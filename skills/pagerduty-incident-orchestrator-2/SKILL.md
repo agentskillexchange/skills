@@ -4,11 +4,9 @@ description: "Manages PagerDuty incident lifecycle using the PagerDuty Events AP
 verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
   github_stars: 69

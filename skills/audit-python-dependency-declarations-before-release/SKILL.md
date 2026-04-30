@@ -6,11 +6,9 @@ source: "https://github.com/osprey-oss/deptry"
 author: "Osprey OSS"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "osprey-oss/deptry"
   github_stars: 1359

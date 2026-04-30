@@ -4,11 +4,9 @@ description: "Automates Jenkins CI/CD pipeline configuration using the Jenkins R
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

@@ -4,11 +4,9 @@ description: "Write better shell scripts in JavaScript using Google's zx. Provid
 verification: "security_reviewed"
 source: "https://github.com/google/zx"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "google/zx"
   github_stars: 45324

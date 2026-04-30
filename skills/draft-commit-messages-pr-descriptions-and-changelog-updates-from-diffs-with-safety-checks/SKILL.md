@@ -6,11 +6,9 @@ source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/git-commit-
 author: "Philip A Senger"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks

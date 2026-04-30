@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.scrapingbee.com/documentation/"
 author: "ScrapingBee"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # ScrapingBee API Data Harvester

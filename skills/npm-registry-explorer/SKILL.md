@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
 author: "npm, Inc."
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # npm Registry Explorer

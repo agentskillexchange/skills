@@ -6,11 +6,9 @@ source: "https://github.com/sverweij/dependency-cruiser"
 author: "sverweij"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sverweij/dependency-cruiser"
   github_stars: 6557

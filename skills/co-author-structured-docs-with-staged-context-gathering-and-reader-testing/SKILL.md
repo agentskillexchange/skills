@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
 author: "Anthropic"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Co-author structured docs with staged context gathering and reader testing

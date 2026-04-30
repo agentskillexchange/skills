@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.newrelic.com/"
 author: "New Relic"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # New Relic SLO Compliance Monitor

@@ -4,11 +4,9 @@ description: "Creates component and integration tests using the Cypress Testing 
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 author: "Semgrep"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14922

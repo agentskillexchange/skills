@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/TracecatHQ/tracecat"
 author: "Tracecat"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "TracecatHQ/tracecat"
   github_stars: 3546

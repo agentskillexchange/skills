@@ -4,11 +4,9 @@ description: "sqlite-utils is a Python CLI utility and library by Simon Willison
 verification: "security_reviewed"
 source: "https://github.com/simonw/sqlite-utils"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "simonw/sqlite-utils"
   github_stars: 2026

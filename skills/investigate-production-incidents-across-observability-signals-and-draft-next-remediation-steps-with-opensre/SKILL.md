@@ -6,11 +6,9 @@ source: "https://github.com/Tracer-Cloud/opensre"
 author: "Tracer Cloud"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Tracer-Cloud/opensre"
   github_stars: 1979

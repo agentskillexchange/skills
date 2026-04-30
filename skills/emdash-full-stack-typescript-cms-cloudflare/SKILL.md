@@ -4,11 +4,9 @@ description: "EmDash is an open-source, full-stack TypeScript CMS built on Astro
 verification: "security_reviewed"
 source: "https://github.com/emdash-cms/emdash"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "emdash-cms/emdash"
   github_stars: 9237

@@ -6,11 +6,9 @@ source: "https://github.com/agentlayer-io/AgentClick"
 author: "agentlayer-io"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agentlayer-io/agentclick"
   github_stars: 22

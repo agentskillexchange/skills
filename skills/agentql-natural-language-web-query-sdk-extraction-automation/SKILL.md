@@ -6,11 +6,9 @@ source: "https://github.com/tinyfish-io/agentql"
 author: "tinyfish-io"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tinyfish-io/agentql"
   github_stars: 1312

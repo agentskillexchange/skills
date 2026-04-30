@@ -1,14 +1,12 @@
 ---
 title: "Supabase MCP Server"
-description: "Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like PostgREST, Auth, Storage, Realtime, Edge Functions, RLS and preserving the operational context […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/supabase/supabase"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "supabase/supabase"
   github_stars: 100812
@@ -16,7 +14,7 @@ tool_ecosystem:
 
 # Supabase MCP Server
 
-Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like PostgREST, Auth, Storage, Realtime, Edge Functions, RLS and preserving the operational context […]
+
 
 ## Installation
 

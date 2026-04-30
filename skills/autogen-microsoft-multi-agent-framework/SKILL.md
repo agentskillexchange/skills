@@ -5,11 +5,9 @@ verification: "listed"
 source: "https://github.com/microsoft/autogen"
 author: "Microsoft Research"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/autogen"
   github_stars: 56777

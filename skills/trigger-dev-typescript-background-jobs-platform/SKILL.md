@@ -4,11 +4,9 @@ description: "Trigger.dev is an open-source platform for building and deploying 
 verification: "security_reviewed"
 source: "https://github.com/triggerdotdev/trigger.dev"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "triggerdotdev/trigger.dev"
   github_stars: 14318

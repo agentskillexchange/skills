@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.todoist.com/api/v1/"
 author: "Doist"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Todoist Sync API Task Orchestrator

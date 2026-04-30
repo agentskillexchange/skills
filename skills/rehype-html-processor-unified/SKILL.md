@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/rehypejs/rehype"
 author: "rehype"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rehypejs/rehype"
   github_stars: 2202

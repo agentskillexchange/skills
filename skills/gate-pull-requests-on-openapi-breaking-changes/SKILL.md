@@ -4,11 +4,9 @@ description: "Use oasdiff when an agent needs to compare old and new OpenAPI spe
 verification: "security_reviewed"
 source: "https://github.com/oasdiff/oasdiff"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "oasdiff/oasdiff"
   github_stars: 1160

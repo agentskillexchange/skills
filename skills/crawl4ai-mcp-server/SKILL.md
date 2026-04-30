@@ -6,11 +6,9 @@ source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
 author: "Crawl4AI community (server by sadiuysal)"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "sadiuysal/crawl4ai-mcp-server"
   github_stars: 82

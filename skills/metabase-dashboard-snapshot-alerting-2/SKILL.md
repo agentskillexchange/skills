@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.metabase.com/docs/latest/"
 author: "Metabase"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Metabase Dashboard Snapshot & Alerting

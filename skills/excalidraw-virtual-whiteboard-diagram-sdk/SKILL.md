@@ -4,11 +4,9 @@ description: "Excalidraw is an open-source virtual whiteboard for creating hand-
 verification: "security_reviewed"
 source: "https://github.com/excalidraw/excalidraw"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "excalidraw/excalidraw"
   github_stars: 119886

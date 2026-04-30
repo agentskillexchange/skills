@@ -6,11 +6,9 @@ source: "https://github.com/atlassian/atlassian-mcp-server"
 author: "Atlassian"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
   github_stars: 631

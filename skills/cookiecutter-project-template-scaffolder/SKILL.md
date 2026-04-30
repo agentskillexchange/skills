@@ -4,11 +4,9 @@ description: "Generates project scaffolds using Cookiecutter templates from GitH
 verification: "security_reviewed"
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "cookiecutter/cookiecutter"
   github_stars: 24786

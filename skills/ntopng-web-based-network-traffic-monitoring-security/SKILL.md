@@ -4,11 +4,9 @@ description: "ntopng is a web-based network traffic monitoring application that 
 verification: "security_reviewed"
 source: "https://github.com/ntop/ntopng"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ntop/ntopng"
   github_stars: 7702

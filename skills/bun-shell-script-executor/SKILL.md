@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/oven-sh/bun"
 author: "oven-sh"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "oven-sh/bun"
   github_stars: 88912

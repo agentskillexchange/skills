@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.diffbot.com/"
 author: "Diffbot"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Diffbot Knowledge Graph Extractor

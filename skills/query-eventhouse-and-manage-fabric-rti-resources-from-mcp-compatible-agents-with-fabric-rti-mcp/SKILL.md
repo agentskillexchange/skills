@@ -6,11 +6,9 @@ source: "https://github.com/microsoft/fabric-rti-mcp"
 author: "Microsoft"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "microsoft/fabric-rti-mcp"
   github_stars: 111

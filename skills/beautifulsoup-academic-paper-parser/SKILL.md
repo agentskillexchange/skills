@@ -4,11 +4,9 @@ description: "Extracts structured citation data from academic repositories using
 verification: "security_reviewed"
 source: "https://pypi.org/project/beautifulsoup4/"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 ---
 
 # Beautiful Soup Academic Paper Parser

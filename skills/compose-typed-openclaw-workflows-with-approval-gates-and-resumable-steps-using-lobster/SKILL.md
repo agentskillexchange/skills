@@ -6,11 +6,9 @@ source: "https://github.com/openclaw/lobster"
 author: "OpenClaw"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "openclaw/lobster"
   github_stars: 1128

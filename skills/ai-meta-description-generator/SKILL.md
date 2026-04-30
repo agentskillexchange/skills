@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://platform.openai.com/docs/api-reference"
 author: "OpenAI"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # AI Meta Description Generator

@@ -4,11 +4,9 @@ description: "KeystoneJS is a powerful open-source headless CMS for Node.js that
 verification: "security_reviewed"
 source: "https://github.com/keystonejs/keystone"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "keystonejs/keystone"
   github_stars: 9860

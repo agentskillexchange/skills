@@ -6,11 +6,9 @@ source: "https://github.com/jordymeow/ai-engine"
 author: "Jordy Meow"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "jordymeow/ai-engine"
   github_stars: 37

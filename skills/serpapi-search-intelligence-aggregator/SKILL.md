@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://serpapi.com/"
 author: "SerpApi"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # SerpAPI Search Intelligence Aggregator

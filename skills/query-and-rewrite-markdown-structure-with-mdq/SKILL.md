@@ -6,11 +6,9 @@ source: "https://github.com/yshavit/mdq"
 author: "yshavit"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yshavit/mdq"
   github_stars: 1708

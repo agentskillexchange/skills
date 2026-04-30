@@ -6,11 +6,9 @@ source: "https://github.com/codespell-project/codespell"
 author: "codespell-project"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "codespell-project/codespell"
   github_stars: 2356

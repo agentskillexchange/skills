@@ -4,11 +4,9 @@ description: "Profiles and optimizes Snowflake SQL queries using the Snowflake I
 verification: "security_reviewed"
 source: "https://pypi.org/project/snowflake-connector-python/"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Snowflake Query Profiler

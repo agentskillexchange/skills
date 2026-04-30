@@ -4,11 +4,9 @@ description: "An official MCP server from Upstash that lets AI agents manage Red
 verification: "security_reviewed"
 source: "https://github.com/upstash/mcp-server"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52

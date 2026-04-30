@@ -6,11 +6,9 @@ source: "https://github.com/supabase/cli"
 author: "Supabase"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "supabase/cli"
   github_stars: 2112

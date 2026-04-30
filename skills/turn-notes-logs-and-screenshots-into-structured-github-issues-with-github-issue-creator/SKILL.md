@@ -6,11 +6,9 @@ source: "https://github.com/microsoft/skills/tree/main/.github/skills/github-iss
 author: "Microsoft"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator

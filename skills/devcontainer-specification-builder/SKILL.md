@@ -5,11 +5,10 @@ verification: "security_reviewed"
 source: "https://github.com/devcontainers/spec"
 author: "Dev Containers"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "devcontainers/spec"
   github_stars: 5357

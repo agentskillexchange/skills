@@ -4,11 +4,9 @@ description: "ChartDB is a web-based database diagramming editor that instantly 
 verification: "security_reviewed"
 source: "https://github.com/chartdb/chartdb"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chartdb/chartdb"
   github_stars: 21734

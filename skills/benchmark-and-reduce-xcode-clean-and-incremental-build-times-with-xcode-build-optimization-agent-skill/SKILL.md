@@ -6,11 +6,9 @@ source: "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill"
 author: "Antoine van der Lee"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AvdLee/Xcode-Build-Optimization-Agent-Skill"
   github_stars: 981

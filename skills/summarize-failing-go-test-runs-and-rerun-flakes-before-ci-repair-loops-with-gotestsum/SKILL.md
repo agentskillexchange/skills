@@ -6,11 +6,9 @@ source: "https://github.com/gotestyourself/gotestsum"
 author: "gotestyourself maintainers"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gotestyourself/gotestsum"
   github_stars: 2600

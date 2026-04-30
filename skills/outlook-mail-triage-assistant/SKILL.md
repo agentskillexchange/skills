@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
 author: "Microsoft"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Outlook Mail Triage Assistant

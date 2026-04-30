@@ -4,11 +4,9 @@ description: "This skill turns chromedp into a repeatable browser automation wor
 verification: "security_reviewed"
 source: "https://github.com/chromedp/chromedp"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chromedp/chromedp"
   github_stars: 12900

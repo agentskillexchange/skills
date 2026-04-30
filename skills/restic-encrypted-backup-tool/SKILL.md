@@ -4,11 +4,9 @@ description: "Restic is a fast, secure, and efficient backup program supporting 
 verification: "security_reviewed"
 source: "https://github.com/restic/restic"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "restic/restic"
   github_stars: 32908

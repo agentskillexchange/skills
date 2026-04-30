@@ -6,11 +6,9 @@ source: "https://github.com/dreadnode/agent-lens"
 author: "Dreadnode"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "dreadnode/agent-lens"
   github_stars: 102

@@ -4,11 +4,9 @@ description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API f
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

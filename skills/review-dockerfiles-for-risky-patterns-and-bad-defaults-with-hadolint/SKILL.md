@@ -6,11 +6,9 @@ source: "https://github.com/hadolint/hadolint"
 author: "hadolint"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hadolint/hadolint"
   github_stars: 12065

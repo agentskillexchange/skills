@@ -6,11 +6,9 @@ source: "https://github.com/hey-intent/patchwork-agents"
 author: "hey-intent"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hey-intent/patchwork-agents"
   github_stars: 0

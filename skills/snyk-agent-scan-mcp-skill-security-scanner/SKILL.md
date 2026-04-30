@@ -4,11 +4,9 @@ description: "Snyk Agent Scan automatically discovers and scans AI agent compone
 verification: "security_reviewed"
 source: "https://github.com/snyk/agent-scan"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2039

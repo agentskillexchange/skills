@@ -6,11 +6,9 @@ source: "https://github.com/log2timeline/plaso"
 author: "log2timeline"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "log2timeline/plaso"
   github_stars: 2052

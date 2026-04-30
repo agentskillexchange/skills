@@ -6,11 +6,9 @@ source: "https://github.com/helmfile/helmfile"
 author: "helmfile"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "helmfile/helmfile"
   github_stars: 5058

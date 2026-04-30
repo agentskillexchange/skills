@@ -4,11 +4,9 @@ description: "Monitors SonarQube project quality gates via the Web API and block
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

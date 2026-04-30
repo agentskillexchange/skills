@@ -6,11 +6,9 @@ source: "https://github.com/bibanon/tubeup"
 author: "Bibliotheca Anonoma / bibanon"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bibanon/tubeup"
   github_stars: 487

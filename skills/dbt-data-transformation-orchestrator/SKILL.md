@@ -4,11 +4,9 @@ description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data tr
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
   github_stars: 12621

@@ -6,11 +6,9 @@ source: "https://github.com/docling-project/docling"
 author: "docling-project"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docling-project/docling"
   github_stars: 57622

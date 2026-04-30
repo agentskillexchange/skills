@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/daijro/camoufox"
 author: "daijro"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "daijro/camoufox"
   github_stars: 7103

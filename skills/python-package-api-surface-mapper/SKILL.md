@@ -4,11 +4,9 @@ description: "Maps the public API surface of Python packages using ast module pa
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Python Package API Surface Mapper

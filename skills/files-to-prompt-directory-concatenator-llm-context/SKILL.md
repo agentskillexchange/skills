@@ -4,11 +4,9 @@ description: "files-to-prompt by Simon Willison concatenates an entire directory
 verification: "security_reviewed"
 source: "https://github.com/simonw/files-to-prompt"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/files-to-prompt"
   github_stars: 2643

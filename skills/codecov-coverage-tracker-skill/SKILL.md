@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.codecov.com/reference/repos_commits_list"
 author: "Codecov"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Codecov Coverage Tracker

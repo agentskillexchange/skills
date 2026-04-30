@@ -4,11 +4,9 @@ description: "HandBrake is a widely-used open-source video transcoder that conve
 verification: "security_reviewed"
 source: "https://github.com/HandBrake/HandBrake"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "handbrake/handbrake"
   github_stars: 22806

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 author: "FFmpeg"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548

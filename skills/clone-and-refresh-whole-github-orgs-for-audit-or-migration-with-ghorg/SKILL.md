@@ -6,11 +6,9 @@ source: "https://github.com/gabrie30/ghorg"
 author: "gabrie30"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gabrie30/ghorg"
   github_stars: 2016

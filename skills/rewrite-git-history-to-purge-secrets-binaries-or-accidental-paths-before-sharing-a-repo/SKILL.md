@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/newren/git-filter-repo"
 publisher_type: "individual_maintainer"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "newren/git-filter-repo"
   github_stars: 12127

@@ -4,11 +4,9 @@ description: "Connects to HashiCorp Vault HTTP API for automated secret rotation
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/vault"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
   github_stars: 35418

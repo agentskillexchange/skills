@@ -6,11 +6,9 @@ source: "https://github.com/David-Crty/databasement"
 author: "David-Crty"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "David-Crty/databasement"
   github_stars: 315

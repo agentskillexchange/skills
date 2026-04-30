@@ -4,11 +4,9 @@ description: "Diagnoses and fixes CircleCI orb configuration errors using the Ci
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

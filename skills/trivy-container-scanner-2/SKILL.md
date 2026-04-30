@@ -4,11 +4,9 @@ description: "Wraps the Trivy CLI for comprehensive container image vulnerabilit
 verification: "security_reviewed"
 source: "https://github.com/aquasecurity/trivy"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "aquasecurity/trivy"
   github_stars: 34488

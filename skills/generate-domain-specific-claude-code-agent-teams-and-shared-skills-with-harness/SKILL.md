@@ -6,11 +6,9 @@ source: "https://github.com/revfactory/harness"
 author: "revfactory"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "revfactory/harness"
   github_stars: 2807

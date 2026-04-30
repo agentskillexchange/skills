@@ -6,11 +6,9 @@ source: "https://github.com/reviewdog/reviewdog"
 author: "reviewdog"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "reviewdog/reviewdog"
   github_stars: 9207

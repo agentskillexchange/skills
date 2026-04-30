@@ -4,11 +4,9 @@ description: "Griptape is a modular Python framework for building AI agents and 
 verification: "security_reviewed"
 source: "https://github.com/griptape-ai/griptape"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "griptape-ai/griptape"
   github_stars: 2511

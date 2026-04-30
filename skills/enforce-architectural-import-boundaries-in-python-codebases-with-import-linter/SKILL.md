@@ -6,11 +6,9 @@ source: "https://github.com/seddonym/import-linter"
 author: "seddonym"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "seddonym/import-linter"
   github_stars: 995

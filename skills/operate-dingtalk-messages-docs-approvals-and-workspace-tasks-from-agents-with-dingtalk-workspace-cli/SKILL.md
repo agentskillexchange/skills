@@ -6,11 +6,9 @@ source: "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli"
 author: "DingTalk Real AI"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DingTalk-Real-AI/dingtalk-workspace-cli"
   github_stars: 1579

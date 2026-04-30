@@ -6,11 +6,9 @@ source: "https://github.com/knowsuchagency/mcp2cli"
 author: "Knowsuch Agency"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "knowsuchagency/mcp2cli"
   github_stars: 1940

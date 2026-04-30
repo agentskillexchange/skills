@@ -4,11 +4,9 @@ description: "Newspaper4k is an actively maintained fork of the popular Newspape
 verification: "security_reviewed"
 source: "https://github.com/AndyTheFactory/newspaper4k"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "andythefactory/newspaper4k"
   github_stars: 1085

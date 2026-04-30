@@ -4,11 +4,9 @@ description: "Routes browser automation sessions across Selenium Grid 4 nodes us
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

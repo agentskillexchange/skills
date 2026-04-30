@@ -6,11 +6,9 @@ source: "https://github.com/databasus/databasus"
 author: "databasus"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "databasus/databasus"
   github_stars: 6581

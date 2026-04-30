@@ -4,11 +4,9 @@ description: "pnpm is a fast, disk space efficient package manager for Node.js t
 verification: "security_reviewed"
 source: "https://github.com/pnpm/pnpm"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "pnpm/pnpm"
   github_stars: 34426

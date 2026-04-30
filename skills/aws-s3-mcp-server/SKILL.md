@@ -1,15 +1,13 @@
 ---
 title: "AWS S3 MCP Server"
-description: "AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "aws"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3609
@@ -17,7 +15,7 @@ tool_ecosystem:
 
 # AWS S3 MCP Server
 
-AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 […]
+
 
 ## Prerequisites
 

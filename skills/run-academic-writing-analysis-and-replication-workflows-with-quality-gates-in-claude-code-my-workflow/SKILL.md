@@ -6,11 +6,9 @@ source: "https://github.com/pedrohcgs/claude-code-my-workflow"
 author: "pedrohcgs"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "pedrohcgs/claude-code-my-workflow"
   github_stars: 970

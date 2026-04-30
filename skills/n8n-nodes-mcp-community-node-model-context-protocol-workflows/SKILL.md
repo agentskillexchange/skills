@@ -6,11 +6,9 @@ source: "https://github.com/nerding-io/n8n-nodes-mcp"
 author: "Jd Fiscus"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "nerding-io/n8n-nodes-mcp"
   github_stars: 3002

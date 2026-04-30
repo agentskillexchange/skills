@@ -4,11 +4,9 @@ description: "Satori is a high-performance library by Vercel that converts HTML 
 verification: "security_reviewed"
 source: "https://github.com/vercel/satori"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel/satori"
   github_stars: 13234

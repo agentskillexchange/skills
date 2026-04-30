@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://platform.openai.com/docs/guides/speech-to-text"
 author: "OpenAI"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Podcast Transcription Pipeline

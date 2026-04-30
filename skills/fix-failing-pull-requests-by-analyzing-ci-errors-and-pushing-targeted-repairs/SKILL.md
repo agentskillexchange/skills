@@ -6,11 +6,9 @@ source: "https://github.com/githubnext/agentics/blob/main/docs/pr-fix.md"
 author: "GitHub Next"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Fix failing pull requests by analyzing CI errors and pushing targeted repairs

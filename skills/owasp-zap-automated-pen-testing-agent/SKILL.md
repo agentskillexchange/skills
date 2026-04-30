@@ -4,11 +4,9 @@ description: "Runs automated penetration tests using OWASP ZAP API with spider c
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991

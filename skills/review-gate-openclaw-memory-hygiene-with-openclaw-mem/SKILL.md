@@ -6,11 +6,9 @@ source: "https://github.com/phenomenoner/openclaw-mem"
 author: "phenomenoner"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "phenomenoner/openclaw-mem"
   github_stars: 28

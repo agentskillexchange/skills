@@ -6,11 +6,9 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-rest-api
 author: "WordPress"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Build and debug custom WordPress REST API endpoints with schema and permission guardrails

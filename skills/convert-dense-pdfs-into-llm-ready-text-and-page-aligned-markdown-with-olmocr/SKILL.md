@@ -6,11 +6,9 @@ source: "https://github.com/allenai/olmocr"
 author: "Allen Institute for AI"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "allenai/olmocr"
   github_stars: 17135

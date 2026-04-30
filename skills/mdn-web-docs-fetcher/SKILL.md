@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.mozilla.org/"
 author: "Mozilla"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # MDN Web Docs Fetcher

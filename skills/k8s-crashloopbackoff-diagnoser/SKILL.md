@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/"
 author: "Kubernetes"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Kubernetes CrashLoopBackOff Diagnoser

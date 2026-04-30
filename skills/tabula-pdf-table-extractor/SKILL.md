@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/tabulapdf/tabula-java"
 author: "Tabula"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "tabulapdf/tabula-java"
   github_stars: 2023

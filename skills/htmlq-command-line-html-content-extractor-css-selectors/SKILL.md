@@ -6,11 +6,9 @@ source: "https://github.com/mgdm/htmlq"
 author: "Michael Maclean"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mgdm/htmlq"
   github_stars: 7514

@@ -6,11 +6,9 @@ source: "https://github.com/jazzband/pip-tools"
 author: "Jazzband"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jazzband/pip-tools"
   github_stars: 8001

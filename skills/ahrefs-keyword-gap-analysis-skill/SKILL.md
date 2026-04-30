@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords"
 author: "Ahrefs"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Ahrefs Keyword Gap Analysis Skill

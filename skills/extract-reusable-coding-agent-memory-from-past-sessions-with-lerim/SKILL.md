@@ -6,11 +6,9 @@ source: "https://github.com/lerim-dev/lerim-cli"
 author: "lerim-dev"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lerim-dev/lerim-cli"
   github_stars: 73

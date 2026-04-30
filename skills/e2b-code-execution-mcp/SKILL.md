@@ -6,11 +6,9 @@ source: "https://github.com/e2b-dev/mcp-server"
 author: "E2B"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 395

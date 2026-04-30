@@ -4,11 +4,9 @@ description: "Enable AI agents to interact with Memos, an open-source self-hoste
 verification: "security_reviewed"
 source: "https://github.com/usememos/memos"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "usememos/memos"
   github_stars: 58453

@@ -4,11 +4,9 @@ description: "Official Model Context Protocol server that connects LLMs to Meili
 verification: "security_reviewed"
 source: "https://github.com/meilisearch/meilisearch-mcp"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "meilisearch/meilisearch-mcp"
   github_stars: 181

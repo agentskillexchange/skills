@@ -4,11 +4,9 @@ description: "Builds integration handoffs around n8n primitives like the Webhook
 verification: "security_reviewed"
 source: "https://github.com/n8n-io/n8n"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "n8n-io/n8n"
   github_stars: 182065

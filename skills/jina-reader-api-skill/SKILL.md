@@ -4,11 +4,9 @@ description: "Extracts clean markdown content from any URL using the Jina Reader
 verification: "security_reviewed"
 source: "https://jina.ai/reader/"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Jina Reader API Skill

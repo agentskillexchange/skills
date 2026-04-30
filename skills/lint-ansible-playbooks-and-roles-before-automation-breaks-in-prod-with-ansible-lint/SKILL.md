@@ -6,11 +6,9 @@ source: "https://github.com/ansible/ansible-lint"
 author: "Ansible community"
 publisher_type: "open_source"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ansible/ansible-lint"
   github_stars: 3856

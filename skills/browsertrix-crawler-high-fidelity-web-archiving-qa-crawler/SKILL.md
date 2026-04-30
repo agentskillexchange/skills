@@ -6,11 +6,9 @@ source: "https://github.com/webrecorder/browsertrix-crawler"
 author: "Webrecorder"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "webrecorder/browsertrix-crawler"
   github_stars: 1013

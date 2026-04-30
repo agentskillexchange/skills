@@ -6,11 +6,9 @@ source: "https://github.com/xeol-io/xeol"
 author: "xeol-io"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xeol-io/xeol"
   github_stars: 435

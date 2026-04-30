@@ -4,11 +4,9 @@ description: "Builds topical authority clusters using SEMrush Keyword Magic API,
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # SEO Content Cluster Generator

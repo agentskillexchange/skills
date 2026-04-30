@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/systemd/systemd"
 author: "systemd"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "systemd/systemd"
   github_stars: 16248

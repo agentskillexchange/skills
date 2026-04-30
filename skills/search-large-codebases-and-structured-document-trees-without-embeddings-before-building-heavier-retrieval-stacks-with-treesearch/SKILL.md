@@ -6,11 +6,9 @@ source: "https://github.com/shibing624/TreeSearch"
 author: "shibing624"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "shibing624/TreeSearch"
   github_stars: 189

@@ -6,11 +6,9 @@ source: "https://github.com/slsa-framework/slsa-github-generator"
 author: "SLSA maintainers"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "slsa-framework/slsa-github-generator"
   github_stars: 566

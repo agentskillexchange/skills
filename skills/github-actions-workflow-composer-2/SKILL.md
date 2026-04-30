@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.github.com/en/actions"
 author: "GitHub"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # GitHub Actions Workflow Composer

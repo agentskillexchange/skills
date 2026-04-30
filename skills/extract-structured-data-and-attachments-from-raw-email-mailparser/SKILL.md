@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/nodemailer/mailparser"
 author: "Andris Reinman"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nodemailer/mailparser"
   github_stars: 1666

@@ -4,11 +4,9 @@ description: "Detects infrastructure drift using terraform plan -detailed-exitco
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

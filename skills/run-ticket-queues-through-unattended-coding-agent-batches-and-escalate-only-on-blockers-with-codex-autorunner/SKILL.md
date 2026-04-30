@@ -6,11 +6,9 @@ source: "https://github.com/Git-on-my-level/codex-autorunner"
 author: "Git-on-my-level"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Git-on-my-level/codex-autorunner"
   github_stars: 670

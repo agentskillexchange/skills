@@ -6,11 +6,9 @@ source: "https://github.com/better-auth/better-icons"
 author: "better-auth"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "better-auth/better-icons"
   github_stars: 915

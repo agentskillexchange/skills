@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/gorse-io/gorse"
 author: "Gorse"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "gorse-io/gorse"
   github_stars: 9600

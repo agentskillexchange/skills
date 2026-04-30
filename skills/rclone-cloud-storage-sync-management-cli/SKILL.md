@@ -4,11 +4,9 @@ description: "Rclone is an open-source command-line program to sync files and di
 verification: "security_reviewed"
 source: "https://github.com/rclone/rclone"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rclone/rclone"
   github_stars: 56382

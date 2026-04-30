@@ -4,11 +4,9 @@ description: "Builds configurable data extraction pipelines using Cheerio for se
 verification: "security_reviewed"
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270

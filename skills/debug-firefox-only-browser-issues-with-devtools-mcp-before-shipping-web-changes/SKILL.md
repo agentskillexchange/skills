@@ -6,11 +6,9 @@ source: "https://github.com/mozilla/firefox-devtools-mcp"
 author: "Mozilla"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "mozilla/firefox-devtools-mcp"
   github_stars: 107

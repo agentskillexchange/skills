@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/prettier/prettier"
 author: "Prettier"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "prettier/prettier"
   github_stars: 51820

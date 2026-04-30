@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.deepgram.com/"
 author: "Deepgram"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Deepgram Podcast Chapter Generator

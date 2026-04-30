@@ -6,11 +6,9 @@ source: "https://github.com/kubeshark/kubeshark"
 author: "Kubeshark"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "kubeshark/kubeshark"
   github_stars: 11873

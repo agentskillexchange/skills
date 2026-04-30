@@ -4,11 +4,9 @@ description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests us
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936

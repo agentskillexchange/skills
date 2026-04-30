@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/backstage/backstage"
 author: "backstage"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "backstage/backstage"
   github_stars: 33052

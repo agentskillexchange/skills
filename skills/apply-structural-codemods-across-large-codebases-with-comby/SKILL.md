@@ -6,11 +6,9 @@ source: "https://github.com/comby-tools/comby"
 author: "comby-tools"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "comby-tools/comby"
   github_stars: 2626

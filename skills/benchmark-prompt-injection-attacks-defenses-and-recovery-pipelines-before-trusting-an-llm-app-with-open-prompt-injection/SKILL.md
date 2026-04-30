@@ -6,11 +6,9 @@ source: "https://github.com/liu00222/Open-Prompt-Injection"
 author: "liu00222"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "liu00222/Open-Prompt-Injection"
   github_stars: 429

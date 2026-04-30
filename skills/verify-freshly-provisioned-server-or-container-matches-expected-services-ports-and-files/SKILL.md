@@ -6,11 +6,9 @@ source: "https://github.com/goss-org/goss"
 author: "goss-org"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "goss-org/goss"
   github_stars: 5877

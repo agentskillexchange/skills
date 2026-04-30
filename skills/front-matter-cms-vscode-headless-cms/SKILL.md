@@ -4,11 +4,9 @@ description: "An agent skill built on Front Matter CMS, the headless content man
 verification: "security_reviewed"
 source: "https://github.com/estruyf/vscode-front-matter"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "estruyf/vscode-front-matter"
   github_stars: 2482

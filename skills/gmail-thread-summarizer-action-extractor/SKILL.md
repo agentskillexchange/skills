@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get"
 author: "Google"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Gmail Thread Summarizer and Action Extractor

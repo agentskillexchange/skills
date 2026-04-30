@@ -6,11 +6,9 @@ source: "https://github.com/openai/openai-node"
 author: "openai"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10853

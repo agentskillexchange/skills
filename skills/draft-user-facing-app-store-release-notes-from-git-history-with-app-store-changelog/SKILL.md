@@ -6,11 +6,9 @@ source: "https://github.com/Dimillian/Skills/tree/main/app-store-changelog"
 author: "Dimillian"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Draft user-facing App Store release notes from git history with App Store Changelog

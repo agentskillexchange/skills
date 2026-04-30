@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/TwiN/gatus"
 author: "TwiN"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "twin/gatus"
   github_stars: 10652

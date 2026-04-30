@@ -4,11 +4,9 @@ description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schem
 verification: "security_reviewed"
 source: "https://github.com/tulios/kafkajs"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "tulios/kafkajs"
   github_stars: 3992

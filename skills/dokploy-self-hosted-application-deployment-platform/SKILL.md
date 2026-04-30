@@ -6,11 +6,9 @@ source: "https://github.com/Dokploy/dokploy"
 author: "Dokploy"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Dokploy/dokploy"
   github_stars: 32998

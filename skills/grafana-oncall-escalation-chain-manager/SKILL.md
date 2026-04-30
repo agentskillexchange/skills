@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/grafana/oncall"
 author: "grafana"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "grafana/oncall"
   github_stars: 3880

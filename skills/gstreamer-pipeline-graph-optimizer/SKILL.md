@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://gstreamer.freedesktop.org/"
 author: "GStreamer"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # GStreamer Pipeline Graph Optimizer

@@ -6,11 +6,9 @@ source: "https://github.com/schemacrawler/SchemaCrawler"
 author: "SchemaCrawler"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "schemacrawler/SchemaCrawler"
   github_stars: 1801

@@ -6,11 +6,9 @@ source: "https://github.com/szymdzum/browser-debugger-cli"
 author: "szymdzum"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "szymdzum/browser-debugger-cli"
   github_stars: 124

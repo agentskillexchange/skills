@@ -6,11 +6,9 @@ source: "https://github.com/alfonsrv/mail-parser-reply"
 author: "alfonsrv"
 publisher_type: "User"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "alfonsrv/mail-parser-reply"
   github_stars: 78

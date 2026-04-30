@@ -6,11 +6,9 @@ source: "https://github.com/rohitg00/pro-workflow"
 author: "rohitg00"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "rohitg00/pro-workflow"
   github_stars: 1933

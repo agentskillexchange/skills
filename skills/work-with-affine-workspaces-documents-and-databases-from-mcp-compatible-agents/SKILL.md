@@ -6,11 +6,9 @@ source: "https://github.com/DAWNCR0W/affine-mcp-server"
 author: "DAWNCR0W"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "DAWNCR0W/affine-mcp-server"
   github_stars: 142

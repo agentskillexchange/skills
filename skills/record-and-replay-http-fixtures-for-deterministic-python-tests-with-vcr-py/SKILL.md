@@ -6,11 +6,9 @@ source: "https://github.com/kevin1024/vcrpy"
 author: "Kevin1024 and contributors"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kevin1024/vcrpy"
   github_stars: 2956

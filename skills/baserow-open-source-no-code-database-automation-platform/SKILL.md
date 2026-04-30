@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/baserow/baserow"
 author: "baserow"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "baserow/baserow"
   github_stars: 4632

@@ -4,11 +4,9 @@ description: "Creates Docker Compose YAML service definitions using the Compose 
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492

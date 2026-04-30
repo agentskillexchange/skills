@@ -4,11 +4,9 @@ description: "Colly is a fast open-source scraping and crawling framework for Go
 verification: "security_reviewed"
 source: "https://github.com/gocolly/colly"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gocolly/colly"
   github_stars: 25229

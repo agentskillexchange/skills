@@ -6,11 +6,9 @@ source: "https://github.com/grafana/har-to-k6"
 author: "Grafana Labs"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "grafana/har-to-k6"
   github_stars: 159

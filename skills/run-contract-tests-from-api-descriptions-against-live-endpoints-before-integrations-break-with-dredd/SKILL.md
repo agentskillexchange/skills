@@ -6,11 +6,9 @@ source: "https://github.com/apiaryio/dredd"
 author: "Apiary"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apiaryio/dredd"
   github_stars: 4227

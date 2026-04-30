@@ -6,11 +6,9 @@ source: "https://github.com/alan-turing-institute/CleverCSV"
 author: "The Alan Turing Institute and contributors"
 publisher_type: "Open Source"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "alan-turing-institute/CleverCSV"
   github_stars: 1324

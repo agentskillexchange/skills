@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://data.crunchbase.com/docs"
 author: "Crunchbase"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Crunchbase Company Intelligence Scraper

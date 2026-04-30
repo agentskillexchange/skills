@@ -4,11 +4,9 @@ description: "ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for
 verification: "security_reviewed"
 source: "https://github.com/exiftool/exiftool"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "exiftool/exiftool"
   github_stars: 4560

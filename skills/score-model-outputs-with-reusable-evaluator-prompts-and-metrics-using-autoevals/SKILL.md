@@ -6,11 +6,9 @@ source: "https://github.com/braintrustdata/autoevals"
 author: "Braintrust"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "braintrustdata/autoevals"
   github_stars: 861

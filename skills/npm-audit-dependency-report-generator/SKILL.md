@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
 author: "npm, Inc."
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # npm Audit Dependency Report Generator

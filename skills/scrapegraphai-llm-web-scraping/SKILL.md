@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
 author: "ScrapeGraphAI"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ScrapeGraphAI/Scrapegraph-ai"
   github_stars: 23279

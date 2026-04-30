@@ -6,11 +6,9 @@ source: "https://github.com/git-town/git-town"
 author: "Git Town"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "git-town/git-town"
   github_stars: 3143

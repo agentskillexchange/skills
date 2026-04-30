@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/wp-rest-api-integration/"
 author: "WP Engine"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # ACF Custom Fields REST Exposer

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/systems-manager/"
 author: "AWS"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # AWS Systems Manager Automation Incident Guide

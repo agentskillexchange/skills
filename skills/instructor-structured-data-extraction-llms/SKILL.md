@@ -4,11 +4,9 @@ description: "Instructor is a multi-language library for extracting structured, 
 verification: "security_reviewed"
 source: "https://github.com/567-labs/instructor"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "567-labs/instructor"
   github_stars: 12666

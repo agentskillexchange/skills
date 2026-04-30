@@ -4,11 +4,9 @@ description: "Scrapes and analyzes Hacker News threads using the official HN Fir
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Hacker News Deep Thread Analyzer

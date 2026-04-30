@@ -4,11 +4,9 @@ description: "Identifies keyword cannibalization across site pages by analyzing 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-cannibalization-detector/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Content Cannibalization Detector

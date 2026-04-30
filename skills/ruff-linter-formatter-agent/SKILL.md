@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/astral-sh/ruff"
 author: "Astral"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "astral-sh/ruff"
   github_stars: 47173

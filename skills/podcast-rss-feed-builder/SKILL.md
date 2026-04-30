@@ -4,11 +4,9 @@ description: "Generates and validates podcast RSS feeds compliant with the Apple
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Podcast RSS Feed Builder

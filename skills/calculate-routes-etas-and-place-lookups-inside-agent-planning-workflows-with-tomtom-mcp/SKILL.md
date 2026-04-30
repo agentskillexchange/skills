@@ -6,11 +6,9 @@ source: "https://github.com/tomtom-international/tomtom-mcp"
 author: "TomTom"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "tomtom-international/tomtom-mcp"
   github_stars: 45

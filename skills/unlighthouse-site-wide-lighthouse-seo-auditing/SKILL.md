@@ -4,11 +4,9 @@ description: "Unlighthouse runs Google Lighthouse across an entire site instead 
 verification: "security_reviewed"
 source: "https://github.com/harlan-zw/unlighthouse"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469

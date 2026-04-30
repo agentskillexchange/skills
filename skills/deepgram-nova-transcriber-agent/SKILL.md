@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.deepgram.com/docs/model"
 author: "Deepgram"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Deepgram Nova Transcriber

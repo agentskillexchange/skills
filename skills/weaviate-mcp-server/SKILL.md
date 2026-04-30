@@ -1,15 +1,13 @@
 ---
 title: "Weaviate MCP Server"
-description: "Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/weaviate/mcp-server-weaviate"
 author: "Weaviate"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "weaviate/mcp-server-weaviate"
   github_stars: 161
@@ -17,7 +15,7 @@ tool_ecosystem:
 
 # Weaviate MCP Server
 
-Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]
+
 
 ## Installation
 

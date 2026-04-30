@@ -6,11 +6,9 @@ source: "https://github.com/langchain-ai/open_deep_research"
 author: "LangChain"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "langchain-ai/open_deep_research"
   github_stars: 11125

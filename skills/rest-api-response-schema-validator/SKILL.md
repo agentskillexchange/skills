@@ -4,11 +4,9 @@ description: "Validates live API responses against JSON Schema definitions using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-response-schema-validator/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # REST API Response Schema Validator

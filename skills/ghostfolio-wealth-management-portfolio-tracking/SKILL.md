@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/ghostfolio/ghostfolio"
 author: "Ghostfolio"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ghostfolio/ghostfolio"
   github_stars: 8115

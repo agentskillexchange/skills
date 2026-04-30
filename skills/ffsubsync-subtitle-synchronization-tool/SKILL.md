@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/smacke/ffsubsync"
 author: "smacke"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "smacke/ffsubsync"
   github_stars: 7659

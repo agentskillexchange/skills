@@ -4,11 +4,9 @@ description: "Creates and validates Prometheus alerting rules using PromQL expre
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584

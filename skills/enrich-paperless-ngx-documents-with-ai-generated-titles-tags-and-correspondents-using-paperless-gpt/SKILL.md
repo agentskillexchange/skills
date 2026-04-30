@@ -6,11 +6,9 @@ source: "https://github.com/icereed/paperless-gpt"
 author: "icereed"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "icereed/paperless-gpt"
   github_stars: 2256

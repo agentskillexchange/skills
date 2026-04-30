@@ -6,11 +6,9 @@ source: "https://github.com/pinchtab/pinchtab/tree/main/skills/pinchtab"
 author: "pinchtab"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Drive Chrome with stable accessibility refs for repeatable browser automation

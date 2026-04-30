@@ -4,11 +4,9 @@ description: "Fetches an active Datadog incident, retrieves associated monitors 
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791

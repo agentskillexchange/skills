@@ -4,11 +4,9 @@ description: "Huh by Charmbracelet is a Go library for building interactive form
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/huh"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/huh"
   github_stars: 6784

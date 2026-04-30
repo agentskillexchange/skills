@@ -6,11 +6,9 @@ source: "https://github.com/github/copilot-release-notes"
 author: "GitHub"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/copilot-release-notes"
   github_stars: 2

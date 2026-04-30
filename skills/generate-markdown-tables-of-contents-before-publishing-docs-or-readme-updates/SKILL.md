@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/thlorenz/doctoc"
 author: "Thorsten Lorenz"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thlorenz/doctoc"
   github_stars: 4432

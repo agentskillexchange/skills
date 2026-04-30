@@ -6,11 +6,9 @@ source: "https://github.com/coderabbitai/skills"
 author: "CodeRabbit"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "coderabbitai/skills"
   github_stars: 73

@@ -6,11 +6,9 @@ source: "https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield"
 author: "Meta Purple Llama"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Scan LLM-generated code before use with CodeShield

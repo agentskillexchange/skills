@@ -4,11 +4,9 @@ description: "Demucs is Meta's open-source music source separation project for s
 verification: "security_reviewed"
 source: "https://github.com/facebookresearch/demucs"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebookresearch/demucs"
   github_stars: 9949

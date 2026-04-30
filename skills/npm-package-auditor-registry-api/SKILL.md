@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
 author: "npm, Inc."
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 ---
 
 # NPM Package Auditor

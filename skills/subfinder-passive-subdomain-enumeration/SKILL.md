@@ -6,11 +6,9 @@ source: "https://github.com/projectdiscovery/subfinder"
 author: "ProjectDiscovery"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "projectdiscovery/subfinder"
   github_stars: 13332

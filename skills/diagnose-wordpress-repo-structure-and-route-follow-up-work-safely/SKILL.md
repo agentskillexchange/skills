@@ -6,11 +6,9 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-
 author: "WordPress Contributors"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Diagnose WordPress repo structure and route follow-up work safely

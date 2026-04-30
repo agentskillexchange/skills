@@ -6,11 +6,9 @@ source: "https://github.com/agent-sh/agnix"
 author: "agent-sh"
 publisher_type: "open_source"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agent-sh/agnix"
   github_stars: 179

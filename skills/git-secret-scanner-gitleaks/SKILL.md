@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/gitleaks/gitleaks"
 author: "Gitleaks"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 26101

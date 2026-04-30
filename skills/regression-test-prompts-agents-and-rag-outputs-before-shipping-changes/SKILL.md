@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/promptfoo/promptfoo"
 author: "promptfoo"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "promptfoo/promptfoo"
   github_stars: 20007

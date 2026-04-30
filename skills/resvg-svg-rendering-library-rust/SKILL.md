@@ -4,11 +4,9 @@ description: "resvg is a fast, portable SVG rendering library written in Rust th
 verification: "security_reviewed"
 source: "https://github.com/linebender/resvg"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "linebender/resvg"
   github_stars: 3778

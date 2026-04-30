@@ -6,11 +6,9 @@ source: "https://github.com/sibprogrammer/xq"
 author: "sibprogrammer"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sibprogrammer/xq"
   github_stars: 1100

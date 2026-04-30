@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/jsvine/waybackpack"
 author: "Jeremy Singer-Vine"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jsvine/waybackpack"
   github_stars: 3173

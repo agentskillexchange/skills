@@ -4,11 +4,9 @@ description: "Analyzes PR size and reviewability using the GitHub GraphQL API an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Pull Request Size Analyzer

@@ -4,11 +4,9 @@ description: "Runs visual regression tests comparing screenshots captured via Cy
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

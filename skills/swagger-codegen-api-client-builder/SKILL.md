@@ -4,11 +4,9 @@ description: "Generates typed API client libraries from OpenAPI 3.x specificatio
 verification: "security_reviewed"
 source: "https://github.com/swagger-api/swagger-ui"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "swagger-api/swagger-ui"
   github_stars: 28751

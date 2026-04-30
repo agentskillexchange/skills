@@ -4,11 +4,9 @@ description: "Scans Rust crate documentation using rustdoc JSON output and cargo
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-docs-scanner/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Rust Crate Docs Scanner

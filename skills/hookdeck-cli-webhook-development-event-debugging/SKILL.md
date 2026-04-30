@@ -6,11 +6,9 @@ source: "https://github.com/hookdeck/hookdeck-cli"
 author: "hookdeck"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hookdeck/hookdeck-cli"
   github_stars: 353

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/pylint-dev/pylint"
 author: "Pylint Contributors"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pylint-dev/pylint"
   github_stars: 5673

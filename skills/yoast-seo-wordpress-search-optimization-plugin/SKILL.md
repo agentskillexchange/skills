@@ -5,11 +5,9 @@ verification: "listed"
 source: "https://github.com/Yoast/wordpress-seo"
 author: "Yoast"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Yoast/wordpress-seo"
   github_stars: 1938

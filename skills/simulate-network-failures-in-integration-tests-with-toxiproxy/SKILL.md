@@ -6,11 +6,9 @@ source: "https://github.com/Shopify/toxiproxy"
 author: "Shopify"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Shopify/toxiproxy"
   github_stars: 11937

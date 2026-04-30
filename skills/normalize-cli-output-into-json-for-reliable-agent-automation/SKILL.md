@@ -6,11 +6,9 @@ source: "https://github.com/kellyjonbrazil/jc"
 author: "Kelly Brazil"
 publisher_type: "User"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kellyjonbrazil/jc"
   github_stars: 8573

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/apache/tika"
 author: "The Apache Software Foundation"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "apache/tika"
   github_stars: 3703

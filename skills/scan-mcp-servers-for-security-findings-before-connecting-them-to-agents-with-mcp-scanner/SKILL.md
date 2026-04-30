@@ -6,11 +6,9 @@ source: "https://github.com/cisco-ai-defense/mcp-scanner"
 author: "Cisco AI Defense"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "cisco-ai-defense/mcp-scanner"
   github_stars: 889

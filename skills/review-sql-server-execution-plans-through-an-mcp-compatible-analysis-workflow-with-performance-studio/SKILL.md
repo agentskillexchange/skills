@@ -6,11 +6,9 @@ source: "https://github.com/erikdarlingdata/PerformanceStudio"
 author: "Erik Darling Data"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "erikdarlingdata/PerformanceStudio"
   github_stars: 175

@@ -4,11 +4,9 @@ description: "Create terminal session recordings as GIFs, videos, or images usin
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/vhs"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "charmbracelet/vhs"
   github_stars: 19204

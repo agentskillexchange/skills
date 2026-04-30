@@ -4,11 +4,9 @@ description: "Generates cy.intercept() stubs from recorded HAR files for determi
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

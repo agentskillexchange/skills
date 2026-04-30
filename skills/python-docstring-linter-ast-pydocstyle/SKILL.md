@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/PyCQA/pydocstyle"
 author: "PyCQA"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "PyCQA/pydocstyle"
   github_stars: 1119

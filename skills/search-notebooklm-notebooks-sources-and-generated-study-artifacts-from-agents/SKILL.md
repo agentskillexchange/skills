@@ -6,11 +6,9 @@ source: "https://github.com/jacob-bd/notebooklm-mcp-cli"
 author: "jacob-bd"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "jacob-bd/notebooklm-mcp-cli"
   github_stars: 3558

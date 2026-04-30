@@ -4,11 +4,9 @@ description: "BackstopJS gives agents a repeatable way to capture reference scre
 verification: "security_reviewed"
 source: "https://github.com/garris/BackstopJS"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "garris/BackstopJS"
   github_stars: 7116

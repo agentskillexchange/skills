@@ -4,11 +4,9 @@ description: "Generates comprehensive API test suites from OpenAPI specs using P
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # REST API Test Suite Generator

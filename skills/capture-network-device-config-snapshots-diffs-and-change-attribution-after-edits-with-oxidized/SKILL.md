@@ -6,11 +6,9 @@ source: "https://github.com/ytti/oxidized"
 author: "ytti"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ytti/oxidized"
   github_stars: 3350

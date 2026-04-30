@@ -6,11 +6,9 @@ source: "https://www.npmjs.com/package/libphonenumber-js"
 author: "catamphetamine"
 publisher_type: "Individual Maintainer"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   npm_package: "libphonenumber-js"
   npm_weekly_downloads: 15571336

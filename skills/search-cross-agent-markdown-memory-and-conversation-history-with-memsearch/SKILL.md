@@ -6,11 +6,9 @@ source: "https://github.com/zilliztech/memsearch"
 author: "Zilliz"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zilliztech/memsearch"
   github_stars: 1324

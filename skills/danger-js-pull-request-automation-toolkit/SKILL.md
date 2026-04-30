@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/danger/danger-js"
 author: "danger"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "danger/danger-js"
   github_stars: 5463

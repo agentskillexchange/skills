@@ -4,11 +4,9 @@ description: "Analyzes and enhances Stable Diffusion prompts using the Automatic
 verification: "security_reviewed"
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Stable Diffusion Prompt Optimizer

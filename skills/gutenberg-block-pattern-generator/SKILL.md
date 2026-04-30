@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.wordpress.org/themes/patterns/registering-patterns/"
 author: "WordPress"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Gutenberg Block Pattern Generator

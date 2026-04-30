@@ -6,11 +6,9 @@ source: "https://github.com/prowler-cloud/prowler"
 author: "Prowler Cloud"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prowler-cloud/prowler"
   github_stars: 13635

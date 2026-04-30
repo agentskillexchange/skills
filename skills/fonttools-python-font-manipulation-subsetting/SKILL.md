@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/fonttools/fonttools"
 author: "FontTools"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "fonttools/fonttools"
   github_stars: 5067

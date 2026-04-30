@@ -4,11 +4,9 @@ description: "Automate build workflows with Task (go-task), a modern cross-platf
 verification: "security_reviewed"
 source: "https://github.com/go-task/task"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "go-task/task"
   github_stars: 15242

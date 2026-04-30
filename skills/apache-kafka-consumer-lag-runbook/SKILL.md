@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/apache/kafka"
 author: "Apache"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "apache/kafka"
   github_stars: 32388

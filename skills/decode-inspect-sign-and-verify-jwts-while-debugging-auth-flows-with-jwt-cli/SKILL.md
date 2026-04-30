@@ -6,11 +6,9 @@ source: "https://github.com/mike-engel/jwt-cli"
 author: "mike-engel"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mike-engel/jwt-cli"
   github_stars: 1464

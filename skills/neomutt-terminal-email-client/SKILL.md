@@ -4,11 +4,9 @@ description: "NeoMutt is an actively maintained fork of the classic Mutt email c
 verification: "security_reviewed"
 source: "https://github.com/neomutt/neomutt"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "neomutt/neomutt"
   github_stars: 3685

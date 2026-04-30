@@ -6,11 +6,9 @@ source: "https://github.com/sqlmapproject/sqlmap"
 author: "sqlmapproject"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sqlmapproject/sqlmap"
   github_stars: 37104

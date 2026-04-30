@@ -6,11 +6,9 @@ source: "https://github.com/junhoyeo/tokscale"
 author: "junhoyeo"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "junhoyeo/tokscale"
   github_stars: 2032

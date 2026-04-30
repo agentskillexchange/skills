@@ -5,11 +5,10 @@ verification: "security_reviewed"
 source: "https://github.com/docker/compose"
 author: "Docker"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docker/compose"
   github_stars: 37227

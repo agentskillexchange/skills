@@ -4,11 +4,9 @@ description: "Transcribes audio and generates auto-chapters with summaries using
 verification: "security_reviewed"
 source: "https://www.assemblyai.com/docs"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # AssemblyAI Summarization & Chapters Skill

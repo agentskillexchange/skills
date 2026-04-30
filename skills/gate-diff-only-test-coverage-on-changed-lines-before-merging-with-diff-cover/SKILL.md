@@ -6,11 +6,9 @@ source: "https://github.com/Bachmann1234/diff_cover"
 author: "Matthias Bachmann and contributors"
 publisher_type: "Open Source"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Bachmann1234/diff_cover"
   github_stars: 828

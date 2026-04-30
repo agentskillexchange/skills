@@ -4,11 +4,9 @@ description: "Compares OpenAPI 3.x specification files using the oasdiff library
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-changelog-generator/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # OpenAPI Spec Changelog Generator

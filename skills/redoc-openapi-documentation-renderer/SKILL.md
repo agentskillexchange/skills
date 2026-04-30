@@ -4,11 +4,9 @@ description: "Redoc is an open-source tool by Redocly for generating beautiful, 
 verification: "security_reviewed"
 source: "https://github.com/Redocly/redoc"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "Redocly/redoc"
   github_stars: 25596

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.google.com/calendar/api"
 author: "Google"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Google Calendar Sync & Conflict Resolver

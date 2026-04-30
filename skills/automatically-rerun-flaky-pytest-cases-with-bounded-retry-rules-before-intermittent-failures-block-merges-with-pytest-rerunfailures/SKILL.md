@@ -6,11 +6,9 @@ source: "https://github.com/pytest-dev/pytest-rerunfailures"
 author: "pytest-dev"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pytest-dev/pytest-rerunfailures"
   github_stars: 458

@@ -6,11 +6,9 @@ source: "https://github.com/marimo-team/marimo"
 author: "marimo team"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "marimo-team/marimo"
   github_stars: 20409

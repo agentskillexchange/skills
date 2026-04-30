@@ -6,11 +6,9 @@ source: "https://github.com/felixarntz/ai-services"
 author: "Felix Arntz"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "felixarntz/ai-services"
   github_stars: 158

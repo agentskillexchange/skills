@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.jasper.ai/"
 author: "Jasper"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Jasper AI Long-Form Blog Post Generator

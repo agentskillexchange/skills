@@ -4,11 +4,9 @@ description: "Ollama runs large language models locally with a simple CLI and RE
 verification: "security_reviewed"
 source: "https://github.com/ollama/ollama"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ollama/ollama"
   github_stars: 167878

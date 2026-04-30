@@ -6,11 +6,9 @@ source: "https://github.com/openai/codex-action"
 author: "OpenAI"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "openai/codex-action"
   github_stars: 927

@@ -6,11 +6,9 @@ source: "https://github.com/CopilotKit/aimock"
 author: "CopilotKit"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "CopilotKit/aimock"
   github_stars: 324

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/hukkin/mdformat"
 author: "Taneli Hukkinen"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hukkin/mdformat"
   github_stars: 758

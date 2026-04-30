@@ -6,11 +6,9 @@ source: "https://github.com/imsnif/bandwhich"
 author: "imsnif"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "imsnif/bandwhich"
   github_stars: 11691

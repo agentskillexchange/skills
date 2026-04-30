@@ -4,11 +4,9 @@ description: "Immich is a high-performance self-hosted photo and video managemen
 verification: "security_reviewed"
 source: "https://github.com/immich-app/immich"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "immich-app/immich"
   github_stars: 96205

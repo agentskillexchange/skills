@@ -6,11 +6,9 @@ source: "https://github.com/browser-use/benchmark"
 author: "browser-use"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browser-use/benchmark"
   github_stars: 71

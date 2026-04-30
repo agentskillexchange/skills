@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/nrwl/nx"
 author: "Nx"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "nrwl/nx"
   github_stars: 28562

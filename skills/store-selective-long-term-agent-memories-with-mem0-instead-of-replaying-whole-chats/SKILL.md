@@ -6,11 +6,9 @@ source: "https://github.com/mem0ai/mem0"
 author: "Mem0"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mem0ai/mem0"
   github_stars: 53457

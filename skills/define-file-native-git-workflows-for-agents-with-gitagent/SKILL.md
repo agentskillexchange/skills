@@ -6,11 +6,9 @@ source: "https://github.com/open-gitagent/gitagent"
 author: "open-gitagent"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-gitagent/gitagent"
   github_stars: 2667

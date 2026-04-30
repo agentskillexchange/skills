@@ -6,11 +6,9 @@ source: "https://github.com/Pantheon-Security/medusa"
 author: "Pantheon Security"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Pantheon-Security/medusa"
   github_stars: 256

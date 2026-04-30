@@ -4,11 +4,9 @@ description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the 
 verification: "security_reviewed"
 source: "https://github.com/Stability-AI/stablediffusion"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Stable Diffusion XL LoRA Trainer

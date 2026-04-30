@@ -4,11 +4,9 @@ description: "Builds and manages Scrapy web scraping spiders with custom item pi
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314

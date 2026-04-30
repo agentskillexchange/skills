@@ -6,11 +6,9 @@ source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/progr
 author: "coreyhaines31"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Plan Programmatic SEO Pages at Scale

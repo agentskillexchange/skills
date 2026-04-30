@@ -4,11 +4,9 @@ description: "Yoast SEO is one of the most widely deployed WordPress SEO plugins
 verification: "security_reviewed"
 source: "https://github.com/Yoast/wordpress-seo"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Yoast/wordpress-seo"
   github_stars: 1926

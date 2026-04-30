@@ -4,11 +4,9 @@ description: "Automates PySpark DataFrame transformations including schema infer
 verification: "security_reviewed"
 source: "https://github.com/apache/spark"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "apache/spark"
   github_stars: 43117

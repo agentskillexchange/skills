@@ -4,11 +4,9 @@ description: "Orchestrates large-scale web crawling using Scrapy with scrapy-red
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314

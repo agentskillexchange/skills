@@ -6,11 +6,12 @@ source: "https://github.com/modelcontextprotocol/servers"
 author: "Model Context Protocol"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
   github_stars: 84748

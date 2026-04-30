@@ -5,11 +5,9 @@ verification: "listed"
 source: "https://github.com/nuxt/nuxt"
 author: "Nuxt Team"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nuxt/nuxt"
   github_stars: 59957

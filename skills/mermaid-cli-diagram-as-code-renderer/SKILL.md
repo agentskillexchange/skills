@@ -4,11 +4,9 @@ description: "Mermaid CLI (mmdc) is the command-line interface for the Mermaid d
 verification: "security_reviewed"
 source: "https://github.com/mermaid-js/mermaid-cli"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mermaid-js/mermaid-cli"
   github_stars: 4341

@@ -4,11 +4,9 @@ description: "Validates Nginx configurations using nginx -t syntax checking, the
 verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

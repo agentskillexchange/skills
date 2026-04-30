@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.zapier.com/platform/home"
 author: "Zapier"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 ---
 
 # Zapier Multi-Step Lead Enrichment Workflow

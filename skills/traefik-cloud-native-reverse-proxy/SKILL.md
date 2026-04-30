@@ -4,11 +4,9 @@ description: "Traefik is a modern cloud-native reverse proxy and load balancer t
 verification: "security_reviewed"
 source: "https://github.com/traefik/traefik"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "traefik/traefik"
   github_stars: 62473

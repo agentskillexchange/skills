@@ -4,11 +4,9 @@ description: "NocoBase is the most extensible open-source no-code/low-code platf
 verification: "security_reviewed"
 source: "https://github.com/nocobase/nocobase"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nocobase/nocobase"
   github_stars: 22114

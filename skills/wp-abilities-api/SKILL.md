@@ -6,11 +6,9 @@ source: "https://github.com/WordPress/abilities-api"
 author: "WordPress"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/abilities-api"
   github_stars: 203

@@ -4,11 +4,9 @@ description: "Parses Terraform plan JSON output from terraform show -json and th
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

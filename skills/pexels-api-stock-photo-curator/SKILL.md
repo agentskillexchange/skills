@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.pexels.com/api/documentation/"
 author: "Pexels"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Pexels API Stock Photo Curator

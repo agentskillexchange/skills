@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
 author: "Anthropic"
 publisher_type: "Public repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Verify local web apps with Playwright scripts and managed dev servers

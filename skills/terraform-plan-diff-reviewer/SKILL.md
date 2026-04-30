@@ -4,11 +4,9 @@ description: "Parses terraform plan JSON output to identify destructive changes,
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

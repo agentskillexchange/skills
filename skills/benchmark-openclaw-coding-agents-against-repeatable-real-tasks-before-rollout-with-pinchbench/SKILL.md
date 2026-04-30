@@ -6,11 +6,9 @@ source: "https://github.com/pinchbench/skill"
 author: "pinchbench"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "pinchbench/skill"
   github_stars: 1003

@@ -6,11 +6,9 @@ source: "https://github.com/YoRyan/mailrise"
 author: "YoRyan and contributors"
 publisher_type: "oss"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "YoRyan/mailrise"
   github_stars: 1514

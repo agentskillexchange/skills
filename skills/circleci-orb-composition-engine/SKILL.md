@@ -4,11 +4,9 @@ description: "Composes and publishes CircleCI Orbs using the circleci CLI with o
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843

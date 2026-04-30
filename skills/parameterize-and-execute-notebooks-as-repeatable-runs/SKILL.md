@@ -4,11 +4,9 @@ description: "Use Papermill when an agent needs to treat a Jupyter notebook like
 verification: "security_reviewed"
 source: "https://github.com/nteract/papermill"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nteract/papermill"
   github_stars: 6429

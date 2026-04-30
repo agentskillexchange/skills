@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/"
 author: "New Relic"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # New Relic NRQL Query Agent

@@ -6,11 +6,9 @@ source: "https://github.com/stern/stern"
 author: "Stern maintainers"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stern/stern"
   github_stars: 4636

@@ -4,11 +4,9 @@ description: "FastMCP is the standard Python framework for building Model Contex
 verification: "security_reviewed"
 source: "https://github.com/PrefectHQ/fastmcp"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "PrefectHQ/fastmcp"
   github_stars: 24192

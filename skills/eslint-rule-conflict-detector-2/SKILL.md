@@ -4,11 +4,9 @@ description: "Analyzes .eslintrc configurations and extended rulesets using the 
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188

@@ -5,11 +5,9 @@ verification: "listed"
 source: "https://github.com/firebase/firebase-js-sdk"
 author: "Google / Firebase"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"
   github_stars: 5100

@@ -4,11 +4,9 @@ description: "Parses static HTML using Cheerio's jQuery-like API for fast server
 verification: "security_reviewed"
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270

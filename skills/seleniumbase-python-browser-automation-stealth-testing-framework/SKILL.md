@@ -6,11 +6,9 @@ source: "https://github.com/seleniumbase/SeleniumBase"
 author: "Michael Mintz"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "seleniumbase/seleniumbase"
   github_stars: 12560

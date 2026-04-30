@@ -6,11 +6,9 @@ source: "https://github.com/pgbackrest/pgbackrest"
 author: "pgbackrest"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pgbackrest/pgbackrest"
   github_stars: 3729

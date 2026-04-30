@@ -4,11 +4,9 @@ description: "Integrates Stripe payment processing using stripe-node SDK includi
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4385

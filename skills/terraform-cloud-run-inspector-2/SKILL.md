@@ -4,11 +4,9 @@ description: "Queries the Terraform Cloud API to inspect plan outputs, apply log
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

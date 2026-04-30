@@ -4,11 +4,9 @@ description: "High-performance, self-hosted newsletter and mailing list manager 
 verification: "security_reviewed"
 source: "https://github.com/knadh/listmonk"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "knadh/listmonk"
   github_stars: 19404

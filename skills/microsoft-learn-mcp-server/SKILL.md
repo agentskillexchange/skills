@@ -4,11 +4,9 @@ description: "Microsoft Learn MCP Server gives agents and IDE assistants direct 
 verification: "security_reviewed"
 source: "https://github.com/MicrosoftDocs/mcp"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "MicrosoftDocs/mcp"
   github_stars: 1536

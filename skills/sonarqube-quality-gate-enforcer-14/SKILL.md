@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 author: "SonarSource"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

@@ -6,11 +6,9 @@ source: "https://github.com/anordal/shellharden"
 author: "anordal"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "anordal/shellharden"
   github_stars: 4776

@@ -4,11 +4,9 @@ description: "Automates full WordPress site migrations using WP-CLI search-repla
 verification: "security_reviewed"
 source: "https://wp-cli.org/"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # WP-CLI Site Migration Automator

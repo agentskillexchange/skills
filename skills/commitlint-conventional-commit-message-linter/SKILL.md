@@ -4,11 +4,9 @@ description: "commitlint checks whether git commit messages meet the Conventiona
 verification: "security_reviewed"
 source: "https://github.com/conventional-changelog/commitlint"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "conventional-changelog/commitlint"
   github_stars: 18425

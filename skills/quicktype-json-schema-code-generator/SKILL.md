@@ -4,11 +4,9 @@ description: "Generate strongly-typed models and serializers from JSON, JSON Sch
 verification: "security_reviewed"
 source: "https://github.com/glideapps/quicktype"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "glideapps/quicktype"
   github_stars: 13690

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://platform.openai.com/docs/guides/images"
 author: "OpenAI"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # DALL-E 3 Brand Asset Batch Generator

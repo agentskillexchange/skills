@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.google.com/webmaster-tools/v1/searchanalytics/query"
 author: "Google"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Google Search Console Performance Analyzer

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/Unstructured-IO/unstructured"
 author: "Unstructured-IO"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Unstructured-IO/unstructured"
   github_stars: 14443

@@ -4,11 +4,9 @@ description: "Build audio and video streaming pipelines with Liquidsoap, a stati
 verification: "security_reviewed"
 source: "https://github.com/savonet/liquidsoap"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "savonet/liquidsoap"
   github_stars: 1638

@@ -6,11 +6,9 @@ source: "https://github.com/aiming-lab/AutoResearchClaw"
 author: "AIMing Lab"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aiming-lab/AutoResearchClaw"
   github_stars: 11545

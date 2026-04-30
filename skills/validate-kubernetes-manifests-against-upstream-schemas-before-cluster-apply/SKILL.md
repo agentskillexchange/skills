@@ -6,11 +6,9 @@ source: "https://github.com/yannh/kubeconform"
 author: "yannh"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yannh/kubeconform"
   github_stars: 2986

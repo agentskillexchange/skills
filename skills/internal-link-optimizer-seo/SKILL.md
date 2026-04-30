@@ -4,11 +4,9 @@ description: "Optimizes internal linking structure using Screaming Frog SEO Spid
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # Internal Link Optimizer

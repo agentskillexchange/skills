@@ -4,11 +4,9 @@ description: "Builds custom Semgrep rules using the semgrep YAML rule syntax wit
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794

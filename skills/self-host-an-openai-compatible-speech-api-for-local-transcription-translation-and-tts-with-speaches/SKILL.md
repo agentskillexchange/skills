@@ -6,11 +6,9 @@ source: "https://github.com/speaches-ai/speaches"
 author: "speaches-ai"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "speaches-ai/speaches"
   github_stars: 3170

@@ -4,11 +4,9 @@ description: "DocuSeal is an open-source DocuSign alternative for creating, fill
 verification: "security_reviewed"
 source: "https://github.com/docusealco/docuseal"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "docusealco/docuseal"
   github_stars: 11695

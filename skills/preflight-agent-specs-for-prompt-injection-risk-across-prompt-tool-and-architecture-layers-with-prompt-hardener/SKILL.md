@@ -6,11 +6,9 @@ source: "https://github.com/cybozu/prompt-hardener"
 author: "Cybozu"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cybozu/prompt-hardener"
   github_stars: 50

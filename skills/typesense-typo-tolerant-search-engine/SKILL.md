@@ -4,11 +4,9 @@ description: "Typesense is an open-source, typo-tolerant search engine built in 
 verification: "security_reviewed"
 source: "https://github.com/typesense/typesense"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "typesense/typesense"
   github_stars: 25500

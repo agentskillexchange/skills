@@ -4,11 +4,9 @@ description: "Optimizes WordPress posts for SEO using the Yoast SEO REST API fie
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

@@ -4,11 +4,9 @@ description: "Zellij is a Rust-powered terminal workspace and multiplexer with f
 verification: "security_reviewed"
 source: "https://github.com/zellij-org/zellij"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "zellij-org/zellij"
   github_stars: 30894

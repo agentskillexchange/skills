@@ -6,11 +6,9 @@ source: "https://github.com/github/gh-aw-firewall"
 author: "GitHub"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "github/gh-aw-firewall"
   github_stars: 55

@@ -6,11 +6,9 @@ source: "https://github.com/huggingface/upskill"
 author: "Hugging Face"
 publisher_type: "open_source"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/upskill"
   github_stars: 477

@@ -4,11 +4,9 @@ description: "Uses helm-diff to compute a human-readable diff between deployed a
 verification: "security_reviewed"
 source: "https://github.com/helm/helm"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "helm/helm"
   github_stars: 29693

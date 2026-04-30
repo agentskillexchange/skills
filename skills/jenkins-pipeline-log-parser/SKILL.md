@@ -4,11 +4,9 @@ description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkin
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

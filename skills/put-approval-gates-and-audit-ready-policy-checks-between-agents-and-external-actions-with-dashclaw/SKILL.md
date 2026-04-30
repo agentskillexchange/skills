@@ -6,11 +6,9 @@ source: "https://github.com/ucsandman/DashClaw"
 author: "ucsandman"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ucsandman/DashClaw"
   github_stars: 241

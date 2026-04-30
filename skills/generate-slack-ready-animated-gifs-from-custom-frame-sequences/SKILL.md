@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator
 author: "Anthropic"
 publisher_type: "Public repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Generate Slack-ready animated GIFs from custom frame sequences

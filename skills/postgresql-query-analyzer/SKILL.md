@@ -4,11 +4,9 @@ description: "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, 
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

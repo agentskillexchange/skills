@@ -4,11 +4,9 @@ description: "Sherlock hunts down social media accounts by username across more 
 verification: "security_reviewed"
 source: "https://github.com/sherlock-project/sherlock"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "sherlock-project/sherlock"
   github_stars: 76214

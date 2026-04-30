@@ -5,11 +5,10 @@ verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html"
 author: "Amazon Web Services"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
+  - "Multi-Framework"
 ---
 
 # AWS CloudWatch Insights Query Builder

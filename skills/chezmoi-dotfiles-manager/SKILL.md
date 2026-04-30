@@ -4,11 +4,9 @@ description: "chezmoi manages dotfiles across multiple machines securely using a
 verification: "security_reviewed"
 source: "https://github.com/twpayne/chezmoi"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "twpayne/chezmoi"
   github_stars: 18876

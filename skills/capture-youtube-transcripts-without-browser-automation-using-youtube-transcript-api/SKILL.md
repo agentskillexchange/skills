@@ -6,11 +6,9 @@ source: "https://github.com/jdepoix/youtube-transcript-api"
 author: "jdepoix"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jdepoix/youtube-transcript-api"
   github_stars: 7352

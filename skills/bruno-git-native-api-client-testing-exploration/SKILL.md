@@ -4,11 +4,9 @@ description: "Bruno is an open-source, offline-first API client that stores coll
 verification: "security_reviewed"
 source: "https://github.com/usebruno/bruno"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "usebruno/bruno"
   github_stars: 42477

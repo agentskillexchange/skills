@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
 author: "Anthropic"
 publisher_type: "Open source project"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Draft internal status updates and incident comms

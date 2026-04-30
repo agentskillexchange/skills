@@ -4,11 +4,9 @@ description: "Parses GNU Makefiles using pymake and builds complete dependency D
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Makefile Dependency Auditor

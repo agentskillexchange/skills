@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/commoncrawl/cc-index-table"
 author: "commoncrawl"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "commoncrawl/cc-index-table"
   github_stars: 127

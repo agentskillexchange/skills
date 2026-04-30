@@ -6,11 +6,9 @@ source: "https://github.com/daymade/claude-code-skills/blob/main/tunnel-doctor/S
 author: "daymade"
 publisher_type: "github_skill"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Diagnose Tailscale and proxy conflicts before remote development stalls out

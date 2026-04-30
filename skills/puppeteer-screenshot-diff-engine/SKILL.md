@@ -4,11 +4,9 @@ description: "Visual regression testing using Puppeteer page.screenshot() with p
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115

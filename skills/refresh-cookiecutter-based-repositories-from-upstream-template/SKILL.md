@@ -6,11 +6,9 @@ source: "https://github.com/cruft/cruft"
 author: "Cruft maintainers"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cruft/cruft"
   github_stars: 1564

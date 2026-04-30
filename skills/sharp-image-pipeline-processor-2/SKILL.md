@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/lovell/sharp"
 author: "lovell"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138

@@ -4,11 +4,9 @@ description: "A modern open-source load testing tool from Grafana Labs, written 
 verification: "security_reviewed"
 source: "https://github.com/grafana/k6"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/k6"
   github_stars: 30253

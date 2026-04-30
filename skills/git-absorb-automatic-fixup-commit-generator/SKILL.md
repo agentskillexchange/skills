@@ -4,11 +4,9 @@ description: "Automatically generates fixup commits by analyzing staged changes 
 verification: "security_reviewed"
 source: "https://github.com/tummychow/git-absorb"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "tummychow/git-absorb"
   github_stars: 5455

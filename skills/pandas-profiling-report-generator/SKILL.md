@@ -4,11 +4,9 @@ description: "Generates comprehensive data quality reports using ydata-profiling
 verification: "security_reviewed"
 source: "https://github.com/pandas-dev/pandas"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "pandas-dev/pandas"
   github_stars: 48498

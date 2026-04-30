@@ -6,11 +6,9 @@ source: "https://github.com/creativeprojects/resticprofile"
 author: "CreativeProjects"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "creativeprojects/resticprofile"
   github_stars: 1275

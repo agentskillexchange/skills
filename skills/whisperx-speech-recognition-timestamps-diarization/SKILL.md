@@ -4,11 +4,9 @@ description: "WhisperX extends OpenAI Whisper with batched inference for 70x rea
 verification: "security_reviewed"
 source: "https://github.com/m-bain/whisperX"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "m-bain/whisperX"
   github_stars: 21036

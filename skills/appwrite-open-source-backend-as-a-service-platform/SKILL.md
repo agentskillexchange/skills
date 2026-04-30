@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/appwrite/appwrite"
 author: "Appwrite"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "appwrite/appwrite"
   github_stars: 55674

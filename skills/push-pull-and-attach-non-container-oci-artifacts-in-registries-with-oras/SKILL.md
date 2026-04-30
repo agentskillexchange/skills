@@ -6,11 +6,9 @@ source: "https://github.com/oras-project/oras"
 author: "ORAS Project"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "oras-project/oras"
   github_stars: 2213

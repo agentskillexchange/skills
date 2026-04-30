@@ -4,11 +4,9 @@ description: "Scores content readability using textstat library metrics (Flesch-
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # Hemingway Readability Analyzer API

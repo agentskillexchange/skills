@@ -6,11 +6,9 @@ source: "https://github.com/FairwindsOps/pluto"
 author: "FairwindsOps"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FairwindsOps/pluto"
   github_stars: 2494

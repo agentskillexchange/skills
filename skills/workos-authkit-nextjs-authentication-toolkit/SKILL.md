@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/workos/authkit-nextjs"
 author: "workos"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "workos/authkit-nextjs"
   github_stars: 146

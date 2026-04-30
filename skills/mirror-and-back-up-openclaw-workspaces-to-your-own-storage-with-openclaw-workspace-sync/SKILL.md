@@ -6,11 +6,9 @@ source: "https://github.com/ashbrener/openclaw-workspace-sync"
 author: "ashbrener"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "ashbrener/openclaw-workspace-sync"
   github_stars: 8

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/ImageMagick/ImageMagick"
 author: "ImageMagick"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "imagemagick/imagemagick"
   github_stars: 16152

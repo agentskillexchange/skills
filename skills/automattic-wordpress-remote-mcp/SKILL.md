@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/Automattic/mcp-wordpress-remote"
 author: "Automattic"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "Automattic/mcp-wordpress-remote"
   github_stars: 131

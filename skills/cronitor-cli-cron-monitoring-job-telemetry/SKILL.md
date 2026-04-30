@@ -6,11 +6,9 @@ source: "https://github.com/cronitorio/cronitor-cli"
 author: "cronitorio"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cronitorio/cronitor-cli"
   github_stars: 399

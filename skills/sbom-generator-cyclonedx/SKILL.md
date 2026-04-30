@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/CycloneDX/cyclonedx-cli"
 author: "CycloneDX"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "CycloneDX/cyclonedx-cli"
   github_stars: 489

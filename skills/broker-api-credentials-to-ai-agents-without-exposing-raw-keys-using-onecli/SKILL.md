@@ -6,11 +6,9 @@ source: "https://github.com/onecli/onecli"
 author: "onecli"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "onecli/onecli"
   github_stars: 1859

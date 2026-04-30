@@ -4,11 +4,9 @@ description: "Runs automated diagnostic sequences on Kubernetes pods using kubec
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

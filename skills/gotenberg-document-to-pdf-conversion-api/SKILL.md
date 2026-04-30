@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/gotenberg/gotenberg"
 author: "gotenberg"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gotenberg/gotenberg"
   github_stars: 11776

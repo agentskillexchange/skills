@@ -6,11 +6,9 @@ source: "https://github.com/coderamp-labs/gitingest"
 author: "Filip Christiansen"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "coderamp-labs/gitingest"
   github_stars: 14266

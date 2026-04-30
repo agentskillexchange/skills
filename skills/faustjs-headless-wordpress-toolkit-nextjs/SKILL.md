@@ -4,11 +4,9 @@ description: "Faust.js by WP Engine is a JavaScript framework and WordPress plug
 verification: "security_reviewed"
 source: "https://github.com/wpengine/faustjs"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wpengine/faustjs"
   github_stars: 1568

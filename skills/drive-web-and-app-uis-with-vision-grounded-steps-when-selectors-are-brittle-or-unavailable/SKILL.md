@@ -6,11 +6,9 @@ source: "https://github.com/web-infra-dev/midscene"
 author: "web-infra-dev"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "web-infra-dev/midscene"
   github_stars: 12613

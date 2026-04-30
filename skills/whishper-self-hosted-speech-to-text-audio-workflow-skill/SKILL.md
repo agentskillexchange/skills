@@ -6,11 +6,9 @@ source: "https://github.com/pluja/whishper"
 author: "pluja"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pluja/whishper"
   github_stars: 2974

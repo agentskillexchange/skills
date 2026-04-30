@@ -4,11 +4,9 @@ description: "Classifies and prioritizes Nginx error log entries using pattern m
 verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "nginx/nginx"
   github_stars: 29930

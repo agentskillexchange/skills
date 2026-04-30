@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://index.commoncrawl.org/"
 author: "Common Crawl Foundation"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Common Crawl Index Query Agent

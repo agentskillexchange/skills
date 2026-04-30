@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/searxng/searxng"
 author: "searxng"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "searxng/searxng"
   github_stars: 28324

@@ -4,11 +4,9 @@ description: "Measures and improves Python type annotation coverage using mypy -
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Python Type Coverage Analyzer

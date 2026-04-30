@@ -6,11 +6,9 @@ source: "https://github.com/microsoft/skills/tree/main/.github/skills/entra-agen
 author: "Microsoft"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Provision OAuth-capable Microsoft agent identities with Entra Agent ID

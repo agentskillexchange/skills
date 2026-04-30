@@ -6,11 +6,9 @@ source: "https://github.com/AppFlowy-IO/AppFlowy"
 author: "AppFlowy-IO"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AppFlowy-IO/AppFlowy"
   github_stars: 69650

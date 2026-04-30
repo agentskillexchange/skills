@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://uptimerobot.com/api/"
 author: "UptimeRobot"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Uptime Robot Multi-Check Coordinator

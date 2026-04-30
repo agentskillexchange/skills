@@ -6,11 +6,9 @@ source: "https://github.com/wesm/agentsview"
 author: "wesm"
 publisher_type: "open_source"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wesm/agentsview"
   github_stars: 774

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/un33k/python-slugify"
 publisher_type: "GitHub User"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "un33k/python-slugify"
   github_stars: 1604

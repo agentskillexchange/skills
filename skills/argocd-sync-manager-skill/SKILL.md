@@ -4,11 +4,9 @@ description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/a
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

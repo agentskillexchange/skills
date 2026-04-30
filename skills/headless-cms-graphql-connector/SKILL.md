@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://graphql.org/learn/queries/"
 author: "GraphQL Foundation"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Headless CMS GraphQL Connector

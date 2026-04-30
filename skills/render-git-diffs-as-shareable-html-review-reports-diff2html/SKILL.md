@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/rtfpessoa/diff2html"
 author: "Rafael Pessoa"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rtfpessoa/diff2html"
   github_stars: 3345

@@ -6,11 +6,9 @@ source: "https://github.com/david-a-wheeler/flawfinder"
 author: "David A. Wheeler"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "david-a-wheeler/flawfinder"
   github_stars: 4514

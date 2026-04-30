@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "OWASP ZAP"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 15007

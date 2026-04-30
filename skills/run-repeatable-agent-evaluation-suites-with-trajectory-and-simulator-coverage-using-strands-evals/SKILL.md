@@ -6,11 +6,9 @@ source: "https://github.com/strands-agents/evals"
 author: "strands-agents"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "strands-agents/evals"
   github_stars: 105

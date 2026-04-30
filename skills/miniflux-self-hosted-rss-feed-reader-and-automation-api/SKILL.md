@@ -4,11 +4,9 @@ description: "Use Miniflux to run a minimalist self-hosted feed reader with a cl
 verification: "security_reviewed"
 source: "https://github.com/miniflux/v2"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "miniflux/v2"
   github_stars: 9064

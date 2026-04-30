@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/yeoman/yeoman"
 author: "Yeoman"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "yeoman/yeoman"
   github_stars: 10120

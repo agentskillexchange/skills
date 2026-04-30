@@ -4,11 +4,9 @@ description: "Automates image editing workflows via the Adobe Photoshop API (Fir
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/adobe-photoshop-api-batch-processor/"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # Adobe Photoshop API Batch Processor

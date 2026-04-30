@@ -4,11 +4,9 @@ description: "LightRAG is a Python-based retrieval-augmented generation framewor
 verification: "security_reviewed"
 source: "https://github.com/HKUDS/LightRAG"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hkuds/lightrag"
   github_stars: 33160

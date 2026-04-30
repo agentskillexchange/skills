@@ -4,11 +4,9 @@ description: "Repomix packs an entire code repository into a single AI-friendly 
 verification: "security_reviewed"
 source: "https://github.com/yamadashy/repomix"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "yamadashy/repomix"
   github_stars: 22816

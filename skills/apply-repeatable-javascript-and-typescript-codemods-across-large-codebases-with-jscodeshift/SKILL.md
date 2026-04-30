@@ -6,11 +6,9 @@ source: "https://github.com/facebook/jscodeshift"
 author: "Meta"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebook/jscodeshift"
   github_stars: 9983

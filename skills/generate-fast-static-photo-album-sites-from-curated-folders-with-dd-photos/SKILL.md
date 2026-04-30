@@ -6,11 +6,9 @@ source: "https://github.com/dougdonohoe/ddphotos"
 author: "Doug Donohoe"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dougdonohoe/ddphotos"
   github_stars: 155

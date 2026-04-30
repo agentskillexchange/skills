@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://www.reddit.com/dev/api/"
 author: "Reddit"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # Reddit Subreddit Sentiment Tracker

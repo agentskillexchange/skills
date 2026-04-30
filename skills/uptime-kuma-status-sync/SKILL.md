@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/louislam/uptime-kuma"
 author: "Louis Lam"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "louislam/uptime-kuma"
   github_stars: 85583

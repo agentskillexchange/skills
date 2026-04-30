@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developers.figma.com/docs/rest-api/"
 author: "Figma"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Figma Export Automator

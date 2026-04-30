@@ -4,11 +4,9 @@ description: "A fast and user-friendly alternative to the find command, written 
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/fd"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sharkdp/fd"
   github_stars: 42280

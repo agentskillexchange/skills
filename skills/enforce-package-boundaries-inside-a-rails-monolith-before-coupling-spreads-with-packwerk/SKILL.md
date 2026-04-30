@@ -6,11 +6,9 @@ source: "https://github.com/Shopify/packwerk"
 author: "Shopify"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Shopify/packwerk"
   github_stars: 1858

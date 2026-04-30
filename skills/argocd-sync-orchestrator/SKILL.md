@@ -4,11 +4,9 @@ description: "Manages ArgoCD application syncs using the argocd CLI and the Argo
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593

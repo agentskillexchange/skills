@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/adefossez/demucs"
 author: "adefossez"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507

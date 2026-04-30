@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/wp-cli/wp-cli"
 author: "wp-cli"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5056

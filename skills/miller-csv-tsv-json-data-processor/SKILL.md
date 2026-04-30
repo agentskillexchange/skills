@@ -4,11 +4,9 @@ description: "Miller (mlr) is a command-line tool for querying, shaping, and ref
 verification: "security_reviewed"
 source: "https://github.com/johnkerl/miller"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "johnkerl/miller"
   github_stars: 9814

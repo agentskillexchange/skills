@@ -6,11 +6,9 @@ source: "https://github.com/sloria/doitlive"
 author: "sloria"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sloria/doitlive"
   github_stars: 3561

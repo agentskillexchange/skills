@@ -4,11 +4,9 @@ description: "Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 ---
 
 # CloudWatch Intelligent Alarms

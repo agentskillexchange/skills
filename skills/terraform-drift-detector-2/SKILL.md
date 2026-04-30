@@ -4,11 +4,9 @@ description: "Detect infrastructure drift by comparing Terraform state with live
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

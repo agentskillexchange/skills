@@ -4,11 +4,9 @@ description: "Analyzes npm package dependency trees using npm-registry-fetch, pa
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-dependency-analyzer/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # NPM Package Dependency Analyzer

@@ -6,11 +6,9 @@ source: "https://codeberg.org/mergiraf/mergiraf"
 author: "Mergiraf maintainers"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf

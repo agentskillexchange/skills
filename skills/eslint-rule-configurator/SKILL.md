@@ -4,11 +4,9 @@ description: "Generates optimized ESLint flat config files using @eslint/js, typ
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188

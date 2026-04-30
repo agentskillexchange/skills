@@ -4,11 +4,9 @@ description: "This skill uses write-good to flag vague, wordy, or hard-to-read E
 verification: "security_reviewed"
 source: "https://github.com/btford/write-good"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "btford/write-good"
   github_stars: 5065

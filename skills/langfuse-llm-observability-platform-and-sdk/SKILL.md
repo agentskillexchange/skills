@@ -4,11 +4,9 @@ description: "Use Langfuse to capture prompts, traces, generations, evaluations,
 verification: "security_reviewed"
 source: "https://github.com/langfuse/langfuse"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "langfuse/langfuse"
   github_stars: 24091

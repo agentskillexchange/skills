@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/skills/tree/main/skills/xlsx"
 author: "Anthropic"
 publisher_type: "official_repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Create, repair, and recalculate spreadsheet workbooks without breaking formulas

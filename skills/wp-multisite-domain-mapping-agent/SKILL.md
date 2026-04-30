@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/certbot/certbot"
 author: "certbot"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "certbot/certbot"
   github_stars: 32972

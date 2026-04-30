@@ -4,11 +4,9 @@ description: "Generates reproducible Nix flake configurations with devShell envi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nix-flake-configuration-builder/"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # Nix Flake Configuration Builder

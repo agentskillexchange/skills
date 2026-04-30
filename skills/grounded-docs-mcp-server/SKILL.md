@@ -4,11 +4,9 @@ description: "Grounded Docs MCP Server gives AI coding assistants a version-awar
 verification: "security_reviewed"
 source: "https://github.com/arabold/docs-mcp-server"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "arabold/docs-mcp-server"
   github_stars: 1224

@@ -4,11 +4,9 @@ description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/org
 verification: "security_reviewed"
 source: "https://ahrefs.com/blog/content-gap-analysis/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Ahrefs Content Gap Finder

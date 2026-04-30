@@ -4,11 +4,9 @@ description: "Executes Apify cloud actors for structured web scraping with autom
 verification: "security_reviewed"
 source: "https://github.com/apify/apify-sdk-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173

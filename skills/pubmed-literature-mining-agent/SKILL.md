@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://pubmed.ncbi.nlm.nih.gov/"
 author: "NCBI"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # PubMed Literature Mining Agent

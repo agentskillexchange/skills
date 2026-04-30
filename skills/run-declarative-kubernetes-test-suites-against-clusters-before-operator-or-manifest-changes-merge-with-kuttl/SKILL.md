@@ -6,11 +6,9 @@ source: "https://github.com/kudobuilder/kuttl"
 author: "kudobuilder"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kudobuilder/kuttl"
   github_stars: 804

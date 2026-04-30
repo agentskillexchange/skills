@@ -4,11 +4,9 @@ description: "Leverages Ahrefs REST API v3 to identify content gap opportunities
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 ---
 
 # Ahrefs Backlink Content Planner

@@ -4,11 +4,9 @@ description: "Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 ---
 
 # OpenAPI Spec Validator & Linter

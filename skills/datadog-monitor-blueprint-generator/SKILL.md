@@ -4,11 +4,9 @@ description: "Creates Datadog monitor definitions using the Datadog API v2 with 
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791

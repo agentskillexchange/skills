@@ -6,11 +6,9 @@ source: "https://github.com/pfrederiksen/synology-backup"
 author: "pfrederiksen"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "pfrederiksen/synology-backup"
   github_stars: 1

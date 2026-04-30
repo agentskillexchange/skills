@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 author: "SeleniumHQ"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

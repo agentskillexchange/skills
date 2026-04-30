@@ -6,11 +6,9 @@ source: "https://github.com/epappas/llmtrace"
 author: "epappas"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "epappas/llmtrace"
   github_stars: 46

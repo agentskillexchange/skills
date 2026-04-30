@@ -4,11 +4,9 @@ description: "A modern shell that treats all input as structured data rather tha
 verification: "security_reviewed"
 source: "https://github.com/nushell/nushell"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "nushell/nushell"
   github_stars: 38872

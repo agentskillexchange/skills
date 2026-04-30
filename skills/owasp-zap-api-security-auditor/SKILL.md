@@ -4,11 +4,9 @@ description: "Orchestrates OWASP ZAP active and passive scans against REST and G
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991

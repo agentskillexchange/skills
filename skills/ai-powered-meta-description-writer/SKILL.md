@@ -4,11 +4,9 @@ description: "Generates optimized meta descriptions using OpenAI Chat Completion
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ai-powered-meta-description-writer/"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # AI-Powered Meta Description Writer

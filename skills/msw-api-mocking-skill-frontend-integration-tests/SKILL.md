@@ -4,11 +4,9 @@ description: "Use this skill when an agent needs to stand up request handlers wi
 verification: "security_reviewed"
 source: "https://github.com/mswjs/msw"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mswjs/msw"
   github_stars: 17816

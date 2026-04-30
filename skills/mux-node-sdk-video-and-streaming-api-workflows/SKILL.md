@@ -6,11 +6,9 @@ source: "https://github.com/muxinc/mux-node-sdk"
 author: "muxinc"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "muxinc/mux-node-sdk"
   github_stars: 178

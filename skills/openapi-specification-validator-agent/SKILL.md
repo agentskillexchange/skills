@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/APIDevTools/swagger-parser"
 author: "API Dev Tools"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-parser"
   github_stars: 1194

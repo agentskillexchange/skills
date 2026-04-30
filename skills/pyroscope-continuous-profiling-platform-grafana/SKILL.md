@@ -4,11 +4,9 @@ description: "Pyroscope is an open-source continuous profiling platform by Grafa
 verification: "security_reviewed"
 source: "https://github.com/grafana/pyroscope"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/pyroscope"
   github_stars: 11341

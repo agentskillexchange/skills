@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/jonschlinkert/gray-matter"
 publisher_type: "GitHub User"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jonschlinkert/gray-matter"
   github_stars: 4415

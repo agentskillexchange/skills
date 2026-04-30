@@ -6,11 +6,9 @@ source: "https://github.com/Automattic/juice"
 author: "Automattic"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Automattic/juice"
   github_stars: 3245

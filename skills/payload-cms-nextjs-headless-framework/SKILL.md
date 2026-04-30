@@ -4,11 +4,9 @@ description: "Payload is an open-source, TypeScript-first headless CMS that inst
 verification: "security_reviewed"
 source: "https://github.com/payloadcms/payload"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552

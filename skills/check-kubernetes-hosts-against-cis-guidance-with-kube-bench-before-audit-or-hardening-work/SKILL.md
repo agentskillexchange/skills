@@ -6,11 +6,9 @@ source: "https://github.com/aquasecurity/kube-bench"
 author: "Aqua Security"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/kube-bench"
   github_stars: 7788

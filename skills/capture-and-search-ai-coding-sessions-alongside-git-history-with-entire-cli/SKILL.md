@@ -6,11 +6,9 @@ source: "https://github.com/entireio/cli"
 author: "entireio"
 publisher_type: "GitHub repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "entireio/cli"
   github_stars: 4000

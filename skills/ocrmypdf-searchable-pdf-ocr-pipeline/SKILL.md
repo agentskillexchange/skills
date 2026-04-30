@@ -4,11 +4,9 @@ description: "OCRmyPDF is an open source tool that adds a searchable OCR text la
 verification: "security_reviewed"
 source: "https://github.com/ocrmypdf/OCRmyPDF"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ocrmypdf/OCRmyPDF"
   github_stars: 33204

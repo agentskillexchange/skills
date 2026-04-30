@@ -4,11 +4,9 @@ description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaS
 verification: "security_reviewed"
 source: "https://github.com/vercel/turborepo"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "vercel/turborepo"
   github_stars: 30114

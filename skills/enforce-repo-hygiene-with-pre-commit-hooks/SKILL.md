@@ -6,11 +6,9 @@ source: "https://github.com/pre-commit/pre-commit"
 author: "pre-commit maintainers"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pre-commit/pre-commit"
   github_stars: 15163

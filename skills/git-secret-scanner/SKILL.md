@@ -4,11 +4,9 @@ description: "Detects leaked secrets in Git repositories using pattern-based sca
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-secret-scanner/"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Git Secret Scanner

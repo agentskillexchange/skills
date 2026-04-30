@@ -6,11 +6,9 @@ source: "https://github.com/houseabsolute/precious"
 author: "houseabsolute"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "houseabsolute/precious"
   github_stars: 152

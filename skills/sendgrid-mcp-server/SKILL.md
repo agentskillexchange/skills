@@ -1,15 +1,13 @@
 ---
 title: "SendGrid MCP Server"
-description: "SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 author: "sendgrid"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3047
@@ -17,7 +15,7 @@ tool_ecosystem:
 
 # SendGrid MCP Server
 
-SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the […]
+
 
 ## Prerequisites
 

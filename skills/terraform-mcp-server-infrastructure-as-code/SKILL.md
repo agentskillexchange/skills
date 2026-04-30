@@ -4,11 +4,9 @@ description: "The official HashiCorp Terraform MCP server integrates with the Te
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform-mcp-server"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform-mcp-server"
   github_stars: 1298

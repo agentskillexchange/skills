@@ -6,11 +6,9 @@ source: "https://github.com/awslabs/agent-evaluation"
 author: "AWS Labs"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "awslabs/agent-evaluation"
   github_stars: 358

@@ -6,11 +6,9 @@ source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/review-api-
 author: "Philip A Senger"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Review REST API designs before implementation for versioning, security, and contract clarity

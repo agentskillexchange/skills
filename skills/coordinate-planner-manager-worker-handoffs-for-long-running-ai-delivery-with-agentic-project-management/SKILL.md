@@ -6,11 +6,9 @@ source: "https://github.com/sdi2200262/agentic-project-management"
 author: "sdi2200262"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sdi2200262/agentic-project-management"
   github_stars: 2211

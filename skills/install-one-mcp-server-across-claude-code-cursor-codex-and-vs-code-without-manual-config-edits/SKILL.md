@@ -6,11 +6,9 @@ source: "https://github.com/neondatabase/add-mcp"
 author: "Neon"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "neondatabase/add-mcp"
   github_stars: 151
@@ -39,7 +37,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-<p>Run <code>npx add-mcp &lt;server-url-or-package&gt;</code> to install an MCP server into detected project configs, or add <code>-g</code> for global config files. Use flags like <code>-a</code> to target specific clients, <code>--header</code> for remote auth, <code>--env</code> for local stdio servers, <code>find</code> to search registries, and <code>sync</code> to unify names and installations across clients.</p>
+<p>Run <code>npx add-mcp <server-url-or-package></code> to install an MCP server into detected project configs, or add <code>-g</code> for global config files. Use flags like <code>-a</code> to target specific clients, <code>--header</code> for remote auth, <code>--env</code> for local stdio servers, <code>find</code> to search registries, and <code>sync</code> to unify names and installations across clients.</p>
 ```
 
 ## Documentation

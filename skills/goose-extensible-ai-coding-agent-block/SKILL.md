@@ -4,11 +4,9 @@ description: "An open-source, extensible AI agent from Block (formerly Square) t
 verification: "security_reviewed"
 source: "https://github.com/block/goose"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "block/goose"
   github_stars: 33898

@@ -4,11 +4,9 @@ description: "Apache Superset is a widely adopted open-source BI platform for SQ
 verification: "security_reviewed"
 source: "https://github.com/apache/superset"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apache/superset"
   github_stars: 72339

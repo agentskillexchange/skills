@@ -6,11 +6,9 @@ source: "https://github.com/lastmile-ai/mcp-agent"
 author: "LastMile AI"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "lastmile-ai/mcp-agent"
   github_stars: 8276

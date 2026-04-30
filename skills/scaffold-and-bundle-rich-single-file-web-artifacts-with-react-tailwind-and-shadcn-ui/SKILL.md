@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-bui
 author: "Anthropic"
 publisher_type: "Public repository"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui

@@ -4,11 +4,9 @@ description: "Leverages the Datadog API v2 metrics and events endpoints to detec
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791

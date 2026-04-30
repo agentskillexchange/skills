@@ -6,11 +6,9 @@ source: "https://github.com/photo-cli/photo-cli"
 author: "photo-cli contributors"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "photo-cli/photo-cli"
   github_stars: 68

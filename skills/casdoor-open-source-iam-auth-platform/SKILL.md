@@ -4,11 +4,9 @@ description: "Casdoor is an open source AI-first Identity and Access Management 
 verification: "security_reviewed"
 source: "https://github.com/casdoor/casdoor"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "casdoor/casdoor"
   github_stars: 13316

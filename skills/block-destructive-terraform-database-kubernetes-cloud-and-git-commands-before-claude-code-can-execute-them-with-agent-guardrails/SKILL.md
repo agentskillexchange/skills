@@ -6,11 +6,9 @@ source: "https://github.com/roboticforce/agent-guardrails"
 author: "Robotic Force"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "roboticforce/agent-guardrails"
   github_stars: 2

@@ -4,11 +4,9 @@ description: "llama.cpp is a high-performance C/C++ implementation for running L
 verification: "security_reviewed"
 source: "https://github.com/ggml-org/llama.cpp"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ggml-org/llama.cpp"
   github_stars: 100939

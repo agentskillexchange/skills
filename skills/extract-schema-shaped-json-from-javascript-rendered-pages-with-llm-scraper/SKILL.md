@@ -6,11 +6,9 @@ source: "https://github.com/mishushakov/llm-scraper"
 author: "mishushakov"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mishushakov/llm-scraper"
   github_stars: 6260

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.wandb.ai/"
 author: "Weights & Biases"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Weights & Biases Run Monitor

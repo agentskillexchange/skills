@@ -6,11 +6,9 @@ source: "https://github.com/pypa/pip-audit"
 author: "PyPA"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pypa/pip-audit"
   github_stars: 1260

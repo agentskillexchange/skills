@@ -6,11 +6,9 @@ source: "https://github.com/AltimateAI/altimate-code"
 author: "Altimate AI"
 publisher_type: "Organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AltimateAI/altimate-code"
   github_stars: 552

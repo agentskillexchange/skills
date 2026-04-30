@@ -6,11 +6,9 @@ source: "https://github.com/kontext-security/kontext-cli"
 author: "kontext-security"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "kontext-security/kontext-cli"
   github_stars: 143

@@ -1,14 +1,12 @@
 ---
 title: "GitLab CI Integration"
-description: "GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and preserving […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
@@ -16,7 +14,7 @@ tool_ecosystem:
 
 # GitLab CI Integration
 
-GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and preserving […]
+
 
 ## Installation
 

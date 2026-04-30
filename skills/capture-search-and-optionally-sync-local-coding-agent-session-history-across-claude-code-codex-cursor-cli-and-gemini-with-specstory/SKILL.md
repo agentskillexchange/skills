@@ -6,11 +6,9 @@ source: "https://github.com/specstoryai/getspecstory"
 author: "SpecStory AI"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "specstoryai/getspecstory"
   github_stars: 1181

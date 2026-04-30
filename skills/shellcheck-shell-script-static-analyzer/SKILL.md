@@ -4,11 +4,9 @@ description: "Run static analysis on bash and shell scripts using ShellCheck to 
 verification: "security_reviewed"
 source: "https://github.com/koalaman/shellcheck"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "koalaman/shellcheck"
   github_stars: 39204

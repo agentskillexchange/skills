@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/dokku/dokku"
 author: "Dokku"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "dokku/dokku"
   github_stars: 31865

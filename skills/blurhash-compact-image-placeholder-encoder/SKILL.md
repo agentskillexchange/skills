@@ -4,11 +4,9 @@ description: "An agent skill that uses BlurHash, the compact image placeholder r
 verification: "security_reviewed"
 source: "https://github.com/woltapp/blurhash"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "woltapp/blurhash"
   github_stars: 16958

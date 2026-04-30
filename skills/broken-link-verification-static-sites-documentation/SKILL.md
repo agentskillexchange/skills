@@ -6,11 +6,9 @@ source: "https://github.com/wjdp/htmltest"
 author: "wjdp"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wjdp/htmltest"
   github_stars: 371

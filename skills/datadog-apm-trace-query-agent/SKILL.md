@@ -4,11 +4,9 @@ description: "Queries distributed traces from Datadog APM using the Trace Search
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791

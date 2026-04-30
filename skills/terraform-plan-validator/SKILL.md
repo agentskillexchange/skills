@@ -4,11 +4,9 @@ description: "Parses terraform plan JSON output via the Terraform CLI (terraform
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

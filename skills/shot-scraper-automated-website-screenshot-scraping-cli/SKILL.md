@@ -4,11 +4,9 @@ description: "shot-scraper is a Python CLI tool by Simon Willison for taking aut
 verification: "security_reviewed"
 source: "https://github.com/simonw/shot-scraper"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "simonw/shot-scraper"
   github_stars: 2311

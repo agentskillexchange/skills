@@ -4,11 +4,9 @@ description: "Plandex is an open-source terminal-based AI coding agent designed 
 verification: "security_reviewed"
 source: "https://github.com/plandex-ai/plandex"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "plandex-ai/plandex"
   github_stars: 15183

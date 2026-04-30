@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
 author: "Twilio"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1528

@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/dequelabs/axe-core"
 author: "Deque Systems Inc."
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dequelabs/axe-core"
   github_stars: 7010

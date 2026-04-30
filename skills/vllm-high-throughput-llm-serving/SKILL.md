@@ -4,11 +4,9 @@ description: "vLLM is a fast and memory-efficient inference and serving engine f
 verification: "security_reviewed"
 source: "https://github.com/vllm-project/vllm"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vllm-project/vllm"
   github_stars: 75090

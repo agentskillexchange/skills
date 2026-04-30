@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/deepgram/deepgram-js-sdk"
 author: "Deepgram"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "deepgram/deepgram-js-sdk"
   github_stars: 260

@@ -6,11 +6,9 @@ source: "https://github.com/lefcha/imapfilter"
 author: "lefcha"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lefcha/imapfilter"
   github_stars: 917

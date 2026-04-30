@@ -4,11 +4,9 @@ description: "A modern replacement for ps written in Rust. procs provides colori
 verification: "security_reviewed"
 source: "https://github.com/dalance/procs"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "dalance/procs"
   github_stars: 5994

@@ -4,11 +4,9 @@ description: "Headless Chrome scraping via Puppeteer with automatic cookie handl
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115

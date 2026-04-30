@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/apache/avro"
 author: "Apache Software Foundation"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "apache/avro"
   github_stars: 3265

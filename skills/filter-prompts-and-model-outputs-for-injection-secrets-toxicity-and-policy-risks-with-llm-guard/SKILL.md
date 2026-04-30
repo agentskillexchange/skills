@@ -6,11 +6,9 @@ source: "https://github.com/protectai/llm-guard"
 author: "Protect AI"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "protectai/llm-guard"
   github_stars: 2831

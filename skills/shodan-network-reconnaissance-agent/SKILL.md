@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://developer.shodan.io/"
 author: "Shodan"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Shodan Network Reconnaissance Agent

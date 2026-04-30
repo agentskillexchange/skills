@@ -4,11 +4,9 @@ description: "Generates production-ready Terraform module scaffolds with variabl
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146

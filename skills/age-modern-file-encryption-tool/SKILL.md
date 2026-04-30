@@ -4,11 +4,9 @@ description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, mo
 verification: "security_reviewed"
 source: "https://github.com/FiloSottile/age"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "FiloSottile/age"
   github_stars: 21824

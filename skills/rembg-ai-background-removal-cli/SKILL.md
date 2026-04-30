@@ -4,11 +4,9 @@ description: "rembg is a Python tool for automatic image background removal powe
 verification: "security_reviewed"
 source: "https://github.com/danielgatis/rembg"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "danielgatis/rembg"
   github_stars: 22400

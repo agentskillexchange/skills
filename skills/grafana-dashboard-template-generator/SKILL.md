@@ -4,11 +4,9 @@ description: "Programmatically creates Grafana dashboard JSON models using the G
 verification: "security_reviewed"
 source: "https://github.com/grafana/grafana"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187

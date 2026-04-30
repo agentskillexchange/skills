@@ -4,11 +4,9 @@ description: "smolagents is HuggingFace's barebones Python library for building 
 verification: "security_reviewed"
 source: "https://github.com/huggingface/smolagents"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
   github_stars: 26355

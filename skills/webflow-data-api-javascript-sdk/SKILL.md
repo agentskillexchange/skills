@@ -4,11 +4,9 @@ description: "Automates site, CMS, and publishing workflows with Webflow’s off
 verification: "security_reviewed"
 source: "https://github.com/webflow/js-webflow-api"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "webflow/js-webflow-api"
   github_stars: 340

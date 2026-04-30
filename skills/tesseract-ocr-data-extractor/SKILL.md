@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/tesseract-ocr/tesseract"
 author: "Tesseract OCR"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "tesseract-ocr/tesseract"
   github_stars: 73629

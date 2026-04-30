@@ -4,11 +4,9 @@ description: "Synchronizes WooCommerce orders with external ERPs using the WooCo
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-order-sync-agent/"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # WooCommerce Order Sync Agent

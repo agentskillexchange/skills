@@ -6,11 +6,9 @@ source: "https://github.com/jimporter/mike"
 author: "jimporter"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jimporter/mike"
   github_stars: 728

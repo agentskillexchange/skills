@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/de
 author: "Anthropic"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 ---
 
 # Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe

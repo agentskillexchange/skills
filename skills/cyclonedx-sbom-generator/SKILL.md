@@ -4,11 +4,9 @@ description: "Generates Software Bill of Materials in CycloneDX format using cdx
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cyclonedx-sbom-generator/"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # CycloneDX SBOM Generator

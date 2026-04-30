@@ -6,11 +6,9 @@ source: "https://github.com/ianarawjo/promptstats"
 author: "Ian Arawjo"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ianarawjo/promptstats"
   github_stars: 97

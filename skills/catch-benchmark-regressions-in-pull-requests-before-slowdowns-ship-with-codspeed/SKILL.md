@@ -6,11 +6,9 @@ source: "https://github.com/CodSpeedHQ/codspeed"
 author: "CodSpeed"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "CodSpeedHQ/codspeed"
   github_stars: 143

@@ -4,11 +4,9 @@ description: "Auto-generates Cypress component tests from React and Vue source f
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617

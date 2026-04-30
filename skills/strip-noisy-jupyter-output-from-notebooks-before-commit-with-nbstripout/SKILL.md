@@ -6,11 +6,9 @@ source: "https://github.com/kynan/nbstripout"
 author: "Kynan Ries"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kynan/nbstripout"
   github_stars: 1447

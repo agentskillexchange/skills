@@ -4,11 +4,9 @@ description: "Woodpecker is a simple yet powerful self-hosted CI/CD engine writt
 verification: "security_reviewed"
 source: "https://github.com/woodpecker-ci/woodpecker"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "woodpecker-ci/woodpecker"
   github_stars: 6760

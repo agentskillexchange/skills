@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/actions/setup-node"
 author: "GitHub Actions"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "actions/setup-node"
   github_stars: 4738

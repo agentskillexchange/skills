@@ -4,11 +4,9 @@ description: "Checks container trust with `cosign verify`, Rekor transparency lo
 verification: "security_reviewed"
 source: "https://github.com/sigstore/cosign"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5776

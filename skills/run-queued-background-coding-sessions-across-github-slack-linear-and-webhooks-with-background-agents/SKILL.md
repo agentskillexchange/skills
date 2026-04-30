@@ -6,11 +6,9 @@ source: "https://github.com/ColeMurray/background-agents"
 author: "Cole Murray"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ColeMurray/background-agents"
   github_stars: 1591

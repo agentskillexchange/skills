@@ -6,11 +6,9 @@ source: "https://github.com/timescale/pg-aiguide"
 author: "Timescale"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "timescale/pg-aiguide"
   github_stars: 1698

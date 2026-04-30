@@ -4,11 +4,9 @@ description: "Concurrently runs multiple commands in parallel with color-coded o
 verification: "security_reviewed"
 source: "https://github.com/open-cli-tools/concurrently"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-cli-tools/concurrently"
   github_stars: 7727

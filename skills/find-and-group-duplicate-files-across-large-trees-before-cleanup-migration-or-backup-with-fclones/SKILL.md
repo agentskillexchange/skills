@@ -6,11 +6,9 @@ source: "https://github.com/pkolaczk/fclones"
 author: "pkolaczk"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pkolaczk/fclones"
   github_stars: 2707

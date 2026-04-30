@@ -4,11 +4,10 @@ description: "Watches Kubernetes event streams via the Watch API and correlates 
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700

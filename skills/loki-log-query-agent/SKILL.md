@@ -1,15 +1,13 @@
 ---
 title: "Loki Log Query Agent"
-description: "Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by grafana/loki (27,858+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like LogQL, labels, streams, tailing, retention, query frontend and preserving […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 author: "Grafana Labs"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "grafana/loki"
   github_stars: 27962
@@ -17,7 +15,7 @@ tool_ecosystem:
 
 # Loki Log Query Agent
 
-Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by grafana/loki (27,858+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like LogQL, labels, streams, tailing, retention, query frontend and preserving […]
+
 
 ## Installation
 

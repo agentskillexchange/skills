@@ -4,11 +4,9 @@ description: "Responds to PagerDuty incidents via the PagerDuty Events API v2 an
 verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
   github_stars: 69

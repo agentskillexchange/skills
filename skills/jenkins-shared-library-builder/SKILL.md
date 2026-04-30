@@ -4,11 +4,9 @@ description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pip
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25189

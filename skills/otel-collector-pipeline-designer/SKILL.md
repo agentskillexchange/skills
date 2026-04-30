@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/open-telemetry/opentelemetry-collector"
 author: "OpenTelemetry"
 category:
-  - "errors"
-  - "error_data"
+  - "Monitoring & Alerts"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "open-telemetry/opentelemetry-collector"
   github_stars: 6867

@@ -6,11 +6,9 @@ source: "https://github.com/0xNyk/lacp"
 author: "0xNyk"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "0xNyk/lacp"
   github_stars: 211

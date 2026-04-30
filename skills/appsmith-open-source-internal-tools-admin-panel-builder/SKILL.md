@@ -4,11 +4,9 @@ description: "Appsmith is an open-source platform for building internal tools, d
 verification: "security_reviewed"
 source: "https://github.com/appsmithorg/appsmith"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "appsmithorg/appsmith"
   github_stars: 39609

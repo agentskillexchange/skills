@@ -4,11 +4,9 @@ description: "Run web crawling and scraping workflows with Crawl4AI, an open-sou
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "unclecode/crawl4ai"
   github_stars: 63963

@@ -4,11 +4,9 @@ description: "Docmost is an open-source collaborative wiki and documentation pla
 verification: "security_reviewed"
 source: "https://github.com/docmost/docmost"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "docmost/docmost"
   github_stars: 19723

@@ -6,11 +6,9 @@ source: "https://github.com/regclient/regclient"
 author: "regclient"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "regclient/regclient"
   github_stars: 1813

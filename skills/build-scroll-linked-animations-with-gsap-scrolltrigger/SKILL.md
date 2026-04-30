@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Build scroll-linked animations with GSAP ScrollTrigger

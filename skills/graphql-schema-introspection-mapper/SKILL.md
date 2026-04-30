@@ -4,11 +4,10 @@ description: "Introspects GraphQL APIs via the __schema query and maps type rela
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324

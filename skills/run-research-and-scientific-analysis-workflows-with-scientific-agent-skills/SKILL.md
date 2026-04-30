@@ -6,11 +6,9 @@ source: "https://github.com/K-Dense-AI/scientific-agent-skills"
 author: "K-Dense"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "K-Dense-AI/scientific-agent-skills"
   github_stars: 18797

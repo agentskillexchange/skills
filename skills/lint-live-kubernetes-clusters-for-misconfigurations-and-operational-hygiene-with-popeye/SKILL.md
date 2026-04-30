@@ -6,11 +6,9 @@ source: "https://github.com/derailed/popeye"
 author: "derailed"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "derailed/popeye"
   github_stars: 6262

@@ -4,11 +4,9 @@ description: "xan is a high-performance command-line tool for processing CSV fil
 verification: "security_reviewed"
 source: "https://github.com/medialab/xan"
 category:
-  - "errors"
-  - "error_data"
+  - "Data Extraction & Transformation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "medialab/xan"
   github_stars: 3882

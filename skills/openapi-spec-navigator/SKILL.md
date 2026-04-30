@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://swagger.io/docs/"
 author: "SmartBear"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Cursor"
 ---
 
 # OpenAPI Spec Navigator

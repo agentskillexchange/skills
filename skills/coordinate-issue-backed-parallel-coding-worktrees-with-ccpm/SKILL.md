@@ -6,11 +6,9 @@ source: "https://github.com/automazeio/ccpm"
 author: "automazeio"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "automazeio/ccpm"
   github_stars: 7995

@@ -6,11 +6,9 @@ source: "https://github.com/nightwatchjs/nightwatch"
 author: "nightwatchjs"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nightwatchjs/nightwatch"
   github_stars: 11943

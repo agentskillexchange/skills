@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wpgraphql-acf"
 author: "wp-graphql"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-graphql/wpgraphql-acf"
   github_stars: 108

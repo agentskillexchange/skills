@@ -4,11 +4,9 @@ description: "Manages distributed browser sessions on Selenium Grid 4 via the Gr
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

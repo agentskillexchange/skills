@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://cloudinary.com/documentation"
 author: "Cloudinary"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Agents"
 ---
 
 # Cloudinary Media Optimization Agent

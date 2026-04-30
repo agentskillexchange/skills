@@ -6,11 +6,9 @@ source: "https://github.com/codemod/codemod"
 author: "Codemod"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "codemod/codemod"
   github_stars: 979

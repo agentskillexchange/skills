@@ -5,11 +5,9 @@ verification: "listed"
 source: "https://github.com/huggingface/transformers"
 author: "Hugging Face"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159189

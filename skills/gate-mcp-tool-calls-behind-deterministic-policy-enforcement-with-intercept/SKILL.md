@@ -6,11 +6,9 @@ source: "https://github.com/PolicyLayer/Intercept"
 author: "PolicyLayer"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "PolicyLayer/Intercept"
   github_stars: 29

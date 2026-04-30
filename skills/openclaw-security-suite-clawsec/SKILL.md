@@ -6,11 +6,9 @@ source: "https://github.com/prompt-security/clawsec"
 author: "Prompt Security"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
   github_stars: 961

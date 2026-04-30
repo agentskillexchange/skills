@@ -6,11 +6,9 @@ source: "https://github.com/millionco/expect"
 author: "Million"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "millionco/expect"
   github_stars: 3362

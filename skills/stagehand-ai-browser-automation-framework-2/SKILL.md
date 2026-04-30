@@ -4,11 +4,9 @@ description: "Build browser automations with Stagehand, Browserbase's AI browser
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22059

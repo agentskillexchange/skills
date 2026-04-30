@@ -6,11 +6,9 @@ source: "https://github.com/mailtrap/mailtrap-nodejs"
 author: "mailtrap"
 publisher_type: "Company"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailtrap/mailtrap-nodejs"
   github_stars: 108

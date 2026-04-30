@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/WordPress/gutenberg"
 author: "WordPress"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "WordPress/gutenberg"
   github_stars: 11624

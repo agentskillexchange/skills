@@ -6,11 +6,9 @@ source: "https://github.com/typicode/husky"
 author: "typicode"
 publisher_type: "open_source"
 category:
-  - "errors"
-  - "error_data"
+  - "Templates & Workflows"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "typicode/husky"
   github_stars: 34988

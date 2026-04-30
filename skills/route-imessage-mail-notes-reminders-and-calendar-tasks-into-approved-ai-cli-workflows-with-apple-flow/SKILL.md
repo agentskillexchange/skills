@@ -6,11 +6,9 @@ source: "https://github.com/dkyazzentwatwa/apple-flow"
 author: "dkyazzentwatwa"
 publisher_type: "individual"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dkyazzentwatwa/apple-flow"
   github_stars: 105

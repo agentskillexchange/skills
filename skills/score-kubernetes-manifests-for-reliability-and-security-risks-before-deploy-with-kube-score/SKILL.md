@@ -6,11 +6,9 @@ source: "https://github.com/zegl/kube-score"
 author: "zegl"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zegl/kube-score"
   github_stars: 3100

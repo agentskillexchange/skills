@@ -6,11 +6,9 @@ source: "https://github.com/openclaw/openclaw/tree/main/skills/weather"
 author: "OpenClaw"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Check current weather and short forecasts for planning

@@ -6,11 +6,9 @@ source: "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substa
 author: "maddiedreese"
 publisher_type: "open-source"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 ---
 
 # Format plain-text drafts for clean Substack paste

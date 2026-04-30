@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/schemaorg/schemaorg"
 author: "Schema.org"
 category:
-  - "errors"
-  - "error_data"
+  - "Content Writing & SEO"
 framework:
-  - "errors"
-  - "error_data"
+  - "Gemini"
 tool_ecosystem:
   github_repo: "schemaorg/schemaorg"
   github_stars: 6017

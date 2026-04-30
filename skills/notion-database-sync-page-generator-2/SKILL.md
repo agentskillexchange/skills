@@ -4,11 +4,9 @@ description: "Reads from and writes to Notion databases using the official Notio
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582

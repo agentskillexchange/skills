@@ -6,11 +6,9 @@ source: "https://www.npmjs.com/package/playwright-extra"
 author: "berstend"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "Browser Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   npm_package: "playwright-extra"
   npm_weekly_downloads: 623136

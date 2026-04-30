@@ -6,11 +6,9 @@ source: "https://github.com/beekeeper-studio/beekeeper-studio"
 author: "beekeeper-studio"
 publisher_type: "Open Source Project"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "beekeeper-studio/beekeeper-studio"
   github_stars: 22541

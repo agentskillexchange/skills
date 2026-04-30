@@ -4,11 +4,9 @@ description: "Runs pulumi refresh on schedule to detect drift between live cloud
 verification: "security_reviewed"
 source: "https://github.com/pulumi/pulumi"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25042

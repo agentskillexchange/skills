@@ -6,11 +6,9 @@ source: "https://github.com/terraform-docs/terraform-docs"
 author: "terraform-docs"
 publisher_type: "open_source_project"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "terraform-docs/terraform-docs"
   github_stars: 4753

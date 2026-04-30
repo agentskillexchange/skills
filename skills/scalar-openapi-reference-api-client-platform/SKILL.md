@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/scalar/scalar"
 author: "scalar"
 category:
-  - "errors"
-  - "error_data"
+  - "Library & API Reference"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "scalar/scalar"
   github_stars: 14624

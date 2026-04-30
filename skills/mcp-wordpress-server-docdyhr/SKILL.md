@@ -6,11 +6,9 @@ source: "https://github.com/docdyhr/mcp-wordpress"
 author: "docdyhr"
 publisher_type: "Individual Developer"
 category:
-  - "errors"
-  - "error_data"
+  - "WordPress & CMS"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   github_repo: "docdyhr/mcp-wordpress"
   github_stars: 81

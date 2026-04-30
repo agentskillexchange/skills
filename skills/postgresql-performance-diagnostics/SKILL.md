@@ -4,11 +4,9 @@ description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "errors"
-  - "error_data"
+  - "Runbooks & Diagnostics"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 tool_ecosystem:
   npm_package: "pg"
   npm_weekly_downloads: 23169914

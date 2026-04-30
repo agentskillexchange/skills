@@ -4,11 +4,9 @@ description: "Integrates SonarQube static analysis via the sonar-scanner CLI and
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10433

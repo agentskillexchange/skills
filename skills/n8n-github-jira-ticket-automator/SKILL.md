@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.n8n.io/"
 author: "n8n"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Codex"
 ---
 
 # n8n GitHub Issue-to-Jira Ticket Automator

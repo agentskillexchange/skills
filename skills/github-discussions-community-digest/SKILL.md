@@ -5,11 +5,9 @@ verification: "security_reviewed"
 source: "https://docs.github.com/en/discussions"
 author: "GitHub"
 category:
-  - "errors"
-  - "error_data"
+  - "Integrations & Connectors"
 framework:
-  - "errors"
-  - "error_data"
+  - "MCP"
 ---
 
 # GitHub Discussions Community Digest

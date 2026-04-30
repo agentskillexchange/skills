@@ -6,11 +6,9 @@ source: "https://codeberg.org/fsfe/reuse-tool"
 author: "Free Software Foundation Europe e.V."
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Security & Verification"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 ---
 
 # Audit and normalize SPDX license headers before releasing or open-sourcing a repository

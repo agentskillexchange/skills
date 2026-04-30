@@ -4,11 +4,9 @@ description: "Builds composable image processing pipelines using the Sharp libra
 verification: "security_reviewed"
 source: "https://github.com/lovell/sharp"
 category:
-  - "errors"
-  - "error_data"
+  - "Image & Creative Automation"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138

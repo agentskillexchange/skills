@@ -6,11 +6,9 @@ source: "https://github.com/openai/whisper"
 author: "openai"
 publisher_type: "open_source_collective"
 category:
-  - "errors"
-  - "error_data"
+  - "Media & Transcription"
 framework:
-  - "errors"
-  - "error_data"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 98608

@@ -6,11 +6,9 @@ source: "https://github.com/anthropics/claude-agent-sdk-python"
 author: "Anthropic"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Developer Tools"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "anthropics/claude-agent-sdk-python"
   github_stars: 6390

@@ -4,11 +4,9 @@ description: "Trafilatura is a Python package and CLI tool for gathering text fr
 verification: "security_reviewed"
 source: "https://github.com/adbar/trafilatura"
 category:
-  - "errors"
-  - "error_data"
+  - "Research & Scraping"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "adbar/trafilatura"
   github_stars: 5638

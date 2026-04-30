@@ -6,11 +6,9 @@ source: "https://github.com/inovex/CalendarSync"
 author: "inovex"
 publisher_type: "organization"
 category:
-  - "errors"
-  - "error_data"
+  - "Calendar, Email & Productivity"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "inovex/CalendarSync"
   github_stars: 217

@@ -1,15 +1,13 @@
 ---
 title: "Semgrep Code Scanner"
-description: "Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by semgrep/semgrep (14,543+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like YAML rules, semgrep –config, taint mode, SARIF, metavariables, autofix and preserving […]"
+description: ""
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 author: "semgrep"
 category:
-  - "errors"
-  - "error_data"
+  - "Code Quality & Review"
 framework:
-  - "errors"
-  - "error_data"
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14809
@@ -17,7 +15,7 @@ tool_ecosystem:
 
 # Semgrep Code Scanner
 
-Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by semgrep/semgrep (14,543+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like YAML rules, semgrep –config, taint mode, SARIF, metavariables, autofix and preserving […]
+
 
 ## Prerequisites
 

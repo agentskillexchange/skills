@@ -6,11 +6,9 @@ source: "https://github.com/stackblitz-labs/pkg.pr.new"
 author: "StackBlitz Labs"
 publisher_type: "company"
 category:
-  - "errors"
-  - "error_data"
+  - "CI/CD Integrations"
 framework:
-  - "errors"
-  - "error_data"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stackblitz-labs/pkg.pr.new"
   github_stars: 1840
