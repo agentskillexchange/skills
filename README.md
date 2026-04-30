@@ -5,13 +5,13 @@
 ### The open catalog of AI agent skills
 
 [![Published](https://img.shields.io/badge/published-2%2C404-6366f1?style=for-the-badge)](skills/)
-[![Categories](https://img.shields.io/badge/categories-2-0ea5e9?style=for-the-badge)](categories/)
+[![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C071-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,404 published skills · 2 categories · Real ecosystem signals · Updated hourly*
+*2,404 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -53,8 +53,8 @@ clawhub install <slug>
 Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance.
 
 - Tool: `puppeteer`
-- Category: errors
-- Frameworks: errors, error_data
+- Category: Browser Automation
+- Frameworks: Cursor
 - GitHub stars: 94,115
 - Listing: https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/
 
@@ -66,18 +66,18 @@ A strong cross-section of high-signal skills across the catalog.
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | n8n-workflow-webhook-bridge | 182.1k | errors |
-| [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | ollama-local-llm-runner-model-server | 167.9k | errors |
-| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | errors |
-| [Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/) | hugging-face-transformers-ml-library | 159.2k | errors |
-| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | errors |
-| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | langflow-visual-ai-agent-workflow-builder | 146.8k | errors |
-| [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | open-webui-self-hosted-ai-interface | 130.4k | errors |
-| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | kubernetes | 121.8k | errors |
-| [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | kubernetes | 121.7k | errors |
-| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | kubernetes | 121.7k | errors |
-| [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | kubernetes | 121.7k | errors |
-| [Kubernetes CrashLoop Diagnostician](skills/kubernetes-crashloop-diagnostician/) | kubernetes | 121.7k | errors |
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | n8n-workflow-webhook-bridge | 182.1k | Integrations & Connectors |
+| [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | ollama-local-llm-runner-model-server | 167.9k | Developer Tools |
+| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | CI/CD Integrations |
+| [Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/) | hugging-face-transformers-ml-library | 159.2k | Developer Tools |
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
+| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | langflow-visual-ai-agent-workflow-builder | 146.8k | Templates & Workflows |
+| [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | open-webui-self-hosted-ai-interface | 130.4k | Developer Tools |
+| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | kubernetes | 121.8k | Monitoring & Alerts |
+| [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | kubernetes | 121.7k | Runbooks & Diagnostics |
+| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | kubernetes | 121.7k | Runbooks & Diagnostics |
+| [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | kubernetes | 121.7k | Runbooks & Diagnostics |
+| [Kubernetes CrashLoop Diagnostician](skills/kubernetes-crashloop-diagnostician/) | kubernetes | 121.7k | Runbooks & Diagnostics |
 
 ---
 
@@ -85,8 +85,23 @@ A strong cross-section of high-signal skills across the catalog.
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 📦 | [**error_data**](categories/error-data/) | 2404 | Skills in this category |
-| 📦 | [**errors**](categories/errors/) | 2404 | Skills in this category |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 298 | CLI tools, scaffolders, dev environment setup |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 222 | Vulnerability scanning, auth setup, compliance |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 191 | Pipeline configs, deployment automation, build tooling |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 180 | Linting, code review, test generators, coverage |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 169 | Incident response, troubleshooting, system diagnostics |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 165 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 140 | Scaffolders, boilerplate generators, workflow templates |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 127 | Metrics, alerting rules, observability |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 119 | SDK docs, API parsers, symbol resolvers |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 107 | Third-party API bridges, webhooks, service connectors |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 103 | Web research, content discovery, data collection |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 102 | Web scraping, UI testing, headless browser control |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 98 | Audio/video processing, speech-to-text |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 77 | SEO content, blog automation, editorial workflows |
 
 ---
 

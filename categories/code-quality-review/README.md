@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-Linting rules, review checklists, code standards enforcement, and quality gates.
+Linting, code review, test generators, coverage
 
 ## ⭐ Top Starred
 
@@ -40,16 +40,16 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | —/wk |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
-| [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
+| [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | —/wk |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | 51.8k | 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | 51.8k | 90.5M/wk |
-| [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | 47.2k | — |
-| [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | 47.2k | — |
-| [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
-| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
-| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
+| [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | 47.2k | —/wk |
+| [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | 47.2k | —/wk |
+| [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | —/wk |
+| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | —/wk |
+| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | —/wk |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | 28.5k | 138.2k/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | 27.2k | 120.2M/wk |
@@ -70,156 +70,156 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Enforcer](../../skills/eslint-rule-enforcer/) | 27.2k | 120.2M/wk |
 | [ESLint Rule Enforcer Agent](../../skills/eslint-rule-enforcer-agent/) | 27.2k | 120.2M/wk |
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | 27.2k | 120.2M/wk |
-| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | — |
-| [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | 25.2k | — |
-| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
-| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | — |
+| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | —/wk |
+| [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | 25.2k | —/wk |
+| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | —/wk |
+| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | —/wk |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4.3M/wk |
-| [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 20k | — |
+| [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 20k | —/wk |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 560.8k/wk |
-| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
+| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | —/wk |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
-| [Multi-Axis Code Review and Quality Gates](../../skills/multi-axis-code-review-and-quality-gates/) | 17.4k | — |
-| [Address GitHub PR review comments from the current branch with gh-address-comments](../../skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments/) | 17.3k | — |
-| [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
-| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
-| [Generate clickable architecture diagrams from public GitHub repos with GitDiagram](../../skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/) | 15.4k | — |
+| [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | —/wk |
+| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | —/wk |
+| [Generate clickable architecture diagrams from public GitHub repos with GitDiagram](../../skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/) | 15.4k | —/wk |
 | [Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval](../../skills/regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval/) | 14.8k | 1.3k/wk |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
-| [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | 14.8k | — |
-| [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | 14.8k | — |
-| [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | 14.8k | — |
-| [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-3/) | 14.8k | — |
-| [Semgrep Pattern Matching Analyzer](../../skills/semgrep-pattern-matching-analyzer/) | 14.8k | — |
-| [Semgrep Pattern Matching Auditor](../../skills/semgrep-pattern-matching-auditor/) | 14.8k | — |
-| [Semgrep Pattern Scanner](../../skills/semgrep-pattern-scanner/) | 14.8k | — |
-| [Semgrep Rule Author](../../skills/semgrep-rule-author/) | 14.8k | — |
-| [Semgrep Rule Engine](../../skills/semgrep-rule-engine/) | 14.8k | — |
-| [Semgrep Rule Runner](../../skills/semgrep-rule-runner/) | 14.8k | — |
-| [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | 14.8k | — |
-| [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | 14.8k | — |
-| [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | 14.8k | — |
-| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | — |
-| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
-| [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | 13.9k | — |
-| [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | — |
-| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
-| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
-| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
-| [Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent](../../skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/) | 10.9k | — |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | —/wk |
+| [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | 14.8k | —/wk |
+| [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | 14.8k | —/wk |
+| [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | 14.8k | —/wk |
+| [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-3/) | 14.8k | —/wk |
+| [Semgrep Pattern Matching Analyzer](../../skills/semgrep-pattern-matching-analyzer/) | 14.8k | —/wk |
+| [Semgrep Pattern Matching Auditor](../../skills/semgrep-pattern-matching-auditor/) | 14.8k | —/wk |
+| [Semgrep Pattern Scanner](../../skills/semgrep-pattern-scanner/) | 14.8k | —/wk |
+| [Semgrep Rule Author](../../skills/semgrep-rule-author/) | 14.8k | —/wk |
+| [Semgrep Rule Engine](../../skills/semgrep-rule-engine/) | 14.8k | —/wk |
+| [Semgrep Rule Runner](../../skills/semgrep-rule-runner/) | 14.8k | —/wk |
+| [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | 14.8k | —/wk |
+| [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | 14.8k | —/wk |
+| [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | 14.8k | —/wk |
+| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | —/wk |
+| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | —/wk |
+| [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | 13.9k | —/wk |
+| [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | —/wk |
+| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | —/wk |
+| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | —/wk |
+| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | —/wk |
+| [Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent](../../skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/) | 10.9k | —/wk |
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 6.1M/wk |
-| [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | 10.4k | — |
-| [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | 10.4k | — |
-| [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | 10.4k | — |
-| [SonarQube Code Scanner Agent](../../skills/sonarqube-code-scanner-agent/) | 10.4k | — |
-| [SonarQube Gate Enforcer](../../skills/sonarqube-gate-enforcer/) | 10.4k | — |
-| [SonarQube PR Gate](../../skills/sonarqube-pr-gate-skill/) | 10.4k | — |
-| [SonarQube Quality Gate Agent](../../skills/sonarqube-quality-gate-agent/) | 10.4k | — |
-| [SonarQube Quality Gate Checker](../../skills/sonarqube-quality-gate-checker/) | 10.4k | — |
-| [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-14/) | 10.4k | — |
-| [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | 10.4k | — |
-| [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | 10.4k | — |
-| [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | 10.4k | — |
-| [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | 10.4k | — |
+| [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | 10.4k | —/wk |
+| [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | 10.4k | —/wk |
+| [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | 10.4k | —/wk |
+| [SonarQube Code Scanner Agent](../../skills/sonarqube-code-scanner-agent/) | 10.4k | —/wk |
+| [SonarQube Gate Enforcer](../../skills/sonarqube-gate-enforcer/) | 10.4k | —/wk |
+| [SonarQube PR Gate](../../skills/sonarqube-pr-gate-skill/) | 10.4k | —/wk |
+| [SonarQube Quality Gate Agent](../../skills/sonarqube-quality-gate-agent/) | 10.4k | —/wk |
+| [SonarQube Quality Gate Checker](../../skills/sonarqube-quality-gate-checker/) | 10.4k | —/wk |
+| [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-14/) | 10.4k | —/wk |
+| [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | 10.4k | —/wk |
+| [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | 10.4k | —/wk |
+| [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | 10.4k | —/wk |
+| [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | 10.4k | —/wk |
 | [Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift](../../skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift/) | 10k | 27.1M/wk |
-| [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
-| [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
-| [Format shell scripts into a stable house style before review with shfmt](../../skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | 8.7k | — |
-| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
+| [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | —/wk |
+| [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | —/wk |
+| [Format shell scripts into a stable house style before review with shfmt](../../skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | 8.7k | —/wk |
+| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | —/wk |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
-| [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | — |
-| [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | 5.7k | — |
-| [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | 5.7k | — |
-| [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
-| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
-| [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](../../skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | 4.8k | — |
-| [Find unused Python code before cleanup refactors with Vulture](../../skills/find-unused-python-code-before-cleanup-refactors-with-vulture/) | 4.5k | — |
-| [Search and rewrite code with structural GritQL patterns before broad migrations](../../skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations/) | 4.5k | — |
-| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
+| [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | —/wk |
+| [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | 5.7k | —/wk |
+| [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | 5.7k | —/wk |
+| [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | —/wk |
+| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | —/wk |
+| [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](../../skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | 4.8k | —/wk |
+| [Find unused Python code before cleanup refactors with Vulture](../../skills/find-unused-python-code-before-cleanup-refactors-with-vulture/) | 4.5k | —/wk |
+| [Search and rewrite code with structural GritQL patterns before broad migrations](../../skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations/) | 4.5k | —/wk |
+| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | —/wk |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 166k/wk |
-| [Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint](../../skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint/) | 3.9k | — |
-| [Prevent broken GitHub Actions workflows before CI runs with actionlint](../../skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
-| [Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy](../../skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy/) | 3.4k | — |
-| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
-| [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
-| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
+| [Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint](../../skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint/) | 3.9k | —/wk |
+| [Prevent broken GitHub Actions workflows before CI runs with actionlint](../../skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | —/wk |
+| [Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy](../../skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy/) | 3.4k | —/wk |
+| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | —/wk |
+| [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | —/wk |
+| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | —/wk |
 | [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](../../skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | 2.8k | 1.5M/wk |
-| [Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus](../../skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus/) | 2.8k | — |
-| [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | — |
-| [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | — |
-| [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
-| [Catch common misspellings in code and docs before review churn with codespell](../../skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | 2.4k | — |
-| [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](../../skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | 2.2k | — |
-| [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](../../skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | 2.1k | — |
-| [Map Python import graphs to explain coupling before refactors or package splits with pydeps](../../skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | 2.1k | — |
-| [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](../../skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | 2.1k | — |
+| [Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus](../../skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus/) | 2.8k | —/wk |
+| [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | —/wk |
+| [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | —/wk |
+| [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | —/wk |
+| [Catch common misspellings in code and docs before review churn with codespell](../../skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | 2.4k | —/wk |
+| [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](../../skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | 2.2k | —/wk |
+| [Map Python import graphs to explain coupling before refactors or package splits with pydeps](../../skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | 2.1k | —/wk |
+| [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](../../skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | 2.1k | —/wk |
 | [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](../../skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | 2k | 35.5k/wk |
-| [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](../../skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | 1.9k | — |
-| [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](../../skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | 1.8k | — |
-| [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | — |
-| [Strip noisy Jupyter output from notebooks before commit with nbstripout](../../skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | 1.4k | — |
-| [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |
+| [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](../../skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | 1.9k | —/wk |
+| [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](../../skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | 1.8k | —/wk |
+| [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | —/wk |
+| [Strip noisy Jupyter output from notebooks before commit with nbstripout](../../skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | 1.4k | —/wk |
+| [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | —/wk |
 | [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](../../skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | 1.3k | 2.1M/wk |
-| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
-| [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | — |
-| [Stress-test Python test suites with mutation runs from mutmut](../../skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/) | 1.3k | — |
+| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | —/wk |
+| [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | —/wk |
+| [Stress-test Python test suites with mutation runs from mutmut](../../skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/) | 1.3k | —/wk |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 588k/wk |
-| [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](../../skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | 1.2k | — |
-| [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
-| [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | — |
-| [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](../../skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | 1k | — |
-| [Enforce architectural import boundaries in Python codebases with Import Linter](../../skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | 995 | — |
-| [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](../../skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | 981 | — |
-| [Run reviewable multi-step codemod workflows with Codemod CLI](../../skills/run-reviewable-multi-step-codemod-workflows-with-codemod-cli/) | 979 | — |
+| [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](../../skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | 1.2k | —/wk |
+| [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | —/wk |
+| [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | —/wk |
+| [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](../../skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | 1k | —/wk |
+| [Enforce architectural import boundaries in Python codebases with Import Linter](../../skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | 995 | —/wk |
+| [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](../../skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | 981 | —/wk |
+| [Run reviewable multi-step codemod workflows with Codemod CLI](../../skills/run-reviewable-multi-step-codemod-workflows-with-codemod-cli/) | 979 | —/wk |
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](../../skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | 977 | 18.6k/wk |
-| [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
-| [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | — |
+| [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | —/wk |
+| [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | —/wk |
 | [Score model outputs with reusable evaluator prompts and metrics using autoevals](../../skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | 861 | 1.8M/wk |
-| [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](../../skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | 828 | — |
-| [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
-| [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](../../skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | 685 | — |
-| [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | — |
-| [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
-| [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
+| [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](../../skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | 828 | —/wk |
+| [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | —/wk |
+| [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](../../skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | 685 | —/wk |
+| [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | —/wk |
+| [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | —/wk |
 | [Review AI-generated code changes in a cleaner diff workflow with Diffity](../../skills/review-ai-generated-code-changes-with-diffity/) | 561 | 3.5k/wk |
 | [Grade agent trajectories and tool-use decisions with AgentEvals](../../skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | 550 | 251k/wk |
-| [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](../../skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | 530 | — |
-| [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |
-| [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
+| [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](../../skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | 530 | —/wk |
+| [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | —/wk |
+| [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | —/wk |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
-| [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
-| [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](../../skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | 266 | — |
-| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | — |
-| [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
-| [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
+| [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | —/wk |
+| [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](../../skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | 266 | —/wk |
+| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | —/wk |
+| [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | —/wk |
+| [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | —/wk |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |
-| [Review AI-generated code changes in a local PR-style loop with DiffX](../../skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | 127 | — |
-| [Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals](../../skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/) | 105 | — |
+| [Review AI-generated code changes in a local PR-style loop with DiffX](../../skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | 127 | —/wk |
+| [Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals](../../skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/) | 105 | —/wk |
 | [Prove whether a prompt or model variant really won before shipping with promptstats](../../skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/) | 97 | 678/wk |
-| [Spell-check docs and code comments with source-aware filters using pyspelling](../../skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/) | 94 | — |
-| [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](../../skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | 84 | — |
-| [Run code review and PR autofix workflows with CodeRabbit Skills](../../skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/) | 73 | — |
-| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](../../skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | 44 | — |
-| [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](../../skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | 34 | — |
+| [Spell-check docs and code comments with source-aware filters using pyspelling](../../skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/) | 94 | —/wk |
+| [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](../../skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | 84 | —/wk |
+| [Run code review and PR autofix workflows with CodeRabbit Skills](../../skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/) | 73 | —/wk |
+| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](../../skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | 44 | —/wk |
+| [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](../../skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | 34 | —/wk |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
-| [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](../../skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | 16 | — |
-| [Apply Git branching, commit, and pull request best practices through Git Workflow Skill](../../skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/) | 13 | — |
+| [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](../../skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | 16 | —/wk |
+| [Apply Git branching, commit, and pull request best practices through Git Workflow Skill](../../skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/) | 13 | —/wk |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 703.6k/wk |
-| [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
-| [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
-| [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | — | — |
-| [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | — | — |
-| [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | — | — |
-| [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | — |
-| [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
-| [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
-| [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
-| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
-| [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
-| [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
-| [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
-| [Review REST API designs before implementation for versioning, security, and contract clarity](../../skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | — | — |
+| [Address GitHub PR review comments from the current branch with gh-address-comments](../../skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments/) | — | —/wk |
+| [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | —/wk |
+| [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | —/wk |
+| [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | — | —/wk |
+| [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | — | —/wk |
+| [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | — | —/wk |
+| [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | —/wk |
+| [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | —/wk |
+| [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | —/wk |
+| [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | —/wk |
+| [Multi-Axis Code Review and Quality Gates](../../skills/multi-axis-code-review-and-quality-gates/) | — | —/wk |
+| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | —/wk |
+| [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | —/wk |
+| [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | —/wk |
+| [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | —/wk |
+| [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](../../skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | — | —/wk |
+| [Review REST API designs before implementation for versioning, security, and contract clarity](../../skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | — | —/wk |
+| [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | — | —/wk |
 
 ---
 

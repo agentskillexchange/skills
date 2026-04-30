@@ -10,13 +10,13 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 
 | Skill | Category | Stars | Downloads |
 |---|---|---:|---:|
-| [Documenso Open Source Document Signing Platform](../skills/documenso-open-source-document-signing/) | errors | 12.6k | —/wk |
-| [DocuSeal Open Source Document Signing and PDF Form Platform](../skills/docuseal-document-signing-pdf-forms/) | errors | 11.7k | —/wk |
-| [DocuSign Contract Auto-Sender with Conditional Logic](../skills/docusign-contract-auto-sender/) | errors | — | —/wk |
-| [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | errors | 33.2k | —/wk |
-| [pdfplumber Python PDF Text and Table Extraction Library](../skills/pdfplumber-python-pdf-text-table-extraction/) | errors | 10.1k | —/wk |
-| [Search PDFs, Office files, ebooks, and archives with one query before manual review](../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | errors | 9.6k | —/wk |
-| [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | errors | 35k | —/wk |
+| [Documenso Open Source Document Signing Platform](../skills/documenso-open-source-document-signing/) | Calendar, Email & Productivity | 12.6k | —/wk |
+| [DocuSeal Open Source Document Signing and PDF Form Platform](../skills/docuseal-document-signing-pdf-forms/) | Templates & Workflows | 11.7k | —/wk |
+| [DocuSign Contract Auto-Sender with Conditional Logic](../skills/docusign-contract-auto-sender/) | Security & Verification | — | —/wk |
+| [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | Media & Transcription | 33.2k | —/wk |
+| [pdfplumber Python PDF Text and Table Extraction Library](../skills/pdfplumber-python-pdf-text-table-extraction/) | Data Extraction & Transformation | 10.1k | —/wk |
+| [Search PDFs, Office files, ebooks, and archives with one query before manual review](../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Research & Scraping | 9.6k | —/wk |
+| [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | Data Extraction & Transformation | 35k | —/wk |
 
 ## Backup Picks
 

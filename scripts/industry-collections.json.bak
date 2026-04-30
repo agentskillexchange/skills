@@ -1,0 +1,108 @@
+{
+  "collections": [
+    {
+      "slug": "media-publishing-systems",
+      "title": "Media & Publishing Systems",
+      "launch_stage": "wave-1",
+      "description": "Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.",
+      "editorial_caution": "Prefer workflow-shaped entries over bare libraries when possible.",
+      "skill_slugs": [
+        "whisper-subtitle-generator",
+        "podcast-transcription-pipeline-agent",
+        "podcast-rss-feed-transcriber",
+        "youtube-chapters-generator-whisper",
+        "realign-drifting-subtitles-against-finished-video-audio",
+        "video-subtitle-auto-translator-agent",
+        "ffsubsync-subtitle-synchronization-tool",
+        "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing"
+      ],
+      "backup_skill_slugs": [
+        "whisper-batch-transcription-pipeline",
+        "whisperx-speech-recognition-timestamps-diarization"
+      ]
+    },
+    {
+      "slug": "finance-filings",
+      "title": "Finance & Filings",
+      "launch_stage": "wave-1",
+      "description": "Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting.",
+      "editorial_caution": "Frame Stripe-based entries as revenue-ops and billing workflows, not generic payment tooling.",
+      "skill_slugs": [
+        "sec-edgar-financial-filing-parser",
+        "sec-edgar-filing-scraper-analyzer",
+        "quickbooks-invoice-reconciliation",
+        "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
+        "stripe-revenue-reconciliation-agent",
+        "stripe-reporting-agent",
+        "plaid-financial-data-connector",
+        "ghostfolio-wealth-management-portfolio-tracking"
+      ],
+      "backup_skill_slugs": [
+        "stripe-revenue-analytics-dashboard",
+        "openmeter-usage-metering-and-billing-platform"
+      ]
+    },
+    {
+      "slug": "ecommerce-retail-operations",
+      "title": "Ecommerce & Retail Operations",
+      "launch_stage": "wave-1",
+      "description": "Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising.",
+      "editorial_caution": "Keep this about operating a store, not about generic product or content tooling.",
+      "skill_slugs": [
+        "saleor-open-source-headless-commerce-graphql-api",
+        "medusa-commerce-api-store-operations-automation-skill",
+        "shopify-admin-graphql-sync-agent",
+        "woocommerce-rest-order-manager",
+        "woocommerce-order-sync-agent",
+        "woocommerce-rest-inventory-sync",
+        "product-review-sentiment-aggregator",
+        "stripe-connect-marketplace-sync"
+      ],
+      "backup_skill_slugs": [
+        "woocommerce-webhook-orchestrator",
+        "woocommerce-webhook-delivery-inspector"
+      ]
+    },
+    {
+      "slug": "legal-ops-compliance",
+      "title": "Legal Ops & Compliance",
+      "launch_stage": "wave-1",
+      "description": "Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+      "editorial_caution": "Do not let infra-policy scanners take over this collection. Keep v1 document-centric.",
+      "skill_slugs": [
+        "documenso-open-source-document-signing",
+        "docuseal-document-signing-pdf-forms",
+        "docusign-contract-auto-sender",
+        "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "pdfplumber-python-pdf-text-table-extraction",
+        "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
+        "langextract-llm-structured-text-extraction"
+      ],
+      "backup_skill_slugs": [
+        "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
+        "revise-pdf-slides-with-natural-language-edits"
+      ]
+    },
+    {
+      "slug": "healthcare-documentation-intake",
+      "title": "Healthcare Documentation & Intake",
+      "launch_stage": "wave-2",
+      "description": "Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support — not diagnosis or medical decision support.",
+      "skill_slugs": [
+        "pubmed-literature-mining-agent",
+        "langextract-llm-structured-text-extraction",
+        "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "tesseract-ocr-document-extractor",
+        "tesseract-ocr-data-extractor",
+        "whisperx-speech-recognition-timestamps-diarization",
+        "assemblyai-lemur-summarizer-agent",
+        "docuseal-document-signing-pdf-forms"
+      ],
+      "backup_skill_slugs": [
+        "pdfplumber-python-pdf-text-table-extraction",
+        "openai-whisper-api-transcription"
+      ]
+    }
+  ]
+}
