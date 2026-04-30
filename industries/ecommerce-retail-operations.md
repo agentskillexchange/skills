@@ -10,14 +10,14 @@ Catalog management, storefront automation, orders, inventory sync, marketplace s
 
 | Skill | Category | Stars | Downloads |
 |---|---|---:|---:|
-| [Saleor Open Source Headless Commerce Platform with GraphQL API](../skills/saleor-open-source-headless-commerce-graphql-api/) | Integrations & Connectors | 22.8k | — |
-| [Medusa Commerce API and Store Operations Automation Skill](../skills/medusa-commerce-api-store-operations-automation-skill/) | Integrations & Connectors | 32.6k | — |
-| [Shopify Admin GraphQL Sync Agent](../skills/shopify-admin-graphql-sync-agent/) | Integrations & Connectors | 959 | 325.5k/wk |
-| [WooCommerce REST Order Manager](../skills/woocommerce-rest-order-manager/) | WordPress & CMS | — | — |
-| [WooCommerce Order Sync Agent](../skills/woocommerce-order-sync-agent/) | WordPress & CMS | — | — |
-| [WooCommerce REST Inventory Sync](../skills/woocommerce-rest-inventory-sync/) | WordPress & CMS | 10.2k | — |
-| [Product Review Sentiment Aggregator](../skills/product-review-sentiment-aggregator/) | Research & Scraping | — | — |
-| [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | Integrations & Connectors | 4.4k | 9.3M/wk |
+| [Saleor Open Source Headless Commerce Platform with GraphQL API](../skills/saleor-open-source-headless-commerce-graphql-api/) | errors | 22.8k | —/wk |
+| [Medusa Commerce API and Store Operations Automation Skill](../skills/medusa-commerce-api-store-operations-automation-skill/) | errors | 32.6k | —/wk |
+| [Shopify Admin GraphQL Sync Agent](../skills/shopify-admin-graphql-sync-agent/) | errors | 959 | 325.5k/wk |
+| [WooCommerce REST Order Manager](../skills/woocommerce-rest-order-manager/) | errors | — | —/wk |
+| [WooCommerce Order Sync Agent](../skills/woocommerce-order-sync-agent/) | errors | — | —/wk |
+| [WooCommerce REST Inventory Sync](../skills/woocommerce-rest-inventory-sync/) | errors | 10.2k | —/wk |
+| [Product Review Sentiment Aggregator](../skills/product-review-sentiment-aggregator/) | errors | — | —/wk |
+| [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | errors | 4.4k | 9.3M/wk |
 
 ## Backup Picks
 
