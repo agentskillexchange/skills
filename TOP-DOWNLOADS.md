@@ -29,7 +29,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 21 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 7.3M/wk | cypress | Browser Automation |
 | 22 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 7.1M/wk | cloudflare | Templates & Workflows |
 | 23 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
-| 24 | [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | 6.6M/wk | datadog | Monitoring & Alerts |
+| 24 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
 | 25 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 26 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
 | 27 | [Twilio MCP Server](skills/twilio-mcp-server/) | 3.9M/wk | twilio | Integrations & Connectors |
@@ -45,7 +45,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 37 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
 | 38 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.2M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 39 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2.1M/wk | langchain | Developer Tools |
-| 40 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
+| 40 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 41 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
 | 42 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
 | 43 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
@@ -54,7 +54,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 46 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | 1.5M/wk | redoc | Library & API Reference |
 | 47 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | 1.2M/wk | sqlite-vec | Developer Tools |
 | 48 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | 1.2M/wk | konva | Image & Creative Automation |
-| 49 | [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
+| 49 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
 | 50 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | 986.8k/wk | hubspot | Integrations & Connectors |
 
 ---

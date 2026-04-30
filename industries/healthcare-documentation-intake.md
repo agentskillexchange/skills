@@ -10,14 +10,14 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 
 | Skill | Category | Stars | Downloads |
 |---|---|---:|---:|
-| [PubMed Literature Mining Agent](../skills/pubmed-literature-mining-agent/) | Research & Scraping | — | —/wk |
-| [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | Data Extraction & Transformation | 35k | —/wk |
-| [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | Media & Transcription | 33.2k | —/wk |
-| [Tesseract OCR Document Extractor](../skills/tesseract-ocr-document-extractor/) | Data Extraction & Transformation | 73.6k | —/wk |
-| [Tesseract OCR Data Extractor](../skills/tesseract-ocr-data-extractor/) | Data Extraction & Transformation | 73.6k | —/wk |
-| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../skills/whisperx-speech-recognition-timestamps-diarization/) | Media & Transcription | 21k | —/wk |
-| [AssemblyAI LeMUR Summarizer](../skills/assemblyai-lemur-summarizer-agent/) | Media & Transcription | — | —/wk |
-| [DocuSeal Open Source Document Signing and PDF Form Platform](../skills/docuseal-document-signing-pdf-forms/) | Templates & Workflows | 11.7k | —/wk |
+| [PubMed Literature Mining Agent](../skills/pubmed-literature-mining-agent/) | Research & Scraping | — | — |
+| [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | Data Extraction & Transformation | 35k | — |
+| [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | Media & Transcription | 33.2k | — |
+| [Tesseract OCR Document Extractor](../skills/tesseract-ocr-document-extractor/) | Data Extraction & Transformation | 73.6k | — |
+| [Tesseract OCR Data Extractor](../skills/tesseract-ocr-data-extractor/) | Data Extraction & Transformation | 73.6k | — |
+| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../skills/whisperx-speech-recognition-timestamps-diarization/) | Media & Transcription | 21k | — |
+| [AssemblyAI LeMUR Summarizer](../skills/assemblyai-lemur-summarizer-agent/) | Media & Transcription | — | — |
+| [DocuSeal Open Source Document Signing and PDF Form Platform](../skills/docuseal-document-signing-pdf-forms/) | Templates & Workflows | 11.7k | — |
 
 ## Backup Picks
 

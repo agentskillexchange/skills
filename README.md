@@ -19,7 +19,7 @@
 
 ## What is an Agent Skill
 
-An agent skill is a reusable capability package for AI coding agents. Each entry here wraps a real tool, API, or workflow into a format agents can install and use.
+An agent skill is a reusable capability package for AI coding agents. Each entry here wraps a real tool, API, or workflow into a format agents like Claude Code, Cursor, Codex, and OpenClaw can install and use.
 
 Every published skill is backed by a real upstream project or documented integration. No synthetic filler, no fake repo stars, no proxy download theater.
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/)
+### [Supabase MCP Server](skills/supabase-mcp-server/)
 
-Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance.
 
-- Tool: `puppeteer`
-- Category: Browser Automation
-- Frameworks: Cursor
-- GitHub stars: 94,115
-- Listing: https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/
+
+- Tool: `supabase`
+- Category: Developer Tools
+- Frameworks: MCP
+- GitHub stars: 100,812
+- Listing: https://agentskillexchange.com/skills/supabase-mcp-server/
 
 ---
 
@@ -66,6 +66,10 @@ A strong cross-section of high-signal skills across the catalog.
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
+| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | openclaw | 356.8k | Developer Tools |
+| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | openclaw | 356.8k | Calendar, Email & Productivity |
+| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | openclaw | 356.8k | Security & Verification |
+| [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | openclaw | 356.8k | Runbooks & Diagnostics |
 | [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | n8n-workflow-webhook-bridge | 182.1k | Integrations & Connectors |
 | [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | ollama-local-llm-runner-model-server | 167.9k | Developer Tools |
 | [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | CI/CD Integrations |
@@ -74,10 +78,6 @@ A strong cross-section of high-signal skills across the catalog.
 | [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | langflow-visual-ai-agent-workflow-builder | 146.8k | Templates & Workflows |
 | [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | open-webui-self-hosted-ai-interface | 130.4k | Developer Tools |
 | [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | kubernetes | 121.8k | Monitoring & Alerts |
-| [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | kubernetes | 121.7k | Runbooks & Diagnostics |
-| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | kubernetes | 121.7k | Runbooks & Diagnostics |
-| [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | kubernetes | 121.7k | Runbooks & Diagnostics |
-| [Kubernetes CrashLoop Diagnostician](skills/kubernetes-crashloop-diagnostician/) | kubernetes | 121.7k | Runbooks & Diagnostics |
 
 ---
 

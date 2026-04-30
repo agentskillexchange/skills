@@ -10,14 +10,14 @@ Filings research, invoice intake, billing operations, reconciliation, and financ
 
 | Skill | Category | Stars | Downloads |
 |---|---|---:|---:|
-| [SEC EDGAR Financial Filing Parser](../skills/sec-edgar-financial-filing-parser/) | Research & Scraping | — | —/wk |
-| [SEC EDGAR Filing Scraper & Analyzer](../skills/sec-edgar-filing-scraper-analyzer/) | Research & Scraping | — | —/wk |
-| [QuickBooks Online Invoice Reconciliation Agent](../skills/quickbooks-invoice-reconciliation/) | Data Extraction & Transformation | — | —/wk |
-| [Extract invoice fields from vendor PDFs into structured records](../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | Data Extraction & Transformation | 2.1k | —/wk |
+| [SEC EDGAR Financial Filing Parser](../skills/sec-edgar-financial-filing-parser/) | Research & Scraping | — | — |
+| [SEC EDGAR Filing Scraper & Analyzer](../skills/sec-edgar-filing-scraper-analyzer/) | Research & Scraping | — | — |
+| [QuickBooks Online Invoice Reconciliation Agent](../skills/quickbooks-invoice-reconciliation/) | Data Extraction & Transformation | — | — |
+| [Extract invoice fields from vendor PDFs into structured records](../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | Data Extraction & Transformation | 2.1k | — |
 | [Stripe Revenue Reconciliation Agent](../skills/stripe-revenue-reconciliation-agent/) | Integrations & Connectors | 4.4k | 9.3M/wk |
 | [Stripe Reporting Agent](../skills/stripe-reporting-agent/) | Integrations & Connectors | 4.4k | 9.3M/wk |
-| [Plaid Financial Data Connector](../skills/plaid-financial-data-connector/) | Integrations & Connectors | — | —/wk |
-| [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../skills/ghostfolio-wealth-management-portfolio-tracking/) | Integrations & Connectors | 8.1k | —/wk |
+| [Plaid Financial Data Connector](../skills/plaid-financial-data-connector/) | Integrations & Connectors | — | — |
+| [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../skills/ghostfolio-wealth-management-portfolio-tracking/) | Integrations & Connectors | 8.1k | — |
 
 ## Backup Picks
 
