@@ -12,6 +12,7 @@ tool_ecosystem:
   github_repo: "ajv-validator/ajv"
   github_stars: 14691
   npm_package: "ajv"
+  npm_weekly_downloads: 291125331
 ---
 
 # REST API Response Schema Validator

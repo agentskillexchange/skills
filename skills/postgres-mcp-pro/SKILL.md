@@ -11,7 +11,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
-  github_stars: 2653
+  github_stars: 2661
 ---
 
 # Postgres MCP Pro

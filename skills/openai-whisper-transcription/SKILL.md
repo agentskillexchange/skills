@@ -11,7 +11,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
-  github_stars: 98608
+  github_stars: 98666
 ---
 
 # OpenAI Whisper Transcription

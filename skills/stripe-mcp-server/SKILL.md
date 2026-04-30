@@ -10,9 +10,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
-  github_stars: 4392
+  github_stars: 4393
   npm_package: "stripe"
-  npm_weekly_downloads: 9922668
+  npm_weekly_downloads: 10026513
 ---
 
 # Stripe MCP Server

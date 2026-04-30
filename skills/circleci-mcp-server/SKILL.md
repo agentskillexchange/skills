@@ -10,7 +10,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
-  github_stars: 841
+  github_stars: 842
 ---
 
 # CircleCI MCP Server

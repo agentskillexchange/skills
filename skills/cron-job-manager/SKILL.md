@@ -10,7 +10,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3611
+  github_stars: 3612
 ---
 
 # Cron Job Manager
