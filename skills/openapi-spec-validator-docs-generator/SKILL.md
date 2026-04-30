@@ -2,11 +2,15 @@
 title: "OpenAPI Spec Validator & Docs Generator"
 description: "Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration."
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/"
+source: "https://github.com/stoplightio/spectral"
+author: "Stoplight"
 category:
   - "Library & API Reference"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "stoplightio/spectral"
+  github_stars: 3084
 ---
 
 # OpenAPI Spec Validator & Docs Generator
@@ -22,6 +26,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.stoplight.io/docs/spectral/ZG9jOjExNw-overview
 
 ## Source
 

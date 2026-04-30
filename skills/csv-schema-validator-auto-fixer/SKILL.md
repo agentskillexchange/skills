@@ -2,16 +2,25 @@
 title: "CSV Schema Validator & Auto-Fixer"
 description: "Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels."
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
+source: "https://github.com/ajv-validator/ajv"
+author: "Ajv Validator"
 category:
   - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "ajv-validator/ajv"
+  github_stars: 14691
+  npm_package: "ajv"
 ---
 
 # CSV Schema Validator & Auto-Fixer
 
 Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels.
+
+## Prerequisites
+
+Node.js
 
 ## Installation
 
@@ -22,6 +31,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install ajv
+```
+
+## Documentation
+
+- https://ajv.js.org/
 
 ## Source
 

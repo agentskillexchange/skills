@@ -2,11 +2,15 @@
 title: "Cloud Cost Analysis"
 description: ""
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cloud-cost-analysis/"
+source: "https://github.com/aws/aws-sdk-js-v3"
+author: "Amazon Web Services"
 category:
   - "Developer Tools"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "aws/aws-sdk-js-v3"
+  github_stars: 3611
 ---
 
 # Cloud Cost Analysis
@@ -22,6 +26,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/
 
 ## Source
 
