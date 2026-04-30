@@ -17,7 +17,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 9 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 10 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 11 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
-| 12 | [OpenAI MCP Server](skills/openai-mcp-server/) | 19.8M/wk | openai | Developer Tools |
+| 12 | [OpenAI MCP Server](skills/openai-mcp-server/) | 20.1M/wk | openai | Developer Tools |
 | 13 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
 | 14 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 15 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
@@ -43,19 +43,19 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 35 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 36 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
 | 37 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 38 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.2M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 38 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.3M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 39 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2.1M/wk | langchain | Developer Tools |
 | 40 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 41 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
 | 42 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
 | 43 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
 | 44 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | 1.6M/wk | lefthook | Developer Tools |
-| 45 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.5M/wk | schema-dts | Content Writing & SEO |
-| 46 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | 1.5M/wk | redoc | Library & API Reference |
-| 47 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | 1.2M/wk | sqlite-vec | Developer Tools |
-| 48 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | 1.2M/wk | konva | Image & Creative Automation |
-| 49 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
-| 50 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | 986.8k/wk | hubspot | Integrations & Connectors |
+| 45 | [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | 1.5M/wk | postman | Library & API Reference |
+| 46 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.5M/wk | schema-dts | Content Writing & SEO |
+| 47 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | 1.5M/wk | redoc | Library & API Reference |
+| 48 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | 1.2M/wk | sqlite-vec | Developer Tools |
+| 49 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | 1.2M/wk | konva | Image & Creative Automation |
+| 50 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
 
 ---
 

@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 84.7k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.7k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 84.8k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 84.8k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
@@ -29,10 +29,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 206k/wk |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 34.2M/wk |
+| [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | ⬇ 9.3M/wk |
 | [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | ⬇ 2.5M/wk |
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | ⬇ 2.5M/wk |
-| [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](../../skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | ⬇ 56.9k/wk |
 
 ---
 
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 84.7k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.7k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 84.8k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 84.8k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 73.6k | — |
@@ -91,7 +91,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 15.3k | — |
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | 15.1k | — |
-| [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | 14.7k | — |
+| [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | 14.7k | 291.1M/wk |
 | [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | 14.5k | — |
 | [Unstructured Document ETL for LLM Pipelines](../../skills/unstructured-document-etl-for-llm-pipelines/) | 14.4k | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | 14.4k | — |
@@ -186,7 +186,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 82 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 83 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |

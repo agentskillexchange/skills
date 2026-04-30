@@ -25,7 +25,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 |---|---:|
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⬇ 2.5M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 153.7k/wk |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 164.6k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⬇ 149.2k/wk |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⬇ 149.2k/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | ⬇ 149.2k/wk |
@@ -49,7 +49,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.8k | 153.7k/wk |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.8k | 164.6k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | 28.8k | 149.2k/wk |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.8k | 149.2k/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.8k | 149.2k/wk |
@@ -68,11 +68,11 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
-| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 35.2M/wk |
+| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 35.5M/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
-| [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | — |
+| [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | 291.1M/wk |
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
 | [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | 11.8k | — |
@@ -85,7 +85,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 806k/wk |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 805.8k/wk |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | — |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
@@ -108,7 +108,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | 1.2k | — |
 | [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | 1.1k | — |
 | [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | 517 | 164k/wk |
-| [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | 493 | — |
+| [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | 493 | 1.5M/wk |
 | [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
