@@ -9,9 +9,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
-  github_stars: 801
+  github_stars: 802
   npm_package: "dd-trace"
-  npm_weekly_downloads: 6960747
+  npm_weekly_downloads: 7060745
 ---
 
 # Datadog MCP Server

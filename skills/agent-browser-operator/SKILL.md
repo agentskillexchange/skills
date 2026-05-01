@@ -10,7 +10,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
-  github_stars: 87678
+  github_stars: 87740
 ---
 
 # Agent Browser Operator

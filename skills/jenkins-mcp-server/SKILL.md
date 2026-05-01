@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
-  github_stars: 25239
+  github_stars: 25240
 ---
 
 # Jenkins MCP Server

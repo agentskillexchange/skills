@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/abilities-api"
-  github_stars: 203
+  github_stars: 204
 ---
 
 # WP Abilities API
