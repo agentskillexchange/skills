@@ -3,6 +3,8 @@ title: "Build n8n workflows from node docs, templates, and schemas through MCP"
 description: "Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while designing or debugging workflows, instead of guessing from raw docs or clicking through the n8n UI by hand."
 verification: "listed"
 source: "https://github.com/czlonkowski/n8n-mcp"
+author: "czlonkowski"
+publisher_type: "individual"
 category:
   - "Integrations & Connectors"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Build n8n workflows from node docs, templates, and schemas through MCP
 
-Use n8n-MCP when the missing step is reliable workflow authoring context for n8n. It exposes n8n node documentation, property schemas, operations, AI-capable tool variants, and template examples through an MCP server so an agent can search capabilities, choose the right node shape, and draft or troubleshoot workflow changes with fewer hallucinated configurations. The scope boundary is specific enough to be skill-shaped: this is an MCP bridge for n8n workflow design and node selection, not a generic listing for the n8n platform and not just another MCP product card.
+Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while designing or debugging workflows, instead of guessing from raw docs or clicking through the n8n UI by hand.
+
+## Prerequisites
+
+n8n-MCP, an MCP-compatible client such as Claude Code, Cursor, Codex, or Windsurf, and optionally an n8n instance for validating generated workflows
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp
+```
+Run n8n-MCP with the upstream npx or Docker self-hosting path, configure the required API key or local settings, then add the server to your MCP client so the agent can query n8n nodes, templates, and workflow guidance before editing flows.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/czlonkowski/n8n-mcp#readme
 
 ## Source
 

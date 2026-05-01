@@ -3,6 +3,8 @@ title: "Validate JSON data and config files against schemas with ajv-cli"
 description: "Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling."
 verification: "listed"
 source: "https://github.com/ajv-validator/ajv-cli"
+author: "ajv-validator maintainers"
+publisher_type: "organization"
 category:
   - "Library & API Reference"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Validate JSON data and config files against schemas with ajv-cli
 
-Use ajv-cli when an agent needs a command-line validation step that checks JSON, JSON5, or YAML inputs against explicit schemas and returns a machine-usable pass/fail result. Invoke this instead of using a broader application platform when the task is narrowly about schema validation, schema compilation, or schema migration in automation. The scope boundary is specific enough to be skill-shaped: validate concrete data and config artifacts against declared schemas in scripts or CI, not serve as a generic library, framework, or product listing.
+Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling.
+
+## Prerequisites
+
+Node.js, ajv-cli, one or more JSON Schema or JTD files, and target JSON, JSON5, or YAML data files
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli
+```
+Install ajv-cli with npm or invoke it with npx, supply the schema and data paths with the documented validate, compile, migrate, or test commands, and use the exit code in scripts or CI gates.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/ajv-validator/ajv-cli
 
 ## Source
 

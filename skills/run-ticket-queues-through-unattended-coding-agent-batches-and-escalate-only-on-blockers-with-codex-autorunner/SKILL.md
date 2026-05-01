@@ -3,6 +3,8 @@ title: "Run ticket queues through unattended coding-agent batches and escalate o
 description: "Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really needs you."
 verification: "listed"
 source: "https://github.com/Git-on-my-level/codex-autorunner"
+author: "Git-on-my-level"
+publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner
 
-Use Codex Autorunner when the job is to run a queued implementation plan through multiple coding-agent tickets without constant supervision, not when a user simply wants an interactive coding chat. The operator workflow is narrow and concrete: convert planned work into CAR ticket files, let the state machine dispatch them to supported agents, and surface interruptions only for blockers, reviews, or human decisions. That scope boundary, ticket-driven unattended agent orchestration with escalation, keeps this skill distinct from a general coding agent, IDE, or terminal session manager listing.
+Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really needs you.
+
+## Prerequisites
+
+Python environment, CAR repository or install path, a Git-backed project workspace, markdown ticket files, and at least one supported coding-agent runtime such as Codex or OpenCode
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner
+```
+Clone or install Codex Autorunner, follow the setup guide to configure a supported agent runtime and project workspace, create CAR-compatible markdown tickets, then start the autorunner or web UI flow described upstream.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/Git-on-my-level/codex-autorunner
 
 ## Source
 

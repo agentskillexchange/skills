@@ -3,6 +3,8 @@ title: "Validate CloudFormation templates before deploy with cfn-lint"
 description: "Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment."
 verification: "listed"
 source: "https://github.com/aws-cloudformation/cfn-lint"
+author: "AWS CloudFormation"
+publisher_type: "organization"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Validate CloudFormation templates before deploy with cfn-lint
 
-Use cfn-lint when an agent needs to review or gate AWS CloudFormation changes before deployment. It can validate template structure, catch invalid properties, check region-specific resource rules, and surface intrinsic-function mistakes before they become failed stack operations. The scope is tightly bounded to pre-deploy CloudFormation validation, which keeps this from collapsing into a general AWS product listing.
+Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment.
+
+## Prerequisites
+
+Python or cfn-lint binary, CloudFormation templates
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-cloudformation-templates-before-deploy-with-cfn-lint
+```
+Install with `pip install cfn-lint` or use the project binaries, then run `cfn-lint` on the template files before review, CI, or deployment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/validate-cloudformation-templates-before-deploy-with-cfn-lint`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/aws-cloudformation/cfn-lint
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Frontend Design Guidance Skill"
 description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
 verification: "security_reviewed"
 source: "https://www.superdesign.dev/"
+author: "SuperDesign"
+publisher_type: "company"
 category:
   - "Developer Tools"
 framework:
@@ -11,44 +13,31 @@ framework:
 
 # Frontend Design Guidance Skill
 
-Frontend Design Guidance Skill helps teams plan and refine interface work with more structure before implementation starts. It is aimed at builders working on dashboards, landing pages, and product UI who want practical direction on layout, hierarchy, spacing, typography, and implementation-ready design choices.
+Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
 
-Best for
+## Prerequisites
 
-- planning UI layouts and page structure before coding
-
-- reviewing design direction for dashboards and landing pages
-
-- adding stronger frontend implementation guidance to build workflows
-
-Install notes
-Install the skill in an OpenClaw workspace and use it during frontend planning or review. It works best when paired with an existing project or prototype context where design suggestions can be applied directly.
-
-Source: SuperDesign-inspired frontend guidance skill.
+OpenClaw, optional frontend stack such as Tailwind CSS
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/frontend-design-guidance-skill/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/frontend-design-guidance-skill
+```
+Install the frontend-design skill into your OpenClaw workspace, then use it while planning, reviewing, or implementing dashboards, landing pages, and other interface work.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/frontend-design-guidance-skill`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://superdesign.dev
 
 ## Source
 

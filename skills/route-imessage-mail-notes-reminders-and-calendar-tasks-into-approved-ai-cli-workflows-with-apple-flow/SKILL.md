@@ -3,6 +3,8 @@ title: "Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved
 description: "Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries."
 verification: "listed"
 source: "https://github.com/dkyazzentwatwa/apple-flow"
+author: "dkyazzentwatwa"
+publisher_type: "individual"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow
 
-Use Apple Flow when an agent should receive work through Apple apps you already use, then execute it through an approved AI CLI under local safety controls. This is for inbox-driven automation, task intake, and Apple-native routing across iMessage, Mail, Notes, Reminders, and Calendar, not for using a chat app or CLI directly in the normal way. The scope boundary is clear: Apple Flow is an Apple-app gateway with allowlists, approval gates, and workspace restrictions, so the publishable skill is gated Apple-native task routing rather than a generic AI assistant or generic automation daemon.
+Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries.
+
+## Prerequisites
+
+macOS, Apple apps access, one supported AI CLI such as Codex, Claude, Gemini, Cline, or Kilo, Python 3.11, Node.js
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow
+```
+Clone the repository, install the documented Python and Node prerequisites on macOS, run the setup flow or autostart script, configure the allowed senders and workspace boundaries in .env, then connect one supported AI CLI and start the local service.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/dkyazzentwatwa/apple-flow#readme
 
 ## Source
 

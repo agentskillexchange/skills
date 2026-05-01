@@ -3,6 +3,8 @@ title: "Resolve syntax-aware Git merge conflicts before escalating to manual sur
 description: "Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits."
 verification: "listed"
 source: "https://codeberg.org/mergiraf/mergiraf"
+author: "Mergiraf maintainers"
+publisher_type: "open_source_project"
 category:
   - "Code Quality & Review"
 framework:
@@ -11,31 +13,31 @@ framework:
 
 # Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf
 
-Use Mergiraf when an agent needs to resolve Git merge conflicts with syntax-aware file understanding and then review what was auto-mediated before a human steps in. Invoke this instead of plain Git conflict handling when the job is conflict resolution and conflict reduction across supported languages, not ordinary version-control operations. The scope boundary is specific and skill-shaped: Mergiraf is a structured merge-conflict mediation workflow, not a generic Git client, hosting platform, or broad developer-tools listing.
+Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits.
+
+## Prerequisites
+
+Mergiraf, Git
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf
+```
+Follow the installation page at mergiraf.org, then configure Git to use Mergiraf as the merge driver or invoke it manually after a conflict appears.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://mergiraf.org/
 
 ## Source
 

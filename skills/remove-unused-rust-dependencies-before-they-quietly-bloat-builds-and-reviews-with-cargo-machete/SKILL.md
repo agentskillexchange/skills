@@ -3,6 +3,8 @@ title: "Remove unused Rust dependencies before they quietly bloat builds and rev
 description: "Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build time, review noise, and manifest drift."
 verification: "security_reviewed"
 source: "https://github.com/bnjbvr/cargo-machete"
+author: "bnjbvr"
+publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,35 +18,31 @@ tool_ecosystem:
 
 # Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete
 
-Tool: cargo-machete. This skill gives an agent a narrow maintenance job: inspect a Rust project for dependencies that are declared but no longer used, then produce a cleanup candidate list for safe manifest pruning.
+Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build time, review noise, and manifest drift.
 
-When to use it: invoke this before release, dependency refreshes, or cleanup passes when a Rust repository may have accumulated stale crates over time. Using this skill is different from using the product normally because the workflow is targeted: scan for unused dependencies, verify the findings, and hand back a minimal cleanup patch instead of generic package-management advice.
+## Prerequisites
 
-Scope boundary: this is not a generic Cargo listing and not a broad dependency-management platform card. Its boundary is specific: detect unused Rust dependencies so the repository can be slimmed down with cargo-machete.
+Rust toolchain, Cargo project, and shell access for dependency scans and cleanup edits.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete
+```
+Install cargo-machete with the Rust toolchain using the method documented by the project, run it against the target Cargo project, review the unused-dependency findings, and then remove confirmed dead entries from the manifest before re-running tests.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/bnjbvr/cargo-machete#readme
 
 ## Source
 

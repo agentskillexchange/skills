@@ -3,6 +3,8 @@ title: "Cockpit CMS Headless Content Platform with REST and GraphQL APIs"
 description: "Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs, and self-hosted deployment without a heavy stack. It supports websites, apps, and multi-language content workflows with either SQLite or MongoDB backends."
 verification: "security_reviewed"
 source: "https://github.com/Cockpit-HQ/Cockpit"
+author: "Cockpit-HQ"
+publisher_type: "Open Source Project"
 category:
   - "WordPress & CMS"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Cockpit CMS Headless Content Platform with REST and GraphQL APIs
 
-Cockpit CMS is a self-hosted headless content platform maintained by Cockpit-HQ. The project focuses on a practical setup for structured content, API delivery, and lightweight administration rather than an all-in-one page-builder model. That makes it appealing when a team wants a content backend for a custom frontend, mobile app, dashboard, or multi-channel publishing workflow.
+Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs, and self-hosted deployment without a heavy stack. It supports websites, apps, and multi-language content workflows with either SQLite or MongoDB backends.
 
-The upstream README positions Cockpit around collections, singletons, trees, REST APIs, GraphQL support, multilingual content, and deploy-anywhere ownership of data. It also offers a small-footprint operational model, with SQLite or MongoDB storage and Docker-based setup options. For agents and developers, that translates into a clear job-to-be-done: define content models, expose them through APIs, and let separate clients consume the result. It is especially useful for projects that need a headless CMS without committing to a larger enterprise framework.
+## Prerequisites
 
-This candidate passes intake because the official GitHub repository is live, the project has published documentation at getcockpit.com, and the repo shows recent maintenance activity with hundreds of stars. The official quick-start includes a Docker run command for local deployment, which is a concrete integration point for operators. For ASE, Cockpit is a real upstream tool with a distinct CMS use case, strong enough evidence, and no exact existing title match in the current catalog.
+PHP 8.3+, SQLite or MongoDB, Apache or Nginx, Docker optional
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/cockpit-cms-headless-content-platform-rest-graphql-apis/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cockpit-cms-headless-content-platform-rest-graphql-apis
+```
+docker run -d --name cockpit -p 8080:80 -v cockpit_storage:/var/www/html/storage cockpithq/cockpit:core-latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/cockpit-cms-headless-content-platform-rest-graphql-apis`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://getcockpit.com/documentation
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Run deterministic SQL and dbt analysis under coding agents with Altimate
 description: "Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows underneath Claude Code, Codex, or terminal-driven agent sessions."
 verification: "security_reviewed"
 source: "https://github.com/AltimateAI/altimate-code"
+author: "Altimate AI"
+publisher_type: "Organization"
 category:
   - "Developer Tools"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Run deterministic SQL and dbt analysis under coding agents with Altimate Code
 
-Use Altimate Code when a coding agent needs real data-engineering context instead of generic code-editing help: SQL anti-pattern detection, dbt project analysis, lineage extraction, SQL translation, warehouse cost checks, and test generation. The upstream project explicitly positions itself as a terminal harness that can run standalone or underneath Claude Code and Codex.
+Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows underneath Claude Code, Codex, or terminal-driven agent sessions.
 
-This is skill-shaped because the workflow is bounded to deterministic SQL and dbt operations for agent-assisted data engineering. It is not just a generic AI IDE, warehouse product, or broad data platform listing. Invoke it when the user wants an agent to inspect and act on dbt and warehouse context through Altimate’s purpose-built tool layer rather than treating data work like ordinary source-code editing.
+## Prerequisites
+
+altimate-code CLI, an LLM provider key or local model, and optional dbt project or warehouse credentials for the deterministic data-engineering workflows
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code
+```
+Install with npm install -g altimate-code, launch altimate, configure the LLM provider, and optionally run /discover to index the local dbt project, warehouse connections, and related tools before invoking the SQL and dbt workflows.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://altimate.sh
 
 ## Source
 

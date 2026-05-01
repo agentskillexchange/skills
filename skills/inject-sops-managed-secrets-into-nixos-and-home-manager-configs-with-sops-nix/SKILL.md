@@ -3,6 +3,8 @@ title: "Inject SOPS-managed secrets into NixOS and Home Manager configs with sop
 description: "Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values."
 verification: "listed"
 source: "https://github.com/Mic92/sops-nix"
+author: "Mic92"
+publisher_type: "individual"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix
 
-Use sops-nix when an agent needs to wire encrypted SOPS secrets into NixOS or Home Manager configurations so they are decrypted and materialized at activation time. A user should invoke this instead of using SOPS by itself when the job is declarative Nix secret integration and deployment, not generic secret file editing or encryption. The scope boundary is clear and skill-shaped: NixOS and Home Manager secret injection from SOPS-managed inputs, not a general secret management product card.
+Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values.
+
+## Prerequisites
+
+NixOS or Home Manager configuration, sops-nix module, SOPS-encrypted secret files, age or PGP keys, Nix build and activation access
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix
+```
+Add sops-nix to the target NixOS or Home Manager configuration per the upstream module instructions, configure SOPS and the decryption keys, then define the secrets to materialize during activation or user environment setup.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/Mic92/sops-nix#readme
 
 ## Source
 

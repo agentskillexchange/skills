@@ -14,37 +14,17 @@ tool_ecosystem:
 
 # librosa Python Audio and Music Analysis Library
 
-librosa is an open-source Python library developed by Brian McFee and the librosa development team for analyzing and extracting features from audio signals. It is the standard Python library for music information retrieval (MIR) and audio analysis, widely used in academic research, machine learning pipelines, and production audio systems.
-
-The library provides a comprehensive set of audio analysis tools organized into several modules. The core module handles audio loading and resampling from any format via soundfile/audioread. The feature module extracts spectral features including MFCCs (Mel-frequency cepstral coefficients), chroma features, spectral contrast, tonnetz, and mel spectrograms. The beat module performs tempo estimation and beat tracking. The onset module detects note onsets and transients. The effects module provides time-stretching, pitch-shifting, and harmonic-percussive source separation.
-
-librosa also includes tools for audio visualization via its display module, which generates waveform plots, spectrograms, chromagrams, and other visual representations using matplotlib. The decompose module provides non-negative matrix factorization and other decomposition methods for audio analysis. The segment module handles structural analysis and self-similarity computation.
-
-Installed via pip install librosa, the library requires NumPy, SciPy, scikit-learn, and soundfile as dependencies. Documentation is available at librosa.org/doc/latest/ with extensive examples and tutorials. With 8,200+ GitHub stars, 1,000+ forks, and ISC license, librosa is a mature and actively maintained project. AI agents can use librosa for audio classification tasks, music genre detection, audio fingerprinting, speech analysis, podcast content analysis, audio quality assessment, and building training data pipelines for audio machine learning models.
+librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio visualization, built on top of NumPy and SciPy for scientific audio computing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/librosa-python-audio-music-analysis-library/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/librosa-python-audio-music-analysis-library
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/librosa-python-audio-music-analysis-library`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

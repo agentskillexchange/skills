@@ -3,6 +3,8 @@ title: "Lint .env files for duplicated keys and unsafe formatting with dotenv-li
 description: "Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs."
 verification: "listed"
 source: "https://github.com/dotenv-linter/dotenv-linter"
+author: "dotenv-linter"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Lint .env files for duplicated keys and unsafe formatting with dotenv-linter
 
-Use dotenv-linter when an agent needs to inspect .env files for duplicated keys, malformed delimiters, missing values, quote problems, ordering issues, and other dotenv-specific defects that cause configuration drift. It fits repo hygiene, onboarding cleanup, and pre-merge checks where environment files need to stay predictable.
+Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs.
 
-A user should invoke this instead of using a secret manager or editing environment files by hand when the task is validating and normalizing dotenv syntax. The scope boundary keeps it skill-shaped: dotenv-linter audits and fixes dotenv file structure only, not secret storage, rotation, vault administration, or broader configuration management.
+## Prerequisites
+
+The dotenv-linter CLI or binary and a repository containing dotenv files to check.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter
+```
+<p>Install a release binary or build with <code>cargo install dotenv-linter</code>, then run <code>dotenv-linter</code> against the repository root or specific <code>.env</code> files. Use the documented check, fix, and diff flows to review problems before committing changes.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://dotenv-linter.readthedocs.io/
 
 ## Source
 

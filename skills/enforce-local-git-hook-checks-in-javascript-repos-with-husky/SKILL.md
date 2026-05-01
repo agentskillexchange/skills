@@ -3,6 +3,8 @@ title: "Enforce local Git hook checks in JavaScript repos with Husky"
 description: "Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same local guardrails before changes leave the workstation."
 verification: "listed"
 source: "https://github.com/typicode/husky"
+author: "typicode"
+publisher_type: "open_source"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Enforce local Git hook checks in JavaScript repos with Husky
 
-This skill sets up and maintains Husky-based Git hooks for a JavaScript or TypeScript repository. Invoke it when you want an agent to install or update local repo guardrails such as pre-commit linting, test gates, formatting, or commit message validation, rather than manually editing hook scripts by hand. The scope stays skill-shaped because the agent is performing one bounded workflow: attach concrete local checks to Git lifecycle events for a specific repository, not merely describing Husky as a package.
+Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same local guardrails before changes leave the workstation.
+
+## Prerequisites
+
+Git, Node.js, npm or pnpm or yarn
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky
+```
+Install the package in the target repo, enable Husky, then add hook scripts such as pre-commit or commit-msg for the required local checks.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://typicode.github.io/husky/
 
 ## Source
 

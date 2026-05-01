@@ -14,35 +14,17 @@ tool_ecosystem:
 
 # MailDev SMTP Testing Server and Web Interface for Development Email Workflows
 
-MailDev is an open source SMTP testing server designed for development environments where teams need to inspect generated email safely before anything reaches a real inbox. Instead of pointing an application at a live SMTP provider while building password resets, invitations, order confirmations, or system alerts, developers can point it at MailDev and review the captured messages in a local web interface. That makes it a practical fit for agents, internal tools, or CI setups that need repeatable email verification.
-
-The project combines several jobs-to-be-done in one package: capture outgoing mail on a local SMTP port, display the rendered HTML and plain-text bodies in a browser, expose message data through an API, and optionally relay selected messages upstream when needed. The README also documents Docker usage, attachment viewing, resizable previews for responsive testing, and command-line configuration for SMTP and web interface ports. Because it runs on Node.js and keeps the setup lightweight, it is easy to drop into app development workflows.
-
-MailDev integrates well with common application stacks because it behaves like a normal SMTP target. The upstream docs include examples for Node.js applications and reference configurations for frameworks such as Django, Rails, Drupal, and Spring Boot. For teams building agent-driven QA or development assistants, MailDev is especially useful as a safe mail sink that lets an automated workflow validate subject lines, body content, links, and headers without touching production delivery infrastructure.
+MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

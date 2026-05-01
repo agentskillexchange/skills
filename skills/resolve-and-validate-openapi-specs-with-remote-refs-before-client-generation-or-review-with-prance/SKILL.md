@@ -3,6 +3,8 @@ title: "Resolve and validate OpenAPI specs with remote refs before client genera
 description: "Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract review."
 verification: "listed"
 source: "https://github.com/RonnyPfannschmidt/prance"
+author: "Ronny Pfannschmidt"
+publisher_type: "individual"
 category:
   - "Library & API Reference"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance
 
-Use Prance when an agent is blocked on an OpenAPI file that needs validation plus reference resolution before downstream work can continue. The operator job is specific: validate a spec, resolve local or remote refs, and compile a fully resolved output for code generation, documentation, or review.
+Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract review.
 
-Invoke it instead of treating Prance as a generic Python library when the real task is preflighting an API definition that would otherwise break schema review or client generation. The scope boundary is document preparation for OpenAPI specs, not broad API platform work.
+## Prerequisites
+
+Python, pip, OpenAPI or Swagger spec file or URL
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance
+```
+Install from PyPI with `pip install prance[osv,icu,cli]` for the CLI workflow, then use `prance validate` and `prance compile` on local files or remote spec URLs.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/RonnyPfannschmidt/prance
 
 ## Source
 

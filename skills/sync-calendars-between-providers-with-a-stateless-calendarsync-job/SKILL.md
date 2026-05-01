@@ -3,6 +3,8 @@ title: "Sync calendars between providers with a stateless CalendarSync job"
 description: "Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service."
 verification: "listed"
 source: "https://github.com/inovex/CalendarSync"
+author: "inovex"
+publisher_type: "organization"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Sync calendars between providers with a stateless CalendarSync job
 
-Use CalendarSync when you need an agent to mirror or migrate events between calendar systems as a discrete job with a clear done state. The boundary is narrow: source-to-sink event synchronization with filters and transformations, not a general calendar product or hosted scheduling platform.
+Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service.
+
+## Prerequisites
+
+CalendarSync binary, calendar provider credentials, sync.yaml config
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job
+```
+Install CalendarSync from GitHub releases or the documented asdf plugin, create a `sync.yaml` from the example config, set `CALENDARSYNC_ENCRYPTION_KEY`, then run `calendarsync --config sync.yaml`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/inovex/CalendarSync
 
 ## Source
 

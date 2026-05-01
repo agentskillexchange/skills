@@ -3,6 +3,8 @@ title: "Collect Unix-like incident-response artifacts into one portable evidence
 description: "Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host."
 verification: "listed"
 source: "https://github.com/tclahr/uac"
+author: "tclahr"
+publisher_type: "individual"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC
 
-Use UAC when an agent or responder needs to collect a broad incident-response artifact set from a Unix-like host for later forensic review, not when the user is simply administering the system normally. The workflow is explicit: choose or tune a collection profile, gather volatile and persistent artifacts, and hand off one portable bundle for downstream analysis. That scope boundary, evidence collection and preservation for incident response, keeps this skill-shaped instead of reading like a generic security tool listing.
+Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host.
+
+## Prerequisites
+
+Shell access to the target Unix-like host, UAC runtime, sufficient privileges for artifact collection, storage location for the output bundle
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac
+```
+Install UAC from the upstream repository or release assets, review the available artifact profiles and collection modules, then run the documented collector against the target host and preserve the generated bundle for analysis.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/tclahr/uac
 
 ## Source
 

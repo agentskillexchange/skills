@@ -3,6 +3,8 @@ title: "Start governed Claude Code sessions with short-lived service credentials
 description: "Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets."
 verification: "listed"
 source: "https://github.com/kontext-security/kontext-cli"
+author: "kontext-security"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Start governed Claude Code sessions with short-lived service credentials using Kontext CLI
 
-Use Kontext CLI when you need Claude Code to call systems like GitHub, Stripe, or internal services without handing the agent long-lived keys in plain env files. Invoke it instead of using the product normally when the job is starting a governed agent session with scoped credentials, hosted provider connection, and traceable tool activity, not generic secret storage or identity management. The boundary is the session-start credential brokering workflow for Claude Code, which is narrower than a general security platform or SDK listing.
+Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets.
+
+## Prerequisites
+
+Claude Code, supported service accounts, browser login for first-run auth
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli
+```
+Install with `brew install kontext-security/tap/kontext`, then run `kontext start --agent claude` from your project to authenticate, connect providers, inject short-lived credentials, and launch Claude Code.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/kontext-security/kontext-cli
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Translate and validate SQL across dialects with SQLGlot"
 description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL."
 verification: "listed"
 source: "https://github.com/tobymao/sqlglot"
+author: "tobymao"
+publisher_type: "individual"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Translate and validate SQL across dialects with SQLGlot
 
-SQLGlot gives an agent a narrow, useful job: parse SQL, translate it across dialects, and catch syntax or semantic mismatches before a migration, review, or generated-query workflow ships bad SQL. Invoke it when the real task is cross-dialect validation or safe SQL rewriting, not when you just want a database engine to run the query. The boundary is specific and publishable: this is a SQL translation and validation workflow for agents, not a generic parser library card or a broad database platform listing.
+Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL.
+
+## Prerequisites
+
+Python 3.8+, SQLGlot, and any agent or script that needs SQL parsing, transpilation, or validation.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/translate-and-validate-sql-across-dialects-with-sqlglot/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/translate-and-validate-sql-across-dialects-with-sqlglot
+```
+Install with `pip install sqlglot`, then use its parser and transpiler APIs or CLI inside migration, linting, or generated-SQL review workflows.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/translate-and-validate-sql-across-dialects-with-sqlglot`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://sqlglot.com/sqlglot.html
 
 ## Source
 

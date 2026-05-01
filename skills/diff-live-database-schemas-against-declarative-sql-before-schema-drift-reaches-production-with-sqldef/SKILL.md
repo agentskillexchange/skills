@@ -3,6 +3,8 @@ title: "Diff live database schemas against declarative SQL before schema drift r
 description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases."
 verification: "listed"
 source: "https://github.com/sqldef/sqldef"
+author: "sqldef"
+publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Diff live database schemas against declarative SQL before schema drift reaches production with sqldef
 
-Use sqldef when an agent needs to reconcile a live database with declarative SQL files, review the generated diff, and apply schema changes in a controlled way. Invoke it instead of doing manual DDL or ad hoc database admin work when the real job is drift detection and schema alignment from checked-in SQL. The scope boundary is narrow and skill-shaped: schema diff and apply for supported relational databases, not general querying, ORM migration authoring, or a generic database product listing.
+Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases.
+
+## Prerequisites
+
+Go-built sqldef binary and access to a supported relational database
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef
+```
+Install the sqldef binary for your platform from the project releases or package manager, prepare declarative SQL files for the target database, then run the matching tool such as `psqldef`, `mysqldef`, or `sqlite3def` against a live database to review and apply the diff.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/sqldef/sqldef
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Search large codebases and structured document trees without embeddings 
 description: "Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl."
 verification: "listed"
 source: "https://github.com/shibing624/TreeSearch"
+author: "shibing624"
+publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch
 
-Use TreeSearch when an agent needs fast structure-aware retrieval over code and documents before escalating to embeddings or a larger knowledge system. The workflow is narrow: index a repository or document tree, preserve structural context, and run exact or regex-style queries over the resulting search index. That boundary—local retrieval over structured corpora for answer finding and exploration—makes this a usable operator skill instead of just a library listing.
+Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl.
+
+## Prerequisites
+
+TreeSearch Python package or Rust CLI, local codebase or document corpus, and optional SQLite-backed index storage
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch
+```
+Install TreeSearch from the Python package or Rust/Homebrew path documented upstream, point it at the target folders or files, then index and query the corpus with the CLI or Python API.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/shibing624/TreeSearch
 
 ## Source
 

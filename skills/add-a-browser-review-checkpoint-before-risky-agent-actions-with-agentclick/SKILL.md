@@ -3,6 +3,8 @@ title: "Add a browser review checkpoint before risky agent actions with AgentCli
 description: "Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject them in a purpose-built browser UI."
 verification: "listed"
 source: "https://github.com/agentlayer-io/AgentClick"
+author: "agentlayer-io"
+publisher_type: "organization"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Add a browser review checkpoint before risky agent actions with AgentClick
 
-Use AgentClick when an autonomous agent needs a human-in-the-loop review step before execution. The agent can open a local browser UI for command approval, plan review, code diff review, email or draft editing, trajectory inspection, selection capture, and memory review, then continue with the human’s edits or decision. The boundary is narrow and publishable: this is a browser review layer for agent actions, not a generic web app listing and not a broad agent platform card. Invoke it when terminal-only approval is too thin and a richer review checkpoint is the actual missing workflow.
+Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject them in a purpose-built browser UI.
+
+## Prerequisites
+
+AgentClick, browser access, npm, compatible local agent that can invoke tools and follow skill instructions
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick
+```
+Install with `npm install -g @harvenstar/agentclick`, run `agentclick`, open the local UI in a browser, and instruct your compatible agent to use AgentClick whenever a richer review step is needed before execution.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/agentlayer-io/AgentClick
 
 ## Source
 

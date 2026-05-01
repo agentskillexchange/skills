@@ -3,6 +3,8 @@ title: "Stress-test JavaScript and TypeScript test suites with mutation testing 
 description: "Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced."
 verification: "listed"
 source: "https://github.com/stryker-mutator/stryker-js"
+author: "Stryker Mutator"
+publisher_type: "organization"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS
 
-Use StrykerJS when an agent needs to measure whether a JavaScript or TypeScript test suite actually catches meaningful code changes, especially before merges, refactors, or releases. This is distinct from using the project normally because the job is specifically mutation-testing and reporting weak assertions, surviving mutants, and test effectiveness gaps. The scope boundary is clear: it is a mutation-testing quality gate, not a general test runner, framework, or CI platform listing.
+Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced.
+
+## Prerequisites
+
+Node.js, npm, a supported JavaScript or TypeScript test runner
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs
+```
+Install the core package with `npm install --save-dev @stryker-mutator/core`, run the Stryker initializer or config flow for your test runner, then execute Stryker as a pre-merge or pre-release mutation test step.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://stryker-mutator.io/
 
 ## Source
 

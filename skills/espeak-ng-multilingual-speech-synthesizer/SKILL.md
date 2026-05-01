@@ -14,49 +14,17 @@ tool_ecosystem:
 
 # eSpeak NG Multilingual Speech Synthesizer
 
-eSpeak NG (Next Generation) is an open-source compact speech synthesizer that supports over 100 languages and accents. Forked from the original eSpeak project, it is actively maintained with over 6,200 GitHub stars and serves as the pronunciation engine behind many accessibility tools, language learning applications, and other TTS systems including Piper.
-
-Formant Synthesis Approach
-Unlike neural TTS models that require GPU acceleration and large model files, eSpeak NG uses formant synthesis — a rule-based approach that generates speech by combining fundamental frequency patterns, formant transitions, and noise components. This makes it extremely fast and lightweight: the entire engine runs on minimal hardware including Raspberry Pi, embedded systems, and low-power devices without any GPU requirement.
-
-Language Coverage
-eSpeak NG provides pronunciation rules for over 100 languages, making it one of the most linguistically diverse TTS engines available. Languages span European (English, German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Norwegian, Polish, Czech, Romanian, and more), Asian (Hindi, Tamil, Mandarin, Cantonese, Korean, Vietnamese, Thai), Middle Eastern (Arabic, Persian, Hebrew, Turkish), African (Swahili, Amharic), and constructed languages (Esperanto, Lojban).
-
-CLI Usage
-The espeak-ng command synthesizes text directly: espeak-ng "Hello world" plays audio, espeak-ng -w output.wav "Hello world" writes to file, and espeak-ng -v de "Hallo Welt" selects German. Flags control speed (-s), pitch (-p), amplitude (-a), and word gap (-g). SSML input is supported with -m for fine-grained prosody control.
-
-Phoneme Output and IPA
-A unique capability is phoneme transcription: espeak-ng --ipa "hello" outputs the International Phonetic Alphabet representation of any text in any supported language. This makes eSpeak NG valuable beyond speech synthesis — it serves as a pronunciation dictionary and phoneme converter for language processing pipelines.
-
-MBROLA Voice Integration
-For improved naturalness, eSpeak NG can drive MBROLA diphone voices. MBROLA provides smoother, more natural-sounding output using recorded diphone segments while eSpeak NG handles text analysis, phoneme conversion, and prosody generation. Over 70 MBROLA voices are available across multiple languages.
-
-Installation and Integration
-Available via system package managers (apt install espeak-ng, brew install espeak-ng), as a C library (libespeak-ng), and with Python bindings. The SAPI5 interface on Windows enables use with screen readers. Licensed under GPL-3.0 with active development and regular releases on GitHub.
+An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via CLI and library API, with phoneme output, SSML support, and MBROLA voice integration for improved naturalness.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/espeak-ng-multilingual-speech-synthesizer/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/espeak-ng-multilingual-speech-synthesizer
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/espeak-ng-multilingual-speech-synthesizer`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -14,45 +14,17 @@ tool_ecosystem:
 
 # Gitoxide Pure Rust Git Implementation and Library
 
-Gitoxide is a ground-up reimplementation of Git in pure Rust, designed for building future-proof applications that need programmatic Git access. With over 11,000 GitHub stars and active development, it serves as both a high-performance Rust library and a set of command-line tools.
-
-How It Works
-The project is organized as a collection of Rust crates under the gix namespace. The main entry point is the gix crate, which provides high-level APIs for clone, fetch, push, status, diff, merge, commit, rebase, reset, and blame operations. Lower-level plumbing crates like gix-config, gix-ref, gix-object, and gix-pack handle specific Git internals, allowing fine-grained control when needed.
-
-Two CLI binaries are provided: gix for low-level plumbing operations useful in automation and testing, and ein for higher-level workflow-enhancing tools. These serve primarily as development aids for testing the library API against real repositories.
-
-Key Capabilities
-Gitoxide supports clone, fetch, and push operations with full protocol support. The status implementation handles working directory state, index comparisons, and untracked file detection. Blob and tree diffs, merge operations for blobs, trees, and commits, and commit-graph traversal are all implemented. Worktree checkout and streaming, pathspecs, revspecs, .gitignore, and .gitattributes handling round out the feature set.
-
-Integration Points
-As a Cargo dependency, any Rust application can use gix for Git operations without shelling out to the git binary or depending on libgit2. The Jujutsu version control system and GitButler virtual branch client both use gitoxide as their Git backend. The library follows semver and a documented stability guide with tiered crate maturity levels. Installation is via cargo install gitoxide or through system package managers.
-
-Output
-Library functions return typed Rust structs representing Git objects, references, diffs, and operation results. The CLI tools output text-based representations of repository state, commit logs, and operation outcomes suitable for terminal display and scripting.
+A complete, idiomatic Git implementation written in pure Rust, providing both a library (gix crate) for building Git-powered applications and CLI tools for repository operations. Prioritizes correctness, performance, and memory safety.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/gitoxide-pure-rust-git-implementation/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gitoxide-pure-rust-git-implementation
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/gitoxide-pure-rust-git-implementation`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

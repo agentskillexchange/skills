@@ -3,6 +3,8 @@ title: "Capture, search, and optionally sync local coding-agent session history 
 description: "Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share those sessions."
 verification: "security_reviewed"
 source: "https://github.com/specstoryai/getspecstory"
+author: "SpecStory AI"
+publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory
 
-SpecStory wraps supported coding agents so their sessions are automatically saved to local project history, then makes that history searchable and processable for summaries, stats, and later retrieval. It can also optionally sync those saved sessions to the vendor cloud, but the local capture workflow stands on its own.
+Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one cross-agent workflow to auto-save, search, summarize, and optionally share those sessions.
 
-Invoke this instead of using Claude Code, Codex, Cursor CLI, or Gemini alone when you need durable project-level memory of what those agents already tried, decided, and fixed. The boundary is clear: this is not another general coding assistant, IDE, or agent platform. It is a session-history capture and retrieval workflow layered on top of existing coding agents.
+## Prerequisites
+
+A supported coding agent such as Claude Code, Codex CLI, Cursor CLI, Droid CLI, or Gemini CLI, plus the SpecStory CLI or supported editor extension.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory
+```
+Install the open SpecStory CLI with `brew tap specstoryai/tap && brew install specstory`, run `specstory check`, then launch a supported agent with `specstory run <agent>` so sessions are auto-saved to `.specstory/history/`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://specstory.com/
 
 ## Source
 

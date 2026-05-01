@@ -3,6 +3,8 @@ title: "Work with AFFiNE workspaces, documents, and databases from MCP-compatibl
 description: "Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and comments inside an MCP workflow instead of sending a user back to the AFFiNE UI."
 verification: "security_reviewed"
 source: "https://github.com/DAWNCR0W/affine-mcp-server"
+author: "DAWNCR0W"
+publisher_type: "individual"
 category:
   - "Integrations & Connectors"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents
 
-affine-mcp-server gives an MCP-compatible agent a bounded AFFiNE workspace workflow. It can read and update server-backed workspaces, search and edit documents, inspect or fill databases, work with comments, and automate repeatable knowledge-base operations from an agent session instead of making a human click through the AFFiNE app.
+Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and comments inside an MCP workflow instead of sending a user back to the AFFiNE UI.
 
-The scope is narrow enough to be skill-shaped: this is for agent-side AFFiNE workspace operations through MCP. It is not a generic AFFiNE product card, not a general knowledge-base platform listing, and not a catch-all collaboration suite entry. Invoke it when the missing step is structured workspace access inside an MCP workflow, not when the user simply wants to browse AFFiNE normally or evaluate AFFiNE as a product.
+## Prerequisites
+
+Node.js, an MCP-compatible client, and access to an AFFiNE Cloud or self-hosted instance with an API token or saved credentials.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents
+```
+<p>Install with <code>npm i -g affine-mcp-server</code> or run it ad hoc with <code>npx -y -p affine-mcp-server affine-mcp</code>. Authenticate with <code>affine-mcp login</code>, then add <code>affine-mcp</code> to your MCP client configuration for stdio transport, or run the published Docker image when you need an HTTP MCP endpoint.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/DAWNCR0W/affine-mcp-server/blob/main/docs/getting-started.md
 
 ## Source
 

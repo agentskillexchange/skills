@@ -3,6 +3,8 @@ title: "Trace unstable network paths and packet loss with Trippy before escalati
 description: "Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents."
 verification: "listed"
 source: "https://github.com/fujiapple852/trippy"
+author: "fujiapple852"
+publisher_type: "user"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Trace unstable network paths and packet loss with Trippy before escalating an outage
 
-Use Trippy when an agent needs to diagnose an unreliable network path and identify where latency, jitter, or packet loss starts appearing. A user should invoke this instead of using generic network tooling when the job is a bounded route-health investigation before escalation, not broad network administration. The scope boundary is clear and skill-shaped: interactive traceroute-style path diagnostics with comparative hop evidence, not a plain terminal utility listing.
+Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.
+
+## Prerequisites
+
+Trippy CLI, terminal access, network reachability to the target host, elevated privileges or supported privilege workaround depending on OS
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage
+```
+Install Trippy from an upstream package manager or release binary, ensure the environment permits packet tracing, then run trip against the affected destination and review hop-level latency and loss.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://trippy.cli.rs/
 
 ## Source
 

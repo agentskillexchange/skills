@@ -3,6 +3,8 @@ title: "Run parallel Claude Code bug-fix and best-practice sweeps with coordinat
 description: "Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice sweeps with coordination, conflict avoidance, and live monitoring."
 verification: "security_reviewed"
 source: "https://github.com/Dicklesworthstone/claude_code_agent_farm"
+author: "Dicklesworthstone"
+publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm
 
-Tool: Claude Code Agent Farm. This skill gives an agent operator a specific orchestration job: launch many Claude Code sessions in parallel to sweep a repository for bug fixes, best-practice upgrades, or other chunkable improvement work while coordinating access to shared files.
+Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice sweeps with coordination, conflict avoidance, and live monitoring.
 
-When to use it: invoke this when one Claude Code session would be too slow for a large repo-wide cleanup or remediation pass and the work can be split across many workers. Using this skill is different from using the product normally because the workflow is farm-style: configure the sweep, launch coordinated workers, monitor progress in tmux, and collect the resulting repo improvements and reports.
+## Prerequisites
 
-Scope boundary: this is not a generic Claude Code listing and not a broad multi-agent platform card. Its boundary is specific: run coordinated parallel repository-improvement sweeps with multiple Claude Code workers.
+Claude Code CLI, tmux, git, Python 3.13 with the project dependencies, and a repository that can be split into parallel sweep work.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm
+```
+Install the project with its documented setup flow, confirm the required Claude Code CLI alias and tmux prerequisites, run the doctor or preflight checks, then configure and launch a parallel sweep against the target repository using the farm's orchestration commands.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/Dicklesworthstone/claude_code_agent_farm#readme
 
 ## Source
 

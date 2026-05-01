@@ -14,47 +14,17 @@ tool_ecosystem:
 
 # Twenty Open Source CRM Platform and Salesforce Alternative
 
-Overview
-Twenty is an open-source CRM platform designed as a modern alternative to Salesforce. With over 43,000 GitHub stars and backing from Y Combinator, it brings the UX patterns of tools like Notion, Airtable, and Linear to customer relationship management. The entire platform is available under the AGPLv3 license and can be self-hosted or used via their cloud offering.
-
-How It Works
-Twenty provides a flexible data model where users can create custom objects and fields to match their specific business needs. The platform supports multiple layout options including table views with filters, sorting, and grouping; kanban boards for pipeline management; and calendar views for time-based data. All data is stored in PostgreSQL and accessible through a GraphQL API.
-
-Key Capabilities
-The CRM includes contact and company management, deal pipeline tracking, email integration for syncing conversations, calendar event tracking, file attachments, and activity timelines. Workflow automation allows defining triggers and actions to streamline repetitive tasks. Custom roles and granular permissions control who can see and edit what.
-
-Agent Integration
-Twenty exposes a full GraphQL API that AI agents and coding assistants can use to query contacts, update deals, create records, and trigger workflows programmatically. The API supports standard authentication and follows GraphQL best practices with introspectable schemas, making it straightforward to generate typed clients or integrate with agent tool frameworks.
-
-Deployment
-Self-hosting is supported via Docker Compose with PostgreSQL and Redis. The project provides detailed documentation for local development setup and production deployment. The tech stack includes TypeScript, NestJS, React, BullMQ, and Nx for monorepo management.
-
-Community and Ecosystem
-Hundreds of developers contribute to Twenty actively. The project maintains a public roadmap on GitHub Projects, an active Discord community, and Figma design files for contributors. Integration with tools like Sentry for error tracking and Chromatic for UI testing demonstrates production-grade engineering practices.
+Twenty is a modern open-source CRM built to replace Salesforce, with customizable objects, workflow automation, email and calendar integration, and a GraphQL API. It offers kanban, table, and calendar views with fine-grained permission controls and self-hosting support.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/twenty-open-source-crm-salesforce-alternative/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/twenty-open-source-crm-salesforce-alternative
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/twenty-open-source-crm-salesforce-alternative`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

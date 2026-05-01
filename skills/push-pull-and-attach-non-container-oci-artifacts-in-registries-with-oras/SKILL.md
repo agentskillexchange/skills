@@ -3,6 +3,8 @@ title: "Push, pull, and attach non-container OCI artifacts in registries with OR
 description: "Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without wrapping them as conventional images."
 verification: "listed"
 source: "https://github.com/oras-project/oras"
+author: "ORAS Project"
+publisher_type: "open_source_project"
 category:
   - "Integrations & Connectors"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Push, pull, and attach non-container OCI artifacts in registries with ORAS
 
-ORAS gives an agent a clean workflow for pushing, pulling, and attaching non-container artifacts to OCI registries. Invoke this when you need to store or retrieve SBOMs, attestations, model bundles, or related metadata in the same registry ecosystem as container delivery, but the job is not traditional image build or runtime management.
+Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without wrapping them as conventional images.
 
-The scope boundary is specific: registry-native artifact packaging and attachment workflows for OCI-compatible registries. This is not a generic registry product listing or a full container platform card.
+## Prerequisites
+
+ORAS CLI and access to an OCI-compatible registry
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras
+```
+Install ORAS from the project releases or package manager, authenticate to the target OCI registry, then use oras push, pull, attach, and discover commands against artifact references.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://oras.land/docs/
 
 ## Source
 

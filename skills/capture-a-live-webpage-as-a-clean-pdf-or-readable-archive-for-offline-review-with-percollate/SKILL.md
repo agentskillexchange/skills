@@ -3,6 +3,8 @@ title: "Capture a live webpage as a clean PDF or readable archive for offline re
 description: "Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff."
 verification: "listed"
 source: "https://github.com/danburzo/percollate"
+author: "danburzo"
+publisher_type: "open_source_project"
 category:
   - "Research & Scraping"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Capture a live webpage as a clean PDF or readable archive for offline review with Percollate
 
-Use Percollate when an agent needs to fetch a live webpage and preserve it as a clean PDF or readable offline artifact for later review, sharing, or citation. A user should invoke this instead of using the browser print or save flow normally when the task needs repeatable CLI capture and a cleaner reading artifact, not interactive browsing or site editing. The scope boundary is specific and skill-shaped: it captures and packages a supplied webpage into an offline deliverable, not a browser platform, CMS, or generic web product listing.
+Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff.
+
+## Prerequisites
+
+percollate
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate
+```
+Install the percollate package from npm, then pass the target URL and desired output format to generate an offline capture artifact.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/danburzo/percollate
 
 ## Source
 

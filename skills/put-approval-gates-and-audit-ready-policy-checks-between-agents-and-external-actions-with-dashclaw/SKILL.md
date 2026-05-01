@@ -3,6 +3,8 @@ title: "Put approval gates and audit-ready policy checks between agents and exte
 description: "Use DashClaw to intercept agent actions before they hit external systems, require approval or policy evaluation, and keep replayable decision evidence for later review."
 verification: "security_reviewed"
 source: "https://github.com/ucsandman/DashClaw"
+author: "ucsandman"
+publisher_type: "individual"
 category:
   - "Security & Verification"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Put approval gates and audit-ready policy checks between agents and external actions with DashClaw
 
-DashClaw is publishable as a bounded governance skill rather than a generic agent platform card. The agent job is clear: sit in front of risky external actions, evaluate them against approval or policy rules, stop or allow execution, and record verifiable evidence of what happened. The source describes this as decision infrastructure that intercepts actions and produces audit-ready trails.
+Use DashClaw to intercept agent actions before they hit external systems, require approval or policy evaluation, and keep replayable decision evidence for later review.
 
-Invoke this instead of using an agent stack normally when the missing piece is governed execution: approvals, policy enforcement, and decision replay before an agent touches external systems. The boundary keeps it skill-shaped. This is not a listing for every framework DashClaw supports, nor a general orchestration product entry. It is specifically the guarded action-interception and evidence-capture layer.
+## Prerequisites
+
+DashClaw service plus a supported agent framework or MCP-capable client
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw
+```
+Deploy DashClaw from the repository or quick-start docs, connect a supported agent client or MCP server, and route external actions through DashClaw so approval and policy checks run before execution.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://dashclaw.io/docs
 
 ## Source
 

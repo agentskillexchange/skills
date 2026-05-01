@@ -3,6 +3,8 @@ title: "Back up and restore an OpenClaw workspace to Synology NAS with verificat
 description: "Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of ad hoc file copying."
 verification: "listed"
 source: "https://github.com/pfrederiksen/synology-backup"
+author: "pfrederiksen"
+publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup
 
-Use Synology Backup when an OpenClaw operator needs a repeatable backup and restore workflow for workspace data, configs, cron jobs, and agent state on a Synology NAS instead of manually copying files or treating Synology as a generic storage product. The job is specific: run incremental backups over SMB or rsync, verify snapshot integrity, check status, and restore with a pre-restore safety snapshot so rollback remains possible. That scope boundary, OpenClaw-to-Synology backup and recovery operations, keeps this skill-shaped rather than a plain NAS or backup product listing.
+Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of ad hoc file copying.
+
+## Prerequisites
+
+OpenClaw, Synology NAS, SMB or SSH/rsync connectivity, rsync and optionally cifs-utils, backup credentials or SSH keys
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup
+```
+Install with `clawhub install synology-backup`, install the documented system dependencies such as rsync and optionally cifs-utils, create the Synology backup config and credentials described in the README, then test with the dry-run backup flow before scheduling live backups.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/pfrederiksen/synology-backup
 
 ## Source
 

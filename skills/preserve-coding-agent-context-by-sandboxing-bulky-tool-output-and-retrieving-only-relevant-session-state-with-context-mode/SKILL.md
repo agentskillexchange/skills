@@ -3,6 +3,8 @@ title: "Preserve coding-agent context by sandboxing bulky tool output and retrie
 description: "Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after compaction. It wraps tool-heavy workflows with sandboxed execution, indexed session history, and targeted retrieval so the agent can keep working without reloading raw data into the prompt."
 verification: "security_reviewed"
 source: "https://github.com/mksglu/context-mode"
+author: "mksglu"
+publisher_type: "Individual"
 category:
   - "Developer Tools"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode
 
-Context Mode is a cross-platform MCP server and plugin workflow for coding agents that routes bulky tool output away from the main prompt, stores actionable session events in SQLite/FTS5, and retrieves only the relevant state when work resumes. It is useful when an agent is reading large logs, repo outputs, or browser snapshots and would otherwise waste context or forget in-progress edits after compaction.
+Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after compaction. It wraps tool-heavy workflows with sandboxed execution, indexed session history, and targeted retrieval so the agent can keep working without reloading raw data into the prompt.
 
-Invoke this instead of using the product normally when the goal is not generic agent chat, but a repeatable operator workflow: keep a long coding session stable, searchable, and context-efficient across tool calls. The scope boundary is clear: this is not a generic AI coding product card, but a specific skill for enforcing context-saving routing and session continuity inside supported agent runtimes.
+## Prerequisites
+
+Supported coding agent runtime with MCP or plugin support; Node.js; local SQLite storage
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode
+```
+Install via the platform-specific instructions in the upstream docs. Examples include `npm install -g context-mode`, `claude mcp add context-mode -- npx -y context-mode`, or the Claude Code marketplace/plugin install flow.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://context-mode.com
 
 ## Source
 

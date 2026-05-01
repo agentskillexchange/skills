@@ -3,6 +3,8 @@ title: "Lint Rego Policies Before Promotion with Regal"
 description: "Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted."
 verification: "listed"
 source: "https://github.com/StyraInc/regal"
+author: "Styra"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Lint Rego Policies Before Promotion with Regal
 
-This skill wraps Regal as a policy-authoring quality gate for Rego. The agent lints policy files, highlights correctness and maintainability issues, and gives teams a repeatable pre-promotion check before bundles move into enforcement environments.
+Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted.
 
-Invoke it when a repository contains Rego policies that need review before merge or bundle promotion. Use OPA itself normally for policy evaluation and runtime decisions. Use this skill when the job is specifically authoring-time linting and policy hygiene.
+## Prerequisites
 
-The scope boundary is Rego linting and authoring feedback. It is not an OPA platform listing, policy engine card, or general compliance product entry.
+Regal, Rego policy files, OPA-compatible policy repository
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-rego-policies-before-promotion-with-regal/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-rego-policies-before-promotion-with-regal
+```
+Install Regal using the project instructions, then run it against your policy tree before promotion: regal lint path/to/policies
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/lint-rego-policies-before-promotion-with-regal`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.openpolicyagent.org/projects/regal/
 
 ## Source
 

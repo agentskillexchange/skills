@@ -14,35 +14,17 @@ tool_ecosystem:
 
 # Jenkins Pipeline Orchestrator
 
-The Jenkins Pipeline Orchestrator skill provides comprehensive automation for Jenkins CI/CD environments. It leverages the Jenkins REST API to programmatically create, configure, and manage pipeline jobs without manual intervention through the Jenkins UI.
-
-Key capabilities include generating Jenkinsfile definitions using the Declarative Pipeline DSL, configuring multi-branch pipeline jobs that automatically discover branches and pull requests, and setting up webhook triggers for GitHub, GitLab, and Bitbucket repositories. The skill handles credential management through the Jenkins Credentials API, ensuring secrets are securely stored and referenced in pipeline stages.
-
-Build artifact analysis is built in — the skill parses JUnit XML test reports, collects code coverage metrics from JaCoCo or Cobertura plugins, and evaluates deployment gates based on configurable quality thresholds. It also integrates with the Jenkins Blue Ocean API for modern pipeline visualization and status reporting to external notification channels via Slack or Microsoft Teams webhooks.
+Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jenkins-pipeline-orchestrator-3
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/jenkins-pipeline-orchestrator-3`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

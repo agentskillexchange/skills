@@ -3,6 +3,8 @@ title: "Publish versioned MkDocs documentation with mike"
 description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
 verification: "listed"
 source: "https://github.com/jimporter/mike"
+author: "jimporter"
+publisher_type: "individual"
 category:
   - "Content Writing & SEO"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Publish versioned MkDocs documentation with mike
 
-mike gives an agent a specific docs-release workflow: build and publish versioned MkDocs documentation, manage aliases such as latest, and keep older versions live. Invoke it when the real need is versioned docs publishing for a MkDocs site, not when you are choosing a docs framework or browsing a generic static-site tool. The boundary stays tight: release and version management for MkDocs documentation, not a plain product or plugin card.
+Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.
+
+## Prerequisites
+
+Python, MkDocs, a Git-backed docs deployment target such as GitHub Pages, and mike.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/publish-versioned-mkdocs-documentation-with-mike/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/publish-versioned-mkdocs-documentation-with-mike
+```
+Install with `pip install mike`, configure your MkDocs site for versioned publishing, then use mike to deploy named versions and set aliases like `latest`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/publish-versioned-mkdocs-documentation-with-mike`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/jimporter/mike
 
 ## Source
 

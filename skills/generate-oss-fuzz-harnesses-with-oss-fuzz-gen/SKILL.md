@@ -3,6 +3,8 @@ title: "Generate OSS-Fuzz harnesses with oss-fuzz-gen"
 description: "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins."
 verification: "listed"
 source: "https://github.com/google/oss-fuzz-gen"
+author: "Google"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Generate OSS-Fuzz harnesses with oss-fuzz-gen
 
-Use this skill when an agent needs to bootstrap fuzz targets for a project that would otherwise require manual harness authoring. It is a fit for security-focused engineering work where broader fuzz coverage matters more than starting from scratch by hand.
+Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins.
 
-Invoke it instead of using oss-fuzz-gen as a raw project when the operator task is to generate candidate fuzz harnesses, evaluate whether they compile and exercise useful code paths, and iterate toward targets worth keeping.
+## Prerequisites
 
-This stays skill-shaped because the scope is the harness-generation workflow, not OSS-Fuzz as a platform overall.
+oss-fuzz-gen, compiler toolchain, fuzzing runtime
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen
+```
+Clone or install the project dependencies described upstream, run the harness generation flow against a supported codebase, then build and test the generated fuzz targets.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/google/oss-fuzz-gen
 
 ## Source
 

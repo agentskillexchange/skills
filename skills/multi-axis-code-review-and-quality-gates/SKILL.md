@@ -3,42 +3,41 @@ title: "Multi-Axis Code Review and Quality Gates"
 description: "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check."
 verification: "listed"
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
+author: "addyosmani"
+publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "addyosmani/agent-skills"
-  github_stars: 17417
 ---
 
 # Multi-Axis Code Review and Quality Gates
 
-Use this before merge, handoff, or approval when an agent needs to review a change systematically rather than just summarize a diff. The agent applies a repeatable review rubric across multiple quality axes and flags issues that would otherwise slip through a casual pass. The boundary is the review workflow itself, not a generic lint tool, code host, or product card.
+Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check.
+
+## Prerequisites
+
+Agent runtime with skill support, repository or PR diff access, tests or validation signals, project conventions
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/multi-axis-code-review-and-quality-gates/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/multi-axis-code-review-and-quality-gates
+```
+Copy this skill directory from the upstream repository into your agent's supported skills directory, then invoke it before merge or approval when you want a structured multi-axis review.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/multi-axis-code-review-and-quality-gates`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality
 
 ## Source
 

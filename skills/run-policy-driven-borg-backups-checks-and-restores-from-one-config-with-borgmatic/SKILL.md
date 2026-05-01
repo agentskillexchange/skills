@@ -3,6 +3,8 @@ title: "Run policy-driven Borg backups, checks, and restores from one config wit
 description: "Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand."
 verification: "listed"
 source: "https://github.com/borgmatic-collective/borgmatic"
+author: "Borgmatic Collective"
+publisher_type: "open_source_project"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Run policy-driven Borg backups, checks, and restores from one config with borgmatic
 
-Use borgmatic when an agent needs to execute a repeatable backup runbook around Borg, including create, prune, consistency checks, hooks, and restore-oriented validation from one configuration. Invoke this instead of using Borg directly when the real task is policy-driven backup orchestration and health checking, not manual archive commands one by one. The scope boundary is clear and skill-shaped: borgmatic is a declarative backup and restore operations layer for Borg workflows, not just a generic backup product card or a broad infrastructure platform listing.
+Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand.
+
+## Prerequisites
+
+borgmatic, Borg Backup
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic
+```
+Install borgmatic from the supported package or Python distribution path in the borgmatic docs, then configure `borgmatic.yaml` and run borgmatic create, check, prune, or restore workflows from that config.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://torsion.org/borgmatic/
 
 ## Source
 

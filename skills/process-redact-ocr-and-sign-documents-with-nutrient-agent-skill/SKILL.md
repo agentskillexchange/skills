@@ -3,6 +3,8 @@ title: "Process, redact, OCR, and sign documents with Nutrient Agent Skill"
 description: "Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks."
 verification: "listed"
 source: "https://github.com/PSPDFKit-labs/nutrient-agent-skill"
+author: "PSPDFKit-labs"
+publisher_type: "organization"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Process, redact, OCR, and sign documents with Nutrient Agent Skill
 
-Use Nutrient Agent Skill when an agent needs to perform concrete document operations such as OCR on scanned PDFs, extract text or tables, redact sensitive data, fill forms, convert formats, or apply signatures without hand-driving separate PDF tools. The agent workflow is explicit and action-oriented: send a document-processing request, run the relevant server-backed operation, and return transformed files or extracted outputs. That scope boundary, agent-invoked document-processing operations rather than a general SDK or PDF platform listing, makes this publishable as a skill.
+Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks.
+
+## Prerequisites
+
+Python 3.10+, uv, a Nutrient API key, and an agent environment that supports Agent Skills
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill
+```
+Install the skill with npx skills add PSPDFKit-labs/nutrient-agent-skill, set NUTRIENT_API_KEY in the environment, ensure Python and uv are available, then invoke the documented OCR, extraction, redaction, conversion, or signing prompts from your agent.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/PSPDFKit-labs/nutrient-agent-skill
 
 ## Source
 

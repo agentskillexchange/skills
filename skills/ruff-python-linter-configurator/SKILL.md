@@ -3,6 +3,7 @@ title: "Ruff Python Linter Configurator"
 description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
 verification: "security_reviewed"
 source: "https://github.com/astral-sh/ruff"
+author: "Astral"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,35 +15,27 @@ tool_ecosystem:
 
 # Ruff Python Linter Configurator
 
-The Ruff Python Linter Configurator skill automates migration from legacy Python linting toolchains (Flake8, isort, Black, pylint, pycodestyle) to the Ruff linter by analyzing existing configuration files and generating equivalent ruff.toml or pyproject.toml [tool.ruff] sections.
-
-The configurator parses .flake8, setup.cfg, tox.ini, and pyproject.toml to extract all active rules, per-file-ignores, max-line-length settings, and import sorting preferences. It maps Flake8 plugin codes to Ruff rule prefixes (E/W for pycodestyle, F for pyflakes, I for isort, UP for pyupgrade, B for flake8-bugbear) with automatic conflict resolution when rules contradict.
-
-The output configuration includes select and ignore lists, fixable rules for auto-formatting, target Python version inference from pyproject.toml requires-python, and per-file overrides for test directories and scripts. Performance benchmarking compares Ruff execution time against the replaced tools to quantify the speedup. A migration checklist identifies rules that have no Ruff equivalent and suggests alternatives.
+Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/ruff-python-linter-configurator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/ruff-python-linter-configurator
+```
+pip install ruff
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/ruff-python-linter-configurator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.astral.sh/ruff/
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Generate fast static photo album sites from curated folders with DD Phot
 description: "Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system."
 verification: "listed"
 source: "https://github.com/dougdonohoe/ddphotos"
+author: "Doug Donohoe"
+publisher_type: "individual"
 category:
   - "Image & Creative Automation"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Generate fast static photo album sites from curated folders with DD Photos
 
-Use DD Photos when an agent needs to publish a curated set of photo folders as a fast static album site rather than operate a full photo management platform. This should be invoked after the photos have already been selected elsewhere and the job is to resize images, generate album indexes, and build a deployable static gallery. That scope boundary—folder-to-static-album generation for simple sharing—keeps it distinct from general photo storage products and broader DAM platforms.
+Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system.
+
+## Prerequisites
+
+Go toolchain or built binaries, source photo folders, DD Photos config files, optional static hosting target such as S3 or a web server
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos
+```
+Install DD Photos from the repository build instructions, define album locations and descriptions, run the documented photo generation step to resize and index the images, then build and deploy the generated static site.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://ddphotos.donohoe.info
 
 ## Source
 

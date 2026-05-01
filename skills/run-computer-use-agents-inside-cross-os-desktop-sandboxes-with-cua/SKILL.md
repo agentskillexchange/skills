@@ -3,6 +3,8 @@ title: "Run computer-use agents inside cross-OS desktop sandboxes with CUA"
 description: "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls."
 verification: "listed"
 source: "https://github.com/trycua/cua"
+author: "trycua"
+publisher_type: "organization"
 category:
   - "Browser Automation"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Run computer-use agents inside cross-OS desktop sandboxes with CUA
 
-CUA is distinct from ordinary browser automation because the documented workflow is full computer-use execution across desktop and device sandboxes. Its sandbox API and cuabot tooling let an operator run an agent in an isolated OS environment, capture screenshots, send mouse and keyboard actions, and benchmark the resulting behavior on computer-use tasks.
+Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.
 
-Invoke it when the agent must interact with a real desktop or device surface instead of a DOM-only browser session or a local host environment. The scope boundary is sandboxed computer-use execution and evaluation, not a generic AI platform or broad workflow builder.
+## Prerequisites
+
+Python 3.11+ for the SDK or Node.js for cuabot, plus local QEMU or CUA cloud access depending on runtime choice.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua
+```
+Install the Python package with pip install cua for the sandbox SDK, or use npx cuabot for the agent-facing desktop sandbox workflow described in the upstream docs.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://cua.ai
 
 ## Source
 

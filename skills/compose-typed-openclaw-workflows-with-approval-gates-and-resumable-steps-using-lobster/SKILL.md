@@ -3,6 +3,8 @@ title: "Compose typed OpenClaw workflows with approval gates and resumable steps
 description: "Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable execution, instead of re-planning the same multi-step tool sequence in chat."
 verification: "security_reviewed"
 source: "https://github.com/openclaw/lobster"
+author: "OpenClaw"
+publisher_type: "company"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster
 
-Tool: Lobster. This skill gives an agent a concrete orchestration job: compose typed local-first workflows with explicit steps, approval gates, and resumable execution so OpenClaw can call the whole sequence in one move.
+Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable execution, instead of re-planning the same multi-step tool sequence in chat.
 
-When to use it: invoke this when an OpenClaw workflow repeats the same multi-step shell, data-shaping, or integration sequence and you want it wrapped as a deterministic macro instead of improvised each time. Using this skill is different from using the product normally because the operator workflow is explicit: define the typed pipeline, add any hard approval gates, and run or resume the composed workflow as a single OpenClaw-native action.
+## Prerequisites
 
-Scope boundary: this is not a generic automation shell listing and not a broad agent platform card. Its boundary is specific: build typed OpenClaw workflow pipelines and approval-gated macros with Lobster.
+OpenClaw, Lobster, any local commands or data sources the workflow will call, and workflow definitions with optional approval gates.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster
+```
+Install Lobster with the method documented by OpenClaw, define the workflow file or command pipeline you want OpenClaw to call, add approval gates where human confirmation is required, then invoke the workflow through Lobster as a single typed automation step.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.openclaw.ai/tools/lobster
 
 ## Source
 

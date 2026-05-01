@@ -3,6 +3,8 @@ title: "Audit GitHub Actions for privilege and supply-chain risks with zizmor"
 description: "Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early."
 verification: "listed"
 source: "https://github.com/zizmorcore/zizmor"
+author: "zizmorcore"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Audit GitHub Actions for privilege and supply-chain risks with zizmor
 
-Use zizmor when an agent is reviewing GitHub Actions changes and needs a security-first gate before those workflows land. The agent can scan workflow files, flag risky permission scopes, catch untrusted input paths, and surface supply-chain issues such as unsafe action pinning. The boundary is narrow and clear: pre-merge GitHub Actions security review, not a generic CI platform listing or all-purpose GitHub automation card.
+Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early.
+
+## Prerequisites
+
+Python 3.9+ or prebuilt zizmor binary, access to the target repository
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor
+```
+Install from the project documentation, then run `zizmor` against the repository or workflow files you want to review before merge or release.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://woodruffw.github.io/zizmor/
 
 ## Source
 
