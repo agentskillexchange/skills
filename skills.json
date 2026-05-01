@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2404,
-  "generated": "2026-04-30",
+  "total": 2406,
+  "generated": "2026-05-01",
   "skills": [
+    {
+      "slug": "snapshot-and-restore-encrypted-file-trees-with-kopia",
+      "name": "Snapshot and restore encrypted file trees with Kopia",
+      "description": "Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP, WebDAV, or cloud storage targets.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 13110
+      }
+    },
+    {
+      "slug": "extract-clean-article-markdown-from-web-pages-with-defuddle",
+      "name": "Extract clean article Markdown from web pages with Defuddle",
+      "description": "Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before summarizing, indexing, or archiving them.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7176
+      }
+    },
     {
       "slug": "back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup",
       "name": "Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup",

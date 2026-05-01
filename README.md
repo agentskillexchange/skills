@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C404-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C406-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C071-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,404 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,406 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Supabase MCP Server](skills/supabase-mcp-server/)
+### [Angular — TypeScript Web Application Framework by Google](skills/angular-typescript-web-framework/)
 
 
 
-- Tool: `supabase`
+- Tool: `angular-typescript-web-framework`
 - Category: Developer Tools
-- Frameworks: MCP
-- GitHub stars: 100,812
-- Listing: https://agentskillexchange.com/skills/supabase-mcp-server/
+- Frameworks: Multi-Framework
+- GitHub stars: 100,106
+- Listing: https://agentskillexchange.com/skills/angular-typescript-web-framework/
 
 ---
 
@@ -85,7 +85,7 @@ A strong cross-section of high-signal skills across the catalog.
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 298 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 300 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 222 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 191 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 180 | Linting, code review, test generators, coverage |
@@ -138,7 +138,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,404 | In the catalog, every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,406 | In the catalog, every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,071 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2404 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-04-30 21:34 UTC
+> **2406 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-05-01 01:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (298 skills)
+### 🛠️ Developer Tools (300 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -161,6 +161,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Fresh Next-Generation Web Framework for Deno](skills/fresh-deno-web-framework/) | Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero… | Security Reviewed | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+… | Security Reviewed | 13.7k | — |
 | [Litestream SQLite Streaming Replication](skills/litestream-sqlite-streaming-replication/) | Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure,… | Security Reviewed | 13.4k | — |
+| [Snapshot and restore encrypted file trees with Kopia](skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP,… | Published | 13.1k | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](skills/pgcli-interactive-postgresql-client/) | pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query… | Security Reviewed | 13.1k | — |
 | [Volta JavaScript Toolchain Version Manager](skills/volta-javascript-toolchain-manager/) | Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It… | Security Reviewed | 12.9k | — |
 | [Rspack High-Performance Rust-Based JavaScript Bundler](skills/rspack-rust-based-javascript-bundler/) | Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in… | Security Reviewed | 12.6k | — |
@@ -201,6 +202,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Concurrently Parallel Command Runner for npm Scripts](skills/concurrently-parallel-command-runner/) | Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle… | Security Reviewed | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](skills/mcfly-intelligent-shell-history-search/) | mcfly is a Rust-based shell history search tool that uses a small neural network to prioritize commands based on… | Security Reviewed | 7.7k | — |
 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies,… | Security Reviewed | 7.3k | 1.2M/wk |
+| [Extract clean article Markdown from web pages with Defuddle](skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before… | Published | 7.2k | — |
 | [SQLite Analyst](skills/sqlite-analyst/) | SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by… | Security Reviewed | 7.1k | 5.5M/wk |
 | [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects… | Security Reviewed | 6.9k | — |
 | [dbmate Lightweight Database Migration CLI](skills/dbmate-lightweight-database-migration-cli/) | dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports… | Security Reviewed | 6.8k | 99.2k/wk |

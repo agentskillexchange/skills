@@ -187,6 +187,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 13.7k | — |
 | [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | 13.4k | — |
+| [Snapshot and restore encrypted file trees with Kopia](../../skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | 13.1k | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | 13.1k | — |
 | [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | 12.9k | — |
 | [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | — |
@@ -227,6 +228,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](../../skills/mcfly-intelligent-shell-history-search/) | 7.7k | — |
 | [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.2M/wk |
+| [Extract clean article Markdown from web pages with Defuddle](../../skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | 7.2k | — |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | 7.1k | 5.5M/wk |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | 6.9k | — |
 | [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 6.8k | 99.2k/wk |
