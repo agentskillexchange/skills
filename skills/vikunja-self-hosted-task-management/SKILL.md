@@ -14,17 +14,43 @@ tool_ecosystem:
 
 # Vikunja Self-Hosted Task Management and Project Organization Platform
 
-Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV sync for organizing personal and team projects with full data ownership.
+Vikunja is an open-source task management application built with Go on the backend and Vue.js on the frontend. It provides a comprehensive set of features for organizing tasks, projects, and workflows while keeping all data under your control through self-hosting.
+
+Core Capabilities
+Vikunja supports multiple task organization views including traditional lists, kanban boards, and Gantt charts. Tasks can be organized into projects with labels, priorities, due dates, reminders, assignees, and sub-tasks. The application provides a REST API that enables integration with AI agents and automation tools for programmatic task management.
+
+Technical Architecture
+The backend is a single Go binary that bundles the API server, web frontend, and background workers. It supports SQLite, MySQL, and PostgreSQL as database backends. Authentication supports local accounts, OpenID Connect, and LDAP. The CalDAV interface allows synchronization with calendar applications like Thunderbird, GNOME Calendar, and iOS/macOS Reminders.
+
+Deployment and Integration
+Vikunja ships as a single Docker image (vikunja/vikunja) making deployment straightforward. The REST API at /api/v1 exposes all task, project, label, and user management operations. Webhooks can trigger external actions on task events. The application also supports file attachments, link sharing for collaboration, and task comments. A hosted version is available at vikunja.cloud for users who prefer not to self-host.
+
+Agent Integration Points
+The REST API enables AI agents to create tasks from natural language, query project status, update task progress, and manage team workflows programmatically. An MCP server (vikunja-mcp) is also available for direct integration with Claude Desktop, OpenCode, Cursor, and other MCP-compatible clients, enabling conversational task management through AI assistants.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/vikunja-self-hosted-task-management/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/vikunja-self-hosted-task-management
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/vikunja-self-hosted-task-management`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

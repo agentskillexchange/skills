@@ -3,7 +3,6 @@ title: "OpenAPI Spec Changelog Generator"
 description: "Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON."
 verification: "security_reviewed"
 source: "https://github.com/oasdiff/oasdiff"
-author: "oasdiff"
 category:
   - "Library & API Reference"
 framework:
@@ -15,27 +14,31 @@ tool_ecosystem:
 
 # OpenAPI Spec Changelog Generator
 
-Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON.
+The OpenAPI Spec Changelog Generator uses the oasdiff library (Go-based OpenAPI diff engine) to perform deep semantic comparison between two versions of OpenAPI 3.x specifications. Unlike simple text diffs, it understands OpenAPI structure to detect breaking changes (removed endpoints, required parameter additions, response schema narrowing), non-breaking additions (new optional parameters, additional response fields), and deprecations. The skill parses both YAML and JSON spec formats and resolves $ref references across multi-file specifications. It classifies changes by severity level following the OpenAPI breaking change taxonomy and generates human-readable changelogs in Markdown format suitable for developer portal publication, or structured JSON for integration with API governance pipelines. The generator supports comparing specs from URLs (pulling from Swagger Hub or API gateway exports) and can be integrated into CI to block PRs that introduce unannounced breaking changes.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/openapi-spec-changelog-generator/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-go install github.com/oasdiff/oasdiff@latest
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/openapi-spec-changelog-generator
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://www.oasdiff.com/
+- Download the repository ZIP and extract `skills/openapi-spec-changelog-generator`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

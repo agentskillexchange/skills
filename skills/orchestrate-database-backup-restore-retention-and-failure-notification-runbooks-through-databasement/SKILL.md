@@ -3,8 +3,6 @@ title: "Orchestrate database backup, restore, retention, and failure-notificatio
 description: "Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce retention policy, and react to backup failures across supported engines from one operational workflow."
 verification: "listed"
 source: "https://github.com/David-Crty/databasement"
-author: "David-Crty"
-publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement
 
-Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce retention policy, and react to backup failures across supported engines from one operational workflow.
-
-## Prerequisites
-
-A Databasement deployment with supported source databases and storage targets, plus its automation surface for agent-driven backup and restore operations.
+Use Databasement when an agent needs a repeatable backup-operations workflow across MySQL, PostgreSQL, MariaDB, MongoDB, SQLite, or Redis, including scheduling backups, monitoring job status, handling retention rules, and coordinating restores. Invoke it instead of using the web UI manually when the task is agent-supervised backup and restore operations through Databasement’s automation surface, not one-off clicking inside a self-hosted admin app. The scope boundary is what makes it skill-shaped: this is specifically a database backup and restore runbook layer with automation hooks, not a generic database product listing, broad hosting platform card, or general-purpose database manager.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Deploy Databasement using Docker, Docker Compose, Kubernetes Helm, or the native Ubuntu instructions from the official docs, then configure your databases, storage destination, and automation access before using it in agent-run backup workflows.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://david-crty.github.io/databasement/
+- Download the repository ZIP and extract `skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Shard, retry, and summarize Rust test runs with CI-friendly artifacts an
 description: "Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding, retries, machine-readable output, and CI triage."
 verification: "security_reviewed"
 source: "https://github.com/nextest-rs/nextest"
-author: "nextest contributors"
-publisher_type: "community"
 category:
   - "CI/CD Integrations"
 framework:
@@ -18,31 +16,35 @@ tool_ecosystem:
 
 # Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest
 
-Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding, retries, machine-readable output, and CI triage.
+Tool: cargo-nextest. This skill is for agents that need to run Rust test suites with better scheduling, failure isolation, retries, and structured artifacts than the default test runner provides.
 
-## Prerequisites
+When to use it: invoke this in CI repair loops, flaky-test triage, or large Rust repositories where the agent needs to shard runs, rerun failures, or emit machine-readable results for downstream analysis. Using this skill is different from using the product normally because the operator workflow is specific: execute the suite under nextest, collect the artifacts, and turn failures into actionable repair or retry decisions.
 
-Rust toolchain, Cargo workspace or crate, and CI or local shell access.
+Scope boundary: this is not a generic Rust testing listing and not a broad CI platform card. Its boundary is narrow: run and triage Rust tests with cargo-nextest when scheduling, retries, and failure summaries matter.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install cargo-nextest with the Rust toolchain using the method documented by the project, add any nextest configuration your repository needs, then replace or supplement cargo test with cargo nextest run in local workflows or CI jobs.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://nexte.st/
+- Download the repository ZIP and extract `skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

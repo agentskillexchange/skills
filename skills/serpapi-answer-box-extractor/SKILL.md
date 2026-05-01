@@ -14,17 +14,35 @@ tool_ecosystem:
 
 # SerpAPI Answer Box Extractor
 
-Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping.
+SerpAPI Answer Box Extractor helps research workflows pull useful structure out of search engine results without fighting anti-bot protections or brittle page markup. The skill is grounded in real SerpAPI response objects such as answer_box, knowledge_graph, related_questions, people_also_search_for, and organic_results. Instead of treating a search result page as a blob of HTML, it organizes the distinct information modules that matter for competitive research, content planning, and fact gathering.
+
+This is particularly effective when an agent needs to compare direct answers against organic rankings, or track whether a query is dominated by FAQs, local packs, videos, shopping units, or branded knowledge panels. Because the fields already arrive normalized, downstream analysis is easier to automate and validate. Teams can also preserve the original query, location, and engine parameters so findings remain reproducible.
+
+Use this skill for query intelligence, SEO analysis, and topic research where structured SERP features are more valuable than screenshots or loosely parsed snippets from a traditional scraper.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/serpapi-answer-box-extractor/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/serpapi-answer-box-extractor
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/serpapi-answer-box-extractor`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

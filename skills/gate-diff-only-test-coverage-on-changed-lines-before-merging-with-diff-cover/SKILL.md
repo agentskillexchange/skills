@@ -3,8 +3,6 @@ title: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff C
 description: "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge."
 verification: "security_reviewed"
 source: "https://github.com/Bachmann1234/diff_cover"
-author: "Matthias Bachmann and contributors"
-publisher_type: "Open Source"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover
 
-Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge.
+diff-cover is a focused review-gate skill for checking whether newly changed lines are covered by tests, rather than judging whole-repository coverage. An agent should invoke it when a pull request needs a fast diff-only coverage decision before merge, especially in CI or review workflows where full coverage percentages hide risk on changed code.
 
-## Prerequisites
-
-Git, supported XML or LCov coverage report, Python 3, pip
+Use this instead of a general coverage dashboard when the real question is, ‘Did the lines we just changed get covered?’ The boundary is precise: compare git diff output against Cobertura, Clover, JaCoCo, or LCov coverage reports and emit a patch-scoped result. It is not a general testing framework or product listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-pip install diff-cover
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/Bachmann1234/diff_cover
+- Download the repository ZIP and extract `skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

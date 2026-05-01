@@ -3,8 +3,6 @@ title: "Manage multi-agent coding sessions from one terminal mission control wit
 description: "Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs, panes, and worktrees by hand."
 verification: "listed"
 source: "https://github.com/asheshgoplani/agent-deck"
-author: "Ashesh Goplani"
-publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Manage multi-agent coding sessions from one terminal mission control with Agent Deck
 
-Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs, panes, and worktrees by hand.
-
-## Prerequisites
-
-Agent Deck, tmux-compatible terminal, one or more supported coding agents such as Claude Code, Codex, Gemini CLI, or OpenCode
+Use Agent Deck when the missing step is operational control over many live coding-agent sessions at once. An agent operator can create and group sessions, switch instantly between them, fork existing conversations, attach pooled MCP servers and skills, manage git worktrees, and keep waiting or failed sessions visible from one terminal UI. The scope boundary is clear: this is a multi-session control surface for existing coding agents, not a generic coding assistant listing and not merely a tmux helper. Invoke it when session sprawl is the problem, not when you simply need another single-agent CLI.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Agent Deck from the upstream repository or release assets, launch the TUI, then add and manage your existing coding-agent sessions, worktrees, MCP connections, and optional Docker sandboxes from one terminal.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/asheshgoplani/agent-deck
+- Download the repository ZIP and extract `skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

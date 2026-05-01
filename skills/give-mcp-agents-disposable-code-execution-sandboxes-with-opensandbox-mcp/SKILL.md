@@ -3,8 +3,6 @@ title: "Give MCP agents disposable code execution sandboxes with OpenSandbox MCP
 description: "Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes."
 verification: "security_reviewed"
 source: "https://github.com/alibaba/OpenSandbox"
-author: "Alibaba"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Give MCP agents disposable code execution sandboxes with OpenSandbox MCP
 
-Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes.
+OpenSandbox clears the skill-shaped bar when framed around its documented MCP workflow. The relevant job is to give an MCP-capable agent a disposable execution environment with command, file, and lifecycle operations, instead of letting that agent run generated code directly on the host. The upstream repo explicitly documents opensandbox-mcp for clients like Claude Code and Cursor, alongside sandbox egress controls and isolated runtimes.
 
-## Prerequisites
-
-Docker for local runtime or Kubernetes for cluster runtime, plus an MCP-capable client such as Claude Code or Cursor.
+Use this when an agent needs temporary code execution or filesystem work that should happen inside a managed sandbox rather than the local machine. The scope boundary is the MCP-exposed sandbox execution workflow itself, not the broader OpenSandbox platform, SDK collection, or generic runtime stack.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Run the OpenSandbox server, then install the MCP bridge with pip install opensandbox-mcp and point your MCP client at opensandbox-mcp with the documented domain and protocol settings.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://open-sandbox.ai
+- Download the repository ZIP and extract `skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

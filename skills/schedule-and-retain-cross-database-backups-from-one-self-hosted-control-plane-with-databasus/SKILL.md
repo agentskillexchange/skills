@@ -3,8 +3,6 @@ title: "Schedule and retain cross-database backups from one self-hosted control 
 description: "Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from one place."
 verification: "listed"
 source: "https://github.com/databasus/databasus"
-author: "databasus"
-publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Schedule and retain cross-database backups from one self-hosted control plane with Databasus
 
-Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from one place.
-
-## Prerequisites
-
-Databasus deployment, access to supported databases, configured storage destination, backup credentials, optional notification integrations
+Use Databasus when an agent needs to operate recurring database backup jobs across multiple engines and storage backends from one self-hosted system. This should be invoked instead of manually stitching together per-database backup commands when the real task is scheduled backup orchestration, retention handling, and destination management. That scope boundary—multi-database backup operations with schedules, retention, storage, and notifications—keeps it from being just a generic database product card or a plain database client listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Deploy Databasus using its documented install script, Docker, or compose path, connect the target databases and storage backends, then configure schedules, retention, and notifications for the backup jobs you want it to run.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://databasus.com
+- Download the repository ZIP and extract `skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

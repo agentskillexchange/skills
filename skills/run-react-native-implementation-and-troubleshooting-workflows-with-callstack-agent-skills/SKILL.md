@@ -3,8 +3,6 @@ title: "Run React Native implementation and troubleshooting workflows with Calls
 description: "Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development."
 verification: "listed"
 source: "https://github.com/callstackincubator/agent-skills"
-author: "Callstack"
-publisher_type: "company"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run React Native implementation and troubleshooting workflows with Callstack Agent Skills
 
-Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development.
-
-## Prerequisites
-
-An Agent Skills compatible coding assistant such as Claude Code, Codex, or Cursor, plus a React Native project and any platform tooling needed for the selected workflow such as Android, iOS, Expo, GitHub Actions, or profiling tools.
+Use Callstack Agent Skills when an agent is working on React Native delivery tasks such as upgrades, brownfield migration, performance work, repository hygiene, or mobile CI flows and needs domain-specific guidance instead of generic coding help. Invoke it when the operator wants a repeatable React Native workflow pack that works across agent harnesses, not when they are simply browsing a mobile library or framework. The scope boundary is clear: this repository packages React Native implementation and troubleshooting skills for coding agents, not a generic React Native ecosystem listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install through the Claude Code marketplace, the Codex plugin path, or the repository's standalone skills instructions, then load the React Native skill needed for the task such as upgrading-react-native, github-actions, or react-native-best-practices.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/callstackincubator/agent-skills#readme
+- Download the repository ZIP and extract `skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

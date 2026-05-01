@@ -14,17 +14,39 @@ tool_ecosystem:
 
 # Crawl4AI LLM-Ready Web Crawler and Scraper
 
-Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines, AI agents, and data extraction workflows. With 50k+ GitHub stars and an async browser pool, it handles large-scale web extraction with anti-bot detection and deep crawl capabilities.
+Crawl4AI is a high-performance, open-source web crawling and scraping tool purpose-built for feeding data into large language models. Maintained at github.com/unclecode/crawl4ai, it has become the most-starred web crawler on GitHub with over 50,000 stars and a thriving community of developers.
+
+The core capability of Crawl4AI is converting messy web pages into clean, structured Markdown that LLMs can actually consume. Unlike generic scraping tools, Crawl4AI understands document structure — it preserves headings, tables, code blocks, and citation hints while stripping navigation, ads, and boilerplate. This makes it ideal for building RAG (Retrieval-Augmented Generation) pipelines where content quality directly impacts model output quality.
+
+Under the hood, Crawl4AI uses an async browser pool with Playwright for rendering JavaScript-heavy pages. It supports session management, cookie handling, proxy rotation, and custom user scripts. Version 0.8.5 introduced automatic 3-tier anti-bot detection with proxy escalation, Shadow DOM flattening, and consent popup removal — solving the practical problems developers face when crawling real-world websites at scale.
+
+A skill built around Crawl4AI would give an AI agent the ability to intelligently fetch, parse, and structure web content on demand. The agent could crawl documentation sites for context, extract product data for analysis, or build knowledge bases from web sources. The tool outputs Markdown by default but also supports JSON extraction with custom schemas using LLM-powered extraction strategies.
+
+Installation is straightforward via pip (pip install crawl4ai) and the CLI tool crwl supports deep crawling with BFS/DFS strategies, LLM-powered Q&A extraction, and configurable output formats. Crawl4AI is licensed under Apache 2.0 and available on PyPI with active releases.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/crawl4ai-llm-web-crawler-scraper/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawl4ai-llm-web-crawler-scraper
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/crawl4ai-llm-web-crawler-scraper`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

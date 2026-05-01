@@ -3,8 +3,6 @@ title: "Install and sync reproducible agent dependencies, prompts, and skills ac
 description: "Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine."
 verification: "listed"
 source: "https://github.com/microsoft/apm"
-author: "Microsoft"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Install and sync reproducible agent dependencies, prompts, and skills across repos with APM
 
-Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine.
-
-## Prerequisites
-
-Git access to the target repo, APM CLI, an apm.yml manifest, and whichever agent runtimes or plugin targets the manifest installs into
+Use APM when an agent or team needs to bootstrap the same agent setup across repositories from a manifest instead of manually reconfiguring Claude Code, Codex, Cursor, Copilot, plugins, prompts, and related agent dependencies one repo at a time. The workflow is specific: declare agent packages and primitives in apm.yml, install or sync them into a project, and keep that setup reproducible across environments. That scope boundary, manifest-driven agent dependency installation and sync, keeps this skill distinct from a general AI platform or coding agent listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install APM from the upstream binary, Homebrew, or pip path, create or adopt an apm.yml manifest, then run the documented install or sync commands inside the target repository to reproduce the agent setup.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://microsoft.github.io/apm/
+- Download the repository ZIP and extract `skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

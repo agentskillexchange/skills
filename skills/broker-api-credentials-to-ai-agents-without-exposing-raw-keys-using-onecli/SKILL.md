@@ -3,8 +3,6 @@ title: "Broker API credentials to AI agents without exposing raw keys using OneC
 description: "Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets."
 verification: "security_reviewed"
 source: "https://github.com/onecli/onecli"
-author: "onecli"
-publisher_type: "open_source_project"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Broker API credentials to AI agents without exposing raw keys using OneCLI
 
-Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets.
+Use OneCLI when an agent must call external APIs but should not receive raw credentials directly. The upstream project is specific about the workflow: store credentials once, issue scoped agent access, match outbound requests by host or path, and inject the real secrets at request time through the gateway.
 
-## Prerequisites
-
-OneCLI gateway and dashboard, stored service credentials, AI agents making HTTP calls through the gateway
+Invoke this instead of wiring secrets into agents, prompts, or app config normally when the job is controlled credential brokering for agent HTTP calls. The scope boundary is narrow enough to stay skill-shaped: OneCLI is being used here for per-agent secret injection and access control on outbound requests, not as a generic vault, dashboard, or platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-curl -fsSL https://onecli.sh/install | sh
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://onecli.sh/docs
+- Download the repository ZIP and extract `skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

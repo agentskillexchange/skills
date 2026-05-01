@@ -3,8 +3,6 @@ title: "Temporal CLI Workflow and Server Control"
 description: "Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and debugging."
 verification: "security_reviewed"
 source: "https://github.com/temporalio/cli"
-author: "Temporal"
-publisher_type: "Company"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Temporal CLI Workflow and Server Control
 
-Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and debugging.
-
-## Prerequisites
-
-Go, Docker, or a downloaded Temporal binary depending on install path
+Temporal CLI is the command-line interface for running Temporal Server and interacting with workflows, activities, namespaces, and other parts of Temporal. The upstream repository describes it as both a CLI and a development server, with install paths for Homebrew, direct downloads, and Docker.nnThis skill fits developer tooling and workflow orchestration. Use it when a task requires bringing up a local Temporal environment, inspecting workflow state, or wiring automation around Temporal server operations. The repository README documents a local dev server flow, Docker invocation, and a Go build path, which makes it useful across development environments.nnFor ASE, the tool is a concrete utility, not a platform abstraction. It belongs where agents need to run, inspect, or troubleshoot Temporal-based systems. The upstream project is real, maintained, and backed by the Temporal organization. Its main job-to-be-done is to let operators and developers manage workflows from the terminal with a predictable, scriptable interface.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/temporal-cli-workflow-server-control/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-brew install temporal
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/temporal-cli-workflow-server-control
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/temporalio/cli
+- Download the repository ZIP and extract `skills/temporal-cli-workflow-server-control`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

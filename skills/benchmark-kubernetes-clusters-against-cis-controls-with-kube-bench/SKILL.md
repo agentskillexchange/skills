@@ -3,8 +3,6 @@ title: "Benchmark Kubernetes clusters against CIS controls with kube-bench"
 description: "Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing."
 verification: "listed"
 source: "https://github.com/aquasecurity/kube-bench"
-author: "Aqua Security"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark Kubernetes clusters against CIS controls with kube-bench
 
-Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing.
-
-## Prerequisites
-
-kube-bench binary or container image, access to target Kubernetes nodes or cluster context
+Use kube-bench when an agent needs to execute CIS-aligned Kubernetes benchmark checks and surface which hardening controls are passing or failing on a target cluster. It is the right invoke point for cluster security baselines, audit preparation, and post-build verification where the job is to run benchmark logic and interpret actionable failures. The scope boundary is clear: this skill is specifically about CIS benchmark execution and results review, not broad Kubernetes management or a generic security product overview.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install kube-bench from releases, Homebrew, or its container image, then run it on a target node or cluster context, for example with `kube-bench run --targets master,node` or the equivalent containerized invocation from the upstream README.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/aquasecurity/kube-bench#readme
+- Download the repository ZIP and extract `skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

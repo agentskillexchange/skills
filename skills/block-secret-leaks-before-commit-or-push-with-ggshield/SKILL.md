@@ -3,8 +3,6 @@ title: "Block secret leaks before commit or push with ggshield"
 description: "Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch."
 verification: "listed"
 source: "https://github.com/GitGuardian/ggshield"
-author: "GitGuardian"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Block secret leaks before commit or push with ggshield
 
-Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch.
-
-## Prerequisites
-
-Python environment or packaged ggshield install, Git, optional GitGuardian API key for full detector coverage
+Use ggshield when an agent needs a pre-commit, pre-push, or CI guardrail that checks code changes for leaked credentials before they are shared. The agent can scan staged diffs, recent commits, or whole repositories and return concrete secret findings early enough to stop the handoff. The scope boundary is specific: this skill is about running GitGuardian’s local scanning workflow at the change boundary, not about publishing a generic secret-management or SaaS product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/block-secret-leaks-before-commit-or-push-with-ggshield/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install ggshield with pipx, pip, or Homebrew, optionally run `ggshield auth login` or set a GitGuardian API key, then invoke checks such as `ggshield secret scan pre-commit`, `ggshield secret scan pre-push`, or `ggshield secret scan repo`.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/block-secret-leaks-before-commit-or-push-with-ggshield
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/GitGuardian/ggshield#readme
+- Download the repository ZIP and extract `skills/block-secret-leaks-before-commit-or-push-with-ggshield`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

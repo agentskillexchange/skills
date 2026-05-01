@@ -14,17 +14,37 @@ tool_ecosystem:
 
 # Vale Prose Linter for Technical Documentation
 
-Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues.
+Vale is a command-line prose linter written in Go that brings code-style linting to written content. Unlike generic grammar checkers, Vale understands markup formats like Markdown, AsciiDoc, reStructuredText, HTML, and XML, allowing it to intelligently skip code blocks, front matter, and syntax elements while checking only the prose sections of documents.
+
+This skill equips agents with the ability to run Vale against documentation repositories and report style violations. Agents learn to configure Vale using its YAML-based rule system, apply pre-built style packages (Microsoft, Google, write-good, Readability, and more from the Vale Package Hub), and create custom rules for project-specific terminology and voice guidelines. The configuration uses a simple .vale.ini file that specifies which styles to apply and which file types to lint.
+
+Vale’s rule engine supports pattern-matching with regular expressions, conditional checks based on document scope (headings, lists, paragraphs), and severity levels (suggestion, warning, error). Agents can run Vale in CI pipelines to enforce documentation standards automatically, generate reports of style violations across entire repositories, and suggest fixes based on the configured style guide. The tool integrates with VS Code, Vim, Emacs, and Sublime Text, making it easy to adopt across teams.
+
+Output from Vale includes the file path, line number, severity, rule name, and a human-readable message for each violation. Agents can parse this structured output to generate pull request comments, documentation quality reports, or batch-fix suggestions. Vale has over 4,500 GitHub stars, 3 million+ downloads, and is MIT-licensed. It ships as a single static binary with zero dependencies, making deployment trivial across Linux, macOS, and Windows.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/vale-prose-linter-technical-docs/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/vale-prose-linter-technical-docs
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/vale-prose-linter-technical-docs`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

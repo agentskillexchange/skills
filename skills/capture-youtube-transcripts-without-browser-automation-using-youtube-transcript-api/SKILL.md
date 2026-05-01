@@ -3,8 +3,6 @@ title: "Capture YouTube transcripts without browser automation using YouTube Tra
 description: "Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking."
 verification: "listed"
 source: "https://github.com/jdepoix/youtube-transcript-api"
-author: "jdepoix"
-publisher_type: "open_source_project"
 category:
   - "Media & Transcription"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Capture YouTube transcripts without browser automation using YouTube Transcript API
 
-Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking.
+Use YouTube Transcript API when an agent needs the transcript or subtitles for a YouTube video before summarization, chaptering, extraction, or quote validation. The upstream project is explicit about the boundary: retrieve manual or generated subtitles, optionally translate them, and do it without a headless browser or API key.
 
-## Prerequisites
-
-Python, YouTube video ID
+Invoke this instead of normal YouTube browsing or a full downloader workflow when the transcript text is the real goal. The scope boundary is tight: transcript retrieval only. It is not a general YouTube automation stack, video downloader, or media platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-pip install youtube-transcript-api
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/jdepoix/youtube-transcript-api
+- Download the repository ZIP and extract `skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

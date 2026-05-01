@@ -3,8 +3,6 @@ title: "Postmark.js Email Delivery API for Transactional Messaging"
 description: "postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and message streams from code. It is a strong fit for skills that automate outbound notifications, email workflows, and delivery-aware application integrations."
 verification: "security_reviewed"
 source: "https://github.com/ActiveCampaign/postmark.js"
-author: "Postmark"
-publisher_type: "Company"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Postmark.js Email Delivery API for Transactional Messaging
 
-postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and message streams from code. It is a strong fit for skills that automate outbound notifications, email workflows, and delivery-aware application integrations.
+postmark.js is the official Node.js client library for the Postmark API. The upstream project is maintained in the ActiveCampaign/postmark.js GitHub repository, published as the postmark npm package, and documented through the Postmark developer docs. It provides a typed, programmatic way to send transactional email, work with templates, manage message streams, and integrate Postmark delivery features into application code.
 
-## Prerequisites
+As an ASE skill, postmark.js is useful whenever an agent needs to wire a product or workflow into reliable transactional messaging instead of generic SMTP scripts. A common pattern is to install the package in a Node.js project, initialize the Postmark client with a server token, then call the send-email or template APIs from automation code, job workers, or web backends. That makes it suitable for password-reset messages, verification emails, workflow notifications, receipts, and internal status alerts.
 
-Node.js and a Postmark server token
+Integration points include Node.js services, serverless handlers, queue workers, onboarding flows, and notification pipelines. Because the library is official, versioned, and documented, it gives a cleaner interface than raw HTTP calls for teams already using Postmark. In agent-oriented environments, this skill fits productivity and notification scenarios where the output is a real transactional email step backed by the Postmark platform rather than a generic mail abstraction.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/postmarkjs-email-delivery-api-transactional-messaging/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install postmark
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/postmarkjs-email-delivery-api-transactional-messaging
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://postmarkapp.com/developer
+- Download the repository ZIP and extract `skills/postmarkjs-email-delivery-api-transactional-messaging`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

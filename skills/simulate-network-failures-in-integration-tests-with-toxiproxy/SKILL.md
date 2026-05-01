@@ -3,8 +3,6 @@ title: "Simulate network failures in integration tests with Toxiproxy"
 description: "Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes into real service calls during development, CI, or incident reproduction. The agent routes app traffic through controlled TCP proxies, applies toxics at the right moment, and reports which dependency paths fail gracefully versus which ones crack under stress."
 verification: "security_reviewed"
 source: "https://github.com/Shopify/toxiproxy"
-author: "Shopify"
-publisher_type: "Company"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Simulate network failures in integration tests with Toxiproxy
 
-Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes into real service calls during development, CI, or incident reproduction. The agent routes app traffic through controlled TCP proxies, applies toxics at the right moment, and reports which dependency paths fail gracefully versus which ones crack under stress.
+This ASE entry is built around Toxiproxy, the open source TCP proxy maintained by Shopify for simulating network and system conditions in development, CI, and test environments. The agent job here is narrow and concrete: stand up controlled proxies for dependencies such as Redis, MySQL, Postgres, Kafka, or internal HTTP services, then inject failure modes like latency, timeouts, bandwidth throttling, connection resets, or hard outages while a test or diagnostic workflow is running.
 
-## Prerequisites
+You invoke this skill when normal product usage is not enough because the task is not “run a proxy” in the abstract. The task is to prove whether a system behaves correctly when the network turns hostile. An agent can wire an app under test through Toxiproxy, reproduce an intermittent outage from a bug report, run the failing path again with deterministic latency, and return evidence about retries, circuit breakers, error handling, and recovery behavior. That is materially different from listing a generic proxy server or chaos-testing framework.
 
-Toxiproxy server plus a client library or HTTP API access from the test harness
+The scope boundary matters. This entry is not a catalog card for Toxiproxy itself, and it is not a generic networking tool listing. It is specifically for failure injection during resilience testing and diagnostics. Integration points include Docker Compose test stacks, CI pipelines, language-specific Toxiproxy clients, and application test harnesses that need a scriptable HTTP API for changing network conditions mid-run. Upstream evidence is strong: official GitHub repo, MIT license, tagged releases, and active maintenance.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/simulate-network-failures-in-integration-tests-with-toxiproxy/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Toxiproxy binary or container from the official repository, then point application dependencies through the created proxies before running tests.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/simulate-network-failures-in-integration-tests-with-toxiproxy
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/Shopify/toxiproxy
+- Download the repository ZIP and extract `skills/simulate-network-failures-in-integration-tests-with-toxiproxy`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Run blocked-site browser tasks through anti-bot friendly sessions with C
 description: "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation."
 verification: "security_reviewed"
 source: "https://github.com/jo-inc/camofox-browser"
-author: "Jo, Inc."
-publisher_type: "organization"
 category:
   - "Browser Automation"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser
 
-Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.
+Use Camofox Browser when ordinary headless browser runs keep getting challenged, fingerprinted, or blocked and the agent still needs a repeatable browsing workflow. The upstream project is explicit that it is a browser automation server for AI agents, built around Camoufox, with accessibility snapshots, stable element references, cookie import, proxy support, session isolation, and API endpoints for agent-facing browser control.
 
-## Prerequisites
+Invoke this instead of using the product normally when the task is specifically to keep blocked-site browser automation moving, not merely to install another browser framework. The operator loop is concrete: start the server, create or resume a tab session, navigate, inspect a compact snapshot, click or type through stable refs, and reuse cookies or proxies when anti-bot friction appears.
 
-Node.js or Docker, Camofox Browser server, optional yt-dlp for transcript extraction
+The scope boundary is narrower than a plain browser or server listing. This skill is the anti-bot browser-task workflow for agents, not a generic browser product card or undifferentiated automation SDK entry.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository, run npm install and npm start for local use, or deploy with the provided Docker and Makefile flows. Then call the REST API or OpenClaw plugin tools against the running server.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/jo-inc/camofox-browser
+- Download the repository ZIP and extract `skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

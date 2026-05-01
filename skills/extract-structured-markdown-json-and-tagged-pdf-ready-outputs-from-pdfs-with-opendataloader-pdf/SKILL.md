@@ -3,8 +3,6 @@ title: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDF
 description: "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done."
 verification: "listed"
 source: "https://github.com/opendataloader-project/opendataloader-pdf"
-author: "opendataloader-project"
-publisher_type: "organization"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF
 
-Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done.
-
-## Prerequisites
-
-Python 3.10+, Java 11+, PDF inputs, optional hybrid-mode backend setup for complex pages or OCR-heavy jobs
+Use OpenDataLoader PDF when an agent needs to turn PDFs into structured outputs such as markdown, JSON with bounding boxes, or accessibility-oriented tagged-PDF artifacts rather than treating it as a general document platform. A user should invoke it when the task is PDF extraction, layout-aware parsing, or remediation preparation for downstream RAG and accessibility flows. That scope boundary, PDF-only structured extraction and tagging workflow, keeps this skill-shaped instead of reading like a generic parsing SDK listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the package from the documented pip path, confirm Java 11+ is available, then run the convert workflow against one or more PDFs to emit markdown, JSON, HTML, or the documented accessibility-oriented outputs.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://opendataloader.org
+- Download the repository ZIP and extract `skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

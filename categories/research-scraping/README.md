@@ -79,6 +79,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 16.4k | — |
 | [theHarvester OSINT Email and Subdomain Intelligence Gatherer](../../skills/theharvester-osint-email-subdomain-intelligence/) | 15.9k | — |
 | [Monolith Web Page Archiver and Single-File Bundler](../../skills/monolith-web-page-single-file-archiver/) | 14.9k | — |
+| [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | 13k | — |
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
 | [Turn a research idea into a draft paper workflow with AutoResearchClaw](../../skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | 11.5k | — |
@@ -126,7 +127,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
-| [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |

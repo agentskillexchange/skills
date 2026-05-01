@@ -3,8 +3,6 @@ title: "Monitor Claude Code and Codex local usage logs for spend, model mix, and
 description: "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files."
 verification: "security_reviewed"
 source: "https://github.com/ryoppippi/ccusage"
-author: "ryoppippi"
-publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -18,31 +16,35 @@ tool_ecosystem:
 
 # Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage
 
-Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files.
+Tool: ccusage. This skill gives an agent a concrete reporting job: read local coding-agent usage logs and summarize cost hotspots, model mix, and session burn patterns into something a human can act on.
 
-## Prerequisites
+When to use it: invoke this when you need budget reviews, local usage audits, or per-session cost triage for Claude Code or Codex runs. Using this skill is different from using the product normally because the workflow is operational rather than exploratory: ingest the logs, generate the report, and surface the sessions or models that deserve follow-up.
 
-Local Claude Code or Codex usage logs, ccusage, and shell access on the machine that stores the logs.
+Scope boundary: this is not a generic analytics dashboard listing and not a broad coding-agent platform entry. Its boundary is specific: analyze locally stored agent usage logs and turn them into cost and usage diagnostics with ccusage.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install ccusage using the package or binary method documented in the repository, point it at the local usage-log location for your coding agent, then run the report commands you need to summarize spend, model mix, and session usage.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/ryoppippi/ccusage#readme
+- Download the repository ZIP and extract `skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,7 +3,6 @@ title: "TypeScript AST Refactor"
 description: "Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations, extract-function, and dead code elimination across large codebases."
 verification: "security_reviewed"
 source: "https://github.com/dsherret/ts-morph"
-author: "David Sherret"
 category:
   - "Developer Tools"
 framework:
@@ -17,27 +16,31 @@ tool_ecosystem:
 
 # TypeScript AST Refactor
 
-Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations, extract-function, and dead code elimination across large codebases.
+TypeScript AST Refactor uses ts-morph to programmatically manipulate TypeScript abstract syntax trees for large-scale codebase transformations. It supports extract-function refactoring by analyzing variable scope and closure dependencies, rename-symbol operations that propagate across import/export boundaries, and dead code elimination by tracing reachability from entry points. The tool leverages the TypeScript Compiler API diagnostics to validate transformations before writing, ensuring type safety is preserved. It handles complex scenarios like generic type parameter inference, conditional types, and mapped types. Batch mode processes entire directories with configurable glob patterns, and a dry-run mode generates unified diffs for review. Integration with ESLint auto-fix rules ensures code style consistency after transformation.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install --save-dev ts-morph
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/typescript-ast-refactor-ts-morph
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://ts-morph.com/
+- Download the repository ZIP and extract `skills/typescript-ast-refactor-ts-morph`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

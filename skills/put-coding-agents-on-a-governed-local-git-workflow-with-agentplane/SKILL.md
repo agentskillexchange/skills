@@ -3,8 +3,6 @@ title: "Put coding agents on a governed local Git workflow with AgentPlane"
 description: "Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of opaque agent runs."
 verification: "listed"
 source: "https://github.com/basilisk-labs/agentplane"
-author: "basilisk-labs"
-publisher_type: "open_source_project"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Put coding agents on a governed local Git workflow with AgentPlane
 
-Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of opaque agent runs.
+Use AgentPlane when coding-agent work needs a governed repository workflow with visible task records, approvals, verification state, and deterministic closure. The project is explicitly a local CLI for agent-driven development inside an existing Git repository.
 
-## Prerequisites
-
-Node.js, Git repository, coding agent runtime used inside the repo
+Invoke this instead of a normal coding assistant session when the requirement is repo-native governance and auditability, not just freeform agent help. The scope boundary is clear: AgentPlane adds workflow control and recorded state around agent execution inside Git. It is not a generic IDE, model SDK, or hosted assistant listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install -g agentplane, then run agentplane init inside the target repository.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- http://agentplane.org/
+- Download the repository ZIP and extract `skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

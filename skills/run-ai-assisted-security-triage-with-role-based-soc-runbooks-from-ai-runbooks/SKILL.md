@@ -3,8 +3,6 @@ title: "Run AI-assisted security triage with role-based SOC runbooks from ai-run
 description: "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage."
 verification: "security_reviewed"
 source: "https://github.com/dandye/ai-runbooks"
-author: "Dan Dye"
-publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks
 
-Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage.
+Use ai-runbooks when the task is to guide an AI assistant through a defined security operations procedure such as alert triage, IOC enrichment, threat hunting, or incident-response handling. The upstream repository is explicit that it provides role-based guides, runbooks, incident plans, and shared rules-bank content for AI-assisted cybersecurity workflows.
 
-## Prerequisites
+Invoke this instead of using the product normally when you need a repeatable procedural layer for security work across supported assistants, not just a repository of general security notes. The operator workflow is concrete: choose the relevant persona or runbook, load the shared rules-bank content into the assistant environment, then work the investigation steps in a standardized sequence.
 
-Git repository checkout, a supported AI assistant configuration directory, security operations context
+The scope boundary is what keeps this publishable as a skill. This is not a generic security platform listing or a vague documentation repo card. It is the bounded workflow of running AI-assisted security triage against structured SOC playbooks and role definitions.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository, verify the rules_bank symlinks for the supported assistant directories, then load the relevant persona and runbook content into the assistant workflow as documented in the repository.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/dandye/ai-runbooks
+- Download the repository ZIP and extract `skills/run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -47,6 +47,9 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | 73.4k | — |
+| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | 59.4k | — |
+| [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | 59.4k | — |
+| [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | 59.4k | — |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | 59.4k | — |
 | [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | 59k | — |
 | [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | 59k | — |
@@ -127,12 +130,9 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
-| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
-| [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
-| [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | — | — |
 
 ---

@@ -3,8 +3,6 @@ title: "Run academic writing, analysis, and replication workflows with quality g
 description: "Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or replication packages with specialist-agent review and verification gates."
 verification: "security_reviewed"
 source: "https://github.com/pedrohcgs/claude-code-my-workflow"
-author: "pedrohcgs"
-publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow
 
-Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or replication packages with specialist-agent review and verification gates.
+This repository is specific enough to publish as a Claude Code skill because it is framed around a recurring academic operator workflow, not a generic configuration bundle. The agent takes a research deliverable such as a paper, slide deck, data analysis, or replication package through planning, specialist-agent execution, review, and verification. The source explicitly positions it as a ready-to-fork foundation for academic work with quality gates and replication protocols.
 
-## Prerequisites
-
-Claude Code, git; optional XeLaTeX, Quarto, R, Python 3, and GitHub CLI depending on workflow path
+Invoke this instead of using Claude Code normally when the task is an end-to-end academic deliverable that benefits from repeatable structure, review roles, and verification checks. The boundary matters: this is not a listing for Claude Code itself or for every tool in the repo. It is the academic deliverable workflow with review and replication safeguards.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Fork or clone the repository, run ./scripts/validate-setup.sh to confirm prerequisites, then start Claude Code in the project and use the provided academic workflow paths for papers, slides, analysis, or replication work.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://psantanna.com/claude-code-my-workflow/
+- Download the repository ZIP and extract `skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

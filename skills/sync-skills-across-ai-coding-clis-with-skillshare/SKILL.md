@@ -3,8 +3,6 @@ title: "Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with 
 description: "Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories."
 verification: "listed"
 source: "https://github.com/runkids/skillshare"
-author: "runkids"
-publisher_type: "individual"
 category:
   - "Integrations & Connectors"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare
 
-Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories.
-
-## Prerequisites
-
-Supported AI CLI targets, Skillshare binary
+Use Skillshare when a team maintains skills, agents, rules, or prompts in one place but runs more than one coding CLI. It keeps a canonical source directory and syncs those assets into Claude Code, Codex, OpenClaw, OpenCode, and other supported targets with filtering and audit features. Invoke this instead of using each product normally when the real job is cross-tool rollout and consistency of shared skill assets. The boundary is file-based skill and agent distribution across AI CLIs, not a generic marketplace or broad agent platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/sync-skills-across-ai-coding-clis-with-skillshare/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Skillshare binary with the upstream install script or Homebrew, place skills and agents in the canonical Skillshare directories, then run `skillshare sync` to materialize them into supported targets.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sync-skills-across-ai-coding-clis-with-skillshare
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://skillshare.runkids.cc
+- Download the repository ZIP and extract `skills/sync-skills-across-ai-coding-clis-with-skillshare`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

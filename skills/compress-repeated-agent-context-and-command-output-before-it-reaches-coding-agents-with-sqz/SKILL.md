@@ -3,8 +3,6 @@ title: "Compress repeated agent context and command output before it reaches cod
 description: "Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to Claude Code, Codex, Cursor, and related coding-agent tools."
 verification: "security_reviewed"
 source: "https://github.com/ojuschugh1/sqz"
-author: "Ojus Chugh"
-publisher_type: "Open Source Maintainer"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Compress repeated agent context and command output before it reaches coding agents with sqz
 
-Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to Claude Code, Codex, Cursor, and related coding-agent tools.
+Use sqz when an agent is wasting tokens on large command output, repeated file reads, or verbose diffs across an iterative coding session. It is especially useful in repo-scale work where the same context gets pulled multiple times and you want the agent to keep working with less context bloat instead of manually pruning prompts.
 
-## Prerequisites
-
-sqz CLI plus a supported coding-agent client such as Claude Code, Codex, Cursor, Windsurf, Cline, Gemini CLI, or OpenCode
+This is skill-shaped because the workflow is narrow and operational: install the hook, let sqz intercept tool output, and shrink or deduplicate what the agent receives. It is not a generic LLM utility catalog entry or a broad productivity app listing. Invoke it when the job is specifically to reduce agent context volume while preserving usable command and file output.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install via the project installer script or npm, then run sqz init (optionally with --only or --skip) to add the output-compression hooks to the supported agent clients you use.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://ojuschugh1.github.io/sqz/
+- Download the repository ZIP and extract `skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

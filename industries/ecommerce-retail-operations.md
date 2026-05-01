@@ -14,7 +14,7 @@ Catalog management, storefront automation, orders, inventory sync, marketplace s
 | [Medusa Commerce API and Store Operations Automation Skill](../skills/medusa-commerce-api-store-operations-automation-skill/) | Integrations & Connectors | 32.6k | — |
 | [Shopify Admin GraphQL Sync Agent](../skills/shopify-admin-graphql-sync-agent/) | Integrations & Connectors | 959 | 325.5k/wk |
 | [WooCommerce REST Order Manager](../skills/woocommerce-rest-order-manager/) | WordPress & CMS | — | — |
-| [WooCommerce Order Sync Agent](../skills/woocommerce-order-sync-agent/) | WordPress & CMS | — | — |
+| [WooCommerce Order Sync Agent](../skills/woocommerce-order-sync-agent/) | WordPress & CMS | 10.3k | — |
 | [WooCommerce REST Inventory Sync](../skills/woocommerce-rest-inventory-sync/) | WordPress & CMS | 10.2k | — |
 | [Product Review Sentiment Aggregator](../skills/product-review-sentiment-aggregator/) | Research & Scraping | — | — |
 | [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | Integrations & Connectors | 4.4k | 9.3M/wk |

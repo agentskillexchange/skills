@@ -3,41 +3,42 @@ title: "Systematic Debugging and Error Recovery"
 description: "Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work."
 verification: "listed"
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
-author: "addyosmani"
-publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "addyosmani/agent-skills"
+  github_stars: 17417
 ---
 
 # Systematic Debugging and Error Recovery
 
-Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work.
-
-## Prerequisites
-
-Agent runtime with skill support, project test and build commands, logs or error output, repository access
+Use this when tests fail, builds break, or runtime behavior stops matching expectations and you want an agent to follow a disciplined debugging flow instead of improvising. The agent applies a reproduce, localize, reduce, fix, and guard-against-regression sequence. The boundary is failure triage and recovery workflow execution, not a generic IDE, debugger, or product listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/systematic-debugging-and-error-recovery/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Copy this skill directory from the upstream repository into your agent's supported skills directory, then invoke it whenever a test, build, or runtime workflow fails and needs structured triage.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/systematic-debugging-and-error-recovery
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery
+- Download the repository ZIP and extract `skills/systematic-debugging-and-error-recovery`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

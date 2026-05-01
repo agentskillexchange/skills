@@ -113,6 +113,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
+| [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
@@ -121,7 +122,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |
-| [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | — |
 | [NPM Package Audit &#038; License Checker](../../skills/npm-package-audit-license-checker/) | — | — |
 | [NPM Package Audit Analyzer](../../skills/npm-package-audit-analyzer/) | — | — |
 | [NPM Package Audit Reference](../../skills/npm-package-audit-reference/) | — | — |

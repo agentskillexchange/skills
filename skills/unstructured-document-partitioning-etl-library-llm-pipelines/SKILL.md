@@ -3,8 +3,6 @@ title: "Unstructured Document Partitioning and ETL Library for LLM Pipelines"
 description: "Unstructured is an open-source library for ingesting and partitioning PDFs, HTML, Office documents, emails, and other unstructured inputs into structured elements and metadata. It is commonly used as a preprocessing layer for RAG, search, extraction, and downstream AI pipelines."
 verification: "security_reviewed"
 source: "https://github.com/Unstructured-IO/unstructured"
-author: "Unstructured"
-publisher_type: "Company"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -16,31 +14,37 @@ tool_ecosystem:
 
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines
 
-Unstructured is an open-source library for ingesting and partitioning PDFs, HTML, Office documents, emails, and other unstructured inputs into structured elements and metadata. It is commonly used as a preprocessing layer for RAG, search, extraction, and downstream AI pipelines.
+Unstructured is an open-source document processing library maintained by the Unstructured-IO/unstructured project. Its job is to turn raw documents and files into structured elements that downstream systems can actually use. According to the upstream documentation, the library supports ingesting and pre-processing PDFs, HTML, Word documents, images, email formats, and other file types so they can be partitioned into a standard set of elements and metadata.
 
-## Prerequisites
+That makes Unstructured a practical fit for agents and automation systems that need to prepare messy real-world content for retrieval, extraction, indexing, or analysis. Instead of forcing an agent to treat a complex PDF or office file as one opaque blob, Unstructured can produce typed document elements, preserve useful metadata, and route content through specialized partitioners. The official quickstart explicitly positions it for RAG applications, AI agents, model fine-tuning workflows, and similar downstream ML tasks.
 
-Python 3.11+
+For ASE, this skill is useful when an agent needs to convert source documents into JSON-like structured outputs, normalize heterogeneous file types before storage, or build ingestion pipelines that feed vector databases, search indexes, or summarization systems. Integration points include Python ETL jobs, document ingestion pipelines, local batch processing, and applications that need partitioned outputs before chunking or embedding. The upstream docs also note optional system dependencies such as libmagic-dev, poppler-utils, tesseract-ocr, and libreoffice for broader file-type coverage.
+
+Unstructured has strong adoption, active maintenance, official documentation, a published Python package, and a clear job-to-be-done. It belongs in the data extraction and transformation category because its primary value is reliable conversion of unstructured documents into structured, machine-usable building blocks.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/unstructured-document-partitioning-etl-library-llm-pipelines/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-pip install "unstructured[all-docs]"
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/unstructured-document-partitioning-etl-library-llm-pipelines
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.unstructured.io/
+- Download the repository ZIP and extract `skills/unstructured-document-partitioning-etl-library-llm-pipelines`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

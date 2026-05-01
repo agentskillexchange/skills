@@ -3,8 +3,6 @@ title: "Turn coding-agent transcripts into self-contained replay artifacts for r
 description: "Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen recordings."
 verification: "listed"
 source: "https://github.com/es617/claude-replay"
-author: "es617"
-publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay
 
-Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen recordings.
-
-## Prerequisites
-
-claude-replay CLI or container, transcript files from a supported coding agent, and local filesystem access to the session logs
+Use Claude Replay when an agent or operator needs to package an existing coding-agent session into a navigable replay for audit, handoff, demos, bug reports, or documentation, rather than using a general analytics product. The invoke moment is crisp: select one or more saved session transcripts, export a self-contained replay, and hand that artifact to a human reviewer. That scope boundary, replay generation from transcript files, keeps it skill-shaped instead of collapsing into a generic observability or agent platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install claude-replay from npm, run it against a supported session transcript or session ID, then export the generated HTML replay or open the web editor for review and packaging.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://es617.dev/claude-replay/
+- Download the repository ZIP and extract `skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Search Help Scout conversations and thread context before drafting suppo
 description: "Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context."
 verification: "security_reviewed"
 source: "https://github.com/drewburchfield/help-scout-mcp-server"
-author: "drewburchfield"
-publisher_type: "individual"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -18,31 +16,33 @@ tool_ecosystem:
 
 # Search Help Scout conversations and thread context before drafting support replies
 
-Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context.
+Use Help Scout MCP Server when an agent is assisting support work and needs prior conversations, ticket history, customer records, organization context, or full thread contents before summarizing a case or drafting a reply. It is especially useful when the value comes from gathering the right Help Scout context first, rather than having the agent guess from a single message.
 
-## Prerequisites
-
-MCP-compatible client and Help Scout private app credentials with read access to Mailboxes, Conversations, Customers, and Organizations. Optional Docker or Claude Desktop/Claude Code plugin install.
+This is skill-shaped because the scope stays inside a repeatable support-context retrieval workflow. It does not replace Help Scout itself, a general helpdesk platform, or outbound support automation. Invoke it when the agent needs to search and assemble Help Scout context before answering, escalating, or summarizing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Add the server to your MCP client with <code>npx help-scout-mcp-server</code>, set <code>HELPSCOUT_APP_ID</code> and <code>HELPSCOUT_APP_SECRET</code>, and grant the Help Scout private app read access to Mailboxes, Conversations, Customers, and Organizations. If you want the packaged navigator guidance, install the project’s Claude/Desktop plugin from the repository releases or marketplace instructions.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/drewburchfield/help-scout-mcp-server
+- Download the repository ZIP and extract `skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

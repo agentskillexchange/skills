@@ -65,6 +65,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | 11.6k | 20.3k/wk |
 | [Fumadocs React Documentation Framework and Docs Site Generator](../../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | 11.5k | 435/wk |
+| [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | 10.3k | — |
+| [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | 10.3k | — |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | 10.2k | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | 10.2k | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | 9.9k | — |
@@ -128,10 +130,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | — | — |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
-| [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
-| [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | — | — |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |

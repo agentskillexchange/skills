@@ -3,8 +3,6 @@ title: "Drive dependency and config bumps through declarative Updatecli pipeline
 description: "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot."
 verification: "security_reviewed"
 source: "https://github.com/updatecli/updatecli"
-author: "Updatecli contributors"
-publisher_type: "open_source_project"
 category:
   - "CI/CD Integrations"
 framework:
@@ -16,31 +14,47 @@ tool_ecosystem:
 
 # Drive dependency and config bumps through declarative Updatecli pipelines
 
-Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot.
+Best for: teams that want an agent to watch upstream versions, patch config files or manifests, and produce reviewable update changes across repositories without hard-coding one package manager workflow.
 
-## Prerequisites
+Updatecli is a declarative update policy engine. A policy file defines sources to discover a value, conditions to validate it, and targets to write the change. That makes it a strong fit for agent-driven maintenance runs where the goal is not just “check for updates” but “detect, validate, patch, and hand off a reviewable change set.”
 
-Updatecli binary, YAML policy file, access to the repositories or files you want to update
+When to invoke it
+Invoke this skill when you want an agent to keep Docker tags, Helm values, GitOps manifests, CI images, or version pins current through one reproducible policy run. It is especially useful when the update spans multiple files or requires gating logic before a change should be written.
+
+Scope boundary
+This is not a general product listing for the Updatecli platform. The skill boundary is a single operator workflow: run a declarative policy that discovers an upstream value, checks conditions, updates target files, and prepares the resulting change for review.
+
+Install notes
+
+- Install Updatecli from the project release page or one of the documented package methods.
+
+- Create an updatecli.yaml policy describing sources, conditions, and targets.
+
+- Run updatecli apply --config updatecli.yaml to execute the workflow.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Updatecli from the documented release or package method, write an updatecli YAML policy, then run `updatecli apply --config updatecli.yaml` against the target repository or workspace.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://www.updatecli.io
+- Download the repository ZIP and extract `skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

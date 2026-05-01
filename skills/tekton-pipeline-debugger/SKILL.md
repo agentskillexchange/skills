@@ -14,17 +14,47 @@ tool_ecosystem:
 
 # Tekton Pipeline Debugger
 
-Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API. Extracts step container logs, identifies parameter resolution errors, and suggests workspace volume fixes.
+Tekton Pipeline Debugger provides intelligent troubleshooting for failed Tekton CI/CD pipelines running on Kubernetes.
+
+How It Works
+The skill queries Kubernetes for PipelineRun and TaskRun resources, extracting status conditions, step container logs, and event histories. It correlates failures across pipeline stages to identify root causes, from parameter resolution errors to workspace volume mount issues.
+
+Key Features
+
+- Automatic extraction of step container logs from failed TaskRuns using kubectl logs with container selection
+
+- Parameter resolution debugging for unbound params, missing defaults, and type mismatches
+
+- Workspace volume troubleshooting for PVC binding failures, access mode conflicts, and storage class issues
+
+- Integration with Tekton Results API for historical failure pattern analysis
+
+Diagnostics
+Supports Tekton Pipelines v0.50+ and Tekton Results v0.7+. Detects common issues like missing ServiceAccount permissions, image pull failures, and resource quota exhaustion. Generates fix suggestions with kubectl patch commands.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/tekton-pipeline-debugger/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/tekton-pipeline-debugger
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/tekton-pipeline-debugger`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

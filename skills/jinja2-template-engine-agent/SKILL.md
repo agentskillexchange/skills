@@ -3,7 +3,6 @@ title: "Jinja2 Template Engine"
 description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
 verification: "security_reviewed"
 source: "https://github.com/pallets/jinja"
-author: "Pallets"
 category:
   - "Templates & Workflows"
 framework:
@@ -15,21 +14,37 @@ tool_ecosystem:
 
 # Jinja2 Template Engine
 
-Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
+The Jinja2 Template Engine skill provides automated template rendering using the Jinja2 templating language. It creates a sandboxed Environment with FileSystemLoader for template discovery and supports full template inheritance chains via extends and block directives.
+
+Core capabilities include variable injection from JSON/YAML data sources, macro expansion with parameterized includes, and custom filter registration using the Environment.filters API. The skill handles autoescaping for HTML output and supports Markup-safe string operations.
+
+Advanced features include async template rendering via Environment.enable_async(), template compilation to Python bytecode for performance, and internationalization support through the jinja2.ext.i18n extension with Babel message catalogs. Error handling provides detailed TemplateSyntaxError diagnostics with line numbers and source context.
+
+The skill can generate configuration files, email templates, documentation pages, and infrastructure-as-code manifests from parameterized templates.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/jinja2-template-engine-agent/
 
-## Documentation
+### Method 2, Git clone
 
-- https://jinja.palletsprojects.com/
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/jinja2-template-engine-agent
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/jinja2-template-engine-agent`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

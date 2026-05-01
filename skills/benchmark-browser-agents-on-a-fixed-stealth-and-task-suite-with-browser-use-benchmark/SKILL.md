@@ -3,8 +3,6 @@ title: "Benchmark browser agents on a fixed stealth and task suite with browser-
 description: "Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress."
 verification: "listed"
 source: "https://github.com/browser-use/benchmark"
-author: "browser-use"
-publisher_type: "organization"
 category:
   - "Browser Automation"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark
 
-Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress.
-
-## Prerequisites
-
-Python, uv, benchmark repository dependencies, required API keys for the judge model and selected browser provider, target browser agent configuration
+Use browser-use benchmark when the job is to measure browser-agent performance on a fixed evaluation suite, not to operate websites in production. It runs benchmark tasks and stealth checks across browser providers and model setups so you can compare reliability with the same harness each time. Invoke this instead of using browser-use normally when you need evidence about browser-agent quality before changing models, providers, or orchestration choices. The scope boundary is benchmark execution and comparison on fixed suites, not the broader browser-use automation library itself.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the benchmark repository, install dependencies with the documented uv workflow, populate the required .env variables, then run the provided evaluation commands for the main browser task suite or the stealth benchmark against the browser provider you want to compare.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/browser-use/benchmark#readme
+- Download the repository ZIP and extract `skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

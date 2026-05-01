@@ -3,8 +3,6 @@ title: "Simulate buyer and user personas to pressure-test ideas and messaging wi
 description: "Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research."
 verification: "listed"
 source: "https://github.com/microsoft/TinyTroupe"
-author: "Microsoft"
-publisher_type: "organization"
 category:
   - "Research & Scraping"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe
 
-Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research.
-
-## Prerequisites
-
-Python, pip, access to a supported LLM provider
+Use TinyTroupe when the task is to simulate defined personas and collect synthetic reactions to product ideas, messaging, ads, or prototype behavior. Invoke it instead of ordinary prompt chat when you need a repeatable persona-simulation workflow with configurable audiences, focus-group style interactions, and business-facing feedback from a chosen user perspective. The scope boundary is clear: this is a persona simulation workflow for research and product exploration, not a generic LLM framework listing and not a broad chatbot product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository or install the Python package in a virtual environment, configure model access, then define TinyPersons or TinyWorld scenarios to run persona simulations and collect outputs.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/microsoft/TinyTroupe#readme
+- Download the repository ZIP and extract `skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

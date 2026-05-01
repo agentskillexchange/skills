@@ -14,17 +14,54 @@ tool_ecosystem:
 
 # Rallly Open-Source Group Scheduling and Meeting Poll Platform
 
-Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface.
+Rallly is an open-source scheduling and collaboration platform built with Next.js, Prisma, tRPC, and TailwindCSS. It serves as a self-hostable alternative to Doodle, allowing teams and groups to find the best time to meet through a simple polling interface.
+
+How It Works
+Users create a poll with proposed dates and times for a meeting or event. Participants then vote on their availability without needing to create an account. The platform aggregates votes and highlights the optimal time slot that works for the most participants.
+
+Key Features
+
+- Create date-based polls for group scheduling without sign-up requirements for participants
+
+- Self-hostable with Docker for complete data ownership and privacy
+
+- Built on a modern TypeScript stack: Next.js frontend, Prisma ORM, tRPC for type-safe APIs, PostgreSQL database
+
+- Internationalized with community translations via Crowdin
+
+- Email notifications for poll updates and new responses
+
+- Clean, responsive UI with TailwindCSS
+
+Integration Points
+Rallly exposes a REST API that agents can use to programmatically create polls, add participants, check poll status, and retrieve results. Agents can automate the entire scheduling workflow: create a poll when a meeting is requested, distribute the link to participants, monitor responses, and announce the winning time slot.
+
+Agent Use Cases
+An AI agent can use Rallly to automate group scheduling. When someone asks to schedule a team meeting, the agent creates a Rallly poll with proposed times, shares the link via Slack or email, monitors for when enough participants have voted, and then creates a calendar event for the winning time. This eliminates the manual coordination overhead that plagues most scheduling workflows.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/rallly-group-scheduling-meeting-poll/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/rallly-group-scheduling-meeting-poll
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/rallly-group-scheduling-meeting-poll`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Review AI-generated code changes in a cleaner diff workflow with Diffity
 description: "Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes."
 verification: "listed"
 source: "https://github.com/kamranahmedse/diffity"
-author: "kamranahmedse"
-publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Review AI-generated code changes in a cleaner diff workflow with Diffity
 
-Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes.
-
-## Prerequisites
-
-Git repo, Node.js, browser, compatible coding agent for slash-command workflow
+Use Diffity when an agent has produced a patch and you want a deliberate review pass before accepting it. It opens a local GitHub-style diff UI, supports inline comments from you or the agent, and can feed unresolved review threads back into commands like `/diffity-resolve` for targeted follow-up edits. Invoke this instead of using a coding agent normally when the missing step is human review and comment-driven remediation, not raw code generation. The boundary is local diff inspection and review handoff for code changes, not a generic diff viewer or broad IDE replacement.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/review-ai-generated-code-changes-with-diffity/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `npm install -g diffity`, run `diffity` inside a git repo to open the local review UI, and optionally install the skill pack with `npx skills add kamranahmedse/diffity` for agent commands.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-ai-generated-code-changes-with-diffity
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://diffity.com
+- Download the repository ZIP and extract `skills/review-ai-generated-code-changes-with-diffity`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -73,6 +73,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | 34.5k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | 33.2k | — |
+| [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | 32.5k | — |
 | [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | 32.4k | — |
 | [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.4k | — |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | 30.3k | 19.6M/wk |
@@ -130,6 +131,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](../../skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | 6.4k | — |
 | [Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery](../../skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/) | 6.4k | — |
 | [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 6.4k | — |
+| [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | 6.2k | — |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | 6.2k | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | 6.1k | — |
 | [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | 6k | — |
@@ -191,8 +193,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
-| [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
-| [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |

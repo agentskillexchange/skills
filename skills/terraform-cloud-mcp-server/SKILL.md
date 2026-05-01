@@ -1,9 +1,8 @@
 ---
 title: "Terraform Cloud MCP Server"
-description: ""
+description: "Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving […]"
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
-author: "hashicorp"
 category:
   - "Developer Tools"
 framework:
@@ -15,21 +14,43 @@ tool_ecosystem:
 
 # Terraform Cloud MCP Server
 
+Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving the operational context that matters for real tasks.
 
+In practice, the skill gives an agent a stable interface to terraform so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on plans, applies, state, workspaces, providers, Sentinel, cloud runs, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+- Accesses plans, applies, state, workspaces, providers, Sentinel, cloud runs instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as cloud provisioning, diff review, policy checks, and infra CI/CD.
+
+Because this is exposed as an MCP skill, the tool surface is designed for agent-safe, structured calls instead of free-form shell usage. That means models can inspect schemas, call a narrow set of operations, and keep context across a longer workflow without re-implementing credentials or connection logic on every step. Key integration points include cloud provisioning, diff review, policy checks, and infra CI/CD. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/terraform-cloud-mcp-server/
 
-## Documentation
+### Method 2, Git clone
 
-- https://developer.hashicorp.com/terraform/docs
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/terraform-cloud-mcp-server
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/terraform-cloud-mcp-server`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

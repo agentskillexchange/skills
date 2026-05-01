@@ -3,8 +3,6 @@ title: "Diagnose pathological Git repository size before migration, CI, or contr
 description: "Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone, fetch, repack, or work in. Use it when an agent needs evidence about large blobs, oversized trees, too many refs, or other Git pathologies before proposing cleanup."
 verification: "security_reviewed"
 source: "https://github.com/github/git-sizer"
-author: "GitHub"
-publisher_type: "Company"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Diagnose pathological Git repository size before migration, CI, or contributor onboarding
 
-Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone, fetch, repack, or work in. Use it when an agent needs evidence about large blobs, oversized trees, too many refs, or other Git pathologies before proposing cleanup.
+This skill uses git-sizer to inspect a local repository and explain why it has become slow, fragile, or expensive to operate. The tool computes size-related metrics across objects, trees, refs, blobs, path lengths, and history structure, then flags the areas most likely to create operational pain. For an agent, that turns an unfocused complaint like “this repo is miserable to clone” into a concrete diagnostic workflow with measurable findings.
 
-## Prerequisites
+Invoke this before migrating a repository to a new host, before enabling heavier CI on a monorepo, before asking external contributors to clone it, or before deciding whether Git LFS, history rewriting, or repo splitting is justified. An agent can run the tool on a full non-shallow clone, interpret the flagged sections, and translate them into next actions such as pruning stale refs, moving large binary assets to Git LFS, rewriting history to remove oversized blobs, or sharding giant directories. It is especially useful when the team needs to know which class of Git problem they actually have instead of applying random cleanup folklore.
 
-Git 2.6 or newer and a full non-shallow clone of the repository being analyzed
+The scope boundary is clear. This is not a Git hosting platform, not a backup tool, and not a general repository maintenance suite. It does one narrow job well: diagnose repository size pathologies so later remediation work is targeted. Integration points include migration runbooks, repository health checks, Git LFS adoption decisions, git-filter-repo cleanup work, and CI guardrails that fail when repositories cross size thresholds that hurt developer experience.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Download the ZIP for your platform from https://github.com/github/git-sizer/releases, unzip it, and move git-sizer into your PATH
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/github/git-sizer
+- Download the repository ZIP and extract `skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

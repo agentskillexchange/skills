@@ -3,8 +3,6 @@ title: "Run AI coding agents in isolated containers and compare their behavior s
 description: "Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard."
 verification: "security_reviewed"
 source: "https://github.com/VibePod/vibepod-cli"
-author: "VibePod"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI
 
-Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard.
+VibePod CLI runs supported AI coding agents in isolated Docker containers through a single vp interface. It can start an agent run, keep per-agent metrics locally, track HTTP traffic, and expose a dashboard for side-by-side comparison.
 
-## Prerequisites
+Invoke this when you need controlled agent execution, reproducible isolation, or comparative evaluation across agents. It is more appropriate than using a single agent normally when you want to benchmark behavior, inspect local telemetry, compare tools on the same machine, or keep runs separated inside containers.
 
-Docker plus one of the supported AI coding agents such as Claude, Codex, Gemini, Copilot, Devstral, OpenCode, or Auggie
+The scope boundary is orchestrated multi-agent evaluation and isolation. This is not a generic coding-agent catalog entry. The concrete workflow is running, observing, and comparing containerized agent sessions through one operator surface.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with pip install vibepod, then run commands such as vp run claude, vp run codex, and vp logs start to launch agents and inspect the local dashboard.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://vibepod.dev/docs/
+- Download the repository ZIP and extract `skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

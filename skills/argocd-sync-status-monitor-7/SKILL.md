@@ -14,17 +14,35 @@ tool_ecosystem:
 
 # ArgoCD Sync Status Monitor
 
-Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK.
+The ArgoCD Sync Status Monitor provides continuous oversight of GitOps deployments managed by ArgoCD. It connects to the ArgoCD server via its REST API (v1/applications) and the gRPC gateway to fetch real-time application sync and health status.
+
+The skill performs deep comparison between desired Git state and live Kubernetes cluster manifests, detecting configuration drift including resource count mismatches, spec changes, and missing finalizers. It uses the ArgoCD diff engine to generate human-readable summaries of what changed.
+
+When drift or degraded health is detected, alerts route through the Slack Bolt SDK (app.message) with structured Block Kit messages showing affected resources, sync wave details, and one-click re-sync buttons via Slack interactive components. The monitor supports multi-cluster ArgoCD installations and respects RBAC project scoping. It caches application trees using Redis to minimize API calls during high-frequency polling intervals.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/argocd-sync-status-monitor-7
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/argocd-sync-status-monitor-7`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

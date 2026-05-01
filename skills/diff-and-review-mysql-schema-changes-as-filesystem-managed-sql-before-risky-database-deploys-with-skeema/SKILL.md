@@ -3,8 +3,6 @@ title: "Diff and review MySQL schema changes as filesystem-managed SQL before ri
 description: "Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow."
 verification: "listed"
 source: "https://github.com/skeema/skeema"
-author: "skeema"
-publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema
 
-Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow.
-
-## Prerequisites
-
-Skeema CLI, network access to the target MySQL or MariaDB instances, credentials with schema review privileges, and a repository or filesystem location for schema files
+Use Skeema when an agent needs to manage MySQL or MariaDB schema as reviewable files, compare intended changes against live databases, and stage safe deploys. A user should invoke this instead of using the database normally when the task is schema pull, diff, lint, and controlled push, not ad hoc querying or generic administration. The scope boundary is crisp and skill-shaped: filesystem-backed schema change review and deployment for MySQL-family databases, not a plain database product or migration framework listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Skeema from the upstream binary or package instructions, configure credentials and the .skeema settings for the target databases, then use the documented pull, diff, lint, and push commands to manage reviewed schema changes.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://www.skeema.io/docs/
+- Download the repository ZIP and extract `skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

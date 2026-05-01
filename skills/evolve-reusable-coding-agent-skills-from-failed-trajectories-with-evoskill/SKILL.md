@@ -3,8 +3,6 @@ title: "Evolve reusable coding-agent skills from failed trajectories with EvoSki
 description: "Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline."
 verification: "security_reviewed"
 source: "https://github.com/sentient-agi/EvoSkill"
-author: "Sentient"
-publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Evolve reusable coding-agent skills from failed trajectories with EvoSkill
 
-Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline.
+Use EvoSkill when the job is to turn repeated coding-agent failures into reusable skills instead of fixing prompts by hand one task at a time. The operator workflow is narrow and publishable: point EvoSkill at a supported coding agent and task set, induce candidate skills from failures, evaluate them, and keep the versions that measurably outperform the baseline.
 
-## Prerequisites
-
-Python environment, a supported coding agent such as Claude Code, OpenCode, OpenHands, Goose, or Codex CLI, and a benchmark or task set to optimize against
+The scope boundary is what saves this from being a generic product card. This is not a broad agent framework listing or model marketplace entry. It is a concrete failed-trajectory-to-skill-improvement loop for coding agents, with benchmarking and selection built into the workflow.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Follow the repository Quickstart to install EvoSkill, connect a supported coding agent, and run the evaluation loop against your chosen benchmark or task set.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/sentient-agi/EvoSkill
+- Download the repository ZIP and extract `skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Run security audits and variant analysis workflows in Claude Code with T
 description: "Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding assistance."
 verification: "listed"
 source: "https://github.com/trailofbits/skills"
-author: "Trail of Bits"
-publisher_type: "company"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills
 
-Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding assistance.
-
-## Prerequisites
-
-Claude Code with plugin marketplace support, the Trail of Bits skills repository or marketplace install, and whatever upstream tools a selected security skill requires such as Semgrep, CodeQL, SARIF tooling, Burp exports, or language-specific analyzers.
+Use Trail of Bits Skills when an agent needs a security-focused workflow inside Claude Code, especially vulnerability research, differential review, variant analysis, Semgrep rule work, false-positive verification, or fix validation. Invoke it when the operator needs a repeatable security procedure and supporting prompts, not when they are simply using Claude Code as a general coding assistant. The scope boundary is clear: this is a curated security workflow pack for audit and verification jobs, not a generic plugin marketplace card or broad software engineering toolkit.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Add the marketplace with /plugin marketplace add trailofbits/skills, then install the needed skill from the plugin menu or by name. For Codex-native use, clone the repository and run the documented .codex install script so the sidecar skills tree becomes available locally.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/trailofbits/skills#readme
+- Download the repository ZIP and extract `skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

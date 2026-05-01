@@ -3,8 +3,6 @@ title: "Search NotebookLM notebooks, sources, and generated study artifacts from
 description: "Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP workflow."
 verification: "security_reviewed"
 source: "https://github.com/jacob-bd/notebooklm-mcp-cli"
-author: "jacob-bd"
-publisher_type: "individual"
 category:
   - "Research & Scraping"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Search NotebookLM notebooks, sources, and generated study artifacts from agents
 
-Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP workflow.
+notebooklm-mcp-cli gives an agent programmatic access to Google NotebookLM through an MCP server and companion CLI. It can list or create notebooks, add URLs, files, Drive items, or text as sources, run notebook queries that persist into NotebookLM, kick off research or studio artifacts such as audio and slides, and pull results back into a broader research workflow.
 
-## Prerequisites
-
-A NotebookLM account, browser-based authentication or cookie import, Python tooling via uv, pip, or pipx, and an MCP-compatible client if you want agent-side access.
+The scope boundary is clear enough to be skill-shaped: this is for agent-side NotebookLM research operations, not a generic Google product card, not a broad browser automation workaround, and not a general note-taking platform listing. Invoke it when an agent needs NotebookLM’s source-grounded notebook workflows inside a repeatable research process, not when a human can just use the NotebookLM web UI directly.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Install the unified package with <code>uv tool install notebooklm-mcp-cli</code>, <code>pip install notebooklm-mcp-cli</code>, or <code>pipx install notebooklm-mcp-cli</code>. Run <code>nlm login</code> to authenticate, then configure your client with <code>nlm setup add claude-code</code>, <code>nlm setup add cursor</code>, <code>nlm setup add gemini</code>, or point it directly at the <code>notebooklm-mcp</code> executable.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/MCP_GUIDE.md
+- Download the repository ZIP and extract `skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

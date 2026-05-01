@@ -3,8 +3,6 @@ title: "Nightwatch.js Integrated Browser and Mobile Testing Framework"
 description: "A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution."
 verification: "security_reviewed"
 source: "https://github.com/nightwatchjs/nightwatch"
-author: "nightwatchjs"
-publisher_type: "Open Source Project"
 category:
   - "Browser Automation"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Nightwatch.js Integrated Browser and Mobile Testing Framework
 
-A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution.
+Nightwatch.js Integrated Browser and Mobile Testing Framework is a source-backed ASE skill built on Nightwatch, the Node.js testing framework maintained in the nightwatchjs/nightwatch repository and documented at nightwatchjs.org. Nightwatch uses the W3C WebDriver API and is designed for end-to-end browser automation, but its current platform also covers component testing, API checks, accessibility checks, visual assertions, and mobile app testing through Appium-backed flows. That gives agents a real automation surface with broad coverage instead of a vague promise of UI testing.
 
-## Prerequisites
+The concrete job-to-be-done is reliable scripted verification of web and mobile experiences. An agent can use Nightwatch to open a browser, authenticate into an app, click through multi-step workflows, wait for UI state changes, inspect DOM assertions, verify API responses during page interaction, capture screenshots, and report deterministic pass or fail outcomes. Teams can also use it for regression suites, smoke tests before deployment, accessibility spot checks, component-level verification, and browser-driven debugging when a bug report needs to be reproduced from code.
 
-Node.js
+Integration points are straightforward for JavaScript teams. Nightwatch installs from npm, runs in local development and CI, works with major browsers and cloud grids, and can sit alongside Appium, BrowserStack, Selenium infrastructure, and standard Node.js test pipelines. The upstream project has a real GitHub repository, npm package, official documentation, tagged releases, and active maintenance, which clears the ASE intake gate cleanly. For ASE, this skill is useful because it anchors agent behavior to a concrete, maintained browser and mobile testing framework with a clear operational role.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/nightwatchjs-integrated-browser-mobile-testing-framework/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm init nightwatch@latest
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nightwatchjs-integrated-browser-mobile-testing-framework
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://nightwatchjs.org/guide
+- Download the repository ZIP and extract `skills/nightwatchjs-integrated-browser-mobile-testing-framework`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

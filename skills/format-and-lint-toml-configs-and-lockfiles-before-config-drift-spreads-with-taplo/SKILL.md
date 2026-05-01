@@ -3,8 +3,6 @@ title: "Format and lint TOML configs and lockfiles before config drift spreads w
 description: "Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable."
 verification: "listed"
 source: "https://github.com/tamasfe/taplo"
-author: "tamasfe"
-publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Format and lint TOML configs and lockfiles before config drift spreads with Taplo
 
-Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and reviewable.
+Use Taplo when an agent needs to format, lint, or validate TOML-heavy repositories such as Rust workspaces, Python tool configs, CI metadata, or lockfile-driven projects. It is strongest when the real job is restoring consistency across many TOML files before review, release, or automated edits continue.
 
-## Prerequisites
-
-Taplo CLI and a repository containing TOML configs, manifests, or lockfiles.
+A user should invoke this instead of editing TOML by hand or treating it as generic text when the task is artifact-specific TOML normalization and validation. The scope boundary is explicit and skill-shaped: Taplo focuses on TOML parsing, formatting, and validation, not general code formatting, package publishing, or framework management.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Install Taplo from the published binaries or with <code>cargo install taplo-cli --locked</code>, then run commands such as <code>taplo fmt</code>, <code>taplo lint</code>, or <code>taplo check</code> in the target repository or against specific TOML files.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://taplo.tamasfe.dev/
+- Download the repository ZIP and extract `skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

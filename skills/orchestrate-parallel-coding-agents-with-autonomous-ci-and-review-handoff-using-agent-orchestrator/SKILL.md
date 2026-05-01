@@ -3,8 +3,6 @@ title: "Orchestrate parallel coding agents with autonomous CI and review handoff
 description: "Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically."
 verification: "listed"
 source: "https://github.com/ComposioHQ/agent-orchestrator"
-author: "Composio"
-publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator
 
-Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically.
-
-## Prerequisites
-
-Node.js 20+, Git 2.25+, tmux, GitHub CLI
+Use Agent Orchestrator when one coding agent session is not enough and the real job is supervising many parallel repo workers with clean branch isolation and feedback routing. The tool launches an orchestrator that spawns agent workers, assigns each one its own worktree and PR lane, then feeds CI failures and review comments back into the correct loop. The scope boundary is strong: this is not a generic dashboard or coding-agent marketplace, it is a concrete multi-agent repo execution workflow with autonomous handoff around PRs and CI.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the CLI with `npm install -g @aoagents/ao`, then run `ao start <repo>` from a local repository or GitHub URL and adjust `agent-orchestrator.yaml` if you need custom runtimes, agents, or reaction rules.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/ComposioHQ/agent-orchestrator
+- Download the repository ZIP and extract `skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

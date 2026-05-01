@@ -1,9 +1,8 @@
 ---
 title: "Firebase — Google Application Development Platform"
-description: "Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
+description: "Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
 verification: "listed"
 source: "https://github.com/firebase/firebase-js-sdk"
-author: "Google / Firebase"
 category:
   - "Integrations & Connectors"
 framework:
@@ -15,31 +14,31 @@ tool_ecosystem:
 
 # Firebase — Google Application Development Platform
 
-Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
-
-## Prerequisites
-
-Node.js 18+, npm, Firebase CLI, Google Cloud account
+Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/firebase-google-app-development-platform/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install -g firebase-tools && firebase login
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/firebase-google-app-development-platform
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://firebase.google.com/docs
+- Download the repository ZIP and extract `skills/firebase-google-app-development-platform`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Run and lifecycle-manage MCP servers in isolated environments with ToolH
 description: "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes."
 verification: "security_reviewed"
 source: "https://github.com/stacklok/toolhive"
-author: "Stacklok"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle
 
-Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes.
+This skill is for operators who need a repeatable way to run MCP servers with isolation, policy, and lifecycle controls. It covers the concrete workflow of selecting MCP servers, launching them in isolated runtimes, connecting approved clients, and keeping the local or cluster-side tool catalog manageable over time.
 
-## Prerequisites
+Invoke this instead of using MCP servers one by one when the real problem is server sprawl, inconsistent local setup, or missing guardrails around who can run what. It is especially useful when teams need a governed MCP runtime for Claude Code, Cursor, Copilot, or other MCP-capable clients.
 
-ToolHive CLI or desktop app, Docker or Podman for local runtimes, optional Kubernetes for cluster deployment, an MCP-capable client
+The scope boundary is specific: this is not a generic MCP explainer or a generic container platform listing. It is about operating MCP server lifecycle and isolation through ToolHive as the user-facing control plane.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install ToolHive, choose the local or Kubernetes quickstart, add the MCP servers you want to run, and connect your MCP-capable client to the ToolHive-managed endpoint instead of starting each server manually.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/stacklok/toolhive
+- Download the repository ZIP and extract `skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

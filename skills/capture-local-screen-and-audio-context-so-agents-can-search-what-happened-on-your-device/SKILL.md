@@ -3,8 +3,6 @@ title: "Capture local screen and audio context so agents can search what happene
 description: "Use Screenpipe when an agent needs private, local-first memory of what you saw or heard on your computer, including searchable screen text, app context, and transcripts, instead of relying on a chat-only memory layer."
 verification: "listed"
 source: "https://github.com/screenpipe/screenpipe"
-author: "screenpipe"
-publisher_type: "organization"
 category:
   - "Media & Transcription"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Capture local screen and audio context so agents can search what happened on your device
 
-Use Screenpipe when an agent needs private, local-first memory of what you saw or heard on your computer, including searchable screen text, app context, and transcripts, instead of relying on a chat-only memory layer.
-
-## Prerequisites
-
-Screenpipe desktop app or source build, local screen and audio permissions, sufficient local storage, and optionally an MCP-compatible agent client
+Use Screenpipe when the missing context lives on the user’s desktop rather than inside the chat thread. It continuously captures screen changes and audio locally, extracts OCR and accessibility text, builds searchable history, and exposes that memory to automations, pipes, and MCP-aware agents that need to recall what happened on the machine. The scope boundary is strong enough to be skill-shaped: this is a local screen-and-audio context capture workflow for agent recall and automation, not a generic personal AI product listing and not merely a meeting recorder card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Screenpipe from the upstream desktop releases on macOS or Windows, or build from source on Linux, grant the requested screen and audio permissions, then use its local search, pipes, or MCP integration to feed desktop context into agent workflows.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.screenpi.pe
+- Download the repository ZIP and extract `skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

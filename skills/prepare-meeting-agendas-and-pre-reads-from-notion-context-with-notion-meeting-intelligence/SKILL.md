@@ -3,41 +3,42 @@ title: "Prepare meeting agendas and pre-reads from Notion context with notion-me
 description: "Pull relevant Notion context, tailor an agenda to attendees and decisions, and assemble a structured pre-read for an upcoming meeting."
 verification: "listed"
 source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence"
-author: "OpenAI"
-publisher_type: "organization"
 category:
   - "Calendar, Email & Productivity"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "openai/skills"
+  github_stars: 17293
 ---
 
 # Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence
 
-Pull relevant Notion context, tailor an agenda to attendees and decisions, and assemble a structured pre-read for an upcoming meeting.
-
-## Prerequisites
-
-Codex, Notion MCP connection, access to the relevant Notion meeting notes and workspace pages
+Use notion-meeting-intelligence when the agent should gather relevant Notion context, choose the right meeting template, and produce a tailored agenda or pre-read for a specific meeting. Invoke it instead of using Notion as a plain document store when you need a repeatable meeting-prep workflow with attendee-aware framing, supporting links, and optional outside research. The scope boundary keeps it skill-shaped: meeting preparation and materials assembly for a defined meeting, not a generic Notion workspace listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Use the curated notion-meeting-intelligence skill from the openai/skills catalog, connect Notion MCP for Codex, then run it with the meeting objective, attendees, and source context so it can draft the agenda and pre-read in Notion.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-meeting-intelligence/SKILL.md
+- Download the repository ZIP and extract `skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

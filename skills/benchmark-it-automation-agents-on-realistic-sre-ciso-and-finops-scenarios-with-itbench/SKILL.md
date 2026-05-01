@@ -3,8 +3,6 @@ title: "Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenar
 description: "Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations."
 verification: "listed"
 source: "https://github.com/itbench-hub/ITBench"
-author: "itbench-hub"
-publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench
 
-Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations.
-
-## Prerequisites
-
-Python environment, benchmark dependencies, access to supported scenario environments or self-hosted setup tooling, target agent implementation
+Use ITBench when an agent team needs a pre-rollout evaluation on realistic IT automation tasks instead of relying on demos or ad hoc smoke tests. The workflow is specific: deploy or access the benchmark scenarios, run an agent against SRE, CISO, or FinOps cases, and compare outcomes with interpretable metrics. Invoke this instead of using the underlying agent stack normally when the question is whether it can handle realistic IT incidents and operations safely enough to trust. The scope boundary is benchmarked IT-automation evaluation, not a general agent platform or generic enterprise product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Follow the repository setup instructions for the self-hosted benchmark environment, configure the required scenario tooling and agent runner, then execute the documented evaluation workflow against the SRE, CISO, or FinOps scenarios.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/itbench-hub/ITBench#readme
+- Download the repository ZIP and extract `skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

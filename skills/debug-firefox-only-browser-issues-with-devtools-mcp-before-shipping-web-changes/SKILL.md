@@ -3,8 +3,6 @@ title: "Debug Firefox-only browser issues with DevTools MCP before shipping web 
 description: "Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture screenshots, and automate reproduction steps in Firefox instead of relying on Chrome-first tooling."
 verification: "security_reviewed"
 source: "https://github.com/mozilla/firefox-devtools-mcp"
-author: "Mozilla"
-publisher_type: "company"
 category:
   - "Browser Automation"
 framework:
@@ -18,31 +16,33 @@ tool_ecosystem:
 
 # Debug Firefox-only browser issues with DevTools MCP before shipping web changes
 
-Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture screenshots, and automate reproduction steps in Firefox instead of relying on Chrome-first tooling.
+This skill is for browser debugging work that specifically needs Firefox. An agent can launch or attach to Firefox, inspect pages, read console and network activity, take snapshots and screenshots, and reproduce UI issues through a DevTools-oriented MCP surface. That makes it a practical fit for web bugs that only show up in Firefox, extension debugging, standards-compliance checks, and cross-browser verification before a change ships.
 
-## Prerequisites
-
-Node.js 20.19+; a local Firefox 100+ installation; an MCP-compatible client such as Claude Code, Claude Desktop, Cursor, or Cline.
+The scope boundary is tight: this is not a generic browser platform card or a catch-all automation framework entry. The job is to investigate and reproduce Firefox browser behavior through an MCP-compatible debugging workflow. Invoke it when the missing piece is Firefox-aware inspection and reproduction, not when you just need a general-purpose browser SDK or a Chrome-based debugging stack.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Use <code>npx firefox-devtools-mcp@latest</code> for the recommended install path, or add it directly to your MCP client config. For Claude Code, run <code>claude mcp add firefox-devtools npx firefox-devtools-mcp@latest</code>. Optional flags like <code>--headless</code>, <code>--viewport</code>, <code>--start-url</code>, and <code>--connect-existing</code> let you tune the Firefox session for debugging or attach to a real browser profile.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/mozilla/firefox-devtools-mcp
+- Download the repository ZIP and extract `skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

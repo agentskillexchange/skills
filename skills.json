@@ -26609,7 +26609,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "firebase"
+        "tool": "firebase",
+        "github_stars": 13014
       }
     },
     {
@@ -27067,7 +27068,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 59426
       }
     },
     {
@@ -27276,7 +27278,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 32487
       }
     },
     {
@@ -27853,7 +27856,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 6198
       }
     },
     {
@@ -28085,7 +28089,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10271
+      }
     },
     {
       "slug": "aws-cloudwatch-insights-agent",
@@ -28751,7 +28758,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 59426
       }
     },
     {
@@ -28766,7 +28774,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 59426
       }
     },
     {
@@ -28885,7 +28894,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10271
+      }
     },
     {
       "slug": "gutenberg-block-pattern-generator",
@@ -32486,7 +32498,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "npm_weekly_downloads": 17124859
+      }
     },
     {
       "slug": "openapi-spec-validator-docs-generator",

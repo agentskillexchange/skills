@@ -3,7 +3,6 @@ title: "CDP Network Interception Logger"
 description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
 verification: "security_reviewed"
 source: "https://github.com/ChromeDevTools/devtools-protocol"
-author: "ChromeDevTools"
 category:
   - "Browser Automation"
 framework:
@@ -17,19 +16,31 @@ tool_ecosystem:
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
 
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
+
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/cdp-network-interception-logger/
 
-## Documentation
+### Method 2, Git clone
 
-- https://chromedevtools.github.io/devtools-protocol/
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/cdp-network-interception-logger
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/cdp-network-interception-logger`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

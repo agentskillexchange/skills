@@ -3,8 +3,6 @@ title: "Wrap local coding agents in deny-by-default least-privilege sandboxes wi
 description: "Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default."
 verification: "listed"
 source: "https://github.com/GreyhavenHQ/greywall"
-author: "GreyhavenHQ"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall
 
-Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default.
-
-## Prerequisites
-
-Greywall CLI, local shell access, a supported local coding agent such as Claude Code, Codex, Cursor, Aider, Gemini CLI, or OpenCode, Linux or macOS host
+Use Greywall when the operator needs to launch a local coding-agent CLI under a deny-by-default sandbox before granting it normal host access, not when they are merely browsing a sandbox product. The invoke moment is concrete: start the agent through Greywall, apply or learn a least-privilege profile, and review blocked filesystem, network, or command behavior as the run proceeds. That scope boundary, local least-privilege wrapping of agent CLIs with learned profiles and enforced deny rules, is specific enough to publish as a skill rather than a generic sandbox listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Greywall with the documented Homebrew, install script, or Go flow, verify platform dependencies with greywall check, then launch the target agent through Greywall and optionally use learning mode to generate a least-privilege profile.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.greywall.io/greywall/platform-support
+- Download the repository ZIP and extract `skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

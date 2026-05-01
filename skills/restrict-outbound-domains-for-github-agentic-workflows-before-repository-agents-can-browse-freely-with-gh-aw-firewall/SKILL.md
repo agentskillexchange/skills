@@ -3,8 +3,6 @@ title: "Restrict outbound domains for GitHub Agentic Workflows before repository
 description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access."
 verification: "listed"
 source: "https://github.com/github/gh-aw-firewall"
-author: "GitHub"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall
 
-Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access.
-
-## Prerequisites
-
-Docker 20.10+, Docker Compose v2, Linux host or compatible runtime
+Use gh-aw-firewall when the job is specifically to harden GitHub Agentic Workflows with network policy before those agents are allowed to operate in CI or automation lanes. It wraps the command in a Docker sandbox, pushes HTTP and HTTPS through an allowlisted proxy, and can keep LLM API keys in a sidecar so they never enter the agent process. The scope boundary is narrow and publishable: this is a GitHub Agentic Workflows firewall workflow, not a generic container platform or broad GitHub product listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with the upstream installer, for example `curl -sSL https://raw.githubusercontent.com/github/gh-aw-firewall/main/install.sh | sudo bash`, then run `awf --allow-domains <domain-list> -- <your-agentic-workflow-command>`.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.github.com/gh-aw-firewall/
+- Download the repository ZIP and extract `skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

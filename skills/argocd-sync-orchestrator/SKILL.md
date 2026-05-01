@@ -14,17 +14,35 @@ tool_ecosystem:
 
 # ArgoCD Sync Orchestrator
 
-Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes.
+The ArgoCD Sync Orchestrator skill automates GitOps deployment workflows through the Argo CD platform. It uses the argocd CLI and REST API (v1alpha1) to manage application synchronization, health monitoring, and rollback operations.
+
+The skill implements progressive delivery patterns by integrating with Argo Rollouts for canary and blue-green deployment strategies. It monitors Kubernetes readiness and liveness probes to verify deployment health before promoting new versions.
+
+Key capabilities include multi-cluster sync coordination, automatic drift detection and remediation, and integration with notification services like Slack and PagerDuty for deployment status updates. The skill supports Kustomize and Helm chart rendering, manages application sets for multi-tenant environments, and handles sync waves and hooks for complex deployment ordering.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/argocd-sync-orchestrator/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/argocd-sync-orchestrator
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/argocd-sync-orchestrator`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

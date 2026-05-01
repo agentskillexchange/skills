@@ -3,8 +3,6 @@ title: "Reproduce SQL injection paths and map database takeover options with sql
 description: "Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up."
 verification: "security_reviewed"
 source: "https://github.com/sqlmapproject/sqlmap"
-author: "sqlmapproject"
-publisher_type: "open_source_project"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Reproduce SQL injection paths and map database takeover options with sqlmap
 
-Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up.
+Use sqlmap when an authorized security review already has a suspicious request, parameter, or captured HTTP transaction and needs to confirm whether SQL injection is real, reproducible, and materially exploitable. The upstream project is explicit about the workflow: automate detection, fingerprint the backend database, and enumerate impact.
 
-## Prerequisites
-
-Python, authorized target URL or captured HTTP request, operator approval for security testing
+Invoke this instead of manual request replay when the goal is structured confirmation and evidence gathering for a suspected SQL injection path, not broad application scanning or generic database administration. The scope boundary is tight: sqlmap reproduces and characterizes SQL injection on authorized targets. It is not a general database client, security platform, or web framework listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the upstream repository or use a packaged install, then run sqlmap.py against an authorized request or URL.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- http://sqlmap.org
+- Download the repository ZIP and extract `skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

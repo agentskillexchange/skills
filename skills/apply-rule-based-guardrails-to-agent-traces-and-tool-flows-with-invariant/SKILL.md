@@ -3,8 +3,6 @@ title: "Apply rule-based guardrails to agent traces and tool flows with Invarian
 description: "Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules."
 verification: "listed"
 source: "https://github.com/invariantlabs-ai/invariant"
-author: "Invariant Labs"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Apply rule-based guardrails to agent traces and tool flows with Invariant
 
-Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules.
-
-## Prerequisites
-
-Python environment or Invariant Gateway deployment, target LLM or MCP-enabled agent workflow, guardrail rules or policies, sample traces or live requests to evaluate
+Use Invariant when the job is to write and evaluate explicit guardrail rules that inspect tool-call sequences or message traces and block unsafe agent behavior before or during execution, not when a team just wants a general security product. The workflow is concrete: place Invariant between the agent and its MCP or LLM boundary, define rules, run traces through the policy engine, and inspect violations or blocked flows. That scope boundary, trace-aware guardrail enforcement for agent actions, keeps this publishable as a skill instead of a generic SDK or platform card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the upstream package or gateway from the documented instructions, define guardrail rules for the target workflow, then run Invariant inline as a proxy or locally against captured traces to review and enforce violations.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://invariantlabs-ai.github.io/docs/mcp-scan/guardrails-reference/
+- Download the repository ZIP and extract `skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

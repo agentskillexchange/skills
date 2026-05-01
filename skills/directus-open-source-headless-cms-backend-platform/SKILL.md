@@ -16,17 +16,43 @@ tool_ecosystem:
 
 # Directus Open-Source Headless CMS and Backend Platform
 
-Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into full-featured backends with authentication, file storage, and real-time subscriptions.
+Directus is a powerful open-source data platform with over 34,500 GitHub stars that provides an instant API layer and admin interface for any SQL database. Unlike traditional CMS platforms that impose their own data model, Directus mirrors your existing database schema and generates REST and GraphQL APIs automatically — no migration needed.
+
+Core Architecture
+Built with TypeScript and Node.js, Directus connects to PostgreSQL, MySQL, MariaDB, SQLite, MS SQL Server, OracleDB, and CockroachDB. It introspects database schemas to generate type-safe APIs with filtering, sorting, pagination, deep relational queries, and aggregation. The admin app is a Vue.js single-page application that provides a polished no-code interface for content management, data modeling, and user administration.
+
+API and Data Access
+The auto-generated REST API follows consistent conventions with full CRUD operations on every collection. The GraphQL endpoint supports queries, mutations, and subscriptions. Both APIs enforce granular role-based access control with field-level permissions, IP allowlisting, and custom validation rules. Directus supports real-time data via WebSocket subscriptions for live dashboards and collaborative applications.
+
+Content and Asset Management
+The built-in file storage system handles uploads to local disk, S3, Google Cloud Storage, Azure Blob, or Cloudflare R2. Image transformations (resize, crop, format conversion) are generated on-the-fly via URL parameters. The admin panel includes a WYSIWYG editor, relationship interfaces, map views, calendar layouts, and a flows engine for automation without code.
+
+Integration Points
+Directus provides official JavaScript and Dart SDKs for frontend integration. The Flows automation engine triggers webhooks, sends emails, runs custom JavaScript, and chains operations based on data events. Extensions support custom API endpoints, hooks, interfaces, displays, layouts, modules, and authentication providers. Docker images and Directus Cloud offer flexible deployment options from self-hosted to managed infrastructure.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/directus-open-source-headless-cms-backend-platform/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/directus-open-source-headless-cms-backend-platform
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/directus-open-source-headless-cms-backend-platform`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

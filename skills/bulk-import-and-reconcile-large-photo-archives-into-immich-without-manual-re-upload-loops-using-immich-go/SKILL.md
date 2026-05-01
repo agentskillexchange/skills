@@ -3,8 +3,6 @@ title: "Bulk import and reconcile large photo archives into Immich without manua
 description: "Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads."
 verification: "listed"
 source: "https://github.com/simulot/immich-go"
-author: "simulot"
-publisher_type: "individual"
 category:
   - "Image & Creative Automation"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go
 
-Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads.
-
-## Prerequisites
-
-Immich server access, immich-go binary, source media library or takeout export, destination credentials or API token
+Use immich-go when an agent needs to migrate or reconcile an existing photo archive into Immich at library scale, not when a user is simply browsing or backing up photos in Immich itself. The job is specific: ingest takeouts or local media trees, preserve metadata and album structure, and cleanly match what is already in the destination library. That scope boundary, archive migration and reconciliation into Immich, keeps this distinct from the broader Immich platform listing already in the catalog.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install immich-go from the project release or build instructions, configure access to the target Immich instance, then run the documented import or reconcile flow against the source media library or takeout export.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/simulot/immich-go
+- Download the repository ZIP and extract `skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Benchmark virtual agents with scripted multi-turn conversations using Ag
 description: "Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases."
 verification: "listed"
 source: "https://github.com/awslabs/agent-evaluation"
-author: "AWS Labs"
-publisher_type: "open_source_project"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation
 
-Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases.
+Use Agent Evaluation when you want an evaluator agent to run scripted, multi-turn test conversations against a target agent and score the responses. The upstream project is explicit about this workflow: define cases, orchestrate conversations, evaluate results during the run, and plug the checks into CI or broader testing.
 
-## Prerequisites
-
-Python environment, target agent endpoint or integration, optional AWS services such as Bedrock or SageMaker
+Invoke this instead of manual spot-checking or a generic hosted agent platform when the need is repeatable conversation-based benchmarking. The scope boundary is clear: Agent Evaluation tests target agents through scripted interactions. It is not a general AWS product listing or broad agent framework card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository and follow the upstream documentation to configure an evaluator agent, define scripted test cases, and run benchmarks against your target agent.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://awslabs.github.io/agent-evaluation/
+- Download the repository ZIP and extract `skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

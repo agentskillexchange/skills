@@ -3,8 +3,6 @@ title: "Package docs, repos, and PDFs into installable agent skills with Skill S
 description: "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent."
 verification: "security_reviewed"
 source: "https://github.com/yusufkaraaslan/Skill_Seekers"
-author: "Yusuf Karaaslan"
-publisher_type: "open_source_project"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Package docs, repos, and PDFs into installable agent skills with Skill Seekers
 
-Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent.
+Use Skill Seekers when the job is to ingest source material, structure it, and package it into a reusable agent skill artifact. The upstream project explicitly supports docs, repos, PDFs, and other sources, then exports to Claude, Gemini, OpenAI, and related agent targets.
 
-## Prerequisites
-
-Python CLI, source docs/repos/PDFs, target agent platform for packaged output
+Invoke this instead of using the product normally when you need a repeatable source-to-skill packaging workflow rather than a general RAG or scraping stack. The scope boundary is the conversion of source material into installable skill outputs. That keeps it skill-shaped and prevents this entry from collapsing into a generic product card for the broader Skill Seekers platform.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Skill Seekers CLI from the upstream project, then run skill-seekers create <source> followed by skill-seekers package <output> --target <platform>.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://skillseekersweb.com/
+- Download the repository ZIP and extract `skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
