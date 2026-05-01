@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2406 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-05-01 17:35 UTC
+> **2413 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-05-01 21:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -316,13 +316,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (222 skills)
+### 🔒 Security & Verification (224 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | — |
+| [Provision secure disposable development sandboxes for AI-generated code with Daytona](skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests,… | Published | 72.4k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper… | Published | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Security Reviewed | 42.9k | — |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | Analyze a web app's source code, execute real exploit attempts against the running target, and return proof-backed… | Security Reviewed | 39.8k | 4k/wk |
@@ -384,6 +385,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test`… | Security Reviewed | 11.5k | — |
 | [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit. | Published | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](skills/skopeo-container-image-registry-operations-cli/) | Skopeo is a command-line tool for working with container images and registries without requiring a running daemon.… | Security Reviewed | 10.7k | — |
+| [Route risky coding-agent work through human approval checkpoints with HumanLayer](skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval… | Published | 10.7k | — |
 | [Give MCP agents disposable code execution sandboxes with OpenSandbox MCP](skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/) | Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code… | Security Reviewed | 10.2k | — |
 | [Magika AI File Type Detection and Content Classification](skills/magika-ai-file-type-detection-and-content-classification/) | Magika is Google's AI-powered file type detector for fast, content-based identification of binary and text files. It… | Security Reviewed | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](skills/httpx-http-probing-toolkit-projectdiscovery/) | httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It… | Security Reviewed | 9.8k | — |
@@ -546,7 +548,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (191 skills)
+### 🔧 CI/CD Integrations (192 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -706,6 +708,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning… | Security Reviewed | 843 | — |
 | [CircleCI Workflow Cost Auditor](skills/circleci-workflow-cost-auditor/) | Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs… | Security Reviewed | 843 | — |
 | [Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL](skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/) | Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping… | Published | 804 | — |
+| [Run AI browser regression checks with Playwright and multi-model verification through Passmark](skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion… | Published | 676 | — |
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | 585 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Security Reviewed | 581 | — |
@@ -1431,7 +1434,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (127 skills)
+### 📊 Monitoring & Alerts (128 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1487,6 +1490,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Security Reviewed | 24.1k | — |
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | 22.7k | — |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](skills/goaccess-real-time-web-log-analyzer/) | GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It… | Security Reviewed | 20.4k | — |
+| [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | Capture LLM and agent traces, run evaluations, inspect failures, and monitor RAG or multi-step agent behavior from… | Published | 19.1k | — |
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](skills/openobserve-observability-platform-logs-metrics-traces/) | OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User… | Security Reviewed | 18.5k | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](skills/upptime-github-actions-uptime-monitor-status-page/) | An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions,… | Security Reviewed | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Security Reviewed | 16.2k | — |
@@ -1823,7 +1827,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (107 skills)
+### 🔗 Integrations & Connectors (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1856,8 +1860,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Formbricks Open Source Survey and Experience Management Platform](skills/formbricks-open-source-survey-experience-management/) | Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app,… | Security Reviewed | 12.1k | — |
 | [Formbricks Open-Source Survey Platform](skills/formbricks-open-source-survey-platform/) | Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app… | Security Reviewed | 12k | — |
 | [Logto Open Source Authentication and Authorization Infrastructure](skills/logto-open-source-auth-infrastructure/) | Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It… | Security Reviewed | 11.9k | — |
+| [Expose FastAPI routes as MCP tools with FastAPI-MCP](skills/expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp/) | Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved… | Published | 11.8k | — |
 | [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](skills/webhook-http-endpoint-server-shell-commands/) | Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute… | Security Reviewed | 11.7k | — |
 | [Pipedream API Workflow Automation Platform](skills/pipedream-api-workflow-automation-platform/) | Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted… | Security Reviewed | 11.2k | — |
+| [Build and inspect MCP apps and servers with mcp-use](skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | Use mcp-use to create, test, and package MCP servers or interactive MCP apps that work across agent clients. | Published | 9.9k | — |
 | [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exports into a first-pass OpenAPI document that an… | Security Reviewed | 9.3k | — |
 | [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service… | Security Reviewed | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](skills/papermark-document-sharing-analytics/) | Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics,… | Security Reviewed | 8.2k | — |
@@ -1904,6 +1910,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](skills/stripe-agent-toolkit-ai-payment-integration/) | The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating… | Security Reviewed | 1.4k | — |
+| [Run approved MCP servers through Docker MCP Gateway](skills/run-approved-mcp-servers-through-docker-mcp-gateway/) | Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client… | Published | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | 1.3k | — |
 | [Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA](skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/) | Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a… | Security Reviewed | 991 | — |
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 36.6k/wk |

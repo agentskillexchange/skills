@@ -7,6 +7,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | Skill | Stars |
 |---|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
+| [Provision secure disposable development sandboxes for AI-generated code with Daytona](../../skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | ⭐ 72.4k |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | ⭐ 46.1k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⭐ 39.8k |
@@ -15,7 +16,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 35.4k |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 35.4k |
-| [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
 
 ---
 
@@ -41,6 +41,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
+| [Provision secure disposable development sandboxes for AI-generated code with Daytona](../../skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | 72.4k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | 39.8k | 4k/wk |
@@ -102,6 +103,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](../../skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
+| [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | 10.7k | — |
 | [Give MCP agents disposable code execution sandboxes with OpenSandbox MCP](../../skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/) | 10.2k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |

@@ -1,8 +1,113 @@
 {
   "version": "2.0",
-  "total": 2406,
+  "total": 2413,
   "generated": "2026-05-01",
   "skills": [
+    {
+      "slug": "expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp",
+      "name": "Expose FastAPI routes as MCP tools with FastAPI-MCP",
+      "description": "Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved schemas.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11836
+      }
+    },
+    {
+      "slug": "run-approved-mcp-servers-through-docker-mcp-gateway",
+      "name": "Run approved MCP servers through Docker MCP Gateway",
+      "description": "Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client connections.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1374
+      }
+    },
+    {
+      "slug": "build-and-inspect-mcp-apps-and-servers-with-mcp-use",
+      "name": "Build and inspect MCP apps and servers with mcp-use",
+      "description": "Use mcp-use to create, test, and package MCP servers or interactive MCP apps that work across agent clients.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9861
+      }
+    },
+    {
+      "slug": "run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark",
+      "name": "Run AI browser regression checks with Playwright and multi-model verification through Passmark",
+      "description": "Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 676
+      }
+    },
+    {
+      "slug": "route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer",
+      "name": "Route risky coding-agent work through human approval checkpoints with HumanLayer",
+      "description": "Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval checkpoints.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 10658
+      }
+    },
+    {
+      "slug": "trace-evaluate-and-monitor-agentic-workflows-with-opik",
+      "name": "Trace, evaluate, and monitor agentic workflows with Opik",
+      "description": "Capture LLM and agent traces, run evaluations, inspect failures, and monitor RAG or multi-step agent behavior from prototype to production.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 19144
+      }
+    },
+    {
+      "slug": "provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona",
+      "name": "Provision secure disposable development sandboxes for AI-generated code with Daytona",
+      "description": "Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 72383
+      }
+    },
     {
       "slug": "snapshot-and-restore-encrypted-file-trees-with-kopia",
       "name": "Snapshot and restore encrypted file trees with Kopia",
