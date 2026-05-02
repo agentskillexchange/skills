@@ -14,17 +14,35 @@ tool_ecosystem:
 
 # Gate pull requests on OpenAPI breaking changes
 
-Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to merge. The skill turns spec drift into a concrete breaking-change report that can block CI or annotate review workflows.
+This skill uses oasdiff, the open source OpenAPI diff engine, to compare two API specifications and classify the changes that matter for compatibility. An agent invokes it when reviewing a pull request, release branch, or generated spec artifact and needs to answer a focused question: did this change introduce a breaking contract change, and if so, where?
+
+The boundary here matters. This is not a generic OpenAPI viewer, SDK generator, or documentation platform entry. The agent is carrying out a specific CI and code review job: collect a baseline spec and a candidate spec, run a diff, interpret the breaking-change rules, and surface only the compatibility-impacting results. If the user simply wants to browse or author an OpenAPI file, that is outside this skill.
+
+Use it in release gates, API governance workflows, and repository automation where compatibility promises matter. Integration points include the oasdiff CLI, Go package usage, GitHub pull request checks, and any pipeline that stores a previous spec snapshot. The output is valuable to agents because it is already scoped to reviewable decisions: added or removed operations, parameter changes, response schema drift, enum tightening, security requirement changes, and other contract deltas. An agent can attach the report to a review, fail CI on configured rules, or request a version bump when the API surface changed in a non-backward-compatible way.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gate-pull-requests-on-openapi-breaking-changes/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gate-pull-requests-on-openapi-breaking-changes
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/gate-pull-requests-on-openapi-breaking-changes`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Search and resume past coding-agent sessions locally with exact handoff 
 description: "Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands when you need to re-enter prior work."
 verification: "security_reviewed"
 source: "https://github.com/jazzyalex/agent-sessions"
-author: "jazzyalex"
-publisher_type: "open_source"
 category:
   - "Research & Scraping"
 framework:
@@ -16,32 +14,33 @@ tool_ecosystem:
 
 # Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions
 
-Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands when you need to re-enter prior work.
+Agent Sessions clears the skill-shaped bar because the job is specific: inspect local histories from multiple coding agents and resume the right session with exact command handoff instead of hunting through raw logs. Use it when a user needs to recover prior context, compare earlier attempts, or reopen a specific run from a local archive.
 
-## Prerequisites
-
-Agent Sessions macOS app
+The scope boundary is the local browse, search, and resume workflow. It does not try to be a general agent framework or a broad developer platform. The main caveat is platform scope, because the upstream app is macOS-focused, which makes this a weaker but still publishable finalist.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-brew tap jazzyalex/agent-sessions && brew install --cask agent-sessions
-# or download the DMG from GitHub Releases
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/jazzyalex/agent-sessions
+- Download the repository ZIP and extract `skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

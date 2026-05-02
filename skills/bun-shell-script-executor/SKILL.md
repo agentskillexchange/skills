@@ -1,9 +1,8 @@
 ---
 title: "Bun Shell Script Executor"
-description: "Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition."
+description: "Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition."
 verification: "security_reviewed"
 source: "https://github.com/oven-sh/bun"
-author: "oven-sh"
 category:
   - "Developer Tools"
 framework:
@@ -15,17 +14,31 @@ tool_ecosystem:
 
 # Bun Shell Script Executor
 
-Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition.
+The Bun Shell Script Executor uses Bun’s native $ tagged template literal API (Bun.Shell) to run shell commands directly from TypeScript without spawning external processes through child_process. It composes multi-step build pipelines using Bun’s pipe operator, automatic glob expansion, and environment variable interpolation. The agent generates type-safe shell scripts that work cross-platform by leveraging Bun’s built-in implementations of common Unix utilities (cat, ls, rm, echo) that run natively on Windows, macOS, and Linux. It handles process composition with $.cwd(), $.env(), and $.throws() for error handling. Output streams are processed using Bun’s ReadableStream integration with async iterators. Particularly useful for replacing complex Makefile or npm script chains with type-checked, debuggable TypeScript that runs at near-native speed. Supports Bun.spawn() for long-running processes and Bun.file() for efficient file I/O within build pipelines.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/bun-shell-script-executor/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/bun-shell-script-executor
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/bun-shell-script-executor`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

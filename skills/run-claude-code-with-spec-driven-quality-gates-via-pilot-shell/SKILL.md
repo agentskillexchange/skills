@@ -3,8 +3,6 @@ title: "Run Claude Code with spec-driven quality gates via Pilot Shell"
 description: "Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands."
 verification: "listed"
 source: "https://github.com/maxritter/pilot-shell"
-author: "Max Ritter"
-publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run Claude Code with spec-driven quality gates via Pilot Shell
 
-Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands.
-
-## Prerequisites
-
-Claude Code, curl, bash, macOS/Linux/WSL2
+Use Pilot Shell when Claude Code work needs a spec, approval gate, and verification loop before edits land. Invoke it instead of vanilla Claude Code when the task is planned implementation with enforced checkpoints, not quick ad hoc prompting. The scope boundary is clear enough to publish: this is a Claude Code workflow harness for spec-driven sessions, not a generic coding agent platform or IDE listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `curl -fsSL https://raw.githubusercontent.com/maxritter/pilot-shell/main/install.sh | bash`, then enter a project and run `pilot` or `ccp` to start a spec-driven Claude Code session.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://pilot-shell.com/docs
+- Download the repository ZIP and extract `skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Block destructive Terraform, database, Kubernetes, cloud, and Git comman
 description: "Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them."
 verification: "listed"
 source: "https://github.com/roboticforce/agent-guardrails"
-author: "Robotic Force"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails
 
-Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them.
-
-## Prerequisites
-
-Claude Code, jq, shell access to project or user Claude config, repository clone of the guardrail scripts
+Use Agent Guardrails when you want Claude Code to help with infrastructure or repository work but you need hard blocks on destructive commands first. Invoke this instead of using Claude Code normally when the missing step is policy enforcement on shell actions such as `terraform destroy`, `DROP DATABASE`, dangerous `kubectl delete`, or force pushes. The scope boundary is narrow and skill-shaped: pre-tool command interception and blocking for Claude Code, not a generic security platform or plain config bundle listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository, copy the `claude-code` settings, hooks, and scripts into either your project `.claude/` directory or `~/.claude/`, make the shell scripts executable, then dry-run one of the guard scripts to verify blocking behavior.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/roboticforce/agent-guardrails
+- Download the repository ZIP and extract `skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

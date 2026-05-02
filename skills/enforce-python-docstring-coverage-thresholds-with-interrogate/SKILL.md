@@ -3,8 +3,6 @@ title: "Enforce Python Docstring Coverage Thresholds with interrogate"
 description: "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold."
 verification: "security_reviewed"
 source: "https://github.com/econchick/interrogate"
-author: "econchick"
-publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Enforce Python Docstring Coverage Thresholds with interrogate
 
-Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold.
+This skill uses interrogate as a documentation-quality gate for Python repositories. The agent measures docstring coverage, reports which modules or objects are dragging the score down, and decides pass or fail against an explicit threshold so teams can keep documentation debt from spreading silently.
 
-## Prerequisites
+Invoke it when a team wants an enforceable documentation bar in CI or during review. Use ordinary documentation tools when writing prose or browsing docs manually. Use this skill when the task is specifically coverage measurement and threshold enforcement for Python docstrings.
 
-Python, interrogate, Python source tree
+The scope boundary is narrow: Python docstring coverage auditing and gating. It is not a general Python linter, documentation platform, or broad code-quality suite listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-python-docstring-coverage-thresholds-with-interrogate/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with pip, then run against your Python package with a threshold appropriate for the repository: pip install interrogate && interrogate -f 80 .
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-python-docstring-coverage-thresholds-with-interrogate
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://interrogate.readthedocs.io/en/latest/
+- Download the repository ZIP and extract `skills/enforce-python-docstring-coverage-thresholds-with-interrogate`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

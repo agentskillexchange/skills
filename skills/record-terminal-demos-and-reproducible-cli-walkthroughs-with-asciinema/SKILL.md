@@ -3,8 +3,6 @@ title: "Record terminal demos and reproducible CLI walkthroughs with asciinema"
 description: "Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording."
 verification: "listed"
 source: "https://github.com/asciinema/asciinema"
-author: "asciinema"
-publisher_type: "organization"
 category:
   - "Media & Transcription"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Record terminal demos and reproducible CLI walkthroughs with asciinema
 
-Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording.
-
-## Prerequisites
-
-asciinema CLI and a terminal session to record
+Use asciinema when an agent should preserve a terminal interaction as a lightweight replayable cast for bug reports, onboarding, runbooks, or skill demonstrations. This is better than ordinary video capture when the important surface is the shell session itself, including commands, timing, and searchable terminal output. The scope boundary keeps it skill-shaped: record and replay terminal workflows, not general-purpose video production or a generic developer-product listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install asciinema with your package manager or from release artifacts, then record a session with `asciinema rec`, stop recording when the workflow is complete, and replay or share the resulting cast file as needed.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/asciinema/asciinema#readme
+- Download the repository ZIP and extract `skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

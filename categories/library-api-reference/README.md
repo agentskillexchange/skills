@@ -54,6 +54,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.8k | 149.2k/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.8k | 149.2k/wk |
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | 28.8k | 149.2k/wk |
+| [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | 26.2k | — |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.5M/wk |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | 24.9k | 529.3k/wk |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | 20.3k | 34.2M/wk |
@@ -70,6 +71,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 35.7M/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
+| [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | 15.4k | — |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | 291.1M/wk |
@@ -86,6 +88,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 806.9k/wk |
+| [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | 6.4k | — |
+| [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 4.9k | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | — |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
@@ -110,6 +114,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | 517 | 164k/wk |
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | 493 | 1.5M/wk |
 | [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
+| [Python Docstring Extractor](../../skills/python-docstring-extractor/) | 266 | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
@@ -117,8 +122,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
-| [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
-| [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |
@@ -133,19 +136,16 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | — | — |
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | — | — |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | — | — |
-| [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | — | — |
 | [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | — | — |
 | [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | — | — |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | — | — |
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | — | — |
-| [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | — | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | — | — |
 | [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | — | — |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | — | — |
-| [Python Docstring Extractor](../../skills/python-docstring-extractor/) | — | — |
 | [Python Library Reference Builder](../../skills/python-library-reference-builder/) | — | — |
 | [Python Package API Surface Mapper](../../skills/python-package-api-surface-mapper/) | — | — |
 | [Python Package Docs Fetcher](../../skills/python-package-docs-fetcher/) | — | — |

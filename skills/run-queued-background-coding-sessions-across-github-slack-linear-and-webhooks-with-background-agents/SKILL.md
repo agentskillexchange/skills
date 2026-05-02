@@ -3,8 +3,6 @@ title: "Run queued background coding sessions across GitHub, Slack, Linear, and 
 description: "Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into the main repo flow instead of babysitting one foreground session."
 verification: "security_reviewed"
 source: "https://github.com/ColeMurray/background-agents"
-author: "Cole Murray"
-publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents
 
-Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into the main repo flow instead of babysitting one foreground session.
-
-## Prerequisites
-
-GitHub App or repo access, deployed background-agents stack, sandbox infrastructure, supported model provider credentials, target repositories, and one or more trigger surfaces such as web UI, Slack, GitHub, Linear, or webhooks
+Use background-agents when the job is to hand off coding work into an asynchronous queue, let isolated agent sessions run in the background, and return later for progress, review, or pull request output. This is not just using a coding agent normally in one terminal. The bounded workflow is background delegation: spawn a coding session from GitHub, Slack, Linear, webhooks, or the web UI, let it run with its own sandbox and tooling, then inspect results and reconcile them back into the repo. That scope boundary, queued background execution and reviewable return flow, keeps this publishable as a distinct custom-agent workflow rather than a generic coding platform card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Follow the upstream setup and deployment docs for the control plane, sandbox runtime, and integrations, then connect a repository and trigger a background coding session from the web UI, Slack, GitHub, Linear, or an authenticated webhook.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://backgroundagents.dev
+- Download the repository ZIP and extract `skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

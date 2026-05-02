@@ -3,8 +3,6 @@ title: "Investigate production issues from Slack with runbooks and monitoring MC
 description: "Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided investigation steps for live incidents."
 verification: "security_reviewed"
 source: "https://github.com/DrDroidLab/sample-debug-agent"
-author: "DrDroidLab"
-publisher_type: "open_source_project"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit
 
-Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided investigation steps for live incidents.
+Use DIY AI Debugging Agent Toolkit when an agent needs to respond in Slack, inspect monitoring systems through MCP servers, and follow runbook-guided steps during production debugging. The upstream repository is concrete about the workflow: receive alerts or questions in Slack, consult configured monitoring MCP servers, apply prompts or runbooks, and respond with investigative findings.
 
-## Prerequisites
-
-Slack app, MCP server connections for monitoring tools, Python runtime, OpenAI key, optional runbooks or prompts for incident workflows
+Invoke this instead of using Slack, dashboards, or a raw MCP connection normally when the immediate job is incident debugging with chat-driven triage. The scope boundary is specific enough to be skill-shaped: this is a Slack-anchored production-debugging workflow that consults monitoring MCP tools and runbooks, not a generic observability platform or broad agent framework listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-pip install uv && uv sync && uv run python app.py
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/DrDroidLab/sample-debug-agent
+- Download the repository ZIP and extract `skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

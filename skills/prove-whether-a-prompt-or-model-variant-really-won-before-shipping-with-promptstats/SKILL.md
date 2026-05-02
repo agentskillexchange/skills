@@ -3,8 +3,6 @@ title: "Prove whether a prompt or model variant really won before shipping with 
 description: "Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes."
 verification: "listed"
 source: "https://github.com/ianarawjo/promptstats"
-author: "Ian Arawjo"
-publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Prove whether a prompt or model variant really won before shipping with promptstats
 
-Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes.
-
-## Prerequisites
-
-Python environment, promptstats package, eval result tables or per-input score arrays, prompt or model experiment outputs to compare
+Use promptstats when the job is to analyze eval results and decide whether one prompt or model variant truly outperformed another, not when a user simply wants a generic benchmark dashboard. The operator workflow is crisp: feed in benchmark data, run the statistical analysis, inspect confidence bounds and pairwise comparisons, and decide whether the observed lift is real enough to act on. That scope boundary, statistical adjudication of prompt and model experiments, gives it a clear skill shape instead of reducing it to a plain library listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install promptstats from the upstream Python package instructions, format your eval results into the documented input shape, then run the analysis methods and review the generated statistical report before making rollout decisions.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://statsforevals.com
+- Download the repository ZIP and extract `skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

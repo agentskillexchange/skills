@@ -3,8 +3,6 @@ title: "Watch Kubernetes resources explain rollout stalls and surface live statu
 description: "Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready."
 verification: "listed"
 source: "https://github.com/pulumi/kubespy"
-author: "Pulumi"
-publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy
 
-Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready.
-
-## Prerequisites
-
-kubespy CLI, Kubernetes cluster access
+Use kubespy when an agent needs to observe a rollout or workload live instead of guessing from static kubectl output. The agent can watch resource transitions, surface readiness blockers, and explain why a deployment is stalling while the event stream is still unfolding. Invoke this instead of using the product normally when the task is rollout diagnosis and live status interpretation, not general Kubernetes administration. The boundary is time-bound observation of resource state changes during deploy or incident response, not a generic cluster toolkit listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install kubespy from the project repository, connect it to the target cluster context, and watch the resource type and name involved in the rollout or incident.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/pulumi/kubespy
+- Download the repository ZIP and extract `skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

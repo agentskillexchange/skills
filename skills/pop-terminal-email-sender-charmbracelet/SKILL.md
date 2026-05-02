@@ -14,17 +14,47 @@ tool_ecosystem:
 
 # Pop Terminal Email Sender and TUI by Charmbracelet
 
-Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports Resend API and SMTP backends, file attachments, Markdown body rendering, and integrates with other Charm tools.
+Overview
+Pop is a command-line email sending tool built by Charmbracelet, the team behind Bubble Tea, Gum, Glow, and other popular terminal tools. Pop provides two modes: a beautiful TUI (terminal user interface) for composing emails interactively, and a CLI mode for sending emails from scripts and automation pipelines. It supports both the Resend API and traditional SMTP as delivery backends.
+
+Key Features
+Pop supports Markdown email bodies that render beautifully in recipients’ inboxes. It handles file attachments via the --attach flag, supports piping content from stdin for the email body, and can set From/To/Subject/CC/BCC fields via flags or interactively in the TUI. The --preview flag lets you review emails before sending. Email signatures can be configured via the POP_SIGNATURE environment variable.
+
+How It Works
+For quick sends: pop --from me@example.com --to you@example.com --subject "Hello" --body "Message here". For the interactive TUI, just run pop. To pipe content: cat message.md | pop --to recipient@example.com. Pop supports two backends: set RESEND_API_KEY for the Resend service, or configure POP_SMTP_HOST, POP_SMTP_PORT, POP_SMTP_USERNAME, and POP_SMTP_PASSWORD for SMTP delivery.
+
+Tool Integrations
+Pop integrates naturally with other Charmbracelet tools. Use mods to generate email content with AI: pop . Use gum for interactive recipient selection: pop --to $(gum filter . Use invoice to generate and email invoices entirely from the terminal. These composable pipelines make Pop a powerful building block for terminal-based workflows.
+
+Installation
+Install via Homebrew: brew install pop. Via Nix: nix-env -iA nixpkgs.pop. Via AUR: yay -S charm-pop-bin. Via Go: go install github.com/charmbracelet/pop@latest. Binary releases are available on GitHub for Linux, macOS, and Windows. The tool is written in Go and distributed as a single binary.
+
+Agent Integration
+Agents can use Pop to send emails directly from automated workflows without needing complex email library integrations. The CLI mode with piped input makes it trivial for agents to compose and send notifications, reports, or alerts. Combined with AI tools like mods for content generation, agents can create complete email workflows entirely from the command line with minimal configuration.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/pop-terminal-email-sender-charmbracelet/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pop-terminal-email-sender-charmbracelet
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/pop-terminal-email-sender-charmbracelet`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

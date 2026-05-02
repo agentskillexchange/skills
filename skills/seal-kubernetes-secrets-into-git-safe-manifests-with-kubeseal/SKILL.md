@@ -3,8 +3,6 @@ title: "Seal Kubernetes Secrets into Git-safe manifests with kubeseal"
 description: "Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext."
 verification: "listed"
 source: "https://github.com/bitnami-labs/sealed-secrets"
-author: "bitnami-labs"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Seal Kubernetes Secrets into Git-safe manifests with kubeseal
 
-Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext.
-
-## Prerequisites
-
-kubeseal CLI, access to the target Sealed Secrets controller certificate or cluster, kubectl-compatible Secret manifest input
+Use kubeseal when an agent needs to turn a plaintext Kubernetes Secret manifest into an encrypted SealedSecret that is safe to store in Git and later decrypt only inside the target cluster. A user should invoke this instead of handling Secrets normally when the job is certificate-aware secret sealing for GitOps, rekeying, or controller-bound secret delivery, not day to day secret viewing or generic secret management. The scope boundary is narrow and skill-shaped: encrypting Kubernetes Secret manifests for the Sealed Secrets controller, not listing a Kubernetes platform or generic security product.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install kubeseal from the Sealed Secrets releases or package manager instructions, fetch or reference the target controller certificate as documented upstream, then run kubeseal against a Kubernetes Secret manifest to emit a SealedSecret for Git-safe storage.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/bitnami-labs/sealed-secrets#readme
+- Download the repository ZIP and extract `skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Parallelize and retry Rust test runs before flaky or slow suites stall C
 description: "Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output than cargo test when CI speed and stability matter."
 verification: "listed"
 source: "https://github.com/nextest-rs/nextest"
-author: "nextest-rs"
-publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -18,31 +16,33 @@ tool_ecosystem:
 
 # Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest
 
-Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output than cargo test when CI speed and stability matter.
+Use cargo-nextest when an agent needs to harden or speed up Rust test execution, especially in CI where flaky tests, long queues, and poor failure isolation waste review cycles. It is most useful when the job is to stabilize existing tests rather than redesign the whole pipeline.
 
-## Prerequisites
-
-Rust, Cargo, cargo-nextest
+Invoke this instead of using cargo test normally when the agent needs retries, partitioning, better reporting, or faster suite execution under CI constraints. This is skill-shaped because the boundary is clear: optimize and stabilize Rust test runs. It is not a generic Rust build tool, package registry, or broad CI platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-cargo install cargo-nextest --locked
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://nexte.st/
+- Download the repository ZIP and extract `skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

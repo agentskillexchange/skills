@@ -3,8 +3,6 @@ title: "Turn product requirements into executable Claude Code plans and validati
 description: "Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts."
 verification: "security_reviewed"
 source: "https://github.com/Wirasm/PRPs-agentic-eng"
-author: "Rasmus Widing"
-publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng
 
-Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts.
+PRPs Agentic Eng gives Claude Code a structured planning workflow instead of an open-ended chat. It adds slash commands such as /prp-prd, /prp-plan, /prp-implement, /prp-issue-investigate, and /prp-ralph so an agent can turn a requirement or issue into a plan, run validation commands, and keep iterating until checks pass.
 
-## Prerequisites
+Invoke this when a task needs an explicit execution packet, not just a conversational answer. It is a better fit than normal Claude Code use when you need a PRD, a codebase-aware plan, archived artifacts in .claude/PRPs/, repeatable validation commands, or an autonomous repair loop that keeps fixing failures until the work is complete.
 
-Claude Code
+The scope boundary is the PRP workflow itself. This is not a general Claude Code listing or a generic prompt pack. It is a specific operator flow for converting requirements, issues, and debugging work into executable plans, tracked artifacts, and validation loops.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-From your project root, clone the repo and copy .claude/commands/prp-core into .claude/commands/, then use commands like /prp-prd, /prp-plan, /prp-implement, and /prp-ralph as documented in the README.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/Wirasm/PRPs-agentic-eng
+- Download the repository ZIP and extract `skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

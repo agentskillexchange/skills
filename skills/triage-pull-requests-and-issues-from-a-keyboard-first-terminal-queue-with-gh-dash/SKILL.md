@@ -3,8 +3,6 @@ title: "Triage pull requests and issues from a keyboard-first terminal queue wit
 description: "Use gh-dash when an agent or operator needs assigned pull requests and issue queues in a keyboard-first terminal dashboard instead of bouncing across GitHub tabs."
 verification: "security_reviewed"
 source: "https://github.com/dlvhdr/gh-dash"
-author: "Dolev Hadar"
-publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Triage pull requests and issues from a keyboard-first terminal queue with gh-dash
 
-Use gh-dash when an agent or operator needs assigned pull requests and issue queues in a keyboard-first terminal dashboard instead of bouncing across GitHub tabs.
+gh-dash gives an agent a bounded GitHub triage workflow inside the terminal. It organizes pull requests and issues into configurable sections, lets the user inspect diffs and comments, and keeps common queue-clearing actions close to the keyboard. That makes it useful when the job is reviewing incoming work, not authoring a whole new GitHub automation stack.
 
-## Prerequisites
-
-GitHub CLI authenticated against the target account, terminal access, and optionally a Nerd Font if you want the full dashboard visuals.
+The boundary is narrow enough to be skill-shaped after one rewrite. Invoke it when an agent needs a terminal queue for PR and issue triage, review, or handoff, not when the user wants GitHub as a general platform listing or a full repository automation framework. The job-to-be-done is keyboard-first GitHub work-item triage.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Install the GitHub CLI first, then run <code>gh extension install dlvhdr/gh-dash</code>. Launch the dashboard with <code>gh dash</code> and optionally add a Nerd Font plus a YAML config to define the PR and issue sections you want to triage.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://www.gh-dash.dev/getting-started
+- Download the repository ZIP and extract `skills/triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

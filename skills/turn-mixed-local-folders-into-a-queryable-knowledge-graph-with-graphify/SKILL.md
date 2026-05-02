@@ -3,8 +3,6 @@ title: "Turn mixed local folders into a queryable knowledge graph with Graphify"
 description: "Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text."
 verification: "listed"
 source: "https://github.com/safishamsi/graphify"
-author: "safishamsi"
-publisher_type: "individual"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Turn mixed local folders into a queryable knowledge graph with Graphify
 
-Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text.
-
-## Prerequisites
-
-Graphify CLI or MCP server, local project/document folders
+Use Graphify when an agent needs to ingest a mixed local workspace and answer through graph-aware retrieval. This skill is for the concrete workflow of scanning folders of code and supporting artifacts, building a queryable knowledge graph, and then exploring relationships across files, documents, screenshots, and media. It is not a generic graph database card or a generic document parser listing. The boundary is the operator task: turn a messy local corpus into a graph-backed context surface for downstream agent search and reasoning.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone or install Graphify from the upstream project, point it at a local folder or corpus, then run the CLI or MCP mode to build and query the knowledge graph.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/safishamsi/graphify#readme
+- Download the repository ZIP and extract `skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

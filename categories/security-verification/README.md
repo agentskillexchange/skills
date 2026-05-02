@@ -64,7 +64,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | 26.7k | 563.5k/wk |
+| [Git Secret Scanner](../../skills/git-secret-scanner/) | 26.4k | — |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | 26.1k | — |
+| [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | 26k | — |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | 25.6k | — |
 | [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | 25.3k | — |
@@ -109,8 +111,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](../../skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
+| [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | 8.9k | — |
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | 8.9k | — |
+| [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | 8.9k | — |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | 8.8k | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | 8.6k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
@@ -129,6 +133,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | 5.8k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [Generate and screen lookalike domains with dnstwist for brand abuse triage](../../skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/) | 5.7k | — |
+| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | 5.5k | — |
+| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | 5.5k | — |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | — |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | 5.5k | — |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | 5.5k | — |
@@ -154,6 +160,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](../../skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
 | [Scan LLM-generated code before use with CodeShield](../../skills/scan-llm-generated-code-before-use-with-codeshield/) | 4.1k | — |
+| [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | 3.8k | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |
 | [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | 3.5k | — |
@@ -194,6 +201,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 965 | — |
+| [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | 956 | — |
 | [Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar](../../skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar/) | 953 | — |
 | [Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar](../../skills/scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar/) | 953 | — |
 | [Scan MCP servers for security findings before connecting them to agents with MCP Scanner](../../skills/scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner/) | 889 | — |
@@ -210,6 +218,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
 | [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | 390 | 2.9k/wk |
+| [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | 390 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
 | [Lint Rego Policies Before Promotion with Regal](../../skills/lint-rego-policies-before-promotion-with-regal/) | 373 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |
@@ -243,23 +252,14 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](../../skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | 2 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
-| [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | — | — |
-| [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | — | — |
-| [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | — | — |
-| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
-| [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
-| [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |
-| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
-| [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
-| [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |

@@ -3,8 +3,6 @@ title: "Route risky coding-agent work through human approval checkpoints with Hu
 description: "Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval checkpoints."
 verification: "listed"
 source: "https://github.com/humanlayer/humanlayer"
-author: "HumanLayer"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -17,31 +15,31 @@ tool_ecosystem:
 
 # Route risky coding-agent work through human approval checkpoints with HumanLayer
 
-Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval checkpoints.
-
-## Prerequisites
-
-HumanLayer/CodeLayer setup, supported coding agent such as Claude Code, repository access, approval channel or reviewer workflow
+Use HumanLayer when autonomous coding-agent sessions need explicit human review before touching risky files, commands, branches, or external systems. The operator wraps the coding-agent workflow with approval gates, reviews requests, records decisions, and lets the agent continue only when the action is accepted. The scope is human-in-the-loop control for coding-agent execution, not a generic IDE or broad collaboration product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Follow the HumanLayer setup docs, connect the supported coding-agent workflow, define approval boundaries for risky actions, and require reviewer approval before the agent resumes those actions.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://humanlayer.dev
+- Download the repository ZIP and extract `skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

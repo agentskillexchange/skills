@@ -3,8 +3,6 @@ title: "Sign agent-made Git commits with gitsign"
 description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
 verification: "security_reviewed"
 source: "https://github.com/sigstore/gitsign"
-author: "Sigstore maintainers"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Sign agent-made Git commits with gitsign
 
-Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.
+Use this skill when an agent needs commit provenance, especially in repos where machine-made changes should still be attributable and verifiable. It fits workflows that want signed commits without managing long-lived GPG keys.
 
-## Prerequisites
+Invoke it instead of using gitsign as a raw product when the concrete job is to install the signing path, sign commits during normal Git work, and verify that the resulting signatures are present and usable in review or policy checks.
 
-git, gitsign
+This stays skill-shaped because the scope is a specific operator workflow: sign and verify Git commits with keyless Sigstore identities. It is not a generic Sigstore or supply-chain product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/sign-agent-made-git-commits-with-gitsign/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install `gitsign`, configure Git to use it for commit signing, then create commits normally and verify the signatures in Git or your forge UI.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sign-agent-made-git-commits-with-gitsign
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/sigstore/gitsign
+- Download the repository ZIP and extract `skills/sign-agent-made-git-commits-with-gitsign`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

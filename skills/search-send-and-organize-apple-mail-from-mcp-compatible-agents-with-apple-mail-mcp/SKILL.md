@@ -3,8 +3,6 @@ title: "Search, send, and organize Apple Mail from MCP-compatible agents with Ap
 description: "Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work can stay inside a bounded agent workflow."
 verification: "security_reviewed"
 source: "https://github.com/s-morgan-jeffries/apple-mail-mcp"
-author: "s-morgan-jeffries"
-publisher_type: "individual"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP
 
-Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work can stay inside a bounded agent workflow.
+Use Apple Mail MCP when an agent on macOS needs structured access to Apple Mail for inbox search, message retrieval, replies, forwards, mailbox management, attachment handling, or template-driven drafting. Invoke it instead of using Apple Mail manually when the value comes from keeping email actions inside a larger MCP workflow such as support triage, follow-up drafting, or message filing.
 
-## Prerequisites
-
-macOS 10.15+ with Apple Mail configured, Python 3.10+, uv or pip, and an MCP-compatible client such as Claude Desktop.
+This is skill-shaped because the scope is a concrete agent workflow boundary: expose Apple Mail operations through a defined MCP tool surface for read/send/organize tasks. It is not a generic Apple Mail product card, mail client replacement, or loose SDK listing. The user is invoking a repeatable MCP-integrated email operations skill, not browsing a platform.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Clone the repository, run <code>uv sync --dev</code> (or install with <code>pip</code>), then register the server in your MCP client config using <code>uv --directory /path/to/apple-mail-mcp run python -m apple_mail_mcp.server</code>. On first run, grant macOS Automation permission so the server can control Apple Mail.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/s-morgan-jeffries/apple-mail-mcp
+- Download the repository ZIP and extract `skills/search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Run Claude Code through repeatable command and persona workflows with Su
 description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
 verification: "listed"
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
-author: "SuperClaude-Org"
-publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run Claude Code through repeatable command and persona workflows with SuperClaude
 
-Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc.
-
-## Prerequisites
-
-Claude Code, SuperClaude installation, optional MCP server installs for enhanced commands, local development workspace
+Use SuperClaude when a Claude Code operator wants named slash-command workflows and persona-driven execution modes instead of coaching the agent from scratch on every task. Invoke it for repeatable Claude Code steering such as structured research, implementation, testing, and project-management flows. The scope boundary is what keeps this publishable: this is about installing and using a command layer inside Claude Code for repeatable operator workflows, not listing Claude Code itself and not publishing a generic product card for an AI framework.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install SuperClaude with pipx or the upstream installation script, run the documented command installer, optionally add the supported MCP servers, then restart Claude Code so the slash-command workflow layer becomes available.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://superclaude.netlify.app/
+- Download the repository ZIP and extract `skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

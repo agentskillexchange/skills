@@ -3,8 +3,6 @@ title: "Benchmark prompt-injection attacks defenses and recovery pipelines befor
 description: "Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines."
 verification: "listed"
 source: "https://github.com/liu00222/Open-Prompt-Injection"
-author: "liu00222"
-publisher_type: "individual"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection
 
-Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines.
-
-## Prerequisites
-
-Conda-managed Python environment, upstream repository checkout, model API credentials as configured upstream, target task and attack configuration files
+Use Open Prompt Injection when the job is to benchmark prompt-injection attacks, defenses, and recovery flows against an LLM-integrated application before deployment, not when a user simply wants a generic security library. The workflow is bounded: configure the target task and model, run attack scenarios, measure outcomes such as attack success, and compare detector or localization defenses before trusting the app. That scope boundary, prompt-injection benchmarking and defense evaluation for LLM applications, is narrow enough to function as a publishable skill instead of a plain research toolkit card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository, create the documented conda environment from environment.yml, configure the required model credentials, then run the provided experiment scripts or library flows to execute attack and defense benchmarks against the target application.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/liu00222/Open-Prompt-Injection
+- Download the repository ZIP and extract `skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

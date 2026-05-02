@@ -3,8 +3,6 @@ title: "Gate risky agent actions behind approval checkpoints with Latch"
 description: "Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while safe calls continue automatically."
 verification: "security_reviewed"
 source: "https://github.com/latchagent/latch"
-author: "Latch"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Gate risky agent actions behind approval checkpoints with Latch
 
-Use Latch to put an MCP policy and approval layer between agents and tools so risky calls pause for review while safe calls continue automatically.
+Use Latch when an agent already has MCP tool access and you need a concrete control point that classifies actions as allowed, approval-required, or denied before the upstream tool call executes. The upstream project is explicit here: Latch is an MCP proxy with a policy engine, approval workflow, audit log, and action classes such as READ, EXECUTE, SEND, and TRANSFER_VALUE.
 
-## Prerequisites
+Invoke this instead of using the product normally when the real task is not “run an MCP server” but “wrap an MCP server with review gates for risky actions”. The operator workflow is specific: launch Latch, point it at an upstream MCP server, define policy, inspect blocked or approval-bound actions, then resume or deny the exact tool call.
 
-Docker, Latch CLI, an upstream MCP server to wrap
+The scope boundary is clear and prevents this from being a plain product card. This is not publishing Latch as a generic platform or dashboard. It is the narrowly bounded skill of enforcing human approval checkpoints and policy decisions on MCP-mediated agent actions.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository and start Latch with docker compose, create an account and API key, then run the Latch CLI in front of an upstream MCP server using the documented --upstream and --upstream-command flags.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://latch.mintlify.app/docs/introduction
+- Download the repository ZIP and extract `skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

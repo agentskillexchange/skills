@@ -3,8 +3,6 @@ title: "Search cross-agent Markdown memory and conversation history with memsear
 description: "Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context from scratch."
 verification: "listed"
 source: "https://github.com/zilliztech/memsearch"
-author: "Zilliz"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Search cross-agent Markdown memory and conversation history with memsearch
 
-Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context from scratch.
-
-## Prerequisites
-
-Supported coding-agent client, local filesystem access, default local Milvus/ONNX setup or another configured embedding provider
+Use memsearch when an agent needs to recover prior context from Markdown memory files before taking action. It is explicitly built to capture and recall conversation history across multiple agent environments, with plugin-driven installs for Claude Code and OpenClaw and documented support for other coding-agent surfaces. The boundary is durable memory capture and retrieval from Markdown-backed history, not a generic vector database, note app, or broad agent platform.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Use the platform-specific plugin flow from the repo. For Claude Code, add the marketplace source and install `memsearch`. For OpenClaw, run `openclaw plugins install clawhub:memsearch` and restart the gateway. Other supported agent clients have separate install instructions in the upstream docs.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/zilliztech/memsearch#readme
+- Download the repository ZIP and extract `skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

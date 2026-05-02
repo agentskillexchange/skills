@@ -9,13 +9,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
+| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | ⭐ 51.8k |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⭐ 51.8k |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⭐ 51.8k |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | ⭐ 47.2k |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | ⭐ 47.2k |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
-| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 
 ---
 
@@ -43,6 +43,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
+| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | 51.8k | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | 51.8k | 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | 51.8k | 90.5M/wk |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | 47.2k | — |
@@ -217,7 +218,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
-| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Review REST API designs before implementation for versioning, security, and contract clarity](../../skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | — | — |

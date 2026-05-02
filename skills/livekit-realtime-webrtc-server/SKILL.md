@@ -14,17 +14,49 @@ tool_ecosystem:
 
 # LiveKit Real-Time Video Audio and Data Server with WebRTC
 
-LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides multi-user conferencing, streaming, and data channels with client SDKs for JavaScript, Swift, Kotlin, Flutter, React, Go, Python, Rust, and Unity.
+Overview
+LiveKit is a production-grade, open-source WebRTC SFU (Selective Forwarding Unit) that enables developers to build real-time video, audio, and data applications. Built with Go using the Pion WebRTC implementation, LiveKit handles the complex infrastructure of real-time media routing while exposing clean client and server SDKs.
+
+Key Capabilities
+LiveKit provides a comprehensive real-time communication stack: scalable multi-user video and audio conferencing, simulcast and SVC codec support (VP9, AV1), speaker detection, selective track subscription, end-to-end encryption, moderation APIs, and webhook integrations. It supports UDP, TCP, and TURN for robust connectivity across network conditions.
+
+Architecture and Deployment
+The server ships as a single Go binary that can be deployed standalone, via Docker, or on Kubernetes. It supports distributed multi-region topologies for global scale. JWT-based authentication secures room access. The LiveKit CLI (lk) provides management tools for rooms, tokens, and diagnostics.
+
+Agent Integration
+LiveKit integrates with AI agents through its Agents framework, enabling real-time multimodal AI applications. Agents can join rooms as programmable backend participants, processing audio/video streams and interacting with human participants. The Egress service records or streams rooms, while Ingress accepts external sources like RTMP, WHIP, or OBS Studio.
+
+Client SDKs
+Official client SDKs are available for JavaScript/TypeScript, Swift (iOS/macOS), Kotlin (Android), Flutter/Dart, React (Components UI), Go, Python, Rust, Unity, and React Native. Server SDKs exist for Go, Node.js, Python, Ruby, Kotlin/Java, Rust, and PHP. Each SDK provides full room management, track publishing/subscribing, and data channel communication.
+
+Installation
+brew install livekit
+livekit-server --dev
+Or via Docker: docker run --rm -p 7880:7880 -p 7881:7881 -p 7882:7882/udp livekit/livekit-server --dev
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/livekit-realtime-webrtc-server/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/livekit-realtime-webrtc-server
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/livekit-realtime-webrtc-server`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

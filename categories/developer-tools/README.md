@@ -175,6 +175,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | — |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
+| [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | 16.8k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 16.6k | — |
 | [Amplication Open Source Backend Generation Platform](../../skills/amplication-open-source-backend-generation-platform/) | 16k | — |
 | [PydanticAI Type-Safe AI Agent Framework](../../skills/pydanticai-type-safe-ai-agent-framework/) | 16k | — |
@@ -219,6 +220,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Inspect and debug MCP servers visually before connecting them to agents](../../skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | 9.4k | 635.2k/wk |
 | [Search large codebases semantically from MCP-compatible coding agents with Claude Context](../../skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | 9.2k | 2.4k/wk |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | — |
+| [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
@@ -335,10 +337,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
-| [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
-| [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
 

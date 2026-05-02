@@ -3,8 +3,6 @@ title: "Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3
 description: "Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops."
 verification: "listed"
 source: "https://github.com/peak/s5cmd"
-author: "Peak"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd
 
-Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops.
-
-## Prerequisites
-
-s5cmd plus credentials for Amazon S3 or another compatible object store
+Use s5cmd when an agent needs to perform large batches of S3-compatible copy, sync, list, or delete operations quickly and predictably. Invoke it instead of hand-rolled `aws s3` loops when the job is high-volume object movement or cleanup with parallel execution and reproducible command sets. The scope boundary is tight: batch object-storage operations at scale, not general cloud administration, storage platform hosting, or a generic SDK listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the s5cmd binary for your platform, configure standard S3 credentials, then run commands directly or place many operations in a command file and execute them with `s5cmd run`.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/peak/s5cmd
+- Download the repository ZIP and extract `skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

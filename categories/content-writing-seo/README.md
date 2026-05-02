@@ -13,9 +13,9 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 21k |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | ⭐ 17.5k |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⭐ 16.8k |
+| [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 14.9k |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 10.2k |
-| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⭐ 7.9k |
 
 ---
 
@@ -46,6 +46,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | 17.5k | — |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
+| [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | 14.9k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | — |
@@ -69,6 +70,8 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
 | [Generate XML sitemaps and robots.txt from route inventories before SEO launch](../../skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | 1.7k | — |
 | [Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames](../../skills/generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames/) | 1.6k | — |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | 1.4k | — |
+| [Content Readability Optimizer](../../skills/content-readability-optimizer/) | 1.4k | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | 1.4k | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.5M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 783 | — |
@@ -89,8 +92,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | — | — |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | — | — |
 | [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | — | — |
-| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | — | — |
-| [Content Readability Optimizer](../../skills/content-readability-optimizer/) | — | — |
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | — | — |
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
@@ -101,7 +102,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | — | — |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | — | — |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | — | — |
-| [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [Rank Math SEO Plugin for WordPress Search Optimization](../../skills/rank-math-seo-plugin-wordpress-search-optimization/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | — | — |

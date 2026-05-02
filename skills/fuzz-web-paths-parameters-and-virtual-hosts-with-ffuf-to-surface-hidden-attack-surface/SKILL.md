@@ -3,8 +3,6 @@ title: "Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidde
 description: "Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface."
 verification: "listed"
 source: "https://github.com/ffuf/ffuf"
-author: "ffuf"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface
 
-Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface.
-
-## Prerequisites
-
-ffuf binary, reachable target URL, wordlists, network access, operator-approved test scope
+Use ffuf when the job is active discovery of hidden web attack surface, not ordinary browsing or generic use of a web stack. It gives an agent a bounded workflow: send wordlist-driven requests against paths, parameters, or virtual hosts, filter noisy responses, and return candidate findings for follow-up testing. That scope boundary, focused content discovery and fuzzing against a target, keeps this skill-shaped instead of reading like a plain security tool listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install ffuf from the upstream release, package manager, or build path, prepare the target URL and wordlists, then run the documented fuzzing modes for paths, parameters, or virtual hosts with suitable response filters.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/ffuf/ffuf
+- Download the repository ZIP and extract `skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

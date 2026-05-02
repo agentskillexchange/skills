@@ -21793,7 +21793,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sendgrid"
+        "tool": "sendgrid",
+        "github_stars": 3755
       }
     },
     {
@@ -21825,7 +21826,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "snyk"
+        "tool": "snyk",
+        "github_stars": 5516
       }
     },
     {
@@ -21840,7 +21842,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 1366
       }
     },
     {
@@ -22404,7 +22407,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 26194
+      }
     },
     {
       "slug": "kubernetes-helm-chart-scaffold-builder",
@@ -24032,7 +24038,10 @@
       "framework": [
         "Claude Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 390
+      }
     },
     {
       "slug": "oauth2-flow-debugger",
@@ -24561,7 +24570,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 8914
       }
     },
     {
@@ -24755,7 +24765,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "postman"
+        "tool": "postman",
+        "github_stars": 4925
       }
     },
     {
@@ -26035,7 +26046,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1366
+      }
     },
     {
       "slug": "slack-workflow-builder-agent",
@@ -26186,7 +26200,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 16764
+      }
     },
     {
       "slug": "lldb-debug-session-automator",
@@ -26373,7 +26390,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8853
+      }
     },
     {
       "slug": "datadog-apm-trace-query-agent",
@@ -26785,7 +26805,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pytest"
+        "tool": "pytest",
+        "github_stars": 8605
       }
     },
     {
@@ -26800,7 +26821,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grpc"
+        "tool": "grpc",
+        "github_stars": 71179
       }
     },
     {
@@ -27745,7 +27767,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 956
+      }
     },
     {
       "slug": "microsoft-graph-email-triage-agent",
@@ -28488,7 +28513,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 51835
+      }
     },
     {
       "slug": "argocd-sync-drift-detector",
@@ -28580,7 +28608,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stripe"
+        "tool": "stripe",
+        "github_stars": 26006
       }
     },
     {
@@ -29432,7 +29461,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6435
+      }
     },
     {
       "slug": "nx-workspace-generator-toolkit",
@@ -29495,7 +29527,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 15436
+      }
     },
     {
       "slug": "terraform-module-scaffold-generator",
@@ -29826,7 +29861,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "snyk"
+        "tool": "snyk",
+        "github_stars": 5516
       }
     },
     {
@@ -30055,7 +30091,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 14904
+      }
     },
     {
       "slug": "stable-diffusion-comfyui-workflow-runner-2",
@@ -30754,7 +30793,10 @@
       "framework": [
         "Claude Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 266
+      }
     },
     {
       "slug": "gitlab-ci-template-generator",
@@ -31010,7 +31052,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "puppeteer"
+        "tool": "puppeteer",
+        "github_stars": 24554
       }
     },
     {
@@ -31696,7 +31739,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 12100
       }
     },
     {
@@ -33547,7 +33591,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stripe"
+        "tool": "stripe",
+        "github_stars": 26420
       }
     },
     {

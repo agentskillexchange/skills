@@ -3,8 +3,6 @@ title: "Lint PostgreSQL migrations and SQL changes before irreversible schema mi
 description: "Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime."
 verification: "listed"
 source: "https://github.com/sbdchd/squawk"
-author: "sbdchd"
-publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk
 
-Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime.
-
-## Prerequisites
-
-Squawk CLI or container image, PostgreSQL migration SQL files, and optional CI or pre-commit integration.
+Use Squawk when an agent is reviewing PostgreSQL migrations or raw SQL files and needs a migration-safety pass, not when a user just wants a normal database client or editor. The workflow is tightly bounded: lint the migration SQL, flag risky patterns like blocking index creation or bad type choices, and return actionable fixes before merge or rollout. That scope boundary, pre-merge Postgres migration linting for operational safety, keeps it distinct from a generic Postgres product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Squawk from the upstream CLI, package, container, or release path, point it at the migration SQL files or repository, and review the reported warnings before merging or applying schema changes.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://squawkhq.com
+- Download the repository ZIP and extract `skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

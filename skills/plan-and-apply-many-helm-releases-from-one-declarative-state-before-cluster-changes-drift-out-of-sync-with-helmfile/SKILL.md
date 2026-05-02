@@ -3,8 +3,6 @@ title: "Plan and apply many Helm releases from one declarative state before clus
 description: "Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file."
 verification: "listed"
 source: "https://github.com/helmfile/helmfile"
-author: "helmfile"
-publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile
 
-Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file.
-
-## Prerequisites
-
-Helmfile binary, Helm CLI, access to the target Kubernetes clusters, chart repositories, and environment-specific values or secrets
+Use Helmfile when an agent needs to evaluate, diff, and synchronize a set of Helm releases defined in one declarative state rather than operating one chart at a time with raw Helm commands. A user should invoke this instead of using Helm normally when the job is coordinated multi-release planning, environment overlays, and drift reduction across a cluster or estate. The scope boundary is specific: state-driven orchestration of multiple Helm releases, not a generic Kubernetes package manager listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Helmfile from the upstream release or package instructions, define the desired releases and environments in a helmfile.yaml configuration, then run the documented diff or sync commands against the target cluster contexts.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://helmfile.readthedocs.io/en/latest/
+- Download the repository ZIP and extract `skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,41 +3,42 @@ title: "Provision OAuth-capable Microsoft agent identities with Entra Agent ID"
 description: "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns."
 verification: "listed"
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/entra-agent-id"
-author: "Microsoft"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "microsoft/skills"
+  github_stars: 2103
 ---
 
 # Provision OAuth-capable Microsoft agent identities with Entra Agent ID
 
-Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.
-
-## Prerequisites
-
-Microsoft Graph beta API, Microsoft Entra roles and app registration or PowerShell Graph modules, optional Entra Agent ID sidecar
+Use Entra Agent ID when an agent needs to provision or troubleshoot OAuth-capable identities for Microsoft-based agents, especially around Agent Identity Blueprints, BlueprintPrincipals, Graph beta permissions, sponsors, and workload identity federation. Invoke this instead of using the product normally when the job is turning identity requirements into a correct provisioning workflow with the preview API and its gotchas, not general Entra administration. The boundary is agent identity setup and auth flow guidance for AI agents, not a generic Microsoft Entra product listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Microsoft skills repository with npx skills add microsoft/skills, then enable the entra-agent-id skill in your agent setup and provide Microsoft Graph beta access plus the required Entra permissions and tenant credentials.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://microsoft.github.io/skills/
+- Download the repository ZIP and extract `skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

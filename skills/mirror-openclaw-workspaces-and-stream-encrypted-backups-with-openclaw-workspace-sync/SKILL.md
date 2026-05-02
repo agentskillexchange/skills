@@ -3,8 +3,6 @@ title: "Mirror OpenClaw workspaces and stream encrypted backups with openclaw-wo
 description: "Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes."
 verification: "listed"
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
-author: "ashbrener"
-publisher_type: "individual"
 category:
   - "Integrations & Connectors"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync
 
-Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes.
-
-## Prerequisites
-
-OpenClaw, rclone, Node.js/npm, supported cloud storage account
+Use openclaw-workspace-sync when the job is specifically to move or protect an OpenClaw workspace and related agent data using the plugin’s OpenClaw-aware sync and backup modes. The scope boundary is clear because the workflow is anchored to OpenClaw installation, plugin config, and workspace semantics, not generic rclone usage or a plain storage connector card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the plugin with `openclaw plugins install openclaw-workspace-sync`, run `openclaw workspace-sync setup`, then configure sync and or backup blocks in your OpenClaw plugin config.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/ashbrener/openclaw-workspace-sync
+- Download the repository ZIP and extract `skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

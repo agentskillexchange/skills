@@ -3,8 +3,6 @@ title: "Turn Windows event logs into Sigma-backed threat-hunting timelines with 
 description: "Parse Windows event logs into fast timelines and detection-rich outputs so agents can triage suspicious host activity, search for known patterns, and hand investigators reviewable artifacts."
 verification: "listed"
 source: "https://github.com/Yamato-Security/hayabusa"
-author: "Yamato Security"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa
 
-Parse Windows event logs into fast timelines and detection-rich outputs so agents can triage suspicious host activity, search for known patterns, and hand investigators reviewable artifacts.
-
-## Prerequisites
-
-Hayabusa plus Windows event logs from a live system, offline collection, or enterprise collection pipeline.
+Use Hayabusa when an agent needs to ingest EVTX data, apply Sigma-aligned detections, and produce a timeline for Windows host triage or enterprise threat hunting. The scope boundary is concrete: it is about turning Windows event logs into investigation-ready timelines and detections, whether from live systems or collected logs. That is a bounded DFIR workflow with a clear input and output, not a generic security platform or endpoint product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Download a Hayabusa release or build from source, then run its timeline and analysis commands against Windows EVTX files or collected event log directories.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/Yamato-Security/hayabusa
+- Download the repository ZIP and extract `skills/turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

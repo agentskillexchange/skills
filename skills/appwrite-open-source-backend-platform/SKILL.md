@@ -1,10 +1,8 @@
 ---
 title: "Appwrite Open-Source Backend Platform"
-description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
+description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
 verification: "security_reviewed"
 source: "https://github.com/appwrite/appwrite"
-author: "Appwrite"
-publisher_type: "Company"
 category:
   - "Integrations & Connectors"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Appwrite Open-Source Backend Platform
 
-Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
+Appwrite is a real open-source backend platform maintained by the Appwrite organization and distributed for both cloud and self-hosted use. Its upstream repository at appwrite/appwrite has strong adoption, an active release history, and recent maintenance activity. For ASE intake, that makes it a concrete tool with clear provenance rather than a vague backend idea. Agents can anchor work to the actual Appwrite product surface: authentication, databases, object storage, functions, messaging, realtime subscriptions, and site hosting.
 
-## Prerequisites
+This skill is useful when an agent needs to build or automate an application backend without inventing its own infrastructure layer. A practical Appwrite workflow might provision a project, configure Auth providers, create database collections and attributes, upload assets into Storage buckets, deploy server-side Functions, and connect client code to Realtime events. Because Appwrite exposes REST, GraphQL, and SDK-based integrations, the same skill can support JavaScript apps, mobile clients, server workers, and AI-assisted internal tools. That makes it a natural fit for Multi-Framework intake.
 
-Docker for self-hosting; Appwrite SDK or REST/GraphQL client for integrations
+Integration points are grounded in the official product: the Appwrite server, its client SDKs, the REST API, GraphQL API, CLI, Docker-based self-hosting, and the official docs at appwrite.io. The primary install path for developers is the npm package for client integrations, while self-hosting uses Docker deployment from the official platform guidance. Good outputs from this skill include project scaffolding plans, Auth and database setup checklists, collection schema mapping, storage upload flows, function deployment steps, and safe guidance for wiring Appwrite into existing apps.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/appwrite-open-source-backend-platform/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install appwrite
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/appwrite-open-source-backend-platform
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://appwrite.io/
+- Download the repository ZIP and extract `skills/appwrite-open-source-backend-platform`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Audit Go dependency licenses with go-licenses"
 description: "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence."
 verification: "listed"
 source: "https://github.com/google/go-licenses"
-author: "Google"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Audit Go dependency licenses with go-licenses
 
-Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.
+Use this skill when an agent needs to inspect the licenses of Go dependencies before a release or policy review. It works well for repositories that need a fast report of transitive modules and their license obligations.
 
-## Prerequisites
+Invoke it instead of using go-licenses as a raw product when the job is bounded: scan the Go module graph, produce the license report, and flag dependencies whose terms need review before shipping.
 
-Go, go-licenses
+This is skill-shaped because the boundary is concrete and narrow, audit Go dependency licenses. It is not a general package-management or legal-tech listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-go-dependency-licenses-with-go-licenses/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install `go-licenses`, run it against a Go module, and review the generated dependency license output before release or dependency approval.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-go-dependency-licenses-with-go-licenses
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/google/go-licenses
+- Download the repository ZIP and extract `skills/audit-go-dependency-licenses-with-go-licenses`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -111,6 +111,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
+| [Dockerfile Security Hardening Advisor](../../skills/dockerfile-security-hardening-advisor/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich](../../skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/) | 11.7k | — |
 | [Load-test an HTTP endpoint with a fast reproducible CLI probe using oha](../../skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/) | 10.2k | — |
@@ -202,7 +203,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | — | — |
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
-| [Dockerfile Security Hardening Advisor](../../skills/dockerfile-security-hardening-advisor/) | — | — |
 | [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | — | — |
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |

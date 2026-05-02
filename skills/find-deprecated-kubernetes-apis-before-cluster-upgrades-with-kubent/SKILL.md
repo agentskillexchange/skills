@@ -3,8 +3,6 @@ title: "Find deprecated Kubernetes APIs before cluster upgrades with kubent"
 description: "Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage."
 verification: "listed"
 source: "https://github.com/doitintl/kube-no-trouble"
-author: "doitintl"
-publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Find deprecated Kubernetes APIs before cluster upgrades with kubent
 
-Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage.
-
-## Prerequisites
-
-kubent binary, access to target Kubernetes manifests or cluster, target Kubernetes version context for upgrade analysis
+Use kubent when an agent needs to check manifests or a live cluster for APIs that will break in a target Kubernetes version before an upgrade starts. A user should invoke this instead of using Kubernetes normally when the job is upgrade-readiness analysis and remediation planning, not everyday cluster operations. The scope boundary is specific and skill-shaped: deprecated API discovery ahead of cluster upgrades, not a generic Kubernetes diagnostics or platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install kubent from the upstream release or package instructions, point it at the target manifests or cluster, and run the documented scan mode to surface deprecated or removed APIs before the upgrade window.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/doitintl/kube-no-trouble#readme
+- Download the repository ZIP and extract `skills/find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

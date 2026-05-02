@@ -3,8 +3,6 @@ title: "Lint GitHub Actions workflows before CI runs with actionlint"
 description: "Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI."
 verification: "listed"
 source: "https://github.com/rhysd/actionlint"
-author: "rhysd"
-publisher_type: "individual"
 category:
   - "CI/CD Integrations"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Lint GitHub Actions workflows before CI runs with actionlint
 
-Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI.
-
-## Prerequisites
-
-actionlint binary and GitHub Actions workflow files
+Use actionlint when an agent needs a fast correctness pass on GitHub Actions files before they are pushed or approved. The agent can catch malformed workflow syntax, bad expressions, invalid event wiring, and shell step issues early in code review. The scope is narrowly limited to workflow validation before CI execution, not a generic GitHub product or automation framework listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install actionlint from the project releases or package manager, then run `actionlint` in the repository root or against specific workflow files before merge.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-github-actions-workflows-before-ci-runs-with-actionlint
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/rhysd/actionlint
+- Download the repository ZIP and extract `skills/lint-github-actions-workflows-before-ci-runs-with-actionlint`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

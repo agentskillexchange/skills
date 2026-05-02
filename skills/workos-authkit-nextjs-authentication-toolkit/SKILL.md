@@ -3,7 +3,6 @@ title: "WorkOS AuthKit Next.js Authentication Toolkit"
 description: "WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration target for login, sessions, RBAC, SSO, MFA, and user management backed by WorkOS docs and package releases."
 verification: "security_reviewed"
 source: "https://github.com/workos/authkit-nextjs"
-author: "workos"
 category:
   - "Security & Verification"
 framework:
@@ -17,27 +16,35 @@ tool_ecosystem:
 
 # WorkOS AuthKit Next.js Authentication Toolkit
 
-WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration target for login, sessions, RBAC, SSO, MFA, and user management backed by WorkOS docs and package releases.
+WorkOS AuthKit is a real authentication toolkit maintained by WorkOS for Next.js applications. The project is published from the workos/authkit-nextjs GitHub repository, distributed as the @workos-inc/authkit-nextjs npm package, and documented in the official WorkOS AuthKit documentation. That combination gives agents a trustworthy upstream when they need to implement modern authentication without guessing at unsupported APIs.
 
-## Prerequisites
+This skill is most useful when the job to be done is adding secure auth flows to a Next.js product or internal app. An agent can use AuthKit to wire up sign-in and sign-up pages, session handling, protected routes, organization-aware access, and WorkOS-backed features such as SSO, MFA, and role-based access control. Because AuthKit is designed around the Next.js runtime model, the skill can also help place middleware, API handlers, and server-side session checks in the right places.
 
-npm, pnpm, yarn, docker, go, rust, java
+For ASE users, the value is clarity and speed. Instead of a generic “build auth” instruction, the agent can target a documented package, follow WorkOS setup steps, and produce app code that matches upstream examples. It also gives a maintainable path for future updates, because the skill points back to an actively maintained repository and official docs rather than a one-off recipe.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/workos-authkit-nextjs-authentication-toolkit/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/workos-authkit-nextjs-authentication-toolkit
 ```
-pnpm i @workos-inc/authkit-nextjs
-```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/workos-authkit-nextjs-authentication-toolkit`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

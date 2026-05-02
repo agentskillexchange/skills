@@ -3,8 +3,6 @@ title: "Verify agent policy coverage and risky-action guardrails before producti
 description: "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early."
 verification: "listed"
 source: "https://github.com/microsoft/agent-governance-toolkit"
-author: "Microsoft"
-publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit
 
-Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early.
-
-## Prerequisites
-
-Python environment or supported SDK runtime, Agent Governance Toolkit CLI or SDK, policy definitions, target agent workflow, optional runtime evidence JSON for verification
+Use Agent Governance Toolkit when the job is to run a preflight governance check or enforce deterministic policy gates around agent actions before giving an agent real autonomy, not when a user simply wants a general agent framework. The operator workflow is specific: install AGT, run agt doctor and agt verify, inspect policy coverage or evidence gaps, and fail the release or runtime path if risky actions are not governed. That scope boundary, deterministic policy verification and action gating for agent tool use, keeps this publishable as a skill instead of a plain governance platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the toolkit from the upstream package instructions, run agt doctor to confirm the environment, then use agt verify and the documented SDK or policy flows against the target agent workflow.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/microsoft/agent-governance-toolkit
+- Download the repository ZIP and extract `skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

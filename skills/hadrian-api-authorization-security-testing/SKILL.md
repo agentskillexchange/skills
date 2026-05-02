@@ -3,8 +3,6 @@ title: "Test API authorization flows with Hadrian"
 description: "Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are caught before release."
 verification: "listed"
 source: "https://github.com/praetorian-inc/hadrian"
-author: "Praetorian"
-publisher_type: "company"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Test API authorization flows with Hadrian
 
-Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are caught before release.
+Use Hadrian when an agent needs to test API authorization behavior instead of merely calling endpoints. It fits review and release workflows where the agent should replay requests as different roles, compare allowed versus denied actions, and surface OWASP API Top 10 issues such as broken object-level authorization, broken function-level authorization, and broken authentication across REST, GraphQL, and gRPC services.
 
-## Prerequisites
-
-Go or a prebuilt Hadrian binary, plus a target API definition or endpoint and role/auth configuration files such as roles.yaml and auth.yaml.
+This is skill-shaped because the workflow is narrow and operational: validate access-control boundaries with template-driven API tests and mutation-style verification. It is not a generic pentest platform, full DAST suite, or catch-all security product listing. Invoke it when the agent needs to verify role boundaries and authorization logic inside an API workflow.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/hadrian-api-authorization-security-testing/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Install from source with <code>go install github.com/praetorian-inc/hadrian/cmd/hadrian@latest</code>, or download a prebuilt binary from the repository releases. Supply the target API plus <code>roles.yaml</code> and <code>auth.yaml</code>, then run <code>hadrian test rest</code>, <code>hadrian test graphql</code>, or <code>hadrian test grpc</code> for the protocol you need to verify.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hadrian-api-authorization-security-testing
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/praetorian-inc/hadrian#readme
+- Download the repository ZIP and extract `skills/hadrian-api-authorization-security-testing`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

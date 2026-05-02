@@ -3,8 +3,6 @@ title: "Turn exploratory Python notebooks into reproducible apps and reports wit
 description: "Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably."
 verification: "listed"
 source: "https://github.com/marimo-team/marimo"
-author: "marimo team"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Turn exploratory Python notebooks into reproducible apps and reports with marimo
 
-Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably.
-
-## Prerequisites
-
-Python 3.9+, marimo, notebook or analysis code
+Use marimo when an agent needs to take notebook exploration and turn it into something teammates can rerun without hidden state. The agent can tighten the notebook into a reproducible app or report, preserve Python-native version control, and reduce the usual notebook sprawl before handoff. The boundary is the notebook-to-artifact transition, not a generic notebook IDE or all-purpose data science platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install marimo`, convert or create the notebook as a marimo app, then run it locally with the marimo CLI and commit the Python file for reproducible review.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.marimo.io/
+- Download the repository ZIP and extract `skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

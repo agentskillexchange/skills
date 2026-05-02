@@ -15,7 +15,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | ⭐ 73.6k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
-| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⭐ 61.3k |
+| [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | ⭐ 71.2k |
 
 ---
 
@@ -49,6 +49,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 73.6k | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | 73.6k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
+| [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | 71.2k | — |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | 61.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
 | [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | 57.8k | — |
@@ -195,7 +196,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
-| [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | — | — |

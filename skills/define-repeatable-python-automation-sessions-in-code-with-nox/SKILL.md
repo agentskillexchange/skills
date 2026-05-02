@@ -3,8 +3,6 @@ title: "Define repeatable Python automation sessions in code with nox"
 description: "Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time."
 verification: "listed"
 source: "https://github.com/wntrblm/nox"
-author: "Alicia Ramirez"
-publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Define repeatable Python automation sessions in code with nox
 
-Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time.
-
-## Prerequisites
-
-Python environment, nox, and a repository with a versioned noxfile defining the intended automation sessions
+Use nox when an agent needs a repository-native way to define and run repeatable Python automation sessions such as tests, lint, docs, or build steps across controlled environments. Invoke this instead of using ad hoc shell commands normally when the job is specifically to execute named automation sessions from a versioned noxfile, not to browse a generic task runner. The scope boundary is concrete: declare sessions in Python, provision their environments, and run the same coded workflow on demand, which is narrow enough to be a reusable skill rather than a plain CLI listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/define-repeatable-python-automation-sessions-in-code-with-nox/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install nox from the upstream Python package, add or review a noxfile.py with named sessions for the repository workflow, then run the desired session locally or in CI through the documented nox commands.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/define-repeatable-python-automation-sessions-in-code-with-nox
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://nox.thea.codes/
+- Download the repository ZIP and extract `skills/define-repeatable-python-automation-sessions-in-code-with-nox`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Publish installable pull-request package previews before release with pk
 description: "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release."
 verification: "security_reviewed"
 source: "https://github.com/stackblitz-labs/pkg.pr.new"
-author: "StackBlitz Labs"
-publisher_type: "company"
 category:
   - "CI/CD Integrations"
 framework:
@@ -18,31 +16,33 @@ tool_ecosystem:
 
 # Publish installable pull-request package previews before release with pkg.pr.new
 
-Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release.
+pkg.pr.new gives an agent a narrow release-preview workflow. It builds package artifacts from commits or pull requests, exposes them through npm-compatible URLs, and lets reviewers install the preview immediately in downstream apps or reproduction repos. That is useful when the job is proving a library change in real conditions before merge or publish.
 
-## Prerequisites
-
-A GitHub repository with Actions enabled, the pkg.pr.new GitHub App installed, Node.js/npm for the package build, and a package that can be built from CI.
+The boundary is clear enough to be skill-shaped. Invoke it when an agent needs temporary, installable PR previews for a package review or release workflow, not when the user wants a general package registry, CI platform, or npm publishing product. The job-to-be-done is preview-release distribution from pull requests without cutting a normal release.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Install the <a href="https://github.com/apps/pkg-pr-new">pkg.pr.new GitHub App</a> on the repository, then add <code>npx pkg-pr-new publish</code> or a dev dependency on <code>pkg-pr-new</code> to your CI workflow. For monorepos, run the publish command once with all package paths so one workflow generates all preview URLs.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://pkg.pr.new
+- Download the repository ZIP and extract `skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

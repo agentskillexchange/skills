@@ -3,8 +3,6 @@ title: "Turn a plain-language brief into a multi-step video production pipeline 
 description: "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline as one production workflow instead of treating each media tool as a separate manual step."
 verification: "security_reviewed"
 source: "https://github.com/calesthio/OpenMontage"
-author: "calesthio"
-publisher_type: "individual"
 category:
   - "Image & Creative Automation"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Turn a plain-language brief into a multi-step video production pipeline with OpenMontage
 
-Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline as one production workflow instead of treating each media tool as a separate manual step.
+OpenMontage is publishable because the upstream repository is unusually workflow-shaped. It does not just present a media product or model wrapper. It describes a concrete production pipeline where an agent starts from a brief or reference video, researches the topic, selects a pipeline, gathers or generates assets, edits them into a timeline, adds narration and subtitles, and renders a finished video.
 
-## Prerequisites
+Invoke it instead of using the underlying media products normally when the goal is end-to-end video production orchestration. A user should reach for this when they want one agentic workflow to coordinate research, scripting, sourcing footage, image or motion generation, audio, subtitles, and final composition, rather than manually switching between separate creative tools and ad hoc prompts.
 
-Python 3.10+, Node.js 18+, FFmpeg, an AI coding assistant or agent runtime, and whichever media/model providers the chosen pipeline needs
+The scope boundary is clear: the skill is the brief-to-video production workflow, not FFmpeg, Remotion, or any individual model provider on its own. The repository also explicitly supports use from multiple coding-agent environments such as Claude Code, Cursor, and Codex, so Multi-Framework is justified as a real invocation pattern rather than a generic default.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repository, run `make setup` or install the Python and Remotion dependencies manually, configure `.env`, then open the project in a supported coding-agent environment and request a video pipeline from a plain-language brief or reference video.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/calesthio/OpenMontage
+- Download the repository ZIP and extract `skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

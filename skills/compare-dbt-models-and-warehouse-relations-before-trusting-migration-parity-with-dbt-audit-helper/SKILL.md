@@ -3,8 +3,6 @@ title: "Compare dbt models and warehouse relations before trusting migration par
 description: "Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout."
 verification: "listed"
 source: "https://github.com/dbt-labs/dbt-audit-helper"
-author: "dbt Labs"
-publisher_type: "organization"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper
 
-Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout.
+Use dbt-audit-helper when an agent needs to prove that a dbt refactor, relation swap, or migration still matches expected warehouse results. It fits analytics engineering work where parity evidence is needed before trust is restored.
 
-## Prerequisites
-
-dbt Core, warehouse credentials, dbt-audit-helper package
+Invoke this instead of using dbt normally when the agent must run targeted comparison macros, inspect row and value differences, and document migration parity. This is skill-shaped because the workflow boundary is precise: compare dbt relations and outputs during change validation. It is not a generic dbt package listing or broad data transformation platform card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Add dbt-labs/audit_helper to packages.yml, then run dbt deps.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://hub.getdbt.com/dbt-labs/audit_helper/latest/
+- Download the repository ZIP and extract `skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

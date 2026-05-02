@@ -3,8 +3,6 @@ title: "Crush Agentic AI Coding CLI by Charmbracelet"
 description: "Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to any LLM. It supports multi-model switching mid-session, MCP extensibility, and LSP-enhanced context across every major platform."
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/crush"
-author: "Charmbracelet"
-publisher_type: "Company"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,44 @@ tool_ecosystem:
 
 # Crush Agentic AI Coding CLI by Charmbracelet
 
-Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to any LLM. It supports multi-model switching mid-session, MCP extensibility, and LSP-enhanced context across every major platform.
+What is Crush?
+Crush is an agentic AI coding assistant designed to run in your terminal. Built by Charmbracelet — the team behind Glow, Bubble Tea, and other popular terminal tools — Crush connects your code, tools, and workflows directly to the LLM of your choice. It replaces the archived Mods project with a full-featured agent that understands your codebase through LSP integration and can be extended via Model Context Protocol (MCP) servers.
 
-## Prerequisites
+How It Works
+Install Crush via Homebrew, npm, Winget, or package managers for Arch, Nix, Debian, and Fedora. Run crush in your terminal to start an interactive session. Crush maintains session-based context per project, so switching between repos preserves conversation history. You can configure multiple LLM providers (OpenAI, Anthropic, local models via OpenAI-compatible APIs) and switch between them mid-conversation without losing context.
 
-Go 1.23+
+Key Capabilities
+Crush reads your codebase through Language Server Protocol (LSP) support — the same mechanism your editor uses for autocompletion and type checking. This gives the LLM real structural understanding of your code rather than just raw text. You can extend Crush with MCP servers over HTTP, stdio, or SSE transports, adding capabilities like database access, documentation lookup, or custom tooling. The tool runs natively on macOS, Linux, Windows (PowerShell and WSL), Android, FreeBSD, OpenBSD, and NetBSD.
+
+Non-Interactive Mode
+Beyond the interactive TUI, Crush provides crush run for pipeline integration. Pipe command output or file contents into Crush for formatting, analysis, or transformation — similar to the workflow the now-archived Mods project provided, but with the added context of the full agent runtime.
+
+Integration Points
+Crush integrates with any OpenAI-compatible or Anthropic-compatible API endpoint. It supports MCP for tool extensibility, LSP for code understanding, and standard Unix pipes for non-interactive workflows. Session state persists between runs, making it practical for ongoing development work across multiple projects.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/crush-agentic-ai-coding-cli-charmbracelet/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-brew install charmbracelet/tap/crush
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crush-agentic-ai-coding-cli-charmbracelet
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/charmbracelet/crush#readme
+- Download the repository ZIP and extract `skills/crush-agentic-ai-coding-cli-charmbracelet`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

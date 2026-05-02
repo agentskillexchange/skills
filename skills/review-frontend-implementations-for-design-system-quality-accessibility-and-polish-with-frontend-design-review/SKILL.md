@@ -3,41 +3,42 @@ title: "Review frontend implementations for design-system quality, accessibility
 description: "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release."
 verification: "listed"
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review"
-author: "Microsoft"
-publisher_type: "organization"
 category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "microsoft/skills"
+  github_stars: 2103
 ---
 
 # Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review
 
-Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.
-
-## Prerequisites
-
-Frontend code or screenshots, design-system references such as Storybook or Figma Dev Mode, accessibility review context
+Use Frontend Design Review when an agent needs to audit an existing UI for design-system compliance, accessibility, responsive behavior, action hierarchy, and overall interface polish before shipping. Invoke this instead of using the product normally when the job is a bounded frontend review pass with prioritized findings and remediation guidance, not broad design inspiration or generic frontend coding help. The boundary is review and critique of implemented UI against concrete quality criteria, not a general frontend framework or design tool listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Microsoft skills repository with npx skills add microsoft/skills, then invoke frontend-design-review while reviewing implemented UI against design-system, accessibility, and visual-quality criteria.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://microsoft.github.io/skills/
+- Download the repository ZIP and extract `skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

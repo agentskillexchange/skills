@@ -3,8 +3,6 @@ title: "Model user behavior and run distributed load tests before backend change
 description: "Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout."
 verification: "listed"
 source: "https://github.com/locustio/locust"
-author: "Locust"
-publisher_type: "organization"
 category:
   - "Monitoring & Alerts"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Model user behavior and run distributed load tests before backend changes face real traffic with Locust
 
-Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout.
-
-## Prerequisites
-
-Python, Locust, and access to the target service or test environment
+Use Locust when an agent needs to express user behavior as executable scenarios, run them at scale, and inspect latency or failure patterns before a release or capacity change. Invoke it instead of ad hoc curl loops or single-endpoint smoke checks when the real task is distributed scenario-based load testing. The scope boundary is specific and skill-shaped: model and run load scenarios against a target service, not general observability, generic backend development, or a plain load-testing product card.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install locust`, define user behavior in a `locustfile.py`, then run `locust` locally or with workers against the target environment and review the generated stats.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.locust.io/
+- Download the repository ZIP and extract `skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

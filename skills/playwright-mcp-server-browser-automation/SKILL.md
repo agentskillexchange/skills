@@ -14,17 +14,39 @@ tool_ecosystem:
 
 # Playwright MCP Server for Browser Automation
 
-The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context Protocol, enabling LLMs to interact with web pages via structured accessibility snapshots without requiring vision models or screenshots.
+The Playwright MCP Server, maintained by Microsoft, is a Model Context Protocol server that exposes Playwright’s browser automation capabilities to LLMs and AI agents. With nearly 30,000 GitHub stars, it is the second most popular MCP server on GitHub and a cornerstone of the emerging agentic browser automation ecosystem.
+
+Unlike screenshot-based approaches that require vision models to interpret pixel data, the Playwright MCP server operates on structured accessibility tree snapshots. This makes tool application deterministic and avoids the ambiguity that comes with visual interpretation. The server is fast, lightweight, and works purely on structured data that LLMs can reason about directly.
+
+The server supports integration with all major AI coding tools including VS Code, Cursor, Windsurf, Claude Desktop, Claude Code, Codex, Goose, Cline, and more. Configuration is straightforward through standard MCP server JSON configuration, typically just specifying the npx command with the @playwright/mcp package.
+
+Key capabilities include navigating to URLs, clicking elements, filling forms, taking screenshots, extracting page content, handling dialogs, managing tabs, and executing JavaScript on pages. The server exposes these as structured MCP tools that agents can invoke with well-defined parameters and return types.
+
+For coding agents that need high-throughput browser interaction, Microsoft also provides a companion Playwright CLI with SKILLS approach that is more token-efficient than MCP. The MCP server is better suited for specialized agentic loops that benefit from persistent state, rich introspection, and iterative reasoning over page structure. The server requires Node.js 18 or newer and is distributed as an npm package under the Apache-2.0 license.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/playwright-mcp-server-browser-automation/
+
+### Method 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/playwright-mcp-server-browser-automation
+```
+
+### Method 3, Download ZIP
+
+- Download the repository ZIP and extract `skills/playwright-mcp-server-browser-automation`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

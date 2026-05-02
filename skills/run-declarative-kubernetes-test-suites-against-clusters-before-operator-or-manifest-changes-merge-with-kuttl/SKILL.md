@@ -3,8 +3,6 @@ title: "Run declarative Kubernetes test suites against clusters before operator 
 description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
 verification: "listed"
 source: "https://github.com/kudobuilder/kuttl"
-author: "kudobuilder"
-publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL
 
-Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.
-
-## Prerequisites
-
-KUTTL CLI or kubectl-kuttl plugin, access to a Kubernetes test cluster, declarative test step YAML files, and the manifests or operators under test
+Use KUTTL when an agent needs to run declarative Kubernetes tests made of setup, apply, wait, and assert steps against a cluster. A user should invoke this instead of using kubectl or Helm normally when the task is repeatable cluster-level verification of operators, controllers, or manifest behavior before merge or release. The scope boundary is clear: YAML-defined Kubernetes test execution and assertions, not a generic cluster management tool listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install KUTTL from the upstream release or plugin instructions, author the documented test suite structure with steps and assertions, then run the test command against a Kubernetes cluster prepared for the target manifests or operator.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/kudobuilder/kuttl
+- Download the repository ZIP and extract `skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

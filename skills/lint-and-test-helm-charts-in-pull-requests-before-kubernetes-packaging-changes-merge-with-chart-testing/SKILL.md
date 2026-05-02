@@ -3,8 +3,6 @@ title: "Lint and test Helm charts in pull requests before Kubernetes packaging c
 description: "Run chart-focused lint and install checks so changed Helm charts are validated before release or merge."
 verification: "listed"
 source: "https://github.com/helm/chart-testing"
-author: "Helm"
-publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing
 
-Run chart-focused lint and install checks so changed Helm charts are validated before release or merge.
-
-## Prerequisites
-
-ct binary or Docker image, Helm, Git, Kubernetes test environment for install checks
+Use chart-testing when an agent needs to identify changed Helm charts, lint them, and optionally install-test them as part of CI or release review. A user should invoke this instead of using Helm normally when the task is chart QA and changed-chart gating, not chart authoring or cluster management itself. The scope boundary is specific and skill-shaped: it is a Helm chart validation workflow for CI, not a generic Kubernetes tool or packaging platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install `ct` from Homebrew, releases, or the published Docker image, then run commands like `ct lint`, `ct install`, or `ct lint-and-install` against changed chart directories in CI.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/helm/chart-testing
+- Download the repository ZIP and extract `skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

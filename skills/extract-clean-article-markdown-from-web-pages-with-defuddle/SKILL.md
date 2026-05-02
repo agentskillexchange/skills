@@ -3,8 +3,6 @@ title: "Extract clean article Markdown from web pages with Defuddle"
 description: "Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before summarizing, indexing, or archiving them."
 verification: "listed"
 source: "https://github.com/kepano/defuddle"
-author: "kepano"
-publisher_type: "open_source_project"
 category:
   - "Developer Tools"
 framework:
@@ -18,31 +16,31 @@ tool_ecosystem:
 
 # Extract clean article Markdown from web pages with Defuddle
 
-Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before summarizing, indexing, or archiving them.
-
-## Prerequisites
-
-Node.js, npx or npm, defuddle CLI
+Use Defuddle when an agent needs to turn a URL or saved HTML page into cleaned article content, Markdown, or JSON metadata as part of a repeatable research, clipping, summarization, indexing, or archival workflow. Invoke it instead of using a browser or web clipper manually when the operator needs deterministic command-line extraction, structured metadata, or batch-friendly page cleanup. The scope boundary is Defuddle’s parser and CLI: the skill is about extracting readable main content and metadata from pages, not listing a generic browser extension, SDK, or content platform.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-clean-article-markdown-from-web-pages-with-defuddle/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Run with npx defuddle parse https://example.com/article --markdown, or install globally with npm install -g defuddle.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-clean-article-markdown-from-web-pages-with-defuddle
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://defuddle.md
+- Download the repository ZIP and extract `skills/extract-clean-article-markdown-from-web-pages-with-defuddle`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

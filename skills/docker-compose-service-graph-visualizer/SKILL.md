@@ -3,7 +3,6 @@ title: "Docker Compose Service Graph Visualizer"
 description: "Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status."
 verification: "security_reviewed"
 source: "https://github.com/docker/compose"
-author: "Docker"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +15,31 @@ tool_ecosystem:
 
 # Docker Compose Service Graph Visualizer
 
-Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status.
-
-## Prerequisites
-
-Docker Compose, Compose file format, Docker CLI
+The Docker Compose Service Graph Visualizer skill transforms docker-compose.yml files into interactive visual dependency graphs. Using PyYAML for YAML parsing and Graphviz (via pygraphviz) for graph layout, it creates comprehensive views of multi-service architectures. Each service node displays its image, exposed ports, resource limits, and health check configuration. Edges represent depends_on relationships with condition annotations (service_started, service_healthy, service_completed_successfully). Network topology is rendered as subgraph clusters, showing which services share networks and their internal DNS names. Volume mounts are displayed as shared storage nodes connecting dependent services. The D3.js interactive mode enables pan, zoom, click-to-inspect service details, and real-time status overlay when connected to a running Docker daemon via the Docker SDK for Python. Additional features include diff mode (compare two compose files to visualize architecture changes), merge mode (overlay multiple compose files as they would resolve with extends and override), and export to SVG, PNG, or Mermaid diagram syntax for embedding in documentation. Supports Compose v2 and v3 specification formats with full extension field handling.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-docker compose up
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docker-compose-service-graph-visualizer
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.docker.com/compose/
+- Download the repository ZIP and extract `skills/docker-compose-service-graph-visualizer`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

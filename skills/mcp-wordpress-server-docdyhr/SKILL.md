@@ -3,8 +3,6 @@ title: "MCP WordPress Server by docdyhr"
 description: "An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through the Model Context Protocol. It is useful when an agent needs natural-language control over posts, pages, taxonomies, media, users, plugins, and multisite WordPress operations via a real MCP server."
 verification: "security_reviewed"
 source: "https://github.com/docdyhr/mcp-wordpress"
-author: "docdyhr"
-publisher_type: "Individual Developer"
 category:
   - "WordPress & CMS"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # MCP WordPress Server by docdyhr
 
-An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through the Model Context Protocol. It is useful when an agent needs natural-language control over posts, pages, taxonomies, media, users, plugins, and multisite WordPress operations via a real MCP server.
+MCP WordPress Server by docdyhr is a source-backed ASE skill for WordPress management through the Model Context Protocol. The upstream project is docdyhr/mcp-wordpress, an actively maintained TypeScript MCP server with an npm package, tagged releases, and a detailed README. Its purpose is straightforward: expose WordPress content and administrative actions as MCP tools so an MCP-compatible client can manage a site through structured tool calls instead of manual wp-admin navigation.
 
-## Prerequisites
+The job-to-be-done is agent-driven WordPress operations. An agent can list and update posts, pages, and custom post types, manage taxonomies and terms, work with media, inspect or edit users and comments, and coordinate tasks across multiple WordPress sites from a single MCP server. The README also highlights installation options including a downloadable desktop extension and a global npm install, which makes it practical for both local desktop workflows and scripted MCP setups.
 
-Node.js, npm, a WordPress site with REST API enabled, and a WordPress application password
+Integration points include Claude Desktop or any MCP-compatible client, WordPress REST API access, WordPress application passwords, npm-based installation, and multisite content automation. Because the project has a real GitHub repository, npm distribution, releases, visible maintenance, and a concrete operational scope, it comfortably clears ASE intake. For the marketplace, this gives users a real WordPress MCP option that is distinct from the existing Automattic remote connector and WordPress core adapter entries.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/mcp-wordpress-server-docdyhr/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install -g mcp-wordpress
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mcp-wordpress-server-docdyhr
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/docdyhr/mcp-wordpress
+- Download the repository ZIP and extract `skills/mcp-wordpress-server-docdyhr`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

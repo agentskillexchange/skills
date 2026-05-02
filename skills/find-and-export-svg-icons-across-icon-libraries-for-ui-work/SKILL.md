@@ -3,8 +3,6 @@ title: "Find and export SVG icons across icon libraries for UI work"
 description: "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing."
 verification: "security_reviewed"
 source: "https://github.com/better-auth/better-icons"
-author: "better-auth"
-publisher_type: "Organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,37 @@ tool_ecosystem:
 
 # Find and export SVG icons across icon libraries for UI work
 
-Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing.
+Better Icons is an MCP/CLI tool for searching and retrieving icons, and the useful agent skill here is very specific: an agent searches across many icon libraries, narrows down candidates for a design or frontend task, and returns the exact icon SVG or machine-readable result needed by the implementation.
 
-## Prerequisites
+Invoke this when the user asks for the right icon for a button, nav item, state badge, settings panel, auth flow, or any other UI element and you want the agent to do more than vaguely suggest “use a home icon.” The agent can search by concept, constrain by prefix or library, compare candidates, and export a concrete SVG or JSON result that can be dropped into code or design assets. That is the skill-shaped job-to-be-done.
 
-better-icons, Node.js
+The boundary prevents this from collapsing into a product card. This entry is not “here is an icon search package” or “here is an MCP server.” It is about delegated icon selection and retrieval for real UI work. If someone only needs a package registry listing, an icon website, or a general-purpose design tool, that is not what this entry is for.
+
+Integration points are straightforward from upstream: the tool supports CLI search, direct SVG retrieval, JSON output for scripting, and MCP setup for agent environments. That makes it a good fit for frontend builds, design systems, quick refactors, and automated UI assembly where the agent must choose and fetch an actual icon asset instead of merely naming one.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install from npm with npm install -g better-icons or run via npx, then use the documented search and get commands to find icons and export raw SVG or JSON.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/better-auth/better-icons
+- Download the repository ZIP and extract `skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

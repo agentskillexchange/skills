@@ -3,8 +3,6 @@ title: "WordPress REST API Builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
-author: "WordPress"
-publisher_type: "open_source_collective"
 category:
   - "WordPress & CMS"
 framework:
@@ -16,31 +14,43 @@ tool_ecosystem:
 
 # WordPress REST API Builder
 
-Build and debug WordPress REST endpoints with a specialized skill.
+WordPress REST API Builder is built around WordPress CMS and REST API ecosystem. The underlying ecosystem is represented by WordPress/WordPress (20,973+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like posts, pages, taxonomies, media, custom fields, auth, plugin hooks and preserving the operational context that matters for real tasks.
 
-## Prerequisites
+In practice, the skill gives an agent a stable interface to wordpress so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Build and debug WordPress REST endpoints with a specialized skill. The implementation typically relies on posts, pages, taxonomies, media, custom fields, auth, plugin hooks, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-OpenClaw, WordPress codebase or development environment
+- Accesses posts, pages, taxonomies, media, custom fields, auth, plugin hooks instead of scraping a UI, which makes runs easier to audit and retry.
+
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+- Fits into broader integration points such as content publishing, plugin dev, REST endpoints, and editorial automation.
+
+For generator-style use cases, the skill turns a vague request into repeatable scaffolding with defaults that match the upstream toolchain rather than inventing ad hoc files. Key integration points include content publishing, plugin dev, REST endpoints, and editorial automation. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/wordpress-rest-api-builder/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install from the OpenClaw skills directory. Use when working inside a WordPress plugin or theme codebase that needs REST API routes, schemas, or endpoint work. No external service setup required — this is a guidance and workflow skill, not a deployable server.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wordpress-rest-api-builder
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://wordpress.org/documentation/
+- Download the repository ZIP and extract `skills/wordpress-rest-api-builder`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

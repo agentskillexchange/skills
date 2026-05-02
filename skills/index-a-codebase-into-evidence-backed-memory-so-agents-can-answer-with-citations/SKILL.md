@@ -3,8 +3,6 @@ title: "Index a codebase into evidence-backed memory so agents can answer with c
 description: "Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole codebase every session."
 verification: "security_reviewed"
 source: "https://github.com/Bpolat0/atlasmemory"
-author: "Mehmet Batuhan Polat"
-publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -18,31 +16,33 @@ tool_ecosystem:
 
 # Index a codebase into evidence-backed memory so agents can answer with citations
 
-Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole codebase every session.
+AtlasMemory turns a local repository into an MCP-accessible memory layer that an agent can index, search, enrich, and query before making claims about the code. Its distinguishing workflow is evidence-backed retrieval: answers can be tied to file paths, line ranges, and content hashes, which helps the agent pull the right context, verify claims, and avoid drifting across long or repeated coding sessions.
 
-## Prerequisites
-
-Node.js 18+; npm or npx; a local codebase to index; an MCP-compatible client; optional Claude CLI or OpenAI Codex CLI access if you want AtlasMemory's semantic enrichment features.
+The boundary is narrow enough to be a skill rather than a product card. Invoke it when the task is grounded codebase recall and citation-backed repo exploration, not when you want a generic IDE extension, a broad knowledge platform, or an all-purpose agent framework. The job-to-be-done is to build trusted, repo-local memory before asking the agent to reason over a large codebase.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-<p>Use <code>npx -y atlasmemory</code> in your MCP client config for on-demand startup, or install it globally with <code>npm install -g atlasmemory</code>. For a repo-first workflow, run <code>npx atlasmemory index .</code> to build the local index, then optionally run <code>npx atlasmemory enrich</code> to add semantic tags before querying the codebase through MCP.</p>
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/Bpolat0/atlasmemory
+- Download the repository ZIP and extract `skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

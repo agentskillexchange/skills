@@ -3,8 +3,6 @@ title: "Embed bounded Claude Code sessions into Python automation with the Claud
 description: "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume structured responses programmatically."
 verification: "security_reviewed"
 source: "https://github.com/anthropics/claude-agent-sdk-python"
-author: "Anthropic"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -17,31 +15,35 @@ tool_ecosystem:
 
 # Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK
 
-Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume structured responses programmatically.
+This skill is for Python automation that needs to call Claude Code as a component instead of as a human-operated terminal session. It covers the workflow of launching queries from Python, constraining tool permissions, setting working directories, and consuming streamed or structured responses inside a larger automation pipeline.
 
-## Prerequisites
+Invoke this instead of using Claude Code manually when the real job is orchestration from Python, such as repository maintenance tasks, coding helpers inside an internal service, or batch workflows that need a bounded coding agent step.
 
-Python 3.10+, pip, Claude Agent SDK package, Claude Code compatible credentials
+The scope boundary is specific: this is not a generic SDK listing and not a broad Anthropic platform card. It is about embedding Claude Code style sessions inside Python automation through the SDK boundary.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Python package with pip install claude-agent-sdk, configure any ClaudeAgentOptions you need such as cwd and permission handling, then call the SDK from your Python automation to run bounded agent queries.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/anthropics/claude-agent-sdk-python
+- Download the repository ZIP and extract `skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

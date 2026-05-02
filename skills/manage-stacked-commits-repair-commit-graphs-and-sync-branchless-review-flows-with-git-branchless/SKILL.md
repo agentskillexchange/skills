@@ -3,8 +3,6 @@ title: "Manage stacked commits, repair commit graphs, and sync branchless review
 description: "Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches."
 verification: "listed"
 source: "https://github.com/arxanas/git-branchless"
-author: "arxanas"
-publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless
 
-Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches.
-
-## Prerequisites
-
-Git, git-branchless binary
+Use git-branchless when an agent or developer is working in a stacked-commit workflow and needs to reorder, restack, visualize, or undo commit graph changes safely. It is a fit when the job is commit-stack maintenance and review prep, not generic Git hosting or a broad Git client listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install git-branchless using the repository instructions for your OS or package manager, then run `git branchless init` in repositories where you want smartlog, restack, sync, and undo workflows.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/arxanas/git-branchless
+- Download the repository ZIP and extract `skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

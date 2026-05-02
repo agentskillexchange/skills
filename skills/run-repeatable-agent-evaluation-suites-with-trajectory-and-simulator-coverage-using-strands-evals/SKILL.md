@@ -3,8 +3,6 @@ title: "Run repeatable agent evaluation suites with trajectory and simulator cov
 description: "Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review."
 verification: "listed"
 source: "https://github.com/strands-agents/evals"
-author: "strands-agents"
-publisher_type: "organization"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals
 
-Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review.
-
-## Prerequisites
-
-Python 3.10+, pip, optional judge-model access
+Use Strands Evals when you need a reusable evaluation suite for an agent or LLM app, including output scoring, tool-use trajectory checks, simulated conversations, and trace-based analysis. Invoke it instead of ad hoc prompting when the task is packaging repeatable experiments and measuring agent behavior over time, not just using an agent framework normally. The boundary is the evaluation workflow itself, and the project is genuinely cross-framework by design rather than tied to one agent client.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install strands-agents-evals`, define cases and evaluators in Python, then run experiments with `Experiment(...).run_evaluations(...)` against your agent or app function.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/strands-agents/evals
+- Download the repository ZIP and extract `skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

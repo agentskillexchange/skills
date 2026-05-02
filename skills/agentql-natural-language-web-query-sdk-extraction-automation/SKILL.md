@@ -1,10 +1,8 @@
 ---
 title: "AgentQL Natural Language Web Query SDK for Extraction and Automation"
-description: "AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone."
+description: "AgentQL is TinyFish’s web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone."
 verification: "security_reviewed"
 source: "https://github.com/tinyfish-io/agentql"
-author: "tinyfish-io"
-publisher_type: "Company"
 category:
   - "Research & Scraping"
 framework:
@@ -18,31 +16,35 @@ tool_ecosystem:
 
 # AgentQL Natural Language Web Query SDK for Extraction and Automation
 
-AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone.
+AgentQL is a web extraction and automation toolkit from TinyFish that adds a natural-language query layer on top of live browser sessions. The official repository describes it as a suite that includes Python and JavaScript SDKs, a REST API, a browser debugger, and integrations with tools such as Playwright. Instead of forcing developers to handcraft and maintain a pile of selectors, AgentQL lets them define structured outputs and target elements using higher-level queries tied to the meaning of the page.
 
-## Prerequisites
+That makes it especially relevant for agent workflows where the same job needs to survive layout changes across different sites or repeated runs over time. The upstream docs show common patterns including site login, infinite scroll, product comparison, cookie and popup handling, remote browser use, and structured data extraction. For a team building browsing or scraping agents, those are concrete jobs-to-be-done rather than vague capability claims.
 
-python, go, java
+Integration is clear from the source material. The Python SDK installs from PyPI, uses Playwright as the default web driver, requires an AGENTQL_API_KEY, and can be initialized through the CLI or manual setup. The project also has a published npm package and maintained docs, which gives this skill enough source-backed evidence to pass the intake gate. In ASE terms, this belongs in Research & Scraping because it is built for robust web data collection and workflow automation on real pages.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/agentql-natural-language-web-query-sdk-extraction-automation/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-pip3 install agentql
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/agentql-natural-language-web-query-sdk-extraction-automation
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.agentql.com
+- Download the repository ZIP and extract `skills/agentql-natural-language-web-query-sdk-extraction-automation`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

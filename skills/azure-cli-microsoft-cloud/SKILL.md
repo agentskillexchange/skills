@@ -3,7 +3,6 @@ title: "Azure CLI — Command-Line Interface for Microsoft Azure"
 description: "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands."
 verification: "listed"
 source: "https://github.com/Azure/azure-cli"
-author: "Microsoft"
 category:
   - "Developer Tools"
 framework:
@@ -17,29 +16,29 @@ tool_ecosystem:
 
 The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands.
 
-## Prerequisites
-
-Python 3.9+, pip or platform package manager
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/azure-cli-microsoft-cloud/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/azure-cli-microsoft-cloud
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://learn.microsoft.com/en-us/cli/azure/
+- Download the repository ZIP and extract `skills/azure-cli-microsoft-cloud`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

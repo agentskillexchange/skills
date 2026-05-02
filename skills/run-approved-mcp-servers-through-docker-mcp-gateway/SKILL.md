@@ -3,8 +3,6 @@ title: "Run approved MCP servers through Docker MCP Gateway"
 description: "Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client connections."
 verification: "listed"
 source: "https://github.com/docker/mcp-gateway"
-author: "Docker"
-publisher_type: "organization"
 category:
   - "Integrations & Connectors"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Run approved MCP servers through Docker MCP Gateway
 
-Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client connections.
+Use this skill when an agent/operator needs a controlled MCP operations layer rather than direct per-client server wiring. The workflow is: pull or define MCP server catalog/profile entries, run servers with Docker isolation, enable only the needed tools, manage secrets or OAuth, connect one or more clients to the gateway, and inspect or call tools through the gateway.
 
-## Prerequisites
+Invoke it instead of using Docker or MCP servers normally when the concern is operational control: consistent MCP profiles across clients, container isolation, restricted tool exposure, secret handling, and repeatable gateway startup for agent workflows.
 
-Docker Desktop 4.59+ with MCP Toolkit or Docker CLI plugin, Docker daemon, MCP server catalog/profile
+Scope boundary: this is not a general Docker CLI skill and not a generic MCP catalog listing. Keep it to MCP server lifecycle, profile/catalog management, gateway execution, client connection, and tool/secret controls for agent access.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-approved-mcp-servers-through-docker-mcp-gateway/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Use the docker mcp CLI plugin included with recent Docker Desktop MCP Toolkit builds, or clone https://github.com/docker/mcp-gateway, run make docker-mcp, then use docker mcp gateway/profile/catalog/client commands as documented.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-approved-mcp-servers-through-docker-mcp-gateway
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/docker/mcp-gateway
+- Download the repository ZIP and extract `skills/run-approved-mcp-servers-through-docker-mcp-gateway`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

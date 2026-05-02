@@ -3,41 +3,42 @@ title: "Test documentation sites across mobile, tablet, and desktop with GitHub 
 description: "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues."
 verification: "listed"
 source: "https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md"
-author: "GitHub"
-publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "github/gh-aw"
+  github_stars: 4338
 ---
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows
 
-Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.
-
-## Prerequisites
-
-GitHub repository with docs build scripts, GitHub Actions, gh-aw, Playwright MCP tooling available through the workflow runtime
+Use GitHub Agentic Workflows when the specific job is multi-device documentation-site testing inside a reviewable GitHub Actions run, not when the user simply wants a generic docs framework or a basic browser automation tool. The workflow builds the docs site, serves it locally, exercises it across mobile, tablet, and desktop viewports through Playwright-backed agent steps, then either files a report issue or records a clean pass. That scope boundary, multi-device docs verification as a guarded repository workflow, keeps this skill distinct from broad documentation tooling and from generic browser screenshots alone.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install and configure gh-aw in the target repository, add the daily-multi-device-docs-tester workflow, compile the workflow with gh aw compile, then run it on schedule or via workflow_dispatch against the repository docs site.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://raw.githubusercontent.com/github/gh-aw/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md
+- Download the repository ZIP and extract `skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA"
 description: "Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a PBX-native workflow."
 verification: "security_reviewed"
 source: "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk"
-author: "hkjarral"
-publisher_type: "open_source_project"
 category:
   - "Integrations & Connectors"
 framework:
@@ -16,31 +14,33 @@ tool_ecosystem:
 
 # Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA
 
-Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a PBX-native workflow.
+Use AVA when the job is to stand up a self-hosted AI phone agent inside an Asterisk or FreePBX environment, then verify a real call path from dialplan to AI engine. The upstream project is concrete about the workflow: run the preflight script, launch the admin UI and AI engine with Docker Compose, configure providers, and test live call handling through the PBX.
 
-## Prerequisites
-
-Docker Compose, Asterisk or FreePBX environment, telephony configuration, STT/LLM/TTS provider credentials
+Invoke this instead of a hosted voice API or generic telephony product listing when the requirement is PBX-native call automation in infrastructure you control. The scope boundary is clear: AVA handles Asterisk or FreePBX backed call answering, routing, transfer, and voice-agent setup. It is not a generic voice model SDK, broad telephony platform card, or abstract conversational AI framework listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone the repo, run sudo ./preflight.sh --apply-fixes, start the admin UI with docker compose -p asterisk-ai-voice-agent up -d --build --force-recreate admin_ui, then start ai_engine and verify health before placing a test call.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk
+- Download the repository ZIP and extract `skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Find deprecated Kubernetes APIs in manifests and live resources before u
 description: "Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window."
 verification: "listed"
 source: "https://github.com/FairwindsOps/pluto"
-author: "FairwindsOps"
-publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto
 
-Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window.
-
-## Prerequisites
-
-Kubernetes manifests or cluster access, Pluto binary
+Use Pluto when an agent needs to answer a very specific upgrade-safety question: which Kubernetes resources still rely on APIs that are deprecated or removed in newer cluster versions. The agent can inspect raw manifests, Helm output, or live resources and convert the findings into a migration checklist before maintenance begins. Invoke this instead of using the product normally when the job is pre-upgrade compatibility review, not generic Kubernetes management or policy enforcement. The scope boundary is tight: deprecated-API detection for upgrade readiness.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Pluto from a release or package manager, then run commands such as `pluto detect-files`, `pluto detect-helm`, or `pluto detect` for live cluster checks.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://pluto.docs.fairwinds.com/
+- Download the repository ZIP and extract `skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

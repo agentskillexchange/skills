@@ -3,8 +3,6 @@ title: "Provision Rust CLI toolchains from prebuilt binaries in fresh environmen
 description: "Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds."
 verification: "listed"
 source: "https://github.com/cargo-bins/cargo-binstall"
-author: "cargo-bins"
-publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall
 
-Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds.
-
-## Prerequisites
-
-Rust and cargo-binstall, plus network access to published release binaries for target Rust CLIs
+Use cargo-binstall when an agent needs to provision Rust CLI tools quickly in fresh containers, CI runners, or temporary workspaces without compiling every crate from source. Invoke it instead of repeated `cargo install` build loops when the real job is binary-first tool bootstrap for a reproducible working environment. The scope boundary is narrow and skill-shaped: install published Rust CLI binaries where available, then fall back cleanly when needed, not general Rust dependency management, crate authoring, or a plain package-manager listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install cargo-binstall with the upstream method for your platform, commonly `cargo install cargo-binstall`, then use `cargo binstall <crate>` to provision supported Rust CLI tools from prebuilt binaries in fresh environments.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/cargo-bins/cargo-binstall
+- Download the repository ZIP and extract `skills/provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -3,8 +3,6 @@ title: "Turn recurring team workflows into installable cross-tool agent skills w
 description: "Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across supported agent tools."
 verification: "security_reviewed"
 source: "https://github.com/FrancyJGLisboa/agent-skill-creator"
-author: "Francy JG Lisboa"
-publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,31 +14,35 @@ tool_ecosystem:
 
 # Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator
 
-Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across supported agent tools.
+Agent Skill Creator converts messy workflow inputs into a reusable installed skill. The agent takes plain-English process descriptions, documents, links, code, PDFs, or transcripts, generates a structured skill with scripts and references, validates it, security-scans it, installs it, and can optionally publish it into a team skill registry.
 
-## Prerequisites
+Invoke this when the job is to capture repeated team know-how as a reusable agent skill instead of re-explaining the process in every chat. It is the right choice when you want a workflow packaged once and then invoked by name across supported agent tools, rather than using a single platform normally and repeating the same instructions manually.
 
-A supported skills-capable agent tool such as Claude Code, Codex CLI, Gemini CLI, Copilot, Cursor, Windsurf, or another documented target
+The scope boundary is skill creation and installation. This is not just a registry, installer, or generic cross-agent compatibility card. The distinct workflow is taking raw organizational knowledge and turning it into an installable, validated skill artifact with a clear invocation path.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with the bootstrap script or clone the repo into your tool's skills path, then invoke /agent-skill-creator with the workflow materials you want turned into a reusable skill.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/FrancyJGLisboa/agent-skill-creator
+- Download the repository ZIP and extract `skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

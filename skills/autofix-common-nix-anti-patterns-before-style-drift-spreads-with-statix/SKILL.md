@@ -3,8 +3,6 @@ title: "Autofix common Nix anti-patterns before style drift spreads with Statix"
 description: "Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work."
 verification: "listed"
 source: "https://github.com/oppiliappan/statix"
-author: "oppiliappan"
-publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,31 +14,31 @@ tool_ecosystem:
 
 # Autofix common Nix anti-patterns before style drift spreads with Statix
 
-Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work.
-
-## Prerequisites
-
-Statix CLI, Nix files
+Use Statix when an agent needs to clean up Nix expressions by finding and rewriting common anti-patterns before review or larger refactors. The agent can run a focused lint pass, apply safe autofixes, and return a smaller diff for human review. Invoke this instead of using the product normally when the job is Nix hygiene remediation, not general Nix package management or system orchestration. The boundary is anti-pattern detection and autofix in Nix code, not a generic Nix ecosystem listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Statix from the project repository or package manager, then run checks or autofix mode against the Nix files you want to normalize.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/oppiliappan/statix
+- Download the repository ZIP and extract `skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
