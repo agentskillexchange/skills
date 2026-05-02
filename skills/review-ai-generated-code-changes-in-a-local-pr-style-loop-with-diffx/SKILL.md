@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wong2/diffx"
   github_stars: 127
+  npm_package: "None"
 ---
 # Review AI-generated code changes in a local PR-style loop with DiffX
 

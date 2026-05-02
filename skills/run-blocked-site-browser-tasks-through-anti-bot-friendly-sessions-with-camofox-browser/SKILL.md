@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "jo-inc/camofox-browser"
   github_stars: 2853
+  npm_package: "None"
 ---
 # Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser
 

@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "zmap/zlint"
   github_stars: 429
+  npm_package: "None"
 ---
 # Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout
 

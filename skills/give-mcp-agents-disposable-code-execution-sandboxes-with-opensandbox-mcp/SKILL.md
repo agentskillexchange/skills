@@ -9,6 +9,7 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "alibaba/OpenSandbox"
   github_stars: 10207
+  npm_package: "None"
 ---
 # Give MCP agents disposable code execution sandboxes with OpenSandbox MCP
 

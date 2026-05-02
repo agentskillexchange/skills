@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "always-further/nono"
   github_stars: 2080
+  npm_package: "None"
 ---
 # Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono
 

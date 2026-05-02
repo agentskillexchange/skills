@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "splx-ai/agentic-radar"
   github_stars: 953
+  npm_package: "None"
 ---
 # Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar
 

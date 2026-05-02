@@ -9,6 +9,7 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "microsoft/fabric-rti-mcp"
   github_stars: 111
+  npm_package: "None"
 ---
 # Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP
 

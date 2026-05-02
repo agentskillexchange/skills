@@ -9,6 +9,7 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "latchagent/latch"
   github_stars: 8
+  npm_package: "None"
 ---
 # Gate risky agent actions behind approval checkpoints with Latch
 

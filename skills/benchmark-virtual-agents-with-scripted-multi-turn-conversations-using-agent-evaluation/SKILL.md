@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "awslabs/agent-evaluation"
   github_stars: 358
+  npm_package: "None"
 ---
 # Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation
 

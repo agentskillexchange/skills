@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dandye/ai-runbooks"
   github_stars: 96
+  npm_package: "None"
 ---
 # Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks
 

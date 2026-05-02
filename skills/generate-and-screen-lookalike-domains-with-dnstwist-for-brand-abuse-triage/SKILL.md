@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "elceef/dnstwist"
   github_stars: 5656
+  npm_package: "None"
 ---
 # Generate and screen lookalike domains with dnstwist for brand abuse triage
 

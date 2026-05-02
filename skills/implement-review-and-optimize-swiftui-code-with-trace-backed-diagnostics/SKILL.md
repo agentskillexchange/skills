@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "avdlee/swiftui-agent-skill"
   github_stars: 2661
+  npm_package: "None"
 ---
 # Implement, review, and optimize SwiftUI code with trace-backed diagnostics
 

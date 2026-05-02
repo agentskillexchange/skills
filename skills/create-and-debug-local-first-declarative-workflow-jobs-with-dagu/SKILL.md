@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "dagucloud/dagu"
   github_stars: 3303
+  npm_package: "None"
 ---
 # Create and debug local-first declarative workflow jobs with Dagu
 

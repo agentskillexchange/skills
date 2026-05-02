@@ -9,6 +9,7 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "DrDroidLab/sample-debug-agent"
   github_stars: 6
+  npm_package: "None"
 ---
 # Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit
 

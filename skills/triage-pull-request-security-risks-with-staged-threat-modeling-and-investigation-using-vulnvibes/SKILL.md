@@ -9,6 +9,7 @@ framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "anshumanbh/vulnvibes"
   github_stars: 17
+  npm_package: "None"
 ---
 # Triage pull request security risks with staged threat modeling and investigation using VulnVibes
 

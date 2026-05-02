@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "AvdLee/Xcode-Build-Optimization-Agent-Skill"
   github_stars: 981
+  npm_package: "None"
 ---
 # Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill
 

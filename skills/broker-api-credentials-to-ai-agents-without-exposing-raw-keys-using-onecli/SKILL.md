@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "onecli/onecli"
   github_stars: 1859
+  npm_package: "None"
 ---
 # Broker API credentials to AI agents without exposing raw keys using OneCLI
 

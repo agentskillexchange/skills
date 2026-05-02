@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "terraform-docs/terraform-docs"
   github_stars: 4753
+  npm_package: "None"
 ---
 # Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in
 

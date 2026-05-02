@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "netresearch/git-workflow-skill"
   github_stars: 13
+  npm_package: "None"
 ---
 # Apply Git branching, commit, and pull request best practices through Git Workflow Skill
 

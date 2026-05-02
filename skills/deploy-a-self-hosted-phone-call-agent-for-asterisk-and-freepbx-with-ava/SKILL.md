@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "hkjarral/AVA-AI-Voice-Agent-for-Asterisk"
   github_stars: 991
+  npm_package: "None"
 ---
 # Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA
 
