@@ -1,28 +1,32 @@
 ---
 title: "HubSpot CRM Contact Enrichment Pipeline"
-slug: "hubspot-crm-contact-enrichment-pipeline"
 description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company associations via crm.associations.batchRead(), and syncs lifecycle stage transitions with custom property updates."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
-category: "Integrations &amp; Connectors"
-framework: "Claude Code"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "hubspot/hubspot-api-nodejs"
   github_stars: 392
   npm_package: "@hubspot/api-client"
   npm_weekly_downloads: 986793
 ---
+
 # HubSpot CRM Contact Enrichment Pipeline
 
 Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company associations via crm.associations.batchRead(), and syncs lifecycle stage transitions with custom property updates.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

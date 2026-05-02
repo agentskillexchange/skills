@@ -1,26 +1,41 @@
 ---
 title: "Pylint Baseline Manager"
-slug: "pylint-baseline-manager-wave48"
-description: "Manages Pylint baseline files for gradual code quality improvement using pylint &#8211;output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
-verification: security_reviewed
+description: "Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+verification: "security_reviewed"
 source: "https://github.com/pylint-dev/pylint"
-category: "Code Quality &amp; Review"
-framework: "Custom Agents"
+author: "Pylint Contributors"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pylint-dev/pylint"
   github_stars: 5673
 ---
+
 # Pylint Baseline Manager
 
-Manages Pylint baseline files for gradual code quality improvement using pylint &#8211;output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
+Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install pylint
+```
+
+## Documentation
+
+- https://pylint.readthedocs.io/
 
 ## Source
 

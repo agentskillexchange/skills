@@ -1,23 +1,27 @@
 ---
-title: "Twitter/X Trend Monitor &amp; Thread Publisher"
-slug: "twitter-x-trend-monitor-thread-publisher"
+title: "Twitter/X Trend Monitor & Thread Publisher"
 description: "Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches, fetches top tweets by engagement and drafts a summarizing thread via OpenAI Chat Completions. Publishes the thread via X API v2 with reply chaining, respecting OAuth 2.0 PKCE rate limits."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/"
-category: "Templates &amp; Workflows"
-framework: "OpenClaw"
+category:
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 ---
-# Twitter/X Trend Monitor &amp; Thread Publisher
+
+# Twitter/X Trend Monitor & Thread Publisher
 
 Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches, fetches top tweets by engagement and drafts a summarizing thread via OpenAI Chat Completions. Publishes the thread via X API v2 with reply chaining, respecting OAuth 2.0 PKCE rate limits.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

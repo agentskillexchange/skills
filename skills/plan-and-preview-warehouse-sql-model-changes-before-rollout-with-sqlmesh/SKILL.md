@@ -1,26 +1,46 @@
 ---
 title: "Plan and preview warehouse SQL model changes before rollout with SQLMesh"
-slug: "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh"
 description: "Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution."
-verification: listed
+verification: "listed"
 source: "https://github.com/SQLMesh/sqlmesh"
-category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+author: "SQLMesh"
+publisher_type: "organization"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "SQLMesh/sqlmesh"
   github_stars: 3034
 ---
+
 # Plan and preview warehouse SQL model changes before rollout with SQLMesh
 
 Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution.
 
+## Prerequisites
+
+Python 3.9+, pip, SQLMesh, warehouse connection
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install with `pip install sqlmesh`, connect your warehouse in the SQLMesh project config, then use commands like `sqlmesh plan` and `sqlmesh diff` before applying changes.
+```
+
+## Documentation
+
+- https://sqlmesh.readthedocs.io/
 
 ## Source
 

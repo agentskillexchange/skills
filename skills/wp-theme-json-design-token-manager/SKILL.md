@@ -1,26 +1,30 @@
 ---
 title: "WordPress Theme.json Design Token Manager"
-slug: "wp-theme-json-design-token-manager"
 description: "Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
-category: "WordPress &amp; CMS"
-framework: "Gemini"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027
 ---
+
 # WordPress Theme.json Design Token Manager
 
 Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

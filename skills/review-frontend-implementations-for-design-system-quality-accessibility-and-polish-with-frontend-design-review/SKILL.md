@@ -1,26 +1,43 @@
 ---
 title: "Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review"
-slug: "review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review"
 description: "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release."
-verification: listed
+verification: "listed"
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review"
-category: "Code Quality &amp; Review"
-framework: "Multi-Framework"
-tool_ecosystem:
-  github_repo: "microsoft/skills"
-  github_stars: 2103
+author: "Microsoft"
+publisher_type: "organization"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 ---
+
 # Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review
 
 Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.
 
+## Prerequisites
+
+Frontend code or screenshots, design-system references such as Storybook or Figma Dev Mode, accessibility review context
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the Microsoft skills repository with npx skills add microsoft/skills, then invoke frontend-design-review while reviewing implemented UI against design-system, accessibility, and visual-quality criteria.
+```
+
+## Documentation
+
+- https://microsoft.github.io/skills/
 
 ## Source
 

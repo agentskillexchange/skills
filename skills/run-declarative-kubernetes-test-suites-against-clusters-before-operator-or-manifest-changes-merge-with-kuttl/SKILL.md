@@ -1,26 +1,46 @@
 ---
 title: "Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL"
-slug: "run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl"
 description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
-verification: listed
+verification: "listed"
 source: "https://github.com/kudobuilder/kuttl"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+author: "kudobuilder"
+publisher_type: "organization"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kudobuilder/kuttl"
   github_stars: 804
 ---
+
 # Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL
 
 Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.
 
+## Prerequisites
+
+KUTTL CLI or kubectl-kuttl plugin, access to a Kubernetes test cluster, declarative test step YAML files, and the manifests or operators under test
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install KUTTL from the upstream release or plugin instructions, author the documented test suite structure with steps and assertions, then run the test command against a Kubernetes cluster prepared for the target manifests or operator.
+```
+
+## Documentation
+
+- https://github.com/kudobuilder/kuttl
 
 ## Source
 

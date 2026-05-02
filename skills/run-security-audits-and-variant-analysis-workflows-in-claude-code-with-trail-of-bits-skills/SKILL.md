@@ -1,26 +1,46 @@
 ---
 title: "Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills"
-slug: "run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills"
 description: "Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding assistance."
-verification: listed
+verification: "listed"
 source: "https://github.com/trailofbits/skills"
-category: "Security &amp; Verification"
-framework: "Claude Code"
+author: "Trail of Bits"
+publisher_type: "company"
+category:
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "trailofbits/skills"
   github_stars: 4663
 ---
+
 # Run security audits and variant analysis workflows in Claude Code with Trail of Bits Skills
 
 Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding assistance.
 
+## Prerequisites
+
+Claude Code with plugin marketplace support, the Trail of Bits skills repository or marketplace install, and whatever upstream tools a selected security skill requires such as Semgrep, CodeQL, SARIF tooling, Burp exports, or language-specific analyzers.
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Add the marketplace with /plugin marketplace add trailofbits/skills, then install the needed skill from the plugin menu or by name. For Codex-native use, clone the repository and run the documented .codex install script so the sidecar skills tree becomes available locally.
+```
+
+## Documentation
+
+- https://github.com/trailofbits/skills#readme
 
 ## Source
 

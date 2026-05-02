@@ -1,26 +1,35 @@
 ---
 title: "Scalar OpenAPI Reference and API Client Platform"
-slug: "scalar-openapi-reference-api-client-platform"
 description: "Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/scalar/scalar"
-category: "Library &amp; API Reference"
-framework: "Multi-Framework"
+author: "scalar"
+category:
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "scalar/scalar"
   github_stars: 14624
 ---
+
 # Scalar OpenAPI Reference and API Client Platform
 
 Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://scalar.com
 
 ## Source
 

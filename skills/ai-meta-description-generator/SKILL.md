@@ -1,23 +1,28 @@
 ---
 title: "AI Meta Description Generator"
-slug: "ai-meta-description-generator"
-description: "Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
-verification: security_reviewed
+description: "Bulk-generates SEO meta descriptions from page content using OpenAI's GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
+verification: "security_reviewed"
 source: "https://platform.openai.com/docs/api-reference"
-category: "Content Writing &amp; SEO"
-framework: "Claude Agents"
+author: "OpenAI"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Claude Agents"
 ---
+
 # AI Meta Description Generator
 
-Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
+Bulk-generates SEO meta descriptions from page content using OpenAI's GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

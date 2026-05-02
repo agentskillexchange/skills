@@ -1,26 +1,46 @@
 ---
 title: "Break large coding jobs into focused subagent missions with AB Method"
-slug: "break-large-coding-jobs-into-focused-subagent-missions-with-ab-method"
 description: "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/ayoubben18/ab-method"
-category: "Templates &amp; Workflows"
-framework: "Claude Code"
+author: "ayoubben18"
+publisher_type: "individual"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "ayoubben18/ab-method"
   github_stars: 159
 ---
+
 # Break large coding jobs into focused subagent missions with AB Method
 
 Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation.
 
+## Prerequisites
+
+Claude Code, the AB Method installer or workflow files, and a repository where generated task, mission, and architecture documents can live alongside implementation work.
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install AB Method using the documented npx installer or manual project setup, let it add the command files and workflow directories to your Claude Code environment, then create tasks and missions through the provided commands so larger jobs run as bounded incremental work instead of one monolithic session.
+```
+
+## Documentation
+
+- https://github.com/ayoubben18/ab-method
 
 ## Source
 

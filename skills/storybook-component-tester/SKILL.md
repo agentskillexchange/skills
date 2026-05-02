@@ -1,26 +1,35 @@
 ---
 title: "Storybook Component Tester"
-slug: "storybook-component-tester"
-description: "Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational [&hellip;]"
-verification: security_reviewed
+description: ""
+verification: "security_reviewed"
 source: "https://github.com/storybookjs/storybook"
-category: "Code Quality &amp; Review"
-framework: "Custom Agents"
+author: "storybookjs"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "storybookjs/storybook"
   github_stars: 89703
 ---
+
 # Storybook Component Tester
 
-Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational [&hellip;]
+
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://storybook.js.org/docs
 
 ## Source
 

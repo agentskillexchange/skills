@@ -1,26 +1,46 @@
 ---
 title: "htmlq Command-Line HTML Content Extractor with CSS Selectors"
-slug: "htmlq-command-line-html-content-extractor-css-selectors"
 description: "htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/mgdm/htmlq"
-category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+author: "Michael Maclean"
+publisher_type: "Individual Developer"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mgdm/htmlq"
   github_stars: 7514
 ---
+
 # htmlq Command-Line HTML Content Extractor with CSS Selectors
 
 htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal.
 
+## Prerequisites
+
+Rust (cargo) or Homebrew
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+cargo install htmlq
+```
+
+## Documentation
+
+- https://github.com/mgdm/htmlq#readme
 
 ## Source
 

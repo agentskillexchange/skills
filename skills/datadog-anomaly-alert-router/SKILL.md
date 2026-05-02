@@ -1,28 +1,32 @@
 ---
 title: "Datadog Anomaly Alert Router"
-slug: "datadog-anomaly-alert-router"
 description: "Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
-category: "Monitoring &amp; Alerts"
-framework: "MCP"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791
   npm_package: "dd-trace"
   npm_weekly_downloads: 6596660
 ---
+
 # Datadog Anomaly Alert Router
 
 Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

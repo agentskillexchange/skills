@@ -1,26 +1,30 @@
 ---
 title: "Cal.com Open Source Scheduling Infrastructure and API"
-slug: "cal-com-open-source-scheduling-infrastructure-api"
-description: "Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API."
-verification: security_reviewed
+description: "Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API."
+verification: "security_reviewed"
 source: "https://github.com/calcom/cal.com"
-category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "calcom/cal.com"
   github_stars: 40908
 ---
+
 # Cal.com Open Source Scheduling Infrastructure and API
 
-Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API.
+Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

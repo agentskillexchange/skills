@@ -1,26 +1,30 @@
 ---
 title: "Open Interpreter Natural Language Computer Interface"
-slug: "open-interpreter-natural-language-computer-interface"
-description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis."
-verification: security_reviewed
+description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer's general-purpose capabilities including file manipulation, browser control, and data analysis."
+verification: "security_reviewed"
 source: "https://github.com/openinterpreter/open-interpreter"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
   github_stars: 62934
 ---
+
 # Open Interpreter Natural Language Computer Interface
 
-Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis.
+Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer's general-purpose capabilities including file manipulation, browser control, and data analysis.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

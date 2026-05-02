@@ -1,26 +1,46 @@
 ---
 title: "Run deterministic SQL and dbt analysis under coding agents with Altimate Code"
-slug: "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code"
 description: "Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows underneath Claude Code, Codex, or terminal-driven agent sessions."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/AltimateAI/altimate-code"
-category: "Developer Tools"
-framework: "Multi-Framework"
+author: "Altimate AI"
+publisher_type: "Organization"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AltimateAI/altimate-code"
   github_stars: 552
 ---
+
 # Run deterministic SQL and dbt analysis under coding agents with Altimate Code
 
 Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows underneath Claude Code, Codex, or terminal-driven agent sessions.
 
+## Prerequisites
+
+altimate-code CLI, an LLM provider key or local model, and optional dbt project or warehouse credentials for the deterministic data-engineering workflows
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install with npm install -g altimate-code, launch altimate, configure the LLM provider, and optionally run /discover to index the local dbt project, warehouse connections, and related tools before invoking the SQL and dbt workflows.
+```
+
+## Documentation
+
+- https://altimate.sh
 
 ## Source
 

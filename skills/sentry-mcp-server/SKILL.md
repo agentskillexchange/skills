@@ -1,28 +1,42 @@
 ---
 title: "Sentry MCP Server"
-slug: "sentry-mcp-server"
-description: "Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
-verification: security_reviewed
+description: "Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
+verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
-category: "Monitoring &amp; Alerts"
-framework: "MCP"
+author: "Sentry"
+publisher_type: "company"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 673
   npm_package: "@sentry/mcp-server"
   npm_weekly_downloads: 54205
 ---
+
 # Sentry MCP Server
 
-Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
+Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
+
+## Prerequisites
+
+MCP-compatible client (Claude Code, Cursor, VS Code), Sentry account with active projects, Node.js (for stdio mode)
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.sentry.io/product/sentry-mcp/
 
 ## Source
 

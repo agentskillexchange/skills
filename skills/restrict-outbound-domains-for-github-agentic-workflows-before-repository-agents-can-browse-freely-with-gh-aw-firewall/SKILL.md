@@ -1,26 +1,46 @@
 ---
 title: "Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall"
-slug: "restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall"
 description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access."
-verification: listed
+verification: "listed"
 source: "https://github.com/github/gh-aw-firewall"
-category: "Security &amp; Verification"
-framework: "Custom Agents"
+author: "GitHub"
+publisher_type: "organization"
+category:
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "github/gh-aw-firewall"
   github_stars: 55
 ---
+
 # Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall
 
 Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access.
 
+## Prerequisites
+
+Docker 20.10+, Docker Compose v2, Linux host or compatible runtime
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install with the upstream installer, for example `curl -sSL https://raw.githubusercontent.com/github/gh-aw-firewall/main/install.sh | sudo bash`, then run `awf --allow-domains <domain-list> -- <your-agentic-workflow-command>`.
+```
+
+## Documentation
+
+- https://github.github.com/gh-aw-firewall/
 
 ## Source
 

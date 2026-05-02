@@ -1,26 +1,31 @@
 ---
 title: "Zammad Open Source Web-Based Helpdesk and Ticketing System"
-slug: "zammad-open-source-helpdesk-ticketing-system"
 description: "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/zammad/zammad"
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+author: "Zammad"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zammad/zammad"
   github_stars: 5513
 ---
+
 # Zammad Open Source Web-Based Helpdesk and Ticketing System
 
 Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

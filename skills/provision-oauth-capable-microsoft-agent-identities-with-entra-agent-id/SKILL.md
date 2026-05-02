@@ -1,26 +1,43 @@
 ---
 title: "Provision OAuth-capable Microsoft agent identities with Entra Agent ID"
-slug: "provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id"
 description: "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns."
-verification: listed
+verification: "listed"
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/entra-agent-id"
-category: "Security &amp; Verification"
-framework: "Multi-Framework"
-tool_ecosystem:
-  github_repo: "microsoft/skills"
-  github_stars: 2103
+author: "Microsoft"
+publisher_type: "organization"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
+
 # Provision OAuth-capable Microsoft agent identities with Entra Agent ID
 
 Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.
 
+## Prerequisites
+
+Microsoft Graph beta API, Microsoft Entra roles and app registration or PowerShell Graph modules, optional Entra Agent ID sidecar
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the Microsoft skills repository with npx skills add microsoft/skills, then enable the entra-agent-id skill in your agent setup and provide Microsoft Graph beta access plus the required Entra permissions and tenant credentials.
+```
+
+## Documentation
+
+- https://microsoft.github.io/skills/
 
 ## Source
 

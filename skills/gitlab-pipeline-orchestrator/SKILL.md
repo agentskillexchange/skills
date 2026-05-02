@@ -1,26 +1,30 @@
 ---
 title: "GitLab Pipeline Orchestrator"
-slug: "gitlab-pipeline-orchestrator"
 description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
 ---
+
 # GitLab Pipeline Orchestrator
 
 Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

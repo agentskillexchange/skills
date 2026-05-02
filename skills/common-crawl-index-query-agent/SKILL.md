@@ -1,23 +1,32 @@
 ---
 title: "Common Crawl Index Query Agent"
-slug: "common-crawl-index-query-agent"
 description: "Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://index.commoncrawl.org/"
-category: "Research &amp; Scraping"
-framework: "OpenClaw"
+author: "Common Crawl Foundation"
+category:
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
+
 # Common Crawl Index Query Agent
 
 Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://index.commoncrawl.org/
 
 ## Source
 

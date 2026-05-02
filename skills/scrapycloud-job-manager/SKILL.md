@@ -1,23 +1,32 @@
 ---
 title: "ScrapyCloud Job Manager"
-slug: "scrapycloud-job-manager"
 description: "Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://www.zyte.com/scrapy-cloud/"
-category: "Research &amp; Scraping"
-framework: "ChatGPT Agents"
+author: "Zyte"
+category:
+  - "Research & Scraping"
+framework:
+  - "ChatGPT Agents"
 ---
+
 # ScrapyCloud Job Manager
 
 Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.zyte.com/scrapy-cloud/
 
 ## Source
 

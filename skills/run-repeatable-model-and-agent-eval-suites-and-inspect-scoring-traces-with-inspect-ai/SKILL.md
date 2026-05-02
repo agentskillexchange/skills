@@ -1,26 +1,46 @@
 ---
 title: "Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI"
-slug: "run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai"
 description: "Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel."
-verification: listed
+verification: "listed"
 source: "https://github.com/UKGovernmentBEIS/inspect_ai"
-category: "Security &amp; Verification"
-framework: "Multi-Framework"
+author: "UK AI Security Institute"
+publisher_type: "organization"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ukgovernmentbeis/inspect_ai"
   github_stars: 1904
 ---
+
 # Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI
 
 Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel.
 
+## Prerequisites
+
+Python environment, inspect-ai package, model provider credentials, evaluation datasets or task definitions, optional sandbox dependencies for agent tasks
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install inspect-ai in a Python environment, add the provider packages and credentials for the models you want to test, select or author an evaluation task, then run it with the documented inspect eval workflow.
+```
+
+## Documentation
+
+- https://inspect.aisi.org.uk/
 
 ## Source
 
