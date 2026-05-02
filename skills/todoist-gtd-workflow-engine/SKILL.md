@@ -1,32 +1,23 @@
 ---
 title: "Todoist GTD Workflow Engine"
+slug: "todoist-gtd-workflow-engine"
 description: "Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developer.todoist.com/api/v1/"
-author: "Doist"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "MCP"
+category: "Calendar, Email &amp; Productivity"
+framework: "MCP"
 ---
-
 # Todoist GTD Workflow Engine
 
 Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://developer.todoist.com/api/v1/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

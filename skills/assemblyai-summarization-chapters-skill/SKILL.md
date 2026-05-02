@@ -1,27 +1,23 @@
 ---
-title: "AssemblyAI Summarization & Chapters Skill"
-description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
-verification: "security_reviewed"
+title: "AssemblyAI Summarization &#038; Chapters Skill"
+slug: "assemblyai-summarization-chapters-skill"
+description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI&#8217;s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
+verification: security_reviewed
 source: "https://www.assemblyai.com/docs"
-category:
-  - "Media & Transcription"
-framework:
-  - "Claude Agents"
+category: "Media &amp; Transcription"
+framework: "Claude Agents"
 ---
+# AssemblyAI Summarization &#038; Chapters Skill
 
-# AssemblyAI Summarization & Chapters Skill
-
-Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
+Transcribes audio and generates auto-chapters with summaries using AssemblyAI&#8217;s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

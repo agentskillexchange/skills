@@ -1,30 +1,26 @@
 ---
 title: "SOPS Encrypted Secrets Editor and Manager"
+slug: "sops-encrypted-secrets-editor-manager"
 description: "SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/getsops/sops"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security &amp; Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsops/sops"
   github_stars: 21312
 ---
-
 # SOPS Encrypted Secrets Editor and Manager
 
 SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

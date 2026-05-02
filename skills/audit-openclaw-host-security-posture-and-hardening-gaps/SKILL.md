@@ -1,37 +1,26 @@
 ---
 title: "Audit OpenClaw host security posture and hardening gaps"
-description: "This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration."
-verification: "security_reviewed"
+slug: "audit-openclaw-host-security-posture-and-hardening-gaps"
+description: "This skill uses OpenClaw&#8217;s healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration."
+verification: security_reviewed
 source: "https://github.com/openclaw/openclaw/tree/main/skills/healthcheck"
-author: "OpenClaw"
-publisher_type: "open_source_project"
-category:
-  - "Security & Verification"
-framework:
-  - "OpenClaw"
+category: "Security &amp; Verification"
+framework: "OpenClaw"
+tool_ecosystem:
+  github_repo: "openclaw/openclaw"
+  github_stars: 356821
 ---
-
 # Audit OpenClaw host security posture and hardening gaps
 
-This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration.
-
-## Prerequisites
-
-OpenClaw CLI
+This skill uses OpenClaw&#8217;s healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening plan. It is for operator-style audits with explicit approval gates, not a generic software listing or a replacement for OS administration.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://github.com/openclaw/openclaw/tree/main/skills/healthcheck
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

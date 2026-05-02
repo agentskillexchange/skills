@@ -1,45 +1,26 @@
 ---
 title: "Hugging Face Transformers — Machine Learning Model Library"
+slug: "hugging-face-transformers-ml-library"
 description: "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment."
-verification: "listed"
+verification: listed
 source: "https://github.com/huggingface/transformers"
-author: "Hugging Face"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159189
 ---
-
 # Hugging Face Transformers — Machine Learning Model Library
 
 Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment.
 
-## Prerequisites
-
-Python 3.9+, pip, PyTorch or TensorFlow
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-pip install transformers
-```
-
-## Documentation
-
-- https://huggingface.co/docs/transformers/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

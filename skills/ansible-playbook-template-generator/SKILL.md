@@ -1,30 +1,26 @@
 ---
 title: "Ansible Playbook Template Generator"
+slug: "ansible-playbook-template-generator"
 description: "Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core built-in modules. Supports Jinja2 template rendering and vault-encrypted variable files."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/ansible/ansible"
-category:
-  - "Templates & Workflows"
-framework:
-  - "OpenClaw"
+category: "Templates &amp; Workflows"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364
 ---
-
 # Ansible Playbook Template Generator
 
 Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core built-in modules. Supports Jinja2 template rendering and vault-encrypted variable files.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

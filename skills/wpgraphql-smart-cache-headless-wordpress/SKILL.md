@@ -1,46 +1,26 @@
 ---
 title: "WPGraphQL Smart Cache for Headless WordPress"
+slug: "wpgraphql-smart-cache-headless-wordpress"
 description: "An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and invalidating them when content changes. It fits headless WordPress stacks that need faster GraphQL responses without giving up reliable cache purges."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql-smart-cache"
-author: "Jason Bahl"
-publisher_type: "Open Source Project"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql-smart-cache"
   github_stars: 80
 ---
-
 # WPGraphQL Smart Cache for Headless WordPress
 
 An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and invalidating them when content changes. It fits headless WordPress stacks that need faster GraphQL responses without giving up reliable cache purges.
 
-## Prerequisites
-
-WordPress, WPGraphQL, and a supported cache layer for network or object caching
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-wp plugin install wpgraphql-smart-cache --activate
-```
-
-## Documentation
-
-- https://wordpress.org/plugins/wpgraphql-smart-cache/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

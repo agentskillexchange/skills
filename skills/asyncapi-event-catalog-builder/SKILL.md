@@ -1,32 +1,23 @@
 ---
 title: "AsyncAPI Event Catalog Builder"
+slug: "asyncapi-event-catalog-builder"
 description: "Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.asyncapi.com/"
-author: "AsyncAPI Initiative"
-category:
-  - "Library & API Reference"
-framework:
-  - "Gemini"
+category: "Library &amp; API Reference"
+framework: "Gemini"
 ---
-
 # AsyncAPI Event Catalog Builder
 
 Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://www.asyncapi.com/docs
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

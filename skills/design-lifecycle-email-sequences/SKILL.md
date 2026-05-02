@@ -1,43 +1,26 @@
 ---
 title: "Design Lifecycle Email Sequences"
+slug: "design-lifecycle-email-sequences"
 description: "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email."
-verification: "listed"
+verification: listed
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence"
-author: "coreyhaines31"
-publisher_type: "individual"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "coreyhaines31/marketingskills"
+  github_stars: 21914
 ---
-
 # Design Lifecycle Email Sequences
 
 Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.
 
-## Prerequisites
-
-Agent runtime with skill support, audience and offer context, optional email platform or CRM context, lifecycle goals
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Copy this skill directory from the upstream repository into your agent's supported skills directory, then invoke it when you need to design or optimize a lifecycle email sequence.
-```
-
-## Documentation
-
-- https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

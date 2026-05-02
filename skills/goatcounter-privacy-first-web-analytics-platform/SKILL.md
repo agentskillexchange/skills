@@ -1,35 +1,26 @@
 ---
 title: "GoatCounter Privacy-First Web Analytics Platform"
+slug: "goatcounter-privacy-first-web-analytics-platform"
 description: "GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and lightweight site stats. It can be used as a hosted service or self-hosted, and it supports JavaScript, backend API, and logfile-based ingestion paths."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/arp242/goatcounter"
-author: "arp242"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring &amp; Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "arp242/goatcounter"
   github_stars: 5628
 ---
-
 # GoatCounter Privacy-First Web Analytics Platform
 
 GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and lightweight site stats. It can be used as a hosted service or self-hosted, and it supports JavaScript, backend API, and logfile-based ingestion paths.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://www.goatcounter.com
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

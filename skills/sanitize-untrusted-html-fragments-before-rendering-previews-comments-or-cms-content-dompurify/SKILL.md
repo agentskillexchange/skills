@@ -1,46 +1,26 @@
 ---
 title: "Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify"
+slug: "sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify"
 description: "Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup and unsafe attributes before the content is shown in previews, stored in CMS fields, or embedded in downstream pages."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/cure53/DOMPurify"
-author: "Cure53"
-publisher_type: "user"
-category:
-  - "Security & Verification"
-framework:
-  - "Custom Agents"
+category: "Security &amp; Verification"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "cure53/DOMPurify"
   github_stars: 16854
 ---
-
 # Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify
 
 Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup and unsafe attributes before the content is shown in previews, stored in CMS fields, or embedded in downstream pages.
 
-## Prerequisites
-
-Node.js or a JavaScript runtime with DOM support
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-npm install dompurify
-```
-
-## Documentation
-
-- https://github.com/cure53/DOMPurify#readme
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

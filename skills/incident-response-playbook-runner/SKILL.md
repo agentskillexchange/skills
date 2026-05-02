@@ -1,28 +1,23 @@
 ---
 title: "Incident Response Playbook Runner"
+slug: "incident-response-playbook-runner"
 description: "Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for communication, and Jira REST API for ticket creation. Automates evidence collection, timeline construction, and post-mortem generation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/incident-response-playbook-runner/"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "MCP"
-  - "Multi-Framework"
+category: "Runbooks &amp; Diagnostics"
+framework: "MCP, Multi-Framework"
 ---
-
 # Incident Response Playbook Runner
 
 Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for communication, and Jira REST API for ticket creation. Automates evidence collection, timeline construction, and post-mortem generation.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

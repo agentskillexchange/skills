@@ -1,27 +1,23 @@
 ---
 title: "Incident Response Checklist Engine"
+slug: "incident-response-checklist-engine"
 description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Claude Agents"
+category: "Runbooks &amp; Diagnostics"
+framework: "Claude Agents"
 ---
-
 # Incident Response Checklist Engine
 
 Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 
