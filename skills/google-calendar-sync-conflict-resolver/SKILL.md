@@ -1,32 +1,23 @@
 ---
-title: "Google Calendar Sync & Conflict Resolver"
+title: "Google Calendar Sync &#038; Conflict Resolver"
+slug: "google-calendar-sync-conflict-resolver"
 description: "Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developers.google.com/calendar/api"
-author: "Google"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "OpenClaw"
+category: "Calendar, Email &amp; Productivity"
+framework: "OpenClaw"
 ---
-
-# Google Calendar Sync & Conflict Resolver
+# Google Calendar Sync &#038; Conflict Resolver
 
 Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://developers.google.com/calendar/api
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

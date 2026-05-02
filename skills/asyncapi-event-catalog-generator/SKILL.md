@@ -1,32 +1,23 @@
 ---
 title: "AsyncAPI Event Catalog Generator"
+slug: "asyncapi-event-catalog-generator"
 description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://www.asyncapi.com/"
-author: "AsyncAPI Initiative"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Code"
+category: "Library &amp; API Reference"
+framework: "Claude Code"
 ---
-
 # AsyncAPI Event Catalog Generator
 
 Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://www.asyncapi.com/docs
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

@@ -1,30 +1,26 @@
 ---
 title: "PagerDuty On-Call Escalation Checker"
+slug: "pagerduty-on-call-escalation-checker-2"
 description: "Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Claude Code"
+category: "Runbooks &amp; Diagnostics"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
   github_stars: 69
 ---
-
 # PagerDuty On-Call Escalation Checker
 
 Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

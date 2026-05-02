@@ -1,30 +1,26 @@
 ---
 title: "Slidev Markdown Presentation Slides for Developers"
+slug: "slidev-markdown-presentation-slides-developers"
 description: "Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/slidevjs/slidev"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "slidevjs/slidev"
   github_stars: 45362
 ---
-
 # Slidev Markdown Presentation Slides for Developers
 
 Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

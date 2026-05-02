@@ -1,32 +1,23 @@
 ---
 title: "NPM Audit Deep Scanner"
+slug: "npm-audit-deep-scanner"
 description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
-author: "npm, Inc."
-category:
-  - "Security & Verification"
-framework:
-  - "Custom Agents"
+category: "Security &amp; Verification"
+framework: "Custom Agents"
 ---
-
 # NPM Audit Deep Scanner
 
 Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://docs.npmjs.com/cli/v10/commands/npm-audit/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

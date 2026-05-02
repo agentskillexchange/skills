@@ -1,43 +1,28 @@
 ---
 title: "Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe"
+slug: "find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe"
 description: "Use Claude Code dedupe to summarize an issue, run several GitHub duplicate searches in parallel, filter false positives, and post only well-supported possible-duplicate links."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/dedupe.md"
-author: "Anthropic"
-publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Claude Code"
+category: "Templates &amp; Workflows"
+framework: "Claude Code"
+tool_ecosystem:
+  github_repo: "anthropics/claude-code"
+  github_stars: 116829
+  npm_package: "@anthropic-ai/claude-code"
+  npm_weekly_downloads: 49934290
 ---
-
 # Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe
 
 Use Claude Code dedupe to summarize an issue, run several GitHub duplicate searches in parallel, filter false positives, and post only well-supported possible-duplicate links.
 
-## Prerequisites
-
-Claude Code, GitHub repository access, repository-provided gh wrapper/comment scripts
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Claude Code from the official docs, then use the repository's dedupe command file in a repo that provides the expected GitHub wrapper and duplicate-comment scripts.
-```
-
-## Documentation
-
-- https://code.claude.com/docs/en/overview
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

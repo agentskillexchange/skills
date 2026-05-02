@@ -1,46 +1,26 @@
 ---
 title: "Run profile-based restic backups and verification checks with resticprofile"
+slug: "run-profile-based-restic-backups-and-verification-checks-with-resticprofile"
 description: "Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands."
-verification: "listed"
+verification: listed
 source: "https://github.com/creativeprojects/resticprofile"
-author: "CreativeProjects"
-publisher_type: "organization"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks &amp; Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "creativeprojects/resticprofile"
   github_stars: 1275
 ---
-
 # Run profile-based restic backups and verification checks with resticprofile
 
 Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands.
 
-## Prerequisites
-
-resticprofile, restic, configured backup backend credentials
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install restic and resticprofile, define one or more profiles in the config file, then run commands like `resticprofile backup`, `resticprofile check`, or a named profile operation.
-```
-
-## Documentation
-
-- https://creativeprojects.github.io/resticprofile/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

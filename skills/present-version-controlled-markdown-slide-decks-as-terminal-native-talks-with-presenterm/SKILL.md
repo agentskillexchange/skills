@@ -1,48 +1,28 @@
 ---
 title: "Present version-controlled markdown slide decks as terminal-native talks with Presenterm"
+slug: "present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm"
 description: "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git."
-verification: "listed"
+verification: listed
 source: "https://github.com/mfontanini/presenterm"
-author: "mfontanini"
-publisher_type: "individual"
-category:
-  - "Media & Transcription"
-framework:
-  - "Multi-Framework"
+category: "Media &amp; Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mfontanini/presenterm"
   github_stars: 8246
   npm_package: "presenterm"
   npm_weekly_downloads: 29896
 ---
-
 # Present version-controlled markdown slide decks as terminal-native talks with Presenterm
 
 Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
 
-## Prerequisites
-
-Presenterm installation, markdown slide deck files, terminal with supported rendering features, optional speaker notes or theme assets
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Presenterm from the upstream package or release instructions, prepare a markdown slide deck in the documented format, then preview and present it from the terminal using the built-in presenter workflow.
-```
-
-## Documentation
-
-- https://mfontanini.github.io/presenterm/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

@@ -1,27 +1,23 @@
 ---
 title: "CloudTrail Anomaly Detection Agent"
+slug: "cloudtrail-anomaly-detection-agent"
 description: "Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical baselining of API call patterns and flags unusual AssumeRole chains, console logins from new IPs, and privilege escalation attempts."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_LookupEvents.html"
-category:
-  - "Security & Verification"
-framework:
-  - "ChatGPT Agents"
+category: "Security &amp; Verification"
+framework: "ChatGPT Agents"
 ---
-
 # CloudTrail Anomaly Detection Agent
 
 Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical baselining of API call patterns and flags unusual AssumeRole chains, console logins from new IPs, and privilege escalation attempts.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

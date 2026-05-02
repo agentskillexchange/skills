@@ -1,30 +1,26 @@
 ---
 title: "WordPress ACF Field Group Auditor"
+slug: "wordpress-acf-field-group-auditor"
 description: "Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
-category:
-  - "WordPress & CMS"
-framework:
-  - "OpenClaw"
+category: "WordPress &amp; CMS"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027
 ---
-
 # WordPress ACF Field Group Auditor
 
 Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

@@ -1,32 +1,28 @@
 ---
 title: "ESLint Auto-Fix Pipeline"
-description: "Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
-verification: "security_reviewed"
+slug: "eslint-autofix-pipeline"
+description: "Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
+verification: security_reviewed
 source: "https://github.com/eslint/eslint"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Claude Agents"
+category: "Code Quality &amp; Review"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188
   npm_package: "eslint"
   npm_weekly_downloads: 120215107
 ---
-
 # ESLint Auto-Fix Pipeline
 
-Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
+Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 
