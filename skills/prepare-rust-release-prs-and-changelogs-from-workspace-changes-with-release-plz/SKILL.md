@@ -3,6 +3,8 @@ title: "Prepare Rust Release PRs and Changelogs from Workspace Changes with rele
 description: "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing."
 verification: "security_reviewed"
 source: "https://github.com/release-plz/release-plz"
+author: "release-plz"
+publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz
 
-This skill wraps release-plz as a bounded Rust release-preparation workflow. The agent inspects workspace changes, determines release-worthy crates, drafts version bumps, prepares changelog updates, and opens the handoff point as a release PR before any publish step happens.
+Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing.
 
-Invoke it when a Rust workspace is approaching release and maintainers need a reproducible pre-publish pass. Use Cargo or hosting-platform release tools normally for simple manual releases. Use this skill when the job is specifically release PR preparation and changelog assembly from actual workspace deltas.
+## Prerequisites
 
-The scope boundary is release preparation for Rust crates and workspaces. It is not a generic CI/CD platform, package registry, or universal release automation product card.
+Rust, Cargo workspace, release-plz
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz
+```
+Install the CLI, then run it from the Rust workspace root to prepare release pull requests and changelog updates: cargo install release-plz && release-plz release-pr
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://release-plz.dev/
 
 ## Source
 

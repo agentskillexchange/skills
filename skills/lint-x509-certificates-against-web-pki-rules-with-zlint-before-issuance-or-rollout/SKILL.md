@@ -3,6 +3,8 @@ title: "Lint X.509 certificates against Web PKI rules with zlint before issuance
 description: "Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment."
 verification: "listed"
 source: "https://github.com/zmap/zlint"
+author: "zmap"
+publisher_type: "open_source_project"
 category:
   - "Security & Verification"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout
 
-Use zlint when the job is to evaluate a certificate or precertificate against Web PKI rules before issuance, trust-store submission, or production rollout. The upstream project is explicitly a certificate linter focused on standards and policy compliance.
+Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment.
 
-Invoke this instead of generic certificate viewers or TLS scanners when the need is standards linting and explainable policy failures, not chain inspection or service monitoring. The scope boundary is clear: zlint lint-checks X.509 artifacts against PKI requirements. It is not a general CA product, certificate lifecycle platform, or server listing.
+## Prerequisites
+
+PEM or DER certificate or precertificate input, zlint CLI or Go library, operator able to interpret lint findings
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout
+```
+Install zlint from the upstream repository or releases, then run it against the target certificate or precertificate file.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://zmap.io
 
 ## Source
 

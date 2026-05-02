@@ -1,8 +1,10 @@
 ---
 title: "Expose FastAPI routes as MCP tools with FastAPI-MCP"
 description: "Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved schemas."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/tadata-org/fastapi_mcp"
+author: "Tadata"
+publisher_type: "organization"
 category:
   - "Integrations & Connectors"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Expose FastAPI routes as MCP tools with FastAPI-MCP
 
-Use this skill when an agent/operator needs to make an existing FastAPI service available as MCP tools without hand-writing wrappers for every endpoint. The workflow is: install FastAPI-MCP, attach it to the FastAPI app, preserve request/response schemas and existing FastAPI auth dependencies, mount or separately deploy the MCP server, then connect an MCP client to the generated tool surface.
+Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved schemas.
 
-Invoke it instead of using the API normally when an agent needs schema-aware, authenticated tool access to internal FastAPI endpoints through MCP, especially for repeated operational or integration workflows.
+## Prerequisites
 
-Scope boundary: this is not a generic FastAPI or OpenAPI converter entry. Keep it to exposing existing FastAPI routes as MCP tools, preserving auth/schema semantics, and validating the resulting MCP endpoint for agent use.
+Python 3.10+, FastAPI application, fastapi-mcp package, MCP-capable client
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp
+```
+Install with uv add fastapi-mcp or pip install fastapi-mcp, create FastApiMCP(app), then call mcp.mount() or follow the separate deployment documentation.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://fastapi-mcp.tadata.com/
 
 ## Source
 

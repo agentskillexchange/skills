@@ -3,6 +3,8 @@ title: "Map Python import graphs to explain coupling before refactors or package
 description: "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork."
 verification: "listed"
 source: "https://github.com/thebjorn/pydeps"
+author: "thebjorn"
+publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Map Python import graphs to explain coupling before refactors or package splits with pydeps
 
-Use pydeps when an agent needs to inspect how Python modules depend on each other before a refactor, extraction, or architecture review. It is most useful when the real task is to surface import cycles, noisy coupling, or hidden dependency paths and hand back a graph or dependency report.
+Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork.
 
-This is not just a package listing because the boundary is a specific analysis workflow: run dependency discovery against a target package, tune scope and noise, and produce a graph that explains coupling. That is a concrete operator task with a clear before-and-after artifact.
+## Prerequisites
+
+Python, Graphviz, a local Python codebase to analyze.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps
+```
+Install with pip install pydeps, then install Graphviz so the dot command is available on PATH.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/thebjorn/pydeps
 
 ## Source
 

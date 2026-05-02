@@ -3,6 +3,8 @@ title: "Debug DNS resolution and record mismatches from the terminal with doggo"
 description: "Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service endpoints look wrong."
 verification: "listed"
 source: "https://github.com/mr-karan/doggo"
+author: "mr-karan"
+publisher_type: "user"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Debug DNS resolution and record mismatches from the terminal with doggo
 
-Use doggo when an agent needs to investigate DNS behavior for a hostname, compare answers across resolvers, or verify specific record types such as A, AAAA, CNAME, TXT, or MX. A user should invoke this instead of using a general DNS product when the task is a bounded resolution-debugging workflow from the terminal, not ongoing DNS management. The scope boundary is clear and skill-shaped: ad hoc resolver and record inspection for troubleshooting, not a generic DNS platform listing.
+Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service endpoints look wrong.
+
+## Prerequisites
+
+doggo CLI and network access to the target resolver or endpoint
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo
+```
+Install doggo from Homebrew, Go, a release binary, or another upstream package source, then query the affected domain and resolver path with the needed record types or JSON output for scripting.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/mr-karan/doggo
 
 ## Source
 

@@ -3,44 +3,41 @@ title: "Diagnose Tailscale and proxy conflicts before remote development stalls 
 description: "Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need a structured diagnosis."
 verification: "security_reviewed"
 source: "https://github.com/daymade/claude-code-skills/blob/main/tunnel-doctor/SKILL.md"
+author: "daymade"
+publisher_type: "github_skill"
 category:
   - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "daymade/claude-code-skills"
-  github_stars: 910
 ---
 
 # Diagnose Tailscale and proxy conflicts before remote development stalls out
 
-tunnel-doctor is a Claude Code skill for diagnosing and fixing multi-layer conflicts between Tailscale and proxy/VPN tooling on macOS. It walks an agent through symptom-based checks for route hijacking, HTTP proxy environment variables, system proxy bypass, SSH ProxyCommand double tunneling, and VM or container proxy propagation, including remote development and WSL-over-Tailscale edge cases.
+Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need a structured diagnosis.
 
-Invoke this instead of using Tailscale, Shadowrocket, Clash, Surge, Docker, or SSH normally when basic connectivity signals are misleading — for example when tailscale ping works but SSH times out, curl and browser disagree, git push fails through relays, or Docker image fetches break behind TUN and proxy layers. The scope boundary is clear: this is not a product listing for Tailscale or proxy software. It is a repeatable operator runbook for isolating the failing network layer and applying the right remediation path inside a Claude Code troubleshooting workflow.
+## Prerequisites
+
+Read, Grep, Edit, Bash
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out
+```
+Install the tunnel-doctor skill from daymade/claude-code-skills into Claude Code, then invoke it when Tailscale and proxy or VPN layers coexist on macOS and remote development paths fail inconsistently.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/daymade/claude-code-skills/blob/main/tunnel-doctor/SKILL.md
 
 ## Source
 

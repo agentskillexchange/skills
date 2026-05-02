@@ -3,6 +3,8 @@ title: "Turn a research idea into a draft paper workflow with AutoResearchClaw"
 description: "Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning, draft writing, and verification artifacts instead of improvising an end-to-end paper workflow by hand."
 verification: "security_reviewed"
 source: "https://github.com/aiming-lab/AutoResearchClaw"
+author: "AIMing Lab"
+publisher_type: "organization"
 category:
   - "Research & Scraping"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Turn a research idea into a draft paper workflow with AutoResearchClaw
 
-AutoResearchClaw is publishable because the upstream project exposes a named, end-to-end research workflow with a clear operator outcome: start from a topic, gather literature, design and run experiments, draft the paper, and produce verification artifacts and review outputs. The repo is explicit that this is a multi-stage idea-to-paper pipeline rather than a generic lab toolkit.
+Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning, draft writing, and verification artifacts instead of improvising an end-to-end paper workflow by hand.
 
-Invoke it instead of using the underlying models, search sources, or coding agents normally when the real need is a coordinated research-production pipeline. A user should reach for this when they want one agentic run to manage literature retrieval, experiment execution, citation checks, drafting, and human checkpoints, rather than manually stitching together OpenAlex, Semantic Scholar, arXiv, sandboxed code runs, and document writing.
+## Prerequisites
 
-The scope boundary is strong enough to keep it skill-shaped: this is not a plain model, SDK, or research portal listing. The bounded job is converting a research idea into a reviewable draft-paper workflow with evidence and checkpoints. The project is also genuinely cross-framework by design, with explicit support for OpenClaw and multiple ACP-compatible coding-agent backends, so Multi-Framework is justified here rather than used as a fallback.
+AutoResearchClaw CLI, an LLM provider, literature-source access, and the configured sandbox/runtime for experiment stages
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw
+```
+Clone the repository, install the project dependencies, run `researchclaw setup` and `researchclaw init`, then start a run with `researchclaw run --topic "..."` in either autonomous or co-pilot mode.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/aiming-lab/AutoResearchClaw
 
 ## Source
 

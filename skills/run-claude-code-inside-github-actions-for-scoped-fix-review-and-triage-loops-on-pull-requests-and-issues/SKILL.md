@@ -3,6 +3,8 @@ title: "Run Claude Code inside GitHub Actions for scoped fix, review, and triage
 description: "Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and runner policy."
 verification: "security_reviewed"
 source: "https://github.com/anthropics/claude-code-action"
+author: "Anthropic"
+publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues
 
-This skill is for teams that already use GitHub Actions and want Claude Code to enter the repo through a reviewable automation boundary instead of an ad hoc local session. It covers the operator workflow of wiring Claude Code into pull request, issue, and scheduled workflow triggers, then shaping prompts, permissions, and outputs so the run stays scoped to the event that invoked it.
+Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and runner policy.
 
-Invoke this instead of using Claude Code manually when the work should happen inside CI, on repository infrastructure, with durable logs and repeatable triggers. Typical cases include PR review passes, @claude comment handling, issue triage, and small bounded fix loops.
+## Prerequisites
 
-The scope boundary is narrow: this is not a generic Claude Code product card or a general GitHub Actions listing. It is specifically about running the Claude Code Action as a guarded repository automation surface inside GitHub Actions.
+GitHub Actions, Claude Code, Anthropic API key or supported cloud provider credentials
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues
+```
+Add anthropics/claude-code-action to a GitHub Actions workflow, configure the triggering event, then provide the required Claude authentication secret and any workflow-specific prompts or claude_args inputs.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/anthropics/claude-code-action
 
 ## Source
 

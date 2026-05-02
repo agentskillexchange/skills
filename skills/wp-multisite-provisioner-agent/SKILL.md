@@ -14,35 +14,17 @@ tool_ecosystem:
 
 # WordPress Multisite Provisioner
 
-WordPress Multisite Provisioner streamlines the creation and configuration of sites within a WordPress Multisite network. It uses wp_insert_site() (WordPress 5.1+) for programmatic site creation with full control over domain, path, and network assignment.
-
-The agent configures new sites via switch_to_blog() context switching, setting theme activation with switch_theme(), plugin activation lists, and site-specific options via update_option(). It supports both subdomain and subdirectory network configurations, handling SUBDOMAIN_INSTALL and DOMAIN_CURRENT_SITE constants.
-
-Includes templates for common site configurations: landing pages, blogs, WooCommerce stores, and LMS setups. Manages network-level settings via update_network_option() including upload quotas, allowed themes, and menu modules. Integrates with WP-CLI wp site create for bulk provisioning and generates Nginx/Apache rewrite rules for subdomain routing. Supports user role mapping across sites with add_user_to_blog().
+Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures per-site themes, plugins, and options via switch_to_blog() with subdomain or subdirectory routing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wp-multisite-provisioner-agent
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/wp-multisite-provisioner-agent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

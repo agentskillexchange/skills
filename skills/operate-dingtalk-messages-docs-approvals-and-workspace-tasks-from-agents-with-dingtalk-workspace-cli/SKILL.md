@@ -3,6 +3,8 @@ title: "Operate DingTalk messages, docs, approvals, and workspace tasks from age
 description: "Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message, approval, or document task."
 verification: "listed"
 source: "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli"
+author: "DingTalk Real AI"
+publisher_type: "organization"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI
 
-Use DingTalk Workspace CLI when an agent needs to act on DingTalk work objects such as messages, docs, approvals, or other workspace tasks without custom API glue or manual browser work. The invoke moment is clear: enterprise DingTalk operations carried out through a structured, agent-oriented command surface with built-in skills. That scope boundary, bounded DingTalk workspace execution through the CLI, keeps it skill-shaped rather than turning it into a generic DingTalk platform listing.
+Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message, approval, or document task.
+
+## Prerequisites
+
+dingtalk-workspace-cli, Node.js or a release binary, DingTalk enterprise access, and the required org authorization or custom app credentials
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli
+```
+Install dws from the upstream installer, npm, or a release binary, complete the documented login or custom-app setup, then run the DingTalk workspace command or packaged skill that matches the operation.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/tree/main/docs
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Store selective long-term agent memories with Mem0 instead of replaying 
 description: "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt."
 verification: "security_reviewed"
 source: "https://github.com/mem0ai/mem0"
+author: "Mem0"
+publisher_type: "company"
 category:
   - "Library & API Reference"
 framework:
@@ -16,35 +18,31 @@ tool_ecosystem:
 
 # Store selective long-term agent memories with Mem0 instead of replaying whole chats
 
-Tool: Mem0. This skill is for the narrow memory-management workflow where an agent extracts durable facts from interactions, stores them in a long-term memory layer, and retrieves only the relevant items later so prompts stay compact and useful.
+Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt.
 
-When to use it: invoke this when repeated sessions keep losing user preferences, project conventions, or previously confirmed facts, and replaying full chat history is becoming expensive or noisy. The operator workflow is explicit: add selective memories, search them by user or session context, and rehydrate only what matters for the next run.
+## Prerequisites
 
-Scope boundary: this is not a generic AI platform card and not a broad SDK listing for every memory feature Mem0 ships. Its publishable boundary is tighter: manage selective long-term agent memory so downstream runs can recover stable context without replaying whole transcripts. If you just need a general hosted AI platform, this is not the listing shape.
+A Python or Node agent stack, the Mem0 package or API, and a workflow that can decide which facts should be stored and later retrieved as durable memory.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats
+```
+Install Mem0 through the supported Python or npm package, configure the LLM and storage components described in the docs, wire the add and search calls into your agent workflow, and store only stable facts or preferences so later runs can retrieve selective memory instead of replaying full chats.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.mem0.ai
 
 ## Source
 

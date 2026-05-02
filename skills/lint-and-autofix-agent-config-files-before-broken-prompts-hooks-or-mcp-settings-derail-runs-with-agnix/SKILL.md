@@ -3,6 +3,8 @@ title: "Lint and autofix agent config files before broken prompts, hooks, or MCP
 description: "Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow."
 verification: "security_reviewed"
 source: "https://github.com/agent-sh/agnix"
+author: "agent-sh"
+publisher_type: "open_source"
 category:
   - "Security & Verification"
 framework:
@@ -16,33 +18,35 @@ tool_ecosystem:
 
 # Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix
 
-Agnix is a bounded preflight skill for agent operators who need to validate configuration files before an agent run, repo share, or CI check. Use it when the job is to catch malformed or weak agent instructions, invalid skill metadata, broken hook definitions, and bad MCP configuration before those issues turn into confusing runtime failures. The value is not “browse agent docs” or “use a generic linter”. The value is a concrete operator loop: scan agent config files, review findings, apply safe fixes, and rerun until the workspace is clean.
+Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow.
 
-Invoke this instead of using the product normally when you are working with repository-resident agent config files and want a repeatable guardrail around them. The scope boundary is narrow and skill-shaped: Agnix linting and autofix for agent configuration artifacts. It is not a general agent platform listing, not a generic security scanner, and not a catch-all coding assistant.
+## Prerequisites
+
+agnix CLI
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix
+```
+npm install -g agnix
+# or
+brew tap agent-sh/agnix && brew install agnix
+# or
+cargo install agnix-cli
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/agent-sh/agnix
 
 ## Source
 

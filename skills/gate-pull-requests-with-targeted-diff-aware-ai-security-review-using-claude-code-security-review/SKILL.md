@@ -3,6 +3,8 @@ title: "Gate pull requests with targeted diff-aware AI security review using Cla
 description: "Run a Claude Code powered security review pass on trusted pull requests so suspicious auth, secret, injection, and unsafe logic changes surface before merge."
 verification: "security_reviewed"
 source: "https://github.com/anthropics/claude-code-security-review"
+author: "Anthropic"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review
 
-This skill is for repositories that want a dedicated security-focused AI review pass inside GitHub Actions. It covers the workflow of triggering on trusted pull requests, scanning only the changed code, tuning false-positive filtering, and posting findings back to the pull request for human review.
+Run a Claude Code powered security review pass on trusted pull requests so suspicious auth, secret, injection, and unsafe logic changes surface before merge.
 
-Invoke this instead of using Claude Code manually when you need a repeatable, CI-native security checkpoint rather than an informal one-off review. It fits best when maintainers want security findings attached to the PR discussion and governed by normal merge policy.
+## Prerequisites
 
-The scope boundary is tight: this is not a general Claude Code listing and not a generic SAST product card. It is specifically the GitHub Action workflow for AI-assisted security review of pull request diffs.
+GitHub Actions, Claude API access, pull request workflows on trusted repositories
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review
+```
+Add anthropics/claude-code-security-review to a GitHub Actions workflow that runs on trusted pull_request events, then configure the Claude API secret and any optional scan or filtering inputs.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/anthropics/claude-code-security-review
 
 ## Source
 

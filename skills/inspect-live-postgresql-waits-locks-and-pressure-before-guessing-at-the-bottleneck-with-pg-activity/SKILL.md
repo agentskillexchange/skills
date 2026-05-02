@@ -3,6 +3,8 @@ title: "Inspect live PostgreSQL waits locks and pressure before guessing at the 
 description: "Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call."
 verification: "listed"
 source: "https://github.com/dalibo/pg_activity"
+author: "DALIBO"
+publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity
 
-Use pg_activity when an agent or operator needs a diagnose-now view of a running PostgreSQL instance rather than a general database client or monitoring platform. It is for checking active sessions, lock contention, waits, throughput, and resource pressure while an incident is happening. That scope boundary, live operational diagnosis for PostgreSQL workload pressure, keeps it skill-shaped instead of collapsing into a generic Postgres product card.
+Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call.
+
+## Prerequisites
+
+PostgreSQL connection access, pg_activity installation, terminal access to the target environment
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity
+```
+Install pg_activity from distribution packages, pip, or pipx as documented upstream, provide credentials for the target PostgreSQL instance, then run pg_activity against the live server during diagnosis.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/dalibo/pg_activity
 
 ## Source
 

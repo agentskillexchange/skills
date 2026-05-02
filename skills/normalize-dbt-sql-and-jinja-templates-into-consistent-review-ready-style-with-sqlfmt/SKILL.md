@@ -3,6 +3,8 @@ title: "Normalize dbt SQL and Jinja templates into consistent review-ready style
 description: "Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff."
 verification: "security_reviewed"
 source: "https://github.com/tconbeer/sqlfmt"
+author: "Tristan Conbeer and contributors"
+publisher_type: "oss"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt
 
-Use this skill when an agent needs to clean up messy dbt SQL or Jinja-templated query files before review, commit, or downstream linting. sqlfmt is a focused formatter: it rewrites supported SQL files into one consistent style, handles Jinja-aware source text, and avoids turning the task into a broader linting or warehouse-management workflow.
+Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff.
 
-Invoke it when the job is specifically make these SQL files readable and consistent rather than run dbt itself, manage models, or operate a data platform. That scope boundary keeps this entry skill-shaped: the agent performs a narrow formatting pass over existing SQL assets and returns reviewable diffs.
+## Prerequisites
 
-This is especially useful after agent-generated edits, before pull requests, or when teams want style normalization without code-review debates. The upstream project explicitly positions sqlfmt as a fast SQL formatter for dbt SQL files that works with Jinja and integrates into CLI, CI, and editor workflows.
+sqlfmt CLI
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt
+```
+Install the Python CLI from the upstream sqlfmt project (the repository notes distribution on PyPI as shandy-sqlfmt, with uv recommended), then run sqlfmt against the target SQL files or project paths.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://sqlfmt.com
 
 ## Source
 

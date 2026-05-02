@@ -3,6 +3,8 @@ title: "Capture simulate and diff HTTP dependencies before flaky integration tes
 description: "Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services."
 verification: "listed"
 source: "https://github.com/SpectoLabs/hoverfly"
+author: "SpectoLabs"
+publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly
 
-Use Hoverfly when an agent needs to proxy, capture, replay, or compare HTTP dependency behavior for integration testing and debugging. A user should invoke this instead of calling the real service normally when the goal is deterministic test isolation, safe replay, or controlled simulation of external APIs. The scope boundary is narrow: proxy-based HTTP dependency capture and simulation, not a generic test framework, proxy product, or broad API platform listing.
+Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services.
+
+## Prerequisites
+
+Hoverfly binary or container image, HTTP client or application under test, proxy configuration, and target dependency endpoints or recorded traffic fixtures
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly
+```
+Install Hoverfly from the upstream releases or run the published container image, configure the application or test client to route traffic through the proxy, then use the documented capture, simulate, and diff modes for the target dependencies.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.hoverfly.io/en/latest/
 
 ## Source
 

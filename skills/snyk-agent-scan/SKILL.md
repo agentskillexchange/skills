@@ -3,65 +3,38 @@ title: "Snyk Agent Scan"
 description: "Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component on your machine — detecting prompt injections, tool poisoning, toxic flows, malware payloads, and credential handling issues across 15+ distinct risk categories."
 verification: "security_reviewed"
 source: "https://github.com/snyk/agent-scan"
+author: "Snyk"
+publisher_type: "company"
 category:
   - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
-  github_stars: 2297
+  github_stars: 2303
 ---
 
 # Snyk Agent Scan
 
-Snyk Agent Scan (formerly Invariant Labs MCP-Scan) is a command-line security scanner purpose-built for the AI agent supply chain. It auto-discovers agent configurations for Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI, and other MCP-compatible platforms, then runs a comprehensive vulnerability assessment against every discovered component.
+Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component on your machine — detecting prompt injections, tool poisoning, toxic flows, malware payloads, and credential handling issues across 15+ distinct risk categories.
 
-Best for
+## Prerequisites
 
-- Auditing installed MCP servers and agent skills before trusting them
-
-- Detecting prompt injection attacks hidden in tool descriptions
-
-- Identifying tool shadowing between MCP servers
-
-- Verifying skills don’t contain malware payloads or unsafe credential handling
-
-What it scans
-
-- MCP servers: Prompt injection in tool descriptions, tool shadowing, tool poisoning via hidden instructions, and toxic data flows
-
-- Agent skills: Prompt injection in skill files, malware payloads, untrusted content references, unsafe credential handling, and hardcoded secrets
-
-- Agent harnesses: Configuration discovery and inventory across all supported platforms
-
-Install notes
-Get an API token from app.snyk.io/account. Set SNYK_TOKEN, install uv, then run uvx snyk-agent-scan@latest for a full machine scan. For targeted scans: uvx snyk-agent-scan@latest ~/.cursor/mcp.json.
-
-Source: github.com/snyk/agent-scan
+Python 3.10+, uv package manager, Snyk API token
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/snyk-agent-scan/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/snyk-agent-scan
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/snyk-agent-scan`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/snyk/agent-scan/blob/main/docs/scanning.md
 
 ## Source
 

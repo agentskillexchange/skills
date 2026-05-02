@@ -3,6 +3,8 @@ title: "Red-team agent workflows for jailbreaks, prompt injection, and policy fa
 description: "Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout."
 verification: "listed"
 source: "https://github.com/confident-ai/deepteam"
+author: "Confident AI"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam
 
-Use DeepTeam when you want to simulate attacks against an agent workflow before trusting it in production. The upstream workflow is clear: choose built-in vulnerability classes, run local red-team tests against an agent, RAG system, or chatbot, inspect binary pass/fail results with reasoning, and use those findings to harden prompts, tools, and policies. The scope boundary is adversarial red-team execution and review for LLM systems, not a generic security platform or plain model-evaluation listing.
+Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout.
+
+## Prerequisites
+
+Python environment, local or configured LLM access for chosen attacks
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam
+```
+Follow the repository quickstart to install DeepTeam, configure the model or local runtime you want to use for attack generation and judging, then run red-team passes against the target agent or LLM system and review the reported failures.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/confident-ai/deepteam
 
 ## Source
 

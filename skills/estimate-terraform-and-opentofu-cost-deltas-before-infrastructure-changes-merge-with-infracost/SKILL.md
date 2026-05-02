@@ -3,6 +3,8 @@ title: "Estimate Terraform and OpenTofu cost deltas before infrastructure change
 description: "Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges."
 verification: "listed"
 source: "https://github.com/infracost/infracost"
+author: "Infracost"
+publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost
 
-Use Infracost when an agent needs to answer a narrow pre-merge question: how much will this Terraform or OpenTofu change move projected cloud spend up or down. The agent can read plan output, run cost breakdowns and diffs, and turn the results into a review-ready summary before infrastructure changes merge. Invoke this instead of using the product normally when the job is pull request cost adjudication, not general IaC authoring or cloud billing. The boundary is cost-delta review for infrastructure plans before approval, not a generic Terraform tool or cloud cost platform.
+Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges.
+
+## Prerequisites
+
+Infracost CLI, Terraform or OpenTofu plan output
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost
+```
+Install the Infracost CLI from the official docs, then authenticate or configure pricing inputs before running cost breakdown or diff commands against Terraform or OpenTofu plans.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.infracost.io/docs/
 
 ## Source
 

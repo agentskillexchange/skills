@@ -3,6 +3,8 @@ title: "Upptime GitHub Actions Uptime Monitor and Status Page"
 description: "An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions, Issues, and Pages. It is a strong fit when an agent needs lightweight endpoint monitoring, incident issue tracking, and a public or internal status site without maintaining a separate monitoring server."
 verification: "security_reviewed"
 source: "https://github.com/upptime/upptime"
+author: "Anand Chowdhary"
+publisher_type: "Open Source Project"
 category:
   - "Monitoring & Alerts"
 framework:
@@ -14,35 +16,25 @@ tool_ecosystem:
 
 # Upptime GitHub Actions Uptime Monitor and Status Page
 
-Upptime GitHub Actions Uptime Monitor and Status Page is a source-backed ASE skill for teams that want agent-friendly monitoring without standing up another always-on service. Upptime is maintained in the upptime/upptime repository and documented at upptime.js.org. Its core design is unusually practical: scheduled GitHub Actions workflows check your endpoints every few minutes, response-time history is committed back into the repository, GitHub Issues are opened and closed for incidents, and GitHub Pages publishes the status site.
+An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions, Issues, and Pages. It is a strong fit when an agent needs lightweight endpoint monitoring, incident issue tracking, and a public or internal status site without maintaining a separate monitoring server.
 
-The job-to-be-done is clear. An agent can configure endpoint checks, review recent outages, summarize incident timelines from GitHub Issues, audit response-time trends, and update monitoring config in version control. This works especially well for developer-facing systems, API health dashboards, SaaS status pages, and internal infrastructure where a git-native audit trail matters. Because the monitor definitions, incident history, and generated status artifacts all live in one repository, the workflow is inspectable and easy to automate.
+## Prerequisites
 
-Integration points include GitHub Actions, GitHub Issues, GitHub Pages, repository secrets, and notification workflows such as Slack. Upptime also has real adoption, current maintenance, official documentation, tagged releases, and a permissive MIT license. For ASE, that makes it a concrete, verifiable monitoring skill anchored to a real upstream project instead of a vague “uptime bot” abstraction.
+GitHub repository, GitHub Actions, GitHub Issues, and GitHub Pages
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/upptime-github-actions-uptime-monitor-status-page/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/upptime-github-actions-uptime-monitor-status-page
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/upptime-github-actions-uptime-monitor-status-page`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://upptime.js.org
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Provision secure disposable development sandboxes for AI-generated code 
 description: "Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely."
 verification: "listed"
 source: "https://github.com/daytonaio/daytona"
+author: "Daytona"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Provision secure disposable development sandboxes for AI-generated code with Daytona
 
-Use Daytona when an agent needs to execute or test generated code without trusting the host workstation or long-lived CI environment. The operator can provision a clean sandbox, let the agent install dependencies and run Python, TypeScript, or JavaScript tasks, collect outputs, and tear down or persist only the intended state. The scope is sandbox lifecycle management for agent code execution, not a general cloud platform listing or IDE replacement.
+Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely.
+
+## Prerequisites
+
+Daytona SDK or CLI, sandbox-capable runtime, target code or repository
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona
+```
+Follow the Daytona docs to install the CLI or SDK, configure credentials/runtime, create a sandbox for the target task, run the agent-generated commands inside it, then stop or remove the sandbox after reviewing outputs.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.daytona.io/docs
 
 ## Source
 

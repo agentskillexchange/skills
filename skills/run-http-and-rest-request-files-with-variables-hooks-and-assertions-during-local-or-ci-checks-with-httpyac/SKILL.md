@@ -3,6 +3,8 @@ title: "Run .http and .rest request files with variables, hooks, and assertions 
 description: "Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client."
 verification: "listed"
 source: "https://github.com/AnWeber/httpyac"
+author: "AnWeber"
+publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac
 
-Use httpYac when an agent needs to run versioned .http or .rest request files with variables, tags, hooks, and assertions as part of a repeatable API check. It fits local preflight runs, CI smoke tests, and handoff workflows where the requests should stay in the repo instead of a hosted workspace.
+Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client.
 
-This is skill-shaped because the job is not “use an API client” in the abstract. The bounded workflow is to execute scripted request files, filter which requests run, pass environment variables, and emit machine-usable results such as JSON or JUnit for downstream automation.
+## Prerequisites
+
+Node.js or Docker, repo-stored .http/.rest files, network access to target APIs.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac
+```
+Install with npm install -g httpyac, or run the published Docker image from ghcr.io/anweber/httpyac.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://httpyac.github.io/
 
 ## Source
 

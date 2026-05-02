@@ -3,6 +3,8 @@ title: "Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler"
 description: "Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood."
 verification: "security_reviewed"
 source: "https://github.com/webrecorder/browsertrix-crawler"
+author: "Webrecorder"
+publisher_type: "Open Source Project"
 category:
   - "Research & Scraping"
 framework:
@@ -14,37 +16,25 @@ tool_ecosystem:
 
 # Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
 
-Browsertrix Crawler is the open-source crawling engine behind Webrecorder’s Browsertrix platform. The upstream webrecorder/browsertrix-crawler repository describes it as a high-fidelity browser-based crawling system designed to run complex, customizable crawls in a single Docker container. Instead of only fetching raw HTML, Browsertrix Crawler uses Puppeteer to drive Brave Browser windows and captures site behavior through the Chrome DevTools Protocol, which makes it useful for modern JavaScript-heavy sites and archival-quality capture.
+Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood.
 
-The official documentation highlights features that matter for agent workflows: YAML-based crawl configuration, seed lists and scope rules, blocking rules, screenshots and thumbnails, browser profile reuse, custom Puppeteer driver scripts, real-time screencasting, and quality-assurance crawling that compares replay results against captured content. This makes the tool useful not only for scraping, but also for preservation, auditing, and repeatable site QA tasks where a lightweight HTTP crawler would miss rendered behavior.
+## Prerequisites
 
-As an ASE skill, Browsertrix Crawler fits jobs such as capturing a public site into archival artifacts, validating replay completeness, running scoped multi-page crawls with browser behavior enabled, or producing screenshots and crawl reports from reproducible YAML configurations. Its outputs can include crawl packages, screenshots, QA statistics, and browser-derived capture results. Integration points include Docker-based automation, archiving pipelines, custom Puppeteer behavior scripts, and research or compliance workflows that need browser-accurate capture rather than simple HTML extraction.
-
-The project has an active GitHub repository, official documentation, an open-source license, and recent maintenance activity. For teams that need browser-realistic crawling with reproducible configuration, it fills a distinct role inside the research and scraping category.
+Docker
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://crawler.docs.browsertrix.com/
 
 ## Source
 

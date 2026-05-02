@@ -1,8 +1,10 @@
 ---
 title: "Control Android devices with an on-device AI agent using PokeClaw"
 description: "Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation and testing workflows."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/agents-io/PokeClaw"
+author: "agents-io"
+publisher_type: "open_source"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Control Android devices with an on-device AI agent using PokeClaw
 
-Use this skill when an agent or operator needs to drive an Android device through visible UI state rather than through app-specific APIs. The workflow is: set up PokeClaw, connect or prepare the Android device environment, let the local/on-device agent observe the screen, choose actions, execute UI steps, and review the resulting state. Invoke this instead of using the product or app normally when the task needs repeatable mobile UI operation, exploratory app control, or privacy-sensitive device automation without sending screen state to a cloud model. Scope boundary: this is not a general Android automation framework listing; the skill is the bounded operator workflow for local AI-driven screen inspection and action execution on Android devices.
+Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation and testing workflows.
+
+## Prerequisites
+
+PokeClaw; Android device or emulator; project-documented runtime dependencies
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw
+```
+Follow the PokeClaw repository setup instructions, prepare the Android device or emulator environment, then run the documented local agent/control workflow.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/agents-io/PokeClaw
 
 ## Source
 

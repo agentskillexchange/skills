@@ -3,44 +3,41 @@ title: "Scan LLM-generated code before use with CodeShield"
 description: "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first."
 verification: "listed"
 source: "https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield"
+author: "Meta Purple Llama"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "meta-llama/purplellama"
-  github_stars: 4126
 ---
 
 # Scan LLM-generated code before use with CodeShield
 
-Use CodeShield when an agent produces code or shell suggestions that should be screened for insecure patterns before they are shown, committed, or executed. CodeShield is an inference-time filtering layer designed to inspect LLM output, detect insecure code across multiple languages, and either block or warn on risky results.
+Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first.
 
-Invoke it at the handoff boundary between generation and action, especially in coding assistants, chat-based code help, and automated fix pipelines. The scope boundary is narrow and skill-shaped: this is an output-scanning guardrail for generated code, not a general LLM platform, SDK listing, or broad application security suite.
+## Prerequisites
+
+CodeShield integrated into an LLM output pipeline or coding assistant workflow
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-llm-generated-code-before-use-with-codeshield/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-llm-generated-code-before-use-with-codeshield
+```
+Follow the CodeShield repository instructions and notebook examples in the Purple Llama CodeShield directory, then insert CodeShield into the path where generated code is scanned before it is surfaced or executed.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-llm-generated-code-before-use-with-codeshield`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield
 
 ## Source
 

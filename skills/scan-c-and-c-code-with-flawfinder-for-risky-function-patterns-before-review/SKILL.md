@@ -3,6 +3,8 @@ title: "Scan C and C++ code with Flawfinder for risky function patterns before r
 description: "Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins."
 verification: "listed"
 source: "https://github.com/david-a-wheeler/flawfinder"
+author: "David A. Wheeler"
+publisher_type: "individual"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Scan C and C++ code with Flawfinder for risky function patterns before review
 
-Use Flawfinder when the goal is a quick static pass for risky C or C++ function patterns, not general development or broad platform use. The operator workflow is clear: scan source files, surface suspect calls and patterns, and hand the findings into review or remediation. That scope boundary, secure-code triage for unsafe idioms in C and C++, keeps it skill-shaped instead of reading like a plain analyzer listing.
+Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins.
+
+## Prerequisites
+
+Flawfinder installation, C or C++ source tree, terminal access, reviewer workflow for validating findings
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review
+```
+Install Flawfinder from the upstream source or system packages, point it at the target C or C++ codebase, then review the reported risky patterns and severities before manual review or remediation.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://dwheeler.com/flawfinder/
 
 ## Source
 

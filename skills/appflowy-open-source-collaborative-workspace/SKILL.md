@@ -3,6 +3,8 @@ title: "AppFlowy Open Source Collaborative Workspace"
 description: "AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project, docs, and deployment methods when users need an open source Notion-style environment with local control."
 verification: "security_reviewed"
 source: "https://github.com/AppFlowy-IO/AppFlowy"
+author: "AppFlowy-IO"
+publisher_type: "Open Source Project"
 category:
   - "Calendar, Email & Productivity"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # AppFlowy Open Source Collaborative Workspace
 
-AppFlowy is an open source collaborative workspace that combines documents, wikis, project views, and AI-assisted knowledge work in a product that is commonly positioned as a Notion alternative. The upstream project lives at github.com/AppFlowy-IO/AppFlowy and the documentation is published at docs.appflowy.io. For ASE users, the important point is that this is not a vague productivity concept. It is a real maintained platform with documented desktop, Docker, and self-hosting paths.
+AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project, docs, and deployment methods when users need an open source Notion-style environment with local control.
 
-This skill is useful when an agent needs to help someone install AppFlowy, choose between desktop and self-hosted deployment, organize team spaces, or map a workflow into AppFlowy’s actual structure. That might include setting up a local Docker-based client, evaluating release tags, planning a self-hosted rollout, documenting wiki and notes usage, or comparing AppFlowy’s data-control tradeoffs against closed SaaS workspace tools. It is also a good fit when a user wants an agent to work inside a knowledge-management workflow where projects, notes, and structured collaboration all need to stay under the user’s control.
+## Prerequisites
 
-AppFlowy integrates naturally with Docker-based setups, desktop releases, and local-first knowledge-management practices. The official docs include concrete container examples, release channels, and self-hosting guidance, which makes it suitable for source-backed onboarding, deployment notes, and workflow design. Because the project has strong adoption, an accessible docs site, an explicit license, and recent maintenance activity, it passes the ASE intake gate for verified metadata publication.
+Docker, Docker Compose, desktop app runtime, local storage
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/appflowy-open-source-collaborative-workspace/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/appflowy-open-source-collaborative-workspace
+```
+docker run --rm -v $HOME/.Xauthority:/root/.Xauthority:rw -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/dri:/dev/dri -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket -v appflowy-data:/home/appflowy -e DISPLAY=${DISPLAY} appflowyio/appflowy_client:main
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/appflowy-open-source-collaborative-workspace`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.appflowy.io/docs
 
 ## Source
 

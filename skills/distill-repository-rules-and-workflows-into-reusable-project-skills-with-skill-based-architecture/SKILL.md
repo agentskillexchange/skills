@@ -3,6 +3,8 @@ title: "Distill repository rules and workflows into reusable project skills with
 description: "Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents can route through before making changes."
 verification: "listed"
 source: "https://github.com/WoJiSama/skill-based-architecture"
+author: "WoJiSama"
+publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Distill repository rules and workflows into reusable project skills with Skill-Based Architecture
 
-Use Skill-Based Architecture when a repo already has too many rules spread across SKILL.md files, agent docs, and tribal knowledge, and you want an agent to consolidate that into a reusable project skill. The scope boundary is narrow and workflow-shaped: analyze the repository’s conventions, split durable rules from procedures and gotchas, and output a routable skills directory for future agent work. That is meaningfully different from a generic documentation system or coding assistant product listing.
+Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents can route through before making changes.
+
+## Prerequisites
+
+A code repository with existing project docs and an agent environment that can read or emit skill directories.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture
+```
+Use the repository guidance to point the meta-skill at a codebase, then generate and maintain a skills/<project-name>/ directory with SKILL.md, rules, workflows, and references.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/WoJiSama/skill-based-architecture
 
 ## Source
 

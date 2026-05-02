@@ -16,40 +16,17 @@ tool_ecosystem:
 
 # Docusaurus React Documentation Framework by Meta
 
-Docusaurus is a React-based documentation framework created by Meta (formerly Facebook) to help open source projects build and maintain beautiful documentation websites. With over 50,000 GitHub stars, it powers documentation for React Native, Jest, Prettier, Redux, and hundreds of other major projects.
-
-Core Architecture
-Docusaurus generates a fully static site that can be deployed anywhere. Content is written in Markdown or MDX (Markdown with JSX), allowing authors to embed interactive React components directly within documentation pages. The framework provides built-in docs versioning, i18n/localization support via CrowdIn integration, a blog plugin, full-text search via Algolia DocSearch, and automatic SEO metadata generation.
-
-Key Features
-The theming system uses a layered approach with swizzling, letting teams customize any component without forking. The plugin architecture supports custom pages, sidebars, and data sources. Docusaurus supports MDX v3, TypeScript configuration, live code editing with react-live, and Mermaid diagram rendering. It ships with a responsive default theme that includes dark mode, an announcement bar, and a configurable navigation.
-
-Agent Integration
-AI coding agents can scaffold a Docusaurus site with npm init docusaurus@latest, create documentation pages as Markdown files in the docs/ directory, configure sidebars in sidebars.js, customize the site in docusaurus.config.js, and deploy with a single command. The CLI provides docusaurus start for local development and docusaurus build for production output. Deployment integrations exist for GitHub Pages, Vercel, Netlify, and any static hosting provider. Licensed under MIT.
+Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation websites, blogs, and marketing pages with Markdown content, versioning support, and a rich plugin ecosystem.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/docusaurus-react-documentation-framework-meta/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/docusaurus-react-documentation-framework-meta
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/docusaurus-react-documentation-framework-meta`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

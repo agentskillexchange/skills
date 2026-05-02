@@ -3,6 +3,8 @@ title: "Convert dense PDFs into LLM-ready text and page-aligned markdown with ol
 description: "Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows."
 verification: "listed"
 source: "https://github.com/allenai/olmocr"
+author: "Allen Institute for AI"
+publisher_type: "organization"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR
 
-Use olmOCR when the job is to convert PDFs or image-based documents into readable markdown or plain text with natural reading order, table handling, and header or footer cleanup. Invoke it instead of treating the original PDF as the working surface when downstream agent steps depend on clean text for retrieval, extraction, QA, or citation. The scope boundary is specific and skill-shaped: this is a document linearization and OCR preprocessing workflow, not a general document platform listing and not just a raw OCR model card.
+Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows.
+
+## Prerequisites
+
+Python 3.11, pip or conda, poppler-utils, optional NVIDIA GPU for local inference
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr
+```
+Create a clean Python environment, install required PDF rendering dependencies, then install the package with pip install olmocr for remote inference or pip install olmocr[gpu] for local GPU inference.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/allenai/olmocr#readme
 
 ## Source
 

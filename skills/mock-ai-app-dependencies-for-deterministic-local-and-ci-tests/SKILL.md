@@ -3,6 +3,8 @@ title: "Mock AI app dependencies for deterministic local and CI tests"
 description: "Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on live providers."
 verification: "security_reviewed"
 source: "https://github.com/CopilotKit/aimock"
+author: "CopilotKit"
+publisher_type: "company"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Mock AI app dependencies for deterministic local and CI tests
 
-This skill is for test environments where an AI app or agent workflow touches many external systems and you need deterministic behavior. An agent can stand up fixtures for model responses, MCP tool calls, vector searches, rerankers, moderation checks, or streaming protocols, then run local or CI tests against those mocks instead of hitting live services. That makes it valuable for regression testing, offline development, failure simulation, and debugging flaky AI integrations.
+Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on live providers.
 
-The boundary is narrower than a generic mocking library card. The job is specifically to replace the moving parts around an AI application with controlled mock infrastructure so agent workflows can be tested predictably. Invoke it when your blocker is unstable or costly external AI dependencies, not when you just need a general frontend mock server or a broad observability/test platform.
+## Prerequisites
+
+Node.js; a JavaScript or TypeScript test environment; local or CI access to the app under test; fixture definitions for the providers or protocols you want to mock.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests
+```
+<p>Install with <code>npm install @copilotkit/aimock</code> for library use, or run it with <code>npx aimock --config aimock.json</code> for a CLI-driven mock server. Point your app at the mock base URL, define fixtures or record-and-replay behavior for the services you need, and run your tests against those deterministic endpoints instead of live providers.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://aimock.copilotkit.dev/
 
 ## Source
 

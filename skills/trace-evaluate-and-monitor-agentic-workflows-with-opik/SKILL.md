@@ -3,6 +3,8 @@ title: "Trace, evaluate, and monitor agentic workflows with Opik"
 description: "Capture LLM and agent traces, run evaluations, inspect failures, and monitor RAG or multi-step agent behavior from prototype to production."
 verification: "listed"
 source: "https://github.com/comet-ml/opik"
+author: "Comet"
+publisher_type: "organization"
 category:
   - "Monitoring & Alerts"
 framework:
@@ -11,35 +13,36 @@ tool_ecosystem:
   github_repo: "comet-ml/opik"
   github_stars: 19144
   npm_package: "opik"
+  npm_weekly_downloads: 18344
 ---
 
 # Trace, evaluate, and monitor agentic workflows with Opik
 
-Use Opik when an agent workflow needs evidence-backed debugging instead of ad hoc log reading. The operator instruments LLM calls, tool use, prompts, datasets, and evaluation runs so failures can be traced, scored, compared, and monitored over time. The boundary is observability and evaluation for LLM applications, RAG systems, and agentic workflows, not generic analytics or model hosting.
+Capture LLM and agent traces, run evaluations, inspect failures, and monitor RAG or multi-step agent behavior from prototype to production.
+
+## Prerequisites
+
+Opik service or SDK, LLM application or agent workflow, evaluation datasets or production traces
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trace-evaluate-and-monitor-agentic-workflows-with-opik
+```
+Install and configure Opik from the official docs, instrument the target LLM or agent workflow, log traces and evaluation datasets, then review dashboards and evaluation results before shipping changes.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/trace-evaluate-and-monitor-agentic-workflows-with-opik`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.comet.com/docs/opik/
 
 ## Source
 

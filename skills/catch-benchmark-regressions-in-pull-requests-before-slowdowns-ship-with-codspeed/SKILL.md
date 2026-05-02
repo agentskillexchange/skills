@@ -3,6 +3,8 @@ title: "Catch benchmark regressions in pull requests before slowdowns ship with 
 description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
 verification: "security_reviewed"
 source: "https://github.com/CodSpeedHQ/codspeed"
+author: "CodSpeed"
+publisher_type: "company"
 category:
   - "Code Quality & Review"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed
 
-CodSpeed gives an agent a narrow performance-guard workflow. It can run executable programs or existing benchmark suites, compare the results against a baseline, and report regressions directly in pull-request review flows. That makes it useful when a repository already has benchmarks or can add a few targeted ones, and the team wants performance evidence before merge.
+Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge.
 
-The scope boundary is clear. Invoke it when the agent’s job is benchmark execution and regression detection inside review or CI, not when the user wants a general observability platform, profiling backend, or production telemetry stack. The job-to-be-done is catching code slowdowns before they ship.
+## Prerequisites
+
+A repository with executable benchmarks or benchmark commands, a CI system such as GitHub Actions, and a CodSpeed account or auth flow for storing and comparing results.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed
+```
+<p>Install the CLI with <code>curl -fsSL https://codspeed.io/install.sh | bash</code> or use the official CodSpeed GitHub Action, authenticate the project, then run <code>codspeed exec</code> for direct command benchmarks or <code>codspeed run</code> to wrap an existing benchmark suite in CI and pull requests.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://codspeed.io/docs
 
 ## Source
 

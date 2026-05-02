@@ -3,6 +3,8 @@ title: "Run AI browser regression checks with Playwright and multi-model verific
 description: "Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification."
 verification: "listed"
 source: "https://github.com/bug0inc/passmark"
+author: "bug0"
+publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -15,31 +17,31 @@ tool_ecosystem:
 
 # Run AI browser regression checks with Playwright and multi-model verification through Passmark
 
-Use Passmark when an agent or QA operator needs to verify web UI behavior with browser tests that are more resilient than brittle selector-only scripts. The workflow runs natural-language steps through Playwright, uses caching and healing to keep tests stable, and asks multiple models to verify assertions before accepting the result. The boundary is browser regression execution and review, not general Playwright hosting or a broad testing platform listing.
+Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification.
+
+## Prerequisites
+
+Node.js, Playwright, passmark package, browser test project, model provider keys or AI gateway
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark
+```
+Create or use a Playwright TypeScript project, install with `npm install passmark`, configure the documented model provider or gateway environment variables, then run Passmark browser regression checks against the target app.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://passmark.dev
 
 ## Source
 

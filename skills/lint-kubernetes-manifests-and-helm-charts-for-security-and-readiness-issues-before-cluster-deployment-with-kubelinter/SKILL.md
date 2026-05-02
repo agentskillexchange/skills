@@ -3,6 +3,8 @@ title: "Lint Kubernetes manifests and Helm charts for security and readiness iss
 description: "Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster."
 verification: "listed"
 source: "https://github.com/stackrox/kube-linter"
+author: "StackRox"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter
 
-Use KubeLinter when an agent needs an early static review of Kubernetes YAML, Helm charts, or Kustomize output, not when the user is looking for a general Kubernetes platform or runtime dashboard. The task is clear: lint deployable manifests against best-practice checks, surface security and production-readiness issues, and hand back fix guidance before apply time. That scope boundary, pre-deployment manifest linting for Kubernetes configuration quality, keeps it skill-shaped rather than a generic product card.
+Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster.
+
+## Prerequisites
+
+KubeLinter binary or container image, Kubernetes YAML or Helm/Kustomize inputs, and optional CI integration.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter
+```
+Install KubeLinter from the upstream binary, package manager, or container image, run kube-linter lint against the target manifests or chart output, and review the recommendations before deployment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/stackrox/kube-linter
 
 ## Source
 

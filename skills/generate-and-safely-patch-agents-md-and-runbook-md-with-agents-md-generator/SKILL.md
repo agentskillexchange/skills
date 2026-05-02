@@ -3,6 +3,8 @@ title: "Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Genera
 description: "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract."
 verification: "listed"
 source: "https://github.com/markoblogo/AGENTS.md_generator"
+author: "markoblogo"
+publisher_type: "individual"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator
 
-Use AGENTS.md Generator when a repo needs dependable agent-facing documentation and you want safe updates instead of one-off manual edits. It can create AGENTS.md and RUNBOOK.md when they are missing, update only marked sections when they already exist, and fall back to generated companion files rather than overwriting unmarked human content. The scope boundary is narrow and concrete: marker-bounded repo-doc generation and patching for coding-agent handoff, not a generic repo-intelligence runtime or broad developer platform listing.
+Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract.
+
+## Prerequisites
+
+Python 3.11+, pipx or pip, Git repository
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator
+```
+Install with `pipx install git+https://github.com/markoblogo/AGENTS.md_generator.git`, then run `agentsgen init . --defaults --autodetect` in the target repository.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/markoblogo/AGENTS.md_generator
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Deploy and diff environment-specific Kubernetes targets from one declara
 description: "Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay."
 verification: "listed"
 source: "https://github.com/kluctl/kluctl"
+author: "Kluctl"
+publisher_type: "organization"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Deploy and diff environment-specific Kubernetes targets from one declarative project with Kluctl
 
-Use Kluctl when an agent needs to manage a declarative Kubernetes deployment that spans multiple targets or environments, not when the user is simply browsing a GitOps platform. The workflow is concrete: define targets, compose deployments from Helm, Kustomize, and related pieces, then diff, deploy, prune, or delete those targets through one consistent CLI. That scope boundary, target-based Kubernetes deployment orchestration, keeps the candidate skill-shaped instead of turning into a generic platform listing.
+Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay.
+
+## Prerequisites
+
+Kluctl CLI, Kubernetes cluster credentials, a Kluctl project repository, and any Helm or Kustomize dependencies referenced by the deployment
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl
+```
+Install the Kluctl CLI from the upstream release or package instructions, configure access to the target clusters and project repository, then use the documented diff, deploy, prune, or delete commands against the defined targets.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://kluctl.io
 
 ## Source
 

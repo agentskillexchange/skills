@@ -3,6 +3,8 @@ title: "Capture network device config snapshots diffs and change attribution aft
 description: "Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good state."
 verification: "listed"
 source: "https://github.com/ytti/oxidized"
+author: "ytti"
+publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Capture network device config snapshots diffs and change attribution after edits with Oxidized
 
-Use Oxidized when an agent or operator needs to collect, diff, and retain network device configurations across fleets instead of treating it as a generic network management platform. The workflow is specific: fetch configs from supported devices, trigger refreshes after change events, store version history, and inspect diffs or blame when something changed. That scope boundary—configuration backup and drift visibility for network devices—keeps this publishable as a skill instead of a plain product card.
+Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good state.
+
+## Prerequisites
+
+Oxidized, network device access credentials, supported source inventory, and storage/output backend such as Git or files
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized
+```
+Install Oxidized from the upstream package, gem, container, or source instructions, configure the device source and output backend, then run scheduled or event-triggered config fetches against the target network fleet.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/ytti/oxidized
 
 ## Source
 

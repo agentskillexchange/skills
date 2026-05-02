@@ -3,6 +3,8 @@ title: "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts W
 description: "Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild."
 verification: "security_reviewed"
 source: "https://github.com/google/oss-rebuild"
+author: "Google and contributors"
+publisher_type: "Open Source"
 category:
   - "Security & Verification"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild
 
-OSS Rebuild is a supply-chain verification skill for checking whether published npm, PyPI, or Crates.io artifacts have corresponding rebuild attestations. An agent should invoke it when a user needs to validate package integrity before dependency approval, security review, or incident response, rather than relying on trust in the package registry alone.
+Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild.
 
-Use this instead of a broad security platform when the task is specifically rebuild verification and attestation lookup. The boundary is clear: inspect rebuild results, list rebuilt versions, and surface attestation details for a package version. It is not a generic SBOM product, package manager, or security dashboard listing.
+## Prerequisites
+
+Go, oss-rebuild CLI, optional gcloud ADC credentials for signature verification
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild
+```
+go install github.com/google/oss-rebuild/cmd/oss-rebuild@latest
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.oss-rebuild.dev/
 
 ## Source
 

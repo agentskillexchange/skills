@@ -3,6 +3,8 @@ title: "Extract reusable coding-agent memory from past sessions with Lerim"
 description: "Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as reusable markdown."
 verification: "listed"
 source: "https://github.com/lerim-dev/lerim-cli"
+author: "lerim-dev"
+publisher_type: "organization"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Extract reusable coding-agent memory from past sessions with Lerim
 
-Use Lerim when a coding workflow keeps repeating prior decisions because session context disappears between runs. Instead of treating it as a generic memory database, the operator workflow is specific: run the background service, ingest coding-agent sessions, extract durable project facts and decisions, consolidate them over time, and query that memory later. The scope boundary is session-derived project memory extraction and consolidation for coding agents, not a generic note app, vector store, or memory SDK listing.
+Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as reusable markdown.
+
+## Prerequisites
+
+Python 3.10+, Docker recommended
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-reusable-coding-agent-memory-from-past-sessions-with-lerim/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-reusable-coding-agent-memory-from-past-sessions-with-lerim
+```
+Install with `pip install lerim`, start the background service with `lerim up`, verify with `lerim status`, and let it watch supported coding-agent sessions so memory is extracted into local markdown storage.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/extract-reusable-coding-agent-memory-from-past-sessions-with-lerim`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/lerim-dev/lerim-cli
 
 ## Source
 

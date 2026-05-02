@@ -3,6 +3,7 @@ title: "Sharp Image Pipeline Processor"
 description: "Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing."
 verification: "security_reviewed"
 source: "https://github.com/lovell/sharp"
+author: "lovell"
 category:
   - "Image & Creative Automation"
 framework:
@@ -16,35 +17,21 @@ tool_ecosystem:
 
 # Sharp Image Pipeline Processor
 
-The Sharp Image Pipeline Processor creates composable image transformation workflows using the Sharp library’s fluent API backed by libvips native bindings. It chains operations like sharp(input).resize({ width, height, fit: “cover” }).composite([{ input: watermark, gravity: “southeast” }]).toFormat(“webp”, { quality: 80 }) for efficient multi-step processing.
-
-Core capabilities include intelligent resizing with sharp.fit options (cover, contain, fill, inside, outside), metadata-aware orientation correction via rotate() with EXIF auto-rotation, and color space manipulation through toColorspace() for print-ready CMYK output. The processor handles batch operations using sharp.concurrency() tuning for optimal CPU utilization.
-
-Advanced features include SVG overlay compositing with blend modes, animated GIF/WebP processing through the pages option for frame manipulation, and tile generation via .tile({ size: 256 }) for deep-zoom image viewers. It supports ICC profile embedding through withMetadata({ icc }) and provides streaming pipelines via sharp().pipe() for memory-efficient processing of large images without buffering entire files.
+Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+## Documentation
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sharp-image-pipeline-processor-2
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/sharp-image-pipeline-processor-2`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://sharp.pixelplumbing.com/
 
 ## Source
 

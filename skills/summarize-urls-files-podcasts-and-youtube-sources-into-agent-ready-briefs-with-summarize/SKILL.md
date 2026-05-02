@@ -3,6 +3,8 @@ title: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready br
 description: "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps."
 verification: "listed"
 source: "https://github.com/steipete/summarize"
+author: "steipete"
+publisher_type: "individual"
 category:
   - "Media & Transcription"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize
 
-Use Summarize when an agent needs a bounded source-briefing step across URLs, files, podcasts, YouTube videos, or local media instead of reading or transcribing each source manually. The job is specific: point the tool at source material, extract the gist, and hand a reusable brief to downstream work. That scope boundary, multi-source briefing and summarization for agent handoff, keeps this publishable as a workflow skill rather than a generic model, browser extension, or CLI listing.
+Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps.
+
+## Prerequisites
+
+Node.js or Homebrew environment, Summarize CLI or browser extension, supported local or hosted model backend, optional media dependencies for video and audio extraction
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize
+```
+Install Summarize from npm or Homebrew as documented upstream, configure a supported backend or local endpoint, then run it against a URL, file, podcast, YouTube video, or local media source to generate the briefing output.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://summarize.sh
 
 ## Source
 

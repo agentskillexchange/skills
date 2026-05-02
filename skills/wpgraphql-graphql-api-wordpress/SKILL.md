@@ -14,35 +14,17 @@ tool_ecosystem:
 
 # WPGraphQL GraphQL API for WordPress
 
-WPGraphQL GraphQL API for WordPress is for headless and composable WordPress projects that want a typed query layer instead of a loose collection of REST endpoints. The skill is grounded in the real WPGraphQL plugin and its documented APIs, including schema objects, connections, resolvers, custom post type exposure, menu queries, and extension hooks such as register_graphql_field and register_graphql_object_type. It is especially useful when a frontend built in Next.js, Remix, Astro, or another JavaScript framework needs stable field selection and predictable relationships.
-
-The workflow usually starts by identifying the WordPress entities that must be exposed, such as posts, pages, products, taxonomies, or Advanced Custom Fields data. From there, the skill can shape GraphQL queries, explain pagination through connections and edges, define naming conventions for schema additions, and help reason about nullability, authorization, and field resolution. That makes it valuable both for using WPGraphQL as a consumer and for extending it safely as a plugin author.
-
-Outputs include GraphQL queries and mutations, schema extension snippets, documentation for query contracts, and debugging guidance for resolver issues, field registration mistakes, or mismatches between WordPress data models and API output. Integration points include Apollo Client, Relay-style query patterns, headless frontends, build-time data fetching, and custom WordPress plugins that expose business logic through GraphQL. Use this skill when the job is to make WordPress queryable as a real GraphQL application rather than just treat it as a generic CMS backend.
+Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for querying posts, custom post types, menus, taxonomies, and custom fields through typed GraphQL operations instead of ad hoc REST fetches.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/wpgraphql-graphql-api-wordpress/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/wpgraphql-graphql-api-wordpress
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/wpgraphql-graphql-api-wordpress`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

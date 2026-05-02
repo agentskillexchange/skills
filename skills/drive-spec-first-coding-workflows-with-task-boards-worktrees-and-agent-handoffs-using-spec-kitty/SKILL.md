@@ -3,6 +3,8 @@ title: "Drive spec-first coding workflows with task boards, worktrees, and agent
 description: "Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination."
 verification: "listed"
 source: "https://github.com/Priivacy-ai/spec-kitty"
+author: "Priivacy AI"
+publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty
 
-Use Spec Kitty when a team wants a spec-driven implementation loop for larger AI coding projects, with explicit artifacts, task lanes, worktree isolation, and review handoffs, rather than relying on unstructured long-form agent chats. The invoke moment is concrete: initialize a mission, generate or refine the spec and task artifacts, then advance work through the next, review, and merge flow. That scope boundary, repo-native spec-to-merge coordination for coding agents, keeps it distinct from a general coding agent or generic project-management product listing.
+Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination.
+
+## Prerequisites
+
+Python environment, spec-kitty-cli, git, a repository under active development, and access to one of the supported AI coding agents
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty
+```
+Install spec-kitty-cli with pip, initialize it in the target repository, choose a supported agent integration, then use the spec, planning, task, next, review, and merge commands to run the workflow.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://priivacy-ai.github.io/spec-kitty/
 
 ## Source
 

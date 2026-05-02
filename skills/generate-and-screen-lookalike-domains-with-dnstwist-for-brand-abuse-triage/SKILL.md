@@ -3,6 +3,8 @@ title: "Generate and screen lookalike domains with dnstwist for brand abuse tria
 description: "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review."
 verification: "listed"
 source: "https://github.com/elceef/dnstwist"
+author: "elceef"
+publisher_type: "open_source_project"
 category:
   - "Security & Verification"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Generate and screen lookalike domains with dnstwist for brand abuse triage
 
-Use dnstwist when the immediate job is to generate lookalike domains for a known brand or domain, resolve them, and screen the results for likely phishing, typosquatting, or impersonation signals. The upstream project is explicitly focused on domain permutations and follow-up checks for brand abuse detection.
+Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review.
 
-Invoke this instead of normal DNS tooling when the goal is abuse triage around confusingly similar domains, not generic hostname lookup or broad attack-surface enumeration. The scope boundary is tight: dnstwist generates permutations and screens them for review. It is not a general DNS platform, registrar product, or full reconnaissance suite.
+## Prerequisites
+
+Python, target brand or domain, DNS resolution, optional HTTP or screenshot follow-up for analyst review
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage
+```
+pip install dnstwist
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://dnstwist.it
 
 ## Source
 

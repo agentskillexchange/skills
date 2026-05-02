@@ -3,6 +3,8 @@ title: "Enforce repo hygiene with pre-commit hooks"
 description: "Run a repeatable pre-commit gate that catches formatting, lint, secret, and policy issues before they land in the repo."
 verification: "security_reviewed"
 source: "https://github.com/pre-commit/pre-commit"
+author: "pre-commit maintainers"
+publisher_type: "organization"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Enforce repo hygiene with pre-commit hooks
 
-Use this skill when an agent needs to wire up or run a repo-wide pre-commit gate before code review, CI, or handoff. It is a good fit for projects that need one repeatable command to run formatters, linters, secret checks, and other file hygiene rules across many file types.
+Run a repeatable pre-commit gate that catches formatting, lint, secret, and policy issues before they land in the repo.
 
-Invoke it instead of using pre-commit as a raw product when the job is operational and bounded: install the hook stack, run it against staged files or the full repo, interpret failures, and help repair the repository until the hook suite passes.
+## Prerequisites
 
-This stays skill-shaped because the scope is not “use the pre-commit framework in general.” The job is specifically to enforce repo hygiene through hook execution and remediation loops.
+pre-commit
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-repo-hygiene-with-pre-commit-hooks/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-repo-hygiene-with-pre-commit-hooks
+```
+Install pre-commit, add a .pre-commit-config.yaml file, then run `pre-commit install` and `pre-commit run --all-files`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/enforce-repo-hygiene-with-pre-commit-hooks`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://pre-commit.com/
 
 ## Source
 

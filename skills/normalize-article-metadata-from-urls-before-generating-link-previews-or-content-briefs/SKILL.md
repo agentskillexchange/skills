@@ -3,6 +3,8 @@ title: "Normalize article metadata from URLs before generating link previews or 
 description: "Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author, date, publisher, and lead image. This is useful when an agent needs reliable preview or briefing data from a page without building a custom parser for every site."
 verification: "security_reviewed"
 source: "https://github.com/microlinkhq/metascraper"
+author: "microlinkhq"
+publisher_type: "Organization"
 category:
   - "Content Writing & SEO"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Normalize article metadata from URLs before generating link previews or content briefs
 
-This ASE entry is built around metascraper, the open source project from microlinkhq/metascraper that extracts unified metadata from web pages using Open Graph, Twitter Cards, JSON-LD, Microdata, RDFa, and ordinary HTML fallbacks. In an agent workflow, the job is not “do SEO” in the abstract. The real job is much narrower: take a target URL, fetch the page markup, and return a consistent metadata object that downstream automations can trust for previews, research briefs, content queues, or lightweight editorial intake. That usually means normalized fields like title, description, author, date, publisher, image, logo, and URL, even when the page exposes those signals in slightly different formats.
+Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author, date, publisher, and lead image. This is useful when an agent needs reliable preview or briefing data from a page without building a custom parser for every site.
 
-Use this when an agent is preparing link cards for chat, assembling newsletter candidates, enriching bookmarks, building a reading list, or generating a first-pass content brief from multiple sources. It is especially useful when the page HTML is already available from a browser or fetch step and the next system needs structured metadata instead of raw markup. An agent can pair metascraper with Playwright, browserless, or a simple HTTP fetch, then pass the normalized result into a CMS, a queue, a spreadsheet, a Slack or Discord formatter, or a summarization step.
+## Prerequisites
 
-The scope boundary matters. metascraper is not a crawler, a CMS, an analytics platform, or a full SEO suite. It does not publish content, rewrite copy, or audit an entire site. Its role is focused extraction and normalization for one page at a time, which is exactly why it fits ASE as a skill-shaped, operator-friendly job-to-be-done instead of a generic product card.
+Node.js and an HTML retrieval step such as fetch, Playwright, or browserless
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs
+```
+npm install metascraper
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://metascraper.js.org
 
 ## Source
 

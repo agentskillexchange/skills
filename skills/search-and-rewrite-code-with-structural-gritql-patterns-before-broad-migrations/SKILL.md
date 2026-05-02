@@ -3,6 +3,8 @@ title: "Search and rewrite code with structural GritQL patterns before broad mig
 description: "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change, instead of relying on regex or hand edits."
 verification: "security_reviewed"
 source: "https://github.com/biomejs/gritql"
+author: "biomejs"
+publisher_type: "community"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Search and rewrite code with structural GritQL patterns before broad migrations
 
-Tool: GritQL. This skill is for agents that need a structural query-and-rewrite workflow: express the old and new code patterns declaratively, run them over a repository, and inspect the resulting diff before shipping a large migration.
+Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change, instead of relying on regex or hand edits.
 
-When to use it: invoke this when the change is too broad for manual edits but too syntax-sensitive for grep or naive find-and-replace. It fits dependency migrations, API swaps, lint remediation, and repeated code cleanup where the operator wants a named pattern, reproducible application, and reviewable output.
+## Prerequisites
 
-Scope boundary: this is not a generic code-search language listing and not just another broad CLI card. Its boundary is the structural migration workflow itself: pattern definition, batch application, and reviewable rewrites across real source code. If the task does not require structural rewrites, a simpler tool is enough.
+Grit CLI, a local repository to search or rewrite, and a review loop for inspecting the diffs produced by structural patterns.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations
+```
+Install the Grit CLI using the method documented by the project, write or reuse the GritQL patterns that describe the search or rewrite you want, run the apply or check workflow against the target repository, and review the resulting changes before merging.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.grit.io/language/overview
 
 ## Source
 

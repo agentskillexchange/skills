@@ -3,6 +3,8 @@ title: "Format shell scripts into a stable house style before review with shfmt"
 description: "Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes."
 verification: "listed"
 source: "https://github.com/mvdan/sh"
+author: "mvdan"
+publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Format shell scripts into a stable house style before review with shfmt
 
-Use shfmt when an agent needs one repeatable formatting pass for shell scripts before code review, lint cleanup, or automated refactors land. This should be invoked instead of editing shell style manually or treating a generic shell toolkit as the answer, because the job here is narrow: take existing shell source and rewrite it into a consistent canonical format. That scope boundary—shell formatting for reviewable diffs and team consistency—keeps this skill distinct from the broader mvdan/sh parser and interpreter project.
+Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes.
+
+## Prerequisites
+
+Go or packaged shfmt binary, shell script files, optional CI or pre-commit integration
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt
+```
+Install shfmt from the upstream Go, package manager, or container instructions, then run it against target shell files such as `shfmt -w script.sh` or in batch across a repository.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://pkg.go.dev/mvdan.cc/sh/v3
 
 ## Source
 

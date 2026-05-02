@@ -3,6 +3,8 @@ title: "Validate, dry-run, and expose YAML agent runbooks as MCP tools with Decl
 description: "Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure."
 verification: "listed"
 source: "https://github.com/shiehn/DeclarAgent"
+author: "shiehn"
+publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent
 
-Use DeclarAgent when an agent should follow a predefined multi-step runbook but you want the plan checked before anything real happens. It validates the YAML plan, explains or dry-runs the steps, blocks destructive actions unless approval is given, and can expose approved plans as MCP-callable tools for agent loops. The scope boundary is clear: guarded runbook execution and MCP plan exposure, not a generic agent framework or broad workflow platform listing.
+Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure.
+
+## Prerequisites
+
+Go, YAML runbooks, MCP-compatible client for MCP mode
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent
+```
+Install with `go install github.com/shiehn/declaragent@latest`, validate plans with `declaragent validate plan.yaml`, and use `declaragent mcp --plans ./plans` when you want those runbooks exposed as MCP tools.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/shiehn/DeclarAgent
 
 ## Source
 

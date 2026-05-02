@@ -3,6 +3,7 @@ title: "GitHub Actions Matrix Strategy Builder"
 description: "Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage."
 verification: "security_reviewed"
 source: "https://github.com/actions/setup-node"
+author: "GitHub Actions"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,31 +15,31 @@ tool_ecosystem:
 
 # GitHub Actions Matrix Strategy Builder
 
-The GitHub Actions Matrix Strategy Builder automates the creation of complex CI workflow matrices by analyzing your project’s dependencies and test requirements. It leverages the actions/setup-node, actions/setup-python, and actions/setup-java official actions to configure multi-version testing grids. The skill integrates with actions/cache to optimize build times across matrix combinations, reducing redundant dependency installations by up to 70%. It uses the GitHub REST API to query repository language statistics and automatically suggests appropriate OS runners (ubuntu-latest, windows-latest, macos-latest) based on platform-specific dependencies. The tool generates reusable workflow templates with proper concurrency groups, fail-fast strategies, and conditional job execution. It also configures actions/upload-artifact for test result aggregation across matrix legs, producing unified coverage reports via codecov/codecov-action integration.
+Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage.
+
+## Prerequisites
+
+GitHub Actions, actions/setup-node, actions/cache, actions/upload-artifact
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/github-actions-matrix-strategy-builder
+```
+uses: actions/setup-node@v6
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/github-actions-matrix-strategy-builder`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/actions/setup-node#readme
 
 ## Source
 

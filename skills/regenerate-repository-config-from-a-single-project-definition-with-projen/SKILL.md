@@ -3,6 +3,8 @@ title: "Regenerate repository config from a single project definition with proje
 description: "Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files."
 verification: "listed"
 source: "https://github.com/projen/projen"
+author: "projen"
+publisher_type: "open_source_project"
 category:
   - "Templates & Workflows"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Regenerate repository config from a single project definition with projen
 
-projen is a real project generator and synthesizer for repository configuration. Invoke this when the job is to regenerate package, CI, lint, and repo boilerplate from a canonical project definition and review the resulting drift, not when you simply want a general-purpose SDK or framework.
+Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files.
 
-The scope boundary is repository config synthesis and drift control from a single definition file. That is a distinct workflow and not just a plain product listing.
+## Prerequisites
+
+Node.js, npm, and projen
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/regenerate-repository-config-from-a-single-project-definition-with-projen/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/regenerate-repository-config-from-a-single-project-definition-with-projen
+```
+Install Node.js and the projen package, define the project in .projenrc or the supported config entrypoint, then run the synth workflow to regenerate managed repository files before reviewing the diff.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/regenerate-repository-config-from-a-single-project-definition-with-projen`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/projen/projen
 
 ## Source
 

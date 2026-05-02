@@ -1,44 +1,43 @@
 ---
 title: "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices"
-description: "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase’s own prioritized guidance."
+description: "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance."
 verification: "listed"
 source: "https://github.com/supabase/agent-skills/tree/main/supabase-postgres-best-practices"
+author: "Supabase"
+publisher_type: "organization"
 category:
   - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "supabase/agent-skills"
-  github_stars: 1977
 ---
 
 # Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices
 
-Use Supabase Postgres Best Practices when an agent needs to review or improve SQL queries, schema design, indexing, connection pooling, scaling behavior, or Row-Level Security in a Supabase-backed Postgres system. Invoke this instead of using the product normally when the job is a bounded performance and safety review driven by Supabase’s curated Postgres guidance, not general Supabase project management or a plain platform listing. The boundary is Postgres tuning and correctness guidance inside Supabase workflows, not the full Supabase product surface.
+Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.
+
+## Prerequisites
+
+Supabase Postgres project access, SQL schema and query context, optional query plans and performance metrics
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices
+```
+Install the Supabase skills repository with npx skills add supabase/agent-skills or install just this skill with npx skills add supabase/agent-skills --skill supabase-postgres-best-practices, then invoke it while reviewing SQL, schema, indexing, pooling, or RLS work.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://supabase.com/docs/guides/getting-started/ai-skills
 
 ## Source
 

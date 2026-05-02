@@ -3,6 +3,7 @@ title: "Google Cloud CLI (gcloud) — Command-Line Interface for GCP"
 description: "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration."
 verification: "listed"
 source: "https://cloud.google.com/sdk"
+author: "Google Cloud"
 category:
   - "Developer Tools"
 framework:
@@ -13,29 +14,29 @@ framework:
 
 The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration.
 
+## Prerequisites
+
+Python 3.8-3.12, gcloud SDK
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/google-cloud-cli-gcloud/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/google-cloud-cli-gcloud
+```
+curl https://sdk.cloud.google.com | bash && gcloud init
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/google-cloud-cli-gcloud`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://cloud.google.com/sdk/docs
 
 ## Source
 

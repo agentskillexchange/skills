@@ -3,6 +3,8 @@ title: "Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery
 description: "Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL."
 verification: "listed"
 source: "https://github.com/cloudquery/cloudquery"
+author: "cloudquery"
+publisher_type: "organization"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery
 
-Use CloudQuery when an agent needs to pull infrastructure and SaaS inventory into structured tables for audit or drift analysis instead of navigating each provider console by hand. A user should invoke this instead of using the product normally when the task is repeatable inventory extraction into a destination database for SQL-driven review, not ordinary cloud administration. The scope boundary is specific and skill-shaped: source-backed inventory ETL for audits and evidence collection, not a generic cloud platform or SDK listing.
+Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL.
+
+## Prerequisites
+
+CloudQuery CLI, configured source plugins, configured destination database or warehouse, credentials for the target cloud or SaaS systems
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery
+```
+Install CloudQuery with the upstream package or release instructions, configure the needed source and destination plugins, then run a sync to materialize cloud or SaaS inventory into the chosen SQL destination for audit queries.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.cloudquery.io/docs
 
 ## Source
 

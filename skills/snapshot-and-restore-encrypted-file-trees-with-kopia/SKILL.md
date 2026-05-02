@@ -3,6 +3,8 @@ title: "Snapshot and restore encrypted file trees with Kopia"
 description: "Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP, WebDAV, or cloud storage targets."
 verification: "listed"
 source: "https://github.com/kopia/kopia"
+author: "Kopia"
+publisher_type: "open_source_project"
 category:
   - "Developer Tools"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Snapshot and restore encrypted file trees with Kopia
 
-Use Kopia when an agent is asked to run an auditable backup or restore workflow for important directories: initialize or connect to a repository, create encrypted snapshots, verify repository health, list snapshots, and restore selected paths. Invoke it instead of using the GUI or ad hoc copy commands when the operator needs repeatable CLI-driven backup, verification, or recovery steps across local, network, or cloud storage. The scope boundary is Kopia’s backup/restore lifecycle for file trees and repositories; this is not a generic cloud storage product, storage SDK, or whole-machine imaging listing.
+Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP, WebDAV, or cloud storage targets.
+
+## Prerequisites
+
+Kopia CLI, configured local or remote storage target
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/snapshot-and-restore-encrypted-file-trees-with-kopia/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/snapshot-and-restore-encrypted-file-trees-with-kopia
+```
+Install Kopia from https://kopia.io/docs/installation/, then use kopia repository connect or kopia repository create before snapshot create, snapshot list, and snapshot restore operations.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/snapshot-and-restore-encrypted-file-trees-with-kopia`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://kopia.io/docs/
 
 ## Source
 

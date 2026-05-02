@@ -3,6 +3,8 @@ title: "PostgreSQL MCP Server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/servers"
+author: "Model Context Protocol"
+publisher_type: "open_source_collective"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -12,48 +14,36 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 84856
+  github_stars: 84901
 ---
 
 # PostgreSQL MCP Server
 
-PostgreSQL MCP Server is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.
+Agent access to PostgreSQL data and queries through MCP.
 
-The skill is especially useful when an agent needs to translate a natural-language request into concrete postgresql-level queries, run them safely, and then explain the result in operational terms rather than returning raw output. The original use case is clear: Agent access to PostgreSQL data and queries through MCP. The implementation typically relies on SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+## Prerequisites
 
-- Accesses SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions instead of scraping a UI, which makes runs easier to audit and retry.
-
-- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-
-- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-
-- Fits into broader integration points such as query analysis, diagnostics, warehouses, and application backends.
-
-Because this is exposed as an MCP skill, the tool surface is designed for agent-safe, structured calls instead of free-form shell usage. That means models can inspect schemas, call a narrow set of operations, and keep context across a longer workflow without re-implementing credentials or connection logic on every step. Key integration points include query analysis, diagnostics, warehouses, and application backends. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+PostgreSQL database access, credentials, MCP client or host environment
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/postgresql-mcp-server/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/postgresql-mcp-server
+```
+Install via the official servers project and configure the database connection string securely.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/postgresql-mcp-server`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/modelcontextprotocol/servers
 
 ## Source
 

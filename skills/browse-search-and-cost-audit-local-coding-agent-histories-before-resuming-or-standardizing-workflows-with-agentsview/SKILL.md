@@ -3,6 +3,8 @@ title: "Browse search and cost-audit local coding-agent histories before resumin
 description: "Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly."
 verification: "listed"
 source: "https://github.com/wesm/agentsview"
+author: "wesm"
+publisher_type: "open_source"
 category:
   - "Research & Scraping"
 framework:
@@ -14,33 +16,32 @@ tool_ecosystem:
 
 # Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview
 
-Agentsview is skill-shaped because it solves a concrete operator workflow: collect local histories from multiple coding agents, index them, search them, and audit usage or cost before deciding what to resume, optimize, or standardize. Use it when the question is not “run an agent” but “what already happened across recent agent sessions, and what did it cost?”
+Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly.
 
-That boundary keeps it out of generic product-card territory. The skill is local session discovery, indexing, search, and usage analysis across supported agents. It is not another coding agent, and it is not just a desktop app listing with no bounded job.
+## Prerequisites
+
+agentsview binary or desktop app
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview
+```
+curl -fsSL https://agentsview.io/install.sh | bash
+# or download the desktop app from GitHub Releases
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/wesm/agentsview
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Execute DevOps delivery and infrastructure workflows with cc-devops-skil
 description: "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation."
 verification: "listed"
 source: "https://github.com/akin-ozer/cc-devops-skills"
+author: "Akin Ozer"
+publisher_type: "individual"
 category:
   - "CI/CD Integrations"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Execute DevOps delivery and infrastructure workflows with cc-devops-skills
 
-Use cc-devops-skills when an agent needs a DevOps workflow pack for infrastructure and delivery work, especially generating production-ready configs, linting them, running security checks, or dry-running changes before rollout. Invoke it when the operator wants repeatable generator plus validator loops for infra work inside Claude Code or Codex, not when they are looking for a general plugin or generic automation platform. The scope boundary is DevOps delivery and validation workflows for coding agents, not a broad product listing or all-purpose platform card.
+Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation.
+
+## Prerequisites
+
+Claude Code or Codex with skills or plugin support, the repository skill pack, and any DevOps tools required by the chosen skill such as Terraform, Kubernetes, linters, security scanners, or GitHub Actions.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills
+```
+Install via the Claude Code marketplace, Skill Installer, or the local Codex plugin instructions documented in the README, then invoke the specific generator, validator, or k8s-debug workflow needed for the infrastructure task.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/akin-ozer/cc-devops-skills#readme
 
 ## Source
 

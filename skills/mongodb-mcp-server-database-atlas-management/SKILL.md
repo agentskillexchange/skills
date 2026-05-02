@@ -16,39 +16,17 @@ tool_ecosystem:
 
 # MongoDB MCP Server for Database and Atlas Management
 
-The MongoDB MCP Server is an official Model Context Protocol server maintained by the MongoDB team that allows LLMs and AI agents to interact with MongoDB databases and MongoDB Atlas clusters. Published as an npm package (mongodb-mcp-server), it provides a structured interface for database operations that agents can invoke safely through MCP tool calls.
-
-The server supports two main operational modes: direct MongoDB database operations and MongoDB Atlas cloud management. For database operations, agents can query collections, run aggregation pipelines, create indexes, inspect schemas, and manage documents. For Atlas operations, the server exposes cluster management, project listing, organization configuration, and private registry access through the Atlas API with service account authentication.
-
-Security is a primary design consideration. The server defaults to read-only mode (–readOnly flag), ensuring agents cannot modify data unless explicitly permitted. It supports environment variable-based credential management rather than command-line arguments to prevent credential exposure in process lists. Atlas API access uses service accounts with configurable minimum-required permissions.
-
-Integration is available for all major MCP clients including VS Code, Cursor, Windsurf, Claude Desktop, Claude Code, Codex, Copilot CLI, and Cline. The configuration follows standard MCP server patterns with npx-based invocation and environment variables for connection strings and Atlas API credentials.
-
-The server provides MongoDB assistant tools that help agents understand collection schemas, suggest optimal query patterns, and build aggregation pipelines. It also supports proxy configurations for enterprise environments. With over 970 GitHub stars and active development from the official mongodb-js team, it represents the canonical way to give AI agents structured access to MongoDB data stores. The server requires Node.js 20.19+ and is licensed under Apache-2.0.
+The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context Protocol, enabling structured queries, collection management, Atlas API operations, and aggregation pipelines with built-in authentication and access control.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/mongodb-mcp-server-database-atlas-management/
-
-### Method 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mongodb-mcp-server-database-atlas-management
-```
-
-### Method 3, Download ZIP
-
-- Download the repository ZIP and extract `skills/mongodb-mcp-server-database-atlas-management`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

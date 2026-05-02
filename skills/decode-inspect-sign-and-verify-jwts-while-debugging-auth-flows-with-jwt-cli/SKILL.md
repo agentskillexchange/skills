@@ -3,6 +3,8 @@ title: "Decode, inspect, sign, and verify JWTs while debugging auth flows with j
 description: "Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup."
 verification: "listed"
 source: "https://github.com/mike-engel/jwt-cli"
+author: "mike-engel"
+publisher_type: "open_source_project"
 category:
   - "Security & Verification"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli
 
-Use jwt-cli when an agent needs to decode JWT headers and claims, inspect token contents, or sign and verify tokens against local secrets or keys while debugging an authentication flow or building test fixtures. A user should invoke this instead of using an auth provider or SDK normally when the task is token-level inspection or offline verification, not running the identity platform itself. The scope boundary is specific and skill-shaped: it operates on supplied JWTs and keys to return decoded data or verification results, not a generic auth product, SDK, or identity service listing.
+Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup.
+
+## Prerequisites
+
+jwt-cli
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli
+```
+Install the jwt-cli package from npm, then provide JWTs and the relevant secret or key material when decoding, signing, or verifying tokens.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/mike-engel/jwt-cli
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Convert browser HAR captures into reusable k6 load tests with har-to-k6"
 description: "Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of hand-writing one from scratch. The skill is about transforming captured sessions into a starter load-test artifact with validation and export, not about listing k6 or Grafana as products."
 verification: "security_reviewed"
 source: "https://github.com/grafana/har-to-k6"
+author: "Grafana Labs"
+publisher_type: "Company"
 category:
   - "Templates & Workflows"
 framework:
@@ -14,35 +16,31 @@ tool_ecosystem:
 
 # Convert browser HAR captures into reusable k6 load tests with har-to-k6
 
-This ASE entry is built around har-to-k6, the open source converter maintained by Grafana for turning HAR or LI-HAR archives into executable k6 scripts. The agent behavior is concrete: validate a recorded archive, convert it into a starter k6 scenario, write the generated script, and hand the result back for editing, parameterization, or CI execution. That is a bounded operator task. It is not a listing for Grafana k6, not a generic performance-testing platform card, and not a catch-all HTTP tooling entry.
+Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of hand-writing one from scratch. The skill is about transforming captured sessions into a starter load-test artifact with validation and export, not about listing k6 or Grafana as products.
 
-Invoke this skill when a user already has browser-recorded traffic from DevTools, a proxy, or another capture tool and wants an agent to bootstrap a realistic load-test script quickly. It is a strong fit for debugging high-traffic endpoints, recreating checkout or login flows under load, seeding a performance test suite from a manually verified session, or turning one-off exploratory browsing into a repeatable benchmark artifact. An agent can also validate that the archive is structurally sound before conversion, which reduces wasted cycles on malformed exports.
+## Prerequisites
 
-The scope boundary is what keeps this skill honest. The agent is not acting as a full observability stack, a generic JavaScript CLI wrapper, or a broad “performance engineering platform.” The job is archive-to-script transformation for k6. Integration points include Chrome or browser HAR exports, the k6 CLI, npm-based test repositories, Docker-based performance jobs, and CI pipelines that want generated scripts checked into version control before further tuning. Upstream evidence is solid: the official GitHub repo exists, the npm package exists, Apache-2.0 licensing is published, releases and tags are present, the README documents validation and conversion flows, npm download counts are available, and recent commits show current maintenance.
+Node.js or Docker, a HAR or LI-HAR capture, and k6 for running the generated script
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6
+```
+npm install --save-dev har-to-k6
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/grafana/har-to-k6#readme
 
 ## Source
 

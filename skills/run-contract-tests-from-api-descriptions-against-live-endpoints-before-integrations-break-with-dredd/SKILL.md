@@ -3,6 +3,8 @@ title: "Run contract tests from API descriptions against live endpoints before i
 description: "Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release."
 verification: "listed"
 source: "https://github.com/apiaryio/dredd"
+author: "Apiary"
+publisher_type: "organization"
 category:
   - "Library & API Reference"
 framework:
@@ -16,33 +18,31 @@ tool_ecosystem:
 
 # Run contract tests from API descriptions against live endpoints before integrations break with Dredd
 
-Use Dredd when an agent needs to verify that a live HTTP API still behaves like its published description. It fits integration review, release hardening, and contract drift investigations where a spec already exists and must be tested against reality.
+Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release.
 
-Invoke this instead of using the API product normally when the agent must turn an API description into executable contract checks against a running service. This is skill-shaped because the boundary is narrow: spec-driven contract verification of live endpoints. It is not a generic API platform, SDK, or documentation server listing.
+## Prerequisites
+
+Node.js, Dredd CLI, OpenAPI or API Blueprint spec, running API endpoint
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd
+```
+npm install --global dredd
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://dredd.org/
 
 ## Source
 

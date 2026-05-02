@@ -3,6 +3,8 @@ title: "Spell-check docs and code comments with source-aware filters using pyspe
 description: "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream."
 verification: "listed"
 source: "https://github.com/facelessuser/pyspelling"
+author: "facelessuser"
+publisher_type: "individual"
 category:
   - "Code Quality & Review"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Spell-check docs and code comments with source-aware filters using pyspelling
 
-Use pyspelling when an agent needs source-aware spell checking across documentation, generated text inputs, HTML, Markdown, or code comments with file-type-specific filters. It is especially useful when the workflow needs to preserve structure, ignore known non-prose regions, and fail CI only on meaningful spelling defects.
+Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream.
 
-A user should invoke this instead of a generic spell checker when the task is configurable, format-aware spelling review across a project tree. The scope boundary is specific and skill-shaped: pyspelling orchestrates spelling scans with filters and dictionary backends such as Aspell or Hunspell, not general writing assistance, editing, or documentation publishing.
+## Prerequisites
+
+Python, pyspelling, and an installed dictionary backend such as Aspell or Hunspell.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling
+```
+<p>Install the Python package with <code>pip install pyspelling</code>, install a supported backend such as Aspell or Hunspell, define spelling tasks in the project configuration, then run <code>pyspelling</code> in the repository or CI job.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://facelessuser.github.io/pyspelling/
 
 ## Source
 

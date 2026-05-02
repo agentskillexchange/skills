@@ -3,6 +3,8 @@ title: "Probe public TLS endpoints for protocol, cipher, and certificate weaknes
 description: "Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review."
 verification: "listed"
 source: "https://github.com/testssl/testssl.sh"
+author: "testssl project"
+publisher_type: "organization"
 category:
   - "Security & Verification"
 framework:
@@ -14,31 +16,31 @@ tool_ecosystem:
 
 # Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh
 
-Use testssl.sh when an agent needs to interrogate a live HTTPS or TLS endpoint and turn the results into an actionable hardening checklist. The agent probes supported protocols, cipher suites, certificate issues, renegotiation, and other security-relevant behaviors before a service goes live or after a change. Invoke this instead of using the product normally when the job is operational verification of a deployed endpoint, not generic certificate browsing or server administration. The boundary is narrow and concrete: endpoint-level TLS assessment with remediation-oriented findings.
+Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review.
+
+## Prerequisites
+
+Shell environment, OpenSSL-compatible networking tools
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh
+```
+Clone the repository or download a release, then run `./testssl.sh <host>` or `./testssl.sh <host>:443` against the target endpoint.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://testssl.sh/
 
 ## Source
 

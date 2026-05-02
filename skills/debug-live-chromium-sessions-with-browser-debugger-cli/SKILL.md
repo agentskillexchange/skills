@@ -3,6 +3,8 @@ title: "Debug live Chromium sessions with browser-debugger-cli"
 description: "Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task."
 verification: "listed"
 source: "https://github.com/szymdzum/browser-debugger-cli"
+author: "szymdzum"
+publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -16,31 +18,31 @@ tool_ecosystem:
 
 # Debug live Chromium sessions with browser-debugger-cli
 
-Use browser-debugger-cli when an agent needs to inspect a live Chromium tab by pulling DOM snapshots, console errors, network activity, cookies, or raw CDP output during a failing browser task. Invoke it instead of using the browser normally when the job is diagnosis and telemetry collection, not routine browsing or end-to-end automation. The scope boundary is tight and skill-shaped: this is a live-session debugging workflow around Chrome DevTools Protocol, not a generic browser platform, SDK, or framework listing.
+Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task.
+
+## Prerequisites
+
+Node.js, npm, Chromium-based browser
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/debug-live-chromium-sessions-with-browser-debugger-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/debug-live-chromium-sessions-with-browser-debugger-cli
+```
+Install with `npm install -g browser-debugger-cli@alpha`, then start a session with `bdg <url>` and use the CLI or CDP subcommands to inspect the live browser state.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/debug-live-chromium-sessions-with-browser-debugger-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/szymdzum/browser-debugger-cli/wiki/Getting-Started
 
 ## Source
 

@@ -3,6 +3,8 @@ title: "Gate Rust dependency trees on license, advisory, and source-policy viola
 description: "Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable gate instead of doing ad hoc manifest review."
 verification: "security_reviewed"
 source: "https://github.com/EmbarkStudios/cargo-deny"
+author: "Embark Studios"
+publisher_type: "company"
 category:
   - "Security & Verification"
 framework:
@@ -16,35 +18,31 @@ tool_ecosystem:
 
 # Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny
 
-Tool: cargo-deny. This skill gives an agent a narrow compliance job: inspect a Rust dependency graph and fail the workflow when license policy, security advisories, banned crates, or allowed-source rules are violated.
+Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable gate instead of doing ad hoc manifest review.
 
-When to use it: invoke this before merge, release, or dependency approval when a repository needs an auditable Rust supply-chain gate that is stricter than manual review or a plain cargo build. Using this skill is different from using the product normally because the operator workflow is explicit: run the policy checks, interpret the failing rule set, and hand back a merge-blocking report with concrete remediation targets.
+## Prerequisites
 
-Scope boundary: this is not a generic Rust package manager listing and not a broad security platform card. Its boundary is tighter: enforce dependency-policy rules on a Rust project with cargo-deny as a pre-merge or pre-release gate.
+Rust toolchain, Cargo project, cargo-deny configuration file, and CI or local shell access.
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny
+```
+Install cargo-deny with the Rust toolchain using the method documented by the project, add a deny.toml policy file to the repository, then run cargo deny check locally or in CI and act on the reported policy violations before merging.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/EmbarkStudios/cargo-deny#readme
 
 ## Source
 

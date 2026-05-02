@@ -3,6 +3,7 @@ title: "Crawl4AI Open-Source Web Crawling and Markdown Extraction"
 description: "Crawl4AI is an open source crawler and scraper built for LLM-ready web extraction, with structured markdown output, browser support, and Python package distribution. It has strong adoption, active maintenance, and a dedicated docs site for integration patterns."
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
+author: "unclecode"
 category:
   - "Research & Scraping"
 framework:
@@ -14,35 +15,31 @@ tool_ecosystem:
 
 # Crawl4AI Open-Source Web Crawling and Markdown Extraction
 
-Crawl4AI is a web crawling and scraping framework built specifically for AI and agent workflows. The upstream project is hosted at github.com/unclecode/crawl4ai, where it exposes an Apache 2.0 license, tagged releases, and active recent development, and the documentation is published at docs.crawl4ai.com. Its core value is simple: instead of scraping arbitrary HTML and cleaning it later, an agent can use Crawl4AI to fetch pages, render dynamic content when needed, and return cleaner markdown or structured outputs that are easier to pass into retrieval, summarization, monitoring, or content analysis steps.
+Crawl4AI is an open source crawler and scraper built for LLM-ready web extraction, with structured markdown output, browser support, and Python package distribution. It has strong adoption, active maintenance, and a dedicated docs site for integration patterns.
 
-This is a concrete job-to-be-done for research and scraping categories. An agent can crawl product docs, help centers, changelogs, blog archives, or knowledge bases, then normalize the output for indexing or follow-up analysis. Crawl4AI is especially relevant when browser rendering, pagination, rate awareness, or LLM-friendly content extraction matters more than bare HTTP fetching. It fits Python-first automation stacks and can be combined with task queues, RAG pipelines, or scheduled ingestion jobs.
+## Prerequisites
 
-The real installation path in the upstream README is pip install -U crawl4ai, and the project notes Python 3.10+ support. For ASE users who want a source-backed, actively maintained crawling tool rather than a vague “web scraping skill,” Crawl4AI is a solid, verifiable candidate with clear integration points and real adoption signals.
+python, pip, docker, go, rust, java
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/crawl4ai-open-source-web-crawling-and-markdown-extraction
+```
+If you encounter any browser-related issues, you can install them manually:
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/crawl4ai-open-source-web-crawling-and-markdown-extraction`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.crawl4ai.com/
 
 ## Source
 

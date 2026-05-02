@@ -3,6 +3,8 @@ title: "Find and group duplicate files across large trees before cleanup migrati
 description: "Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions."
 verification: "listed"
 source: "https://github.com/pkolaczk/fclones"
+author: "pkolaczk"
+publisher_type: "individual"
 category:
   - "Developer Tools"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Find and group duplicate files across large trees before cleanup migration or backup with fclones
 
-Use fclones when an agent needs a bounded dedupe workflow on a real filesystem: scan a tree, group duplicate files, and hand back reviewable groups before deletion, linking, migration, or backup cleanup. The skill is narrower than a general file manager or storage platform listing.
+Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions.
 
-Invoke it instead of ad hoc shell scripting when the job is specifically duplicate-file discovery with large-tree performance and explicit review boundaries. The workflow stays operator-shaped around reporting and cleanup preparation, not broad storage administration.
+## Prerequisites
+
+fclones CLI and access to the directory trees being audited
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones
+```
+Install from crates.io with `cargo install fclones` or use the project release binaries, then run `fclones group <path>` to produce reviewable duplicate groups before any cleanup action.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/pkolaczk/fclones
 
 ## Source
 

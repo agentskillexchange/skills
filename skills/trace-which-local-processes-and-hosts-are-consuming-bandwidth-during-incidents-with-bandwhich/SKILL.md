@@ -3,6 +3,8 @@ title: "Trace which local processes and hosts are consuming bandwidth during inc
 description: "Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong incident hypothesis."
 verification: "security_reviewed"
 source: "https://github.com/imsnif/bandwhich"
+author: "imsnif"
+publisher_type: "individual"
 category:
   - "Runbooks & Diagnostics"
 framework:
@@ -14,33 +16,31 @@ tool_ecosystem:
 
 # Trace which local processes and hosts are consuming bandwidth during incidents with bandwhich
 
-Use bandwhich when an agent needs a fast, local answer to a narrow incident question: what process or remote host is consuming network bandwidth right now. This is not a generic network monitor or platform card. It is a bounded diagnostic workflow around sniffing one interface, mapping traffic back to processes, and separating process, connection, and address views during live troubleshooting.
+Identify which processes, connections, and remote hosts are actually using bandwidth before you chase the wrong incident hypothesis.
 
-Invoke it instead of using a full observability stack when the job is immediate host-level attribution on the machine in front of you. Typical runs inspect one interface, optionally disable reverse DNS for speed, and narrow the view to processes, connections, or remote addresses before escalation.
+## Prerequisites
+
+bandwhich CLI, network interface access, elevated privileges on Linux
 
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich
+```
+Download a prebuilt binary from the GitHub releases page or build from source with Cargo. On Linux, run with sudo or grant the documented packet-capture capabilities before using it in incident workflows.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/trace-which-local-processes-and-hosts-are-consuming-bandwidth-during-incidents-with-bandwhich`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/imsnif/bandwhich
 
 ## Source
 
