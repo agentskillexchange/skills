@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2417 published skills** across **17 categories** · 2078 security reviewed · Updated 2026-05-02 09:37 UTC
+> **2418 published skills** across **17 categories** · 2078 security reviewed · Updated 2026-05-02 13:39 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (302 skills)
+### 🛠️ Developer Tools (303 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -270,6 +270,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands… | Security Reviewed | 1.9k | — |
 | [Install and sync reproducible agent dependencies, prompts, and skills across repos with APM](skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/) | Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting… | Published | 1.9k | 5.1k/wk |
 | [OpenMeter Usage Metering and Billing Platform](skills/openmeter-usage-metering-and-billing-platform/) | OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you… | Security Reviewed | 1.9k | — |
+| [Run coding agents in isolated observable VibeKit sandboxes](skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/) | Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run… | Published | 1.8k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or… | Security Reviewed | 1.7k | — |
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into… | Security Reviewed | 1.6k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | — |

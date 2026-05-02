@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2417,
+  "total": 2418,
   "generated": "2026-05-02",
   "skills": [
+    {
+      "slug": "run-coding-agents-in-isolated-observable-vibekit-sandboxes",
+      "name": "Run coding agents in isolated observable VibeKit sandboxes",
+      "description": "Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run observability.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1775
+      }
+    },
     {
       "slug": "pin-ci-workflow-actions-and-images-with-ratchet",
       "name": "Pin CI workflow actions and images with Ratchet",
