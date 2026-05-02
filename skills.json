@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2413,
-  "generated": "2026-05-01",
+  "total": 2415,
+  "generated": "2026-05-02",
   "skills": [
+    {
+      "slug": "control-android-devices-with-an-on-device-ai-agent-using-pokeclaw",
+      "name": "Control Android devices with an on-device AI agent using PokeClaw",
+      "description": "Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation and testing workflows.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 760
+      }
+    },
+    {
+      "slug": "run-fast-multi-language-git-hook-quality-checks-with-prek",
+      "name": "Run fast multi-language Git hook quality checks with prek",
+      "description": "Use prek as a fast pre-commit-compatible hook runner so agents can lint, format, and policy-check repository changes before handing work back.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7483
+      }
+    },
     {
       "slug": "expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp",
       "name": "Expose FastAPI routes as MCP tools with FastAPI-MCP",

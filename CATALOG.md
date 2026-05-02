@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2413 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-05-01 21:35 UTC
+> **2415 published skills** across **17 categories** · 2071 security reviewed · Updated 2026-05-02 01:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (300 skills)
+### 🛠️ Developer Tools (301 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -279,6 +279,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 842 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Published | 809 | 36.7k/wk |
+| [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Published | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Published | 621 | 4.9k/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Security Reviewed | 552 | — |
@@ -748,7 +749,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (180 skills)
+### ✅ Code Quality & Review (181 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -840,6 +841,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can… | Security Reviewed | 9.2k | — |
 | [Format shell scripts into a stable house style before review with shfmt](skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes. | Published | 8.7k | — |
+| [Run fast multi-language Git hook quality checks with prek](skills/run-fast-multi-language-git-hook-quality-checks-with-prek/) | Use prek as a fast pre-commit-compatible hook runner so agents can lint, format, and policy-check repository changes… | Published | 7.5k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](skills/axe-core-accessibility-testing-engine/) | axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0,… | Security Reviewed | 7k | — |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule… | Published | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations… | Published | 5.7k | — |
