@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2415,
+  "total": 2417,
   "generated": "2026-05-02",
   "skills": [
+    {
+      "slug": "pin-ci-workflow-actions-and-images-with-ratchet",
+      "name": "Pin CI workflow actions and images with Ratchet",
+      "description": "Audit and rewrite CI/CD workflow references so agents can pin mutable actions, containers, and images to immutable versions before changes land.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 928
+      }
+    },
+    {
+      "slug": "run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes",
+      "name": "Run untrusted AI-generated code inside secure E2B sandboxes",
+      "description": "Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect outputs, and discard state safely.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 12016
+      }
+    },
     {
       "slug": "control-android-devices-with-an-on-device-ai-agent-using-pokeclaw",
       "name": "Control Android devices with an on-device AI agent using PokeClaw",
@@ -13,7 +43,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 760
       }
@@ -28,7 +58,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 7483
       }
@@ -43,7 +73,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 11836
       }
@@ -58,7 +88,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 1374
       }
@@ -73,7 +103,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 9861
       }
@@ -120,7 +150,8 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 19144
+        "github_stars": 19144,
+        "npm_weekly_downloads": 18344
       }
     },
     {
@@ -36804,7 +36835,7 @@
       "signals": {
         "tool": "netlify",
         "github_stars": 1843,
-        "npm_weekly_downloads": 264710
+        "npm_weekly_downloads": 259315
       }
     },
     {
@@ -36883,7 +36914,7 @@
       "signals": {
         "tool": "notion",
         "github_stars": 5582,
-        "npm_weekly_downloads": 1249443,
+        "npm_weekly_downloads": 1186112,
         "license": "MIT"
       }
     },
@@ -37047,7 +37078,7 @@
       "signals": {
         "tool": "newman",
         "github_stars": 7205,
-        "npm_weekly_downloads": 806923,
+        "npm_weekly_downloads": 786881,
         "license": "Apache-2.0"
       }
     },
@@ -37065,7 +37096,7 @@
       "signals": {
         "tool": "graphql",
         "github_stars": 20323,
-        "npm_weekly_downloads": 35676892,
+        "npm_weekly_downloads": 34668113,
         "license": "MIT"
       }
     },
@@ -37083,7 +37114,7 @@
       "signals": {
         "tool": "swagger",
         "github_stars": 28756,
-        "npm_weekly_downloads": 163975,
+        "npm_weekly_downloads": 149905,
         "license": "Apache-2.0"
       }
     },
@@ -37101,7 +37132,7 @@
       "signals": {
         "tool": "kafka",
         "github_stars": 3992,
-        "npm_weekly_downloads": 2682062
+        "npm_weekly_downloads": 2571317
       }
     },
     {
@@ -37266,7 +37297,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "llamaindex",
-        "github_stars": 49070,
+        "github_stars": 49090,
         "license": "MIT"
       }
     },
@@ -37283,8 +37314,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "langchain",
-        "github_stars": 17607,
-        "npm_weekly_downloads": 2127463,
+        "github_stars": 17609,
+        "npm_weekly_downloads": 2052330,
         "license": "MIT"
       }
     },
@@ -37301,8 +37332,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openai",
-        "github_stars": 10856,
-        "npm_weekly_downloads": 20323370,
+        "github_stars": 10858,
+        "npm_weekly_downloads": 20962461,
         "license": "Apache-2.0"
       }
     },
@@ -37336,8 +37367,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4397,
-        "npm_weekly_downloads": 10166537,
+        "github_stars": 4399,
+        "npm_weekly_downloads": 10222160,
         "license": "MIT"
       }
     },
@@ -37355,7 +37386,7 @@
       "signals": {
         "tool": "datadog-api-client-typescript",
         "github_stars": 102,
-        "npm_weekly_downloads": 2341476,
+        "npm_weekly_downloads": 2367763,
         "license": "Apache-2.0"
       }
     },
@@ -37389,7 +37420,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sonarqube",
-        "github_stars": 10496,
+        "github_stars": 10501,
         "license": "LGPL-3.0"
       }
     },
@@ -37406,8 +37437,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "eslint",
-        "github_stars": 27219,
-        "npm_weekly_downloads": 132534304,
+        "github_stars": 27221,
+        "npm_weekly_downloads": 127565044,
         "license": "MIT"
       }
     },
@@ -37424,7 +37455,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "docker",
-        "github_stars": 71521,
+        "github_stars": 71524,
         "license": "Apache-2.0"
       }
     },
@@ -37493,7 +37524,7 @@
       "signals": {
         "tool": "twilio",
         "github_stars": 1533,
-        "npm_weekly_downloads": 3958703,
+        "npm_weekly_downloads": 3932806,
         "license": "MIT"
       }
     },
@@ -37510,8 +37541,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "stripe",
-        "github_stars": 4397,
-        "npm_weekly_downloads": 10166537,
+        "github_stars": 4399,
+        "npm_weekly_downloads": 10222160,
         "license": "MIT"
       }
     },
@@ -37528,8 +37559,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "salesforce",
-        "github_stars": 1456,
-        "npm_weekly_downloads": 983668,
+        "github_stars": 1457,
+        "npm_weekly_downloads": 932034,
         "license": "MIT"
       }
     },
@@ -37547,7 +37578,7 @@
       "signals": {
         "tool": "hubspot",
         "github_stars": 392,
-        "npm_weekly_downloads": 1088156,
+        "npm_weekly_downloads": 1071521,
         "license": "Apache-2.0"
       }
     },
@@ -37564,8 +37595,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "notion",
-        "github_stars": 5593,
-        "npm_weekly_downloads": 1249443,
+        "github_stars": 5595,
+        "npm_weekly_downloads": 1186112,
         "license": "MIT"
       }
     },
@@ -37582,7 +37613,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "grafana",
-        "github_stars": 73521,
+        "github_stars": 73541,
         "license": "AGPL-3.0"
       }
     },
@@ -37599,7 +37630,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "elasticsearch",
-        "github_stars": 76617
+        "github_stars": 76623
       }
     },
     {
@@ -37616,7 +37647,7 @@
       "signals": {
         "tool": "opsgenie",
         "github_stars": 24,
-        "npm_weekly_downloads": 7478,
+        "npm_weekly_downloads": 6744,
         "license": "Apache-2.0"
       }
     },
@@ -37652,7 +37683,7 @@
       "signals": {
         "tool": "datadog",
         "github_stars": 802,
-        "npm_weekly_downloads": 7060745
+        "npm_weekly_downloads": 6913128
       }
     },
     {
@@ -37668,7 +37699,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "pulumi",
-        "github_stars": 25126,
+        "github_stars": 25129,
         "license": "Apache-2.0"
       }
     },
@@ -37685,7 +37716,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "terraform",
-        "github_stars": 48298
+        "github_stars": 48308
       }
     },
     {
@@ -37701,7 +37732,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "argocd",
-        "github_stars": 22770,
+        "github_stars": 22776,
         "license": "Apache-2.0"
       }
     },
@@ -37734,7 +37765,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "jenkins",
-        "github_stars": 25240,
+        "github_stars": 25241,
         "license": "MIT"
       }
     },
@@ -37751,7 +37782,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "atlassian-mcp-server",
-        "github_stars": 642,
+        "github_stars": 644,
         "license": "Apache-2.0"
       }
     },
@@ -37802,7 +37833,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "postgres-mcp",
-        "github_stars": 2670,
+        "github_stars": 2673,
         "license": "MIT"
       }
     },
@@ -37819,8 +37850,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-mcp",
-        "github_stars": 671,
-        "npm_weekly_downloads": 52076
+        "github_stars": 673,
+        "npm_weekly_downloads": 54205
       }
     },
     {
@@ -37836,7 +37867,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "agent-scan",
-        "github_stars": 2297,
+        "github_stars": 2303,
         "license": "Apache-2.0"
       }
     },
@@ -37869,7 +37900,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "clawsec",
-        "github_stars": 965,
+        "github_stars": 966,
         "license": "AGPL-3.0"
       }
     },
@@ -37887,7 +37918,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "claude-code-mcp",
-        "github_stars": 1267,
+        "github_stars": 1268,
         "license": "MIT"
       }
     },
@@ -37950,7 +37981,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "self-improving-agent",
-        "github_stars": 583
+        "github_stars": 582
       }
     },
     {
@@ -37966,7 +37997,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openai",
-        "github_stars": 10856,
+        "github_stars": 10858,
         "license": "Apache-2.0"
       }
     },
@@ -38000,7 +38031,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "ffmpeg",
-        "github_stars": 59430
+        "github_stars": 59462
       }
     },
     {
@@ -38019,7 +38050,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84856
+        "github_stars": 84901
       }
     },
     {
@@ -38035,7 +38066,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "whisper",
-        "github_stars": 98702,
+        "github_stars": 98744,
         "license": "MIT"
       }
     },
@@ -38052,7 +38083,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21074
+        "github_stars": 21076
       }
     },
     {
@@ -38071,7 +38102,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84856
+        "github_stars": 84901
       }
     },
     {
@@ -38089,7 +38120,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-for-ai",
-        "github_stars": 159,
+        "github_stars": 160,
         "license": "MIT"
       }
     },
@@ -38106,7 +38137,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21074
+        "github_stars": 21076
       }
     },
     {
@@ -38125,7 +38156,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 84856
+        "github_stars": 84901
       }
     },
     {
@@ -38144,8 +38175,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright-mcp",
-        "github_stars": 31867,
-        "npm_weekly_downloads": 1885276,
+        "github_stars": 31898,
+        "npm_weekly_downloads": 2241298,
         "license": "Apache-2.0"
       }
     },
@@ -38162,7 +38193,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21074
+        "github_stars": 21076
       }
     },
     {
@@ -38179,7 +38210,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright",
-        "github_stars": 87740,
+        "github_stars": 87799,
         "license": "Apache-2.0"
       }
     }

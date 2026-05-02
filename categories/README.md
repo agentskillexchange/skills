@@ -1,11 +1,11 @@
 # Skill Categories
 
-> **2415 skills** across **17 categories**
+> **2417 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **301** | CLI helpers, dev environment setup, productivity utilities, and devel... |
-| 🔒 | [**Security & Verification**](security-verification/) | **224** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **302** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🔒 | [**Security & Verification**](security-verification/) | **225** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **181** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **169** | Incident response, troubleshooting guides, system diagnostics, and op... |
