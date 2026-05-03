@@ -9,6 +9,7 @@ framework: "Claude Code, MCP"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1268
+  npm_package: "@steipete/claude-code-mcp"
 ---
 # Claude Code MCP Bridge
 

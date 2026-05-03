@@ -9,6 +9,7 @@ framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10858
+  npm_package: "openai"
 ---
 # OpenAI Image Gen
 
