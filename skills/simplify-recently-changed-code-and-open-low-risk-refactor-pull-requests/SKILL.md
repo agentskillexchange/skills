@@ -7,8 +7,6 @@ source: "https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.m
 category: "Code Quality &amp; Review"
 framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: "githubnext/agentics"
-  github_stars: 585
 ---
 # Simplify recently changed code and open low-risk refactor pull requests
 

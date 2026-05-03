@@ -7,8 +7,6 @@ source: "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
 category: "Browser Automation"
 framework: "Claude Agents"
 tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116154
 ---
 # Verify local web apps with Playwright scripts and managed dev servers
 

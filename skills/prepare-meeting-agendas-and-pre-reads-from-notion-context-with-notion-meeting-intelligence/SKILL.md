@@ -7,8 +7,6 @@ source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeti
 category: "Calendar, Email &amp; Productivity"
 framework: "Codex"
 tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 # Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence
 

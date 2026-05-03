@@ -7,8 +7,6 @@ source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-c
 category: "Code Quality &amp; Review"
 framework: "Codex"
 tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
 ---
 # Address GitHub PR review comments from the current branch with gh-address-comments
 

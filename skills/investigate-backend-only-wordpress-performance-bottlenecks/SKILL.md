@@ -7,8 +7,6 @@ source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-performa
 category: "Runbooks &amp; Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: "wordpress/agent-skills"
-  github_stars: 1219
 ---
 # Investigate backend-only WordPress performance bottlenecks
 

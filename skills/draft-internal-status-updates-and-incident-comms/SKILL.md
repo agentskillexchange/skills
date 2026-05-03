@@ -7,8 +7,6 @@ source: "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
 category: "Templates &amp; Workflows"
 framework: "Claude Agents"
 tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116155
 ---
 # Draft internal status updates and incident comms
 
