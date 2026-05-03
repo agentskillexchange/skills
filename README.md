@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [OpenAI Whisper Transcription](skills/openai-whisper-transcription/)
+### [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/)
 
 
 
 - Tool: `whisper`
 - Category: Media & Transcription
-- Frameworks: OpenClaw
-- GitHub stars: 98,744
-- Listing: https://agentskillexchange.com/skills/openai-whisper-transcription/
+- Frameworks: Claude Code
+- GitHub stars: 97,803
+- Listing: https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/
 
 ---
 
