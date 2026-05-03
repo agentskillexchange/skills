@@ -8,7 +8,7 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
-  github_stars: 25241
+  github_stars: 25243
 ---
 # Jenkins MCP Server
 

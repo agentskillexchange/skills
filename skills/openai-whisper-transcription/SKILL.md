@@ -8,7 +8,7 @@ category: "Media &amp; Transcription"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
-  github_stars: 98744
+  github_stars: 98794
 ---
 # OpenAI Whisper Transcription
 

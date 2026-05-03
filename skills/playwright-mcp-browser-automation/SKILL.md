@@ -8,9 +8,9 @@ category: "Browser Automation"
 framework: "Claude Code, Cursor, MCP, OpenClaw"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
-  github_stars: 31898
+  github_stars: 31922
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 2241298
+  npm_weekly_downloads: 2382941
 ---
 # Playwright MCP Browser Automation
 

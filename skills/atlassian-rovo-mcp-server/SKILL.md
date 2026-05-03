@@ -8,7 +8,7 @@ category: "Calendar, Email &amp; Productivity"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
-  github_stars: 644
+  github_stars: 645
 ---
 # Atlassian Rovo MCP Server
 

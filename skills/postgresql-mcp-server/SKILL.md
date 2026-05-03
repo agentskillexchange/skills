@@ -8,7 +8,7 @@ category: "Data Extraction &amp; Transformation"
 framework: "Claude Code, Cursor, MCP, OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 84901
+  github_stars: 84944
 ---
 # PostgreSQL MCP Server
 

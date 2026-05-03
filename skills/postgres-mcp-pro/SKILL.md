@@ -8,7 +8,7 @@ category: "Data Extraction &amp; Transformation"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
-  github_stars: 2673
+  github_stars: 2674
 ---
 # Postgres MCP Pro
 

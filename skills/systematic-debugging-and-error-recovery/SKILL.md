@@ -7,6 +7,8 @@ source: "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-a
 category: "Runbooks &amp; Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
+  github_repo: "addyosmani/agent-skills"
+  github_stars: 17417
 ---
 # Systematic Debugging and Error Recovery
 

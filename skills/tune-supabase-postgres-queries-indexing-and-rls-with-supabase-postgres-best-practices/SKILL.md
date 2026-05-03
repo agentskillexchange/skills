@@ -7,6 +7,8 @@ source: "https://github.com/supabase/agent-skills/tree/main/supabase-postgres-be
 category: "Runbooks &amp; Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
+  github_repo: "supabase/agent-skills"
+  github_stars: 1977
 ---
 # Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices
 

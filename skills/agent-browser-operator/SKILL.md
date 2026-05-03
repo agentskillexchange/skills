@@ -10,6 +10,7 @@ tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 87799
   npm_package: "playwright"
+  npm_weekly_downloads: 47475598
 ---
 # Agent Browser Operator
 

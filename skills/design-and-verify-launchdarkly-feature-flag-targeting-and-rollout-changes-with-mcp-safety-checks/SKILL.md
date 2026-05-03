@@ -7,6 +7,9 @@ source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/feature-fla
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
+  github_repo: "launchdarkly/ai-tooling"
+  github_stars: 6
+  npm_package: "None"
 ---
 # Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks
 

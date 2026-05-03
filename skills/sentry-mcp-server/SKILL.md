@@ -8,9 +8,9 @@ category: "Monitoring &amp; Alerts"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
-  github_stars: 673
+  github_stars: 674
   npm_package: "@sentry/mcp-server"
-  npm_weekly_downloads: 54205
+  npm_weekly_downloads: 54637
 ---
 # Sentry MCP Server
 

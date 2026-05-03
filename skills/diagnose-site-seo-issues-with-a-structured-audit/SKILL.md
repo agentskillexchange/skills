@@ -7,6 +7,8 @@ source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-a
 category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 tool_ecosystem:
+  github_repo: "coreyhaines31/marketingskills"
+  github_stars: 21914
 ---
 # Diagnose Site SEO Issues with a Structured Audit
 
