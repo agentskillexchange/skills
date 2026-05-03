@@ -12,13 +12,15 @@
         "podcast-rss-feed-transcriber",
         "youtube-chapters-generator-whisper",
         "realign-drifting-subtitles-against-finished-video-audio",
+        "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps",
         "video-subtitle-auto-translator-agent",
         "ffsubsync-subtitle-synchronization-tool",
         "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing"
       ],
       "backup_skill_slugs": [
         "whisper-batch-transcription-pipeline",
-        "whisperx-speech-recognition-timestamps-diarization"
+        "whisperx-speech-recognition-timestamps-diarization",
+        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
       ]
     },
     {
@@ -76,11 +78,14 @@
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "pdfplumber-python-pdf-text-table-extraction",
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
+        "paperless-ngx-document-ocr-archive-management-system",
         "langextract-llm-structured-text-extraction"
       ],
       "backup_skill_slugs": [
         "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
-        "revise-pdf-slides-with-natural-language-edits"
+        "revise-pdf-slides-with-natural-language-edits",
+        "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
       ]
     },
     {
@@ -88,7 +93,7 @@
       "title": "Healthcare Documentation & Intake",
       "launch_stage": "wave-2",
       "description": "Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
-      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support — not diagnosis or medical decision support.",
+      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support \u2014 not diagnosis or medical decision support.",
       "skill_slugs": [
         "pubmed-literature-mining-agent",
         "langextract-llm-structured-text-extraction",
@@ -102,6 +107,106 @@
       "backup_skill_slugs": [
         "pdfplumber-python-pdf-text-table-extraction",
         "openai-whisper-api-transcription"
+      ]
+    },
+    {
+      "slug": "product-analytics-growth-ops",
+      "title": "Product Analytics & Growth Ops",
+      "launch_stage": "wave-3",
+      "description": "Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+      "editorial_caution": "Keep this close to product teams, rollout operations, and growth analytics. Do not turn it into a generic BI shelf.",
+      "skill_slugs": [
+        "posthog-product-analytics-and-feature-flags-sdk",
+        "flagsmith-feature-flag-remote-config",
+        "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks",
+        "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments",
+        "openreplay-self-hosted-session-replay-analytics",
+        "plausible-analytics-privacy-first-web-analytics",
+        "umami-privacy-focused-web-analytics",
+        "metabase-open-source-business-intelligence-and-embedded-analytics"
+      ],
+      "backup_skill_slugs": [
+        "duckdb-sql-analytics-agent"
+      ]
+    },
+    {
+      "slug": "devrel-api-documentation",
+      "title": "DevRel & API Documentation",
+      "launch_stage": "wave-3",
+      "description": "API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
+      "editorial_caution": "Frame this as developer enablement and API documentation, not a generic software-industry bucket.",
+      "skill_slugs": [
+        "redoc-openapi-documentation-renderer",
+        "scalar-openapi-reference-api-client-platform",
+        "redocly-cli-openapi-linter-documentation-generator",
+        "devdocs-unified-api-documentation-browser",
+        "mkdocs-project-documentation-generator",
+        "fumadocs-react-documentation-framework-and-docs-site-generator",
+        "vale-prose-linter-technical-docs",
+        "orval-openapi-client-regeneration-skill-typed-sdks",
+        "spectral-openapi-asyncapi-linter"
+      ],
+      "backup_skill_slugs": [
+        "swagger-openapi-validator",
+        "swagger-openapi-schema-validator"
+      ]
+    },
+    {
+      "slug": "customer-support-success",
+      "title": "Customer Support & Success",
+      "launch_stage": "wave-4",
+      "description": "Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+      "editorial_caution": "Keep this about support operations and customer context. Do not imply autonomous customer-service replacement.",
+      "skill_slugs": [
+        "zammad-open-source-helpdesk-ticketing-system",
+        "chatwoot-open-source-customer-engagement-omnichannel-support",
+        "search-help-scout-conversations-and-thread-context-before-drafting-support-replies",
+        "n8n-github-jira-ticket-automator",
+        "outline-knowledge-base-wiki",
+        "affine-knowledge-base-collaborative-workspace-platform",
+        "twenty-open-source-crm-salesforce-alternative",
+        "hubspot-crm-contact-enrichment-pipeline",
+        "salesforce-crm-sync-agent"
+      ],
+      "backup_skill_slugs": [
+        "nb-cli-note-taking-bookmarking-knowledge-base",
+        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
+        "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows"
+      ],
+      "discovery_candidates": [
+        "https://github.com/nbashaw/claude-cs",
+        "https://github.com/effytech/freshdesk_mcp",
+        "https://github.com/koundinya/zd-mcp-server",
+        "https://github.com/openai/openai-cs-agents-demo"
+      ]
+    },
+    {
+      "slug": "real-estate-workflows",
+      "title": "Real Estate Workflows",
+      "launch_stage": "wave-4",
+      "description": "Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+      "editorial_caution": "Treat this as a cautious operations-and-paperwork pilot. Do not imply MLS completeness, valuation accuracy, legal advice, or buyer/seller recommendations.",
+      "skill_slugs": [
+        "docuseal-document-signing-pdf-forms",
+        "docusign-contract-auto-sender",
+        "paperless-ngx-document-ocr-archive-management-system",
+        "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "pdfplumber-python-pdf-text-table-extraction",
+        "langextract-llm-structured-text-extraction",
+        "hubspot-crm-contact-enrichment-pipeline",
+        "salesforce-crm-sync-agent"
+      ],
+      "backup_skill_slugs": [
+        "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
+        "twenty-open-source-crm-salesforce-alternative",
+        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
+      ],
+      "discovery_candidates": [
+        "https://github.com/AleksNeStu/ai-real-estate-assistant",
+        "https://github.com/brightdata/real-estate-ai-agent",
+        "https://github.com/sap156/zillow-mcp-server",
+        "https://github.com/zellerhaus/batchdata-mcp-real-estate",
+        "https://github.com/agentic-ops/real-estate-mcp"
       ]
     }
   ]

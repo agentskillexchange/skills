@@ -24,6 +24,9 @@ EMOJI = {
     "ecommerce-retail-operations": "🛒",
     "legal-ops-compliance": "⚖️",
     "healthcare-documentation-intake": "🩺",
+    "product-analytics-growth-ops": "📈",
+    "devrel-api-documentation": "📚",
+    "customer-support-success": "🎧",
     "real-estate-workflows": "🏠",
 }
 
@@ -53,6 +56,8 @@ def stage_label(raw):
     mapping = {
         "wave-1": "Wave 1",
         "wave-2": "Wave 2",
+        "wave-3": "Wave 3",
+        "wave-4": "Wave 4",
         "pilot": "Pilot",
         "planned": "Planned",
     }

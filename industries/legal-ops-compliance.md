@@ -16,6 +16,7 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 | [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | Media & Transcription | 33.2k | — |
 | [pdfplumber Python PDF Text and Table Extraction Library](../skills/pdfplumber-python-pdf-text-table-extraction/) | Data Extraction & Transformation | 10.1k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Research & Scraping | 9.6k | — |
+| [Paperless-ngx Document OCR and Archive Management System](../skills/paperless-ngx-document-ocr-archive-management-system/) | Data Extraction & Transformation | 38.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | Data Extraction & Transformation | 35k | — |
 
 ## Backup Picks
@@ -24,6 +25,8 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 |---|---|
 | [Search large PDFs and read only the relevant pages before answering](../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | Useful alternate or overflow pick for this collection. |
 | [Revise PDF Slides with Natural-Language Edits](../skills/revise-pdf-slides-with-natural-language-edits/) | Useful alternate or overflow pick for this collection. |
+| [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](../skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | Useful alternate or overflow pick for this collection. |
+| [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](../skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | Useful alternate or overflow pick for this collection. |
 
 ## Editorial Caution
 

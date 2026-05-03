@@ -116,6 +116,10 @@ Curated editorial overlays for teams that want repo navigation by real workflow 
 | 🛒 | [**Ecommerce & Retail Operations**](industries/ecommerce-retail-operations.md) | Wave 1 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising |
 | ⚖️ | [**Legal Ops & Compliance**](industries/legal-ops-compliance.md) | Wave 1 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support |
 | 🩺 | [**Healthcare Documentation & Intake**](industries/healthcare-documentation-intake.md) | Wave 2 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows |
+| 📈 | [**Product Analytics & Growth Ops**](industries/product-analytics-growth-ops.md) | Wave 3 | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows |
+| 📚 | [**DevRel & API Documentation**](industries/devrel-api-documentation.md) | Wave 3 | API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows |
+| 🎧 | [**Customer Support & Success**](industries/customer-support-success.md) | Wave 4 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support |
+| 🏠 | [**Real Estate Workflows**](industries/real-estate-workflows.md) | Wave 4 | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations |
 
 See the full overlay index in [industries/README.md](industries/README.md).
 
