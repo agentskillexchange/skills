@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2418,
-  "generated": "2026-05-03",
+  "total": 2419,
+  "generated": "2026-05-04",
   "skills": [
+    {
+      "slug": "study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo",
+      "name": "Study customer-service triage and handoff patterns with the OpenAI CS agents demo",
+      "description": "Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and support-case orchestration before building a production support agent.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "ChatGPT Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6314
+      }
+    },
     {
       "slug": "run-coding-agents-in-isolated-observable-vibekit-sandboxes",
       "name": "Run coding agents in isolated observable VibeKit sandboxes",

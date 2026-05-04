@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2418 published skills** across **17 categories** · 2078 security reviewed · Updated 2026-05-03 21:58 UTC
+> **2419 published skills** across **17 categories** · 2078 security reviewed · Updated 2026-05-04 03:59 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1291,7 +1291,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (140 skills)
+### 📄 Templates & Workflows (141 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1371,6 +1371,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Published | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Security Reviewed | 6.4k | — |
+| [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and… | Published | 6.3k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout,… | Published | 4.3k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |

@@ -114,6 +114,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
+| [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](../../skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | 4.3k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
