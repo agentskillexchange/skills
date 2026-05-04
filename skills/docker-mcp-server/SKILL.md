@@ -8,7 +8,7 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
-  github_stars: 71534
+  github_stars: 71539
 ---
 # Docker MCP Server
 

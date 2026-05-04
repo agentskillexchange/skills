@@ -8,7 +8,7 @@ category: "Security &amp; Verification"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
-  github_stars: 2319
+  github_stars: 2332
 ---
 # Snyk Agent Scan
 

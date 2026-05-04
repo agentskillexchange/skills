@@ -8,7 +8,7 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
-  github_stars: 48318
+  github_stars: 48320
 ---
 # Terraform Cloud MCP Server
 

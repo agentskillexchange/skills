@@ -8,7 +8,7 @@ category: "Monitoring &amp; Alerts"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
-  github_stars: 76630
+  github_stars: 76634
 ---
 # Elastic / Kibana MCP Server
 

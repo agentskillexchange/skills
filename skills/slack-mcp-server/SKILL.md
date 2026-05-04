@@ -8,7 +8,7 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Claude Code, Cursor, MCP, OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 84982
+  github_stars: 85012
 ---
 # Slack MCP Server
 

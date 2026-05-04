@@ -8,7 +8,7 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
-  github_stars: 22787
+  github_stars: 22790
 ---
 # ArgoCD MCP Server
 

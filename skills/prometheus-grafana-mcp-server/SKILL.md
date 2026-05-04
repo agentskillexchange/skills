@@ -8,7 +8,7 @@ category: "Monitoring &amp; Alerts"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "grafana/grafana"
-  github_stars: 73568
+  github_stars: 73580
 ---
 # Prometheus / Grafana MCP Server
 

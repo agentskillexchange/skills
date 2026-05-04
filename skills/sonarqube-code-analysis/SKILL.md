@@ -8,7 +8,7 @@ category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
-  github_stars: 10506
+  github_stars: 10507
 ---
 # SonarQube Code Analysis
 
