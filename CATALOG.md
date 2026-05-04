@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2419 published skills** across **17 categories** · 2079 security reviewed · Updated 2026-05-04 15:58 UTC
+> **2420 published skills** across **17 categories** · 2079 security reviewed · Updated 2026-05-04 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1545,7 +1545,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | 791 | 6.6M/wk |
-| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 674 | 51.7k/wk |
+| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 676 | 51.7k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | — |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Published | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Security Reviewed | 531 | 4.8M/wk |
@@ -1656,7 +1656,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand. | Published | 917 | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Security Reviewed | 887 | — |
-| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 647 | — |
+| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 648 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with… | Published | 382 | 5.2k/wk |
@@ -1951,7 +1951,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (103 skills)
+### 🔍 Research & Scraping (104 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2031,6 +2031,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | 173 | 34.1k/wk |
 | [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | 173 | 34.1k/wk |
 | [Apify SDK for Web Scraping and Actor Automation](skills/apify-sdk-web-scraping-actor-automation/) | Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It… | Security Reviewed | 173 | — |
+| [Research real estate properties with RAG-backed market analysis](skills/rag-backed-real-estate-property-research/) | Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from… | Published | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or… | Security Reviewed | 165 | — |
 | [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](skills/exa-js-web-search-sdk-ai-applications/) | exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete… | Security Reviewed | 126 | — |
@@ -2179,7 +2180,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Security Reviewed | 154.3k | — |
-| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 98.8k | — |
+| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 98.9k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | 97.8k | — |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | 97.8k | — |
@@ -2189,7 +2190,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes… | Security Reviewed | 97.4k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides… | Security Reviewed | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](skills/tesseract-ocr-engine-for-image-to-text-workflows/) | Tesseract OCR is a widely used open source optical character recognition engine with command line and library… | Security Reviewed | 73.4k | — |
-| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Security Reviewed | 59.5k | — |
+| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Security Reviewed | 59.6k | — |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | 59.4k | — |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Security Reviewed | 59.4k | — |
 | [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT… | Security Reviewed | 59.4k | — |

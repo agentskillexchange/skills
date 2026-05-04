@@ -114,6 +114,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | 173 | 34.1k/wk |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | 173 | 34.1k/wk |
 | [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | — |
+| [Research real estate properties with RAG-backed market analysis](../../skills/rag-backed-real-estate-property-research/) | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](../../skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | 165 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | — |
