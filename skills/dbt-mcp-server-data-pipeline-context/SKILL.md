@@ -1,26 +1,30 @@
 ---
 title: "dbt MCP Server for Data Pipeline Context"
-slug: "dbt-mcp-server-data-pipeline-context"
 description: "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-mcp"
-category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-mcp"
   github_stars: 526
 ---
+
 # dbt MCP Server for Data Pipeline Context
 
 The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

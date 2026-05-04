@@ -1,23 +1,27 @@
 ---
 title: "Incident Postmortem Generator"
-slug: "incident-postmortem-generator"
 description: "Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history, and Grafana dashboard snapshots. Produces blameless postmortem documents following the Google SRE template format."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-postmortem-generator/"
-category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "ChatGPT Agents"
 ---
+
 # Incident Postmortem Generator
 
 Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history, and Grafana dashboard snapshots. Produces blameless postmortem documents following the Google SRE template format.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

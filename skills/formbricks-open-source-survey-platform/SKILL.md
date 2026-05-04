@@ -1,26 +1,46 @@
 ---
 title: "Formbricks Open-Source Survey Platform"
-slug: "formbricks-open-source-survey-platform"
 description: "Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app surveys. This skill helps agents work with the real Formbricks product model for feedback collection, survey delivery, self-hosting, and analysis workflows."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/formbricks/formbricks"
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+author: "Formbricks"
+publisher_type: "Company"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "formbricks/formbricks"
   github_stars: 12045
 ---
+
 # Formbricks Open-Source Survey Platform
 
 Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app surveys. This skill helps agents work with the real Formbricks product model for feedback collection, survey delivery, self-hosting, and analysis workflows.
 
+## Prerequisites
+
+Docker for self-hosting; JavaScript snippet or npm integration for website/in-app surveys
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Use the Formbricks Docker image for self-hosting
+```
+
+## Documentation
+
+- https://formbricks.com/docs/self-hosting/overview
 
 ## Source
 

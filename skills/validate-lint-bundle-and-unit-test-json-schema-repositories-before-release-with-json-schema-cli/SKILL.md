@@ -1,28 +1,48 @@
 ---
 title: "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI"
-slug: "validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli"
 description: "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream."
-verification: listed
+verification: "listed"
 source: "https://github.com/sourcemeta/jsonschema"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+author: "Sourcemeta"
+publisher_type: "organization"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sourcemeta/jsonschema"
   github_stars: 270
   npm_package: "@sourcemeta/jsonschema"
   npm_weekly_downloads: 27164
 ---
+
 # Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI
 
 Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream.
 
+## Prerequisites
+
+JSON Schema CLI, local schema repository, and optional CI environment or package manager install path
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the CLI from the upstream package or binary instructions, run commands such as validate, lint, test, fmt, and bundle against the target schema repository, and wire the same checks into CI if needed.
+```
+
+## Documentation
+
+- https://github.com/sourcemeta/jsonschema
 
 ## Source
 

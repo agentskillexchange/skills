@@ -1,26 +1,30 @@
 ---
 title: "Pipedream API Workflow Automation Platform"
-slug: "pipedream-api-workflow-automation-platform"
 description: "Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted workflows. It fits ASE as a source-backed integration skill for agents that need to trigger apps, transform events, and chain API actions across services."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/PipedreamHQ/pipedream"
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "PipedreamHQ/pipedream"
   github_stars: 11231
 ---
+
 # Pipedream API Workflow Automation Platform
 
 Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted workflows. It fits ASE as a source-backed integration skill for agents that need to trigger apps, transform events, and chain API actions across services.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

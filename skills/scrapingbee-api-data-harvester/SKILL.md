@@ -1,23 +1,32 @@
 ---
 title: "ScrapingBee API Data Harvester"
-slug: "scrapingbee-api-data-harvester"
 description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://www.scrapingbee.com/documentation/"
-category: "Research &amp; Scraping"
-framework: "Custom Agents"
+author: "ScrapingBee"
+category:
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 ---
+
 # ScrapingBee API Data Harvester
 
 Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://www.scrapingbee.com/documentation/
 
 ## Source
 

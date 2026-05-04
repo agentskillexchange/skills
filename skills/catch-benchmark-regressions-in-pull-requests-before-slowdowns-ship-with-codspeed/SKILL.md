@@ -1,28 +1,48 @@
 ---
 title: "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed"
-slug: "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed"
 description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/CodSpeedHQ/codspeed"
-category: "Code Quality &amp; Review"
-framework: "Multi-Framework"
+author: "CodSpeed"
+publisher_type: "company"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "CodSpeedHQ/codspeed"
   github_stars: 143
   npm_package: "@codspeed/core"
   npm_weekly_downloads: 234588
 ---
+
 # Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed
 
 Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge.
 
+## Prerequisites
+
+A repository with executable benchmarks or benchmark commands, a CI system such as GitHub Actions, and a CodSpeed account or auth flow for storing and comparing results.
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+<p>Install the CLI with <code>curl -fsSL https://codspeed.io/install.sh | bash</code> or use the official CodSpeed GitHub Action, authenticate the project, then run <code>codspeed exec</code> for direct command benchmarks or <code>codspeed run</code> to wrap an existing benchmark suite in CI and pull requests.</p>
+```
+
+## Documentation
+
+- https://codspeed.io/docs
 
 ## Source
 

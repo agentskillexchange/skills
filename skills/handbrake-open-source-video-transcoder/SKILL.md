@@ -1,26 +1,30 @@
 ---
 title: "HandBrake Open-Source Video Transcoder"
-slug: "handbrake-open-source-video-transcoder"
 description: "HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers. It supports most common input formats and leverages FFmpeg, x264, x265, and SVT-AV1 for encoding."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/HandBrake/HandBrake"
-category: "Media &amp; Transcription"
-framework: "Custom Agents"
+category:
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "handbrake/handbrake"
   github_stars: 22806
 ---
+
 # HandBrake Open-Source Video Transcoder
 
 HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers. It supports most common input formats and leverages FFmpeg, x264, x265, and SVT-AV1 for encoding.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

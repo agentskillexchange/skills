@@ -1,26 +1,46 @@
 ---
 title: "Block secret leaks before commit or push with ggshield"
-slug: "block-secret-leaks-before-commit-or-push-with-ggshield"
 description: "Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch."
-verification: listed
+verification: "listed"
 source: "https://github.com/GitGuardian/ggshield"
-category: "Security &amp; Verification"
-framework: "Multi-Framework"
+author: "GitGuardian"
+publisher_type: "organization"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "GitGuardian/ggshield"
   github_stars: 1940
 ---
+
 # Block secret leaks before commit or push with ggshield
 
 Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch.
 
+## Prerequisites
+
+Python environment or packaged ggshield install, Git, optional GitGuardian API key for full detector coverage
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install ggshield with pipx, pip, or Homebrew, optionally run `ggshield auth login` or set a GitGuardian API key, then invoke checks such as `ggshield secret scan pre-commit`, `ggshield secret scan pre-push`, or `ggshield secret scan repo`.
+```
+
+## Documentation
+
+- https://github.com/GitGuardian/ggshield#readme
 
 ## Source
 
