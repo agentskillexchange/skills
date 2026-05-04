@@ -6,12 +6,14 @@ python3 - "$REPO_DIR" << 'PYEOF'
 import datetime as dt
 import html
 import json
+import math
 import sys
 import urllib.request
 from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
 BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
+HOMEPAGE_PICKS_URL = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/homepage-picks"
 WP_CAT_URL = "https://agentskillexchange.com/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
 INDUSTRY_MANIFEST = REPO_DIR / "scripts" / "industry-collections.json"
 INDUSTRY_EMOJI = {
@@ -101,28 +103,90 @@ for item in items:
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
 
-def item_score(item):
-    return (
-        int(item.get("featured") or 0),
-        int(item.get("github_stars") or 0),
-        int(item.get("npm_weekly_downloads") or 0),
-        1 if item.get("verification") == "security_reviewed" else 0,
-        item.get("title", "").lower(),
-    )
+def parse_dt(value):
+    if not value:
+        return None
+    try:
+        return dt.datetime.fromisoformat(str(value).replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+    except Exception:
+        return None
 
-pool = [i for i in items if int(i.get("featured") or 0) or int(i.get("github_stars") or 0) > 0 or int(i.get("npm_weekly_downloads") or 0) > 0]
+
+def recent_popular_components(item):
+    now = dt.datetime.now(dt.timezone.utc)
+    published_at = parse_dt(item.get("date")) or now
+    days_old = max(0, (now - published_at).days)
+    recency_score = max(0, 45 - min(days_old, 45)) * 120
+    weekly_views = int(item.get("views_weekly") or 0)
+    stars = int(item.get("github_stars") or 0)
+    downloads = int(item.get("npm_downloads") or item.get("npm_weekly_downloads") or 0)
+    trust_score = 900 if item.get("verification") == "security_reviewed" else 350 if item.get("verification") == "verified_metadata" else 0
+    view_score = min(2400, weekly_views * 80)
+    star_score = min(1800, int(math.log(stars + 1) * 180)) if stars > 0 else 0
+    download_score = min(1600, int(math.log(downloads + 1) * 160)) if downloads > 0 else 0
+    return {
+        "score": recency_score + view_score + star_score + download_score + trust_score,
+        "days_old": days_old,
+        "views_weekly": weekly_views,
+        "stars": stars,
+        "downloads": downloads,
+    }
+
+
+def recent_popular_sort_key(item):
+    rp = item["_recent_popular"]
+    return (-rp["score"], -rp["views_weekly"], rp["days_old"], -rp["stars"], -rp["downloads"], item.get("title", "").lower())
+
+
+def build_recent_popular_picks(items, limit=12, max_per_category=2):
+    picks = []
+    seen_tools = set()
+    cat_counts = {}
+    ranked = sorted(items, key=recent_popular_sort_key)
+    for item in ranked:
+        tool = (item.get("tool_match") or item.get("slug") or "").strip().lower()
+        if not tool or tool in seen_tools:
+            continue
+        cat = (item.get("categories") or ["Uncategorized"])[0]
+        if cat_counts.get(cat, 0) >= max_per_category:
+            continue
+        seen_tools.add(tool)
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+        picks.append(item)
+        if len(picks) >= limit:
+            return picks
+    if len(picks) < limit:
+        for item in ranked:
+            tool = (item.get("tool_match") or item.get("slug") or "").strip().lower()
+            if not tool or tool in seen_tools:
+                continue
+            seen_tools.add(tool)
+            picks.append(item)
+            if len(picks) >= limit:
+                break
+    return picks
+
+
+for item in items:
+    item["_recent_popular"] = recent_popular_components(item)
+
+pool = build_recent_popular_picks(items, limit=60)
 if not pool:
-    pool = items[:]
-pool.sort(key=item_score, reverse=True)
-pool = pool[:60] if len(pool) > 60 else pool
-ordinal = dt.datetime.now(dt.timezone.utc).toordinal()
-skill = pool[ordinal % len(pool)] if pool else None
+    pool = sorted(items, key=lambda i: i.get("title", "").lower())
+day_index = dt.datetime.now(dt.timezone.utc).timetuple().tm_yday - 1
+skill = pool[day_index % len(pool)] if pool else None
+featured = build_recent_popular_picks(items, limit=12)
 
-featured = sorted(
-    [i for i in items if int(i.get("github_stars") or 0) > 0],
-    key=lambda i: (int(i.get("github_stars") or 0), int(i.get("npm_weekly_downloads") or 0)),
-    reverse=True,
-)[:12]
+# Prefer the live site's canonical homepage picks when available so README never drifts
+# from ASE's rendered Skill of the Day. The local algorithm above is the fallback.
+try:
+    homepage_picks, _ = fetch_json(HOMEPAGE_PICKS_URL)
+    if homepage_picks.get("skill_of_day"):
+        skill = homepage_picks["skill_of_day"]
+    if homepage_picks.get("featured"):
+        featured = homepage_picks["featured"]
+except Exception:
+    pass
 
 lines = []
 lines.append('<div align="center">')

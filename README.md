@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/)
+### [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/)
 
+Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency issues.
 
-
-- Tool: `openclaw`
-- Category: Developer Tools
-- Frameworks: OpenClaw
-- GitHub stars: 356,821
-- Listing: https://agentskillexchange.com/skills/turn-github-issues-into-fix-prs/
+- Tool: `catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe`
+- Category: CI/CD Integrations
+- Frameworks: Multi-Framework
+- GitHub stars: 521
+- Listing: https://agentskillexchange.com/skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/
 
 ---
 
@@ -66,18 +66,18 @@ A strong cross-section of high-signal skills across the catalog.
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | openclaw | 356.8k | Developer Tools |
-| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | openclaw | 356.8k | Calendar, Email & Productivity |
-| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | openclaw | 356.8k | Security & Verification |
-| [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | openclaw | 356.8k | Runbooks & Diagnostics |
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | n8n-workflow-webhook-bridge | 182.1k | Integrations & Connectors |
-| [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | ollama-local-llm-runner-model-server | 167.9k | Developer Tools |
-| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | CI/CD Integrations |
-| [Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/) | hugging-face-transformers-ml-library | 159.2k | Developer Tools |
-| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
-| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | langflow-visual-ai-agent-workflow-builder | 146.8k | Templates & Workflows |
-| [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | open-webui-self-hosted-ai-interface | 130.4k | Developer Tools |
-| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | kubernetes | 121.8k | Monitoring & Alerts |
+| [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode | 10k | Developer Tools |
+| [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Templates &amp; Workflows |
+| [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Templates &amp; Workflows |
+| [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Code Quality &amp; Review |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
+| [Search large codebases semantically from MCP-compatible coding agents with Claude Context](skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context | 9.2k | Developer Tools |
+| [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring &amp; Alerts |
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring &amp; Alerts |
+| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
+| [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats | 53.5k | Library &amp; API Reference |
+| [Search local notes, docs, and meeting transcripts for agent context with QMD](skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd | 22.1k | Research &amp; Scraping |
 
 ---
 
