@@ -1,32 +1,23 @@
 ---
 title: "WordPress Block Theme Scaffolder"
+slug: "wordpress-block-theme-scaffolder"
 description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://developer.wordpress.org/block-editor/"
-author: "WordPress"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Claude Code"
+category: "WordPress &amp; CMS"
+framework: "Claude Code"
 ---
-
 # WordPress Block Theme Scaffolder
 
 Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://developer.wordpress.org/themes/global-settings-and-styles/introduction-to-theme-json/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

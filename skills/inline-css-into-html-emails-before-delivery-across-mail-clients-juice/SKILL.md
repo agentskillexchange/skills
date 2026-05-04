@@ -1,46 +1,26 @@
 ---
 title: "Inline CSS into HTML emails before delivery across mail clients with Juice"
+slug: "inline-css-into-html-emails-before-delivery-across-mail-clients-juice"
 description: "Use Juice when an agent already has finished HTML and needs it transformed into email-safe output before sending, archiving, or handing off to another system. The skill inlines stylesheet rules into element style attributes so downstream mail clients and embedded contexts keep the intended presentation without manual cleanup."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Automattic/juice"
-author: "Automattic"
-publisher_type: "organization"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Custom Agents"
+category: "Calendar, Email &amp; Productivity"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "Automattic/juice"
   github_stars: 3245
 ---
-
 # Inline CSS into HTML emails before delivery across mail clients with Juice
 
 Use Juice when an agent already has finished HTML and needs it transformed into email-safe output before sending, archiving, or handing off to another system. The skill inlines stylesheet rules into element style attributes so downstream mail clients and embedded contexts keep the intended presentation without manual cleanup.
 
-## Prerequisites
-
-Node.js
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-npm install juice
-```
-
-## Documentation
-
-- https://github.com/Automattic/juice#readme
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

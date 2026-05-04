@@ -1,43 +1,27 @@
 ---
 title: "Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments"
+slug: "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments"
 description: "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals"
-author: "launchdarkly"
-publisher_type: "organization"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Custom Agents"
+category: "Monitoring &amp; Alerts"
+framework: "Custom Agents"
+tool_ecosystem:
+  github_repo: "launchdarkly/ai-tooling"
+  github_stars: 6
+  npm_package: "None"
 ---
-
 # Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments
 
 Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations.
 
-## Prerequisites
-
-LaunchDarkly AI Configs; LaunchDarkly API token or SDK access; custom skill-capable agent client
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Copy the skill directory into the agent client’s skills path and provide LaunchDarkly AI Config credentials before attaching judges or configuring evaluations.
-```
-
-## Documentation
-
-- https://docs.launchdarkly.com/home/ai-configs/online-evaluations
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

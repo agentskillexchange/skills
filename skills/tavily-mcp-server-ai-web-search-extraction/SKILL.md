@@ -1,32 +1,28 @@
 ---
 title: "Tavily MCP Server for AI-Powered Web Search and Extraction"
-description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption."
-verification: "security_reviewed"
+slug: "tavily-mcp-server-ai-web-search-extraction"
+description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily&#8217;s search API to deliver structured, relevant results optimized for LLM consumption."
+verification: security_reviewed
 source: "https://github.com/tavily-ai/tavily-mcp"
-category:
-  - "Research & Scraping"
-framework:
-  - "MCP"
+category: "Research &amp; Scraping"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "tavily-ai/tavily-mcp"
   github_stars: 1615
   npm_package: "tavily-mcp"
   npm_weekly_downloads: 47930
 ---
-
 # Tavily MCP Server for AI-Powered Web Search and Extraction
 
-An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption.
+An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily&#8217;s search API to deliver structured, relevant results optimized for LLM consumption.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

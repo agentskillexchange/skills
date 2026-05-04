@@ -1,46 +1,26 @@
 ---
 title: "Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext"
+slug: "pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext"
 description: "Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can happen outside bulky notebook JSON."
-verification: "listed"
+verification: listed
 source: "https://github.com/mwouts/jupytext"
-author: "mwouts"
-publisher_type: "individual"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates &amp; Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mwouts/jupytext"
   github_stars: 7156
 ---
-
 # Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext
 
 Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can happen outside bulky notebook JSON.
 
-## Prerequisites
-
-Python, JupyterLab or Jupyter Notebook
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install with `pip install jupytext` or `conda install jupytext -c conda-forge`, restart Jupyter, then pair or open notebooks as plain-text `.py` or `.md` files from the Jupytext workflow.
-```
-
-## Documentation
-
-- https://jupytext.readthedocs.io/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

@@ -1,48 +1,28 @@
 ---
 title: "Mock AI app dependencies for deterministic local and CI tests"
+slug: "mock-ai-app-dependencies-for-deterministic-local-and-ci-tests"
 description: "Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on live providers."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/CopilotKit/aimock"
-author: "CopilotKit"
-publisher_type: "company"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality &amp; Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "CopilotKit/aimock"
   github_stars: 324
   npm_package: "@copilotkit/aimock"
   npm_weekly_downloads: 6430
 ---
-
 # Mock AI app dependencies for deterministic local and CI tests
 
 Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on live providers.
 
-## Prerequisites
-
-Node.js; a JavaScript or TypeScript test environment; local or CI access to the app under test; fixture definitions for the providers or protocols you want to mock.
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-<p>Install with <code>npm install @copilotkit/aimock</code> for library use, or run it with <code>npx aimock --config aimock.json</code> for a CLI-driven mock server. Point your app at the mock base URL, define fixtures or record-and-replay behavior for the services you need, and run your tests against those deterministic endpoints instead of live providers.</p>
-```
-
-## Documentation
-
-- https://aimock.copilotkit.dev/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

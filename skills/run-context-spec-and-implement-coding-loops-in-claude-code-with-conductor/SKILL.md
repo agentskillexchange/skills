@@ -1,43 +1,26 @@
 ---
 title: "Run context → spec → implement coding loops in Claude Code with Conductor"
+slug: "run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor"
 description: "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks."
-verification: "listed"
+verification: listed
 source: "https://github.com/wshobson/agents/tree/main/plugins/conductor"
-author: "wshobson"
-publisher_type: "individual"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Claude Code"
+category: "Templates &amp; Workflows"
+framework: "Claude Code"
+tool_ecosystem:
+  github_repo: "wshobson/agents"
+  github_stars: 34018
 ---
-
 # Run context → spec → implement coding loops in Claude Code with Conductor
 
 Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.
 
-## Prerequisites
-
-Claude Code with plugin support, access to the wshobson/agents marketplace, a Git repository to manage
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Add the marketplace with /plugin marketplace add wshobson/agents if needed, then install the plugin with /plugin install conductor@claude-code-workflows and follow the documented /conductor:setup, /conductor:new-track, and /conductor:implement workflow.
-```
-
-## Documentation
-
-- https://raw.githubusercontent.com/wshobson/agents/main/plugins/conductor/README.md
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

@@ -1,45 +1,26 @@
 ---
 title: "Firebase — Google Application Development Platform"
-description: "Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
-verification: "listed"
+slug: "firebase-google-app-development-platform"
+description: "Firebase is Google&#8217;s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
+verification: listed
 source: "https://github.com/firebase/firebase-js-sdk"
-author: "Google / Firebase"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations &amp; Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"
   github_stars: 5100
 ---
-
 # Firebase — Google Application Development Platform
 
-Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
-
-## Prerequisites
-
-Node.js 18+, npm, Firebase CLI, Google Cloud account
+Firebase is Google&#8217;s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-npm install -g firebase-tools && firebase login
-```
-
-## Documentation
-
-- https://firebase.google.com/docs
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

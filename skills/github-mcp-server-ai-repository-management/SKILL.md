@@ -1,30 +1,26 @@
 ---
 title: "GitHub MCP Server for AI-Powered Repository Management"
-description: "GitHub’s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub’s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol."
-verification: "security_reviewed"
+slug: "github-mcp-server-ai-repository-management"
+description: "GitHub&#8217;s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub&#8217;s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol."
+verification: security_reviewed
 source: "https://github.com/github/github-mcp-server"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "github/github-mcp-server"
   github_stars: 28462
 ---
-
 # GitHub MCP Server for AI-Powered Repository Management
 
-GitHub’s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub’s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol.
+GitHub&#8217;s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub&#8217;s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

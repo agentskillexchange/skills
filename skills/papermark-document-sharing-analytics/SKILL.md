@@ -1,30 +1,26 @@
 ---
 title: "Papermark Open Source Document Sharing Platform with Analytics"
+slug: "papermark-document-sharing-analytics"
 description: "Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/mfts/papermark"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations &amp; Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mfts/papermark"
   github_stars: 8152
 ---
-
 # Papermark Open Source Document Sharing Platform with Analytics
 
 Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

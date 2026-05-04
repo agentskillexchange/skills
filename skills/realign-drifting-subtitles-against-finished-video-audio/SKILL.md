@@ -1,45 +1,26 @@
 ---
 title: "Realign drifting subtitles against finished video audio"
+slug: "realign-drifting-subtitles-against-finished-video-audio"
 description: "Uses Subaligner to retime an existing subtitle file against the final audio track, then outputs a corrected subtitle asset. This is for subtitle drift, forced alignment, or batch retiming, not for full video editing or general media management."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/baxtree/subaligner"
-publisher_type: "open_source_project"
-category:
-  - "Media & Transcription"
-framework:
-  - "Multi-Framework"
+category: "Media &amp; Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "baxtree/subaligner"
   github_stars: 504
 ---
-
 # Realign drifting subtitles against finished video audio
 
 Uses Subaligner to retime an existing subtitle file against the final audio track, then outputs a corrected subtitle asset. This is for subtitle drift, forced alignment, or batch retiming, not for full video editing or general media management.
 
-## Prerequisites
-
-FFmpeg
-
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-pip install subaligner; install FFmpeg first as required by upstream docs.
-```
-
-## Documentation
-
-- https://subaligner.readthedocs.io/en/latest/
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

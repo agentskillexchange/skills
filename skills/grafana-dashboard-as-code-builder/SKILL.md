@@ -1,30 +1,26 @@
 ---
 title: "Grafana Dashboard as Code Builder"
+slug: "grafana-dashboard-as-code-builder"
 description: "Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/grafana/grafana"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Claude Code"
+category: "Monitoring &amp; Alerts"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73187
 ---
-
 # Grafana Dashboard as Code Builder
 
 Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

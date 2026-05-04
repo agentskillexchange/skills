@@ -1,27 +1,23 @@
 ---
 title: "Git Bisect Automation Agent"
+slug: "git-bisect-automation-agent"
 description: "Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://git-scm.com/docs/git-bisect"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Custom Agents"
+category: "Code Quality &amp; Review"
+framework: "Custom Agents"
 ---
-
 # Git Bisect Automation Agent
 
 Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

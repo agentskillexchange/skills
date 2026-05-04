@@ -1,30 +1,26 @@
 ---
 title: "WooCommerce Order Sync Agent"
+slug: "woocommerce-order-sync-agent"
 description: "Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles order status webhooks, inventory adjustments via wc_update_product_stock, and generates reconciliation reports."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/woocommerce/woocommerce"
-category:
-  - "WordPress & CMS"
-framework:
-  - "OpenClaw"
+category: "WordPress &amp; CMS"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10271
 ---
-
 # WooCommerce Order Sync Agent
 
 Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles order status webhooks, inventory adjustments via wc_update_product_stock, and generates reconciliation reports.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 

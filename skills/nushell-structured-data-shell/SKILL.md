@@ -1,32 +1,28 @@
 ---
 title: "Nushell Structured Data Shell"
+slug: "nushell-structured-data-shell"
 description: "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nushell/nushell"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "nushell/nushell"
   github_stars: 38872
   npm_package: "nushell"
   npm_weekly_downloads: 1013
 ---
-
 # Nushell Structured Data Shell
 
 A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing.
 
 ## Installation
 
-Choose whichever fits your setup:
-
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Clone this skill repository.
+2. Open this skill folder.
+3. Review prerequisites and setup needs.
+4. Install required dependencies.
+5. Run and test in your environment.
 
 ## Source
 
