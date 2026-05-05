@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49609
   npm_package: "cypress"
-  npm_weekly_downloads: 6921926
 ---
 # Cypress Component Testing Framework
 

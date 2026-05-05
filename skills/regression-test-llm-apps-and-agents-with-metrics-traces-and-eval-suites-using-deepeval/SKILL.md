@@ -2,7 +2,7 @@
 title: "Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval"
 slug: "regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval"
 description: "Run repeatable eval suites against prompts, RAG pipelines, and agents so regressions surface before release."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/confident-ai/deepeval"
 category: "Code Quality &amp; Review"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "confident-ai/deepeval"
   github_stars: 14815
   npm_package: "deepeval"
-  npm_weekly_downloads: 1263
 ---
 # Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval
 

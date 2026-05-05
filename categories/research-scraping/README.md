@@ -25,14 +25,14 @@ Web research, data collection, content aggregation, and information gathering.
 |---|---:|
 | [Firecrawl Web Data API for AI Agents](../../skills/firecrawl-web-data-api-for-ai-agents/) | ⬇ 166.4k/wk |
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | ⬇ 166.4k/wk |
+| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | ⬇ 256.8k/wk |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⬇ 47.9M/wk |
 | [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | ⬇ 47.9M/wk |
 | [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | ⬇ 47.9M/wk |
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | ⬇ 19.6M/wk |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⬇ 19.6M/wk |
+| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | ⬇ 96.2k/wk |
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⬇ 80.8k/wk |
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 72.5k/wk |
-| [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | ⬇ 25.9k/wk |
 
 ---
 
@@ -42,7 +42,7 @@ Web research, data collection, content aggregation, and information gathering.
 |---|---:|---:|
 | [Firecrawl Web Data API for AI Agents](../../skills/firecrawl-web-data-api-for-ai-agents/) | 108.8k | 166.4k/wk |
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | 108.8k | 166.4k/wk |
-| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | 102.6k | — |
+| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | 102.6k | 256.8k/wk |
 | [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | 94.1k | — |
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | 94.1k | — |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | 94.1k | — |
@@ -67,9 +67,9 @@ Web research, data collection, content aggregation, and information gathering.
 | [Colly Golang Web Scraper and Crawler Framework](../../skills/colly-golang-web-scraper-crawler-framework/) | 25.2k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
 | [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | 23.3k | — |
-| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | 22.9k | — |
+| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | 22.9k | 96.2k/wk |
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.8k | 80.8k/wk |
-| [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
+| [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | 96.2k/wk |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
 | [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | 22.1k | 25.9k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
@@ -108,12 +108,12 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](../../skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | 774 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](../../skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | 478 | — |
+| [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 173 | 34.1k/wk |
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | 173 | 34.1k/wk |
 | [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | 173 | 34.1k/wk |
 | [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | 173 | 34.1k/wk |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | 173 | 34.1k/wk |
-| [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | — |
 | [Research real estate properties with RAG-backed market analysis](../../skills/rag-backed-real-estate-property-research/) | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](../../skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | 165 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |

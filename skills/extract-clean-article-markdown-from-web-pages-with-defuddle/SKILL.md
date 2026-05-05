@@ -2,7 +2,7 @@
 title: "Extract clean article Markdown from web pages with Defuddle"
 slug: "extract-clean-article-markdown-from-web-pages-with-defuddle"
 description: "Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before summarizing, indexing, or archiving them."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/kepano/defuddle"
 category: "Developer Tools"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "kepano/defuddle"
   github_stars: 7176
   npm_package: "defuddle"
-  npm_weekly_downloads: 38526
 ---
 # Extract clean article Markdown from web pages with Defuddle
 

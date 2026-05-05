@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "vercel-labs/agent-browser"
   github_stars: 29072
   npm_package: "agent-browser"
-  npm_weekly_downloads: 601908
 ---
 # Vercel Agent Browser
 

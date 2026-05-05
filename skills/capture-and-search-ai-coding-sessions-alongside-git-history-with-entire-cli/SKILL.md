@@ -2,7 +2,7 @@
 title: "Capture and search AI coding sessions alongside Git history with Entire CLI"
 slug: "capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli"
 description: "Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and hand off work cleanly."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/entireio/cli"
 category: "Developer Tools"
 framework: "Multi-Framework"

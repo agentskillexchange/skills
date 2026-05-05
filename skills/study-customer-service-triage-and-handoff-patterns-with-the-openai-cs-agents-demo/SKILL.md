@@ -9,7 +9,6 @@ framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "openai/openai-cs-agents-demo"
   github_stars: 6314
-  npm_weekly_downloads: 0
 ---
 # Study customer-service triage and handoff patterns with the OpenAI CS agents demo
 

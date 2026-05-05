@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1843
   npm_package: "netlify-cli"
-  npm_weekly_downloads: 259315
 ---
 # Netlify Site Manager
 

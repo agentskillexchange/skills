@@ -8,7 +8,6 @@ category: "WordPress &amp; CMS"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21027
 ---
 # WordPress Theme.json Design Token Manager
 

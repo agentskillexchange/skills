@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "CopilotKit/aimock"
   github_stars: 324
   npm_package: "@copilotkit/aimock"
-  npm_weekly_downloads: 6430
 ---
 # Mock AI app dependencies for deterministic local and CI tests
 

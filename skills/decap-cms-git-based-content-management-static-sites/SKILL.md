@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "decaporg/decap-cms"
   github_stars: 18998
   npm_package: "decap-cms"
-  npm_weekly_downloads: 2117
 ---
 # Decap CMS Git-Based Content Management for Static Sites
 

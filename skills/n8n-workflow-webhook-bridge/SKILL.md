@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "n8n-io/n8n"
   github_stars: 182065
   npm_package: "n8n"
-  npm_weekly_downloads: 73144
 ---
 # n8n Workflow Webhook Bridge
 

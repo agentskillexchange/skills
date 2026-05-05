@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "prettier/prettier"
   github_stars: 51820
   npm_package: "prettier"
-  npm_weekly_downloads: 90506007
 ---
 # Prettier Config Conflict Resolver
 

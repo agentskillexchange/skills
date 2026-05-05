@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "stackblitz-labs/pkg.pr.new"
   github_stars: 1840
   npm_package: "pkg-pr-new"
-  npm_weekly_downloads: 387380
 ---
 # Publish installable pull-request package previews before release with pkg.pr.new
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "cloudflare/workers-sdk"
   github_stars: 3970
   npm_package: "wrangler"
-  npm_weekly_downloads: 7093968
 ---
 # Cloudflare Workers Deployer
 

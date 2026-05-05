@@ -8,7 +8,6 @@ category: "Content Writing &amp; SEO"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openclaw/skills"
-  github_stars: 4086
 ---
 # Format plain-text drafts for clean Substack paste
 

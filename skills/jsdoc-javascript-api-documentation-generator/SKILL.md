@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "jsdoc/jsdoc"
   github_stars: 15426
   npm_package: "jsdoc"
-  npm_weekly_downloads: 2663272
 ---
 # JSDoc JavaScript API Documentation Generator
 

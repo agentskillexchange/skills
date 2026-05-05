@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25042
   npm_package: "@pulumi/pulumi"
-  npm_weekly_downloads: 2073384
 ---
 # Pulumi Drift Detector &amp; Reconciler
 

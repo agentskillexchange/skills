@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "CodSpeedHQ/codspeed"
   github_stars: 143
   npm_package: "@codspeed/core"
-  npm_weekly_downloads: 234588
 ---
 # Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed
 

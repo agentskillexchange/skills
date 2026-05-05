@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "metabase/metabase"
   github_stars: 46828
   npm_package: "metabase"
-  npm_weekly_downloads: 15
 ---
 # Metabase Open Source Business Intelligence and Embedded Analytics
 

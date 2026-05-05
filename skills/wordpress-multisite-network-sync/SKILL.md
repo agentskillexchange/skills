@@ -8,7 +8,6 @@ category: "WordPress &amp; CMS"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21027
 ---
 # WordPress Multisite Network Sync
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "tinyfish-io/agentql"
   github_stars: 1312
   npm_package: "agentql"
-  npm_weekly_downloads: 878
 ---
 # AgentQL Natural Language Web Query SDK for Extraction and Automation
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
   npm_package: "payload"
-  npm_weekly_downloads: 306473
 ---
 # Payload CMS Next.js-Native Headless CMS and Application Framework
 

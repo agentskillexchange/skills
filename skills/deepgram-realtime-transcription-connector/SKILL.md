@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "deepgram/deepgram-js-sdk"
   github_stars: 260
   npm_package: "@deepgram/sdk"
-  npm_weekly_downloads: 1571012
 ---
 # Deepgram Real-Time Transcription Connector
 

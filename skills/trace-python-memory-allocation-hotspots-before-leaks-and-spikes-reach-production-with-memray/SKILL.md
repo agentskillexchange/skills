@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "bloomberg/memray"
   github_stars: 14986
   npm_package: "memray"
-  npm_weekly_downloads: 16282665
 ---
 # Trace Python memory allocation hotspots before leaks and spikes reach production with Memray
 

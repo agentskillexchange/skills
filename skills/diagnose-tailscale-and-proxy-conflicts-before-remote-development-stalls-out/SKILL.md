@@ -8,7 +8,6 @@ category: "Runbooks &amp; Diagnostics"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "daymade/claude-code-skills"
-  github_stars: 910
 ---
 # Diagnose Tailscale and proxy conflicts before remote development stalls out
 

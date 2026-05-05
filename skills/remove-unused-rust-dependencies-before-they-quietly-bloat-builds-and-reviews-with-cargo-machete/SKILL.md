@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "bnjbvr/cargo-machete"
   github_stars: 1280
   npm_package: "cargo-machete"
-  npm_weekly_downloads: 2073590
 ---
 # Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete
 

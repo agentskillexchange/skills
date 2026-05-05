@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "woltapp/blurhash"
   github_stars: 16958
   npm_package: "blurhash"
-  npm_weekly_downloads: 897963
 ---
 # BlurHash Compact Image Placeholder Encoder
 

@@ -2,7 +2,7 @@
 title: "Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest"
 slug: "parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest"
 description: "Lets an agent run Rust test suites with better scheduling, retries, failure isolation, and machine-readable output than cargo test when CI speed and stability matter."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/nextest-rs/nextest"
 category: "CI/CD Integrations"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "nextest-rs/nextest"
   github_stars: 2911
   npm_package: "cargo-nextest"
-  npm_weekly_downloads: 9775279
 ---
 # Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "pqina/filepond"
   github_stars: 16349
   npm_package: "filepond"
-  npm_weekly_downloads: 247601
 ---
 # FilePond Flexible JavaScript File Upload Library
 

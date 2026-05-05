@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "discordjs/discord.js"
   github_stars: 26668
   npm_package: "discord.js"
-  npm_weekly_downloads: 563530
 ---
 # Discord Moderation Bot with AI Classification
 

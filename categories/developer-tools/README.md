@@ -63,8 +63,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | 73.8k | — |
-| [Docker MCP Server](../../skills/docker-mcp-server/) | 71.5k | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | 71.5k | — |
+| [Docker MCP Server](../../skills/docker-mcp-server/) | 71.5k | — |
 | [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | 71.5k | — |
 | [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | 71.5k | — |
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | 71.5k | — |
@@ -134,7 +134,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 126.3M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 123.6M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -143,7 +143,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.2k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.1k | — |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.1k | 1.8M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
@@ -207,7 +207,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
-| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.9k | 21.1M/wk |
+| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.9k | 20.7M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.5k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
@@ -266,7 +266,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless](../../skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless/) | 4k | — |
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](../../skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
-| [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | — |
+| [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | 14M/wk |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | — |
@@ -303,7 +303,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 427/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 457/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
@@ -313,7 +313,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 1.8k/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 1.9k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "mcp-use/mcp-use"
   github_stars: 9861
   npm_package: "mcp-use"
-  npm_weekly_downloads: 0
 ---
 # Build and inspect MCP apps and servers with mcp-use
 

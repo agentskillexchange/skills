@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "railwayapp/cli"
   github_stars: 523
   npm_package: "@railway/cli"
-  npm_weekly_downloads: 143581
 ---
 # Railway App Deployer
 

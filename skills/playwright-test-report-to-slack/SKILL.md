@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86911
   npm_package: "playwright"
-  npm_weekly_downloads: 188960132
 ---
 # Playwright Test Report to Slack
 

@@ -179,6 +179,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
+| [Give agents governed semantic data context with Wren Engine](../../skills/give-agents-governed-semantic-data-context-with-wren-engine/) | 661 | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](../../skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | 402 | — |
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | 387 | 170.7k/wk |

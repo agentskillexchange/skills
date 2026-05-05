@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "ucsandman/DashClaw"
   github_stars: 241
   npm_package: "dashclaw"
-  npm_weekly_downloads: 1592
 ---
 # Put approval gates and audit-ready policy checks between agents and external actions with DashClaw
 

@@ -2,7 +2,7 @@
 title: "Expose Haystack pipelines as webhook endpoints with Hayhooks"
 slug: "expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks"
 description: "Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/deepset-ai/hayhooks"
 category: "Integrations &amp; Connectors"
 framework: "Multi-Framework"

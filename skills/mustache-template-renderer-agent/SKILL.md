@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "janl/mustache.js"
   github_stars: 16718
   npm_package: "mustache"
-  npm_weekly_downloads: 12663471
 ---
 # Mustache Template Renderer
 

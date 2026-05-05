@@ -200,7 +200,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 967 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 970 | — |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | 956 | — |
 | [Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar](../../skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar/) | 953 | — |
 | [Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar](../../skills/scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar/) | 953 | — |

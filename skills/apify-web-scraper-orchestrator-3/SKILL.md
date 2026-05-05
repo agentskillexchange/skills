@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173
   npm_package: "apify"
-  npm_weekly_downloads: 34097
 ---
 # Apify Web Scraper Orchestrator
 

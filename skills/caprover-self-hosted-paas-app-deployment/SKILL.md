@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "caprover/caprover"
   github_stars: 14949
   npm_package: "caprover"
-  npm_weekly_downloads: 8432
 ---
 # CapRover Self-Hosted PaaS for App Deployment and Server Management
 

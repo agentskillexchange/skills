@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617
   npm_package: "cypress"
-  npm_weekly_downloads: 7268478
 ---
 # Cypress Network Stub Generator
 

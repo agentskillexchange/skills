@@ -8,7 +8,6 @@ category: "Code Quality &amp; Review"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
 ---
 # SonarQube PR Gate
 

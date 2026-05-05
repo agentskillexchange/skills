@@ -17,7 +17,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 9 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 10 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 11 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
-| 12 | [OpenAI Image Gen](skills/openai-image-gen/) | 21.1M/wk | openai | Image & Creative Automation |
+| 12 | [OpenAI Image Gen](skills/openai-image-gen/) | 20.7M/wk | openai | Image & Creative Automation |
 | 13 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
 | 14 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 15 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
@@ -54,8 +54,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 46 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | 1.5M/wk | redoc | Library & API Reference |
 | 47 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | 1.2M/wk | sqlite-vec | Developer Tools |
 | 48 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | 1.2M/wk | konva | Image & Creative Automation |
-| 49 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
-| 50 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | 1.2M/wk | owasp | Developer Tools |
+| 49 | [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | 1.2M/wk | spectral | Code Quality & Review |
+| 50 | [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | 1.2M/wk | notion | Calendar, Email & Productivity |
 
 ---
 

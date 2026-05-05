@@ -2,7 +2,7 @@
 title: "Route risky coding-agent work through human approval checkpoints with HumanLayer"
 slug: "route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer"
 description: "Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval checkpoints."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/humanlayer/humanlayer"
 category: "Security &amp; Verification"
 framework: "Multi-Framework"

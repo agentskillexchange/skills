@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "agent-sh/agnix"
   github_stars: 179
   npm_package: "agnix"
-  npm_weekly_downloads: 6006
 ---
 # Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix
 

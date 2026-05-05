@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30266
   npm_package: "cheerio"
-  npm_weekly_downloads: 19621708
 ---
 # Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows
 

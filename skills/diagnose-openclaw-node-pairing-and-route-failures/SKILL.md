@@ -8,7 +8,6 @@ category: "Runbooks &amp; Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openclaw/openclaw"
-  github_stars: 356821
 ---
 # Diagnose OpenClaw node pairing and route failures
 

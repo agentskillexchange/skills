@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3084
   npm_package: "@stoplight/spectral-cli"
-  npm_weekly_downloads: 1165411
 ---
 # OpenAPI Spec Validator
 

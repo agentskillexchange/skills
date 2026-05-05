@@ -8,7 +8,6 @@ category: "Runbooks &amp; Diagnostics"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
-  github_stars: 69
 ---
 # PagerDuty On-Call Escalation Checker
 

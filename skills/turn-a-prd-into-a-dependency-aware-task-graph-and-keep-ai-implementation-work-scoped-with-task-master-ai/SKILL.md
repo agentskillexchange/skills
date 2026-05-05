@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "eyaltoledano/claude-task-master"
   github_stars: 26557
   npm_package: "task-master-ai"
-  npm_weekly_downloads: 113563
 ---
 # Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI
 

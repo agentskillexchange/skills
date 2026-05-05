@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "nocodb/nocodb"
   github_stars: 62560
   npm_package: "nocodb"
-  npm_weekly_downloads: 682
 ---
 # NocoDB Self-Hosted No-Code Database Platform with REST API
 

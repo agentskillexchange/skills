@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "supercorp-ai/supergateway"
   github_stars: 2538
   npm_package: "supergateway"
-  npm_weekly_downloads: 88592
 ---
 # Supergateway MCP Transport Bridge
 

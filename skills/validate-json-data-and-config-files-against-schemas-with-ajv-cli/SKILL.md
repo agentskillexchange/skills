@@ -2,7 +2,7 @@
 title: "Validate JSON data and config files against schemas with ajv-cli"
 slug: "validate-json-data-and-config-files-against-schemas-with-ajv-cli"
 description: "Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/ajv-validator/ajv-cli"
 category: "Library &amp; API Reference"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "ajv-validator/ajv-cli"
   github_stars: 308
   npm_package: "ajv-cli"
-  npm_weekly_downloads: 335297
 ---
 # Validate JSON data and config files against schemas with ajv-cli
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "workos/authkit-nextjs"
   github_stars: 146
   npm_package: "@workos-inc/authkit-nextjs"
-  npm_weekly_downloads: 227207
 ---
 # WorkOS AuthKit Next.js Authentication Toolkit
 

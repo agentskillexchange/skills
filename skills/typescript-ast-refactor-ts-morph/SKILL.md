@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "dsherret/ts-morph"
   github_stars: 6021
   npm_package: "ts-morph"
-  npm_weekly_downloads: 15198934
 ---
 # TypeScript AST Refactor
 

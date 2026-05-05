@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "publint/publint"
   github_stars: 1252
   npm_package: "publint"
-  npm_weekly_downloads: 587973
 ---
 # publint Package Export Validation Skill for npm Release Checks
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "mem0ai/mem0"
   github_stars: 53457
   npm_package: "mem0ai"
-  npm_weekly_downloads: 2535676
 ---
 # Store selective long-term agent memories with Mem0 instead of replaying whole chats
 

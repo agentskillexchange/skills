@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "asamassekou10/ship-safe"
   github_stars: 521
   npm_package: "ship-safe"
-  npm_weekly_downloads: 2762
 ---
 # Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe
 

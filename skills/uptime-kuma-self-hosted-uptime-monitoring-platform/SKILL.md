@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "louislam/uptime-kuma"
   github_stars: 85143
   npm_package: "uptime-kuma"
-  npm_weekly_downloads: 97
 ---
 # Uptime Kuma Self-Hosted Uptime Monitoring Platform
 

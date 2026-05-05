@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115
   npm_package: "puppeteer"
-  npm_weekly_downloads: 36435448
 ---
 # Puppeteer Stealth Scraper
 

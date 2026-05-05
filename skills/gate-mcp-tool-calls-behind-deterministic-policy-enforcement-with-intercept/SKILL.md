@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "PolicyLayer/Intercept"
   github_stars: 29
   npm_package: "@policylayer/intercept"
-  npm_weekly_downloads: 336
 ---
 # Gate MCP tool calls behind deterministic policy enforcement with Intercept
 

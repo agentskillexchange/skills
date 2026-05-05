@@ -2,7 +2,7 @@
 title: "Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit"
 slug: "verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit"
 description: "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/microsoft/agent-governance-toolkit"
 category: "Security &amp; Verification"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "microsoft/agent-governance-toolkit"
   github_stars: 1056
   npm_package: "agent-governance-toolkit"
-  npm_weekly_downloads: 20863
 ---
 # Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit
 

@@ -9,7 +9,6 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "docker/mcp-gateway"
   github_stars: 1374
-  npm_weekly_downloads: 0
 ---
 # Run approved MCP servers through Docker MCP Gateway
 

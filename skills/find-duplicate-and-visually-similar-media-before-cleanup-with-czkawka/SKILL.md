@@ -2,7 +2,7 @@
 title: "Find duplicate and visually similar media before cleanup with Czkawka"
 slug: "find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka"
 description: "Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/qarmin/czkawka"
 category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"

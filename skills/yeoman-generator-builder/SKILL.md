@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "yeoman/generator"
   github_stars: 1262
   npm_package: "yeoman-generator"
-  npm_weekly_downloads: 5021257
 ---
 # Yeoman Generator Builder
 

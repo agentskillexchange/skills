@@ -8,7 +8,6 @@ category: "Code Quality &amp; Review"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
-  github_stars: 10433
 ---
 # SonarQube Quality Gate Checker
 

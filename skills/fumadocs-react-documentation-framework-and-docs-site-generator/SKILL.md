@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "fuma-nama/fumadocs"
   github_stars: 11519
   npm_package: "fumadocs"
-  npm_weekly_downloads: 435
 ---
 # Fumadocs React Documentation Framework and Docs Site Generator
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "plopjs/plop"
   github_stars: 7636
   npm_package: "plop"
-  npm_weekly_downloads: 1512031
 ---
 # Plop.js Code Generator Orchestrator
 

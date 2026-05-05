@@ -9,7 +9,6 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "j178/prek"
   github_stars: 7483
-  npm_weekly_downloads: 0
 ---
 # Run fast multi-language Git hook quality checks with prek
 

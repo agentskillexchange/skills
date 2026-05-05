@@ -18,7 +18,7 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 | [Fumadocs React Documentation Framework and Docs Site Generator](../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | WordPress & CMS | 11.5k | 435/wk |
 | [Vale Prose Linter for Technical Documentation](../skills/vale-prose-linter-technical-docs/) | Code Quality & Review | 5.3k | — |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | Developer Tools | 5.7k | 1.1M/wk |
-| [Spectral OpenAPI and AsyncAPI Linter](../skills/spectral-openapi-asyncapi-linter/) | Code Quality & Review | 3.1k | — |
+| [Spectral OpenAPI and AsyncAPI Linter](../skills/spectral-openapi-asyncapi-linter/) | Code Quality & Review | 3.1k | 1.2M/wk |
 
 ## Backup Picks
 

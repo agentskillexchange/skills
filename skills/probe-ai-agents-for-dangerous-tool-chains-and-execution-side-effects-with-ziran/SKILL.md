@@ -2,7 +2,7 @@
 title: "Probe AI agents for dangerous tool chains and execution side effects with ZIRAN"
 slug: "probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran"
 description: "Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust exploits before deployment."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/taoq-ai/ziran"
 category: "Security &amp; Verification"
 framework: "Multi-Framework"

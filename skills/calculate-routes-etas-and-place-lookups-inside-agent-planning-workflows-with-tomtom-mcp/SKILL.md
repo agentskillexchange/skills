@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "tomtom-international/tomtom-mcp"
   github_stars: 45
   npm_package: "@tomtom-org/tomtom-mcp"
-  npm_weekly_downloads: 356
 ---
 # Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP
 

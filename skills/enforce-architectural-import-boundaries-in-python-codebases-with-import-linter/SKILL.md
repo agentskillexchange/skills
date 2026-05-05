@@ -2,7 +2,7 @@
 title: "Enforce architectural import boundaries in Python codebases with Import Linter"
 slug: "enforce-architectural-import-boundaries-in-python-codebases-with-import-linter"
 description: "Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/seddonym/import-linter"
 category: "Code Quality &amp; Review"
 framework: "Multi-Framework"

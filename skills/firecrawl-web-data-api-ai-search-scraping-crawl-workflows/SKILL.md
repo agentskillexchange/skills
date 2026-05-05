@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 108813
   npm_package: "firecrawl"
-  npm_weekly_downloads: 166382
 ---
 # Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "postmanlabs/postman-collection"
   github_stars: 493
   npm_package: "postman-collection"
-  npm_weekly_downloads: 1520271
 ---
 # REST API Test Suite Generator
 

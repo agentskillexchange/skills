@@ -12,7 +12,6 @@ category: "WordPress &amp; CMS"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21083
 ---
 # WordPress Router
 

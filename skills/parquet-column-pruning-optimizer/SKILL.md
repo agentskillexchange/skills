@@ -8,9 +8,7 @@ category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "ironsource/parquetjs"
-  github_stars: 387
   npm_package: "parquetjs"
-  npm_weekly_downloads: 170660
 ---
 # Parquet Column Pruning Optimizer
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "YS-L/csvlens"
   github_stars: 3715
   npm_package: "csvlens"
-  npm_weekly_downloads: 56891
 ---
 # Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens
 

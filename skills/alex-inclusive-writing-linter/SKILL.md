@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096
   npm_package: "alex"
-  npm_weekly_downloads: 30585
 ---
 # alex Inclusive Writing Linter
 

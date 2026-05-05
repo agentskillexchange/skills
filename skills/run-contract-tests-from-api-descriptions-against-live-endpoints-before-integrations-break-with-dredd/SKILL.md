@@ -2,7 +2,7 @@
 title: "Run contract tests from API descriptions against live endpoints before integrations break with Dredd"
 slug: "run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd"
 description: "Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/apiaryio/dredd"
 category: "Library &amp; API Reference"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "apiaryio/dredd"
   github_stars: 4227
   npm_package: "dredd"
-  npm_weekly_downloads: 53933
 ---
 # Run contract tests from API descriptions against live endpoints before integrations break with Dredd
 

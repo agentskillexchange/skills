@@ -9,7 +9,6 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "tadata-org/fastapi_mcp"
   github_stars: 11836
-  npm_weekly_downloads: 0
 ---
 # Expose FastAPI routes as MCP tools with FastAPI-MCP
 

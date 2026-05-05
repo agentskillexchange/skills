@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "nocobase/nocobase"
   github_stars: 22114
   npm_package: "nocobase"
-  npm_weekly_downloads: 746
 ---
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform
 

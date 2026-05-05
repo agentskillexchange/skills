@@ -2,7 +2,7 @@
 title: "Audit AWS IAM policies for risky permissions with Cloudsplaining"
 slug: "audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining"
 description: "Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an AWS policy change reaches production."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/salesforce/cloudsplaining"
 category: "Security &amp; Verification"
 framework: "Multi-Framework"

@@ -23,6 +23,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Downloads |
 |---|---:|
+| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | ⬇ 746.1k/wk |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | ⬇ 52.5M/wk |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⬇ 52.5M/wk |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | ⬇ 52.5M/wk |
@@ -30,9 +31,8 @@ Image generation, asset processing, design automation, and creative tooling.
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.7M/wk |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 898k/wk |
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | ⬇ 1.2M/wk |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⬇ 21.1M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⬇ 20.7M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | ⬇ 18.1M/wk |
-| [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | ⬇ 18.1M/wk |
 
 ---
 
@@ -53,7 +53,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | 45.3k | — |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | 45.2k | — |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | — |
-| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | 42.8k | — |
+| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | 42.8k | 746.1k/wk |
 | [PhotoPrism Self-Hosted Photo Library Automation](../../skills/photoprism-self-hosted-photo-library-automation/) | 39.5k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | 33.8k | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | 32.1k | 52.5M/wk |
@@ -72,7 +72,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 21.1M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 20.7M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |

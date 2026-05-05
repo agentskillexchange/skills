@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "DAWNCR0W/affine-mcp-server"
   github_stars: 142
   npm_package: "affine-mcp-server"
-  npm_weekly_downloads: 2148
 ---
 # Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents
 

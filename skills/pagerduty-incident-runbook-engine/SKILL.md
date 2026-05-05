@@ -8,7 +8,6 @@ category: "Runbooks &amp; Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
-  github_stars: 69
 ---
 # PagerDuty Incident Runbook Engine
 

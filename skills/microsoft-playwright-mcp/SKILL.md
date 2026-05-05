@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30794
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 2762324
 ---
 # Microsoft Playwright MCP
 

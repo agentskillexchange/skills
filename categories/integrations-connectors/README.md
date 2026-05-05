@@ -28,11 +28,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | ⬇ 485k/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | ⬇ 10.6k/wk |
+| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 15.6k/wk |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | ⬇ 1.2M/wk |
 | [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 10.3M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | ⬇ 9.3M/wk |
-| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | ⬇ 9.3M/wk |
 
 ---
 
@@ -75,7 +75,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | 8.1k | — |
-| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | 7.1k | — |
+| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | 7.1k | 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 15.6k/wk |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | 5.6k | 1.2M/wk |
@@ -100,7 +100,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3k | 57.4k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3k | 54.9k/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | — |
 | [Slack Channel Summarizer &amp; Triage Bot](../../skills/slack-channel-summarizer-triage/) | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2.5M/wk |
@@ -113,7 +113,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 918.3k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 888.2k/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |

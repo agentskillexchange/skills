@@ -8,7 +8,6 @@ category: "Image &amp; Creative Automation"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "anthropics/skills"
-  github_stars: 116154
 ---
 # Generate Slack-ready animated GIFs from custom frame sequences
 

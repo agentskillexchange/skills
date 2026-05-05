@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12737
   npm_package: "aws-cdk"
-  npm_weekly_downloads: 3290338
 ---
 # AWS CDK Scaffolder
 

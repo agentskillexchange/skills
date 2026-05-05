@@ -2,7 +2,7 @@
 title: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize"
 slug: "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize"
 description: "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/steipete/summarize"
 category: "Media &amp; Transcription"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "steipete/summarize"
   github_stars: 5642
   npm_package: "@steipete/summarize"
-  npm_weekly_downloads: 42829
 ---
 # Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize
 

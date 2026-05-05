@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C420-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C424-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C079-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C421-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,420 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,424 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/)
+### [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/)
 
-Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON, screenshots, and crawl results&hellip;
+Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions.
 
-- Tool: `firecrawl`
-- Category: Research &amp; Scraping
+- Tool: `extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors`
+- Category: Data Extraction &amp; Transformation
 - Frameworks: Multi-Framework
-- GitHub stars: 108,813
-- Listing: https://agentskillexchange.com/skills/firecrawl-web-data-api-for-ai-agents/
+- GitHub stars: 835
+- Listing: https://agentskillexchange.com/skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/
 
 ---
 
@@ -66,18 +66,18 @@ A strong cross-section of high-signal skills across the catalog.
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
+| [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring &amp; Alerts |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode | 10k | Developer Tools |
+| [Extract clean article Markdown from web pages with Defuddle](skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | extract-clean-article-markdown-from-web-pages-with-defuddle | 7.2k | Developer Tools |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Templates &amp; Workflows |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Templates &amp; Workflows |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Code Quality &amp; Review |
-| [Search large codebases semantically from MCP-compatible coding agents with Claude Context](skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context | 9.2k | Developer Tools |
-| [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring &amp; Alerts |
-| [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring &amp; Alerts |
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats | 53.5k | Library &amp; API Reference |
-| [Search local notes, docs, and meeting transcripts for agent context with QMD](skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd | 22.1k | Research &amp; Scraping |
+| [Run browser and API automation through the Playwright MCP server](skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | run-browser-and-api-automation-through-the-playwright-mcp-server | 5.5k | Browser Automation |
 
 ---
 
@@ -90,14 +90,14 @@ A strong cross-section of high-signal skills across the catalog.
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 181 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 169 | Incident response, troubleshooting, system diagnostics |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 165 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 141 | Scaffolders, boilerplate generators, workflow templates |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 166 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 143 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 128 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 119 | SDK docs, API parsers, symbol resolvers |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 110 | Third-party API bridges, webhooks, service connectors |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 104 | Web research, content discovery, data collection |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 102 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 103 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 98 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,420 | In the catalog, every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,079 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,424 | In the catalog, every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,421 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

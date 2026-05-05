@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "mswjs/msw"
   github_stars: 17816
   npm_package: "msw"
-  npm_weekly_downloads: 14205156
 ---
 # MSW API Mocking Skill for Frontend and Integration Tests
 

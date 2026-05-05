@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "btford/write-good"
   github_stars: 5065
   npm_package: "write-good"
-  npm_weekly_downloads: 49520
 ---
 # write-good English Prose Linting for Technical Content
 

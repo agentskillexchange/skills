@@ -2,7 +2,7 @@
 title: "Turn a codebase into an interactive onboarding course with Codebase to Course"
 slug: "turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course"
 description: "Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/zarazhangrui/codebase-to-course"
 category: "Templates &amp; Workflows"
 framework: "Claude Code"

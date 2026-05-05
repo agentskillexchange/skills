@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "GoPlusSecurity/agentguard"
   github_stars: 390
   npm_package: "@goplus/agentguard"
-  npm_weekly_downloads: 2947
 ---
 # Block unsafe agent actions and scan newly added skills with AgentGuard
 

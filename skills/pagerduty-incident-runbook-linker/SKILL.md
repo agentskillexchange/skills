@@ -8,7 +8,6 @@ category: "Monitoring &amp; Alerts"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
-  github_stars: 69
 ---
 # PagerDuty Incident Runbook Linker
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "octokit/plugin-paginate-rest.js"
   github_stars: 58
   npm_package: "@octokit/plugin-paginate-rest"
-  npm_weekly_downloads: 26656585
 ---
 # GitHub REST API Paginator Library
 

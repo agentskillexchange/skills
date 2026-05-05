@@ -2,7 +2,7 @@
 title: "Scan C and C++ code with Flawfinder for risky function patterns before review"
 slug: "scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review"
 description: "Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/david-a-wheeler/flawfinder"
 category: "Security &amp; Verification"
 framework: "Multi-Framework"

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "neondatabase/add-mcp"
   github_stars: 151
   npm_package: "add-mcp"
-  npm_weekly_downloads: 307229
 ---
 # Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits
 

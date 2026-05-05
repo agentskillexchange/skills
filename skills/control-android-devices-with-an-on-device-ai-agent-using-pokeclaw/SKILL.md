@@ -9,7 +9,6 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "agents-io/PokeClaw"
   github_stars: 760
-  npm_weekly_downloads: 0
 ---
 # Control Android devices with an on-device AI agent using PokeClaw
 

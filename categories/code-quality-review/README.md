@@ -24,6 +24,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | Skill | Downloads |
 |---|---:|
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⬇ 46.8M/wk |
+| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | ⬇ 91.2M/wk |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⬇ 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⬇ 90.5M/wk |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | ⬇ 138.2k/wk |
@@ -32,7 +33,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | ⬇ 120.2M/wk |
 | [ESLint Config Enforcer](../../skills/eslint-config-enforcer/) | ⬇ 120.2M/wk |
-| [ESLint Custom Rule Builder](../../skills/eslint-custom-rule-builder/) | ⬇ 120.2M/wk |
 
 ---
 
@@ -43,7 +43,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
-| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | 51.8k | — |
+| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | 51.8k | 91.2M/wk |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | 51.8k | 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | 51.8k | 90.5M/wk |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | 47.2k | — |
@@ -71,7 +71,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Enforcer](../../skills/eslint-rule-enforcer/) | 27.2k | 120.2M/wk |
 | [ESLint Rule Enforcer Agent](../../skills/eslint-rule-enforcer-agent/) | 27.2k | 120.2M/wk |
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | 27.2k | 120.2M/wk |
-| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | — |
+| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | 123.6M/wk |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | 25.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
 | [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | — |
@@ -145,7 +145,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy](../../skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy/) | 3.4k | — |
 | [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
 | [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
-| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
+| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | 1.2M/wk |
 | [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](../../skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | 2.8k | 1.5M/wk |
 | [Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus](../../skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus/) | 2.8k | — |
 | [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | — |

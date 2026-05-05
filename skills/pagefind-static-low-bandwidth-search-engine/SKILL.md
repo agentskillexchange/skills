@@ -8,9 +8,7 @@ category: "Research &amp; Scraping"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pagefind/pagefind"
-  github_stars: 5094
   npm_package: "pagefind"
-  npm_weekly_downloads: 527840
 ---
 # Pagefind Static Low-Bandwidth Search Engine
 

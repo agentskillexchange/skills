@@ -8,9 +8,7 @@ category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "posthog/posthog-js"
-  github_stars: 531
   npm_package: "posthog-js"
-  npm_weekly_downloads: 4813153
 ---
 # PostHog Product Analytics and Feature Flags SDK
 

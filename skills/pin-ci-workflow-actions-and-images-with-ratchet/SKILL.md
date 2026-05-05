@@ -9,7 +9,6 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sethvargo/ratchet"
   github_stars: 928
-  npm_weekly_downloads: 0
 ---
 # Pin CI workflow actions and images with Ratchet
 

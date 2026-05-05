@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "vitejs/vite"
   github_stars: 79927
   npm_package: "vite"
-  npm_weekly_downloads: 96756115
 ---
 # Vite Plugin Hot Module Analyzer
 

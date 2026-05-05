@@ -2,7 +2,7 @@
 title: "Decompile Android APKs into readable source with jadx for review and analysis"
 slug: "decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis"
 description: "Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/skylot/jadx"
 category: "Security &amp; Verification"
 framework: "Multi-Framework"

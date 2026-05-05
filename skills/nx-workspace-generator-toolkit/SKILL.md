@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "nrwl/nx"
   github_stars: 28566
   npm_package: "@nx/devkit"
-  npm_weekly_downloads: 29518517
 ---
 # Nx Workspace Generator Toolkit
 

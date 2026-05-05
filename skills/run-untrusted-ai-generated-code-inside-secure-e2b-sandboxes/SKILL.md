@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "e2b-dev/E2B"
   github_stars: 12016
   npm_package: "e2b-code-interpreter"
-  npm_weekly_downloads: 0
 ---
 # Run untrusted AI-generated code inside secure E2B sandboxes
 

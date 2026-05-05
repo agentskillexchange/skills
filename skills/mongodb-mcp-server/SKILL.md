@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "mongodb/node-mongodb-native"
   github_stars: 10181
   npm_package: "mongodb"
-  npm_weekly_downloads: 11189306
 ---
 # MongoDB MCP Server
 

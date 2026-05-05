@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "mksglu/context-mode"
   github_stars: 9956
   npm_package: "context-mode"
-  npm_weekly_downloads: 5456
 ---
 # Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "TypeStrong/typedoc"
   github_stars: 8391
   npm_package: "typedoc"
-  npm_weekly_downloads: 4062205
 ---
 # TypeDoc Symbol Resolver
 

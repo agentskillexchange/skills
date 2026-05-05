@@ -108,6 +108,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | 11.6k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
+| [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |
@@ -115,6 +116,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
+| [Turn goals into traced multi-agent task DAGs with open-multi-agent](../../skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | 6k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](../../skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | 4.3k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |

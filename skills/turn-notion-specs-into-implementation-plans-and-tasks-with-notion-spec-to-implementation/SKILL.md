@@ -2,13 +2,12 @@
 title: "Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation"
 slug: "turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation"
 description: "Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation"
 category: "Templates &amp; Workflows"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "openai/skills"
-  github_stars: 17293
 ---
 # Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation
 

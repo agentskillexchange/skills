@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "WordPress/gutenberg"
   github_stars: 11624
   npm_package: "@wordpress/create-block"
-  npm_weekly_downloads: 20291
 ---
 # Gutenberg Custom Block Builder
 

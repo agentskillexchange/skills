@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138
   npm_package: "sharp"
-  npm_weekly_downloads: 52472150
 ---
 # Sharp Image Pipeline Skill
 

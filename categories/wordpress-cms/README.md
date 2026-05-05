@@ -30,9 +30,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | ⬇ 23.3k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⬇ 20.1k/wk |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⬇ 2.1k/wk |
+| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | ⬇ 2.1k/wk |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 74.9k/wk |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | ⬇ 20.3k/wk |
-| [Fumadocs React Documentation Framework and Docs Site Generator](../../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | ⬇ 435/wk |
 
 ---
 
@@ -60,7 +60,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | 21k | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | 20.3k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 2.1k/wk |
-| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | — |
+| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | 2.1k/wk |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 74.9k/wk |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | 11.6k | 20.3k/wk |

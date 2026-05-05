@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "anthropics/anthropic-sdk-typescript"
   github_stars: 1883
   npm_package: "@anthropic-ai/sdk"
-  npm_weekly_downloads: 14518427
 ---
 # Anthropic SDK Token Usage Logger
 

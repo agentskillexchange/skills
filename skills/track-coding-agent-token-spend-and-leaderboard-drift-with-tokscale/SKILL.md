@@ -2,7 +2,7 @@
 title: "Track coding-agent token spend and leaderboard drift across local session logs with Tokscale"
 slug: "track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale"
 description: "Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/junhoyeo/tokscale"
 category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "junhoyeo/tokscale"
   github_stars: 2032
   npm_package: "tokscale"
-  npm_weekly_downloads: 64618
 ---
 # Track coding-agent token spend and leaderboard drift across local session logs with Tokscale
 

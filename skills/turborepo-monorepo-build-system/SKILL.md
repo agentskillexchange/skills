@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "vercel/turborepo"
   github_stars: 30114
   npm_package: "turbo"
-  npm_weekly_downloads: 12928111
 ---
 # Turborepo Monorepo Build System
 

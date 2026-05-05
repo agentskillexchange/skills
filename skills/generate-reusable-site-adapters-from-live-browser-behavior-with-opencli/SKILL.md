@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "jackwener/OpenCLI"
   github_stars: 16273
   npm_package: "@jackwener/opencli"
-  npm_weekly_downloads: 10606
 ---
 # Generate reusable site adapters from live browser behavior with OpenCLI
 

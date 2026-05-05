@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "evanw/esbuild"
   github_stars: 39815
   npm_package: "esbuild"
-  npm_weekly_downloads: 164021497
 ---
 # esbuild Ultra-Fast JavaScript Bundler
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "directus/directus"
   github_stars: 34784
   npm_package: "directus"
-  npm_weekly_downloads: 23291
 ---
 # Directus SQL-Native Headless CMS and Internal App Platform
 

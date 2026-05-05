@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "sidorares/node-mysql2"
   github_stars: 4355
   npm_package: "mysql2"
-  npm_weekly_downloads: 8891567
 ---
 # MySQL Query Agent
 

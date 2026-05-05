@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71874
   npm_package: "@strapi/strapi"
-  npm_weekly_downloads: 161182
 ---
 # Strapi Open Source Headless CMS for Custom Content APIs
 

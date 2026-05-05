@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "konvajs/konva"
   github_stars: 14323
   npm_package: "konva"
-  npm_weekly_downloads: 1210760
 ---
 # Konva.js HTML5 Canvas Interactive Graphics Framework
 

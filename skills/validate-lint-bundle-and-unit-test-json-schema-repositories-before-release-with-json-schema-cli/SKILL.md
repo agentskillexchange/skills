@@ -2,7 +2,7 @@
 title: "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI"
 slug: "validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli"
 description: "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/sourcemeta/jsonschema"
 category: "CI/CD Integrations"
 framework: "Multi-Framework"
@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "sourcemeta/jsonschema"
   github_stars: 270
   npm_package: "@sourcemeta/jsonschema"
-  npm_weekly_downloads: 27164
 ---
 # Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "getzep/graphiti"
   github_stars: 24898
   npm_package: "graphiti-core"
-  npm_weekly_downloads: 529336
 ---
 # Build temporal context graphs for agent memory from evolving facts with Graphiti
 

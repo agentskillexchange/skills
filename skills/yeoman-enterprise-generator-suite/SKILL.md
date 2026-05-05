@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3956
   npm_package: "yo"
-  npm_weekly_downloads: 428357
 ---
 # Yeoman Enterprise Generator Suite
 

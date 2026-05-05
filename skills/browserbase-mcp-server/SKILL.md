@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3255
   npm_package: "@browserbasehq/mcp"
-  npm_weekly_downloads: 907
 ---
 # Browserbase MCP Server
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "ashbrener/openclaw-workspace-sync"
   github_stars: 8
   npm_package: "openclaw-workspace-sync"
-  npm_weekly_downloads: 295
 ---
 # Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync
 

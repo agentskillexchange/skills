@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "spencermarx/open-code-review"
   github_stars: 131
   npm_package: "@open-code-review/cli"
-  npm_weekly_downloads: 1089
 ---
 # Run multi-agent code review rounds with structured reviewer discourse before human approval
 

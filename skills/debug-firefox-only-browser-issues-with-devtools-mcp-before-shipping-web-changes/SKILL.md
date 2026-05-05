@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "mozilla/firefox-devtools-mcp"
   github_stars: 107
   npm_package: "firefox-devtools-mcp"
-  npm_weekly_downloads: 2962
 ---
 # Debug Firefox-only browser issues with DevTools MCP before shipping web changes
 

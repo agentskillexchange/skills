@@ -2,13 +2,12 @@
 title: "Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci"
 slug: "inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci"
 description: "Inspect failing GitHub Actions checks on the current PR, pull the actionable log snippet, and stop at an approval gate before implementing a fix."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci"
 category: "CI/CD Integrations"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "openai/skills"
-  github_stars: 17293
 ---
 # Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci
 

@@ -8,7 +8,6 @@ category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "vikparuchuri/surya"
-  github_stars: 19530
 ---
 # Surya Document OCR with Layout Analysis and Table Recognition
 

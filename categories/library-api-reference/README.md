@@ -71,7 +71,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 34.7M/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
-| [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | 15.4k | — |
+| [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | 15.4k | 2.5M/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | 291.1M/wk |
@@ -95,9 +95,9 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
-| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 3.1k | — |
-| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 3.1k | — |
-| [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | 3.1k | — |
+| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 3.1k | 1.2M/wk |
+| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 3.1k | 1.2M/wk |
+| [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | 3.1k | 1.2M/wk |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | 3k | — |
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | 3k | — |
 | [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | 2.7k | — |

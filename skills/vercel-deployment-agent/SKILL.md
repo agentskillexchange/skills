@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "vercel/vercel"
   github_stars: 15296
   npm_package: "vercel"
-  npm_weekly_downloads: 2351487
 ---
 # Vercel Deployment Agent
 

@@ -10,7 +10,6 @@ tool_ecosystem:
   github_repo: "prisma/prisma"
   github_stars: 45760
   npm_package: "prisma"
-  npm_weekly_downloads: 9910505
 ---
 # Prisma Schema Migrator
 

@@ -2,7 +2,7 @@
 title: "Turn messy document collections into structured rows with DocETL"
 slug: "turn-messy-document-collections-into-structured-rows-with-docetl"
 description: "Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/ucbepic/docetl"
 category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"

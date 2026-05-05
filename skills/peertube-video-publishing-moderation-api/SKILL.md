@@ -8,7 +8,6 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "chocobozzz/peertube"
-  github_stars: 14638
 ---
 # PeerTube Video Publishing and Moderation API
 

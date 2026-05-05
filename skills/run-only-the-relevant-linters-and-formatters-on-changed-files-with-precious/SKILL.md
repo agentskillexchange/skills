@@ -2,7 +2,7 @@
 title: "Run only the relevant linters and formatters on changed files with Precious"
 slug: "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious"
 description: "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/houseabsolute/precious"
 category: "CI/CD Integrations"
 framework: "Multi-Framework"
