@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/)
+### [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/)
 
-Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency issues.
+Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON, screenshots, and crawl results&hellip;
 
-- Tool: `catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe`
-- Category: CI/CD Integrations
+- Tool: `firecrawl`
+- Category: Research &amp; Scraping
 - Frameworks: Multi-Framework
-- GitHub stars: 521
-- Listing: https://agentskillexchange.com/skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/
+- GitHub stars: 108,813
+- Listing: https://agentskillexchange.com/skills/firecrawl-web-data-api-for-ai-agents/
 
 ---
 
@@ -74,9 +74,9 @@ A strong cross-section of high-signal skills across the catalog.
 | [Search large codebases semantically from MCP-compatible coding agents with Claude Context](skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context | 9.2k | Developer Tools |
 | [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring &amp; Alerts |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring &amp; Alerts |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats | 53.5k | Library &amp; API Reference |
-| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring &amp; Alerts |
 | [Search local notes, docs, and meeting transcripts for agent context with QMD](skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd | 22.1k | Research &amp; Scraping |
 
 ---
