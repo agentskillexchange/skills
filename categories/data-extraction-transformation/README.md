@@ -8,14 +8,14 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 85k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 85k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 85.1k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 85.1k |
+| [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | ⭐ 79.8k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | ⭐ 73.6k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
-| [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | ⭐ 71.2k |
 
 ---
 
@@ -42,8 +42,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 85k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85.1k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 85.1k | — |
+| [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 73.6k | — |

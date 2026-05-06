@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C425-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C427-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C421-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C422-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,425 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,427 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/)
+### [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/)
 
-Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
+Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions.
 
-- Tool: `present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm`
-- Category: Media &amp; Transcription
+- Tool: `extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors`
+- Category: Data Extraction &amp; Transformation
 - Frameworks: Multi-Framework
-- GitHub stars: 8,246
-- Listing: https://agentskillexchange.com/skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/
+- GitHub stars: 835
+- Listing: https://agentskillexchange.com/skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/
 
 ---
 
@@ -73,9 +73,9 @@ A strong cross-section of high-signal skills across the catalog.
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Templates &amp; Workflows |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Code Quality &amp; Review |
-| [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
-| [Run browser and API automation through the Playwright MCP server](skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | run-browser-and-api-automation-through-the-playwright-mcp-server | 5.5k | Browser Automation |
+| [Drive token-efficient browser testing from coding agents with Playwright CLI](skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli | 10k | Browser Automation |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring &amp; Alerts |
+| [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats | 53.5k | Library &amp; API Reference |
 
@@ -90,8 +90,8 @@ A strong cross-section of high-signal skills across the catalog.
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 181 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 169 | Incident response, troubleshooting, system diagnostics |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 166 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 143 | Scaffolders, boilerplate generators, workflow templates |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 167 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 144 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 128 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 119 | SDK docs, API parsers, symbol resolvers |
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,425 | In the catalog, every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,421 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,427 | In the catalog, every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,422 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

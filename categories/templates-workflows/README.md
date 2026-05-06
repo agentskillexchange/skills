@@ -94,6 +94,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](../../skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | 17.3k | — |
+| [Run scheduled autonomous agent Hands with OpenFang](../../skills/run-scheduled-autonomous-agent-hands-with-openfang/) | 17.2k | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | 16.7k | 12.7M/wk |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | 16.6k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
@@ -163,7 +164,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](../../skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | 744 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 587 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 588 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |

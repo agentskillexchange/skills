@@ -86,7 +86,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
-| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 49.1k | — |
+| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 49.2k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.3k | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | 48.1k | — |
@@ -143,7 +143,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.2k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.1k | 1.8M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 1.8M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
@@ -313,7 +313,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 1.9k/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 395 | 1.9k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |
