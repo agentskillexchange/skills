@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Provision secure disposable development sandboxes for AI-generated code with Daytona](skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/)
+### [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/)
 
-Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely.
+Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
 
-- Tool: `provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona`
-- Category: Security &amp; Verification
+- Tool: `present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm`
+- Category: Media &amp; Transcription
 - Frameworks: Multi-Framework
-- GitHub stars: 72,383
-- Listing: https://agentskillexchange.com/skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/
+- GitHub stars: 8,246
+- Listing: https://agentskillexchange.com/skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/
 
 ---
 
@@ -74,10 +74,10 @@ A strong cross-section of high-signal skills across the catalog.
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Code Quality &amp; Review |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon | 39.8k | Security &amp; Verification |
+| [Run browser and API automation through the Playwright MCP server](skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | run-browser-and-api-automation-through-the-playwright-mcp-server | 5.5k | Browser Automation |
+| [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray | 15k | Monitoring &amp; Alerts |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats | 53.5k | Library &amp; API Reference |
-| [Run browser and API automation through the Playwright MCP server](skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | run-browser-and-api-automation-through-the-playwright-mcp-server | 5.5k | Browser Automation |
-| [Render HTML-native agent videos with slash-command workflows using HyperFrames](skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/) | render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes | 9.5k | Image &amp; Creative Automation |
 
 ---
 

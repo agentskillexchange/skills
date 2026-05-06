@@ -777,6 +777,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "ai-agent-skills",
+        "github_stars": 1,
         "license": "MIT"
       }
     },
@@ -793,6 +794,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "ai-agent-skills",
+        "github_stars": 1,
         "license": "MIT"
       }
     },
@@ -35965,7 +35967,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "redis"
+        "tool": "redis",
+        "github_stars": 74154
       }
     },
     {

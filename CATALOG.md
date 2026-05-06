@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2425 published skills** across **17 categories** · 2421 security reviewed · Updated 2026-05-06 01:30 UTC
+> **2425 published skills** across **17 categories** · 2421 security reviewed · Updated 2026-05-06 07:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -300,9 +300,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting… | Security Reviewed | 11 | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes… | Security Reviewed | 6 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and… | Security Reviewed | 5 | 1.9k/wk |
+| [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update… | Security Reviewed | 1 | — |
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | — | 23.2M/wk |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | — | 23.2M/wk |
-| [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Security Reviewed | — | — |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub… | Security Reviewed | — | — |
 | [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity… | Security Reviewed | — | — |
@@ -926,6 +926,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Add a browser review checkpoint before risky agent actions with AgentClick](skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can… | Security Reviewed | 22 | 9/wk |
 | [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP… | Security Reviewed | 16 | — |
 | [Apply Git branching, commit, and pull request best practices through Git Workflow Skill](skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/) | Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices,… | Security Reviewed | 13 | — |
+| [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | 1 | — |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused… | Security Reviewed | — | 703.6k/wk |
 | [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates… | Security Reviewed | — | — |
 | [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt… | Security Reviewed | — | — |
@@ -938,7 +939,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
 | [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Security Reviewed | — | — |
-| [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | — | — |
 
 
 ### 📋 Runbooks & Diagnostics (169 skills)
@@ -1307,6 +1307,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | 116.2k | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with… | Security Reviewed | 116.2k | — |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning… | Security Reviewed | 88.5k | — |
+| [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | 71.5k | — |
 | [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | 71.5k | — |
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | 68.4k | — |
@@ -1440,7 +1441,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
-| [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | — | — |
 
 
 ### 📊 Monitoring & Alerts (128 skills)
