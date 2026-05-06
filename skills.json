@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2424,
-  "generated": "2026-05-05",
+  "total": 2425,
+  "generated": "2026-05-06",
   "skills": [
+    {
+      "slug": "drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli",
+      "name": "Drive token-efficient browser testing from coding agents with Playwright CLI",
+      "description": "Use Playwright CLI when a coding agent needs to open pages, inspect snapshots, click, type, capture screenshots, and manage browser sessions through concise shell…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9956
+      }
+    },
     {
       "slug": "run-browser-and-api-automation-through-the-playwright-mcp-server",
       "name": "Run browser and API automation through the Playwright MCP server",

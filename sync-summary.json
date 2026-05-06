@@ -1,8 +1,9 @@
 {
   "new": 0,
   "deleted": 0,
-  "verification_updates": 0,
+  "verification_updates": 3,
   "signal_cleanups": 0,
-  "content_updates": 0,
-  "total": 2420
+  "content_updates": 3,
+  "total": 2425,
+  "last_sync": "2026-05-06T01:25:00Z"
 }

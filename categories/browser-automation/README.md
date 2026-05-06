@@ -114,6 +114,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | 12.6k | 17/wk |
 | [Nightwatch.js Integrated Browser and Mobile Testing Framework](../../skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | 11.9k | — |
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](../../skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | 11.2k | — |
+| [Drive token-efficient browser testing from coding agents with Playwright CLI](../../skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | 10k | — |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 202.8k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.7M/wk |
 | [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | — |
