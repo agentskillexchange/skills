@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2427,
+  "total": 2428,
   "generated": "2026-05-06",
   "skills": [
+    {
+      "slug": "use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows",
+      "name": "Use RAGFlow as a retrieval and context layer for agent workflows",
+      "description": "Build a supervised RAG context layer with RAGFlow so agents can index documents, retrieve grounded context, and answer with traceable source support.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 79794
+      }
+    },
     {
       "slug": "run-scheduled-autonomous-agent-hands-with-openfang",
       "name": "Run scheduled autonomous agent Hands with OpenFang",

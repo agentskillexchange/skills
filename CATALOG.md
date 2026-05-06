@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2427 published skills** across **17 categories** · 2422 security reviewed · Updated 2026-05-06 13:28 UTC
+> **2428 published skills** across **17 categories** · 2422 security reviewed · Updated 2026-05-06 19:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1118,7 +1118,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (167 skills)
+### 🔄 Data Extraction & Transformation (168 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1129,6 +1129,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | Agent access to PostgreSQL data and queries through MCP. | Security Reviewed | 85.1k | — |
 | [SQLite MCP Server](skills/sqlite-mcp-server/) | Lightweight local database access for agent tasks. | Security Reviewed | 85.1k | — |
 | [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | Use RAGFlow to ingest complex documents, build governed RAG knowledge bases, and give agents higher-fidelity context… | Published | 79.8k | — |
+| [Use RAGFlow as a retrieval and context layer for agent workflows](skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | Build a supervised RAG context layer with RAGFlow so agents can index documents, retrieve grounded context, and… | Published | 79.8k | — |
 | [Elasticsearch MCP](skills/elasticsearch-mcp/) | Elasticsearch MCP is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented… | Security Reviewed | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that converts documents and images into… | Security Reviewed | 73.7k | — |
 | [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table… | Security Reviewed | 73.6k | — |
