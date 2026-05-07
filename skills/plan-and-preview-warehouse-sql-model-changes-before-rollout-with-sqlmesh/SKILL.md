@@ -2,9 +2,9 @@
 title: "Plan and preview warehouse SQL model changes before rollout with SQLMesh"
 slug: "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh"
 description: "Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/SQLMesh/sqlmesh"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "SQLMesh/sqlmesh"

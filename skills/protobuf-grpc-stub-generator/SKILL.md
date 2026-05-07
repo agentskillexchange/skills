@@ -1,10 +1,10 @@
 ---
-title: "Protobuf &#038; gRPC Stub Generator"
+title: "Protobuf & gRPC Stub Generator"
 slug: "protobuf-grpc-stub-generator"
 description: "Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/grpc/grpc-node"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "grpc/grpc-node"

@@ -2,9 +2,9 @@
 title: "API Documentation Indexer"
 slug: "api-documentation-indexer"
 description: "Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas for quick reference."
-verification: security_reviewed
+verification: verified
 source: "https://swagger.io/docs/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Code"
 ---
 # API Documentation Indexer

@@ -2,9 +2,9 @@
 title: "ImageMagick Batch Transform Agent"
 slug: "imagemagick-batch-transform-agent"
 description: "Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ImageMagick/ImageMagick"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "imagemagick/imagemagick"

@@ -2,9 +2,9 @@
 title: "Template Linting and Auto-Formatting for Django and Jinja Repositories"
 slug: "template-linting-auto-formatting-django-jinja-repositories"
 description: "Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and style drift, then optionally rewrites them into a consistent format. This is for agents that need to clean and validate template-heavy repos before review or release, not for general web framework setup."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/djlint/djLint"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "djlint/djLint"

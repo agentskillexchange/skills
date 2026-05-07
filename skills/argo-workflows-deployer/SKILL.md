@@ -2,7 +2,7 @@
 title: "Argo Workflows Deployer"
 slug: "argo-workflows-deployer"
 description: "Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/argoproj/argo-workflows"
 category: "CI/CD Integrations"
 framework: "Gemini"

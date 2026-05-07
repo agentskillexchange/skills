@@ -2,9 +2,9 @@
 title: "Probe ML and LLM systems for regressions and vulnerabilities with Giskard"
 slug: "probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard"
 description: "Run automated red-team and failure scans against an LLM or RAG app before users find the breakage."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Giskard-AI/giskard-oss"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "giskard-ai/giskard-oss"

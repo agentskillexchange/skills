@@ -2,9 +2,9 @@
 title: "Chartbrew Open Source Reporting Platform for API and Database Dashboards"
 slug: "chartbrew-open-source-reporting-dashboard-platform"
 description: "Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder, AI assistant, scheduled reports, and embeddable charts for data visualization."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/chartbrew/chartbrew"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "chartbrew/chartbrew"

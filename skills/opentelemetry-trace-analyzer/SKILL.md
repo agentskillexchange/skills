@@ -2,9 +2,9 @@
 title: "OpenTelemetry Trace Analyzer"
 slug: "opentelemetry-trace-analyzer"
 description: "Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams."
-verification: security_reviewed
+verification: verified
 source: "https://opentelemetry.io/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Codex"
 ---
 # OpenTelemetry Trace Analyzer

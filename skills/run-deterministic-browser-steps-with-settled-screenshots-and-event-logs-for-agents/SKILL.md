@@ -2,7 +2,7 @@
 title: "Run deterministic browser steps with settled screenshots and event logs for agents"
 slug: "run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents"
 description: "Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of racing an always-live browser session."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/theredsix/agent-browser-protocol"
 category: "Browser Automation"
 framework: "Multi-Framework"

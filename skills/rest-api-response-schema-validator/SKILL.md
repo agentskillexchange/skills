@@ -2,9 +2,9 @@
 title: "REST API Response Schema Validator"
 slug: "rest-api-response-schema-validator"
 description: "Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports OpenAPI 3.x schema extraction and detects undocumented fields or type mismatches."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ajv-validator/ajv"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "ajv-validator/ajv"

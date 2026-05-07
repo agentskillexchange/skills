@@ -2,9 +2,9 @@
 title: "Rust Crate Analyzer"
 slug: "rust-crate-analyzer"
 description: "Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking."
-verification: security_reviewed
+verification: verified
 source: "https://crates.io/data-access"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Codex"
 ---
 # Rust Crate Analyzer

@@ -1,10 +1,10 @@
 ---
 title: "Ahrefs Keyword Gap Analysis Skill"
 slug: "ahrefs-keyword-gap-analysis-skill"
-description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs&#8217; /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
-verification: security_reviewed
+description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
+verification: verified
 source: "https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
 ---
 # Ahrefs Keyword Gap Analysis Skill

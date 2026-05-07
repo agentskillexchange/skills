@@ -1,10 +1,10 @@
 ---
 title: "Google Search Console Performance Analyzer"
 slug: "gsc-performance-analyzer-skill"
-description: "Pulls search analytics from Google Search Console&#8217;s /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates."
-verification: security_reviewed
+description: "Pulls search analytics from Google Search Console’s /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates."
+verification: verified
 source: "https://developers.google.com/webmaster-tools/v1/searchanalytics/query"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Custom Agents"
 ---
 # Google Search Console Performance Analyzer

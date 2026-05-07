@@ -2,9 +2,9 @@
 title: "GPG Encryption and Key Management Agent"
 slug: "gpg-encryption-key-management-agent"
 description: "Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver synchronization, trust model management, and automated encrypted backup workflows."
-verification: security_reviewed
+verification: verified
 source: "https://www.gnupg.org/documentation/manuals/gnupg/"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "OpenClaw"
 ---
 # GPG Encryption and Key Management Agent

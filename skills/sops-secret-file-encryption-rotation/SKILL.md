@@ -2,9 +2,9 @@
 title: "SOPS Secret File Encryption and Rotation"
 slug: "sops-secret-file-encryption-rotation"
 description: "SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and PGP. It is a tight fit for secrets handling, rotation, and encrypted configuration workflows."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/getsops/sops"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsops/sops"

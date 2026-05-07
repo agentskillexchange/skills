@@ -2,9 +2,9 @@
 title: "Address GitHub PR review comments from the current branch with gh-address-comments"
 slug: "address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments"
 description: "Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "openai/skills"

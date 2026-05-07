@@ -2,9 +2,9 @@
 title: "SonarQube Analysis Agent"
 slug: "sonarqube-analysis-agent"
 description: "Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/SonarSource/sonarqube"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"

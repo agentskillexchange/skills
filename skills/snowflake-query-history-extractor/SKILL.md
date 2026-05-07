@@ -2,9 +2,9 @@
 title: "Snowflake Query History Extractor"
 slug: "snowflake-query-history-extractor"
 description: "Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting."
-verification: security_reviewed
+verification: verified
 source: "https://pypi.org/project/snowflake-connector-python/"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
 ---
 # Snowflake Query History Extractor

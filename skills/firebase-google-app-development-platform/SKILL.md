@@ -1,10 +1,10 @@
 ---
 title: "Firebase — Google Application Development Platform"
 slug: "firebase-google-app-development-platform"
-description: "Firebase is Google&#8217;s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
-verification: security_reviewed
+description: "Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
+verification: verified
 source: "https://github.com/firebase/firebase-js-sdk"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"

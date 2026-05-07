@@ -2,9 +2,9 @@
 title: "OpenAPI Spec Compliance Checker"
 slug: "openapi-spec-compliance-checker"
 description: "Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports."
-verification: security_reviewed
+verification: verified
 source: "https://swagger.io/docs/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Cursor"
 ---
 # OpenAPI Spec Compliance Checker

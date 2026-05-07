@@ -2,9 +2,9 @@
 title: "PostgreSQL MCP Server"
 slug: "postgresql-mcp-server"
 description: "Agent access to PostgreSQL data and queries through MCP."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/modelcontextprotocol/servers"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Claude Code, Cursor, MCP, OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"

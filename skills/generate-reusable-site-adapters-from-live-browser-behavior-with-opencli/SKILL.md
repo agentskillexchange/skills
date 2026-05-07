@@ -2,9 +2,9 @@
 title: "Generate reusable site adapters from live browser behavior with OpenCLI"
 slug: "generate-reusable-site-adapters-from-live-browser-behavior-with-opencli"
 description: "Use OpenCLI to explore a logged-in site, synthesize a deterministic adapter, and expose the result as a reusable CLI command an agent can call again later."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/jackwener/OpenCLI"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jackwener/OpenCLI"

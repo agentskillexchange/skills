@@ -2,7 +2,7 @@
 title: "Install and sync reproducible agent dependencies, prompts, and skills across repos with APM"
 slug: "install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm"
 description: "Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/microsoft/apm"
 category: "Developer Tools"
 framework: "Multi-Framework"

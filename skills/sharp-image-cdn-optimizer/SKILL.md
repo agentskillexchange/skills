@@ -2,9 +2,9 @@
 title: "Sharp Image CDN Optimizer"
 slug: "sharp-image-cdn-optimizer"
 description: "On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/lovell/sharp"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "lovell/sharp"

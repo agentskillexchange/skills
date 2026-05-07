@@ -2,9 +2,9 @@
 title: "Format shell scripts into a stable house style before review with shfmt"
 slug: "format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt"
 description: "Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/mvdan/sh"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mvdan/sh"

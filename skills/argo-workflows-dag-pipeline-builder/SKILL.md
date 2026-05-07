@@ -2,9 +2,9 @@
 title: "Argo Workflows DAG Pipeline Builder"
 slug: "argo-workflows-dag-pipeline-builder"
 description: "Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact passing via S3/MinIO, and template composition through WorkflowTemplates and ClusterWorkflowTemplates."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/argoproj/argo-workflows"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"

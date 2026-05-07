@@ -2,9 +2,9 @@
 title: "Connect Claude Code to Apple apps and tmux with Claude Apple Bridges"
 slug: "connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges"
 description: "Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware personal ops on macOS."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/more-io/claude-apple-bridges"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "more-io/claude-apple-bridges"

@@ -2,9 +2,9 @@
 title: "Container Runtime Security Monitor"
 slug: "container-runtime-security-monitor"
 description: "Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/falcosecurity/falco"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "falcosecurity/falco"

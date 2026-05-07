@@ -2,9 +2,9 @@
 title: "ArgoCD Application Health Runbook"
 slug: "argocd-application-health-runbook"
 description: "Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/argoproj/argo-cd"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"

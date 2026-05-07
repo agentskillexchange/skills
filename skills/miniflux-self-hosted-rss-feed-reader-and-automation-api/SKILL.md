@@ -2,9 +2,9 @@
 title: "Miniflux Self-Hosted RSS Feed Reader and Automation API"
 slug: "miniflux-self-hosted-rss-feed-reader-and-automation-api"
 description: "Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This skill helps agents subscribe to sources, organize categories, and automate article triage or downstream alerting from RSS, Atom, and JSON feeds."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/miniflux/v2"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "miniflux/v2"

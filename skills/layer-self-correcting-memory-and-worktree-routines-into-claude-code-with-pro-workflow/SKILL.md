@@ -2,9 +2,9 @@
 title: "Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow"
 slug: "layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow"
 description: "Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates, and parallel worktree routines to persist across sessions instead of being re-explained every time."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/rohitg00/pro-workflow"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "rohitg00/pro-workflow"

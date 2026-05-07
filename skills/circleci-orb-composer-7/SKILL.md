@@ -2,7 +2,7 @@
 title: "CircleCI Orb Composer"
 slug: "circleci-orb-composer-7"
 description: "Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb Registry."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"
 framework: "Claude Code"

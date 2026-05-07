@@ -2,9 +2,9 @@
 title: "Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit"
 slug: "audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit"
 description: "Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or upgrades."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/jtesta/ssh-audit"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jtesta/ssh-audit"

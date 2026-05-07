@@ -2,9 +2,9 @@
 title: "Snyk Open Source Dependency Auditor"
 slug: "snyk-open-source-dependency-auditor"
 description: "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/snyk/cli"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "snyk/cli"

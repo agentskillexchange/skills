@@ -2,9 +2,9 @@
 title: "Profile and triage messy tabular files from the terminal with VisiData"
 slug: "profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata"
 description: "Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup step without opening a spreadsheet."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/saulpw/visidata"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "saulpw/visidata"

@@ -2,9 +2,9 @@
 title: "Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset"
 slug: "generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset"
 description: "Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ConardLi/easy-dataset"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ConardLi/easy-dataset"

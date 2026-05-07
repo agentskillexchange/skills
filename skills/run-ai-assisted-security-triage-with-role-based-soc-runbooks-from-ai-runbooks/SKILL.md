@@ -2,9 +2,9 @@
 title: "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks"
 slug: "run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks"
 description: "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/dandye/ai-runbooks"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dandye/ai-runbooks"

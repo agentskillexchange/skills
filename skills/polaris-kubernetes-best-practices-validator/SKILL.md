@@ -2,9 +2,9 @@
 title: "Polaris Kubernetes Best Practices Validator"
 slug: "polaris-kubernetes-best-practices-validator"
 description: "Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/FairwindsOps/polaris"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "FairwindsOps/polaris"

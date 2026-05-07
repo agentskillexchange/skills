@@ -1,10 +1,10 @@
 ---
 title: "AWS CloudTrail Log Normalizer"
 slug: "aws-cloudtrail-log-normalizer"
-description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&#038;CK technique IDs using the MITRE ATT&#038;CK STIX API."
-verification: security_reviewed
+description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
+verification: verified
 source: "https://github.com/aws/aws-sdk-js-v3"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"

@@ -2,9 +2,9 @@
 title: "AWS CloudWatch Anomaly Runbook"
 slug: "aws-cloudwatch-anomaly-runbook"
 description: "Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/aws/aws-sdk-js-v3"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"

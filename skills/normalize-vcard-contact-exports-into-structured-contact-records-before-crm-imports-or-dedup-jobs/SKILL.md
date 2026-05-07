@@ -2,9 +2,9 @@
 title: "Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs"
 slug: "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
 description: "Use vobject when an agent receives .vcf contact exports and needs reliable parsing into names, emails, phone numbers, organizations, and addresses before import or cleanup. This skill is for vCard normalization and serialization, not contact sync, outreach, or CRM management."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/py-vobject/vobject"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "py-vobject/vobject"

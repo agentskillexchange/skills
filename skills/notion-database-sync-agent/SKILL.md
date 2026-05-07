@@ -2,9 +2,9 @@
 title: "Notion Database Sync Agent"
 slug: "notion-database-sync-agent"
 description: "Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/makenotion/notion-sdk-js"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"

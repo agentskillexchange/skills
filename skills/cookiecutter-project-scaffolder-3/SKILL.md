@@ -2,9 +2,9 @@
 title: "Cookiecutter Project Scaffolder"
 slug: "cookiecutter-project-scaffolder-3"
 description: "Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation with JSON Schema."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/cookiecutter/cookiecutter"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "cookiecutter/cookiecutter"

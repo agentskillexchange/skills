@@ -2,9 +2,9 @@
 title: "Review-gate OpenClaw memory hygiene with openclaw-mem"
 slug: "review-gate-openclaw-memory-hygiene-with-openclaw-mem"
 description: "Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/phenomenoner/openclaw-mem"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "phenomenoner/openclaw-mem"

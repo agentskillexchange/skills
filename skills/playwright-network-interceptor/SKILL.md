@@ -2,9 +2,9 @@
 title: "Playwright Network Interceptor"
 slug: "playwright-network-interceptor"
 description: "Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/microsoft/playwright"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "microsoft/playwright"

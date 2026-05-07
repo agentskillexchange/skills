@@ -2,7 +2,7 @@
 title: "OpenAPI Spec Validator"
 slug: "openapi-spec-validator-agent"
 description: "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/stoplightio/spectral"
 category: "Developer Tools"
 framework: "Custom Agents"

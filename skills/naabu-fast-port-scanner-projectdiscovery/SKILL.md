@@ -2,9 +2,9 @@
 title: "Naabu Fast Port Scanner by ProjectDiscovery"
 slug: "naabu-fast-port-scanner-projectdiscovery"
 description: "Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP scans, integrates with Nmap for service discovery, and handles IPv4/IPv6 targets with automatic deduplication for efficient attack surface enumeration."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/projectdiscovery/naabu"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "projectdiscovery/naabu"

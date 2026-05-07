@@ -2,9 +2,9 @@
 title: "Stripe Revenue Reconciliation Agent"
 slug: "stripe-revenue-reconciliation-agent"
 description: "Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and reconciles them against expected revenue figures. Flags mismatches, duplicate charges, and unmatched refunds, outputting a CSV report with Stripe object IDs."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/stripe/stripe-node"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"

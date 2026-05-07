@@ -2,9 +2,9 @@
 title: "WordPress REST API Builder"
 slug: "wordpress-rest-api-builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/WordPress/WordPress"
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"

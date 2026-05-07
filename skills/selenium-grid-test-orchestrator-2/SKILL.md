@@ -2,7 +2,7 @@
 title: "Selenium Grid Test Orchestrator"
 slug: "selenium-grid-test-orchestrator-2"
 description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing, node health, and parallel test execution via the WebDriver protocol."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/SeleniumHQ/selenium"
 category: "Browser Automation"
 framework: "ChatGPT Agents"

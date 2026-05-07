@@ -1,10 +1,10 @@
 ---
 title: "Semgrep Custom Rule Runner"
 slug: "semgrep-custom-rule-runner-2"
-description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep &#8211;config and &#8211;pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
-verification: security_reviewed
+description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
+verification: verified
 source: "https://github.com/semgrep/semgrep"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"

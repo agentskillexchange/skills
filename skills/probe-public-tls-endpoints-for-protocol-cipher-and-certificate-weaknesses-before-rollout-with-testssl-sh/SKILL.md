@@ -2,9 +2,9 @@
 title: "Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh"
 slug: "probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh"
 description: "Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/testssl/testssl.sh"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "testssl/testssl.sh"

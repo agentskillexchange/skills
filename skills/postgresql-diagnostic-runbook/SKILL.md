@@ -2,9 +2,9 @@
 title: "PostgreSQL Diagnostic Runbook"
 slug: "postgresql-diagnostic-runbook"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer. Identifies slow queries, lock contention, and bloat via pgstattuple extension."
-verification: security_reviewed
+verification: verified
 source: "https://www.npmjs.com/package/pg"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 tool_ecosystem:
   npm_package: "pg"

@@ -2,9 +2,9 @@
 title: "Protobuf Schema Registry Manager"
 slug: "protobuf-schema-registry-manager"
 description: "Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/bufbuild/buf"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "bufbuild/buf"

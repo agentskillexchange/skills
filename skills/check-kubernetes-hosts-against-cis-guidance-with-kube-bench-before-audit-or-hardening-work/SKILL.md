@@ -2,9 +2,9 @@
 title: "Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work"
 slug: "check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work"
 description: "Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/aquasecurity/kube-bench"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/kube-bench"

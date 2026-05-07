@@ -2,9 +2,9 @@
 title: "Python PyPI Package Reference Indexer"
 slug: "python-pypi-package-reference-indexer"
 description: "Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and usage examples."
-verification: security_reviewed
+verification: verified
 source: "https://docs.pypi.org/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "ChatGPT Agents"
 ---
 # Python PyPI Package Reference Indexer

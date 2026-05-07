@@ -2,9 +2,9 @@
 title: "Grafana Dashboard Template Generator"
 slug: "grafana-dashboard-template-generator"
 description: "Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/grafana/grafana"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "grafana/grafana"

@@ -2,9 +2,9 @@
 title: "Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner"
 slug: "run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner"
 description: "Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really needs you."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Git-on-my-level/codex-autorunner"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Git-on-my-level/codex-autorunner"

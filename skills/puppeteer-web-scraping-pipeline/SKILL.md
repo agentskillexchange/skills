@@ -2,7 +2,7 @@
 title: "Puppeteer Web Scraping Pipeline"
 slug: "puppeteer-web-scraping-pipeline"
 description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/puppeteer/puppeteer"
 category: "Browser Automation"
 framework: "Gemini"

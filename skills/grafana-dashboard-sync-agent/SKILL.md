@@ -2,9 +2,9 @@
 title: "Grafana Dashboard Sync Agent"
 slug: "grafana-dashboard-sync-agent"
 description: "Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder management, and datasource remapping for multi-environment observability setups."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/grafana/grafana"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "grafana/grafana"

@@ -2,9 +2,9 @@
 title: "Jina Reader API Skill"
 slug: "jina-reader-api-skill"
 description: "Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered pages, PDF extraction, and multi-page crawling with depth control. Returns structured LLM-ready text."
-verification: security_reviewed
+verification: verified
 source: "https://jina.ai/reader/"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Gemini"
 ---
 # Jina Reader API Skill

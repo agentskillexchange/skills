@@ -2,9 +2,9 @@
 title: "Sigstore Cosign Container Verifier"
 slug: "sigstore-cosign-container-verifier"
 description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/sigstore/cosign"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "sigstore/cosign"

@@ -2,9 +2,9 @@
 title: "Audit cloud accounts for security misconfigurations with Prowler"
 slug: "audit-cloud-accounts-for-security-misconfigurations-with-prowler"
 description: "Run targeted AWS, Azure, or GCP security and compliance audits when an agent needs actionable cloud findings instead of a generic cloud-security platform overview."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/prowler-cloud/prowler"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "prowler-cloud/prowler"

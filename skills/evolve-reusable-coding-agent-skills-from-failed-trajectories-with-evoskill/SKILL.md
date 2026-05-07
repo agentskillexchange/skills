@@ -2,9 +2,9 @@
 title: "Evolve reusable coding-agent skills from failed trajectories with EvoSkill"
 slug: "evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill"
 description: "Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/sentient-agi/EvoSkill"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sentient-agi/EvoSkill"

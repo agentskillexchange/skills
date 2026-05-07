@@ -2,9 +2,9 @@
 title: "npm Registry Analyzer"
 slug: "npm-registry-analyzer"
 description: "Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and download trends. Uses npm-audit for security vulnerability detection against the GitHub Advisory Database."
-verification: security_reviewed
+verification: verified
 source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "MCP"
 ---
 # npm Registry Analyzer

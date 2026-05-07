@@ -2,9 +2,9 @@
 title: "Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA"
 slug: "deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava"
 description: "Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a PBX-native workflow."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "hkjarral/AVA-AI-Voice-Agent-for-Asterisk"

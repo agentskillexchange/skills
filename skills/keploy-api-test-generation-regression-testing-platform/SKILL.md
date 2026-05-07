@@ -2,9 +2,9 @@
 title: "Keploy API Test Generation and Regression Testing Platform"
 slug: "keploy-api-test-generation-regression-testing-platform"
 description: "Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test generation, API replay, coverage expansion, and validation workflows around Keploy projects."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/keploy/keploy"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "keploy/keploy"

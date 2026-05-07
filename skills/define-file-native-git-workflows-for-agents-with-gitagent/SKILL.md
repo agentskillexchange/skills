@@ -2,9 +2,9 @@
 title: "Define file-native Git workflows for agents with GitAgent"
 slug: "define-file-native-git-workflows-for-agents-with-gitagent"
 description: "Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/open-gitagent/gitagent"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-gitagent/gitagent"

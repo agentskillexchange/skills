@@ -2,9 +2,9 @@
 title: "Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance"
 slug: "resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance"
 description: "Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract review."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/RonnyPfannschmidt/prance"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "RonnyPfannschmidt/prance"

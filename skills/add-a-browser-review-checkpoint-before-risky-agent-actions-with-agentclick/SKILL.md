@@ -2,9 +2,9 @@
 title: "Add a browser review checkpoint before risky agent actions with AgentClick"
 slug: "add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick"
 description: "Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject them in a purpose-built browser UI."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/agentlayer-io/AgentClick"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "agentlayer-io/agentclick"

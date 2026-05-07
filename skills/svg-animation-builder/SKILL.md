@@ -2,9 +2,9 @@
 title: "SVG Animation Builder"
 slug: "svg-animation-builder"
 description: "Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based animations with morphing paths via flubber and scroll-triggered sequences using ScrollTrigger plugin."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/greensock/GSAP"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "greensock/GSAP"

@@ -2,7 +2,7 @@
 title: "Browserbase Session Automation API and SDK"
 slug: "browserbase-session-automation-api-and-sdk"
 description: "Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable browser infrastructure without managing Chromium fleets directly. This skill packages the Browserbase API and SDK into a concrete workflow for running, monitoring, and extracting results from cloud browser sessions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/browserbase/sdk-node"
 category: "Browser Automation"
 framework: "Multi-Framework"

@@ -2,9 +2,9 @@
 title: "Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty"
 slug: "drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty"
 description: "Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Priivacy-ai/spec-kitty"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Priivacy-ai/spec-kitty"

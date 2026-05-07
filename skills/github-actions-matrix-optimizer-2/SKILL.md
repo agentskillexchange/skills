@@ -2,7 +2,7 @@
 title: "GitHub Actions Matrix Optimizer"
 slug: "github-actions-matrix-optimizer-2"
 description: "Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies redundant matrix combinations and suggests fail-fast optimizations to reduce CI minutes."
-verification: security_reviewed
+verification: verified
 source: "https://docs.github.com/en/actions"
 category: "CI/CD Integrations"
 framework: "Claude Code"

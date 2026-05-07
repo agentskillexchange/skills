@@ -2,7 +2,7 @@
 title: "Fresh Next-Generation Web Framework for Deno"
 slug: "fresh-deno-web-framework"
 description: "Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero JavaScript to the client by default, and provides file-system routing with TypeScript support out of the box."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/denoland/fresh"
 category: "Developer Tools"
 framework: "Multi-Framework"

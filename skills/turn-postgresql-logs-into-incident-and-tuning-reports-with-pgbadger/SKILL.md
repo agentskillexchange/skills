@@ -2,9 +2,9 @@
 title: "Turn PostgreSQL logs into incident and tuning reports with pgBadger"
 slug: "turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger"
 description: "Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors, and workload hotspots after an incident."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/darold/pgbadger"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "darold/pgbadger"

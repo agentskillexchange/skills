@@ -2,9 +2,9 @@
 title: "Apache Kafka Schema Extractor"
 slug: "apache-kafka-schema-extractor"
 description: "Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/apache/kafka"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "apache/kafka"

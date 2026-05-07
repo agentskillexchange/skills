@@ -2,9 +2,9 @@
 title: "SonarQube Quality Gate Monitor"
 slug: "sonarqube-quality-gate-monitor-3"
 description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/SonarSource/sonarqube"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"

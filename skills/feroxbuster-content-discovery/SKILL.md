@@ -2,9 +2,9 @@
 title: "Feroxbuster Fast Recursive Content Discovery Tool in Rust"
 slug: "feroxbuster-content-discovery"
 description: "Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web servers. It features recursive scanning, smart filtering, and extensive output options."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/epi052/feroxbuster"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "epi052/feroxbuster"

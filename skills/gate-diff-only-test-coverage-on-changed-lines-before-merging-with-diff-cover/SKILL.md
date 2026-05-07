@@ -2,9 +2,9 @@
 title: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
 slug: "gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover"
 description: "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Bachmann1234/diff_cover"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Bachmann1234/diff_cover"

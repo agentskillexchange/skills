@@ -2,9 +2,9 @@
 title: "Apache Kafka Schema Registry Validator"
 slug: "kafka-schema-registry-validator"
 description: "Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/tulios/kafkajs"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "tulios/kafkajs"

@@ -2,9 +2,9 @@
 title: "Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter"
 slug: "lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter"
 description: "Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/stackrox/kube-linter"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "stackrox/kube-linter"

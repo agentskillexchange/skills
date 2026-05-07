@@ -2,9 +2,9 @@
 title: "Content Brief Architect"
 slug: "content-brief-architect-agent"
 description: "Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content grading. Generates outlines with target word counts, headers, and semantic keyword clusters."
-verification: security_reviewed
+verification: verified
 source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "MCP"
 ---
 # Content Brief Architect

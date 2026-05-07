@@ -2,9 +2,9 @@
 title: "Docker Container Health Check Runbook"
 slug: "docker-container-health-check-runbook"
 description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/moby/moby"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "moby/moby"

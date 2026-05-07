@@ -2,9 +2,9 @@
 title: "Snyk Agent Scan"
 slug: "snyk-agent-scan"
 description: "Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component on your machine — detecting prompt injections, tool poisoning, toxic flows, malware payloads, and credential handling issues across 15+ distinct risk categories."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/snyk/agent-scan"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"

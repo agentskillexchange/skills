@@ -2,9 +2,9 @@
 title: "Notion Task Sync Bridge"
 slug: "notion-task-sync-bridge"
 description: "Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/makenotion/notion-sdk-js"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"

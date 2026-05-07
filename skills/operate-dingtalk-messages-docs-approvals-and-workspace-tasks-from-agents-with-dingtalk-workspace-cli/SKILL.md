@@ -2,9 +2,9 @@
 title: "Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI"
 slug: "operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli"
 description: "Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message, approval, or document task."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "DingTalk-Real-AI/dingtalk-workspace-cli"

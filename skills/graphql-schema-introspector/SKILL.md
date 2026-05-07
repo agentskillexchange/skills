@@ -2,9 +2,9 @@
 title: "GraphQL Schema Introspector"
 slug: "graphql-schema-introspector"
 description: "Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/graphql/graphql-js"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"

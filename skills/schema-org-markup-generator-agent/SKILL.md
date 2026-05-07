@@ -2,9 +2,9 @@
 title: "Schema.org Markup Generator"
 slug: "schema-org-markup-generator-agent"
 description: "Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation."
-verification: security_reviewed
+verification: verified
 source: "https://schema.org/"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "MCP"
 ---
 # Schema.org Markup Generator

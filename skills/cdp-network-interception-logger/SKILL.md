@@ -2,7 +2,7 @@
 title: "CDP Network Interception Logger"
 slug: "cdp-network-interception-logger"
 description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ChromeDevTools/devtools-protocol"
 category: "Browser Automation"
 framework: "Codex"

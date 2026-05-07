@@ -2,9 +2,9 @@
 title: "SQLite MCP Server"
 slug: "sqlite-mcp-server"
 description: "Lightweight local database access for agent tasks."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/modelcontextprotocol/servers"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Claude Code, Cursor, MCP, OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"

@@ -2,9 +2,9 @@
 title: "Rust Crate Docs Scanner"
 slug: "rust-crate-docs-scanner"
 description: "Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces including traits, impls, and derive macros with cross-crate dependency linking via docs.rs integration."
-verification: security_reviewed
+verification: verified
 source: "https://docs.rs/about"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Custom Agents"
 ---
 # Rust Crate Docs Scanner

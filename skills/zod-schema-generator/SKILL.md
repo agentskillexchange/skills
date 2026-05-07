@@ -2,9 +2,9 @@
 title: "Zod Schema Generator"
 slug: "zod-schema-generator"
 description: "Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/colinhacks/zod"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "colinhacks/zod"

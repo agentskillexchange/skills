@@ -2,9 +2,9 @@
 title: "Stable Diffusion Prompt Optimizer"
 slug: "stable-diffusion-prompt-optimizer"
 description: "Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight)."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Stability-AI/stablediffusion"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Gemini"
 ---
 # Stable Diffusion Prompt Optimizer

@@ -2,9 +2,9 @@
 title: "Slack Standup Summarizer"
 slug: "slack-standup-summarizer"
 description: "Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers highlighted. Posts formatted digests via Incoming Webhooks."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/slackapi/bolt-js"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"

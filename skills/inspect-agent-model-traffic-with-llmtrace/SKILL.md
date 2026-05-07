@@ -2,9 +2,9 @@
 title: "Inspect agent model traffic with LLMTrace"
 slug: "inspect-agent-model-traffic-with-llmtrace"
 description: "Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/epappas/llmtrace"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "epappas/llmtrace"

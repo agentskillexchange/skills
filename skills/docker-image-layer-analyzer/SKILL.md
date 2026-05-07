@@ -2,9 +2,9 @@
 title: "Docker Image Layer Analyzer"
 slug: "docker-image-layer-analyzer"
 description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/moby/moby"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "moby/moby"

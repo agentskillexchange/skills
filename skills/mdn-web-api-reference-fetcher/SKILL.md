@@ -2,9 +2,9 @@
 title: "MDN Web API Reference Fetcher"
 slug: "mdn-web-api-reference-fetcher"
 description: "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples."
-verification: security_reviewed
+verification: verified
 source: "https://developer.mozilla.org/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Custom Agents"
 ---
 # MDN Web API Reference Fetcher

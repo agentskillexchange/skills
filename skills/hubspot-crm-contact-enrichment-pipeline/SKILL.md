@@ -2,9 +2,9 @@
 title: "HubSpot CRM Contact Enrichment Pipeline"
 slug: "hubspot-crm-contact-enrichment-pipeline"
 description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company associations via crm.associations.batchRead(), and syncs lifecycle stage transitions with custom property updates."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "hubspot/hubspot-api-nodejs"

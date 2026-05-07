@@ -2,7 +2,7 @@
 title: "Jenkins Pipeline Linter"
 slug: "jenkins-pipeline-linter-6"
 description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/jenkinsci/jenkins"
 category: "CI/CD Integrations"
 framework: "Custom Agents"

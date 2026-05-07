@@ -2,9 +2,9 @@
 title: "Review REST API designs before implementation for versioning, security, and contract clarity"
 slug: "review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity"
 description: "Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design quality, security, resilience, and missing contract decisions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/review-api-design"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "psenger/ai-agent-skills"

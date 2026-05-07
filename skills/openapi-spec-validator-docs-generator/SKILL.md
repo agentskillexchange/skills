@@ -1,10 +1,10 @@
 ---
-title: "OpenAPI Spec Validator &#038; Docs Generator"
+title: "OpenAPI Spec Validator & Docs Generator"
 slug: "openapi-spec-validator-docs-generator"
 description: "Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/stoplightio/spectral"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "stoplightio/spectral"

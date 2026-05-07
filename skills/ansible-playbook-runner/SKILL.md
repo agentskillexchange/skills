@@ -1,10 +1,10 @@
 ---
 title: "Ansible Playbook Runner"
 slug: "ansible-playbook-runner"
-description: "Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational [&hellip;]"
-verification: security_reviewed
+description: "Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational […]"
+verification: verified
 source: "https://github.com/ansible/ansible"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "ansible/ansible"

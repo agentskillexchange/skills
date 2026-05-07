@@ -2,9 +2,9 @@
 title: "Puppeteer Stealth Web Scraper"
 slug: "puppeteer-stealth-web-scraper"
 description: "Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML parsing, rotating residential proxies via Bright Data API, and p-queue for concurrency control."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/puppeteer/puppeteer"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"

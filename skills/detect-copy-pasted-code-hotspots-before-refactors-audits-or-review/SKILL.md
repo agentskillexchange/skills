@@ -2,9 +2,9 @@
 title: "Detect copy-pasted code hotspots before refactors, audits, or review"
 slug: "detect-copy-pasted-code-hotspots-before-refactors-audits-or-review"
 description: "Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused cleanup or review queue. The skill is about duplication detection and hotspot reporting, not general linting, testing, or automated refactoring by itself."
-verification: security_reviewed
+verification: verified
 source: "https://www.npmjs.com/package/jscpd"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   npm_package: "jscpd"

@@ -2,9 +2,9 @@
 title: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
 slug: "scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield"
 description: "Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/affaan-m/agentshield"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "affaan-m/agentshield"

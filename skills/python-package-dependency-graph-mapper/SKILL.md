@@ -2,9 +2,9 @@
 title: "Python Package Dependency Graph Mapper"
 slug: "python-package-dependency-graph-mapper"
 description: "Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/tox-dev/pipdeptree"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "tox-dev/pipdeptree"

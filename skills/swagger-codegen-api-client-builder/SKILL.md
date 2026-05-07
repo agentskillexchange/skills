@@ -2,9 +2,9 @@
 title: "Swagger Codegen API Client Builder"
 slug: "swagger-codegen-api-client-builder"
 description: "Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and openapi-generator-cli. Produces clients for TypeScript-axios, Python-requests, and Go-http with custom mustache templates."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/swagger-api/swagger-ui"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "swagger-api/swagger-ui"

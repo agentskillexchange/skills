@@ -2,9 +2,9 @@
 title: "Codecov Coverage Analyzer"
 slug: "codecov-coverage-analyzer"
 description: "Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines."
-verification: security_reviewed
+verification: verified
 source: "https://docs.codecov.com/docs/quick-start"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Codex"
 ---
 # Codecov Coverage Analyzer

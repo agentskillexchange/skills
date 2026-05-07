@@ -2,7 +2,7 @@
 title: "Terraform Cloud Orchestrator"
 slug: "terraform-cloud-orchestrator-skill"
 description: "Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/hashicorp/terraform"
 category: "CI/CD Integrations"
 framework: "Gemini"

@@ -2,9 +2,9 @@
 title: "ScrapingBee API Data Harvester"
 slug: "scrapingbee-api-data-harvester"
 description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
-verification: security_reviewed
+verification: verified
 source: "https://www.scrapingbee.com/documentation/"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Custom Agents"
 ---
 # ScrapingBee API Data Harvester

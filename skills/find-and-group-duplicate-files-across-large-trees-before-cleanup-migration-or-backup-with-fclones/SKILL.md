@@ -2,7 +2,7 @@
 title: "Find and group duplicate files across large trees before cleanup migration or backup with fclones"
 slug: "find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones"
 description: "Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/pkolaczk/fclones"
 category: "Developer Tools"
 framework: "Multi-Framework"

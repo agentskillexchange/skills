@@ -2,9 +2,9 @@
 title: "Run approved MCP servers through Docker MCP Gateway"
 slug: "run-approved-mcp-servers-through-docker-mcp-gateway"
 description: "Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client connections."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/docker/mcp-gateway"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "docker/mcp-gateway"

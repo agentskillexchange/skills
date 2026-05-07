@@ -2,9 +2,9 @@
 title: "dbt Model Transformation Architect"
 slug: "dbt-model-transformation-architect"
 description: "Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and Redshift. Parses dbt manifest.json to analyze DAG lineage and detect circular dependencies."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/dbt-labs/dbt-core"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"

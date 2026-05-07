@@ -2,9 +2,9 @@
 title: "Surfer SEO Content Optimizer"
 slug: "surfer-seo-content-optimizer"
 description: "Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations."
-verification: security_reviewed
+verification: verified
 source: "https://surferseo.com/"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
 ---
 # Surfer SEO Content Optimizer

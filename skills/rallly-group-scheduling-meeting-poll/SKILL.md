@@ -2,9 +2,9 @@
 title: "Rallly Open-Source Group Scheduling and Meeting Poll Platform"
 slug: "rallly-group-scheduling-meeting-poll"
 description: "Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/lukevella/rallly"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "lukevella/rallly"

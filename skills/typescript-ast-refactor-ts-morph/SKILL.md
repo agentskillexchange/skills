@@ -2,7 +2,7 @@
 title: "TypeScript AST Refactor"
 slug: "typescript-ast-refactor-ts-morph"
 description: "Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations, extract-function, and dead code elimination across large codebases."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/dsherret/ts-morph"
 category: "Developer Tools"
 framework: "Cursor"

@@ -2,9 +2,9 @@
 title: "Falco Runtime Security Monitor"
 slug: "falco-runtime-security-monitor"
 description: "Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/falcosecurity/falco"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework, OpenClaw"
 tool_ecosystem:
   github_repo: "falcosecurity/falco"

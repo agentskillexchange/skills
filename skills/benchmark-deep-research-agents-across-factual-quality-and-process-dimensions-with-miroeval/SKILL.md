@@ -2,9 +2,9 @@
 title: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
 slug: "benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval"
 description: "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/MiroMindAI/MiroEval"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "MiroMindAI/MiroEval"

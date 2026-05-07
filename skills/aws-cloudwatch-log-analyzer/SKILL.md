@@ -2,9 +2,9 @@
 title: "AWS CloudWatch Log Analyzer"
 slug: "aws-cloudwatch-log-analyzer"
 description: "Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/aws/aws-sdk-js-v3"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"

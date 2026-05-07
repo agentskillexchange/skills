@@ -2,7 +2,7 @@
 title: "Concurrently Parallel Command Runner for npm Scripts"
 slug: "concurrently-parallel-command-runner"
 description: "Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle management. With 14M+ weekly npm downloads, it is the standard tool for running dev servers, watchers, and build processes simultaneously."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/open-cli-tools/concurrently"
 category: "Developer Tools"
 framework: "Multi-Framework"

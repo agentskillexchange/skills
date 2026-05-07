@@ -2,9 +2,9 @@
 title: "Patent Landscape Analyzer"
 slug: "patent-landscape-analyzer"
 description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
-verification: security_reviewed
+verification: verified
 source: "https://search.patentsview.org/docs/"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "OpenClaw"
 ---
 # Patent Landscape Analyzer

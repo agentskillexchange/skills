@@ -2,9 +2,9 @@
 title: "Datadog Integration Connector"
 slug: "datadog-integration-connector-agent"
 description: "Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM trace ingestion, and dashboard JSON template management."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/DataDog/dd-trace-js"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"

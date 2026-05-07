@@ -2,7 +2,7 @@
 title: "GitLab CI Cache Optimizer"
 slug: "gitlab-ci-cache-optimizer-agent"
 description: "Optimizes GitLab CI/CD cache configurations using the GitLab Pipelines API v4 and cache:key:files directive analysis. Reduces pipeline duration by identifying cache misses and suggesting optimal key strategies."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"
 framework: "Claude Code"

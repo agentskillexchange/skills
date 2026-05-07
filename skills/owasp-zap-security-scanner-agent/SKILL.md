@@ -2,9 +2,9 @@
 title: "OWASP ZAP Security Scanner Agent"
 slug: "owasp-zap-security-scanner-agent"
 description: "Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/zaproxy/zaproxy"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"

@@ -2,9 +2,9 @@
 title: "Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb"
 slug: "replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb"
 description: "Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review preserved site behavior before migration or investigation work."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/webrecorder/pywb"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "webrecorder/pywb"

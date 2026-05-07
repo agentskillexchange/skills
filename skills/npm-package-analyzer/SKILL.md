@@ -2,9 +2,9 @@
 title: "NPM Package Analyzer"
 slug: "npm-package-analyzer"
 description: "Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API, checks security advisories from npm audit, and maps dependency trees with arborist."
-verification: security_reviewed
+verification: verified
 source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "ChatGPT Agents"
 ---
 # NPM Package Analyzer

@@ -2,9 +2,9 @@
 title: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
 slug: "review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint"
 description: "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/hadolint/hadolint"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "hadolint/hadolint"

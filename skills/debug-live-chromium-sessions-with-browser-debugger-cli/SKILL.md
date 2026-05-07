@@ -2,9 +2,9 @@
 title: "Debug live Chromium sessions with browser-debugger-cli"
 slug: "debug-live-chromium-sessions-with-browser-debugger-cli"
 description: "Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/szymdzum/browser-debugger-cli"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "szymdzum/browser-debugger-cli"

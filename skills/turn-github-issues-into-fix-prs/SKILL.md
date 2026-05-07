@@ -2,7 +2,7 @@
 title: "Turn GitHub Issues into Fix PRs"
 slug: "turn-github-issues-into-fix-prs"
 description: "Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review comments. This is a bounded backlog-to-PR operator loop, not a general GitHub product listing."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/openclaw/openclaw/tree/main/skills/gh-issues"
 category: "Developer Tools"
 framework: "OpenClaw"

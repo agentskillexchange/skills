@@ -1,10 +1,10 @@
 ---
-title: "OpenAPI Spec Validator &#038; Mock Server"
+title: "OpenAPI Spec Validator & Mock Server"
 slug: "openapi-spec-validator-mock-server-2"
 description: "Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/stoplightio/prism"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "stoplightio/prism"

@@ -2,9 +2,9 @@
 title: "Prometheus AlertManager Bridge"
 slug: "prometheus-alertmanager-bridge"
 description: "Connects to Prometheus AlertManager API to query active alerts, silences, and alert groups. Parses PromQL alert rules and suggests runbook actions. Integrates with PagerDuty escalation policies."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/prometheus/prometheus"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"

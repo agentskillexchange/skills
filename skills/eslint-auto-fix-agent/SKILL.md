@@ -2,9 +2,9 @@
 title: "ESLint Auto-Fix Agent"
 slug: "eslint-auto-fix-agent"
 description: "Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js API. Supports custom rule configurations and staged file processing with lint-staged."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/eslint/eslint"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"

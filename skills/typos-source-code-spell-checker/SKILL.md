@@ -2,9 +2,9 @@
 title: "typos Source Code Spell Checker"
 slug: "typos-source-code-spell-checker"
 description: "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/crate-ci/typos"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "crate-ci/typos"

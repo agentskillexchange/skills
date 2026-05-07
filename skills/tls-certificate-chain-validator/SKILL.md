@@ -1,10 +1,10 @@
 ---
 title: "TLS Certificate Chain Validator"
 slug: "tls-certificate-chain-validator"
-description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let&#8217;s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
-verification: security_reviewed
+description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let’s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
+verification: verified
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "OpenClaw"
 ---
 # TLS Certificate Chain Validator

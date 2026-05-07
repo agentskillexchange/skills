@@ -2,9 +2,9 @@
 title: "Kubernetes Event Stream Analyzer"
 slug: "kubernetes-event-stream-analyzer"
 description: "Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/kubernetes/kubernetes"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Gemini, Multi-Framework"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"

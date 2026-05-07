@@ -2,9 +2,9 @@
 title: "Uptime Kuma Status Sync"
 slug: "uptime-kuma-status-sync"
 description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/louislam/uptime-kuma"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "louislam/uptime-kuma"

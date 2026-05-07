@@ -2,9 +2,9 @@
 title: "Generate Markdown tables of contents before publishing docs or README updates"
 slug: "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates"
 description: "Runs DocToc to insert or refresh navigable tables of contents inside Markdown files after headings already exist. Use it when an agent is preparing README or docs updates and needs reliable intra-document navigation, not when it is generating the documentation itself."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/thlorenz/doctoc"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "thlorenz/doctoc"

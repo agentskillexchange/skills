@@ -2,9 +2,9 @@
 title: "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI"
 slug: "start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli"
 description: "Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/kontext-security/kontext-cli"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "kontext-security/kontext-cli"

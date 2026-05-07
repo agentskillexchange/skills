@@ -2,9 +2,9 @@
 title: "Yeoman Generator Builder"
 slug: "yeoman-generator-builder"
 description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/yeoman/generator"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "yeoman/generator"

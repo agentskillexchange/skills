@@ -1,10 +1,10 @@
 ---
 title: "Study customer-service triage and handoff patterns with the OpenAI CS agents demo"
 slug: "study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo"
-description: "Use OpenAI&#8217;s customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and support-case orchestration before building a production support agent."
-verification: security_reviewed
+description: "Use OpenAI’s customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and support-case orchestration before building a production support agent."
+verification: verified
 source: "https://github.com/openai/openai-cs-agents-demo"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "openai/openai-cs-agents-demo"

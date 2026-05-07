@@ -2,9 +2,9 @@
 title: "Extract structured fields from HTML XML and JSON endpoints with Xidel selectors"
 slug: "extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors"
 description: "Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/benibela/xidel"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "benibela/xidel"

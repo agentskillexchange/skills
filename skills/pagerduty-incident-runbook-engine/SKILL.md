@@ -2,9 +2,9 @@
 title: "PagerDuty Incident Runbook Engine"
 slug: "pagerduty-incident-runbook-engine"
 description: "Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch for diagnostic data collection during incidents."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/PagerDuty/pdjs"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"

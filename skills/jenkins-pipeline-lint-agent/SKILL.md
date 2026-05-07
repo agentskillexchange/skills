@@ -2,7 +2,7 @@
 title: "Jenkins Pipeline Lint Agent"
 slug: "jenkins-pipeline-lint-agent"
 description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/jenkinsci/jenkins"
 category: "CI/CD Integrations"
 framework: "Claude Code"

@@ -2,9 +2,9 @@
 title: "Capture local screen and audio context so agents can search what happened on your device"
 slug: "capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device"
 description: "Use Screenpipe when an agent needs private, local-first memory of what you saw or heard on your computer, including searchable screen text, app context, and transcripts, instead of relying on a chat-only memory layer."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/screenpipe/screenpipe"
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "screenpipe/screenpipe"

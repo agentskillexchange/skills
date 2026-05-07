@@ -2,9 +2,9 @@
 title: "Vault Secrets Rotator"
 slug: "vault-secrets-rotator"
 description: "Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/hashicorp/vault"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/vault"

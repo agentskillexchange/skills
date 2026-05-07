@@ -2,9 +2,9 @@
 title: "Audit Go dependency licenses with go-licenses"
 slug: "audit-go-dependency-licenses-with-go-licenses"
 description: "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/google/go-licenses"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/go-licenses"

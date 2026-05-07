@@ -2,9 +2,9 @@
 title: "Parquet Column Pruning Optimizer"
 slug: "parquet-column-pruning-optimizer"
 description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ironSource/parquetjs"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "ironsource/parquetjs"

@@ -2,9 +2,9 @@
 title: "DevDocs Unified API Documentation Browser"
 slug: "devdocs-unified-api-documentation-browser"
 description: "DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with 38,000+ GitHub stars, it serves as a comprehensive reference for programming languages, frameworks, and tools."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/freeCodeCamp/devdocs"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "freeCodeCamp/devdocs"

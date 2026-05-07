@@ -2,9 +2,9 @@
 title: "Schema.org Structured Data Generator"
 slug: "schema-org-structured-data-generator"
 description: "Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/schemaorg/schemaorg"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "schemaorg/schemaorg"

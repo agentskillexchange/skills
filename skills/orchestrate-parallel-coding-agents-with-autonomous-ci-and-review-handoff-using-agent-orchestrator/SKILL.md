@@ -2,7 +2,7 @@
 title: "Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator"
 slug: "orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator"
 description: "Start one supervisor for a repository, fan work out across isolated worktrees, and route CI failures or review comments back to the right agent automatically."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ComposioHQ/agent-orchestrator"
 category: "CI/CD Integrations"
 framework: "Multi-Framework"

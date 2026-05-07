@@ -2,9 +2,9 @@
 title: "Present version-controlled markdown slide decks as terminal-native talks with Presenterm"
 slug: "present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm"
 description: "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/mfontanini/presenterm"
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mfontanini/presenterm"

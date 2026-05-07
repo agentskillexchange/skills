@@ -2,9 +2,9 @@
 title: "Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup"
 slug: "back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup"
 description: "Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of ad hoc file copying."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/pfrederiksen/synology-backup"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "pfrederiksen/synology-backup"

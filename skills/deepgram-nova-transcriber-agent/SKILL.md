@@ -2,9 +2,9 @@
 title: "Deepgram Nova Transcriber"
 slug: "deepgram-nova-transcriber-agent"
 description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
-verification: security_reviewed
+verification: verified
 source: "https://developers.deepgram.com/docs/model"
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "OpenClaw"
 ---
 # Deepgram Nova Transcriber

@@ -2,9 +2,9 @@
 title: "Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit"
 slug: "investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit"
 description: "Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided investigation steps for live incidents."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/DrDroidLab/sample-debug-agent"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "DrDroidLab/sample-debug-agent"

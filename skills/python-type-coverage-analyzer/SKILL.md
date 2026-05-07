@@ -1,10 +1,10 @@
 ---
 title: "Python Type Coverage Analyzer"
 slug: "python-type-coverage-analyzer"
-description: "Measures and improves Python type annotation coverage using mypy &#8211;html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
-verification: security_reviewed
+description: "Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
+verification: verified
 source: "https://github.com/python/mypy"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Gemini"
 tool_ecosystem:
   github_repo: "python/mypy"

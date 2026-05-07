@@ -2,9 +2,9 @@
 title: "Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint"
 slug: "lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint"
 description: "Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ansible/ansible-lint"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ansible/ansible-lint"

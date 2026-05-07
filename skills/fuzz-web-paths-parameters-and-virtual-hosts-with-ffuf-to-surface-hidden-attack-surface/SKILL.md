@@ -2,9 +2,9 @@
 title: "Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface"
 slug: "fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface"
 description: "Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ffuf/ffuf"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ffuf/ffuf"

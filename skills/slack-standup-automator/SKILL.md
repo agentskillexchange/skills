@@ -2,9 +2,9 @@
 title: "Slack Standup Automator"
 slug: "slack-standup-automator"
 description: "Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/slackapi/bolt-js"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"

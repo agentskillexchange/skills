@@ -2,7 +2,7 @@
 title: "Browser Session Replay Analyzer"
 slug: "browser-session-replay-analyzer"
 description: "Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/puppeteer/puppeteer"
 category: "Browser Automation"
 framework: "Custom Agents"

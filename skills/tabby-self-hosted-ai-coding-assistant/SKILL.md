@@ -2,7 +2,7 @@
 title: "Tabby Self-Hosted AI Coding Assistant and Copilot Alternative"
 slug: "tabby-self-hosted-ai-coding-assistant"
 description: "Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub Copilot. It provides code completion and chat capabilities using consumer-grade GPUs with no cloud dependency."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/TabbyML/tabby"
 category: "Developer Tools"
 framework: "Custom Agents"

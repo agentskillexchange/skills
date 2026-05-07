@@ -2,9 +2,9 @@
 title: "Whisper.cpp Local Transcription Engine"
 slug: "whisper-cpp-local-transcription-engine"
 description: "Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription. Supports beam search decoding, VAD-based segmentation, and SRT/VTT subtitle output formats."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/openai/whisper"
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "openai/whisper"

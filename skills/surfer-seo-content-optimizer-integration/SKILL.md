@@ -1,10 +1,10 @@
 ---
 title: "Surfer SEO Content Optimizer Integration"
 slug: "surfer-seo-content-optimizer-integration"
-description: "Optimizes content against Surfer SEO&#8217;s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
-verification: security_reviewed
+description: "Optimizes content against Surfer SEO’s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
+verification: verified
 source: "https://surferseo.com/"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Cursor"
 ---
 # Surfer SEO Content Optimizer Integration

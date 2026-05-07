@@ -2,9 +2,9 @@
 title: "ESLint Rule Composer"
 slug: "eslint-rule-composer"
 description: "Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/eslint/eslint"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "eslint/eslint"

@@ -2,9 +2,9 @@
 title: "Outlook Email Automation"
 slug: "outlook-email-automation"
 description: "Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads, classifies, and responds to emails via GET /me/messages and POST /me/sendMail. Moves processed messages into folders and tracks reply SLAs in a local SQLite store."
-verification: security_reviewed
+verification: verified
 source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 ---
 # Outlook Email Automation

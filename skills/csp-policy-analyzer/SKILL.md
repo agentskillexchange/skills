@@ -2,9 +2,9 @@
 title: "CSP Policy Analyzer"
 slug: "csp-policy-analyzer"
 description: "Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/google/csp-evaluator"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "google/csp-evaluator"

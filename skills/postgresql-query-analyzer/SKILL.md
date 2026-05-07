@@ -2,9 +2,9 @@
 title: "PostgreSQL Query Analyzer"
 slug: "postgresql-query-analyzer"
 description: "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views. Identifies missing indexes via pg_stat_user_tables sequential scan counters and suggests index creation with HypoPG extension."
-verification: security_reviewed
+verification: verified
 source: "https://www.npmjs.com/package/pg"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Gemini"
 tool_ecosystem:
   npm_package: "pg"

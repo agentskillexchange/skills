@@ -2,9 +2,9 @@
 title: "Figma Design Token Exporter"
 slug: "figma-design-token-exporter"
 description: "Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific formats via Style Dictionary. Supports CSS custom properties, Tailwind config, and iOS/Android native tokens."
-verification: security_reviewed
+verification: verified
 source: "https://developers.figma.com/docs/rest-api/"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Claude Code"
 ---
 # Figma Design Token Exporter

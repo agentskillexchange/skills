@@ -2,7 +2,7 @@
 title: "GitLab Pipeline Orchestrator"
 slug: "gitlab-pipeline-orchestrator"
 description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"
 framework: "OpenClaw"

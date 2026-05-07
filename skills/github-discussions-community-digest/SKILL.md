@@ -2,9 +2,9 @@
 title: "GitHub Discussions Community Digest"
 slug: "github-discussions-community-digest"
 description: "Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts a weekly digest via SendGrid. Automatically labels stale discussions as needs-triage via the GitHub REST API. Digest content is also mirrored as a pinned post to a linked Discord channel."
-verification: security_reviewed
+verification: verified
 source: "https://docs.github.com/en/discussions"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "MCP"
 ---
 # GitHub Discussions Community Digest

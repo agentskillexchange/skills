@@ -2,9 +2,9 @@
 title: "Swagger UI Documentation Deployer"
 slug: "swagger-ui-documentation-deployer"
 description: "Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/swagger-api/swagger-ui"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "swagger-api/swagger-ui"

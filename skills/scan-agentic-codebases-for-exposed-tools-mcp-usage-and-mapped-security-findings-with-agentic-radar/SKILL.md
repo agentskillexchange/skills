@@ -2,9 +2,9 @@
 title: "Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar"
 slug: "scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar"
 description: "Generate a reviewable security report for a supported agent workflow before deployment by scanning its code, tools, MCP usage, and known vulnerability surface."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/splx-ai/agentic-radar"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "splx-ai/agentic-radar"

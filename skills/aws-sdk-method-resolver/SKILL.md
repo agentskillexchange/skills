@@ -2,9 +2,9 @@
 title: "AWS SDK Method Resolver"
 slug: "aws-sdk-method-resolver"
 description: "Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/aws/aws-sdk-js-v3"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"

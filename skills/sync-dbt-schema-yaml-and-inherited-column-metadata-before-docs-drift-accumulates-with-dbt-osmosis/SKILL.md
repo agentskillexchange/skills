@@ -2,9 +2,9 @@
 title: "Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis"
 slug: "sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis"
 description: "Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between model changes."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/z3z1ma/dbt-osmosis"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "z3z1ma/dbt-osmosis"

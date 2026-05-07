@@ -2,7 +2,7 @@
 title: "Playwright Accessibility Audit Runner"
 slug: "playwright-accessibility-audit-runner"
 description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/microsoft/playwright"
 category: "Browser Automation"
 framework: "Cursor"

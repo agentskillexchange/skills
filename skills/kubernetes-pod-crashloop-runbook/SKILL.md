@@ -2,9 +2,9 @@
 title: "Kubernetes Pod Crashloop Runbook"
 slug: "kubernetes-pod-crashloop-runbook"
 description: "Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to identify root causes such as OOMKilled, misconfigured liveness probes, or missing ConfigMaps. Generates a step-by-step remediation runbook."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/kubernetes/kubernetes"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"

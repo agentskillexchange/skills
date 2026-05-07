@@ -2,9 +2,9 @@
 title: "NPM Package Dependency Analyzer"
 slug: "npm-package-dependency-analyzer"
 description: "Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular dependencies, license conflicts, and bundle size impacts via bundlephobia API."
-verification: security_reviewed
+verification: verified
 source: "https://agentskillexchange.com/skills/npm-package-dependency-analyzer/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Gemini"
 ---
 # NPM Package Dependency Analyzer

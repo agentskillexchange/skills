@@ -2,9 +2,9 @@
 title: "OpenAPI Spec Reference Indexer"
 slug: "openapi-spec-reference-indexer"
 description: "Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication flow mapping, and SDK generation metadata."
-verification: security_reviewed
+verification: verified
 source: "https://swagger.io/docs/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "MCP"
 ---
 # OpenAPI Spec Reference Indexer

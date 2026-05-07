@@ -2,9 +2,9 @@
 title: "Semgrep Custom Rule Builder"
 slug: "semgrep-custom-rule-builder-3"
 description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either, metavariable-regex, and taint-mode tracking for detecting framework-specific vulnerabilities in Python, Go, and JavaScript."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/semgrep/semgrep"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"

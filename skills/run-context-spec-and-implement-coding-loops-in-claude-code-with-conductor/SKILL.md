@@ -2,9 +2,9 @@
 title: "Run context → spec → implement coding loops in Claude Code with Conductor"
 slug: "run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor"
 description: "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/wshobson/agents/tree/main/plugins/conductor"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "wshobson/agents"

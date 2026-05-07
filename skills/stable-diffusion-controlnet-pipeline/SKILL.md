@@ -2,9 +2,9 @@
 title: "Stable Diffusion ControlNet Pipeline"
 slug: "stable-diffusion-controlnet-pipeline"
 description: "Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Stability-AI/stablediffusion"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Cursor"
 ---
 # Stable Diffusion ControlNet Pipeline

@@ -2,9 +2,9 @@
 title: "Stable Diffusion ControlNet Compositor"
 slug: "stable-diffusion-controlnet-compositor"
 description: "Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports and A1111 API batch processing."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/Stability-AI/stablediffusion"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Gemini"
 ---
 # Stable Diffusion ControlNet Compositor

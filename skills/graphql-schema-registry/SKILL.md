@@ -2,9 +2,9 @@
 title: "GraphQL Schema Registry"
 slug: "graphql-schema-registry"
 description: "Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/graphql/graphql-js"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"

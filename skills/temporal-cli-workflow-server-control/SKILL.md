@@ -2,7 +2,7 @@
 title: "Temporal CLI Workflow and Server Control"
 slug: "temporal-cli-workflow-server-control"
 description: "Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and debugging."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/temporalio/cli"
 category: "Developer Tools"
 framework: "Multi-Framework"

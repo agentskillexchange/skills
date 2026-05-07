@@ -2,9 +2,9 @@
 title: "Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA"
 slug: "iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa"
 description: "Use reflective search to improve prompts or text-configured agent components against a real eval set instead of manual prompt tweaking."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/gepa-ai/gepa"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "gepa-ai/gepa"

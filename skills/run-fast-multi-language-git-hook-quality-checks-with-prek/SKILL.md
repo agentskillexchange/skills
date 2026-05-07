@@ -2,9 +2,9 @@
 title: "Run fast multi-language Git hook quality checks with prek"
 slug: "run-fast-multi-language-git-hook-quality-checks-with-prek"
 description: "Use prek as a fast pre-commit-compatible hook runner so agents can lint, format, and policy-check repository changes before handing work back."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/j178/prek"
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "j178/prek"

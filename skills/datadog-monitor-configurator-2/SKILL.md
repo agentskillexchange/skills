@@ -2,9 +2,9 @@
 title: "Datadog Monitor Configurator"
 slug: "datadog-monitor-configurator-2"
 description: "Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/DataDog/dd-trace-js"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"

@@ -2,9 +2,9 @@
 title: "Markdown-to-AMP Article Converter"
 slug: "markdown-to-amp-article-converter"
 description: "Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against amphtml-validator and generates structured data with schema-dts."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/ampproject/amphtml"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "ampproject/amphtml"

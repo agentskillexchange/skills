@@ -2,9 +2,9 @@
 title: "Chroma MCP Server for Embedding Database Operations"
 slug: "chroma-mcp-server-embedding-database-operations"
 description: "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and metadata filtering through the Model Context Protocol."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/chroma-core/chroma-mcp"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "chroma-core/chroma-mcp"

@@ -2,9 +2,9 @@
 title: "Block secret leaks before commit or push with ggshield"
 slug: "block-secret-leaks-before-commit-or-push-with-ggshield"
 description: "Scan staged changes, commits, or repositories for secrets before they leave the workstation or CI job, instead of relying on a later platform-side catch."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/GitGuardian/ggshield"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "GitGuardian/ggshield"

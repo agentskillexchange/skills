@@ -2,9 +2,9 @@
 title: "Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook"
 slug: "run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook"
 description: "Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and cost control."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/digitalknk/openclaw-runbook"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "digitalknk/openclaw-runbook"

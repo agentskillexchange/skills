@@ -2,9 +2,9 @@
 title: "WooCommerce REST Inventory Sync"
 slug: "woocommerce-rest-inventory-sync"
 description: "Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation, low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch endpoint."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/woocommerce/woocommerce"
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"

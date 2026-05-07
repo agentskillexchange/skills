@@ -1,10 +1,10 @@
 ---
 title: "Adobe Firefly API Batch Image Generator"
 slug: "adobe-firefly-api-batch-image-generator"
-description: "Calls Adobe Firefly&#8217;s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs."
-verification: security_reviewed
+description: "Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs."
+verification: verified
 source: "https://developer.adobe.com/firefly-services/docs/firefly-api/"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Cursor"
 ---
 # Adobe Firefly API Batch Image Generator

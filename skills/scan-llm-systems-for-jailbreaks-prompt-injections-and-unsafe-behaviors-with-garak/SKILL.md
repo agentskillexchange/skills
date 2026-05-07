@@ -2,9 +2,9 @@
 title: "Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak"
 slug: "scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak"
 description: "Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/NVIDIA/garak"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "NVIDIA/garak"

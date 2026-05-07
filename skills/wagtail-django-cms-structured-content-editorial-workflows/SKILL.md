@@ -2,9 +2,9 @@
 title: "Wagtail Django CMS for Structured Content and Editorial Workflows"
 slug: "wagtail-django-cms-structured-content-editorial-workflows"
 description: "Wagtail is an open source CMS built on Django for teams that need structured content, flexible page models, and a polished editor experience. It works for traditional websites and headless builds, with a content API, image handling, search, and multi-site support baked in."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/wagtail/wagtail"
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wagtail/wagtail"

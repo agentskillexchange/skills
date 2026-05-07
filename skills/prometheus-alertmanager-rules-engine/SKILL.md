@@ -2,9 +2,9 @@
 title: "Prometheus AlertManager Rules Engine"
 slug: "prometheus-alertmanager-rules-engine"
 description: "Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/prometheus/prometheus"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"

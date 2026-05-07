@@ -2,9 +2,9 @@
 title: "SerpAPI Research Pipeline"
 slug: "serpapi-research-pipeline"
 description: "Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints. Extracts entities via spaCy NER and stores results in SQLite with full-text search."
-verification: security_reviewed
+verification: verified
 source: "https://serpapi.com/"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Codex"
 ---
 # SerpAPI Research Pipeline

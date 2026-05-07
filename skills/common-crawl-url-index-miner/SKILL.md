@@ -2,9 +2,9 @@
 title: "Common Crawl URL Index Miner"
 slug: "common-crawl-url-index-miner"
 description: "Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch."
-verification: security_reviewed
+verification: verified
 source: "https://github.com/commoncrawl/cc-index-table"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "commoncrawl/cc-index-table"
