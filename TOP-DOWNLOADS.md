@@ -13,7 +13,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 5 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | 52.5M/wk | sharp | Image & Creative Automation |
 | 6 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
 | 7 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
-| 8 | [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | 36.4M/wk | puppeteer | Browser Automation |
+| 8 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 9 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 10 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 11 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |

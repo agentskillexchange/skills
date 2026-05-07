@@ -270,7 +270,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9861
+        "github_stars": 9861,
+        "npm_weekly_downloads": 138606
       }
     },
     {
@@ -285,7 +286,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 676
+        "github_stars": 676,
+        "npm_weekly_downloads": 12341
       }
     },
     {
@@ -300,7 +302,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10658
+        "github_stars": 10658,
+        "npm_weekly_downloads": 694
       }
     },
     {
@@ -9552,7 +9555,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 94115
+        "github_stars": 94115,
+        "npm_weekly_downloads": 40191842
       }
     },
     {
@@ -14015,6 +14019,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94016,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -18801,6 +18806,7 @@
       "signals": {
         "tool": "mcp-server-neon",
         "github_stars": 567,
+        "npm_weekly_downloads": 15537,
         "license": "MIT"
       }
     },
@@ -21405,7 +21411,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "puppeteer",
-        "github_stars": 94051
+        "github_stars": 94051,
+        "npm_weekly_downloads": 40191842
       }
     },
     {
@@ -21972,7 +21979,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "puppeteer",
-        "github_stars": 94192
+        "github_stars": 94192,
+        "npm_weekly_downloads": 40191842
       }
     },
     {
@@ -22496,6 +22504,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -22995,6 +23004,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -24086,6 +24096,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -24510,6 +24521,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -25497,6 +25509,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -26794,6 +26807,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -28398,6 +28412,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -28952,6 +28967,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -29349,6 +29365,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -30514,6 +30531,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -30714,6 +30732,7 @@
       "signals": {
         "tool": "puppeteer",
         "github_stars": 94115,
+        "npm_weekly_downloads": 40191842,
         "license": "Apache-2.0"
       }
     },
@@ -37988,6 +38007,7 @@
       "signals": {
         "tool": "mcp-server-neon",
         "github_stars": 594,
+        "npm_weekly_downloads": 15537,
         "license": "MIT"
       }
     },

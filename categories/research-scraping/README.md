@@ -26,13 +26,13 @@ Web research, data collection, content aggregation, and information gathering.
 | [Firecrawl Web Data API for AI Agents](../../skills/firecrawl-web-data-api-for-ai-agents/) | ⬇ 166.4k/wk |
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | ⬇ 166.4k/wk |
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | ⬇ 256.8k/wk |
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | ⬇ 40.2M/wk |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | ⬇ 40.2M/wk |
+| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | ⬇ 40.2M/wk |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⬇ 47.9M/wk |
 | [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | ⬇ 47.9M/wk |
 | [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | ⬇ 47.9M/wk |
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | ⬇ 19.6M/wk |
-| [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⬇ 19.6M/wk |
-| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | ⬇ 96.2k/wk |
-| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⬇ 80.8k/wk |
 
 ---
 
@@ -43,9 +43,9 @@ Web research, data collection, content aggregation, and information gathering.
 | [Firecrawl Web Data API for AI Agents](../../skills/firecrawl-web-data-api-for-ai-agents/) | 108.8k | 166.4k/wk |
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | 108.8k | 166.4k/wk |
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | 102.6k | 256.8k/wk |
-| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | 94.1k | — |
-| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | 94.1k | — |
-| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | 94.1k | — |
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | 94.1k | 40.2M/wk |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | 94.1k | 40.2M/wk |
+| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | 94.1k | 40.2M/wk |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | 86.4k | 47.9M/wk |
 | [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | 86.4k | 47.9M/wk |
 | [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | 86.4k | 47.9M/wk |

@@ -8,7 +8,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 |---|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | ⭐ 116.2k |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | ⭐ 94.2k |
-| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⭐ 94.1k |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | ⭐ 94.1k |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 94.1k |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | ⭐ 94.1k |
@@ -16,6 +15,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 94.1k |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 94.1k |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 94.1k |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 94.1k |
 
 ---
 
@@ -23,16 +23,16 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Downloads |
 |---|---:|
-| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⬇ 36.4M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | ⬇ 47.2M/wk |
-| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | ⬇ 47.9M/wk |
-| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | ⬇ 47.9M/wk |
-| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | ⬇ 47.9M/wk |
-| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | ⬇ 47.9M/wk |
-| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | ⬇ 47.9M/wk |
-| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | ⬇ 47.9M/wk |
-| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | ⬇ 47.9M/wk |
-| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⬇ 47.9M/wk |
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | ⬇ 40.2M/wk |
+| [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | ⬇ 40.2M/wk |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⬇ 40.2M/wk |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | ⬇ 40.2M/wk |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | ⬇ 40.2M/wk |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⬇ 40.2M/wk |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⬇ 40.2M/wk |
+| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⬇ 40.2M/wk |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⬇ 40.2M/wk |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | ⬇ 40.2M/wk |
 
 ---
 
@@ -41,18 +41,18 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | 116.2k | — |
-| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | 94.2k | — |
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | 94.2k | 40.2M/wk |
+| [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | 94.1k | 40.2M/wk |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94.1k | 40.2M/wk |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | 94.1k | 40.2M/wk |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | 94.1k | 40.2M/wk |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | 94.1k | 40.2M/wk |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | 94.1k | 40.2M/wk |
+| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | 94.1k | 40.2M/wk |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | 94.1k | 40.2M/wk |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | 40.2M/wk |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
-| [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | 94.1k | — |
-| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94.1k | — |
-| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | 94.1k | — |
-| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | 94.1k | — |
-| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | 94.1k | — |
-| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | 94.1k | — |
-| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | 94.1k | — |
-| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | 94.1k | — |
-| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | — |
-| [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | — |
+| [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | 40.2M/wk |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | 88.1k | 47.2M/wk |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |

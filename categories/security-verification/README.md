@@ -25,6 +25,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 4k/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
+| [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | ⬇ 9.3M/wk |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | ⬇ 3.3M/wk |
 | [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](../../skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | ⬇ 3.4k/wk |
@@ -32,7 +33,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | ⬇ 90/wk |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | ⬇ 1.5k/wk |
 | [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | ⬇ 2.9k/wk |
-| [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | ⬇ 1.6k/wk |
 
 ---
 
@@ -105,7 +105,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](../../skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
-| [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | 10.7k | — |
+| [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | 10.7k | 694/wk |
 | [Give MCP agents disposable code execution sandboxes with OpenSandbox MCP](../../skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/) | 10.2k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |

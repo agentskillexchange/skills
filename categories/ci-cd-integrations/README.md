@@ -29,10 +29,10 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
+| [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | ⬇ 12.3k/wk |
 | [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | ⬇ 2.8k/wk |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
 | [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | ⬇ 12.8M/wk |
-| [Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI](../../skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/) | ⬇ 27.2k/wk |
 
 ---
 
@@ -194,7 +194,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | 843 | — |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 843 | — |
 | [Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL](../../skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/) | 804 | — |
-| [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | 676 | — |
+| [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | 676 | 12.3k/wk |
 | [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | 585 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |

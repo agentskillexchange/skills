@@ -2,7 +2,7 @@
 title: "Control Android devices with an on-device AI agent using PokeClaw"
 slug: "control-android-devices-with-an-on-device-ai-agent-using-pokeclaw"
 description: "Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation and testing workflows."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/agents-io/PokeClaw"
 category: "Developer Tools"
 framework: "Multi-Framework"
