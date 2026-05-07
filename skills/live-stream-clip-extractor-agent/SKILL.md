@@ -2,7 +2,7 @@
 title: "Live Stream Clip Extractor"
 slug: "live-stream-clip-extractor-agent"
 description: "Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment detection. Identifies peak moments via chat velocity analysis and audio energy spikes."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Media & Transcription"
 framework: "ChatGPT Agents"

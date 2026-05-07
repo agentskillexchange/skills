@@ -2,7 +2,7 @@
 title: "Protocol Buffers Documentation Compiler"
 slug: "protobuf-documentation-compiler"
 description: "Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates proto style with buf lint and produces gRPC service client stubs for multiple languages."
-verification: verified
+verification: security_reviewed
 source: "https://protobuf.dev/"
 category: "Library & API Reference"
 framework: "Cursor"

@@ -2,7 +2,7 @@
 title: "Buildkite Dynamic Pipeline Architect"
 slug: "buildkite-dynamic-pipeline-architect"
 description: "Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff."
-verification: verified
+verification: security_reviewed
 source: "https://buildkite.com/docs"
 category: "CI/CD Integrations"
 framework: "Cursor"

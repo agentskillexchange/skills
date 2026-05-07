@@ -2,7 +2,7 @@
 title: "Generate structured release notes from merged pull requests between two refs with Copilot Release Notes"
 slug: "generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes"
 description: "Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/github/copilot-release-notes"
 category: "CI/CD Integrations"
 framework: "Multi-Framework"

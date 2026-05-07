@@ -2,7 +2,7 @@
 title: "Search Help Scout conversations and thread context before drafting support replies"
 slug: "search-help-scout-conversations-and-thread-context-before-drafting-support-replies"
 description: "Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/drewburchfield/help-scout-mcp-server"
 category: "Calendar, Email & Productivity"
 framework: "MCP"

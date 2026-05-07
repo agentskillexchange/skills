@@ -2,7 +2,7 @@
 title: "Python PyPI Dependency Resolver"
 slug: "python-pypi-dependency-resolver"
 description: "Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked requirements files and checks compatibility across Python version markers via packaging library."
-verification: verified
+verification: security_reviewed
 source: "https://docs.pypi.org/"
 category: "Library & API Reference"
 framework: "MCP"

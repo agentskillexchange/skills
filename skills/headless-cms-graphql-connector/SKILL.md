@@ -2,7 +2,7 @@
 title: "Headless CMS GraphQL Connector"
 slug: "headless-cms-graphql-connector"
 description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds."
-verification: verified
+verification: security_reviewed
 source: "https://graphql.org/learn/queries/"
 category: "WordPress & CMS"
 framework: "Gemini"

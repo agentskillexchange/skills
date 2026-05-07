@@ -2,7 +2,7 @@
 title: "Datadog SLO Monitor"
 slug: "datadog-slo-monitor"
 description: "Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category: "Monitoring & Alerts"
 framework: "Claude Code"

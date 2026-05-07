@@ -2,7 +2,7 @@
 title: "Ansible Playbook Template Library"
 slug: "ansible-playbook-template-library"
 description: "Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/ansible/ansible"
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"

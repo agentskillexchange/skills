@@ -2,7 +2,7 @@
 title: "OpenAPI SDK Generator Pipeline"
 slug: "openapi-sdk-generator-pipeline"
 description: "Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript, Python, and Go clients with proper authentication interceptors and retry logic."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/OpenAPITools/openapi-generator"
 category: "Library & API Reference"
 framework: "Custom Agents"

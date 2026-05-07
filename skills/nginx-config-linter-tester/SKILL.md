@@ -2,7 +2,7 @@
 title: "Nginx Config Linter and Tester"
 slug: "nginx-config-linter-tester"
 description: "Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"

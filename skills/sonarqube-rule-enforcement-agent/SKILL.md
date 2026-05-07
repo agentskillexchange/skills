@@ -2,7 +2,7 @@
 title: "SonarQube Rule Enforcement Agent"
 slug: "sonarqube-rule-enforcement-agent"
 description: "Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security hotspots, or duplications exceed configurable thresholds."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category: "Code Quality & Review"
 framework: "Claude Code"

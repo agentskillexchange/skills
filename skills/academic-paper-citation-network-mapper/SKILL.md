@@ -2,7 +2,7 @@
 title: "Academic Paper Citation Network Mapper"
 slug: "academic-paper-citation-network-mapper"
 description: "Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields."
-verification: verified
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
 category: "Research & Scraping"
 framework: "OpenClaw"

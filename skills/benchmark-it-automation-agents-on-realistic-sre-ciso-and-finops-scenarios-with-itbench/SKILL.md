@@ -2,7 +2,7 @@
 title: "Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench"
 slug: "benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench"
 description: "Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/itbench-hub/ITBench"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"

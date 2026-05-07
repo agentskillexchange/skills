@@ -2,7 +2,7 @@
 title: "Trace Python memory allocation hotspots before leaks and spikes reach production with Memray"
 slug: "trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray"
 description: "Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths before memory growth turns into a production incident."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/bloomberg/memray"
 category: "Monitoring & Alerts"
 framework: "Multi-Framework"

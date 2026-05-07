@@ -2,7 +2,7 @@
 title: "Mermaid CLI Diagram-as-Code Renderer"
 slug: "mermaid-cli-diagram-as-code-renderer"
 description: "Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram definitions into SVG, PNG, and PDF output files, enabling automated diagram generation from code."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/mermaid-js/mermaid-cli"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"

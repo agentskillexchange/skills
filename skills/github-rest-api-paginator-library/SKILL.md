@@ -2,7 +2,7 @@
 title: "GitHub REST API Paginator Library"
 slug: "github-rest-api-paginator-library"
 description: "Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest plugin. Handles Link header parsing, rate limit detection via X-RateLimit-Remaining, and automatic retry with exponential backoff. Supports listing issues, pull requests, commits, and workflow runs with async iterator patterns."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/octokit/plugin-paginate-rest.js"
 category: "Library & API Reference"
 framework: "Codex"

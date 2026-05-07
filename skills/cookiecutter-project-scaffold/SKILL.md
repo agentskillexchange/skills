@@ -2,7 +2,7 @@
 title: "Cookiecutter Project Scaffold"
 slug: "cookiecutter-project-scaffold"
 description: "Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for post-generation linting via Ruff and pre-commit framework setup."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"

@@ -2,7 +2,7 @@
 title: "Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam"
 slug: "red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam"
 description: "Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/confident-ai/deepteam"
 category: "Security & Verification"
 framework: "Multi-Framework"

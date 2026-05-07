@@ -2,7 +2,7 @@
 title: "MkDocs Project Documentation Generator"
 slug: "mkdocs-project-documentation-generator"
 description: "MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from Markdown files. Configured with a single YAML file, it transforms documentation source files into professional, navigable websites with built-in themes and plugin support."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/mkdocs/mkdocs"
 category: "Developer Tools"
 framework: "Multi-Framework"

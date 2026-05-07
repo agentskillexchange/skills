@@ -2,7 +2,7 @@
 title: "LlamaIndex Agent"
 slug: "llamaindex-agent"
 description: "LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and preserving [&hellip;]"
-verification: verified
+verification: security_reviewed
 source: "https://github.com/run-llama/llama_index"
 category: "Developer Tools"
 framework: "Custom Agents"

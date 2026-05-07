@@ -2,7 +2,7 @@
 title: "REST API Testing Reference Kit"
 slug: "rest-api-testing-reference-kit"
 description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
-verification: verified
+verification: security_reviewed
 source: "https://swagger.io/solutions/api-testing/"
 category: "Library & API Reference"
 framework: "Cursor"

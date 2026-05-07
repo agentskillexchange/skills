@@ -2,7 +2,7 @@
 title: "Kubernetes Pod Crash Diagnostics"
 slug: "kubernetes-pod-crash-diagnostics-3"
 description: "Runs kubectl describe pod, kubectl logs &#8211;previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 category: "Developer Tools"
 framework: "Custom Agents"

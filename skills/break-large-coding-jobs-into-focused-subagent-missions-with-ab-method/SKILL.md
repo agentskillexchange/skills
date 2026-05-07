@@ -2,7 +2,7 @@
 title: "Break large coding jobs into focused subagent missions with AB Method"
 slug: "break-large-coding-jobs-into-focused-subagent-missions-with-ab-method"
 description: "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/ayoubben18/ab-method"
 category: "Templates & Workflows"
 framework: "Claude Code"

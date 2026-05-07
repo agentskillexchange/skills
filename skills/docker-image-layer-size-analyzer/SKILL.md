@@ -2,7 +2,7 @@
 title: "Docker Image Layer Size Analyzer"
 slug: "docker-image-layer-size-analyzer"
 description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/moby/moby"
 category: "CI/CD Integrations"
 framework: "Gemini"

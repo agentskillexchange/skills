@@ -2,7 +2,7 @@
 title: "Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS"
 slug: "stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs"
 description: "Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/stryker-mutator/stryker-js"
 category: "Code Quality & Review"
 framework: "Multi-Framework"

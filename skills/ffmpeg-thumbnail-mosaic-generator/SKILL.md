@@ -2,7 +2,7 @@
 title: "FFmpeg Thumbnail Mosaic Generator"
 slug: "ffmpeg-thumbnail-mosaic-generator"
 description: "Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper. Generates contact sheets, animated GIF previews, and WebVTT thumbnail tracks."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Image & Creative Automation"
 framework: "Claude Code"

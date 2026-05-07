@@ -2,7 +2,7 @@
 title: "Git Secret Scanner"
 slug: "git-secret-scanner"
 description: "Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log –all -p analysis."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/gitleaks/gitleaks"
 category: "Security & Verification"
 framework: "Claude Agents"

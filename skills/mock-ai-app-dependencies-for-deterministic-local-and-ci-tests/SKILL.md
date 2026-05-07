@@ -2,7 +2,7 @@
 title: "Mock AI app dependencies for deterministic local and CI tests"
 slug: "mock-ai-app-dependencies-for-deterministic-local-and-ci-tests"
 description: "Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on live providers."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/CopilotKit/aimock"
 category: "Code Quality & Review"
 framework: "Multi-Framework"

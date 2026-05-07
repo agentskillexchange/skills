@@ -2,7 +2,7 @@
 title: "Lottie Animation Optimizer"
 slug: "lottie-animation-optimizer"
 description: "Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS)."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/airbnb/lottie-web"
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"

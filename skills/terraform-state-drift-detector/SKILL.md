@@ -2,7 +2,7 @@
 title: "Terraform State Drift Detector"
 slug: "terraform-state-drift-detector"
 description: "Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"

@@ -2,7 +2,7 @@
 title: "Playwright Test Report to Slack"
 slug: "playwright-test-report-to-slack"
 description: "Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"

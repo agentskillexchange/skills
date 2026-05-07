@@ -2,7 +2,7 @@
 title: "WPGraphQL GraphQL API for WordPress"
 slug: "wpgraphql-graphql-api-wordpress"
 description: "Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for querying posts, custom post types, menus, taxonomies, and custom fields through typed GraphQL operations instead of ad hoc REST fetches."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
 category: "WordPress & CMS"
 framework: "Multi-Framework"

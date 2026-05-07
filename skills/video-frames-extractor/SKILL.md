@@ -5,7 +5,7 @@ description: "Extract frames and short clips from videos.
 Core Capabilities
 Process audio and video files using ffmpeg for transcription and analysis
 Extract text, timestamps, and speaker metadata from media cont"
-verification: verified
+verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Media & Transcription"
 framework: "OpenClaw"

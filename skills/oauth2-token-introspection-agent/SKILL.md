@@ -2,7 +2,7 @@
 title: "OAuth2 Token Introspection Agent"
 slug: "oauth2-token-introspection-agent"
 description: "Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time."
-verification: verified
+verification: security_reviewed
 source: "https://auth0.com/docs/secure/tokens/access-tokens/validate-access-tokens"
 category: "Security & Verification"
 framework: "OpenClaw"

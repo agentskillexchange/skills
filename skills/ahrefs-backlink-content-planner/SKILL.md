@@ -2,7 +2,7 @@
 title: "Ahrefs Backlink Content Planner"
 slug: "ahrefs-backlink-content-planner"
 description: "Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics."
-verification: verified
+verification: security_reviewed
 source: "https://docs.ahrefs.com/"
 category: "Content Writing & SEO"
 framework: "Gemini"

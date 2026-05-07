@@ -2,7 +2,7 @@
 title: "NPM Package Explorer"
 slug: "npm-package-explorer-registry-api"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
-verification: verified
+verification: security_reviewed
 source: "https://docs.npmjs.com/"
 category: "Library & API Reference"
 framework: "Cursor"

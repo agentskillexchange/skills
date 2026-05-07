@@ -2,7 +2,7 @@
 title: "Reproduce SQL injection paths and map database takeover options with sqlmap"
 slug: "reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap"
 description: "Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/sqlmapproject/sqlmap"
 category: "Security & Verification"
 framework: "Multi-Framework"

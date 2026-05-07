@@ -2,7 +2,7 @@
 title: "Tiptap Headless Rich Text Editor Framework for Web Applications"
 slug: "tiptap-headless-rich-text-editor-framework"
 description: "Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue, and plain JavaScript with no preset UI constraints."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/ueberdosis/tiptap"
 category: "Content Writing & SEO"
 framework: "Multi-Framework"

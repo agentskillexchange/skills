@@ -2,7 +2,7 @@
 title: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
 slug: "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern"
 description: "Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/stern/stern"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"

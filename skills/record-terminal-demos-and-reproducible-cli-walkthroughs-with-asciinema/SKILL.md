@@ -2,7 +2,7 @@
 title: "Record terminal demos and reproducible CLI walkthroughs with asciinema"
 slug: "record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema"
 description: "Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/asciinema/asciinema"
 category: "Media & Transcription"
 framework: "Multi-Framework"

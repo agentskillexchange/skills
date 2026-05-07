@@ -2,7 +2,7 @@
 title: "Camelot PDF Stream Parser"
 slug: "camelot-pdf-stream-parser"
 description: "Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/camelot-dev/camelot"
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"

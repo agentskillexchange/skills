@@ -2,7 +2,7 @@
 title: "Detect repository licenses before dependency approval or open-source due diligence"
 slug: "detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence"
 description: "Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before a dependency is approved or a codebase is redistributed. The skill is about evidence-backed license detection, not legal advice or broader compliance automation."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/licensee/licensee"
 category: "Security & Verification"
 framework: "Multi-Framework"

@@ -2,7 +2,7 @@
 title: "Dolby.io Media Enhancer"
 slug: "dolby-io-media-enhancer-agent"
 description: "Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint."
-verification: verified
+verification: security_reviewed
 source: "https://optiview.dolby.com/docs/"
 category: "Media & Transcription"
 framework: "Cursor"

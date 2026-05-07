@@ -2,7 +2,7 @@
 title: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
 slug: "realtimestt-low-latency-speech-to-text-python"
 description: "RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/KoljaB/RealtimeSTT"
 category: "Media & Transcription"
 framework: "Custom Agents"

@@ -2,7 +2,7 @@
 title: "Terraform Plan Analyzer"
 slug: "terraform-plan-analyzer-agent"
 description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category: "CI/CD Integrations"
 framework: "Claude Code"

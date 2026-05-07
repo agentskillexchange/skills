@@ -2,7 +2,7 @@
 title: "Coqui TTS Deep Learning Text-to-Speech Toolkit"
 slug: "coqui-tts-deep-learning-text-to-speech-toolkit"
 description: "An agent skill built on Coqui TTS, the open-source deep learning toolkit for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS model architectures including VITS, Tacotron2, and GlowTTS, with support for voice cloning, multilingual synthesis, and on-the-fly voice conversion."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/coqui-ai/TTS"
 category: "Media & Transcription"
 framework: "Custom Agents"

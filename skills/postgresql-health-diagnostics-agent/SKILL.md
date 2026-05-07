@@ -2,7 +2,7 @@
 title: "PostgreSQL Health Diagnostics Agent"
 slug: "postgresql-health-diagnostics-agent"
 description: "Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance issues. Analyzes slow queries via pg_stat_statements and checks vacuum status through pg_stat_all_tables autovacuum columns."
-verification: verified
+verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category: "Runbooks & Diagnostics"
 framework: "MCP"

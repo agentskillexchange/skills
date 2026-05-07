@@ -2,7 +2,7 @@
 title: "Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device"
 slug: "control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device"
 description: "Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect logs, network traces, and performance evidence during debugging."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/callstackincubator/agent-device"
 category: "Browser Automation"
 framework: "Multi-Framework"

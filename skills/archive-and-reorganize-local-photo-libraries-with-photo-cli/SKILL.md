@@ -2,7 +2,7 @@
 title: "Archive and reorganize local photo libraries with photo-cli"
 slug: "archive-and-reorganize-local-photo-libraries-with-photo-cli"
 description: "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder structure without moving into a hosted photo platform."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/photo-cli/photo-cli"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"

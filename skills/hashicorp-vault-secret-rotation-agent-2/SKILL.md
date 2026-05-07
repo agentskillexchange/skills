@@ -2,7 +2,7 @@
 title: "HashiCorp Vault Secret Rotation Agent"
 slug: "hashicorp-vault-secret-rotation-agent-2"
 description: "Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/hashicorp/vault"
 category: "Security & Verification"
 framework: "MCP"

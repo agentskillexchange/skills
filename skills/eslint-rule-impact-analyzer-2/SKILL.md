@@ -2,7 +2,7 @@
 title: "ESLint Rule Impact Analyzer"
 slug: "eslint-rule-impact-analyzer-2"
 description: "Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and @typescript-eslint/parser. Generates violation heatmaps, estimates auto-fix coverage, and prioritizes rules by fix effort."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"
 framework: "Cursor"

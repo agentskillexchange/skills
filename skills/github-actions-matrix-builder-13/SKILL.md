@@ -2,7 +2,7 @@
 title: "GitHub Actions Matrix Builder"
 slug: "github-actions-matrix-builder-13"
 description: "Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml. Automatically detects language versions, OS targets, and dependency variations from repository configuration files."
-verification: verified
+verification: security_reviewed
 source: "https://docs.github.com/en/actions"
 category: "CI/CD Integrations"
 framework: "OpenClaw"

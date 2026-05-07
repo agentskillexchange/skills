@@ -2,7 +2,7 @@
 title: "Stripe Connect Integration"
 slug: "stripe-connect-integration"
 description: "Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents with application fees, and processes Connect webhooks."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category: "Integrations & Connectors"
 framework: "ChatGPT Agents"

@@ -2,7 +2,7 @@
 title: "Nginx Error Log Analyzer and Fixer"
 slug: "nginx-error-log-analyzer-fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"

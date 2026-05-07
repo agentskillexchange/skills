@@ -2,7 +2,7 @@
 title: "Sentry for AI"
 slug: "sentry-for-ai"
 description: "Observability and debugging support for AI-assisted application workflows."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/getsentry/sentry-for-ai"
 category: "Security & Verification"
 framework: "Claude Code, Cursor, Custom Agents"

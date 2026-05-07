@@ -2,7 +2,7 @@
 title: "Formbricks Open-Source Survey Platform"
 slug: "formbricks-open-source-survey-platform"
 description: "Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app surveys. This skill helps agents work with the real Formbricks product model for feedback collection, survey delivery, self-hosting, and analysis workflows."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/formbricks/formbricks"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"

@@ -2,7 +2,7 @@
 title: "CycloneDX SBOM Generator"
 slug: "cyclonedx-sbom-generator"
 description: "Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for known CVEs via OSV.dev API integration."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/cdxgen/cdxgen"
 category: "Security & Verification"
 framework: "Cursor"

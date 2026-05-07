@@ -6,7 +6,7 @@
 
 [![Published](https://img.shields.io/badge/published-2%2C428-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C422-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C425-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
@@ -72,12 +72,12 @@ A strong cross-section of high-signal skills across the catalog.
 | [Extract clean article Markdown from web pages with Defuddle](skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | extract-clean-article-markdown-from-web-pages-with-defuddle | 7.2k | Developer Tools |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Templates &amp; Workflows |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Templates &amp; Workflows |
-| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer | 10.7k | Security &amp; Verification |
 | [Run AI browser regression checks with Playwright and multi-model verification through Passmark](skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark | 676 | CI/CD Integrations |
+| [Use RAGFlow as a retrieval and context layer for agent workflows](skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows | 79.8k | Data Extraction &amp; Transformation |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
+| [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | build-document-grounded-agent-context-workflows-with-ragflow | 79.8k | Data Extraction &amp; Transformation |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Code Quality &amp; Review |
-| [Drive token-efficient browser testing from coding agents with Playwright CLI](skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli | 10k | Browser Automation |
-| [Run browser and API automation through the Playwright MCP server](skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | run-browser-and-api-automation-through-the-playwright-mcp-server | 5.5k | Browser Automation |
 
 ---
 
@@ -143,7 +143,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 | Tier | Count | Meaning |
 |------|------:|---|
 | 📋 **Published** | 2,428 | In the catalog, every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,422 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 🛡️ **Security Reviewed** | 2,425 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

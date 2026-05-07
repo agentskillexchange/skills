@@ -2,7 +2,7 @@
 title: "Prettier Config Harmonizer"
 slug: "prettier-config-harmonizer-2"
 description: "Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/prettier/prettier"
 category: "Code Quality & Review"
 framework: "Cursor"

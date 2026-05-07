@@ -2,7 +2,7 @@
 title: "Postgres MCP Pro"
 slug: "postgres-mcp-pro"
 description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/crystaldba/postgres-mcp"
 category: "Data Extraction & Transformation"
 framework: "MCP"

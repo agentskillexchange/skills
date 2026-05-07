@@ -2,7 +2,7 @@
 title: "dbt Model Lineage & Test Coverage Checker"
 slug: "dbt-model-lineage-test-coverage-2"
 description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/dbt-labs/dbt-core"
 category: "Data Extraction & Transformation"
 framework: "Cursor"

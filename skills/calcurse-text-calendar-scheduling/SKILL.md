@@ -2,7 +2,7 @@
 title: "calcurse Text-Based Calendar and Scheduling Application"
 slug: "calcurse-text-calendar-scheduling"
 description: "calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events, appointments, and everyday tasks with a curses-based TUI, configurable notifications, and CalDAV synchronization support."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/lfos/calcurse"
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"

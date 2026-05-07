@@ -2,7 +2,7 @@
 title: "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine"
 slug: "run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine"
 description: "Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/TheCraigHewitt/seomachine"
 category: "Content Writing & SEO"
 framework: "Claude Code"

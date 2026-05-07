@@ -2,7 +2,7 @@
 title: "WooCommerce Order Sync Agent"
 slug: "woocommerce-order-sync-agent"
 description: "Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles order status webhooks, inventory adjustments via wc_update_product_stock, and generates reconciliation reports."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/woocommerce/woocommerce"
 category: "WordPress & CMS"
 framework: "OpenClaw"

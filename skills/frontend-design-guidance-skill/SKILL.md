@@ -2,7 +2,7 @@
 title: "Frontend Design Guidance Skill"
 slug: "frontend-design-guidance-skill"
 description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
-verification: verified
+verification: security_reviewed
 source: "https://www.superdesign.dev/"
 category: "Developer Tools"
 framework: "OpenClaw"

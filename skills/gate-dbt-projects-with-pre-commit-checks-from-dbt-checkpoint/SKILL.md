@@ -2,7 +2,7 @@
 title: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
 slug: "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint"
 description: "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
 category: "Code Quality & Review"
 framework: "Multi-Framework"

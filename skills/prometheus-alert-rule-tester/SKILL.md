@@ -2,7 +2,7 @@
 title: "Prometheus Alert Rule Tester"
 slug: "prometheus-alert-rule-tester"
 description: "Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"

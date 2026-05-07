@@ -2,7 +2,7 @@
 title: "Ruff Linter and Formatter"
 slug: "ruff-linter-formatter-agent"
 description: "Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import sorting (isort-compatible), and rule selection from 800+ built-in rules."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/astral-sh/ruff"
 category: "Code Quality & Review"
 framework: "Claude Code"

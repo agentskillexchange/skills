@@ -2,7 +2,7 @@
 title: "GraphQL Introspection Documenter"
 slug: "graphql-introspection-documenter"
 description: "Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category: "Library & API Reference"
 framework: "Claude Agents"

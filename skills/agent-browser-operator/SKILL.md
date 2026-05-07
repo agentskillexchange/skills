@@ -2,7 +2,7 @@
 title: "Agent Browser Operator"
 slug: "agent-browser-operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category: "Browser Automation"
 framework: "Custom Agents, OpenClaw"

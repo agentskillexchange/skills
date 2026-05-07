@@ -2,7 +2,7 @@
 title: "OWASP ZAP Automated Pen Testing Agent"
 slug: "owasp-zap-automated-pen-testing-agent"
 description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category: "Security & Verification"
 framework: "ChatGPT Agents"

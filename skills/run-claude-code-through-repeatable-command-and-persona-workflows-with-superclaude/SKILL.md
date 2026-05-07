@@ -2,7 +2,7 @@
 title: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
 slug: "run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude"
 description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 category: "Templates & Workflows"
 framework: "Claude Code"

@@ -2,7 +2,7 @@
 title: "Convert SMTP-only alerts into routed notification deliveries with Mailrise"
 slug: "convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise"
 description: "Use Mailrise to accept ordinary email alerts and fan them out through Apprise-backed notification channels when legacy systems can only speak SMTP."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/YoRyan/mailrise"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"

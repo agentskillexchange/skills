@@ -2,7 +2,7 @@
 title: "FFmpeg Audio Normalization Pipeline"
 slug: "ffmpeg-audio-normalization-pipeline"
 description: "Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis. Measures integrated LUFS, true peak, and loudness range via ffmpeg -af loudnorm=print_format=json."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Media & Transcription"
 framework: "OpenClaw"

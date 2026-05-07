@@ -2,7 +2,7 @@
 title: "Package Vulnerability Scanner"
 slug: "package-vuln-scanner-osv-api"
 description: "Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/google/osv.dev"
 category: "Developer Tools"
 framework: "Codex"

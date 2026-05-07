@@ -2,7 +2,7 @@
 title: "SerpAPI Scholar Agent"
 slug: "serpapi-scholar-agent"
 description: "Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API."
-verification: verified
+verification: security_reviewed
 source: "https://serpapi.com/google-scholar-api"
 category: "Research & Scraping"
 framework: "Claude Code"

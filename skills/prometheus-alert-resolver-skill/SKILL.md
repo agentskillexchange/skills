@@ -2,7 +2,7 @@
 title: "Prometheus Alert Resolver"
 slug: "prometheus-alert-resolver-skill"
 description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 category: "Runbooks & Diagnostics"
 framework: "Gemini"

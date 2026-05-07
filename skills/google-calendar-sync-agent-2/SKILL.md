@@ -2,7 +2,7 @@
 title: "Google Calendar Sync Agent"
 slug: "google-calendar-sync-agent-2"
 description: "Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and conflict resolution."
-verification: verified
+verification: security_reviewed
 source: "https://developers.google.com/calendar/api"
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"

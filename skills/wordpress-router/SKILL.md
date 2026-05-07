@@ -6,7 +6,7 @@ Core Capabilities
 Manage WordPress sites using WP-CLI and the WordPress REST API
 Automate plugin, theme, and core update workflows
 Handle content op"
-verification: verified
+verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category: "WordPress & CMS"
 framework: "OpenClaw"

@@ -2,7 +2,7 @@
 title: "OpenAPI Spec Linter & Docs Generator"
 slug: "openapi-spec-linter-docs-generator"
 description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/stoplightio/spectral"
 category: "Library & API Reference"
 framework: "Claude Agents"

@@ -2,7 +2,7 @@
 title: "PostgreSQL Slow Query Analyzer"
 slug: "postgresql-slow-query-analyzer"
 description: "Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase."
-verification: verified
+verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category: "Runbooks & Diagnostics"
 framework: "MCP"

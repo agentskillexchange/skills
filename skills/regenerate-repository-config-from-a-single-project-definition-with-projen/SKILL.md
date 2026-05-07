@@ -2,7 +2,7 @@
 title: "Regenerate repository config from a single project definition with projen"
 slug: "regenerate-repository-config-from-a-single-project-definition-with-projen"
 description: "Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/projen/projen"
 category: "Templates & Workflows"
 framework: "Multi-Framework"

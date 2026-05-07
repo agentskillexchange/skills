@@ -2,7 +2,7 @@
 title: "Apache Tika Content Extraction Hub"
 slug: "apache-tika-content-extraction-hub"
 description: "Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email archives, and embedded document extraction with MIME type detection."
-verification: verified
+verification: security_reviewed
 source: "https://github.com/apache/tika"
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
