@@ -2,6 +2,7 @@
 title: "Directus SQL-Native Headless CMS and Internal App Platform"
 slug: "directus-sql-native-headless-cms-internal-app-platform"
 description: "Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary data model. It is a strong fit for teams that want self-hosted content operations, internal tooling, and database-first workflows with REST, GraphQL, auth, and extension support."
+github_stars: 34784
 verification: security_reviewed
 source: "https://github.com/directus/directus"
 category: "WordPress & CMS"

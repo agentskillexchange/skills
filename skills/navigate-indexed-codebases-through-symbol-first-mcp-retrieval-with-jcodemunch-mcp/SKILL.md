@@ -2,6 +2,7 @@
 title: "Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP"
 slug: "navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp"
 description: "Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source retrieval instead of brute-reading whole files across a large repository."
+github_stars: 1626
 verification: security_reviewed
 source: "https://github.com/jgravelle/jcodemunch-mcp"
 category: "Library & API Reference"

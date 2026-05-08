@@ -2,6 +2,7 @@
 title: "Run scheduled autonomous agent Hands with OpenFang"
 slug: "run-scheduled-autonomous-agent-hands-with-openfang"
 description: "Use OpenFang to run packaged autonomous agent workflows on schedules with manifests, dashboards, reporting, and guardrails for sensitive actions."
+github_stars: 17185
 verification: security_reviewed
 source: "https://github.com/RightNow-AI/openfang"
 category: "Templates & Workflows"

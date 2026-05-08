@@ -2,6 +2,7 @@
 title: "Multi-Axis Code Review and Quality Gates"
 slug: "multi-axis-code-review-and-quality-gates"
 description: "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check."
+github_stars: 17417
 verification: security_reviewed
 source: "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
 category: "Code Quality & Review"

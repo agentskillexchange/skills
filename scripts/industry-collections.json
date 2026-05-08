@@ -7,21 +7,15 @@
       "description": "Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.",
       "editorial_caution": "Prefer workflow-shaped entries over bare libraries when possible.",
       "skill_slugs": [
-        "whisper-subtitle-generator",
-        "podcast-transcription-pipeline-agent",
         "podcast-rss-feed-transcriber",
-        "youtube-chapters-generator-whisper",
         "realign-drifting-subtitles-against-finished-video-audio",
         "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps",
-        "video-subtitle-auto-translator-agent",
         "ffsubsync-subtitle-synchronization-tool",
-        "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing"
-      ],
-      "backup_skill_slugs": [
-        "whisper-batch-transcription-pipeline",
+        "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
         "whisperx-speech-recognition-timestamps-diarization",
         "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
-      ]
+      ],
+      "backup_skill_slugs": []
     },
     {
       "slug": "finance-filings",
@@ -31,18 +25,11 @@
       "editorial_caution": "Frame Stripe-based entries as revenue-ops and billing workflows, not generic payment tooling.",
       "skill_slugs": [
         "sec-edgar-financial-filing-parser",
-        "sec-edgar-filing-scraper-analyzer",
-        "quickbooks-invoice-reconciliation",
         "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
-        "stripe-revenue-reconciliation-agent",
-        "stripe-reporting-agent",
-        "plaid-financial-data-connector",
-        "ghostfolio-wealth-management-portfolio-tracking"
-      ],
-      "backup_skill_slugs": [
-        "stripe-revenue-analytics-dashboard",
+        "ghostfolio-wealth-management-portfolio-tracking",
         "openmeter-usage-metering-and-billing-platform"
-      ]
+      ],
+      "backup_skill_slugs": []
     },
     {
       "slug": "ecommerce-retail-operations",
@@ -54,16 +41,11 @@
         "saleor-open-source-headless-commerce-graphql-api",
         "medusa-commerce-api-store-operations-automation-skill",
         "shopify-admin-graphql-sync-agent",
-        "woocommerce-rest-order-manager",
-        "woocommerce-order-sync-agent",
         "woocommerce-rest-inventory-sync",
-        "product-review-sentiment-aggregator",
-        "stripe-connect-marketplace-sync"
-      ],
-      "backup_skill_slugs": [
-        "woocommerce-webhook-orchestrator",
+        "stripe-connect-marketplace-sync",
         "woocommerce-webhook-delivery-inspector"
-      ]
+      ],
+      "backup_skill_slugs": []
     },
     {
       "slug": "legal-ops-compliance",
@@ -74,15 +56,14 @@
       "skill_slugs": [
         "documenso-open-source-document-signing",
         "docuseal-document-signing-pdf-forms",
-        "docusign-contract-auto-sender",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "pdfplumber-python-pdf-text-table-extraction",
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
         "paperless-ngx-document-ocr-archive-management-system",
-        "langextract-llm-structured-text-extraction"
+        "langextract-llm-structured-text-extraction",
+        "search-large-pdfs-and-read-only-the-relevant-pages-before-answering"
       ],
       "backup_skill_slugs": [
-        "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
         "revise-pdf-slides-with-natural-language-edits",
         "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
         "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
@@ -98,16 +79,11 @@
         "pubmed-literature-mining-agent",
         "langextract-llm-structured-text-extraction",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
-        "tesseract-ocr-document-extractor",
-        "tesseract-ocr-data-extractor",
         "whisperx-speech-recognition-timestamps-diarization",
-        "assemblyai-lemur-summarizer-agent",
-        "docuseal-document-signing-pdf-forms"
+        "docuseal-document-signing-pdf-forms",
+        "pdfplumber-python-pdf-text-table-extraction"
       ],
-      "backup_skill_slugs": [
-        "pdfplumber-python-pdf-text-table-extraction",
-        "openai-whisper-api-transcription"
-      ]
+      "backup_skill_slugs": []
     },
     {
       "slug": "product-analytics-growth-ops",
@@ -146,10 +122,7 @@
         "orval-openapi-client-regeneration-skill-typed-sdks",
         "spectral-openapi-asyncapi-linter"
       ],
-      "backup_skill_slugs": [
-        "swagger-openapi-validator",
-        "swagger-openapi-schema-validator"
-      ]
+      "backup_skill_slugs": []
     },
     {
       "slug": "customer-support-success",
@@ -161,15 +134,13 @@
         "zammad-open-source-helpdesk-ticketing-system",
         "chatwoot-open-source-customer-engagement-omnichannel-support",
         "search-help-scout-conversations-and-thread-context-before-drafting-support-replies",
-        "n8n-github-jira-ticket-automator",
         "outline-knowledge-base-wiki",
         "affine-knowledge-base-collaborative-workspace-platform",
         "twenty-open-source-crm-salesforce-alternative",
         "hubspot-crm-contact-enrichment-pipeline",
-        "salesforce-crm-sync-agent"
+        "nb-cli-note-taking-bookmarking-knowledge-base"
       ],
       "backup_skill_slugs": [
-        "nb-cli-note-taking-bookmarking-knowledge-base",
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
         "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows"
       ],
@@ -188,17 +159,15 @@
       "editorial_caution": "Treat this as a cautious operations-and-paperwork pilot. Do not imply MLS completeness, valuation accuracy, legal advice, or buyer/seller recommendations.",
       "skill_slugs": [
         "docuseal-document-signing-pdf-forms",
-        "docusign-contract-auto-sender",
         "paperless-ngx-document-ocr-archive-management-system",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "pdfplumber-python-pdf-text-table-extraction",
         "langextract-llm-structured-text-extraction",
         "hubspot-crm-contact-enrichment-pipeline",
-        "salesforce-crm-sync-agent"
+        "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
+        "twenty-open-source-crm-salesforce-alternative"
       ],
       "backup_skill_slugs": [
-        "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
-        "twenty-open-source-crm-salesforce-alternative",
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
       ],
       "discovery_candidates": [

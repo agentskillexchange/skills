@@ -2,6 +2,7 @@
 title: "Capture a live webpage as a clean PDF or readable archive for offline review with Percollate"
 slug: "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
 description: "Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff."
+github_stars: 4620
 verification: security_reviewed
 source: "https://github.com/danburzo/percollate"
 category: "Research & Scraping"

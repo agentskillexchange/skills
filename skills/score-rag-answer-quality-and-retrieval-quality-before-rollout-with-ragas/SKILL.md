@@ -2,6 +2,7 @@
 title: "Score RAG answer quality and retrieval quality before rollout with Ragas"
 slug: "score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas"
 description: "Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks."
+github_stars: 13412
 verification: security_reviewed
 source: "https://github.com/vibrantlabsai/ragas"
 category: "Security & Verification"

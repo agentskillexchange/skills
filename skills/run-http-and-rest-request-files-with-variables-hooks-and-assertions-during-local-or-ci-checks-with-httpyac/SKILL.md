@@ -2,6 +2,7 @@
 title: "Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac"
 slug: "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac"
 description: "Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client."
+github_stars: 809
 verification: security_reviewed
 source: "https://github.com/AnWeber/httpyac"
 category: "Developer Tools"

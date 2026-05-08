@@ -2,6 +2,7 @@
 title: "Score Kubernetes manifests for reliability and security risks before deploy with kube-score"
 slug: "score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score"
 description: "Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and resilience gaps before merge or deploy."
+github_stars: 3100
 verification: security_reviewed
 source: "https://github.com/zegl/kube-score"
 category: "CI/CD Integrations"

@@ -2,6 +2,7 @@
 title: "Rive Runtime Animation Controller"
 slug: "rive-runtime-animation-controller"
 description: "Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime."
+github_stars: 1111
 verification: security_reviewed
 source: "https://github.com/rive-app/rive-react"
 category: "Image & Creative Automation"

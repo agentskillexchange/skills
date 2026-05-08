@@ -2,6 +2,7 @@
 title: "Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review"
 slug: "review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review"
 description: "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release."
+github_stars: 2103
 verification: security_reviewed
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review"
 category: "Code Quality & Review"

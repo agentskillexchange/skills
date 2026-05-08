@@ -2,6 +2,7 @@
 title: "Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync"
 slug: "mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync"
 description: "Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push encrypted full-system backups to an rclone backend."
+github_stars: 8
 verification: security_reviewed
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 category: "Integrations & Connectors"

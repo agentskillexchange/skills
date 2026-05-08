@@ -2,6 +2,7 @@
 title: "Autofix common Nix anti-patterns before style drift spreads with Statix"
 slug: "autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix"
 description: "Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work."
+github_stars: 872
 verification: security_reviewed
 source: "https://github.com/oppiliappan/statix"
 category: "Code Quality & Review"

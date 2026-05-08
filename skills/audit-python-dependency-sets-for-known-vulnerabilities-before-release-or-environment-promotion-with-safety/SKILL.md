@@ -2,6 +2,7 @@
 title: "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety"
 slug: "audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety"
 description: "Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows."
+github_stars: 1974
 verification: security_reviewed
 source: "https://github.com/pyupio/safety"
 category: "Security & Verification"

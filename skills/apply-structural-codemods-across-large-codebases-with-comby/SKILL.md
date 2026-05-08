@@ -2,6 +2,7 @@
 title: "Apply structural codemods across large codebases with Comby"
 slug: "apply-structural-codemods-across-large-codebases-with-comby"
 description: "Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace."
+github_stars: 2626
 verification: security_reviewed
 source: "https://github.com/comby-tools/comby"
 category: "Developer Tools"

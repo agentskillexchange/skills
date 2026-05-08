@@ -200,7 +200,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 974 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 975 | — |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | 956 | — |
 | [Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar](../../skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar/) | 953 | — |
 | [Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar](../../skills/scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar/) | 953 | — |
@@ -242,8 +242,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Review risky coding-agent sessions with local action logs using Gryph](../../skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/) | 105 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener](../../skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/) | 50 | — |
+| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 46 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
-| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 45 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Gate MCP tool calls behind deterministic policy enforcement with Intercept](../../skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | 29 | 336/wk |

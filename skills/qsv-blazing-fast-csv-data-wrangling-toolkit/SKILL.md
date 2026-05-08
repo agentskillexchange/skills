@@ -2,6 +2,7 @@
 title: "qsv Blazing-Fast CSV Data Wrangling Toolkit"
 slug: "qsv-blazing-fast-csv-data-wrangling-toolkit"
 description: "qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular data. Written in Rust, it provides over 50 commands for data wrangling tasks and supports Excel, Parquet, JSON, and other formats."
+github_stars: 3569
 verification: security_reviewed
 source: "https://github.com/dathere/qsv"
 category: "Data Extraction & Transformation"

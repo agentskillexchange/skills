@@ -2,6 +2,7 @@
 title: "Run Claude Code with spec-driven quality gates via Pilot Shell"
 slug: "run-claude-code-with-spec-driven-quality-gates-via-pilot-shell"
 description: "Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands."
+github_stars: 1645
 verification: security_reviewed
 source: "https://github.com/maxritter/pilot-shell"
 category: "Templates & Workflows"

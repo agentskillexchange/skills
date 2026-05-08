@@ -2,6 +2,7 @@
 title: "Triage pull request security risks with staged threat modeling and investigation using VulnVibes"
 slug: "triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes"
 description: "Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1 finds credible threats, and return a structured verdict instead of doing an ad hoc manual review."
+github_stars: 17
 verification: security_reviewed
 source: "https://github.com/anshumanbh/vulnvibes"
 category: "Security & Verification"

@@ -2,6 +2,7 @@
 title: "Baseline and Review Repository Secret Findings with detect-secrets"
 slug: "baseline-and-review-repository-secret-findings-with-detect-secrets"
 description: "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks."
+github_stars: 4482
 verification: security_reviewed
 source: "https://github.com/Yelp/detect-secrets"
 category: "Security & Verification"

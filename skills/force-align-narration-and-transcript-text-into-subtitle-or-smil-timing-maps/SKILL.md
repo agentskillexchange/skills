@@ -2,6 +2,7 @@
 title: "Force-align narration and transcript text into subtitle or SMIL timing maps"
 slug: "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps"
 description: "Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration against fragments of plain text or XML and emits sync maps that can be turned into subtitles, EPUB 3 media overlays, JSON timing data, or other downstream caption assets."
+github_stars: 2820
 verification: security_reviewed
 source: "https://github.com/readbeyond/aeneas"
 category: "Media & Transcription"

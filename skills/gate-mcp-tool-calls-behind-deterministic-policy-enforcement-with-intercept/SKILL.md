@@ -2,6 +2,7 @@
 title: "Gate MCP tool calls behind deterministic policy enforcement with Intercept"
 slug: "gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept"
 description: "Use Intercept when an MCP-connected agent needs transport-layer policy enforcement for risky tools, argument limits, spend caps, hidden tools, or rate limits before calls reach the upstream server."
+github_stars: 29
 verification: security_reviewed
 source: "https://github.com/PolicyLayer/Intercept"
 category: "Security & Verification"

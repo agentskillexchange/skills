@@ -2,6 +2,7 @@
 title: "Execute DevOps delivery and infrastructure workflows with cc-devops-skills"
 slug: "execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills"
 description: "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation."
+github_stars: 182
 verification: security_reviewed
 source: "https://github.com/akin-ozer/cc-devops-skills"
 category: "CI/CD Integrations"

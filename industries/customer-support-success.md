@@ -13,18 +13,16 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](../skills/zammad-open-source-helpdesk-ticketing-system/) | Integrations & Connectors | 5.5k | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | Integrations & Connectors | 28.5k | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | Calendar, Email & Productivity | 36 | 184/wk |
-| [n8n GitHub Issue-to-Jira Ticket Automator](../skills/n8n-github-jira-ticket-automator/) | Developer Tools | — | — |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../skills/outline-knowledge-base-wiki/) | Calendar, Email & Productivity | 38k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../skills/affine-knowledge-base-collaborative-workspace-platform/) | Calendar, Email & Productivity | 67.2k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../skills/twenty-open-source-crm-salesforce-alternative/) | Calendar, Email & Productivity | 43.5k | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../skills/hubspot-crm-contact-enrichment-pipeline/) | Integrations & Connectors | 392 | 986.8k/wk |
-| [Salesforce CRM Sync Agent](../skills/salesforce-crm-sync-agent/) | Integrations & Connectors | 1.5k | 936.6k/wk |
+| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | Calendar, Email & Productivity | 8.1k | — |
 
 ## Backup Picks
 
 | Skill | Why keep it nearby |
 |---|---|
-| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | Useful alternate or overflow pick for this collection. |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Useful alternate or overflow pick for this collection. |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Useful alternate or overflow pick for this collection. |
 

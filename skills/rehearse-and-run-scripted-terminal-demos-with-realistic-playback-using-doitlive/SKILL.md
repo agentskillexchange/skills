@@ -2,6 +2,7 @@
 title: "Rehearse and run scripted terminal demos with realistic playback using doitlive"
 slug: "rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive"
 description: "Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth."
+github_stars: 3561
 verification: security_reviewed
 source: "https://github.com/sloria/doitlive"
 category: "Templates & Workflows"

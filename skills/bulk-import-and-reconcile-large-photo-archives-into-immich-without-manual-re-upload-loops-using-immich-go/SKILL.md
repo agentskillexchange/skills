@@ -2,6 +2,7 @@
 title: "Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go"
 slug: "bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go"
 description: "Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads."
+github_stars: 5979
 verification: security_reviewed
 source: "https://github.com/simulot/immich-go"
 category: "Image & Creative Automation"

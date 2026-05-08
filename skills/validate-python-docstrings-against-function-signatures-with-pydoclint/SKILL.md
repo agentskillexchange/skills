@@ -2,6 +2,7 @@
 title: "Validate Python Docstrings Against Function Signatures with pydoclint"
 slug: "validate-python-docstrings-against-function-signatures-with-pydoclint"
 description: "Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves."
+github_stars: 208
 verification: security_reviewed
 source: "https://github.com/jsh9/pydoclint"
 category: "Code Quality & Review"

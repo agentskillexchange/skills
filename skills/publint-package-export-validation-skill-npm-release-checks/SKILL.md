@@ -2,6 +2,7 @@
 title: "publint Package Export Validation Skill for npm Release Checks"
 slug: "publint-package-export-validation-skill-npm-release-checks"
 description: "Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and explain exactly what will fail for consumers. It is a pre-publish validation workflow centered on publint, not a generic listing for the tool itself."
+github_stars: 1252
 verification: security_reviewed
 source: "https://github.com/publint/publint"
 category: "Code Quality & Review"

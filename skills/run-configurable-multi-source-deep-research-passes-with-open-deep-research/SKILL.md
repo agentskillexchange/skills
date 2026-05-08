@@ -2,6 +2,7 @@
 title: "Run configurable multi-source deep research passes with Open Deep Research"
 slug: "run-configurable-multi-source-deep-research-passes-with-open-deep-research"
 description: "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends."
+github_stars: 11125
 verification: security_reviewed
 source: "https://github.com/langchain-ai/open_deep_research"
 category: "Research & Scraping"

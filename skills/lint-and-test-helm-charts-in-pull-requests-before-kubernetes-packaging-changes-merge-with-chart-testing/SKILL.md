@@ -2,6 +2,7 @@
 title: "Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing"
 slug: "lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing"
 description: "Run chart-focused lint and install checks so changed Helm charts are validated before release or merge."
+github_stars: 1627
 verification: security_reviewed
 source: "https://github.com/helm/chart-testing"
 category: "CI/CD Integrations"

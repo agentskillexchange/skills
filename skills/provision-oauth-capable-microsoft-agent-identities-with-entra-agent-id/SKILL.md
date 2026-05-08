@@ -2,6 +2,7 @@
 title: "Provision OAuth-capable Microsoft agent identities with Entra Agent ID"
 slug: "provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id"
 description: "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns."
+github_stars: 2103
 verification: security_reviewed
 source: "https://github.com/microsoft/skills/tree/main/.github/skills/entra-agent-id"
 category: "Security & Verification"

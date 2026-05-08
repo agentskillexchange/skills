@@ -2,6 +2,7 @@
 title: "DALL-E Prompt Chain Generator"
 slug: "dalle-prompt-chain-generator"
 description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting."
+github_stars: 10813
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category: "Image & Creative Automation"

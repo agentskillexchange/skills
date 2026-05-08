@@ -2,6 +2,7 @@
 title: "Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber"
 slug: "generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber"
 description: "Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep those files fresh across multiple coding agents."
+github_stars: 717
 verification: security_reviewed
 source: "https://github.com/caliber-ai-org/ai-setup"
 category: "Developer Tools"

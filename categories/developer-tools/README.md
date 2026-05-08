@@ -74,6 +74,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
+| [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | 61.5k | — |
 | [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 2M/wk |
@@ -85,10 +86,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
-| [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 49.2k | — |
+| [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
-| [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.3k | — |
+| [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.4k | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 173.2k/wk |
@@ -134,7 +135,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 122.8M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 122.2M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -168,7 +169,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | 20.6k | — |
 | [Turn exploratory Python notebooks into reproducible apps and reports with marimo](../../skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/) | 20.4k | — |
 | [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | 20k | — |
+| [Build and evaluate production agents with Google ADK](../../skills/build-and-evaluate-production-agents-with-google-adk/) | 19.5k | — |
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | 19.2k | — |
+| [Turn GitHub issues into reviewed code changes with SWE-agent](../../skills/turn-github-issues-into-reviewed-code-changes-with-swe-agent/) | 19.2k | — |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | 18.7k | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.6k | 2M/wk |
@@ -207,7 +210,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
-| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.9k | 20.6M/wk |
+| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.9k | 20.5M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.5k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
@@ -303,7 +306,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 467/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 445/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |

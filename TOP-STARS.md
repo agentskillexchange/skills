@@ -22,8 +22,8 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 14 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.7k | storybook | Code Quality & Review |
 | 15 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
 | 16 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 86.4k | playwright | Browser Automation |
-| 17 | [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | 85.2k | browser-use | Browser Automation |
-| 18 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 85.2k | servers | Data Extraction & Transformation |
+| 17 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 85.3k | servers | Data Extraction & Transformation |
+| 18 | [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | 85.2k | browser-use | Browser Automation |
 | 19 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
 | 20 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.9k | vite | Developer Tools |
 | 21 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | 79.2k | fzf | Developer Tools |

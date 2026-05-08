@@ -2,6 +2,7 @@
 title: "Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper"
 slug: "extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper"
 description: "Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors."
+github_stars: 6260
 verification: security_reviewed
 source: "https://github.com/mishushakov/llm-scraper"
 category: "Research & Scraping"

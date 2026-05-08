@@ -2,6 +2,7 @@
 title: "chezmoi Cross-Machine Dotfiles Manager"
 slug: "chezmoi-dotfiles-manager"
 description: "chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates, encryption, and cross-platform support. Written in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and one-command bootstrap."
+github_stars: 18876
 verification: security_reviewed
 source: "https://github.com/twpayne/chezmoi"
 category: "Developer Tools"

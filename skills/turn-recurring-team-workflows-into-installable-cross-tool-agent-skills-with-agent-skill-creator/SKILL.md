@@ -2,6 +2,7 @@
 title: "Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator"
 slug: "turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator"
 description: "Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across supported agent tools."
+github_stars: 744
 verification: security_reviewed
 source: "https://github.com/FrancyJGLisboa/agent-skill-creator"
 category: "Templates & Workflows"

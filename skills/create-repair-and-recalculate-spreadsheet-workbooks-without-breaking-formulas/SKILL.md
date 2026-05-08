@@ -2,6 +2,7 @@
 title: "Create, repair, and recalculate spreadsheet workbooks without breaking formulas"
 slug: "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas"
 description: "Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify .xlsx, .xlsm, .csv, or .tsv files as spreadsheet deliverables, not just inspect tabular data. It pushes the agent toward formula-safe edits, workbook validation, and recalculation instead of hardcoded outputs or one-off scripts."
+github_stars: 116918
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/xlsx"
 category: "Data Extraction & Transformation"

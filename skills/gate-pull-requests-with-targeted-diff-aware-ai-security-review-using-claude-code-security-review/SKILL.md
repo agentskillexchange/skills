@@ -2,6 +2,7 @@
 title: "Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review"
 slug: "gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review"
 description: "Run a Claude Code powered security review pass on trusted pull requests so suspicious auth, secret, injection, and unsafe logic changes surface before merge."
+github_stars: 4304
 verification: security_reviewed
 source: "https://github.com/anthropics/claude-code-security-review"
 category: "Security & Verification"

@@ -58,6 +58,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](../../skills/zulip-team-chat-threading/) | 25k | — |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | 22.8k | — |
+| [Give agents fast searchable memory with Supermemory](../../skills/give-agents-fast-searchable-memory-with-supermemory/) | 22.5k | — |
 | [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | 21.5k | — |
 | [Airbyte Open Source Data Integration Platform](../../skills/airbyte-open-source-data-integration-platform/) | 21k | — |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | 18.1k | 485k/wk |
@@ -98,9 +99,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3k | 54.2k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3k | 55.1k/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | — |
 | [Slack Channel Summarizer &amp; Triage Bot](../../skills/slack-channel-summarizer-triage/) | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2.5M/wk |
@@ -113,7 +114,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 870.3k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 875.5k/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |

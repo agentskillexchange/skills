@@ -20,13 +20,6 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | Developer Tools | 5.7k | 1.1M/wk |
 | [Spectral OpenAPI and AsyncAPI Linter](../skills/spectral-openapi-asyncapi-linter/) | Code Quality & Review | 3.1k | 1.2M/wk |
 
-## Backup Picks
-
-| Skill | Why keep it nearby |
-|---|---|
-| [Swagger / OpenAPI Validator](../skills/swagger-openapi-validator/) | Useful alternate or overflow pick for this collection. |
-| [Swagger OpenAPI Schema Validator](../skills/swagger-openapi-schema-validator/) | Useful alternate or overflow pick for this collection. |
-
 ## Editorial Caution
 
 Frame this as developer enablement and API documentation, not a generic software-industry bucket.

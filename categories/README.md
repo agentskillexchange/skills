@@ -1,10 +1,10 @@
 # Skill Categories
 
-> **2428 skills** across **17 categories**
+> **2432 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **303** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **306** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **225** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **181** | Linting rules, review checklists, code standards enforcement, and qua... |
@@ -14,7 +14,7 @@
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **128** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **122** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **119** | SDK documentation, API guides, framework reference material, and libr... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **110** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **111** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **104** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **104** | Web research, data collection, content aggregation, and information g... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **98** | Audio/video processing, speech-to-text, media conversion, and transcr... |

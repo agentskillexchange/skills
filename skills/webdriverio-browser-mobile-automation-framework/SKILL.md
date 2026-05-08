@@ -2,6 +2,7 @@
 title: "WebdriverIO Next-Gen Browser and Mobile Automation Framework"
 slug: "webdriverio-browser-mobile-automation-framework"
 description: "WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver, WebDriver BiDi, and Appium protocols with built-in test runner, BDD/TDD frameworks, and cloud service integration for cross-browser and mobile testing."
+github_stars: 9762
 verification: security_reviewed
 source: "https://github.com/webdriverio/webdriverio"
 category: "Browser Automation"
