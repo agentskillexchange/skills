@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Research real estate properties with RAG-backed market analysis](skills/rag-backed-real-estate-property-research/)
+### [Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI](skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/)
 
-Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from structured listing data.
+Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream.
 
-- Tool: `rag-backed-real-estate-property-research`
-- Category: Research &amp; Scraping
-- Frameworks: Custom Agents
-- GitHub stars: 170
-- Listing: https://agentskillexchange.com/skills/rag-backed-real-estate-property-research/
+- Tool: `validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli`
+- Category: CI/CD Integrations
+- Frameworks: Multi-Framework
+- GitHub stars: 270
+- Listing: https://agentskillexchange.com/skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/
 
 ---
 
@@ -67,16 +67,16 @@ A strong cross-section of high-signal skills across the catalog.
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
 | [Build and inspect MCP apps and servers with mcp-use](skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | build-and-inspect-mcp-apps-and-servers-with-mcp-use | 9.9k | Integrations &amp; Connectors |
-| [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring &amp; Alerts |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode | 10k | Developer Tools |
+| [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring &amp; Alerts |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Templates &amp; Workflows |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue | 116.8k | Templates &amp; Workflows |
 | [Extract clean article Markdown from web pages with Defuddle](skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | extract-clean-article-markdown-from-web-pages-with-defuddle | 7.2k | Developer Tools |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows | 79.8k | Data Extraction &amp; Transformation |
+| [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | build-document-grounded-agent-context-workflows-with-ragflow | 79.8k | Data Extraction &amp; Transformation |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer | 10.7k | Security &amp; Verification |
 | [Run AI browser regression checks with Playwright and multi-model verification through Passmark](skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark | 676 | CI/CD Integrations |
-| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library &amp; API Reference |
-| [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | build-document-grounded-agent-context-workflows-with-ragflow | 79.8k | Data Extraction &amp; Transformation |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus | 28.5k | Code Quality &amp; Review |
 
 ---
