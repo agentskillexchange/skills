@@ -1,16 +1,16 @@
 ---
-title: "Broker API credentials to AI agents without exposing raw keys using OneCLI"
-slug: "broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli"
-description: "Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets."
+title: Broker API credentials to AI agents without exposing raw keys using OneCLI
+slug: broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli
+description: Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets.
 github_stars: 1859
 verification: security_reviewed
-source: "https://github.com/onecli/onecli"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/onecli/onecli
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "onecli/onecli"
+  github_repo: onecli/onecli
   github_stars: 1859
-  npm_package: "None"
+  npm_package: None
 ---
 # Broker API credentials to AI agents without exposing raw keys using OneCLI
 

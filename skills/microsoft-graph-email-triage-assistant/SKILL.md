@@ -1,10 +1,11 @@
 ---
-title: "Microsoft Graph Email Triage Assistant"
-slug: "microsoft-graph-email-triage-assistant"
+title: Microsoft Graph Email Triage Assistant
+slug: microsoft-graph-email-triage-assistant
+description: Microsoft Graph Email Triage Assistant
 verification: security_reviewed
-source: "https://learn.microsoft.com/graph/overview"
-category: "General"
-framework: "OpenClaw"
+source: https://learn.microsoft.com/graph/overview
+category: General
+framework: OpenClaw
 ---
 # Microsoft Graph Email Triage Assistant
 

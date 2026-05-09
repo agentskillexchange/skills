@@ -1,13 +1,14 @@
 ---
-title: "Pod CrashLoop Runbook"
-slug: "pod-crashloop-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Custom Agents"
+title: Pod CrashLoop Runbook
+slug: pod-crashloop-runbook
+description: Pod CrashLoop Runbook
 github_stars: 122147
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 122147
 ---
 # Pod CrashLoop Runbook

@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Code Analysis"
-slug: "sonarqube-code-analysis"
+title: SonarQube Code Analysis
+slug: sonarqube-code-analysis
+description: SonarQube Code Analysis
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10520
 ---
 # SonarQube Code Analysis

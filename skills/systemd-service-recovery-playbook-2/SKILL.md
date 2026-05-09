@@ -1,13 +1,14 @@
 ---
-title: "Systemd Service Recovery Playbook"
-slug: "systemd-service-recovery-playbook-2"
-verification: security_reviewed
-source: "https://github.com/systemd/systemd"
-category: "General"
-framework: "ChatGPT Agents"
+title: Systemd Service Recovery Playbook
+slug: systemd-service-recovery-playbook-2
+description: Systemd Service Recovery Playbook
 github_stars: 16248
+verification: security_reviewed
+source: https://github.com/systemd/systemd
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "systemd/systemd"
+  github_repo: systemd/systemd
   github_stars: 16248
 ---
 # Systemd Service Recovery Playbook

@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes CrashLoop Diagnostician"
-slug: "kubernetes-crashloop-diagnostician"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "OpenClaw"
+title: Kubernetes CrashLoop Diagnostician
+slug: kubernetes-crashloop-diagnostician
+description: Kubernetes CrashLoop Diagnostician
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes CrashLoop Diagnostician

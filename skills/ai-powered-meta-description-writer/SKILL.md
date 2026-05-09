@@ -1,10 +1,11 @@
 ---
-title: "AI-Powered Meta Description Writer"
-slug: "ai-powered-meta-description-writer"
+title: AI-Powered Meta Description Writer
+slug: ai-powered-meta-description-writer
+description: AI-Powered Meta Description Writer
 verification: security_reviewed
-source: "https://developers.openai.com/api/docs"
-category: "General"
-framework: "Claude Code"
+source: https://developers.openai.com/api/docs
+category: General
+framework: Claude Code
 ---
 # AI-Powered Meta Description Writer
 

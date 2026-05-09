@@ -1,10 +1,11 @@
 ---
-title: "CloudTrail Anomaly Detection Agent"
-slug: "cloudtrail-anomaly-detection-agent"
+title: CloudTrail Anomaly Detection Agent
+slug: cloudtrail-anomaly-detection-agent
+description: CloudTrail Anomaly Detection Agent
 verification: security_reviewed
-source: "https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_LookupEvents.html"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_LookupEvents.html
+category: General
+framework: ChatGPT Agents
 ---
 # CloudTrail Anomaly Detection Agent
 

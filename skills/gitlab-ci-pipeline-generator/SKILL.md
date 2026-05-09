@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Pipeline Generator"
-slug: "gitlab-ci-pipeline-generator"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "ChatGPT Agents"
+title: GitLab CI Pipeline Generator
+slug: gitlab-ci-pipeline-generator
+description: GitLab CI Pipeline Generator
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Pipeline Generator

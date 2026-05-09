@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Dependency Analyzer"
-slug: "npm-package-dependency-analyzer"
+title: NPM Package Dependency Analyzer
+slug: npm-package-dependency-analyzer
+description: NPM Package Dependency Analyzer
 verification: security_reviewed
-source: "https://docs.npmjs.com/"
-category: "General"
-framework: "Gemini"
+source: https://docs.npmjs.com/
+category: General
+framework: Gemini
 ---
 # NPM Package Dependency Analyzer
 

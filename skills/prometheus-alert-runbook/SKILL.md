@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alert Runbook"
-slug: "prometheus-alert-runbook"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "MCP"
+title: Prometheus Alert Runbook
+slug: prometheus-alert-runbook
+description: Prometheus Alert Runbook
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Alert Runbook

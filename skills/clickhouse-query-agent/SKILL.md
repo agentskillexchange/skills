@@ -1,12 +1,13 @@
 ---
-title: "ClickHouse Query Agent"
-slug: "clickhouse-query-agent"
+title: ClickHouse Query Agent
+slug: clickhouse-query-agent
+description: ClickHouse Query Agent
 verification: security_reviewed
-source: "https://github.com/ClickHouse/ClickHouse"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/ClickHouse/ClickHouse
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "clickhouse/clickhouse"
+  github_repo: clickhouse/clickhouse
   github_stars: 46871
 ---
 # ClickHouse Query Agent

@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Crashloop Diagnostic Runbook"
-slug: "kubernetes-crashloop-diagnostic-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "OpenClaw"
+title: Kubernetes Crashloop Diagnostic Runbook
+slug: kubernetes-crashloop-diagnostic-runbook
+description: Kubernetes Crashloop Diagnostic Runbook
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Crashloop Diagnostic Runbook

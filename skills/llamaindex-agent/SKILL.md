@@ -1,13 +1,14 @@
 ---
-title: "LlamaIndex Agent"
-slug: "llamaindex-agent"
-verification: security_reviewed
-source: "https://github.com/run-llama/llama_index"
-category: "General"
-framework: "Custom Agents"
+title: LlamaIndex Agent
+slug: llamaindex-agent
+description: LlamaIndex Agent
 github_stars: 48568
+verification: security_reviewed
+source: https://github.com/run-llama/llama_index
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "run-llama/llama_index"
+  github_repo: run-llama/llama_index
   github_stars: 48568
 ---
 # LlamaIndex Agent

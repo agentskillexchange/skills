@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Audit Analyzer"
-slug: "npm-package-audit-analyzer"
+title: NPM Package Audit Analyzer
+slug: npm-package-audit-analyzer
+description: NPM Package Audit Analyzer
 verification: security_reviewed
-source: "https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/"
-category: "General"
-framework: "Claude Agents"
+source: https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/
+category: General
+framework: Claude Agents
 ---
 # NPM Package Audit Analyzer
 

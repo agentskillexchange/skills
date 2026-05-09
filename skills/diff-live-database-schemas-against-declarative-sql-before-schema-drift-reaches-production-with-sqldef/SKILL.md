@@ -1,14 +1,14 @@
 ---
-title: "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef"
-slug: "diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef"
-description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases."
+title: Diff live database schemas against declarative SQL before schema drift reaches production with sqldef
+slug: diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef
+description: Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases.
 github_stars: 3076
 verification: security_reviewed
-source: "https://github.com/sqldef/sqldef"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/sqldef/sqldef
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "sqldef/sqldef"
+  github_repo: sqldef/sqldef
   github_stars: 3076
 ---
 # Diff live database schemas against declarative SQL before schema drift reaches production with sqldef

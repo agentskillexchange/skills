@@ -1,10 +1,11 @@
 ---
-title: "Rust Crate Docs Scanner"
-slug: "rust-crate-docs-scanner"
+title: Rust Crate Docs Scanner
+slug: rust-crate-docs-scanner
+description: Rust Crate Docs Scanner
 verification: security_reviewed
-source: "https://docs.rs/about"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.rs/about
+category: General
+framework: Custom Agents
 ---
 # Rust Crate Docs Scanner
 

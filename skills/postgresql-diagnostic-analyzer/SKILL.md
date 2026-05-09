@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Diagnostic Analyzer"
-slug: "postgresql-diagnostic-analyzer"
+title: PostgreSQL Diagnostic Analyzer
+slug: postgresql-diagnostic-analyzer
+description: PostgreSQL Diagnostic Analyzer
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Gemini"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Gemini
 ---
 # PostgreSQL Diagnostic Analyzer
 

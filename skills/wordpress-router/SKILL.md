@@ -1,12 +1,13 @@
 ---
-title: "WordPress Router"
-slug: "wordpress-router"
+title: WordPress Router
+slug: wordpress-router
+description: WordPress Router
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21098
 ---
 # WordPress Router

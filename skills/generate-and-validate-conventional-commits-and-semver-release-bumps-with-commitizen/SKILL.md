@@ -1,14 +1,14 @@
 ---
-title: "Generate and validate conventional commits and semver release bumps with Commitizen"
-slug: "generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen"
-description: "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules."
+title: Generate and validate conventional commits and semver release bumps with Commitizen
+slug: generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen
+description: Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules.
 github_stars: 3382
 verification: security_reviewed
-source: "https://github.com/commitizen-tools/commitizen"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+source: https://github.com/commitizen-tools/commitizen
+category: Templates & Workflows
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "commitizen-tools/commitizen"
+  github_repo: commitizen-tools/commitizen
   github_stars: 3382
 ---
 # Generate and validate conventional commits and semver release bumps with Commitizen

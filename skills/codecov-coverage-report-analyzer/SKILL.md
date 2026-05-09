@@ -1,10 +1,11 @@
 ---
-title: "Codecov Coverage Report Analyzer"
-slug: "codecov-coverage-report-analyzer"
+title: Codecov Coverage Report Analyzer
+slug: codecov-coverage-report-analyzer
+description: Codecov Coverage Report Analyzer
 verification: security_reviewed
-source: "https://docs.codecov.com/docs/quick-start"
-category: "General"
-framework: "Cursor"
+source: https://docs.codecov.com/docs/quick-start
+category: General
+framework: Cursor
 ---
 # Codecov Coverage Report Analyzer
 

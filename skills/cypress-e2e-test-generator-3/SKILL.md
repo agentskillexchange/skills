@@ -1,13 +1,14 @@
 ---
-title: "Cypress E2E Test Generator"
-slug: "cypress-e2e-test-generator-3"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "Claude Agents"
+title: Cypress E2E Test Generator
+slug: cypress-e2e-test-generator-3
+description: Cypress E2E Test Generator
 github_stars: 49617
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
 ---
 # Cypress E2E Test Generator

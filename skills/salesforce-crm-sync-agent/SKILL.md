@@ -1,13 +1,14 @@
 ---
-title: "Salesforce CRM Sync Agent"
-slug: "salesforce-crm-sync-agent"
-verification: security_reviewed
-source: "https://github.com/jsforce/jsforce"
-category: "General"
-framework: "Cursor"
+title: Salesforce CRM Sync Agent
+slug: salesforce-crm-sync-agent
+description: Salesforce CRM Sync Agent
 github_stars: 1453
+verification: security_reviewed
+source: https://github.com/jsforce/jsforce
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "jsforce/jsforce"
+  github_repo: jsforce/jsforce
   github_stars: 1453
 ---
 # Salesforce CRM Sync Agent

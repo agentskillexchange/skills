@@ -1,14 +1,14 @@
 ---
-title: "Run only the relevant linters and formatters on changed files with Precious"
-slug: "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious"
-description: "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted."
+title: Run only the relevant linters and formatters on changed files with Precious
+slug: run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious
+description: Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted.
 github_stars: 152
 verification: security_reviewed
-source: "https://github.com/houseabsolute/precious"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+source: https://github.com/houseabsolute/precious
+category: CI/CD Integrations
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "houseabsolute/precious"
+  github_repo: houseabsolute/precious
   github_stars: 152
 ---
 # Run only the relevant linters and formatters on changed files with Precious

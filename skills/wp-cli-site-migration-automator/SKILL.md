@@ -1,10 +1,11 @@
 ---
-title: "WP-CLI Site Migration Automator"
-slug: "wp-cli-site-migration-automator"
+title: WP-CLI Site Migration Automator
+slug: wp-cli-site-migration-automator
+description: WP-CLI Site Migration Automator
 verification: security_reviewed
-source: "https://wp-cli.org/"
-category: "General"
-framework: "Codex"
+source: https://wp-cli.org/
+category: General
+framework: Codex
 ---
 # WP-CLI Site Migration Automator
 

@@ -1,13 +1,14 @@
 ---
-title: "Helm Chart Template Scaffolder"
-slug: "helm-chart-template-scaffolder"
-verification: security_reviewed
-source: "https://github.com/helm/helm"
-category: "General"
-framework: "Codex"
+title: Helm Chart Template Scaffolder
+slug: helm-chart-template-scaffolder
+description: Helm Chart Template Scaffolder
 github_stars: 29693
+verification: security_reviewed
+source: https://github.com/helm/helm
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "helm/helm"
+  github_repo: helm/helm
   github_stars: 29693
 ---
 # Helm Chart Template Scaffolder

@@ -1,10 +1,11 @@
 ---
-title: "Browserless Scraping Agent"
-slug: "browserless-scraping-agent"
+title: Browserless Scraping Agent
+slug: browserless-scraping-agent
+description: Browserless Scraping Agent
 verification: security_reviewed
-source: "https://docs.browserless.io/"
-category: "General"
-framework: "Cursor"
+source: https://docs.browserless.io/
+category: General
+framework: Cursor
 ---
 # Browserless Scraping Agent
 

@@ -1,13 +1,14 @@
 ---
-title: "REST API Test Suite Generator"
-slug: "rest-api-test-suite-generator"
-verification: security_reviewed
-source: "https://github.com/postmanlabs/postman-collection"
-category: "General"
-framework: "Claude Agents"
+title: REST API Test Suite Generator
+slug: rest-api-test-suite-generator
+description: REST API Test Suite Generator
 github_stars: 493
+verification: security_reviewed
+source: https://github.com/postmanlabs/postman-collection
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "postmanlabs/postman-collection"
+  github_repo: postmanlabs/postman-collection
   github_stars: 493
 ---
 # REST API Test Suite Generator

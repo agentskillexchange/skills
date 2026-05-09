@@ -1,13 +1,14 @@
 ---
-title: "Container Runtime Security Monitor"
-slug: "container-runtime-security-monitor"
-verification: security_reviewed
-source: "https://github.com/falcosecurity/falco"
-category: "General"
-framework: "Gemini"
+title: Container Runtime Security Monitor
+slug: container-runtime-security-monitor
+description: Container Runtime Security Monitor
 github_stars: 8914
+verification: security_reviewed
+source: https://github.com/falcosecurity/falco
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "falcosecurity/falco"
+  github_repo: falcosecurity/falco
   github_stars: 8914
 ---
 # Container Runtime Security Monitor

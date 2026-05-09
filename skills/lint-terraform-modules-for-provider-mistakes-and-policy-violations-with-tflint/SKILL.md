@@ -1,14 +1,14 @@
 ---
-title: "Lint Terraform modules for provider mistakes and policy violations with TFLint"
-slug: "lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint"
-description: "Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early."
+title: Lint Terraform modules for provider mistakes and policy violations with TFLint
+slug: lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint
+description: Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early.
 github_stars: 5677
 verification: security_reviewed
-source: "https://github.com/terraform-linters/tflint"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/terraform-linters/tflint
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "terraform-linters/tflint"
+  github_repo: terraform-linters/tflint
   github_stars: 5677
 ---
 # Lint Terraform modules for provider mistakes and policy violations with TFLint

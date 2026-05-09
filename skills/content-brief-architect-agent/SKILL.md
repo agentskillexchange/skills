@@ -1,10 +1,11 @@
 ---
-title: "Content Brief Architect"
-slug: "content-brief-architect-agent"
+title: Content Brief Architect
+slug: content-brief-architect-agent
+description: Content Brief Architect
 verification: security_reviewed
-source: "https://developers.notion.com/"
-category: "General"
-framework: "MCP"
+source: https://developers.notion.com/
+category: General
+framework: MCP
 ---
 # Content Brief Architect
 

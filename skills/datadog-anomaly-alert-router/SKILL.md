@@ -1,12 +1,13 @@
 ---
-title: "Datadog Anomaly Alert Router"
-slug: "datadog-anomaly-alert-router"
+title: Datadog Anomaly Alert Router
+slug: datadog-anomaly-alert-router
+description: Datadog Anomaly Alert Router
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "MCP"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Anomaly Alert Router

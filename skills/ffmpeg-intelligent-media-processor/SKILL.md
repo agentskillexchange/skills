@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Intelligent Media Processor"
-slug: "ffmpeg-intelligent-media-processor"
+title: FFmpeg Intelligent Media Processor
+slug: ffmpeg-intelligent-media-processor
+description: FFmpeg Intelligent Media Processor
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Intelligent Media Processor

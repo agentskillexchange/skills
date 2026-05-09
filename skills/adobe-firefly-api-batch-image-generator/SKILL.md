@@ -1,10 +1,11 @@
 ---
-title: "Adobe Firefly API Batch Image Generator"
-slug: "adobe-firefly-api-batch-image-generator"
+title: Adobe Firefly API Batch Image Generator
+slug: adobe-firefly-api-batch-image-generator
+description: Adobe Firefly API Batch Image Generator
 verification: security_reviewed
-source: "https://developer.adobe.com/firefly-services/docs/firefly-api/"
-category: "General"
-framework: "Cursor"
+source: https://developer.adobe.com/firefly-services/docs/firefly-api/
+category: General
+framework: Cursor
 ---
 # Adobe Firefly API Batch Image Generator
 

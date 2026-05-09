@@ -108,7 +108,7 @@ CATEGORIES_DIR.mkdir(parents=True, exist_ok=True)
 
 # categories/README.md (index)
 root_lines = [
-    "# Skill Categories",
+    "# Categories",
     "",
     f"> **{len(items)} skills** across **{len(cat_rows)} categories**",
     "",

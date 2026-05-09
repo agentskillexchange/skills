@@ -1,10 +1,11 @@
 ---
-title: "SerpAPI Search Intelligence Aggregator"
-slug: "serpapi-search-intelligence-aggregator"
+title: SerpAPI Search Intelligence Aggregator
+slug: serpapi-search-intelligence-aggregator
+description: SerpAPI Search Intelligence Aggregator
 verification: security_reviewed
-source: "https://serpapi.com/"
-category: "General"
-framework: "Claude Code"
+source: https://serpapi.com/
+category: General
+framework: Claude Code
 ---
 # SerpAPI Search Intelligence Aggregator
 

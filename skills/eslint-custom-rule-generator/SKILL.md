@@ -1,13 +1,14 @@
 ---
-title: "ESLint Custom Rule Generator"
-slug: "eslint-custom-rule-generator"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Code"
+title: ESLint Custom Rule Generator
+slug: eslint-custom-rule-generator
+description: ESLint Custom Rule Generator
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Custom Rule Generator

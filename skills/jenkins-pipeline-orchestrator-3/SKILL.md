@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Orchestrator"
-slug: "jenkins-pipeline-orchestrator-3"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "OpenClaw"
+title: Jenkins Pipeline Orchestrator
+slug: jenkins-pipeline-orchestrator-3
+description: Jenkins Pipeline Orchestrator
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Orchestrator

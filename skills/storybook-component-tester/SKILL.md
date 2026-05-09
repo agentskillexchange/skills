@@ -1,13 +1,14 @@
 ---
-title: "Storybook Component Tester"
-slug: "storybook-component-tester"
-verification: security_reviewed
-source: "https://github.com/storybookjs/storybook"
-category: "General"
-framework: "Custom Agents"
+title: Storybook Component Tester
+slug: storybook-component-tester
+description: Storybook Component Tester
 github_stars: 89703
+verification: security_reviewed
+source: https://github.com/storybookjs/storybook
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "storybookjs/storybook"
+  github_repo: storybookjs/storybook
   github_stars: 89703
 ---
 # Storybook Component Tester

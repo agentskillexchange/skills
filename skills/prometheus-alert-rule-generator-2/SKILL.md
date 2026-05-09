@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alert Rule Generator"
-slug: "prometheus-alert-rule-generator-2"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Claude Code"
+title: Prometheus Alert Rule Generator
+slug: prometheus-alert-rule-generator-2
+description: Prometheus Alert Rule Generator
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Alert Rule Generator

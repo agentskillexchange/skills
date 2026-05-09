@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Diagnostic Runbook"
-slug: "kubernetes-pod-diagnostic-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Codex"
+title: Kubernetes Pod Diagnostic Runbook
+slug: kubernetes-pod-diagnostic-runbook
+description: Kubernetes Pod Diagnostic Runbook
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Diagnostic Runbook

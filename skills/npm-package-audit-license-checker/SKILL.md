@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Audit &#038; License Checker"
-slug: "npm-package-audit-license-checker"
+title: NPM Package Audit & License Checker
+slug: npm-package-audit-license-checker
+description: NPM Package Audit & License Checker
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
-category: "General"
-framework: "Claude Code"
+source: https://docs.npmjs.com/cli/v10/commands/npm-audit/
+category: General
+framework: Claude Code
 ---
 # NPM Package Audit &#038; License Checker
 

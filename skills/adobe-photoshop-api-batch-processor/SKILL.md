@@ -1,10 +1,11 @@
 ---
-title: "Adobe Photoshop API Batch Processor"
-slug: "adobe-photoshop-api-batch-processor"
+title: Adobe Photoshop API Batch Processor
+slug: adobe-photoshop-api-batch-processor
+description: Adobe Photoshop API Batch Processor
 verification: security_reviewed
-source: "https://developer.adobe.com/firefly-services/docs/photoshop/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://developer.adobe.com/firefly-services/docs/photoshop/
+category: General
+framework: ChatGPT Agents
 ---
 # Adobe Photoshop API Batch Processor
 

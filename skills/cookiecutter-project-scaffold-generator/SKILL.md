@@ -1,13 +1,14 @@
 ---
-title: "Cookiecutter Project Scaffold Generator"
-slug: "cookiecutter-project-scaffold-generator"
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
-category: "General"
-framework: "Codex"
+title: Cookiecutter Project Scaffold Generator
+slug: cookiecutter-project-scaffold-generator
+description: Cookiecutter Project Scaffold Generator
 github_stars: 24818
+verification: security_reviewed
+source: https://github.com/cookiecutter/cookiecutter
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 # Cookiecutter Project Scaffold Generator

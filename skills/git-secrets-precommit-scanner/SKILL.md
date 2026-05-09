@@ -1,13 +1,14 @@
 ---
-title: "Git Secrets Pre-Commit Scanner"
-slug: "git-secrets-precommit-scanner"
-verification: security_reviewed
-source: "https://github.com/trufflesecurity/trufflehog"
-category: "General"
-framework: "OpenClaw"
+title: Git Secrets Pre-Commit Scanner
+slug: git-secrets-precommit-scanner
+description: Git Secrets Pre-Commit Scanner
 github_stars: 26006
+verification: security_reviewed
+source: https://github.com/trufflesecurity/trufflehog
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "trufflesecurity/trufflehog"
+  github_repo: trufflesecurity/trufflehog
   github_stars: 26006
 ---
 # Git Secrets Pre-Commit Scanner

@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Security Review Agent"
-slug: "semgrep-security-review-agent"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Claude Agents"
+title: Semgrep Security Review Agent
+slug: semgrep-security-review-agent
+description: Semgrep Security Review Agent
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Security Review Agent

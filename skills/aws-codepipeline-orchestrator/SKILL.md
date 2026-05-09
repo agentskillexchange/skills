@@ -1,13 +1,14 @@
 ---
-title: "AWS CodePipeline Orchestrator"
-slug: "aws-codepipeline-orchestrator"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "MCP"
+title: AWS CodePipeline Orchestrator
+slug: aws-codepipeline-orchestrator
+description: AWS CodePipeline Orchestrator
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CodePipeline Orchestrator

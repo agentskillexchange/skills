@@ -1,13 +1,14 @@
 ---
-title: "Slack Channel Summarizer & Triage Bot"
-slug: "slack-channel-summarizer-triage"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "OpenClaw"
+title: Slack Channel Summarizer & Triage Bot
+slug: slack-channel-summarizer-triage
+description: Slack Channel Summarizer & Triage Bot
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Channel Summarizer & Triage Bot

@@ -1,13 +1,14 @@
 ---
-title: "Stripe Reporting Agent"
-slug: "stripe-reporting-agent"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "Custom Agents"
+title: Stripe Reporting Agent
+slug: stripe-reporting-agent
+description: Stripe Reporting Agent
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Reporting Agent

@@ -1,13 +1,14 @@
 ---
-title: "Cypress Component Test Generator"
-slug: "cypress-component-test-generator"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "ChatGPT Agents"
+title: Cypress Component Test Generator
+slug: cypress-component-test-generator
+description: Cypress Component Test Generator
 github_stars: 49617
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
 ---
 # Cypress Component Test Generator

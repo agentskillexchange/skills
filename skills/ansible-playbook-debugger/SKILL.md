@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Debugger"
-slug: "ansible-playbook-debugger"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "OpenClaw"
+title: Ansible Playbook Debugger
+slug: ansible-playbook-debugger
+description: Ansible Playbook Debugger
 github_stars: 68364
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 # Ansible Playbook Debugger

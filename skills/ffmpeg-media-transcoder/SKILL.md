@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Media Transcoder"
-slug: "ffmpeg-media-transcoder"
+title: FFmpeg Media Transcoder
+slug: ffmpeg-media-transcoder
+description: FFmpeg Media Transcoder
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Media Transcoder

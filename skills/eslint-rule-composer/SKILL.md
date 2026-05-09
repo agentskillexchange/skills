@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Composer"
-slug: "eslint-rule-composer"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Custom Agents"
+title: ESLint Rule Composer
+slug: eslint-rule-composer
+description: ESLint Rule Composer
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Composer

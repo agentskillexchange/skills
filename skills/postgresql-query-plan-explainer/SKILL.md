@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Query Plan Explainer"
-slug: "postgresql-query-plan-explainer"
+title: PostgreSQL Query Plan Explainer
+slug: postgresql-query-plan-explainer
+description: PostgreSQL Query Plan Explainer
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Gemini"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Gemini
 ---
 # PostgreSQL Query Plan Explainer
 

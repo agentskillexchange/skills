@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Dependency Checker"
-slug: "circleci-orb-dependency-checker"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Codex"
+title: CircleCI Orb Dependency Checker
+slug: circleci-orb-dependency-checker
+description: CircleCI Orb Dependency Checker
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Dependency Checker

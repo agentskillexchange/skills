@@ -1,14 +1,14 @@
 ---
-title: "LiveKit Real-Time Video Audio and Data Server with WebRTC"
-slug: "livekit-realtime-webrtc-server"
-description: "LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides multi-user conferencing, streaming, and data channels with client SDKs for JavaScript, Swift, Kotlin, Flutter, React, Go, Python, Rust, and Unity."
+title: LiveKit Real-Time Video Audio and Data Server with WebRTC
+slug: livekit-realtime-webrtc-server
+description: LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides multi-user conferencing, streaming, and data channels with client SDKs for JavaScript, Swift, Kotlin, Flutter, React, Go, Python, Rust, and Unity.
 github_stars: 17975
 verification: security_reviewed
-source: "https://github.com/livekit/livekit"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+source: https://github.com/livekit/livekit
+category: Integrations & Connectors
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "livekit/livekit"
+  github_repo: livekit/livekit
   github_stars: 17975
 ---
 # LiveKit Real-Time Video Audio and Data Server with WebRTC

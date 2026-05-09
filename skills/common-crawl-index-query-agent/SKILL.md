@@ -1,10 +1,11 @@
 ---
-title: "Common Crawl Index Query Agent"
-slug: "common-crawl-index-query-agent"
+title: Common Crawl Index Query Agent
+slug: common-crawl-index-query-agent
+description: Common Crawl Index Query Agent
 verification: security_reviewed
-source: "https://index.commoncrawl.org/"
-category: "General"
-framework: "OpenClaw"
+source: https://index.commoncrawl.org/
+category: General
+framework: OpenClaw
 ---
 # Common Crawl Index Query Agent
 

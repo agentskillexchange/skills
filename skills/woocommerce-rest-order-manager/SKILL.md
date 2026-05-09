@@ -1,10 +1,11 @@
 ---
-title: "WooCommerce REST Order Manager"
-slug: "woocommerce-rest-order-manager"
+title: WooCommerce REST Order Manager
+slug: woocommerce-rest-order-manager
+description: WooCommerce REST Order Manager
 verification: security_reviewed
-source: "https://woocommerce.github.io/woocommerce-rest-api-docs/"
-category: "General"
-framework: "Claude Code"
+source: https://woocommerce.github.io/woocommerce-rest-api-docs/
+category: General
+framework: Claude Code
 ---
 # WooCommerce REST Order Manager
 

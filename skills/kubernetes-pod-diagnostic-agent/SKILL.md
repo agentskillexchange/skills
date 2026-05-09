@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Diagnostic Agent"
-slug: "kubernetes-pod-diagnostic-agent"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Codex"
+title: Kubernetes Pod Diagnostic Agent
+slug: kubernetes-pod-diagnostic-agent
+description: Kubernetes Pod Diagnostic Agent
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Diagnostic Agent

@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Health Diagnostics Agent"
-slug: "postgresql-health-diagnostics-agent"
+title: PostgreSQL Health Diagnostics Agent
+slug: postgresql-health-diagnostics-agent
+description: PostgreSQL Health Diagnostics Agent
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "MCP"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: MCP
 ---
 # PostgreSQL Health Diagnostics Agent
 

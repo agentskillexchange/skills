@@ -1,10 +1,11 @@
 ---
-title: "Frontend Design Guidance Skill"
-slug: "frontend-design-guidance-skill"
+title: Frontend Design Guidance Skill
+slug: frontend-design-guidance-skill
+description: Frontend Design Guidance Skill
 verification: security_reviewed
-source: "https://www.superdesign.dev/"
-category: "General"
-framework: "OpenClaw"
+source: https://www.superdesign.dev/
+category: General
+framework: OpenClaw
 ---
 # Frontend Design Guidance Skill
 

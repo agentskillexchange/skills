@@ -1,10 +1,11 @@
 ---
-title: "Kubernetes CrashLoopBackOff Diagnoser"
-slug: "k8s-crashloopbackoff-diagnoser"
+title: Kubernetes CrashLoopBackOff Diagnoser
+slug: k8s-crashloopbackoff-diagnoser
+description: Kubernetes CrashLoopBackOff Diagnoser
 verification: security_reviewed
-source: "https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/"
-category: "General"
-framework: "Codex"
+source: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+category: General
+framework: Codex
 ---
 # Kubernetes CrashLoopBackOff Diagnoser
 

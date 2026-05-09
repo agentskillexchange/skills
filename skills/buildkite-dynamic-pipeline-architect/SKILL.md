@@ -1,10 +1,11 @@
 ---
-title: "Buildkite Dynamic Pipeline Architect"
-slug: "buildkite-dynamic-pipeline-architect"
+title: Buildkite Dynamic Pipeline Architect
+slug: buildkite-dynamic-pipeline-architect
+description: Buildkite Dynamic Pipeline Architect
 verification: security_reviewed
-source: "https://buildkite.com/docs"
-category: "General"
-framework: "Cursor"
+source: https://buildkite.com/docs
+category: General
+framework: Cursor
 ---
 # Buildkite Dynamic Pipeline Architect
 

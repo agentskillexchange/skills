@@ -1,10 +1,11 @@
 ---
-title: "Buildkite Agent Monitor"
-slug: "buildkite-agent-monitor"
+title: Buildkite Agent Monitor
+slug: buildkite-agent-monitor
+description: Buildkite Agent Monitor
 verification: security_reviewed
-source: "https://buildkite.com/docs"
-category: "General"
-framework: "Gemini"
+source: https://buildkite.com/docs
+category: General
+framework: Gemini
 ---
 # Buildkite Agent Monitor
 

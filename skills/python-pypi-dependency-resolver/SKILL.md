@@ -1,10 +1,11 @@
 ---
-title: "Python PyPI Dependency Resolver"
-slug: "python-pypi-dependency-resolver"
+title: Python PyPI Dependency Resolver
+slug: python-pypi-dependency-resolver
+description: Python PyPI Dependency Resolver
 verification: security_reviewed
-source: "https://docs.pypi.org/"
-category: "General"
-framework: "MCP"
+source: https://docs.pypi.org/
+category: General
+framework: MCP
 ---
 # Python PyPI Dependency Resolver
 

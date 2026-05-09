@@ -1,10 +1,11 @@
 ---
-title: "Google Calendar Sync Agent"
-slug: "google-calendar-sync-agent-2"
+title: Google Calendar Sync Agent
+slug: google-calendar-sync-agent-2
+description: Google Calendar Sync Agent
 verification: security_reviewed
-source: "https://developers.google.com/calendar/api"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.google.com/calendar/api
+category: General
+framework: OpenClaw
 ---
 # Google Calendar Sync Agent
 

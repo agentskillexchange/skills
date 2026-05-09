@@ -1,13 +1,14 @@
 ---
-title: "ZAP Automated Security Scan Orchestrator"
-slug: "zap-automated-security-scan-orchestrator"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Codex"
+title: ZAP Automated Security Scan Orchestrator
+slug: zap-automated-security-scan-orchestrator
+description: ZAP Automated Security Scan Orchestrator
 github_stars: 15007
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 15007
 ---
 # ZAP Automated Security Scan Orchestrator

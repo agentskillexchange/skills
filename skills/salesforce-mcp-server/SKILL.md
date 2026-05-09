@@ -1,13 +1,14 @@
 ---
-title: "Salesforce MCP Server"
-slug: "salesforce-mcp-server"
-verification: security_reviewed
-source: "https://github.com/jsforce/jsforce"
-category: "General"
-framework: "MCP"
+title: Salesforce MCP Server
+slug: salesforce-mcp-server
+description: Salesforce MCP Server
 github_stars: 1458
+verification: security_reviewed
+source: https://github.com/jsforce/jsforce
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "jsforce/jsforce"
+  github_repo: jsforce/jsforce
   github_stars: 1458
 ---
 # Salesforce MCP Server

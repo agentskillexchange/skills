@@ -1,13 +1,14 @@
 ---
-title: "Scrapy Spider Data Pipeline"
-slug: "scrapy-spider-data-pipeline"
-verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
-category: "General"
-framework: "Cursor"
+title: Scrapy Spider Data Pipeline
+slug: scrapy-spider-data-pipeline
+description: Scrapy Spider Data Pipeline
 github_stars: 61314
+verification: security_reviewed
+source: https://github.com/scrapy/scrapy
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: scrapy/scrapy
   github_stars: 61314
 ---
 # Scrapy Spider Data Pipeline

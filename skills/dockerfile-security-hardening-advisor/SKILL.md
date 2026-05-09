@@ -1,13 +1,14 @@
 ---
-title: "Dockerfile Security Hardening Advisor"
-slug: "dockerfile-security-hardening-advisor"
-verification: security_reviewed
-source: "https://github.com/hadolint/hadolint"
-category: "General"
-framework: "Claude Code"
+title: Dockerfile Security Hardening Advisor
+slug: dockerfile-security-hardening-advisor
+description: Dockerfile Security Hardening Advisor
 github_stars: 12100
+verification: security_reviewed
+source: https://github.com/hadolint/hadolint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hadolint/hadolint"
+  github_repo: hadolint/hadolint
   github_stars: 12100
 ---
 # Dockerfile Security Hardening Advisor

@@ -1,12 +1,13 @@
 ---
-title: "Parquet Schema Extractor for S3"
-slug: "parquet-schema-extractor-for-s3"
+title: Parquet Schema Extractor for S3
+slug: parquet-schema-extractor-for-s3
+description: Parquet Schema Extractor for S3
 verification: security_reviewed
-source: "https://github.com/ironSource/parquetjs"
-category: "General"
-framework: "Gemini"
+source: https://github.com/ironSource/parquetjs
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "ironsource/parquetjs"
+  github_repo: ironsource/parquetjs
   github_stars: 387
 ---
 # Parquet Schema Extractor for S3

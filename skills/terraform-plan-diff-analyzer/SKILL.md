@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan Diff Analyzer"
-slug: "terraform-plan-diff-analyzer"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Cursor"
+title: Terraform Plan Diff Analyzer
+slug: terraform-plan-diff-analyzer
+description: Terraform Plan Diff Analyzer
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Plan Diff Analyzer

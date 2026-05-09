@@ -1,10 +1,11 @@
 ---
-title: "Keyword Cannibalization Detector"
-slug: "keyword-cannibalization-detector"
+title: Keyword Cannibalization Detector
+slug: keyword-cannibalization-detector
+description: Keyword Cannibalization Detector
 verification: security_reviewed
-source: "https://developer.wordpress.org/"
-category: "General"
-framework: "Claude Code"
+source: https://developer.wordpress.org/
+category: General
+framework: Claude Code
 ---
 # Keyword Cannibalization Detector
 

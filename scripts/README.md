@@ -15,8 +15,10 @@ Validates a `SKILL.md` file against the skill spec.
 **Checks performed:**
 - File exists and is non-empty
 - YAML frontmatter is present (delimited by `---`)
-- Required fields exist: `name`, `description`, `category`, `framework`, `verification`
-- Verification is a valid value (`listed` or `security_reviewed`)
+- Required fields exist: `title`, `slug`, `description`, `category`, `framework`, `verification`
+- `slug` matches the containing directory name
+- Deprecated `name` frontmatter is not present
+- Verification is a public value (`listed` or `security_reviewed`); internal `verified_metadata` must export as `listed`
 - Body contains an H1 heading (`# `)
 
 **Exit codes:** `0` on pass, `1` on fail with descriptive error messages.

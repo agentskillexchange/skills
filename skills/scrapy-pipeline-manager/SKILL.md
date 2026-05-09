@@ -1,13 +1,14 @@
 ---
-title: "Scrapy Pipeline Manager"
-slug: "scrapy-pipeline-manager"
-verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
-category: "General"
-framework: "Claude Code"
+title: Scrapy Pipeline Manager
+slug: scrapy-pipeline-manager
+description: Scrapy Pipeline Manager
 github_stars: 61314
+verification: security_reviewed
+source: https://github.com/scrapy/scrapy
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: scrapy/scrapy
   github_stars: 61314
 ---
 # Scrapy Pipeline Manager

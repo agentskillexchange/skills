@@ -1,13 +1,14 @@
 ---
-title: "Snyk Container Image Analyzer"
-slug: "snyk-container-image-analyzer"
-verification: security_reviewed
-source: "https://github.com/snyk/cli"
-category: "General"
-framework: "Claude Agents"
+title: Snyk Container Image Analyzer
+slug: snyk-container-image-analyzer
+description: Snyk Container Image Analyzer
 github_stars: 5496
+verification: security_reviewed
+source: https://github.com/snyk/cli
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   github_stars: 5496
 ---
 # Snyk Container Image Analyzer

@@ -1,10 +1,11 @@
 ---
-title: "Git Diff Complexity Analyzer"
-slug: "git-diff-complexity-analyzer"
+title: Git Diff Complexity Analyzer
+slug: git-diff-complexity-analyzer
+description: Git Diff Complexity Analyzer
 verification: security_reviewed
-source: "https://git-scm.com/docs/git-diff"
-category: "General"
-framework: "MCP"
+source: https://git-scm.com/docs/git-diff
+category: General
+framework: MCP
 ---
 # Git Diff Complexity Analyzer
 

@@ -1,11 +1,12 @@
 ---
-title: "Give agents fast searchable memory with Supermemory"
-slug: "give-agents-fast-searchable-memory-with-supermemory"
-verification: security_reviewed
-source: "https://github.com/supermemoryai/supermemory"
-category: "General"
-framework: "Any"
+title: Give agents fast searchable memory with Supermemory
+slug: give-agents-fast-searchable-memory-with-supermemory
+description: Give agents fast searchable memory with Supermemory
 github_stars: 22457
+verification: security_reviewed
+source: https://github.com/supermemoryai/supermemory
+category: General
+framework: Any
 ---
 # Give agents fast searchable memory with Supermemory
 

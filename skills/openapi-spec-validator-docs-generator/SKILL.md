@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Spec Validator &#038; Docs Generator"
-slug: "openapi-spec-validator-docs-generator"
-verification: security_reviewed
-source: "https://github.com/stoplightio/spectral"
-category: "General"
-framework: "MCP"
+title: OpenAPI Spec Validator & Docs Generator
+slug: openapi-spec-validator-docs-generator
+description: OpenAPI Spec Validator & Docs Generator
 github_stars: 3084
+verification: security_reviewed
+source: https://github.com/stoplightio/spectral
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "stoplightio/spectral"
+  github_repo: stoplightio/spectral
   github_stars: 3084
 ---
 # OpenAPI Spec Validator &#038; Docs Generator

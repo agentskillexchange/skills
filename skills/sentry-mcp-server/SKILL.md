@@ -1,13 +1,14 @@
 ---
-title: "Sentry MCP Server"
-slug: "sentry-mcp-server"
-verification: security_reviewed
-source: "https://github.com/getsentry/sentry-mcp"
-category: "General"
-framework: "MCP"
+title: Sentry MCP Server
+slug: sentry-mcp-server
+description: Sentry MCP Server
 github_stars: 680
+verification: security_reviewed
+source: https://github.com/getsentry/sentry-mcp
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "getsentry/sentry-mcp"
+  github_repo: getsentry/sentry-mcp
   github_stars: 680
 ---
 # Sentry MCP Server

@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Rule Author"
-slug: "semgrep-rule-author"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "OpenClaw"
+title: Semgrep Rule Author
+slug: semgrep-rule-author
+description: Semgrep Rule Author
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Rule Author

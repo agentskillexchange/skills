@@ -1,12 +1,13 @@
 ---
-title: "Selenium Grid Auto-Scaling Orchestrator"
-slug: "selenium-grid-auto-scaling-orchestrator"
+title: Selenium Grid Auto-Scaling Orchestrator
+slug: selenium-grid-auto-scaling-orchestrator
+description: Selenium Grid Auto-Scaling Orchestrator
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/SeleniumHQ/selenium
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
+  github_repo: seleniumhq/selenium
   github_stars: 34076
 ---
 # Selenium Grid Auto-Scaling Orchestrator

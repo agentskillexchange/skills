@@ -1,10 +1,11 @@
 ---
-title: "npm Dependency Audit Scanner"
-slug: "npm-dependency-audit-scanner"
+title: npm Dependency Audit Scanner
+slug: npm-dependency-audit-scanner
+description: npm Dependency Audit Scanner
 verification: security_reviewed
-source: "https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/
+category: General
+framework: Custom Agents
 ---
 # npm Dependency Audit Scanner
 

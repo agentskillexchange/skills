@@ -1,14 +1,14 @@
 ---
-title: "jq JSON Stream Transformer"
-slug: "jq-json-stream-transformer"
-description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser."
+title: jq JSON Stream Transformer
+slug: jq-json-stream-transformer
+description: Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser.
 github_stars: 34478
 verification: security_reviewed
-source: "https://github.com/jqlang/jq"
-category: "Data Extraction & Transformation"
-framework: "MCP"
+source: https://github.com/jqlang/jq
+category: Data Extraction & Transformation
+framework: MCP
 tool_ecosystem:
-  github_repo: "jqlang/jq"
+  github_repo: jqlang/jq
   github_stars: 34478
 ---
 # jq JSON Stream Transformer

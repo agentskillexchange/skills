@@ -1,14 +1,14 @@
 ---
-title: "Colly Golang Web Scraper and Crawler Framework"
-slug: "colly-golang-web-scraper-crawler-framework"
-description: "Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page extraction to asynchronous crawlers that process large collections of pages with request callbacks and structured parsing."
+title: Colly Golang Web Scraper and Crawler Framework
+slug: colly-golang-web-scraper-crawler-framework
+description: Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page extraction to asynchronous crawlers that process large collections of pages with request callbacks and structured parsing.
 github_stars: 25229
 verification: security_reviewed
-source: "https://github.com/gocolly/colly"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+source: https://github.com/gocolly/colly
+category: Research & Scraping
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "gocolly/colly"
+  github_repo: gocolly/colly
   github_stars: 25229
 ---
 # Colly Golang Web Scraper and Crawler Framework

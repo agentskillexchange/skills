@@ -21,6 +21,7 @@ if [ $# -lt 1 ]; then
 fi
 
 SKILL_FILE="$1"
+SKILL_DIR="$(basename "$(dirname "$SKILL_FILE")")"
 
 if [ ! -f "$SKILL_FILE" ]; then
   echo "❌ FAIL: File not found: ${SKILL_FILE}"
@@ -32,13 +33,11 @@ if [ ! -s "$SKILL_FILE" ]; then
   exit 1
 fi
 
-# Check for YAML frontmatter delimiters
 FIRST_LINE=$(head -1 "$SKILL_FILE")
 if [ "$FIRST_LINE" != "---" ]; then
   error "Missing YAML frontmatter (file must start with ---)"
 fi
 
-# Extract frontmatter (between first and second ---)
 FRONTMATTER=$(awk '/^---$/{n++;next} n==1{print} n>=2{exit}' "$SKILL_FILE")
 
 if [ -z "$FRONTMATTER" ]; then
@@ -54,31 +53,37 @@ if [ -z "$FRONTMATTER" ]; then
   exit 1
 fi
 
-# Check required fields
-for field in name description category framework verification; do
-  if ! echo "$FRONTMATTER" | grep -qE "^${field}:"; then
+for field in title slug description category framework verification; do
+  if ! grep -qE "^${field}:" <<< "$FRONTMATTER"; then
     error "Missing required field: ${field}"
   fi
 done
 
-# Validate verification value
-VERIFICATION=$(echo "$FRONTMATTER" | grep -E "^verification:" | head -1 | sed 's/verification:\s*//' | tr -d '[:space:]"'"'"'')
+if grep -qE '^name:' <<< "$FRONTMATTER"; then
+  error "Deprecated field present: name (use title)"
+fi
+
+SLUG=$(grep -E '^slug:' <<< "$FRONTMATTER" | head -1 | sed 's/slug:\s*//' | sed 's/^"//;s/"$//' | sed "s/^'//;s/'$//" | tr -d '[:space:]')
+if [ -n "$SLUG" ] && [ "$SLUG" != "$SKILL_DIR" ]; then
+  error "Slug '${SLUG}' does not match directory '${SKILL_DIR}'"
+fi
+
+VERIFICATION=$(grep -E '^verification:' <<< "$FRONTMATTER" | head -1 | sed 's/verification:\s*//' | tr -d '[:space:]"'"'"'')
 if [ -n "$VERIFICATION" ]; then
   case "$VERIFICATION" in
     listed|security_reviewed) ;;
+    verified_metadata) error "Invalid public verification value: 'verified_metadata' (export as 'listed')" ;;
     *) error "Invalid verification value: '${VERIFICATION}' (must be 'listed' or 'security_reviewed')" ;;
   esac
 fi
 
-# Check for H1 heading in body (after frontmatter)
 BODY=$(awk '/^---$/{n++; next} n>=2{print}' "$SKILL_FILE")
 if [ -z "$BODY" ]; then
   error "No content body found after frontmatter"
-elif ! echo "$BODY" | grep -qE '^# '; then
+elif ! grep -qE '^# ' <<< "$BODY"; then
   error "Missing H1 heading (# ) in body content"
 fi
 
-# Report results
 echo ""
 echo "Validation result for: ${SKILL_FILE}"
 echo "========================"

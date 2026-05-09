@@ -1,13 +1,14 @@
 ---
-title: "Jinja2 Template Engine"
-slug: "jinja2-template-engine-agent"
-verification: security_reviewed
-source: "https://github.com/pallets/jinja"
-category: "General"
-framework: "Gemini"
+title: Jinja2 Template Engine
+slug: jinja2-template-engine-agent
+description: Jinja2 Template Engine
 github_stars: 11583
+verification: security_reviewed
+source: https://github.com/pallets/jinja
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "pallets/jinja"
+  github_repo: pallets/jinja
   github_stars: 11583
 ---
 # Jinja2 Template Engine

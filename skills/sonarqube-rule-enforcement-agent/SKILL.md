@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Rule Enforcement Agent"
-slug: "sonarqube-rule-enforcement-agent"
+title: SonarQube Rule Enforcement Agent
+slug: sonarqube-rule-enforcement-agent
+description: SonarQube Rule Enforcement Agent
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Rule Enforcement Agent

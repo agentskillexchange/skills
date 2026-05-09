@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Diagnostic Runbook"
-slug: "kubernetes-diagnostic-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Claude Agents"
+title: Kubernetes Diagnostic Runbook
+slug: kubernetes-diagnostic-runbook
+description: Kubernetes Diagnostic Runbook
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Diagnostic Runbook

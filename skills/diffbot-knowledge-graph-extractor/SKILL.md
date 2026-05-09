@@ -1,10 +1,11 @@
 ---
-title: "Diffbot Knowledge Graph Extractor"
-slug: "diffbot-knowledge-graph-extractor"
+title: Diffbot Knowledge Graph Extractor
+slug: diffbot-knowledge-graph-extractor
+description: Diffbot Knowledge Graph Extractor
 verification: security_reviewed
-source: "https://docs.diffbot.com/"
-category: "General"
-framework: "Claude Agents"
+source: https://docs.diffbot.com/
+category: General
+framework: Claude Agents
 ---
 # Diffbot Knowledge Graph Extractor
 

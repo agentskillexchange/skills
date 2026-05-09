@@ -1,13 +1,14 @@
 ---
-title: "Swagger Codegen API Client Builder"
-slug: "swagger-codegen-api-client-builder"
-verification: security_reviewed
-source: "https://github.com/swagger-api/swagger-ui"
-category: "General"
-framework: "Claude Code"
+title: Swagger Codegen API Client Builder
+slug: swagger-codegen-api-client-builder
+description: Swagger Codegen API Client Builder
 github_stars: 28751
+verification: security_reviewed
+source: https://github.com/swagger-api/swagger-ui
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "swagger-api/swagger-ui"
+  github_repo: swagger-api/swagger-ui
   github_stars: 28751
 ---
 # Swagger Codegen API Client Builder

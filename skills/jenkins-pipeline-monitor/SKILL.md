@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Monitor"
-slug: "jenkins-pipeline-monitor"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Gemini"
+title: Jenkins Pipeline Monitor
+slug: jenkins-pipeline-monitor
+description: Jenkins Pipeline Monitor
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Monitor

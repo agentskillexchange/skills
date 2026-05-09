@@ -1,13 +1,14 @@
 ---
-title: "Terraform State Surgery Kit"
-slug: "terraform-state-surgery-kit"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Claude Code"
+title: Terraform State Surgery Kit
+slug: terraform-state-surgery-kit
+description: Terraform State Surgery Kit
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform State Surgery Kit

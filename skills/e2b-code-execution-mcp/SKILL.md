@@ -1,13 +1,14 @@
 ---
-title: "E2B Code Execution MCP"
-slug: "e2b-code-execution-mcp"
-verification: security_reviewed
-source: "https://github.com/e2b-dev/mcp-server"
-category: "General"
-framework: "MCP"
+title: E2B Code Execution MCP
+slug: e2b-code-execution-mcp
+description: E2B Code Execution MCP
 github_stars: 395
+verification: security_reviewed
+source: https://github.com/e2b-dev/mcp-server
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "e2b-dev/mcp-server"
+  github_repo: e2b-dev/mcp-server
   github_stars: 395
 ---
 # E2B Code Execution MCP

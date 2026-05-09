@@ -1,10 +1,11 @@
 ---
-title: "Plaid Financial Data Aggregator & Budget Classifier"
-slug: "plaid-financial-data-aggregator"
+title: Plaid Financial Data Aggregator & Budget Classifier
+slug: plaid-financial-data-aggregator
+description: Plaid Financial Data Aggregator & Budget Classifier
 verification: security_reviewed
-source: "https://plaid.com/docs/"
-category: "General"
-framework: "Cursor"
+source: https://plaid.com/docs/
+category: General
+framework: Cursor
 ---
 # Plaid Financial Data Aggregator & Budget Classifier
 

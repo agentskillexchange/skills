@@ -1,13 +1,14 @@
 ---
-title: "Notion to PDF Knowledge Exporter"
-slug: "notion-to-pdf-knowledge-exporter"
-verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-category: "General"
-framework: "Codex"
+title: Notion to PDF Knowledge Exporter
+slug: notion-to-pdf-knowledge-exporter
+description: Notion to PDF Knowledge Exporter
 github_stars: 5582
+verification: security_reviewed
+source: https://github.com/makenotion/notion-sdk-js
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5582
 ---
 # Notion to PDF Knowledge Exporter

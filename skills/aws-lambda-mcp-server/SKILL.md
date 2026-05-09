@@ -1,13 +1,14 @@
 ---
-title: "AWS Lambda MCP Server"
-slug: "aws-lambda-mcp-server"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "MCP"
+title: AWS Lambda MCP Server
+slug: aws-lambda-mcp-server
+description: AWS Lambda MCP Server
 github_stars: 3622
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3622
 ---
 # AWS Lambda MCP Server

@@ -1,13 +1,14 @@
 ---
-title: "Camelot Advanced PDF Table Intelligence"
-slug: "camelot-advanced-pdf-table-intelligence"
-verification: security_reviewed
-source: "https://github.com/camelot-dev/camelot"
-category: "General"
-framework: "Cursor"
+title: Camelot Advanced PDF Table Intelligence
+slug: camelot-advanced-pdf-table-intelligence
+description: Camelot Advanced PDF Table Intelligence
 github_stars: 3673
+verification: security_reviewed
+source: https://github.com/camelot-dev/camelot
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "camelot-dev/camelot"
+  github_repo: camelot-dev/camelot
   github_stars: 3673
 ---
 # Camelot Advanced PDF Table Intelligence

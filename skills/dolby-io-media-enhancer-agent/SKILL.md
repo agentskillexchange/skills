@@ -1,10 +1,11 @@
 ---
-title: "Dolby.io Media Enhancer"
-slug: "dolby-io-media-enhancer-agent"
+title: Dolby.io Media Enhancer
+slug: dolby-io-media-enhancer-agent
+description: Dolby.io Media Enhancer
 verification: security_reviewed
-source: "https://optiview.dolby.com/docs/"
-category: "General"
-framework: "Cursor"
+source: https://optiview.dolby.com/docs/
+category: General
+framework: Cursor
 ---
 # Dolby.io Media Enhancer
 

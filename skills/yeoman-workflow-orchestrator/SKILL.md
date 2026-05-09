@@ -1,13 +1,14 @@
 ---
-title: "Yeoman Workflow Orchestrator"
-slug: "yeoman-workflow-orchestrator"
-verification: security_reviewed
-source: "https://github.com/yeoman/yo"
-category: "General"
-framework: "Gemini"
+title: Yeoman Workflow Orchestrator
+slug: yeoman-workflow-orchestrator
+description: Yeoman Workflow Orchestrator
 github_stars: 3956
+verification: security_reviewed
+source: https://github.com/yeoman/yo
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "yeoman/yo"
+  github_repo: yeoman/yo
   github_stars: 3956
 ---
 # Yeoman Workflow Orchestrator

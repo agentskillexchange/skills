@@ -1,10 +1,11 @@
 ---
-title: "PyPI Package Inspector"
-slug: "pypi-package-inspector"
+title: PyPI Package Inspector
+slug: pypi-package-inspector
+description: PyPI Package Inspector
 verification: security_reviewed
-source: "https://pypi.org/"
-category: "General"
-framework: "Gemini"
+source: https://pypi.org/
+category: General
+framework: Gemini
 ---
 # PyPI Package Inspector
 

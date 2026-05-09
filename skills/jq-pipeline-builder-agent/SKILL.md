@@ -1,13 +1,14 @@
 ---
-title: "jq Pipeline Builder Agent"
-slug: "jq-pipeline-builder-agent"
-verification: security_reviewed
-source: "https://github.com/jqlang/jq"
-category: "General"
-framework: "Gemini"
+title: jq Pipeline Builder Agent
+slug: jq-pipeline-builder-agent
+description: jq Pipeline Builder Agent
 github_stars: 34478
+verification: security_reviewed
+source: https://github.com/jqlang/jq
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "jqlang/jq"
+  github_repo: jqlang/jq
   github_stars: 34478
 ---
 # jq Pipeline Builder Agent

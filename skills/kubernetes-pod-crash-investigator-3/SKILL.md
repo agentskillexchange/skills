@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Crash Investigator"
-slug: "kubernetes-pod-crash-investigator-3"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Codex"
+title: Kubernetes Pod Crash Investigator
+slug: kubernetes-pod-crash-investigator-3
+description: Kubernetes Pod Crash Investigator
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Crash Investigator

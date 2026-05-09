@@ -1,13 +1,14 @@
 ---
-title: "OpenAI Whisper Batch Transcription Pipeline"
-slug: "whisper-batch-transcription-pipeline"
-verification: security_reviewed
-source: "https://github.com/openai/whisper"
-category: "General"
-framework: "OpenClaw"
+title: OpenAI Whisper Batch Transcription Pipeline
+slug: whisper-batch-transcription-pipeline
+description: OpenAI Whisper Batch Transcription Pipeline
 github_stars: 97803
+verification: security_reviewed
+source: https://github.com/openai/whisper
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97803
 ---
 # OpenAI Whisper Batch Transcription Pipeline

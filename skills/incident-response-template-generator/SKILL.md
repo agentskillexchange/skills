@@ -1,10 +1,11 @@
 ---
-title: "Incident Response Template Generator"
-slug: "incident-response-template-generator"
+title: Incident Response Template Generator
+slug: incident-response-template-generator
+description: Incident Response Template Generator
 verification: security_reviewed
-source: "https://developers.notion.com/"
-category: "General"
-framework: "Custom Agents"
+source: https://developers.notion.com/
+category: General
+framework: Custom Agents
 ---
 # Incident Response Template Generator
 

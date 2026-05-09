@@ -1,13 +1,14 @@
 ---
-title: "Falco Runtime Security"
-slug: "falco-runtime-security"
-verification: security_reviewed
-source: "https://github.com/falcosecurity/falco"
-category: "General"
-framework: "Custom Agents"
+title: Falco Runtime Security
+slug: falco-runtime-security
+description: Falco Runtime Security
 github_stars: 8847
+verification: security_reviewed
+source: https://github.com/falcosecurity/falco
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "falcosecurity/falco"
+  github_repo: falcosecurity/falco
   github_stars: 8847
 ---
 # Falco Runtime Security

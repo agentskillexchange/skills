@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Dependency Auditor"
-slug: "npm-package-dependency-auditor"
+title: NPM Package Dependency Auditor
+slug: npm-package-dependency-auditor
+description: NPM Package Dependency Auditor
 verification: security_reviewed
-source: "https://docs.npmjs.com/"
-category: "General"
-framework: "MCP"
+source: https://docs.npmjs.com/
+category: General
+framework: MCP
 ---
 # NPM Package Dependency Auditor
 

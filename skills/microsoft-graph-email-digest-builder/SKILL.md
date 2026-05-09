@@ -1,10 +1,11 @@
 ---
-title: "Microsoft Graph Email Digest Builder"
-slug: "microsoft-graph-email-digest-builder"
+title: Microsoft Graph Email Digest Builder
+slug: microsoft-graph-email-digest-builder
+description: Microsoft Graph Email Digest Builder
 verification: security_reviewed
-source: "https://learn.microsoft.com/graph/overview"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://learn.microsoft.com/graph/overview
+category: General
+framework: ChatGPT Agents
 ---
 # Microsoft Graph Email Digest Builder
 

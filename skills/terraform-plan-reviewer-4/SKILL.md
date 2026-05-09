@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan Reviewer"
-slug: "terraform-plan-reviewer-4"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Claude Code"
+title: Terraform Plan Reviewer
+slug: terraform-plan-reviewer-4
+description: Terraform Plan Reviewer
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Plan Reviewer

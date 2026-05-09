@@ -1,10 +1,11 @@
 ---
-title: "CloudWatch Log Anomaly Detector"
-slug: "cloudwatch-log-anomaly-detector"
+title: CloudWatch Log Anomaly Detector
+slug: cloudwatch-log-anomaly-detector
+description: CloudWatch Log Anomaly Detector
 verification: security_reviewed
-source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/LogsAnomalyDetection.html"
-category: "General"
-framework: "Gemini"
+source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/LogsAnomalyDetection.html
+category: General
+framework: Gemini
 ---
 # CloudWatch Log Anomaly Detector
 

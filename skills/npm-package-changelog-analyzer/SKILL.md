@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Changelog Analyzer"
-slug: "npm-package-changelog-analyzer"
+title: NPM Package Changelog Analyzer
+slug: npm-package-changelog-analyzer
+description: NPM Package Changelog Analyzer
 verification: security_reviewed
-source: "https://docs.npmjs.com/"
-category: "General"
-framework: "Cursor"
+source: https://docs.npmjs.com/
+category: General
+framework: Cursor
 ---
 # NPM Package Changelog Analyzer
 

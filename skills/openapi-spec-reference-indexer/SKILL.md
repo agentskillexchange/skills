@@ -1,10 +1,11 @@
 ---
-title: "OpenAPI Spec Reference Indexer"
-slug: "openapi-spec-reference-indexer"
+title: OpenAPI Spec Reference Indexer
+slug: openapi-spec-reference-indexer
+description: OpenAPI Spec Reference Indexer
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "MCP"
+source: https://swagger.io/docs/
+category: General
+framework: MCP
 ---
 # OpenAPI Spec Reference Indexer
 

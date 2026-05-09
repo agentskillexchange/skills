@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Query Optimizer Agent"
-slug: "postgresql-query-optimizer-explain-api"
+title: PostgreSQL Query Optimizer Agent
+slug: postgresql-query-optimizer-explain-api
+description: PostgreSQL Query Optimizer Agent
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "OpenClaw"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: OpenClaw
 ---
 # PostgreSQL Query Optimizer Agent
 

@@ -1,10 +1,11 @@
 ---
-title: "REST API Documentation Generator"
-slug: "rest-api-documentation-generator"
+title: REST API Documentation Generator
+slug: rest-api-documentation-generator
+description: REST API Documentation Generator
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "Claude Code"
+source: https://swagger.io/docs/
+category: General
+framework: Claude Code
 ---
 # REST API Documentation Generator
 

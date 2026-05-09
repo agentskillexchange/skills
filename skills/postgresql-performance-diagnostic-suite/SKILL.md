@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Performance Diagnostic Suite"
-slug: "postgresql-performance-diagnostic-suite"
+title: PostgreSQL Performance Diagnostic Suite
+slug: postgresql-performance-diagnostic-suite
+description: PostgreSQL Performance Diagnostic Suite
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "MCP"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: MCP
 ---
 # PostgreSQL Performance Diagnostic Suite
 

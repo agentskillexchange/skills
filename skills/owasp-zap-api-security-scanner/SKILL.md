@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP API Security Scanner"
-slug: "owasp-zap-api-security-scanner"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Gemini"
+title: OWASP ZAP API Security Scanner
+slug: owasp-zap-api-security-scanner
+description: OWASP ZAP API Security Scanner
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP API Security Scanner

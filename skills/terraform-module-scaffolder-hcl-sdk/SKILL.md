@@ -1,13 +1,14 @@
 ---
-title: "Terraform Module Scaffolder"
-slug: "terraform-module-scaffolder-hcl-sdk"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Custom Agents"
+title: Terraform Module Scaffolder
+slug: terraform-module-scaffolder-hcl-sdk
+description: Terraform Module Scaffolder
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Module Scaffolder

@@ -1,13 +1,14 @@
 ---
-title: "REST API Response Schema Validator"
-slug: "rest-api-response-schema-validator"
-verification: security_reviewed
-source: "https://github.com/ajv-validator/ajv"
-category: "General"
-framework: "Claude Agents"
+title: REST API Response Schema Validator
+slug: rest-api-response-schema-validator
+description: REST API Response Schema Validator
 github_stars: 14691
+verification: security_reviewed
+source: https://github.com/ajv-validator/ajv
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "ajv-validator/ajv"
+  github_repo: ajv-validator/ajv
   github_stars: 14691
 ---
 # REST API Response Schema Validator

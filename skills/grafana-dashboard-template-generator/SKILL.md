@@ -1,13 +1,14 @@
 ---
-title: "Grafana Dashboard Template Generator"
-slug: "grafana-dashboard-template-generator"
-verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category: "General"
-framework: "Cursor"
+title: Grafana Dashboard Template Generator
+slug: grafana-dashboard-template-generator
+description: Grafana Dashboard Template Generator
 github_stars: 73187
+verification: security_reviewed
+source: https://github.com/grafana/grafana
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
 ---
 # Grafana Dashboard Template Generator

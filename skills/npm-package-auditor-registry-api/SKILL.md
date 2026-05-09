@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Auditor"
-slug: "npm-package-auditor-registry-api"
+title: NPM Package Auditor
+slug: npm-package-auditor-registry-api
+description: NPM Package Auditor
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
-category: "General"
-framework: "MCP"
+source: https://docs.npmjs.com/cli/v10/using-npm/registry/
+category: General
+framework: MCP
 ---
 # NPM Package Auditor
 

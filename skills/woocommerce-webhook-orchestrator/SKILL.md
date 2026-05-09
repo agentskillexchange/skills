@@ -1,13 +1,14 @@
 ---
-title: "WooCommerce Webhook Orchestrator"
-slug: "woocommerce-webhook-orchestrator"
-verification: security_reviewed
-source: "https://github.com/woocommerce/woocommerce"
-category: "General"
-framework: "Cursor"
+title: WooCommerce Webhook Orchestrator
+slug: woocommerce-webhook-orchestrator
+description: WooCommerce Webhook Orchestrator
 github_stars: 10271
+verification: security_reviewed
+source: https://github.com/woocommerce/woocommerce
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "woocommerce/woocommerce"
+  github_repo: woocommerce/woocommerce
   github_stars: 10271
 ---
 # WooCommerce Webhook Orchestrator

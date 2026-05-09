@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Workflow Optimizer"
-slug: "github-actions-workflow-optimizer"
+title: GitHub Actions Workflow Optimizer
+slug: github-actions-workflow-optimizer
+description: GitHub Actions Workflow Optimizer
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "OpenClaw"
+source: https://docs.github.com/en/actions
+category: General
+framework: OpenClaw
 ---
 # GitHub Actions Workflow Optimizer
 

@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Deployment Runbook Agent"
-slug: "argocd-deployment-runbook-agent"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Custom Agents"
+title: ArgoCD Deployment Runbook Agent
+slug: argocd-deployment-runbook-agent
+description: ArgoCD Deployment Runbook Agent
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Deployment Runbook Agent

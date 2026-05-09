@@ -1,10 +1,11 @@
 ---
-title: "npm Audit Dependency Report Generator"
-slug: "npm-audit-dependency-report-generator"
+title: npm Audit Dependency Report Generator
+slug: npm-audit-dependency-report-generator
+description: npm Audit Dependency Report Generator
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
-category: "General"
-framework: "Claude Agents"
+source: https://docs.npmjs.com/cli/v10/commands/npm-audit/
+category: General
+framework: Claude Agents
 ---
 # npm Audit Dependency Report Generator
 

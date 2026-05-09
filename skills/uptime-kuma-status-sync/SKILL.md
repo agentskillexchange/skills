@@ -1,13 +1,14 @@
 ---
-title: "Uptime Kuma Status Sync"
-slug: "uptime-kuma-status-sync"
-verification: security_reviewed
-source: "https://github.com/louislam/uptime-kuma"
-category: "General"
-framework: "Claude Agents"
+title: Uptime Kuma Status Sync
+slug: uptime-kuma-status-sync
+description: Uptime Kuma Status Sync
 github_stars: 85583
+verification: security_reviewed
+source: https://github.com/louislam/uptime-kuma
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "louislam/uptime-kuma"
+  github_repo: louislam/uptime-kuma
   github_stars: 85583
 ---
 # Uptime Kuma Status Sync

@@ -1,12 +1,13 @@
 ---
-title: "Metrics Dashboard Builder"
-slug: "metrics-dashboard-builder"
+title: Metrics Dashboard Builder
+slug: metrics-dashboard-builder
+description: Metrics Dashboard Builder
 verification: security_reviewed
-source: "https://github.com/DataDog/datadog-api-client-typescript"
-category: "General"
-framework: "Claude Agents"
+source: https://github.com/DataDog/datadog-api-client-typescript
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "datadog/datadog-api-client-typescript"
+  github_repo: datadog/datadog-api-client-typescript
   github_stars: 102
 ---
 # Metrics Dashboard Builder

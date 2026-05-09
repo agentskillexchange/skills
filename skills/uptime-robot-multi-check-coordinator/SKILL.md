@@ -1,10 +1,11 @@
 ---
-title: "Uptime Robot Multi-Check Coordinator"
-slug: "uptime-robot-multi-check-coordinator"
+title: Uptime Robot Multi-Check Coordinator
+slug: uptime-robot-multi-check-coordinator
+description: Uptime Robot Multi-Check Coordinator
 verification: security_reviewed
-source: "https://uptimerobot.com/api/"
-category: "General"
-framework: "OpenClaw"
+source: https://uptimerobot.com/api/
+category: General
+framework: OpenClaw
 ---
 # Uptime Robot Multi-Check Coordinator
 

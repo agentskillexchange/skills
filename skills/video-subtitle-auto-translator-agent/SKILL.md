@@ -1,13 +1,14 @@
 ---
-title: "Video Subtitle Auto-Translator"
-slug: "video-subtitle-auto-translator-agent"
-verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "Cursor"
+title: Video Subtitle Auto-Translator
+slug: video-subtitle-auto-translator-agent
+description: Video Subtitle Auto-Translator
 github_stars: 59426
+verification: security_reviewed
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
+  github_repo: FFmpeg/FFmpeg
   github_stars: 59426
 ---
 # Video Subtitle Auto-Translator

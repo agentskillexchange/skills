@@ -1,13 +1,14 @@
 ---
-title: "Atlassian Rovo MCP Server"
-slug: "atlassian-rovo-mcp-server"
-verification: security_reviewed
-source: "https://github.com/atlassian/atlassian-mcp-server"
-category: "General"
-framework: "MCP"
+title: Atlassian Rovo MCP Server
+slug: atlassian-rovo-mcp-server
+description: Atlassian Rovo MCP Server
 github_stars: 659
+verification: security_reviewed
+source: https://github.com/atlassian/atlassian-mcp-server
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "atlassian/atlassian-mcp-server"
+  github_repo: atlassian/atlassian-mcp-server
   github_stars: 659
 ---
 # Atlassian Rovo MCP Server

@@ -1,13 +1,14 @@
 ---
-title: "Terraform Cloud Orchestrator"
-slug: "terraform-cloud-orchestrator-skill"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Gemini"
+title: Terraform Cloud Orchestrator
+slug: terraform-cloud-orchestrator-skill
+description: Terraform Cloud Orchestrator
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Cloud Orchestrator

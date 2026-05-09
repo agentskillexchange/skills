@@ -1,13 +1,14 @@
 ---
-title: "Postman Collection Runner"
-slug: "postman-collection-runner"
-verification: security_reviewed
-source: "https://github.com/postmanlabs/newman"
-category: "General"
-framework: "Custom Agents"
+title: Postman Collection Runner
+slug: postman-collection-runner
+description: Postman Collection Runner
 github_stars: 7205
+verification: security_reviewed
+source: https://github.com/postmanlabs/newman
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "postmanlabs/newman"
+  github_repo: postmanlabs/newman
   github_stars: 7205
 ---
 # Postman Collection Runner

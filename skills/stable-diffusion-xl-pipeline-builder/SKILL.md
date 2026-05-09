@@ -1,11 +1,12 @@
 ---
-title: "Stable Diffusion XL Pipeline Builder"
-slug: "stable-diffusion-xl-pipeline-builder"
-verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
-category: "General"
-framework: "Cursor"
+title: Stable Diffusion XL Pipeline Builder
+slug: stable-diffusion-xl-pipeline-builder
+description: Stable Diffusion XL Pipeline Builder
 github_stars: 27135
+verification: security_reviewed
+source: https://github.com/Stability-AI/stablediffusion
+category: General
+framework: Cursor
 ---
 # Stable Diffusion XL Pipeline Builder
 

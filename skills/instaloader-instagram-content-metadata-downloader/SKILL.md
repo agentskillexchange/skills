@@ -1,14 +1,14 @@
 ---
-title: "Instaloader Instagram Content and Metadata Downloader"
-slug: "instaloader-instagram-content-metadata-downloader"
-description: "Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection."
+title: Instaloader Instagram Content and Metadata Downloader
+slug: instaloader-instagram-content-metadata-downloader
+description: Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection.
 github_stars: 12047
 verification: security_reviewed
-source: "https://github.com/instaloader/instaloader"
-category: "Research & Scraping"
-framework: "Custom Agents"
+source: https://github.com/instaloader/instaloader
+category: Research & Scraping
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "instaloader/instaloader"
+  github_repo: instaloader/instaloader
   github_stars: 12047
 ---
 # Instaloader Instagram Content and Metadata Downloader

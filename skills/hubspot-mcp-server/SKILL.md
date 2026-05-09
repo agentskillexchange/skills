@@ -1,12 +1,13 @@
 ---
-title: "HubSpot MCP Server"
-slug: "hubspot-mcp-server"
+title: HubSpot MCP Server
+slug: hubspot-mcp-server
+description: HubSpot MCP Server
 verification: security_reviewed
-source: "https://github.com/HubSpot/hubspot-api-nodejs"
-category: "General"
-framework: "MCP"
+source: https://github.com/HubSpot/hubspot-api-nodejs
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hubspot/hubspot-api-nodejs"
+  github_repo: hubspot/hubspot-api-nodejs
   github_stars: 393
 ---
 # HubSpot MCP Server

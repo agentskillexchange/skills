@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI/CD Pipeline Orchestrator"
-slug: "gitlab-cicd-pipeline-orchestrator"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Cursor"
+title: GitLab CI/CD Pipeline Orchestrator
+slug: gitlab-cicd-pipeline-orchestrator
+description: GitLab CI/CD Pipeline Orchestrator
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI/CD Pipeline Orchestrator

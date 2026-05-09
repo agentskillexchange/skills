@@ -1,13 +1,14 @@
 ---
-title: "Nginx Error Log Pattern Analyzer"
-slug: "nginx-error-log-pattern-analyzer"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "Gemini"
+title: Nginx Error Log Pattern Analyzer
+slug: nginx-error-log-pattern-analyzer
+description: Nginx Error Log Pattern Analyzer
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Error Log Pattern Analyzer

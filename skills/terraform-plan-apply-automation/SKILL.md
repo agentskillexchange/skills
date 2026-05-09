@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan & Apply Automation"
-slug: "terraform-plan-apply-automation"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "OpenClaw"
+title: Terraform Plan & Apply Automation
+slug: terraform-plan-apply-automation
+description: Terraform Plan & Apply Automation
 github_stars: 48121
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48121
 ---
 # Terraform Plan & Apply Automation

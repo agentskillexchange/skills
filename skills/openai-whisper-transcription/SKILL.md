@@ -1,13 +1,14 @@
 ---
-title: "OpenAI Whisper Transcription"
-slug: "openai-whisper-transcription"
-verification: security_reviewed
-source: "https://github.com/openai/whisper"
-category: "General"
-framework: "OpenClaw"
+title: OpenAI Whisper Transcription
+slug: openai-whisper-transcription
+description: OpenAI Whisper Transcription
 github_stars: 99179
+verification: security_reviewed
+source: https://github.com/openai/whisper
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 99179
 ---
 # OpenAI Whisper Transcription

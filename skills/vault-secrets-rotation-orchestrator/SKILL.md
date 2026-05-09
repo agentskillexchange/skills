@@ -1,13 +1,14 @@
 ---
-title: "Vault Secrets Rotation Orchestrator"
-slug: "vault-secrets-rotation-orchestrator"
-verification: security_reviewed
-source: "https://github.com/hashicorp/vault"
-category: "General"
-framework: "MCP"
+title: Vault Secrets Rotation Orchestrator
+slug: vault-secrets-rotation-orchestrator
+description: Vault Secrets Rotation Orchestrator
 github_stars: 35396
+verification: security_reviewed
+source: https://github.com/hashicorp/vault
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/vault"
+  github_repo: hashicorp/vault
   github_stars: 35396
 ---
 # Vault Secrets Rotation Orchestrator

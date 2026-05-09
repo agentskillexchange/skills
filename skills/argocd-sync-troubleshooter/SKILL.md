@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Sync Troubleshooter"
-slug: "argocd-sync-troubleshooter"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Claude Agents"
+title: ArgoCD Sync Troubleshooter
+slug: argocd-sync-troubleshooter
+description: ArgoCD Sync Troubleshooter
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Sync Troubleshooter

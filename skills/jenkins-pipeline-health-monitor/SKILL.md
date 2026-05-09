@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Health Monitor"
-slug: "jenkins-pipeline-health-monitor"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Codex"
+title: Jenkins Pipeline Health Monitor
+slug: jenkins-pipeline-health-monitor
+description: Jenkins Pipeline Health Monitor
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Health Monitor

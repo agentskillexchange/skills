@@ -1,12 +1,13 @@
 ---
-title: "WP Abilities API"
-slug: "wp-abilities-api"
+title: WP Abilities API
+slug: wp-abilities-api
+description: WP Abilities API
 verification: security_reviewed
-source: "https://github.com/WordPress/abilities-api"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/WordPress/abilities-api
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "wordpress/abilities-api"
+  github_repo: wordpress/abilities-api
   github_stars: 208
 ---
 # WP Abilities API

@@ -1,13 +1,14 @@
 ---
-title: "LlamaIndex MCP Server"
-slug: "llamaindex-mcp-server"
-verification: security_reviewed
-source: "https://github.com/run-llama/llama_index"
-category: "General"
-framework: "MCP"
+title: LlamaIndex MCP Server
+slug: llamaindex-mcp-server
+description: LlamaIndex MCP Server
 github_stars: 49254
+verification: security_reviewed
+source: https://github.com/run-llama/llama_index
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "run-llama/llama_index"
+  github_repo: run-llama/llama_index
   github_stars: 49254
 ---
 # LlamaIndex MCP Server

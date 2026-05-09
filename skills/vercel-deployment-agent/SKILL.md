@@ -1,13 +1,14 @@
 ---
-title: "Vercel Deployment Agent"
-slug: "vercel-deployment-agent"
-verification: security_reviewed
-source: "https://github.com/vercel/vercel"
-category: "General"
-framework: "Custom Agents"
+title: Vercel Deployment Agent
+slug: vercel-deployment-agent
+description: Vercel Deployment Agent
 github_stars: 15296
+verification: security_reviewed
+source: https://github.com/vercel/vercel
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "vercel/vercel"
+  github_repo: vercel/vercel
   github_stars: 15296
 ---
 # Vercel Deployment Agent

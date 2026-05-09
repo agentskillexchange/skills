@@ -1,13 +1,14 @@
 ---
-title: "Discord Bot Manager"
-slug: "discord-bot-manager"
-verification: security_reviewed
-source: "https://github.com/discordjs/discord.js"
-category: "General"
-framework: "Custom Agents"
+title: Discord Bot Manager
+slug: discord-bot-manager
+description: Discord Bot Manager
 github_stars: 26668
+verification: security_reviewed
+source: https://github.com/discordjs/discord.js
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "discordjs/discord.js"
+  github_repo: discordjs/discord.js
   github_stars: 26668
 ---
 # Discord Bot Manager

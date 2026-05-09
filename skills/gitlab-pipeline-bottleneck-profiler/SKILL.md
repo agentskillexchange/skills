@@ -1,13 +1,14 @@
 ---
-title: "GitLab Pipeline Bottleneck Profiler"
-slug: "gitlab-pipeline-bottleneck-profiler"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Agents"
+title: GitLab Pipeline Bottleneck Profiler
+slug: gitlab-pipeline-bottleneck-profiler
+description: GitLab Pipeline Bottleneck Profiler
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab Pipeline Bottleneck Profiler

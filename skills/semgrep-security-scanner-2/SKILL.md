@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Security Scanner"
-slug: "semgrep-security-scanner-2"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Claude Agents"
+title: Semgrep Security Scanner
+slug: semgrep-security-scanner-2
+description: Semgrep Security Scanner
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Security Scanner

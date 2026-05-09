@@ -1,10 +1,11 @@
 ---
-title: "AssemblyAI Real-Time Call Intelligence"
-slug: "assemblyai-realtime-call-intelligence"
+title: AssemblyAI Real-Time Call Intelligence
+slug: assemblyai-realtime-call-intelligence
+description: AssemblyAI Real-Time Call Intelligence
 verification: security_reviewed
-source: "https://www.assemblyai.com/docs"
-category: "General"
-framework: "Custom Agents"
+source: https://www.assemblyai.com/docs
+category: General
+framework: Custom Agents
 ---
 # AssemblyAI Real-Time Call Intelligence
 

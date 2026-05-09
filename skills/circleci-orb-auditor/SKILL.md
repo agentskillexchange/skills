@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Auditor"
-slug: "circleci-orb-auditor"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Cursor"
+title: CircleCI Orb Auditor
+slug: circleci-orb-auditor
+description: CircleCI Orb Auditor
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Auditor

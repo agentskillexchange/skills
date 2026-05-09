@@ -1,10 +1,11 @@
 ---
-title: "Gutenberg Block Scaffolder"
-slug: "gutenberg-block-scaffolder-agent"
+title: Gutenberg Block Scaffolder
+slug: gutenberg-block-scaffolder-agent
+description: Gutenberg Block Scaffolder
 verification: security_reviewed
-source: "https://developer.wordpress.org/block-editor/"
-category: "General"
-framework: "Claude Code"
+source: https://developer.wordpress.org/block-editor/
+category: General
+framework: Claude Code
 ---
 # Gutenberg Block Scaffolder
 

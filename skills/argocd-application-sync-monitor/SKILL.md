@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Application Sync Monitor"
-slug: "argocd-application-sync-monitor"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Claude Code"
+title: ArgoCD Application Sync Monitor
+slug: argocd-application-sync-monitor
+description: ArgoCD Application Sync Monitor
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Application Sync Monitor

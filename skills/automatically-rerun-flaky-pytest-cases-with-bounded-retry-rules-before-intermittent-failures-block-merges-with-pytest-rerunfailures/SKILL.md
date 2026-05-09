@@ -1,16 +1,16 @@
 ---
-title: "Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures"
-slug: "automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures"
-description: "Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand."
+title: Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures
+slug: automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures
+description: Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand.
 github_stars: 458
 verification: security_reviewed
-source: "https://github.com/pytest-dev/pytest-rerunfailures"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+source: https://github.com/pytest-dev/pytest-rerunfailures
+category: CI/CD Integrations
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "pytest-dev/pytest-rerunfailures"
+  github_repo: pytest-dev/pytest-rerunfailures
   github_stars: 458
-  npm_package: "pytest-rerunfailures"
+  npm_package: pytest-rerunfailures
 ---
 # Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures
 

@@ -1,13 +1,14 @@
 ---
-title: "ESLint Custom Rule Builder"
-slug: "eslint-custom-rule-builder"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Cursor"
+title: ESLint Custom Rule Builder
+slug: eslint-custom-rule-builder
+description: ESLint Custom Rule Builder
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Custom Rule Builder

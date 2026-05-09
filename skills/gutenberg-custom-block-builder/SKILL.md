@@ -1,13 +1,14 @@
 ---
-title: "Gutenberg Custom Block Builder"
-slug: "gutenberg-custom-block-builder"
-verification: security_reviewed
-source: "https://github.com/WordPress/gutenberg"
-category: "General"
-framework: "ChatGPT Agents"
+title: Gutenberg Custom Block Builder
+slug: gutenberg-custom-block-builder
+description: Gutenberg Custom Block Builder
 github_stars: 11624
+verification: security_reviewed
+source: https://github.com/WordPress/gutenberg
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "WordPress/gutenberg"
+  github_repo: WordPress/gutenberg
   github_stars: 11624
 ---
 # Gutenberg Custom Block Builder

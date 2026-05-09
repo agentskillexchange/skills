@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Spec Validator"
-slug: "openapi-spec-validator-agent"
-verification: security_reviewed
-source: "https://github.com/stoplightio/spectral"
-category: "General"
-framework: "Custom Agents"
+title: OpenAPI Spec Validator
+slug: openapi-spec-validator-agent
+description: OpenAPI Spec Validator
 github_stars: 3084
+verification: security_reviewed
+source: https://github.com/stoplightio/spectral
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "stoplightio/spectral"
+  github_repo: stoplightio/spectral
   github_stars: 3084
 ---
 # OpenAPI Spec Validator

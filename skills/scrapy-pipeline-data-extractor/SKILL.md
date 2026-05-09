@@ -1,13 +1,14 @@
 ---
-title: "Scrapy Pipeline Data Extractor"
-slug: "scrapy-pipeline-data-extractor"
-verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
-category: "General"
-framework: "Gemini"
+title: Scrapy Pipeline Data Extractor
+slug: scrapy-pipeline-data-extractor
+description: Scrapy Pipeline Data Extractor
 github_stars: 61314
+verification: security_reviewed
+source: https://github.com/scrapy/scrapy
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: scrapy/scrapy
   github_stars: 61314
 ---
 # Scrapy Pipeline Data Extractor

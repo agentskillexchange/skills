@@ -1,10 +1,11 @@
 ---
-title: "Copy.ai Sales Email Sequence Builder"
-slug: "copyai-sales-email-sequence"
+title: Copy.ai Sales Email Sequence Builder
+slug: copyai-sales-email-sequence
+description: Copy.ai Sales Email Sequence Builder
 verification: security_reviewed
-source: "https://www.copy.ai/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://www.copy.ai/
+category: General
+framework: ChatGPT Agents
 ---
 # Copy.ai Sales Email Sequence Builder
 

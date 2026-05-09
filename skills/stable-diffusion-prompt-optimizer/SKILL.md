@@ -1,11 +1,12 @@
 ---
-title: "Stable Diffusion Prompt Optimizer"
-slug: "stable-diffusion-prompt-optimizer"
-verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
-category: "General"
-framework: "Gemini"
+title: Stable Diffusion Prompt Optimizer
+slug: stable-diffusion-prompt-optimizer
+description: Stable Diffusion Prompt Optimizer
 github_stars: 72984
+verification: security_reviewed
+source: https://github.com/Stability-AI/stablediffusion
+category: General
+framework: Gemini
 ---
 # Stable Diffusion Prompt Optimizer
 

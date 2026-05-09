@@ -1,13 +1,14 @@
 ---
-title: "Apify Web Scraper Orchestrator"
-slug: "apify-web-scraper-orchestrator-3"
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
-category: "General"
-framework: "Cursor"
+title: Apify Web Scraper Orchestrator
+slug: apify-web-scraper-orchestrator-3
+description: Apify Web Scraper Orchestrator
 github_stars: 173
+verification: security_reviewed
+source: https://github.com/apify/apify-sdk-js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
 ---
 # Apify Web Scraper Orchestrator

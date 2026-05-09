@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Custom Rule Runner"
-slug: "semgrep-custom-rule-runner-2"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Claude Code"
+title: Semgrep Custom Rule Runner
+slug: semgrep-custom-rule-runner-2
+description: Semgrep Custom Rule Runner
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Custom Rule Runner

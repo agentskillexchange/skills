@@ -1,13 +1,14 @@
 ---
-title: "Argo Workflows Linter"
-slug: "argo-workflows-linter"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-workflows"
-category: "General"
-framework: "Claude Code"
+title: Argo Workflows Linter
+slug: argo-workflows-linter
+description: Argo Workflows Linter
 github_stars: 16616
+verification: security_reviewed
+source: https://github.com/argoproj/argo-workflows
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "argoproj/argo-workflows"
+  github_repo: argoproj/argo-workflows
   github_stars: 16616
 ---
 # Argo Workflows Linter

@@ -1,13 +1,14 @@
 ---
-title: "Ansible Runbook Executor"
-slug: "ansible-runbook-executor"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "Claude Code"
+title: Ansible Runbook Executor
+slug: ansible-runbook-executor
+description: Ansible Runbook Executor
 github_stars: 68364
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 # Ansible Runbook Executor

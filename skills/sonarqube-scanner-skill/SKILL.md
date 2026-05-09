@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Scanner Skill"
-slug: "sonarqube-scanner-skill"
+title: SonarQube Scanner Skill
+slug: sonarqube-scanner-skill
+description: SonarQube Scanner Skill
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Scanner Skill

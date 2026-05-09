@@ -1,13 +1,14 @@
 ---
-title: "Docker Compose Stack Builder"
-slug: "docker-compose-stack-builder-sdk"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "Gemini"
+title: Docker Compose Stack Builder
+slug: docker-compose-stack-builder-sdk
+description: Docker Compose Stack Builder
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Compose Stack Builder

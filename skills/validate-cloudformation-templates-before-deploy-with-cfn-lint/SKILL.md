@@ -1,14 +1,14 @@
 ---
-title: "Validate CloudFormation templates before deploy with cfn-lint"
-slug: "validate-cloudformation-templates-before-deploy-with-cfn-lint"
-description: "Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment."
+title: Validate CloudFormation templates before deploy with cfn-lint
+slug: validate-cloudformation-templates-before-deploy-with-cfn-lint
+description: Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment.
 github_stars: 2608
 verification: security_reviewed
-source: "https://github.com/aws-cloudformation/cfn-lint"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/aws-cloudformation/cfn-lint
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "aws-cloudformation/cfn-lint"
+  github_repo: aws-cloudformation/cfn-lint
   github_stars: 2608
 ---
 # Validate CloudFormation templates before deploy with cfn-lint

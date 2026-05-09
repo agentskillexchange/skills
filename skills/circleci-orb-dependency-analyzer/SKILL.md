@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Dependency Analyzer"
-slug: "circleci-orb-dependency-analyzer"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Gemini"
+title: CircleCI Orb Dependency Analyzer
+slug: circleci-orb-dependency-analyzer
+description: CircleCI Orb Dependency Analyzer
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Dependency Analyzer

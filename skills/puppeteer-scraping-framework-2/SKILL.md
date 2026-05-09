@@ -1,13 +1,14 @@
 ---
-title: "Puppeteer Scraping Framework"
-slug: "puppeteer-scraping-framework-2"
-verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category: "General"
-framework: "Claude Code"
+title: Puppeteer Scraping Framework
+slug: puppeteer-scraping-framework-2
+description: Puppeteer Scraping Framework
 github_stars: 94115
+verification: security_reviewed
+source: https://github.com/puppeteer/puppeteer
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
 ---
 # Puppeteer Scraping Framework

@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Query Diagnostics"
-slug: "postgresql-query-diagnostics"
+title: PostgreSQL Query Diagnostics
+slug: postgresql-query-diagnostics
+description: PostgreSQL Query Diagnostics
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Claude Agents"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Claude Agents
 ---
 # PostgreSQL Query Diagnostics
 

@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Matrix Builder"
-slug: "github-actions-matrix-builder-13"
+title: GitHub Actions Matrix Builder
+slug: github-actions-matrix-builder-13
+description: GitHub Actions Matrix Builder
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "OpenClaw"
+source: https://docs.github.com/en/actions
+category: General
+framework: OpenClaw
 ---
 # GitHub Actions Matrix Builder
 

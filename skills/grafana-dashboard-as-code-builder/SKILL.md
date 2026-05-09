@@ -1,13 +1,14 @@
 ---
-title: "Grafana Dashboard as Code Builder"
-slug: "grafana-dashboard-as-code-builder"
-verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category: "General"
-framework: "Claude Code"
+title: Grafana Dashboard as Code Builder
+slug: grafana-dashboard-as-code-builder
+description: Grafana Dashboard as Code Builder
 github_stars: 73187
+verification: security_reviewed
+source: https://github.com/grafana/grafana
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
 ---
 # Grafana Dashboard as Code Builder

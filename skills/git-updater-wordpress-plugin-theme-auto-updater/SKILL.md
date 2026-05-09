@@ -1,14 +1,14 @@
 ---
-title: "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories"
-slug: "git-updater-wordpress-plugin-theme-auto-updater"
-description: "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching."
+title: Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories
+slug: git-updater-wordpress-plugin-theme-auto-updater
+description: Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching.
 github_stars: 3316
 verification: security_reviewed
-source: "https://github.com/afragen/git-updater"
-category: "WordPress & CMS"
-framework: "Multi-Framework"
+source: https://github.com/afragen/git-updater
+category: WordPress & CMS
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "afragen/git-updater"
+  github_repo: afragen/git-updater
   github_stars: 3316
 ---
 # Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories

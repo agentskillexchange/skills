@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Custom Pattern Generator"
-slug: "semgrep-custom-pattern-generator"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "MCP"
+title: Semgrep Custom Pattern Generator
+slug: semgrep-custom-pattern-generator
+description: Semgrep Custom Pattern Generator
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Custom Pattern Generator

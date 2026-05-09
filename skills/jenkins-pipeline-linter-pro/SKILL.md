@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Linter Pro"
-slug: "jenkins-pipeline-linter-pro"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "ChatGPT Agents"
+title: Jenkins Pipeline Linter Pro
+slug: jenkins-pipeline-linter-pro
+description: Jenkins Pipeline Linter Pro
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Linter Pro

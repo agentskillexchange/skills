@@ -1,13 +1,14 @@
 ---
-title: "REST API Changelog Tracker"
-slug: "rest-api-changelog-tracker"
-verification: security_reviewed
-source: "https://github.com/oasdiff/oasdiff"
-category: "General"
-framework: "Custom Agents"
+title: REST API Changelog Tracker
+slug: rest-api-changelog-tracker
+description: REST API Changelog Tracker
 github_stars: 1184
+verification: security_reviewed
+source: https://github.com/oasdiff/oasdiff
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "oasdiff/oasdiff"
+  github_repo: oasdiff/oasdiff
   github_stars: 1184
 ---
 # REST API Changelog Tracker

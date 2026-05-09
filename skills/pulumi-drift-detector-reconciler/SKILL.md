@@ -1,13 +1,14 @@
 ---
-title: "Pulumi Drift Detector & Reconciler"
-slug: "pulumi-drift-detector-reconciler"
-verification: security_reviewed
-source: "https://github.com/pulumi/pulumi"
-category: "General"
-framework: "Codex"
+title: Pulumi Drift Detector & Reconciler
+slug: pulumi-drift-detector-reconciler
+description: Pulumi Drift Detector & Reconciler
 github_stars: 25042
+verification: security_reviewed
+source: https://github.com/pulumi/pulumi
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "pulumi/pulumi"
+  github_repo: pulumi/pulumi
   github_stars: 25042
 ---
 # Pulumi Drift Detector & Reconciler

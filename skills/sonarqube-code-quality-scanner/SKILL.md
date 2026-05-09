@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Code Quality Scanner"
-slug: "sonarqube-code-quality-scanner"
+title: SonarQube Code Quality Scanner
+slug: sonarqube-code-quality-scanner
+description: SonarQube Code Quality Scanner
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Code Quality Scanner

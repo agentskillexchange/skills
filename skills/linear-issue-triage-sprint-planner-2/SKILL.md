@@ -1,10 +1,11 @@
 ---
-title: "Linear Issue Triage & Sprint Planner"
-slug: "linear-issue-triage-sprint-planner-2"
+title: Linear Issue Triage & Sprint Planner
+slug: linear-issue-triage-sprint-planner-2
+description: Linear Issue Triage & Sprint Planner
 verification: security_reviewed
-source: "https://linear.app/docs"
-category: "General"
-framework: "Claude Code"
+source: https://linear.app/docs
+category: General
+framework: Claude Code
 ---
 # Linear Issue Triage & Sprint Planner
 

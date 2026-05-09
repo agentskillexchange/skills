@@ -1,10 +1,11 @@
 ---
-title: "Podcast RSS Feed Builder"
-slug: "podcast-rss-feed-builder"
+title: Podcast RSS Feed Builder
+slug: podcast-rss-feed-builder
+description: Podcast RSS Feed Builder
 verification: security_reviewed
-source: "https://www.rssboard.org/rss-specification"
-category: "General"
-framework: "Claude Agents"
+source: https://www.rssboard.org/rss-specification
+category: General
+framework: Claude Agents
 ---
 # Podcast RSS Feed Builder
 

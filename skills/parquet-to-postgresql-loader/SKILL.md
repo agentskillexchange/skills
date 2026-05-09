@@ -1,10 +1,11 @@
 ---
-title: "Parquet to PostgreSQL Loader"
-slug: "parquet-to-postgresql-loader"
+title: Parquet to PostgreSQL Loader
+slug: parquet-to-postgresql-loader
+description: Parquet to PostgreSQL Loader
 verification: security_reviewed
-source: "https://parquet.apache.org/"
-category: "General"
-framework: "Claude Agents"
+source: https://parquet.apache.org/
+category: General
+framework: Claude Agents
 ---
 # Parquet to PostgreSQL Loader
 

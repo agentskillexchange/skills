@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Rule Runner"
-slug: "semgrep-rule-runner"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Gemini"
+title: Semgrep Rule Runner
+slug: semgrep-rule-runner
+description: Semgrep Rule Runner
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Rule Runner

@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Composite Alarm Builder"
-slug: "aws-cloudwatch-composite-alarm-builder"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "OpenClaw"
+title: AWS CloudWatch Composite Alarm Builder
+slug: aws-cloudwatch-composite-alarm-builder
+description: AWS CloudWatch Composite Alarm Builder
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Composite Alarm Builder

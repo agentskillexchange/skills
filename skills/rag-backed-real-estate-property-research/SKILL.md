@@ -1,14 +1,14 @@
 ---
-title: "Research real estate properties with RAG-backed market analysis"
-slug: "rag-backed-real-estate-property-research"
-description: "Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from structured listing data."
+title: Research real estate properties with RAG-backed market analysis
+slug: rag-backed-real-estate-property-research
+description: Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from structured listing data.
 github_stars: 170
 verification: security_reviewed
-source: "https://github.com/AleksNeStu/ai-real-estate-assistant"
-category: "Research & Scraping"
-framework: "Custom Agents"
+source: https://github.com/AleksNeStu/ai-real-estate-assistant
+category: Research & Scraping
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "AleksNeStu/ai-real-estate-assistant"
+  github_repo: AleksNeStu/ai-real-estate-assistant
   github_stars: 170
 ---
 # Research real estate properties with RAG-backed market analysis

@@ -1,13 +1,14 @@
 ---
-title: "Discord Moderation Bot with AI Classification"
-slug: "discord-moderation-ai-classification"
-verification: security_reviewed
-source: "https://github.com/discordjs/discord.js"
-category: "General"
-framework: "Cursor"
+title: Discord Moderation Bot with AI Classification
+slug: discord-moderation-ai-classification
+description: Discord Moderation Bot with AI Classification
 github_stars: 26668
+verification: security_reviewed
+source: https://github.com/discordjs/discord.js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "discordjs/discord.js"
+  github_repo: discordjs/discord.js
   github_stars: 26668
 ---
 # Discord Moderation Bot with AI Classification

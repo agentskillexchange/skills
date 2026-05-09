@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Spec Validator &#038; Mock Server"
-slug: "openapi-spec-validator-mock-server-2"
-verification: security_reviewed
-source: "https://github.com/stoplightio/prism"
-category: "General"
-framework: "Codex"
+title: OpenAPI Spec Validator & Mock Server
+slug: openapi-spec-validator-mock-server-2
+description: OpenAPI Spec Validator & Mock Server
 github_stars: 4925
+verification: security_reviewed
+source: https://github.com/stoplightio/prism
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "stoplightio/prism"
+  github_repo: stoplightio/prism
   github_stars: 4925
 ---
 # OpenAPI Spec Validator &#038; Mock Server

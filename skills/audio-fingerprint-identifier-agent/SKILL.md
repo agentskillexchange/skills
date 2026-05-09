@@ -1,10 +1,11 @@
 ---
-title: "Audio Fingerprint Identifier"
-slug: "audio-fingerprint-identifier-agent"
+title: Audio Fingerprint Identifier
+slug: audio-fingerprint-identifier-agent
+description: Audio Fingerprint Identifier
 verification: security_reviewed
-source: "https://www.postgresql.org/"
-category: "General"
-framework: "OpenClaw"
+source: https://www.postgresql.org/
+category: General
+framework: OpenClaw
 ---
 # Audio Fingerprint Identifier
 

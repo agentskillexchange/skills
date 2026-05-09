@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Schema Introspector"
-slug: "graphql-schema-introspector"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "MCP"
+title: GraphQL Schema Introspector
+slug: graphql-schema-introspector
+description: GraphQL Schema Introspector
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Schema Introspector

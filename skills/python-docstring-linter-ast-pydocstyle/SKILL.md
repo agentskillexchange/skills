@@ -1,13 +1,14 @@
 ---
-title: "Python Docstring Linter"
-slug: "python-docstring-linter-ast-pydocstyle"
-verification: security_reviewed
-source: "https://github.com/PyCQA/pydocstyle"
-category: "General"
-framework: "Codex"
+title: Python Docstring Linter
+slug: python-docstring-linter-ast-pydocstyle
+description: Python Docstring Linter
 github_stars: 1119
+verification: security_reviewed
+source: https://github.com/PyCQA/pydocstyle
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "PyCQA/pydocstyle"
+  github_repo: PyCQA/pydocstyle
   github_stars: 1119
 ---
 # Python Docstring Linter

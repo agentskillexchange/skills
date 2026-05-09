@@ -1,13 +1,14 @@
 ---
-title: "Prometheus AlertManager Configurator"
-slug: "prometheus-alertmanager-configurator"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Custom Agents"
+title: Prometheus AlertManager Configurator
+slug: prometheus-alertmanager-configurator
+description: Prometheus AlertManager Configurator
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus AlertManager Configurator

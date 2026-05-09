@@ -1,13 +1,14 @@
 ---
-title: "Packer Image Builder"
-slug: "packer-image-builder"
-verification: security_reviewed
-source: "https://github.com/hashicorp/packer"
-category: "General"
-framework: "Custom Agents"
+title: Packer Image Builder
+slug: packer-image-builder
+description: Packer Image Builder
 github_stars: 15647
+verification: security_reviewed
+source: https://github.com/hashicorp/packer
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "hashicorp/packer"
+  github_repo: hashicorp/packer
   github_stars: 15647
 ---
 # Packer Image Builder

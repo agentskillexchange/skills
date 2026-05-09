@@ -1,13 +1,14 @@
 ---
-title: "Terraform Module Template Generator"
-slug: "terraform-module-template-generator"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "OpenClaw"
+title: Terraform Module Template Generator
+slug: terraform-module-template-generator
+description: Terraform Module Template Generator
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Module Template Generator

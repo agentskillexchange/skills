@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD GitOps Sync Monitor"
-slug: "argocd-gitops-sync-monitor"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Gemini"
+title: ArgoCD GitOps Sync Monitor
+slug: argocd-gitops-sync-monitor
+description: ArgoCD GitOps Sync Monitor
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD GitOps Sync Monitor

@@ -1,13 +1,14 @@
 ---
-title: "Cypress Visual Regression Runner"
-slug: "cypress-visual-regression-runner"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "Cursor"
+title: Cypress Visual Regression Runner
+slug: cypress-visual-regression-runner
+description: Cypress Visual Regression Runner
 github_stars: 49617
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
 ---
 # Cypress Visual Regression Runner

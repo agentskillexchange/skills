@@ -1,13 +1,14 @@
 ---
-title: "GitLab Pipeline DAG Optimizer"
-slug: "gitlab-pipeline-dag-optimizer"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "OpenClaw"
+title: GitLab Pipeline DAG Optimizer
+slug: gitlab-pipeline-dag-optimizer
+description: GitLab Pipeline DAG Optimizer
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab Pipeline DAG Optimizer

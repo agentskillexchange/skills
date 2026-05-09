@@ -1,13 +1,14 @@
 ---
-title: "Docker Build Cache Optimizer"
-slug: "docker-build-cache-optimizer"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "Claude Code"
+title: Docker Build Cache Optimizer
+slug: docker-build-cache-optimizer
+description: Docker Build Cache Optimizer
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Build Cache Optimizer

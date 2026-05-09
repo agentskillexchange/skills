@@ -1,13 +1,14 @@
 ---
-title: "CI Pipeline Generator Skill"
-slug: "ci-pipeline-generator-skill"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Custom Agents"
+title: CI Pipeline Generator Skill
+slug: ci-pipeline-generator-skill
+description: CI Pipeline Generator Skill
 github_stars: 24334
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24334
 ---
 # CI Pipeline Generator Skill

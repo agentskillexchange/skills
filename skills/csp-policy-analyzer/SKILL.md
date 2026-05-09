@@ -1,13 +1,14 @@
 ---
-title: "CSP Policy Analyzer"
-slug: "csp-policy-analyzer"
-verification: security_reviewed
-source: "https://github.com/google/csp-evaluator"
-category: "General"
-framework: "Claude Agents"
+title: CSP Policy Analyzer
+slug: csp-policy-analyzer
+description: CSP Policy Analyzer
 github_stars: 390
+verification: security_reviewed
+source: https://github.com/google/csp-evaluator
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "google/csp-evaluator"
+  github_repo: google/csp-evaluator
   github_stars: 390
 ---
 # CSP Policy Analyzer

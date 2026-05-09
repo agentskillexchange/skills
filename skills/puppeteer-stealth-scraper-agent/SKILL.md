@@ -1,16 +1,16 @@
 ---
-title: "Puppeteer Stealth Scraper"
-slug: "puppeteer-stealth-scraper-agent"
-description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra."
+title: Puppeteer Stealth Scraper
+slug: puppeteer-stealth-scraper-agent
+description: Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra.
 github_stars: 94115
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category: "Browser Automation"
-framework: "OpenClaw"
+source: https://github.com/puppeteer/puppeteer
+category: Browser Automation
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
-  npm_package: "puppeteer"
+  npm_package: puppeteer
 ---
 # Puppeteer Stealth Scraper
 

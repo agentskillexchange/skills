@@ -1,13 +1,14 @@
 ---
-title: "Grafana Dashboard Snapshot Exporter"
-slug: "grafana-dashboard-snapshot-exporter"
-verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category: "General"
-framework: "Claude Code"
+title: Grafana Dashboard Snapshot Exporter
+slug: grafana-dashboard-snapshot-exporter
+description: Grafana Dashboard Snapshot Exporter
 github_stars: 73187
+verification: security_reviewed
+source: https://github.com/grafana/grafana
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
 ---
 # Grafana Dashboard Snapshot Exporter

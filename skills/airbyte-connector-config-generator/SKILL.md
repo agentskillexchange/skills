@@ -1,13 +1,14 @@
 ---
-title: "Airbyte Connector Config Generator"
-slug: "airbyte-connector-config-generator"
-verification: security_reviewed
-source: "https://github.com/airbytehq/airbyte"
-category: "General"
-framework: "Cursor"
+title: Airbyte Connector Config Generator
+slug: airbyte-connector-config-generator
+description: Airbyte Connector Config Generator
 github_stars: 21088
+verification: security_reviewed
+source: https://github.com/airbytehq/airbyte
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "airbytehq/airbyte"
+  github_repo: airbytehq/airbyte
   github_stars: 21088
 ---
 # Airbyte Connector Config Generator

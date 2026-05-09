@@ -1,12 +1,13 @@
 ---
-title: "Selenium Grid Parallel Execution Manager"
-slug: "selenium-grid-parallel-execution-manager"
+title: Selenium Grid Parallel Execution Manager
+slug: selenium-grid-parallel-execution-manager
+description: Selenium Grid Parallel Execution Manager
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category: "General"
-framework: "Claude Agents"
+source: https://github.com/SeleniumHQ/selenium
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
+  github_repo: seleniumhq/selenium
   github_stars: 34076
 ---
 # Selenium Grid Parallel Execution Manager

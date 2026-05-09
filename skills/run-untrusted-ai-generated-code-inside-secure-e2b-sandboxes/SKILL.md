@@ -1,16 +1,16 @@
 ---
-title: "Run untrusted AI-generated code inside secure E2B sandboxes"
-slug: "run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes"
-description: "Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect outputs, and discard state safely."
+title: Run untrusted AI-generated code inside secure E2B sandboxes
+slug: run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes
+description: Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect outputs, and discard state safely.
 github_stars: 12016
 verification: security_reviewed
-source: "https://github.com/e2b-dev/E2B"
-category: "Developer Tools"
-framework: "Multi-Framework"
+source: https://github.com/e2b-dev/E2B
+category: Developer Tools
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "e2b-dev/E2B"
+  github_repo: e2b-dev/E2B
   github_stars: 12016
-  npm_package: "e2b-code-interpreter"
+  npm_package: e2b-code-interpreter
 ---
 # Run untrusted AI-generated code inside secure E2B sandboxes
 

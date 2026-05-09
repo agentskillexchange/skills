@@ -1,10 +1,11 @@
 ---
-title: "OAuth2 Flow Debugger"
-slug: "oauth2-flow-debugger"
+title: OAuth2 Flow Debugger
+slug: oauth2-flow-debugger
+description: OAuth2 Flow Debugger
 verification: security_reviewed
-source: "https://oauth.net/2/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://oauth.net/2/
+category: General
+framework: ChatGPT Agents
 ---
 # OAuth2 Flow Debugger
 

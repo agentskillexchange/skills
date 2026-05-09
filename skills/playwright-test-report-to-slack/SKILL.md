@@ -1,13 +1,14 @@
 ---
-title: "Playwright Test Report to Slack"
-slug: "playwright-test-report-to-slack"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "ChatGPT Agents"
+title: Playwright Test Report to Slack
+slug: playwright-test-report-to-slack
+description: Playwright Test Report to Slack
 github_stars: 86911
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86911
 ---
 # Playwright Test Report to Slack

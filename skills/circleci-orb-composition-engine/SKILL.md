@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Composition Engine"
-slug: "circleci-orb-composition-engine"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Custom Agents"
+title: CircleCI Orb Composition Engine
+slug: circleci-orb-composition-engine
+description: CircleCI Orb Composition Engine
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Composition Engine

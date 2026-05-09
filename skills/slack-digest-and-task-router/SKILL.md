@@ -1,13 +1,14 @@
 ---
-title: "Slack Digest and Task Router"
-slug: "slack-digest-and-task-router"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "OpenClaw"
+title: Slack Digest and Task Router
+slug: slack-digest-and-task-router
+description: Slack Digest and Task Router
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Digest and Task Router

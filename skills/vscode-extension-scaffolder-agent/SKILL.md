@@ -1,10 +1,11 @@
 ---
-title: "VS Code Extension Scaffolder"
-slug: "vscode-extension-scaffolder-agent"
+title: VS Code Extension Scaffolder
+slug: vscode-extension-scaffolder-agent
+description: VS Code Extension Scaffolder
 verification: security_reviewed
-source: "https://code.visualstudio.com/api/get-started/your-first-extension"
-category: "General"
-framework: "Cursor"
+source: https://code.visualstudio.com/api/get-started/your-first-extension
+category: General
+framework: Cursor
 ---
 # VS Code Extension Scaffolder
 

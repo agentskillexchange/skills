@@ -1,13 +1,14 @@
 ---
-title: "Docker Compose Health Checker"
-slug: "docker-compose-health-checker"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "MCP"
+title: Docker Compose Health Checker
+slug: docker-compose-health-checker
+description: Docker Compose Health Checker
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Compose Health Checker

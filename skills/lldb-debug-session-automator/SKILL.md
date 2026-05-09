@@ -1,10 +1,11 @@
 ---
-title: "LLDB Debug Session Automator"
-slug: "lldb-debug-session-automator"
+title: LLDB Debug Session Automator
+slug: lldb-debug-session-automator
+description: LLDB Debug Session Automator
 verification: security_reviewed
-source: "https://lldb.llvm.org/"
-category: "General"
-framework: "Custom Agents"
+source: https://lldb.llvm.org/
+category: General
+framework: Custom Agents
 ---
 # LLDB Debug Session Automator
 

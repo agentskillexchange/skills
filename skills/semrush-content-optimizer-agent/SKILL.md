@@ -1,10 +1,11 @@
 ---
-title: "SEMrush Content Optimizer Agent"
-slug: "semrush-content-optimizer-agent"
+title: SEMrush Content Optimizer Agent
+slug: semrush-content-optimizer-agent
+description: SEMrush Content Optimizer Agent
 verification: security_reviewed
-source: "https://www.semrush.com/features/content-marketing-tools/"
-category: "General"
-framework: "OpenClaw"
+source: https://www.semrush.com/features/content-marketing-tools/
+category: General
+framework: OpenClaw
 ---
 # SEMrush Content Optimizer Agent
 

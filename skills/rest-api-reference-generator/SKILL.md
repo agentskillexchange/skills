@@ -1,10 +1,11 @@
 ---
-title: "REST API Reference Generator"
-slug: "rest-api-reference-generator"
+title: REST API Reference Generator
+slug: rest-api-reference-generator
+description: REST API Reference Generator
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "Claude Code"
+source: https://swagger.io/docs/
+category: General
+framework: Claude Code
 ---
 # REST API Reference Generator
 

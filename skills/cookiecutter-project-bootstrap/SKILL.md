@@ -1,13 +1,14 @@
 ---
-title: "Cookiecutter Project Bootstrap"
-slug: "cookiecutter-project-bootstrap"
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
-category: "General"
-framework: "MCP"
+title: Cookiecutter Project Bootstrap
+slug: cookiecutter-project-bootstrap
+description: Cookiecutter Project Bootstrap
 github_stars: 24818
+verification: security_reviewed
+source: https://github.com/cookiecutter/cookiecutter
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 # Cookiecutter Project Bootstrap

@@ -1,12 +1,13 @@
 ---
-title: "Selenium Grid Multi-Browser Test Runner"
-slug: "selenium-grid-multi-browser-test-runner"
+title: Selenium Grid Multi-Browser Test Runner
+slug: selenium-grid-multi-browser-test-runner
+description: Selenium Grid Multi-Browser Test Runner
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/SeleniumHQ/selenium
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
+  github_repo: seleniumhq/selenium
   github_stars: 34076
 ---
 # Selenium Grid Multi-Browser Test Runner

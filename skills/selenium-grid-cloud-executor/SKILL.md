@@ -1,12 +1,13 @@
 ---
-title: "Selenium Grid Cloud Executor"
-slug: "selenium-grid-cloud-executor"
+title: Selenium Grid Cloud Executor
+slug: selenium-grid-cloud-executor
+description: Selenium Grid Cloud Executor
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category: "General"
-framework: "Codex"
+source: https://github.com/SeleniumHQ/selenium
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
+  github_repo: seleniumhq/selenium
   github_stars: 34076
 ---
 # Selenium Grid Cloud Executor

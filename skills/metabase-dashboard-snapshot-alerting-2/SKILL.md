@@ -1,10 +1,11 @@
 ---
-title: "Metabase Dashboard Snapshot & Alerting"
-slug: "metabase-dashboard-snapshot-alerting-2"
+title: Metabase Dashboard Snapshot & Alerting
+slug: metabase-dashboard-snapshot-alerting-2
+description: Metabase Dashboard Snapshot & Alerting
 verification: security_reviewed
-source: "https://www.metabase.com/docs/latest/"
-category: "General"
-framework: "OpenClaw"
+source: https://www.metabase.com/docs/latest/
+category: General
+framework: OpenClaw
 ---
 # Metabase Dashboard Snapshot & Alerting
 

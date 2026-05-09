@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Workflow Builder"
-slug: "github-actions-workflow-builder-skill"
+title: GitHub Actions Workflow Builder
+slug: github-actions-workflow-builder-skill
+description: GitHub Actions Workflow Builder
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Cursor"
+source: https://docs.github.com/en/actions
+category: General
+framework: Cursor
 ---
 # GitHub Actions Workflow Builder
 

@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Runner with Vault Secrets"
-slug: "ansible-playbook-vault-runner"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "Claude Code"
+title: Ansible Playbook Runner with Vault Secrets
+slug: ansible-playbook-vault-runner
+description: Ansible Playbook Runner with Vault Secrets
 github_stars: 68348
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68348
 ---
 # Ansible Playbook Runner with Vault Secrets

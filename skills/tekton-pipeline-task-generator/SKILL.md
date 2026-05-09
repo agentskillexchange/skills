@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Task Generator"
-slug: "tekton-pipeline-task-generator"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "Gemini"
+title: Tekton Pipeline Task Generator
+slug: tekton-pipeline-task-generator
+description: Tekton Pipeline Task Generator
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Task Generator

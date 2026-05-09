@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Spec Linter &#038; Docs Generator"
-slug: "openapi-spec-linter-docs-generator"
-verification: security_reviewed
-source: "https://github.com/stoplightio/spectral"
-category: "General"
-framework: "Claude Agents"
+title: OpenAPI Spec Linter & Docs Generator
+slug: openapi-spec-linter-docs-generator
+description: OpenAPI Spec Linter & Docs Generator
 github_stars: 3084
+verification: security_reviewed
+source: https://github.com/stoplightio/spectral
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "stoplightio/spectral"
+  github_repo: stoplightio/spectral
   github_stars: 3084
 ---
 # OpenAPI Spec Linter &#038; Docs Generator

@@ -1,10 +1,11 @@
 ---
-title: "Beautiful Soup Academic Paper Parser"
-slug: "beautifulsoup-academic-paper-parser"
+title: Beautiful Soup Academic Paper Parser
+slug: beautifulsoup-academic-paper-parser
+description: Beautiful Soup Academic Paper Parser
 verification: security_reviewed
-source: "https://pypi.org/project/beautifulsoup4/"
-category: "General"
-framework: "MCP"
+source: https://pypi.org/project/beautifulsoup4/
+category: General
+framework: MCP
 ---
 # Beautiful Soup Academic Paper Parser
 

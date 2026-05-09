@@ -1,12 +1,13 @@
 ---
-title: "WordPress Multisite Network Sync"
-slug: "wordpress-multisite-network-sync"
+title: WordPress Multisite Network Sync
+slug: wordpress-multisite-network-sync
+description: WordPress Multisite Network Sync
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Codex"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress Multisite Network Sync

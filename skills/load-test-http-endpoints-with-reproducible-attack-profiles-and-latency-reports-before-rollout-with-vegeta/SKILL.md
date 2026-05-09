@@ -1,14 +1,14 @@
 ---
-title: "Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta"
-slug: "load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta"
-description: "Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases."
+title: Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta
+slug: load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta
+description: Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases.
 github_stars: 25004
 verification: security_reviewed
-source: "https://github.com/tsenart/vegeta"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+source: https://github.com/tsenart/vegeta
+category: Monitoring & Alerts
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "tsenart/vegeta"
+  github_repo: tsenart/vegeta
   github_stars: 25004
 ---
 # Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta

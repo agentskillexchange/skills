@@ -1,10 +1,11 @@
 ---
-title: "Ahrefs Content Gap Finder"
-slug: "ahrefs-content-gap-finder-agent"
+title: Ahrefs Content Gap Finder
+slug: ahrefs-content-gap-finder-agent
+description: Ahrefs Content Gap Finder
 verification: security_reviewed
-source: "https://ahrefs.com/blog/content-gap-analysis/"
-category: "General"
-framework: "OpenClaw"
+source: https://ahrefs.com/blog/content-gap-analysis/
+category: General
+framework: OpenClaw
 ---
 # Ahrefs Content Gap Finder
 

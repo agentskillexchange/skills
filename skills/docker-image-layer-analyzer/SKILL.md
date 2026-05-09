@@ -1,13 +1,14 @@
 ---
-title: "Docker Image Layer Analyzer"
-slug: "docker-image-layer-analyzer"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "Claude Code"
+title: Docker Image Layer Analyzer
+slug: docker-image-layer-analyzer
+description: Docker Image Layer Analyzer
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Image Layer Analyzer

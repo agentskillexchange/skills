@@ -1,13 +1,14 @@
 ---
-title: "Systemd Service Debugger"
-slug: "systemd-service-debugger"
-verification: security_reviewed
-source: "https://github.com/systemd/systemd"
-category: "General"
-framework: "OpenClaw"
+title: Systemd Service Debugger
+slug: systemd-service-debugger
+description: Systemd Service Debugger
 github_stars: 16248
+verification: security_reviewed
+source: https://github.com/systemd/systemd
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "systemd/systemd"
+  github_repo: systemd/systemd
   github_stars: 16248
 ---
 # Systemd Service Debugger

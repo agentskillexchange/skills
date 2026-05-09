@@ -1,13 +1,14 @@
 ---
-title: "Apache Kafka Consumer Lag Runbook"
-slug: "apache-kafka-consumer-lag-runbook"
-verification: security_reviewed
-source: "https://github.com/apache/kafka"
-category: "General"
-framework: "Cursor"
+title: Apache Kafka Consumer Lag Runbook
+slug: apache-kafka-consumer-lag-runbook
+description: Apache Kafka Consumer Lag Runbook
 github_stars: 32388
+verification: security_reviewed
+source: https://github.com/apache/kafka
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "apache/kafka"
+  github_repo: apache/kafka
   github_stars: 32388
 ---
 # Apache Kafka Consumer Lag Runbook

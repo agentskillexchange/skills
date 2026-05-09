@@ -1,10 +1,11 @@
 ---
-title: "Hemingway Readability Analyzer API"
-slug: "hemingway-readability-analyzer-api"
+title: Hemingway Readability Analyzer API
+slug: hemingway-readability-analyzer-api
+description: Hemingway Readability Analyzer API
 verification: security_reviewed
-source: "https://hemingwayapp.com/"
-category: "General"
-framework: "Cursor"
+source: https://hemingwayapp.com/
+category: General
+framework: Cursor
 ---
 # Hemingway Readability Analyzer API
 

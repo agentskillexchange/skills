@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Alarm Triage Agent"
-slug: "aws-cloudwatch-alarm-triage-agent"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "ChatGPT Agents"
+title: AWS CloudWatch Alarm Triage Agent
+slug: aws-cloudwatch-alarm-triage-agent
+description: AWS CloudWatch Alarm Triage Agent
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Alarm Triage Agent

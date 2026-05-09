@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP Scanner"
-slug: "owasp-zap-scanner"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Custom Agents"
+title: OWASP ZAP Scanner
+slug: owasp-zap-scanner
+description: OWASP ZAP Scanner
 github_stars: 14978
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14978
 ---
 # OWASP ZAP Scanner

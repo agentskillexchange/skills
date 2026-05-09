@@ -1,10 +1,11 @@
 ---
-title: "VS Code Extension Debugger"
-slug: "vscode-extension-debugger-dap-protocol"
+title: VS Code Extension Debugger
+slug: vscode-extension-debugger-dap-protocol
+description: VS Code Extension Debugger
 verification: security_reviewed
-source: "https://code.visualstudio.com/api"
-category: "General"
-framework: "Claude Code"
+source: https://code.visualstudio.com/api
+category: General
+framework: Claude Code
 ---
 # VS Code Extension Debugger
 

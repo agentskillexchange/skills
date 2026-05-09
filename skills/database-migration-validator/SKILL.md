@@ -1,10 +1,11 @@
 ---
-title: "Database Migration Validator"
-slug: "database-migration-validator"
+title: Database Migration Validator
+slug: database-migration-validator
+description: Database Migration Validator
 verification: security_reviewed
-source: "https://www.postgresql.org/"
-category: "General"
-framework: "OpenClaw"
+source: https://www.postgresql.org/
+category: General
+framework: OpenClaw
 ---
 # Database Migration Validator
 

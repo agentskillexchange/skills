@@ -1,13 +1,14 @@
 ---
-title: "DALL-E Batch Image Generator"
-slug: "dalle-batch-image-generator"
-verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category: "General"
-framework: "Claude Agents"
+title: DALL-E Batch Image Generator
+slug: dalle-batch-image-generator
+description: DALL-E Batch Image Generator
 github_stars: 10813
+verification: security_reviewed
+source: https://github.com/openai/openai-node
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
 ---
 # DALL-E Batch Image Generator

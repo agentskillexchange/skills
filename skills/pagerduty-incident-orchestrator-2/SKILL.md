@@ -1,12 +1,13 @@
 ---
-title: "PagerDuty Incident Orchestrator"
-slug: "pagerduty-incident-orchestrator-2"
+title: PagerDuty Incident Orchestrator
+slug: pagerduty-incident-orchestrator-2
+description: PagerDuty Incident Orchestrator
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category: "General"
-framework: "MCP"
+source: https://github.com/PagerDuty/pdjs
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
+  github_repo: pagerduty/pdjs
   github_stars: 69
 ---
 # PagerDuty Incident Orchestrator

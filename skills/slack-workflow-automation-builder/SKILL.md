@@ -1,13 +1,14 @@
 ---
-title: "Slack Workflow Automation Builder"
-slug: "slack-workflow-automation-builder"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "Claude Code"
+title: Slack Workflow Automation Builder
+slug: slack-workflow-automation-builder
+description: Slack Workflow Automation Builder
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Workflow Automation Builder

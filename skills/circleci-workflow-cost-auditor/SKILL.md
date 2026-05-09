@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Workflow Cost Auditor"
-slug: "circleci-workflow-cost-auditor"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "OpenClaw"
+title: CircleCI Workflow Cost Auditor
+slug: circleci-workflow-cost-auditor
+description: CircleCI Workflow Cost Auditor
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Workflow Cost Auditor

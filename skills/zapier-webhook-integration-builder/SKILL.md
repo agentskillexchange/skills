@@ -1,10 +1,11 @@
 ---
-title: "Zapier Webhook Integration Builder"
-slug: "zapier-webhook-integration-builder"
+title: Zapier Webhook Integration Builder
+slug: zapier-webhook-integration-builder
+description: Zapier Webhook Integration Builder
 verification: security_reviewed
-source: "https://platform.zapier.com/"
-category: "General"
-framework: "Custom Agents"
+source: https://platform.zapier.com/
+category: General
+framework: Custom Agents
 ---
 # Zapier Webhook Integration Builder
 

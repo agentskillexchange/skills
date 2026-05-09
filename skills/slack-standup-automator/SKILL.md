@@ -1,13 +1,14 @@
 ---
-title: "Slack Standup Automator"
-slug: "slack-standup-automator"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "Codex"
+title: Slack Standup Automator
+slug: slack-standup-automator
+description: Slack Standup Automator
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Standup Automator

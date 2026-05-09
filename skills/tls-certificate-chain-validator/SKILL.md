@@ -1,10 +1,11 @@
 ---
-title: "TLS Certificate Chain Validator"
-slug: "tls-certificate-chain-validator"
+title: TLS Certificate Chain Validator
+slug: tls-certificate-chain-validator
+description: TLS Certificate Chain Validator
 verification: security_reviewed
-source: "https://datatracker.ietf.org/doc/html/rfc8446"
-category: "General"
-framework: "OpenClaw"
+source: https://datatracker.ietf.org/doc/html/rfc8446
+category: General
+framework: OpenClaw
 ---
 # TLS Certificate Chain Validator
 

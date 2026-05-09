@@ -1,13 +1,14 @@
 ---
-title: "Snyk Dependency Audit Skill"
-slug: "snyk-dependency-audit-skill"
-verification: security_reviewed
-source: "https://github.com/snyk/cli"
-category: "General"
-framework: "Claude Code"
+title: Snyk Dependency Audit Skill
+slug: snyk-dependency-audit-skill
+description: Snyk Dependency Audit Skill
 github_stars: 5496
+verification: security_reviewed
+source: https://github.com/snyk/cli
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   github_stars: 5496
 ---
 # Snyk Dependency Audit Skill

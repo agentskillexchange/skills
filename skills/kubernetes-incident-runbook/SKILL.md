@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Incident Runbook"
-slug: "kubernetes-incident-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Claude Code"
+title: Kubernetes Incident Runbook
+slug: kubernetes-incident-runbook
+description: Kubernetes Incident Runbook
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Incident Runbook

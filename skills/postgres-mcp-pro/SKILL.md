@@ -1,13 +1,14 @@
 ---
-title: "Postgres MCP Pro"
-slug: "postgres-mcp-pro"
-verification: security_reviewed
-source: "https://github.com/crystaldba/postgres-mcp"
-category: "General"
-framework: "MCP"
+title: Postgres MCP Pro
+slug: postgres-mcp-pro
+description: Postgres MCP Pro
 github_stars: 2711
+verification: security_reviewed
+source: https://github.com/crystaldba/postgres-mcp
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "crystaldba/postgres-mcp"
+  github_repo: crystaldba/postgres-mcp
   github_stars: 2711
 ---
 # Postgres MCP Pro

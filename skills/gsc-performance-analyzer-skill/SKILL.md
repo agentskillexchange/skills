@@ -1,10 +1,11 @@
 ---
-title: "Google Search Console Performance Analyzer"
-slug: "gsc-performance-analyzer-skill"
+title: Google Search Console Performance Analyzer
+slug: gsc-performance-analyzer-skill
+description: Google Search Console Performance Analyzer
 verification: security_reviewed
-source: "https://developers.google.com/webmaster-tools/v1/searchanalytics/query"
-category: "General"
-framework: "Custom Agents"
+source: https://developers.google.com/webmaster-tools/v1/searchanalytics/query
+category: General
+framework: Custom Agents
 ---
 # Google Search Console Performance Analyzer
 

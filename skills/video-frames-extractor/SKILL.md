@@ -1,12 +1,13 @@
 ---
-title: "Video Frames Extractor"
-slug: "video-frames-extractor"
+title: Video Frames Extractor
+slug: video-frames-extractor
+description: Video Frames Extractor
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 59751
 ---
 # Video Frames Extractor

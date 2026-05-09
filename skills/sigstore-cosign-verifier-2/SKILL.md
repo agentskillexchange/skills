@@ -1,13 +1,14 @@
 ---
-title: "Sigstore Cosign Verifier"
-slug: "sigstore-cosign-verifier-2"
-verification: security_reviewed
-source: "https://github.com/sigstore/cosign"
-category: "General"
-framework: "Cursor"
+title: Sigstore Cosign Verifier
+slug: sigstore-cosign-verifier-2
+description: Sigstore Cosign Verifier
 github_stars: 5830
+verification: security_reviewed
+source: https://github.com/sigstore/cosign
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "sigstore/cosign"
+  github_repo: sigstore/cosign
   github_stars: 5830
 ---
 # Sigstore Cosign Verifier

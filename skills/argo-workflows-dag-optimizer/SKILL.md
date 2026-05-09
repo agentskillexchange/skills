@@ -1,13 +1,14 @@
 ---
-title: "Argo Workflows DAG Optimizer"
-slug: "argo-workflows-dag-optimizer"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-workflows"
-category: "General"
-framework: "Custom Agents"
+title: Argo Workflows DAG Optimizer
+slug: argo-workflows-dag-optimizer
+description: Argo Workflows DAG Optimizer
 github_stars: 16616
+verification: security_reviewed
+source: https://github.com/argoproj/argo-workflows
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-workflows"
+  github_repo: argoproj/argo-workflows
   github_stars: 16616
 ---
 # Argo Workflows DAG Optimizer

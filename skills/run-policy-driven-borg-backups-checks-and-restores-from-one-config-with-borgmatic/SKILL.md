@@ -1,14 +1,14 @@
 ---
-title: "Run policy-driven Borg backups, checks, and restores from one config with borgmatic"
-slug: "run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic"
-description: "Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand."
+title: Run policy-driven Borg backups, checks, and restores from one config with borgmatic
+slug: run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic
+description: Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand.
 github_stars: 2200
 verification: security_reviewed
-source: "https://github.com/borgmatic-collective/borgmatic"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/borgmatic-collective/borgmatic
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "borgmatic-collective/borgmatic"
+  github_repo: borgmatic-collective/borgmatic
   github_stars: 2200
 ---
 # Run policy-driven Borg backups, checks, and restores from one config with borgmatic

@@ -1,10 +1,11 @@
 ---
-title: "Reddit Subreddit Sentiment Tracker"
-slug: "reddit-subreddit-sentiment-tracker"
+title: Reddit Subreddit Sentiment Tracker
+slug: reddit-subreddit-sentiment-tracker
+description: Reddit Subreddit Sentiment Tracker
 verification: security_reviewed
-source: "https://www.reddit.com/dev/api/"
-category: "General"
-framework: "Codex"
+source: https://www.reddit.com/dev/api/
+category: General
+framework: Codex
 ---
 # Reddit Subreddit Sentiment Tracker
 

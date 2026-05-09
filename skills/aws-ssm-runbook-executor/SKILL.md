@@ -1,13 +1,14 @@
 ---
-title: "AWS Systems Manager Runbook"
-slug: "aws-ssm-runbook-executor"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Claude Agents"
+title: AWS Systems Manager Runbook
+slug: aws-ssm-runbook-executor
+description: AWS Systems Manager Runbook
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS Systems Manager Runbook

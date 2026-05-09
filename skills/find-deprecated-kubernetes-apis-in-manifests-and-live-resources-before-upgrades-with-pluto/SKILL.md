@@ -1,14 +1,14 @@
 ---
-title: "Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto"
-slug: "find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto"
-description: "Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window."
+title: Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto
+slug: find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto
+description: Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window.
 github_stars: 2494
 verification: security_reviewed
-source: "https://github.com/FairwindsOps/pluto"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/FairwindsOps/pluto
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "FairwindsOps/pluto"
+  github_repo: FairwindsOps/pluto
   github_stars: 2494
 ---
 # Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto

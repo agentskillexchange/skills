@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Auditor"
-slug: "eslint-rule-auditor-3"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Cursor"
+title: ESLint Rule Auditor
+slug: eslint-rule-auditor-3
+description: ESLint Rule Auditor
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Auditor

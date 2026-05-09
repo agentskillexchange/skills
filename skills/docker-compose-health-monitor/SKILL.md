@@ -1,13 +1,14 @@
 ---
-title: "Docker Compose Health Monitor"
-slug: "docker-compose-health-monitor"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "MCP"
+title: Docker Compose Health Monitor
+slug: docker-compose-health-monitor
+description: Docker Compose Health Monitor
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Compose Health Monitor

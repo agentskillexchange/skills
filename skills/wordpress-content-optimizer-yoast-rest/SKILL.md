@@ -1,12 +1,13 @@
 ---
-title: "WordPress Content Optimizer"
-slug: "wordpress-content-optimizer-yoast-rest"
+title: WordPress Content Optimizer
+slug: wordpress-content-optimizer-yoast-rest
+description: WordPress Content Optimizer
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Codex"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress Content Optimizer

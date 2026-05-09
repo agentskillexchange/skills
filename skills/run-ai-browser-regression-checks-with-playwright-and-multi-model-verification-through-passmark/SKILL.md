@@ -1,16 +1,16 @@
 ---
-title: "Run AI browser regression checks with Playwright and multi-model verification through Passmark"
-slug: "run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark"
-description: "Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification."
+title: Run AI browser regression checks with Playwright and multi-model verification through Passmark
+slug: run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark
+description: Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification.
 github_stars: 676
 verification: security_reviewed
-source: "https://github.com/bug0inc/passmark"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+source: https://github.com/bug0inc/passmark
+category: CI/CD Integrations
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "bug0inc/passmark"
+  github_repo: bug0inc/passmark
   github_stars: 676
-  npm_package: "passmark"
+  npm_package: passmark
 ---
 # Run AI browser regression checks with Playwright and multi-model verification through Passmark
 

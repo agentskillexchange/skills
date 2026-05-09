@@ -1,13 +1,14 @@
 ---
-title: "Prisma Schema Migrator"
-slug: "prisma-schema-migrator"
-verification: security_reviewed
-source: "https://github.com/prisma/prisma"
-category: "General"
-framework: "Codex"
+title: Prisma Schema Migrator
+slug: prisma-schema-migrator
+description: Prisma Schema Migrator
 github_stars: 45760
+verification: security_reviewed
+source: https://github.com/prisma/prisma
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "prisma/prisma"
+  github_repo: prisma/prisma
   github_stars: 45760
 ---
 # Prisma Schema Migrator

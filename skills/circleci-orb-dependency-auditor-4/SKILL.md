@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Dependency Auditor"
-slug: "circleci-orb-dependency-auditor-4"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "MCP"
+title: CircleCI Orb Dependency Auditor
+slug: circleci-orb-dependency-auditor-4
+description: CircleCI Orb Dependency Auditor
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Dependency Auditor

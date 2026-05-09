@@ -1,13 +1,14 @@
 ---
-title: "Nginx Error Log Runbook Agent"
-slug: "nginx-error-log-runbook-agent"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "ChatGPT Agents"
+title: Nginx Error Log Runbook Agent
+slug: nginx-error-log-runbook-agent
+description: Nginx Error Log Runbook Agent
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Error Log Runbook Agent

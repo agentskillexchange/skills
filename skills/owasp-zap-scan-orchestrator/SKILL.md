@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP Scan Orchestrator"
-slug: "owasp-zap-scan-orchestrator"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Codex"
+title: OWASP ZAP Scan Orchestrator
+slug: owasp-zap-scan-orchestrator
+description: OWASP ZAP Scan Orchestrator
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP Scan Orchestrator

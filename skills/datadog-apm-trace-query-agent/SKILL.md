@@ -1,12 +1,13 @@
 ---
-title: "Datadog APM Trace Query Agent"
-slug: "datadog-apm-trace-query-agent"
+title: Datadog APM Trace Query Agent
+slug: datadog-apm-trace-query-agent
+description: Datadog APM Trace Query Agent
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "MCP"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog APM Trace Query Agent

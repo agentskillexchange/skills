@@ -1,12 +1,13 @@
 ---
-title: "Datadog Monitors Skill"
-slug: "datadog-monitors-skill"
+title: Datadog Monitors Skill
+slug: datadog-monitors-skill
+description: Datadog Monitors Skill
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Codex"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Monitors Skill

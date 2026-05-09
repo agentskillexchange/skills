@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Sync Wave Planner"
-slug: "argocd-sync-wave-planner"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Codex"
+title: ArgoCD Sync Wave Planner
+slug: argocd-sync-wave-planner
+description: ArgoCD Sync Wave Planner
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Sync Wave Planner

@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan Diff Reviewer"
-slug: "terraform-plan-diff-reviewer"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "ChatGPT Agents"
+title: Terraform Plan Diff Reviewer
+slug: terraform-plan-diff-reviewer
+description: Terraform Plan Diff Reviewer
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Plan Diff Reviewer

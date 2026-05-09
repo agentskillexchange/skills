@@ -1,16 +1,16 @@
 ---
-title: "Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device"
-slug: "control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device"
-description: "Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect logs, network traces, and performance evidence during debugging."
+title: Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device
+slug: control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device
+description: Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect logs, network traces, and performance evidence during debugging.
 github_stars: 1838
 verification: security_reviewed
-source: "https://github.com/callstackincubator/agent-device"
-category: "Browser Automation"
-framework: "Multi-Framework"
+source: https://github.com/callstackincubator/agent-device
+category: Browser Automation
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "callstackincubator/agent-device"
+  github_repo: callstackincubator/agent-device
   github_stars: 1838
-  npm_package: "agent-device"
+  npm_package: agent-device
 ---
 # Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device
 

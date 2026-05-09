@@ -1,13 +1,14 @@
 ---
-title: "dbt Cloud MCP"
-slug: "dbt-cloud-mcp"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "MCP"
+title: dbt Cloud MCP
+slug: dbt-cloud-mcp
+description: dbt Cloud MCP
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Cloud MCP

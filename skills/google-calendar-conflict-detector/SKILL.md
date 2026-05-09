@@ -1,10 +1,11 @@
 ---
-title: "Google Calendar Conflict Detector"
-slug: "google-calendar-conflict-detector"
+title: Google Calendar Conflict Detector
+slug: google-calendar-conflict-detector
+description: Google Calendar Conflict Detector
 verification: security_reviewed
-source: "https://developers.google.com/workspace/calendar/api/guides/overview"
-category: "General"
-framework: "Gemini"
+source: https://developers.google.com/workspace/calendar/api/guides/overview
+category: General
+framework: Gemini
 ---
 # Google Calendar Conflict Detector
 

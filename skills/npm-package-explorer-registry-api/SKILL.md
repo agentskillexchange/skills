@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Explorer"
-slug: "npm-package-explorer-registry-api"
+title: NPM Package Explorer
+slug: npm-package-explorer-registry-api
+description: NPM Package Explorer
 verification: security_reviewed
-source: "https://docs.npmjs.com/"
-category: "General"
-framework: "Cursor"
+source: https://docs.npmjs.com/
+category: General
+framework: Cursor
 ---
 # NPM Package Explorer
 

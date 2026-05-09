@@ -1,13 +1,14 @@
 ---
-title: "Pylint Baseline Manager"
-slug: "pylint-baseline-manager-wave48"
-verification: security_reviewed
-source: "https://github.com/pylint-dev/pylint"
-category: "General"
-framework: "Custom Agents"
+title: Pylint Baseline Manager
+slug: pylint-baseline-manager-wave48
+description: Pylint Baseline Manager
 github_stars: 5673
+verification: security_reviewed
+source: https://github.com/pylint-dev/pylint
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "pylint-dev/pylint"
+  github_repo: pylint-dev/pylint
   github_stars: 5673
 ---
 # Pylint Baseline Manager

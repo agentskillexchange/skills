@@ -1,14 +1,14 @@
 ---
-title: "Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection"
-slug: "benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection"
-description: "Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines."
+title: Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection
+slug: benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection
+description: Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines.
 github_stars: 429
 verification: security_reviewed
-source: "https://github.com/liu00222/Open-Prompt-Injection"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/liu00222/Open-Prompt-Injection
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "liu00222/Open-Prompt-Injection"
+  github_repo: liu00222/Open-Prompt-Injection
   github_stars: 429
 ---
 # Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection

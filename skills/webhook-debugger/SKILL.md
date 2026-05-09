@@ -1,13 +1,14 @@
 ---
-title: "Webhook Debugger"
-slug: "webhook-debugger"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "Claude Agents"
+title: Webhook Debugger
+slug: webhook-debugger
+description: Webhook Debugger
 github_stars: 4410
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4410
 ---
 # Webhook Debugger

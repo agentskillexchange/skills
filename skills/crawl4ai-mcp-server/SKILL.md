@@ -1,13 +1,14 @@
 ---
-title: "Crawl4AI MCP Server"
-slug: "crawl4ai-mcp-server"
-verification: security_reviewed
-source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
-category: "General"
-framework: "MCP"
+title: Crawl4AI MCP Server
+slug: crawl4ai-mcp-server
+description: Crawl4AI MCP Server
 github_stars: 84
+verification: security_reviewed
+source: https://github.com/sadiuysal/crawl4ai-mcp-server
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "sadiuysal/crawl4ai-mcp-server"
+  github_repo: sadiuysal/crawl4ai-mcp-server
   github_stars: 84
 ---
 # Crawl4AI MCP Server

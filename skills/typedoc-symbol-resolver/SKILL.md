@@ -1,13 +1,14 @@
 ---
-title: "TypeDoc Symbol Resolver"
-slug: "typedoc-symbol-resolver"
-verification: security_reviewed
-source: "https://github.com/TypeStrong/typedoc"
-category: "General"
-framework: "Claude Agents"
+title: TypeDoc Symbol Resolver
+slug: typedoc-symbol-resolver
+description: TypeDoc Symbol Resolver
 github_stars: 8391
+verification: security_reviewed
+source: https://github.com/TypeStrong/typedoc
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "TypeStrong/typedoc"
+  github_repo: TypeStrong/typedoc
   github_stars: 8391
 ---
 # TypeDoc Symbol Resolver

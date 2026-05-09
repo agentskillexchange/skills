@@ -1,13 +1,14 @@
 ---
-title: "Prettier Format Enforcement Bot"
-slug: "prettier-format-enforcement-bot"
-verification: security_reviewed
-source: "https://github.com/prettier/prettier"
-category: "General"
-framework: "Claude Code"
+title: Prettier Format Enforcement Bot
+slug: prettier-format-enforcement-bot
+description: Prettier Format Enforcement Bot
 github_stars: 51820
+verification: security_reviewed
+source: https://github.com/prettier/prettier
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "prettier/prettier"
+  github_repo: prettier/prettier
   github_stars: 51820
 ---
 # Prettier Format Enforcement Bot

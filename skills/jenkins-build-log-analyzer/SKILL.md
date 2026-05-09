@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Build Log Analyzer"
-slug: "jenkins-build-log-analyzer"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "ChatGPT Agents"
+title: Jenkins Build Log Analyzer
+slug: jenkins-build-log-analyzer
+description: Jenkins Build Log Analyzer
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Build Log Analyzer

@@ -1,10 +1,11 @@
 ---
-title: "MDN Web Docs Fetcher"
-slug: "mdn-web-docs-fetcher"
+title: MDN Web Docs Fetcher
+slug: mdn-web-docs-fetcher
+description: MDN Web Docs Fetcher
 verification: security_reviewed
-source: "https://developer.mozilla.org/"
-category: "General"
-framework: "Cursor"
+source: https://developer.mozilla.org/
+category: General
+framework: Cursor
 ---
 # MDN Web Docs Fetcher
 

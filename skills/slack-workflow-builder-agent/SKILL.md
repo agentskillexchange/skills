@@ -1,13 +1,14 @@
 ---
-title: "Slack Workflow Builder Agent"
-slug: "slack-workflow-builder-agent"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "Cursor"
+title: Slack Workflow Builder Agent
+slug: slack-workflow-builder-agent
+description: Slack Workflow Builder Agent
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Workflow Builder Agent

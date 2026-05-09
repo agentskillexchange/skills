@@ -1,13 +1,14 @@
 ---
-title: "Notion Workspace Automation Hub"
-slug: "notion-workspace-automation-hub"
-verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-category: "General"
-framework: "Custom Agents"
+title: Notion Workspace Automation Hub
+slug: notion-workspace-automation-hub
+description: Notion Workspace Automation Hub
 github_stars: 5582
+verification: security_reviewed
+source: https://github.com/makenotion/notion-sdk-js
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5582
 ---
 # Notion Workspace Automation Hub

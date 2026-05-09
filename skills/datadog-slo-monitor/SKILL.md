@@ -1,12 +1,13 @@
 ---
-title: "Datadog SLO Monitor"
-slug: "datadog-slo-monitor"
+title: Datadog SLO Monitor
+slug: datadog-slo-monitor
+description: Datadog SLO Monitor
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog SLO Monitor

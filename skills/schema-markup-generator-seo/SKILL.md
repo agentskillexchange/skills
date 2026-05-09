@@ -1,10 +1,11 @@
 ---
-title: "Schema Markup Generator for SEO"
-slug: "schema-markup-generator-seo"
+title: Schema Markup Generator for SEO
+slug: schema-markup-generator-seo
+description: Schema Markup Generator for SEO
 verification: security_reviewed
-source: "https://schema.org/"
-category: "General"
-framework: "Codex"
+source: https://schema.org/
+category: General
+framework: Codex
 ---
 # Schema Markup Generator for SEO
 

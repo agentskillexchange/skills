@@ -1,10 +1,11 @@
 ---
-title: "Rust Crates.io Explorer"
-slug: "rust-crates-io-explorer"
+title: Rust Crates.io Explorer
+slug: rust-crates-io-explorer
+description: Rust Crates.io Explorer
 verification: security_reviewed
-source: "https://crates.io/"
-category: "General"
-framework: "Claude Agents"
+source: https://crates.io/
+category: General
+framework: Claude Agents
 ---
 # Rust Crates.io Explorer
 

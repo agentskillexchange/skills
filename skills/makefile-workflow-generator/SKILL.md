@@ -1,10 +1,11 @@
 ---
-title: "Makefile Workflow Generator"
-slug: "makefile-workflow-generator"
+title: Makefile Workflow Generator
+slug: makefile-workflow-generator
+description: Makefile Workflow Generator
 verification: security_reviewed
-source: "https://docs.docker.com/"
-category: "General"
-framework: "Gemini"
+source: https://docs.docker.com/
+category: General
+framework: Gemini
 ---
 # Makefile Workflow Generator
 

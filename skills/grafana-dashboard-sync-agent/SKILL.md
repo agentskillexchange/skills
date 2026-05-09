@@ -1,13 +1,14 @@
 ---
-title: "Grafana Dashboard Sync Agent"
-slug: "grafana-dashboard-sync-agent"
-verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category: "General"
-framework: "Gemini"
+title: Grafana Dashboard Sync Agent
+slug: grafana-dashboard-sync-agent
+description: Grafana Dashboard Sync Agent
 github_stars: 73187
+verification: security_reviewed
+source: https://github.com/grafana/grafana
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
 ---
 # Grafana Dashboard Sync Agent

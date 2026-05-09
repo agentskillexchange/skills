@@ -1,14 +1,14 @@
 ---
-title: "Run focused accessibility review agents against coding-tool output with Accessibility Agents"
-slug: "run-focused-accessibility-review-agents-with-accessibility-agents"
-description: "Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship."
+title: Run focused accessibility review agents against coding-tool output with Accessibility Agents
+slug: run-focused-accessibility-review-agents-with-accessibility-agents
+description: Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship.
 github_stars: 235
 verification: security_reviewed
-source: "https://github.com/Community-Access/accessibility-agents"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/Community-Access/accessibility-agents
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "Community-Access/accessibility-agents"
+  github_repo: Community-Access/accessibility-agents
   github_stars: 235
 ---
 # Run focused accessibility review agents against coding-tool output with Accessibility Agents

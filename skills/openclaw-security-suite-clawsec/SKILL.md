@@ -1,13 +1,14 @@
 ---
-title: "OpenClaw Security Suite (ClawSec)"
-slug: "openclaw-security-suite-clawsec"
-verification: security_reviewed
-source: "https://github.com/prompt-security/clawsec"
-category: "General"
-framework: "OpenClaw"
+title: OpenClaw Security Suite (ClawSec)
+slug: openclaw-security-suite-clawsec
+description: OpenClaw Security Suite (ClawSec)
 github_stars: 978
+verification: security_reviewed
+source: https://github.com/prompt-security/clawsec
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "prompt-security/clawsec"
+  github_repo: prompt-security/clawsec
   github_stars: 978
 ---
 # OpenClaw Security Suite (ClawSec)

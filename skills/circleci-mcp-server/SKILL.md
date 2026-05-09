@@ -1,13 +1,14 @@
 ---
-title: "CircleCI MCP Server"
-slug: "circleci-mcp-server"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "MCP"
+title: CircleCI MCP Server
+slug: circleci-mcp-server
+description: CircleCI MCP Server
 github_stars: 842
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 842
 ---
 # CircleCI MCP Server

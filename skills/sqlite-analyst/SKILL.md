@@ -1,12 +1,13 @@
 ---
-title: "SQLite Analyst"
-slug: "sqlite-analyst"
+title: SQLite Analyst
+slug: sqlite-analyst
+description: SQLite Analyst
 verification: security_reviewed
-source: "https://github.com/WiseLibs/better-sqlite3"
-category: "General"
-framework: "MCP"
+source: https://github.com/WiseLibs/better-sqlite3
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "wiselibs/better-sqlite3"
+  github_repo: wiselibs/better-sqlite3
   github_stars: 7111
 ---
 # SQLite Analyst

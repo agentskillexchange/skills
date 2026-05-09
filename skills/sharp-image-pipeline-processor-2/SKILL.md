@@ -1,16 +1,16 @@
 ---
-title: "Sharp Image Pipeline Processor"
-slug: "sharp-image-pipeline-processor-2"
-description: "Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing."
+title: Sharp Image Pipeline Processor
+slug: sharp-image-pipeline-processor-2
+description: Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing.
 github_stars: 32138
 verification: security_reviewed
-source: "https://github.com/lovell/sharp"
-category: "Image & Creative Automation"
-framework: "Claude Code"
+source: https://github.com/lovell/sharp
+category: Image & Creative Automation
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "lovell/sharp"
+  github_repo: lovell/sharp
   github_stars: 32138
-  npm_package: "sharp"
+  npm_package: sharp
 ---
 # Sharp Image Pipeline Processor
 

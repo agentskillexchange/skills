@@ -1,10 +1,11 @@
 ---
-title: "XML XSLT Transform Pipeline"
-slug: "xml-xslt-transform-pipeline"
+title: XML XSLT Transform Pipeline
+slug: xml-xslt-transform-pipeline
+description: XML XSLT Transform Pipeline
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/
+category: General
+framework: ChatGPT Agents
 ---
 # XML XSLT Transform Pipeline
 

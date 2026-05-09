@@ -1,10 +1,11 @@
 ---
-title: "Incident Response Playbook Runner"
-slug: "incident-response-playbook-runner"
+title: Incident Response Playbook Runner
+slug: incident-response-playbook-runner
+description: Incident Response Playbook Runner
 verification: security_reviewed
-source: "https://developer.atlassian.com/cloud/jira/"
-category: "General"
-framework: "MCP"
+source: https://developer.atlassian.com/cloud/jira/
+category: General
+framework: MCP
 ---
 # Incident Response Playbook Runner
 

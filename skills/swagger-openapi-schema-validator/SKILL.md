@@ -1,13 +1,14 @@
 ---
-title: "Swagger OpenAPI Schema Validator"
-slug: "swagger-openapi-schema-validator"
-verification: security_reviewed
-source: "https://github.com/swagger-api/swagger-ui"
-category: "General"
-framework: "Cursor"
+title: Swagger OpenAPI Schema Validator
+slug: swagger-openapi-schema-validator
+description: Swagger OpenAPI Schema Validator
 github_stars: 28751
+verification: security_reviewed
+source: https://github.com/swagger-api/swagger-ui
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "swagger-api/swagger-ui"
+  github_repo: swagger-api/swagger-ui
   github_stars: 28751
 ---
 # Swagger OpenAPI Schema Validator

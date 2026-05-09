@@ -1,12 +1,13 @@
 ---
-title: "Datadog Monitor Configurator"
-slug: "datadog-monitor-configurator-2"
+title: Datadog Monitor Configurator
+slug: datadog-monitor-configurator-2
+description: Datadog Monitor Configurator
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Monitor Configurator

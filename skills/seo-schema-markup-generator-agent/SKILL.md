@@ -1,10 +1,11 @@
 ---
-title: "SEO Schema Markup Generator"
-slug: "seo-schema-markup-generator-agent"
+title: SEO Schema Markup Generator
+slug: seo-schema-markup-generator-agent
+description: SEO Schema Markup Generator
 verification: security_reviewed
-source: "https://developer.wordpress.org/"
-category: "General"
-framework: "OpenClaw"
+source: https://developer.wordpress.org/
+category: General
+framework: OpenClaw
 ---
 # SEO Schema Markup Generator
 

@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Rule Engine"
-slug: "semgrep-rule-engine"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Custom Agents"
+title: Semgrep Rule Engine
+slug: semgrep-rule-engine
+description: Semgrep Rule Engine
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Rule Engine

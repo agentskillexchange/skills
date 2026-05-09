@@ -1,14 +1,14 @@
 ---
-title: "Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite"
-slug: "run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite"
-description: "Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes."
+title: Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite
+slug: run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite
+description: Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes.
 github_stars: 3395
 verification: security_reviewed
-source: "https://github.com/openrewrite/rewrite"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+source: https://github.com/openrewrite/rewrite
+category: Templates & Workflows
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "openrewrite/rewrite"
+  github_repo: openrewrite/rewrite
   github_stars: 3395
 ---
 # Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite

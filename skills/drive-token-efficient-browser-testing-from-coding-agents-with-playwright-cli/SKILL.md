@@ -1,17 +1,16 @@
 ---
-title: "Drive token-efficient browser testing from coding agents with Playwright CLI"
-slug: "drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli"
-description: "Use Playwright CLI to run token-efficient browser tests directly from coding agents, reducing overhead for automated UI and end-to-end testing workflows."
+title: Drive token-efficient browser testing from coding agents with Playwright CLI
+slug: drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli
+description: Use Playwright CLI to run token-efficient browser tests directly from coding agents, reducing overhead for automated UI and end-to-end testing workflows.
 github_stars: 9956
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright-cli"
-category: "Browser Automation"
-framework: "Claude Code"
+source: https://github.com/microsoft/playwright-cli
+category: Browser Automation
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "microsoft/playwright-cli"
+  github_repo: microsoft/playwright-cli
   github_stars: 9956
 ---
-
 # Drive token-efficient browser testing from coding agents with Playwright CLI
 
 Use Playwright CLI to run token-efficient browser tests directly from coding agents, reducing overhead for automated UI and end-to-end testing workflows.

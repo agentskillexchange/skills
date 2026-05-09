@@ -1,10 +1,11 @@
 ---
-title: "OpenTelemetry Trace Analyzer"
-slug: "opentelemetry-trace-analyzer"
+title: OpenTelemetry Trace Analyzer
+slug: opentelemetry-trace-analyzer
+description: OpenTelemetry Trace Analyzer
 verification: security_reviewed
-source: "https://opentelemetry.io/"
-category: "General"
-framework: "Codex"
+source: https://opentelemetry.io/
+category: General
+framework: Codex
 ---
 # OpenTelemetry Trace Analyzer
 

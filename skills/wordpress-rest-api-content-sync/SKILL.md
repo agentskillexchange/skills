@@ -1,12 +1,13 @@
 ---
-title: "WordPress REST API Content Sync"
-slug: "wordpress-rest-api-content-sync"
+title: WordPress REST API Content Sync
+slug: wordpress-rest-api-content-sync
+description: WordPress REST API Content Sync
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "MCP"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress REST API Content Sync

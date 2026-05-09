@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Declarative Generator"
-slug: "jenkins-pipeline-declarative-generator"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Custom Agents"
+title: Jenkins Pipeline Declarative Generator
+slug: jenkins-pipeline-declarative-generator
+description: Jenkins Pipeline Declarative Generator
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Declarative Generator

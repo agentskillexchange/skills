@@ -1,13 +1,14 @@
 ---
-title: "Python Type Coverage Analyzer"
-slug: "python-type-coverage-analyzer"
-verification: security_reviewed
-source: "https://github.com/python/mypy"
-category: "General"
-framework: "Gemini"
+title: Python Type Coverage Analyzer
+slug: python-type-coverage-analyzer
+description: Python Type Coverage Analyzer
 github_stars: 20393
+verification: security_reviewed
+source: https://github.com/python/mypy
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "python/mypy"
+  github_repo: python/mypy
   github_stars: 20393
 ---
 # Python Type Coverage Analyzer

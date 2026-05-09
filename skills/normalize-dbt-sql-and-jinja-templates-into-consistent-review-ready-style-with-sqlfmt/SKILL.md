@@ -1,14 +1,14 @@
 ---
-title: "Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt"
-slug: "normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt"
-description: "Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff."
+title: Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt
+slug: normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt
+description: Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff.
 github_stars: 530
 verification: security_reviewed
-source: "https://github.com/tconbeer/sqlfmt"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/tconbeer/sqlfmt
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "tconbeer/sqlfmt"
+  github_repo: tconbeer/sqlfmt
   github_stars: 530
 ---
 # Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt

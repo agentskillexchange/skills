@@ -1,12 +1,13 @@
 ---
-title: "Parquet Column Pruning Optimizer"
-slug: "parquet-column-pruning-optimizer"
+title: Parquet Column Pruning Optimizer
+slug: parquet-column-pruning-optimizer
+description: Parquet Column Pruning Optimizer
 verification: security_reviewed
-source: "https://github.com/ironSource/parquetjs"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/ironSource/parquetjs
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "ironsource/parquetjs"
+  github_repo: ironsource/parquetjs
   github_stars: 387
 ---
 # Parquet Column Pruning Optimizer

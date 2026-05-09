@@ -1,13 +1,14 @@
 ---
-title: "Conftest Policy Tester"
-slug: "conftest-policy-tester"
-verification: security_reviewed
-source: "https://github.com/open-policy-agent/conftest"
-category: "General"
-framework: "Custom Agents"
+title: Conftest Policy Tester
+slug: conftest-policy-tester
+description: Conftest Policy Tester
 github_stars: 3155
+verification: security_reviewed
+source: https://github.com/open-policy-agent/conftest
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "open-policy-agent/conftest"
+  github_repo: open-policy-agent/conftest
   github_stars: 3155
 ---
 # Conftest Policy Tester

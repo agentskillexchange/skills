@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Flaky Test Detector"
-slug: "circleci-flaky-test-detector-2"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "MCP"
+title: CircleCI Flaky Test Detector
+slug: circleci-flaky-test-detector-2
+description: CircleCI Flaky Test Detector
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Flaky Test Detector

@@ -1,16 +1,16 @@
 ---
-title: "Present version-controlled markdown slide decks as terminal-native talks with Presenterm"
-slug: "present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm"
-description: "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git."
+title: Present version-controlled markdown slide decks as terminal-native talks with Presenterm
+slug: present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm
+description: Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
 github_stars: 8246
 verification: security_reviewed
-source: "https://github.com/mfontanini/presenterm"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+source: https://github.com/mfontanini/presenterm
+category: Media & Transcription
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "mfontanini/presenterm"
+  github_repo: mfontanini/presenterm
   github_stars: 8246
-  npm_package: "presenterm"
+  npm_package: presenterm
 ---
 # Present version-controlled markdown slide decks as terminal-native talks with Presenterm
 

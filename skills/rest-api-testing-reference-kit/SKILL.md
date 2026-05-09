@@ -1,10 +1,11 @@
 ---
-title: "REST API Testing Reference Kit"
-slug: "rest-api-testing-reference-kit"
+title: REST API Testing Reference Kit
+slug: rest-api-testing-reference-kit
+description: REST API Testing Reference Kit
 verification: security_reviewed
-source: "https://swagger.io/solutions/api-testing/"
-category: "General"
-framework: "Cursor"
+source: https://swagger.io/solutions/api-testing/
+category: General
+framework: Cursor
 ---
 # REST API Testing Reference Kit
 

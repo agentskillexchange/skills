@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Application Health Runbook"
-slug: "argocd-application-health-runbook"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "OpenClaw"
+title: ArgoCD Application Health Runbook
+slug: argocd-application-health-runbook
+description: ArgoCD Application Health Runbook
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Application Health Runbook

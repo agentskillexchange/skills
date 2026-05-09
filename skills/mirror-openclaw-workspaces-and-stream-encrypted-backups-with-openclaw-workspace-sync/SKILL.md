@@ -1,16 +1,16 @@
 ---
-title: "Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync"
-slug: "mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync"
-description: "Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes."
+title: Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync
+slug: mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync
+description: Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes.
 github_stars: 8
 verification: security_reviewed
-source: "https://github.com/ashbrener/openclaw-workspace-sync"
-category: "Integrations & Connectors"
-framework: "OpenClaw"
+source: https://github.com/ashbrener/openclaw-workspace-sync
+category: Integrations & Connectors
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ashbrener/openclaw-workspace-sync"
+  github_repo: ashbrener/openclaw-workspace-sync
   github_stars: 8
-  npm_package: "openclaw-workspace-sync"
+  npm_package: openclaw-workspace-sync
 ---
 # Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync
 

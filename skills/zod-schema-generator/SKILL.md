@@ -1,13 +1,14 @@
 ---
-title: "Zod Schema Generator"
-slug: "zod-schema-generator"
-verification: security_reviewed
-source: "https://github.com/colinhacks/zod"
-category: "General"
-framework: "Cursor"
+title: Zod Schema Generator
+slug: zod-schema-generator
+description: Zod Schema Generator
 github_stars: 42500
+verification: security_reviewed
+source: https://github.com/colinhacks/zod
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "colinhacks/zod"
+  github_repo: colinhacks/zod
   github_stars: 42500
 ---
 # Zod Schema Generator

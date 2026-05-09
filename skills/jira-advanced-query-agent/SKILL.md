@@ -1,10 +1,11 @@
 ---
-title: "Jira Advanced Query Agent"
-slug: "jira-advanced-query-agent"
+title: Jira Advanced Query Agent
+slug: jira-advanced-query-agent
+description: Jira Advanced Query Agent
 verification: security_reviewed
-source: "https://pypi.org/project/jira/"
-category: "General"
-framework: "Custom Agents"
+source: https://pypi.org/project/jira/
+category: General
+framework: Custom Agents
 ---
 # Jira Advanced Query Agent
 

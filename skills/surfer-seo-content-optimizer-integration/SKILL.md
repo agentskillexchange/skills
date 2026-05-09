@@ -1,10 +1,11 @@
 ---
-title: "Surfer SEO Content Optimizer Integration"
-slug: "surfer-seo-content-optimizer-integration"
+title: Surfer SEO Content Optimizer Integration
+slug: surfer-seo-content-optimizer-integration
+description: Surfer SEO Content Optimizer Integration
 verification: security_reviewed
-source: "https://surferseo.com/"
-category: "General"
-framework: "Cursor"
+source: https://surferseo.com/
+category: General
+framework: Cursor
 ---
 # Surfer SEO Content Optimizer Integration
 

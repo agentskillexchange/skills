@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Violation Summarizer"
-slug: "eslint-rule-violation-summarizer-2"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Cursor"
+title: ESLint Rule Violation Summarizer
+slug: eslint-rule-violation-summarizer-2
+description: ESLint Rule Violation Summarizer
 github_stars: 27186
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27186
 ---
 # ESLint Rule Violation Summarizer

@@ -1,10 +1,11 @@
 ---
-title: "Snowflake MCP Server"
-slug: "snowflake-mcp-server"
+title: Snowflake MCP Server
+slug: snowflake-mcp-server
+description: Snowflake MCP Server
 verification: security_reviewed
-source: "https://pypi.org/project/snowflake-connector-python/"
-category: "General"
-framework: "MCP"
+source: https://pypi.org/project/snowflake-connector-python/
+category: General
+framework: MCP
 ---
 # Snowflake MCP Server
 

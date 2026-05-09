@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Debugger"
-slug: "jenkins-pipeline-debugger"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Claude Agents"
+title: Jenkins Pipeline Debugger
+slug: jenkins-pipeline-debugger
+description: Jenkins Pipeline Debugger
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Debugger

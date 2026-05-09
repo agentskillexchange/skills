@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Debugger"
-slug: "tekton-pipeline-debugger"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "Custom Agents"
+title: Tekton Pipeline Debugger
+slug: tekton-pipeline-debugger
+description: Tekton Pipeline Debugger
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Debugger

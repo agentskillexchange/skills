@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Audio Normalization Pipeline"
-slug: "ffmpeg-audio-normalization-pipeline"
+title: FFmpeg Audio Normalization Pipeline
+slug: ffmpeg-audio-normalization-pipeline
+description: FFmpeg Audio Normalization Pipeline
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Audio Normalization Pipeline

@@ -1,13 +1,14 @@
 ---
-title: "Apify Actor Web Crawler"
-slug: "apify-actor-web-crawler"
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
-category: "General"
-framework: "Claude Agents"
+title: Apify Actor Web Crawler
+slug: apify-actor-web-crawler
+description: Apify Actor Web Crawler
 github_stars: 173
+verification: security_reviewed
+source: https://github.com/apify/apify-sdk-js
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
 ---
 # Apify Actor Web Crawler

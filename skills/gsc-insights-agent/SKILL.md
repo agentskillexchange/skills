@@ -1,10 +1,11 @@
 ---
-title: "Google Search Console Insights Agent"
-slug: "gsc-insights-agent"
+title: Google Search Console Insights Agent
+slug: gsc-insights-agent
+description: Google Search Console Insights Agent
 verification: security_reviewed
-source: "https://developers.google.com/search/blog/2025/06/search-console-insights"
-category: "General"
-framework: "Custom Agents"
+source: https://developers.google.com/search/blog/2025/06/search-console-insights
+category: General
+framework: Custom Agents
 ---
 # Google Search Console Insights Agent
 

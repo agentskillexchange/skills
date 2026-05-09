@@ -1,13 +1,14 @@
 ---
-title: "AWS IAM Privilege Escalation Audit"
-slug: "aws-iam-privilege-escalation-audit"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Claude Code"
+title: AWS IAM Privilege Escalation Audit
+slug: aws-iam-privilege-escalation-audit
+description: AWS IAM Privilege Escalation Audit
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS IAM Privilege Escalation Audit

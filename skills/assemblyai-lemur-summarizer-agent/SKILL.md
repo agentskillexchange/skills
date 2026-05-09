@@ -1,10 +1,11 @@
 ---
-title: "AssemblyAI LeMUR Summarizer"
-slug: "assemblyai-lemur-summarizer-agent"
+title: AssemblyAI LeMUR Summarizer
+slug: assemblyai-lemur-summarizer-agent
+description: AssemblyAI LeMUR Summarizer
 verification: security_reviewed
-source: "https://www.assemblyai.com/docs"
-category: "General"
-framework: "Gemini"
+source: https://www.assemblyai.com/docs
+category: General
+framework: Gemini
 ---
 # AssemblyAI LeMUR Summarizer
 

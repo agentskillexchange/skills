@@ -1,10 +1,11 @@
 ---
-title: "Gutenberg Block Pattern Generator"
-slug: "gutenberg-block-pattern-generator"
+title: Gutenberg Block Pattern Generator
+slug: gutenberg-block-pattern-generator
+description: Gutenberg Block Pattern Generator
 verification: security_reviewed
-source: "https://developer.wordpress.org/themes/patterns/registering-patterns/"
-category: "General"
-framework: "Claude Code"
+source: https://developer.wordpress.org/themes/patterns/registering-patterns/
+category: General
+framework: Claude Code
 ---
 # Gutenberg Block Pattern Generator
 

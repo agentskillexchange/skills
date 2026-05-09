@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Specification Validator"
-slug: "openapi-specification-validator-agent"
-verification: security_reviewed
-source: "https://github.com/APIDevTools/swagger-parser"
-category: "General"
-framework: "Cursor"
+title: OpenAPI Specification Validator
+slug: openapi-specification-validator-agent
+description: OpenAPI Specification Validator
 github_stars: 1194
+verification: security_reviewed
+source: https://github.com/APIDevTools/swagger-parser
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "APIDevTools/swagger-parser"
+  github_repo: APIDevTools/swagger-parser
   github_stars: 1194
 ---
 # OpenAPI Specification Validator

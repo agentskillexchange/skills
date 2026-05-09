@@ -1,10 +1,11 @@
 ---
-title: "Outlook Mail Triage Skill"
-slug: "outlook-mail-triage-microsoft-graph"
+title: Outlook Mail Triage Skill
+slug: outlook-mail-triage-microsoft-graph
+description: Outlook Mail Triage Skill
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
-category: "General"
-framework: "Claude Agents"
+source: https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
+category: General
+framework: Claude Agents
 ---
 # Outlook Mail Triage Skill
 

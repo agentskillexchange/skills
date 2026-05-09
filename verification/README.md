@@ -37,7 +37,7 @@ Each skill's `SKILL.md` frontmatter includes a `verification` field:
 
 ```yaml
 ---
-name: "Example Skill"
+title: "Example Skill"
 verification: security_reviewed
 ---
 ```

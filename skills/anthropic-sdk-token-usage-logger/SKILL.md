@@ -1,13 +1,14 @@
 ---
-title: "Anthropic SDK Token Usage Logger"
-slug: "anthropic-sdk-token-usage-logger"
-verification: security_reviewed
-source: "https://github.com/anthropics/anthropic-sdk-typescript"
-category: "General"
-framework: "Claude Code"
+title: Anthropic SDK Token Usage Logger
+slug: anthropic-sdk-token-usage-logger
+description: Anthropic SDK Token Usage Logger
 github_stars: 1883
+verification: security_reviewed
+source: https://github.com/anthropics/anthropic-sdk-typescript
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "anthropics/anthropic-sdk-typescript"
+  github_repo: anthropics/anthropic-sdk-typescript
   github_stars: 1883
 ---
 # Anthropic SDK Token Usage Logger

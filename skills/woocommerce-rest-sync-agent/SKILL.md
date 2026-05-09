@@ -1,10 +1,11 @@
 ---
-title: "WooCommerce REST Sync Agent"
-slug: "woocommerce-rest-sync-agent"
+title: WooCommerce REST Sync Agent
+slug: woocommerce-rest-sync-agent
+description: WooCommerce REST Sync Agent
 verification: security_reviewed
-source: "https://developer.woocommerce.com/docs/apis/rest-api/"
-category: "General"
-framework: "Codex"
+source: https://developer.woocommerce.com/docs/apis/rest-api/
+category: General
+framework: Codex
 ---
 # WooCommerce REST Sync Agent
 

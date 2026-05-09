@@ -1,10 +1,11 @@
 ---
-title: "ElevenLabs Voiceover Generator for Long-Form Content"
-slug: "elevenlabs-voiceover-longform"
+title: ElevenLabs Voiceover Generator for Long-Form Content
+slug: elevenlabs-voiceover-longform
+description: ElevenLabs Voiceover Generator for Long-Form Content
 verification: security_reviewed
-source: "https://elevenlabs.io/docs"
-category: "General"
-framework: "Claude Code"
+source: https://elevenlabs.io/docs
+category: General
+framework: Claude Code
 ---
 # ElevenLabs Voiceover Generator for Long-Form Content
 

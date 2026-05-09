@@ -1,10 +1,11 @@
 ---
-title: "CloudWatch Intelligent Alarms"
-slug: "cloudwatch-intelligent-alarms"
+title: CloudWatch Intelligent Alarms
+slug: cloudwatch-intelligent-alarms
+description: CloudWatch Intelligent Alarms
 verification: security_reviewed
-source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Anomaly_Detection.html"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Anomaly_Detection.html
+category: General
+framework: ChatGPT Agents
 ---
 # CloudWatch Intelligent Alarms
 

@@ -1,10 +1,11 @@
 ---
-title: "Python Package API Surface Mapper"
-slug: "python-package-api-surface-mapper"
+title: Python Package API Surface Mapper
+slug: python-package-api-surface-mapper
+description: Python Package API Surface Mapper
 verification: security_reviewed
-source: "https://pypi.org/"
-category: "General"
-framework: "Codex"
+source: https://pypi.org/
+category: General
+framework: Codex
 ---
 # Python Package API Surface Mapper
 

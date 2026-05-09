@@ -1,13 +1,14 @@
 ---
-title: "Prettier Config Harmonizer"
-slug: "prettier-config-harmonizer-2"
-verification: security_reviewed
-source: "https://github.com/prettier/prettier"
-category: "General"
-framework: "Cursor"
+title: Prettier Config Harmonizer
+slug: prettier-config-harmonizer-2
+description: Prettier Config Harmonizer
 github_stars: 51835
+verification: security_reviewed
+source: https://github.com/prettier/prettier
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "prettier/prettier"
+  github_repo: prettier/prettier
   github_stars: 51835
 ---
 # Prettier Config Harmonizer

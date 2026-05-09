@@ -1,13 +1,14 @@
 ---
-title: "Webpack Bundle Analyzer Agent"
-slug: "webpack-bundle-analyzer-agent"
-verification: security_reviewed
-source: "https://github.com/webpack/webpack"
-category: "General"
-framework: "Cursor"
+title: Webpack Bundle Analyzer Agent
+slug: webpack-bundle-analyzer-agent
+description: Webpack Bundle Analyzer Agent
 github_stars: 65837
+verification: security_reviewed
+source: https://github.com/webpack/webpack
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "webpack/webpack"
+  github_repo: webpack/webpack
   github_stars: 65837
 ---
 # Webpack Bundle Analyzer Agent

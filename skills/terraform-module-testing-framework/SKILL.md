@@ -1,13 +1,14 @@
 ---
-title: "Terraform Module Testing Framework"
-slug: "terraform-module-testing-framework"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Claude Code"
+title: Terraform Module Testing Framework
+slug: terraform-module-testing-framework
+description: Terraform Module Testing Framework
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Module Testing Framework

@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Validator"
-slug: "tekton-pipeline-validator"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "OpenClaw"
+title: Tekton Pipeline Validator
+slug: tekton-pipeline-validator
+description: Tekton Pipeline Validator
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Validator

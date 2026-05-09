@@ -1,10 +1,11 @@
 ---
-title: "Pexels API Stock Photo Curator"
-slug: "pexels-api-stock-photo-curator"
+title: Pexels API Stock Photo Curator
+slug: pexels-api-stock-photo-curator
+description: Pexels API Stock Photo Curator
 verification: security_reviewed
-source: "https://www.pexels.com/api/documentation/"
-category: "General"
-framework: "Claude Agents"
+source: https://www.pexels.com/api/documentation/
+category: General
+framework: Claude Agents
 ---
 # Pexels API Stock Photo Curator
 

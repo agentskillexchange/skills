@@ -1,10 +1,11 @@
 ---
-title: "Internal Link Optimizer"
-slug: "internal-link-optimizer-seo"
+title: Internal Link Optimizer
+slug: internal-link-optimizer-seo
+description: Internal Link Optimizer
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
-category: "General"
-framework: "Custom Agents"
+source: https://agentskillexchange.com/skills/internal-link-optimizer-seo/
+category: General
+framework: Custom Agents
 ---
 # Internal Link Optimizer
 

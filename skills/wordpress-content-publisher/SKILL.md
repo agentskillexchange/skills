@@ -1,12 +1,13 @@
 ---
-title: "WordPress Content Publisher"
-slug: "wordpress-content-publisher"
+title: WordPress Content Publisher
+slug: wordpress-content-publisher
+description: WordPress Content Publisher
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21098
 ---
 # WordPress Content Publisher

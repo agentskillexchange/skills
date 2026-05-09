@@ -1,13 +1,14 @@
 ---
-title: "gRPC Service Tool"
-slug: "grpc-service-tool"
-verification: security_reviewed
-source: "https://github.com/grpc/grpc-node"
-category: "General"
-framework: "Custom Agents"
+title: gRPC Service Tool
+slug: grpc-service-tool
+description: gRPC Service Tool
 github_stars: 4822
+verification: security_reviewed
+source: https://github.com/grpc/grpc-node
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "grpc/grpc-node"
+  github_repo: grpc/grpc-node
   github_stars: 4822
 ---
 # gRPC Service Tool

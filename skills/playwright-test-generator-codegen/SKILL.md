@@ -1,13 +1,14 @@
 ---
-title: "Playwright Test Generator with Codegen"
-slug: "playwright-test-generator-codegen"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Cursor"
+title: Playwright Test Generator with Codegen
+slug: playwright-test-generator-codegen
+description: Playwright Test Generator with Codegen
 github_stars: 86409
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
 ---
 # Playwright Test Generator with Codegen

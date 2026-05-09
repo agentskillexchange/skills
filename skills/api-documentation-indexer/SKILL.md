@@ -1,10 +1,11 @@
 ---
-title: "API Documentation Indexer"
-slug: "api-documentation-indexer"
+title: API Documentation Indexer
+slug: api-documentation-indexer
+description: API Documentation Indexer
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "Claude Code"
+source: https://swagger.io/docs/
+category: General
+framework: Claude Code
 ---
 # API Documentation Indexer
 

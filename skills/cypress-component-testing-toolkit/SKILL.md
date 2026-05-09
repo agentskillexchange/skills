@@ -1,13 +1,14 @@
 ---
-title: "Cypress Component Testing Toolkit"
-slug: "cypress-component-testing-toolkit"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "Custom Agents"
+title: Cypress Component Testing Toolkit
+slug: cypress-component-testing-toolkit
+description: Cypress Component Testing Toolkit
 github_stars: 49617
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
 ---
 # Cypress Component Testing Toolkit

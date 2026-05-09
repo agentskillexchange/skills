@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Custom Rule Builder"
-slug: "semgrep-custom-rule-builder-3"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "MCP"
+title: Semgrep Custom Rule Builder
+slug: semgrep-custom-rule-builder-3
+description: Semgrep Custom Rule Builder
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Custom Rule Builder

@@ -1,10 +1,11 @@
 ---
-title: "Protocol Buffers Documentation Compiler"
-slug: "protobuf-documentation-compiler"
+title: Protocol Buffers Documentation Compiler
+slug: protobuf-documentation-compiler
+description: Protocol Buffers Documentation Compiler
 verification: security_reviewed
-source: "https://protobuf.dev/"
-category: "General"
-framework: "Cursor"
+source: https://protobuf.dev/
+category: General
+framework: Cursor
 ---
 # Protocol Buffers Documentation Compiler
 

@@ -1,13 +1,14 @@
 ---
-title: "Cloudflare Workers Deployer"
-slug: "cloudflare-workers-deployer"
-verification: security_reviewed
-source: "https://github.com/cloudflare/workers-sdk"
-category: "General"
-framework: "Custom Agents"
+title: Cloudflare Workers Deployer
+slug: cloudflare-workers-deployer
+description: Cloudflare Workers Deployer
 github_stars: 3970
+verification: security_reviewed
+source: https://github.com/cloudflare/workers-sdk
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "cloudflare/workers-sdk"
+  github_repo: cloudflare/workers-sdk
   github_stars: 3970
 ---
 # Cloudflare Workers Deployer

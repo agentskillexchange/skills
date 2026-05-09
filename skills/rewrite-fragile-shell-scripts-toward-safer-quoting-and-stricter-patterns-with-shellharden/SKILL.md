@@ -1,14 +1,14 @@
 ---
-title: "Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden"
-slug: "rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden"
-description: "Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production."
+title: Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden
+slug: rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden
+description: Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production.
 github_stars: 4776
 verification: security_reviewed
-source: "https://github.com/anordal/shellharden"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/anordal/shellharden
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "anordal/shellharden"
+  github_repo: anordal/shellharden
   github_stars: 4776
 ---
 # Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden

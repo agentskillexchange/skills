@@ -1,10 +1,11 @@
 ---
-title: "Ahrefs Keyword Gap Analysis Skill"
-slug: "ahrefs-keyword-gap-analysis-skill"
+title: Ahrefs Keyword Gap Analysis Skill
+slug: ahrefs-keyword-gap-analysis-skill
+description: Ahrefs Keyword Gap Analysis Skill
 verification: security_reviewed
-source: "https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords
+category: General
+framework: ChatGPT Agents
 ---
 # Ahrefs Keyword Gap Analysis Skill
 

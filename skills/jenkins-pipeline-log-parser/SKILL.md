@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Log Parser"
-slug: "jenkins-pipeline-log-parser"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Claude Agents"
+title: Jenkins Pipeline Log Parser
+slug: jenkins-pipeline-log-parser
+description: Jenkins Pipeline Log Parser
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Log Parser

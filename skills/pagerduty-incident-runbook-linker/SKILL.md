@@ -1,12 +1,13 @@
 ---
-title: "PagerDuty Incident Runbook Linker"
-slug: "pagerduty-incident-runbook-linker"
+title: PagerDuty Incident Runbook Linker
+slug: pagerduty-incident-runbook-linker
+description: PagerDuty Incident Runbook Linker
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/PagerDuty/pdjs
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
+  github_repo: pagerduty/pdjs
   github_stars: 69
 ---
 # PagerDuty Incident Runbook Linker

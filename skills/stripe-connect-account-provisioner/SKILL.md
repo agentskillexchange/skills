@@ -1,16 +1,16 @@
 ---
-title: "Stripe Connect Account Provisioner"
-slug: "stripe-connect-account-provisioner"
-description: "Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation, KYC link generation with stripe.accountLinks.create(), and webhook verification for account.updated events."
+title: Stripe Connect Account Provisioner
+slug: stripe-connect-account-provisioner
+description: Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation, KYC link generation with stripe.accountLinks.create(), and webhook verification for account.updated events.
 github_stars: 4385
 verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "Integrations & Connectors"
-framework: "OpenClaw"
+source: https://github.com/stripe/stripe-node
+category: Integrations & Connectors
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
-  npm_package: "stripe"
+  npm_package: stripe
 ---
 # Stripe Connect Account Provisioner
 

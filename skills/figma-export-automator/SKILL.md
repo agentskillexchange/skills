@@ -1,10 +1,11 @@
 ---
-title: "Figma Export Automator"
-slug: "figma-export-automator"
+title: Figma Export Automator
+slug: figma-export-automator
+description: Figma Export Automator
 verification: security_reviewed
-source: "https://developers.figma.com/docs/rest-api/"
-category: "General"
-framework: "Claude Agents"
+source: https://developers.figma.com/docs/rest-api/
+category: General
+framework: Claude Agents
 ---
 # Figma Export Automator
 

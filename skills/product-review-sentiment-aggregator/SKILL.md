@@ -1,10 +1,11 @@
 ---
-title: "Product Review Sentiment Aggregator"
-slug: "product-review-sentiment-aggregator"
+title: Product Review Sentiment Aggregator
+slug: product-review-sentiment-aggregator
+description: Product Review Sentiment Aggregator
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
-category: "General"
-framework: "Claude Agents"
+source: https://agentskillexchange.com/skills/product-review-sentiment-aggregator/
+category: General
+framework: Claude Agents
 ---
 # Product Review Sentiment Aggregator
 

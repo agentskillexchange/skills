@@ -1,10 +1,11 @@
 ---
-title: "Gemini Image Style Transfer Agent"
-slug: "gemini-image-style-transfer-agent"
+title: Gemini Image Style Transfer Agent
+slug: gemini-image-style-transfer-agent
+description: Gemini Image Style Transfer Agent
 verification: security_reviewed
-source: "https://ai.google.dev/gemini-api/docs/image-generation"
-category: "General"
-framework: "Gemini"
+source: https://ai.google.dev/gemini-api/docs/image-generation
+category: General
+framework: Gemini
 ---
 # Gemini Image Style Transfer Agent
 

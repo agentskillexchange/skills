@@ -1,13 +1,14 @@
 ---
-title: "Pandas Profiling Report Generator"
-slug: "pandas-profiling-report-generator"
-verification: security_reviewed
-source: "https://github.com/pandas-dev/pandas"
-category: "General"
-framework: "Codex"
+title: Pandas Profiling Report Generator
+slug: pandas-profiling-report-generator
+description: Pandas Profiling Report Generator
 github_stars: 48498
+verification: security_reviewed
+source: https://github.com/pandas-dev/pandas
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "pandas-dev/pandas"
+  github_repo: pandas-dev/pandas
   github_stars: 48498
 ---
 # Pandas Profiling Report Generator

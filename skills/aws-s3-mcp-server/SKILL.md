@@ -1,13 +1,14 @@
 ---
-title: "AWS S3 MCP Server"
-slug: "aws-s3-mcp-server"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "MCP"
+title: AWS S3 MCP Server
+slug: aws-s3-mcp-server
+description: AWS S3 MCP Server
 github_stars: 3622
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3622
 ---
 # AWS S3 MCP Server

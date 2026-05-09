@@ -1,14 +1,14 @@
 ---
-title: "Photon High-Speed OSINT Web Crawler and Data Extractor"
-slug: "photon-osint-web-crawler"
-description: "Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social media accounts, files, secret keys, JavaScript endpoints, and subdomains from target websites with multithreaded efficiency."
+title: Photon High-Speed OSINT Web Crawler and Data Extractor
+slug: photon-osint-web-crawler
+description: Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social media accounts, files, secret keys, JavaScript endpoints, and subdomains from target websites with multithreaded efficiency.
 github_stars: 12795
 verification: security_reviewed
-source: "https://github.com/s0md3v/Photon"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+source: https://github.com/s0md3v/Photon
+category: Research & Scraping
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "s0md3v/Photon"
+  github_repo: s0md3v/Photon
   github_stars: 12795
 ---
 # Photon High-Speed OSINT Web Crawler and Data Extractor

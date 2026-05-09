@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Batch Transcode Pipeline"
-slug: "ffmpeg-batch-transcode-pipeline"
+title: FFmpeg Batch Transcode Pipeline
+slug: ffmpeg-batch-transcode-pipeline
+description: FFmpeg Batch Transcode Pipeline
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Batch Transcode Pipeline

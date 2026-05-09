@@ -1,10 +1,11 @@
 ---
-title: "AI Content Readability Optimizer"
-slug: "ai-content-readability-optimizer"
+title: AI Content Readability Optimizer
+slug: ai-content-readability-optimizer
+description: AI Content Readability Optimizer
 verification: security_reviewed
-source: "https://developer.wordpress.org/"
-category: "General"
-framework: "Codex"
+source: https://developer.wordpress.org/
+category: General
+framework: Codex
 ---
 # AI Content Readability Optimizer
 

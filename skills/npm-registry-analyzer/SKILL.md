@@ -1,10 +1,11 @@
 ---
-title: "npm Registry Analyzer"
-slug: "npm-registry-analyzer"
+title: npm Registry Analyzer
+slug: npm-registry-analyzer
+description: npm Registry Analyzer
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
-category: "General"
-framework: "MCP"
+source: https://docs.npmjs.com/cli/v10/using-npm/registry/
+category: General
+framework: MCP
 ---
 # npm Registry Analyzer
 

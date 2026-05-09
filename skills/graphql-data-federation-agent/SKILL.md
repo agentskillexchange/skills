@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Data Federation Agent"
-slug: "graphql-data-federation-agent"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "OpenClaw"
+title: GraphQL Data Federation Agent
+slug: graphql-data-federation-agent
+description: GraphQL Data Federation Agent
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Data Federation Agent

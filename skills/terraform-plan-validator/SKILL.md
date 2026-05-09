@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan Validator"
-slug: "terraform-plan-validator"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "MCP"
+title: Terraform Plan Validator
+slug: terraform-plan-validator
+description: Terraform Plan Validator
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Plan Validator

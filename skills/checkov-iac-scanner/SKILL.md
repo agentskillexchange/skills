@@ -1,13 +1,14 @@
 ---
-title: "Checkov IaC Scanner"
-slug: "checkov-iac-scanner"
-verification: security_reviewed
-source: "https://github.com/bridgecrewio/checkov"
-category: "General"
-framework: "Custom Agents"
+title: Checkov IaC Scanner
+slug: checkov-iac-scanner
+description: Checkov IaC Scanner
 github_stars: 8623
+verification: security_reviewed
+source: https://github.com/bridgecrewio/checkov
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "bridgecrewio/checkov"
+  github_repo: bridgecrewio/checkov
   github_stars: 8623
 ---
 # Checkov IaC Scanner

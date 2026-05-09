@@ -1,13 +1,14 @@
 ---
-title: "Loki Log Query Agent"
-slug: "loki-log-query-agent"
-verification: security_reviewed
-source: "https://github.com/grafana/loki"
-category: "General"
-framework: "MCP"
+title: Loki Log Query Agent
+slug: loki-log-query-agent
+description: Loki Log Query Agent
 github_stars: 27962
+verification: security_reviewed
+source: https://github.com/grafana/loki
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "grafana/loki"
+  github_repo: grafana/loki
   github_stars: 27962
 ---
 # Loki Log Query Agent

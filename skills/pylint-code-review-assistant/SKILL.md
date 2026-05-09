@@ -1,13 +1,14 @@
 ---
-title: "Pylint Code Review Assistant"
-slug: "pylint-code-review-assistant"
-verification: security_reviewed
-source: "https://github.com/pylint-dev/pylint"
-category: "General"
-framework: "Custom Agents"
+title: Pylint Code Review Assistant
+slug: pylint-code-review-assistant
+description: Pylint Code Review Assistant
 github_stars: 5676
+verification: security_reviewed
+source: https://github.com/pylint-dev/pylint
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "pylint-dev/pylint"
+  github_repo: pylint-dev/pylint
   github_stars: 5676
 ---
 # Pylint Code Review Assistant

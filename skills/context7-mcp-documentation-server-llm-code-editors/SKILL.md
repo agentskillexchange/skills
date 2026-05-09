@@ -1,14 +1,14 @@
 ---
-title: "Context7 MCP Documentation Server for LLM Code Editors"
-slug: "context7-mcp-documentation-server-llm-code-editors"
-description: "Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI prompts. Eliminates hallucinated APIs and outdated code generation by pulling documentation straight from the source at query time."
+title: Context7 MCP Documentation Server for LLM Code Editors
+slug: context7-mcp-documentation-server-llm-code-editors
+description: Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI prompts. Eliminates hallucinated APIs and outdated code generation by pulling documentation straight from the source at query time.
 github_stars: 51326
 verification: security_reviewed
-source: "https://github.com/upstash/context7"
-category: "Library & API Reference"
-framework: "MCP"
+source: https://github.com/upstash/context7
+category: Library & API Reference
+framework: MCP
 tool_ecosystem:
-  github_repo: "upstash/context7"
+  github_repo: upstash/context7
   github_stars: 51326
 ---
 # Context7 MCP Documentation Server for LLM Code Editors

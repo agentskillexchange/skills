@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Code Pattern Scanner"
-slug: "semgrep-code-pattern-scanner-2"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Codex"
+title: Semgrep Code Pattern Scanner
+slug: semgrep-code-pattern-scanner-2
+description: Semgrep Code Pattern Scanner
 github_stars: 14762
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14762
 ---
 # Semgrep Code Pattern Scanner

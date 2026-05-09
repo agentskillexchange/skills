@@ -1,13 +1,14 @@
 ---
-title: "Terraform Module Registry Browser"
-slug: "terraform-module-registry-browser"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "MCP"
+title: Terraform Module Registry Browser
+slug: terraform-module-registry-browser
+description: Terraform Module Registry Browser
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Module Registry Browser

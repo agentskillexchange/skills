@@ -1,12 +1,13 @@
 ---
-title: "Selenium Grid Session Manager"
-slug: "selenium-grid-session-manager"
+title: Selenium Grid Session Manager
+slug: selenium-grid-session-manager
+description: Selenium Grid Session Manager
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category: "General"
-framework: "Gemini"
+source: https://github.com/SeleniumHQ/selenium
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
+  github_repo: seleniumhq/selenium
   github_stars: 34076
 ---
 # Selenium Grid Session Manager

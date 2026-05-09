@@ -1,13 +1,14 @@
 ---
-title: "Jinja2 Infrastructure Template Engine"
-slug: "jinja2-infrastructure-template-engine"
-verification: security_reviewed
-source: "https://github.com/pallets/jinja"
-category: "General"
-framework: "Gemini"
+title: Jinja2 Infrastructure Template Engine
+slug: jinja2-infrastructure-template-engine
+description: Jinja2 Infrastructure Template Engine
 github_stars: 11585
+verification: security_reviewed
+source: https://github.com/pallets/jinja
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "pallets/jinja"
+  github_repo: pallets/jinja
   github_stars: 11585
 ---
 # Jinja2 Infrastructure Template Engine

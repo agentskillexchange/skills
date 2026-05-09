@@ -1,10 +1,11 @@
 ---
-title: "SSL/TLS Certificate Validator and Monitor"
-slug: "ssl-tls-certificate-validator-monitor"
+title: SSL/TLS Certificate Validator and Monitor
+slug: ssl-tls-certificate-validator-monitor
+description: SSL/TLS Certificate Validator and Monitor
 verification: security_reviewed
-source: "https://datatracker.ietf.org/doc/html/rfc8446"
-category: "General"
-framework: "Custom Agents"
+source: https://datatracker.ietf.org/doc/html/rfc8446
+category: General
+framework: Custom Agents
 ---
 # SSL/TLS Certificate Validator and Monitor
 

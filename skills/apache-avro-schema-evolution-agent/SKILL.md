@@ -1,13 +1,14 @@
 ---
-title: "Apache Avro Schema Evolution Agent"
-slug: "apache-avro-schema-evolution-agent"
-verification: security_reviewed
-source: "https://github.com/apache/avro"
-category: "General"
-framework: "MCP"
+title: Apache Avro Schema Evolution Agent
+slug: apache-avro-schema-evolution-agent
+description: Apache Avro Schema Evolution Agent
 github_stars: 3265
+verification: security_reviewed
+source: https://github.com/apache/avro
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "apache/avro"
+  github_repo: apache/avro
   github_stars: 3265
 ---
 # Apache Avro Schema Evolution Agent

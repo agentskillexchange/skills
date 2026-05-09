@@ -1,10 +1,11 @@
 ---
-title: "Makefile Dependency Auditor"
-slug: "makefile-dependency-auditor"
+title: Makefile Dependency Auditor
+slug: makefile-dependency-auditor
+description: Makefile Dependency Auditor
 verification: security_reviewed
-source: "https://www.gnu.org/software/make/"
-category: "General"
-framework: "Codex"
+source: https://www.gnu.org/software/make/
+category: General
+framework: Codex
 ---
 # Makefile Dependency Auditor
 

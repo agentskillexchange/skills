@@ -1,13 +1,14 @@
 ---
-title: "Terraform Cloud Run Trigger"
-slug: "terraform-cloud-run-trigger"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Custom Agents"
+title: Terraform Cloud Run Trigger
+slug: terraform-cloud-run-trigger
+description: Terraform Cloud Run Trigger
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Cloud Run Trigger

@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Pattern Matching Analyzer"
-slug: "semgrep-pattern-matching-analyzer"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "OpenClaw"
+title: Semgrep Pattern Matching Analyzer
+slug: semgrep-pattern-matching-analyzer
+description: Semgrep Pattern Matching Analyzer
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Pattern Matching Analyzer

@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Deployment Sync Skill"
-slug: "argocd-deployment-sync-skill"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Claude Agents"
+title: ArgoCD Deployment Sync Skill
+slug: argocd-deployment-sync-skill
+description: ArgoCD Deployment Sync Skill
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Deployment Sync Skill

@@ -1,10 +1,11 @@
 ---
-title: "Cloudinary Asset Optimization Agent"
-slug: "cloudinary-asset-optimization-agent"
+title: Cloudinary Asset Optimization Agent
+slug: cloudinary-asset-optimization-agent
+description: Cloudinary Asset Optimization Agent
 verification: security_reviewed
-source: "https://cloudinary.com/documentation"
-category: "General"
-framework: "OpenClaw"
+source: https://cloudinary.com/documentation
+category: General
+framework: OpenClaw
 ---
 # Cloudinary Asset Optimization Agent
 

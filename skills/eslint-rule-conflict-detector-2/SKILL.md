@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Conflict Detector"
-slug: "eslint-rule-conflict-detector-2"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Codex"
+title: ESLint Rule Conflict Detector
+slug: eslint-rule-conflict-detector-2
+description: ESLint Rule Conflict Detector
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Conflict Detector

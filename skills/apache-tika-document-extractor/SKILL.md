@@ -1,13 +1,14 @@
 ---
-title: "Apache Tika Document Extractor"
-slug: "apache-tika-document-extractor"
-verification: security_reviewed
-source: "https://github.com/apache/tika"
-category: "General"
-framework: "Codex"
+title: Apache Tika Document Extractor
+slug: apache-tika-document-extractor
+description: Apache Tika Document Extractor
 github_stars: 3695
+verification: security_reviewed
+source: https://github.com/apache/tika
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "apache/tika"
+  github_repo: apache/tika
   github_stars: 3695
 ---
 # Apache Tika Document Extractor

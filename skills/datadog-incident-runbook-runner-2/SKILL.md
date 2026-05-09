@@ -1,12 +1,13 @@
 ---
-title: "Datadog Incident Runbook Runner"
-slug: "datadog-incident-runbook-runner-2"
+title: Datadog Incident Runbook Runner
+slug: datadog-incident-runbook-runner-2
+description: Datadog Incident Runbook Runner
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Incident Runbook Runner

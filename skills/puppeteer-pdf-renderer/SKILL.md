@@ -1,13 +1,14 @@
 ---
-title: "Puppeteer PDF Renderer"
-slug: "puppeteer-pdf-renderer"
-verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category: "General"
-framework: "Cursor"
+title: Puppeteer PDF Renderer
+slug: puppeteer-pdf-renderer
+description: Puppeteer PDF Renderer
 github_stars: 94115
+verification: security_reviewed
+source: https://github.com/puppeteer/puppeteer
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
 ---
 # Puppeteer PDF Renderer

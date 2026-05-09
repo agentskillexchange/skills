@@ -1,13 +1,14 @@
 ---
-title: "OpenAI MCP Server"
-slug: "openai-mcp-server"
-verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category: "General"
-framework: "MCP"
+title: OpenAI MCP Server
+slug: openai-mcp-server
+description: OpenAI MCP Server
 github_stars: 10889
+verification: security_reviewed
+source: https://github.com/openai/openai-node
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10889
 ---
 # OpenAI MCP Server

@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Enforcer"
-slug: "eslint-rule-enforcer"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Code"
+title: ESLint Rule Enforcer
+slug: eslint-rule-enforcer
+description: ESLint Rule Enforcer
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Enforcer

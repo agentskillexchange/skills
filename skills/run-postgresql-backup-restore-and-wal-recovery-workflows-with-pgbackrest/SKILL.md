@@ -1,14 +1,14 @@
 ---
-title: "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest"
-slug: "run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest"
-description: "Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling."
+title: Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest
+slug: run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest
+description: Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling.
 github_stars: 3729
 verification: security_reviewed
-source: "https://github.com/pgbackrest/pgbackrest"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/pgbackrest/pgbackrest
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "pgbackrest/pgbackrest"
+  github_repo: pgbackrest/pgbackrest
   github_stars: 3729
 ---
 # Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest

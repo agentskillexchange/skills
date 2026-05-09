@@ -1,10 +1,11 @@
 ---
-title: "Gmail Thread Summarizer and Action Extractor"
-slug: "gmail-thread-summarizer-action-extractor"
+title: Gmail Thread Summarizer and Action Extractor
+slug: gmail-thread-summarizer-action-extractor
+description: Gmail Thread Summarizer and Action Extractor
 verification: security_reviewed
-source: "https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get
+category: General
+framework: OpenClaw
 ---
 # Gmail Thread Summarizer and Action Extractor
 

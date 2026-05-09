@@ -1,16 +1,16 @@
 ---
-title: "Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt"
-slug: "run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt"
-description: "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc."
+title: Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt
+slug: run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt
+description: Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc.
 github_stars: 977
 verification: security_reviewed
-source: "https://github.com/numtide/treefmt"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/numtide/treefmt
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "numtide/treefmt"
+  github_repo: numtide/treefmt
   github_stars: 977
-  npm_package: "treefmt"
+  npm_package: treefmt
 ---
 # Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt
 

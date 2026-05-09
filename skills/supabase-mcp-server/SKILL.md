@@ -1,13 +1,14 @@
 ---
-title: "Supabase MCP Server"
-slug: "supabase-mcp-server"
-verification: security_reviewed
-source: "https://github.com/supabase/supabase"
-category: "General"
-framework: "MCP"
+title: Supabase MCP Server
+slug: supabase-mcp-server
+description: Supabase MCP Server
 github_stars: 100812
+verification: security_reviewed
+source: https://github.com/supabase/supabase
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "supabase/supabase"
+  github_repo: supabase/supabase
   github_stars: 100812
 ---
 # Supabase MCP Server

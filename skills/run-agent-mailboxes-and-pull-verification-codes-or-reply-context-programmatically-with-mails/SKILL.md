@@ -1,16 +1,16 @@
 ---
-title: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
-slug: "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails"
-description: "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client."
+title: Run agent mailboxes and pull verification codes or reply context programmatically with Mails
+slug: run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails
+description: Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client.
 github_stars: 294
 verification: security_reviewed
-source: "https://github.com/chekusu/mails"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+source: https://github.com/chekusu/mails
+category: Calendar, Email & Productivity
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "chekusu/mails"
+  github_repo: chekusu/mails
   github_stars: 294
-  npm_package: "mails"
+  npm_package: mails
 ---
 # Run agent mailboxes and pull verification codes or reply context programmatically with Mails
 

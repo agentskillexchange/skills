@@ -1,13 +1,14 @@
 ---
-title: "Twilio Programmable SMS Gateway"
-slug: "twilio-programmable-sms-gateway"
-verification: security_reviewed
-source: "https://github.com/twilio/twilio-node"
-category: "General"
-framework: "OpenClaw"
+title: Twilio Programmable SMS Gateway
+slug: twilio-programmable-sms-gateway
+description: Twilio Programmable SMS Gateway
 github_stars: 1528
+verification: security_reviewed
+source: https://github.com/twilio/twilio-node
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "twilio/twilio-node"
+  github_repo: twilio/twilio-node
   github_stars: 1528
 ---
 # Twilio Programmable SMS Gateway

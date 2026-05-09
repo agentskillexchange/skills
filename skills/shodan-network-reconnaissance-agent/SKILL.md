@@ -1,10 +1,11 @@
 ---
-title: "Shodan Network Reconnaissance Agent"
-slug: "shodan-network-reconnaissance-agent"
+title: Shodan Network Reconnaissance Agent
+slug: shodan-network-reconnaissance-agent
+description: Shodan Network Reconnaissance Agent
 verification: security_reviewed
-source: "https://developer.shodan.io/"
-category: "General"
-framework: "Claude Code"
+source: https://developer.shodan.io/
+category: General
+framework: Claude Code
 ---
 # Shodan Network Reconnaissance Agent
 

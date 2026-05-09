@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Matrix Orchestrator"
-slug: "github-actions-matrix-orchestrator"
+title: GitHub Actions Matrix Orchestrator
+slug: github-actions-matrix-orchestrator
+description: GitHub Actions Matrix Orchestrator
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Claude Code"
+source: https://docs.github.com/en/actions
+category: General
+framework: Claude Code
 ---
 # GitHub Actions Matrix Orchestrator
 

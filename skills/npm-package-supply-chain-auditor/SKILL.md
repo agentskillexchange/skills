@@ -1,13 +1,14 @@
 ---
-title: "NPM Package Supply Chain Auditor"
-slug: "npm-package-supply-chain-auditor"
-verification: security_reviewed
-source: "https://github.com/snyk/cli"
-category: "General"
-framework: "OpenClaw"
+title: NPM Package Supply Chain Auditor
+slug: npm-package-supply-chain-auditor
+description: NPM Package Supply Chain Auditor
 github_stars: 5516
+verification: security_reviewed
+source: https://github.com/snyk/cli
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   github_stars: 5516
 ---
 # NPM Package Supply Chain Auditor

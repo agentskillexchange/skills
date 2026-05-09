@@ -1,13 +1,14 @@
 ---
-title: "dbt Data Transform Orchestrator"
-slug: "dbt-data-transform-orchestrator"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "Custom Agents"
+title: dbt Data Transform Orchestrator
+slug: dbt-data-transform-orchestrator
+description: dbt Data Transform Orchestrator
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Data Transform Orchestrator

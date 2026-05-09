@@ -1,13 +1,14 @@
 ---
-title: "JSDoc Type Definition Extractor"
-slug: "jsdoc-type-definition-extractor"
-verification: security_reviewed
-source: "https://github.com/jsdoc/jsdoc"
-category: "General"
-framework: "MCP"
+title: JSDoc Type Definition Extractor
+slug: jsdoc-type-definition-extractor
+description: JSDoc Type Definition Extractor
 github_stars: 15436
+verification: security_reviewed
+source: https://github.com/jsdoc/jsdoc
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "jsdoc/jsdoc"
+  github_repo: jsdoc/jsdoc
   github_stars: 15436
 ---
 # JSDoc Type Definition Extractor

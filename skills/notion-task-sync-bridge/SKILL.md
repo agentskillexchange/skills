@@ -1,13 +1,14 @@
 ---
-title: "Notion Task Sync Bridge"
-slug: "notion-task-sync-bridge"
-verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-category: "General"
-framework: "Cursor"
+title: Notion Task Sync Bridge
+slug: notion-task-sync-bridge
+description: Notion Task Sync Bridge
 github_stars: 5582
+verification: security_reviewed
+source: https://github.com/makenotion/notion-sdk-js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5582
 ---
 # Notion Task Sync Bridge

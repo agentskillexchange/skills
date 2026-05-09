@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Runner"
-slug: "ansible-playbook-runner"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "Custom Agents"
+title: Ansible Playbook Runner
+slug: ansible-playbook-runner
+description: Ansible Playbook Runner
 github_stars: 68362
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68362
 ---
 # Ansible Playbook Runner

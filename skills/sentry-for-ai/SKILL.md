@@ -1,13 +1,14 @@
 ---
-title: "Sentry for AI"
-slug: "sentry-for-ai"
-verification: security_reviewed
-source: "https://github.com/getsentry/sentry-for-ai"
-category: "General"
-framework: "Claude Code"
+title: Sentry for AI
+slug: sentry-for-ai
+description: Sentry for AI
 github_stars: 165
+verification: security_reviewed
+source: https://github.com/getsentry/sentry-for-ai
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
+  github_repo: getsentry/sentry-for-ai
   github_stars: 165
 ---
 # Sentry for AI

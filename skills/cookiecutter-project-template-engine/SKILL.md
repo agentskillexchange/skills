@@ -1,13 +1,14 @@
 ---
-title: "Cookiecutter Project Template Engine"
-slug: "cookiecutter-project-template-engine"
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
-category: "General"
-framework: "Claude Agents"
+title: Cookiecutter Project Template Engine
+slug: cookiecutter-project-template-engine
+description: Cookiecutter Project Template Engine
 github_stars: 24818
+verification: security_reviewed
+source: https://github.com/cookiecutter/cookiecutter
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 # Cookiecutter Project Template Engine

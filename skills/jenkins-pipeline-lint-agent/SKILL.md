@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Lint Agent"
-slug: "jenkins-pipeline-lint-agent"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Claude Code"
+title: Jenkins Pipeline Lint Agent
+slug: jenkins-pipeline-lint-agent
+description: Jenkins Pipeline Lint Agent
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Lint Agent

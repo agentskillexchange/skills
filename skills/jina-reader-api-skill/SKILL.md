@@ -1,10 +1,11 @@
 ---
-title: "Jina Reader API Skill"
-slug: "jina-reader-api-skill"
+title: Jina Reader API Skill
+slug: jina-reader-api-skill
+description: Jina Reader API Skill
 verification: security_reviewed
-source: "https://jina.ai/reader/"
-category: "General"
-framework: "Gemini"
+source: https://jina.ai/reader/
+category: General
+framework: Gemini
 ---
 # Jina Reader API Skill
 

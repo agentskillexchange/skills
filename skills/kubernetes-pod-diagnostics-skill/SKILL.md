@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Diagnostics"
-slug: "kubernetes-pod-diagnostics-skill"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "OpenClaw"
+title: Kubernetes Pod Diagnostics
+slug: kubernetes-pod-diagnostics-skill
+description: Kubernetes Pod Diagnostics
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Diagnostics

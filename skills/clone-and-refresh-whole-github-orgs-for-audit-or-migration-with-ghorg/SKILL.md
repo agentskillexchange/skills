@@ -1,14 +1,14 @@
 ---
-title: "Clone and refresh whole GitHub orgs for audit or migration with ghorg"
-slug: "clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg"
-description: "Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis work."
+title: Clone and refresh whole GitHub orgs for audit or migration with ghorg
+slug: clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg
+description: Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis work.
 github_stars: 2016
 verification: security_reviewed
-source: "https://github.com/gabrie30/ghorg"
-category: "Developer Tools"
-framework: "Multi-Framework"
+source: https://github.com/gabrie30/ghorg
+category: Developer Tools
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "gabrie30/ghorg"
+  github_repo: gabrie30/ghorg
   github_stars: 2016
 ---
 # Clone and refresh whole GitHub orgs for audit or migration with ghorg

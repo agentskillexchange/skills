@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Slow Query Runbook"
-slug: "postgresql-slow-query-runbook-agent"
+title: PostgreSQL Slow Query Runbook
+slug: postgresql-slow-query-runbook-agent
+description: PostgreSQL Slow Query Runbook
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "OpenClaw"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: OpenClaw
 ---
 # PostgreSQL Slow Query Runbook
 

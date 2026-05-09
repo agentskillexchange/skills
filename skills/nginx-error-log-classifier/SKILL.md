@@ -1,13 +1,14 @@
 ---
-title: "Nginx Error Log Classifier"
-slug: "nginx-error-log-classifier"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "Cursor"
+title: Nginx Error Log Classifier
+slug: nginx-error-log-classifier
+description: Nginx Error Log Classifier
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Error Log Classifier

@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Spec Changelog Generator"
-slug: "openapi-spec-changelog-generator"
-verification: security_reviewed
-source: "https://github.com/oasdiff/oasdiff"
-category: "General"
-framework: "Cursor"
+title: OpenAPI Spec Changelog Generator
+slug: openapi-spec-changelog-generator
+description: OpenAPI Spec Changelog Generator
 github_stars: 1184
+verification: security_reviewed
+source: https://github.com/oasdiff/oasdiff
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "oasdiff/oasdiff"
+  github_repo: oasdiff/oasdiff
   github_stars: 1184
 ---
 # OpenAPI Spec Changelog Generator

@@ -1,10 +1,11 @@
 ---
-title: "Photoshop Batch Action Automator"
-slug: "photoshop-batch-action-automator"
+title: Photoshop Batch Action Automator
+slug: photoshop-batch-action-automator
+description: Photoshop Batch Action Automator
 verification: security_reviewed
-source: "https://developer.adobe.com/firefly-services/docs/photoshop/"
-category: "General"
-framework: "Custom Agents"
+source: https://developer.adobe.com/firefly-services/docs/photoshop/
+category: General
+framework: Custom Agents
 ---
 # Photoshop Batch Action Automator
 

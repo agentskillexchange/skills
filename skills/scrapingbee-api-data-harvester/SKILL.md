@@ -1,10 +1,11 @@
 ---
-title: "ScrapingBee API Data Harvester"
-slug: "scrapingbee-api-data-harvester"
+title: ScrapingBee API Data Harvester
+slug: scrapingbee-api-data-harvester
+description: ScrapingBee API Data Harvester
 verification: security_reviewed
-source: "https://www.scrapingbee.com/documentation/"
-category: "General"
-framework: "Custom Agents"
+source: https://www.scrapingbee.com/documentation/
+category: General
+framework: Custom Agents
 ---
 # ScrapingBee API Data Harvester
 

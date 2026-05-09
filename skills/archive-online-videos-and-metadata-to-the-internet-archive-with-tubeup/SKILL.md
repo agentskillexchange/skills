@@ -1,14 +1,14 @@
 ---
-title: "Archive online videos and metadata to the Internet Archive with Tubeup"
-slug: "archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup"
-description: "Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a repeatable preservation job."
+title: Archive online videos and metadata to the Internet Archive with Tubeup
+slug: archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup
+description: Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a repeatable preservation job.
 github_stars: 487
 verification: security_reviewed
-source: "https://github.com/bibanon/tubeup"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+source: https://github.com/bibanon/tubeup
+category: Media & Transcription
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "bibanon/tubeup"
+  github_repo: bibanon/tubeup
   github_stars: 487
 ---
 # Archive online videos and metadata to the Internet Archive with Tubeup

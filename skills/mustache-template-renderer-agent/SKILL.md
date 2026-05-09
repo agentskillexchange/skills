@@ -1,13 +1,14 @@
 ---
-title: "Mustache Template Renderer"
-slug: "mustache-template-renderer-agent"
-verification: security_reviewed
-source: "https://github.com/janl/mustache.js"
-category: "General"
-framework: "OpenClaw"
+title: Mustache Template Renderer
+slug: mustache-template-renderer-agent
+description: Mustache Template Renderer
 github_stars: 16718
+verification: security_reviewed
+source: https://github.com/janl/mustache.js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "janl/mustache.js"
+  github_repo: janl/mustache.js
   github_stars: 16718
 ---
 # Mustache Template Renderer

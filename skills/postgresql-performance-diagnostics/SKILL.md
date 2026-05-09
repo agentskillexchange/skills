@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Performance Diagnostics"
-slug: "postgresql-performance-diagnostics"
+title: PostgreSQL Performance Diagnostics
+slug: postgresql-performance-diagnostics
+description: PostgreSQL Performance Diagnostics
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "MCP"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: MCP
 ---
 # PostgreSQL Performance Diagnostics
 

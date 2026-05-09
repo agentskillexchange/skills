@@ -1,10 +1,11 @@
 ---
-title: "SEO Content Cluster Generator"
-slug: "seo-content-cluster-generator"
+title: SEO Content Cluster Generator
+slug: seo-content-cluster-generator
+description: SEO Content Cluster Generator
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
-category: "General"
-framework: "Claude Agents"
+source: https://agentskillexchange.com/skills/seo-content-cluster-generator/
+category: General
+framework: Claude Agents
 ---
 # SEO Content Cluster Generator
 

@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Query Plan Analyzer"
-slug: "postgresql-query-plan-analyzer-2"
+title: PostgreSQL Query Plan Analyzer
+slug: postgresql-query-plan-analyzer-2
+description: PostgreSQL Query Plan Analyzer
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "MCP"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: MCP
 ---
 # PostgreSQL Query Plan Analyzer
 

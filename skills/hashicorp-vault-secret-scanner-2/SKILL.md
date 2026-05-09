@@ -1,13 +1,14 @@
 ---
-title: "HashiCorp Vault Secret Scanner"
-slug: "hashicorp-vault-secret-scanner-2"
-verification: security_reviewed
-source: "https://github.com/hashicorp/vault"
-category: "General"
-framework: "Claude Code"
+title: HashiCorp Vault Secret Scanner
+slug: hashicorp-vault-secret-scanner-2
+description: HashiCorp Vault Secret Scanner
 github_stars: 35418
+verification: security_reviewed
+source: https://github.com/hashicorp/vault
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hashicorp/vault"
+  github_repo: hashicorp/vault
   github_stars: 35418
 ---
 # HashiCorp Vault Secret Scanner

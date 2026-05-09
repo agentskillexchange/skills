@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Anomaly Runbook"
-slug: "aws-cloudwatch-anomaly-runbook"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "OpenClaw"
+title: AWS CloudWatch Anomaly Runbook
+slug: aws-cloudwatch-anomaly-runbook
+description: AWS CloudWatch Anomaly Runbook
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Anomaly Runbook

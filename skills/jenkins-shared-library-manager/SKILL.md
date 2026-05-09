@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Shared Library Manager"
-slug: "jenkins-shared-library-manager"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "MCP"
+title: Jenkins Shared Library Manager
+slug: jenkins-shared-library-manager
+description: Jenkins Shared Library Manager
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Shared Library Manager

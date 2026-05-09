@@ -1,10 +1,11 @@
 ---
-title: "AsyncAPI Event Catalog Builder"
-slug: "asyncapi-event-catalog-builder"
+title: AsyncAPI Event Catalog Builder
+slug: asyncapi-event-catalog-builder
+description: AsyncAPI Event Catalog Builder
 verification: security_reviewed
-source: "https://www.asyncapi.com/"
-category: "General"
-framework: "Gemini"
+source: https://www.asyncapi.com/
+category: General
+framework: Gemini
 ---
 # AsyncAPI Event Catalog Builder
 

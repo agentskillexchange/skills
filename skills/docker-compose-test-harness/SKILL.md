@@ -1,13 +1,14 @@
 ---
-title: "Docker Compose Test Harness"
-slug: "docker-compose-test-harness"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "MCP"
+title: Docker Compose Test Harness
+slug: docker-compose-test-harness
+description: Docker Compose Test Harness
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Compose Test Harness

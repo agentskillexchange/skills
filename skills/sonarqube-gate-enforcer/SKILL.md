@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Gate Enforcer"
-slug: "sonarqube-gate-enforcer"
+title: SonarQube Gate Enforcer
+slug: sonarqube-gate-enforcer
+description: SonarQube Gate Enforcer
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Cursor"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Gate Enforcer

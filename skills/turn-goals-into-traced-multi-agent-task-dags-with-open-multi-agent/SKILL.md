@@ -1,16 +1,16 @@
 ---
-title: "Turn goals into traced multi-agent task DAGs with open-multi-agent"
-slug: "turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent"
-description: "Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces."
+title: Turn goals into traced multi-agent task DAGs with open-multi-agent
+slug: turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent
+description: Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces.
 github_stars: 6044
 verification: security_reviewed
-source: "https://github.com/JackChen-me/open-multi-agent"
-framework: "MCP"
+source: https://github.com/JackChen-me/open-multi-agent
+category: Uncategorized
+framework: MCP
 tool_ecosystem:
-  github_repo: "JackChen-me/open-multi-agent"
+  github_repo: JackChen-me/open-multi-agent
   github_stars: 6044
 ---
-
 # Turn goals into traced multi-agent task DAGs with open-multi-agent
 
 Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces.

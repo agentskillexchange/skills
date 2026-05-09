@@ -1,13 +1,14 @@
 ---
-title: "Protocol Buffer Schema Generator"
-slug: "protobuf-schema-generator-from-json"
-verification: security_reviewed
-source: "https://github.com/protocolbuffers/protobuf"
-category: "General"
-framework: "Gemini"
+title: Protocol Buffer Schema Generator
+slug: protobuf-schema-generator-from-json
+description: Protocol Buffer Schema Generator
 github_stars: 71179
+verification: security_reviewed
+source: https://github.com/protocolbuffers/protobuf
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "protocolbuffers/protobuf"
+  github_repo: protocolbuffers/protobuf
   github_stars: 71179
 ---
 # Protocol Buffer Schema Generator

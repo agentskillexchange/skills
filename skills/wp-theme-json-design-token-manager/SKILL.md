@@ -1,12 +1,13 @@
 ---
-title: "WordPress Theme.json Design Token Manager"
-slug: "wp-theme-json-design-token-manager"
+title: WordPress Theme.json Design Token Manager
+slug: wp-theme-json-design-token-manager
+description: WordPress Theme.json Design Token Manager
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Gemini"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress Theme.json Design Token Manager

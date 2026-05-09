@@ -1,10 +1,11 @@
 ---
-title: "Codecov Coverage Tracker"
-slug: "codecov-coverage-tracker-skill"
+title: Codecov Coverage Tracker
+slug: codecov-coverage-tracker-skill
+description: Codecov Coverage Tracker
 verification: security_reviewed
-source: "https://docs.codecov.com/reference/repos_commits_list"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.codecov.com/reference/repos_commits_list
+category: General
+framework: ChatGPT Agents
 ---
 # Codecov Coverage Tracker
 

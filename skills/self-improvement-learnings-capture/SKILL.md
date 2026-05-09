@@ -1,13 +1,14 @@
 ---
-title: "Self-Improvement / Learnings Capture"
-slug: "self-improvement-learnings-capture"
-verification: security_reviewed
-source: "https://github.com/peterskoett/self-improving-agent"
-category: "General"
-framework: "OpenClaw"
+title: Self-Improvement / Learnings Capture
+slug: self-improvement-learnings-capture
+description: Self-Improvement / Learnings Capture
 github_stars: 593
+verification: security_reviewed
+source: https://github.com/peterskoett/self-improving-agent
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "peterskoett/self-improving-agent"
+  github_repo: peterskoett/self-improving-agent
   github_stars: 593
 ---
 # Self-Improvement / Learnings Capture

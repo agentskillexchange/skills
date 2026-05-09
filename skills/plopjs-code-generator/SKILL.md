@@ -1,13 +1,14 @@
 ---
-title: "Plop.js Code Generator"
-slug: "plopjs-code-generator"
-verification: security_reviewed
-source: "https://github.com/plopjs/plop"
-category: "General"
-framework: "Cursor"
+title: Plop.js Code Generator
+slug: plopjs-code-generator
+description: Plop.js Code Generator
 github_stars: 7645
+verification: security_reviewed
+source: https://github.com/plopjs/plop
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "plopjs/plop"
+  github_repo: plopjs/plop
   github_stars: 7645
 ---
 # Plop.js Code Generator

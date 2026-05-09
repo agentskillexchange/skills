@@ -1,13 +1,14 @@
 ---
-title: "Deepgram Real-Time Transcription Connector"
-slug: "deepgram-realtime-transcription-connector"
-verification: security_reviewed
-source: "https://github.com/deepgram/deepgram-js-sdk"
-category: "General"
-framework: "MCP"
+title: Deepgram Real-Time Transcription Connector
+slug: deepgram-realtime-transcription-connector
+description: Deepgram Real-Time Transcription Connector
 github_stars: 260
+verification: security_reviewed
+source: https://github.com/deepgram/deepgram-js-sdk
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "deepgram/deepgram-js-sdk"
+  github_repo: deepgram/deepgram-js-sdk
   github_stars: 260
 ---
 # Deepgram Real-Time Transcription Connector

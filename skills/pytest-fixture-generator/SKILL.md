@@ -1,13 +1,14 @@
 ---
-title: "Pytest Fixture Generator"
-slug: "pytest-fixture-generator"
-verification: security_reviewed
-source: "https://github.com/pytest-dev/pytest"
-category: "General"
-framework: "Custom Agents"
+title: Pytest Fixture Generator
+slug: pytest-fixture-generator
+description: Pytest Fixture Generator
 github_stars: 13758
+verification: security_reviewed
+source: https://github.com/pytest-dev/pytest
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "pytest-dev/pytest"
+  github_repo: pytest-dev/pytest
   github_stars: 13758
 ---
 # Pytest Fixture Generator

@@ -1,13 +1,14 @@
 ---
-title: "Whisper Subtitle Generator"
-slug: "whisper-subtitle-generator"
-verification: security_reviewed
-source: "https://github.com/openai/whisper"
-category: "General"
-framework: "Gemini"
+title: Whisper Subtitle Generator
+slug: whisper-subtitle-generator
+description: Whisper Subtitle Generator
 github_stars: 97775
+verification: security_reviewed
+source: https://github.com/openai/whisper
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97775
 ---
 # Whisper Subtitle Generator

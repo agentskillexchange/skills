@@ -1,13 +1,14 @@
 ---
-title: "Slack MCP Server"
-slug: "slack-mcp-server"
-verification: security_reviewed
-source: "https://github.com/modelcontextprotocol/servers"
-category: "General"
-framework: "Claude Code"
+title: Slack MCP Server
+slug: slack-mcp-server
+description: Slack MCP Server
 github_stars: 85306
+verification: security_reviewed
+source: https://github.com/modelcontextprotocol/servers
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 85306
 ---
 # Slack MCP Server

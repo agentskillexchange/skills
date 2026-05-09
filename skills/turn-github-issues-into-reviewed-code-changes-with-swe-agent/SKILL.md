@@ -1,11 +1,12 @@
 ---
-title: "Turn GitHub issues into reviewed code changes with SWE-agent"
-slug: "turn-github-issues-into-reviewed-code-changes-with-swe-agent"
-verification: security_reviewed
-source: "https://github.com/SWE-agent/SWE-agent"
-category: "General"
-framework: "Any"
+title: Turn GitHub issues into reviewed code changes with SWE-agent
+slug: turn-github-issues-into-reviewed-code-changes-with-swe-agent
+description: Turn GitHub issues into reviewed code changes with SWE-agent
 github_stars: 19162
+verification: security_reviewed
+source: https://github.com/SWE-agent/SWE-agent
+category: General
+framework: Any
 ---
 # Turn GitHub issues into reviewed code changes with SWE-agent
 

@@ -1,14 +1,14 @@
 ---
-title: "Content Readability Analyzer"
-slug: "content-readability-analyzer-agent"
-description: "Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API."
+title: Content Readability Analyzer
+slug: content-readability-analyzer-agent
+description: Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API.
 github_stars: 1366
 verification: security_reviewed
-source: "https://github.com/textstat/textstat"
-category: "Content Writing & SEO"
-framework: "Gemini"
+source: https://github.com/textstat/textstat
+category: Content Writing & SEO
+framework: Gemini
 tool_ecosystem:
-  github_repo: "textstat/textstat"
+  github_repo: textstat/textstat
   github_stars: 1366
 ---
 # Content Readability Analyzer

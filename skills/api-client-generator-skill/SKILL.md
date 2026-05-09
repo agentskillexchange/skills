@@ -1,12 +1,13 @@
 ---
-title: "API Client Generator Skill"
-slug: "api-client-generator-skill"
+title: API Client Generator Skill
+slug: api-client-generator-skill
+description: API Client Generator Skill
 verification: security_reviewed
-source: "https://github.com/OpenAPITools/openapi-generator"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/OpenAPITools/openapi-generator
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "openapitools/openapi-generator"
+  github_repo: openapitools/openapi-generator
   github_stars: 26127
 ---
 # API Client Generator Skill

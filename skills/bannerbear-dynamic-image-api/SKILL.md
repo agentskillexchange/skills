@@ -1,10 +1,11 @@
 ---
-title: "Bannerbear Dynamic Image API"
-slug: "bannerbear-dynamic-image-api"
+title: Bannerbear Dynamic Image API
+slug: bannerbear-dynamic-image-api
+description: Bannerbear Dynamic Image API
 verification: security_reviewed
-source: "https://developers.bannerbear.com/v2/"
-category: "General"
-framework: "Custom Agents"
+source: https://developers.bannerbear.com/v2/
+category: General
+framework: Custom Agents
 ---
 # Bannerbear Dynamic Image API
 

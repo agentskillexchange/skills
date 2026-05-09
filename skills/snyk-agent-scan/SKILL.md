@@ -1,13 +1,14 @@
 ---
-title: "Snyk Agent Scan"
-slug: "snyk-agent-scan"
-verification: security_reviewed
-source: "https://github.com/snyk/agent-scan"
-category: "General"
-framework: "MCP"
+title: Snyk Agent Scan
+slug: snyk-agent-scan
+description: Snyk Agent Scan
 github_stars: 2366
+verification: security_reviewed
+source: https://github.com/snyk/agent-scan
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "snyk/agent-scan"
+  github_repo: snyk/agent-scan
   github_stars: 2366
 ---
 # Snyk Agent Scan

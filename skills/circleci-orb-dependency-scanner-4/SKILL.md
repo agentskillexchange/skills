@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Dependency Scanner"
-slug: "circleci-orb-dependency-scanner-4"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Claude Code"
+title: CircleCI Orb Dependency Scanner
+slug: circleci-orb-dependency-scanner-4
+description: CircleCI Orb Dependency Scanner
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Dependency Scanner

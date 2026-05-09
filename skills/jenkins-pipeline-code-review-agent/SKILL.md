@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Code Review Agent"
-slug: "jenkins-pipeline-code-review-agent"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Cursor"
+title: Jenkins Pipeline Code Review Agent
+slug: jenkins-pipeline-code-review-agent
+description: Jenkins Pipeline Code Review Agent
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Code Review Agent

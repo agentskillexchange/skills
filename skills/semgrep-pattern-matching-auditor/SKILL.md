@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Pattern Matching Auditor"
-slug: "semgrep-pattern-matching-auditor"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "OpenClaw"
+title: Semgrep Pattern Matching Auditor
+slug: semgrep-pattern-matching-auditor
+description: Semgrep Pattern Matching Auditor
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Pattern Matching Auditor

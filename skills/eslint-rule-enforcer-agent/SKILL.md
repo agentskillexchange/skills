@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Enforcer Agent"
-slug: "eslint-rule-enforcer-agent"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "OpenClaw"
+title: ESLint Rule Enforcer Agent
+slug: eslint-rule-enforcer-agent
+description: ESLint Rule Enforcer Agent
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Enforcer Agent

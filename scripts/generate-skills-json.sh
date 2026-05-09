@@ -43,7 +43,7 @@ for item in items:
 
     entry = {
         "slug": item.get("slug", ""),
-        "name": html.unescape(item.get("title", "")),
+        "title": html.unescape(item.get("title", "")),
         "description": html.unescape((item.get("excerpt") or "").strip()),
         "category": cats,
         "framework": fws,

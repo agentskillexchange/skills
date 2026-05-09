@@ -1,10 +1,11 @@
 ---
-title: "Python Package Docs Fetcher"
-slug: "python-package-docs-fetcher"
+title: Python Package Docs Fetcher
+slug: python-package-docs-fetcher
+description: Python Package Docs Fetcher
 verification: security_reviewed
-source: "https://docs.pypi.org/"
-category: "General"
-framework: "OpenClaw"
+source: https://docs.pypi.org/
+category: General
+framework: OpenClaw
 ---
 # Python Package Docs Fetcher
 

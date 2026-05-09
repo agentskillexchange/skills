@@ -1,13 +1,14 @@
 ---
-title: "OpenAPI Spec Validator &#038; Linter"
-slug: "openapi-spec-validator-linter-2"
-verification: security_reviewed
-source: "https://github.com/stoplightio/spectral"
-category: "General"
-framework: "Custom Agents"
+title: OpenAPI Spec Validator & Linter
+slug: openapi-spec-validator-linter-2
+description: OpenAPI Spec Validator & Linter
 github_stars: 3084
+verification: security_reviewed
+source: https://github.com/stoplightio/spectral
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "stoplightio/spectral"
+  github_repo: stoplightio/spectral
   github_stars: 3084
 ---
 # OpenAPI Spec Validator &#038; Linter

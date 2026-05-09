@@ -1,13 +1,14 @@
 ---
-title: "Claude Code MCP Bridge"
-slug: "claude-code-mcp-bridge"
-verification: security_reviewed
-source: "https://github.com/steipete/claude-code-mcp"
-category: "General"
-framework: "Claude Code"
+title: Claude Code MCP Bridge
+slug: claude-code-mcp-bridge
+description: Claude Code MCP Bridge
 github_stars: 1274
+verification: security_reviewed
+source: https://github.com/steipete/claude-code-mcp
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "steipete/claude-code-mcp"
+  github_repo: steipete/claude-code-mcp
   github_stars: 1274
 ---
 # Claude Code MCP Bridge

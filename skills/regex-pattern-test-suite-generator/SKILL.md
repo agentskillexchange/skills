@@ -1,13 +1,14 @@
 ---
-title: "Regex Pattern Test Suite Generator"
-slug: "regex-pattern-test-suite-generator"
-verification: security_reviewed
-source: "https://github.com/HypothesisWorks/hypothesis"
-category: "General"
-framework: "Cursor"
+title: Regex Pattern Test Suite Generator
+slug: regex-pattern-test-suite-generator
+description: Regex Pattern Test Suite Generator
 github_stars: 8605
+verification: security_reviewed
+source: https://github.com/HypothesisWorks/hypothesis
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "HypothesisWorks/hypothesis"
+  github_repo: HypothesisWorks/hypothesis
   github_stars: 8605
 ---
 # Regex Pattern Test Suite Generator

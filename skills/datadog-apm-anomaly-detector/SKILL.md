@@ -1,12 +1,13 @@
 ---
-title: "Datadog APM Anomaly Detector"
-slug: "datadog-apm-anomaly-detector"
+title: Datadog APM Anomaly Detector
+slug: datadog-apm-anomaly-detector
+description: Datadog APM Anomaly Detector
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog APM Anomaly Detector

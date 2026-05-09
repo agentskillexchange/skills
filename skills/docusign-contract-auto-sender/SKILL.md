@@ -1,10 +1,11 @@
 ---
-title: "DocuSign Contract Auto-Sender with Conditional Logic"
-slug: "docusign-contract-auto-sender"
+title: DocuSign Contract Auto-Sender with Conditional Logic
+slug: docusign-contract-auto-sender
+description: DocuSign Contract Auto-Sender with Conditional Logic
 verification: security_reviewed
-source: "https://developers.docusign.com/docs/esign-rest-api/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://developers.docusign.com/docs/esign-rest-api/
+category: General
+framework: ChatGPT Agents
 ---
 # DocuSign Contract Auto-Sender with Conditional Logic
 

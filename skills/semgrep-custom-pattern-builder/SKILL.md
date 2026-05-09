@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Custom Pattern Builder"
-slug: "semgrep-custom-pattern-builder"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Codex"
+title: Semgrep Custom Pattern Builder
+slug: semgrep-custom-pattern-builder
+description: Semgrep Custom Pattern Builder
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Custom Pattern Builder

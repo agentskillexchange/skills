@@ -1,13 +1,14 @@
 ---
-title: "Devcontainer Setup Agent"
-slug: "devcontainer-setup-agent"
-verification: security_reviewed
-source: "https://github.com/devcontainers/cli"
-category: "General"
-framework: "Claude Code"
+title: Devcontainer Setup Agent
+slug: devcontainer-setup-agent
+description: Devcontainer Setup Agent
 github_stars: 2637
+verification: security_reviewed
+source: https://github.com/devcontainers/cli
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "devcontainers/cli"
+  github_repo: devcontainers/cli
   github_stars: 2637
 ---
 # Devcontainer Setup Agent

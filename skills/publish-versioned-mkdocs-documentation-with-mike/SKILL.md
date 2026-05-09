@@ -1,14 +1,14 @@
 ---
-title: "Publish versioned MkDocs documentation with mike"
-slug: "publish-versioned-mkdocs-documentation-with-mike"
-description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
+title: Publish versioned MkDocs documentation with mike
+slug: publish-versioned-mkdocs-documentation-with-mike
+description: Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.
 github_stars: 728
 verification: security_reviewed
-source: "https://github.com/jimporter/mike"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+source: https://github.com/jimporter/mike
+category: Content Writing & SEO
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "jimporter/mike"
+  github_repo: jimporter/mike
   github_stars: 728
 ---
 # Publish versioned MkDocs documentation with mike

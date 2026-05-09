@@ -1,13 +1,14 @@
 ---
-title: "Stripe Revenue Reconciliation Agent"
-slug: "stripe-revenue-reconciliation-agent"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "Codex"
+title: Stripe Revenue Reconciliation Agent
+slug: stripe-revenue-reconciliation-agent
+description: Stripe Revenue Reconciliation Agent
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Revenue Reconciliation Agent

@@ -1,13 +1,14 @@
 ---
-title: "Prometheus / Grafana MCP Server"
-slug: "prometheus-grafana-mcp-server"
-verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category: "General"
-framework: "MCP"
+title: Prometheus / Grafana MCP Server
+slug: prometheus-grafana-mcp-server
+description: Prometheus / Grafana MCP Server
 github_stars: 73640
+verification: security_reviewed
+source: https://github.com/grafana/grafana
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73640
 ---
 # Prometheus / Grafana MCP Server

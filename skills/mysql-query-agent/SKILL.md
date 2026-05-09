@@ -1,13 +1,14 @@
 ---
-title: "MySQL Query Agent"
-slug: "mysql-query-agent"
-verification: security_reviewed
-source: "https://github.com/sidorares/node-mysql2"
-category: "General"
-framework: "MCP"
+title: MySQL Query Agent
+slug: mysql-query-agent
+description: MySQL Query Agent
 github_stars: 4355
+verification: security_reviewed
+source: https://github.com/sidorares/node-mysql2
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "sidorares/node-mysql2"
+  github_repo: sidorares/node-mysql2
   github_stars: 4355
 ---
 # MySQL Query Agent

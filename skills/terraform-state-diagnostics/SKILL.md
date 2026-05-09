@@ -1,13 +1,14 @@
 ---
-title: "Terraform State Diagnostics"
-slug: "terraform-state-diagnostics"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "ChatGPT Agents"
+title: Terraform State Diagnostics
+slug: terraform-state-diagnostics
+description: Terraform State Diagnostics
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform State Diagnostics

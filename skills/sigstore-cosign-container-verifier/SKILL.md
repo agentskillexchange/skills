@@ -1,13 +1,14 @@
 ---
-title: "Sigstore Cosign Container Verifier"
-slug: "sigstore-cosign-container-verifier"
-verification: security_reviewed
-source: "https://github.com/sigstore/cosign"
-category: "General"
-framework: "MCP"
+title: Sigstore Cosign Container Verifier
+slug: sigstore-cosign-container-verifier
+description: Sigstore Cosign Container Verifier
 github_stars: 5830
+verification: security_reviewed
+source: https://github.com/sigstore/cosign
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "sigstore/cosign"
+  github_repo: sigstore/cosign
   github_stars: 5830
 ---
 # Sigstore Cosign Container Verifier

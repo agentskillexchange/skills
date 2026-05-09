@@ -1,10 +1,11 @@
 ---
-title: "Codecov Coverage Tracker Agent"
-slug: "codecov-coverage-tracker-agent"
+title: Codecov Coverage Tracker Agent
+slug: codecov-coverage-tracker-agent
+description: Codecov Coverage Tracker Agent
 verification: security_reviewed
-source: "https://docs.codecov.com/docs/quick-start"
-category: "General"
-framework: "MCP"
+source: https://docs.codecov.com/docs/quick-start
+category: General
+framework: MCP
 ---
 # Codecov Coverage Tracker Agent
 

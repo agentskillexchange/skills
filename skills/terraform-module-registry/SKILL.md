@@ -1,13 +1,14 @@
 ---
-title: "Terraform Module Registry"
-slug: "terraform-module-registry"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Custom Agents"
+title: Terraform Module Registry
+slug: terraform-module-registry
+description: Terraform Module Registry
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Module Registry

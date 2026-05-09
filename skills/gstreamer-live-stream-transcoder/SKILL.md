@@ -1,10 +1,11 @@
 ---
-title: "GStreamer Live Stream Transcoder"
-slug: "gstreamer-live-stream-transcoder"
+title: GStreamer Live Stream Transcoder
+slug: gstreamer-live-stream-transcoder
+description: GStreamer Live Stream Transcoder
 verification: security_reviewed
-source: "https://gstreamer.freedesktop.org/documentation/"
-category: "General"
-framework: "Gemini"
+source: https://gstreamer.freedesktop.org/documentation/
+category: General
+framework: Gemini
 ---
 # GStreamer Live Stream Transcoder
 

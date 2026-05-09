@@ -1,12 +1,13 @@
 ---
-title: "PagerDuty Incident Runbook Automator"
-slug: "pagerduty-incident-runbook-automator"
+title: PagerDuty Incident Runbook Automator
+slug: pagerduty-incident-runbook-automator
+description: PagerDuty Incident Runbook Automator
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category: "General"
-framework: "Gemini"
+source: https://github.com/PagerDuty/pdjs
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
+  github_repo: pagerduty/pdjs
   github_stars: 69
 ---
 # PagerDuty Incident Runbook Automator

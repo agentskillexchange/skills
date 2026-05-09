@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Application Sync Manager"
-slug: "argocd-application-sync-manager-2"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Gemini"
+title: ArgoCD Application Sync Manager
+slug: argocd-application-sync-manager-2
+description: ArgoCD Application Sync Manager
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Application Sync Manager

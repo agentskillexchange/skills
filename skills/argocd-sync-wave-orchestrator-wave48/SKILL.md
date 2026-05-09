@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Sync Wave Orchestrator"
-slug: "argocd-sync-wave-orchestrator-wave48"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "MCP"
+title: ArgoCD Sync Wave Orchestrator
+slug: argocd-sync-wave-orchestrator-wave48
+description: ArgoCD Sync Wave Orchestrator
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Sync Wave Orchestrator

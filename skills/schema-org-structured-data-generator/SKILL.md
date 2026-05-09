@@ -1,13 +1,14 @@
 ---
-title: "Schema.org Structured Data Generator"
-slug: "schema-org-structured-data-generator"
-verification: security_reviewed
-source: "https://github.com/schemaorg/schemaorg"
-category: "General"
-framework: "Gemini"
+title: Schema.org Structured Data Generator
+slug: schema-org-structured-data-generator
+description: Schema.org Structured Data Generator
 github_stars: 6017
+verification: security_reviewed
+source: https://github.com/schemaorg/schemaorg
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "schemaorg/schemaorg"
+  github_repo: schemaorg/schemaorg
   github_stars: 6017
 ---
 # Schema.org Structured Data Generator

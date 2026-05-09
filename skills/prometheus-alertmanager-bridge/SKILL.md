@@ -1,13 +1,14 @@
 ---
-title: "Prometheus AlertManager Bridge"
-slug: "prometheus-alertmanager-bridge"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "OpenClaw"
+title: Prometheus AlertManager Bridge
+slug: prometheus-alertmanager-bridge
+description: Prometheus AlertManager Bridge
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus AlertManager Bridge

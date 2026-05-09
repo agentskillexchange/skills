@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan Reviewer Agent"
-slug: "terraform-plan-reviewer-agent"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Gemini"
+title: Terraform Plan Reviewer Agent
+slug: terraform-plan-reviewer-agent
+description: Terraform Plan Reviewer Agent
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Plan Reviewer Agent

@@ -1,13 +1,14 @@
 ---
-title: "Cookiecutter Project Builder"
-slug: "cookiecutter-project-builder"
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
-category: "General"
-framework: "Claude Code"
+title: Cookiecutter Project Builder
+slug: cookiecutter-project-builder
+description: Cookiecutter Project Builder
 github_stars: 24818
+verification: security_reviewed
+source: https://github.com/cookiecutter/cookiecutter
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 # Cookiecutter Project Builder

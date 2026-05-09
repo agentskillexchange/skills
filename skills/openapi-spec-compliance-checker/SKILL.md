@@ -1,10 +1,11 @@
 ---
-title: "OpenAPI Spec Compliance Checker"
-slug: "openapi-spec-compliance-checker"
+title: OpenAPI Spec Compliance Checker
+slug: openapi-spec-compliance-checker
+description: OpenAPI Spec Compliance Checker
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "Cursor"
+source: https://swagger.io/docs/
+category: General
+framework: Cursor
 ---
 # OpenAPI Spec Compliance Checker
 

@@ -1,16 +1,16 @@
 ---
-title: "Give agents governed semantic data context with Wren Engine"
-slug: "give-agents-governed-semantic-data-context-with-wren-engine"
-description: "Give agents governed semantic data context so data questions map to trusted metrics and schemas."
+title: Give agents governed semantic data context with Wren Engine
+slug: give-agents-governed-semantic-data-context-with-wren-engine
+description: Give agents governed semantic data context so data questions map to trusted metrics and schemas.
 github_stars: 661
 verification: security_reviewed
-source: "https://github.com/Canner/wren-engine"
-framework: "MCP"
+source: https://github.com/Canner/wren-engine
+category: Uncategorized
+framework: MCP
 tool_ecosystem:
-  github_repo: "Canner/wren-engine"
+  github_repo: Canner/wren-engine
   github_stars: 661
 ---
-
 # Give agents governed semantic data context with Wren Engine
 
 Give agents governed semantic data context so data questions map to trusted metrics and schemas.

@@ -1,10 +1,11 @@
 ---
-title: "IMAP Email Classifier"
-slug: "imap-email-classifier-ml"
+title: IMAP Email Classifier
+slug: imap-email-classifier-ml
+description: IMAP Email Classifier
 verification: security_reviewed
-source: "https://datatracker.ietf.org/doc/html/rfc3501"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://datatracker.ietf.org/doc/html/rfc3501
+category: General
+framework: ChatGPT Agents
 ---
 # IMAP Email Classifier
 

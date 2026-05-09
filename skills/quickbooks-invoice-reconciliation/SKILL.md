@@ -1,10 +1,11 @@
 ---
-title: "QuickBooks Online Invoice Reconciliation Agent"
-slug: "quickbooks-invoice-reconciliation"
+title: QuickBooks Online Invoice Reconciliation Agent
+slug: quickbooks-invoice-reconciliation
+description: QuickBooks Online Invoice Reconciliation Agent
 verification: security_reviewed
-source: "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice"
-category: "General"
-framework: "Claude Code"
+source: https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice
+category: General
+framework: Claude Code
 ---
 # QuickBooks Online Invoice Reconciliation Agent
 

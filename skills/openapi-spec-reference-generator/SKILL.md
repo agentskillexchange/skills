@@ -1,10 +1,11 @@
 ---
-title: "OpenAPI Spec Reference Generator"
-slug: "openapi-spec-reference-generator"
+title: OpenAPI Spec Reference Generator
+slug: openapi-spec-reference-generator
+description: OpenAPI Spec Reference Generator
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "Cursor"
+source: https://swagger.io/docs/
+category: General
+framework: Cursor
 ---
 # OpenAPI Spec Reference Generator
 

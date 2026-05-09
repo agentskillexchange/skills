@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Rollback Runbook"
-slug: "kubernetes-rollback-runbook-3"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "OpenClaw"
+title: Kubernetes Rollback Runbook
+slug: kubernetes-rollback-runbook-3
+description: Kubernetes Rollback Runbook
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Rollback Runbook

@@ -1,10 +1,11 @@
 ---
-title: "Todoist GTD Workflow Engine"
-slug: "todoist-gtd-workflow-engine"
+title: Todoist GTD Workflow Engine
+slug: todoist-gtd-workflow-engine
+description: Todoist GTD Workflow Engine
 verification: security_reviewed
-source: "https://developer.todoist.com/api/v1/"
-category: "General"
-framework: "MCP"
+source: https://developer.todoist.com/api/v1/
+category: General
+framework: MCP
 ---
 # Todoist GTD Workflow Engine
 

@@ -1,13 +1,14 @@
 ---
-title: "Camelot PDF Stream Parser"
-slug: "camelot-pdf-stream-parser"
-verification: security_reviewed
-source: "https://github.com/camelot-dev/camelot"
-category: "General"
-framework: "Claude Agents"
+title: Camelot PDF Stream Parser
+slug: camelot-pdf-stream-parser
+description: Camelot PDF Stream Parser
 github_stars: 3673
+verification: security_reviewed
+source: https://github.com/camelot-dev/camelot
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "camelot-dev/camelot"
+  github_repo: camelot-dev/camelot
   github_stars: 3673
 ---
 # Camelot PDF Stream Parser

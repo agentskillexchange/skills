@@ -1,12 +1,13 @@
 ---
-title: "Datadog APM Trace Analyzer"
-slug: "datadog-apm-trace-analyzer-2"
+title: Datadog APM Trace Analyzer
+slug: datadog-apm-trace-analyzer-2
+description: Datadog APM Trace Analyzer
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Claude Agents"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog APM Trace Analyzer

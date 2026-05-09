@@ -1,11 +1,12 @@
 ---
-title: "Run supervised IDE coding-agent workflows with Cline"
-slug: "run-supervised-ide-coding-agent-workflows-with-cline"
-verification: security_reviewed
-source: "https://github.com/cline/cline"
-category: "General"
-framework: "Any"
+title: Run supervised IDE coding-agent workflows with Cline
+slug: run-supervised-ide-coding-agent-workflows-with-cline
+description: Run supervised IDE coding-agent workflows with Cline
 github_stars: 61510
+verification: security_reviewed
+source: https://github.com/cline/cline
+category: General
+framework: Any
 ---
 # Run supervised IDE coding-agent workflows with Cline
 

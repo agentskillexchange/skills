@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Query Analyzer"
-slug: "postgresql-query-analyzer"
+title: PostgreSQL Query Analyzer
+slug: postgresql-query-analyzer
+description: PostgreSQL Query Analyzer
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Gemini"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Gemini
 ---
 # PostgreSQL Query Analyzer
 

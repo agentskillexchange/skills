@@ -1,13 +1,14 @@
 ---
-title: "MediaInfo Metadata Extractor"
-slug: "mediainfo-metadata-extractor"
-verification: security_reviewed
-source: "https://github.com/MediaArea/MediaInfo"
-category: "General"
-framework: "Custom Agents"
+title: MediaInfo Metadata Extractor
+slug: mediainfo-metadata-extractor
+description: MediaInfo Metadata Extractor
 github_stars: 1873
+verification: security_reviewed
+source: https://github.com/MediaArea/MediaInfo
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "MediaArea/MediaInfo"
+  github_repo: MediaArea/MediaInfo
   github_stars: 1873
 ---
 # MediaInfo Metadata Extractor

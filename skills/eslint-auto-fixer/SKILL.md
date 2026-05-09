@@ -1,13 +1,14 @@
 ---
-title: "ESLint Auto-Fixer"
-slug: "eslint-auto-fixer"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "OpenClaw"
+title: ESLint Auto-Fixer
+slug: eslint-auto-fixer
+description: ESLint Auto-Fixer
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Auto-Fixer

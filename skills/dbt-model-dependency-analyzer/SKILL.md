@@ -1,13 +1,14 @@
 ---
-title: "dbt Model Dependency Analyzer"
-slug: "dbt-model-dependency-analyzer"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "Claude Code"
+title: dbt Model Dependency Analyzer
+slug: dbt-model-dependency-analyzer
+description: dbt Model Dependency Analyzer
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Model Dependency Analyzer

@@ -1,10 +1,11 @@
 ---
-title: "Google Calendar Smart Scheduler"
-slug: "google-calendar-smart-scheduler-2"
+title: Google Calendar Smart Scheduler
+slug: google-calendar-smart-scheduler-2
+description: Google Calendar Smart Scheduler
 verification: security_reviewed
-source: "https://developers.google.com/workspace/calendar/api/guides/overview"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.google.com/workspace/calendar/api/guides/overview
+category: General
+framework: OpenClaw
 ---
 # Google Calendar Smart Scheduler
 

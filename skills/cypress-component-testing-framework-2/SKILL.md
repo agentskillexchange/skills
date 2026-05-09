@@ -1,13 +1,14 @@
 ---
-title: "Cypress Component Testing Framework"
-slug: "cypress-component-testing-framework-2"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "MCP"
+title: Cypress Component Testing Framework
+slug: cypress-component-testing-framework-2
+description: Cypress Component Testing Framework
 github_stars: 49609
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49609
 ---
 # Cypress Component Testing Framework

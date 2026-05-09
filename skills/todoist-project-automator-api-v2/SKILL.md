@@ -1,10 +1,11 @@
 ---
-title: "Todoist Project Automator"
-slug: "todoist-project-automator-api-v2"
+title: Todoist Project Automator
+slug: todoist-project-automator-api-v2
+description: Todoist Project Automator
 verification: security_reviewed
-source: "https://developer.todoist.com/api/v1/"
-category: "General"
-framework: "Gemini"
+source: https://developer.todoist.com/api/v1/
+category: General
+framework: Gemini
 ---
 # Todoist Project Automator
 

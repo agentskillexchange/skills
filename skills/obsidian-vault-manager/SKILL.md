@@ -1,10 +1,11 @@
 ---
-title: "Obsidian Vault Manager"
-slug: "obsidian-vault-manager"
+title: Obsidian Vault Manager
+slug: obsidian-vault-manager
+description: Obsidian Vault Manager
 verification: security_reviewed
-source: "https://help.obsidian.md/"
-category: "General"
-framework: "Custom Agents"
+source: https://help.obsidian.md/
+category: General
+framework: Custom Agents
 ---
 # Obsidian Vault Manager
 

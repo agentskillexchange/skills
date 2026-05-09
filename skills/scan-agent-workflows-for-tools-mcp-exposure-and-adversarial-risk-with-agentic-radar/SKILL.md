@@ -1,16 +1,16 @@
 ---
-title: "Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar"
-slug: "scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar"
-description: "Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before rollout."
+title: Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar
+slug: scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar
+description: Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before rollout.
 github_stars: 953
 verification: security_reviewed
-source: "https://github.com/splx-ai/agentic-radar"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/splx-ai/agentic-radar
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "splx-ai/agentic-radar"
+  github_repo: splx-ai/agentic-radar
   github_stars: 953
-  npm_package: "None"
+  npm_package: None
 ---
 # Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar
 

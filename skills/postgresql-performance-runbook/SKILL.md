@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Performance Runbook"
-slug: "postgresql-performance-runbook"
+title: PostgreSQL Performance Runbook
+slug: postgresql-performance-runbook
+description: PostgreSQL Performance Runbook
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Codex"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Codex
 ---
 # PostgreSQL Performance Runbook
 

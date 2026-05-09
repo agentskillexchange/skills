@@ -1,13 +1,14 @@
 ---
-title: "WooCommerce Order Sync Agent"
-slug: "woocommerce-order-sync-agent"
-verification: security_reviewed
-source: "https://github.com/woocommerce/woocommerce"
-category: "General"
-framework: "OpenClaw"
+title: WooCommerce Order Sync Agent
+slug: woocommerce-order-sync-agent
+description: WooCommerce Order Sync Agent
 github_stars: 10271
+verification: security_reviewed
+source: https://github.com/woocommerce/woocommerce
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "woocommerce/woocommerce"
+  github_repo: woocommerce/woocommerce
   github_stars: 10271
 ---
 # WooCommerce Order Sync Agent

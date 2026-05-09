@@ -1,13 +1,14 @@
 ---
-title: "Swagger / OpenAPI Validator"
-slug: "swagger-openapi-validator"
-verification: security_reviewed
-source: "https://github.com/swagger-api/swagger-ui"
-category: "General"
-framework: "Claude Code"
+title: Swagger / OpenAPI Validator
+slug: swagger-openapi-validator
+description: Swagger / OpenAPI Validator
 github_stars: 28756
+verification: security_reviewed
+source: https://github.com/swagger-api/swagger-ui
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "swagger-api/swagger-ui"
+  github_repo: swagger-api/swagger-ui
   github_stars: 28756
 ---
 # Swagger / OpenAPI Validator

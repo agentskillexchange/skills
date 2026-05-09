@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Pipeline Debugger"
-slug: "gitlab-ci-pipeline-debugger"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Code"
+title: GitLab CI Pipeline Debugger
+slug: gitlab-ci-pipeline-debugger
+description: GitLab CI Pipeline Debugger
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Pipeline Debugger

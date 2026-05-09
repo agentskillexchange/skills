@@ -1,10 +1,11 @@
 ---
-title: "OpenTelemetry Trace Context Propagator"
-slug: "opentelemetry-trace-context-propagator"
+title: OpenTelemetry Trace Context Propagator
+slug: opentelemetry-trace-context-propagator
+description: OpenTelemetry Trace Context Propagator
 verification: security_reviewed
-source: "https://opentelemetry.io/docs/languages/js/propagation/"
-category: "General"
-framework: "Claude Code"
+source: https://opentelemetry.io/docs/languages/js/propagation/
+category: General
+framework: Claude Code
 ---
 # OpenTelemetry Trace Context Propagator
 

@@ -1,10 +1,11 @@
 ---
-title: "Surfer SEO Content Optimizer"
-slug: "surfer-seo-content-optimizer"
+title: Surfer SEO Content Optimizer
+slug: surfer-seo-content-optimizer
+description: Surfer SEO Content Optimizer
 verification: security_reviewed
-source: "https://surferseo.com/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://surferseo.com/
+category: General
+framework: ChatGPT Agents
 ---
 # Surfer SEO Content Optimizer
 

@@ -1,13 +1,14 @@
 ---
-title: "Helm Chart Boilerplate Builder"
-slug: "helm-chart-boilerplate-builder"
-verification: security_reviewed
-source: "https://github.com/helm/helm"
-category: "General"
-framework: "Custom Agents"
+title: Helm Chart Boilerplate Builder
+slug: helm-chart-boilerplate-builder
+description: Helm Chart Boilerplate Builder
 github_stars: 29693
+verification: security_reviewed
+source: https://github.com/helm/helm
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "helm/helm"
+  github_repo: helm/helm
   github_stars: 29693
 ---
 # Helm Chart Boilerplate Builder

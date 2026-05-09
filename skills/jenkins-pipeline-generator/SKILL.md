@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Generator"
-slug: "jenkins-pipeline-generator"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Custom Agents"
+title: Jenkins Pipeline Generator
+slug: jenkins-pipeline-generator
+description: Jenkins Pipeline Generator
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Generator

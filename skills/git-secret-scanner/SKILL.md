@@ -1,13 +1,14 @@
 ---
-title: "Git Secret Scanner"
-slug: "git-secret-scanner"
-verification: security_reviewed
-source: "https://github.com/gitleaks/gitleaks"
-category: "General"
-framework: "Claude Agents"
+title: Git Secret Scanner
+slug: git-secret-scanner
+description: Git Secret Scanner
 github_stars: 26420
+verification: security_reviewed
+source: https://github.com/gitleaks/gitleaks
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "gitleaks/gitleaks"
+  github_repo: gitleaks/gitleaks
   github_stars: 26420
 ---
 # Git Secret Scanner

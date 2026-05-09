@@ -1,10 +1,11 @@
 ---
-title: "GitHub Discussions Community Digest"
-slug: "github-discussions-community-digest"
+title: GitHub Discussions Community Digest
+slug: github-discussions-community-digest
+description: GitHub Discussions Community Digest
 verification: security_reviewed
-source: "https://docs.github.com/en/discussions"
-category: "General"
-framework: "MCP"
+source: https://docs.github.com/en/discussions
+category: General
+framework: MCP
 ---
 # GitHub Discussions Community Digest
 

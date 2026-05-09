@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Linter Pro"
-slug: "ansible-playbook-linter-pro"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "MCP"
+title: Ansible Playbook Linter Pro
+slug: ansible-playbook-linter-pro
+description: Ansible Playbook Linter Pro
 github_stars: 68364
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 # Ansible Playbook Linter Pro

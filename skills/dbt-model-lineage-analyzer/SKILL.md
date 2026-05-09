@@ -1,13 +1,14 @@
 ---
-title: "dbt Model Lineage Analyzer"
-slug: "dbt-model-lineage-analyzer"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "Claude Agents"
+title: dbt Model Lineage Analyzer
+slug: dbt-model-lineage-analyzer
+description: dbt Model Lineage Analyzer
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Model Lineage Analyzer

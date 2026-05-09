@@ -1,12 +1,13 @@
 ---
-title: "WordPress ACF Field Group Auditor"
-slug: "wordpress-acf-field-group-auditor"
+title: WordPress ACF Field Group Auditor
+slug: wordpress-acf-field-group-auditor
+description: WordPress ACF Field Group Auditor
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress ACF Field Group Auditor

@@ -1,12 +1,13 @@
 ---
-title: "ImageMagick Batch Transform Agent"
-slug: "imagemagick-batch-transform-agent"
+title: ImageMagick Batch Transform Agent
+slug: imagemagick-batch-transform-agent
+description: ImageMagick Batch Transform Agent
 verification: security_reviewed
-source: "https://github.com/ImageMagick/ImageMagick"
-category: "General"
-framework: "Cursor"
+source: https://github.com/ImageMagick/ImageMagick
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "imagemagick/imagemagick"
+  github_repo: imagemagick/imagemagick
   github_stars: 16152
 ---
 # ImageMagick Batch Transform Agent

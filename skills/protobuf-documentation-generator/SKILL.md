@@ -1,10 +1,11 @@
 ---
-title: "Protobuf Documentation Generator"
-slug: "protobuf-documentation-generator"
+title: Protobuf Documentation Generator
+slug: protobuf-documentation-generator
+description: Protobuf Documentation Generator
 verification: security_reviewed
-source: "https://protobuf.dev/"
-category: "General"
-framework: "Gemini"
+source: https://protobuf.dev/
+category: General
+framework: Gemini
 ---
 # Protobuf Documentation Generator
 

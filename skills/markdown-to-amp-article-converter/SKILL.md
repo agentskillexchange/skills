@@ -1,13 +1,14 @@
 ---
-title: "Markdown-to-AMP Article Converter"
-slug: "markdown-to-amp-article-converter"
-verification: security_reviewed
-source: "https://github.com/ampproject/amphtml"
-category: "General"
-framework: "Codex"
+title: Markdown-to-AMP Article Converter
+slug: markdown-to-amp-article-converter
+description: Markdown-to-AMP Article Converter
 github_stars: 14904
+verification: security_reviewed
+source: https://github.com/ampproject/amphtml
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "ampproject/amphtml"
+  github_repo: ampproject/amphtml
   github_stars: 14904
 ---
 # Markdown-to-AMP Article Converter

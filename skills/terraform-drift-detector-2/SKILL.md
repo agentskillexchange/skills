@@ -1,13 +1,14 @@
 ---
-title: "Terraform Drift Detector"
-slug: "terraform-drift-detector-2"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Gemini"
+title: Terraform Drift Detector
+slug: terraform-drift-detector-2
+description: Terraform Drift Detector
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Drift Detector

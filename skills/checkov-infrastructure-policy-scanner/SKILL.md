@@ -1,13 +1,14 @@
 ---
-title: "Checkov Infrastructure Policy Scanner"
-slug: "checkov-infrastructure-policy-scanner"
-verification: security_reviewed
-source: "https://github.com/bridgecrewio/checkov"
-category: "General"
-framework: "Codex"
+title: Checkov Infrastructure Policy Scanner
+slug: checkov-infrastructure-policy-scanner
+description: Checkov Infrastructure Policy Scanner
 github_stars: 8646
+verification: security_reviewed
+source: https://github.com/bridgecrewio/checkov
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "bridgecrewio/checkov"
+  github_repo: bridgecrewio/checkov
   github_stars: 8646
 ---
 # Checkov Infrastructure Policy Scanner

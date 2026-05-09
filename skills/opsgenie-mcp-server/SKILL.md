@@ -1,13 +1,14 @@
 ---
-title: "OpsGenie MCP Server"
-slug: "opsgenie-mcp-server"
-verification: security_reviewed
-source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
-category: "General"
-framework: "MCP"
+title: OpsGenie MCP Server
+slug: opsgenie-mcp-server
+description: OpsGenie MCP Server
 github_stars: 24
+verification: security_reviewed
+source: https://github.com/opsgenie/opsgenie-nodejs-sdk
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "opsgenie/opsgenie-nodejs-sdk"
+  github_repo: opsgenie/opsgenie-nodejs-sdk
   github_stars: 24
 ---
 # OpsGenie MCP Server

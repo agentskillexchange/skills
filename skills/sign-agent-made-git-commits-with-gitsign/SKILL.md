@@ -1,14 +1,14 @@
 ---
-title: "Sign agent-made Git commits with gitsign"
-slug: "sign-agent-made-git-commits-with-gitsign"
-description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
+title: Sign agent-made Git commits with gitsign
+slug: sign-agent-made-git-commits-with-gitsign
+description: Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.
 github_stars: 1079
 verification: security_reviewed
-source: "https://github.com/sigstore/gitsign"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/sigstore/gitsign
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "sigstore/gitsign"
+  github_repo: sigstore/gitsign
   github_stars: 1079
 ---
 # Sign agent-made Git commits with gitsign

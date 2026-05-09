@@ -1,16 +1,16 @@
 ---
-title: "Run multi-agent code review rounds with structured reviewer discourse before human approval"
-slug: "run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval"
-description: "Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and synthesize review output before a human approves, posts, or acts on the review."
+title: Run multi-agent code review rounds with structured reviewer discourse before human approval
+slug: run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval
+description: Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and synthesize review output before a human approves, posts, or acts on the review.
 github_stars: 131
 verification: security_reviewed
-source: "https://github.com/spencermarx/open-code-review"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/spencermarx/open-code-review
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "spencermarx/open-code-review"
+  github_repo: spencermarx/open-code-review
   github_stars: 131
-  npm_package: "@open-code-review/cli"
+  npm_package: '@open-code-review/cli'
 ---
 # Run multi-agent code review rounds with structured reviewer discourse before human approval
 

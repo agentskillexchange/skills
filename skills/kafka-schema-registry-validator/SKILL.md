@@ -1,13 +1,14 @@
 ---
-title: "Apache Kafka Schema Registry Validator"
-slug: "kafka-schema-registry-validator"
-verification: security_reviewed
-source: "https://github.com/tulios/kafkajs"
-category: "General"
-framework: "Claude Agents"
+title: Apache Kafka Schema Registry Validator
+slug: kafka-schema-registry-validator
+description: Apache Kafka Schema Registry Validator
 github_stars: 3992
+verification: security_reviewed
+source: https://github.com/tulios/kafkajs
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "tulios/kafkajs"
+  github_repo: tulios/kafkajs
   github_stars: 3992
 ---
 # Apache Kafka Schema Registry Validator

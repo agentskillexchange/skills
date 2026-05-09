@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Configurator"
-slug: "eslint-rule-configurator"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Custom Agents"
+title: ESLint Rule Configurator
+slug: eslint-rule-configurator
+description: ESLint Rule Configurator
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Configurator

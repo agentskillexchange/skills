@@ -1,13 +1,14 @@
 ---
-title: "Playwright Network HAR Recorder"
-slug: "playwright-network-har-recorder"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Codex"
+title: Playwright Network HAR Recorder
+slug: playwright-network-har-recorder
+description: Playwright Network HAR Recorder
 github_stars: 86409
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
 ---
 # Playwright Network HAR Recorder

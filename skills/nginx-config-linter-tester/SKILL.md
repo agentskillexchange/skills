@@ -1,13 +1,14 @@
 ---
-title: "Nginx Config Linter and Tester"
-slug: "nginx-config-linter-tester"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "ChatGPT Agents"
+title: Nginx Config Linter and Tester
+slug: nginx-config-linter-tester
+description: Nginx Config Linter and Tester
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Config Linter and Tester

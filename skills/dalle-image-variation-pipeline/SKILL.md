@@ -1,13 +1,14 @@
 ---
-title: "DALL-E Image Variation Pipeline"
-slug: "dalle-image-variation-pipeline"
-verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category: "General"
-framework: "Custom Agents"
+title: DALL-E Image Variation Pipeline
+slug: dalle-image-variation-pipeline
+description: DALL-E Image Variation Pipeline
 github_stars: 10813
+verification: security_reviewed
+source: https://github.com/openai/openai-node
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
 ---
 # DALL-E Image Variation Pipeline

@@ -1,10 +1,11 @@
 ---
-title: "OpenAPI Spec Navigator"
-slug: "openapi-spec-navigator"
+title: OpenAPI Spec Navigator
+slug: openapi-spec-navigator
+description: OpenAPI Spec Navigator
 verification: security_reviewed
-source: "https://swagger.io/docs/"
-category: "General"
-framework: "Cursor"
+source: https://swagger.io/docs/
+category: General
+framework: Cursor
 ---
 # OpenAPI Spec Navigator
 

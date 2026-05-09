@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Builder and Publisher"
-slug: "circleci-orb-builder-publisher"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "ChatGPT Agents"
+title: CircleCI Orb Builder and Publisher
+slug: circleci-orb-builder-publisher
+description: CircleCI Orb Builder and Publisher
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Builder and Publisher

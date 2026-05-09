@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Vacuum Deadlock Runbook"
-slug: "postgresql-vacuum-deadlock-runbook"
+title: PostgreSQL Vacuum Deadlock Runbook
+slug: postgresql-vacuum-deadlock-runbook
+description: PostgreSQL Vacuum Deadlock Runbook
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Claude Agents"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Claude Agents
 ---
 # PostgreSQL Vacuum Deadlock Runbook
 

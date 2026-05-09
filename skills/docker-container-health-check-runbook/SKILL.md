@@ -1,13 +1,14 @@
 ---
-title: "Docker Container Health Check Runbook"
-slug: "docker-container-health-check-runbook"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "Cursor"
+title: Docker Container Health Check Runbook
+slug: docker-container-health-check-runbook
+description: Docker Container Health Check Runbook
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Container Health Check Runbook

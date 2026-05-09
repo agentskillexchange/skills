@@ -1,10 +1,11 @@
 ---
-title: "Cloudinary Media Transform Skill"
-slug: "cloudinary-media-transform-skill"
+title: Cloudinary Media Transform Skill
+slug: cloudinary-media-transform-skill
+description: Cloudinary Media Transform Skill
 verification: security_reviewed
-source: "https://cloudinary.com/documentation"
-category: "General"
-framework: "Custom Agents"
+source: https://cloudinary.com/documentation
+category: General
+framework: Custom Agents
 ---
 # Cloudinary Media Transform Skill
 

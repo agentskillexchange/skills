@@ -1,14 +1,14 @@
 ---
-title: "Generate OSS-Fuzz harnesses with oss-fuzz-gen"
-slug: "generate-oss-fuzz-harnesses-with-oss-fuzz-gen"
-description: "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins."
+title: Generate OSS-Fuzz harnesses with oss-fuzz-gen
+slug: generate-oss-fuzz-harnesses-with-oss-fuzz-gen
+description: Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins.
 github_stars: 1384
 verification: security_reviewed
-source: "https://github.com/google/oss-fuzz-gen"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/google/oss-fuzz-gen
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "google/oss-fuzz-gen"
+  github_repo: google/oss-fuzz-gen
   github_stars: 1384
 ---
 # Generate OSS-Fuzz harnesses with oss-fuzz-gen

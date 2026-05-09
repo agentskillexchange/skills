@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP Automated Pen Testing Agent"
-slug: "owasp-zap-automated-pen-testing-agent"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "ChatGPT Agents"
+title: OWASP ZAP Automated Pen Testing Agent
+slug: owasp-zap-automated-pen-testing-agent
+description: OWASP ZAP Automated Pen Testing Agent
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP Automated Pen Testing Agent

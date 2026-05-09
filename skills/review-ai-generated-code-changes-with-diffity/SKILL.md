@@ -1,16 +1,16 @@
 ---
-title: "Review AI-generated code changes in a cleaner diff workflow with Diffity"
-slug: "review-ai-generated-code-changes-with-diffity"
-description: "Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes."
+title: Review AI-generated code changes in a cleaner diff workflow with Diffity
+slug: review-ai-generated-code-changes-with-diffity
+description: Open a GitHub-style local diff, collect inline review comments, then hand unresolved threads back to a coding agent for fixes.
 github_stars: 561
 verification: security_reviewed
-source: "https://github.com/kamranahmedse/diffity"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/kamranahmedse/diffity
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "kamranahmedse/diffity"
+  github_repo: kamranahmedse/diffity
   github_stars: 561
-  npm_package: "diffity"
+  npm_package: diffity
 ---
 # Review AI-generated code changes in a cleaner diff workflow with Diffity
 

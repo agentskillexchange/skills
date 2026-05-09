@@ -1,13 +1,13 @@
 ---
-title: "Scan LLM-generated code before use with CodeShield"
-slug: "scan-llm-generated-code-before-use-with-codeshield"
-description: "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first."
+title: Scan LLM-generated code before use with CodeShield
+slug: scan-llm-generated-code-before-use-with-codeshield
+description: Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first.
 verification: security_reviewed
-source: "https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "meta-llama/purplellama"
+  github_repo: meta-llama/purplellama
 ---
 # Scan LLM-generated code before use with CodeShield
 

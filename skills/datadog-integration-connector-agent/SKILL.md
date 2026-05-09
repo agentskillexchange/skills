@@ -1,12 +1,13 @@
 ---
-title: "Datadog Integration Connector"
-slug: "datadog-integration-connector-agent"
+title: Datadog Integration Connector
+slug: datadog-integration-connector-agent
+description: Datadog Integration Connector
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Gemini"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Integration Connector

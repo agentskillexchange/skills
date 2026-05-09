@@ -1,10 +1,11 @@
 ---
-title: "Microsoft Outlook Mail Sorter"
-slug: "ms-outlook-mail-sorter"
+title: Microsoft Outlook Mail Sorter
+slug: ms-outlook-mail-sorter
+description: Microsoft Outlook Mail Sorter
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
-category: "General"
-framework: "Claude Code"
+source: https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
+category: General
+framework: Claude Code
 ---
 # Microsoft Outlook Mail Sorter
 

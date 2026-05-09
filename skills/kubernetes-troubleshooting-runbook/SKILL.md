@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Troubleshooting Runbook"
-slug: "kubernetes-troubleshooting-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Custom Agents"
+title: Kubernetes Troubleshooting Runbook
+slug: kubernetes-troubleshooting-runbook
+description: Kubernetes Troubleshooting Runbook
 github_stars: 122147
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 122147
 ---
 # Kubernetes Troubleshooting Runbook

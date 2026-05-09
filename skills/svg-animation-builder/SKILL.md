@@ -1,13 +1,14 @@
 ---
-title: "SVG Animation Builder"
-slug: "svg-animation-builder"
-verification: security_reviewed
-source: "https://github.com/greensock/GSAP"
-category: "General"
-framework: "Custom Agents"
+title: SVG Animation Builder
+slug: svg-animation-builder
+description: SVG Animation Builder
 github_stars: 24554
+verification: security_reviewed
+source: https://github.com/greensock/GSAP
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "greensock/GSAP"
+  github_repo: greensock/GSAP
   github_stars: 24554
 ---
 # SVG Animation Builder

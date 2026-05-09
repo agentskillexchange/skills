@@ -1,10 +1,11 @@
 ---
-title: "Academic Paper Citation Network Mapper"
-slug: "academic-paper-citation-network-mapper"
+title: Academic Paper Citation Network Mapper
+slug: academic-paper-citation-network-mapper
+description: Academic Paper Citation Network Mapper
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
-category: "General"
-framework: "OpenClaw"
+source: https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/
+category: General
+framework: OpenClaw
 ---
 # Academic Paper Citation Network Mapper
 

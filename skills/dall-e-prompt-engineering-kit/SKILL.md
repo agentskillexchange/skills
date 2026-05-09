@@ -1,13 +1,14 @@
 ---
-title: "DALL-E Prompt Engineering Kit"
-slug: "dall-e-prompt-engineering-kit"
-verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category: "General"
-framework: "ChatGPT Agents"
+title: DALL-E Prompt Engineering Kit
+slug: dall-e-prompt-engineering-kit
+description: DALL-E Prompt Engineering Kit
 github_stars: 10813
+verification: security_reviewed
+source: https://github.com/openai/openai-node
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
 ---
 # DALL-E Prompt Engineering Kit

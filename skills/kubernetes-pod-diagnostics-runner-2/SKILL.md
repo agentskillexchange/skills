@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Diagnostics Runner"
-slug: "kubernetes-pod-diagnostics-runner-2"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Cursor"
+title: Kubernetes Pod Diagnostics Runner
+slug: kubernetes-pod-diagnostics-runner-2
+description: Kubernetes Pod Diagnostics Runner
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Diagnostics Runner

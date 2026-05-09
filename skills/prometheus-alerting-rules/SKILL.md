@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alerting Rules"
-slug: "prometheus-alerting-rules"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "MCP"
+title: Prometheus Alerting Rules
+slug: prometheus-alerting-rules
+description: Prometheus Alerting Rules
 github_stars: 63540
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63540
 ---
 # Prometheus Alerting Rules

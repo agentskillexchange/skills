@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Workflow Generator"
-slug: "github-actions-workflow-generator-3"
+title: GitHub Actions Workflow Generator
+slug: github-actions-workflow-generator-3
+description: GitHub Actions Workflow Generator
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Claude Code"
+source: https://docs.github.com/en/actions
+category: General
+framework: Claude Code
 ---
 # GitHub Actions Workflow Generator
 

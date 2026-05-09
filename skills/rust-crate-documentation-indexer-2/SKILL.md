@@ -1,10 +1,11 @@
 ---
-title: "Rust Crate Documentation Indexer"
-slug: "rust-crate-documentation-indexer-2"
+title: Rust Crate Documentation Indexer
+slug: rust-crate-documentation-indexer-2
+description: Rust Crate Documentation Indexer
 verification: security_reviewed
-source: "https://docs.rs/about"
-category: "General"
-framework: "Gemini"
+source: https://docs.rs/about
+category: General
+framework: Gemini
 ---
 # Rust Crate Documentation Indexer
 

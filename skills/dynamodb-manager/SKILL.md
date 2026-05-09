@@ -1,13 +1,14 @@
 ---
-title: "DynamoDB Manager"
-slug: "dynamodb-manager"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Custom Agents"
+title: DynamoDB Manager
+slug: dynamodb-manager
+description: DynamoDB Manager
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # DynamoDB Manager

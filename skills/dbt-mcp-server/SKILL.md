@@ -1,13 +1,14 @@
 ---
-title: "dbt MCP Server"
-slug: "dbt-mcp-server"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "MCP"
+title: dbt MCP Server
+slug: dbt-mcp-server
+description: dbt MCP Server
 github_stars: 12733
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12733
 ---
 # dbt MCP Server

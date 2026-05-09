@@ -1,10 +1,11 @@
 ---
-title: "Git Bisect Automator"
-slug: "git-bisect-automator"
+title: Git Bisect Automator
+slug: git-bisect-automator
+description: Git Bisect Automator
 verification: security_reviewed
-source: "https://git-scm.com/docs/git-bisect"
-category: "General"
-framework: "Claude Code"
+source: https://git-scm.com/docs/git-bisect
+category: General
+framework: Claude Code
 ---
 # Git Bisect Automator
 

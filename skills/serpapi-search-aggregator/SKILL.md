@@ -1,10 +1,11 @@
 ---
-title: "SerpAPI Search Aggregator"
-slug: "serpapi-search-aggregator"
+title: SerpAPI Search Aggregator
+slug: serpapi-search-aggregator
+description: SerpAPI Search Aggregator
 verification: security_reviewed
-source: "https://serpapi.com/"
-category: "General"
-framework: "OpenClaw"
+source: https://serpapi.com/
+category: General
+framework: OpenClaw
 ---
 # SerpAPI Search Aggregator
 

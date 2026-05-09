@@ -1,16 +1,16 @@
 ---
-title: "Store selective long-term agent memories with Mem0 instead of replaying whole chats"
-slug: "store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats"
-description: "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt."
+title: Store selective long-term agent memories with Mem0 instead of replaying whole chats
+slug: store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats
+description: Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt.
 github_stars: 53457
 verification: security_reviewed
-source: "https://github.com/mem0ai/mem0"
-category: "Library & API Reference"
-framework: "Multi-Framework"
+source: https://github.com/mem0ai/mem0
+category: Library & API Reference
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "mem0ai/mem0"
+  github_repo: mem0ai/mem0
   github_stars: 53457
-  npm_package: "mem0ai"
+  npm_package: mem0ai
 ---
 # Store selective long-term agent memories with Mem0 instead of replaying whole chats
 

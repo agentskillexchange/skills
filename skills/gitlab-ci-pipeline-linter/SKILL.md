@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Pipeline Linter"
-slug: "gitlab-ci-pipeline-linter"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Agents"
+title: GitLab CI Pipeline Linter
+slug: gitlab-ci-pipeline-linter
+description: GitLab CI Pipeline Linter
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Pipeline Linter

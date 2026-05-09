@@ -1,13 +1,14 @@
 ---
-title: "Sentry Error Intelligence"
-slug: "sentry-error-intelligence"
-verification: security_reviewed
-source: "https://github.com/getsentry/sentry"
-category: "General"
-framework: "Claude Code"
+title: Sentry Error Intelligence
+slug: sentry-error-intelligence
+description: Sentry Error Intelligence
 github_stars: 43576
+verification: security_reviewed
+source: https://github.com/getsentry/sentry
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "getsentry/sentry"
+  github_repo: getsentry/sentry
   github_stars: 43576
 ---
 # Sentry Error Intelligence

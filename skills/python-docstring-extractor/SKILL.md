@@ -1,13 +1,14 @@
 ---
-title: "Python Docstring Extractor"
-slug: "python-docstring-extractor"
-verification: security_reviewed
-source: "https://github.com/rr-/docstring_parser"
-category: "General"
-framework: "Claude Agents"
+title: Python Docstring Extractor
+slug: python-docstring-extractor
+description: Python Docstring Extractor
 github_stars: 266
+verification: security_reviewed
+source: https://github.com/rr-/docstring_parser
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "rr-/docstring_parser"
+  github_repo: rr-/docstring_parser
   github_stars: 266
 ---
 # Python Docstring Extractor

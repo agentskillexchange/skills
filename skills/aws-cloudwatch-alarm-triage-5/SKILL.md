@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Alarm Triage"
-slug: "aws-cloudwatch-alarm-triage-5"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Gemini"
+title: AWS CloudWatch Alarm Triage
+slug: aws-cloudwatch-alarm-triage-5
+description: AWS CloudWatch Alarm Triage
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Alarm Triage

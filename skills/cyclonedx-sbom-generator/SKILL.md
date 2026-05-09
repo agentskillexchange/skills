@@ -1,13 +1,14 @@
 ---
-title: "CycloneDX SBOM Generator"
-slug: "cyclonedx-sbom-generator"
-verification: security_reviewed
-source: "https://github.com/cdxgen/cdxgen"
-category: "General"
-framework: "Cursor"
+title: CycloneDX SBOM Generator
+slug: cyclonedx-sbom-generator
+description: CycloneDX SBOM Generator
 github_stars: 956
+verification: security_reviewed
+source: https://github.com/cdxgen/cdxgen
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "cdxgen/cdxgen"
+  github_repo: cdxgen/cdxgen
   github_stars: 956
 ---
 # CycloneDX SBOM Generator

@@ -1,10 +1,11 @@
 ---
-title: "Censys Attack Surface Monitor"
-slug: "censys-attack-surface-monitor"
+title: Censys Attack Surface Monitor
+slug: censys-attack-surface-monitor
+description: Censys Attack Surface Monitor
 verification: security_reviewed
-source: "https://docs.censys.com/docs/internet-scanning"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.censys.com/docs/internet-scanning
+category: General
+framework: Custom Agents
 ---
 # Censys Attack Surface Monitor
 

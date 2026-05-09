@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Generator Agent"
-slug: "eslint-rule-generator-agent"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Code"
+title: ESLint Rule Generator Agent
+slug: eslint-rule-generator-agent
+description: ESLint Rule Generator Agent
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Generator Agent

@@ -1,13 +1,14 @@
 ---
-title: "Cookiecutter Template Generator"
-slug: "cookiecutter-template-generator"
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
-category: "General"
-framework: "Codex"
+title: Cookiecutter Template Generator
+slug: cookiecutter-template-generator
+description: Cookiecutter Template Generator
 github_stars: 24818
+verification: security_reviewed
+source: https://github.com/cookiecutter/cookiecutter
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 # Cookiecutter Template Generator

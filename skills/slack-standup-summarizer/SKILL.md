@@ -1,13 +1,14 @@
 ---
-title: "Slack Standup Summarizer"
-slug: "slack-standup-summarizer"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "Claude Agents"
+title: Slack Standup Summarizer
+slug: slack-standup-summarizer
+description: Slack Standup Summarizer
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Standup Summarizer

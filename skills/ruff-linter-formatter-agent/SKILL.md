@@ -1,13 +1,14 @@
 ---
-title: "Ruff Linter and Formatter"
-slug: "ruff-linter-formatter-agent"
-verification: security_reviewed
-source: "https://github.com/astral-sh/ruff"
-category: "General"
-framework: "Claude Code"
+title: Ruff Linter and Formatter
+slug: ruff-linter-formatter-agent
+description: Ruff Linter and Formatter
 github_stars: 47173
+verification: security_reviewed
+source: https://github.com/astral-sh/ruff
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "astral-sh/ruff"
+  github_repo: astral-sh/ruff
   github_stars: 47173
 ---
 # Ruff Linter and Formatter

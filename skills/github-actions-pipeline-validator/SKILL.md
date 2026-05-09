@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Pipeline Validator"
-slug: "github-actions-pipeline-validator"
+title: GitHub Actions Pipeline Validator
+slug: github-actions-pipeline-validator
+description: GitHub Actions Pipeline Validator
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "OpenClaw"
+source: https://docs.github.com/en/actions
+category: General
+framework: OpenClaw
 ---
 # GitHub Actions Pipeline Validator
 

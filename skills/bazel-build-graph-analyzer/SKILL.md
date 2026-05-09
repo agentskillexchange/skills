@@ -1,13 +1,14 @@
 ---
-title: "Bazel Build Graph Analyzer"
-slug: "bazel-build-graph-analyzer"
-verification: security_reviewed
-source: "https://github.com/bazelbuild/bazel"
-category: "General"
-framework: "MCP"
+title: Bazel Build Graph Analyzer
+slug: bazel-build-graph-analyzer
+description: Bazel Build Graph Analyzer
 github_stars: 25335
+verification: security_reviewed
+source: https://github.com/bazelbuild/bazel
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "bazelbuild/bazel"
+  github_repo: bazelbuild/bazel
   github_stars: 25335
 ---
 # Bazel Build Graph Analyzer

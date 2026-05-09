@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Dry-Run Analyzer"
-slug: "ansible-playbook-dry-run-analyzer"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "Gemini"
+title: Ansible Playbook Dry-Run Analyzer
+slug: ansible-playbook-dry-run-analyzer
+description: Ansible Playbook Dry-Run Analyzer
 github_stars: 68364
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 # Ansible Playbook Dry-Run Analyzer

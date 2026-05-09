@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Config Validator"
-slug: "circleci-config-validator"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Claude Agents"
+title: CircleCI Config Validator
+slug: circleci-config-validator
+description: CircleCI Config Validator
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Config Validator

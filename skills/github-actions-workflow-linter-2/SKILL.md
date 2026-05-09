@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Workflow Linter"
-slug: "github-actions-workflow-linter-2"
+title: GitHub Actions Workflow Linter
+slug: github-actions-workflow-linter-2
+description: GitHub Actions Workflow Linter
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "OpenClaw"
+source: https://docs.github.com/en/actions
+category: General
+framework: OpenClaw
 ---
 # GitHub Actions Workflow Linter
 

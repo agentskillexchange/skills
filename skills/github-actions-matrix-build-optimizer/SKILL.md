@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Matrix Build Optimizer"
-slug: "github-actions-matrix-build-optimizer"
+title: GitHub Actions Matrix Build Optimizer
+slug: github-actions-matrix-build-optimizer
+description: GitHub Actions Matrix Build Optimizer
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Claude Code"
+source: https://docs.github.com/en/actions
+category: General
+framework: Claude Code
 ---
 # GitHub Actions Matrix Build Optimizer
 

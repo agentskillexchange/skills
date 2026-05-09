@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Analyzer and Fixer"
-slug: "eslint-rule-analyzer-fixer"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Agents"
+title: ESLint Rule Analyzer and Fixer
+slug: eslint-rule-analyzer-fixer
+description: ESLint Rule Analyzer and Fixer
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Analyzer and Fixer

@@ -1,14 +1,14 @@
 ---
-title: "Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare"
-slug: "sync-skills-across-ai-coding-clis-with-skillshare"
-description: "Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories."
+title: Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare
+slug: sync-skills-across-ai-coding-clis-with-skillshare
+description: Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories.
 github_stars: 1563
 verification: security_reviewed
-source: "https://github.com/runkids/skillshare"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+source: https://github.com/runkids/skillshare
+category: Integrations & Connectors
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "runkids/skillshare"
+  github_repo: runkids/skillshare
   github_stars: 1563
 ---
 # Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare

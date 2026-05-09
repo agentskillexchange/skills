@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Template Generator"
-slug: "tekton-pipeline-template-generator"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "MCP"
+title: Tekton Pipeline Template Generator
+slug: tekton-pipeline-template-generator
+description: Tekton Pipeline Template Generator
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Template Generator

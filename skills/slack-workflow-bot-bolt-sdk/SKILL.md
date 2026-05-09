@@ -1,13 +1,14 @@
 ---
-title: "Slack Workflow Bot"
-slug: "slack-workflow-bot-bolt-sdk"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-category: "General"
-framework: "MCP"
+title: Slack Workflow Bot
+slug: slack-workflow-bot-bolt-sdk
+description: Slack Workflow Bot
 github_stars: 2900
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2900
 ---
 # Slack Workflow Bot

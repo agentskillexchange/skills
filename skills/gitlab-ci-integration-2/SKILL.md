@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Integration"
-slug: "gitlab-ci-integration-2"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Code"
+title: GitLab CI Integration
+slug: gitlab-ci-integration-2
+description: GitLab CI Integration
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Integration

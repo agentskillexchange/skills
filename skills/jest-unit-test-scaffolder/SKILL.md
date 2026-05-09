@@ -1,13 +1,14 @@
 ---
-title: "Jest Unit Test Scaffolder"
-slug: "jest-unit-test-scaffolder"
-verification: security_reviewed
-source: "https://github.com/jestjs/jest"
-category: "General"
-framework: "Custom Agents"
+title: Jest Unit Test Scaffolder
+slug: jest-unit-test-scaffolder
+description: Jest Unit Test Scaffolder
 github_stars: 45332
+verification: security_reviewed
+source: https://github.com/jestjs/jest
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "jestjs/jest"
+  github_repo: jestjs/jest
   github_stars: 45332
 ---
 # Jest Unit Test Scaffolder

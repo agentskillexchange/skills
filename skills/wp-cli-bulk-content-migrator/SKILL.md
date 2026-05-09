@@ -1,13 +1,14 @@
 ---
-title: "WP-CLI Bulk Content Migrator"
-slug: "wp-cli-bulk-content-migrator"
-verification: security_reviewed
-source: "https://github.com/wp-cli/wp-cli"
-category: "General"
-framework: "OpenClaw"
+title: WP-CLI Bulk Content Migrator
+slug: wp-cli-bulk-content-migrator
+description: WP-CLI Bulk Content Migrator
 github_stars: 5061
+verification: security_reviewed
+source: https://github.com/wp-cli/wp-cli
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "wp-cli/wp-cli"
+  github_repo: wp-cli/wp-cli
   github_stars: 5061
 ---
 # WP-CLI Bulk Content Migrator

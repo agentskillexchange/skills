@@ -1,10 +1,11 @@
 ---
-title: "OAuth2 Token Introspection Agent"
-slug: "oauth2-token-introspection-agent"
+title: OAuth2 Token Introspection Agent
+slug: oauth2-token-introspection-agent
+description: OAuth2 Token Introspection Agent
 verification: security_reviewed
-source: "https://auth0.com/docs/secure/tokens/access-tokens/validate-access-tokens"
-category: "General"
-framework: "OpenClaw"
+source: https://auth0.com/docs/secure/tokens/access-tokens/validate-access-tokens
+category: General
+framework: OpenClaw
 ---
 # OAuth2 Token Introspection Agent
 

@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Schema Documentation Generator"
-slug: "graphql-schema-documentation-generator"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "MCP"
+title: GraphQL Schema Documentation Generator
+slug: graphql-schema-documentation-generator
+description: GraphQL Schema Documentation Generator
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Schema Documentation Generator

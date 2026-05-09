@@ -1,13 +1,14 @@
 ---
-title: "Pandas DataFrame Schema Validator"
-slug: "pandas-dataframe-schema-validator"
-verification: security_reviewed
-source: "https://github.com/pandas-dev/pandas"
-category: "General"
-framework: "OpenClaw"
+title: Pandas DataFrame Schema Validator
+slug: pandas-dataframe-schema-validator
+description: Pandas DataFrame Schema Validator
 github_stars: 48498
+verification: security_reviewed
+source: https://github.com/pandas-dev/pandas
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "pandas-dev/pandas"
+  github_repo: pandas-dev/pandas
   github_stars: 48498
 ---
 # Pandas DataFrame Schema Validator

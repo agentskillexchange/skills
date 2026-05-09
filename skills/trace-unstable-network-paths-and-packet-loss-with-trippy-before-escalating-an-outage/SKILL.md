@@ -1,14 +1,14 @@
 ---
-title: "Trace unstable network paths and packet loss with Trippy before escalating an outage"
-slug: "trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage"
-description: "Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents."
+title: Trace unstable network paths and packet loss with Trippy before escalating an outage
+slug: trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage
+description: Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.
 github_stars: 6796
 verification: security_reviewed
-source: "https://github.com/fujiapple852/trippy"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/fujiapple852/trippy
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "fujiapple852/trippy"
+  github_repo: fujiapple852/trippy
   github_stars: 6796
 ---
 # Trace unstable network paths and packet loss with Trippy before escalating an outage

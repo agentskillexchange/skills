@@ -1,13 +1,14 @@
 ---
-title: "Trivy Container Scanner"
-slug: "trivy-container-scanner-2"
-verification: security_reviewed
-source: "https://github.com/aquasecurity/trivy"
-category: "General"
-framework: "OpenClaw"
+title: Trivy Container Scanner
+slug: trivy-container-scanner-2
+description: Trivy Container Scanner
 github_stars: 34488
+verification: security_reviewed
+source: https://github.com/aquasecurity/trivy
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "aquasecurity/trivy"
+  github_repo: aquasecurity/trivy
   github_stars: 34488
 ---
 # Trivy Container Scanner

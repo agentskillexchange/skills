@@ -1,13 +1,14 @@
 ---
-title: "Docker Image Layer Size Analyzer"
-slug: "docker-image-layer-size-analyzer"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "Gemini"
+title: Docker Image Layer Size Analyzer
+slug: docker-image-layer-size-analyzer
+description: Docker Image Layer Size Analyzer
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Image Layer Size Analyzer

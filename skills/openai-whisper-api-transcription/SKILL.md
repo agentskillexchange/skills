@@ -1,10 +1,11 @@
 ---
-title: "OpenAI Whisper API Transcription"
-slug: "openai-whisper-api-transcription"
+title: OpenAI Whisper API Transcription
+slug: openai-whisper-api-transcription
+description: OpenAI Whisper API Transcription
 verification: security_reviewed
-source: "https://developers.openai.com/api/docs/guides/speech-to-text"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.openai.com/api/docs/guides/speech-to-text
+category: General
+framework: OpenClaw
 ---
 # OpenAI Whisper API Transcription
 

@@ -1,13 +1,14 @@
 ---
-title: "Stripe Webhook Signature Verifier"
-slug: "stripe-webhook-signature-verifier"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "ChatGPT Agents"
+title: Stripe Webhook Signature Verifier
+slug: stripe-webhook-signature-verifier
+description: Stripe Webhook Signature Verifier
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Webhook Signature Verifier

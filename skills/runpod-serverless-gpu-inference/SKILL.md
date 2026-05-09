@@ -1,11 +1,11 @@
 ---
-title: "RunPod Serverless GPU Inference"
-slug: "runpod-serverless-gpu-inference"
-description: "Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold start optimization, request queuing, and auto-scaling configuration for image generation models."
+title: RunPod Serverless GPU Inference
+slug: runpod-serverless-gpu-inference
+description: Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold start optimization, request queuing, and auto-scaling configuration for image generation models.
 verification: security_reviewed
-source: "https://docs.runpod.io/serverless/overview"
-category: "Image & Creative Automation"
-framework: "Claude Agents"
+source: https://docs.runpod.io/serverless/overview
+category: Image & Creative Automation
+framework: Claude Agents
 ---
 # RunPod Serverless GPU Inference
 

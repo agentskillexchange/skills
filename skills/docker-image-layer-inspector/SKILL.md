@@ -1,13 +1,14 @@
 ---
-title: "Docker Image Layer Inspector"
-slug: "docker-image-layer-inspector"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "Custom Agents"
+title: Docker Image Layer Inspector
+slug: docker-image-layer-inspector
+description: Docker Image Layer Inspector
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Image Layer Inspector

@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Query Plan Diagnostics"
-slug: "postgresql-query-plan-diagnostics-wave48"
+title: PostgreSQL Query Plan Diagnostics
+slug: postgresql-query-plan-diagnostics-wave48
+description: PostgreSQL Query Plan Diagnostics
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "Claude Code"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: Claude Code
 ---
 # PostgreSQL Query Plan Diagnostics
 

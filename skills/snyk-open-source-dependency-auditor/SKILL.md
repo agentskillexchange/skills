@@ -1,13 +1,14 @@
 ---
-title: "Snyk Open Source Dependency Auditor"
-slug: "snyk-open-source-dependency-auditor"
-verification: security_reviewed
-source: "https://github.com/snyk/cli"
-category: "General"
-framework: "Cursor"
+title: Snyk Open Source Dependency Auditor
+slug: snyk-open-source-dependency-auditor
+description: Snyk Open Source Dependency Auditor
 github_stars: 5496
+verification: security_reviewed
+source: https://github.com/snyk/cli
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   github_stars: 5496
 ---
 # Snyk Open Source Dependency Auditor

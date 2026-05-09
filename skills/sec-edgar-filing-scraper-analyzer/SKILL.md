@@ -1,10 +1,11 @@
 ---
-title: "SEC EDGAR Filing Scraper &#038; Analyzer"
-slug: "sec-edgar-filing-scraper-analyzer"
+title: SEC EDGAR Filing Scraper & Analyzer
+slug: sec-edgar-filing-scraper-analyzer
+description: SEC EDGAR Filing Scraper & Analyzer
 verification: security_reviewed
-source: "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
-category: "General"
-framework: "Claude Code"
+source: https://www.sec.gov/search-filings/edgar-application-programming-interfaces
+category: General
+framework: Claude Code
 ---
 # SEC EDGAR Filing Scraper &#038; Analyzer
 

@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Introspection Documenter"
-slug: "graphql-introspection-documenter"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "Claude Agents"
+title: GraphQL Introspection Documenter
+slug: graphql-introspection-documenter
+description: GraphQL Introspection Documenter
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Introspection Documenter

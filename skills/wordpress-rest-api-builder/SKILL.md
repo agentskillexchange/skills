@@ -1,12 +1,13 @@
 ---
-title: "WordPress REST API Builder"
-slug: "wordpress-rest-api-builder"
+title: WordPress REST API Builder
+slug: wordpress-rest-api-builder
+description: WordPress REST API Builder
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Custom Agents"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21098
 ---
 # WordPress REST API Builder

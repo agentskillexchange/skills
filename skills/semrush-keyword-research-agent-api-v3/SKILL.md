@@ -1,10 +1,11 @@
 ---
-title: "SEMrush Keyword Research Agent"
-slug: "semrush-keyword-research-agent-api-v3"
+title: SEMrush Keyword Research Agent
+slug: semrush-keyword-research-agent-api-v3
+description: SEMrush Keyword Research Agent
 verification: security_reviewed
-source: "https://developer.semrush.com/api/"
-category: "General"
-framework: "Claude Code"
+source: https://developer.semrush.com/api/
+category: General
+framework: Claude Code
 ---
 # SEMrush Keyword Research Agent
 

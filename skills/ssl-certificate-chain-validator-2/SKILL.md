@@ -1,10 +1,11 @@
 ---
-title: "SSL Certificate Chain Validator"
-slug: "ssl-certificate-chain-validator-2"
+title: SSL Certificate Chain Validator
+slug: ssl-certificate-chain-validator-2
+description: SSL Certificate Chain Validator
 verification: security_reviewed
-source: "https://datatracker.ietf.org/doc/html/rfc8446"
-category: "General"
-framework: "Codex"
+source: https://datatracker.ietf.org/doc/html/rfc8446
+category: General
+framework: Codex
 ---
 # SSL Certificate Chain Validator
 

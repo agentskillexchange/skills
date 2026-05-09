@@ -1,13 +1,14 @@
 ---
-title: "Playwright Multi-Browser Test Generator"
-slug: "playwright-multi-browser-test-generator"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Codex"
+title: Playwright Multi-Browser Test Generator
+slug: playwright-multi-browser-test-generator
+description: Playwright Multi-Browser Test Generator
 github_stars: 86409
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
 ---
 # Playwright Multi-Browser Test Generator

@@ -1,13 +1,14 @@
 ---
-title: "Doxygen Cross-Reference Indexer"
-slug: "doxygen-cross-reference-indexer"
-verification: security_reviewed
-source: "https://github.com/doxygen/doxygen"
-category: "General"
-framework: "ChatGPT Agents"
+title: Doxygen Cross-Reference Indexer
+slug: doxygen-cross-reference-indexer
+description: Doxygen Cross-Reference Indexer
 github_stars: 6435
+verification: security_reviewed
+source: https://github.com/doxygen/doxygen
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "doxygen/doxygen"
+  github_repo: doxygen/doxygen
   github_stars: 6435
 ---
 # Doxygen Cross-Reference Indexer

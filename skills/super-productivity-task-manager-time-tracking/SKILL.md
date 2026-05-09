@@ -1,14 +1,14 @@
 ---
-title: "Super Productivity Open Source Task Manager with Time Tracking"
-slug: "super-productivity-task-manager-time-tracking"
-description: "Super Productivity is an advanced open-source todo list application with integrated timeboxing, time tracking, and Pomodoro timer capabilities. It supports importing tasks from Jira, GitHub, GitLab, Trello, and CalDAV calendars, making it a powerful cross-platform productivity hub."
+title: Super Productivity Open Source Task Manager with Time Tracking
+slug: super-productivity-task-manager-time-tracking
+description: Super Productivity is an advanced open-source todo list application with integrated timeboxing, time tracking, and Pomodoro timer capabilities. It supports importing tasks from Jira, GitHub, GitLab, Trello, and CalDAV calendars, making it a powerful cross-platform productivity hub.
 github_stars: 18281
 verification: security_reviewed
-source: "https://github.com/super-productivity/super-productivity"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+source: https://github.com/super-productivity/super-productivity
+category: Calendar, Email & Productivity
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "super-productivity/super-productivity"
+  github_repo: super-productivity/super-productivity
   github_stars: 18281
 ---
 # Super Productivity Open Source Task Manager with Time Tracking

@@ -1,11 +1,12 @@
 ---
-title: "Build and evaluate production agents with Google ADK"
-slug: "build-and-evaluate-production-agents-with-google-adk"
-verification: security_reviewed
-source: "https://github.com/google/adk-python"
-category: "General"
-framework: "Any"
+title: Build and evaluate production agents with Google ADK
+slug: build-and-evaluate-production-agents-with-google-adk
+description: Build and evaluate production agents with Google ADK
 github_stars: 19526
+verification: security_reviewed
+source: https://github.com/google/adk-python
+category: General
+framework: Any
 ---
 # Build and evaluate production agents with Google ADK
 

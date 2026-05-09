@@ -1,13 +1,14 @@
 ---
-title: "Apache Camel Route Data Mapper"
-slug: "apache-camel-route-data-mapper"
-verification: security_reviewed
-source: "https://github.com/apache/camel"
-category: "General"
-framework: "Custom Agents"
+title: Apache Camel Route Data Mapper
+slug: apache-camel-route-data-mapper
+description: Apache Camel Route Data Mapper
 github_stars: 6198
+verification: security_reviewed
+source: https://github.com/apache/camel
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "apache/camel"
+  github_repo: apache/camel
   github_stars: 6198
 ---
 # Apache Camel Route Data Mapper

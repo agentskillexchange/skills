@@ -1,13 +1,14 @@
 ---
-title: "Live Stream Clip Extractor"
-slug: "live-stream-clip-extractor-agent"
-verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "ChatGPT Agents"
+title: Live Stream Clip Extractor
+slug: live-stream-clip-extractor-agent
+description: Live Stream Clip Extractor
 github_stars: 59426
+verification: security_reviewed
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
+  github_repo: FFmpeg/FFmpeg
   github_stars: 59426
 ---
 # Live Stream Clip Extractor

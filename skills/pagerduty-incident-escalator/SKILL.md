@@ -1,12 +1,13 @@
 ---
-title: "PagerDuty Incident Escalator"
-slug: "pagerduty-incident-escalator"
+title: PagerDuty Incident Escalator
+slug: pagerduty-incident-escalator
+description: PagerDuty Incident Escalator
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://github.com/PagerDuty/pdjs
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
+  github_repo: pagerduty/pdjs
   github_stars: 69
 ---
 # PagerDuty Incident Escalator

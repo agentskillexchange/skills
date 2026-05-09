@@ -1,13 +1,14 @@
 ---
-title: "Fly.io Deployment Helper"
-slug: "fly-io-deployment-helper"
-verification: security_reviewed
-source: "https://github.com/superfly/flyctl"
-category: "General"
-framework: "Custom Agents"
+title: Fly.io Deployment Helper
+slug: fly-io-deployment-helper
+description: Fly.io Deployment Helper
 github_stars: 1645
+verification: security_reviewed
+source: https://github.com/superfly/flyctl
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "superfly/flyctl"
+  github_repo: superfly/flyctl
   github_stars: 1645
 ---
 # Fly.io Deployment Helper

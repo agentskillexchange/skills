@@ -1,13 +1,14 @@
 ---
-title: "Agent Browser Operator"
-slug: "agent-browser-operator"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Custom Agents"
+title: Agent Browser Operator
+slug: agent-browser-operator
+description: Agent Browser Operator
 github_stars: 88299
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 88299
 ---
 # Agent Browser Operator

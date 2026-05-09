@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Alarm Runbook Generator"
-slug: "aws-cloudwatch-alarm-runbook-generator"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Claude Agents"
+title: AWS CloudWatch Alarm Runbook Generator
+slug: aws-cloudwatch-alarm-runbook-generator
+description: AWS CloudWatch Alarm Runbook Generator
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Alarm Runbook Generator

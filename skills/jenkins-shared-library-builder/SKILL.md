@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Shared Library Builder"
-slug: "jenkins-shared-library-builder"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Gemini"
+title: Jenkins Shared Library Builder
+slug: jenkins-shared-library-builder
+description: Jenkins Shared Library Builder
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Shared Library Builder

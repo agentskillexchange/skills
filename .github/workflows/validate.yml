@@ -4,10 +4,16 @@ on:
   pull_request:
     paths:
       - 'skills/**'
+      - 'scripts/validate-skill.sh'
+      - 'spec/SKILL_SPEC.md'
+      - '.github/workflows/validate.yml'
   push:
     branches: [main]
     paths:
       - 'skills/**'
+      - 'scripts/validate-skill.sh'
+      - 'spec/SKILL_SPEC.md'
+      - '.github/workflows/validate.yml'
 
 jobs:
   validate:
@@ -17,69 +23,26 @@ jobs:
 
       - name: Validate SKILL.md files
         run: |
+          set -euo pipefail
           errors=0
-          changed_skills=""
 
-          # On PRs, only check changed files; on push, check all
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            changed_skills=$(git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD -- 'skills/*/SKILL.md' || echo "")
-          else
-            changed_skills=$(find skills -name 'SKILL.md' -type f)
-          fi
+          # Always validate the full catalog so generator/schema drift is caught.
+          mapfile -t skill_files < <(find skills -mindepth 2 -maxdepth 2 -name 'SKILL.md' -type f | sort)
 
-          if [ -z "$changed_skills" ]; then
+          if [ ${#skill_files[@]} -eq 0 ]; then
             echo "No SKILL.md files to validate"
             exit 0
           fi
 
-          for file in $changed_skills; do
+          for file in "${skill_files[@]}"; do
             echo "Checking $file..."
-
-            # Check file exists
-            if [ ! -f "$file" ]; then
-              echo "  ⚠️ File not found (may have been deleted)"
-              continue
-            fi
-
-            # Check frontmatter exists
-            if ! head -1 "$file" | grep -q '^---$'; then
-              echo "  ❌ Missing YAML frontmatter delimiter"
-              errors=$((errors + 1))
-              continue
-            fi
-
-            # Extract frontmatter
-            frontmatter=$(sed -n '/^---$/,/^---$/p' "$file" | sed '1d;$d')
-
-            # Check required fields
-            for field in name description category framework verification creator; do
-              if ! echo "$frontmatter" | grep -q "^${field}:"; then
-                echo "  ❌ Missing required field: $field"
-                errors=$((errors + 1))
-              fi
-            done
-
-            # Check rating range if present
-            rating=$(echo "$frontmatter" | grep '^rating:' | sed 's/rating: *//')
-            if [ -n "$rating" ]; then
-              if ! echo "$rating" | grep -qE '^[0-9]+\.?[0-9]*$'; then
-                echo "  ❌ Invalid rating format: $rating"
-                errors=$((errors + 1))
-              fi
-            fi
-
-            # Check markdown body has a heading
-            body=$(sed -n '/^---$/,/^---$/!p' "$file" | sed '1{/^$/d}')
-            if ! echo "$body" | grep -q '^# '; then
-              echo "  ❌ Missing H1 heading in body"
+            if ! ./scripts/validate-skill.sh "$file"; then
               errors=$((errors + 1))
             fi
-
-            echo "  ✅ Valid"
           done
 
           echo ""
-          echo "Validation complete. Errors: $errors"
+          echo "Validation complete. Files: ${#skill_files[@]}. Errors: $errors"
 
           if [ $errors -gt 0 ]; then
             exit 1

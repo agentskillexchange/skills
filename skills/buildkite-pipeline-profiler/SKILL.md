@@ -1,10 +1,11 @@
 ---
-title: "Buildkite Pipeline Profiler"
-slug: "buildkite-pipeline-profiler"
+title: Buildkite Pipeline Profiler
+slug: buildkite-pipeline-profiler
+description: Buildkite Pipeline Profiler
 verification: security_reviewed
-source: "https://buildkite.com/docs"
-category: "General"
-framework: "MCP"
+source: https://buildkite.com/docs
+category: General
+framework: MCP
 ---
 # Buildkite Pipeline Profiler
 

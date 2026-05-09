@@ -1,10 +1,11 @@
 ---
-title: "Incident Response Checklist Engine"
-slug: "incident-response-checklist-engine"
+title: Incident Response Checklist Engine
+slug: incident-response-checklist-engine
+description: Incident Response Checklist Engine
 verification: security_reviewed
-source: "https://developer.pagerduty.com/"
-category: "General"
-framework: "Claude Agents"
+source: https://developer.pagerduty.com/
+category: General
+framework: Claude Agents
 ---
 # Incident Response Checklist Engine
 

@@ -1,13 +1,14 @@
 ---
-title: "Apache Spark DataFrame ETL Pipeline"
-slug: "spark-dataframe-etl-pipeline"
-verification: security_reviewed
-source: "https://github.com/apache/spark"
-category: "General"
-framework: "OpenClaw"
+title: Apache Spark DataFrame ETL Pipeline
+slug: spark-dataframe-etl-pipeline
+description: Apache Spark DataFrame ETL Pipeline
 github_stars: 43117
+verification: security_reviewed
+source: https://github.com/apache/spark
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "apache/spark"
+  github_repo: apache/spark
   github_stars: 43117
 ---
 # Apache Spark DataFrame ETL Pipeline

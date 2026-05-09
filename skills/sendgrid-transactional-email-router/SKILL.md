@@ -1,13 +1,14 @@
 ---
-title: "SendGrid Transactional Email Router"
-slug: "sendgrid-transactional-email-router"
-verification: security_reviewed
-source: "https://github.com/sendgrid/sendgrid-nodejs"
-category: "General"
-framework: "Cursor"
+title: SendGrid Transactional Email Router
+slug: sendgrid-transactional-email-router
+description: SendGrid Transactional Email Router
 github_stars: 3049
+verification: security_reviewed
+source: https://github.com/sendgrid/sendgrid-nodejs
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "sendgrid/sendgrid-nodejs"
+  github_repo: sendgrid/sendgrid-nodejs
   github_stars: 3049
 ---
 # SendGrid Transactional Email Router

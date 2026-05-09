@@ -1,13 +1,14 @@
 ---
-title: "Grafana Loki Log Correlation Agent"
-slug: "grafana-loki-log-correlation-agent-2"
-verification: security_reviewed
-source: "https://github.com/grafana/loki"
-category: "General"
-framework: "ChatGPT Agents"
+title: Grafana Loki Log Correlation Agent
+slug: grafana-loki-log-correlation-agent-2
+description: Grafana Loki Log Correlation Agent
 github_stars: 27993
+verification: security_reviewed
+source: https://github.com/grafana/loki
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "grafana/loki"
+  github_repo: grafana/loki
   github_stars: 27993
 ---
 # Grafana Loki Log Correlation Agent

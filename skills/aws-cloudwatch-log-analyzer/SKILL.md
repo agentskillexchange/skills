@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Log Analyzer"
-slug: "aws-cloudwatch-log-analyzer"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "ChatGPT Agents"
+title: AWS CloudWatch Log Analyzer
+slug: aws-cloudwatch-log-analyzer
+description: AWS CloudWatch Log Analyzer
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Log Analyzer

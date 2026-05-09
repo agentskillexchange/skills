@@ -1,13 +1,14 @@
 ---
-title: "Terrascan Policy Scanner"
-slug: "terrascan-policy-scanner"
-verification: security_reviewed
-source: "https://github.com/tenable/terrascan"
-category: "General"
-framework: "Custom Agents"
+title: Terrascan Policy Scanner
+slug: terrascan-policy-scanner
+description: Terrascan Policy Scanner
 github_stars: 5209
+verification: security_reviewed
+source: https://github.com/tenable/terrascan
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "tenable/terrascan"
+  github_repo: tenable/terrascan
   github_stars: 5209
 ---
 # Terrascan Policy Scanner

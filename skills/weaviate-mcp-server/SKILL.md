@@ -1,13 +1,14 @@
 ---
-title: "Weaviate MCP Server"
-slug: "weaviate-mcp-server"
-verification: security_reviewed
-source: "https://github.com/weaviate/mcp-server-weaviate"
-category: "General"
-framework: "MCP"
+title: Weaviate MCP Server
+slug: weaviate-mcp-server
+description: Weaviate MCP Server
 github_stars: 161
+verification: security_reviewed
+source: https://github.com/weaviate/mcp-server-weaviate
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "weaviate/mcp-server-weaviate"
+  github_repo: weaviate/mcp-server-weaviate
   github_stars: 161
 ---
 # Weaviate MCP Server

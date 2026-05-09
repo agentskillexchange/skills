@@ -1,13 +1,14 @@
 ---
-title: "Docker Compose Service Graph Visualizer"
-slug: "docker-compose-service-graph-visualizer"
-verification: security_reviewed
-source: "https://github.com/docker/compose"
-category: "General"
-framework: "Claude Code"
+title: Docker Compose Service Graph Visualizer
+slug: docker-compose-service-graph-visualizer
+description: Docker Compose Service Graph Visualizer
 github_stars: 37227
+verification: security_reviewed
+source: https://github.com/docker/compose
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "docker/compose"
+  github_repo: docker/compose
   github_stars: 37227
 ---
 # Docker Compose Service Graph Visualizer

@@ -1,14 +1,14 @@
 ---
-title: "Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye"
-slug: "lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye"
-description: "Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells."
+title: Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye
+slug: lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye
+description: Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells.
 github_stars: 6262
 verification: security_reviewed
-source: "https://github.com/derailed/popeye"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/derailed/popeye
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "derailed/popeye"
+  github_repo: derailed/popeye
   github_stars: 6262
 ---
 # Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye

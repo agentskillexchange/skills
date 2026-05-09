@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions CI Pipeline Builder"
-slug: "github-actions-ci-pipeline-builder"
+title: GitHub Actions CI Pipeline Builder
+slug: github-actions-ci-pipeline-builder
+description: GitHub Actions CI Pipeline Builder
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Codex"
+source: https://docs.github.com/en/actions
+category: General
+framework: Codex
 ---
 # GitHub Actions CI Pipeline Builder
 

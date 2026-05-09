@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Clip Extractor"
-slug: "ffmpeg-clip-extractor-agent"
+title: FFmpeg Clip Extractor
+slug: ffmpeg-clip-extractor-agent
+description: FFmpeg Clip Extractor
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Clip Extractor

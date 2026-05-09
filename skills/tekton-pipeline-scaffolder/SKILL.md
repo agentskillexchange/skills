@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Scaffolder"
-slug: "tekton-pipeline-scaffolder"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "Gemini"
+title: Tekton Pipeline Scaffolder
+slug: tekton-pipeline-scaffolder
+description: Tekton Pipeline Scaffolder
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Scaffolder

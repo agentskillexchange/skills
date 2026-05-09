@@ -1,13 +1,14 @@
 ---
-title: "Grafana Dashboard as Code Generator"
-slug: "grafana-dashboard-as-code-generator"
-verification: security_reviewed
-source: "https://github.com/grafana/grafonnet"
-category: "General"
-framework: "Cursor"
+title: Grafana Dashboard as Code Generator
+slug: grafana-dashboard-as-code-generator
+description: Grafana Dashboard as Code Generator
 github_stars: 528
+verification: security_reviewed
+source: https://github.com/grafana/grafonnet
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "grafana/grafonnet"
+  github_repo: grafana/grafonnet
   github_stars: 528
 ---
 # Grafana Dashboard as Code Generator

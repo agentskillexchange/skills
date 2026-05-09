@@ -1,13 +1,14 @@
 ---
-title: "Elasticsearch MCP"
-slug: "elasticsearch-mcp"
-verification: security_reviewed
-source: "https://github.com/elastic/elasticsearch"
-category: "General"
-framework: "MCP"
+title: Elasticsearch MCP
+slug: elasticsearch-mcp
+description: Elasticsearch MCP
 github_stars: 76518
+verification: security_reviewed
+source: https://github.com/elastic/elasticsearch
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "elastic/elasticsearch"
+  github_repo: elastic/elasticsearch
   github_stars: 76518
 ---
 # Elasticsearch MCP

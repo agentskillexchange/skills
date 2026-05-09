@@ -1,13 +1,14 @@
 ---
-title: "Prometheus AlertManager Rule Generator"
-slug: "prometheus-alertmanager-rule-generator"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Claude Code"
+title: Prometheus AlertManager Rule Generator
+slug: prometheus-alertmanager-rule-generator
+description: Prometheus AlertManager Rule Generator
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus AlertManager Rule Generator

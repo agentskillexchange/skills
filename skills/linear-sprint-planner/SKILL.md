@@ -1,10 +1,11 @@
 ---
-title: "Linear Sprint Planner"
-slug: "linear-sprint-planner"
+title: Linear Sprint Planner
+slug: linear-sprint-planner
+description: Linear Sprint Planner
 verification: security_reviewed
-source: "https://linear.app/docs"
-category: "General"
-framework: "Custom Agents"
+source: https://linear.app/docs
+category: General
+framework: Custom Agents
 ---
 # Linear Sprint Planner
 

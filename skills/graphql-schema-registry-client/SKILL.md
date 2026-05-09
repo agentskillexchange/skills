@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Schema Registry Client"
-slug: "graphql-schema-registry-client"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "Custom Agents"
+title: GraphQL Schema Registry Client
+slug: graphql-schema-registry-client
+description: GraphQL Schema Registry Client
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Schema Registry Client

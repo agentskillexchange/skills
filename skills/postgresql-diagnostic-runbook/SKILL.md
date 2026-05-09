@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Diagnostic Runbook"
-slug: "postgresql-diagnostic-runbook"
+title: PostgreSQL Diagnostic Runbook
+slug: postgresql-diagnostic-runbook
+description: PostgreSQL Diagnostic Runbook
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: ChatGPT Agents
 ---
 # PostgreSQL Diagnostic Runbook
 

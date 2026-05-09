@@ -1,13 +1,14 @@
 ---
-title: "Apify Actor Development Kit"
-slug: "apify-actor-development-kit"
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
-category: "General"
-framework: "Claude Code"
+title: Apify Actor Development Kit
+slug: apify-actor-development-kit
+description: Apify Actor Development Kit
 github_stars: 173
+verification: security_reviewed
+source: https://github.com/apify/apify-sdk-js
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
 ---
 # Apify Actor Development Kit

@@ -1,13 +1,14 @@
 ---
-title: "Queue Backup Runbook"
-slug: "queue-backup-runbook"
-verification: security_reviewed
-source: "https://github.com/tulios/kafkajs"
-category: "General"
-framework: "Custom Agents"
+title: Queue Backup Runbook
+slug: queue-backup-runbook
+description: Queue Backup Runbook
 github_stars: 3992
+verification: security_reviewed
+source: https://github.com/tulios/kafkajs
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "tulios/kafkajs"
+  github_repo: tulios/kafkajs
   github_stars: 3992
 ---
 # Queue Backup Runbook

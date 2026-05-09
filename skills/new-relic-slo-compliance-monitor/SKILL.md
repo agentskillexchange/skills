@@ -1,10 +1,11 @@
 ---
-title: "New Relic SLO Compliance Monitor"
-slug: "new-relic-slo-compliance-monitor"
+title: New Relic SLO Compliance Monitor
+slug: new-relic-slo-compliance-monitor
+description: New Relic SLO Compliance Monitor
 verification: security_reviewed
-source: "https://docs.newrelic.com/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.newrelic.com/
+category: General
+framework: ChatGPT Agents
 ---
 # New Relic SLO Compliance Monitor
 

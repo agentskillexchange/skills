@@ -1,14 +1,14 @@
 ---
-title: "Starlight Documentation Framework for Astro"
-slug: "starlight-documentation-framework-astro"
-description: "Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and high-performance documentation sites. It provides built-in navigation, search, i18n, syntax highlighting, and dark mode with minimal configuration."
+title: Starlight Documentation Framework for Astro
+slug: starlight-documentation-framework-astro
+description: Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and high-performance documentation sites. It provides built-in navigation, search, i18n, syntax highlighting, and dark mode with minimal configuration.
 github_stars: 8213
 verification: security_reviewed
-source: "https://github.com/withastro/starlight"
-category: "Developer Tools"
-framework: "Multi-Framework"
+source: https://github.com/withastro/starlight
+category: Developer Tools
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "withastro/starlight"
+  github_repo: withastro/starlight
   github_stars: 8213
 ---
 # Starlight Documentation Framework for Astro

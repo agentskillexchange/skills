@@ -1,13 +1,14 @@
 ---
-title: "Vault Secrets Rotator"
-slug: "vault-secrets-rotator"
-verification: security_reviewed
-source: "https://github.com/hashicorp/vault"
-category: "General"
-framework: "MCP"
+title: Vault Secrets Rotator
+slug: vault-secrets-rotator
+description: Vault Secrets Rotator
 github_stars: 35396
+verification: security_reviewed
+source: https://github.com/hashicorp/vault
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/vault"
+  github_repo: hashicorp/vault
   github_stars: 35396
 ---
 # Vault Secrets Rotator

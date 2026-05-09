@@ -1,10 +1,11 @@
 ---
-title: "npm Dependency Audit Resolver"
-slug: "npm-dependency-audit-resolver"
+title: npm Dependency Audit Resolver
+slug: npm-dependency-audit-resolver
+description: npm Dependency Audit Resolver
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v11/commands/npm-audit/"
-category: "General"
-framework: "Claude Code"
+source: https://docs.npmjs.com/cli/v11/commands/npm-audit/
+category: General
+framework: Claude Code
 ---
 # npm Dependency Audit Resolver
 

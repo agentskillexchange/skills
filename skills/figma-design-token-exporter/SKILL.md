@@ -1,10 +1,11 @@
 ---
-title: "Figma Design Token Exporter"
-slug: "figma-design-token-exporter"
+title: Figma Design Token Exporter
+slug: figma-design-token-exporter
+description: Figma Design Token Exporter
 verification: security_reviewed
-source: "https://developers.figma.com/docs/rest-api/"
-category: "General"
-framework: "Claude Code"
+source: https://developers.figma.com/docs/rest-api/
+category: General
+framework: Claude Code
 ---
 # Figma Design Token Exporter
 

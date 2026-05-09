@@ -1,16 +1,16 @@
 ---
-title: "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI"
-slug: "validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli"
-description: "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream."
+title: Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI
+slug: validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli
+description: Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream.
 github_stars: 270
 verification: security_reviewed
-source: "https://github.com/sourcemeta/jsonschema"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+source: https://github.com/sourcemeta/jsonschema
+category: CI/CD Integrations
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "sourcemeta/jsonschema"
+  github_repo: sourcemeta/jsonschema
   github_stars: 270
-  npm_package: "@sourcemeta/jsonschema"
+  npm_package: '@sourcemeta/jsonschema'
 ---
 # Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI
 

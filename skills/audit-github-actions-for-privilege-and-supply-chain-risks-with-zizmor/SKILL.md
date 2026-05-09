@@ -1,14 +1,14 @@
 ---
-title: "Audit GitHub Actions for privilege and supply-chain risks with zizmor"
-slug: "audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor"
-description: "Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early."
+title: Audit GitHub Actions for privilege and supply-chain risks with zizmor
+slug: audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor
+description: Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early.
 github_stars: 4186
 verification: security_reviewed
-source: "https://github.com/zizmorcore/zizmor"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/zizmorcore/zizmor
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "zizmorcore/zizmor"
+  github_repo: zizmorcore/zizmor
   github_stars: 4186
 ---
 # Audit GitHub Actions for privilege and supply-chain risks with zizmor

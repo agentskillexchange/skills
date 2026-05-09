@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Video Processing Pipeline"
-slug: "ffmpeg-video-processing-pipeline"
+title: FFmpeg Video Processing Pipeline
+slug: ffmpeg-video-processing-pipeline
+description: FFmpeg Video Processing Pipeline
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "MCP"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Video Processing Pipeline

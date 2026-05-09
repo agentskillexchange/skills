@@ -1,6 +1,6 @@
-# Agent Skill Specification v1.1
+# Agent Skill Specification v1.2
 
-This document defines the format for skills in the Agent Skill Exchange.
+This document defines the canonical repository and public JSON format for skills in the Agent Skill Exchange.
 
 ## Overview
 
@@ -11,7 +11,7 @@ A skill is a directory containing a `SKILL.md` file. The file has two parts:
 
 ## Directory Structure
 
-```
+```text
 skills/
   <slug>/
     SKILL.md        # Required — skill definition
@@ -19,45 +19,57 @@ skills/
     scripts/        # Optional — automation scripts
 ```
 
-The `<slug>` is a URL-safe identifier: lowercase, hyphens instead of spaces, no special characters.
+The `<slug>` is a URL-safe identifier: lowercase, hyphens instead of spaces, no special characters. It must match the skill directory name.
 
-## Frontmatter Schema
+## Canonical Frontmatter Schema
 
 ```yaml
 ---
-name: string            # Required — display name
-description: string     # Required — what the skill does and when to use it
-category: string        # Required — one of the valid categories
-framework: string       # Required — primary framework
-verification: string    # Required — listed or security_reviewed
-source: string          # Optional — URL to skill on agentskillexchange.com
-tool_ecosystem:         # Optional — only if backed by a real tool
-  tool: string          # Tool identifier
-  github_stars: number  # Stars on the tool's repo
-  npm_weekly_downloads: number  # npm weekly downloads
-  github_repo: string   # owner/repo
-  license: string       # SPDX license identifier
-  maintained: boolean   # Whether the tool is actively maintained
+title: string          # Required — display title
+slug: string           # Required — stable URL/path identifier
+description: string    # Required — what the skill does and when to use it
+category: string       # Required — one of the valid categories
+framework: string      # Required — primary framework
+verification: string   # Required — listed or security_reviewed
+source: string         # Optional — upstream repo, documentation, package, or canonical source URL
+github_stars: number   # Optional — top-level compatibility signal when available
+tool_ecosystem:        # Optional — only if backed by a real tool with verified signals
+  tool: string
+  github_repo: string
+  github_stars: number
+  npm_package: string
+  npm_weekly_downloads: number
+  license: string
+  maintained: boolean
 ---
 ```
 
-### Field Definitions
+### Compatibility aliases
 
-#### `name` (required, string)
+- `title` is canonical. Older generated indexes may expose `name`; new repository frontmatter and public catalog JSON should use `title`.
+- `verification` is canonical for public files. WordPress may keep internal `verification_status` metadata, but exports must normalize it to the public values below.
 
-The human-readable display name of the skill. Should be concise and descriptive.
+## Field Definitions
+
+### `title` (required, string)
+
+The human-readable display title of the skill. Should be concise and descriptive.
 
 **Examples**: `"Stripe Webhook Verifier"`, `"GitHub Actions Workflow Generator"`
 
-#### `description` (required, string)
+### `slug` (required, string)
 
-A one-paragraph description of what the skill does and when to use it. Should reference specific APIs, tools, or techniques. Avoid vague language.
+The stable URL-safe identifier. It must match the containing directory name under `skills/`.
+
+### `description` (required, string)
+
+A one-paragraph description of what the skill does and when to use it. It should reference specific APIs, tools, or techniques. Avoid vague language.
 
 **Good**: `"Verifies Stripe webhook payload signatures using HMAC-SHA256 to prevent replay attacks and forged events."`
 
 **Bad**: `"A helpful tool for working with Stripe."`
 
-#### `category` (required, string)
+### `category` (required, string)
 
 One of the 17 valid categories. Must match exactly.
 
@@ -79,9 +91,9 @@ One of the 17 valid categories. Must match exactly.
 | Runbooks & Diagnostics | Incident response, diagnostics, troubleshooting |
 | Security & Verification | Vulnerability scanning, signature verification |
 | Templates & Workflows | Scaffolders, boilerplate generators, automation |
-| WordPress & CMS | WordPress, theme/plugin dev, CMS automation |
+| WordPress & CMS | WordPress, theme/plugin dev, WP-CLI automation, CMS management |
 
-#### `framework` (required, string)
+### `framework` (required, string)
 
 The primary framework this skill targets. Valid values:
 
@@ -94,39 +106,83 @@ The primary framework this skill targets. Valid values:
 - `Gemini`
 - `Google Workspace`
 - `MCP`
+- `Multi-Framework`
 - `OpenClaw`
 - `WordPress`
 
-#### `verification` (required, string)
+### `verification` (required, string)
 
-The trust tier of the skill.
+The public trust tier of the skill.
 
 | Value | Meaning |
 |-------|---------|
-| `listed` | Published — backed by a real tool, repo, or package |
-| `security_reviewed` | Content scanned for malicious patterns — safe to use |
+| `listed` | Published — backed by a real tool, repo, package, or documented workflow |
+| `security_reviewed` | Content scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 New skills enter as `listed`. Security review is handled by the marketplace team in batches.
 
-#### `source` (optional, string)
+### Internal WordPress verification mapping
 
-URL to the skill's page on agentskillexchange.com. Uses `/skills/` path.
+WordPress may store older/internal values in `verification_status`. Public repo files and JSON indexes must normalize them as:
 
-#### `tool_ecosystem` (optional, object)
+| Internal value | Public `verification` |
+|----------------|------------------------|
+| missing / empty | `listed` |
+| `listed` | `listed` |
+| `verified_metadata` | `listed` |
+| `security_reviewed` | `security_reviewed` |
 
-Only include if the skill is backed by a real tool with verifiable signals. All sub-fields are optional — include only those with real data.
+Do not expose `verified_metadata` as a separate public tier.
+
+### `source` (optional, string)
+
+The upstream repo, documentation, package, or canonical source URL that backs the skill. Prefer the original upstream source over the Agent Skill Exchange listing URL when both are available.
+
+### `tool_ecosystem` (optional, object)
+
+Only include if the skill is backed by a real tool with verifiable signals. All sub-fields are optional; include only values with real provenance.
+
+## Canonical Public Catalog JSON
+
+`skills.json` should use the same public naming as frontmatter:
+
+```json
+{
+  "slug": "playwright-mcp-browser-automation",
+  "title": "Playwright MCP Browser Automation",
+  "description": "Official Playwright-powered browser control for agent workflows.",
+  "category": ["Browser Automation"],
+  "framework": ["Claude Code", "Cursor", "MCP", "OpenClaw"],
+  "verification": "security_reviewed",
+  "signals": {
+    "tool": "playwright",
+    "github_stars": 84874,
+    "npm_weekly_downloads": 39806814,
+    "license": "Apache-2.0"
+  }
+}
+```
 
 ## Markdown Body
 
 The body follows the frontmatter and contains:
 
-1. **Title** — H1 heading matching the skill name
+1. **Title** — H1 heading matching the skill title
 2. **Description** — One or more paragraphs explaining the skill
-3. **Installation** — Commands for supported agents
+3. **Installation** — Commands or setup notes for supported agents
 
 ### Example
 
-```markdown
+~~~markdown
+---
+title: Stripe Webhook Signature Verifier
+slug: stripe-webhook-signature-verifier
+description: Verifies Stripe webhook payload signatures using HMAC-SHA256 to prevent replay attacks and forged events.
+category: Security & Verification
+framework: Custom Agents
+verification: listed
+source: https://docs.stripe.com/webhooks/signature
+---
 # Stripe Webhook Signature Verifier
 
 Verifies Stripe webhook payload signatures using HMAC-SHA256 to prevent
@@ -134,38 +190,25 @@ replay attacks and forged events. Supports both test and live mode keys.
 
 ## Installation
 
-### Any Agent
-
-\`\`\`bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-verifier
-\`\`\`
-
-### Claude Code
-
-\`\`\`bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-verifier -a claude-code
-\`\`\`
-
-### OpenClaw
-
-\`\`\`bash
-clawhub install stripe-webhook-verifier
-\`\`\`
+```bash
+npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier
 ```
+~~~
 
 ## Validation Rules
 
-A valid SKILL.md must:
+A valid `SKILL.md` must:
 
 1. Have valid YAML frontmatter between `---` delimiters
-2. Include all required fields (`name`, `description`, `category`, `framework`, `verification`)
-3. Use a valid category from the list above
-4. Use a valid framework from the list above
-5. Use a valid verification tier (`listed` or `security_reviewed`)
-6. Have a markdown body with at least a title and description
+2. Include all required fields (`title`, `slug`, `description`, `category`, `framework`, `verification`)
+3. Use a `slug` matching the containing directory name
+4. Use a valid category from the list above
+5. Use a valid framework from the list above
+6. Use a valid public verification tier (`listed` or `security_reviewed`)
+7. Have a markdown body with at least a title and description
 
 ## Versioning
 
-This spec follows semantic versioning. The current version is **1.1**.
+This spec follows semantic versioning. The current version is **1.2**.
 
 Changes to required fields or validation rules increment the major version. New optional fields increment the minor version.

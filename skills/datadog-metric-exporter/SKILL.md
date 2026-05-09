@@ -1,12 +1,13 @@
 ---
-title: "Datadog Metric Exporter"
-slug: "datadog-metric-exporter"
+title: Datadog Metric Exporter
+slug: datadog-metric-exporter
+description: Datadog Metric Exporter
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Gemini"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Metric Exporter

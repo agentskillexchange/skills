@@ -1,13 +1,14 @@
 ---
-title: "Jenkins MCP Server"
-slug: "jenkins-mcp-server"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "MCP"
+title: Jenkins MCP Server
+slug: jenkins-mcp-server
+description: Jenkins MCP Server
 github_stars: 25257
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25257
 ---
 # Jenkins MCP Server

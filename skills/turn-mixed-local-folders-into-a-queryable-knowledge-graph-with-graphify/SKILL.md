@@ -1,14 +1,14 @@
 ---
-title: "Turn mixed local folders into a queryable knowledge graph with Graphify"
-slug: "turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify"
-description: "Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text."
+title: Turn mixed local folders into a queryable knowledge graph with Graphify
+slug: turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify
+description: Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of only raw text.
 github_stars: 25688
 verification: security_reviewed
-source: "https://github.com/safishamsi/graphify"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+source: https://github.com/safishamsi/graphify
+category: Data Extraction & Transformation
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "safishamsi/graphify"
+  github_repo: safishamsi/graphify
   github_stars: 25688
 ---
 # Turn mixed local folders into a queryable knowledge graph with Graphify

@@ -1,13 +1,14 @@
 ---
-title: "Buf Protobuf Linter"
-slug: "buf-protobuf-linter"
-verification: security_reviewed
-source: "https://github.com/bufbuild/buf"
-category: "General"
-framework: "Claude Code"
+title: Buf Protobuf Linter
+slug: buf-protobuf-linter
+description: Buf Protobuf Linter
 github_stars: 11049
+verification: security_reviewed
+source: https://github.com/bufbuild/buf
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "bufbuild/buf"
+  github_repo: bufbuild/buf
   github_stars: 11049
 ---
 # Buf Protobuf Linter

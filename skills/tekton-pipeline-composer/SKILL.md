@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Composer"
-slug: "tekton-pipeline-composer"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "Gemini"
+title: Tekton Pipeline Composer
+slug: tekton-pipeline-composer
+description: Tekton Pipeline Composer
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Composer

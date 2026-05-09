@@ -1,13 +1,14 @@
 ---
-title: "Yeoman Enterprise Generator Suite"
-slug: "yeoman-enterprise-generator-suite"
-verification: security_reviewed
-source: "https://github.com/yeoman/yo"
-category: "General"
-framework: "Claude Code"
+title: Yeoman Enterprise Generator Suite
+slug: yeoman-enterprise-generator-suite
+description: Yeoman Enterprise Generator Suite
 github_stars: 3956
+verification: security_reviewed
+source: https://github.com/yeoman/yo
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "yeoman/yo"
+  github_repo: yeoman/yo
   github_stars: 3956
 ---
 # Yeoman Enterprise Generator Suite

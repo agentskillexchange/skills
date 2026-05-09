@@ -1,13 +1,14 @@
 ---
-title: "Semgrep SAST Scanner"
-slug: "semgrep-sast-scanner-skill"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "OpenClaw"
+title: Semgrep SAST Scanner
+slug: semgrep-sast-scanner-skill
+description: Semgrep SAST Scanner
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep SAST Scanner

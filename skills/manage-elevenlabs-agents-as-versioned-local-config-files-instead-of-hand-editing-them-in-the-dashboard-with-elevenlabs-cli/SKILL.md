@@ -1,16 +1,16 @@
 ---
-title: "Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI"
-slug: "manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli"
-description: "Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI."
+title: Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI
+slug: manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli
+description: Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI.
 github_stars: 49
 verification: security_reviewed
-source: "https://github.com/elevenlabs/cli"
-category: "Integrations & Connectors"
-framework: "Custom Agents"
+source: https://github.com/elevenlabs/cli
+category: Integrations & Connectors
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "elevenlabs/cli"
+  github_repo: elevenlabs/cli
   github_stars: 49
-  npm_package: "@elevenlabs/cli"
+  npm_package: '@elevenlabs/cli'
 ---
 # Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI
 

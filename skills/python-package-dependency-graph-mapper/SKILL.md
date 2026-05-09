@@ -1,13 +1,14 @@
 ---
-title: "Python Package Dependency Graph Mapper"
-slug: "python-package-dependency-graph-mapper"
-verification: security_reviewed
-source: "https://github.com/tox-dev/pipdeptree"
-category: "General"
-framework: "MCP"
+title: Python Package Dependency Graph Mapper
+slug: python-package-dependency-graph-mapper
+description: Python Package Dependency Graph Mapper
 github_stars: 2996
+verification: security_reviewed
+source: https://github.com/tox-dev/pipdeptree
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "tox-dev/pipdeptree"
+  github_repo: tox-dev/pipdeptree
   github_stars: 2996
 ---
 # Python Package Dependency Graph Mapper

@@ -1,13 +1,14 @@
 ---
-title: "Content Readability Optimizer"
-slug: "content-readability-optimizer"
-verification: security_reviewed
-source: "https://github.com/textstat/textstat"
-category: "General"
-framework: "MCP"
+title: Content Readability Optimizer
+slug: content-readability-optimizer
+description: Content Readability Optimizer
 github_stars: 1366
+verification: security_reviewed
+source: https://github.com/textstat/textstat
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "textstat/textstat"
+  github_repo: textstat/textstat
   github_stars: 1366
 ---
 # Content Readability Optimizer

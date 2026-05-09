@@ -1,13 +1,14 @@
 ---
-title: "PostgreSQL MCP Server"
-slug: "postgresql-mcp-server"
-verification: security_reviewed
-source: "https://github.com/modelcontextprotocol/servers"
-category: "General"
-framework: "Claude Code"
+title: PostgreSQL MCP Server
+slug: postgresql-mcp-server
+description: PostgreSQL MCP Server
 github_stars: 85306
+verification: security_reviewed
+source: https://github.com/modelcontextprotocol/servers
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 85306
 ---
 # PostgreSQL MCP Server

@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Pipeline Composer"
-slug: "circleci-orb-pipeline-composer-2"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Claude Code"
+title: CircleCI Orb Pipeline Composer
+slug: circleci-orb-pipeline-composer-2
+description: CircleCI Orb Pipeline Composer
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Pipeline Composer

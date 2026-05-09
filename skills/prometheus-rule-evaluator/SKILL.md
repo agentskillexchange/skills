@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Rule Evaluator"
-slug: "prometheus-rule-evaluator"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Claude Agents"
+title: Prometheus Rule Evaluator
+slug: prometheus-rule-evaluator
+description: Prometheus Rule Evaluator
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Rule Evaluator

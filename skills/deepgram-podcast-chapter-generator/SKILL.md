@@ -1,10 +1,11 @@
 ---
-title: "Deepgram Podcast Chapter Generator"
-slug: "deepgram-podcast-chapter-generator"
+title: Deepgram Podcast Chapter Generator
+slug: deepgram-podcast-chapter-generator
+description: Deepgram Podcast Chapter Generator
 verification: security_reviewed
-source: "https://developers.deepgram.com/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://developers.deepgram.com/
+category: General
+framework: ChatGPT Agents
 ---
 # Deepgram Podcast Chapter Generator
 

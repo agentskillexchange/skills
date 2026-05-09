@@ -1,10 +1,11 @@
 ---
-title: "YouTube Chapter Generator from Transcripts"
-slug: "youtube-chapter-generator-transcripts"
+title: YouTube Chapter Generator from Transcripts
+slug: youtube-chapter-generator-transcripts
+description: YouTube Chapter Generator from Transcripts
 verification: security_reviewed
-source: "https://developers.google.com/youtube/v3"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.google.com/youtube/v3
+category: General
+framework: OpenClaw
 ---
 # YouTube Chapter Generator from Transcripts
 

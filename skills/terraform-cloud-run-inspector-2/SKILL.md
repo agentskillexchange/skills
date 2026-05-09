@@ -1,13 +1,14 @@
 ---
-title: "Terraform Cloud Run Inspector"
-slug: "terraform-cloud-run-inspector-2"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "MCP"
+title: Terraform Cloud Run Inspector
+slug: terraform-cloud-run-inspector-2
+description: Terraform Cloud Run Inspector
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Cloud Run Inspector

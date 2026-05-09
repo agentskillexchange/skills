@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Crash Loop Analyzer"
-slug: "kubernetes-pod-crash-loop-analyzer"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Cursor"
+title: Kubernetes Pod Crash Loop Analyzer
+slug: kubernetes-pod-crash-loop-analyzer
+description: Kubernetes Pod Crash Loop Analyzer
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Crash Loop Analyzer

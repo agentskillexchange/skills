@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Template Generator"
-slug: "gitlab-ci-template-generator"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "OpenClaw"
+title: GitLab CI Template Generator
+slug: gitlab-ci-template-generator
+description: GitLab CI Template Generator
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Template Generator

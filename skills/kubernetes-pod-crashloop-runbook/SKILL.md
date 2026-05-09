@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Crashloop Runbook"
-slug: "kubernetes-pod-crashloop-runbook"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Claude Agents"
+title: Kubernetes Pod Crashloop Runbook
+slug: kubernetes-pod-crashloop-runbook
+description: Kubernetes Pod Crashloop Runbook
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Crashloop Runbook

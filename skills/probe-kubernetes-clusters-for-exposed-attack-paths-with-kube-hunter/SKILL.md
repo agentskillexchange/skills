@@ -1,14 +1,14 @@
 ---
-title: "Probe Kubernetes clusters for exposed attack paths with kube-hunter"
-slug: "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter"
-description: "Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing."
+title: Probe Kubernetes clusters for exposed attack paths with kube-hunter
+slug: probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter
+description: Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing.
 github_stars: 5040
 verification: security_reviewed
-source: "https://github.com/aquasecurity/kube-hunter"
-category: "Security & Verification"
-framework: "Multi-Framework"
+source: https://github.com/aquasecurity/kube-hunter
+category: Security & Verification
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "aquasecurity/kube-hunter"
+  github_repo: aquasecurity/kube-hunter
   github_stars: 5040
 ---
 # Probe Kubernetes clusters for exposed attack paths with kube-hunter

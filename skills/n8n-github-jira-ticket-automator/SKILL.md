@@ -1,10 +1,11 @@
 ---
-title: "n8n GitHub Issue-to-Jira Ticket Automator"
-slug: "n8n-github-jira-ticket-automator"
+title: n8n GitHub Issue-to-Jira Ticket Automator
+slug: n8n-github-jira-ticket-automator
+description: n8n GitHub Issue-to-Jira Ticket Automator
 verification: security_reviewed
-source: "https://docs.n8n.io/"
-category: "General"
-framework: "Codex"
+source: https://docs.n8n.io/
+category: General
+framework: Codex
 ---
 # n8n GitHub Issue-to-Jira Ticket Automator
 

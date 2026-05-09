@@ -1,10 +1,11 @@
 ---
-title: "Weights & Biases Run Monitor"
-slug: "wandb-run-monitor"
+title: Weights & Biases Run Monitor
+slug: wandb-run-monitor
+description: Weights & Biases Run Monitor
 verification: security_reviewed
-source: "https://docs.wandb.ai/"
-category: "General"
-framework: "Claude Code"
+source: https://docs.wandb.ai/
+category: General
+framework: Claude Code
 ---
 # Weights & Biases Run Monitor
 

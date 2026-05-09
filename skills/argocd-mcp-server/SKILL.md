@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD MCP Server"
-slug: "argocd-mcp-server"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "MCP"
+title: ArgoCD MCP Server
+slug: argocd-mcp-server
+description: ArgoCD MCP Server
 github_stars: 22835
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22835
 ---
 # ArgoCD MCP Server

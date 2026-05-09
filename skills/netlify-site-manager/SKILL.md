@@ -1,13 +1,14 @@
 ---
-title: "Netlify Site Manager"
-slug: "netlify-site-manager"
-verification: security_reviewed
-source: "https://github.com/netlify/cli"
-category: "General"
-framework: "Custom Agents"
+title: Netlify Site Manager
+slug: netlify-site-manager
+description: Netlify Site Manager
 github_stars: 1843
+verification: security_reviewed
+source: https://github.com/netlify/cli
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "netlify/cli"
+  github_repo: netlify/cli
   github_stars: 1843
 ---
 # Netlify Site Manager

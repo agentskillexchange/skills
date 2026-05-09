@@ -1,13 +1,14 @@
 ---
-title: "Cookiecutter Project Scaffolder"
-slug: "cookiecutter-project-scaffolder-3"
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
-category: "General"
-framework: "ChatGPT Agents"
+title: Cookiecutter Project Scaffolder
+slug: cookiecutter-project-scaffolder-3
+description: Cookiecutter Project Scaffolder
 github_stars: 24818
+verification: security_reviewed
+source: https://github.com/cookiecutter/cookiecutter
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
+  github_repo: cookiecutter/cookiecutter
   github_stars: 24818
 ---
 # Cookiecutter Project Scaffolder

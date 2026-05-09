@@ -1,13 +1,14 @@
 ---
-title: "Docker Container Health Inspector"
-slug: "docker-container-health-inspector"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "MCP"
+title: Docker Container Health Inspector
+slug: docker-container-health-inspector
+description: Docker Container Health Inspector
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Container Health Inspector

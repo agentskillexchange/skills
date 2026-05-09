@@ -1,10 +1,11 @@
 ---
-title: "Rust Crate Documentation Extractor"
-slug: "rust-crate-documentation-extractor"
+title: Rust Crate Documentation Extractor
+slug: rust-crate-documentation-extractor
+description: Rust Crate Documentation Extractor
 verification: security_reviewed
-source: "https://docs.rs/about"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.rs/about
+category: General
+framework: Custom Agents
 ---
 # Rust Crate Documentation Extractor
 

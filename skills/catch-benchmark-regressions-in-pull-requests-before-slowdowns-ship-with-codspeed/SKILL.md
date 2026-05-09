@@ -1,16 +1,16 @@
 ---
-title: "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed"
-slug: "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed"
-description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
+title: Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed
+slug: catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed
+description: Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge.
 github_stars: 143
 verification: security_reviewed
-source: "https://github.com/CodSpeedHQ/codspeed"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/CodSpeedHQ/codspeed
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "CodSpeedHQ/codspeed"
+  github_repo: CodSpeedHQ/codspeed
   github_stars: 143
-  npm_package: "@codspeed/core"
+  npm_package: '@codspeed/core'
 ---
 # Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed
 

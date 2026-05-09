@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions OIDC Token Validator"
-slug: "github-actions-oidc-token-validator"
+title: GitHub Actions OIDC Token Validator
+slug: github-actions-oidc-token-validator
+description: GitHub Actions OIDC Token Validator
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Claude Code"
+source: https://docs.github.com/en/actions
+category: General
+framework: Claude Code
 ---
 # GitHub Actions OIDC Token Validator
 

@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Thumbnail Grid Generator"
-slug: "ffmpeg-thumbnail-grid-generator"
+title: FFmpeg Thumbnail Grid Generator
+slug: ffmpeg-thumbnail-grid-generator
+description: FFmpeg Thumbnail Grid Generator
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Thumbnail Grid Generator

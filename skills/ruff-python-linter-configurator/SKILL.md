@@ -1,13 +1,14 @@
 ---
-title: "Ruff Python Linter Configurator"
-slug: "ruff-python-linter-configurator"
-verification: security_reviewed
-source: "https://github.com/astral-sh/ruff"
-category: "General"
-framework: "Custom Agents"
+title: Ruff Python Linter Configurator
+slug: ruff-python-linter-configurator
+description: Ruff Python Linter Configurator
 github_stars: 47246
+verification: security_reviewed
+source: https://github.com/astral-sh/ruff
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "astral-sh/ruff"
+  github_repo: astral-sh/ruff
   github_stars: 47246
 ---
 # Ruff Python Linter Configurator

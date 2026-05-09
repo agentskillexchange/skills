@@ -1,10 +1,11 @@
 ---
-title: "SEO Keyword Research Automator"
-slug: "seo-keyword-research-automator"
+title: SEO Keyword Research Automator
+slug: seo-keyword-research-automator
+description: SEO Keyword Research Automator
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
-category: "General"
-framework: "Gemini"
+source: https://agentskillexchange.com/skills/seo-keyword-research-automator/
+category: General
+framework: Gemini
 ---
 # SEO Keyword Research Automator
 

@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions CI Builder"
-slug: "github-actions-ci-builder"
+title: GitHub Actions CI Builder
+slug: github-actions-ci-builder
+description: GitHub Actions CI Builder
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Codex"
+source: https://docs.github.com/en/actions
+category: General
+framework: Codex
 ---
 # GitHub Actions CI Builder
 

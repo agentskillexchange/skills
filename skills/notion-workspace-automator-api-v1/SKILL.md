@@ -1,13 +1,14 @@
 ---
-title: "Notion Workspace Automator"
-slug: "notion-workspace-automator-api-v1"
-verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-category: "General"
-framework: "Cursor"
+title: Notion Workspace Automator
+slug: notion-workspace-automator-api-v1
+description: Notion Workspace Automator
 github_stars: 5582
+verification: security_reviewed
+source: https://github.com/makenotion/notion-sdk-js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5582
 ---
 # Notion Workspace Automator

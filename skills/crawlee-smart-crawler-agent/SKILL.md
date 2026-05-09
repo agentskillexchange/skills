@@ -1,13 +1,14 @@
 ---
-title: "Crawlee Smart Crawler Agent"
-slug: "crawlee-smart-crawler-agent"
-verification: security_reviewed
-source: "https://github.com/apify/crawlee"
-category: "General"
-framework: "Cursor"
+title: Crawlee Smart Crawler Agent
+slug: crawlee-smart-crawler-agent
+description: Crawlee Smart Crawler Agent
 github_stars: 22922
+verification: security_reviewed
+source: https://github.com/apify/crawlee
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "apify/crawlee"
+  github_repo: apify/crawlee
   github_stars: 22922
 ---
 # Crawlee Smart Crawler Agent

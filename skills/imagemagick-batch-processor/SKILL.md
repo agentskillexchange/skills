@@ -1,12 +1,13 @@
 ---
-title: "ImageMagick Batch Processor"
-slug: "imagemagick-batch-processor"
+title: ImageMagick Batch Processor
+slug: imagemagick-batch-processor
+description: ImageMagick Batch Processor
 verification: security_reviewed
-source: "https://github.com/ImageMagick/ImageMagick"
-category: "General"
-framework: "MCP"
+source: https://github.com/ImageMagick/ImageMagick
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "imagemagick/imagemagick"
+  github_repo: imagemagick/imagemagick
   github_stars: 16152
 ---
 # ImageMagick Batch Processor

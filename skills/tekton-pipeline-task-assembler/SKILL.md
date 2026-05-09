@@ -1,13 +1,14 @@
 ---
-title: "Tekton Pipeline Task Assembler"
-slug: "tekton-pipeline-task-assembler"
-verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-category: "General"
-framework: "Gemini"
+title: Tekton Pipeline Task Assembler
+slug: tekton-pipeline-task-assembler
+description: Tekton Pipeline Task Assembler
 github_stars: 8936
+verification: security_reviewed
+source: https://github.com/tektoncd/pipeline
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "tektoncd/pipeline"
+  github_repo: tektoncd/pipeline
   github_stars: 8936
 ---
 # Tekton Pipeline Task Assembler

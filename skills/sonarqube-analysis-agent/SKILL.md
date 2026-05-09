@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Analysis Agent"
-slug: "sonarqube-analysis-agent"
+title: SonarQube Analysis Agent
+slug: sonarqube-analysis-agent
+description: SonarQube Analysis Agent
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Analysis Agent

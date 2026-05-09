@@ -1,13 +1,14 @@
 ---
-title: "Terraform Cloud Pipeline Agent"
-slug: "terraform-cloud-pipeline-agent"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "OpenClaw"
+title: Terraform Cloud Pipeline Agent
+slug: terraform-cloud-pipeline-agent
+description: Terraform Cloud Pipeline Agent
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Cloud Pipeline Agent

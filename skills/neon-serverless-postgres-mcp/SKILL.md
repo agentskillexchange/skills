@@ -1,13 +1,14 @@
 ---
-title: "Neon Serverless Postgres MCP"
-slug: "neon-serverless-postgres-mcp"
-verification: security_reviewed
-source: "https://github.com/neondatabase/mcp-server-neon"
-category: "General"
-framework: "MCP"
+title: Neon Serverless Postgres MCP
+slug: neon-serverless-postgres-mcp
+description: Neon Serverless Postgres MCP
 github_stars: 594
+verification: security_reviewed
+source: https://github.com/neondatabase/mcp-server-neon
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "neondatabase/mcp-server-neon"
+  github_repo: neondatabase/mcp-server-neon
   github_stars: 594
 ---
 # Neon Serverless Postgres MCP

@@ -1,13 +1,14 @@
 ---
-title: "Terraform Cloud MCP Server"
-slug: "terraform-cloud-mcp-server"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "MCP"
+title: Terraform Cloud MCP Server
+slug: terraform-cloud-mcp-server
+description: Terraform Cloud MCP Server
 github_stars: 48356
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48356
 ---
 # Terraform Cloud MCP Server

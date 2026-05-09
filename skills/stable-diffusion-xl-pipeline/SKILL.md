@@ -1,11 +1,12 @@
 ---
-title: "Stable Diffusion XL Pipeline"
-slug: "stable-diffusion-xl-pipeline"
-verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
-category: "General"
-framework: "Claude Agents"
+title: Stable Diffusion XL Pipeline
+slug: stable-diffusion-xl-pipeline
+description: Stable Diffusion XL Pipeline
 github_stars: 27135
+verification: security_reviewed
+source: https://github.com/Stability-AI/stablediffusion
+category: General
+framework: Claude Agents
 ---
 # Stable Diffusion XL Pipeline
 

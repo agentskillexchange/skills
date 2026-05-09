@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Auto DevOps Configurator"
-slug: "gitlab-ci-auto-devops-configurator"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Agents"
+title: GitLab CI Auto DevOps Configurator
+slug: gitlab-ci-auto-devops-configurator
+description: GitLab CI Auto DevOps Configurator
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Auto DevOps Configurator

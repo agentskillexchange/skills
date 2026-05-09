@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions Workflow Debugger"
-slug: "github-actions-workflow-debugger"
+title: GitHub Actions Workflow Debugger
+slug: github-actions-workflow-debugger
+description: GitHub Actions Workflow Debugger
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "Claude Agents"
+source: https://docs.github.com/en/actions
+category: General
+framework: Claude Agents
 ---
 # GitHub Actions Workflow Debugger
 

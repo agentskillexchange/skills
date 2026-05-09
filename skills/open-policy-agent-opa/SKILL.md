@@ -1,13 +1,14 @@
 ---
-title: "Open Policy Agent (OPA)"
-slug: "open-policy-agent-opa"
-verification: security_reviewed
-source: "https://github.com/open-policy-agent/opa"
-category: "General"
-framework: "Custom Agents"
+title: Open Policy Agent (OPA)
+slug: open-policy-agent-opa
+description: Open Policy Agent (OPA)
 github_stars: 11581
+verification: security_reviewed
+source: https://github.com/open-policy-agent/opa
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "open-policy-agent/opa"
+  github_repo: open-policy-agent/opa
   github_stars: 11581
 ---
 # Open Policy Agent (OPA)

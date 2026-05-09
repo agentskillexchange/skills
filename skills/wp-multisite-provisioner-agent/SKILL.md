@@ -1,12 +1,13 @@
 ---
-title: "WordPress Multisite Provisioner"
-slug: "wp-multisite-provisioner-agent"
+title: WordPress Multisite Provisioner
+slug: wp-multisite-provisioner-agent
+description: WordPress Multisite Provisioner
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress Multisite Provisioner

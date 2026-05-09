@@ -1,13 +1,14 @@
 ---
-title: "Nx Workspace Generator Toolkit"
-slug: "nx-workspace-generator-toolkit"
-verification: security_reviewed
-source: "https://github.com/nrwl/nx"
-category: "General"
-framework: "Cursor"
+title: Nx Workspace Generator Toolkit
+slug: nx-workspace-generator-toolkit
+description: Nx Workspace Generator Toolkit
 github_stars: 28566
+verification: security_reviewed
+source: https://github.com/nrwl/nx
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "nrwl/nx"
+  github_repo: nrwl/nx
   github_stars: 28566
 ---
 # Nx Workspace Generator Toolkit

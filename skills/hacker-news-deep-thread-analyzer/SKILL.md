@@ -1,13 +1,14 @@
 ---
-title: "Hacker News Deep Thread Analyzer"
-slug: "hacker-news-deep-thread-analyzer"
-verification: security_reviewed
-source: "https://github.com/HackerNews/API"
-category: "General"
-framework: "Custom Agents"
+title: Hacker News Deep Thread Analyzer
+slug: hacker-news-deep-thread-analyzer
+description: Hacker News Deep Thread Analyzer
 github_stars: 13014
+verification: security_reviewed
+source: https://github.com/HackerNews/API
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "HackerNews/API"
+  github_repo: HackerNews/API
   github_stars: 13014
 ---
 # Hacker News Deep Thread Analyzer

@@ -1,10 +1,11 @@
 ---
-title: "Outlook Email Automation"
-slug: "outlook-email-automation"
+title: Outlook Email Automation
+slug: outlook-email-automation
+description: Outlook Email Automation
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
-category: "General"
-framework: "Claude Code"
+source: https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
+category: General
+framework: Claude Code
 ---
 # Outlook Email Automation
 

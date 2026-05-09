@@ -1,13 +1,14 @@
 ---
-title: "Cosign Artifact Signature Verifier"
-slug: "cosign-artifact-signature-verifier"
-verification: security_reviewed
-source: "https://github.com/sigstore/cosign"
-category: "General"
-framework: "Codex"
+title: Cosign Artifact Signature Verifier
+slug: cosign-artifact-signature-verifier
+description: Cosign Artifact Signature Verifier
 github_stars: 5837
+verification: security_reviewed
+source: https://github.com/sigstore/cosign
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "sigstore/cosign"
+  github_repo: sigstore/cosign
   github_stars: 5837
 ---
 # Cosign Artifact Signature Verifier

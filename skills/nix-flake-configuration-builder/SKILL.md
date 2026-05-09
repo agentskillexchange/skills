@@ -1,13 +1,14 @@
 ---
-title: "Nix Flake Configuration Builder"
-slug: "nix-flake-configuration-builder"
-verification: security_reviewed
-source: "https://github.com/NixOS/nix"
-category: "General"
-framework: "Cursor"
+title: Nix Flake Configuration Builder
+slug: nix-flake-configuration-builder
+description: Nix Flake Configuration Builder
 github_stars: 16764
+verification: security_reviewed
+source: https://github.com/NixOS/nix
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "NixOS/nix"
+  github_repo: NixOS/nix
   github_stars: 16764
 ---
 # Nix Flake Configuration Builder

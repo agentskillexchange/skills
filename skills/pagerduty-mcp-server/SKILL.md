@@ -1,12 +1,13 @@
 ---
-title: "PagerDuty MCP Server"
-slug: "pagerduty-mcp-server"
+title: PagerDuty MCP Server
+slug: pagerduty-mcp-server
+description: PagerDuty MCP Server
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
-category: "General"
-framework: "MCP"
+source: https://github.com/PagerDuty/pdjs
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "pagerduty/pdjs"
+  github_repo: pagerduty/pdjs
   github_stars: 69
 ---
 # PagerDuty MCP Server

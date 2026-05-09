@@ -1,14 +1,14 @@
 ---
-title: "Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch"
-slug: "search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch"
-description: "Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl."
+title: Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch
+slug: search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch
+description: Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl.
 github_stars: 189
 verification: security_reviewed
-source: "https://github.com/shibing624/TreeSearch"
-category: "Developer Tools"
-framework: "Multi-Framework"
+source: https://github.com/shibing624/TreeSearch
+category: Developer Tools
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "shibing624/TreeSearch"
+  github_repo: shibing624/TreeSearch
   github_stars: 189
 ---
 # Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch

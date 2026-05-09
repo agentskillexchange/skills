@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Event Stream Analyzer"
-slug: "kubernetes-event-stream-analyzer"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Gemini"
+title: Kubernetes Event Stream Analyzer
+slug: kubernetes-event-stream-analyzer
+description: Kubernetes Event Stream Analyzer
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Event Stream Analyzer

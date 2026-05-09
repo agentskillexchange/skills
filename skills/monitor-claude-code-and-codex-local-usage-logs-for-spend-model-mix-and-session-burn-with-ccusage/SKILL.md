@@ -1,16 +1,16 @@
 ---
-title: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
-slug: "monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage"
-description: "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files."
+title: Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage
+slug: monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage
+description: Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files.
 github_stars: 12900
 verification: security_reviewed
-source: "https://github.com/ryoppippi/ccusage"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/ryoppippi/ccusage
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "ryoppippi/ccusage"
+  github_repo: ryoppippi/ccusage
   github_stars: 12900
-  npm_package: "ccusage"
+  npm_package: ccusage
 ---
 # Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage
 

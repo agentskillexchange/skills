@@ -1,13 +1,14 @@
 ---
-title: "Helm Chart Diff & Upgrade Manager"
-slug: "helm-chart-diff-upgrade-manager"
-verification: security_reviewed
-source: "https://github.com/helm/helm"
-category: "General"
-framework: "MCP"
+title: Helm Chart Diff & Upgrade Manager
+slug: helm-chart-diff-upgrade-manager
+description: Helm Chart Diff & Upgrade Manager
 github_stars: 29693
+verification: security_reviewed
+source: https://github.com/helm/helm
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "helm/helm"
+  github_repo: helm/helm
   github_stars: 29693
 ---
 # Helm Chart Diff & Upgrade Manager

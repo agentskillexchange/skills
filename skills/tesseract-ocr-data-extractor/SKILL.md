@@ -1,13 +1,14 @@
 ---
-title: "Tesseract OCR Data Extractor"
-slug: "tesseract-ocr-data-extractor"
-verification: security_reviewed
-source: "https://github.com/tesseract-ocr/tesseract"
-category: "General"
-framework: "Gemini"
+title: Tesseract OCR Data Extractor
+slug: tesseract-ocr-data-extractor
+description: Tesseract OCR Data Extractor
 github_stars: 73629
+verification: security_reviewed
+source: https://github.com/tesseract-ocr/tesseract
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "tesseract-ocr/tesseract"
+  github_repo: tesseract-ocr/tesseract
   github_stars: 73629
 ---
 # Tesseract OCR Data Extractor

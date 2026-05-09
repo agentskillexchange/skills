@@ -1,13 +1,14 @@
 ---
-title: "Terraform State Drift Detector"
-slug: "terraform-state-drift-detector"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "OpenClaw"
+title: Terraform State Drift Detector
+slug: terraform-state-drift-detector
+description: Terraform State Drift Detector
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform State Drift Detector

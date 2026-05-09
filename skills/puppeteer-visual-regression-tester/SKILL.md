@@ -1,13 +1,14 @@
 ---
-title: "Puppeteer Visual Regression Tester"
-slug: "puppeteer-visual-regression-tester"
-verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category: "General"
-framework: "Cursor"
+title: Puppeteer Visual Regression Tester
+slug: puppeteer-visual-regression-tester
+description: Puppeteer Visual Regression Tester
 github_stars: 94115
+verification: security_reviewed
+source: https://github.com/puppeteer/puppeteer
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
 ---
 # Puppeteer Visual Regression Tester

@@ -1,10 +1,11 @@
 ---
-title: "ScrapyCloud Job Manager"
-slug: "scrapycloud-job-manager"
+title: ScrapyCloud Job Manager
+slug: scrapycloud-job-manager
+description: ScrapyCloud Job Manager
 verification: security_reviewed
-source: "https://www.zyte.com/scrapy-cloud/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://www.zyte.com/scrapy-cloud/
+category: General
+framework: ChatGPT Agents
 ---
 # ScrapyCloud Job Manager
 

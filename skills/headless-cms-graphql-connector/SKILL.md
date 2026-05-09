@@ -1,10 +1,11 @@
 ---
-title: "Headless CMS GraphQL Connector"
-slug: "headless-cms-graphql-connector"
+title: Headless CMS GraphQL Connector
+slug: headless-cms-graphql-connector
+description: Headless CMS GraphQL Connector
 verification: security_reviewed
-source: "https://graphql.org/learn/queries/"
-category: "General"
-framework: "Gemini"
+source: https://graphql.org/learn/queries/
+category: General
+framework: Gemini
 ---
 # Headless CMS GraphQL Connector
 

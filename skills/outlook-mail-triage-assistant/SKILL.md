@@ -1,10 +1,11 @@
 ---
-title: "Outlook Mail Triage Assistant"
-slug: "outlook-mail-triage-assistant"
+title: Outlook Mail Triage Assistant
+slug: outlook-mail-triage-assistant
+description: Outlook Mail Triage Assistant
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview"
-category: "General"
-framework: "Claude Code"
+source: https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
+category: General
+framework: Claude Code
 ---
 # Outlook Mail Triage Assistant
 

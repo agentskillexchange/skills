@@ -1,10 +1,11 @@
 ---
-title: "GitHub Actions CI/CD Pipeline Manager"
-slug: "github-actions-cicd-pipeline-manager"
+title: GitHub Actions CI/CD Pipeline Manager
+slug: github-actions-cicd-pipeline-manager
+description: GitHub Actions CI/CD Pipeline Manager
 verification: security_reviewed
-source: "https://docs.github.com/en/actions"
-category: "General"
-framework: "OpenClaw"
+source: https://docs.github.com/en/actions
+category: General
+framework: OpenClaw
 ---
 # GitHub Actions CI/CD Pipeline Manager
 

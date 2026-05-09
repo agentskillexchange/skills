@@ -1,11 +1,12 @@
 ---
-title: "Stable Diffusion ControlNet Pipeline"
-slug: "stable-diffusion-controlnet-pipeline"
-verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
-category: "General"
-framework: "Cursor"
+title: Stable Diffusion ControlNet Pipeline
+slug: stable-diffusion-controlnet-pipeline
+description: Stable Diffusion ControlNet Pipeline
 github_stars: 33867
+verification: security_reviewed
+source: https://github.com/Stability-AI/stablediffusion
+category: General
+framework: Cursor
 ---
 # Stable Diffusion ControlNet Pipeline
 

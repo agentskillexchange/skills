@@ -1,13 +1,14 @@
 ---
-title: "Prometheus AlertManager Rules Engine"
-slug: "prometheus-alertmanager-rules-engine"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Custom Agents"
+title: Prometheus AlertManager Rules Engine
+slug: prometheus-alertmanager-rules-engine
+description: Prometheus AlertManager Rules Engine
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus AlertManager Rules Engine

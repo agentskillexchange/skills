@@ -1,13 +1,14 @@
 ---
-title: "Stripe Payments Connector"
-slug: "stripe-payments-connector"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "ChatGPT Agents"
+title: Stripe Payments Connector
+slug: stripe-payments-connector
+description: Stripe Payments Connector
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Payments Connector

@@ -1,13 +1,14 @@
 ---
-title: "Apache Kafka Stream Processor"
-slug: "apache-kafka-stream-processor"
-verification: security_reviewed
-source: "https://github.com/apache/kafka"
-category: "General"
-framework: "Custom Agents"
+title: Apache Kafka Stream Processor
+slug: apache-kafka-stream-processor
+description: Apache Kafka Stream Processor
 github_stars: 32373
+verification: security_reviewed
+source: https://github.com/apache/kafka
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "apache/kafka"
+  github_repo: apache/kafka
   github_stars: 32373
 ---
 # Apache Kafka Stream Processor

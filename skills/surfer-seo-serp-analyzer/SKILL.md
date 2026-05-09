@@ -1,10 +1,11 @@
 ---
-title: "Surfer SEO SERP Analyzer"
-slug: "surfer-seo-serp-analyzer"
+title: Surfer SEO SERP Analyzer
+slug: surfer-seo-serp-analyzer
+description: Surfer SEO SERP Analyzer
 verification: security_reviewed
-source: "https://docs.surferseo.com/en"
-category: "General"
-framework: "Cursor"
+source: https://docs.surferseo.com/en
+category: General
+framework: Cursor
 ---
 # Surfer SEO SERP Analyzer
 

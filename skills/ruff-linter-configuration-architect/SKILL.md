@@ -1,13 +1,14 @@
 ---
-title: "Ruff Linter Configuration Architect"
-slug: "ruff-linter-configuration-architect"
-verification: security_reviewed
-source: "https://github.com/astral-sh/ruff"
-category: "General"
-framework: "ChatGPT Agents"
+title: Ruff Linter Configuration Architect
+slug: ruff-linter-configuration-architect
+description: Ruff Linter Configuration Architect
 github_stars: 47162
+verification: security_reviewed
+source: https://github.com/astral-sh/ruff
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "astral-sh/ruff"
+  github_repo: astral-sh/ruff
   github_stars: 47162
 ---
 # Ruff Linter Configuration Architect

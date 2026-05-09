@@ -1,14 +1,14 @@
 ---
-title: "Capture responsive website screenshots for visual QA with Pageres"
-slug: "capture-responsive-website-screenshots-pageres"
-description: "Use Pageres when an agent needs repeatable screenshots of the same page across multiple viewport sizes for design review, release checks, or documentation snapshots. This is a bounded visual capture skill, not a general browser automation card."
+title: Capture responsive website screenshots for visual QA with Pageres
+slug: capture-responsive-website-screenshots-pageres
+description: Use Pageres when an agent needs repeatable screenshots of the same page across multiple viewport sizes for design review, release checks, or documentation snapshots. This is a bounded visual capture skill, not a general browser automation card.
 github_stars: 9741
 verification: security_reviewed
-source: "https://github.com/sindresorhus/pageres"
-category: "Browser Automation"
-framework: "Multi-Framework"
+source: https://github.com/sindresorhus/pageres
+category: Browser Automation
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "sindresorhus/pageres"
+  github_repo: sindresorhus/pageres
   github_stars: 9741
 ---
 # Capture responsive website screenshots for visual QA with Pageres

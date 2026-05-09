@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Debugger"
-slug: "circleci-orb-debugger"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Claude Agents"
+title: CircleCI Orb Debugger
+slug: circleci-orb-debugger
+description: CircleCI Orb Debugger
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Debugger

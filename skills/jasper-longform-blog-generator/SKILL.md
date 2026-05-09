@@ -1,10 +1,11 @@
 ---
-title: "Jasper AI Long-Form Blog Post Generator"
-slug: "jasper-longform-blog-generator"
+title: Jasper AI Long-Form Blog Post Generator
+slug: jasper-longform-blog-generator
+description: Jasper AI Long-Form Blog Post Generator
 verification: security_reviewed
-source: "https://developers.jasper.ai/"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.jasper.ai/
+category: General
+framework: OpenClaw
 ---
 # Jasper AI Long-Form Blog Post Generator
 

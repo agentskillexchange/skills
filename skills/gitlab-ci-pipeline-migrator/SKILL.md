@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Pipeline Migrator"
-slug: "gitlab-ci-pipeline-migrator"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Code"
+title: GitLab CI Pipeline Migrator
+slug: gitlab-ci-pipeline-migrator
+description: GitLab CI Pipeline Migrator
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Pipeline Migrator

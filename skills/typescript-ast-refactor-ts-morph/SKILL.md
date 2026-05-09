@@ -1,13 +1,14 @@
 ---
-title: "TypeScript AST Refactor"
-slug: "typescript-ast-refactor-ts-morph"
-verification: security_reviewed
-source: "https://github.com/dsherret/ts-morph"
-category: "General"
-framework: "Cursor"
+title: TypeScript AST Refactor
+slug: typescript-ast-refactor-ts-morph
+description: TypeScript AST Refactor
 github_stars: 6021
+verification: security_reviewed
+source: https://github.com/dsherret/ts-morph
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "dsherret/ts-morph"
+  github_repo: dsherret/ts-morph
   github_stars: 6021
 ---
 # TypeScript AST Refactor

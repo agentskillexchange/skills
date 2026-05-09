@@ -1,10 +1,11 @@
 ---
-title: "Google Calendar Conflict Resolver"
-slug: "google-calendar-conflict-resolver-2"
+title: Google Calendar Conflict Resolver
+slug: google-calendar-conflict-resolver-2
+description: Google Calendar Conflict Resolver
 verification: security_reviewed
-source: "https://developers.google.com/workspace/calendar/api/guides/overview"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.google.com/workspace/calendar/api/guides/overview
+category: General
+framework: OpenClaw
 ---
 # Google Calendar Conflict Resolver
 

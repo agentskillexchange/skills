@@ -1,12 +1,13 @@
 ---
-title: "Datadog Anomaly Detector"
-slug: "datadog-anomaly-detector"
+title: Datadog Anomaly Detector
+slug: datadog-anomaly-detector
+description: Datadog Anomaly Detector
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Gemini"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Anomaly Detector

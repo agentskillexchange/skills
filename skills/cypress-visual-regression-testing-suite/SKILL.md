@@ -1,13 +1,14 @@
 ---
-title: "Cypress Visual Regression Testing Suite"
-slug: "cypress-visual-regression-testing-suite"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "ChatGPT Agents"
+title: Cypress Visual Regression Testing Suite
+slug: cypress-visual-regression-testing-suite
+description: Cypress Visual Regression Testing Suite
 github_stars: 49617
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
 ---
 # Cypress Visual Regression Testing Suite

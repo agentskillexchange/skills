@@ -1,10 +1,11 @@
 ---
-title: "Snowflake Query History Extractor"
-slug: "snowflake-query-history-extractor"
+title: Snowflake Query History Extractor
+slug: snowflake-query-history-extractor
+description: Snowflake Query History Extractor
 verification: security_reviewed
-source: "https://pypi.org/project/snowflake-connector-python/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://pypi.org/project/snowflake-connector-python/
+category: General
+framework: ChatGPT Agents
 ---
 # Snowflake Query History Extractor
 

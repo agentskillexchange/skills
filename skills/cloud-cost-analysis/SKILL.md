@@ -1,13 +1,14 @@
 ---
-title: "Cloud Cost Analysis"
-slug: "cloud-cost-analysis"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Claude Agents"
+title: Cloud Cost Analysis
+slug: cloud-cost-analysis
+description: Cloud Cost Analysis
 github_stars: 3622
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3622
 ---
 # Cloud Cost Analysis

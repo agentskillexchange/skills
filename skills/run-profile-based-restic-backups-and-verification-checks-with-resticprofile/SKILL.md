@@ -1,14 +1,14 @@
 ---
-title: "Run profile-based restic backups and verification checks with resticprofile"
-slug: "run-profile-based-restic-backups-and-verification-checks-with-resticprofile"
-description: "Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands."
+title: Run profile-based restic backups and verification checks with resticprofile
+slug: run-profile-based-restic-backups-and-verification-checks-with-resticprofile
+description: Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands.
 github_stars: 1275
 verification: security_reviewed
-source: "https://github.com/creativeprojects/resticprofile"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+source: https://github.com/creativeprojects/resticprofile
+category: Runbooks & Diagnostics
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "creativeprojects/resticprofile"
+  github_repo: creativeprojects/resticprofile
   github_stars: 1275
 ---
 # Run profile-based restic backups and verification checks with resticprofile

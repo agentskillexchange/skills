@@ -1,10 +1,11 @@
 ---
-title: "Ahrefs Backlink Content Planner"
-slug: "ahrefs-backlink-content-planner"
+title: Ahrefs Backlink Content Planner
+slug: ahrefs-backlink-content-planner
+description: Ahrefs Backlink Content Planner
 verification: security_reviewed
-source: "https://docs.ahrefs.com/"
-category: "General"
-framework: "Gemini"
+source: https://docs.ahrefs.com/
+category: General
+framework: Gemini
 ---
 # Ahrefs Backlink Content Planner
 

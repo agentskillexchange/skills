@@ -1,13 +1,14 @@
 ---
-title: "GitHub Actions Matrix Strategy Builder"
-slug: "github-actions-matrix-strategy-builder"
-verification: security_reviewed
-source: "https://github.com/actions/setup-node"
-category: "General"
-framework: "Claude Code"
+title: GitHub Actions Matrix Strategy Builder
+slug: github-actions-matrix-strategy-builder
+description: GitHub Actions Matrix Strategy Builder
 github_stars: 4738
+verification: security_reviewed
+source: https://github.com/actions/setup-node
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "actions/setup-node"
+  github_repo: actions/setup-node
   github_stars: 4738
 ---
 # GitHub Actions Matrix Strategy Builder

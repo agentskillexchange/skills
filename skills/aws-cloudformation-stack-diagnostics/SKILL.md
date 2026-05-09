@@ -1,10 +1,11 @@
 ---
-title: "AWS CloudFormation Stack Diagnostics"
-slug: "aws-cloudformation-stack-diagnostics"
+title: AWS CloudFormation Stack Diagnostics
+slug: aws-cloudformation-stack-diagnostics
+description: AWS CloudFormation Stack Diagnostics
 verification: security_reviewed
-source: "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html
+category: General
+framework: ChatGPT Agents
 ---
 # AWS CloudFormation Stack Diagnostics
 

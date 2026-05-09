@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Linter &#038; Fixer"
-slug: "jenkins-pipeline-linter-fixer"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Cursor"
+title: Jenkins Pipeline Linter & Fixer
+slug: jenkins-pipeline-linter-fixer
+description: Jenkins Pipeline Linter & Fixer
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Linter &#038; Fixer

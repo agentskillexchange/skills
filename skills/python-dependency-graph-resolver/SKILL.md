@@ -1,13 +1,14 @@
 ---
-title: "Python Dependency Graph Resolver"
-slug: "python-dependency-graph-resolver"
-verification: security_reviewed
-source: "https://github.com/tox-dev/pipdeptree"
-category: "General"
-framework: "Custom Agents"
+title: Python Dependency Graph Resolver
+slug: python-dependency-graph-resolver
+description: Python Dependency Graph Resolver
 github_stars: 2996
+verification: security_reviewed
+source: https://github.com/tox-dev/pipdeptree
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "tox-dev/pipdeptree"
+  github_repo: tox-dev/pipdeptree
   github_stars: 2996
 ---
 # Python Dependency Graph Resolver

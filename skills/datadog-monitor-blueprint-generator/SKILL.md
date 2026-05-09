@@ -1,12 +1,13 @@
 ---
-title: "Datadog Monitor Blueprint Generator"
-slug: "datadog-monitor-blueprint-generator"
+title: Datadog Monitor Blueprint Generator
+slug: datadog-monitor-blueprint-generator
+description: Datadog Monitor Blueprint Generator
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "Cursor"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Monitor Blueprint Generator

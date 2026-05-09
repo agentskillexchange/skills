@@ -1,10 +1,11 @@
 ---
-title: "OpenTelemetry Trace Aggregator"
-slug: "opentelemetry-trace-aggregator"
+title: OpenTelemetry Trace Aggregator
+slug: opentelemetry-trace-aggregator
+description: OpenTelemetry Trace Aggregator
 verification: security_reviewed
-source: "https://opentelemetry.io/"
-category: "General"
-framework: "OpenClaw"
+source: https://opentelemetry.io/
+category: General
+framework: OpenClaw
 ---
 # OpenTelemetry Trace Aggregator
 

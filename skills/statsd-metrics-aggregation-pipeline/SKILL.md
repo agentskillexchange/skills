@@ -1,10 +1,11 @@
 ---
-title: "StatsD Metrics Aggregation Pipeline"
-slug: "statsd-metrics-aggregation-pipeline"
+title: StatsD Metrics Aggregation Pipeline
+slug: statsd-metrics-aggregation-pipeline
+description: StatsD Metrics Aggregation Pipeline
 verification: security_reviewed
-source: "https://docs.datadoghq.com/"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.datadoghq.com/
+category: General
+framework: Custom Agents
 ---
 # StatsD Metrics Aggregation Pipeline
 

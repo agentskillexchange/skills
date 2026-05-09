@@ -1,10 +1,11 @@
 ---
-title: "New Relic NRQL Query Agent"
-slug: "new-relic-nrql-query-agent"
+title: New Relic NRQL Query Agent
+slug: new-relic-nrql-query-agent
+description: New Relic NRQL Query Agent
 verification: security_reviewed
-source: "https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/
+category: General
+framework: Custom Agents
 ---
 # New Relic NRQL Query Agent
 

@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP Scanner Agent"
-slug: "owasp-zap-scanner-agent"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "OpenClaw"
+title: OWASP ZAP Scanner Agent
+slug: owasp-zap-scanner-agent
+description: OWASP ZAP Scanner Agent
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP Scanner Agent

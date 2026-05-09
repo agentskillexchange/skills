@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Enforcement Agent"
-slug: "eslint-rule-enforcement-agent"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Code"
+title: ESLint Rule Enforcement Agent
+slug: eslint-rule-enforcement-agent
+description: ESLint Rule Enforcement Agent
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Enforcement Agent

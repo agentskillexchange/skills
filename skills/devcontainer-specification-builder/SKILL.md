@@ -1,13 +1,14 @@
 ---
-title: "Devcontainer Specification Builder"
-slug: "devcontainer-specification-builder"
-verification: security_reviewed
-source: "https://github.com/devcontainers/spec"
-category: "General"
-framework: "Claude Agents"
+title: Devcontainer Specification Builder
+slug: devcontainer-specification-builder
+description: Devcontainer Specification Builder
 github_stars: 5357
+verification: security_reviewed
+source: https://github.com/devcontainers/spec
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "devcontainers/spec"
+  github_repo: devcontainers/spec
   github_stars: 5357
 ---
 # Devcontainer Specification Builder

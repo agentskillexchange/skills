@@ -1,13 +1,14 @@
 ---
-title: "Falco Runtime Security Monitor"
-slug: "falco-runtime-security-monitor"
-verification: security_reviewed
-source: "https://github.com/falcosecurity/falco"
-category: "General"
-framework: "Multi-Framework"
+title: Falco Runtime Security Monitor
+slug: falco-runtime-security-monitor
+description: Falco Runtime Security Monitor
 github_stars: 8883
+verification: security_reviewed
+source: https://github.com/falcosecurity/falco
+category: General
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "falcosecurity/falco"
+  github_repo: falcosecurity/falco
   github_stars: 8883
 ---
 # Falco Runtime Security Monitor

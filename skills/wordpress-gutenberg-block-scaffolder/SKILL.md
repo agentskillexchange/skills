@@ -1,12 +1,13 @@
 ---
-title: "WordPress Gutenberg Block Scaffolder"
-slug: "wordpress-gutenberg-block-scaffolder"
+title: WordPress Gutenberg Block Scaffolder
+slug: wordpress-gutenberg-block-scaffolder
+description: WordPress Gutenberg Block Scaffolder
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress Gutenberg Block Scaffolder

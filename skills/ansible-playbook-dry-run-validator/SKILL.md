@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Dry Run Validator"
-slug: "ansible-playbook-dry-run-validator"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "OpenClaw"
+title: Ansible Playbook Dry Run Validator
+slug: ansible-playbook-dry-run-validator
+description: Ansible Playbook Dry Run Validator
 github_stars: 68364
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 # Ansible Playbook Dry Run Validator

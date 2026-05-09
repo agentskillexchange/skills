@@ -1,13 +1,14 @@
 ---
-title: "dbt Model Dependency Resolver"
-slug: "dbt-model-dependency-resolver-2"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "Claude Code"
+title: dbt Model Dependency Resolver
+slug: dbt-model-dependency-resolver-2
+description: dbt Model Dependency Resolver
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Model Dependency Resolver

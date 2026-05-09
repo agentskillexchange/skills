@@ -1,10 +1,11 @@
 ---
-title: "Podcast Transcription Pipeline"
-slug: "podcast-transcription-pipeline-agent"
+title: Podcast Transcription Pipeline
+slug: podcast-transcription-pipeline-agent
+description: Podcast Transcription Pipeline
 verification: security_reviewed
-source: "https://platform.openai.com/docs/guides/speech-to-text"
-category: "General"
-framework: "Codex"
+source: https://platform.openai.com/docs/guides/speech-to-text
+category: General
+framework: Codex
 ---
 # Podcast Transcription Pipeline
 

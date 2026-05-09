@@ -1,10 +1,11 @@
 ---
-title: "SerpAPI Search Pipeline"
-slug: "serpapi-search-pipeline"
+title: SerpAPI Search Pipeline
+slug: serpapi-search-pipeline
+description: SerpAPI Search Pipeline
 verification: security_reviewed
-source: "https://serpapi.com/search-api"
-category: "General"
-framework: "OpenClaw"
+source: https://serpapi.com/search-api
+category: General
+framework: OpenClaw
 ---
 # SerpAPI Search Pipeline
 

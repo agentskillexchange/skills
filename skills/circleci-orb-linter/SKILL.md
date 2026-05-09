@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Orb Linter"
-slug: "circleci-orb-linter"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "Cursor"
+title: CircleCI Orb Linter
+slug: circleci-orb-linter
+description: CircleCI Orb Linter
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Orb Linter

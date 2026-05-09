@@ -1,13 +1,14 @@
 ---
-title: "Stripe Connect Platform Bridge"
-slug: "stripe-connect-platform-bridge"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "Claude Agents"
+title: Stripe Connect Platform Bridge
+slug: stripe-connect-platform-bridge
+description: Stripe Connect Platform Bridge
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Connect Platform Bridge

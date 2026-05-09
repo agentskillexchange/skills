@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD GitOps Sync Automator"
-slug: "argocd-gitops-sync-automator"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "MCP"
+title: ArgoCD GitOps Sync Automator
+slug: argocd-gitops-sync-automator
+description: ArgoCD GitOps Sync Automator
 github_stars: 22518
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22518
 ---
 # ArgoCD GitOps Sync Automator

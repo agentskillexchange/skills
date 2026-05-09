@@ -1,13 +1,14 @@
 ---
-title: "JSON-to-Avro Schema Transformer"
-slug: "json-to-avro-schema-transformer"
-verification: security_reviewed
-source: "https://github.com/apache/avro"
-category: "General"
-framework: "OpenClaw"
+title: JSON-to-Avro Schema Transformer
+slug: json-to-avro-schema-transformer
+description: JSON-to-Avro Schema Transformer
 github_stars: 3265
+verification: security_reviewed
+source: https://github.com/apache/avro
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "apache/avro"
+  github_repo: apache/avro
   github_stars: 3265
 ---
 # JSON-to-Avro Schema Transformer

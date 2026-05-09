@@ -1,13 +1,14 @@
 ---
-title: "Nginx Error Log Analyzer and Fixer"
-slug: "nginx-error-log-analyzer-fixer"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "Claude Agents"
+title: Nginx Error Log Analyzer and Fixer
+slug: nginx-error-log-analyzer-fixer
+description: Nginx Error Log Analyzer and Fixer
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Error Log Analyzer and Fixer

@@ -1,10 +1,11 @@
 ---
-title: "CodeClimate Diff Analyzer"
-slug: "codeclimate-diff-analyzer-2"
+title: CodeClimate Diff Analyzer
+slug: codeclimate-diff-analyzer-2
+description: CodeClimate Diff Analyzer
 verification: security_reviewed
-source: "https://codeclimate.com/"
-category: "General"
-framework: "Claude Code"
+source: https://codeclimate.com/
+category: General
+framework: Claude Code
 ---
 # CodeClimate Diff Analyzer
 

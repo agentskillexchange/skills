@@ -1,16 +1,16 @@
 ---
-title: "Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens"
-slug: "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens"
-description: "Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it."
+title: Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens
+slug: inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens
+description: Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it.
 github_stars: 3715
 verification: security_reviewed
-source: "https://github.com/YS-L/csvlens"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+source: https://github.com/YS-L/csvlens
+category: Data Extraction & Transformation
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "YS-L/csvlens"
+  github_repo: YS-L/csvlens
   github_stars: 3715
-  npm_package: "csvlens"
+  npm_package: csvlens
 ---
 # Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens
 

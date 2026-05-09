@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Schema Introspection Mapper"
-slug: "graphql-schema-introspection-mapper"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "Cursor"
+title: GraphQL Schema Introspection Mapper
+slug: graphql-schema-introspection-mapper
+description: GraphQL Schema Introspection Mapper
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Schema Introspection Mapper

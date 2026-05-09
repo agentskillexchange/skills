@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Sync Orchestrator"
-slug: "argocd-sync-orchestrator"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "ChatGPT Agents"
+title: ArgoCD Sync Orchestrator
+slug: argocd-sync-orchestrator
+description: ArgoCD Sync Orchestrator
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Sync Orchestrator

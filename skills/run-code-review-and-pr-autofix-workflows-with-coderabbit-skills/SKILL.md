@@ -1,14 +1,14 @@
 ---
-title: "Run code review and PR autofix workflows with CodeRabbit Skills"
-slug: "run-code-review-and-pr-autofix-workflows-with-coderabbit-skills"
-description: "Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops."
+title: Run code review and PR autofix workflows with CodeRabbit Skills
+slug: run-code-review-and-pr-autofix-workflows-with-coderabbit-skills
+description: Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops.
 github_stars: 73
 verification: security_reviewed
-source: "https://github.com/coderabbitai/skills"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+source: https://github.com/coderabbitai/skills
+category: Code Quality & Review
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "coderabbitai/skills"
+  github_repo: coderabbitai/skills
   github_stars: 73
 ---
 # Run code review and PR autofix workflows with CodeRabbit Skills

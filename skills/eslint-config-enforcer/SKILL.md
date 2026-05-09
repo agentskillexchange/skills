@@ -1,13 +1,14 @@
 ---
-title: "ESLint Config Enforcer"
-slug: "eslint-config-enforcer"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Code"
+title: ESLint Config Enforcer
+slug: eslint-config-enforcer
+description: ESLint Config Enforcer
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Config Enforcer

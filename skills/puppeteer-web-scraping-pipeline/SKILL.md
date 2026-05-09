@@ -1,13 +1,14 @@
 ---
-title: "Puppeteer Web Scraping Pipeline"
-slug: "puppeteer-web-scraping-pipeline"
-verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category: "General"
-framework: "Gemini"
+title: Puppeteer Web Scraping Pipeline
+slug: puppeteer-web-scraping-pipeline
+description: Puppeteer Web Scraping Pipeline
 github_stars: 94115
+verification: security_reviewed
+source: https://github.com/puppeteer/puppeteer
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
 ---
 # Puppeteer Web Scraping Pipeline

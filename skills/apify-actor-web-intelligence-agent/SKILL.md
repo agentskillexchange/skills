@@ -1,13 +1,14 @@
 ---
-title: "Apify Actor Web Intelligence Agent"
-slug: "apify-actor-web-intelligence-agent"
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
-category: "General"
-framework: "Custom Agents"
+title: Apify Actor Web Intelligence Agent
+slug: apify-actor-web-intelligence-agent
+description: Apify Actor Web Intelligence Agent
 github_stars: 173
+verification: security_reviewed
+source: https://github.com/apify/apify-sdk-js
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
 ---
 # Apify Actor Web Intelligence Agent

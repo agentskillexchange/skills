@@ -1,13 +1,14 @@
 ---
-title: "Yeoman Scaffold Runner"
-slug: "yeoman-scaffold-runner"
-verification: security_reviewed
-source: "https://github.com/yeoman/yeoman"
-category: "General"
-framework: "OpenClaw"
+title: Yeoman Scaffold Runner
+slug: yeoman-scaffold-runner
+description: Yeoman Scaffold Runner
 github_stars: 10120
+verification: security_reviewed
+source: https://github.com/yeoman/yeoman
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "yeoman/yeoman"
+  github_repo: yeoman/yeoman
   github_stars: 10120
 ---
 # Yeoman Scaffold Runner

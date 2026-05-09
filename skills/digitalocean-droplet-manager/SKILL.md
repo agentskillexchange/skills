@@ -1,13 +1,14 @@
 ---
-title: "DigitalOcean Droplet Manager"
-slug: "digitalocean-droplet-manager"
-verification: security_reviewed
-source: "https://github.com/digitalocean/doctl"
-category: "General"
-framework: "Custom Agents"
+title: DigitalOcean Droplet Manager
+slug: digitalocean-droplet-manager
+description: DigitalOcean Droplet Manager
 github_stars: 3417
+verification: security_reviewed
+source: https://github.com/digitalocean/doctl
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "digitalocean/doctl"
+  github_repo: digitalocean/doctl
   github_stars: 3417
 ---
 # DigitalOcean Droplet Manager

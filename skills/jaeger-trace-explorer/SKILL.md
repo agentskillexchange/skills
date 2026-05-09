@@ -1,13 +1,14 @@
 ---
-title: "Jaeger Trace Explorer"
-slug: "jaeger-trace-explorer"
-verification: security_reviewed
-source: "https://github.com/jaegertracing/jaeger"
-category: "General"
-framework: "MCP"
+title: Jaeger Trace Explorer
+slug: jaeger-trace-explorer
+description: Jaeger Trace Explorer
 github_stars: 22671
+verification: security_reviewed
+source: https://github.com/jaegertracing/jaeger
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "jaegertracing/jaeger"
+  github_repo: jaegertracing/jaeger
   github_stars: 22671
 ---
 # Jaeger Trace Explorer

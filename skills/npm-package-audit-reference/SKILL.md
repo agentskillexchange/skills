@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Audit Reference"
-slug: "npm-package-audit-reference"
+title: NPM Package Audit Reference
+slug: npm-package-audit-reference
+description: NPM Package Audit Reference
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
-category: "General"
-framework: "Codex"
+source: https://docs.npmjs.com/cli/v10/commands/npm-audit/
+category: General
+framework: Codex
 ---
 # NPM Package Audit Reference
 

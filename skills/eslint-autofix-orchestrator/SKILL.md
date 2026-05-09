@@ -1,13 +1,14 @@
 ---
-title: "ESLint Auto-Fix Orchestrator"
-slug: "eslint-autofix-orchestrator"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Claude Code"
+title: ESLint Auto-Fix Orchestrator
+slug: eslint-autofix-orchestrator
+description: ESLint Auto-Fix Orchestrator
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Auto-Fix Orchestrator

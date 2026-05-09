@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Failure Analyzer"
-slug: "jenkins-pipeline-failure-analyzer"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Claude Agents"
+title: Jenkins Pipeline Failure Analyzer
+slug: jenkins-pipeline-failure-analyzer
+description: Jenkins Pipeline Failure Analyzer
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Failure Analyzer

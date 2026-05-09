@@ -1,13 +1,14 @@
 ---
-title: "Terraform Plan Analyzer"
-slug: "terraform-plan-analyzer-agent"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "Claude Code"
+title: Terraform Plan Analyzer
+slug: terraform-plan-analyzer-agent
+description: Terraform Plan Analyzer
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Plan Analyzer

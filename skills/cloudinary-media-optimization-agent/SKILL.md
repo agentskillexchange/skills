@@ -1,10 +1,11 @@
 ---
-title: "Cloudinary Media Optimization Agent"
-slug: "cloudinary-media-optimization-agent"
+title: Cloudinary Media Optimization Agent
+slug: cloudinary-media-optimization-agent
+description: Cloudinary Media Optimization Agent
 verification: security_reviewed
-source: "https://cloudinary.com/documentation"
-category: "General"
-framework: "Claude Agents"
+source: https://cloudinary.com/documentation
+category: General
+framework: Claude Agents
 ---
 # Cloudinary Media Optimization Agent
 

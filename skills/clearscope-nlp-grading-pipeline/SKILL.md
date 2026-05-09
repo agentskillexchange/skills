@@ -1,10 +1,11 @@
 ---
-title: "Clearscope NLP Grading Pipeline"
-slug: "clearscope-nlp-grading-pipeline"
+title: Clearscope NLP Grading Pipeline
+slug: clearscope-nlp-grading-pipeline
+description: Clearscope NLP Grading Pipeline
 verification: security_reviewed
-source: "https://www.clearscope.io/product/optimize"
-category: "General"
-framework: "Claude Code"
+source: https://www.clearscope.io/product/optimize
+category: General
+framework: Claude Code
 ---
 # Clearscope NLP Grading Pipeline
 

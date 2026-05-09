@@ -1,10 +1,11 @@
 ---
-title: "Zapier Multi-Step Lead Enrichment Workflow"
-slug: "zapier-lead-enrichment-workflow"
+title: Zapier Multi-Step Lead Enrichment Workflow
+slug: zapier-lead-enrichment-workflow
+description: Zapier Multi-Step Lead Enrichment Workflow
 verification: security_reviewed
-source: "https://docs.zapier.com/platform/home"
-category: "General"
-framework: "MCP"
+source: https://docs.zapier.com/platform/home
+category: General
+framework: MCP
 ---
 # Zapier Multi-Step Lead Enrichment Workflow
 

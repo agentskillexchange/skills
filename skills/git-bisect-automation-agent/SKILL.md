@@ -1,10 +1,11 @@
 ---
-title: "Git Bisect Automation Agent"
-slug: "git-bisect-automation-agent"
+title: Git Bisect Automation Agent
+slug: git-bisect-automation-agent
+description: Git Bisect Automation Agent
 verification: security_reviewed
-source: "https://git-scm.com/docs/git-bisect"
-category: "General"
-framework: "Custom Agents"
+source: https://git-scm.com/docs/git-bisect
+category: General
+framework: Custom Agents
 ---
 # Git Bisect Automation Agent
 

@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Sync Drift Detector"
-slug: "argocd-sync-drift-detector"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "OpenClaw"
+title: ArgoCD Sync Drift Detector
+slug: argocd-sync-drift-detector
+description: ArgoCD Sync Drift Detector
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Sync Drift Detector

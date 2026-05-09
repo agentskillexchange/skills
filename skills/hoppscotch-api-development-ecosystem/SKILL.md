@@ -1,14 +1,14 @@
 ---
-title: "Hoppscotch Open Source API Development Ecosystem"
-slug: "hoppscotch-api-development-ecosystem"
-description: "Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and Insomnia. It supports REST, GraphQL, WebSocket, SSE, MQTT, and Socket.IO protocols with a fast, browser-based interface available as PWA, desktop app, and CLI."
+title: Hoppscotch Open Source API Development Ecosystem
+slug: hoppscotch-api-development-ecosystem
+description: Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and Insomnia. It supports REST, GraphQL, WebSocket, SSE, MQTT, and Socket.IO protocols with a fast, browser-based interface available as PWA, desktop app, and CLI.
 github_stars: 78738
 verification: security_reviewed
-source: "https://github.com/hoppscotch/hoppscotch"
-category: "Developer Tools"
-framework: "Claude Code"
+source: https://github.com/hoppscotch/hoppscotch
+category: Developer Tools
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "hoppscotch/hoppscotch"
+  github_repo: hoppscotch/hoppscotch
   github_stars: 78738
 ---
 # Hoppscotch Open Source API Development Ecosystem

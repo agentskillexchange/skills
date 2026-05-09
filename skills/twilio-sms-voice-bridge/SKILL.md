@@ -1,13 +1,14 @@
 ---
-title: "Twilio SMS &#038; Voice Bridge"
-slug: "twilio-sms-voice-bridge"
-verification: security_reviewed
-source: "https://github.com/twilio/twilio-node"
-category: "General"
-framework: "OpenClaw"
+title: Twilio SMS & Voice Bridge
+slug: twilio-sms-voice-bridge
+description: Twilio SMS & Voice Bridge
 github_stars: 1528
+verification: security_reviewed
+source: https://github.com/twilio/twilio-node
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "twilio/twilio-node"
+  github_repo: twilio/twilio-node
   github_stars: 1528
 ---
 # Twilio SMS &#038; Voice Bridge

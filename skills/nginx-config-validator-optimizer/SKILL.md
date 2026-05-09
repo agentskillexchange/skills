@@ -1,13 +1,14 @@
 ---
-title: "Nginx Config Validator and Optimizer"
-slug: "nginx-config-validator-optimizer"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "MCP"
+title: Nginx Config Validator and Optimizer
+slug: nginx-config-validator-optimizer
+description: Nginx Config Validator and Optimizer
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Config Validator and Optimizer

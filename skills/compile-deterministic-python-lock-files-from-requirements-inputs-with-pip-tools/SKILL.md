@@ -1,14 +1,14 @@
 ---
-title: "Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools"
-slug: "compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools"
-description: "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins."
+title: Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools
+slug: compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools
+description: Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins.
 github_stars: 8001
 verification: security_reviewed
-source: "https://github.com/jazzband/pip-tools"
-category: "Developer Tools"
-framework: "Multi-Framework"
+source: https://github.com/jazzband/pip-tools
+category: Developer Tools
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "jazzband/pip-tools"
+  github_repo: jazzband/pip-tools
   github_stars: 8001
 ---
 # Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools

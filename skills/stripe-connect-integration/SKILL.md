@@ -1,13 +1,14 @@
 ---
-title: "Stripe Connect Integration"
-slug: "stripe-connect-integration"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "ChatGPT Agents"
+title: Stripe Connect Integration
+slug: stripe-connect-integration
+description: Stripe Connect Integration
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Connect Integration

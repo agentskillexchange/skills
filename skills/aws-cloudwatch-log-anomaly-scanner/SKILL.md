@@ -1,13 +1,14 @@
 ---
-title: "AWS CloudWatch Log Anomaly Scanner"
-slug: "aws-cloudwatch-log-anomaly-scanner"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Codex"
+title: AWS CloudWatch Log Anomaly Scanner
+slug: aws-cloudwatch-log-anomaly-scanner
+description: AWS CloudWatch Log Anomaly Scanner
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS CloudWatch Log Anomaly Scanner

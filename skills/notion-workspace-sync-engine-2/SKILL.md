@@ -1,10 +1,11 @@
 ---
-title: "Notion Workspace Sync Engine"
-slug: "notion-workspace-sync-engine-2"
+title: Notion Workspace Sync Engine
+slug: notion-workspace-sync-engine-2
+description: Notion Workspace Sync Engine
 verification: security_reviewed
-source: "https://developers.notion.com/"
-category: "General"
-framework: "Gemini"
+source: https://developers.notion.com/
+category: General
+framework: Gemini
 ---
 # Notion Workspace Sync Engine
 

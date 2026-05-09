@@ -1,13 +1,14 @@
 ---
-title: "Sharp Image CDN Optimizer"
-slug: "sharp-image-cdn-optimizer"
-verification: security_reviewed
-source: "https://github.com/lovell/sharp"
-category: "General"
-framework: "Custom Agents"
+title: Sharp Image CDN Optimizer
+slug: sharp-image-cdn-optimizer
+description: Sharp Image CDN Optimizer
 github_stars: 32138
+verification: security_reviewed
+source: https://github.com/lovell/sharp
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "lovell/sharp"
+  github_repo: lovell/sharp
   github_stars: 32138
 ---
 # Sharp Image CDN Optimizer

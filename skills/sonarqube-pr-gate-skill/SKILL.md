@@ -1,12 +1,13 @@
 ---
-title: "SonarQube PR Gate"
-slug: "sonarqube-pr-gate-skill"
+title: SonarQube PR Gate
+slug: sonarqube-pr-gate-skill
+description: SonarQube PR Gate
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Codex"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube PR Gate

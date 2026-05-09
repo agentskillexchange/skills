@@ -1,13 +1,14 @@
 ---
-title: "SQLite MCP Server"
-slug: "sqlite-mcp-server"
-verification: security_reviewed
-source: "https://github.com/modelcontextprotocol/servers"
-category: "General"
-framework: "Claude Code"
+title: SQLite MCP Server
+slug: sqlite-mcp-server
+description: SQLite MCP Server
 github_stars: 85306
+verification: security_reviewed
+source: https://github.com/modelcontextprotocol/servers
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 85306
 ---
 # SQLite MCP Server

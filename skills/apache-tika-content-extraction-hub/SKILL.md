@@ -1,13 +1,14 @@
 ---
-title: "Apache Tika Content Extraction Hub"
-slug: "apache-tika-content-extraction-hub"
-verification: security_reviewed
-source: "https://github.com/apache/tika"
-category: "General"
-framework: "Custom Agents"
+title: Apache Tika Content Extraction Hub
+slug: apache-tika-content-extraction-hub
+description: Apache Tika Content Extraction Hub
 github_stars: 3703
+verification: security_reviewed
+source: https://github.com/apache/tika
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "apache/tika"
+  github_repo: apache/tika
   github_stars: 3703
 ---
 # Apache Tika Content Extraction Hub

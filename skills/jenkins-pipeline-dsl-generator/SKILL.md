@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline DSL Generator"
-slug: "jenkins-pipeline-dsl-generator"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Claude Code"
+title: Jenkins Pipeline DSL Generator
+slug: jenkins-pipeline-dsl-generator
+description: Jenkins Pipeline DSL Generator
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline DSL Generator

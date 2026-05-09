@@ -1,10 +1,11 @@
 ---
-title: "NPM Package API Surface Extractor"
-slug: "npm-package-api-surface-extractor"
+title: NPM Package API Surface Extractor
+slug: npm-package-api-surface-extractor
+description: NPM Package API Surface Extractor
 verification: security_reviewed
-source: "https://api-extractor.com/"
-category: "General"
-framework: "Claude Code"
+source: https://api-extractor.com/
+category: General
+framework: Claude Code
 ---
 # NPM Package API Surface Extractor
 

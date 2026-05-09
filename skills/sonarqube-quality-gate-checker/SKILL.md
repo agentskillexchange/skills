@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Quality Gate Checker"
-slug: "sonarqube-quality-gate-checker"
+title: SonarQube Quality Gate Checker
+slug: sonarqube-quality-gate-checker
+description: SonarQube Quality Gate Checker
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Gemini"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Quality Gate Checker

@@ -1,13 +1,14 @@
 ---
-title: "CircleCI Pipeline Optimizer"
-slug: "circleci-pipeline-optimizer"
-verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-category: "General"
-framework: "ChatGPT Agents"
+title: CircleCI Pipeline Optimizer
+slug: circleci-pipeline-optimizer
+description: CircleCI Pipeline Optimizer
 github_stars: 843
+verification: security_reviewed
+source: https://github.com/circleci/circleci-docs
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   github_stars: 843
 ---
 # CircleCI Pipeline Optimizer

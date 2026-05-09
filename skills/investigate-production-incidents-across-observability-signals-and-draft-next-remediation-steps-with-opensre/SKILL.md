@@ -1,14 +1,14 @@
 ---
-title: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
-slug: "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre"
-description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
+title: Investigate production incidents across observability signals and draft next remediation steps with OpenSRE
+slug: investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre
+description: Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause.
 github_stars: 1979
 verification: security_reviewed
-source: "https://github.com/Tracer-Cloud/opensre"
-category: "Runbooks & Diagnostics"
-framework: "Custom Agents"
+source: https://github.com/Tracer-Cloud/opensre
+category: Runbooks & Diagnostics
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "Tracer-Cloud/opensre"
+  github_repo: Tracer-Cloud/opensre
   github_stars: 1979
 ---
 # Investigate production incidents across observability signals and draft next remediation steps with OpenSRE

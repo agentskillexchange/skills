@@ -1,10 +1,11 @@
 ---
-title: "Figma Design Token Extractor"
-slug: "figma-design-token-extractor-3"
+title: Figma Design Token Extractor
+slug: figma-design-token-extractor-3
+description: Figma Design Token Extractor
 verification: security_reviewed
-source: "https://developers.figma.com/docs/rest-api/"
-category: "General"
-framework: "Cursor"
+source: https://developers.figma.com/docs/rest-api/
+category: General
+framework: Cursor
 ---
 # Figma Design Token Extractor
 

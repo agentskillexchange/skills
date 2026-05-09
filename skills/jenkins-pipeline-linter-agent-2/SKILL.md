@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Linter Agent"
-slug: "jenkins-pipeline-linter-agent-2"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "OpenClaw"
+title: Jenkins Pipeline Linter Agent
+slug: jenkins-pipeline-linter-agent-2
+description: Jenkins Pipeline Linter Agent
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Linter Agent

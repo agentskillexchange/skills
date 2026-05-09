@@ -1,13 +1,14 @@
 ---
-title: "Cron Job Manager"
-slug: "cron-job-manager"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "Claude Code"
+title: Cron Job Manager
+slug: cron-job-manager
+description: Cron Job Manager
 github_stars: 3622
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3622
 ---
 # Cron Job Manager

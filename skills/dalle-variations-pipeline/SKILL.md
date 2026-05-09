@@ -1,13 +1,14 @@
 ---
-title: "DALL-E Variations Pipeline"
-slug: "dalle-variations-pipeline"
-verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category: "General"
-framework: "ChatGPT Agents"
+title: DALL-E Variations Pipeline
+slug: dalle-variations-pipeline
+description: DALL-E Variations Pipeline
 github_stars: 10813
+verification: security_reviewed
+source: https://github.com/openai/openai-node
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
 ---
 # DALL-E Variations Pipeline

@@ -1,11 +1,12 @@
 ---
-title: "Stable Diffusion ComfyUI Workflow Runner"
-slug: "stable-diffusion-comfyui-workflow-runner-2"
-verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
-category: "General"
-framework: "MCP"
+title: Stable Diffusion ComfyUI Workflow Runner
+slug: stable-diffusion-comfyui-workflow-runner-2
+description: Stable Diffusion ComfyUI Workflow Runner
 github_stars: 112003
+verification: security_reviewed
+source: https://github.com/Stability-AI/stablediffusion
+category: General
+framework: MCP
 ---
 # Stable Diffusion ComfyUI Workflow Runner
 

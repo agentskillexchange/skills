@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP Security Audit Skill"
-slug: "owasp-zap-security-audit-skill"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Claude Code"
+title: OWASP ZAP Security Audit Skill
+slug: owasp-zap-security-audit-skill
+description: OWASP ZAP Security Audit Skill
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP Security Audit Skill

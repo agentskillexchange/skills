@@ -1,14 +1,14 @@
 ---
-title: "Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt"
-slug: "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt"
-description: "Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it."
+title: Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt
+slug: enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt
+description: Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it.
 github_stars: 2256
 verification: security_reviewed
-source: "https://github.com/icereed/paperless-gpt"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+source: https://github.com/icereed/paperless-gpt
+category: Data Extraction & Transformation
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "icereed/paperless-gpt"
+  github_repo: icereed/paperless-gpt
   github_stars: 2256
 ---
 # Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt

@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Schema Drift Detector"
-slug: "graphql-schema-drift-detector"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "MCP"
+title: GraphQL Schema Drift Detector
+slug: graphql-schema-drift-detector
+description: GraphQL Schema Drift Detector
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Schema Drift Detector

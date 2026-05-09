@@ -1,10 +1,11 @@
 ---
-title: "Snowflake Query Profiler"
-slug: "snowflake-query-profiler"
+title: Snowflake Query Profiler
+slug: snowflake-query-profiler
+description: Snowflake Query Profiler
 verification: security_reviewed
-source: "https://pypi.org/project/snowflake-connector-python/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://pypi.org/project/snowflake-connector-python/
+category: General
+framework: ChatGPT Agents
 ---
 # Snowflake Query Profiler
 

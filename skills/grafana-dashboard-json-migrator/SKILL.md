@@ -1,13 +1,14 @@
 ---
-title: "Grafana Dashboard JSON Migrator"
-slug: "grafana-dashboard-json-migrator"
-verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-category: "General"
-framework: "Cursor"
+title: Grafana Dashboard JSON Migrator
+slug: grafana-dashboard-json-migrator
+description: Grafana Dashboard JSON Migrator
 github_stars: 73187
+verification: security_reviewed
+source: https://github.com/grafana/grafana
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "grafana/grafana"
+  github_repo: grafana/grafana
   github_stars: 73187
 ---
 # Grafana Dashboard JSON Migrator

@@ -1,10 +1,11 @@
 ---
-title: "Todoist GTD Workflow Automator"
-slug: "todoist-gtd-workflow-automator"
+title: Todoist GTD Workflow Automator
+slug: todoist-gtd-workflow-automator
+description: Todoist GTD Workflow Automator
 verification: security_reviewed
-source: "https://developer.todoist.com/api/v1/"
-category: "General"
-framework: "Cursor"
+source: https://developer.todoist.com/api/v1/
+category: General
+framework: Cursor
 ---
 # Todoist GTD Workflow Automator
 

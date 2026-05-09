@@ -1,10 +1,11 @@
 ---
-title: "Buildkite Dynamic Pipeline Agent"
-slug: "buildkite-dynamic-pipeline-agent"
+title: Buildkite Dynamic Pipeline Agent
+slug: buildkite-dynamic-pipeline-agent
+description: Buildkite Dynamic Pipeline Agent
 verification: security_reviewed
-source: "https://buildkite.com/docs"
-category: "General"
-framework: "Cursor"
+source: https://buildkite.com/docs
+category: General
+framework: Cursor
 ---
 # Buildkite Dynamic Pipeline Agent
 

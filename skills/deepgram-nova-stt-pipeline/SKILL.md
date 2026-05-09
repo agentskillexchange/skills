@@ -1,11 +1,11 @@
 ---
-title: "Deepgram Nova STT Pipeline"
-slug: "deepgram-nova-stt-pipeline"
-description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows."
+title: Deepgram Nova STT Pipeline
+slug: deepgram-nova-stt-pipeline
+description: Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows.
 verification: security_reviewed
-source: "https://developers.deepgram.com/"
-category: "Media & Transcription"
-framework: "Claude Code"
+source: https://developers.deepgram.com/
+category: Media & Transcription
+framework: Claude Code
 ---
 # Deepgram Nova STT Pipeline
 

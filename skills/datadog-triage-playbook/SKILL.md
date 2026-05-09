@@ -1,12 +1,13 @@
 ---
-title: "Datadog Triage Playbook"
-slug: "datadog-triage-playbook"
+title: Datadog Triage Playbook
+slug: datadog-triage-playbook
+description: Datadog Triage Playbook
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "MCP"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Triage Playbook

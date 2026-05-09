@@ -1,13 +1,14 @@
 ---
-title: "HashiCorp Vault MCP Server"
-slug: "hashicorp-vault-mcp-server"
-verification: security_reviewed
-source: "https://github.com/hashicorp/vault-mcp-server"
-category: "General"
-framework: "MCP"
+title: HashiCorp Vault MCP Server
+slug: hashicorp-vault-mcp-server
+description: HashiCorp Vault MCP Server
 github_stars: 47
+verification: security_reviewed
+source: https://github.com/hashicorp/vault-mcp-server
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/vault-mcp-server"
+  github_repo: hashicorp/vault-mcp-server
   github_stars: 47
 ---
 # HashiCorp Vault MCP Server

@@ -1,13 +1,14 @@
 ---
-title: "AWS CDK Scaffolder"
-slug: "aws-cdk-scaffolder"
-verification: security_reviewed
-source: "https://github.com/aws/aws-cdk"
-category: "General"
-framework: "Custom Agents"
+title: AWS CDK Scaffolder
+slug: aws-cdk-scaffolder
+description: AWS CDK Scaffolder
 github_stars: 12737
+verification: security_reviewed
+source: https://github.com/aws/aws-cdk
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "aws/aws-cdk"
+  github_repo: aws/aws-cdk
   github_stars: 12737
 ---
 # AWS CDK Scaffolder

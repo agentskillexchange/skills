@@ -1,16 +1,16 @@
 ---
-title: "alex Inclusive Writing Linter"
-slug: "alex-inclusive-writing-linter"
-description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
+title: alex Inclusive Writing Linter
+slug: alex-inclusive-writing-linter
+description: Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives.
 github_stars: 5096
 verification: security_reviewed
-source: "https://github.com/get-alex/alex"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+source: https://github.com/get-alex/alex
+category: Content Writing & SEO
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "get-alex/alex"
+  github_repo: get-alex/alex
   github_stars: 5096
-  npm_package: "alex"
+  npm_package: alex
 ---
 # alex Inclusive Writing Linter
 

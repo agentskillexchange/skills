@@ -1,13 +1,14 @@
 ---
-title: "KICS IaC Linter"
-slug: "kics-iac-linter"
-verification: security_reviewed
-source: "https://github.com/Checkmarx/kics"
-category: "General"
-framework: "Custom Agents"
+title: KICS IaC Linter
+slug: kics-iac-linter
+description: KICS IaC Linter
 github_stars: 2607
+verification: security_reviewed
+source: https://github.com/Checkmarx/kics
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "Checkmarx/kics"
+  github_repo: Checkmarx/kics
   github_stars: 2607
 ---
 # KICS IaC Linter

@@ -1,10 +1,11 @@
 ---
-title: "AssemblyAI Summarization &#038; Chapters Skill"
-slug: "assemblyai-summarization-chapters-skill"
+title: AssemblyAI Summarization & Chapters Skill
+slug: assemblyai-summarization-chapters-skill
+description: AssemblyAI Summarization & Chapters Skill
 verification: security_reviewed
-source: "https://www.assemblyai.com/docs"
-category: "General"
-framework: "Claude Agents"
+source: https://www.assemblyai.com/docs
+category: General
+framework: Claude Agents
 ---
 # AssemblyAI Summarization &#038; Chapters Skill
 

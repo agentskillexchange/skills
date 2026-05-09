@@ -1,13 +1,14 @@
 ---
-title: "Pulumi MCP Server"
-slug: "pulumi-mcp-server"
-verification: security_reviewed
-source: "https://github.com/pulumi/pulumi"
-category: "General"
-framework: "MCP"
+title: Pulumi MCP Server
+slug: pulumi-mcp-server
+description: Pulumi MCP Server
 github_stars: 25164
+verification: security_reviewed
+source: https://github.com/pulumi/pulumi
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "pulumi/pulumi"
+  github_repo: pulumi/pulumi
   github_stars: 25164
 ---
 # Pulumi MCP Server

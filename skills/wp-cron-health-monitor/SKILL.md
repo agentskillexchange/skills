@@ -1,10 +1,11 @@
 ---
-title: "WP Cron Health Monitor"
-slug: "wp-cron-health-monitor"
+title: WP Cron Health Monitor
+slug: wp-cron-health-monitor
+description: WP Cron Health Monitor
 verification: security_reviewed
-source: "https://developer.wordpress.org/plugins/cron/"
-category: "General"
-framework: "OpenClaw"
+source: https://developer.wordpress.org/plugins/cron/
+category: General
+framework: OpenClaw
 ---
 # WP Cron Health Monitor
 

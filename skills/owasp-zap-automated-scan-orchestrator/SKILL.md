@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP Automated Scan Orchestrator"
-slug: "owasp-zap-automated-scan-orchestrator"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "OpenClaw"
+title: OWASP ZAP Automated Scan Orchestrator
+slug: owasp-zap-automated-scan-orchestrator
+description: OWASP ZAP Automated Scan Orchestrator
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP Automated Scan Orchestrator

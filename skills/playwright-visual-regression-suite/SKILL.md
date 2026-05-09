@@ -1,13 +1,14 @@
 ---
-title: "Playwright Visual Regression Suite"
-slug: "playwright-visual-regression-suite"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Codex"
+title: Playwright Visual Regression Suite
+slug: playwright-visual-regression-suite
+description: Playwright Visual Regression Suite
 github_stars: 86409
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
 ---
 # Playwright Visual Regression Suite

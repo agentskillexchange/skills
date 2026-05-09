@@ -1,13 +1,14 @@
 ---
-title: "dbt Model Lineage Extractor"
-slug: "dbt-model-lineage-extractor-2"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "Claude Code"
+title: dbt Model Lineage Extractor
+slug: dbt-model-lineage-extractor-2
+description: dbt Model Lineage Extractor
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Model Lineage Extractor

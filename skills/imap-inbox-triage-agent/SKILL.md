@@ -1,10 +1,11 @@
 ---
-title: "IMAP Inbox Triage Agent"
-slug: "imap-inbox-triage-agent"
+title: IMAP Inbox Triage Agent
+slug: imap-inbox-triage-agent
+description: IMAP Inbox Triage Agent
 verification: security_reviewed
-source: "https://datatracker.ietf.org/doc/html/rfc3501"
-category: "General"
-framework: "Codex"
+source: https://datatracker.ietf.org/doc/html/rfc3501
+category: General
+framework: Codex
 ---
 # IMAP Inbox Triage Agent
 

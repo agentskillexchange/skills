@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Crash Analyzer"
-slug: "kubernetes-pod-crash-analyzer-3"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Gemini"
+title: Kubernetes Pod Crash Analyzer
+slug: kubernetes-pod-crash-analyzer-3
+description: Kubernetes Pod Crash Analyzer
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Crash Analyzer

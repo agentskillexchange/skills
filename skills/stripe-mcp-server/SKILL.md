@@ -1,13 +1,14 @@
 ---
-title: "Stripe MCP Server"
-slug: "stripe-mcp-server"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "MCP"
+title: Stripe MCP Server
+slug: stripe-mcp-server
+description: Stripe MCP Server
 github_stars: 4410
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4410
 ---
 # Stripe MCP Server

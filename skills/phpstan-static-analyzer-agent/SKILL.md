@@ -1,13 +1,14 @@
 ---
-title: "PHPStan Static Analyzer Agent"
-slug: "phpstan-static-analyzer-agent"
-verification: security_reviewed
-source: "https://github.com/phpstan/phpstan"
-category: "General"
-framework: "OpenClaw"
+title: PHPStan Static Analyzer Agent
+slug: phpstan-static-analyzer-agent
+description: PHPStan Static Analyzer Agent
 github_stars: 13909
+verification: security_reviewed
+source: https://github.com/phpstan/phpstan
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "phpstan/phpstan"
+  github_repo: phpstan/phpstan
   github_stars: 13909
 ---
 # PHPStan Static Analyzer Agent

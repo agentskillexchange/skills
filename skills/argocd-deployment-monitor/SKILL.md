@@ -1,13 +1,14 @@
 ---
-title: "ArgoCD Deployment Monitor"
-slug: "argocd-deployment-monitor"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-category: "General"
-framework: "Custom Agents"
+title: ArgoCD Deployment Monitor
+slug: argocd-deployment-monitor
+description: ArgoCD Deployment Monitor
 github_stars: 22593
+verification: security_reviewed
+source: https://github.com/argoproj/argo-cd
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
+  github_repo: argoproj/argo-cd
   github_stars: 22593
 ---
 # ArgoCD Deployment Monitor

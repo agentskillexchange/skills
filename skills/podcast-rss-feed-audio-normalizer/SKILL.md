@@ -1,13 +1,14 @@
 ---
-title: "Podcast RSS Feed Audio Normalizer"
-slug: "podcast-rss-feed-audio-normalizer"
-verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "MCP"
+title: Podcast RSS Feed Audio Normalizer
+slug: podcast-rss-feed-audio-normalizer
+description: Podcast RSS Feed Audio Normalizer
 github_stars: 59426
+verification: security_reviewed
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
+  github_repo: FFmpeg/FFmpeg
   github_stars: 59426
 ---
 # Podcast RSS Feed Audio Normalizer

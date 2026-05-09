@@ -1,13 +1,14 @@
 ---
-title: "Apify Actor Runner"
-slug: "apify-actor-runner"
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
-category: "General"
-framework: "Codex"
+title: Apify Actor Runner
+slug: apify-actor-runner
+description: Apify Actor Runner
 github_stars: 173
+verification: security_reviewed
+source: https://github.com/apify/apify-sdk-js
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
+  github_repo: apify/apify-sdk-js
   github_stars: 173
 ---
 # Apify Actor Runner

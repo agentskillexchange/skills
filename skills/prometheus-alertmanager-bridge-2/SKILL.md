@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alertmanager Bridge"
-slug: "prometheus-alertmanager-bridge-2"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "ChatGPT Agents"
+title: Prometheus Alertmanager Bridge
+slug: prometheus-alertmanager-bridge-2
+description: Prometheus Alertmanager Bridge
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Alertmanager Bridge

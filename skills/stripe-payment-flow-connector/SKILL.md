@@ -1,13 +1,14 @@
 ---
-title: "Stripe Payment Flow Connector"
-slug: "stripe-payment-flow-connector"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "Cursor"
+title: Stripe Payment Flow Connector
+slug: stripe-payment-flow-connector
+description: Stripe Payment Flow Connector
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Payment Flow Connector

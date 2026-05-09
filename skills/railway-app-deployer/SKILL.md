@@ -1,13 +1,14 @@
 ---
-title: "Railway App Deployer"
-slug: "railway-app-deployer"
-verification: security_reviewed
-source: "https://github.com/railwayapp/cli"
-category: "General"
-framework: "Custom Agents"
+title: Railway App Deployer
+slug: railway-app-deployer
+description: Railway App Deployer
 github_stars: 523
+verification: security_reviewed
+source: https://github.com/railwayapp/cli
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "railwayapp/cli"
+  github_repo: railwayapp/cli
   github_stars: 523
 ---
 # Railway App Deployer

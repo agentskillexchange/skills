@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Linter"
-slug: "jenkins-pipeline-linter-6"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Custom Agents"
+title: Jenkins Pipeline Linter
+slug: jenkins-pipeline-linter-6
+description: Jenkins Pipeline Linter
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Linter

@@ -1,11 +1,11 @@
 ---
-title: "Buildkite Agent Fleet Scaler"
-slug: "buildkite-agent-fleet-scaler"
-description: "Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity."
+title: Buildkite Agent Fleet Scaler
+slug: buildkite-agent-fleet-scaler
+description: Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity.
 verification: security_reviewed
-source: "https://buildkite.com/docs"
-category: "CI/CD Integrations"
-framework: "Gemini"
+source: https://buildkite.com/docs
+category: CI/CD Integrations
+framework: Gemini
 ---
 # Buildkite Agent Fleet Scaler
 

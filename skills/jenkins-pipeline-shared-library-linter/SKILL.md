@@ -1,13 +1,14 @@
 ---
-title: "Jenkins Pipeline Shared Library Linter"
-slug: "jenkins-pipeline-shared-library-linter"
-verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-category: "General"
-framework: "Codex"
+title: Jenkins Pipeline Shared Library Linter
+slug: jenkins-pipeline-shared-library-linter
+description: Jenkins Pipeline Shared Library Linter
 github_stars: 25189
+verification: security_reviewed
+source: https://github.com/jenkinsci/jenkins
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "jenkinsci/jenkins"
+  github_repo: jenkinsci/jenkins
   github_stars: 25189
 ---
 # Jenkins Pipeline Shared Library Linter

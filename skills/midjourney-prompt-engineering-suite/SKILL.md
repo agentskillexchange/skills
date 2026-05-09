@@ -1,10 +1,11 @@
 ---
-title: "Midjourney Prompt Engineering Suite"
-slug: "midjourney-prompt-engineering-suite"
+title: Midjourney Prompt Engineering Suite
+slug: midjourney-prompt-engineering-suite
+description: Midjourney Prompt Engineering Suite
 verification: security_reviewed
-source: "https://docs.midjourney.com/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.midjourney.com/
+category: General
+framework: ChatGPT Agents
 ---
 # Midjourney Prompt Engineering Suite
 

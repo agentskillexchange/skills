@@ -1,13 +1,14 @@
 ---
-title: "ESLint Rule Conflict Resolver"
-slug: "eslint-rule-conflict-resolver"
-verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-category: "General"
-framework: "Cursor"
+title: ESLint Rule Conflict Resolver
+slug: eslint-rule-conflict-resolver
+description: ESLint Rule Conflict Resolver
 github_stars: 27188
+verification: security_reviewed
+source: https://github.com/eslint/eslint
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "eslint/eslint"
+  github_repo: eslint/eslint
   github_stars: 27188
 ---
 # ESLint Rule Conflict Resolver

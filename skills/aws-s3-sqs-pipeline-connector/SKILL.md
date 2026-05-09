@@ -1,13 +1,14 @@
 ---
-title: "AWS S3 &#038; SQS Pipeline Connector"
-slug: "aws-s3-sqs-pipeline-connector"
-verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-category: "General"
-framework: "MCP"
+title: AWS S3 & SQS Pipeline Connector
+slug: aws-s3-sqs-pipeline-connector
+description: AWS S3 & SQS Pipeline Connector
 github_stars: 3607
+verification: security_reviewed
+source: https://github.com/aws/aws-sdk-js-v3
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "aws/aws-sdk-js-v3"
+  github_repo: aws/aws-sdk-js-v3
   github_stars: 3607
 ---
 # AWS S3 &#038; SQS Pipeline Connector

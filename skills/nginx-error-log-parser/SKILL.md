@@ -1,13 +1,14 @@
 ---
-title: "Nginx Error Log Parser"
-slug: "nginx-error-log-parser"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "Custom Agents"
+title: Nginx Error Log Parser
+slug: nginx-error-log-parser
+description: Nginx Error Log Parser
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Error Log Parser

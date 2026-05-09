@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alert Router"
-slug: "prometheus-alert-router"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "OpenClaw"
+title: Prometheus Alert Router
+slug: prometheus-alert-router
+description: Prometheus Alert Router
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Alert Router

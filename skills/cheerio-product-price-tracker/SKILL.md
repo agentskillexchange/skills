@@ -1,13 +1,14 @@
 ---
-title: "Cheerio Product Price Tracker"
-slug: "cheerio-product-price-tracker"
-verification: security_reviewed
-source: "https://github.com/cheeriojs/cheerio"
-category: "General"
-framework: "Claude Agents"
+title: Cheerio Product Price Tracker
+slug: cheerio-product-price-tracker
+description: Cheerio Product Price Tracker
 github_stars: 30270
+verification: security_reviewed
+source: https://github.com/cheeriojs/cheerio
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "cheeriojs/cheerio"
+  github_repo: cheeriojs/cheerio
   github_stars: 30270
 ---
 # Cheerio Product Price Tracker

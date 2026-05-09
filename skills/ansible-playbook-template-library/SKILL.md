@@ -1,13 +1,14 @@
 ---
-title: "Ansible Playbook Template Library"
-slug: "ansible-playbook-template-library"
-verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-category: "General"
-framework: "ChatGPT Agents"
+title: Ansible Playbook Template Library
+slug: ansible-playbook-template-library
+description: Ansible Playbook Template Library
 github_stars: 68364
+verification: security_reviewed
+source: https://github.com/ansible/ansible
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "ansible/ansible"
+  github_repo: ansible/ansible
   github_stars: 68364
 ---
 # Ansible Playbook Template Library

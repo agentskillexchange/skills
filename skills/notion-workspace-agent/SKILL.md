@@ -1,13 +1,14 @@
 ---
-title: "Notion Workspace Agent"
-slug: "notion-workspace-agent"
-verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-category: "General"
-framework: "Custom Agents"
+title: Notion Workspace Agent
+slug: notion-workspace-agent
+description: Notion Workspace Agent
 github_stars: 5582
+verification: security_reviewed
+source: https://github.com/makenotion/notion-sdk-js
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5582
 ---
 # Notion Workspace Agent

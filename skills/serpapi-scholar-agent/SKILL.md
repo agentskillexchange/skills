@@ -1,10 +1,11 @@
 ---
-title: "SerpAPI Scholar Agent"
-slug: "serpapi-scholar-agent"
+title: SerpAPI Scholar Agent
+slug: serpapi-scholar-agent
+description: SerpAPI Scholar Agent
 verification: security_reviewed
-source: "https://serpapi.com/google-scholar-api"
-category: "General"
-framework: "Claude Code"
+source: https://serpapi.com/google-scholar-api
+category: General
+framework: Claude Code
 ---
 # SerpAPI Scholar Agent
 

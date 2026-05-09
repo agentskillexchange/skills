@@ -1,13 +1,14 @@
 ---
-title: "Twitter/X Trend Monitor & Thread Publisher"
-slug: "twitter-x-trend-monitor-thread-publisher"
-verification: security_reviewed
-source: "https://github.com/redis/redis"
-category: "General"
-framework: "OpenClaw"
+title: Twitter/X Trend Monitor & Thread Publisher
+slug: twitter-x-trend-monitor-thread-publisher
+description: Twitter/X Trend Monitor & Thread Publisher
 github_stars: 74154
+verification: security_reviewed
+source: https://github.com/redis/redis
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "redis/redis"
+  github_repo: redis/redis
   github_stars: 74154
 ---
 # Twitter/X Trend Monitor & Thread Publisher

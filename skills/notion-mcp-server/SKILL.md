@@ -1,13 +1,14 @@
 ---
-title: "Notion MCP Server"
-slug: "notion-mcp-server"
-verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-category: "General"
-framework: "MCP"
+title: Notion MCP Server
+slug: notion-mcp-server
+description: Notion MCP Server
 github_stars: 5598
+verification: security_reviewed
+source: https://github.com/makenotion/notion-sdk-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "makenotion/notion-sdk-js"
+  github_repo: makenotion/notion-sdk-js
   github_stars: 5598
 ---
 # Notion MCP Server

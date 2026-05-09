@@ -1,13 +1,14 @@
 ---
-title: "GitLab Pipeline Optimizer"
-slug: "gitlab-pipeline-optimizer"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Claude Agents"
+title: GitLab Pipeline Optimizer
+slug: gitlab-pipeline-optimizer
+description: GitLab Pipeline Optimizer
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab Pipeline Optimizer

@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Pod Crash Diagnostics"
-slug: "kubernetes-pod-crash-diagnostics-3"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Custom Agents"
+title: Kubernetes Pod Crash Diagnostics
+slug: kubernetes-pod-crash-diagnostics-3
+description: Kubernetes Pod Crash Diagnostics
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Pod Crash Diagnostics

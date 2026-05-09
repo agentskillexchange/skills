@@ -1,10 +1,11 @@
 ---
-title: "Deepgram Nova Transcriber"
-slug: "deepgram-nova-transcriber-agent"
+title: Deepgram Nova Transcriber
+slug: deepgram-nova-transcriber-agent
+description: Deepgram Nova Transcriber
 verification: security_reviewed
-source: "https://developers.deepgram.com/docs/model"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.deepgram.com/docs/model
+category: General
+framework: OpenClaw
 ---
 # Deepgram Nova Transcriber
 

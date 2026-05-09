@@ -1,10 +1,11 @@
 ---
-title: "Python PyPI Package Reference Indexer"
-slug: "python-pypi-package-reference-indexer"
+title: Python PyPI Package Reference Indexer
+slug: python-pypi-package-reference-indexer
+description: Python PyPI Package Reference Indexer
 verification: security_reviewed
-source: "https://docs.pypi.org/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.pypi.org/
+category: General
+framework: ChatGPT Agents
 ---
 # Python PyPI Package Reference Indexer
 

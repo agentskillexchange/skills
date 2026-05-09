@@ -1,13 +1,14 @@
 ---
-title: "Nginx Config Validator Runbook"
-slug: "nginx-config-validator-runbook"
-verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-category: "General"
-framework: "Claude Agents"
+title: Nginx Config Validator Runbook
+slug: nginx-config-validator-runbook
+description: Nginx Config Validator Runbook
 github_stars: 29930
+verification: security_reviewed
+source: https://github.com/nginx/nginx
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "nginx/nginx"
+  github_repo: nginx/nginx
   github_stars: 29930
 ---
 # Nginx Config Validator Runbook

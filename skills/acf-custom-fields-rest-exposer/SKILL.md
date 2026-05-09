@@ -1,10 +1,11 @@
 ---
-title: "ACF Custom Fields REST Exposer"
-slug: "acf-custom-fields-rest-exposer"
+title: ACF Custom Fields REST Exposer
+slug: acf-custom-fields-rest-exposer
+description: ACF Custom Fields REST Exposer
 verification: security_reviewed
-source: "https://www.advancedcustomfields.com/resources/wp-rest-api-integration/"
-category: "General"
-framework: "Cursor"
+source: https://www.advancedcustomfields.com/resources/wp-rest-api-integration/
+category: General
+framework: Cursor
 ---
 # ACF Custom Fields REST Exposer
 

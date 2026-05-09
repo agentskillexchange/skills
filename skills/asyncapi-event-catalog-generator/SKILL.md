@@ -1,10 +1,11 @@
 ---
-title: "AsyncAPI Event Catalog Generator"
-slug: "asyncapi-event-catalog-generator"
+title: AsyncAPI Event Catalog Generator
+slug: asyncapi-event-catalog-generator
+description: AsyncAPI Event Catalog Generator
 verification: security_reviewed
-source: "https://www.asyncapi.com/"
-category: "General"
-framework: "Claude Code"
+source: https://www.asyncapi.com/
+category: General
+framework: Claude Code
 ---
 # AsyncAPI Event Catalog Generator
 

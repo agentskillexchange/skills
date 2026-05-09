@@ -1,13 +1,14 @@
 ---
-title: "Apache Kafka Schema Extractor"
-slug: "apache-kafka-schema-extractor"
-verification: security_reviewed
-source: "https://github.com/apache/kafka"
-category: "General"
-framework: "Codex"
+title: Apache Kafka Schema Extractor
+slug: apache-kafka-schema-extractor
+description: Apache Kafka Schema Extractor
 github_stars: 32487
+verification: security_reviewed
+source: https://github.com/apache/kafka
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "apache/kafka"
+  github_repo: apache/kafka
   github_stars: 32487
 ---
 # Apache Kafka Schema Extractor

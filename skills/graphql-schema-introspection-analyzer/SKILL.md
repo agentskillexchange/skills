@@ -1,13 +1,14 @@
 ---
-title: "GraphQL Schema Introspection Analyzer"
-slug: "graphql-schema-introspection-analyzer"
-verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-category: "General"
-framework: "MCP"
+title: GraphQL Schema Introspection Analyzer
+slug: graphql-schema-introspection-analyzer
+description: GraphQL Schema Introspection Analyzer
 github_stars: 20324
+verification: security_reviewed
+source: https://github.com/graphql/graphql-js
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "graphql/graphql-js"
+  github_repo: graphql/graphql-js
   github_stars: 20324
 ---
 # GraphQL Schema Introspection Analyzer

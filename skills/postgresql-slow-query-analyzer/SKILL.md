@@ -1,10 +1,11 @@
 ---
-title: "PostgreSQL Slow Query Analyzer"
-slug: "postgresql-slow-query-analyzer"
+title: PostgreSQL Slow Query Analyzer
+slug: postgresql-slow-query-analyzer
+description: PostgreSQL Slow Query Analyzer
 verification: security_reviewed
-source: "https://www.npmjs.com/package/pg"
-category: "General"
-framework: "MCP"
+source: https://www.npmjs.com/package/pg
+category: General
+framework: MCP
 ---
 # PostgreSQL Slow Query Analyzer
 

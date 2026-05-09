@@ -1,10 +1,11 @@
 ---
-title: "NPM Package Analyzer"
-slug: "npm-package-analyzer"
+title: NPM Package Analyzer
+slug: npm-package-analyzer
+description: NPM Package Analyzer
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/using-npm/registry/"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://docs.npmjs.com/cli/v10/using-npm/registry/
+category: General
+framework: ChatGPT Agents
 ---
 # NPM Package Analyzer
 

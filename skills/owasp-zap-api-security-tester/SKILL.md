@@ -1,13 +1,14 @@
 ---
-title: "OWASP ZAP API Security Tester"
-slug: "owasp-zap-api-security-tester"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Codex"
+title: OWASP ZAP API Security Tester
+slug: owasp-zap-api-security-tester
+description: OWASP ZAP API Security Tester
 github_stars: 14991
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 14991
 ---
 # OWASP ZAP API Security Tester

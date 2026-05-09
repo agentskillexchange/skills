@@ -1,13 +1,14 @@
 ---
-title: "Elastic / Kibana MCP Server"
-slug: "elastic-kibana-mcp-server"
-verification: security_reviewed
-source: "https://github.com/elastic/elasticsearch"
-category: "General"
-framework: "MCP"
+title: Elastic / Kibana MCP Server
+slug: elastic-kibana-mcp-server
+description: Elastic / Kibana MCP Server
 github_stars: 76667
+verification: security_reviewed
+source: https://github.com/elastic/elasticsearch
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "elastic/elasticsearch"
+  github_repo: elastic/elasticsearch
   github_stars: 76667
 ---
 # Elastic / Kibana MCP Server

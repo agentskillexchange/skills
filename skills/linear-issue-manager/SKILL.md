@@ -1,10 +1,11 @@
 ---
-title: "Linear Issue Manager"
-slug: "linear-issue-manager"
+title: Linear Issue Manager
+slug: linear-issue-manager
+description: Linear Issue Manager
 verification: security_reviewed
-source: "https://linear.app/docs"
-category: "General"
-framework: "Custom Agents"
+source: https://linear.app/docs
+category: General
+framework: Custom Agents
 ---
 # Linear Issue Manager
 

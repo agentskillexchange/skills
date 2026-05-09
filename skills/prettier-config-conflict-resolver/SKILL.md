@@ -1,13 +1,14 @@
 ---
-title: "Prettier Config Conflict Resolver"
-slug: "prettier-config-conflict-resolver"
-verification: security_reviewed
-source: "https://github.com/prettier/prettier"
-category: "General"
-framework: "Gemini"
+title: Prettier Config Conflict Resolver
+slug: prettier-config-conflict-resolver
+description: Prettier Config Conflict Resolver
 github_stars: 51820
+verification: security_reviewed
+source: https://github.com/prettier/prettier
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "prettier/prettier"
+  github_repo: prettier/prettier
   github_stars: 51820
 ---
 # Prettier Config Conflict Resolver

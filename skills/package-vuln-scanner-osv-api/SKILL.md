@@ -1,13 +1,14 @@
 ---
-title: "Package Vulnerability Scanner"
-slug: "package-vuln-scanner-osv-api"
-verification: security_reviewed
-source: "https://github.com/google/osv.dev"
-category: "General"
-framework: "Codex"
+title: Package Vulnerability Scanner
+slug: package-vuln-scanner-osv-api
+description: Package Vulnerability Scanner
 github_stars: 2626
+verification: security_reviewed
+source: https://github.com/google/osv.dev
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "google/osv.dev"
+  github_repo: google/osv.dev
   github_stars: 2626
 ---
 # Package Vulnerability Scanner

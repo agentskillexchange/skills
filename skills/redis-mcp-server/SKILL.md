@@ -1,13 +1,14 @@
 ---
-title: "Redis MCP Server"
-slug: "redis-mcp-server"
-verification: security_reviewed
-source: "https://github.com/redis/redis"
-category: "General"
-framework: "MCP"
+title: Redis MCP Server
+slug: redis-mcp-server
+description: Redis MCP Server
 github_stars: 73815
+verification: security_reviewed
+source: https://github.com/redis/redis
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "redis/redis"
+  github_repo: redis/redis
   github_stars: 73815
 ---
 # Redis MCP Server

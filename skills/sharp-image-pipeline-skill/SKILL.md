@@ -1,13 +1,14 @@
 ---
-title: "Sharp Image Pipeline Skill"
-slug: "sharp-image-pipeline-skill"
-verification: security_reviewed
-source: "https://github.com/lovell/sharp"
-category: "General"
-framework: "Claude Code"
+title: Sharp Image Pipeline Skill
+slug: sharp-image-pipeline-skill
+description: Sharp Image Pipeline Skill
 github_stars: 32138
+verification: security_reviewed
+source: https://github.com/lovell/sharp
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "lovell/sharp"
+  github_repo: lovell/sharp
   github_stars: 32138
 ---
 # Sharp Image Pipeline Skill

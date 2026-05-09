@@ -1,10 +1,11 @@
 ---
-title: "SerpAPI Research Pipeline"
-slug: "serpapi-research-pipeline"
+title: SerpAPI Research Pipeline
+slug: serpapi-research-pipeline
+description: SerpAPI Research Pipeline
 verification: security_reviewed
-source: "https://serpapi.com/"
-category: "General"
-framework: "Codex"
+source: https://serpapi.com/
+category: General
+framework: Codex
 ---
 # SerpAPI Research Pipeline
 

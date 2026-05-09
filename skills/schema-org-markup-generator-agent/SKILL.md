@@ -1,10 +1,11 @@
 ---
-title: "Schema.org Markup Generator"
-slug: "schema-org-markup-generator-agent"
+title: Schema.org Markup Generator
+slug: schema-org-markup-generator-agent
+description: Schema.org Markup Generator
 verification: security_reviewed
-source: "https://schema.org/"
-category: "General"
-framework: "MCP"
+source: https://schema.org/
+category: General
+framework: MCP
 ---
 # Schema.org Markup Generator
 

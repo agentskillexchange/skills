@@ -1,16 +1,16 @@
 ---
-title: "Index a codebase into evidence-backed memory so agents can answer with citations"
-slug: "index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations"
-description: "Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole codebase every session."
+title: Index a codebase into evidence-backed memory so agents can answer with citations
+slug: index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations
+description: Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole codebase every session.
 github_stars: 5
 verification: security_reviewed
-source: "https://github.com/Bpolat0/atlasmemory"
-category: "Developer Tools"
-framework: "MCP"
+source: https://github.com/Bpolat0/atlasmemory
+category: Developer Tools
+framework: MCP
 tool_ecosystem:
-  github_repo: "Bpolat0/atlasmemory"
+  github_repo: Bpolat0/atlasmemory
   github_stars: 5
-  npm_package: "atlasmemory"
+  npm_package: atlasmemory
 ---
 # Index a codebase into evidence-backed memory so agents can answer with citations
 

@@ -1,13 +1,14 @@
 ---
-title: "Playwright Test Recorder"
-slug: "playwright-test-recorder"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Custom Agents"
+title: Playwright Test Recorder
+slug: playwright-test-recorder
+description: Playwright Test Recorder
 github_stars: 86378
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86378
 ---
 # Playwright Test Recorder

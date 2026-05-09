@@ -1,16 +1,16 @@
 ---
-title: "Verify Markdown links before docs or content ship with markdown-link-check"
-slug: "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check"
-description: "Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users."
+title: Verify Markdown links before docs or content ship with markdown-link-check
+slug: verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check
+description: Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users.
 github_stars: 693
 verification: security_reviewed
-source: "https://github.com/tcort/markdown-link-check"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+source: https://github.com/tcort/markdown-link-check
+category: Content Writing & SEO
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "tcort/markdown-link-check"
+  github_repo: tcort/markdown-link-check
   github_stars: 693
-  npm_package: "markdown-link-check"
+  npm_package: markdown-link-check
 ---
 # Verify Markdown links before docs or content ship with markdown-link-check
 

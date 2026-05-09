@@ -1,13 +1,14 @@
 ---
-title: "Puppeteer Cookie Consent Automator"
-slug: "puppeteer-cookie-consent-automator"
-verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-category: "General"
-framework: "Custom Agents"
+title: Puppeteer Cookie Consent Automator
+slug: puppeteer-cookie-consent-automator
+description: Puppeteer Cookie Consent Automator
 github_stars: 94115
+verification: security_reviewed
+source: https://github.com/puppeteer/puppeteer
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: puppeteer/puppeteer
   github_stars: 94115
 ---
 # Puppeteer Cookie Consent Automator

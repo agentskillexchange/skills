@@ -1,13 +1,14 @@
 ---
-title: "Cheerio DOM Extraction Pipeline"
-slug: "cheerio-dom-extraction-pipeline"
-verification: security_reviewed
-source: "https://github.com/cheeriojs/cheerio"
-category: "General"
-framework: "Codex"
+title: Cheerio DOM Extraction Pipeline
+slug: cheerio-dom-extraction-pipeline
+description: Cheerio DOM Extraction Pipeline
 github_stars: 30270
+verification: security_reviewed
+source: https://github.com/cheeriojs/cheerio
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "cheeriojs/cheerio"
+  github_repo: cheeriojs/cheerio
   github_stars: 30270
 ---
 # Cheerio DOM Extraction Pipeline

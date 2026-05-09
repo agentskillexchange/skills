@@ -1,13 +1,14 @@
 ---
-title: "SonarQube Quality Gate Explainer"
-slug: "sonarqube-quality-gate-explainer"
-verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "Claude Code"
+title: SonarQube Quality Gate Explainer
+slug: sonarqube-quality-gate-explainer
+description: SonarQube Quality Gate Explainer
 github_stars: 10426
+verification: security_reviewed
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "SonarSource/sonarqube"
+  github_repo: SonarSource/sonarqube
   github_stars: 10426
 ---
 # SonarQube Quality Gate Explainer

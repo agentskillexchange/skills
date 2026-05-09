@@ -1,10 +1,11 @@
 ---
-title: "Technical SEO Audit Crawler"
-slug: "technical-seo-audit-crawler"
+title: Technical SEO Audit Crawler
+slug: technical-seo-audit-crawler
+description: Technical SEO Audit Crawler
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
-category: "General"
-framework: "OpenClaw"
+source: https://agentskillexchange.com/skills/technical-seo-audit-crawler/
+category: General
+framework: OpenClaw
 ---
 # Technical SEO Audit Crawler
 

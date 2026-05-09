@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI/CD Pipeline Optimizer"
-slug: "gitlab-cicd-pipeline-optimizer"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "ChatGPT Agents"
+title: GitLab CI/CD Pipeline Optimizer
+slug: gitlab-cicd-pipeline-optimizer
+description: GitLab CI/CD Pipeline Optimizer
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI/CD Pipeline Optimizer

@@ -1,13 +1,14 @@
 ---
-title: "Nx Workspace Generator"
-slug: "nx-workspace-generator"
-verification: security_reviewed
-source: "https://github.com/nrwl/nx"
-category: "General"
-framework: "Claude Code"
+title: Nx Workspace Generator
+slug: nx-workspace-generator
+description: Nx Workspace Generator
 github_stars: 28562
+verification: security_reviewed
+source: https://github.com/nrwl/nx
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "nrwl/nx"
+  github_repo: nrwl/nx
   github_stars: 28562
 ---
 # Nx Workspace Generator

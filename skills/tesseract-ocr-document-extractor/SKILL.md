@@ -1,13 +1,14 @@
 ---
-title: "Tesseract OCR Document Extractor"
-slug: "tesseract-ocr-document-extractor"
-verification: security_reviewed
-source: "https://github.com/tesseract-ocr/tesseract"
-category: "General"
-framework: "ChatGPT Agents"
+title: Tesseract OCR Document Extractor
+slug: tesseract-ocr-document-extractor
+description: Tesseract OCR Document Extractor
 github_stars: 73614
+verification: security_reviewed
+source: https://github.com/tesseract-ocr/tesseract
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "tesseract-ocr/tesseract"
+  github_repo: tesseract-ocr/tesseract
   github_stars: 73614
 ---
 # Tesseract OCR Document Extractor

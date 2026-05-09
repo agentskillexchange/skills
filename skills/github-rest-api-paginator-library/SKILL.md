@@ -1,13 +1,14 @@
 ---
-title: "GitHub REST API Paginator Library"
-slug: "github-rest-api-paginator-library"
-verification: security_reviewed
-source: "https://github.com/octokit/plugin-paginate-rest.js"
-category: "General"
-framework: "Codex"
+title: GitHub REST API Paginator Library
+slug: github-rest-api-paginator-library
+description: GitHub REST API Paginator Library
 github_stars: 58
+verification: security_reviewed
+source: https://github.com/octokit/plugin-paginate-rest.js
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "octokit/plugin-paginate-rest.js"
+  github_repo: octokit/plugin-paginate-rest.js
   github_stars: 58
 ---
 # GitHub REST API Paginator Library

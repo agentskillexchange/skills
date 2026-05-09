@@ -1,13 +1,14 @@
 ---
-title: "Whisper.cpp Real-Time Transcription Pipeline"
-slug: "whisper-cpp-realtime-transcription-pipeline"
-verification: security_reviewed
-source: "https://github.com/openai/whisper"
-category: "General"
-framework: "Claude Code"
+title: Whisper.cpp Real-Time Transcription Pipeline
+slug: whisper-cpp-realtime-transcription-pipeline
+description: Whisper.cpp Real-Time Transcription Pipeline
 github_stars: 97775
+verification: security_reviewed
+source: https://github.com/openai/whisper
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97775
 ---
 # Whisper.cpp Real-Time Transcription Pipeline

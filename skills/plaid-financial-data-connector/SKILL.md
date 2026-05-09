@@ -1,10 +1,11 @@
 ---
-title: "Plaid Financial Data Connector"
-slug: "plaid-financial-data-connector"
+title: Plaid Financial Data Connector
+slug: plaid-financial-data-connector
+description: Plaid Financial Data Connector
 verification: security_reviewed
-source: "https://plaid.com/docs/"
-category: "General"
-framework: "Gemini"
+source: https://plaid.com/docs/
+category: General
+framework: Gemini
 ---
 # Plaid Financial Data Connector
 

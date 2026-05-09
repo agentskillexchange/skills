@@ -1,12 +1,13 @@
 ---
-title: "SonarQube Quality Gate Agent"
-slug: "sonarqube-quality-gate-agent"
+title: SonarQube Quality Gate Agent
+slug: sonarqube-quality-gate-agent
+description: SonarQube Quality Gate Agent
 verification: security_reviewed
-source: "https://github.com/SonarSource/sonarqube"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://github.com/SonarSource/sonarqube
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10433
 ---
 # SonarQube Quality Gate Agent

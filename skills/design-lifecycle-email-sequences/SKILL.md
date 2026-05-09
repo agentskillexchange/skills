@@ -1,14 +1,14 @@
 ---
-title: "Design Lifecycle Email Sequences"
-slug: "design-lifecycle-email-sequences"
-description: "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email."
-verification: security_reviewed
-source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
-tool_ecosystem:
-  github_repo: "coreyhaines31/marketingskills"
+title: Design Lifecycle Email Sequences
+slug: design-lifecycle-email-sequences
+description: Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.
 github_stars: 21914
+verification: security_reviewed
+source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+tool_ecosystem:
+  github_repo: coreyhaines31/marketingskills
 ---
 # Design Lifecycle Email Sequences
 

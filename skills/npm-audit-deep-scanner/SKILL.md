@@ -1,10 +1,11 @@
 ---
-title: "NPM Audit Deep Scanner"
-slug: "npm-audit-deep-scanner"
+title: NPM Audit Deep Scanner
+slug: npm-audit-deep-scanner
+description: NPM Audit Deep Scanner
 verification: security_reviewed
-source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
-category: "General"
-framework: "Custom Agents"
+source: https://docs.npmjs.com/cli/v10/commands/npm-audit/
+category: General
+framework: Custom Agents
 ---
 # NPM Audit Deep Scanner
 

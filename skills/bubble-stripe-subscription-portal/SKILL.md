@@ -1,10 +1,11 @@
 ---
-title: "Bubble.io Stripe Subscription Portal Builder"
-slug: "bubble-stripe-subscription-portal"
+title: Bubble.io Stripe Subscription Portal Builder
+slug: bubble-stripe-subscription-portal
+description: Bubble.io Stripe Subscription Portal Builder
 verification: security_reviewed
-source: "https://manual.bubble.io/"
-category: "General"
-framework: "OpenClaw"
+source: https://manual.bubble.io/
+category: General
+framework: OpenClaw
 ---
 # Bubble.io Stripe Subscription Portal Builder
 

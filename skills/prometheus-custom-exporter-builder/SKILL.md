@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Custom Exporter Builder"
-slug: "prometheus-custom-exporter-builder"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Claude Agents"
+title: Prometheus Custom Exporter Builder
+slug: prometheus-custom-exporter-builder
+description: Prometheus Custom Exporter Builder
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Custom Exporter Builder

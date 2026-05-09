@@ -1,10 +1,11 @@
 ---
-title: "OSINT Domain Intelligence Scanner"
-slug: "osint-domain-intelligence-scanner"
+title: OSINT Domain Intelligence Scanner
+slug: osint-domain-intelligence-scanner
+description: OSINT Domain Intelligence Scanner
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/"
-category: "General"
-framework: "OpenClaw"
+source: https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/
+category: General
+framework: OpenClaw
 ---
 # OSINT Domain Intelligence Scanner
 

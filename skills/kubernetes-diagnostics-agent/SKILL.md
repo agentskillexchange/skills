@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes Diagnostics Agent"
-slug: "kubernetes-diagnostics-agent"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Claude Code"
+title: Kubernetes Diagnostics Agent
+slug: kubernetes-diagnostics-agent
+description: Kubernetes Diagnostics Agent
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes Diagnostics Agent

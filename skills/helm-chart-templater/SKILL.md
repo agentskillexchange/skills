@@ -1,13 +1,14 @@
 ---
-title: "Helm Chart Templater"
-slug: "helm-chart-templater"
-verification: security_reviewed
-source: "https://github.com/helm/helm"
-category: "General"
-framework: "Gemini"
+title: Helm Chart Templater
+slug: helm-chart-templater
+description: Helm Chart Templater
 github_stars: 29693
+verification: security_reviewed
+source: https://github.com/helm/helm
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "helm/helm"
+  github_repo: helm/helm
   github_stars: 29693
 ---
 # Helm Chart Templater

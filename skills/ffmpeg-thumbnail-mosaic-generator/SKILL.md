@@ -1,12 +1,13 @@
 ---
-title: "FFmpeg Thumbnail Mosaic Generator"
-slug: "ffmpeg-thumbnail-mosaic-generator"
+title: FFmpeg Thumbnail Mosaic Generator
+slug: ffmpeg-thumbnail-mosaic-generator
+description: FFmpeg Thumbnail Mosaic Generator
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
-category: "General"
-framework: "Claude Code"
+source: https://github.com/FFmpeg/FFmpeg
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "ffmpeg/ffmpeg"
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58972
 ---
 # FFmpeg Thumbnail Mosaic Generator

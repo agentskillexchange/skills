@@ -1,15 +1,15 @@
 ---
-title: "playwright-extra Plugin Framework for Playwright"
-slug: "playwright-extra-plugin-framework-for-playwright"
-description: "An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such as stealth and other browser behavior extensions. It fits agent workflows that need Playwright-compatible automation with a modular plugin layer instead of raw browser scripts alone."
-npm_downloads: 623136
+title: playwright-extra Plugin Framework for Playwright
+slug: playwright-extra-plugin-framework-for-playwright
+description: An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such as stealth and other browser behavior extensions. It fits agent workflows that need Playwright-compatible automation with a modular plugin layer instead of raw browser scripts alone.
 verification: security_reviewed
-source: "https://www.npmjs.com/package/playwright-extra"
-category: "Browser Automation"
-framework: "Multi-Framework"
+source: https://www.npmjs.com/package/playwright-extra
+category: Browser Automation
+framework: Multi-Framework
 tool_ecosystem:
-  npm_package: "playwright-extra"
+  npm_package: playwright-extra
   npm_weekly_downloads: 623136
+npm_downloads: 623136
 ---
 # playwright-extra Plugin Framework for Playwright
 

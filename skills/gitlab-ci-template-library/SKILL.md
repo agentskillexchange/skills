@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Template Library"
-slug: "gitlab-ci-template-library"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "MCP"
+title: GitLab CI Template Library
+slug: gitlab-ci-template-library
+description: GitLab CI Template Library
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Template Library

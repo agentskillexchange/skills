@@ -1,13 +1,14 @@
 ---
-title: "Playwright PDF Export Automation"
-slug: "playwright-pdf-export-automation"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-category: "General"
-framework: "Claude Code"
+title: Playwright PDF Export Automation
+slug: playwright-pdf-export-automation
+description: Playwright PDF Export Automation
 github_stars: 86409
+verification: security_reviewed
+source: https://github.com/microsoft/playwright
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 86409
 ---
 # Playwright PDF Export Automation

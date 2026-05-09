@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Pipeline Cost Estimator"
-slug: "gitlab-ci-pipeline-cost-estimator"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Custom Agents"
+title: GitLab CI Pipeline Cost Estimator
+slug: gitlab-ci-pipeline-cost-estimator
+description: GitLab CI Pipeline Cost Estimator
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Pipeline Cost Estimator

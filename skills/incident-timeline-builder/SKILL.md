@@ -1,10 +1,11 @@
 ---
-title: "Incident Timeline Builder"
-slug: "incident-timeline-builder"
+title: Incident Timeline Builder
+slug: incident-timeline-builder
+description: Incident Timeline Builder
 verification: security_reviewed
-source: "https://developers.notion.com/"
-category: "General"
-framework: "OpenClaw"
+source: https://developers.notion.com/
+category: General
+framework: OpenClaw
 ---
 # Incident Timeline Builder
 

@@ -1,13 +1,14 @@
 ---
-title: "Scrapy Spider Generator"
-slug: "scrapy-spider-generator"
-verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
-category: "General"
-framework: "ChatGPT Agents"
+title: Scrapy Spider Generator
+slug: scrapy-spider-generator
+description: Scrapy Spider Generator
 github_stars: 61314
+verification: security_reviewed
+source: https://github.com/scrapy/scrapy
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: scrapy/scrapy
   github_stars: 61314
 ---
 # Scrapy Spider Generator

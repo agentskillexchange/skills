@@ -1,13 +1,14 @@
 ---
-title: "Stripe Revenue Analytics Dashboard Builder"
-slug: "stripe-revenue-analytics-dashboard"
-verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-category: "General"
-framework: "MCP"
+title: Stripe Revenue Analytics Dashboard Builder
+slug: stripe-revenue-analytics-dashboard
+description: Stripe Revenue Analytics Dashboard Builder
 github_stars: 4385
+verification: security_reviewed
+source: https://github.com/stripe/stripe-node
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "stripe/stripe-node"
+  github_repo: stripe/stripe-node
   github_stars: 4385
 ---
 # Stripe Revenue Analytics Dashboard Builder

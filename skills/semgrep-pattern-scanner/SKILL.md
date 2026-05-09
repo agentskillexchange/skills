@@ -1,13 +1,14 @@
 ---
-title: "Semgrep Pattern Scanner"
-slug: "semgrep-pattern-scanner"
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-category: "General"
-framework: "Claude Code"
+title: Semgrep Pattern Scanner
+slug: semgrep-pattern-scanner
+description: Semgrep Pattern Scanner
 github_stars: 14794
+verification: security_reviewed
+source: https://github.com/semgrep/semgrep
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14794
 ---
 # Semgrep Pattern Scanner

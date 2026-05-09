@@ -1,10 +1,11 @@
 ---
-title: "Outlook Rule Automation Manager"
-slug: "outlook-rule-automation-manager"
+title: Outlook Rule Automation Manager
+slug: outlook-rule-automation-manager
+description: Outlook Rule Automation Manager
 verification: security_reviewed
-source: "https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0"
-category: "General"
-framework: "Custom Agents"
+source: https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0
+category: General
+framework: Custom Agents
 ---
 # Outlook Rule Automation Manager
 

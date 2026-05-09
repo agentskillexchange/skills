@@ -1,15 +1,15 @@
 ---
-title: "Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue"
-slug: "triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue"
-description: "Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management."
-verification: security_reviewed
-source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/triage-issue.md"
-category: "Templates & Workflows"
-framework: "Claude Code"
-tool_ecosystem:
-  github_repo: "anthropics/claude-code"
-  npm_package: "@anthropic-ai/claude-code"
+title: Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue
+slug: triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue
+description: Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and apply only allowed labels without drifting into open-ended repo management.
 github_stars: 116829
+verification: security_reviewed
+source: https://github.com/anthropics/claude-code/blob/main/.claude/commands/triage-issue.md
+category: Templates & Workflows
+framework: Claude Code
+tool_ecosystem:
+  github_repo: anthropics/claude-code
+  npm_package: '@anthropic-ai/claude-code'
 ---
 # Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue
 

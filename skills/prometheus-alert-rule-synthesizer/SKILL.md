@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alert Rule Synthesizer"
-slug: "prometheus-alert-rule-synthesizer"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "OpenClaw"
+title: Prometheus Alert Rule Synthesizer
+slug: prometheus-alert-rule-synthesizer
+description: Prometheus Alert Rule Synthesizer
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Alert Rule Synthesizer

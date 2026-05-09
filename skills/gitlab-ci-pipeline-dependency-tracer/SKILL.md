@@ -1,13 +1,14 @@
 ---
-title: "GitLab CI Pipeline Dependency Tracer"
-slug: "gitlab-ci-pipeline-dependency-tracer"
-verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-category: "General"
-framework: "Codex"
+title: GitLab CI Pipeline Dependency Tracer
+slug: gitlab-ci-pipeline-dependency-tracer
+description: GitLab CI Pipeline Dependency Tracer
 github_stars: 24298
+verification: security_reviewed
+source: https://github.com/gitlabhq/gitlabhq
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   github_stars: 24298
 ---
 # GitLab CI Pipeline Dependency Tracer

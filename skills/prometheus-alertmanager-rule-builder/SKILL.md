@@ -1,13 +1,14 @@
 ---
-title: "Prometheus AlertManager Rule Builder"
-slug: "prometheus-alertmanager-rule-builder"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "ChatGPT Agents"
+title: Prometheus AlertManager Rule Builder
+slug: prometheus-alertmanager-rule-builder
+description: Prometheus AlertManager Rule Builder
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus AlertManager Rule Builder

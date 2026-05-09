@@ -1,13 +1,14 @@
 ---
-title: "Prometheus AlertManager Router"
-slug: "prometheus-alertmanager-router"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Cursor"
+title: Prometheus AlertManager Router
+slug: prometheus-alertmanager-router
+description: Prometheus AlertManager Router
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus AlertManager Router

@@ -1,14 +1,14 @@
 ---
-title: "Plane Open Source Project Management Platform"
-slug: "plane-open-source-project-management"
-description: "Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles, product roadmaps, collaborative documents, and project analytics with a modern interface and full data ownership."
+title: Plane Open Source Project Management Platform
+slug: plane-open-source-project-management
+description: Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles, product roadmaps, collaborative documents, and project analytics with a modern interface and full data ownership.
 github_stars: 47388
 verification: security_reviewed
-source: "https://github.com/makeplane/plane"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+source: https://github.com/makeplane/plane
+category: Calendar, Email & Productivity
+framework: Multi-Framework
 tool_ecosystem:
-  github_repo: "makeplane/plane"
+  github_repo: makeplane/plane
   github_stars: 47388
 ---
 # Plane Open Source Project Management Platform

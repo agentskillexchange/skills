@@ -1,13 +1,14 @@
 ---
-title: "MongoDB MCP Server"
-slug: "mongodb-mcp-server"
-verification: security_reviewed
-source: "https://github.com/mongodb/node-mongodb-native"
-category: "General"
-framework: "MCP"
+title: MongoDB MCP Server
+slug: mongodb-mcp-server
+description: MongoDB MCP Server
 github_stars: 10181
+verification: security_reviewed
+source: https://github.com/mongodb/node-mongodb-native
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "mongodb/node-mongodb-native"
+  github_repo: mongodb/node-mongodb-native
   github_stars: 10181
 ---
 # MongoDB MCP Server

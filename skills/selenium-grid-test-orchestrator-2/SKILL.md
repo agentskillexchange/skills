@@ -1,12 +1,13 @@
 ---
-title: "Selenium Grid Test Orchestrator"
-slug: "selenium-grid-test-orchestrator-2"
+title: Selenium Grid Test Orchestrator
+slug: selenium-grid-test-orchestrator-2
+description: Selenium Grid Test Orchestrator
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
-category: "General"
-framework: "ChatGPT Agents"
+source: https://github.com/SeleniumHQ/selenium
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "seleniumhq/selenium"
+  github_repo: seleniumhq/selenium
   github_stars: 34076
 ---
 # Selenium Grid Test Orchestrator

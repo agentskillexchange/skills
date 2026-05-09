@@ -1,13 +1,14 @@
 ---
-title: "Kubernetes CrashLoopBackOff Resolver"
-slug: "kubernetes-crashloopbackoff-resolver"
-verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-category: "General"
-framework: "Cursor"
+title: Kubernetes CrashLoopBackOff Resolver
+slug: kubernetes-crashloopbackoff-resolver
+description: Kubernetes CrashLoopBackOff Resolver
 github_stars: 121700
+verification: security_reviewed
+source: https://github.com/kubernetes/kubernetes
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
+  github_repo: kubernetes/kubernetes
   github_stars: 121700
 ---
 # Kubernetes CrashLoopBackOff Resolver

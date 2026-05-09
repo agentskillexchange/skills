@@ -1,13 +1,14 @@
 ---
-title: "Docker Compose Orchestrator"
-slug: "docker-compose-orchestrator-v2"
-verification: security_reviewed
-source: "https://github.com/moby/moby"
-category: "General"
-framework: "OpenClaw"
+title: Docker Compose Orchestrator
+slug: docker-compose-orchestrator-v2
+description: Docker Compose Orchestrator
 github_stars: 71492
+verification: security_reviewed
+source: https://github.com/moby/moby
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "moby/moby"
+  github_repo: moby/moby
   github_stars: 71492
 ---
 # Docker Compose Orchestrator

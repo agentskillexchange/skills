@@ -1,10 +1,11 @@
 ---
-title: "GPG Encryption and Key Management Agent"
-slug: "gpg-encryption-key-management-agent"
+title: GPG Encryption and Key Management Agent
+slug: gpg-encryption-key-management-agent
+description: GPG Encryption and Key Management Agent
 verification: security_reviewed
-source: "https://www.gnupg.org/documentation/manuals/gnupg/"
-category: "General"
-framework: "OpenClaw"
+source: https://www.gnupg.org/documentation/manuals/gnupg/
+category: General
+framework: OpenClaw
 ---
 # GPG Encryption and Key Management Agent
 

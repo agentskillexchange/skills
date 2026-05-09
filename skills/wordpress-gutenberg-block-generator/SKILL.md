@@ -1,12 +1,13 @@
 ---
-title: "WordPress Gutenberg Block Generator"
-slug: "wordpress-gutenberg-block-generator"
+title: WordPress Gutenberg Block Generator
+slug: wordpress-gutenberg-block-generator
+description: WordPress Gutenberg Block Generator
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-category: "General"
-framework: "Cursor"
+source: https://github.com/WordPress/WordPress
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "wordpress/wordpress"
+  github_repo: wordpress/wordpress
   github_stars: 21027
 ---
 # WordPress Gutenberg Block Generator

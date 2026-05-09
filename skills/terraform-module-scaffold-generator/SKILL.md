@@ -1,13 +1,14 @@
 ---
-title: "Terraform Module Scaffold Generator"
-slug: "terraform-module-scaffold-generator"
-verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-category: "General"
-framework: "OpenClaw"
+title: Terraform Module Scaffold Generator
+slug: terraform-module-scaffold-generator
+description: Terraform Module Scaffold Generator
 github_stars: 48146
+verification: security_reviewed
+source: https://github.com/hashicorp/terraform
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   github_stars: 48146
 ---
 # Terraform Module Scaffold Generator

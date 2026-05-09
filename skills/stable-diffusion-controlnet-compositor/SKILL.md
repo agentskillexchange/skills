@@ -1,11 +1,12 @@
 ---
-title: "Stable Diffusion ControlNet Compositor"
-slug: "stable-diffusion-controlnet-compositor"
-verification: security_reviewed
-source: "https://github.com/Stability-AI/stablediffusion"
-category: "General"
-framework: "Gemini"
+title: Stable Diffusion ControlNet Compositor
+slug: stable-diffusion-controlnet-compositor
+description: Stable Diffusion ControlNet Compositor
 github_stars: 33867
+verification: security_reviewed
+source: https://github.com/Stability-AI/stablediffusion
+category: General
+framework: Gemini
 ---
 # Stable Diffusion ControlNet Compositor
 

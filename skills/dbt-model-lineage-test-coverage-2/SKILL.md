@@ -1,13 +1,14 @@
 ---
-title: "dbt Model Lineage & Test Coverage Checker"
-slug: "dbt-model-lineage-test-coverage-2"
-verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-category: "General"
-framework: "Cursor"
+title: dbt Model Lineage & Test Coverage Checker
+slug: dbt-model-lineage-test-coverage-2
+description: dbt Model Lineage & Test Coverage Checker
 github_stars: 12621
+verification: security_reviewed
+source: https://github.com/dbt-labs/dbt-core
+category: General
+framework: Cursor
 tool_ecosystem:
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   github_stars: 12621
 ---
 # dbt Model Lineage & Test Coverage Checker

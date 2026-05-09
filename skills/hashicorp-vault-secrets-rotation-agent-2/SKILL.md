@@ -1,13 +1,14 @@
 ---
-title: "HashiCorp Vault Secrets Rotation Agent"
-slug: "hashicorp-vault-secrets-rotation-agent-2"
-verification: security_reviewed
-source: "https://github.com/hashicorp/vault"
-category: "General"
-framework: "MCP"
+title: HashiCorp Vault Secrets Rotation Agent
+slug: hashicorp-vault-secrets-rotation-agent-2
+description: HashiCorp Vault Secrets Rotation Agent
 github_stars: 35418
+verification: security_reviewed
+source: https://github.com/hashicorp/vault
+category: General
+framework: MCP
 tool_ecosystem:
-  github_repo: "hashicorp/vault"
+  github_repo: hashicorp/vault
   github_stars: 35418
 ---
 # HashiCorp Vault Secrets Rotation Agent

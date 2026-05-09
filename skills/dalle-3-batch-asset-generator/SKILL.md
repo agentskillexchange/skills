@@ -1,13 +1,14 @@
 ---
-title: "DALL-E 3 Batch Asset Generator"
-slug: "dalle-3-batch-asset-generator"
-verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-category: "General"
-framework: "ChatGPT Agents"
+title: DALL-E 3 Batch Asset Generator
+slug: dalle-3-batch-asset-generator
+description: DALL-E 3 Batch Asset Generator
 github_stars: 10813
+verification: security_reviewed
+source: https://github.com/openai/openai-node
+category: General
+framework: ChatGPT Agents
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10813
 ---
 # DALL-E 3 Batch Asset Generator

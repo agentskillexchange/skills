@@ -1,10 +1,11 @@
 ---
-title: "WP Multisite Network Sync Agent"
-slug: "wp-multisite-network-sync-agent"
+title: WP Multisite Network Sync Agent
+slug: wp-multisite-network-sync-agent
+description: WP Multisite Network Sync Agent
 verification: security_reviewed
-source: "https://developer.wordpress.org/advanced-administration/multisite/"
-category: "General"
-framework: "OpenClaw"
+source: https://developer.wordpress.org/advanced-administration/multisite/
+category: General
+framework: OpenClaw
 ---
 # WP Multisite Network Sync Agent
 

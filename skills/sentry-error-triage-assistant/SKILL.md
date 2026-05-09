@@ -1,13 +1,14 @@
 ---
-title: "Sentry Error Triage Assistant"
-slug: "sentry-error-triage-assistant"
-verification: security_reviewed
-source: "https://github.com/getsentry/sentry"
-category: "General"
-framework: "Claude Agents"
+title: Sentry Error Triage Assistant
+slug: sentry-error-triage-assistant
+description: Sentry Error Triage Assistant
 github_stars: 43576
+verification: security_reviewed
+source: https://github.com/getsentry/sentry
+category: General
+framework: Claude Agents
 tool_ecosystem:
-  github_repo: "getsentry/sentry"
+  github_repo: getsentry/sentry
   github_stars: 43576
 ---
 # Sentry Error Triage Assistant

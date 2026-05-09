@@ -1,13 +1,14 @@
 ---
-title: "Prometheus Alert Tuner"
-slug: "prometheus-alert-tuner"
-verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-category: "General"
-framework: "Gemini"
+title: Prometheus Alert Tuner
+slug: prometheus-alert-tuner
+description: Prometheus Alert Tuner
 github_stars: 63584
+verification: security_reviewed
+source: https://github.com/prometheus/prometheus
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "prometheus/prometheus"
+  github_repo: prometheus/prometheus
   github_stars: 63584
 ---
 # Prometheus Alert Tuner

@@ -1,13 +1,14 @@
 ---
-title: "Security Audit Skill"
-slug: "security-audit-skill"
-verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-category: "General"
-framework: "Custom Agents"
+title: Security Audit Skill
+slug: security-audit-skill
+description: Security Audit Skill
 github_stars: 15101
+verification: security_reviewed
+source: https://github.com/zaproxy/zaproxy
+category: General
+framework: Custom Agents
 tool_ecosystem:
-  github_repo: "zaproxy/zaproxy"
+  github_repo: zaproxy/zaproxy
   github_stars: 15101
 ---
 # Security Audit Skill

@@ -1,13 +1,14 @@
 ---
-title: "Cypress E2E API Intercept Skill"
-slug: "cypress-e2e-api-intercept-skill"
-verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
-category: "General"
-framework: "Codex"
+title: Cypress E2E API Intercept Skill
+slug: cypress-e2e-api-intercept-skill
+description: Cypress E2E API Intercept Skill
 github_stars: 49617
+verification: security_reviewed
+source: https://github.com/cypress-io/cypress
+category: General
+framework: Codex
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49617
 ---
 # Cypress E2E API Intercept Skill

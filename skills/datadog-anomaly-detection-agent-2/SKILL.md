@@ -1,12 +1,13 @@
 ---
-title: "Datadog Anomaly Detection Agent"
-slug: "datadog-anomaly-detection-agent-2"
+title: Datadog Anomaly Detection Agent
+slug: datadog-anomaly-detection-agent-2
+description: Datadog Anomaly Detection Agent
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
-category: "General"
-framework: "OpenClaw"
+source: https://github.com/DataDog/dd-trace-js
+category: General
+framework: OpenClaw
 tool_ecosystem:
-  github_repo: "datadog/dd-trace-js"
+  github_repo: datadog/dd-trace-js
   github_stars: 791
 ---
 # Datadog Anomaly Detection Agent

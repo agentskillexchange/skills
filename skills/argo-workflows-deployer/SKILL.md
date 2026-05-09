@@ -1,13 +1,14 @@
 ---
-title: "Argo Workflows Deployer"
-slug: "argo-workflows-deployer"
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-workflows"
-category: "General"
-framework: "Gemini"
+title: Argo Workflows Deployer
+slug: argo-workflows-deployer
+description: Argo Workflows Deployer
 github_stars: 16616
+verification: security_reviewed
+source: https://github.com/argoproj/argo-workflows
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "argoproj/argo-workflows"
+  github_repo: argoproj/argo-workflows
   github_stars: 16616
 ---
 # Argo Workflows Deployer

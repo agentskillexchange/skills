@@ -1,13 +1,14 @@
 ---
-title: "Whisper Diarization Post-Processor"
-slug: "whisper-diarization-post-processor"
-verification: security_reviewed
-source: "https://github.com/openai/whisper"
-category: "General"
-framework: "Claude Code"
+title: Whisper Diarization Post-Processor
+slug: whisper-diarization-post-processor
+description: Whisper Diarization Post-Processor
 github_stars: 97775
+verification: security_reviewed
+source: https://github.com/openai/whisper
+category: General
+framework: Claude Code
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97775
 ---
 # Whisper Diarization Post-Processor

@@ -1,13 +1,14 @@
 ---
-title: "Apache Tika Document Parser Agent"
-slug: "apache-tika-document-parser-agent"
-verification: security_reviewed
-source: "https://github.com/apache/tika"
-category: "General"
-framework: "Gemini"
+title: Apache Tika Document Parser Agent
+slug: apache-tika-document-parser-agent
+description: Apache Tika Document Parser Agent
 github_stars: 3703
+verification: security_reviewed
+source: https://github.com/apache/tika
+category: General
+framework: Gemini
 tool_ecosystem:
-  github_repo: "apache/tika"
+  github_repo: apache/tika
   github_stars: 3703
 ---
 # Apache Tika Document Parser Agent
