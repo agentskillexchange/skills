@@ -132,6 +132,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | 28.5k | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | 28.2k | — |
+| [Build planner-driven agent workflows with Microsoft Semantic Kernel](../../skills/build-planner-driven-agent-workflows-with-microsoft-semantic-kernel/) | 27.9k | — |
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |

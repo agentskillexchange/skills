@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2432 published skills** across **17 categories** · 2425 security reviewed · Updated 2026-05-09 01:28 UTC
+> **2433 published skills** across **17 categories** · 2425 security reviewed · Updated 2026-05-09 07:30 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (306 skills)
+### 🛠️ Developer Tools (307 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -106,6 +106,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Atuin Shell History Database and Sync](skills/atuin-shell-history-database-sync/) | Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes,… | Security Reviewed | 28.9k | — |
 | [GitHub MCP Server for AI-Powered Repository Management](skills/github-mcp-server-ai-repository-management/) | GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to… | Security Reviewed | 28.5k | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](skills/opentofu-open-source-infrastructure-as-code/) | OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises… | Security Reviewed | 28.2k | — |
+| [Build planner-driven agent workflows with Microsoft Semantic Kernel](skills/build-planner-driven-agent-workflows-with-microsoft-semantic-kernel/) | Compose prompts, plugins, memory, planners, and connectors into repeatable Python, .NET, or Java agent workflows… | Published | 27.9k | — |
 | [Budibase Open Source Low-Code Operations App Platform](skills/budibase-open-source-low-code-operations-app-platform/) | Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a… | Security Reviewed | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers,… | Security Reviewed | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic… | Security Reviewed | 27.5k | — |
@@ -2404,7 +2405,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches.… | Security Reviewed | 119.9k | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art,… | Security Reviewed | 116.9k | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration,… | Security Reviewed | 116.2k | — |
+| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | 112k | — |
 | [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | 109.1k | — |
+| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | 73k | — |
 | [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via… | Security Reviewed | 59k | — |
 | [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive… | Security Reviewed | 59k | — |
 | [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports… | Security Reviewed | 59k | — |
@@ -2416,6 +2419,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with… | Security Reviewed | 44.3k | — |
 | [Remotion React Video Generation and Rendering Framework](skills/remotion-react-video-generation-rendering-framework/) | Remotion is a framework for making videos programmatically with React. It lets agents and developers generate… | Security Reviewed | 42.8k | 746.1k/wk |
 | [PhotoPrism Self-Hosted Photo Library Automation](skills/photoprism-self-hosted-photo-library-automation/) | Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism.… | Security Reviewed | 39.5k | — |
+| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | 33.9k | — |
+| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | 33.9k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains… | Security Reviewed | 33.8k | — |
 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | 32.1k | 52.5M/wk |
 | [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | 32.1k | 52.5M/wk |
@@ -2423,6 +2428,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains… | Security Reviewed | 32.1k | 52.5M/wk |
 | [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | 31.8k | — |
 | [Find duplicate and visually similar media before cleanup with Czkawka](skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka/) | Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before… | Security Reviewed | 30.6k | — |
+| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | 27.1k | — |
+| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | 27.1k | — |
+| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | 27.1k | — |
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | 24.6k | — |
 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable… | Security Reviewed | 22.4k | 28.7M/wk |
 | [rembg AI Background Removal CLI and Python Library](skills/rembg-ai-background-removal-cli/) | rembg is a Python tool for automatic image background removal powered by AI models like U2-Net and SAM. It works as… | Security Reviewed | 22.4k | — |
@@ -2446,6 +2454,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Thumbor Smart Image Processing Service](skills/thumbor-smart-image-processing-service/) | An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform… | Security Reviewed | 10.5k | — |
 | [Render HTML-native agent videos with slash-command workflows using HyperFrames](skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/) | Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video… | Security Reviewed | 9.5k | 28k/wk |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | 7.9k | — |
+| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting… | Security Reviewed | 6k | — |
 | [Chafa Terminal Image and Graphics Renderer](skills/chafa-terminal-image-graphics-renderer/) | Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics… | Security Reviewed | 4.5k | — |
@@ -2482,14 +2491,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
-| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | — | — |
-| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | — | — |
-| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | — | — |
-| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
-| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
-| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 
 
 ### ✍️ Content Writing & SEO (77 skills)

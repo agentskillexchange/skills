@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2432,
+  "total": 2433,
   "generated": "2026-05-09",
   "skills": [
+    {
+      "slug": "build-planner-driven-agent-workflows-with-microsoft-semantic-kernel",
+      "name": "Build planner-driven agent workflows with Microsoft Semantic Kernel",
+      "description": "Compose prompts, plugins, memory, planners, and connectors into repeatable Python, .NET, or Java agent workflows with Microsoft Semantic Kernel.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 27861
+      }
+    },
     {
       "slug": "give-agents-fast-searchable-memory-with-supermemory",
       "name": "Give agents fast searchable memory with Supermemory",
@@ -21818,7 +21833,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 27135
       }
     },
     {
@@ -22962,7 +22978,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 7023
       }
     },
     {
@@ -25619,7 +25636,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 27135
       }
     },
     {
@@ -25988,7 +26006,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 33867
       }
     },
     {
@@ -27005,7 +27024,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 33867
       }
     },
     {
@@ -29655,7 +29675,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 27135
       }
     },
     {
@@ -30398,7 +30419,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 112003
       }
     },
     {
@@ -31372,7 +31394,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 72984
       }
     },
     {

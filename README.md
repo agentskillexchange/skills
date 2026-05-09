@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C432-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C433-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C425-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,432 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,433 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,15 +48,15 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-### [Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI](skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/)
+### [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/)
 
-Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream.
+Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows.
 
-- Tool: `validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli`
-- Category: CI/CD Integrations
+- Tool: `automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli`
+- Category: Calendar, Email &amp; Productivity
 - Frameworks: Multi-Framework
-- GitHub stars: 270
-- Listing: https://agentskillexchange.com/skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/
+- GitHub stars: 7,942
+- Listing: https://agentskillexchange.com/skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/
 
 ---
 
@@ -85,7 +85,7 @@ A strong cross-section of high-signal skills across the catalog.
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 306 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 307 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 225 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 181 | Linting, code review, test generators, coverage |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,432 | In the catalog, every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,433 | In the catalog, every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,425 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
