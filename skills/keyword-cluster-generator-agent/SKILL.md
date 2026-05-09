@@ -3,7 +3,7 @@ title: Keyword Cluster Generator
 slug: keyword-cluster-generator-agent
 description: Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API.
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/keyword-cluster-generator-agent/
+source: https://developers.notion.com/
 category: Content Writing & SEO
 framework: MCP
 ---

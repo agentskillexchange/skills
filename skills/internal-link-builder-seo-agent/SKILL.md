@@ -3,7 +3,7 @@ title: Internal Link Builder
 slug: internal-link-builder-seo-agent
 description: Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations. Calculates PageRank distribution using networkx graph algorithms.
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/internal-link-builder-seo-agent/
+source: https://developer.wordpress.org/
 category: Content Writing & SEO
 framework: Claude Agents
 ---
