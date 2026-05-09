@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category: "General"
 framework: "Claude Code"
-github_stars: 21027
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027

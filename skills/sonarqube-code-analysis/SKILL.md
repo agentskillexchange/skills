@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category: "General"
 framework: "Claude Code"
-github_stars: 10520
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
   github_stars: 10520

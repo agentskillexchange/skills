@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/DataDog/datadog-api-client-typescript"
 category: "General"
 framework: "Claude Agents"
-github_stars: 102
 tool_ecosystem:
   github_repo: "datadog/datadog-api-client-typescript"
   github_stars: 102

@@ -2,7 +2,6 @@
 title: "Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments"
 slug: "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments"
 description: "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations."
-github_stars: 6
 verification: security_reviewed
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals"
 category: "Monitoring & Alerts"

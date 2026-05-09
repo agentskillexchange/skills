@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/ClickHouse/ClickHouse"
 category: "General"
 framework: "Custom Agents"
-github_stars: 46871
 tool_ecosystem:
   github_repo: "clickhouse/clickhouse"
   github_stars: 46871

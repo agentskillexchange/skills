@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/OpenAPITools/openapi-generator"
 category: "General"
 framework: "Custom Agents"
-github_stars: 26127
 tool_ecosystem:
   github_repo: "openapitools/openapi-generator"
   github_stars: 26127

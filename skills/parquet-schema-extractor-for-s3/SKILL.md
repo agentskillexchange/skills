@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
 category: "General"
 framework: "Gemini"
-github_stars: 387
 tool_ecosystem:
   github_repo: "ironsource/parquetjs"
   github_stars: 387

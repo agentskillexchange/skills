@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/WordPress/abilities-api"
 category: "General"
 framework: "Custom Agents"
-github_stars: 208
 tool_ecosystem:
   github_repo: "wordpress/abilities-api"
   github_stars: 208

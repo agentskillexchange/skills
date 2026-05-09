@@ -2,7 +2,6 @@
 title: "Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe"
 slug: "find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe"
 description: "Use Claude Code dedupe to summarize an issue, run several GitHub duplicate searches in parallel, filter false positives, and post only well-supported possible-duplicate links."
-github_stars: 116829
 verification: security_reviewed
 source: "https://github.com/anthropics/claude-code/blob/main/.claude/commands/dedupe.md"
 category: "Templates & Workflows"

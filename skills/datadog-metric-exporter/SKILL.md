@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category: "General"
 framework: "Gemini"
-github_stars: 791
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791

@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
 category: "General"
 framework: "Claude Agents"
-github_stars: 34076
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076

@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
 category: "General"
 framework: "Claude Code"
-github_stars: 69
 tool_ecosystem:
   github_repo: "pagerduty/pdjs"
   github_stars: 69

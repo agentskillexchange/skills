@@ -5,7 +5,6 @@ verification: security_reviewed
 source: "https://github.com/ImageMagick/ImageMagick"
 category: "General"
 framework: "MCP"
-github_stars: 16152
 tool_ecosystem:
   github_repo: "imagemagick/imagemagick"
   github_stars: 16152

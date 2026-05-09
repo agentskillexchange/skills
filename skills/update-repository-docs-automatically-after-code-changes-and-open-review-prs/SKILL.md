@@ -2,7 +2,6 @@
 title: "Update repository docs automatically after code changes and open review PRs"
 slug: "update-repository-docs-automatically-after-code-changes-and-open-review-prs"
 description: "Use GitHub Next&#8217;s update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes what changed, generates the missing docs updates, and opens a reviewable PR rather than silently rewriting the docs in place."
-github_stars: 585
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/update-docs.md"
 category: "CI/CD Integrations"
