@@ -5,6 +5,7 @@ on:
     paths:
       - 'skills/**'
       - 'scripts/validate-skill.sh'
+      - 'scripts/validate_skills.py'
       - 'spec/SKILL_SPEC.md'
       - '.github/workflows/validate.yml'
   push:
@@ -12,6 +13,7 @@ on:
     paths:
       - 'skills/**'
       - 'scripts/validate-skill.sh'
+      - 'scripts/validate_skills.py'
       - 'spec/SKILL_SPEC.md'
       - '.github/workflows/validate.yml'
 
@@ -21,29 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate SKILL.md files
-        run: |
-          set -euo pipefail
-          errors=0
+      - name: Install validator dependencies
+        run: python3 -m pip install PyYAML
 
-          # Always validate the full catalog so generator/schema drift is caught.
-          mapfile -t skill_files < <(find skills -mindepth 2 -maxdepth 2 -name 'SKILL.md' -type f | sort)
-
-          if [ ${#skill_files[@]} -eq 0 ]; then
-            echo "No SKILL.md files to validate"
-            exit 0
-          fi
-
-          for file in "${skill_files[@]}"; do
-            echo "Checking $file..."
-            if ! ./scripts/validate-skill.sh "$file"; then
-              errors=$((errors + 1))
-            fi
-          done
-
-          echo ""
-          echo "Validation complete. Files: ${#skill_files[@]}. Errors: $errors"
-
-          if [ $errors -gt 0 ]; then
-            exit 1
-          fi
+      - name: Validate full SKILL.md catalog
+        run: python3 scripts/validate_skills.py --all --github-annotations --quiet

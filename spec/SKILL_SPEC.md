@@ -197,15 +197,28 @@ npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifi
 
 ## Validation Rules
 
-A valid `SKILL.md` must:
+A valid `SKILL.md` must pass the committed parser-backed validator:
 
-1. Have valid YAML frontmatter between `---` delimiters
-2. Include all required fields (`title`, `slug`, `description`, `category`, `framework`, `verification`)
-3. Use a `slug` matching the containing directory name
-4. Use a valid category from the list above
-5. Use a valid framework from the list above
-6. Use a valid public verification tier (`listed` or `security_reviewed`)
-7. Have a markdown body with at least a title and description
+```bash
+python3 scripts/validate_skills.py --all
+```
+
+The validator must:
+
+1. Parse YAML frontmatter with a real YAML parser, not grep/sed
+2. Reject duplicate YAML keys
+3. Include all required fields (`title`, `slug`, `description`, `category`, `framework`, `verification`)
+4. Validate required field types; canonical public fields are scalar strings unless explicitly documented otherwise
+5. Reject deprecated public fields (`name`, `verification_status`, `verified_metadata`)
+6. Use a lowercase kebab-case `slug` matching the containing directory name
+7. Use a valid category from the public category set; transitional generated buckets such as `General` and `Uncategorized` may be allowed only while the live taxonomy backlog is being cleaned
+8. Use a valid framework from the public framework set
+9. Use a valid public verification tier (`listed` or `security_reviewed`)
+10. Validate `source` as an HTTP(S) URL when present
+11. Validate numeric signal fields as numbers, not strings
+12. Validate `tool_ecosystem` as an object with typed optional fields
+13. Have a markdown body with an H1 heading and enough useful content
+14. Emit GitHub Actions annotations in CI
 
 ## Versioning
 

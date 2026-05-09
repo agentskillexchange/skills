@@ -4,24 +4,39 @@ Automation tooling for the Agent Skill Exchange repository.
 
 ## Available Scripts
 
-### `validate-skill.sh`
+### `validate_skills.py`
 
-Validates a `SKILL.md` file against the skill spec.
+Parser-backed validator for one skill, a directory of skills, or the full catalog.
+
+```bash
+python3 scripts/validate_skills.py skills/playwright-mcp-browser-automation/SKILL.md
+python3 scripts/validate_skills.py --all --github-annotations --quiet
+```
+
+`validate-skill.sh` remains as a compatibility wrapper around this script:
 
 ```bash
 ./scripts/validate-skill.sh path/to/SKILL.md
 ```
 
 **Checks performed:**
-- File exists and is non-empty
-- YAML frontmatter is present (delimited by `---`)
-- Required fields exist: `title`, `slug`, `description`, `category`, `framework`, `verification`
-- `slug` matches the containing directory name
-- Deprecated `name` frontmatter is not present
-- Verification is a public value (`listed` or `security_reviewed`); internal `verified_metadata` must export as `listed`
-- Body contains an H1 heading (`# `)
+- File exists, is non-empty, and is valid UTF-8
+- YAML frontmatter is present and parsed with PyYAML
+- Duplicate YAML keys are rejected
+- Required fields exist and have the expected scalar types: `title`, `slug`, `description`, `category`, `framework`, `verification`
+- `slug` is lowercase kebab-case and matches the containing directory name
+- Deprecated public fields are rejected: `name`, `verification_status`, `verified_metadata`
+- `verification` is a public value (`listed` or `security_reviewed`); internal `verified_metadata` must export as `listed`
+- Category and framework labels are validated against the known public taxonomy/framework sets
+- `source` is URL-like when present
+- Numeric signal fields are real numbers, not quoted strings
+- `tool_ecosystem` is an object with typed optional fields
+- Body contains an H1 heading and enough useful content
+- GitHub Actions annotations are emitted with `--github-annotations`
 
-**Exit codes:** `0` on pass, `1` on fail with descriptive error messages.
+**Requirement:** Python 3 + `PyYAML`.
+
+**Exit codes:** `0` on pass, `1` on validation failure, `2` when PyYAML is unavailable.
 
 ### `generate-catalog.sh`
 
