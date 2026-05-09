@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 category: "General"
 framework: "MCP"
-github_stars: 4407
+github_stars: 4410
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
-  github_stars: 4407
+  github_stars: 4410
 ---
 # Stripe MCP Server
 

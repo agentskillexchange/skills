@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/moby/moby"
 category: "General"
 framework: "MCP"
-github_stars: 71529
+github_stars: 71531
 tool_ecosystem:
   github_repo: "moby/moby"
-  github_stars: 71529
+  github_stars: 71531
 ---
 # Docker MCP Server
 

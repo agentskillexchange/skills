@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category: "General"
 framework: "Claude Code"
-github_stars: 27230
+github_stars: 27235
 tool_ecosystem:
   github_repo: "eslint/eslint"
-  github_stars: 27230
+  github_stars: 27235
 ---
 # ESLint Code Review
 

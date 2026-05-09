@@ -5,6 +5,7 @@ verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category: "General"
 framework: "Gemini"
+github_stars: 72984
 ---
 # Stable Diffusion Prompt Optimizer
 

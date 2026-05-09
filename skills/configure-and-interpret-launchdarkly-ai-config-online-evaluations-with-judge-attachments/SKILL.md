@@ -9,6 +9,7 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "launchdarkly/ai-tooling"
   npm_package: "None"
+github_stars: 6
 ---
 # Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments
 

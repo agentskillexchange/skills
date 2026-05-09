@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/modelcontextprotocol/servers"
 category: "General"
 framework: "Claude Code"
-github_stars: 85252
+github_stars: 85306
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 85252
+  github_stars: 85306
 ---
 # PostgreSQL MCP Server
 

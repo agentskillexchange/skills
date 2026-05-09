@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/pulumi/pulumi"
 category: "General"
 framework: "MCP"
-github_stars: 25161
+github_stars: 25164
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
-  github_stars: 25161
+  github_stars: 25164
 ---
 # Pulumi MCP Server
 

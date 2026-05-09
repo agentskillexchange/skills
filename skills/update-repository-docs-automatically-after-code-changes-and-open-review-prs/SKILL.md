@@ -8,6 +8,7 @@ category: "CI/CD Integrations"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "githubnext/agentics"
+github_stars: 585
 ---
 # Update repository docs automatically after code changes and open review PRs
 

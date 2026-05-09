@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category: "General"
 framework: "MCP"
-github_stars: 22828
+github_stars: 22835
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
-  github_stars: 22828
+  github_stars: 22835
 ---
 # ArgoCD MCP Server
 

@@ -9,6 +9,7 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "anthropics/claude-code"
   npm_package: "@anthropic-ai/claude-code"
+github_stars: 116829
 ---
 # Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue
 

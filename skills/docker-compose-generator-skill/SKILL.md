@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/moby/moby"
 category: "General"
 framework: "Custom Agents"
-github_stars: 71538
+github_stars: 71531
 tool_ecosystem:
   github_repo: "moby/moby"
-  github_stars: 71538
+  github_stars: 71531
 ---
 # Docker Compose Generator Skill
 

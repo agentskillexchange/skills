@@ -1,7 +1,7 @@
 ---
 title: "Run supervised IDE coding-agent workflows with Cline"
 slug: "run-supervised-ide-coding-agent-workflows-with-cline"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/cline/cline"
 category: "General"
 framework: "Any"

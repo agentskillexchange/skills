@@ -8,6 +8,7 @@ category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/skills"
+github_stars: 2103
 ---
 # Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review
 

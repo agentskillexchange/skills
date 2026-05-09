@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "General"
 framework: "Custom Agents"
-github_stars: 24307
+github_stars: 24334
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
-  github_stars: 24307
+  github_stars: 24334
 ---
 # CI Pipeline Generator Skill
 

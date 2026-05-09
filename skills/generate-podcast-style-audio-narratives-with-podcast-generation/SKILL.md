@@ -8,6 +8,7 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/skills"
+github_stars: 2103
 ---
 # Generate podcast-style audio narratives with Podcast Generation
 

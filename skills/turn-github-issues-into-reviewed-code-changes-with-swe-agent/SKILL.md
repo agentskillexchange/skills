@@ -1,7 +1,7 @@
 ---
 title: "Turn GitHub issues into reviewed code changes with SWE-agent"
 slug: "turn-github-issues-into-reviewed-code-changes-with-swe-agent"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/SWE-agent/SWE-agent"
 category: "General"
 framework: "Any"

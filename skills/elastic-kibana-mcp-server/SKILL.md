@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/elastic/elasticsearch"
 category: "General"
 framework: "MCP"
-github_stars: 76659
+github_stars: 76667
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
-  github_stars: 76659
+  github_stars: 76667
 ---
 # Elastic / Kibana MCP Server
 

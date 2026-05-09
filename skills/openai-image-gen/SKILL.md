@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 category: "General"
 framework: "OpenClaw"
-github_stars: 10886
+github_stars: 10889
 tool_ecosystem:
   github_repo: "openai/openai-node"
-  github_stars: 10886
+  github_stars: 10889
 ---
 # OpenAI Image Gen
 

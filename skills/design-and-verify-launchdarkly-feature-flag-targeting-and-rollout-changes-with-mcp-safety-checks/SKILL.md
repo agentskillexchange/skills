@@ -9,6 +9,7 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "launchdarkly/ai-tooling"
   npm_package: "None"
+github_stars: 6
 ---
 # Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks
 

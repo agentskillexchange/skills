@@ -5,6 +5,7 @@ verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category: "General"
 framework: "Claude Agents"
+github_stars: 27135
 ---
 # Stable Diffusion XL Pipeline
 

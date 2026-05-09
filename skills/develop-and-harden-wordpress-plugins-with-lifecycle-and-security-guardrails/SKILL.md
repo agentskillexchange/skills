@@ -6,6 +6,7 @@ verification: security_reviewed
 source: "https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development"
 category: "WordPress & CMS"
 framework: "Multi-Framework"
+github_stars: 196
 ---
 # Develop and harden WordPress plugins with lifecycle and security guardrails
 

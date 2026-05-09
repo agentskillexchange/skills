@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/atlassian/atlassian-mcp-server"
 category: "General"
 framework: "MCP"
-github_stars: 654
+github_stars: 659
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
-  github_stars: 654
+  github_stars: 659
 ---
 # Atlassian Rovo MCP Server
 

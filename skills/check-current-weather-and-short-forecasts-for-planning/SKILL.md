@@ -8,6 +8,7 @@ category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openclaw/openclaw"
+github_stars: 356821
 ---
 # Check current weather and short forecasts for planning
 

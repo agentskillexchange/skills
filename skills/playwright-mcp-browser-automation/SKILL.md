@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/microsoft/playwright-mcp"
 category: "General"
 framework: "Claude Code"
-github_stars: 32168
+github_stars: 32232
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
-  github_stars: 32168
+  github_stars: 32232
 ---
 # Playwright MCP Browser Automation
 

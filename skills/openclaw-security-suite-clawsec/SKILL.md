@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/prompt-security/clawsec"
 category: "General"
 framework: "OpenClaw"
-github_stars: 975
+github_stars: 978
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
-  github_stars: 975
+  github_stars: 978
 ---
 # OpenClaw Security Suite (ClawSec)
 

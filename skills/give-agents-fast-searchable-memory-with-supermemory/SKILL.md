@@ -1,7 +1,7 @@
 ---
 title: "Give agents fast searchable memory with Supermemory"
 slug: "give-agents-fast-searchable-memory-with-supermemory"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/supermemoryai/supermemory"
 category: "General"
 framework: "Any"

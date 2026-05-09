@@ -5,6 +5,7 @@ verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category: "General"
 framework: "Cursor"
+github_stars: 27135
 ---
 # Stable Diffusion XL Pipeline Builder
 

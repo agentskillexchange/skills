@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category: "General"
 framework: "MCP"
-github_stars: 73622
+github_stars: 73640
 tool_ecosystem:
   github_repo: "grafana/grafana"
-  github_stars: 73622
+  github_stars: 73640
 ---
 # Prometheus / Grafana MCP Server
 

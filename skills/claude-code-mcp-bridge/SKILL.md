@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/steipete/claude-code-mcp"
 category: "General"
 framework: "Claude Code"
-github_stars: 1275
+github_stars: 1274
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
-  github_stars: 1275
+  github_stars: 1274
 ---
 # Claude Code MCP Bridge
 

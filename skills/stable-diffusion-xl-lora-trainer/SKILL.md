@@ -6,6 +6,7 @@ verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category: "Image & Creative Automation"
 framework: "Custom Agents"
+github_stars: 27135
 ---
 # Stable Diffusion XL LoRA Trainer
 

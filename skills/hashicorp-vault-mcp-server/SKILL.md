@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/hashicorp/vault-mcp-server"
 category: "General"
 framework: "MCP"
-github_stars: 46
+github_stars: 47
 tool_ecosystem:
   github_repo: "hashicorp/vault-mcp-server"
-  github_stars: 46
+  github_stars: 47
 ---
 # HashiCorp Vault MCP Server
 

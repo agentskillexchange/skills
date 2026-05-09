@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/snyk/agent-scan"
 category: "General"
 framework: "MCP"
-github_stars: 2364
+github_stars: 2366
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
-  github_stars: 2364
+  github_stars: 2366
 ---
 # Snyk Agent Scan
 

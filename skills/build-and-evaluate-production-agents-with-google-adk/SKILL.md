@@ -1,7 +1,7 @@
 ---
 title: "Build and evaluate production agents with Google ADK"
 slug: "build-and-evaluate-production-agents-with-google-adk"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/google/adk-python"
 category: "General"
 framework: "Any"

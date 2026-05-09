@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/openai/whisper"
 category: "General"
 framework: "OpenClaw"
-github_stars: 99119
+github_stars: 99179
 tool_ecosystem:
   github_repo: "openai/whisper"
-  github_stars: 99119
+  github_stars: 99179
 ---
 # OpenAI Whisper Transcription
 

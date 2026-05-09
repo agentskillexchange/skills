@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/peterskoett/self-improving-agent"
 category: "General"
 framework: "OpenClaw"
-github_stars: 591
+github_stars: 593
 tool_ecosystem:
   github_repo: "peterskoett/self-improving-agent"
-  github_stars: 591
+  github_stars: 593
 ---
 # Self-Improvement / Learnings Capture
 

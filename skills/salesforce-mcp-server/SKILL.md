@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
 category: "General"
 framework: "MCP"
-github_stars: 1457
+github_stars: 1458
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
-  github_stars: 1457
+  github_stars: 1458
 ---
 # Salesforce MCP Server
 

@@ -8,6 +8,7 @@ category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "githubnext/agentics"
+github_stars: 585
 ---
 # Review open pull requests against repository contribution guidelines
 

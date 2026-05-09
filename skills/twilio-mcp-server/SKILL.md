@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/twilio/twilio-node"
 category: "General"
 framework: "MCP"
-github_stars: 1534
+github_stars: 1535
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
-  github_stars: 1534
+  github_stars: 1535
 ---
 # Twilio MCP Server
 

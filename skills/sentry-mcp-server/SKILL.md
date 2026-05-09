@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/getsentry/sentry-mcp"
 category: "General"
 framework: "MCP"
-github_stars: 678
+github_stars: 680
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
-  github_stars: 678
+  github_stars: 680
 ---
 # Sentry MCP Server
 

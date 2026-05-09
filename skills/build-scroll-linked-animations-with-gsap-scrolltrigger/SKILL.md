@@ -6,6 +6,7 @@ verification: security_reviewed
 source: "https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger"
 category: "Developer Tools"
 framework: "Multi-Framework"
+github_stars: 2341
 ---
 # Build scroll-linked animations with GSAP ScrollTrigger
 

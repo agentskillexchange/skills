@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/run-llama/llama_index"
 category: "General"
 framework: "MCP"
-github_stars: 49231
+github_stars: 49254
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
-  github_stars: 49231
+  github_stars: 49254
 ---
 # LlamaIndex MCP Server
 

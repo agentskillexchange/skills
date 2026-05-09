@@ -9,6 +9,7 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "psenger/ai-agent-skills"
   npm_package: "None"
+github_stars: 1
 ---
 # Review REST API designs before implementation for versioning, security, and contract clarity
 

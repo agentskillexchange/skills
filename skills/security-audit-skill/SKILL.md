@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 category: "General"
 framework: "Custom Agents"
-github_stars: 15002
+github_stars: 15101
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
-  github_stars: 15002
+  github_stars: 15101
 ---
 # Security Audit Skill
 

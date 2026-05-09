@@ -5,10 +5,10 @@ verification: security_reviewed
 source: "https://github.com/crystaldba/postgres-mcp"
 category: "General"
 framework: "MCP"
-github_stars: 2705
+github_stars: 2711
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
-  github_stars: 2705
+  github_stars: 2711
 ---
 # Postgres MCP Pro
 

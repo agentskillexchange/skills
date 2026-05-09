@@ -5,6 +5,7 @@ verification: security_reviewed
 source: "https://github.com/Stability-AI/stablediffusion"
 category: "General"
 framework: "MCP"
+github_stars: 112003
 ---
 # Stable Diffusion ComfyUI Workflow Runner
 

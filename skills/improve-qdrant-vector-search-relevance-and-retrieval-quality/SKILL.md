@@ -6,6 +6,7 @@ verification: security_reviewed
 source: "https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
+github_stars: 65
 ---
 # Improve Qdrant vector search relevance and retrieval quality
 
