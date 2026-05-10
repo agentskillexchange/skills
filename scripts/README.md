@@ -61,7 +61,7 @@ ASE_API_BASE=https://agentskillexchange.com ./scripts/sync-from-api.sh
 ASE_API_BASE=https://agentskillexchange.com ./scripts/generate-all.sh [repo_directory]
 ```
 
-Generated artifacts include `README.md`, `CATALOG.md`, `categories/`, `industries/`, `TOP-STARS.md`, `TOP-DOWNLOADS.md`, `skills.json`, agent manifest files, and `sync-metadata.json`.
+Generated artifacts include `README.md`, `CATALOG.md`, `categories/`, `industries/`, `TOP-STARS.md`, `TOP-DOWNLOADS.md`, `skills.json`, public agent endpoint files (`openclaw.json`, `codex.json`, `llms.txt`), agent manifest files, and `sync-metadata.json`.
 
 `sync-metadata.json` records:
 - `generated_at`
@@ -70,6 +70,22 @@ Generated artifacts include `README.md`, `CATALOG.md`, `categories/`, `industrie
 - `source_etag_or_hash` (SHA-256 of generated `skills.json`)
 - `generator_version`
 - `schema_version`
+
+### Public agent endpoints
+
+`generate-agent-endpoints.py` uses the canonical generated `skills.json` to write static, cacheable agent discovery files:
+
+```bash
+python3 scripts/generate-agent-endpoints.py [repo_directory]
+python3 scripts/smoke-agent-endpoints.py --base https://agentskillexchange.com
+```
+
+Live endpoint contract:
+- `/skills.json` — full canonical public catalog (`application/json`)
+- `/openclaw.json` — OpenClaw-oriented manifest (`application/json`)
+- `/codex.json` — Codex-oriented manifest (`application/json`)
+- `/llms.txt` — concise agent/human discovery document (`text/plain`)
+- cache header: `Cache-Control: public, max-age=300, stale-while-revalidate=86400`
 
 ### `generate-catalog.sh`
 

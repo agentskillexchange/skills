@@ -163,6 +163,23 @@ Only include if the skill is backed by a real tool with verifiable signals. All 
 }
 ```
 
+## Public Agent Endpoints
+
+The public site exposes static, cacheable agent-readable endpoints generated from the same canonical catalog output:
+
+- `https://agentskillexchange.com/skills.json` — full canonical catalog JSON
+- `https://agentskillexchange.com/openclaw.json` — OpenClaw-oriented manifest with install guidance and catalog links
+- `https://agentskillexchange.com/codex.json` — Codex-oriented manifest with repository/path/schema guidance
+- `https://agentskillexchange.com/llms.txt` — concise agent/human discovery document
+
+Endpoint requirements:
+
+1. JSON endpoints must return `Content-Type: application/json`.
+2. `llms.txt` must return `Content-Type: text/plain`.
+3. Endpoints must be public, unauthenticated, and cacheable.
+4. Endpoint schema must not expose deprecated/internal public fields such as `name`, `verification_status`, or `verified_metadata`.
+5. Endpoint health is checked by `python3 scripts/smoke-agent-endpoints.py --base https://agentskillexchange.com`.
+
 ## Markdown Body
 
 The body follows the frontmatter and contains:

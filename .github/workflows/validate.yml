@@ -8,6 +8,7 @@ on:
       - 'scripts/validate_skills.py'
       - 'scripts/security_scan.py'
       - 'scripts/test_security_patterns.py'
+      - 'scripts/smoke-agent-endpoints.py'
       - 'verification/patterns.json'
       - 'verification/fixtures/security/**'
       - 'spec/SKILL_SPEC.md'
@@ -20,6 +21,7 @@ on:
       - 'scripts/validate_skills.py'
       - 'scripts/security_scan.py'
       - 'scripts/test_security_patterns.py'
+      - 'scripts/smoke-agent-endpoints.py'
       - 'verification/patterns.json'
       - 'verification/fixtures/security/**'
       - 'spec/SKILL_SPEC.md'
@@ -42,3 +44,6 @@ jobs:
 
       - name: Scan full SKILL.md catalog for security patterns
         run: python3 scripts/security_scan.py skills --github-annotations --quiet
+
+      - name: Smoke test public agent endpoints
+        run: python3 scripts/smoke-agent-endpoints.py --base https://agentskillexchange.com
