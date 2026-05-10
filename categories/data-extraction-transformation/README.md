@@ -23,6 +23,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Downloads |
 |---|---:|
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⬇ 395.9k/wk |
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 15/wk |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | ⬇ 19.6M/wk |
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | ⬇ 19.6M/wk |
@@ -32,7 +33,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | ⬇ 9.3M/wk |
 | [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | ⬇ 2.5M/wk |
-| [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | ⬇ 2.5M/wk |
 
 ---
 
@@ -42,7 +42,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85.3k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85.3k | 395.9k/wk |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 85.3k | — |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | — |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | 79.8k | — |

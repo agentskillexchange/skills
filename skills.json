@@ -36411,6 +36411,7 @@
       "signals": {
         "tool": "pagerduty",
         "github_stars": 69,
+        "npm_weekly_downloads": 1025138,
         "license": "Apache-2.0"
       }
     },
@@ -36609,6 +36610,7 @@
       "signals": {
         "tool": "supabase",
         "github_stars": 100812,
+        "npm_weekly_downloads": 83526480,
         "license": "Apache-2.0"
       }
     },
@@ -36626,6 +36628,7 @@
       "signals": {
         "tool": "aws",
         "github_stars": 3607,
+        "npm_weekly_downloads": 30515055,
         "license": "Apache-2.0"
       }
     },
@@ -37349,6 +37352,7 @@
       "signals": {
         "tool": "grpc",
         "github_stars": 4822,
+        "npm_weekly_downloads": 147394194,
         "license": "Apache-2.0"
       }
     },
@@ -37520,6 +37524,7 @@
       "signals": {
         "tool": "openapi-generator",
         "github_stars": 26219,
+        "npm_weekly_downloads": 5686761,
         "license": "Apache-2.0"
       }
     },
@@ -37761,6 +37766,7 @@
       "signals": {
         "tool": "aws",
         "github_stars": 3622,
+        "npm_weekly_downloads": 32081840,
         "license": "Apache-2.0"
       }
     },
@@ -37778,6 +37784,7 @@
       "signals": {
         "tool": "aws",
         "github_stars": 3622,
+        "npm_weekly_downloads": 109444222,
         "license": "Apache-2.0"
       }
     },
@@ -38396,7 +38403,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 85306
+        "github_stars": 85306,
+        "npm_weekly_downloads": 225428
       }
     },
     {
@@ -38450,7 +38458,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 85306
+        "github_stars": 85306,
+        "npm_weekly_downloads": 395921
       }
     },
     {

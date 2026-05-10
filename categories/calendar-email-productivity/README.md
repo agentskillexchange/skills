@@ -23,6 +23,7 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Downloads |
 |---|---:|
+| [Slack MCP Server](../../skills/slack-mcp-server/) | ⬇ 225.4k/wk |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.2M/wk |
@@ -32,7 +33,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⬇ 1.2M/wk |
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⬇ 1.2M/wk |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⬇ 1.2M/wk |
-| [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -41,7 +41,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | 356.8k | — |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | 85.3k | — |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | 85.3k | 225.4k/wk |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | 69.7k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | 67.2k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |

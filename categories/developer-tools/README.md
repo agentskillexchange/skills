@@ -23,6 +23,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⬇ 83.5M/wk |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 40.2M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | ⬇ 96.8M/wk |
@@ -32,7 +33,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.2k/wk |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.7M/wk |
 | [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 164M/wk |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 1k/wk |
 
 ---
 
@@ -48,7 +48,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 112.1k | — |
 | [Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI](../../skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/) | 101.6k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
-| [Supabase MCP Server](../../skills/supabase-mcp-server/) | 100.8k | — |
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | 100.8k | 83.5M/wk |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94.1k | 40.2M/wk |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.9k | — |
@@ -140,7 +140,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
-| [API Client Generator Skill](../../skills/api-client-generator-skill/) | 26.2k | — |
+| [API Client Generator Skill](../../skills/api-client-generator-skill/) | 26.2k | 5.7M/wk |
 | [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | 26.1k | — |
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
@@ -271,11 +271,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](../../skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | 14M/wk |
-| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | — |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 109.4M/wk |
+| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 32.1M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
-| [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | — |
+| [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |

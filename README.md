@@ -9,7 +9,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C430-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Categories](categories/) · [Industry Collections](industries/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
+**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
 *2,433 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
@@ -17,23 +17,7 @@
 
 ---
 
-## Skill of the Day
-
-> 🌟 Rotates daily by UTC date from the featured pool
-
-**[Hugging Face Model Deployer](skills/huggingface-model-deployer/)**
-
-Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams…
-
-| Signal | Value |
-|--------|-------|
-| ⭐ Stars | 159,358 |
-| 📂 Category | CI/CD Integrations |
-| 🔗 | [View Skill →](skills/huggingface-model-deployer/) |
-
----
-
-## What is an Agent Skill
+## What is this?
 
 An open, machine-readable catalog of reusable skills for AI coding agents. Each skill wraps a real tool, API, or workflow into a format that agents like Claude Code, Cursor, Codex, and OpenClaw can install and use.
 
@@ -41,7 +25,7 @@ Every skill is backed by a real upstream project — a GitHub repo, npm package,
 
 ---
 
-## Start Here
+## Quick Start
 
 ```bash
 # Install any skill
@@ -100,24 +84,6 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 77 | SEO content, blog automation, editorial workflows |
-
----
-
-## Industry Collections
-
-Curated skill sets organized by industry vertical:
-
-| | Collection | Description |
-|---|---|---|
-| 🎙️ | [Media & Publishing Systems](industries/media-publishing-systems.md) | Content pipelines, CMS automation, media workflows |
-| 💼 | [Finance & Filings](industries/finance-filings.md) | Financial data, reporting, compliance automation |
-| 🛒 | [Ecommerce & Retail Operations](industries/ecommerce-retail-operations.md) | Product feeds, order management, retail automation |
-| ⚖️ | [Legal Ops & Compliance](industries/legal-ops-compliance.md) | Contract review, compliance monitoring, legal workflows |
-| 🩺 | [Healthcare Documentation & Intake](industries/healthcare-documentation-intake.md) | Clinical notes, intake forms, health data pipelines |
-| 📈 | [Product Analytics & Growth Ops](industries/product-analytics-growth-ops.md) | Funnel analysis, growth tooling, product data |
-| 📚 | [DevRel & API Documentation](industries/devrel-api-documentation.md) | API docs, developer experience, SDK tooling |
-| 🎧 | [Customer Support & Success](industries/customer-support-success.md) | Ticketing, escalation, support automation |
-| 🏠 | [Real Estate Workflows](industries/real-estate-workflows.md) | Listings, CRM, property data automation |
 
 ---
 
@@ -224,3 +190,52 @@ See the [full spec](spec/SKILL_SPEC.md) and [template](template/SKILL.md).
 *[agentskillexchange.com](https://agentskillexchange.com/)*
 
 </div>
+
+## What is an Agent Skill
+
+An open, machine-readable catalog of reusable skills for AI coding agents. Each skill wraps a real tool, API, or workflow into a format that agents like Claude Code, Cursor, Codex, and OpenClaw can install and use.
+
+Every skill is backed by a real upstream project — a GitHub repo, npm package, or documented API. No synthetic entries.
+
+---
+
+## Start Here
+
+```bash
+# Install any skill
+npx skills add agentskillexchange/skills --skill <slug>
+
+# For a specific agent
+npx skills add agentskillexchange/skills --skill <slug> -a claude-code
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
+
+# OpenClaw
+clawhub install <slug>
+```
+
+---
+
+## Skill of the Day
+
+**[Cheerio Product Price Tracker](https://agentskillexchange.com/skills/cheerio-product-price-tracker/)** — Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts…
+
+_Rotates daily by UTC date from the Security Reviewed pool._
+
+## Industry Collections
+
+Curated skill sets organized by industry vertical:
+
+| | Collection | Description |
+|---|---|---|
+| 🎙️ | [Media & Publishing Systems](industries/media-publishing-systems.md) | Content pipelines, CMS automation, media workflows |
+| 💼 | [Finance & Filings](industries/finance-filings.md) | Financial data, reporting, compliance automation |
+| 🛒 | [Ecommerce & Retail Operations](industries/ecommerce-retail-operations.md) | Product feeds, order management, retail automation |
+| ⚖️ | [Legal Ops & Compliance](industries/legal-ops-compliance.md) | Contract review, compliance monitoring, legal workflows |
+| 🩺 | [Healthcare Documentation & Intake](industries/healthcare-documentation-intake.md) | Clinical notes, intake forms, health data pipelines |
+| 📈 | [Product Analytics & Growth Ops](industries/product-analytics-growth-ops.md) | Funnel analysis, growth tooling, product data |
+| 📚 | [DevRel & API Documentation](industries/devrel-api-documentation.md) | API docs, developer experience, SDK tooling |
+| 🎧 | [Customer Support & Success](industries/customer-support-success.md) | Ticketing, escalation, support automation |
+| 🏠 | [Real Estate Workflows](industries/real-estate-workflows.md) | Listings, CRM, property data automation |
+
+---
