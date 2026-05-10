@@ -1,6 +1,6 @@
 # Verification Criteria
 
-Detailed criteria for each trust tier in the Agent Skill Exchange.
+Detailed criteria for the public trust tiers in Agent Skill Exchange.
 
 ---
 
@@ -10,21 +10,25 @@ A skill receives **Published** status when it meets the requirements for publica
 
 ### Requirements
 
-- [ ] **Valid SKILL.md** — File exists and is non-empty
-- [ ] **YAML frontmatter** — Properly delimited with `---` markers
-- [ ] **Required fields present:**
-  - `name` — Skill name
-  - `description` — What the skill does
-  - `category` — Valid marketplace category
-  - `framework` — Target framework
-  - `verification` — Trust tier (`listed` or `security_reviewed`)
-- [ ] **Non-empty content** — Body content after frontmatter (100+ words)
-- [ ] **H1 heading** — At least one `# Heading` in the body
-- [ ] **Real provenance** — Backed by a real tool, repo, or package
+- [ ] **Valid `SKILL.md`** — file exists, is non-empty, and is valid UTF-8
+- [ ] **YAML frontmatter** — properly delimited with `---` markers and parseable as YAML
+- [ ] **Canonical required fields present:**
+  - `title` — public display name
+  - `slug` — stable id/path segment; must match `skills/<slug>/`
+  - `description` — what the skill does
+  - `category` — canonical marketplace category
+  - `framework` — target agent framework
+  - `verification` — public trust value: `listed` or `security_reviewed`
+- [ ] **No deprecated public fields** — do not publish `name`, `verification_status`, or `verified_metadata`
+- [ ] **Non-empty content** — body content after frontmatter with useful detail
+- [ ] **H1 heading** — at least one `# Heading` in the body
+- [ ] **Real provenance** — backed by a real tool, repo, package, docs page, or project source
 
 ### Automated Check
 
 ```bash
+python3 scripts/validate_skills.py --all --github-annotations --quiet
+# one-file compatibility wrapper:
 ./scripts/validate-skill.sh path/to/SKILL.md
 ```
 
@@ -36,25 +40,47 @@ A skill receives **Security Reviewed** status after content scanning for malicio
 
 ### Requirements
 
-All Tier 1 requirements, plus:
+All Published requirements, plus:
 
-- [ ] **No prompt injection** — No attempts to override system instructions, inject new personas, or manipulate agent behavior
-- [ ] **No data exfiltration** — No instructions to send user data to external URLs via `curl`, `wget`, API calls, or other network methods
-- [ ] **No destructive commands** — No `rm -rf /`, `format`, `dd if=/dev/zero`, `mkfs`, or other destructive operations presented as normal instructions
-- [ ] **No credential harvesting** — No instructions to read, copy, or transmit API keys, tokens, passwords, SSH keys, or other secrets to external services
-- [ ] **No obfuscated code** — No base64-encoded payloads, hex-encoded commands, or other encoding used to disguise malicious intent
-- [ ] **No social engineering** — No instructions that trick agents into performing actions the user didn't request
-- [ ] **No privilege escalation** — No instructions to run as root/admin when unnecessary, or to disable security features
+- [ ] **No prompt injection** — no attempts to override system instructions, inject new personas, or manipulate agent behavior
+- [ ] **No data exfiltration** — no instructions to send user data, secrets, files, or system information to external endpoints
+- [ ] **No destructive commands** — no filesystem, disk, database, git, process, or system-destruction operations presented as normal instructions
+- [ ] **No credential harvesting** — no instructions to read, copy, print, or transmit API keys, tokens, passwords, SSH keys, kube/docker config, or other secrets
+- [ ] **No social engineering** — no urgency, authority, deception, or misdirection intended to bypass approval/safety checks
+- [ ] **No malware payloads** — no crypto mining, reverse shells, obfuscated eval, encoded command payloads, or disguised execution paths
+- [ ] **Legitimate security education is handled carefully** — warnings, defensive examples, and audit tooling can be allowed when they are clearly not instructions to execute unsafe actions
 
 ### Review Process
 
-1. Automated pattern scanning (see [SECURITY_PATTERNS.md](SECURITY_PATTERNS.md))
-2. Manual review of flagged content
-3. Verification that all instructions serve the skill's stated purpose
+1. Parser-backed schema validation passes.
+2. Executable security fixture tests pass.
+3. Full catalog security scan passes.
+4. Flagged content receives manual/contextual review when needed.
+5. Instructions are verified to serve the skill's stated purpose.
+
+### Automated Checks
+
+```bash
+python3 scripts/test_security_patterns.py
+python3 scripts/security_scan.py skills --github-annotations --quiet
+```
+
+The scanner uses [`patterns.json`](patterns.json) as the machine-readable source of truth. [`SECURITY_PATTERNS.md`](SECURITY_PATTERNS.md) is the human-readable companion.
 
 ### What Triggers Re-Review
 
-- Any edit to the skill's content
+- Any edit to a skill's content
 - Reports from users
 - Updated security pattern definitions
 - Periodic re-scanning
+
+---
+
+## Public Badge Display
+
+| Public value | Badge label | Meaning |
+|--------------|-------------|---------|
+| `listed` | Published | In the catalog — backed by a real tool or source |
+| `security_reviewed` | Security Reviewed | Content scanned for malicious patterns and reviewed for safer use |
+
+Internal `verified_metadata` may still exist for backward compatibility, but public repo/API output maps it to `verification: listed`.
