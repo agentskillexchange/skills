@@ -1,27 +1,31 @@
 ---
-title: faster-whisper High-Performance Speech Transcription Library
-slug: faster-whisper-high-performance-speech-transcription-library
-description: faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows.
+title: "faster-whisper High-Performance Speech Transcription Library"
+slug: "faster-whisper-high-performance-speech-transcription-library"
+description: "faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows."
 github_stars: 22156
-verification: security_reviewed
-source: https://github.com/SYSTRAN/faster-whisper
-category: Media & Transcription
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/SYSTRAN/faster-whisper"
+author: "SYSTRAN"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: SYSTRAN/faster-whisper
+  github_repo: "SYSTRAN/faster-whisper"
   github_stars: 22156
 ---
+
 # faster-whisper High-Performance Speech Transcription Library
 
 faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

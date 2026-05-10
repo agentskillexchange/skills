@@ -1,27 +1,31 @@
 ---
-title: Terraform State Diagnostics
-slug: terraform-state-diagnostics
-description: Terraform State Diagnostics
+title: "Terraform State Diagnostics"
+slug: "terraform-state-diagnostics"
+description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
 github_stars: 48146
-verification: security_reviewed
-source: https://github.com/hashicorp/terraform
-category: General
-framework: ChatGPT Agents
+verification: "security_reviewed"
+source: "https://github.com/hashicorp/terraform"
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: hashicorp/terraform
+  github_repo: "hashicorp/terraform"
   github_stars: 48146
 ---
+
 # Terraform State Diagnostics
+
+Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/hashicorp/terraform)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-diagnostics/)

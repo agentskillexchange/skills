@@ -1,23 +1,32 @@
 ---
-title: Clearscope NLP Grading Pipeline
-slug: clearscope-nlp-grading-pipeline
-description: Clearscope NLP Grading Pipeline
-verification: security_reviewed
-source: https://www.clearscope.io/product/optimize
-category: General
-framework: Claude Code
+title: "Clearscope NLP Grading Pipeline"
+slug: "clearscope-nlp-grading-pipeline"
+description: "Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring."
+verification: "security_reviewed"
+source: "https://www.clearscope.io/product/optimize"
+author: "Clearscope"
+category: "Content Writing & SEO"
+framework: "Claude Code"
 ---
+
 # Clearscope NLP Grading Pipeline
+
+Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://www.clearscope.io/support/getting-started-editor
 
 ## Source
 
-- [Upstream](https://www.clearscope.io/product/optimize)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/)

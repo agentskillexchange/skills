@@ -1,27 +1,30 @@
 ---
-title: Pedalboard Python Audio Effects Library by Spotify
-slug: pedalboard-spotify-audio-effects-python
-description: 'Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio Unit plugins and runs on macOS, Windows, and Linux with high performance.'
+title: "Pedalboard Python Audio Effects Library by Spotify"
+slug: "pedalboard-spotify-audio-effects-python"
+description: "Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio Unit plugins and runs on macOS, Windows, and Linux with high performance."
 github_stars: 6041
-verification: security_reviewed
-source: https://github.com/spotify/pedalboard
-category: Media & Transcription
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/spotify/pedalboard"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: spotify/pedalboard
+  github_repo: "spotify/pedalboard"
   github_stars: 6041
 ---
+
 # Pedalboard Python Audio Effects Library by Spotify
 
 Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio Unit plugins and runs on macOS, Windows, and Linux with high performance.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

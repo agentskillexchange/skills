@@ -1,27 +1,46 @@
 ---
-title: Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless
-slug: manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless
-description: Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches.
+title: "Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless"
+slug: "manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless"
+description: "Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches."
 github_stars: 4045
-verification: security_reviewed
-source: https://github.com/arxanas/git-branchless
-category: Developer Tools
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/arxanas/git-branchless"
+author: "arxanas"
+publisher_type: "individual"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: arxanas/git-branchless
+  github_repo: "arxanas/git-branchless"
   github_stars: 4045
 ---
+
 # Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless
 
 Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches.
 
+## Prerequisites
+
+Git, git-branchless binary
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install git-branchless using the repository instructions for your OS or package manager, then run `git branchless init` in repositories where you want smartlog, restack, sync, and undo workflows.
+```
+
+## Documentation
+
+- https://github.com/arxanas/git-branchless
 
 ## Source
 

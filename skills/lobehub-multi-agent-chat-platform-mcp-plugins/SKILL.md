@@ -1,27 +1,30 @@
 ---
-title: LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem
-slug: lobehub-multi-agent-chat-platform-mcp-plugins
-description: LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a self-hosted alternative to ChatGPT with extensible function calling and voice capabilities.
+title: "LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem"
+slug: "lobehub-multi-agent-chat-platform-mcp-plugins"
+description: "LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a self-hosted alternative to ChatGPT with extensible function calling and voice capabilities."
 github_stars: 74891
-verification: security_reviewed
-source: https://github.com/lobehub/lobehub
-category: Developer Tools
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/lobehub/lobehub"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: lobehub/lobehub
+  github_repo: "lobehub/lobehub"
   github_stars: 74891
 ---
+
 # LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem
 
 LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a self-hosted alternative to ChatGPT with extensible function calling and voice capabilities.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

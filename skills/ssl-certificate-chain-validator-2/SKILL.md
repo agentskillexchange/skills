@@ -1,23 +1,27 @@
 ---
-title: SSL Certificate Chain Validator
-slug: ssl-certificate-chain-validator-2
-description: SSL Certificate Chain Validator
-verification: security_reviewed
-source: https://datatracker.ietf.org/doc/html/rfc8446
-category: General
-framework: Codex
+title: "SSL Certificate Chain Validator"
+slug: "ssl-certificate-chain-validator-2"
+description: "Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status."
+verification: "security_reviewed"
+source: "https://datatracker.ietf.org/doc/html/rfc8446"
+category: "Security & Verification"
+framework: "Codex"
 ---
+
 # SSL Certificate Chain Validator
+
+Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://datatracker.ietf.org/doc/html/rfc8446)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/)

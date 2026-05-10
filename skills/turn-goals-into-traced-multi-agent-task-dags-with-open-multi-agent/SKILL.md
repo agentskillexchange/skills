@@ -1,29 +1,47 @@
 ---
-title: Turn goals into traced multi-agent task DAGs with open-multi-agent
-slug: turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent
-description: Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces.
+title: "Turn goals into traced multi-agent task DAGs with open-multi-agent"
+slug: "turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent"
+description: "Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces."
 github_stars: 6044
-verification: security_reviewed
-source: https://github.com/JackChen-me/open-multi-agent
-category: Uncategorized
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/JackChen-me/open-multi-agent"
+author: "JackChen-me"
+publisher_type: "individual"
+category: "Templates & Workflows"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: JackChen-me/open-multi-agent
+  github_repo: "JackChen-me/open-multi-agent"
   github_stars: 6044
 ---
+
 # Turn goals into traced multi-agent task DAGs with open-multi-agent
 
 Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces.
 
+## Prerequisites
+
+Node.js or compatible TypeScript runtime, supported model provider credentials, optional MCP servers for external tools
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Clone the repository, install dependencies with the package manager documented upstream, configure model credentials and optional MCP tool connections, then run the documented task-DAG workflow example.
+```
+
+## Documentation
+
+- https://github.com/JackChen-me/open-multi-agent
 
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/)
-- [Upstream Source](https://github.com/JackChen-me/open-multi-agent)

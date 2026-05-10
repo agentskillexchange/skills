@@ -1,25 +1,35 @@
 ---
-title: Gatus Endpoint Monitoring and Status Page Platform
-slug: gatus-endpoint-monitoring-status-page-platform
-description: Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio.
-verification: security_reviewed
-source: https://github.com/TwiN/gatus
-category: Monitoring & Alerts
-framework: Multi-Framework
+title: "Gatus Endpoint Monitoring and Status Page Platform"
+slug: "gatus-endpoint-monitoring-status-page-platform"
+description: "Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio."
+github_stars: 10652
+verification: "security_reviewed"
+source: "https://github.com/TwiN/gatus"
+author: "TwiN"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: twin/gatus
+  github_repo: "twin/gatus"
+  github_stars: 10652
 ---
+
 # Gatus Endpoint Monitoring and Status Page Platform
 
 Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://gatus.io
 
 ## Source
 

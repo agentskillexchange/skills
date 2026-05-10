@@ -1,27 +1,30 @@
 ---
-title: Flagsmith Open Source Feature Flag and Remote Config Platform
-slug: flagsmith-feature-flag-remote-config
-description: Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote config across web, mobile, and server-side applications with granular user segmentation.
+title: "Flagsmith Open Source Feature Flag and Remote Config Platform"
+slug: "flagsmith-feature-flag-remote-config"
+description: "Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote config across web, mobile, and server-side applications with granular user segmentation."
 github_stars: 6290
-verification: security_reviewed
-source: https://github.com/Flagsmith/flagsmith
-category: Integrations & Connectors
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/Flagsmith/flagsmith"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: Flagsmith/flagsmith
+  github_repo: "Flagsmith/flagsmith"
   github_stars: 6290
 ---
+
 # Flagsmith Open Source Feature Flag and Remote Config Platform
 
 Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote config across web, mobile, and server-side applications with granular user segmentation.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,27 +1,30 @@
 ---
-title: Polaris Kubernetes Best Practices Validator
-slug: polaris-kubernetes-best-practices-validator
-description: Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control.
+title: "Polaris Kubernetes Best Practices Validator"
+slug: "polaris-kubernetes-best-practices-validator"
+description: "Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control."
 github_stars: 3355
-verification: security_reviewed
-source: https://github.com/FairwindsOps/polaris
-category: Code Quality & Review
-framework: Codex
+verification: "security_reviewed"
+source: "https://github.com/FairwindsOps/polaris"
+category: "Code Quality & Review"
+framework: "Codex"
 tool_ecosystem:
-  github_repo: FairwindsOps/polaris
+  github_repo: "FairwindsOps/polaris"
   github_stars: 3355
 ---
+
 # Polaris Kubernetes Best Practices Validator
 
 Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

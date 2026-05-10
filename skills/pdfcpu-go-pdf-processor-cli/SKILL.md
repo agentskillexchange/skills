@@ -1,27 +1,30 @@
 ---
-title: pdfcpu Go PDF Processor and Manipulation CLI
-slug: pdfcpu-go-pdf-processor-cli
-description: pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies.
+title: "pdfcpu Go PDF Processor and Manipulation CLI"
+slug: "pdfcpu-go-pdf-processor-cli"
+description: "pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies."
 github_stars: 8550
-verification: security_reviewed
-source: https://github.com/pdfcpu/pdfcpu
-category: Developer Tools
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/pdfcpu/pdfcpu"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: pdfcpu/pdfcpu
+  github_repo: "pdfcpu/pdfcpu"
   github_stars: 8550
 ---
+
 # pdfcpu Go PDF Processor and Manipulation CLI
 
 pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

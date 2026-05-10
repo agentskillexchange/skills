@@ -1,23 +1,32 @@
 ---
-title: New Relic NRQL Query Agent
-slug: new-relic-nrql-query-agent
-description: New Relic NRQL Query Agent
-verification: security_reviewed
-source: https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/
-category: General
-framework: Custom Agents
+title: "New Relic NRQL Query Agent"
+slug: "new-relic-nrql-query-agent"
+description: "Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
+verification: "security_reviewed"
+source: "https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/"
+author: "New Relic"
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 ---
+
 # New Relic NRQL Query Agent
+
+Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/
 
 ## Source
 
-- [Upstream](https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language/)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-nrql-query-agent/)

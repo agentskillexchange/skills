@@ -1,27 +1,30 @@
 ---
-title: Teable No-Code Postgres Database Platform and Airtable Alternative
-slug: teable-no-code-postgres-database-platform
-description: Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time collaboration, scales to millions of rows, and provides a REST API for programmatic access.
+title: "Teable No-Code Postgres Database Platform and Airtable Alternative"
+slug: "teable-no-code-postgres-database-platform"
+description: "Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time collaboration, scales to millions of rows, and provides a REST API for programmatic access."
 github_stars: 21084
-verification: security_reviewed
-source: https://github.com/teableio/teable
-category: Data Extraction & Transformation
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/teableio/teable"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: teableio/teable
+  github_repo: "teableio/teable"
   github_stars: 21084
 ---
+
 # Teable No-Code Postgres Database Platform and Airtable Alternative
 
 Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time collaboration, scales to millions of rows, and provides a REST API for programmatic access.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

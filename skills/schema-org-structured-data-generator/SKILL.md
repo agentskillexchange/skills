@@ -1,27 +1,36 @@
 ---
-title: Schema.org Structured Data Generator
-slug: schema-org-structured-data-generator
-description: Schema.org Structured Data Generator
+title: "Schema.org Structured Data Generator"
+slug: "schema-org-structured-data-generator"
+description: "Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints."
 github_stars: 6017
-verification: security_reviewed
-source: https://github.com/schemaorg/schemaorg
-category: General
-framework: Gemini
+verification: "security_reviewed"
+source: "https://github.com/schemaorg/schemaorg"
+author: "Schema.org"
+category: "Content Writing & SEO"
+framework: "Gemini"
 tool_ecosystem:
-  github_repo: schemaorg/schemaorg
+  github_repo: "schemaorg/schemaorg"
   github_stars: 6017
 ---
+
 # Schema.org Structured Data Generator
+
+Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://schema.org/docs/schemas.html
 
 ## Source
 
-- [Upstream](https://github.com/schemaorg/schemaorg)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-generator/)

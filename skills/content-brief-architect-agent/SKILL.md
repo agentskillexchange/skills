@@ -1,23 +1,32 @@
 ---
-title: Content Brief Architect
-slug: content-brief-architect-agent
-description: Content Brief Architect
-verification: security_reviewed
-source: https://developers.notion.com/
-category: General
-framework: MCP
+title: "Content Brief Architect"
+slug: "content-brief-architect-agent"
+description: "Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content grading. Generates outlines with target word counts, headers, and semantic keyword clusters."
+verification: "security_reviewed"
+source: "https://developers.notion.com/"
+author: "Notion Labs"
+category: "Content Writing & SEO"
+framework: "MCP"
 ---
+
 # Content Brief Architect
+
+Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content grading. Generates outlines with target word counts, headers, and semantic keyword clusters.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developers.notion.com/
 
 ## Source
 
-- [Upstream](https://developers.notion.com/)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/content-brief-architect-agent/)

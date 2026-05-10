@@ -1,27 +1,46 @@
 ---
-title: Find duplicate and visually similar media before cleanup with Czkawka
-slug: find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka
-description: Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them.
+title: "Find duplicate and visually similar media before cleanup with Czkawka"
+slug: "find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka"
+description: "Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them."
 github_stars: 30600
-verification: security_reviewed
-source: https://github.com/qarmin/czkawka
-category: Image & Creative Automation
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/qarmin/czkawka"
+author: "qarmin"
+publisher_type: "individual"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: qarmin/czkawka
+  github_repo: "qarmin/czkawka"
   github_stars: 30600
 ---
+
 # Find duplicate and visually similar media before cleanup with Czkawka
 
 Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them.
 
+## Prerequisites
+
+Czkawka CLI or GUI, local filesystem access
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install Czkawka from GitHub releases or your package manager, then use the CLI for scripted scans or the GUI to review duplicate, similar-image, and related cleanup findings before deleting files.
+```
+
+## Documentation
+
+- https://github.com/qarmin/czkawka
 
 ## Source
 

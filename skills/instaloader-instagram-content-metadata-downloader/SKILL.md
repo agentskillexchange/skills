@@ -1,27 +1,30 @@
 ---
-title: Instaloader Instagram Content and Metadata Downloader
-slug: instaloader-instagram-content-metadata-downloader
-description: Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection.
+title: "Instaloader Instagram Content and Metadata Downloader"
+slug: "instaloader-instagram-content-metadata-downloader"
+description: "Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection."
 github_stars: 12047
-verification: security_reviewed
-source: https://github.com/instaloader/instaloader
-category: Research & Scraping
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/instaloader/instaloader"
+category: "Research & Scraping"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: instaloader/instaloader
+  github_repo: "instaloader/instaloader"
   github_stars: 12047
 ---
+
 # Instaloader Instagram Content and Metadata Downloader
 
 Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

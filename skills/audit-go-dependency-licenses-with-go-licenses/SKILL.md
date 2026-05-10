@@ -1,27 +1,46 @@
 ---
-title: Audit Go dependency licenses with go-licenses
-slug: audit-go-dependency-licenses-with-go-licenses
-description: Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.
+title: "Audit Go dependency licenses with go-licenses"
+slug: "audit-go-dependency-licenses-with-go-licenses"
+description: "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence."
 github_stars: 992
-verification: security_reviewed
-source: https://github.com/google/go-licenses
-category: Security & Verification
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/google/go-licenses"
+author: "Google"
+publisher_type: "organization"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: google/go-licenses
+  github_repo: "google/go-licenses"
   github_stars: 992
 ---
+
 # Audit Go dependency licenses with go-licenses
 
 Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.
 
+## Prerequisites
+
+Go, go-licenses
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install `go-licenses`, run it against a Go module, and review the generated dependency license output before release or dependency approval.
+```
+
+## Documentation
+
+- https://github.com/google/go-licenses
 
 ## Source
 

@@ -1,26 +1,33 @@
 ---
-title: Datadog Monitor Blueprint Generator
-slug: datadog-monitor-blueprint-generator
-description: Datadog Monitor Blueprint Generator
-verification: security_reviewed
-source: https://github.com/DataDog/dd-trace-js
-category: General
-framework: Cursor
+title: "Datadog Monitor Blueprint Generator"
+slug: "datadog-monitor-blueprint-generator"
+description: "Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor types. Generates Terraform datadog_monitor resources with threshold and anomaly detection."
+github_stars: 791
+verification: "security_reviewed"
+source: "https://github.com/DataDog/dd-trace-js"
+category: "Monitoring & Alerts"
+framework: "Cursor"
 tool_ecosystem:
-  github_repo: datadog/dd-trace-js
+  github_repo: "datadog/dd-trace-js"
   github_stars: 791
+  npm_package: "dd-trace"
+  npm_weekly_downloads: 6596660
 ---
+
 # Datadog Monitor Blueprint Generator
+
+Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor types. Generates Terraform datadog_monitor resources with threshold and anomaly detection.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/DataDog/dd-trace-js)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/)

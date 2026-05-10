@@ -1,27 +1,40 @@
 ---
-title: Apache Kafka Consumer Lag Runbook
-slug: apache-kafka-consumer-lag-runbook
-description: Apache Kafka Consumer Lag Runbook
+title: "Apache Kafka Consumer Lag Runbook"
+slug: "apache-kafka-consumer-lag-runbook"
+description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics API. Identifies slow consumers, topic partition hotspots, and broker rebalance storms that contribute to lag growth. Provides a step-by-step runbook to tune fetch.min.bytes, max.poll.records, and partition count."
 github_stars: 32388
-verification: security_reviewed
-source: https://github.com/apache/kafka
-category: General
-framework: Cursor
+verification: "security_reviewed"
+source: "https://github.com/apache/kafka"
+author: "Apache"
+category: "Runbooks & Diagnostics"
+framework: "Cursor"
 tool_ecosystem:
-  github_repo: apache/kafka
+  github_repo: "apache/kafka"
   github_stars: 32388
 ---
+
 # Apache Kafka Consumer Lag Runbook
+
+Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics API. Identifies slow consumers, topic partition hotspots, and broker rebalance storms that contribute to lag growth. Provides a step-by-step runbook to tune fetch.min.bytes, max.poll.records, and partition count.
+
+## Prerequisites
+
+Java
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://kafka.apache.org/documentation/
 
 ## Source
 
-- [Upstream](https://github.com/apache/kafka)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/)

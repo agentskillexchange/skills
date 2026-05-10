@@ -1,27 +1,31 @@
 ---
-title: Terraform Cloud Run Inspector
-slug: terraform-cloud-run-inspector-2
-description: Terraform Cloud Run Inspector
+title: "Terraform Cloud Run Inspector"
+slug: "terraform-cloud-run-inspector-2"
+description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results."
 github_stars: 48146
-verification: security_reviewed
-source: https://github.com/hashicorp/terraform
-category: General
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/hashicorp/terraform"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: hashicorp/terraform
+  github_repo: "hashicorp/terraform"
   github_stars: 48146
 ---
+
 # Terraform Cloud Run Inspector
+
+Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/hashicorp/terraform)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/)

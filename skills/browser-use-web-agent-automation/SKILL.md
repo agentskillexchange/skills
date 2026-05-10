@@ -1,27 +1,30 @@
 ---
-title: Browser Use Web Agent Automation
-slug: browser-use-web-agent-automation
-description: browser-use is an open-source Python framework for letting AI agents interact with websites through a real browser. It supports local execution, optional cloud browsers, custom tools, and a CLI for persistent browser sessions.
+title: "Browser Use Web Agent Automation"
+slug: "browser-use-web-agent-automation"
+description: "browser-use is an open-source Python framework for letting AI agents interact with websites through a real browser. It supports local execution, optional cloud browsers, custom tools, and a CLI for persistent browser sessions."
 github_stars: 87723
-verification: security_reviewed
-source: https://github.com/browser-use/browser-use
-category: Browser Automation
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/browser-use/browser-use"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: browser-use/browser-use
+  github_repo: "browser-use/browser-use"
   github_stars: 87723
 ---
+
 # Browser Use Web Agent Automation
 
 browser-use is an open-source Python framework for letting AI agents interact with websites through a real browser. It supports local execution, optional cloud browsers, custom tools, and a CLI for persistent browser sessions.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

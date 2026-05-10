@@ -1,27 +1,30 @@
 ---
-title: uv Ultra-Fast Python Package and Project Manager
-slug: uv-ultra-fast-python-package-project-manager
-description: uv is an extremely fast Python package and project manager written in Rust by Astral (creators of Ruff). It replaces pip, pip-tools, pipx, poetry, pyenv, virtualenv, and twine with a single tool that resolves and installs packages 10-100x faster.
+title: "uv Ultra-Fast Python Package and Project Manager"
+slug: "uv-ultra-fast-python-package-project-manager"
+description: "uv is an extremely fast Python package and project manager written in Rust by Astral (creators of Ruff). It replaces pip, pip-tools, pipx, poetry, pyenv, virtualenv, and twine with a single tool that resolves and installs packages 10-100x faster."
 github_stars: 82442
-verification: security_reviewed
-source: https://github.com/astral-sh/uv
-category: Developer Tools
-framework: Claude Code
+verification: "security_reviewed"
+source: "https://github.com/astral-sh/uv"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
-  github_repo: astral-sh/uv
+  github_repo: "astral-sh/uv"
   github_stars: 82442
 ---
+
 # uv Ultra-Fast Python Package and Project Manager
 
 uv is an extremely fast Python package and project manager written in Rust by Astral (creators of Ruff). It replaces pip, pip-tools, pipx, poetry, pyenv, virtualenv, and twine with a single tool that resolves and installs packages 10-100x faster.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,27 +1,30 @@
 ---
-title: Navidrome Self-Hosted Music Streaming Server and Subsonic API
-slug: navidrome-self-hosted-music-streaming-subsonic-api
-description: Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome’s native REST endpoints.
+title: "Navidrome Self-Hosted Music Streaming Server and Subsonic API"
+slug: "navidrome-self-hosted-music-streaming-subsonic-api"
+description: "Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome's native REST endpoints."
 github_stars: 20161
-verification: security_reviewed
-source: https://github.com/navidrome/navidrome
-category: Media & Transcription
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/navidrome/navidrome"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: navidrome/navidrome
+  github_repo: "navidrome/navidrome"
   github_stars: 20161
 ---
+
 # Navidrome Self-Hosted Music Streaming Server and Subsonic API
 
-Integrate Navidrome&#8217;s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome&#8217;s native REST endpoints.
+Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome's native REST endpoints.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,27 +1,48 @@
 ---
-title: Nx Workspace Generator Toolkit
-slug: nx-workspace-generator-toolkit
-description: Nx Workspace Generator Toolkit
+title: "Nx Workspace Generator Toolkit"
+slug: "nx-workspace-generator-toolkit"
+description: "Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness."
 github_stars: 28566
-verification: security_reviewed
-source: https://github.com/nrwl/nx
-category: General
-framework: Cursor
+verification: "security_reviewed"
+source: "https://github.com/nrwl/nx"
+author: "Nx"
+category: "Templates & Workflows"
+framework: "Cursor"
 tool_ecosystem:
-  github_repo: nrwl/nx
+  github_repo: "nrwl/nx"
   github_stars: 28566
+  npm_package: "@nx/devkit"
+  npm_weekly_downloads: 29518517
 ---
+
 # Nx Workspace Generator Toolkit
+
+Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness.
+
+## Prerequisites
+
+Node.js
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install -D nx @nx/devkit
+```
+
+## Documentation
+
+- https://nx.dev/extending-nx/recipes/local-generators
 
 ## Source
 
-- [Upstream](https://github.com/nrwl/nx)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/)

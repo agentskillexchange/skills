@@ -1,23 +1,27 @@
 ---
-title: Photoshop Batch Action Automator
-slug: photoshop-batch-action-automator
-description: Photoshop Batch Action Automator
-verification: security_reviewed
-source: https://developer.adobe.com/firefly-services/docs/photoshop/
-category: General
-framework: Custom Agents
+title: "Photoshop Batch Action Automator"
+slug: "photoshop-batch-action-automator"
+description: "Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package."
+verification: "security_reviewed"
+source: "https://developer.adobe.com/firefly-services/docs/photoshop/"
+category: "Image & Creative Automation"
+framework: "Custom Agents"
 ---
+
 # Photoshop Batch Action Automator
+
+Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://developer.adobe.com/firefly-services/docs/photoshop/)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/photoshop-batch-action-automator/)

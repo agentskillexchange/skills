@@ -1,27 +1,48 @@
 ---
-title: Netlify Site Manager
-slug: netlify-site-manager
-description: Netlify Site Manager
+title: "Netlify Site Manager"
+slug: "netlify-site-manager"
+description: ""
 github_stars: 1843
-verification: security_reviewed
-source: https://github.com/netlify/cli
-category: General
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/netlify/cli"
+author: "netlify"
+category: "Templates & Workflows"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: netlify/cli
+  github_repo: "netlify/cli"
   github_stars: 1843
+  npm_package: "netlify-cli"
+  npm_weekly_downloads: 259315
 ---
+
 # Netlify Site Manager
+
+
+
+## Prerequisites
+
+Node.js, Netlify CLI
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install netlify-cli -g
+```
+
+## Documentation
+
+- https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/
 
 ## Source
 
-- [Upstream](https://github.com/netlify/cli)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/netlify-site-manager/)

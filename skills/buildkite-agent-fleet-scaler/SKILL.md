@@ -1,23 +1,31 @@
 ---
-title: Buildkite Agent Fleet Scaler
-slug: buildkite-agent-fleet-scaler
-description: Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity.
-verification: security_reviewed
-source: https://buildkite.com/docs
-category: CI/CD Integrations
-framework: Gemini
+title: "Buildkite Agent Fleet Scaler"
+slug: "buildkite-agent-fleet-scaler"
+description: "Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity."
+verification: "security_reviewed"
+source: "https://buildkite.com/docs"
+author: "Buildkite"
+category: "CI/CD Integrations"
+framework: "Gemini"
 ---
+
 # Buildkite Agent Fleet Scaler
 
 Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://buildkite.com/docs
 
 ## Source
 

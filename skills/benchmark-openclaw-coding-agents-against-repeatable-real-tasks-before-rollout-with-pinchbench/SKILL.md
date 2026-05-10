@@ -1,27 +1,46 @@
 ---
-title: Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench
-slug: benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench
-description: Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows.
+title: "Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench"
+slug: "benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench"
+description: "Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows."
 github_stars: 1003
-verification: security_reviewed
-source: https://github.com/pinchbench/skill
-category: Code Quality & Review
-framework: OpenClaw
+verification: "security_reviewed"
+source: "https://github.com/pinchbench/skill"
+author: "pinchbench"
+publisher_type: "organization"
+category: "Code Quality & Review"
+framework: "OpenClaw"
 tool_ecosystem:
-  github_repo: pinchbench/skill
+  github_repo: "pinchbench/skill"
   github_stars: 1003
 ---
+
 # Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench
 
 Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows.
 
+## Prerequisites
+
+Running OpenClaw instance, Python 3.10+, uv, PinchBench repository checkout, model provider credentials as documented upstream
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Clone the benchmark repository, install its documented Python and uv dependencies, connect it to a running OpenClaw instance, then run the provided benchmark scripts against the model or suite you want to compare.
+```
+
+## Documentation
+
+- https://pinchbench.com
 
 ## Source
 

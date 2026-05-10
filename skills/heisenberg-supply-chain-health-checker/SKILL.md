@@ -1,27 +1,30 @@
 ---
-title: Heisenberg Supply Chain Health Checker
-slug: heisenberg-supply-chain-health-checker
-description: An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios.
+title: "Heisenberg Supply Chain Health Checker"
+slug: "heisenberg-supply-chain-health-checker"
+description: "An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios."
 github_stars: 123
-verification: security_reviewed
-source: https://github.com/AppOmni-Labs/heisenberg-ssc-health-check
-category: Security & Verification
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
+category: "Security & Verification"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: AppOmni-Labs/heisenberg-ssc-health-check
+  github_repo: "AppOmni-Labs/heisenberg-ssc-health-check"
   github_stars: 123
 ---
+
 # Heisenberg Supply Chain Health Checker
 
 An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

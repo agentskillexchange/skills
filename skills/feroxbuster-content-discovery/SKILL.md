@@ -1,27 +1,30 @@
 ---
-title: Feroxbuster Fast Recursive Content Discovery Tool in Rust
-slug: feroxbuster-content-discovery
-description: Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web servers. It features recursive scanning, smart filtering, and extensive output options.
+title: "Feroxbuster Fast Recursive Content Discovery Tool in Rust"
+slug: "feroxbuster-content-discovery"
+description: "Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web servers. It features recursive scanning, smart filtering, and extensive output options."
 github_stars: 7645
-verification: security_reviewed
-source: https://github.com/epi052/feroxbuster
-category: Security & Verification
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/epi052/feroxbuster"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: epi052/feroxbuster
+  github_repo: "epi052/feroxbuster"
   github_stars: 7645
 ---
+
 # Feroxbuster Fast Recursive Content Discovery Tool in Rust
 
 Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web servers. It features recursive scanning, smart filtering, and extensive output options.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

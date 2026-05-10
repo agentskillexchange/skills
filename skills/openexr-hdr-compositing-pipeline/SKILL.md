@@ -1,25 +1,30 @@
 ---
-title: OpenEXR HDR Compositing Pipeline
-slug: openexr-hdr-compositing-pipeline
-description: Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer compositing, tone mapping with ACES color transforms, and cryptomatte-based object isolation.
-verification: security_reviewed
-source: https://github.com/AcademySoftwareFoundation/openexr
-category: Image & Creative Automation
-framework: OpenClaw
+title: "OpenEXR HDR Compositing Pipeline"
+slug: "openexr-hdr-compositing-pipeline"
+description: "Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer compositing, tone mapping with ACES color transforms, and cryptomatte-based object isolation."
+github_stars: 1795
+verification: "security_reviewed"
+source: "https://github.com/AcademySoftwareFoundation/openexr"
+category: "Image & Creative Automation"
+framework: "OpenClaw"
 tool_ecosystem:
-  github_repo: academysoftwarefoundation/openexr
+  github_repo: "academysoftwarefoundation/openexr"
+  github_stars: 1795
 ---
+
 # OpenEXR HDR Compositing Pipeline
 
 Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer compositing, tone mapping with ACES color transforms, and cryptomatte-based object isolation.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

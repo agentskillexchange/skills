@@ -1,27 +1,46 @@
 ---
-title: Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite
-slug: run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite
-description: Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes.
+title: "Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite"
+slug: "run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite"
+description: "Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes."
 github_stars: 3395
-verification: security_reviewed
-source: https://github.com/openrewrite/rewrite
-category: Templates & Workflows
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/openrewrite/rewrite"
+author: "OpenRewrite"
+publisher_type: "organization"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: openrewrite/rewrite
+  github_repo: "openrewrite/rewrite"
   github_stars: 3395
 ---
+
 # Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite
 
 Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes.
 
+## Prerequisites
+
+Java, Gradle or Maven
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Add the OpenRewrite Gradle or Maven plugin to the target repository, select or author the needed recipes, then run the rewrite task and review the generated diffs before merging.
+```
+
+## Documentation
+
+- https://docs.openrewrite.org/
 
 ## Source
 

@@ -1,27 +1,31 @@
 ---
-title: Pandas Profiling Report Generator
-slug: pandas-profiling-report-generator
-description: Pandas Profiling Report Generator
+title: "Pandas Profiling Report Generator"
+slug: "pandas-profiling-report-generator"
+description: "Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries."
 github_stars: 48498
-verification: security_reviewed
-source: https://github.com/pandas-dev/pandas
-category: General
-framework: Codex
+verification: "security_reviewed"
+source: "https://github.com/pandas-dev/pandas"
+category: "Data Extraction & Transformation"
+framework: "Codex"
 tool_ecosystem:
-  github_repo: pandas-dev/pandas
+  github_repo: "pandas-dev/pandas"
   github_stars: 48498
 ---
+
 # Pandas Profiling Report Generator
+
+Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/pandas-dev/pandas)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-profiling-report-generator/)

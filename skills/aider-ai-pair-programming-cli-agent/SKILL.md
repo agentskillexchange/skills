@@ -1,27 +1,30 @@
 ---
-title: Aider AI Pair Programming CLI Agent
-slug: aider-ai-pair-programming-cli-agent
-description: Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages.
+title: "Aider AI Pair Programming CLI Agent"
+slug: "aider-ai-pair-programming-cli-agent"
+description: "Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages."
 github_stars: 42670
-verification: security_reviewed
-source: https://github.com/Aider-AI/aider
-category: Developer Tools
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/Aider-AI/aider"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: Aider-AI/aider
+  github_repo: "Aider-AI/aider"
   github_stars: 42670
 ---
+
 # Aider AI Pair Programming CLI Agent
 
 Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

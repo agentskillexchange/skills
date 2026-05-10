@@ -1,27 +1,46 @@
 ---
-title: Record and replay HTTP fixtures for deterministic Python tests with VCR.py
-slug: record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py
-description: Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and replaying them from cassette files. The agent decides which requests belong in fixtures, refreshes stale cassettes when upstream APIs change, and keeps external traffic out of the repeat test loop.
+title: "Record and replay HTTP fixtures for deterministic Python tests with VCR.py"
+slug: "record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py"
+description: "Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and replaying them from cassette files. The agent decides which requests belong in fixtures, refreshes stale cassettes when upstream APIs change, and keeps external traffic out of the repeat test loop."
 github_stars: 2956
-verification: security_reviewed
-source: https://github.com/kevin1024/vcrpy
-category: Developer Tools
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/kevin1024/vcrpy"
+author: "Kevin1024 and contributors"
+publisher_type: "Open Source Project"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: kevin1024/vcrpy
+  github_repo: "kevin1024/vcrpy"
   github_stars: 2956
 ---
+
 # Record and replay HTTP fixtures for deterministic Python tests with VCR.py
 
 Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and replaying them from cassette files. The agent decides which requests belong in fixtures, refreshes stale cassettes when upstream APIs change, and keeps external traffic out of the repeat test loop.
 
+## Prerequisites
+
+Python plus VCR.py integrated into the project's test framework
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install vcrpy
+```
+
+## Documentation
+
+- https://vcrpy.readthedocs.io/
 
 ## Source
 

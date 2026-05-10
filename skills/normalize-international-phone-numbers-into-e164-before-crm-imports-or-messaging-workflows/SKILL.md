@@ -1,27 +1,45 @@
 ---
-title: Normalize international phone numbers into E.164 before CRM imports or messaging workflows
-slug: normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows
-description: Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing contacts or triggering downstream messaging. The skill is about normalization and validation, not telephony delivery, call routing, or campaign orchestration.
-verification: security_reviewed
-source: https://www.npmjs.com/package/libphonenumber-js
-category: Integrations & Connectors
-framework: Multi-Framework
+title: "Normalize international phone numbers into E.164 before CRM imports or messaging workflows"
+slug: "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows"
+description: "Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing contacts or triggering downstream messaging. The skill is about normalization and validation, not telephony delivery, call routing, or campaign orchestration."
+verification: "security_reviewed"
+source: "https://www.npmjs.com/package/libphonenumber-js"
+author: "catamphetamine"
+publisher_type: "Individual Maintainer"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
-  npm_package: libphonenumber-js
+  npm_package: "libphonenumber-js"
   npm_weekly_downloads: 15571336
-npm_downloads: 15571336
 ---
+
 # Normalize international phone numbers into E.164 before CRM imports or messaging workflows
 
 Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing contacts or triggering downstream messaging. The skill is about normalization and validation, not telephony delivery, call routing, or campaign orchestration.
 
+## Prerequisites
+
+Node.js and npm
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install libphonenumber-js --save
+```
+
+## Documentation
+
+- https://github.com/catamphetamine/libphonenumber-js#readme
 
 ## Source
 

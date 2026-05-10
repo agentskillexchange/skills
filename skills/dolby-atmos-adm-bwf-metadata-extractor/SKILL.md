@@ -1,23 +1,31 @@
 ---
-title: Dolby Atmos ADM-BWF Metadata Extractor
-slug: dolby-atmos-adm-bwf-metadata-extractor
-description: Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm C++ library and EBU Tech 3364 spec for Dolby Atmos immersive audio object positions.
-verification: security_reviewed
-source: https://developer.dolby.com/technology/dolby-atmos/adm-atmos-profile/
-category: Media & Transcription
-framework: Gemini
+title: "Dolby Atmos ADM-BWF Metadata Extractor"
+slug: "dolby-atmos-adm-bwf-metadata-extractor"
+description: "Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm C++ library and EBU Tech 3364 spec for Dolby Atmos immersive audio object positions."
+verification: "security_reviewed"
+source: "https://developer.dolby.com/technology/dolby-atmos/adm-atmos-profile/"
+author: "Dolby"
+category: "Media & Transcription"
+framework: "Gemini"
 ---
+
 # Dolby Atmos ADM-BWF Metadata Extractor
 
 Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm C++ library and EBU Tech 3364 spec for Dolby Atmos immersive audio object positions.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://developer.dolby.com/technology/dolby-atmos/adm-atmos-profile/
 
 ## Source
 

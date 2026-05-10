@@ -1,21 +1,26 @@
 ---
-title: Academic Paper Citation Network Mapper
-slug: academic-paper-citation-network-mapper
-description: Academic Paper Citation Network Mapper
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/
-category: General
-framework: OpenClaw
+title: "Academic Paper Citation Network Mapper"
+slug: "academic-paper-citation-network-mapper"
+description: "Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
+category: "Research & Scraping"
+framework: "OpenClaw"
 ---
+
 # Academic Paper Citation Network Mapper
+
+Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

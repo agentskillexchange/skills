@@ -1,27 +1,46 @@
 ---
-title: Apply structural codemods across large codebases with Comby
-slug: apply-structural-codemods-across-large-codebases-with-comby
-description: Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.
+title: "Apply structural codemods across large codebases with Comby"
+slug: "apply-structural-codemods-across-large-codebases-with-comby"
+description: "Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace."
 github_stars: 2626
-verification: security_reviewed
-source: https://github.com/comby-tools/comby
-category: Developer Tools
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/comby-tools/comby"
+author: "comby-tools"
+publisher_type: "organization"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: comby-tools/comby
+  github_repo: "comby-tools/comby"
   github_stars: 2626
 ---
+
 # Apply structural codemods across large codebases with Comby
 
 Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.
 
+## Prerequisites
+
+Comby CLI
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install Comby from the release binaries or package manager for your platform, then run a match and rewrite pair such as `comby 'old(:[x])' 'new(:[x])' -matcher .python -i`.
+```
+
+## Documentation
+
+- https://comby.dev/
 
 ## Source
 

@@ -1,23 +1,32 @@
 ---
-title: Censys Attack Surface Monitor
-slug: censys-attack-surface-monitor
-description: Censys Attack Surface Monitor
-verification: security_reviewed
-source: https://docs.censys.com/docs/internet-scanning
-category: General
-framework: Custom Agents
+title: "Censys Attack Surface Monitor"
+slug: "censys-attack-surface-monitor"
+description: "Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations."
+verification: "security_reviewed"
+source: "https://docs.censys.com/docs/internet-scanning"
+author: "Censys"
+category: "Research & Scraping"
+framework: "Custom Agents"
 ---
+
 # Censys Attack Surface Monitor
+
+Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.censys.com/docs/internet-scanning
 
 ## Source
 
-- [Upstream](https://docs.censys.com/docs/internet-scanning)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/censys-attack-surface-monitor/)

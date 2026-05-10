@@ -1,27 +1,33 @@
 ---
-title: Salesforce CRM Sync Agent
-slug: salesforce-crm-sync-agent
-description: Salesforce CRM Sync Agent
+title: "Salesforce CRM Sync Agent"
+slug: "salesforce-crm-sync-agent"
+description: "Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via connection.query(), bulk upserts through connection.sobject().upsertBulk(), and subscribes to Platform Events using connection.streaming.topic() for real-time data sync."
 github_stars: 1453
-verification: security_reviewed
-source: https://github.com/jsforce/jsforce
-category: General
-framework: Cursor
+verification: "security_reviewed"
+source: "https://github.com/jsforce/jsforce"
+category: "Integrations & Connectors"
+framework: "Cursor"
 tool_ecosystem:
-  github_repo: jsforce/jsforce
+  github_repo: "jsforce/jsforce"
   github_stars: 1453
+  npm_package: "jsforce"
+  npm_weekly_downloads: 936641
 ---
+
 # Salesforce CRM Sync Agent
+
+Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via connection.query(), bulk upserts through connection.sobject().upsertBulk(), and subscribes to Platform Events using connection.streaming.topic() for real-time data sync.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/jsforce/jsforce)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-crm-sync-agent/)

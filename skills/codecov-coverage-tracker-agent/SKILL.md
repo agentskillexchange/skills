@@ -1,23 +1,32 @@
 ---
-title: Codecov Coverage Tracker Agent
-slug: codecov-coverage-tracker-agent
-description: Codecov Coverage Tracker Agent
-verification: security_reviewed
-source: https://docs.codecov.com/docs/quick-start
-category: General
-framework: MCP
+title: "Codecov Coverage Tracker Agent"
+slug: "codecov-coverage-tracker-agent"
+description: "Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold."
+verification: "security_reviewed"
+source: "https://docs.codecov.com/docs/quick-start"
+author: "Codecov"
+category: "Code Quality & Review"
+framework: "MCP"
 ---
+
 # Codecov Coverage Tracker Agent
+
+Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.codecov.com/docs/quick-start
 
 ## Source
 
-- [Upstream](https://docs.codecov.com/docs/quick-start)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/)

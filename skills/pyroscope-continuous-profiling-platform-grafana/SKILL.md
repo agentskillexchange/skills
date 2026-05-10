@@ -1,27 +1,30 @@
 ---
-title: Pyroscope Continuous Profiling Platform by Grafana
-slug: pyroscope-continuous-profiling-platform-grafana
-description: Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates natively with Grafana for flame graph visualization and supports profiling for Go, Java, Python, Ruby, Node.js, Rust, and .NET applications.
+title: "Pyroscope Continuous Profiling Platform by Grafana"
+slug: "pyroscope-continuous-profiling-platform-grafana"
+description: "Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates natively with Grafana for flame graph visualization and supports profiling for Go, Java, Python, Ruby, Node.js, Rust, and .NET applications."
 github_stars: 11341
-verification: security_reviewed
-source: https://github.com/grafana/pyroscope
-category: Monitoring & Alerts
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/grafana/pyroscope"
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: grafana/pyroscope
+  github_repo: "grafana/pyroscope"
   github_stars: 11341
 ---
+
 # Pyroscope Continuous Profiling Platform by Grafana
 
 Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates natively with Grafana for flame graph visualization and supports profiling for Go, Java, Python, Ruby, Node.js, Rust, and .NET applications.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

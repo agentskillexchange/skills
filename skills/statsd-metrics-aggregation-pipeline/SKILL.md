@@ -1,23 +1,32 @@
 ---
-title: StatsD Metrics Aggregation Pipeline
-slug: statsd-metrics-aggregation-pipeline
-description: StatsD Metrics Aggregation Pipeline
-verification: security_reviewed
-source: https://docs.datadoghq.com/
-category: General
-framework: Custom Agents
+title: "StatsD Metrics Aggregation Pipeline"
+slug: "statsd-metrics-aggregation-pipeline"
+description: "Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing."
+verification: "security_reviewed"
+source: "https://docs.datadoghq.com/"
+author: "Datadog"
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 ---
+
 # StatsD Metrics Aggregation Pipeline
+
+Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://docs.datadoghq.com/
 
 ## Source
 
-- [Upstream](https://docs.datadoghq.com/)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/)

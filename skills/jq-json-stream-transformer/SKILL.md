@@ -1,27 +1,31 @@
 ---
-title: jq JSON Stream Transformer
-slug: jq-json-stream-transformer
-description: Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser.
+title: "jq JSON Stream Transformer"
+slug: "jq-json-stream-transformer"
+description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq's streaming parser."
 github_stars: 34478
-verification: security_reviewed
-source: https://github.com/jqlang/jq
-category: Data Extraction & Transformation
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/jqlang/jq"
+author: "jqlang"
+category: "Data Extraction & Transformation"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: jqlang/jq
+  github_repo: "jqlang/jq"
   github_stars: 34478
 ---
+
 # jq JSON Stream Transformer
 
-Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq&#8217;s streaming parser.
+Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq's streaming parser.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

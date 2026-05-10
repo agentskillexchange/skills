@@ -1,27 +1,33 @@
 ---
-title: Slack Workflow Bot
-slug: slack-workflow-bot-bolt-sdk
-description: Slack Workflow Bot
+title: "Slack Workflow Bot"
+slug: "slack-workflow-bot-bolt-sdk"
+description: "Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations."
 github_stars: 2900
-verification: security_reviewed
-source: https://github.com/slackapi/bolt-js
-category: General
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/slackapi/bolt-js"
+category: "Calendar, Email & Productivity"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: slackapi/bolt-js
+  github_repo: "slackapi/bolt-js"
   github_stars: 2900
+  npm_package: "@slack/bolt"
+  npm_weekly_downloads: 2603193
 ---
+
 # Slack Workflow Bot
+
+Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/slackapi/bolt-js)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/)

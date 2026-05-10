@@ -1,27 +1,31 @@
 ---
-title: Argo Workflows DAG Optimizer
-slug: argo-workflows-dag-optimizer
-description: Argo Workflows DAG Optimizer
+title: "Argo Workflows DAG Optimizer"
+slug: "argo-workflows-dag-optimizer"
+description: "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis."
 github_stars: 16616
-verification: security_reviewed
-source: https://github.com/argoproj/argo-workflows
-category: General
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/argoproj/argo-workflows"
+category: "Templates & Workflows"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: argoproj/argo-workflows
+  github_repo: "argoproj/argo-workflows"
   github_stars: 16616
 ---
+
 # Argo Workflows DAG Optimizer
+
+Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/argoproj/argo-workflows)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/)

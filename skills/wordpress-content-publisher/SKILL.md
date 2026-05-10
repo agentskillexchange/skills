@@ -1,26 +1,47 @@
 ---
-title: WordPress Content Publisher
-slug: wordpress-content-publisher
-description: WordPress Content Publisher
-verification: security_reviewed
-source: https://github.com/WordPress/WordPress
-category: General
-framework: Custom Agents
+title: "WordPress Content Publisher"
+slug: "wordpress-content-publisher"
+description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+github_stars: 21100
+verification: "security_reviewed"
+source: "https://github.com/WordPress/WordPress"
+author: "WordPress"
+publisher_type: "open_source_collective"
+category: "WordPress & CMS"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: wordpress/wordpress
-  github_stars: 21098
+  github_repo: "wordpress/wordpress"
+  github_stars: 21100
 ---
+
 # WordPress Content Publisher
+
+Structured publishing workflow for WordPress drafts, metadata, and content operations.
+
+## Prerequisites
+
+OpenClaw, WordPress site with REST API access, application password
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the WordPress skills from the OpenClaw skills set. Create an application password in WordPress (Users → Profile → Application Passwords) and configure REST API access in your OpenClaw environment.
+```
+
+## Documentation
+
+- https://wordpress.org/documentation/
 
 ## Source
 
-- [Upstream](https://github.com/WordPress/WordPress)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-content-publisher/)

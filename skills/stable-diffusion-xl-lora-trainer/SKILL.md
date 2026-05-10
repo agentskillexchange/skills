@@ -1,23 +1,30 @@
 ---
-title: Stable Diffusion XL LoRA Trainer
-slug: stable-diffusion-xl-lora-trainer
-description: Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation.
-verification: security_reviewed
-source: https://github.com/Stability-AI/stablediffusion
-category: Image & Creative Automation
-framework: Custom Agents
+title: "Stable Diffusion XL LoRA Trainer"
+slug: "stable-diffusion-xl-lora-trainer"
+description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation."
+github_stars: 27135
+verification: "security_reviewed"
+source: "https://github.com/Stability-AI/generative-models"
+category: "Image & Creative Automation"
+framework: "Custom Agents"
+tool_ecosystem:
+  github_repo: "Stability-AI/generative-models"
+  github_stars: 27135
 ---
+
 # Stable Diffusion XL LoRA Trainer
 
 Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

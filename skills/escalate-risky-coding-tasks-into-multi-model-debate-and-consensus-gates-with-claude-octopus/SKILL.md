@@ -1,27 +1,46 @@
 ---
-title: Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus
-slug: escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus
-description: Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping.
+title: "Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus"
+slug: "escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus"
+description: "Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping."
 github_stars: 2806
-verification: security_reviewed
-source: https://github.com/nyldn/claude-octopus
-category: Code Quality & Review
-framework: Claude Code
+verification: "security_reviewed"
+source: "https://github.com/nyldn/claude-octopus"
+author: "nyldn"
+publisher_type: "individual"
+category: "Code Quality & Review"
+framework: "Claude Code"
 tool_ecosystem:
-  github_repo: nyldn/claude-octopus
+  github_repo: "nyldn/claude-octopus"
   github_stars: 2806
 ---
+
 # Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus
 
 Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping.
 
+## Prerequisites
+
+Claude Code; optional additional model providers such as Codex, Gemini, Copilot, Qwen, Ollama, Perplexity, or OpenRouter
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Clone or install Claude Octopus from the GitHub repository, add any model-provider credentials you want to use, and invoke the Octopus workflow only for tasks that merit multi-model debate and consensus checks.
+```
+
+## Documentation
+
+- https://github.com/nyldn/claude-octopus
 
 ## Source
 

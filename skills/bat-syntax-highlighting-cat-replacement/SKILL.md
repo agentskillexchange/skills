@@ -1,27 +1,30 @@
 ---
-title: bat Syntax-Highlighting Cat Replacement
-slug: bat-syntax-highlighting-cat-replacement
-description: bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files.
+title: "bat Syntax-Highlighting Cat Replacement"
+slug: "bat-syntax-highlighting-cat-replacement"
+description: "bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files."
 github_stars: 57909
-verification: security_reviewed
-source: https://github.com/sharkdp/bat
-category: Developer Tools
-framework: Claude Code
+verification: "security_reviewed"
+source: "https://github.com/sharkdp/bat"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
-  github_repo: sharkdp/bat
+  github_repo: "sharkdp/bat"
   github_stars: 57909
 ---
+
 # bat Syntax-Highlighting Cat Replacement
 
 bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

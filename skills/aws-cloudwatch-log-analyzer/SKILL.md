@@ -1,27 +1,31 @@
 ---
-title: AWS CloudWatch Log Analyzer
-slug: aws-cloudwatch-log-analyzer
-description: AWS CloudWatch Log Analyzer
+title: "AWS CloudWatch Log Analyzer"
+slug: "aws-cloudwatch-log-analyzer"
+description: "Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data."
 github_stars: 3607
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
-category: General
-framework: ChatGPT Agents
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
 ---
+
 # AWS CloudWatch Log Analyzer
+
+Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/aws/aws-sdk-js-v3)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/)

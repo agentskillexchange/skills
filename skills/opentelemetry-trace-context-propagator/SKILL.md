@@ -1,23 +1,32 @@
 ---
-title: OpenTelemetry Trace Context Propagator
-slug: opentelemetry-trace-context-propagator
-description: OpenTelemetry Trace Context Propagator
-verification: security_reviewed
-source: https://opentelemetry.io/docs/languages/js/propagation/
-category: General
-framework: Claude Code
+title: "OpenTelemetry Trace Context Propagator"
+slug: "opentelemetry-trace-context-propagator"
+description: "Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC, and message queue boundaries. Integrates with Jaeger, Zipkin, and OTLP exporters for distributed trace correlation."
+verification: "security_reviewed"
+source: "https://opentelemetry.io/docs/languages/js/propagation/"
+author: "OpenTelemetry"
+category: "Library & API Reference"
+framework: "Claude Code"
 ---
+
 # OpenTelemetry Trace Context Propagator
+
+Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC, and message queue boundaries. Integrates with Jaeger, Zipkin, and OTLP exporters for distributed trace correlation.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://opentelemetry.io/docs/languages/js/propagation/
 
 ## Source
 
-- [Upstream](https://opentelemetry.io/docs/languages/js/propagation/)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/)

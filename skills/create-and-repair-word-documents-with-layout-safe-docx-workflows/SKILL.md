@@ -1,26 +1,42 @@
 ---
-title: Create and repair Word documents with layout-safe DOCX workflows
-slug: create-and-repair-word-documents-with-layout-safe-docx-workflows
-description: Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing.
-github_stars: 116918
-verification: security_reviewed
-source: https://github.com/anthropics/skills/tree/main/skills/docx
-category: Templates & Workflows
-framework: Claude Agents
-tool_ecosystem:
-  github_repo: anthropics/skills
+title: "Create and repair Word documents with layout-safe DOCX workflows"
+slug: "create-and-repair-word-documents-with-layout-safe-docx-workflows"
+description: "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing."
+verification: "security_reviewed"
+source: "https://github.com/anthropics/skills/tree/main/skills/docx"
+author: "Anthropic"
+publisher_type: "official_repository"
+category: "Templates & Workflows"
+framework: "Claude Agents"
 ---
+
 # Create and repair Word documents with layout-safe DOCX workflows
 
 Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing.
 
+## Prerequisites
+
+docx generation library, pandoc, LibreOffice
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Use the upstream Anthropic docx skill from the anthropics/skills repository in an agent environment that can generate or edit .docx files and run validation/conversion helpers.
+```
+
+## Documentation
+
+- https://github.com/anthropics/skills/tree/main/skills/docx
 
 ## Source
 

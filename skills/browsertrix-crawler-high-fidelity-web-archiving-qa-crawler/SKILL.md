@@ -1,27 +1,40 @@
 ---
-title: Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
-slug: browsertrix-crawler-high-fidelity-web-archiving-qa-crawler
-description: Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood.
+title: "Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler"
+slug: "browsertrix-crawler-high-fidelity-web-archiving-qa-crawler"
+description: "Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood."
 github_stars: 1013
-verification: security_reviewed
-source: https://github.com/webrecorder/browsertrix-crawler
-category: Research & Scraping
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/webrecorder/browsertrix-crawler"
+author: "Webrecorder"
+publisher_type: "Open Source Project"
+category: "Research & Scraping"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: webrecorder/browsertrix-crawler
+  github_repo: "webrecorder/browsertrix-crawler"
   github_stars: 1013
 ---
+
 # Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
 
 Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood.
 
+## Prerequisites
+
+Docker
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://crawler.docs.browsertrix.com/
 
 ## Source
 

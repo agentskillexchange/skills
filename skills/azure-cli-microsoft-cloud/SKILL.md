@@ -1,27 +1,45 @@
 ---
-title: Azure CLI — Command-Line Interface for Microsoft Azure
-slug: azure-cli-microsoft-cloud
-description: The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands.
+title: "Azure CLI — Command-Line Interface for Microsoft Azure"
+slug: "azure-cli-microsoft-cloud"
+description: "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands."
 github_stars: 4502
-verification: security_reviewed
-source: https://github.com/Azure/azure-cli
-category: Developer Tools
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/Azure/azure-cli"
+author: "Microsoft"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: Azure/azure-cli
+  github_repo: "Azure/azure-cli"
   github_stars: 4502
 ---
+
 # Azure CLI — Command-Line Interface for Microsoft Azure
 
 The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands.
 
+## Prerequisites
+
+Python 3.9+, pip or platform package manager
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+```
+
+## Documentation
+
+- https://learn.microsoft.com/en-us/cli/azure/
 
 ## Source
 

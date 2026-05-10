@@ -1,27 +1,31 @@
 ---
-title: Selenium WebDriver Browser Automation Framework
-slug: selenium-webdriver-browser-automation-framework
-description: Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments.
+title: "Selenium WebDriver Browser Automation Framework"
+slug: "selenium-webdriver-browser-automation-framework"
+description: "Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments."
 github_stars: 34075
-verification: security_reviewed
-source: https://github.com/SeleniumHQ/selenium
-category: Browser Automation
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/SeleniumHQ/selenium"
+author: "SeleniumHQ"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: SeleniumHQ/selenium
+  github_repo: "SeleniumHQ/selenium"
   github_stars: 34075
 ---
+
 # Selenium WebDriver Browser Automation Framework
 
 Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

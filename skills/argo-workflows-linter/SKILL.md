@@ -1,27 +1,31 @@
 ---
-title: Argo Workflows Linter
-slug: argo-workflows-linter
-description: Argo Workflows Linter
+title: "Argo Workflows Linter"
+slug: "argo-workflows-linter"
+description: "Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency cycles, invalid artifact references, and parameter type mismatches across workflow steps."
 github_stars: 16616
-verification: security_reviewed
-source: https://github.com/argoproj/argo-workflows
-category: General
-framework: Claude Code
+verification: "security_reviewed"
+source: "https://github.com/argoproj/argo-workflows"
+category: "CI/CD Integrations"
+framework: "Claude Code"
 tool_ecosystem:
-  github_repo: argoproj/argo-workflows
+  github_repo: "argoproj/argo-workflows"
   github_stars: 16616
 ---
+
 # Argo Workflows Linter
+
+Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency cycles, invalid artifact references, and parameter type mismatches across workflow steps.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/argoproj/argo-workflows)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-linter/)

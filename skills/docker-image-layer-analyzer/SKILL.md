@@ -1,27 +1,31 @@
 ---
-title: Docker Image Layer Analyzer
-slug: docker-image-layer-analyzer
-description: Docker Image Layer Analyzer
+title: "Docker Image Layer Analyzer"
+slug: "docker-image-layer-analyzer"
+description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
 github_stars: 71492
-verification: security_reviewed
-source: https://github.com/moby/moby
-category: General
-framework: Claude Code
+verification: "security_reviewed"
+source: "https://github.com/moby/moby"
+category: "Library & API Reference"
+framework: "Claude Code"
 tool_ecosystem:
-  github_repo: moby/moby
+  github_repo: "moby/moby"
   github_stars: 71492
 ---
+
 # Docker Image Layer Analyzer
+
+Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/moby/moby)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-analyzer/)

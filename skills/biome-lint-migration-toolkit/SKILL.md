@@ -1,27 +1,31 @@
 ---
-title: Biome Lint Migration Toolkit
-slug: biome-lint-migration-toolkit
-description: Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting.
+title: "Biome Lint Migration Toolkit"
+slug: "biome-lint-migration-toolkit"
+description: "Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check --apply for bulk reformatting."
 github_stars: 24293
-verification: security_reviewed
-source: https://github.com/biomejs/biome
-category: Developer Tools
-framework: Claude Code
+verification: "security_reviewed"
+source: "https://github.com/biomejs/biome"
+author: "biomejs"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
-  github_repo: biomejs/biome
+  github_repo: "biomejs/biome"
   github_stars: 24293
 ---
+
 # Biome Lint Migration Toolkit
 
-Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check &#8211;apply for bulk reformatting.
+Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check --apply for bulk reformatting.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

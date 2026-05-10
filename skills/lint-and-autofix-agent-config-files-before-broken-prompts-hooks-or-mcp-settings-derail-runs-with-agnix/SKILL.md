@@ -1,28 +1,52 @@
 ---
-title: Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix
-slug: lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix
-description: Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow.
+title: "Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix"
+slug: "lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix"
+description: "Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow."
 github_stars: 179
-verification: security_reviewed
-source: https://github.com/agent-sh/agnix
-category: Security & Verification
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/agent-sh/agnix"
+author: "agent-sh"
+publisher_type: "open_source"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: agent-sh/agnix
+  github_repo: "agent-sh/agnix"
   github_stars: 179
-  npm_package: agnix
+  npm_package: "agnix"
+  npm_weekly_downloads: 6006
 ---
+
 # Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix
 
 Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow.
 
+## Prerequisites
+
+agnix CLI
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install -g agnix
+# or
+brew tap agent-sh/agnix && brew install agnix
+# or
+cargo install agnix-cli
+```
+
+## Documentation
+
+- https://github.com/agent-sh/agnix
 
 ## Source
 

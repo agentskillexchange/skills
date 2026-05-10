@@ -1,27 +1,36 @@
 ---
-title: CircleCI MCP Server
-slug: circleci-mcp-server
-description: CircleCI MCP Server
+title: "CircleCI MCP Server"
+slug: "circleci-mcp-server"
+description: ""
 github_stars: 842
-verification: security_reviewed
-source: https://github.com/circleci/circleci-docs
-category: General
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/circleci/circleci-docs"
+author: "circleci"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: circleci/circleci-docs
+  github_repo: "circleci/circleci-docs"
   github_stars: 842
 ---
+
 # CircleCI MCP Server
+
+
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://circleci.com/docs/
 
 ## Source
 
-- [Upstream](https://github.com/circleci/circleci-docs)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-mcp-server/)

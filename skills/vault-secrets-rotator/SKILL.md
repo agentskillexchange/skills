@@ -1,27 +1,31 @@
 ---
-title: Vault Secrets Rotator
-slug: vault-secrets-rotator
-description: Vault Secrets Rotator
+title: "Vault Secrets Rotator"
+slug: "vault-secrets-rotator"
+description: "Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs."
 github_stars: 35396
-verification: security_reviewed
-source: https://github.com/hashicorp/vault
-category: General
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/hashicorp/vault"
+category: "Security & Verification"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: hashicorp/vault
+  github_repo: "hashicorp/vault"
   github_stars: 35396
 ---
+
 # Vault Secrets Rotator
+
+Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/hashicorp/vault)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/vault-secrets-rotator/)

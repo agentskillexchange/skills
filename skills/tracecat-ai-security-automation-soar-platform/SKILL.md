@@ -1,27 +1,31 @@
 ---
-title: Tracecat AI-Native Security Automation and SOAR Platform
-slug: tracecat-ai-security-automation-soar-platform
-description: Tracecat is an open-source, AI-native security automation platform built as a self-hosted alternative to Tines and Splunk SOAR. It combines agents, workflows, case management, and lookup tables in one platform with sandboxed execution powered by Temporal and nsjail.
+title: "Tracecat AI-Native Security Automation and SOAR Platform"
+slug: "tracecat-ai-security-automation-soar-platform"
+description: "Tracecat is an open-source, AI-native security automation platform built as a self-hosted alternative to Tines and Splunk SOAR. It combines agents, workflows, case management, and lookup tables in one platform with sandboxed execution powered by Temporal and nsjail."
 github_stars: 3546
-verification: security_reviewed
-source: https://github.com/TracecatHQ/tracecat
-category: Security & Verification
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/TracecatHQ/tracecat"
+author: "Tracecat"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: TracecatHQ/tracecat
+  github_repo: "TracecatHQ/tracecat"
   github_stars: 3546
 ---
+
 # Tracecat AI-Native Security Automation and SOAR Platform
 
 Tracecat is an open-source, AI-native security automation platform built as a self-hosted alternative to Tines and Splunk SOAR. It combines agents, workflows, case management, and lookup tables in one platform with sandboxed execution powered by Temporal and nsjail.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

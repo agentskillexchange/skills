@@ -1,28 +1,48 @@
 ---
-title: AgentQL Natural Language Web Query SDK for Extraction and Automation
-slug: agentql-natural-language-web-query-sdk-extraction-automation
-description: AgentQL is TinyFish’s web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone.
+title: "AgentQL Natural Language Web Query SDK for Extraction and Automation"
+slug: "agentql-natural-language-web-query-sdk-extraction-automation"
+description: "AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone."
 github_stars: 1312
-verification: security_reviewed
-source: https://github.com/tinyfish-io/agentql
-category: Research & Scraping
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/tinyfish-io/agentql"
+author: "tinyfish-io"
+publisher_type: "Company"
+category: "Research & Scraping"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: tinyfish-io/agentql
+  github_repo: "tinyfish-io/agentql"
   github_stars: 1312
-  npm_package: agentql
+  npm_package: "agentql"
+  npm_weekly_downloads: 878
 ---
+
 # AgentQL Natural Language Web Query SDK for Extraction and Automation
 
-AgentQL is TinyFish&#8217;s web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone.
+AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone.
+
+## Prerequisites
+
+python, go, java
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip3 install agentql
+```
+
+## Documentation
+
+- https://docs.agentql.com
 
 ## Source
 

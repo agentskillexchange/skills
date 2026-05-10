@@ -1,28 +1,46 @@
 ---
-title: Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser
-slug: run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser
-description: Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.
+title: "Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser"
+slug: "run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser"
+description: "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation."
 github_stars: 2853
-verification: security_reviewed
-source: https://github.com/jo-inc/camofox-browser
-category: Browser Automation
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/jo-inc/camofox-browser"
+author: "Jo, Inc."
+publisher_type: "organization"
+category: "Browser Automation"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: jo-inc/camofox-browser
+  github_repo: "jo-inc/camofox-browser"
   github_stars: 2853
-  npm_package: None
 ---
+
 # Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser
 
 Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.
 
+## Prerequisites
+
+Node.js or Docker, Camofox Browser server, optional yt-dlp for transcript extraction
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Clone the repository, run npm install and npm start for local use, or deploy with the provided Docker and Makefile flows. Then call the REST API or OpenClaw plugin tools against the running server.
+```
+
+## Documentation
+
+- https://github.com/jo-inc/camofox-browser
 
 ## Source
 

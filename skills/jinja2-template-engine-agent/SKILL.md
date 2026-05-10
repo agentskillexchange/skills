@@ -1,27 +1,36 @@
 ---
-title: Jinja2 Template Engine
-slug: jinja2-template-engine-agent
-description: Jinja2 Template Engine
+title: "Jinja2 Template Engine"
+slug: "jinja2-template-engine-agent"
+description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
 github_stars: 11583
-verification: security_reviewed
-source: https://github.com/pallets/jinja
-category: General
-framework: Gemini
+verification: "security_reviewed"
+source: "https://github.com/pallets/jinja"
+author: "Pallets"
+category: "Templates & Workflows"
+framework: "Gemini"
 tool_ecosystem:
-  github_repo: pallets/jinja
+  github_repo: "pallets/jinja"
   github_stars: 11583
 ---
+
 # Jinja2 Template Engine
+
+Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://jinja.palletsprojects.com/
 
 ## Source
 
-- [Upstream](https://github.com/pallets/jinja)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-template-engine-agent/)

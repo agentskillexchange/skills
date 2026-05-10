@@ -1,27 +1,46 @@
 ---
-title: Autofix common Nix anti-patterns before style drift spreads with Statix
-slug: autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix
-description: Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work.
+title: "Autofix common Nix anti-patterns before style drift spreads with Statix"
+slug: "autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix"
+description: "Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work."
 github_stars: 872
-verification: security_reviewed
-source: https://github.com/oppiliappan/statix
-category: Code Quality & Review
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/oppiliappan/statix"
+author: "oppiliappan"
+publisher_type: "individual"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: oppiliappan/statix
+  github_repo: "oppiliappan/statix"
   github_stars: 872
 ---
+
 # Autofix common Nix anti-patterns before style drift spreads with Statix
 
 Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work.
 
+## Prerequisites
+
+Statix CLI, Nix files
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install Statix from the project repository or package manager, then run checks or autofix mode against the Nix files you want to normalize.
+```
+
+## Documentation
+
+- https://github.com/oppiliappan/statix
 
 ## Source
 

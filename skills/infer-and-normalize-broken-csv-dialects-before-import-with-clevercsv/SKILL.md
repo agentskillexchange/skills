@@ -1,27 +1,46 @@
 ---
-title: Infer And Normalize Broken CSV Dialects Before Import With Clevercsv
-slug: infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv
-description: Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail.
+title: "Infer And Normalize Broken CSV Dialects Before Import With Clevercsv"
+slug: "infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv"
+description: "Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail."
 github_stars: 1324
-verification: security_reviewed
-source: https://github.com/alan-turing-institute/CleverCSV
-category: Data Extraction & Transformation
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/alan-turing-institute/CleverCSV"
+author: "The Alan Turing Institute and contributors"
+publisher_type: "Open Source"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: alan-turing-institute/CleverCSV
+  github_repo: "alan-turing-institute/CleverCSV"
   github_stars: 1324
 ---
+
 # Infer And Normalize Broken CSV Dialects Before Import With Clevercsv
 
 Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail.
 
+## Prerequisites
+
+Python 3, pip
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install clevercsv[full]
+```
+
+## Documentation
+
+- https://clevercsv.readthedocs.io/
 
 ## Source
 

@@ -1,27 +1,35 @@
 ---
-title: CDP Network Interception Logger
-slug: cdp-network-interception-logger
-description: Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
+title: "CDP Network Interception Logger"
+slug: "cdp-network-interception-logger"
+description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
 github_stars: 1476
-verification: security_reviewed
-source: https://github.com/ChromeDevTools/devtools-protocol
-category: Browser Automation
-framework: Codex
+verification: "security_reviewed"
+source: "https://github.com/ChromeDevTools/devtools-protocol"
+author: "ChromeDevTools"
+category: "Browser Automation"
+framework: "Codex"
 tool_ecosystem:
-  github_repo: ChromeDevTools/devtools-protocol
+  github_repo: "ChromeDevTools/devtools-protocol"
   github_stars: 1476
 ---
+
 # CDP Network Interception Logger
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://chromedevtools.github.io/devtools-protocol/
 
 ## Source
 

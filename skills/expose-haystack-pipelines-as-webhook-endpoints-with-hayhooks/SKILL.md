@@ -1,27 +1,46 @@
 ---
-title: Expose Haystack pipelines as webhook endpoints with Hayhooks
-slug: expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks
-description: Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service.
+title: "Expose Haystack pipelines as webhook endpoints with Hayhooks"
+slug: "expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks"
+description: "Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service."
 github_stars: 138
-verification: security_reviewed
-source: https://github.com/deepset-ai/hayhooks
-category: Integrations & Connectors
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/deepset-ai/hayhooks"
+author: "deepset"
+publisher_type: "organization"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: deepset-ai/hayhooks
+  github_repo: "deepset-ai/hayhooks"
   github_stars: 138
 ---
+
 # Expose Haystack pipelines as webhook endpoints with Hayhooks
 
 Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service.
 
+## Prerequisites
+
+Python environment, Haystack pipeline definitions, hayhooks package, network access for HTTP serving, optional MCP clients
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install hayhooks in a Python environment, prepare the pipeline wrapper and pipeline definition files described upstream, then run the Hayhooks server and deploy the target pipeline as an endpoint.
+```
+
+## Documentation
+
+- https://docs.haystack.deepset.ai/docs/hayhooks
 
 ## Source
 

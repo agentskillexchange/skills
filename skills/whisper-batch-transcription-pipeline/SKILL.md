@@ -1,27 +1,31 @@
 ---
-title: OpenAI Whisper Batch Transcription Pipeline
-slug: whisper-batch-transcription-pipeline
-description: OpenAI Whisper Batch Transcription Pipeline
+title: "OpenAI Whisper Batch Transcription Pipeline"
+slug: "whisper-batch-transcription-pipeline"
+description: "Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back to S3. Supports language auto-detection and translation to English."
 github_stars: 97803
-verification: security_reviewed
-source: https://github.com/openai/whisper
-category: General
-framework: OpenClaw
+verification: "security_reviewed"
+source: "https://github.com/openai/whisper"
+category: "Media & Transcription"
+framework: "OpenClaw"
 tool_ecosystem:
-  github_repo: openai/whisper
+  github_repo: "openai/whisper"
   github_stars: 97803
 ---
+
 # OpenAI Whisper Batch Transcription Pipeline
+
+Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back to S3. Supports language auto-detection and translation to English.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/openai/whisper)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/)

@@ -1,27 +1,46 @@
 ---
-title: Hookdeck CLI for Webhook Development and Event Debugging
-slug: hookdeck-cli-webhook-development-event-debugging
-description: Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
+title: "Hookdeck CLI for Webhook Development and Event Debugging"
+slug: "hookdeck-cli-webhook-development-event-debugging"
+description: "Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling."
 github_stars: 353
-verification: security_reviewed
-source: https://github.com/hookdeck/hookdeck-cli
-category: Integrations & Connectors
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/hookdeck/hookdeck-cli"
+author: "hookdeck"
+publisher_type: "Company"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: hookdeck/hookdeck-cli
+  github_repo: "hookdeck/hookdeck-cli"
   github_stars: 353
 ---
+
 # Hookdeck CLI for Webhook Development and Event Debugging
 
-Hookdeck CLI is Hookdeck&#8217;s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
+Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
+
+## Prerequisites
+
+Node.js or Homebrew
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install hookdeck-cli -g
+```
+
+## Documentation
+
+- https://hookdeck.com/docs
 
 ## Source
 

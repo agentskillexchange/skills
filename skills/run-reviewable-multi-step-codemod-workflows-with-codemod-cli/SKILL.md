@@ -1,27 +1,46 @@
 ---
-title: Run reviewable multi-step codemod workflows with Codemod CLI
-slug: run-reviewable-multi-step-codemod-workflows-with-codemod-cli
-description: Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a one-off search-and-replace or browsing the hosted Codemod platform.
+title: "Run reviewable multi-step codemod workflows with Codemod CLI"
+slug: "run-reviewable-multi-step-codemod-workflows-with-codemod-cli"
+description: "Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a one-off search-and-replace or browsing the hosted Codemod platform."
 github_stars: 979
-verification: security_reviewed
-source: https://github.com/codemod/codemod
-category: Code Quality & Review
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/codemod/codemod"
+author: "Codemod"
+publisher_type: "company"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: codemod/codemod
+  github_repo: "codemod/codemod"
   github_stars: 979
 ---
+
 # Run reviewable multi-step codemod workflows with Codemod CLI
 
 Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a one-off search-and-replace or browsing the hosted Codemod platform.
 
+## Prerequisites
+
+Node.js, npm or npx access, target repository, workflow YAML or codemod package
+
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Use `npx codemod` or the documented package install method, scaffold or select a codemod workflow, then run `npx codemod workflow run -w workflow.yaml` locally or in CI to execute the migration.
+```
+
+## Documentation
+
+- https://docs.codemod.com/cli
 
 ## Source
 

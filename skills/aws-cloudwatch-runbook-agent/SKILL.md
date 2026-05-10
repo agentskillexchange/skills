@@ -1,27 +1,31 @@
 ---
-title: AWS CloudWatch Runbook Agent
-slug: aws-cloudwatch-runbook-agent
-description: AWS CloudWatch Runbook Agent
+title: "AWS CloudWatch Runbook Agent"
+slug: "aws-cloudwatch-runbook-agent"
+description: "Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis."
 github_stars: 3607
-verification: security_reviewed
-source: https://github.com/aws/aws-sdk-js-v3
-category: General
-framework: ChatGPT Agents
+verification: "security_reviewed"
+source: "https://github.com/aws/aws-sdk-js-v3"
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: aws/aws-sdk-js-v3
+  github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
 ---
+
 # AWS CloudWatch Runbook Agent
+
+Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/aws/aws-sdk-js-v3)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/)

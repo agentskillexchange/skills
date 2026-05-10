@@ -1,27 +1,31 @@
 ---
-title: Gorse AI-Powered Open Source Recommender System Engine
-slug: gorse-ai-recommender-system-engine
-description: Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and data management.
+title: "Gorse AI-Powered Open Source Recommender System Engine"
+slug: "gorse-ai-recommender-system-engine"
+description: "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and data management."
 github_stars: 9600
-verification: security_reviewed
-source: https://github.com/gorse-io/gorse
-category: Data Extraction & Transformation
-framework: Custom Agents
+verification: "security_reviewed"
+source: "https://github.com/gorse-io/gorse"
+author: "Gorse"
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 tool_ecosystem:
-  github_repo: gorse-io/gorse
+  github_repo: "gorse-io/gorse"
   github_stars: 9600
 ---
+
 # Gorse AI-Powered Open Source Recommender System Engine
 
 Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and data management.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

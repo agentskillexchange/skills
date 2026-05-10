@@ -1,27 +1,38 @@
 ---
-title: JSDoc Type Definition Extractor
-slug: jsdoc-type-definition-extractor
-description: JSDoc Type Definition Extractor
+title: "JSDoc Type Definition Extractor"
+slug: "jsdoc-type-definition-extractor"
+description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
 github_stars: 15436
-verification: security_reviewed
-source: https://github.com/jsdoc/jsdoc
-category: General
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/jsdoc/jsdoc"
+author: "jsdoc"
+category: "Library & API Reference"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: jsdoc/jsdoc
+  github_repo: "jsdoc/jsdoc"
   github_stars: 15436
+  npm_package: "jsdoc"
+  npm_weekly_downloads: 2519585
 ---
+
 # JSDoc Type Definition Extractor
+
+Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://jsdoc.app/
 
 ## Source
 
-- [Upstream](https://github.com/jsdoc/jsdoc)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/)

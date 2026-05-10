@@ -1,27 +1,30 @@
 ---
-title: Conftest Structured Configuration Policy Testing with OPA Rego
-slug: conftest-opa-config-policy-testing
-description: Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It validates Kubernetes manifests, Terraform configs, Dockerfiles, CI pipelines, and any other structured format against custom policy rules.
+title: "Conftest Structured Configuration Policy Testing with OPA Rego"
+slug: "conftest-opa-config-policy-testing"
+description: "Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It validates Kubernetes manifests, Terraform configs, Dockerfiles, CI pipelines, and any other structured format against custom policy rules."
 github_stars: 3151
-verification: security_reviewed
-source: https://github.com/open-policy-agent/conftest
-category: Security & Verification
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/open-policy-agent/conftest"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: open-policy-agent/conftest
+  github_repo: "open-policy-agent/conftest"
   github_stars: 3151
 ---
+
 # Conftest Structured Configuration Policy Testing with OPA Rego
 
 Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It validates Kubernetes manifests, Terraform configs, Dockerfiles, CI pipelines, and any other structured format against custom policy rules.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

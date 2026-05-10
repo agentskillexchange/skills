@@ -1,23 +1,26 @@
 ---
-title: Microsoft Graph Mail Triage Agent
-slug: microsoft-graph-mail-triage-agent
-description: Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
-verification: security_reviewed
-source: https://learn.microsoft.com/graph/overview
-category: Calendar, Email & Productivity
-framework: Gemini
+title: "Microsoft Graph Mail Triage Agent"
+slug: "microsoft-graph-mail-triage-agent"
+description: "Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API."
+verification: "security_reviewed"
+source: "https://learn.microsoft.com/graph/overview"
+category: "Calendar, Email & Productivity"
+framework: "Gemini"
 ---
+
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

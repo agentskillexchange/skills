@@ -1,27 +1,31 @@
 ---
-title: Helm Chart Diff & Upgrade Manager
-slug: helm-chart-diff-upgrade-manager
-description: Helm Chart Diff & Upgrade Manager
+title: "Helm Chart Diff & Upgrade Manager"
+slug: "helm-chart-diff-upgrade-manager"
+description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade --atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
 github_stars: 29693
-verification: security_reviewed
-source: https://github.com/helm/helm
-category: General
-framework: MCP
+verification: "security_reviewed"
+source: "https://github.com/helm/helm"
+category: "CI/CD Integrations"
+framework: "MCP"
 tool_ecosystem:
-  github_repo: helm/helm
+  github_repo: "helm/helm"
   github_stars: 29693
 ---
+
 # Helm Chart Diff & Upgrade Manager
+
+Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade --atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
-- [Upstream](https://github.com/helm/helm)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/)

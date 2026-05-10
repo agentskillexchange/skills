@@ -1,28 +1,32 @@
 ---
-title: Orval OpenAPI Client Regeneration Skill for Typed SDKs
-slug: orval-openapi-client-regeneration-skill-typed-sdks
-description: Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema changes, and update generated hooks without hand-editing the output. It is a narrowly scoped Orval workflow skill, not a generic listing for the Orval project.
+title: "Orval OpenAPI Client Regeneration Skill for Typed SDKs"
+slug: "orval-openapi-client-regeneration-skill-typed-sdks"
+description: "Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema changes, and update generated hooks without hand-editing the output. It is a narrowly scoped Orval workflow skill, not a generic listing for the Orval project."
 github_stars: 5675
-verification: security_reviewed
-source: https://github.com/orval-labs/orval
-category: Developer Tools
-framework: Multi-Framework
+verification: "security_reviewed"
+source: "https://github.com/orval-labs/orval"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: orval-labs/orval
+  github_repo: "orval-labs/orval"
   github_stars: 5675
-  npm_package: orval
+  npm_package: "orval"
+  npm_weekly_downloads: 1102606
 ---
+
 # Orval OpenAPI Client Regeneration Skill for Typed SDKs
 
 Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema changes, and update generated hooks without hand-editing the output. It is a narrowly scoped Orval workflow skill, not a generic listing for the Orval project.
 
 ## Installation
 
-1. Clone this skill repository.
-2. Open this skill folder.
-3. Review prerequisites and setup needs.
-4. Install required dependencies.
-5. Run and test in your environment.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
