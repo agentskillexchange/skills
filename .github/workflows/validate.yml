@@ -6,6 +6,10 @@ on:
       - 'skills/**'
       - 'scripts/validate-skill.sh'
       - 'scripts/validate_skills.py'
+      - 'scripts/security_scan.py'
+      - 'scripts/test_security_patterns.py'
+      - 'verification/patterns.json'
+      - 'verification/fixtures/security/**'
       - 'spec/SKILL_SPEC.md'
       - '.github/workflows/validate.yml'
   push:
@@ -14,6 +18,10 @@ on:
       - 'skills/**'
       - 'scripts/validate-skill.sh'
       - 'scripts/validate_skills.py'
+      - 'scripts/security_scan.py'
+      - 'scripts/test_security_patterns.py'
+      - 'verification/patterns.json'
+      - 'verification/fixtures/security/**'
       - 'spec/SKILL_SPEC.md'
       - '.github/workflows/validate.yml'
 
@@ -28,3 +36,9 @@ jobs:
 
       - name: Validate full SKILL.md catalog
         run: python3 scripts/validate_skills.py --all --github-annotations --quiet
+
+      - name: Test executable security patterns
+        run: python3 scripts/test_security_patterns.py
+
+      - name: Scan full SKILL.md catalog for security patterns
+        run: python3 scripts/security_scan.py skills --github-annotations --quiet

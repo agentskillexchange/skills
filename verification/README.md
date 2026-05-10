@@ -49,8 +49,19 @@ Valid values:
 | `listed` | Published | In the catalog — backed by a real tool |
 | `security_reviewed` | Security Reviewed | Content scanned for malicious patterns — safe to use |
 
+## Executable Security Contract
+
+Security review patterns are now represented as machine-readable data in [`patterns.json`](patterns.json), with regression fixtures in [`fixtures/security/`](fixtures/security/). CI runs:
+
+```bash
+python3 scripts/test_security_patterns.py
+python3 scripts/security_scan.py skills --github-annotations --quiet
+```
+
+This keeps the trust layer testable instead of relying on documentation-only checks.
+
 ## More Information
 
 - [Verification Criteria](CRITERIA.md) — detailed requirements for each tier
-- [Security Patterns](SECURITY_PATTERNS.md) — patterns checked during security review
+- [Security Patterns](SECURITY_PATTERNS.md) — human-readable patterns checked during security review
 - [Browse Skills](https://agentskillexchange.com/browse-skills/) — explore the full catalog

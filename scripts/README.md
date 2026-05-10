@@ -38,6 +38,19 @@ python3 scripts/validate_skills.py --all --github-annotations --quiet
 
 **Exit codes:** `0` on pass, `1` on validation failure, `2` when PyYAML is unavailable.
 
+### `security_scan.py` and `test_security_patterns.py`
+
+Executable security pattern scanner and fixture test suite for the trust layer.
+
+```bash
+python3 scripts/test_security_patterns.py
+python3 scripts/security_scan.py skills --github-annotations --quiet
+```
+
+`security_scan.py` loads machine-readable patterns from `verification/patterns.json` and scans Markdown files/directories. `test_security_patterns.py` verifies pattern compilation, required security classes, positive malicious fixtures, and a benign negative fixture under `verification/fixtures/security/`.
+
+CI runs both the fixture suite and a full `skills/` catalog scan.
+
 ### `generate-catalog.sh`
 
 Regenerates `CATALOG.md` from the live Agent Skill Exchange WordPress REST API.
