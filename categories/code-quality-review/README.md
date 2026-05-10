@@ -51,6 +51,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
+| [Optimize prompt and agent pipelines with DSPy programs and evaluators](../../skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | 34.3k | — |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | 28.5k | 138.2k/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | 27.2k | 120.2M/wk |

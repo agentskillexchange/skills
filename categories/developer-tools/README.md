@@ -62,6 +62,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
+| [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | 74.4k | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | 73.8k | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | 71.5k | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | 71.5k | — |

@@ -2,7 +2,7 @@
   "name": "Agent Skill Exchange Codex Manifest",
   "description": "Machine-readable index for coding agents that need reusable skill instructions from agentskillexchange/skills.",
   "schema_version": "2.0",
-  "generated_at": "2026-05-10T13:28:01Z",
+  "generated_at": "2026-05-10T19:27:03Z",
   "generator_version": "2026-05-10.agent-endpoints-v1",
   "repository": "https://github.com/agentskillexchange/skills",
   "skill_directory": "skills/<slug>/SKILL.md",
@@ -25,7 +25,7 @@
     ]
   },
   "catalog": {
-    "total": 2434,
+    "total": 2436,
     "security_reviewed": 2430,
     "categories": [
       "Browser Automation",

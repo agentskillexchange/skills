@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2434 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-10 13:27 UTC
+> **2436 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-10 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (307 skills)
+### 🛠️ Developer Tools (308 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -36,6 +36,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention… | Security Reviewed | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](skills/nestjs-progressive-nodejs-framework/) | NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency… | Security Reviewed | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge… | Security Reviewed | 74.9k | — |
+| [Preserve Claude Code session memory with Claude Mem](skills/preserve-claude-code-session-memory-with-claude-mem/) | Use Claude Mem to capture Claude Code sessions, compress the useful context, and re-inject relevant memory so future… | Published | 74.4k | — |
 | [Redis MCP Server](skills/redis-mcp-server/) | Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis… | Security Reviewed | 73.8k | — |
 | [Docker Compose Generator Skill](skills/docker-compose-generator-skill/) | Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | 71.5k | — |
 | [Docker MCP Server](skills/docker-mcp-server/) | Docker MCP Server is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | 71.5k | — |
@@ -756,7 +757,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (181 skills)
+### ✅ Code Quality & Review (182 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -773,6 +774,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | 47.2k | — |
 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | 39.2k | — |
+| [Optimize prompt and agent pipelines with DSPy programs and evaluators](skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | Use DSPy to define modular LLM programs, metrics, and evaluation sets so an agent can optimize prompts and pipeline… | Published | 34.3k | — |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context… | Security Reviewed | 28.5k | 138.2k/wk |
 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js… | Security Reviewed | 27.2k | 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule… | Security Reviewed | 27.2k | 120.2M/wk |
@@ -1457,7 +1459,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 122.2k | — |
+| [Kubernetes Troubleshooting Runbook](skills/k8s-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 122.2k | — |
 | [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | 121.7k | — |
 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | 85.6k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a… | Security Reviewed | 85.1k | 97/wk |

@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 2434,
+  "total": 2436,
   "generated": "2026-05-10",
   "skills": [
+    {
+      "slug": "preserve-claude-code-session-memory-with-claude-mem",
+      "title": "Preserve Claude Code session memory with Claude Mem",
+      "description": "Use Claude Mem to capture Claude Code sessions, compress the useful context, and re-inject relevant memory so future coding-agent runs start with project-specific continuity.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 74413
+      }
+    },
+    {
+      "slug": "optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators",
+      "title": "Optimize prompt and agent pipelines with DSPy programs and evaluators",
+      "description": "Use DSPy to define modular LLM programs, metrics, and evaluation sets so an agent can optimize prompts and pipeline behavior with measurable feedback instead…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 34308
+      }
+    },
     {
       "slug": "orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent",
       "title": "Orchestrate goal-driven TypeScript agent teams with Open Multi Agent",
@@ -37460,7 +37490,7 @@
       }
     },
     {
-      "slug": "kubernetes-troubleshooting-runbook",
+      "slug": "k8s-troubleshooting-runbook",
       "title": "Kubernetes Troubleshooting Runbook",
       "description": "Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…",
       "category": [

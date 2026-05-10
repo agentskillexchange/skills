@@ -2,12 +2,12 @@
   "name": "Agent Skill Exchange",
   "description": "Canonical public catalog of reusable AI agent skills backed by real tools, repos, packages, or documented APIs.",
   "schema_version": "2.0",
-  "generated_at": "2026-05-10T13:28:01Z",
+  "generated_at": "2026-05-10T19:27:03Z",
   "generator_version": "2026-05-10.agent-endpoints-v1",
   "site": "https://agentskillexchange.com",
   "repository": "https://github.com/agentskillexchange/skills",
   "catalog": {
-    "total": 2434,
+    "total": 2436,
     "security_reviewed": 2430,
     "categories": 17,
     "skills_url": "https://agentskillexchange.com/skills.json"
