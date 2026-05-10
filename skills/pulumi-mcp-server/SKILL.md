@@ -1,7 +1,7 @@
 ---
 title: "Pulumi MCP Server"
 slug: "pulumi-mcp-server"
-description: ""
+description: "Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by pulumi/pulumi (24,917+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stacks, preview, refresh, state, providers, config, drift detection and preserving […]"
 github_stars: 25164
 verification: "security_reviewed"
 source: "https://github.com/pulumi/pulumi"

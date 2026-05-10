@@ -7,7 +7,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars |
 |---|---:|
 | [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | ⭐ 356.8k |
-| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | ⭐ 122.1k |
+| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | ⭐ 122.2k |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | ⭐ 121.7k |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | ⭐ 121.7k |
 | [Kubernetes CrashLoop Diagnostician](../../skills/kubernetes-crashloop-diagnostician/) | ⭐ 121.7k |
@@ -41,7 +41,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | 356.8k | — |
-| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | 122.1k | — |
+| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | 122.2k | — |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | 121.7k | — |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | 121.7k | — |
 | [Kubernetes CrashLoop Diagnostician](../../skills/kubernetes-crashloop-diagnostician/) | 121.7k | — |

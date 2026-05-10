@@ -1,7 +1,7 @@
 ---
 title: "Queue Backup Runbook"
 slug: "queue-backup-runbook"
-description: ""
+description: "Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]"
 github_stars: 3992
 verification: "security_reviewed"
 source: "https://github.com/tulios/kafkajs"
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Queue Backup Runbook
 
-
+Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]
 
 ## Prerequisites
 

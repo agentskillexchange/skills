@@ -37,7 +37,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-<p>Install the CLI with <code>curl -fsSL https://codspeed.io/install.sh | bash</code> or use the official CodSpeed GitHub Action, authenticate the project, then run <code>codspeed exec</code> for direct command benchmarks or <code>codspeed run</code> to wrap an existing benchmark suite in CI and pull requests.</p>
+Install the CodSpeed CLI or GitHub Action using the official CodSpeed documentation, then authenticate the project and run codspeed exec or codspeed run for benchmarks.
 ```
 
 ## Documentation

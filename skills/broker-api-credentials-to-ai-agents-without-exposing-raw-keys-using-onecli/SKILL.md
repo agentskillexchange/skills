@@ -35,7 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-curl -fsSL https://onecli.sh/install | sh
+Review the upstream OneCLI installation docs and inspect any installer before running it locally.
 ```
 
 ## Documentation

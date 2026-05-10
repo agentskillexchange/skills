@@ -35,7 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-Clone the repo, run sudo ./preflight.sh --apply-fixes, start the admin UI with docker compose -p asterisk-ai-voice-agent up -d --build --force-recreate admin_ui, then start ai_engine and verify health before placing a test call.
+Clone the repo, review the preflight script before applying fixes, start the admin UI with Docker Compose, then start ai_engine and verify health before placing a test call.
 ```
 
 ## Documentation

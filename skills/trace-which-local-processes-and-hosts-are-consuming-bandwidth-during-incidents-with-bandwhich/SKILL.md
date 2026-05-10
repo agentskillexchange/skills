@@ -35,7 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-Download a prebuilt binary from the GitHub releases page or build from source with Cargo. On Linux, run with sudo or grant the documented packet-capture capabilities before using it in incident workflows.
+Download a prebuilt binary from GitHub Releases or build from source with Cargo. On Linux, follow the upstream least-privilege packet-capture capability guidance before incident use.
 ```
 
 ## Documentation

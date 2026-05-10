@@ -35,7 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-curl https://cronitor.io/install-linux?sudo=1 -H "API-KEY: API_KEY" | sh
+Install Cronitor CLI using the official Cronitor documentation and configure the API key through your normal secret-management workflow.
 ```
 
 ## Documentation

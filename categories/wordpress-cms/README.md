@@ -107,7 +107,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 340 | — |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 723.5k/wk |
 | [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | 253 | — |
-| [WP Abilities API](../../skills/wp-abilities-api/) | 208 | — |
+| [WP Abilities API](../../skills/wp-abilities-api/) | 209 | — |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
 | [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | 196 | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | 177 | 199.7k/wk |

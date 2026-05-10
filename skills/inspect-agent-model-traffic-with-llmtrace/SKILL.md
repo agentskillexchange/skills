@@ -35,7 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-Install with `curl -sS https://raw.githubusercontent.com/epappas/llmtrace/main/scripts/install.sh | bash` or `cargo install llmtrace`, run `llmtrace-proxy --config config.yaml`, then point your OpenAI-compatible client at the local proxy base URL.
+Install with cargo install llmtrace or follow the upstream getting-started docs, then run llmtrace-proxy with a reviewed config file.
 ```
 
 ## Documentation

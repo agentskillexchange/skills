@@ -35,7 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-curl -sSL https://dokploy.com/install.sh | sh
+Install Dokploy using the official documentation and review the installer before running it on a host.
 ```
 
 ## Documentation

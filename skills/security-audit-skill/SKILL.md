@@ -1,7 +1,7 @@
 ---
 title: "Security Audit Skill"
 slug: "security-audit-skill"
-description: ""
+description: "Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]"
 github_stars: 15101
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Security Audit Skill
 
-
+Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]
 
 ## Prerequisites
 

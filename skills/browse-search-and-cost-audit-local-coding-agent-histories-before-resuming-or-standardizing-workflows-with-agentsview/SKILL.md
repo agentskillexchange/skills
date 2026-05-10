@@ -35,8 +35,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-curl -fsSL https://agentsview.io/install.sh | bash
-# or download the desktop app from GitHub Releases
+Download the desktop app from the official GitHub Releases page or review the upstream installer before running it locally.
 ```
 
 ## Documentation

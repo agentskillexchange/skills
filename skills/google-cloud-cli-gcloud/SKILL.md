@@ -30,7 +30,7 @@ Choose whichever fits your setup:
 Install command or upstream instructions:
 
 ```
-curl https://sdk.cloud.google.com | bash && gcloud init
+Install the Google Cloud CLI using the official package-manager or archive instructions for your operating system, then run gcloud init.
 ```
 
 ## Documentation

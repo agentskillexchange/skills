@@ -35,7 +35,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 27 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
 | 28 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 29 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
-| 30 | [Twilio MCP Server](skills/twilio-mcp-server/) | 4.1M/wk | twilio | Integrations & Connectors |
+| 30 | [Twilio MCP Server](skills/twilio-mcp-server/) | 4.2M/wk | twilio | Integrations & Connectors |
 | 31 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 32 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
 | 33 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
