@@ -1,0 +1,42 @@
+# Agent Skill Exchange
+
+Agent Skill Exchange is a public catalog of reusable AI agent skills. Each skill wraps a real upstream tool, repository, package, API, or workflow into instructions agents can install and use.
+
+## Canonical machine-readable files
+
+- Full catalog JSON: https://agentskillexchange.com/skills.json
+- OpenClaw manifest: https://agentskillexchange.com/openclaw.json
+- Codex manifest: https://agentskillexchange.com/codex.json
+- GitHub repository: https://github.com/agentskillexchange/skills
+- Live browse API: https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse
+
+## Catalog summary
+
+- Published skills: 2,433
+- Security Reviewed skills: 2,430
+- Categories: 17
+- Public trust tiers: Published, Security Reviewed
+- Canonical verification values: listed, security_reviewed
+
+## Installation
+
+```bash
+# Any agent using the npx skill installer
+npx skills add agentskillexchange/skills --skill <slug>
+
+# OpenClaw
+clawhub install <slug>
+```
+
+## Human entry points
+
+- Browse skills: https://agentskillexchange.com/browse-skills/
+- Categories: https://github.com/agentskillexchange/skills/tree/main/categories
+- Industry collections: https://github.com/agentskillexchange/skills/tree/main/industries
+- Verification model: https://agentskillexchange.com/how-we-verify-skills/
+
+## Notes for agents
+
+Use skills.json as the canonical catalog index. Use the GitHub repo path skills/<slug>/SKILL.md for the actual skill instructions. Do not treat internal WordPress fields such as verification_status or verified_metadata as public schema.
+
+Generated: 2026-05-10T11:01:22Z

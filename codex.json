@@ -1,0 +1,63 @@
+{
+  "name": "Agent Skill Exchange Codex Manifest",
+  "description": "Machine-readable index for coding agents that need reusable skill instructions from agentskillexchange/skills.",
+  "schema_version": "2.0",
+  "generated_at": "2026-05-10T11:01:22Z",
+  "generator_version": "2026-05-10.agent-endpoints-v1",
+  "repository": "https://github.com/agentskillexchange/skills",
+  "skill_directory": "skills/<slug>/SKILL.md",
+  "canonical_frontmatter": {
+    "required": [
+      "title",
+      "slug",
+      "description",
+      "category",
+      "framework",
+      "verification"
+    ],
+    "verification_values": [
+      "listed",
+      "security_reviewed"
+    ],
+    "optional": [
+      "source",
+      "tool_ecosystem"
+    ]
+  },
+  "catalog": {
+    "total": 2433,
+    "security_reviewed": 2430,
+    "categories": [
+      "Browser Automation",
+      "CI/CD Integrations",
+      "Calendar, Email & Productivity",
+      "Code Quality & Review",
+      "Content Writing & SEO",
+      "Data Extraction & Transformation",
+      "Developer Tools",
+      "Image & Creative Automation",
+      "Integrations & Connectors",
+      "Library & API Reference",
+      "Media & Transcription",
+      "Monitoring & Alerts",
+      "Research & Scraping",
+      "Runbooks & Diagnostics",
+      "Security & Verification",
+      "Templates & Workflows",
+      "WordPress & CMS"
+    ],
+    "skills_url": "https://agentskillexchange.com/skills.json"
+  },
+  "usage": {
+    "search": "Read skills.json, choose a slug, then inspect skills/<slug>/SKILL.md in the GitHub repo.",
+    "install": "npx skills add agentskillexchange/skills --skill <slug> -a codex"
+  },
+  "endpoints": {
+    "skills_json": "https://agentskillexchange.com/skills.json",
+    "openclaw_manifest": "https://agentskillexchange.com/openclaw.json",
+    "codex_manifest": "https://agentskillexchange.com/codex.json",
+    "llms_txt": "https://agentskillexchange.com/llms.txt",
+    "browse_api": "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse",
+    "homepage_picks": "https://agentskillexchange.com/wp-json/ase-marketplace/v1/homepage-picks"
+  }
+}
