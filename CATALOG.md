@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2433 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-10 11:01 UTC
+> **2434 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-10 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1298,7 +1298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (144 skills)
+### 📄 Templates & Workflows (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1382,6 +1382,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Security Reviewed | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Security Reviewed | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and… | Security Reviewed | 6.3k | — |
+| [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | Turn a user goal into a planned multi-agent task DAG, execute independent tasks in parallel, and trace the run from… | Published | 6.1k | — |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces. | Security Reviewed | 6k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout,… | Security Reviewed | 4.3k | — |

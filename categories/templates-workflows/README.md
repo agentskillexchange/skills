@@ -118,6 +118,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
+| [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](../../skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | 6.1k | — |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](../../skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | 6k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](../../skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | 4.3k | — |
