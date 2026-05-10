@@ -12,6 +12,7 @@ python3 - "$REPO_DIR" << 'PY'
 import datetime as dt
 import html
 import json
+import os
 import sys
 import urllib.parse
 import urllib.request
@@ -19,8 +20,9 @@ from collections import Counter
 from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
-BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
-WP_CAT_URL = "https://agentskillexchange.com/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
+SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
+BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
+WP_CAT_URL = f"{SITE_BASE}/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
 
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧",
@@ -91,7 +93,7 @@ lines = [
     "",
     f"> **{len(items)} published skills** across **{len(cat_rows)} categories** · {ver['security_reviewed']} security reviewed · Updated {dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
     ">",
-    "> Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.",
+    f"> Browse the [live marketplace]({SITE_BASE}/browse-skills/) for search, filtering, and one-click install.",
     "",
     "---",
     "",
@@ -105,7 +107,7 @@ for cat in cat_rows:
     cat_items = [i for i in items if cat_name in i.get('categories', [])]
     cat_items.sort(key=lambda i: (-int(i.get('github_stars') or 0), -int(i.get('npm_downloads') or 0), i.get('title', '').lower()))
     emoji = CAT_EMOJI.get(cat_name, '📦')
-    browse_url = 'https://agentskillexchange.com/browse-skills/?category=' + urllib.parse.quote(cat_name, safe='')
+    browse_url = f'{SITE_BASE}/browse-skills/?category=' + urllib.parse.quote(cat_name, safe='')
     lines += [
         f"### {emoji} {cat_name} ({cat['count']} skills)",
         "",
@@ -132,7 +134,7 @@ lines += [
     "",
     "<div align=\"center\">",
     "",
-    "**[agentskillexchange.com](https://agentskillexchange.com)** — The marketplace for trusted AI agent skills",
+    f"**[agentskillexchange.com]({SITE_BASE})** — The marketplace for trusted AI agent skills",
     "",
     "</div>",
     "",

@@ -9,15 +9,17 @@ REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 
 python3 - "$REPO_DIR" << 'PYEOF'
 import json
+import os
 import sys
 import urllib.request
 from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
+SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
 
 def get_total():
     req = urllib.request.Request(
-        "https://agentskillexchange.com/wp-json/wp/v2/skill?per_page=1",
+        f"{SITE_BASE}/wp-json/wp/v2/skill?per_page=1",
         headers={"User-Agent": "ASE Repo Generator"},
         method="HEAD",
     )
@@ -42,7 +44,7 @@ for filename, desc in files.items():
         "display_name": "Agent Skill Exchange",
         "description": desc,
         "version": "1.0.0",
-        "homepage": "https://agentskillexchange.com",
+        "homepage": SITE_BASE,
         "skills_directory": "skills/",
         "license": "MIT",
     }

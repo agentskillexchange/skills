@@ -10,14 +10,16 @@ REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 python3 - "$REPO_DIR" << 'PYEOF'
 import html
 import json
+import os
 import sys
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
-BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
-WP_CAT_URL = "https://agentskillexchange.com/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
+SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
+BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
+WP_CAT_URL = f"{SITE_BASE}/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
 
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧", "Runbooks & Diagnostics": "📋",
@@ -273,7 +275,7 @@ lines.append("- Must fit an existing category and framework")
 lines.append("")
 lines.append("### Option 2: Web Submission")
 lines.append("")
-lines.append("Submit through [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) — auto-synced to this repo hourly.")
+lines.append(f"Submit through [agentskillexchange.com/create-skill]({SITE_BASE}/create-skill/) — auto-synced to this repo hourly.")
 lines.append("")
 lines.append("---")
 lines.append("")
@@ -293,7 +295,7 @@ lines.append("---")
 lines.append("")
 lines.append('<div align="center">')
 lines.append("")
-lines.append("*[agentskillexchange.com](https://agentskillexchange.com/)*")
+lines.append(f"*[agentskillexchange.com]({SITE_BASE}/)*")
 lines.append("")
 lines.append("</div>")
 lines.append("")

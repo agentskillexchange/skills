@@ -10,12 +10,14 @@ REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 python3 - "$REPO_DIR" << 'PYEOF'
 import html
 import json
+import os
 import sys
 import urllib.request
 from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
-BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
+SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
+BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
 
 def fetch_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "ASE Repo Generator"})

@@ -51,21 +51,40 @@ python3 scripts/security_scan.py skills --github-annotations --quiet
 
 CI runs both the fixture suite and a full `skills/` catalog scan.
 
-### `generate-catalog.sh`
+### `sync-from-api.sh` / `generate-all.sh`
 
-Regenerates `CATALOG.md` from the live Agent Skill Exchange WordPress REST API.
+Reproduces all generated public repo artifacts from the public ASE API, without OpenClaw or Hostinger paths.
 
 ```bash
-./scripts/generate-catalog.sh [repo_directory]
+ASE_API_BASE=https://agentskillexchange.com ./scripts/sync-from-api.sh
+# or directly:
+ASE_API_BASE=https://agentskillexchange.com ./scripts/generate-all.sh [repo_directory]
+```
+
+Generated artifacts include `README.md`, `CATALOG.md`, `categories/`, `industries/`, `TOP-STARS.md`, `TOP-DOWNLOADS.md`, `skills.json`, agent manifest files, and `sync-metadata.json`.
+
+`sync-metadata.json` records:
+- `generated_at`
+- `source_api_base`
+- `source_total`
+- `source_etag_or_hash` (SHA-256 of generated `skills.json`)
+- `generator_version`
+- `schema_version`
+
+### `generate-catalog.sh`
+
+Regenerates `CATALOG.md` from the public Agent Skill Exchange WordPress REST API.
+
+```bash
+ASE_API_BASE=https://agentskillexchange.com ./scripts/generate-catalog.sh [repo_directory]
 ```
 
 **What it does:**
 - Fetches all skills and categories from the WP REST API (paginated)
 - Generates `CATALOG.md` with summary stats and per-category skill tables
-- Updates badge counts in `README.md`
 - Handles HTML entity decoding in category and skill names
 
-**Requirements:** `curl`, `jq`
+**Requirements:** Python 3
 
 ### `generate-categories.sh`
 

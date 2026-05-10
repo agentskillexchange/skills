@@ -9,6 +9,7 @@ REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 python3 - "$REPO_DIR" << 'PY'
 import html
 import json
+import os
 import sys
 import urllib.request
 from pathlib import Path
@@ -16,7 +17,8 @@ from pathlib import Path
 REPO_DIR = Path(sys.argv[1])
 INDUSTRIES_DIR = REPO_DIR / "industries"
 MANIFEST_PATH = REPO_DIR / "scripts" / "industry-collections.json"
-BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
+SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
+BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
 
 EMOJI = {
     "media-publishing-systems": "🎙️",
@@ -127,8 +129,8 @@ for collection in collections:
         description,
         "",
         f"- Launch stage: **{stage_text}**",
-        f"- Live page: https://agentskillexchange.com/industry-skills/#{slug}",
-        f"- Homepage access: Curated Collections on https://agentskillexchange.com/",
+        f"- Live page: {SITE_BASE}/industry-skills/#{slug}",
+        f"- Homepage access: Curated Collections on {SITE_BASE}/",
         "",
         "## Recommended Picks",
         "",
@@ -178,7 +180,7 @@ index_lines += [
     "",
     "Industry collections are curated manually and generated from `scripts/industry-collections.json`.",
     "",
-    "[Browse all live collections on agentskillexchange.com →](https://agentskillexchange.com/industry-skills/)",
+    f"[Browse all live collections on agentskillexchange.com →]({SITE_BASE}/industry-skills/)",
     "",
 ]
 

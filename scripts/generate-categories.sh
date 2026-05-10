@@ -11,6 +11,7 @@ REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 python3 - "$REPO_DIR" << 'PY'
 import html
 import json
+import os
 import sys
 import urllib.parse
 import urllib.request
@@ -18,8 +19,9 @@ from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
 CATEGORIES_DIR = REPO_DIR / "categories"
-BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
-WP_CAT_URL = "https://agentskillexchange.com/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
+SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
+BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
+WP_CAT_URL = f"{SITE_BASE}/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
 
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧",
@@ -124,7 +126,7 @@ root_lines += [
     "",
     "---",
     "",
-    "[Browse all skills on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/)",
+    f"[Browse all skills on agentskillexchange.com →]({SITE_BASE}/browse-skills/)",
     "",
 ]
 (CATEGORIES_DIR / "README.md").write_text("\n".join(root_lines), encoding="utf-8")

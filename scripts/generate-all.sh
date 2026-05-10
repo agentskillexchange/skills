@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # generate-all.sh — Regenerate ALL auto-generated repo files from live ASE data
-# Usage: ./generate-all.sh [repo_dir]
+# Usage: ASE_API_BASE=https://agentskillexchange.com ./generate-all.sh [repo_dir]
 #
 # Regenerates: README.md, CATALOG.md, categories/, TOP-STARS.md, TOP-DOWNLOADS.md,
-#              skills.json, .claude-plugin, .codex, .cursor-plugin, .opencode
+#              skills.json, sync-metadata.json, .claude-plugin, .codex, .cursor-plugin, .opencode
 
 set -euo pipefail
 
@@ -30,5 +30,8 @@ bash "$SCRIPT_DIR/generate-skills-json.sh" "$REPO_DIR"
 
 echo "=== Updating agent integration files ==="
 bash "$SCRIPT_DIR/generate-agent-files.sh" "$REPO_DIR"
+
+echo "=== Writing sync metadata ==="
+python3 "$SCRIPT_DIR/write-sync-metadata.py" "$REPO_DIR"
 
 echo "=== All files regenerated ==="
