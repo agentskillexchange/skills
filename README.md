@@ -9,7 +9,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C430-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
+**[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
 *2,433 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
@@ -39,6 +39,34 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 # OpenClaw
 clawhub install <slug>
 ```
+
+---
+
+## Skill of the Day
+
+**[Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](https://agentskillexchange.com/skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/)** — Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows.
+
+_Rotates daily by UTC date from the Security Reviewed pool._
+
+---
+
+## Industry Collections
+
+Curated skill sets organized by industry vertical:
+
+| | Collection | Description |
+|---|---|---|
+| 🎙️ | [**Media & Publishing Systems**](industries/media-publishing-systems.md) | Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep. _(Wave 1)_ |
+| 💼 | [**Finance & Filings**](industries/finance-filings.md) | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. _(Wave 1)_ |
+| 🛒 | [**Ecommerce & Retail Operations**](industries/ecommerce-retail-operations.md) | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising. _(Wave 1)_ |
+| ⚖️ | [**Legal Ops & Compliance**](industries/legal-ops-compliance.md) | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. _(Wave 1)_ |
+| 🩺 | [**Healthcare Documentation & Intake**](industries/healthcare-documentation-intake.md) | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. _(Wave 2)_ |
+| 📈 | [**Product Analytics & Growth Ops**](industries/product-analytics-growth-ops.md) | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows. _(Wave 3)_ |
+| 📚 | [**DevRel & API Documentation**](industries/devrel-api-documentation.md) | API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows. _(Wave 3)_ |
+| 🎧 | [**Customer Support & Success**](industries/customer-support-success.md) | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. _(Wave 4)_ |
+| 🏠 | [**Real Estate Workflows**](industries/real-estate-workflows.md) | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations. _(Wave 4)_ |
+
+See the full overlay index in [industries/README.md](industries/README.md).
 
 ---
 

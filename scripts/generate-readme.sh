@@ -20,6 +20,8 @@ REPO_DIR = Path(sys.argv[1])
 SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
 BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
 WP_CAT_URL = f"{SITE_BASE}/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
+HOMEPAGE_PICKS_URL = f"{SITE_BASE}/wp-json/ase-marketplace/v1/homepage-picks"
+INDUSTRY_MANIFEST = REPO_DIR / "scripts" / "industry-collections.json"
 
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧", "Runbooks & Diagnostics": "📋",
@@ -51,6 +53,25 @@ CAT_SHORT = {
     "Media & Transcription": "Audio/video processing, speech-to-text",
     "WordPress & CMS": "Theme/plugin dev, WP-CLI automation, CMS management",
 }
+INDUSTRY_EMOJI = {
+    "media-publishing-systems": "🎙️",
+    "finance-filings": "💼",
+    "ecommerce-retail-operations": "🛒",
+    "legal-ops-compliance": "⚖️",
+    "healthcare-documentation-intake": "🩺",
+    "product-analytics-growth-ops": "📈",
+    "devrel-api-documentation": "📚",
+    "customer-support-success": "🎧",
+    "real-estate-workflows": "🏠",
+}
+INDUSTRY_STAGE = {
+    "wave-1": "Wave 1",
+    "wave-2": "Wave 2",
+    "wave-3": "Wave 3",
+    "wave-4": "Wave 4",
+    "pilot": "Pilot",
+    "planned": "Planned",
+}
 
 def fetch_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "ASE Repo Generator"})
@@ -73,6 +94,9 @@ def fmt_badge(n):
     """URL-encode comma for shields.io badge."""
     return f"{n:,}".replace(",", "%2C")
 
+def clean_text(value):
+    return html.unescape(str(value or "")).strip()
+
 # Fetch live data
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
@@ -91,6 +115,17 @@ for item in items:
 
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
+
+try:
+    homepage_picks, _ = fetch_json(HOMEPAGE_PICKS_URL)
+except Exception:
+    homepage_picks = {}
+skill_of_day = homepage_picks.get("skill_of_day") if isinstance(homepage_picks, dict) else None
+
+try:
+    industry_collections = json.loads(INDUSTRY_MANIFEST.read_text(encoding="utf-8")).get("collections", [])
+except Exception:
+    industry_collections = []
 
 # Pick featured skills: highest-starred, one per tool, max 2 per category
 # Use title-relevance tiebreaker (matches homepage PHP and top-lists generator)
@@ -140,7 +175,7 @@ lines.append(f'[![Categories](https://img.shields.io/badge/categories-{len(cat_r
 lines.append(f'[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-{fmt_badge(sec_reviewed)}-10b981?style=for-the-badge)](verification/)')
 lines.append('[![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)')
 lines.append("")
-lines.append("**[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**")
+lines.append("**[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**")
 lines.append("")
 lines.append(f"*{fmt_count(total)} published skills · {len(cat_rows)} categories · Real ecosystem signals · Updated hourly*")
 lines.append("")
@@ -173,6 +208,40 @@ lines.append("```")
 lines.append("")
 lines.append("---")
 lines.append("")
+lines.append("## Skill of the Day")
+lines.append("")
+if skill_of_day:
+    title = clean_text(skill_of_day.get("title"))
+    slug = skill_of_day.get("slug") or ""
+    description = clean_text(skill_of_day.get("description"))
+    link = skill_of_day.get("link") or f"{SITE_BASE}/skills/{slug}/"
+    lines.append(f"**[{title}]({link})** — {description}")
+    lines.append("")
+    lines.append("_Rotates daily by UTC date from the Security Reviewed pool._")
+else:
+    lines.append("Daily featured skill data was unavailable during generation.")
+lines.append("")
+lines.append("---")
+lines.append("")
+if industry_collections:
+    lines.append("## Industry Collections")
+    lines.append("")
+    lines.append("Curated skill sets organized by industry vertical:")
+    lines.append("")
+    lines.append("| | Collection | Description |")
+    lines.append("|---|---|---|")
+    for collection in industry_collections:
+        slug = collection.get("slug", "")
+        emoji = INDUSTRY_EMOJI.get(slug, "📦")
+        title = clean_text(collection.get("title"))
+        description = clean_text(collection.get("description"))
+        stage = INDUSTRY_STAGE.get(str(collection.get("launch_stage") or "planned").lower(), "Planned")
+        lines.append(f"| {emoji} | [**{title}**](industries/{slug}.md) | {description} _({stage})_ |")
+    lines.append("")
+    lines.append("See the full overlay index in [industries/README.md](industries/README.md).")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
 lines.append("## Featured Skills")
 lines.append("")
 lines.append("A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for full rankings.")
