@@ -6,6 +6,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars |
 |---|---:|
+| [Preserve agent session context with Claude Mem](../../skills/preserve-agent-session-context-with-claude-mem/) | ⭐ 74.5k |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | ⭐ 71.5k |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⭐ 53.5k |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | ⭐ 51.3k |
@@ -15,7 +16,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | ⭐ 41.2k |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 38.7k |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⭐ 28.8k |
 
 ---
 
@@ -40,6 +40,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Preserve agent session context with Claude Mem](../../skills/preserve-agent-session-context-with-claude-mem/) | 74.5k | — |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.5k | — |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | 53.5k | 2.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |

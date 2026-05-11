@@ -12,7 +12,7 @@ Agent Skill Exchange is a public catalog of reusable AI agent skills. Each skill
 
 ## Catalog summary
 
-- Published skills: 2,436
+- Published skills: 2,437
 - Security Reviewed skills: 2,430
 - Categories: 17
 - Public trust tiers: Published, Security Reviewed
@@ -39,4 +39,4 @@ clawhub install <slug>
 
 Use skills.json as the canonical catalog index. Use the GitHub repo path skills/<slug>/SKILL.md for the actual skill instructions. Do not treat internal WordPress fields such as verification_status or verified_metadata as public schema.
 
-Generated: 2026-05-10T19:27:03Z
+Generated: 2026-05-11T01:30:14Z

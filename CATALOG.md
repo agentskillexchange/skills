@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2436 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-10 19:26 UTC
+> **2437 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-11 01:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1719,12 +1719,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (119 skills)
+### 📚 Library & API Reference (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
+| [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future… | Published | 74.5k | — |
 | [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | 71.5k | — |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records… | Security Reviewed | 53.5k | 2.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 51.3k | — |

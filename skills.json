@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2436,
-  "generated": "2026-05-10",
+  "total": 2437,
+  "generated": "2026-05-11",
   "skills": [
+    {
+      "slug": "preserve-agent-session-context-with-claude-mem",
+      "title": "Preserve agent session context with Claude Mem",
+      "description": "Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future runs so long-running repository work does not restart cold.",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 74480
+      }
+    },
     {
       "slug": "preserve-claude-code-session-memory-with-claude-mem",
       "title": "Preserve Claude Code session memory with Claude Mem",
