@@ -1,14 +1,12 @@
 ---
 title: "Stress-test Python test suites with mutation runs from mutmut"
-slug: "stress-test-python-test-suites-with-mutation-runs-from-mutmut"
 description: "Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite."
-github_stars: 1259
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/boxed/mutmut"
-author: "boxed"
-publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "boxed/mutmut"
   github_stars: 1259
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite.
 
-## Prerequisites
-
-Python 3, pip, mutmut, pytest-compatible test suite
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install mutmut`, configure the target paths if needed, then run `mutmut run` and inspect surviving mutants with `mutmut results`.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://mutmut.readthedocs.io/
+- Download the repository ZIP and extract `skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

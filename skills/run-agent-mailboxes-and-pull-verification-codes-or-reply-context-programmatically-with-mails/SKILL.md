@@ -1,48 +1,46 @@
 ---
 title: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
-slug: "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails"
 description: "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client."
-github_stars: 294
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/chekusu/mails"
-author: "chekusu"
-publisher_type: "individual"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "chekusu/mails"
   github_stars: 294
   npm_package: "mails"
   npm_weekly_downloads: 1289
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Run agent mailboxes and pull verification codes or reply context programmatically with Mails
 
 Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client.
 
-## Prerequisites
-
-Node.js or Bun, Mails CLI or SDK, a claimed or self-hosted mailbox, optional Resend key for sending, optional Cloudflare Worker deployment for self-hosted mode
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Mails from npm or use npx as documented upstream, claim or configure a mailbox, set any required sending or worker credentials, then run the send, inbox, code, or sync flows for the target automation.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://mails.dev
+- Download the repository ZIP and extract `skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

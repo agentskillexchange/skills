@@ -1,14 +1,12 @@
 ---
 title: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
-slug: "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern"
 description: "Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod."
-github_stars: 4636
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/stern/stern"
-author: "Stern maintainers"
-publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stern/stern"
   github_stars: 4636
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod.
 
-## Prerequisites
-
-Stern CLI, Kubernetes cluster access
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Stern from the project repository or package manager, then run it against a namespace, label selector, or pod name pattern to stream matching logs during investigation.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/stern/stern
+- Download the repository ZIP and extract `skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,46 +1,44 @@
 ---
 title: "Run only the relevant linters and formatters on changed files with Precious"
-slug: "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious"
 description: "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted."
-github_stars: 152
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/houseabsolute/precious"
-author: "houseabsolute"
-publisher_type: "open_source_project"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "houseabsolute/precious"
   github_stars: 152
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 ---
 
 # Run only the relevant linters and formatters on changed files with Precious
 
 Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted.
 
-## Prerequisites
-
-precious
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the Precious binary, configure the repository linters and formatters it should manage, then run it against changed files or a diff range.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/houseabsolute/precious
+- Download the repository ZIP and extract `skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

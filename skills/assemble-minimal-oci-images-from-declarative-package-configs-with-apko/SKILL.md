@@ -1,46 +1,44 @@
 ---
 title: "Assemble minimal OCI images from declarative package configs with apko"
-slug: "assemble-minimal-oci-images-from-declarative-package-configs-with-apko"
 description: "Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow."
-github_stars: 1590
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/chainguard-dev/apko"
-author: "Chainguard"
-publisher_type: "open_source_project"
-category: "Security & Verification"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "chainguard-dev/apko"
   github_stars: 1590
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # Assemble minimal OCI images from declarative package configs with apko
 
 Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow.
 
-## Prerequisites
-
-apko and access to the package sources and OCI output destination you intend to use
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install apko, create a declarative image configuration that names packages and metadata, then build the OCI image artifact from that config and publish it through your normal registry flow if needed.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://edu.chainguard.dev/open-source/build-tools/apko/
+- Download the repository ZIP and extract `skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

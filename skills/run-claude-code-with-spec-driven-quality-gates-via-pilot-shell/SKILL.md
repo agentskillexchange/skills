@@ -1,14 +1,12 @@
 ---
 title: "Run Claude Code with spec-driven quality gates via Pilot Shell"
-slug: "run-claude-code-with-spec-driven-quality-gates-via-pilot-shell"
 description: "Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands."
-github_stars: 1645
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/maxritter/pilot-shell"
-author: "Max Ritter"
-publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Claude Code"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "maxritter/pilot-shell"
   github_stars: 1645
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands.
 
-## Prerequisites
-
-Claude Code, curl, bash, macOS/Linux/WSL2
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Pilot Shell using the official documentation, then enter a project and run pilot or ccp to start a spec-driven Claude Code session.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://pilot-shell.com/docs
+- Download the repository ZIP and extract `skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

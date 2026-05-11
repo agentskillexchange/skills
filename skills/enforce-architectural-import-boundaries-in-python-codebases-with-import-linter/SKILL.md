@@ -1,14 +1,12 @@
 ---
 title: "Enforce architectural import boundaries in Python codebases with Import Linter"
-slug: "enforce-architectural-import-boundaries-in-python-codebases-with-import-linter"
 description: "Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts."
-github_stars: 995
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/seddonym/import-linter"
-author: "seddonym"
-publisher_type: "individual"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "seddonym/import-linter"
   github_stars: 995
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts.
 
-## Prerequisites
-
-Python project, pip or Poetry environment
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install import-linter`, add contracts in your configuration file, then run `lint-imports` in CI or local review workflows.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://import-linter.readthedocs.io/
+- Download the repository ZIP and extract `skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

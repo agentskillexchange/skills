@@ -1,14 +1,12 @@
 ---
 title: "Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit"
-slug: "statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit"
 description: "Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping."
-github_stars: 149
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/HeadyZhang/agent-audit"
-author: "Agent Security Team"
-publisher_type: "individual"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "HeadyZhang/agent-audit"
   github_stars: 149
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping.
 
-## Prerequisites
-
-agent-audit, local agent repository or config tree
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the agent-audit package from the upstream project, point it at an agent repository or config tree, and run the static scan before CI approval or release.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://headyzhang.github.io/agent-audit/
+- Download the repository ZIP and extract `skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

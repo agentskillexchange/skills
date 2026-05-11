@@ -1,14 +1,12 @@
 ---
 title: "Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper"
-slug: "extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper"
 description: "Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors."
-github_stars: 6260
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/mishushakov/llm-scraper"
-author: "mishushakov"
-publisher_type: "individual"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mishushakov/llm-scraper"
   github_stars: 6260
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors.
 
-## Prerequisites
-
-Node.js, Playwright-compatible browser runtime, llm-scraper package, supported LLM provider credentials, target URLs
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install llm-scraper together with Playwright and the schema dependencies shown in the README, configure a supported model provider, then run it against rendered pages with a defined output schema.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/mishushakov/llm-scraper
+- Download the repository ZIP and extract `skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

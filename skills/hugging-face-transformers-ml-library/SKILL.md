@@ -1,13 +1,12 @@
 ---
 title: "Hugging Face Transformers — Machine Learning Model Library"
-slug: "hugging-face-transformers-ml-library"
 description: "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment."
-github_stars: 159189
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/huggingface/transformers"
-author: "Hugging Face"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159189
@@ -17,29 +16,29 @@ tool_ecosystem:
 
 Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment.
 
-## Prerequisites
-
-Python 3.9+, pip, PyTorch or TensorFlow
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/hugging-face-transformers-ml-library/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-pip install transformers
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/hugging-face-transformers-ml-library
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://huggingface.co/docs/transformers/
+- Download the repository ZIP and extract `skills/hugging-face-transformers-ml-library`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

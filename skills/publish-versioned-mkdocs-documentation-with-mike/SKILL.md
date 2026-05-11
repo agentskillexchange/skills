@@ -1,14 +1,12 @@
 ---
 title: "Publish versioned MkDocs documentation with mike"
-slug: "publish-versioned-mkdocs-documentation-with-mike"
 description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
-github_stars: 728
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jimporter/mike"
-author: "jimporter"
-publisher_type: "individual"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jimporter/mike"
   github_stars: 728
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.
 
-## Prerequisites
-
-Python, MkDocs, a Git-backed docs deployment target such as GitHub Pages, and mike.
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/publish-versioned-mkdocs-documentation-with-mike/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install mike`, configure your MkDocs site for versioned publishing, then use mike to deploy named versions and set aliases like `latest`.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/publish-versioned-mkdocs-documentation-with-mike
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/jimporter/mike
+- Download the repository ZIP and extract `skills/publish-versioned-mkdocs-documentation-with-mike`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

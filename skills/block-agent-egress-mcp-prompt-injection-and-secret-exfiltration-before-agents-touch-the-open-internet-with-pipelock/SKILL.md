@@ -1,14 +1,12 @@
 ---
 title: "Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock"
-slug: "block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock"
 description: "Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with local secrets."
-github_stars: 333
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/luckyPipewrench/pipelock"
-author: "luckyPipewrench"
-publisher_type: "individual"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "luckyPipewrench/pipelock"
   github_stars: 333
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with local secrets.
 
-## Prerequisites
-
-Homebrew or Go, terminal, supported agent runtime or IDE integration
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `brew install luckyPipewrench/tap/pipelock` or `go install github.com/luckyPipewrench/pipelock/cmd/pipelock@latest`, run `pipelock init`, then place the agent behind `pipelock sandbox` or `pipelock mcp proxy` with your policy config.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://pipelab.org
+- Download the repository ZIP and extract `skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

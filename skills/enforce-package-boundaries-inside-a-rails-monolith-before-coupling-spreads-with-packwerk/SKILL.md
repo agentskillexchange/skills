@@ -1,46 +1,44 @@
 ---
 title: "Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk"
-slug: "enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk"
 description: "Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time."
-github_stars: 1858
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Shopify/packwerk"
-author: "Shopify"
-publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Shopify/packwerk"
   github_stars: 1858
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 ---
 
 # Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk
 
 Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time.
 
-## Prerequisites
-
-Ruby, Bundler, a Rails application with Zeitwerk enabled, Packwerk gem installation, and repository access to the monolith being analyzed
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Add Packwerk to the target Rails application's Gemfile or install it as documented upstream, generate the configuration with the provided init command, then run Packwerk against the codebase to report package dependency and privacy violations.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/Shopify/packwerk
+- Download the repository ZIP and extract `skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

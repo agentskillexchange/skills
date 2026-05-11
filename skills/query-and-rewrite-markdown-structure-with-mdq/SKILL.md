@@ -1,14 +1,12 @@
 ---
 title: "Query and rewrite Markdown structure with mdq"
-slug: "query-and-rewrite-markdown-structure-with-mdq"
 description: "Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits."
-github_stars: 1708
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/yshavit/mdq"
-author: "yshavit"
-publisher_type: "individual"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yshavit/mdq"
   github_stars: 1708
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits.
 
-## Prerequisites
-
-mdq and Markdown files to inspect or rewrite.
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/query-and-rewrite-markdown-structure-with-mdq/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install mdq from the project release or package instructions, then run its query and rewrite commands against Markdown files during docs cleanup, migration, or audit work.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/query-and-rewrite-markdown-structure-with-mdq
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/yshavit/mdq
+- Download the repository ZIP and extract `skills/query-and-rewrite-markdown-structure-with-mdq`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

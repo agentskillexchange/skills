@@ -1,46 +1,44 @@
 ---
 title: "Archive and reorganize local photo libraries with photo-cli"
-slug: "archive-and-reorganize-local-photo-libraries-with-photo-cli"
 description: "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder structure without moving into a hosted photo platform."
-github_stars: 68
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/photo-cli/photo-cli"
-author: "photo-cli contributors"
-publisher_type: "open_source_project"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "photo-cli/photo-cli"
   github_stars: 68
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Archive and reorganize local photo libraries with photo-cli
 
 Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder structure without moving into a hosted photo platform.
 
-## Prerequisites
-
-photo-cli, access to the source photo library, destination storage for the reorganized archive
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install photo-cli using one of the documented release methods, choose the source library and destination folder, then run the archive or copy workflow to build a reorganized photo tree from file metadata.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/archive-and-reorganize-local-photo-libraries-with-photo-cli
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://photocli.com
+- Download the repository ZIP and extract `skills/archive-and-reorganize-local-photo-libraries-with-photo-cli`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

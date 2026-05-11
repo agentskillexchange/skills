@@ -1,14 +1,12 @@
 ---
 title: "Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser"
-slug: "enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser"
 description: "Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift."
-github_stars: 6557
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sverweij/dependency-cruiser"
-author: "sverweij"
-publisher_type: "individual"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sverweij/dependency-cruiser"
   github_stars: 6557
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift.
 
-## Prerequisites
-
-Node.js, npm or pnpm
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `npm install --save-dev dependency-cruiser` (or the yarn/pnpm equivalent), run `npx depcruise --init` to create a config, then run `npx depcruise` in CI or review workflows.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/sverweij/dependency-cruiser
+- Download the repository ZIP and extract `skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

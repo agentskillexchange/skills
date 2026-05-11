@@ -1,46 +1,44 @@
 ---
 title: "Investigate Kubernetes network incidents through MCP with Kubeshark"
-slug: "investigate-kubernetes-network-incidents-through-mcp-with-kubeshark"
-description: "Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident response."
-github_stars: 11873
-verification: "security_reviewed"
+description: "Query live and historical Kubernetes network traffic through Kubeshark’s MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident response."
+verification: security_reviewed
 source: "https://github.com/kubeshark/kubeshark"
-author: "Kubeshark"
-publisher_type: "organization"
-category: "Monitoring & Alerts"
-framework: "MCP"
 tool_ecosystem:
   github_repo: "kubeshark/kubeshark"
   github_stars: 11873
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 ---
 
 # Investigate Kubernetes network incidents through MCP with Kubeshark
 
-Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident response.
-
-## Prerequisites
-
-Kubeshark deployed in the target Kubernetes cluster and an MCP-compatible client
+Query live and historical Kubernetes network traffic through Kubeshark’s MCP server when an agent needs packet-level evidence, API payloads, or service-path traces for incident response.
 
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Kubeshark in the cluster with Helm (for example: helm repo add kubeshark https://helm.kubeshark.com && helm install kubeshark kubeshark/kubeshark --set mcp.enabled=true --set mcp.port=8898), then connect an MCP client to the Kubeshark MCP endpoint.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.kubeshark.com/en/mcp
+- Download the repository ZIP and extract `skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,46 +1,44 @@
 ---
 title: "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup"
-slug: "back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup"
 description: "Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider."
-github_stars: 218
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/amitsaha/gitbackup"
-author: "Amit Saha"
-publisher_type: "individual"
-category: "Developer Tools"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "amitsaha/gitbackup"
   github_stars: 218
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup
 
 Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider.
 
-## Prerequisites
-
-gitbackup binary or container image, forge access tokens, backup storage
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Download a release binary or use the published container image, provide the needed provider token and backup directory, then run gitbackup against the target service using the documented flags or config file.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/amitsaha/gitbackup
+- Download the repository ZIP and extract `skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

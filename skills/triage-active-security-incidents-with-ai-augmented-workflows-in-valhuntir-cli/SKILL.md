@@ -1,14 +1,12 @@
 ---
 title: "Triage active security incidents with AI-augmented workflows in Valhuntir CLI"
-slug: "triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli"
 description: "Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup."
-github_stars: 40
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/AppliedIR/Valhuntir"
-author: "AppliedIR"
-publisher_type: "GitHub repository"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AppliedIR/Valhuntir"
   github_stars: 40
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup.
 
-## Prerequisites
-
-Valhuntir CLI and gateway components, forensic artifacts, and an MCP-compatible local client under human analyst control
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Follow the upstream Valhuntir setup to install the CLI and supporting components, connect a supported local MCP-compatible client, and run investigations with the documented approval and evidence-review controls.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/AppliedIR/Valhuntir#readme
+- Download the repository ZIP and extract `skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

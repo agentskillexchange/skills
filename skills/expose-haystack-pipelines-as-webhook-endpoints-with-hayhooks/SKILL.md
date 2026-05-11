@@ -1,14 +1,12 @@
 ---
 title: "Expose Haystack pipelines as webhook endpoints with Hayhooks"
-slug: "expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks"
 description: "Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service."
-github_stars: 138
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/deepset-ai/hayhooks"
-author: "deepset"
-publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "deepset-ai/hayhooks"
   github_stars: 138
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service.
 
-## Prerequisites
-
-Python environment, Haystack pipeline definitions, hayhooks package, network access for HTTP serving, optional MCP clients
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install hayhooks in a Python environment, prepare the pipeline wrapper and pipeline definition files described upstream, then run the Hayhooks server and deploy the target pipeline as an endpoint.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.haystack.deepset.ai/docs/hayhooks
+- Download the repository ZIP and extract `skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

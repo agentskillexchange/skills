@@ -1,46 +1,44 @@
 ---
 title: "Analyze Kubernetes cluster issues through MCP with K8sGPT"
-slug: "analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt"
 description: "Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural language."
-github_stars: 7687
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/k8sgpt-ai/k8sgpt"
-author: "K8sGPT Authors"
-publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "MCP"
 tool_ecosystem:
   github_repo: "k8sgpt-ai/k8sgpt"
   github_stars: 7687
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
 ---
 
 # Analyze Kubernetes cluster issues through MCP with K8sGPT
 
 Run K8sGPT as an MCP server so an agent can scan a Kubernetes cluster, explain unhealthy resources, and return prioritized remediation clues in natural language.
 
-## Prerequisites
-
-A reachable Kubernetes cluster, K8sGPT, and an MCP-compatible client
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install K8sGPT (for example: brew install k8sgpt), configure an AI backend with k8sgpt auth, then start the MCP server with k8sgpt serve --mcp --mcp-http and connect your MCP client.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.k8sgpt.ai/
+- Download the repository ZIP and extract `skills/analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

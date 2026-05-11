@@ -1,46 +1,44 @@
 ---
 title: "Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer"
-slug: "benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer"
 description: "Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests."
-github_stars: 327
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/reworkd/bananalyzer"
-author: "Reworkd"
-publisher_type: "organization"
-category: "Browser Automation"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "reworkd/bananalyzer"
   github_stars: 327
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer
 
 Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests.
 
-## Prerequisites
-
-Python environment, Playwright browser runtime, pytest-based test execution, a custom AgentRunner implementation, example web task snapshots
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the project dependencies, create a test file that implements the `AgentRunner` interface, then run `bananalyze` against that file or test directory to execute the evaluation suite.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/reworkd/bananalyzer
+- Download the repository ZIP and extract `skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

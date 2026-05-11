@@ -1,46 +1,44 @@
 ---
 title: "Coordinate issue-backed parallel coding worktrees with CCPM"
-slug: "coordinate-issue-backed-parallel-coding-worktrees-with-ccpm"
 description: "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding runs reviewable instead of relying on ad hoc chat memory."
-github_stars: 7995
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/automazeio/ccpm"
-author: "automazeio"
-publisher_type: "company"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "automazeio/ccpm"
   github_stars: 7995
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 ---
 
 # Coordinate issue-backed parallel coding worktrees with CCPM
 
 Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding runs reviewable instead of relying on ad hoc chat memory.
 
-## Prerequisites
-
-GitHub Issues, git worktrees, a repo using an agent-skills-compatible coding harness, and an operator willing to manage work through issue-backed phases instead of ad hoc chat.
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install CCPM from the GitHub repo or supported agent-skills harness, connect it to a repository with GitHub Issues enabled, generate or refine the project plan into issues, then let each issue run in its own worktree so agent execution and review stay isolated and traceable.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/automazeio/ccpm
+- Download the repository ZIP and extract `skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

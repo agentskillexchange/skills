@@ -1,14 +1,12 @@
 ---
 title: "Generate OSS-Fuzz harnesses with oss-fuzz-gen"
-slug: "generate-oss-fuzz-harnesses-with-oss-fuzz-gen"
 description: "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins."
-github_stars: 1384
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/google/oss-fuzz-gen"
-author: "Google"
-publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/oss-fuzz-gen"
   github_stars: 1384
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins.
 
-## Prerequisites
-
-oss-fuzz-gen, compiler toolchain, fuzzing runtime
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone or install the project dependencies described upstream, run the harness generation flow against a supported codebase, then build and test the generated fuzz targets.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/google/oss-fuzz-gen
+- Download the repository ZIP and extract `skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

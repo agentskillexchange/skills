@@ -1,46 +1,44 @@
 ---
 title: "Validate Python Docstrings Against Function Signatures with pydoclint"
-slug: "validate-python-docstrings-against-function-signatures-with-pydoclint"
 description: "Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves."
-github_stars: 208
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jsh9/pydoclint"
-author: "jsh9"
-publisher_type: "individual"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jsh9/pydoclint"
   github_stars: 208
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 ---
 
 # Validate Python Docstrings Against Function Signatures with pydoclint
 
 Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves.
 
-## Prerequisites
-
-Python, pydoclint, Python source tree
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/validate-python-docstrings-against-function-signatures-with-pydoclint/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with pip, then run it over the package or changed files you want to verify: pip install pydoclint && pydoclint path/to/package
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/validate-python-docstrings-against-function-signatures-with-pydoclint
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://jsh9.github.io/pydoclint/
+- Download the repository ZIP and extract `skills/validate-python-docstrings-against-function-signatures-with-pydoclint`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

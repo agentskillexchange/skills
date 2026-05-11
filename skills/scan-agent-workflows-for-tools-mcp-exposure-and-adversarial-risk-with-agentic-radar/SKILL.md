@@ -1,46 +1,44 @@
 ---
 title: "Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar"
-slug: "scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar"
 description: "Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before rollout."
-github_stars: 953
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/splx-ai/agentic-radar"
-author: "SPLX AI"
-publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "splx-ai/agentic-radar"
   github_stars: 953
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar
 
 Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before rollout.
 
-## Prerequisites
-
-Python, agentic-radar CLI
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install agentic-radar`. For framework-specific extras, use `pip install "agentic-radar[crewai]"` or `pip install "agentic-radar[openai-agents]"` when needed. Run `agentic-radar scan <framework> -i <path> -o report.html` to generate a report, or `agentic-radar test openai-agents "<entrypoint>"` for runtime adversarial testing.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/splx-ai/agentic-radar
+- Download the repository ZIP and extract `skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

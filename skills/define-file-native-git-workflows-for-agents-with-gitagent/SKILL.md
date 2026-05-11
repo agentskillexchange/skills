@@ -1,14 +1,12 @@
 ---
 title: "Define file-native Git workflows for agents with GitAgent"
-slug: "define-file-native-git-workflows-for-agents-with-gitagent"
 description: "Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git."
-github_stars: 2667
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/open-gitagent/gitagent"
-author: "open-gitagent"
-publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-gitagent/gitagent"
   github_stars: 2667
@@ -20,29 +18,29 @@ tool_ecosystem:
 
 Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git.
 
-## Prerequisites
-
-GitAgent, git repository, compatible agent runtime
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/define-file-native-git-workflows-for-agents-with-gitagent/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install the @open-gitagent/gitagent package, initialize it inside a repository, then define and run workflow files that encode prompts, tasks, and reusable agent chains.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/define-file-native-git-workflows-for-agents-with-gitagent
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://gitagent.sh
+- Download the repository ZIP and extract `skills/define-file-native-git-workflows-for-agents-with-gitagent`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

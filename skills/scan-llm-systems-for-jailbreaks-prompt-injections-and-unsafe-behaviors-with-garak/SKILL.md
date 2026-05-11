@@ -1,14 +1,12 @@
 ---
 title: "Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak"
-slug: "scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak"
 description: "Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review."
-github_stars: 7549
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/NVIDIA/garak"
-author: "NVIDIA"
-publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "NVIDIA/garak"
   github_stars: 7549
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review.
 
-## Prerequisites
-
-Python 3.10+, target LLM or API credentials, command line access
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `python -m pip install -U garak`, configure access to the target model or provider, then run garak with the generator and probe options that match the system you want to assess.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://garak.ai
+- Download the repository ZIP and extract `skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

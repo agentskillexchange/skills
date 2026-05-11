@@ -1,48 +1,46 @@
 ---
 title: "Search local notes, docs, and meeting transcripts for agent context with QMD"
-slug: "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd"
 description: "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs."
-github_stars: 22082
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/tobi/qmd"
-author: "tobi"
-publisher_type: "open_source_project"
-category: "Research & Scraping"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "tobi/qmd"
   github_stars: 22082
   npm_package: "@tobilu/qmd"
   npm_weekly_downloads: 25854
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Search local notes, docs, and meeting transcripts for agent context with QMD
 
 Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs.
 
-## Prerequisites
-
-Node or Bun, local document folders, optional local GGUF model via node-llama-cpp for semantic search and reranking
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npm install -g @tobilu/qmd or bun install -g @tobilu/qmd
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/tobi/qmd
+- Download the repository ZIP and extract `skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

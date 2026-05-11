@@ -1,46 +1,45 @@
 ---
 title: "Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent"
-slug: "review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent"
 description: "Use PR-Agent when an agent should run an automated pull request review pass with summaries, comments, improvement prompts, or ask-mode follow-ups before human merge review."
-github_stars: 10915
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/The-PR-Agent/pr-agent"
-author: "The PR-Agent maintainers"
-publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "the-pr-agent/pr-agent"
   github_stars: 10915
+  license: "AGPL-3.0"
 ---
 
 # Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent
 
 Use PR-Agent when an agent should run an automated pull request review pass with summaries, comments, improvement prompts, or ask-mode follow-ups before human merge review.
 
-## Prerequisites
-
-Python, pip, Git provider access, an LLM API key
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with pip install pr-agent for local CLI use, or add the upstream GitHub Action or webhook setup to run review, improve, and ask workflows against pull requests.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/The-PR-Agent/pr-agent#readme
+- Download the repository ZIP and extract `skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

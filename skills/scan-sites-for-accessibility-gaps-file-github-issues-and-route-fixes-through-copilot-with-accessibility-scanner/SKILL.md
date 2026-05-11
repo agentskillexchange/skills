@@ -1,46 +1,44 @@
 ---
 title: "Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner"
-slug: "scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner"
 description: "Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual audit chore."
-github_stars: 266
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/github/accessibility-scanner"
-author: "GitHub"
-publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/accessibility-scanner"
   github_stars: 266
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 ---
 
 # Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner
 
 Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual audit chore.
 
-## Prerequisites
-
-GitHub repository with Actions and Issues enabled, repository secret for a fine-grained PAT, list of target URLs, optional GitHub Copilot access for automated fix assignment
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Add the documented GitHub Actions workflow to the target repository, configure the required token secret and scan inputs, then run the action manually or on the chosen trigger to create issues from accessibility findings.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/github/accessibility-scanner
+- Download the repository ZIP and extract `skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

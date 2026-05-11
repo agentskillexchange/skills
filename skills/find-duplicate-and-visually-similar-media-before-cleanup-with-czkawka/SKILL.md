@@ -1,46 +1,44 @@
 ---
 title: "Find duplicate and visually similar media before cleanup with Czkawka"
-slug: "find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka"
 description: "Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them."
-github_stars: 30600
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/qarmin/czkawka"
-author: "qarmin"
-publisher_type: "individual"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "qarmin/czkawka"
   github_stars: 30600
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Find duplicate and visually similar media before cleanup with Czkawka
 
 Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them.
 
-## Prerequisites
-
-Czkawka CLI or GUI, local filesystem access
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install Czkawka from GitHub releases or your package manager, then use the CLI for scripted scans or the GUI to review duplicate, similar-image, and related cleanup findings before deleting files.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/qarmin/czkawka
+- Download the repository ZIP and extract `skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

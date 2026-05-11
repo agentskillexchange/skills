@@ -1,14 +1,12 @@
 ---
 title: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
-slug: "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint"
 description: "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge."
-github_stars: 738
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/dbt-checkpoint/dbt-checkpoint"
-author: "dbt-checkpoint"
-publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dbt-checkpoint/dbt-checkpoint"
   github_stars: 738
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge.
 
-## Prerequisites
-
-Python, pre-commit, dbt project files, and dbt-checkpoint.
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with `pip install dbt-checkpoint`, add the documented hooks to `.pre-commit-config.yaml`, and run them locally or in CI before dbt changes merge.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/dbt-checkpoint/dbt-checkpoint
+- Download the repository ZIP and extract `skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

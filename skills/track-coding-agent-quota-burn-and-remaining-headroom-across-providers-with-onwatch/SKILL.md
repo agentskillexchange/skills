@@ -1,14 +1,12 @@
 ---
 title: "Track coding-agent quota burn and remaining headroom across providers with onWatch"
-slug: "track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch"
 description: "Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits."
-github_stars: 580
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/onllm-dev/onWatch"
-author: "onllm-dev"
-publisher_type: "organization"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "onllm-dev/onWatch"
   github_stars: 580
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits.
 
-## Prerequisites
-
-onWatch binary or Homebrew install, local shell access, provider credentials for one or more supported services, and optional browser access for the local dashboard
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install onWatch with the upstream curl installer or Homebrew, run onwatch setup to configure provider credentials, then start onwatch before or during long coding-agent runs to monitor quota headroom and alerts.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://onwatch.onllm.dev
+- Download the repository ZIP and extract `skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

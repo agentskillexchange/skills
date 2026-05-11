@@ -1,46 +1,44 @@
 ---
 title: "Enforce policy-gated and auditable agent execution with LACP"
-slug: "enforce-policy-gated-and-auditable-agent-execution-with-lacp"
 description: "Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds."
-github_stars: 211
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/0xNyk/lacp"
-author: "0xNyk"
-publisher_type: "individual"
-category: "Security & Verification"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "0xNyk/lacp"
   github_stars: 211
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # Enforce policy-gated and auditable agent execution with LACP
 
 Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds.
 
-## Prerequisites
-
-Local development environment, supported agent runtime such as Claude or Codex, shell access, repository to govern, optional verification tooling
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install LACP from Homebrew or the upstream bootstrap path, run the documented bootstrap and doctor steps, configure the local policy profile, then route tasks through lacp run, posture, preflight, or worktree workflows as needed.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/0xNyk/lacp#readme
+- Download the repository ZIP and extract `skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,46 +1,44 @@
 ---
 title: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
-slug: "benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval"
 description: "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship."
-github_stars: 34
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/MiroMindAI/MiroEval"
-author: "MiroMindAI"
-publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "MiroMindAI/MiroEval"
   github_stars: 34
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 ---
 
 # Benchmark deep research agents across factual, quality, and process dimensions with MiroEval
 
 Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship.
 
-## Prerequisites
-
-Python, uv, model result JSON, required API keys for judge and retrieval services
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Run `uv sync`, copy `.env.template` to `.env` and add the required API keys, prepare a model-results JSON file, then execute `bash run_eval.sh --input data/method_results/my_model.json --model_name my_model`.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/MiroMindAI/MiroEval
+- Download the repository ZIP and extract `skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

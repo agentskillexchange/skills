@@ -1,46 +1,44 @@
 ---
 title: "Investigate production incidents across Kubernetes and cloud signals with HolmesGPT"
-slug: "investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt"
 description: "Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and infrastructure context from multiple systems and returns a root-cause path instead of forcing a human to hop across separate observability products."
-github_stars: 2265
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/HolmesGPT/holmesgpt"
-author: "HolmesGPT"
-publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "HolmesGPT/holmesgpt"
   github_stars: 2265
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Custom Agents"
 ---
 
 # Investigate production incidents across Kubernetes and cloud signals with HolmesGPT
 
 Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and infrastructure context from multiple systems and returns a root-cause path instead of forcing a human to hop across separate observability products.
 
-## Prerequisites
-
-HolmesGPT CLI or operator deployment, one supported LLM provider, and connected observability/toolset integrations
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Follow the HolmesGPT installation docs to deploy the CLI or Kubernetes operator, configure an LLM provider, and connect the relevant observability toolsets before running incident investigations.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://holmesgpt.dev/
+- Download the repository ZIP and extract `skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

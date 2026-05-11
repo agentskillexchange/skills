@@ -1,46 +1,44 @@
 ---
 title: "Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety"
-slug: "audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety"
 description: "Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows."
-github_stars: 1974
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pyupio/safety"
-author: "pyup.io"
-publisher_type: "company"
-category: "Security & Verification"
-framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pyupio/safety"
   github_stars: 1974
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # Audit Python dependency sets for known vulnerabilities before release or environment promotion with Safety
 
 Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows.
 
-## Prerequisites
-
-Python, pip, a requirements file or Python environment to scan, and Safety authentication when using full Safety features.
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install with pip install safety, then run safety scan in a project directory or against the target environment.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://docs.safetycli.com/
+- Download the repository ZIP and extract `skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

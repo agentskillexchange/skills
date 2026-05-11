@@ -1,46 +1,44 @@
 ---
 title: "Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus"
-slug: "escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus"
 description: "Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping."
-github_stars: 2806
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nyldn/claude-octopus"
-author: "nyldn"
-publisher_type: "individual"
-category: "Code Quality & Review"
-framework: "Claude Code"
 tool_ecosystem:
   github_repo: "nyldn/claude-octopus"
   github_stars: 2806
+category:
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 ---
 
 # Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus
 
 Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping.
 
-## Prerequisites
-
-Claude Code; optional additional model providers such as Codex, Gemini, Copilot, Qwen, Ollama, Perplexity, or OpenRouter
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Clone or install Claude Octopus from the GitHub repository, add any model-provider credentials you want to use, and invoke the Octopus workflow only for tasks that merit multi-model debate and consensus checks.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/nyldn/claude-octopus
+- Download the repository ZIP and extract `skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

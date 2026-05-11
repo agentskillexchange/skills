@@ -1,13 +1,12 @@
 ---
 title: "shadcn/ui — Re-usable UI Component Collection for React"
-slug: "shadcn-ui-react-component-collection"
 description: "shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support."
-github_stars: 112069
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/shadcn-ui/ui"
-author: "shadcn"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"
   github_stars: 112069
@@ -17,29 +16,29 @@ tool_ecosystem:
 
 shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support.
 
-## Prerequisites
-
-React 18+, Tailwind CSS 3.x+, Node.js 18+
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/shadcn-ui-react-component-collection/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-npx shadcn@latest init
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/shadcn-ui-react-component-collection
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://ui.shadcn.com/docs
+- Download the repository ZIP and extract `skills/shadcn-ui-react-component-collection`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

@@ -1,14 +1,12 @@
 ---
 title: "Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit"
-slug: "audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit"
 description: "Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or upgrades."
-github_stars: 4164
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jtesta/ssh-audit"
-author: "jtesta"
-publisher_type: "individual"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jtesta/ssh-audit"
   github_stars: 4164
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or upgrades.
 
-## Prerequisites
-
-Python 3 or packaged binary, network access to SSH targets
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install from the repository or package source, then run `ssh-audit <host>` against the SSH endpoint or use its config-audit modes for local review.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/jtesta/ssh-audit
+- Download the repository ZIP and extract `skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 

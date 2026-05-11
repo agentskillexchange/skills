@@ -1,14 +1,12 @@
 ---
 title: "Audit Go dependency licenses with go-licenses"
-slug: "audit-go-dependency-licenses-with-go-licenses"
 description: "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence."
-github_stars: 992
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/google/go-licenses"
-author: "Google"
-publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/go-licenses"
   github_stars: 992
@@ -18,29 +16,29 @@ tool_ecosystem:
 
 Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.
 
-## Prerequisites
-
-Go, go-licenses
-
 ## Installation
 
-Choose whichever fits your setup:
+### Method 1, Agent Skill Exchange
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Install from the marketplace listing: https://agentskillexchange.com/skills/audit-go-dependency-licenses-with-go-licenses/
 
-Install command or upstream instructions:
+### Method 2, Git clone
 
-```
-Install `go-licenses`, run it against a Go module, and review the generated dependency license output before release or dependency approval.
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audit-go-dependency-licenses-with-go-licenses
 ```
 
-## Documentation
+### Method 3, Download ZIP
 
-- https://github.com/google/go-licenses
+- Download the repository ZIP and extract `skills/audit-go-dependency-licenses-with-go-licenses`.
+
+### Method 4, Manual copy
+
+- Copy this skill folder into your local skills directory, then reload your agent tooling.
+
+### Method 5, Fork and sync
+
+- Fork the repository if you want to maintain local edits while syncing upstream changes.
 
 ## Source
 
