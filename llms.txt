@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-11
-# Total: 2439 skills
+# Total: 2440 skills
+
+## Run long-horizon spec-driven coding agent workflows with GSD 2
+slug: run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised…
+url: https://agentskillexchange.com/skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/
 
 ## Install role-specific agent personas with Agency Agents
 slug: install-role-specific-agent-personas-with-agency-agents

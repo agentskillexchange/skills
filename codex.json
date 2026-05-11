@@ -2,8 +2,16 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-11",
-  "total": 2439,
+  "total": 2440,
   "skills": [
+    {
+      "slug": "run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2",
+      "title": "Run long-horizon spec-driven coding agent workflows with GSD 2",
+      "description": "Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "install-role-specific-agent-personas-with-agency-agents",
       "title": "Install role-specific agent personas with Agency Agents",
