@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2437 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-11 01:29 UTC
+> **2438 published skills** across **17 categories** · 2430 security reviewed · Updated 2026-05-11 07:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -875,6 +875,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Validate CloudFormation templates before deploy with cfn-lint](skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or… | Security Reviewed | 2.6k | — |
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional… | Security Reviewed | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Security Reviewed | 2.5k | — |
+| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | 2.4k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread… | Security Reviewed | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and… | Security Reviewed | 2.2k | — |
 | [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft… | Security Reviewed | 2.1k | — |
@@ -941,7 +942,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce… | Security Reviewed | — | — |
 | [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch… | Security Reviewed | — | — |
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects… | Security Reviewed | — | — |
-| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | — | — |
 | [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
 | [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Security Reviewed | — | — |
@@ -1251,6 +1251,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | 3.3k | — |
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | 3.3k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution. | Security Reviewed | 3k | — |
+| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | 3k | — |
 | [Postgres MCP Pro](skills/postgres-mcp-pro/) | Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL… | Security Reviewed | 2.7k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas… | Security Reviewed | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative,… | Security Reviewed | 2.4k | — |
@@ -1297,10 +1298,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE.… | Security Reviewed | — | — |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | — | — |
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
-| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (145 skills)
+### 📄 Templates & Workflows (146 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1314,6 +1314,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms-2/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | 116.2k | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | 116.2k | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with… | Security Reviewed | 116.2k | — |
+| [Install reusable specialist agent roles from Agency Agents](skills/install-reusable-specialist-agent-roles-from-agency-agents/) | Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering,… | Published | 95.9k | — |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning… | Security Reviewed | 88.5k | — |
 | [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | 71.5k | — |

@@ -14,8 +14,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 116.2k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 116.2k |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | ⭐ 116.2k |
+| [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | ⭐ 95.9k |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | ⭐ 88.5k |
-| [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | ⭐ 74.2k |
 
 ---
 
@@ -48,6 +48,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 116.2k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 116.2k | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | 116.2k | — |
+| [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | 95.9k | — |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | 88.5k | — |
 | [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | 71.5k | — |

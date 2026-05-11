@@ -152,6 +152,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | — |
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
+| [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | 2.4k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](../../skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](../../skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | 2.2k | — |
 | [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](../../skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | 2.1k | — |
@@ -218,7 +219,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | — | — |
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | — |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
-| [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |

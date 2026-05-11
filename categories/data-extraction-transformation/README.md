@@ -161,6 +161,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | 3.3k | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 3.3k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
+| [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.7k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
@@ -207,7 +208,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | — | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
-| [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
 
 ---
 

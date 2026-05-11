@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2437,
+  "total": 2438,
   "generated": "2026-05-11",
   "skills": [
+    {
+      "slug": "install-reusable-specialist-agent-roles-from-agency-agents",
+      "title": "Install reusable specialist agent roles from Agency Agents",
+      "description": "Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering, product, marketing, support, or operations workflows.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 95921
+      }
+    },
     {
       "slug": "preserve-agent-session-context-with-claude-mem",
       "title": "Preserve agent session context with Claude Mem",
@@ -22083,7 +22098,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2362
+      }
     },
     {
       "slug": "jenkins-shared-library-auditor-agent",
@@ -27227,7 +27245,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3021
+      }
     },
     {
       "slug": "parquet-to-postgresql-loader",
