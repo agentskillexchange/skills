@@ -1,13 +1,45 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-12
-# Total: 2440 skills
+# Total: 2444 skills
+
+## Run a self-improving personal agent with Hermes Agent
+slug: run-a-self-improving-personal-agent-with-hermes-agent
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and…
+url: https://agentskillexchange.com/skills/run-a-self-improving-personal-agent-with-hermes-agent/
+
+## Build stateful agents with long-term memory using Letta
+slug: build-stateful-agents-with-long-term-memory-using-letta
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Letta to create agents whose identity, tools, memory blocks, and conversation state persist across sessions for long-running assistant or application workflows.
+url: https://agentskillexchange.com/skills/build-stateful-agents-with-long-term-memory-using-letta/
+
+## Route Claude Code requests across models and providers with Claude Code Router
+slug: route-claude-code-requests-across-models-and-providers-with-claude-code-router
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Run Claude Code through Claude Code Router to route coding-agent requests by task, provider, or model while preserving terminal workflows and adding provider-specific transformations.
+url: https://agentskillexchange.com/skills/route-claude-code-requests-across-models-and-providers-with-claude-code-router/
+
+## Coordinate multi-mode coding-agent work in the IDE with Roo Code
+slug: coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Roo Code modes to plan, implement, debug, and review coding-agent work from inside VS Code while keeping edits, commands, model choices, and MCP…
+url: https://agentskillexchange.com/skills/coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code/
 
 ## Run long-horizon spec-driven coding agent workflows with GSD 2
 slug: run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised…
 url: https://agentskillexchange.com/skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/
 
@@ -15,7 +47,7 @@ url: https://agentskillexchange.com/skills/run-long-horizon-spec-driven-coding-a
 slug: install-role-specific-agent-personas-with-agency-agents
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a focused role, workflow, and deliverable standard…
 url: https://agentskillexchange.com/skills/install-role-specific-agent-personas-with-agency-agents/
 

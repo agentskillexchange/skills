@@ -2,15 +2,47 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-12",
-  "total": 2440,
+  "total": 2444,
   "skills": [
+    {
+      "slug": "run-a-self-improving-personal-agent-with-hermes-agent",
+      "title": "Run a self-improving personal agent with Hermes Agent",
+      "description": "Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "build-stateful-agents-with-long-term-memory-using-letta",
+      "title": "Build stateful agents with long-term memory using Letta",
+      "description": "Use Letta to create agents whose identity, tools, memory blocks, and conversation state persist across sessions for long-running assistant or application workflows.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "route-claude-code-requests-across-models-and-providers-with-claude-code-router",
+      "title": "Route Claude Code requests across models and providers with Claude Code Router",
+      "description": "Run Claude Code through Claude Code Router to route coding-agent requests by task, provider, or model while preserving terminal workflows and adding provider-specific transformations.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed"
+    },
+    {
+      "slug": "coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code",
+      "title": "Coordinate multi-mode coding-agent work in the IDE with Roo Code",
+      "description": "Use Roo Code modes to plan, implement, debug, and review coding-agent work from inside VS Code while keeping edits, commands, model choices, and MCP…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2",
       "title": "Run long-horizon spec-driven coding agent workflows with GSD 2",
       "description": "Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "install-role-specific-agent-personas-with-agency-agents",
@@ -18,7 +50,7 @@
       "description": "Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a focused role, workflow, and deliverable standard…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "install-reusable-specialist-agent-roles-from-agency-agents",
