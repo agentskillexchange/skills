@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-11
+# Generated: 2026-05-12
 # Total: 2440 skills
 
 ## Run long-horizon spec-driven coding agent workflows with GSD 2
