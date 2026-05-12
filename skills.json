@@ -15603,6 +15603,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 724,
         "license": "Apache-2.0"
       }
     },
@@ -19266,6 +19267,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -19675,6 +19677,7 @@
       "framework": "Claude Agents",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -19786,6 +19789,7 @@
       "framework": "ChatGPT Agents",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 724,
         "license": "Apache-2.0"
       }
     },
@@ -21552,6 +21556,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -21955,6 +21960,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -22400,6 +22406,7 @@
       "framework": "Gemini",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -22628,6 +22635,7 @@
       "framework": "Codex",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -23207,6 +23215,7 @@
       "framework": "Gemini",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -23242,6 +23251,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -23352,6 +23362,7 @@
       "framework": "ChatGPT Agents",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -23821,6 +23832,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -23891,6 +23903,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -23957,6 +23970,7 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -24567,6 +24581,7 @@
       "framework": "Gemini",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -24842,6 +24857,7 @@
       "framework": "Claude Agents",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -25288,6 +25304,7 @@
       "framework": "ChatGPT Agents",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 724,
         "license": "Apache-2.0"
       }
     },
@@ -25780,6 +25797,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 13127,
         "npm_weekly_downloads": 23169914
       }
     },
@@ -26302,6 +26320,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 724,
         "license": "Apache-2.0"
       }
     },
@@ -26468,6 +26487,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
+        "github_stars": 724,
         "license": "Apache-2.0"
       }
     },
