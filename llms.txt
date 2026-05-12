@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-12
-# Total: 2444 skills
+# Total: 2446 skills
+
+## Add runtime guardrails to TypeScript agents with VoltAgent
+slug: add-runtime-guardrails-to-typescript-agents-with-voltagent
+category: Security & Verification
+framework: Custom Agents
+verification: Published
+description: Use VoltAgent to intercept, validate, and enforce input/output policies in TypeScript agent workflows.
+url: https://agentskillexchange.com/skills/add-runtime-guardrails-to-typescript-agents-with-voltagent/
+
+## Run continuous workflow agents with AutoGPT
+slug: run-continuous-workflow-agents-with-autogpt
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows.
+url: https://agentskillexchange.com/skills/run-continuous-workflow-agents-with-autogpt/
 
 ## Run a self-improving personal agent with Hermes Agent
 slug: run-a-self-improving-personal-agent-with-hermes-agent

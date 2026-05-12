@@ -2,8 +2,24 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-12",
-  "total": 2444,
+  "total": 2446,
   "skills": [
+    {
+      "slug": "add-runtime-guardrails-to-typescript-agents-with-voltagent",
+      "title": "Add runtime guardrails to TypeScript agents with VoltAgent",
+      "description": "Use VoltAgent to intercept, validate, and enforce input/output policies in TypeScript agent workflows.",
+      "category": "Security & Verification",
+      "framework": "Custom Agents",
+      "verification": "listed"
+    },
+    {
+      "slug": "run-continuous-workflow-agents-with-autogpt",
+      "title": "Run continuous workflow agents with AutoGPT",
+      "description": "Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "run-a-self-improving-personal-agent-with-hermes-agent",
       "title": "Run a self-improving personal agent with Hermes Agent",
