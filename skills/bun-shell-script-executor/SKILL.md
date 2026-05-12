@@ -2,7 +2,6 @@
 title: "Bun Shell Script Executor"
 slug: "bun-shell-script-executor"
 description: "Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition."
-github_stars: 88912
 verification: "security_reviewed"
 source: "https://github.com/oven-sh/bun"
 author: "oven-sh"

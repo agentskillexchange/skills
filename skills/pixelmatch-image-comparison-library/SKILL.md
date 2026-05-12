@@ -2,7 +2,6 @@
 title: "Pixelmatch Pixel-Level Image Comparison Library by Mapbox"
 slug: "pixelmatch-image-comparison-library"
 description: "Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It features anti-aliased pixel detection and perceptual color difference metrics, making it ideal for visual regression testing in CI/CD pipelines."
-github_stars: 6786
 verification: "security_reviewed"
 source: "https://github.com/mapbox/pixelmatch"
 category: "Image & Creative Automation"

@@ -2,7 +2,6 @@
 title: "ArgoCD Deployment Runbook Agent"
 slug: "argocd-deployment-runbook-agent"
 description: "Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring."
-github_stars: 22593
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category: "Runbooks & Diagnostics"

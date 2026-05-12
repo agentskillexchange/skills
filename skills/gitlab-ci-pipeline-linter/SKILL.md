@@ -2,7 +2,6 @@
 title: "GitLab CI Pipeline Linter"
 slug: "gitlab-ci-pipeline-linter"
 description: "Validates and optimizes .gitlab-ci.yml configurations using the GitLab CI Lint API (/api/v4/ci/lint). Checks for DAG dependency cycles, detects redundant job definitions, and suggests pipeline graph optimizations via the needs keyword."
-github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"

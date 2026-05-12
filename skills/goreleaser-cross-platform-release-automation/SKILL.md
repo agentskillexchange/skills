@@ -2,7 +2,6 @@
 title: "GoReleaser Cross-Platform Release Automation"
 slug: "goreleaser-cross-platform-release-automation"
 description: "Automate software releases with GoReleaser — build cross-platform binaries, create Docker images, generate changelogs, and publish to GitHub/GitLab/Gitea in a single command. Works for Go projects and beyond."
-github_stars: 15686
 verification: "security_reviewed"
 source: "https://github.com/goreleaser/goreleaser"
 category: "CI/CD Integrations"

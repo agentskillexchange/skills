@@ -2,7 +2,6 @@
 title: "CircleCI Orb Pipeline Debugger"
 slug: "circleci-orb-pipeline-debugger"
 description: "Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems."
-github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"

@@ -2,7 +2,6 @@
 title: "Metabase Open Source Business Intelligence and Embedded Analytics"
 slug: "metabase-open-source-business-intelligence-and-embedded-analytics"
 description: "Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends."
-github_stars: 46828
 verification: "security_reviewed"
 source: "https://github.com/metabase/metabase"
 author: "metabase"

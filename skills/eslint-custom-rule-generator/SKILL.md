@@ -2,7 +2,6 @@
 title: "ESLint Custom Rule Generator"
 slug: "eslint-custom-rule-generator"
 description: "Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer patterns. Produces complete rule modules with meta schemas, fixers, and comprehensive test suites."
-github_stars: 27188
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"

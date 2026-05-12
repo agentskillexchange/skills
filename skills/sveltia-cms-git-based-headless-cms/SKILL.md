@@ -2,7 +2,6 @@
 title: "Sveltia CMS Git-Based Headless Content Management System"
 slug: "sveltia-cms-git-based-headless-cms"
 description: "Sveltia CMS is a free, open-source, Git-based headless CMS that runs entirely in the browser. Built as the definitive successor to Netlify CMS and Decap CMS, it offers a modern editing UX, first-class internationalization, and framework-agnostic design."
-github_stars: 2245
 verification: "security_reviewed"
 source: "https://github.com/sveltia/sveltia-cms"
 category: "WordPress & CMS"

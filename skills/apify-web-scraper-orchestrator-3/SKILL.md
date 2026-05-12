@@ -2,7 +2,6 @@
 title: "Apify Web Scraper Orchestrator"
 slug: "apify-web-scraper-orchestrator-3"
 description: "Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API v2."
-github_stars: 173
 verification: "security_reviewed"
 source: "https://github.com/apify/apify-sdk-js"
 category: "Research & Scraping"

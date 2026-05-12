@@ -2,7 +2,6 @@
 title: "Activepieces Open Source Workflow Automation"
 slug: "activepieces-open-source-workflow-automation"
 description: "Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a visual builder for creating automated workflows and exposes all its connectors as MCP servers for AI agent use."
-github_stars: 21510
 verification: "security_reviewed"
 source: "https://github.com/activepieces/activepieces"
 category: "Integrations & Connectors"

@@ -2,7 +2,6 @@
 title: "mdBook Markdown Book Generator by Rust Project"
 slug: "mdbook-markdown-book-generator-rust"
 description: "mdBook is a command-line utility for creating online books from Markdown files. Built in Rust and maintained by the Rust project, it powers The Rust Programming Language book and is ideal for creating product documentation, tutorials, course materials, and technical references."
-github_stars: 21419
 verification: "security_reviewed"
 source: "https://github.com/rust-lang/mdBook"
 category: "Developer Tools"

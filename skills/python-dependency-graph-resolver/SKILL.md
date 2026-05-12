@@ -2,7 +2,6 @@
 title: "Python Dependency Graph Resolver"
 slug: "python-dependency-graph-resolver"
 description: "Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies."
-github_stars: 2996
 verification: "security_reviewed"
 source: "https://github.com/tox-dev/pipdeptree"
 author: "tox-dev"

@@ -2,7 +2,6 @@
 title: "Install reusable specialist agent roles from Agency Agents"
 slug: "install-reusable-specialist-agent-roles-from-agency-agents"
 description: "Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering, product, marketing, support, or operations workflows."
-github_stars: 95921
 verification: "listed"
 source: "https://github.com/msitarzewski/agency-agents"
 category: "Templates & Workflows"

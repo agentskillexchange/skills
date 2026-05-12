@@ -2,7 +2,6 @@
 title: "Capture network device config snapshots diffs and change attribution after edits with Oxidized"
 slug: "capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized"
 description: "Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good state."
-github_stars: 3350
 verification: "security_reviewed"
 source: "https://github.com/ytti/oxidized"
 author: "ytti"

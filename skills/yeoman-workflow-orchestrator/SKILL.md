@@ -2,7 +2,6 @@
 title: "Yeoman Workflow Orchestrator"
 slug: "yeoman-workflow-orchestrator"
 description: "Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations. Manages generator dependencies via yo env and supports custom inquirer.js prompt chains."
-github_stars: 3956
 verification: "security_reviewed"
 source: "https://github.com/yeoman/yo"
 author: "Yeoman"

@@ -2,7 +2,6 @@
 title: "Neon Serverless Postgres MCP"
 slug: "neon-serverless-postgres-mcp"
 description: "Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon's serverless Postgres platform."
-github_stars: 594
 verification: "security_reviewed"
 source: "https://github.com/neondatabase/mcp-server-neon"
 author: "Neon"

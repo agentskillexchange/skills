@@ -2,7 +2,6 @@
 title: "Optimize prompt and agent pipelines with DSPy programs and evaluators"
 slug: "optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators"
 description: "Use DSPy to define modular LLM programs, metrics, and evaluation sets so an agent can optimize prompts and pipeline behavior with measurable feedback instead of ad hoc prompt editing."
-github_stars: 34308
 verification: "listed"
 source: "https://github.com/stanfordnlp/dspy"
 category: "Code Quality & Review"

@@ -2,7 +2,6 @@
 title: "Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy"
 slug: "reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy"
 description: "Use rtk when an agent keeps wasting context on noisy shell output from large repos and you need smaller command responses before the model sees them."
-github_stars: 25419
 verification: "security_reviewed"
 source: "https://github.com/rtk-ai/rtk"
 author: "RTK AI"

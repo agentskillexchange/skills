@@ -2,7 +2,6 @@
 title: "Tesseract OCR Document Extractor"
 slug: "tesseract-ocr-document-extractor"
 description: "Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data. Supports table detection via OpenCV contour analysis and PDF/A output generation."
-github_stars: 73614
 verification: "security_reviewed"
 source: "https://github.com/tesseract-ocr/tesseract"
 author: "Tesseract OCR"

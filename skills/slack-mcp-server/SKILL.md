@@ -2,7 +2,6 @@
 title: "Slack MCP Server"
 slug: "slack-mcp-server"
 description: "Agent access to Slack conversations and workspace workflows."
-github_stars: 85306
 verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/servers"
 author: "Model Context Protocol"

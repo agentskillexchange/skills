@@ -2,7 +2,6 @@
 title: "Datadog Triage Playbook"
 slug: "datadog-triage-playbook"
 description: "Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API."
-github_stars: 791
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category: "Runbooks & Diagnostics"

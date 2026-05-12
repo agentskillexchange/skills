@@ -2,7 +2,6 @@
 title: "Video Subtitle Auto-Translator"
 slug: "video-subtitle-auto-translator-agent"
 description: "Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT timing preservation, character limit enforcement, and subtitle segmentation with Aegisub CLI."
-github_stars: 59426
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Media & Transcription"

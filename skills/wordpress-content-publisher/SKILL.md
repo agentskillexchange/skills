@@ -2,7 +2,6 @@
 title: "WordPress Content Publisher"
 slug: "wordpress-content-publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
-github_stars: 21100
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 author: "WordPress"

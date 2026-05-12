@@ -2,7 +2,6 @@
 title: "Pylint Baseline Manager"
 slug: "pylint-baseline-manager-wave48"
 description: "Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
-github_stars: 5673
 verification: "security_reviewed"
 source: "https://github.com/pylint-dev/pylint"
 author: "Pylint Contributors"

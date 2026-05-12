@@ -2,7 +2,6 @@
 title: "CircleCI Pipeline Manager"
 slug: "circleci-pipeline-manager"
 description: "Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows."
-github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"

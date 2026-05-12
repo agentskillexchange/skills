@@ -2,7 +2,6 @@
 title: "GitLab CI Pipeline Generator"
 slug: "gitlab-ci-pipeline-generator"
 description: "Creates and manages GitLab CI/CD pipelines via the GitLab REST API v4. Generates .gitlab-ci.yml with multi-stage definitions, DAG dependencies, and environment-scoped deployments."
-github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"

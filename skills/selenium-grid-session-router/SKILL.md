@@ -2,7 +2,6 @@
 title: "Selenium Grid Session Router"
 slug: "selenium-grid-session-router"
 description: "Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution."
-github_stars: 34076
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category: "Browser Automation"

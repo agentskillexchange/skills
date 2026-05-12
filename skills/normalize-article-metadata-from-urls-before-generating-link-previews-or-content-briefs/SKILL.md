@@ -2,7 +2,6 @@
 title: "Normalize article metadata from URLs before generating link previews or content briefs"
 slug: "normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs"
 description: "Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author, date, publisher, and lead image. This is useful when an agent needs reliable preview or briefing data from a page without building a custom parser for every site."
-github_stars: 2660
 verification: "security_reviewed"
 source: "https://github.com/microlinkhq/metascraper"
 author: "microlinkhq"

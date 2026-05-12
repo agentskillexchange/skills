@@ -2,7 +2,6 @@
 title: "Doxygen Cross-Reference Indexer"
 slug: "doxygen-cross-reference-indexer"
 description: "Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases."
-github_stars: 6435
 verification: "security_reviewed"
 source: "https://github.com/doxygen/doxygen"
 author: "doxygen"

@@ -2,7 +2,6 @@
 title: "Notion Workspace Automation Hub"
 slug: "notion-workspace-automation-hub"
 description: "Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance."
-github_stars: 5582
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category: "Calendar, Email & Productivity"

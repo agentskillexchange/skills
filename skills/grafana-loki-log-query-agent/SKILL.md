@@ -2,7 +2,6 @@
 title: "Grafana Loki Log Query Agent"
 slug: "grafana-loki-log-query-agent"
 description: "Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses structured JSON logs, and correlates log entries with Grafana dashboard panels."
-github_stars: 27993
 verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 category: "Monitoring & Alerts"

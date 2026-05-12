@@ -2,7 +2,6 @@
 title: "Validate Kubernetes manifests against upstream schemas before cluster apply"
 slug: "validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply"
 description: "Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The agent can review rendered Helm output, raw manifests, or PR diffs and return invalid resources, missing schemas, and strict-mode failures without requiring live cluster credentials."
-github_stars: 2986
 verification: "security_reviewed"
 source: "https://github.com/yannh/kubeconform"
 author: "yannh"

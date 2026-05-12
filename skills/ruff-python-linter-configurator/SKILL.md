@@ -2,7 +2,6 @@
 title: "Ruff Python Linter Configurator"
 slug: "ruff-python-linter-configurator"
 description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
-github_stars: 47246
 verification: "security_reviewed"
 source: "https://github.com/astral-sh/ruff"
 author: "Astral"

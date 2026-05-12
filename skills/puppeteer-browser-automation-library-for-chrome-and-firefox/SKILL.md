@@ -2,7 +2,6 @@
 title: "Puppeteer Browser Automation Library for Chrome and Firefox"
 slug: "puppeteer-browser-automation-library-for-chrome-and-firefox"
 description: "Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF generation, scraping, and browser workflow automation. Best when you want a well-known JavaScript automation library with straightforward installation and deep control over browser pages."
-github_stars: 94016
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"

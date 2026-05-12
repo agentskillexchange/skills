@@ -2,7 +2,6 @@
 title: "Notion Task Board Automation"
 slug: "notion-task-board-automation-agent"
 description: "Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered views with compound filter objects, manages status property transitions, and syncs with external project trackers."
-github_stars: 5582
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category: "Calendar, Email & Productivity"

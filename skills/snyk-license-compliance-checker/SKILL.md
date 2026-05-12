@@ -2,7 +2,6 @@
 title: "Snyk License Compliance Checker"
 slug: "snyk-license-compliance-checker"
 description: "Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and Go modules. Generates SPDX license reports and flags copyleft violations."
-github_stars: 5496
 verification: "security_reviewed"
 source: "https://github.com/snyk/cli"
 category: "Security & Verification"

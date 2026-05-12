@@ -2,7 +2,6 @@
 title: "Syft SBOM Generator for Containers and Filesystems"
 slug: "syft-sbom-generator-containers-filesystems"
 description: "Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and filesystems. Supports CycloneDX, SPDX, and multiple output formats with coverage across dozens of packaging ecosystems including npm, PyPI, Go, and more."
-github_stars: 8628
 verification: "security_reviewed"
 source: "https://github.com/anchore/syft"
 category: "Security & Verification"

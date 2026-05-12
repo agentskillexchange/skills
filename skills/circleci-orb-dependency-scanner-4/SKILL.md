@@ -2,7 +2,6 @@
 title: "CircleCI Orb Dependency Scanner"
 slug: "circleci-orb-dependency-scanner-4"
 description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
-github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"

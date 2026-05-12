@@ -2,7 +2,6 @@
 title: "Sentry for AI"
 slug: "sentry-for-ai"
 description: "Observability and debugging support for AI-assisted application workflows."
-github_stars: 165
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-for-ai"
 author: "Sentry"

@@ -2,7 +2,6 @@
 title: "Run coding agents in isolated observable VibeKit sandboxes"
 slug: "run-coding-agents-in-isolated-observable-vibekit-sandboxes"
 description: "Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run observability."
-github_stars: 1775
 verification: "security_reviewed"
 source: "https://github.com/superagent-ai/vibekit"
 author: "superagent-ai"

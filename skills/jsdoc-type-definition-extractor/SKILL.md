@@ -2,7 +2,6 @@
 title: "JSDoc Type Definition Extractor"
 slug: "jsdoc-type-definition-extractor"
 description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
-github_stars: 15436
 verification: "security_reviewed"
 source: "https://github.com/jsdoc/jsdoc"
 author: "jsdoc"

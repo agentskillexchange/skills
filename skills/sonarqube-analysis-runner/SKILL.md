@@ -2,7 +2,6 @@
 title: "SonarQube Analysis Runner"
 slug: "sonarqube-analysis-runner"
 description: "Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities with configurable quality gates and branch analysis support."
-github_stars: 10433
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category: "Code Quality & Review"

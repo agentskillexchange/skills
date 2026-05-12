@@ -2,7 +2,6 @@
 title: "Leantime Open Source Goals-Focused Project Management Platform"
 slug: "leantime-open-source-project-management-platform"
 description: "Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built with ADHD, autism, and dyslexia accessibility in mind."
-github_stars: 9460
 verification: "security_reviewed"
 source: "https://github.com/Leantime/leantime"
 category: "Calendar, Email & Productivity"

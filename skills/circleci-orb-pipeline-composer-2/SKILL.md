@@ -2,7 +2,6 @@
 title: "CircleCI Orb Pipeline Composer"
 slug: "circleci-orb-pipeline-composer-2"
 description: "Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments."
-github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"

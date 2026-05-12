@@ -2,7 +2,6 @@
 title: "CircleCI Orb Linter"
 slug: "circleci-orb-linter"
 description: "Validates CircleCI configuration files and custom Orbs using the CircleCI CLI (circleci config validate) and Orb Development Kit. Checks for deprecated images, inefficient caching strategies, and security anti-patterns."
-github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"

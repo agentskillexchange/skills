@@ -2,7 +2,6 @@
 title: "OpenEXR HDR Compositing Pipeline"
 slug: "openexr-hdr-compositing-pipeline"
 description: "Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer compositing, tone mapping with ACES color transforms, and cryptomatte-based object isolation."
-github_stars: 1795
 verification: "security_reviewed"
 source: "https://github.com/AcademySoftwareFoundation/openexr"
 category: "Image & Creative Automation"

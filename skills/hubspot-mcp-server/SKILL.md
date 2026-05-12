@@ -2,7 +2,6 @@
 title: "HubSpot MCP Server"
 slug: "hubspot-mcp-server"
 description: "HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like contacts, companies, deals, forms, workflows, search API, associations and preserving […]"
-github_stars: 393
 verification: "security_reviewed"
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
 author: "HubSpot"

@@ -2,7 +2,6 @@
 title: "Jenkins Shared Library Builder"
 slug: "jenkins-shared-library-builder"
 description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness."
-github_stars: 25189
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category: "CI/CD Integrations"

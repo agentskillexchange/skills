@@ -2,7 +2,6 @@
 title: "ShellCheck Shell Script Static Analyzer"
 slug: "shellcheck-shell-script-static-analyzer"
 description: "Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions."
-github_stars: 39204
 verification: "security_reviewed"
 source: "https://github.com/koalaman/shellcheck"
 category: "Code Quality & Review"

@@ -2,7 +2,6 @@
 title: "Changesets Version and Changelog Manager"
 slug: "changesets-version-changelog-manager"
 description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
-github_stars: 11620
 verification: "security_reviewed"
 source: "https://github.com/changesets/changesets"
 category: "Developer Tools"

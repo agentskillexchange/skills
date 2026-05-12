@@ -2,7 +2,6 @@
 title: "ZAP Automated Security Scan Orchestrator"
 slug: "zap-automated-security-scan-orchestrator"
 description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
-github_stars: 15007
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "OWASP ZAP"

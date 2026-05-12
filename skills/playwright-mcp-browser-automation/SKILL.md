@@ -2,7 +2,6 @@
 title: "Playwright MCP Browser Automation"
 slug: "playwright-mcp-browser-automation"
 description: "Official Playwright-powered browser control for agent workflows."
-github_stars: 32232
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 author: "Microsoft"

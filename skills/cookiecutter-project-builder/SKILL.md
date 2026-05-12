@@ -2,7 +2,6 @@
 title: "Cookiecutter Project Builder"
 slug: "cookiecutter-project-builder"
 description: "Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition."
-github_stars: 24818
 verification: "security_reviewed"
 source: "https://github.com/cookiecutter/cookiecutter"
 author: "cookiecutter"

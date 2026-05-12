@@ -2,7 +2,6 @@
 title: "ESLint Auto-Fix Pipeline"
 slug: "eslint-autofix-pipeline"
 description: "Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
-github_stars: 27188
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"
