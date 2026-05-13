@@ -1,8 +1,41 @@
 {
   "version": "2.0",
-  "total": 2448,
+  "total": 2451,
   "generated": "2026-05-13",
   "skills": [
+    {
+      "slug": "evaluate-long-horizon-agents-against-wildclawbench",
+      "title": "Evaluate long-horizon agents against WildClawBench",
+      "description": "Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal work, coding, safety, and long-horizon planning.",
+      "category": "Templates & Workflows",
+      "framework": "OpenClaw",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 359
+      }
+    },
+    {
+      "slug": "coordinate-persistent-copilot-agent-teams-with-squad",
+      "title": "Coordinate persistent Copilot agent teams with Squad",
+      "description": "Use Squad to create human-directed specialist agents that persist in a repository, share decisions through files, and help coordinate implementation, testing, and review work…",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2518
+      }
+    },
+    {
+      "slug": "give-coding-agents-runtime-context-for-encore-services",
+      "title": "Give coding agents runtime context for Encore services",
+      "description": "Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local resources, call APIs, and analyze traces while…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11921
+      }
+    },
     {
       "slug": "build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk",
       "title": "Build MCP servers and clients for PHP applications with the official PHP SDK",

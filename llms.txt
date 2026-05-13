@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-13
-# Total: 2448 skills
+# Total: 2451 skills
+
+## Evaluate long-horizon agents against WildClawBench
+slug: evaluate-long-horizon-agents-against-wildclawbench
+category: Templates & Workflows
+framework: OpenClaw
+verification: Published
+description: Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal work, coding, safety, and long-horizon planning.
+url: https://agentskillexchange.com/skills/evaluate-long-horizon-agents-against-wildclawbench/
+
+## Coordinate persistent Copilot agent teams with Squad
+slug: coordinate-persistent-copilot-agent-teams-with-squad
+category: Templates & Workflows
+framework: Custom Agents
+verification: Published
+description: Use Squad to create human-directed specialist agents that persist in a repository, share decisions through files, and help coordinate implementation, testing, and review work…
+url: https://agentskillexchange.com/skills/coordinate-persistent-copilot-agent-teams-with-squad/
+
+## Give coding agents runtime context for Encore services
+slug: give-coding-agents-runtime-context-for-encore-services
+category: Developer Tools
+framework: MCP
+verification: Published
+description: Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local resources, call APIs, and analyze traces while…
+url: https://agentskillexchange.com/skills/give-coding-agents-runtime-context-for-encore-services/
 
 ## Build MCP servers and clients for PHP applications with the official PHP SDK
 slug: build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk
