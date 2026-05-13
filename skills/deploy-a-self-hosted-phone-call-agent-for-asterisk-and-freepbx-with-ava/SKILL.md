@@ -32,12 +32,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-Clone the repo, run sudo ./preflight.sh --apply-fixes, start the admin UI with docker compose -p asterisk-ai-voice-agent up -d --build --force-recreate admin_ui, then start ai_engine and verify health before placing a test call.
-```
-
 ## Documentation
 
 - https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk

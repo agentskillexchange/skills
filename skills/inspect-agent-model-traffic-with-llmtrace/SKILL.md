@@ -32,12 +32,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-Install with `curl -sS https://raw.githubusercontent.com/epappas/llmtrace/main/scripts/install.sh | bash` or `cargo install llmtrace`, run `llmtrace-proxy --config config.yaml`, then point your OpenAI-compatible client at the local proxy base URL.
-```
-
 ## Documentation
 
 - https://github.com/epappas/llmtrace/tree/main/docs/getting-started

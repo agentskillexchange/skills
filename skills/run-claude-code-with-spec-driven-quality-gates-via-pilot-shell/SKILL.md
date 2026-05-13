@@ -32,12 +32,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-Install with `curl -fsSL https://raw.githubusercontent.com/maxritter/pilot-shell/main/install.sh | bash`, then enter a project and run `pilot` or `ccp` to start a spec-driven Claude Code session.
-```
-
 ## Documentation
 
 - https://pilot-shell.com/docs

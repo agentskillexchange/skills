@@ -34,12 +34,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-<p>Install the CLI with <code>curl -fsSL https://codspeed.io/install.sh | bash</code> or use the official CodSpeed GitHub Action, authenticate the project, then run <code>codspeed exec</code> for direct command benchmarks or <code>codspeed run</code> to wrap an existing benchmark suite in CI and pull requests.</p>
-```
-
 ## Documentation
 
 - https://codspeed.io/docs

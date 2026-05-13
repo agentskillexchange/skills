@@ -32,12 +32,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-curl https://cronitor.io/install-linux?sudo=1 -H "API-KEY: API_KEY" | sh
-```
-
 ## Documentation
 
 - https://cronitor.io/docs/using-cronitor-cli

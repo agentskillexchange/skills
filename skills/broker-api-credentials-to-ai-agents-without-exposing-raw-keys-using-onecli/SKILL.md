@@ -32,12 +32,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-curl -fsSL https://onecli.sh/install | sh
-```
-
 ## Documentation
 
 - https://onecli.sh/docs

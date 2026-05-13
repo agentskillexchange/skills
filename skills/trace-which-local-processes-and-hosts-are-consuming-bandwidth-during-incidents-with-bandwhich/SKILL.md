@@ -32,12 +32,6 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
-Install command or upstream instructions:
-
-```
-Download a prebuilt binary from the GitHub releases page or build from source with Cargo. On Linux, run with sudo or grant the documented packet-capture capabilities before using it in incident workflows.
-```
-
 ## Documentation
 
 - https://github.com/imsnif/bandwhich
