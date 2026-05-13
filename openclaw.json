@@ -1,9 +1,25 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-12",
-  "total": 2446,
+  "generated": "2026-05-13",
+  "total": 2448,
   "skills": [
+    {
+      "slug": "build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk",
+      "title": "Build MCP servers and clients for PHP applications with the official PHP SDK",
+      "description": "Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and prompts for agent workflows.",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "install-garry-tans-claude-code-operating-stack-with-gstack",
+      "title": "Install Garry Tan’s Claude Code operating stack with gstack",
+      "description": "Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and operating workflows for product-building teams.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed"
+    },
     {
       "slug": "add-runtime-guardrails-to-typescript-agents-with-voltagent",
       "title": "Add runtime guardrails to TypeScript agents with VoltAgent",
