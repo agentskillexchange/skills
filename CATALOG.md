@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2451 published skills** across **17 categories** · 2448 security reviewed · Updated 2026-05-13 11:21 UTC
+> **2453 published skills** across **17 categories** · 2448 security reviewed · Updated 2026-05-13 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (312 skills)
+### 🛠️ Developer Tools (313 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -57,6 +57,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite… | Security Reviewed | 57.3k | — |
 | [AutoGen — Microsoft Multi-Agent Conversation Framework](skills/autogen-microsoft-multi-agent-framework/) | AutoGen is Microsoft's open-source framework for building multi-agent systems where AI agents converse with each… | Security Reviewed | 56.8k | — |
 | [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works… | Security Reviewed | 55.7k | — |
+| [Generate and iterate on codebases from specs with gpt-engineer](skills/generate-and-iterate-on-codebases-from-specs-with-gpt-engineer/) | Use gpt-engineer to turn a natural-language project prompt into a local codebase, then inspect, test, and iterate… | Published | 55.2k | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](skills/dive-docker-image-layer-explorer/) | Dive is a CLI tool for exploring Docker image layers, analyzing file system changes, and estimating wasted space. It… | Security Reviewed | 53.7k | — |
 | [Vue.js — Progressive JavaScript Framework for Building UIs](skills/vue-js-progressive-javascript-framework/) | Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable… | Security Reviewed | 53.4k | — |
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill… | Security Reviewed | 52.9k | — |
@@ -1129,7 +1130,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (168 skills)
+### 🔄 Data Extraction & Transformation (169 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1291,6 +1292,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3).… | Security Reviewed | 387 | 170.7k/wk |
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP… | Security Reviewed | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files… | Security Reviewed | 330 | — |
+| [Query cross-connector business data for agents with Dinobase](skills/query-cross-connector-business-data-for-agents-with-dinobase/) | Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer… | Published | 252 | — |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction… | Security Reviewed | 134 | — |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 84 | — |

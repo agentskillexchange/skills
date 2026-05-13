@@ -83,6 +83,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | — |
 | [AutoGen — Microsoft Multi-Agent Conversation Framework](../../skills/autogen-microsoft-multi-agent-framework/) | 56.8k | — |
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | 55.7k | — |
+| [Generate and iterate on codebases from specs with gpt-engineer](../../skills/generate-and-iterate-on-codebases-from-specs-with-gpt-engineer/) | 55.2k | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](../../skills/dive-docker-image-layer-explorer/) | 53.7k | — |
 | [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |

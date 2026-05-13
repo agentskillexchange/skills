@@ -1,8 +1,30 @@
 {
   "version": "2.0",
-  "total": 2451,
+  "total": 2453,
   "generated": "2026-05-13",
   "skills": [
+    {
+      "slug": "generate-and-iterate-on-codebases-from-specs-with-gpt-engineer",
+      "title": "Generate and iterate on codebases from specs with gpt-engineer",
+      "description": "Use gpt-engineer to turn a natural-language project prompt into a local codebase, then inspect, test, and iterate before adopting the generated changes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 55219
+      }
+    },
+    {
+      "slug": "query-cross-connector-business-data-for-agents-with-dinobase",
+      "title": "Query cross-connector business data for agents with Dinobase",
+      "description": "Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 252
+      }
+    },
     {
       "slug": "evaluate-long-horizon-agents-against-wildclawbench",
       "title": "Evaluate long-horizon agents against WildClawBench",

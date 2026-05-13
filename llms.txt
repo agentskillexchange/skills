@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-13
-# Total: 2451 skills
+# Total: 2453 skills
+
+## Generate and iterate on codebases from specs with gpt-engineer
+slug: generate-and-iterate-on-codebases-from-specs-with-gpt-engineer
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use gpt-engineer to turn a natural-language project prompt into a local codebase, then inspect, test, and iterate before adopting the generated changes.
+url: https://agentskillexchange.com/skills/generate-and-iterate-on-codebases-from-specs-with-gpt-engineer/
+
+## Query cross-connector business data for agents with Dinobase
+slug: query-cross-connector-business-data-for-agents-with-dinobase
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Published
+description: Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with…
+url: https://agentskillexchange.com/skills/query-cross-connector-business-data-for-agents-with-dinobase/
 
 ## Evaluate long-horizon agents against WildClawBench
 slug: evaluate-long-horizon-agents-against-wildclawbench
