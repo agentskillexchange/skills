@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 85.4k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 85.4k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 85.6k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 85.6k |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | ⭐ 79.8k |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | ⭐ 79.8k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85.4k | 395.9k/wk |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 85.4k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85.6k | 395.9k/wk |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 85.6k | — |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | — |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | 79.8k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
@@ -102,7 +102,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
 | [Gitingest Repository-to-Prompt Codebase Extraction Tool](../../skills/gitingest-repository-to-prompt-codebase-extraction-tool/) | 14.3k | — |
 | [Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset](../../skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset/) | 14k | — |
-| [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.7k | — |
+| [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.8k | — |
 | [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | 12.7k | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | 12.6k | — |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | 12.6k | — |
@@ -182,6 +182,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
+| [Snowflake MCP](../../skills/snowflake-mcp/) | 724 | — |
+| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 724 | — |
+| [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | 724 | — |
+| [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | 724 | — |
+| [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | 724 | — |
 | [Give agents governed semantic data context with Wren Engine](../../skills/give-agents-governed-semantic-data-context-with-wren-engine/) | 661 | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](../../skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | 402 | — |
@@ -202,11 +207,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
-| [Snowflake MCP](../../skills/snowflake-mcp/) | — | — |
-| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | — | — |
-| [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | — | — |
-| [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | — | — |
-| [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 
 ---

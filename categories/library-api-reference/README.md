@@ -107,6 +107,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](../../skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | 1.7k | — |
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](../../skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | 1.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
+| [Build MCP servers and clients for PHP applications with the official PHP SDK](../../skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | 1.2k | — |

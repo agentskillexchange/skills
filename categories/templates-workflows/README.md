@@ -6,7 +6,9 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Stars |
 |---|---:|
+| [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | ⭐ 184k |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
+| [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 135.2k |
 | [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | ⭐ 116.9k |
 | [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | ⭐ 116.9k |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | ⭐ 116.8k |
@@ -14,8 +16,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 116.2k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 116.2k |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | ⭐ 116.2k |
-| [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | ⭐ 95.9k |
-| [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | ⭐ 88.5k |
 
 ---
 
@@ -40,7 +40,9 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | 184k | — |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
+| [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 135.2k | — |
 | [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | 116.9k | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | 116.9k | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 116.8k | 49.9M/wk |
@@ -48,7 +50,9 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 116.2k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 116.2k | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | 116.2k | — |
+| [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | 95.9k | — |
+| [Install Garry Tan&#8217;s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | — |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | 88.5k | — |
 | [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | 71.5k | — |
@@ -116,6 +120,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
+| [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
@@ -143,6 +148,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
+| [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | — |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
 | [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | — |
@@ -166,13 +172,14 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](../../skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | 744 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 596 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 602 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
+| [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |
 | [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | — |

@@ -87,7 +87,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
-| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 49.3k | — |
+| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 49.4k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.4k | — |
@@ -115,6 +115,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | 35.1k | — |
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 34.4k | 66.3M/wk |
 | [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | 33.9k | — |
+| [Route Claude Code requests across models and providers with Claude Code Router](../../skills/route-claude-code-requests-across-models-and-providers-with-claude-code-router/) | 33.9k | 211k/wk |
 | [Wails Desktop Application Framework for Go and Web Technologies](../../skills/wails-desktop-app-framework-go-web/) | 33.6k | — |
 | [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 7M/wk |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | 33.3k | — |
@@ -137,7 +138,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 127.3M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 130.3M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -146,18 +147,20 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.3k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 1.9M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | 24.1k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
+| [Coordinate multi-mode coding-agent work in the IDE with Roo Code](../../skills/coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code/) | 24k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
 | [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](../../skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | 23k | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.9k | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 54.8k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
+| [Build stateful agents with long-term memory using Letta](../../skills/build-stateful-agents-with-long-term-memory-using-letta/) | 22.7k | — |
 | [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 267.2k/wk |
 | [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](../../skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | 22.5k | — |
 | [Crush Agentic AI Coding CLI by Charmbracelet](../../skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | — |
@@ -176,7 +179,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn GitHub issues into reviewed code changes with SWE-agent](../../skills/turn-github-issues-into-reviewed-code-changes-with-swe-agent/) | 19.2k | — |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | 18.7k | — |
-| [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.6k | 2M/wk |
+| [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.7k | 2M/wk |
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | — |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
@@ -193,6 +196,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 13.7k | — |
 | [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | 13.4k | — |
+| [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | 13.1k | 23.2M/wk |
 | [Snapshot and restore encrypted file trees with Kopia](../../skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | 13.1k | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | 13.1k | — |
 | [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | 12.9k | — |
@@ -200,6 +205,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [broot Interactive Tree-View File Navigator](../../skills/broot-interactive-tree-view-file-navigator/) | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 12.5k | — |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](../../skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | 12k | — |
+| [Give coding agents runtime context for Encore services](../../skills/give-coding-agents-runtime-context-for-encore-services/) | 11.9k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 11.7k | — |
 | [onefetch Git Repository Information and Statistics CLI](../../skills/onefetch-git-repository-info-statistics-cli/) | 11.7k | — |
 | [git-cliff Customizable Changelog Generator for Git Repositories](../../skills/git-cliff-changelog-generator/) | 11.7k | — |
@@ -262,7 +268,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](../../skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | 4.5k | — |
-| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 11M/wk |
+| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 11.4M/wk |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](../../skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | 4.4k | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
@@ -272,8 +278,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](../../skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | 14M/wk |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 26.2M/wk |
-| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 7.6M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 27.3M/wk |
+| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 8.1M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
@@ -308,7 +314,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 405/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 344/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
@@ -318,7 +324,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 395 | 1.1k/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 876/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |
@@ -332,8 +338,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](../../skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | 6 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
 | [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](../../skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | 1 | — |
-| [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | 23.2M/wk |
-| [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | 23.2M/wk |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | — | — |

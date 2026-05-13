@@ -24,15 +24,15 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Downloads |
 |---|---:|
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
-| [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | ⬇ 154.1k/wk |
-| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | ⬇ 2.6M/wk |
-| [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | ⬇ 20.8k/wk |
-| [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | ⬇ 1.2k/wk |
-| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | ⬇ 6.6M/wk |
-| [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | ⬇ 6.6M/wk |
-| [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | ⬇ 582/wk |
-| [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | ⬇ 1M/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
+| [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⬇ 23.2M/wk |
+| [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | ⬇ 23.2M/wk |
+| [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | ⬇ 23.2M/wk |
+| [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | ⬇ 23.2M/wk |
+| [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | ⬇ 23.2M/wk |
+| [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | ⬇ 23.2M/wk |
+| [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | ⬇ 23.2M/wk |
+| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -109,6 +109,19 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | 16.2k | — |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | 16.2k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
+| [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | 13.1k | 23.2M/wk |
+| [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | 13.1k | 23.2M/wk |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Dockerfile Security Hardening Advisor](../../skills/dockerfile-security-hardening-advisor/) | 12.1k | — |
@@ -186,19 +199,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](../../skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | 11 | — |
 | [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](../../skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | 6 | — |
 | [Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup](../../skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/) | 1 | — |
-| [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | — | 23.2M/wk |
-| [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | — | 23.2M/wk |
-| [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | — | 23.2M/wk |
-| [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | — | 23.2M/wk |
-| [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | — | 23.2M/wk |
-| [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | — | 23.2M/wk |
-| [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | — | 23.2M/wk |
-| [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | — | 23.2M/wk |
-| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | — | 23.2M/wk |
-| [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | — | 23.2M/wk |
-| [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | — | 23.2M/wk |
-| [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | — | 23.2M/wk |
-| [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | — | 23.2M/wk |
 | [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | — | — |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | — | — |
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
